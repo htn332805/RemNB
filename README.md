@@ -1,1 +1,1 @@
-# Purdue Global note
+# note
