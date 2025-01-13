@@ -1,5 +1,5 @@
 # Example Title
 
-#tag1 #tag2
+#fun #happy
 
 Example note content.
