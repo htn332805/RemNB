@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "tag:#FundAn",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -152,7 +152,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -183,9 +183,11 @@
   "lastOpenFiles": [
     "20250113094424.todo.md",
     "20250113095040.todo.md",
-    "Untitled.canvas",
+    "h.md",
+    "create a link.md",
     "2025-01-20.md",
-    "finance.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "Tags",
     "README.md"
   ]
