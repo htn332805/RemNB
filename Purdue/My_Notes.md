@@ -1,0 +1,616 @@
+# My Notes
+
+- Purdue
+  - MT482
+    - Types of Analysis
+      - Horizontal Analysis
+        - Compares financial data across multiple periods
+        - Identifies trends and growth patterns over time
+        - Calculates percentage changes in key figures
+      - Vertical Analysis
+        - Expresses each line item as a percentage of a base figure
+        - Compares financial structure across periods or against industry benchmarks
+        - Analyzes proportions within a single financial statement
+      - Ratio Analysis
+        - Evaluates company performance through key financial ratios
+        - Measures profitability, liquidity, leverage, efficiency, valuation, and working capital
+    - Financial Statements
+      - Balance Sheet
+        - Provides a snapshot of financial standing at a specific point
+        - Summarize assets and liabilities, and equity
+        - Considers liquidity, debt obligations, and equity structure
+        - Helps evaluate the extent of liabilities and available capital
+      - Income Statement
+        - Reveals profitability or losses
+        - Reports revenues and expenses over a specific period
+        - Key metrics: Gross Profit Margin, Operating Margin, Net Profit Margin
+      - Cash Flow Statement
+        - Offers insights into cash inflows and outflows
+        - Analyzes operating, investing, and financing activities
+        - Crucial for assessing liquidity and financial sustainability
+        - Analysis
+          - important assessment of company ability to
+            - meet obligations
+            - pay dividends
+            - increase capacity
+            - raise financing
+            - quality of earnings
+            - reveals dependence of income on future cash flow estimates
+          - Operating Cash flow
+            - cash basis counterpart of accrual net income
+            - extending credit to customers
+            - investing in inventory
+            - obtaining credit from suppliers
+            - Interest recieved
+            - Dividend received
+            - Interest paid
+            - Income tax
+          - How much cash is generate from or used in operation ?
+          - what expenditures are made with cash from operation ?
+          - How are dividends paid when confronting an operating loss ?
+          - what is the source of cash for debt payments ?
+          - how is the increase in investments financed ?
+          - what is the source of cash for new plant assets ?
+          - why is the cash lower when income increased ?
+          - what is the use of cash recieved from new financing ?
+          - cash flow measure
+            - Net income + depreciation & amortization
+            - EBITDA
+              - Earning before interest, taxes, depreciation, and amortization
+            - Free cash flow
+              - cash flow from operation
+                - -
+                  - net capital expenditures require to maintain productive capacity
+                  - Divivdends on preferred stock and common stock
+              - alt: FCF = NOPA - change in NOA
+                - NOPA
+                  - Net operating profits after tax
+                - NOA
+                  - the increase in net operating assets
+      - Reasons
+        - Determine credit value
+        - Determine intrinsic value
+      - Statement of Changes in Equity
+        - Shows changes
+          - Retained Earnings
+          - Shareholders'equity
+    - Key Metrics and Ratios
+      - Profitability
+        - Return on Assets (ROA)
+        - Return on Equity(ROE)
+        - Earning Per Share (EPS)
+      - Liquidity & Solvency
+        - Time until assets are converted to cash
+        - Indicator of ability to meet financial obligations
+        - Affects financial flexibility and investment opportunities
+        - working capital ratios
+          - Current Ratio
+          - Quick Ratio
+      - Valuation
+        - Price to Earnings (P/E) Ratio
+          - Business Activities
+            - Investing activities
+              - Asset management
+                - Purpose of assets
+                  - Generate income for stakeholders and shareholders
+                  - Drive profitability for the company
+                  - Produce revenues to compensate workers, repay lenders, reward owners, and fund growth
+                - Important
+                  - Critical for effective management and business success
+                  - Highly focused on by management
+              - Types of Assets
+                - Current Asset
+                  - Resources readily convertible to cash
+                  - Typically within one year or operating cycle
+                  - Cash and Equivalents
+                  - Account receivable
+                  - inventory
+                    - expensing treats
+                      - period costs
+                        - EX. office supplies
+                    - Capitalizing treats
+                      - product cost
+                        - EX. direct labor
+                  - Prepaid Expense
+                  - Notes receivable
+                - Long-term assets
+                  - Assets with longer-term benefits
+                  - Implications for long-term operational capacity
+                  - fixed assets
+                    - tangible
+                      - property
+                      - plant
+                      - equipment
+                  - intangile
+                    - patents
+                    - trademarks
+                    - copyright
+                    - goodwill
+                  - Deferred charges
+                    - R&D
+                    - Natural resources
+              - means of acquiring and diposing of noncash assets
+                - assets that generate income
+                  - lending funds
+                  - collecting principles on the loan
+            - Planning activities
+            - Financial activities
+              - Liabilities (Debt)
+                - Characteristic
+                  - Obligations requiring payment of money, services, or assets
+                  - Claims against present and future assets/resources
+                  - Senior to equity claims
+                - On-balance-sheet vs. off balance-sheet liabilities
+                  - crucial for risk analysis
+                - Operating Liability
+                  - acct payable
+                  - unearned revenue
+                  - advance payment
+                  - tax payable
+                  - postretirement liab
+                  - accruals of operating expense
+                - Financing liabilities
+                  - short and long term debt
+                  - bonds
+                  - notes
+                  - lease
+                  - current  portion of long-term debt
+                - things to look for in analysis
+                  - terms of indebtedness
+                    - Maturity
+                    - interest rate
+                    - payment pattern
+                    - amount
+                  - Restriction
+                    - on deploying resources
+                    - business activities
+                  - ability and flexibility in pursuing further financing
+                  - Obligations
+                    - for working capital
+                    - debt to equity
+                    - other financing figures
+                  - dilutive conversion features
+                  - prohibitions on disbursment such as dividends
+              - Equity
+                - Components
+                  - Capital stock
+                    - ownership in the company
+                    - Various classes with different rights and privileges
+                  - Retained Earnings
+                    - Accumulated profits not distributed to shareholders
+                    - Can be distributed as dividends
+                - The 5 Key Elements
+                  - Preferred stock
+                  - common stock
+                  - Paid in Capital
+                  - Retain Earnings
+                  - Treasury stock
+              - means of
+                - Contributing
+                - withdrawing
+                - servicing funds to support business activities
+                - borrowing
+                - Repaying funds with bonds
+            - Operating activities
+              - Goods and services
+                - <= Expense
+                - <= Revenue
+      - Efficiency
+        - Asset Turnorver
+        - Receivable Turnover
+        - Operational Capacity
+          - ability to generate future profits
+          - linked to effective asset utilization
+      - Applications
+        - Investing decisions (equity or debt securities)
+        - Credit assessment (short- or long-term loans)
+        - Business valuation (IPOs, mergers, acquisitions, divestitures)
+        - Performance evaluation and benchmarking
+        - Decision making
+          - Provide insights for informed business decisions
+          - Help in tracking cash flow and identifying areas for improvemen
+      - Solvency
+        - Debt-to-Equity
+        - Ability to meet long-term and current obligations
+        - Crucial for company's financial health
+    - Types of business Analysis
+      - credit analysis
+      - equity analysis
+      - labor negotition
+      - director oversight
+      - Merger/Acquisition & Divestitures
+      - financial managment
+      - regulation
+      - Managment & control
+    - Information sources
+      - Quantitative
+        - Financial Statements
+        - industry statistics
+        - Economic Indicators
+        - Regulatory filing
+        - Traders Reports
+      - Qualitative
+        - 10K MD&A
+        - Chairperson's letter
+        - Press release
+        - Vision/Mission Statement
+        - website
+    - Analysis Skills
+      - Cash Management
+        - Understanding implications for financial analysis
+      - Financial Statement Analysis
+        - Identifying unrecorded and contingent assets
+        - Analyzing cash flow measures for comprehensive business insights
+      - Asset Utilization Metrics
+        - Measuring effectiveness of asset use
+        - Essential for performance evaluation
+      - Return on Invested Capital (ROIC)
+        - Measures a company's efficiency in using capital to generate profits
+        - Formula: ROIC = Net Operating Profit After Tax (NOPAT) / Invested Capital
+        - Assesses both risk and return
+        - Key to maximizing shareholder returns
+        - Components of ROIC
+          - NOPAT (Numerator)
+            - Net Operating Profit After Taxes
+            - Represents profits from core business operations
+          - Invested Capital (Denominator)
+            - Includes equity and debt invested in company operations
+            - Excludes non-operating assets
+      - Related Profitability Measures
+        - Return on Net Operating Assets (RNOA
+          - Focuses on operating performance
+        - Return on Common Shareholders' Equity (ROCE)
+          - Measures profitability from shareholders' perspective
+          - Can be disaggregated for detailed analysis
+      - Analysis Techniques
+        - Disaggregation of ROCE
+          - Identifies components contributing to changes in ROCE
+          - Requires critical thinking and appropriate analysis
+        - Comparison with WACC
+          - ROIC vs. Weighted Average Cost of Capital
+          - Indicates if capital is being used effectively
+        - Sensitivity Analysis
+          - Examines how changes in assumptions affect projections
+          - Crucial for understanding potential outcomes
+        - Valuation of Equity Securities
+          - Applies projection process to determine stock values
+      - Significance for Managers
+        - Performance Evaluation
+          - Key indicator of operating performance
+          - Measures success in using financing to generate profits
+        - Strategic Decision Making
+          - Guides capital allocation strategies
+          - Helps in benchmarking investment opportunities
+      - Prospective Analaysis
+        - Involves forecasting future financial statements
+        - Importance
+          - Central to security valuation
+          - Essential for free cash flow and residual income valuation models
+          - Critical for strategic decision-making (new products, technology, facilities, acquisitions)
+        - Components of Prospective Analysis
+          - Income Statement Projection
+            - Forecasts future revenues, expenses, and profits
+          - Balance Sheet Projection
+            - Estimates future assets, liabilities, and equity
+            - 1. non cash current assets projection
+              - Using
+                - <=projected sales
+                - <= projected COGS
+                - <= turnover ratio
+            - 2. PP&E  projection
+              - using
+                - <= Capital expenditures estimate
+                  - from historical trends
+                  - from MD&A
+            - 3. Current Liability Projection
+              - Using
+                - <= projected sale
+                - <= projected COGS
+                - <= turnover ratio
+            - 4. obtain current maturities of long-term debt
+              - Using
+                - footnote
+                - log
+            - 5. Assume other short-term indebtness unchanged
+              - unless noticeable trends
+            - 6. initial longterm debt balance is
+              - diff prior longterm debt minus current maturities (step4)
+            - 7. Assume longterm obligation is equal to prior year's balance
+              - unless noticeable trend
+            - 8. assume initial estimate of common stock is equal to prior eyar
+            - 9. assume retained earning equal to prior year's balance plus(minus) net profit (loss) and less expected dividend
+            - 10. assume equity accounts are equal to prior years
+          - Cash Flow Statement Projection
+            - Predicts future cash inflows and outflows
+        - Key parameters for projection
+          - sale growth
+          - Net profit margin
+            - Net Income/Sales
+          - Net working capital turnover
+            - Sales/net WC
+          - fixed asset turnover
+            - Sales/fixed assets
+          - financial leverages
+            - operating assets/equity
+          - cost of equity capital
+          - residual income valuation model
+            - equity value at time t is
+              - sume of current book value and present value of all future expect residual income
+      - Liquidity Analysis
+        - Importance
+          - Assesses company's ability to meet short-term obligations
+          - Linked to working capital management
+        - Tools and Metrics
+          - Working Capital Ratios
+          - Operating Cycle Measures
+            - Days sale outstanding  (DSO)
+            - Days inventory outstanding (DIO)
+            - Days payable outstanding (DPO)
+          - Turnover Measures
+            - Account receivable
+            - inventory
+            - account payable
+          - Solvency Analysis
+            - Capital structure
+              - Composition of company's financing sources
+              - Impact on financial risk and performance
+            - Financial Leverage
+              - Use of debt in capital structure
+              - Implications for company performance and risk
+            - Risk and Return Analysis
+              - Evaluating capital structure in terms of risk-return tradeoff
+      - Forecasting and Valuation
+        - Earnings Forecasts
+        - Cash Flow Forecasting
+        - Company Valuation
+      - Earnings Analysis and Valuation
+        - Earnings Persistence
+          - Stability
+          - predictability
+          - variability
+          - earnings trend
+          - Cash (more persistent)
+          - accruals (less persistent)
+        - Earning Power
+          - Ability of core operations to generate sustainable profits
+          - Critical for forecasting future earnings
+          - Key factor in company valuation
+        - Earnings Forecasting
+          - Considerations:
+            - Earning power
+            - Estimation techniques
+            - Monitoring mechanisms
+          - Aids in predicting future cash flows
+        - Earnings Management
+          - Impact
+            - Affects earnings persistence
+            - Influences forecasting accuracy
+          - Implications:
+            - Can lead to inaccurate valuations
+            - Requires analyst vigilance
+        - Valuation Analysis
+          - Calculate terminal value and estimate stock price
+          - Methods
+            - Residual Income Valuation (RIV) Model:
+              - Incorporates earnings persistence
+              - Values abnormal earnings
+          - Factors Affecting Valuation
+            - Higher persistence indicates higher quality
+            - Market Ratios
+              - P/E ratio as a key valuation metric
+            - Cost of Capital
+              - Crucial for discounting future earnings
+          - Benchmarking
+            - Comparison with industry averages or key competitors
+  - MT483
+    - Investment Basics
+      - Types of Investments
+        - stock
+          - Dividends
+            - Impact on stock values
+          - Valuation Methods
+            - Absolute valuation
+              - Intrinsic value based on fundamentals
+            - Relative valuation
+              - Comparison with similar companies
+        - mutual fund
+        - bonds
+          - Bond Fundamentals
+            - Types of Bonds
+              - Corporate bonds
+              - Treasury bills/bonds
+              - Municipal bonds
+            - Bond Features and Provisions
+              - Call Provisions
+                - Calculation of yield to call
+              - Other Bond Provisions
+                - Maturity date
+                - Coupon rate
+                - Face value
+            - Bond Valuation
+              - Bond Pricing
+                - Factors affecting bond prices
+                - Relationship between price and yield
+              - Yield Calculations
+                - Current yield
+                - Yield to maturity
+                - Yield to call
+                - Differences and implications for bond ratings
+              - Duration
+                - Concept and calculation
+                - Application to individual bonds and portfolios
+            - Bond Markets
+              - Federal Bond Market
+                - Treasury securities
+                - Government agency bonds
+              - Municipal Bond Market
+                - General obligation bonds
+                - Revenue bonds
+              - Corporate Bond Market
+                - Investment-grade bonds
+                - High-yield (junk) bonds
+            - Bond Investment Strategies
+              - Yield Curve Analysis
+                - Interpreting changes in the yield curve
+                - Implications for investment decisions
+              - Bond Ratings
+                - Understanding credit ratings
+                - Impact on bond prices and yields
+        - ETF
+      - Investment Fundamentals
+        - Securities Markets
+          - Over-the-Counter (OTC) markets
+          - New York Stock Exchange (NYSE)
+          - NASDAQ
+        - Order Types
+          - Market orders
+            - Executed at current market price
+          - Limit orders
+            - Executed at specified price or better
+          - Stop-loss orders
+            - Triggered when stock reaches a certain price
+        - Market Indicators
+          - Stock Market Averages
+            - Dow Jones Industrial Average
+            - S&P 500 Index
+          - Bond Market Indexes
+            - Bloomberg Barclays US Aggregate Bond Index
+            - ICE BofA US High Yield Index
+        - Investment Returns
+          - Types of Returns
+            - Real return
+              - djusted for inflation
+            - Risk Free return
+              - Return on risk-free investments (e.g., Treasury bills)
+            - Required return
+              - Minimum return an investor expects
+          - Return Calculations
+            - Dollar return
+              - Absolute gain or loss in monetary terms
+            - Percentage return
+              - Relative gain or loss as a percentage of initial investment
+        - Risk Analysis
+          - Sources of Risk
+            - Market risk
+            - Interest rate
+            - Credit risk
+            - liquidity risk
+          - Risk-Return Relationship
+            - Higher potential returns generally associated with higher risk
+            - Impact on investment decisions and portfolio construction
+        - Portfolio Management
+          - Investment Selection
+            - Stock selection criteria
+            - Mutual fund evaluation
+            - Exchange-traded fund (ETF) analysis
+          - Portfolio Rebalancing
+            - Reasons for making changes to the portfolio
+            - Rationale for maintaining current positions
+          - Margin Trading
+            - Calculating gains/losses on margin positions
+            - Understanding leverage and associated risks
+          - International Diversification
+        - Fundamental Analysis
+          - Economic analysis
+            - Macroeconomic factors
+          - Industry analysis:
+            - Sector-specific trends
+          - Company-specific analysis:
+            - Individual firm performance
+          - Stock Valuation
+            - Dividend Discount Model (DDM)
+            - Discounted Cash Flow Model (DCF)
+            - Zero growth model
+            - Steady growth model (Gordon Growth Model)
+            - Variable growth model (Multi-stage Dividend Discount Model
+            - Alternative valuation methods (e.g., P/E ratio, EV/EBITDA)
+          - Other Securities
+            - Bond valuation methods
+            - Derivatives pricing techniques
+            - Derivatives
+              - Primary Types
+                - Options
+                  - Options Markets
+                    - Basic Characteristics
+                      - Put options
+                      - Call options
+                      - Pricing mechanisms
+                    - Investment Strategies
+                      - Speculation
+                      - Risk management
+                      - Hedging techniques
+                    - Options Contract Components
+                      - Strike price
+                      - Expiration date
+                      - Premium
+                      - Underlying asset
+                - Futures
+                  - Contract Types
+                    - Commodity futures
+                    - Financial futures
+                    - Speculative instruments
+                  - Market Functions
+                    - Price discovery
+                    - Risk transfer
+                    - Investment diversification
+                - Warrants
+        - Technical Analysis
+          - Limitations and Criticisms
+            - Subjectivity in interpretation
+            - Potential for self-fulfilling prophecies
+        - Market Efficiency Theories
+          - Random Walk Theory
+            - Stock price movements are unpredictable
+          - Efficient Market Hypothesis (EMH)
+        - Behavioral Finance
+          - Market Anomalies
+            - Calendar effects (e.g., January effect, weekend effect)
+            - Size effect and value premium
+            - Momentum and reversal effects
+          - Cognitive Biases
+            - Overconfidence and confirmation bias
+            - Loss aversion and mental accounting
+            - Herding behavior and anchoring
+          - Impact on Investments
+            - Explaining market inefficiencies
+            - Potential for exploiting behavioral biases
+            - Challenges to traditional finance theories
+        - Risk Management Techniques
+          - Hedging Strategies
+            - Portfolio risk reduction
+            - Protective put strategies
+            - Covered call writing
+            - Spread strategies
+            - Straddle techniques
+          - Advanced Derivative Strategies
+            - Options combination
+              - Vertical spreads
+              - Horizontal spreads
+              - Straddles
+              - Butterfly spreads
+            - Speculative Approaches
+              - Leveraged trading
+              - Directional betting
+              - Volatility trading
+          - Risk Analysis
+            - Measurement of risk in various market environments
+            - Understanding the significance of risk assessment in portfolio construction
+            - Standard deviation
+              - Measure of volatility and risk
+            - Beta
+              - Indicator of systematic risk relative to the market
+          - Diversification
+            - Reducing unsystematic risk through asset allocation
+            - Benefits of holding a mix of asset classes and securities
+            - Strategies for achieving optimal diversification
+      - Capital Asset Pricing Model (CAPM)
+        - Role in Investments
+          - Framework for assessing expected returns based on risk
+          - Relationship between systematic risk and expected return
+          - Formula: Expected Return = Risk-Free Rate + Beta × (Market Return - Risk-Free Rate)
+        - Asset Allocation
+          - Procedures and Strategies
+            - Determining the appropriate mix of asset classes (stocks, bonds, cash, etc.)
+            - Balancing risk and return based on investor goals and market conditions
+            - Rebalancing strategies to maintain target allocations over time
+<!-- freeplane2md: Converted from My_Notes.mm at 2025-01-27T01:23:29-08:00 -->
