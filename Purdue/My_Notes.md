@@ -403,6 +403,214 @@
           - Benchmarking
             - Comparison with industry averages or key competitors
   - MT483
-    - stock
-    - mutual fund
-<!-- freeplane2md: Converted from My_Notes.mm at 2025-01-26T23:38:16-08:00 -->
+    - Investment Basics
+      - Types of Investments
+        - stock
+          - Dividends
+            - Impact on stock values
+          - Valuation Methods
+            - Absolute valuation
+              - Intrinsic value based on fundamentals
+            - Relative valuation
+              - Comparison with similar companies
+        - mutual fund
+        - bonds
+          - Bond Fundamentals
+            - Types of Bonds
+              - Corporate bonds
+              - Treasury bills/bonds
+              - Municipal bonds
+            - Bond Features and Provisions
+              - Call Provisions
+                - Calculation of yield to call
+              - Other Bond Provisions
+                - Maturity date
+                - Coupon rate
+                - Face value
+            - Bond Valuation
+              - Bond Pricing
+                - Factors affecting bond prices
+                - Relationship between price and yield
+              - Yield Calculations
+                - Current yield
+                - Yield to maturity
+                - Yield to call
+                - Differences and implications for bond ratings
+              - Duration
+                - Concept and calculation
+                - Application to individual bonds and portfolios
+            - Bond Markets
+              - Federal Bond Market
+                - Treasury securities
+                - Government agency bonds
+              - Municipal Bond Market
+                - General obligation bonds
+                - Revenue bonds
+              - Corporate Bond Market
+                - Investment-grade bonds
+                - High-yield (junk) bonds
+            - Bond Investment Strategies
+              - Yield Curve Analysis
+                - Interpreting changes in the yield curve
+                - Implications for investment decisions
+              - Bond Ratings
+                - Understanding credit ratings
+                - Impact on bond prices and yields
+        - ETF
+      - Investment Fundamentals
+        - Securities Markets
+          - Over-the-Counter (OTC) markets
+          - New York Stock Exchange (NYSE)
+          - NASDAQ
+        - Order Types
+          - Market orders
+            - Executed at current market price
+          - Limit orders
+            - Executed at specified price or better
+          - Stop-loss orders
+            - Triggered when stock reaches a certain price
+        - Market Indicators
+          - Stock Market Averages
+            - Dow Jones Industrial Average
+            - S&P 500 Index
+          - Bond Market Indexes
+            - Bloomberg Barclays US Aggregate Bond Index
+            - ICE BofA US High Yield Index
+        - Investment Returns
+          - Types of Returns
+            - Real return
+              - djusted for inflation
+            - Risk Free return
+              - Return on risk-free investments (e.g., Treasury bills)
+            - Required return
+              - Minimum return an investor expects
+          - Return Calculations
+            - Dollar return
+              - Absolute gain or loss in monetary terms
+            - Percentage return
+              - Relative gain or loss as a percentage of initial investment
+        - Risk Analysis
+          - Sources of Risk
+            - Market risk
+            - Interest rate
+            - Credit risk
+            - liquidity risk
+          - Risk-Return Relationship
+            - Higher potential returns generally associated with higher risk
+            - Impact on investment decisions and portfolio construction
+        - Portfolio Management
+          - Investment Selection
+            - Stock selection criteria
+            - Mutual fund evaluation
+            - Exchange-traded fund (ETF) analysis
+          - Portfolio Rebalancing
+            - Reasons for making changes to the portfolio
+            - Rationale for maintaining current positions
+          - Margin Trading
+            - Calculating gains/losses on margin positions
+            - Understanding leverage and associated risks
+          - International Diversification
+        - Fundamental Analysis
+          - Economic analysis
+            - Macroeconomic factors
+          - Industry analysis:
+            - Sector-specific trends
+          - Company-specific analysis:
+            - Individual firm performance
+          - Stock Valuation
+            - Dividend Discount Model (DDM)
+            - Discounted Cash Flow Model (DCF)
+            - Zero growth model
+            - Steady growth model (Gordon Growth Model)
+            - Variable growth model (Multi-stage Dividend Discount Model
+            - Alternative valuation methods (e.g., P/E ratio, EV/EBITDA)
+          - Other Securities
+            - Bond valuation methods
+            - Derivatives pricing techniques
+            - Derivatives
+              - Primary Types
+                - Options
+                  - Options Markets
+                    - Basic Characteristics
+                      - Put options
+                      - Call options
+                      - Pricing mechanisms
+                    - Investment Strategies
+                      - Speculation
+                      - Risk management
+                      - Hedging techniques
+                    - Options Contract Components
+                      - Strike price
+                      - Expiration date
+                      - Premium
+                      - Underlying asset
+                - Futures
+                  - Contract Types
+                    - Commodity futures
+                    - Financial futures
+                    - Speculative instruments
+                  - Market Functions
+                    - Price discovery
+                    - Risk transfer
+                    - Investment diversification
+                - Warrants
+        - Technical Analysis
+          - Limitations and Criticisms
+            - Subjectivity in interpretation
+            - Potential for self-fulfilling prophecies
+        - Market Efficiency Theories
+          - Random Walk Theory
+            - Stock price movements are unpredictable
+          - Efficient Market Hypothesis (EMH)
+        - Behavioral Finance
+          - Market Anomalies
+            - Calendar effects (e.g., January effect, weekend effect)
+            - Size effect and value premium
+            - Momentum and reversal effects
+          - Cognitive Biases
+            - Overconfidence and confirmation bias
+            - Loss aversion and mental accounting
+            - Herding behavior and anchoring
+          - Impact on Investments
+            - Explaining market inefficiencies
+            - Potential for exploiting behavioral biases
+            - Challenges to traditional finance theories
+        - Risk Management Techniques
+          - Hedging Strategies
+            - Portfolio risk reduction
+            - Protective put strategies
+            - Covered call writing
+            - Spread strategies
+            - Straddle techniques
+          - Advanced Derivative Strategies
+            - Options combination
+              - Vertical spreads
+              - Horizontal spreads
+              - Straddles
+              - Butterfly spreads
+            - Speculative Approaches
+              - Leveraged trading
+              - Directional betting
+              - Volatility trading
+          - Risk Analysis
+            - Measurement of risk in various market environments
+            - Understanding the significance of risk assessment in portfolio construction
+            - Standard deviation
+              - Measure of volatility and risk
+            - Beta
+              - Indicator of systematic risk relative to the market
+          - Diversification
+            - Reducing unsystematic risk through asset allocation
+            - Benefits of holding a mix of asset classes and securities
+            - Strategies for achieving optimal diversification
+      - Capital Asset Pricing Model (CAPM)
+        - Role in Investments
+          - Framework for assessing expected returns based on risk
+          - Relationship between systematic risk and expected return
+          - Formula: Expected Return = Risk-Free Rate + Beta × (Market Return - Risk-Free Rate)
+        - Asset Allocation
+          - Procedures and Strategies
+            - Determining the appropriate mix of asset classes (stocks, bonds, cash, etc.)
+            - Balancing risk and return based on investor goals and market conditions
+            - Rebalancing strategies to maintain target allocations over time
+<!-- freeplane2md: Converted from My_Notes.mm at 2025-01-27T01:23:29-08:00 -->
