@@ -1,27 +1,24 @@
-<map version="freeplane 1.11.5">
+<map version="freeplane 1.9.13">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="My Notes" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1737931298040">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1000" fit_to_viewport="false" showTagCategories="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1667796204000" fit_to_viewport="false" showTagCategories="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
-<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
+<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#2e3440" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
 <font SIZE="11" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.tags">
-<font SIZE="10"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="10"/>
@@ -36,7 +33,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
@@ -45,7 +42,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -83,10 +80,10 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Pu" POSITION="bottom_or_right" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1737997341512">
-<node TEXT="MT482" FOLDED="true" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
-<node TEXT="Types of Analysis" ID="ID_1377584060" CREATED="1737931360853" MODIFIED="1737931362735">
-<node TEXT="Horizontal Analysis" ID="ID_433089173" CREATED="1737931364553" MODIFIED="1737931372809">
+<node TEXT="Pu" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1737997341512" POSITION="bottom_or_right">
+<node TEXT="MT482" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
+<node TEXT="Types of Analysis" FOLDED="true" ID="ID_1377584060" CREATED="1737931360853" MODIFIED="1737931362735">
+<node TEXT="Horizontal Analysis" FOLDED="true" ID="ID_433089173" CREATED="1737931364553" MODIFIED="1737931372809">
 <node TEXT="Compares financial data across multiple periods" ID="ID_1736652375" CREATED="1737931427815" MODIFIED="1737931430699"/>
 <node TEXT="Identifies trends and growth patterns over time" ID="ID_802825742" CREATED="1737931432489" MODIFIED="1737931439312"/>
 <node TEXT="Calculates percentage changes in key figures" ID="ID_533200898" CREATED="1737931447215" MODIFIED="1737931448673"/>
@@ -105,12 +102,12 @@
 <node TEXT="Balance Sheet" FOLDED="true" ID="ID_889111944" CREATED="1737931525533" MODIFIED="1737931531831">
 <node TEXT="Provides a snapshot of financial standing at a specific point" ID="ID_1314586995" CREATED="1737931564817" MODIFIED="1737952416379"/>
 <node TEXT="Summarize assets and liabilities, and equity" ID="ID_765897629" CREATED="1737931572016" MODIFIED="1737933390089"/>
-<node TEXT="Considers liquidity, debt obligations, and equity structure" POSITION="bottom_or_right" ID="ID_969257305" CREATED="1737931606219" MODIFIED="1737952510539"/>
+<node TEXT="Considers liquidity, debt obligations, and equity structure" ID="ID_969257305" CREATED="1737931606219" MODIFIED="1737952510539" POSITION="bottom_or_right"/>
 <node TEXT="Helps evaluate the extent of liabilities and available capital" ID="ID_698273150" CREATED="1737933426939" MODIFIED="1737933430554"/>
 </node>
 <node TEXT="Income Statement" FOLDED="true" ID="ID_1661050421" CREATED="1737931535207" MODIFIED="1737931692122">
-<node TEXT="Reveals profitability or losses" POSITION="bottom_or_right" ID="ID_1182664937" CREATED="1737931581477" MODIFIED="1737931632964"/>
-<node TEXT="Reports revenues and expenses over a specific period" POSITION="bottom_or_right" ID="ID_160270761" CREATED="1737931619243" MODIFIED="1737952602423"/>
+<node TEXT="Reveals profitability or losses" ID="ID_1182664937" CREATED="1737931581477" MODIFIED="1737931632964" POSITION="bottom_or_right"/>
+<node TEXT="Reports revenues and expenses over a specific period" ID="ID_160270761" CREATED="1737931619243" MODIFIED="1737952602423" POSITION="bottom_or_right"/>
 <node TEXT="Key metrics: Gross Profit Margin, Operating Margin, Net Profit Margin" ID="ID_1721956773" CREATED="1737931639059" MODIFIED="1737952668913"/>
 </node>
 <node TEXT="Cash Flow Statement" FOLDED="true" ID="ID_1520348591" CREATED="1737931543444" MODIFIED="1737931547181">
@@ -173,8 +170,8 @@
 <node TEXT="Determine intrinsic value" ID="ID_1978274401" CREATED="1737932569925" MODIFIED="1737932576633"/>
 </node>
 <node TEXT="Statement of Changes in Equity" FOLDED="true" ID="ID_882850094" CREATED="1737933545635" MODIFIED="1737933558235">
-<node TEXT="Shows changes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1885833270" CREATED="1737933583626" MODIFIED="1737952835921">
-<node TEXT="Retained Earnings" POSITION="bottom_or_right" ID="ID_95436239" CREATED="1737933579775" MODIFIED="1737933599206"/>
+<node TEXT="Shows changes" FOLDED="true" ID="ID_1885833270" CREATED="1737933583626" MODIFIED="1737952835921" POSITION="bottom_or_right">
+<node TEXT="Retained Earnings" ID="ID_95436239" CREATED="1737933579775" MODIFIED="1737933599206" POSITION="bottom_or_right"/>
 <node TEXT="Shareholders&apos;equity" ID="ID_376581331" CREATED="1737933600105" MODIFIED="1737933606017"/>
 </node>
 </node>
@@ -190,8 +187,8 @@
 <node TEXT="Indicator of ability to meet financial obligations" ID="ID_1591391070" CREATED="1737955277574" MODIFIED="1737955279662"/>
 <node TEXT="Affects financial flexibility and investment opportunities" ID="ID_601865933" CREATED="1737955297591" MODIFIED="1737955300757"/>
 <node TEXT="working capital ratios" FOLDED="true" ID="ID_1194342645" CREATED="1737961890116" MODIFIED="1737961894539">
-<node TEXT="Current Ratio" POSITION="bottom_or_right" ID="ID_973738427" CREATED="1737931806043" MODIFIED="1737931811184"/>
-<node TEXT="Quick Ratio" POSITION="bottom_or_right" ID="ID_1686177364" CREATED="1737931812151" MODIFIED="1737933743481"/>
+<node TEXT="Current Ratio" ID="ID_973738427" CREATED="1737931806043" MODIFIED="1737931811184" POSITION="bottom_or_right"/>
+<node TEXT="Quick Ratio" ID="ID_1686177364" CREATED="1737931812151" MODIFIED="1737933743481" POSITION="bottom_or_right"/>
 </node>
 </node>
 <node TEXT="Valuation" FOLDED="true" ID="ID_1085989080" CREATED="1737931736063" MODIFIED="1737931738826">
@@ -335,8 +332,8 @@
 </node>
 <node TEXT="Operating activities" FOLDED="true" ID="ID_1018389236" CREATED="1737932717404" MODIFIED="1737932750477">
 <node TEXT="Goods and services" FOLDED="true" ID="ID_879559297" CREATED="1737932830460" MODIFIED="1737932853977">
-<node TEXT="&lt;= Expense" POSITION="bottom_or_right" ID="ID_736294664" CREATED="1737932784515" MODIFIED="1737932881365"/>
-<node TEXT="&lt;= Revenue" POSITION="bottom_or_right" ID="ID_281956145" CREATED="1737932750780" MODIFIED="1737932890034"/>
+<node TEXT="&lt;= Expense" ID="ID_736294664" CREATED="1737932784515" MODIFIED="1737932881365" POSITION="bottom_or_right"/>
+<node TEXT="&lt;= Revenue" ID="ID_281956145" CREATED="1737932750780" MODIFIED="1737932890034" POSITION="bottom_or_right"/>
 </node>
 </node>
 </node>
@@ -360,8 +357,8 @@
 <node TEXT="Help in tracking cash flow and identifying areas for improvemen" ID="ID_786971080" CREATED="1737933779734" MODIFIED="1737952963787"/>
 </node>
 </node>
-<node TEXT="Solvency" FOLDED="true" POSITION="bottom_or_right" ID="ID_924395248" CREATED="1737955395274" MODIFIED="1737955412231">
-<node TEXT="Debt-to-Equity" POSITION="bottom_or_right" ID="ID_1654630215" CREATED="1737931816715" MODIFIED="1737931834469"/>
+<node TEXT="Solvency" FOLDED="true" ID="ID_924395248" CREATED="1737955395274" MODIFIED="1737955412231" POSITION="bottom_or_right">
+<node TEXT="Debt-to-Equity" ID="ID_1654630215" CREATED="1737931816715" MODIFIED="1737931834469" POSITION="bottom_or_right"/>
 <node TEXT="Ability to meet long-term and current obligations" ID="ID_699432350" CREATED="1737955431768" MODIFIED="1737955447201"/>
 <node TEXT="Crucial for company&apos;s financial health" ID="ID_958506971" CREATED="1737955448834" MODIFIED="1737955451324"/>
 </node>
@@ -411,8 +408,8 @@
 <node TEXT="Key to maximizing shareholder returns" ID="ID_640737107" CREATED="1737958336148" MODIFIED="1737958337835"/>
 <node TEXT="Components of ROIC" FOLDED="true" ID="ID_176296849" CREATED="1737958347828" MODIFIED="1737958349927">
 <node TEXT="NOPAT (Numerator)" FOLDED="true" ID="ID_1766892394" CREATED="1737958360080" MODIFIED="1737958361831">
-<node TEXT="Net Operating Profit After Taxes" POSITION="bottom_or_right" ID="ID_1597887018" CREATED="1737958375941" MODIFIED="1737958385539"/>
-<node TEXT="Represents profits from core business operations" POSITION="bottom_or_right" ID="ID_471664566" CREATED="1737958385839" MODIFIED="1737958406238"/>
+<node TEXT="Net Operating Profit After Taxes" ID="ID_1597887018" CREATED="1737958375941" MODIFIED="1737958385539" POSITION="bottom_or_right"/>
+<node TEXT="Represents profits from core business operations" ID="ID_471664566" CREATED="1737958385839" MODIFIED="1737958406238" POSITION="bottom_or_right"/>
 </node>
 <node TEXT="Invested Capital (Denominator)" FOLDED="true" ID="ID_1884121416" CREATED="1737958427307" MODIFIED="1737958429016">
 <node TEXT="Includes equity and debt invested in company operations" ID="ID_453564518" CREATED="1737958438817" MODIFIED="1737958448405"/>
@@ -471,7 +468,7 @@
 <node TEXT="Estimates future assets, liabilities, and equity" ID="ID_616311251" CREATED="1737959159232" MODIFIED="1737959163606"/>
 <node TEXT="1. non cash current assets projection" FOLDED="true" ID="ID_1120269484" CREATED="1737959398818" MODIFIED="1737959547186">
 <node TEXT="Using" FOLDED="true" ID="ID_1091948303" CREATED="1737959581405" MODIFIED="1737959583209">
-<node TEXT="&lt;=projected sales" POSITION="bottom_or_right" ID="ID_1317740728" CREATED="1737959548632" MODIFIED="1737959579776"/>
+<node TEXT="&lt;=projected sales" ID="ID_1317740728" CREATED="1737959548632" MODIFIED="1737959579776" POSITION="bottom_or_right"/>
 <node TEXT="&lt;= projected COGS" ID="ID_1073611948" CREATED="1737959587290" MODIFIED="1737959606214"/>
 <node TEXT="&lt;= turnover ratio" ID="ID_984726421" CREATED="1737959607542" MODIFIED="1737959623969"/>
 </node>
@@ -554,15 +551,15 @@
 <node TEXT="account payable" ID="ID_510030154" CREATED="1737962056955" MODIFIED="1737962061472"/>
 </node>
 <node TEXT="Solvency Analysis" FOLDED="true" ID="ID_1386630605" CREATED="1737962174947" MODIFIED="1737962182873">
-<node TEXT="Capital structure" FOLDED="true" POSITION="bottom_or_right" ID="ID_773478214" CREATED="1737962075992" MODIFIED="1737962079786">
+<node TEXT="Capital structure" FOLDED="true" ID="ID_773478214" CREATED="1737962075992" MODIFIED="1737962079786" POSITION="bottom_or_right">
 <node TEXT="Composition of company&apos;s financing sources" ID="ID_341870330" CREATED="1737962081606" MODIFIED="1737962100819"/>
 <node TEXT="Impact on financial risk and performance" ID="ID_1695859942" CREATED="1737962103916" MODIFIED="1737962106091"/>
 </node>
-<node TEXT="Financial Leverage" FOLDED="true" POSITION="bottom_or_right" ID="ID_700906174" CREATED="1737962111868" MODIFIED="1737962114246">
+<node TEXT="Financial Leverage" FOLDED="true" ID="ID_700906174" CREATED="1737962111868" MODIFIED="1737962114246" POSITION="bottom_or_right">
 <node TEXT="Use of debt in capital structure" ID="ID_1830030862" CREATED="1737962115502" MODIFIED="1737962123390"/>
 <node TEXT="Implications for company performance and risk" ID="ID_1927871416" CREATED="1737962134376" MODIFIED="1737962137082"/>
 </node>
-<node TEXT="Risk and Return Analysis" FOLDED="true" POSITION="bottom_or_right" ID="ID_1298052360" CREATED="1737962143617" MODIFIED="1737962145397">
+<node TEXT="Risk and Return Analysis" FOLDED="true" ID="ID_1298052360" CREATED="1737962143617" MODIFIED="1737962145397" POSITION="bottom_or_right">
 <node TEXT="Evaluating capital structure in terms of risk-return tradeoff" ID="ID_1969309429" CREATED="1737962145762" MODIFIED="1737962154730"/>
 </node>
 </node>
@@ -616,7 +613,7 @@
 <node TEXT="Factors Affecting Valuation" FOLDED="true" ID="ID_421052817" CREATED="1737963115997" MODIFIED="1737963118243">
 <node TEXT="Higher persistence indicates higher quality" ID="ID_256662755" CREATED="1737963140029" MODIFIED="1737963144513"/>
 <node TEXT="Market Ratios" FOLDED="true" ID="ID_767685824" CREATED="1737963167030" MODIFIED="1737963168465">
-<node TEXT="P/E ratio as a key valuation metric" POSITION="bottom_or_right" ID="ID_1549891233" CREATED="1737963155690" MODIFIED="1737963156808"/>
+<node TEXT="P/E ratio as a key valuation metric" ID="ID_1549891233" CREATED="1737963155690" MODIFIED="1737963156808" POSITION="bottom_or_right"/>
 </node>
 <node TEXT="Cost of Capital" FOLDED="true" ID="ID_820469664" CREATED="1737963181944" MODIFIED="1737963183655">
 <node TEXT="Crucial for discounting future earnings" ID="ID_1129788144" CREATED="1737963192009" MODIFIED="1737963193816"/>
@@ -628,11 +625,319 @@
 </node>
 </node>
 </node>
+<node TEXT="Unsorted" ID="ID_1940118872" CREATED="1738256885616" MODIFIED="1738256930700">
+<node TEXT="Financial Analysis Tools" ID="ID_1116463031" CREATED="1738263442474" MODIFIED="1738263446800">
+<node TEXT=" Comparative Financial Statement Analysis" FOLDED="true" ID="ID_517042761" CREATED="1738262077403" MODIFIED="1738262083139">
+<node TEXT="Inherent Limitations of Single-Year" ID="ID_1456860616" CREATED="1738262139026" MODIFIED="1738262147459">
+<node TEXT="Just a snapshot of historical nature" ID="ID_277362693" CREATED="1738262152562" MODIFIED="1738262172571"/>
+<node TEXT="not enough context" ID="ID_1512129648" CREATED="1738262192090" MODIFIED="1738262205787"/>
+<node TEXT="skewed seasonal effects" ID="ID_743393923" CREATED="1738262209370" MODIFIED="1738262226867"/>
+<node TEXT="not enough to capture accounting methods" ID="ID_1924952641" CREATED="1738262235314" MODIFIED="1738262247579"/>
 </node>
-<node TEXT="MT483" ID="ID_1192020377" CREATED="1737931317344" MODIFIED="1737931320198">
+<node TEXT="Overcoming limitation with Comparative" ID="ID_448344879" CREATED="1738262252450" MODIFIED="1738262274355">
+<node TEXT="trend analysis identify patterns over time" ID="ID_87355360" CREATED="1738262282770" MODIFIED="1738262301875"/>
+<node TEXT="performance evaluation with assessment of improvements or declines" ID="ID_618773918" CREATED="1738262309802" MODIFIED="1738262352519"/>
+<node TEXT="reduce impact of short-term fluctuation" ID="ID_337340982" CREATED="1738262363826" MODIFIED="1738262377658"/>
+</node>
+<node TEXT="Potential Misleading Factors in Year-to-Year Analysis" ID="ID_329503540" CREATED="1738262391314" MODIFIED="1738262394610">
+<node TEXT="Factors Contributing to Misinterpretation" ID="ID_1700010437" CREATED="1738262499970" MODIFIED="1738262502716">
+<node TEXT="Economic Changes" ID="ID_843271385" CREATED="1738262504410" MODIFIED="1738262512503">
+<node TEXT="Macroeconomic shifts can affect year-to-year comparisons" ID="ID_840982989" CREATED="1738262551106" MODIFIED="1738262554110"/>
+<node TEXT="May not reflect true operational performance" ID="ID_1798796041" CREATED="1738262555339" MODIFIED="1738262560833"/>
+</node>
+<node TEXT="Accounting Policy Alterations" ID="ID_98521889" CREATED="1738262572714" MODIFIED="1738262574662">
+<node TEXT="Changes in methods can distort comparisons" ID="ID_694730400" CREATED="1738262579938" MODIFIED="1738262587310"/>
+</node>
+<node TEXT="One-Time Events" ID="ID_1960424986" CREATED="1738262606500" MODIFIED="1738262608366">
+<node TEXT="Extraordinary items can skew year-to-year analysis" ID="ID_534654753" CREATED="1738262617281" MODIFIED="1738262622571"/>
+</node>
+<node TEXT="Industry Dynamics" ID="ID_967573535" CREATED="1738262636994" MODIFIED="1738262648262">
+<node TEXT="Sector-specific changes can affect interpretation" ID="ID_739193120" CREATED="1738262649098" MODIFIED="1738262652492"/>
+<node TEXT="Requires context beyond company-specific data" ID="ID_1943699247" CREATED="1738262653970" MODIFIED="1738262659976"/>
+</node>
+</node>
+<node TEXT="Mitigating Misinterpretation with" ID="ID_1587018330" CREATED="1738262696946" MODIFIED="1738262699264">
+<node TEXT="Management Discussion and Analysis (MD&amp;A)" ID="ID_1910037652" CREATED="1738262700283" MODIFIED="1738262706938">
+<node TEXT="Provides qualitative insights into financial data" ID="ID_1215124186" CREATED="1738262714098" MODIFIED="1738262719540"/>
+<node TEXT="Explains significant variations and strategic decisions" ID="ID_1988935265" CREATED="1738262720402" MODIFIED="1738262722264"/>
+</node>
+<node TEXT="Footnotes and Disclosures - 10K" ID="ID_1983286988" CREATED="1738262829346" MODIFIED="1738262835867"/>
+<node TEXT="Industry Benchmarks" ID="ID_1524641495" CREATED="1738262843217" MODIFIED="1738262849840">
+<node TEXT="Allow for comparison with sector peers" ID="ID_151330933" CREATED="1738262850531" MODIFIED="1738262857590"/>
+<node TEXT="Provide context for company performance" ID="ID_483244621" CREATED="1738262857842" MODIFIED="1738262859898"/>
+</node>
+<node TEXT="Provide context for company performance" ID="ID_206872402" CREATED="1738262880138" MODIFIED="1738262889172">
+<node TEXT="Complement financial data with operational insights" ID="ID_309981914" CREATED="1738262889914" MODIFIED="1738262903484"/>
+<node TEXT="Offer a holistic view of company performance" ID="ID_884274807" CREATED="1738262910331" MODIFIED="1738262919855"/>
+</node>
+<node TEXT="Cash Flow Analysis" ID="ID_840085138" CREATED="1738262903610" MODIFIED="1738262910031">
+<node TEXT="Provides insights into liquidity and operational efficiency" ID="ID_1957555209" CREATED="1738262921810" MODIFIED="1738262927795"/>
+<node TEXT="Helps in assessing the quality of earnings" ID="ID_1941544019" CREATED="1738262928178" MODIFIED="1738262929867"/>
+</node>
+</node>
+</node>
+<node TEXT="Usefulness" FOLDED="true" ID="ID_221737418" CREATED="1738263502281" MODIFIED="1738263511568">
+<node TEXT="Identifies trends and patterns over time" ID="ID_1463462217" CREATED="1738263512182" MODIFIED="1738263518630"/>
+</node>
+<node TEXT="Precautions:" ID="ID_1617696896" CREATED="1738263555362" MODIFIED="1738263557582">
+<node TEXT="Consider economic changes" ID="ID_1166504292" CREATED="1738263562754" MODIFIED="1738263568083"/>
+<node TEXT="Account for one-time events" ID="ID_1265773885" CREATED="1738263568386" MODIFIED="1738263576350"/>
+<node TEXT="Adjust for accounting policy changes" ID="ID_533074598" CREATED="1738263578978" MODIFIED="1738263586189"/>
+</node>
+</node>
+<node TEXT="Ratios analysis" ID="ID_1542730775" CREATED="1738258686680" MODIFIED="1738258695889">
+<node TEXT="valuation" ID="ID_907285221" CREATED="1738258677681" MODIFIED="1738258685185">
+<node TEXT="Market Measures" FOLDED="true" ID="ID_512998597" CREATED="1738259513649" MODIFIED="1738259518994">
+<node TEXT="Price-to-earnings" ID="ID_1796635004" CREATED="1738259519521" MODIFIED="1738259530666">
+<node TEXT="Market Price per share / Earnings per share" ID="ID_1045980295" CREATED="1738259531649" MODIFIED="1738259551106"/>
+</node>
+<node TEXT="Earning yeilds" ID="ID_683523212" CREATED="1738259553944" MODIFIED="1738259558866">
+<node TEXT="EPS / Market price pers share" ID="ID_74092092" CREATED="1738259559832" MODIFIED="1738259579578"/>
+</node>
+<node TEXT="Dividend Yield" ID="ID_1778076842" CREATED="1738260130585" MODIFIED="1738260135410">
+<node TEXT="Cash dividend per share / stock price" ID="ID_1555746593" CREATED="1738260153273" MODIFIED="1738260171674"/>
+</node>
+<node TEXT="Dividend payout" ID="ID_563753238" CREATED="1738260136825" MODIFIED="1738260142306">
+<node TEXT="cash dividend per share / EPS" ID="ID_49859276" CREATED="1738260173449" MODIFIED="1738260187058"/>
+</node>
+<node TEXT="price to book" ID="ID_321233900" CREATED="1738260143664" MODIFIED="1738260152018">
+<node TEXT="Stock price / book value per share" ID="ID_525604292" CREATED="1738260188409" MODIFIED="1738260203122"/>
+</node>
+</node>
+<node TEXT="Discounting future cash flows" ID="ID_1798940879" CREATED="1738263719403" MODIFIED="1738263737089"/>
+<node ID="ID_1643436905" CREATED="1738263723063" MODIFIED="1738263723063"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Future value of money differs from present value</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Difficulty in estimating future cash flows" ID="ID_1349946469" CREATED="1738263748811" MODIFIED="1738264742696"/>
+</node>
+<node TEXT="Credit (Risk) Analysis" ID="ID_1361012452" CREATED="1738258592608" MODIFIED="1738258599529">
+<node TEXT="Liquidity ratio" ID="ID_309229795" CREATED="1738258139004" MODIFIED="1738258190537">
+<node TEXT="Current ratio" ID="ID_599554754" CREATED="1738258191160" MODIFIED="1738258196601">
+<node TEXT="Current asset/current liabilities" ID="ID_1304622833" CREATED="1738258197480" MODIFIED="1738258222089">
+<node TEXT="if decline over the years" ID="ID_550766297" CREATED="1738267471852" MODIFIED="1738267482477">
+<node TEXT="The company&apos;s short-term liquidity position has weakened" ID="ID_1356302857" CREATED="1738267482965" MODIFIED="1738267499378"/>
+</node>
+<node TEXT="Acceptable &gt; 1.2" ID="ID_280845134" CREATED="1738267526165" MODIFIED="1738267557205"/>
+</node>
+</node>
+<node TEXT="Acid-test ratio" ID="ID_26495304" CREATED="1738258225872" MODIFIED="1738258235529">
+<node TEXT="(Cash and Cash equiv + Marketable Securities + Account receivable) / current liabilities" ID="ID_570849806" CREATED="1738258235848" MODIFIED="1738258289177"/>
+<node TEXT="if decline over the years" ID="ID_1396327012" CREATED="1738267586516" MODIFIED="1738267600992">
+<node TEXT="company&apos;s ability to meet short-term obligations decreasing" ID="ID_713601950" CREATED="1738267602236" MODIFIED="1738267626086"/>
+</node>
+<node TEXT="if ratio=1" ID="ID_1320270812" CREATED="1738267640532" MODIFIED="1738267646926">
+<node TEXT="leaving no margin of safety" ID="ID_1410748118" CREATED="1738267656125" MODIFIED="1738267659680"/>
+</node>
+</node>
+<node TEXT="collection period" ID="ID_676038452" CREATED="1738258298256" MODIFIED="1738258305001">
+<node TEXT="Average AR / (Sales/360)" ID="ID_866793710" CREATED="1738258307145" MODIFIED="1738258349273">
+<node TEXT="if increased over time" ID="ID_877971659" CREATED="1738270338556" MODIFIED="1738270354087">
+<node TEXT=" indicates a slower collection of accounts receivable" ID="ID_708728426" CREATED="1738270367797" MODIFIED="1738270372683">
+<node TEXT="Possible due to more lenient credit terms or collection difficulties" ID="ID_1709584418" CREATED="1738270387525" MODIFIED="1738270410776"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Days to sales in inventory" ID="ID_1143063464" CREATED="1738258351345" MODIFIED="1738270981453">
+<node TEXT="Average Inventory / (Cost of Sale/360)" ID="ID_817689438" CREATED="1738258360057" MODIFIED="1738258378321">
+<node TEXT="if increase consistently with a decrease in inventory turnover" ID="ID_89106996" CREATED="1738271079622" MODIFIED="1738271105207">
+<node TEXT="potentially due to overstocking or slower sales" ID="ID_1651756657" CREATED="1738271130926" MODIFIED="1738271136855"/>
+</node>
+</node>
+</node>
+<node TEXT="Declining Liquidity" ID="ID_1323745847" CREATED="1738267728565" MODIFIED="1738267731073">
+<node TEXT="if both current and acid-test ratio decline over time" ID="ID_1884890976" CREATED="1738267732429" MODIFIED="1738267751158"/>
+</node>
+<node TEXT="Increased Risk" ID="ID_1798657325" CREATED="1738267761733" MODIFIED="1738267763858">
+<node TEXT="sharp decline in the acid-test ratio" ID="ID_289562706" CREATED="1738267772636" MODIFIED="1738267777542">
+<node TEXT="suggests increased reliance on inventory to meet short-term obligations." ID="ID_1680629849" CREATED="1738267799165" MODIFIED="1738267802872"/>
+</node>
+</node>
+<node TEXT="Potential Causes:" ID="ID_1017637291" CREATED="1738267824716" MODIFIED="1738267826786">
+<node TEXT="Rapid expansion of operations" ID="ID_844879538" CREATED="1738267829028" MODIFIED="1738267844327">
+<node TEXT="increasing current assets" ID="ID_439568917" CREATED="1738267844708" MODIFIED="1738267854597"/>
+<node TEXT="increasing liabilities" ID="ID_336766052" CREATED="1738267854957" MODIFIED="1738267867030"/>
+</node>
+<node TEXT=" inefficiencies in working capital management" ID="ID_1056785048" CREATED="1738267881043" MODIFIED="1738267890938"/>
+<node TEXT="Potential shift in business model or market conditions" ID="ID_1280551539" CREATED="1738267891564" MODIFIED="1738267893732"/>
+<node TEXT="Recommendations:" ID="ID_1281187928" CREATED="1738267926085" MODIFIED="1738267929132">
+<node TEXT="Review accounts receivable collection policies" ID="ID_261518713" CREATED="1738267930229" MODIFIED="1738267937726"/>
+<node TEXT="Optimize inventory management" ID="ID_1600983737" CREATED="1738267939364" MODIFIED="1738267946553"/>
+<node TEXT="Evaluate the terms of accounts payable" ID="ID_1282576293" CREATED="1738267946972" MODIFIED="1738267959835"/>
+<node TEXT="Consider strategies to improve cash position" ID="ID_355535405" CREATED="1738267960189" MODIFIED="1738267962510"/>
+<node TEXT="Investigate the reasons behind the significant increase in accounts payable" ID="ID_1741558723" CREATED="1738268024196" MODIFIED="1738268028084"/>
+<node TEXT="Analyze the company&apos;s cash conversion cycle" ID="ID_985839463" CREATED="1738268043812" MODIFIED="1738268046374"/>
+<node TEXT="Compare these ratios with industry benchmarks for a more comprehensive assessment" ID="ID_1079793302" CREATED="1738268067678" MODIFIED="1738268071103"/>
+</node>
+</node>
+</node>
+<node TEXT="Capital Structure and Solvency" ID="ID_690533196" CREATED="1738258391727" MODIFIED="1738258402945">
+<node TEXT="Total Debt to equity" ID="ID_1554578524" CREATED="1738258403352" MODIFIED="1738258409946">
+<node TEXT="Total Liabilities /  Shareholders&apos; equity" ID="ID_1932327217" CREATED="1738258411623" MODIFIED="1738258428001"/>
+</node>
+<node TEXT="Long-term debt to equity" ID="ID_70651260" CREATED="1738258429407" MODIFIED="1738258437353">
+<node TEXT="Long-term Liability / Shareholders&apos; equity" ID="ID_1859164122" CREATED="1738258438216" MODIFIED="1738258454969"/>
+</node>
+<node TEXT="Times interest earned" ID="ID_99306001" CREATED="1738258457856" MODIFIED="1738258471121">
+<node TEXT=" Income Before Taxes and Interest Expense / Interest expense" ID="ID_1980451387" CREATED="1738258472080" MODIFIED="1738258510225"/>
+</node>
+</node>
+</node>
+<node TEXT="Profitability" ID="ID_1709487462" CREATED="1738258569696" MODIFIED="1738258615384">
+<node TEXT="Return on investment" ID="ID_1401074055" CREATED="1738258615839" MODIFIED="1738258622689">
+<node TEXT="ROA" ID="ID_959221279" CREATED="1738258812208" MODIFIED="1738258815962">
+<node TEXT="(Net Income + Interest expense x (1- tax rate)) / average total assets" ID="ID_1875872584" CREATED="1738258816784" MODIFIED="1738258872017"/>
+</node>
+<node TEXT="ROE" ID="ID_49320630" CREATED="1738258875808" MODIFIED="1738258878121">
+<node TEXT="Net Income / Average shareholders&apos; Equity" ID="ID_220289724" CREATED="1738258878569" MODIFIED="1738258899977"/>
+</node>
+</node>
+<node TEXT="Operating performance" ID="ID_1775782806" CREATED="1738258624072" MODIFIED="1738258662937">
+<node TEXT="Gross Profit Margin" ID="ID_1395404228" CREATED="1738258908576" MODIFIED="1738258916872">
+<node TEXT="(Sales - cost of sold) / sales" ID="ID_1925236667" CREATED="1738258920425" MODIFIED="1738258937297"/>
+</node>
+<node TEXT="Operating Profit margin" ID="ID_481974404" CREATED="1738258938944" MODIFIED="1738258980754">
+<node TEXT="Income from operation / sales" ID="ID_472876767" CREATED="1738258981111" MODIFIED="1738258999626"/>
+</node>
+<node TEXT="Net Profit margin" ID="ID_913046657" CREATED="1738258955232" MODIFIED="1738259006297">
+<node TEXT=" net income /sales" ID="ID_562584847" CREATED="1738259006824" MODIFIED="1738259012521"/>
+</node>
+</node>
+<node TEXT="asset utilization" ID="ID_615369555" CREATED="1738258665168" MODIFIED="1738258670585">
+<node TEXT="Cash Turnover" ID="ID_1265359825" CREATED="1738259101888" MODIFIED="1738259106650">
+<node TEXT="Sales /  Average cash and equivalent" ID="ID_723339430" CREATED="1738259108929" MODIFIED="1738259142202"/>
+</node>
+<node TEXT="AR Turnover" ID="ID_967211869" CREATED="1738259143672" MODIFIED="1738259149105">
+<node TEXT="Sales / average AR" ID="ID_751215146" CREATED="1738259149768" MODIFIED="1738259162585">
+<node TEXT="if decrease over time while collection period goes up" ID="ID_1754394074" CREATED="1738270805177" MODIFIED="1738270829175">
+<node TEXT="suggests less efficient management of AR" ID="ID_615501686" CREATED="1738270848902" MODIFIED="1738270851959"/>
+</node>
+</node>
+</node>
+<node TEXT="Inventory turnover" ID="ID_1901886169" CREATED="1738259164560" MODIFIED="1738259171162">
+<node TEXT="Cost of Sales / Average inventory" ID="ID_781287384" CREATED="1738259171857" MODIFIED="1738259184697">
+<node TEXT="if decrease over time" ID="ID_1566296143" CREATED="1738270897829" MODIFIED="1738270907503">
+<node TEXT="indicates slower inventory movement" ID="ID_1908027358" CREATED="1738270915150" MODIFIED="1738270921087">
+<node TEXT="potentially due to overstocking or slower sales" ID="ID_850072622" CREATED="1738270932013" MODIFIED="1738270935681"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Working Capital turnover" ID="ID_1459442681" CREATED="1738259189544" MODIFIED="1738259208050">
+<node TEXT="Sales /average working capital" ID="ID_519972315" CREATED="1738259209440" MODIFIED="1738259217818"/>
+</node>
+<node TEXT="PPE turnover" ID="ID_122809385" CREATED="1738259221280" MODIFIED="1738259225721">
+<node TEXT="Sales / Average PPE" ID="ID_74630445" CREATED="1738259226209" MODIFIED="1738259233386"/>
+</node>
+<node TEXT="Total asset turnover" ID="ID_733655316" CREATED="1738259236337" MODIFIED="1738259244257">
+<node TEXT="sales / average total assets" ID="ID_915327159" CREATED="1738259244952" MODIFIED="1738259265361"/>
+</node>
+</node>
+</node>
+<node TEXT="Needs" FOLDED="true" ID="ID_1186451004" CREATED="1738259593105" MODIFIED="1738259601881">
+<node TEXT="Total Current asset" ID="ID_577242486" CREATED="1738259682522" MODIFIED="1738259705042"/>
+<node TEXT="Total current liabilities" ID="ID_1986070706" CREATED="1738259717129" MODIFIED="1738259722602"/>
+<node TEXT="total Cash and cash equivalent" ID="ID_1089179354" CREATED="1738259739041" MODIFIED="1738259753905"/>
+<node TEXT="Marketable securities" ID="ID_729351486" CREATED="1738259758689" MODIFIED="1738259767313"/>
+<node TEXT="AR" ID="ID_161308482" CREATED="1738259768489" MODIFIED="1738259770017">
+<node TEXT="average AR" ID="ID_921282672" CREATED="1738259791480" MODIFIED="1738259798513"/>
+</node>
+<node TEXT="Total Sales" ID="ID_1553453727" CREATED="1738259800745" MODIFIED="1738259810649"/>
+<node TEXT="Inventory" ID="ID_761079319" CREATED="1738259812113" MODIFIED="1738259820586">
+<node TEXT="average Inventory" ID="ID_1823285537" CREATED="1738259821017" MODIFIED="1738259829385"/>
+</node>
+<node TEXT="total liabilities" ID="ID_1632322605" CREATED="1738259831625" MODIFIED="1738259842426"/>
+<node TEXT="Shareholder equity" ID="ID_138858503" CREATED="1738259844985" MODIFIED="1738259852113">
+<node TEXT="average" ID="ID_1846230543" CREATED="1738259979241" MODIFIED="1738259981826"/>
+</node>
+<node TEXT="Total long-term debt" ID="ID_760292001" CREATED="1738259859514" MODIFIED="1738259866178"/>
+<node TEXT="Interest expense" ID="ID_1508833539" CREATED="1738259867352" MODIFIED="1738259878009"/>
+<node TEXT="Income before tax and expense" ID="ID_1917135525" CREATED="1738259879033" MODIFIED="1738259904674"/>
+<node TEXT="Tax rate" ID="ID_920168827" CREATED="1738259907161" MODIFIED="1738259917130"/>
+<node TEXT="total asset" ID="ID_336471774" CREATED="1738259918449" MODIFIED="1738259926962">
+<node TEXT="average total asset" ID="ID_377335967" CREATED="1738259927617" MODIFIED="1738259932858"/>
+</node>
+<node TEXT="net icome" ID="ID_767304180" CREATED="1738259953513" MODIFIED="1738259962121"/>
+<node TEXT="Cost of sale(COGS)" ID="ID_1035664864" CREATED="1738259963281" MODIFIED="1738260002362"/>
+<node TEXT="income from operation" ID="ID_1634341072" CREATED="1738260004449" MODIFIED="1738260015346"/>
+<node TEXT="Working capital" ID="ID_524749820" CREATED="1738260016849" MODIFIED="1738260032009">
+<node TEXT="average" ID="ID_1180994829" CREATED="1738260032160" MODIFIED="1738260034889"/>
+</node>
+<node TEXT="net PPE" ID="ID_1181657544" CREATED="1738260050609" MODIFIED="1738260059314">
+<node TEXT="average" ID="ID_1567162227" CREATED="1738260059599" MODIFIED="1738260061290"/>
+</node>
+<node TEXT="current market stock price" ID="ID_1524983497" CREATED="1738260070080" MODIFIED="1738260093826"/>
+<node TEXT="EPS" ID="ID_700050827" CREATED="1738260094864" MODIFIED="1738260100378"/>
+<node TEXT="dividend" ID="ID_1605131815" CREATED="1738260101480" MODIFIED="1738260221666"/>
+<node TEXT="bok value per share" ID="ID_417643245" CREATED="1738260222776" MODIFIED="1738260236514"/>
+</node>
+</node>
+<node TEXT="Common-size analysis" ID="ID_1971274956" CREATED="1738263469986" MODIFIED="1738263480258">
+<node TEXT="Expressing financial statement items as percentages" ID="ID_1054650726" CREATED="1738263597270" MODIFIED="1738263599998"/>
+<node TEXT="Balance sheet items as % of total assets" ID="ID_1390606950" CREATED="1738263615052" MODIFIED="1738263619156"/>
+<node TEXT="Income statement items as % of net sales" ID="ID_1439147274" CREATED="1738263623138" MODIFIED="1738263639296"/>
+<node TEXT="Facilitates comparisons across companies of different sizes" ID="ID_1656322592" CREATED="1738263639515" MODIFIED="1738263641362"/>
+<node TEXT="Common Size Percentage" ID="ID_802920792" CREATED="1738264753803" MODIFIED="1738265204923">
+<icon BUILTIN="idea"/>
+<node TEXT="IS: (Item amount / sales ) x 100" ID="ID_1783936258" CREATED="1738264758155" MODIFIED="1738268571988">
+<node TEXT="Favorable Aspects" ID="ID_857820706" CREATED="1738264843851" MODIFIED="1738264845952">
+<node TEXT="Sales Growth:" ID="ID_491229567" CREATED="1738264855195" MODIFIED="1738264860134">
+<node TEXT="indicating strong revenue growth." ID="ID_713668681" CREATED="1738264874866" MODIFIED="1738264879793"/>
+</node>
+<node TEXT="Operating Efficiency:" ID="ID_1666425388" CREATED="1738265062715" MODIFIED="1738265064554">
+<node TEXT=" increase in operating expenses &lt;&lt; sale growth &gt;&gt; improved operational efficiency" ID="ID_726947374" CREATED="1738265078347" MODIFIED="1738265117052"/>
+</node>
+</node>
+<node TEXT="Unfavorable Aspects" ID="ID_1569338568" CREATED="1738265129715" MODIFIED="1738265131499">
+<node TEXT="Gross Profit Margin Decline:" ID="ID_1802986508" CREATED="1738265141083" MODIFIED="1738265144938">
+<node TEXT="indicating higher cost of goods sold relative to sales." ID="ID_1128582693" CREATED="1738265169052" MODIFIED="1738265174540"/>
+</node>
+<node TEXT="Net Income Margin Reduction:" ID="ID_1799677199" CREATED="1738265197355" MODIFIED="1738265199313">
+<node TEXT="suggesting reduced profitability" ID="ID_477456799" CREATED="1738265247346" MODIFIED="1738265249001"/>
+</node>
+</node>
+<node TEXT="Cost of Goods Sold Increase:" ID="ID_1793796291" CREATED="1738265253963" MODIFIED="1738265255977">
+<node TEXT="indicating potential issues with cost management or pricing strategy." ID="ID_1373836008" CREATED="1738265278908" MODIFIED="1738265284393"/>
+</node>
+</node>
+<node TEXT="BS: item amount / total assets x 100" ID="ID_1912328456" CREATED="1738268540373" MODIFIED="1738268562257">
+<node TEXT="Balance Sheet Composition:" ID="ID_574932832" CREATED="1738268934566" MODIFIED="1738268952371">
+<node TEXT="if AP continue to increase" ID="ID_1718008003" CREATED="1738268954685" MODIFIED="1738268965286">
+<node TEXT="indicating increased reliance on short-term credit" ID="ID_39873824" CREATED="1738268965628" MODIFIED="1738268992649"/>
+</node>
+<node TEXT="if inventory increased  and cash decrease" ID="ID_156864835" CREATED="1738268994883" MODIFIED="1738269023054">
+<node TEXT="possible shift towards less liquid assets contributes to the declining liquidity ratios." ID="ID_248302516" CREATED="1738269023405" MODIFIED="1738269050586"/>
+</node>
+<node TEXT="if long-term notes payable decreased overtime while retained earnings is up" ID="ID_388684551" CREATED="1738269108725" MODIFIED="1738269149068">
+<node TEXT="suggesting some internal financing of growth" ID="ID_696576652" CREATED="1738269151422" MODIFIED="1738269158035"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Specialized analysis tools" ID="ID_128852472" CREATED="1738263492635" MODIFIED="1738263499618">
+<node TEXT="Cash flow analysis" ID="ID_1596117761" CREATED="1738263675730" MODIFIED="1738263680552"/>
+<node TEXT="Earnings quality analysis" ID="ID_46905644" CREATED="1738263680779" MODIFIED="1738263686380"/>
+<node TEXT="Segment analysis" ID="ID_547809112" CREATED="1738263686458" MODIFIED="1738263691041"/>
+<node TEXT="Forecasting techniques" ID="ID_425447573" CREATED="1738263691243" MODIFIED="1738263700682"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="MT483" FOLDED="true" ID="ID_1192020377" CREATED="1737931317344" MODIFIED="1737931320198">
 <node TEXT=" Basics" FOLDED="true" ID="ID_1097801182" CREATED="1737964086615" MODIFIED="1738010878986">
 <node TEXT="Types of Investments" FOLDED="true" ID="ID_593856561" CREATED="1737964095103" MODIFIED="1737964097778">
-<node TEXT="stock" FOLDED="true" POSITION="bottom_or_right" ID="ID_1690779077" CREATED="1737883718561" MODIFIED="1737883721566">
+<node TEXT="stock" FOLDED="true" ID="ID_1690779077" CREATED="1737883718561" MODIFIED="1737883721566" POSITION="bottom_or_right">
 <node TEXT="Dividends" FOLDED="true" ID="ID_871132622" CREATED="1737965394940" MODIFIED="1737965396825">
 <node TEXT="Impact on stock values" ID="ID_1872139361" CREATED="1737965406386" MODIFIED="1737965411405"/>
 </node>
@@ -645,7 +950,7 @@
 </node>
 </node>
 </node>
-<node TEXT="mutual fund" POSITION="bottom_or_right" ID="ID_527786812" CREATED="1737883145523" MODIFIED="1737883156594"/>
+<node TEXT="mutual fund" ID="ID_527786812" CREATED="1737883145523" MODIFIED="1737883156594" POSITION="bottom_or_right"/>
 <node TEXT="bonds" FOLDED="true" ID="ID_1511930579" CREATED="1737964120165" MODIFIED="1737964121525">
 <node TEXT="Bond Fundamentals" FOLDED="true" ID="ID_1386716642" CREATED="1737966830125" MODIFIED="1737966832227">
 <node TEXT="Types of Bonds" FOLDED="true" ID="ID_509946083" CREATED="1737966838272" MODIFIED="1737966842599">
@@ -746,7 +1051,7 @@
 <node TEXT="Minimum return an investor expects" ID="ID_1034141472" CREATED="1737964882515" MODIFIED="1737964891472"/>
 </node>
 </node>
-<node TEXT="Return Calculations" FOLDED="true" POSITION="bottom_or_right" ID="ID_327808051" CREATED="1737964905041" MODIFIED="1737964908001">
+<node TEXT="Return Calculations" FOLDED="true" ID="ID_327808051" CREATED="1737964905041" MODIFIED="1737964908001" POSITION="bottom_or_right">
 <node TEXT="Dollar return" FOLDED="true" ID="ID_519628681" CREATED="1737964921210" MODIFIED="1737964925929">
 <node TEXT="Absolute gain or loss in monetary terms" ID="ID_961192087" CREATED="1737964948932" MODIFIED="1737964950069"/>
 </node>
@@ -925,26 +1230,26 @@
 </node>
 </node>
 </node>
-<node TEXT="Convertible bond" ID="ID_444268212" CREATED="1738008835919" MODIFIED="1738013800335">
-<node TEXT="stock price goes up" ID="ID_1692246448" CREATED="1738013801358" MODIFIED="1738013840420">
+<node TEXT="Convertible bond" FOLDED="true" ID="ID_444268212" CREATED="1738008835919" MODIFIED="1738013800335">
+<node TEXT="stock price goes up" FOLDED="true" ID="ID_1692246448" CREATED="1738013801358" MODIFIED="1738013840420">
 <node TEXT="the bond goes up" ID="ID_851093257" CREATED="1738013822893" MODIFIED="1738013850955"/>
 </node>
-<node TEXT="tradeoff" ID="ID_994520218" CREATED="1738014026762" MODIFIED="1738014031328">
+<node TEXT="tradeoff" FOLDED="true" ID="ID_994520218" CREATED="1738014026762" MODIFIED="1738014031328">
 <node TEXT="slightly lower interest rate than non-convertble" ID="ID_1144000813" CREATED="1738014031768" MODIFIED="1738014083691"/>
 </node>
 </node>
-<node TEXT="Tax-advantage" ID="ID_1588088055" CREATED="1738014298263" MODIFIED="1738014314538">
+<node TEXT="Tax-advantage" FOLDED="true" ID="ID_1588088055" CREATED="1738014298263" MODIFIED="1738014314538">
 <node TEXT="higher after-tax return" ID="ID_81915098" CREATED="1738014315620" MODIFIED="1738014329895"/>
 <node TEXT="reduce tax must pay" ID="ID_1980079202" CREATED="1738014333041" MODIFIED="1738014338328"/>
-<node TEXT="Municipal" ID="ID_1300040976" CREATED="1738014341880" MODIFIED="1738014352737">
+<node TEXT="Municipal" FOLDED="true" ID="ID_1300040976" CREATED="1738014341880" MODIFIED="1738014352737">
 <node TEXT="coupon payment not tax at federal level" ID="ID_588547889" CREATED="1738014397791" MODIFIED="1738014426895"/>
 </node>
 </node>
-<node TEXT="Investment strategies" ID="ID_1978464160" CREATED="1738017499397" MODIFIED="1738017512181">
+<node TEXT="Investment strategies" FOLDED="true" ID="ID_1978464160" CREATED="1738017499397" MODIFIED="1738017512181">
 <node TEXT=" Invest in high-risk assets near the end of a recession" ID="ID_902106971" CREATED="1738017536012" MODIFIED="1738017537892"/>
 <node TEXT="switch to safer assets near the end of economic booms" ID="ID_1033044077" CREATED="1738017564139" MODIFIED="1738017566807"/>
 <node TEXT="Avoid overreacting to economic ups and downs" ID="ID_529130261" CREATED="1738017608888" MODIFIED="1738017610986"/>
-<node TEXT="Past 15 Recessions (1926-2018)" ID="ID_968830513" CREATED="1738017689925" MODIFIED="1738017698567">
+<node TEXT="Past 15 Recessions (1926-2018)" FOLDED="true" ID="ID_968830513" CREATED="1738017689925" MODIFIED="1738017698567">
 <node TEXT="Average monthly stock market return was lower in the six months leading up to a recession" ID="ID_1757555041" CREATED="1738017765031" MODIFIED="1738017767383"/>
 <node TEXT="Stocks gained value in 8 out of 15 recessions" ID="ID_1217160013" CREATED="1738017916110" MODIFIED="1738017918205"/>
 </node>
