@@ -1,0 +1,11 @@
+docker logs -f openproject
+sudo mkdir -p /var/lib/openproject/{pgdata,assets}
+sudo chown 1000:1000 -R /var/lib/openproject
+docker run -d -p 8080:80 --name openproject \
+-e OPENPROJECT_SECRET_KEY_BASE=secret \
+-e OPENPROJECT_HOST__NAME=localhost:8080 \
+-e OPENPROJECT_HTTPS=false \
+-v /var/lib/openproject/pgdata:/var/openproject/pgdata \
+-v /var/lib/openproject/assets:/var/openproject/assets \
+--restart unless-stopped \
+openproject/openproject:15
