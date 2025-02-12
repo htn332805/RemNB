@@ -9,3 +9,15 @@ docker run -d -p 8080:80 --name openproject \
 -v /var/lib/openproject/assets:/var/openproject/assets \
 --restart unless-stopped \
 openproject/openproject:15
+07 top ifm
+08 top ifm
+15 top xfm
+16 top xfm
+06 middle ifm
+09 middle ifm
+12 bottom ifm
+13 bottom ifm
+14 inside ts
+17 fish
+26 everest1
+27 everest4
