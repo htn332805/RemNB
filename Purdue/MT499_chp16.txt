@@ -1,0 +1,958 @@
+CHAPTER 16
+Capital Structure Policy
+
+LEARNING OBJECTIVES
+
+Describe the two Modigliani and Miller propositions, the key assumptions underlying them, and their relevance to capital structure decisions. Use Proposition 2 to calculate the return on equity.
+Discuss the benefits and costs of using debt financing and calculate the value of the income tax benefit associated with debt.
+Describe the trade-off and pecking order theories of capital structure choice and explain what the empirical evidence tells us about these theories.
+Discuss some of the practical considerations that managers are concerned with when they choose a firm’s capital structure.
+At the end of 2020, the average publicly traded firm in the U.S. technology industry had debt obligations that represented less than 12 percent of the market value of its total capital. Some well-known technology firms, such as Alphabet, Facebook, and Square, actually had much more cash than debt. In other words, these companies could have paid off all their debt and still had cash left over!
+
+The capital structure policies at these technology firms stood in stark contrast to the corresponding policies of firms in most other industries. The average U.S. public company had debt obligations that represented about 20 percent of the market value of its total capital and were far greater than the firm’s cash balance. In fact, debt represented over 25 percent of the total capital at the average firm in a number of industries, such as building construction; air transportation; financial services (including banking); printing, publishing, and related industries; and paper and allied product manufacturers.
+
+The capital structure policies at firms reflect trade-offs between the benefits and the costs of using debt financing. For example, on the one hand, because interest payments are deductible when a firm calculates its taxable income, the low debt levels at technology firms means that they pay higher income taxes than they would if they had more debt. At the same time, these companies have more flexibility in reacting to changing economic or industry conditions because they have the ability to borrow more money. Such flexibility can help their managers reduce the impact of economic recessions on their businesses. It can also enable them to take advantage of unexpected opportunities and to survive unexpected competitive threats.
+
+What is apparent from the wide range of capital structures that we observe in public firms is that the appropriate capital structure for a particular firm depends on that firm’s characteristics. When it comes to capital structure policy, one size does not fit all. The appropriate mix of debt and equity financing differs across firms. Even within the same firm, it can change over time. We discuss the factors that affect a firm’s capital structure policy in this chapter.
+
+Chapter Preview
+In Chapter 15 we discussed how firms raise debt and equity capital to finance their investments. That discussion focused on individual sources of capital. In this chapter, we focus on the choice between various types of financing. In particular, we examine how a firm’s value is affected by the mix of debt and equity used to finance its investments and the factors that managers consider when choosing this mix. Managers use the concepts and tools discussed in this chapter to make financing decisions that create value for their stockholders.
+
+We begin with a discussion of two propositions that provide valuable insights into how the choice between debt and equity financing can affect the value of a firm and its cost of equity. These insights provide a framework that we then use to examine the benefits and costs associated with using debt financing. We next describe and evaluate two theories of how managers choose the appropriate mix of debt and equity financing. Finally, we discuss some of the practical considerations that managers say influence their choices.
+
+16.1 Capital Structure and Firm Value
+LEARNING OBJECTIVE
+
+Describe the two Modigliani and Miller propositions, the key assumptions underlying them, and their relevance to capital structure decisions. Use Proposition 2 to calculate the return on equity.
+As you know, a firm’s capital structure is the mix of debt and equity used to finance its activities. This mix will always include common stock and will often include debt and preferred stock. In addition, the same firm can have different types of common stock, debt, and preferred stock. The firm may have several classes of common stock, for example, with different voting rights and, possibly, different claims on the cash flows available to stockholders. The debt at a firm can be long term or short term, secured or unsecured, convertible or not convertible into common stock, and so on. Preferred stock can be cumulative or noncumulative and convertible or not convertible into common stock.1
+
+The fraction of the total financing that is represented by debt is a measure of the financial leverage in the firm’s capital structure. A higher fraction of debt indicates a higher degree of financial leverage. The amount of financial leverage in a firm’s capital structure is important because, as we discuss next, it affects the value of the firm.
+
+Building Intuition
+The Optimal Capital Structure Minimizes the Cost of Financing a Firm’s Activities
+
+The optimal capital structure for a firm is the capital structure that minimizes the overall cost of financing the firm’s portfolio of projects. Minimizing the overall cost of financing the firm’s projects maximizes the value of the firm’s free cash flows.
+
+The Optimal Capital Structure
+When managers at a firm choose a capital structure, their challenge is to identify the mix of securities that minimizes the cost of financing the firm’s activities. We refer to this mix as the optimal capital structure because the capital structure that minimizes the cost of financing the firm’s projects is also the capital structure that maximizes the total value of those projects and, therefore, the overall value of the firm.
+
+optimal capital structure the capital structure that minimizes the cost of financing a firm’s projects and thus maximizes the value of the firm
+
+You can see why the optimal capital structure maximizes the value of the firm if you think back to our discussions of NPV analysis for a single project. Recall that the incremental after-tax free cash flows we discount in an NPV analysis are not affected by the way a project is financed. There is no interest or principal payment in Equation 11.2:
+
+Recall also that the discount rate, or weighted average cost of capital (WACC), for a project accounts for the way that it is financed. The lower the cost of financing a project, the lower the discount rate and, therefore, the larger the present value of the free cash flows. This same idea applies for the total portfolio of projects in a firm. If the overall cost of financing those projects is lower, the present value of the total free cash flows they produce is larger.
+
+The Modigliani and Miller Propositions
+To understand what determines the optimal capital structure for a particular firm, it is necessary to understand the mechanisms through which financing decisions affect financing costs. The Modigliani and Miller (M&M) propositions provide essential insights into these mechanisms. These propositions, originally developed by Franco Modigliani and Merton Miller more than 50 years ago, are still very relevant today.2 We discuss them in this section and explore their implications throughout much of this chapter.
+
+M&M Proposition 1
+
+Modigliani and Miller’s Proposition 1, which we will denote as M&M Proposition 1, states that the capital structure decisions a firm makes will have no effect on the value of the firm if (1) there are no taxes, (2) there are no information or transaction costs, and (3) the real investment policy of the firm is not affected by its capital structure decisions. The real investment policy of the firm includes the criteria it uses in deciding which real assets (projects) to invest in. A policy to invest in all positive NPV projects is an example of a real investment policy. We will discuss each of the three conditions in detail later, but let’s first discuss the intuition behind M&M Proposition 1.
+
+real investment policy the policy relating to the criteria the firm uses in deciding which real assets (projects) to invest in
+
+Assume that a firm pays no taxes and that the present value of the free cash flows produced by the assets of the firm can be represented as a pie that is divided between the stockholders and the debt holders, as illustrated in Exhibit 16.1. The slice of the pie labeled VEquity represents the value of the cash flows to be received by the stockholders, and the slice labeled VDebt represents the value to be received by the debt holders.
+
+EXHIBIT 16.1 Capital Structure and Firm Value under M&M Proposition 1 The size of the pie represents the present value of the free cash flows that the assets of a firm are expected to produce in the future (VFirm). The sizes of the slices reflect the value of the total cash flows that the debt holders (VDebt) or stockholders (VEquity) are entitled to receive for three different capital structures. Under the three conditions identified by M&M, the total value of the cash flows to the debt holders and stockholders does not change, regardless of which capital structure the firm uses.
+
+
+From the discussion of the finance balance sheet in Chapter 13, we know that the market value of the debt plus the market value of the equity must equal the market value of the cash flows produced by the firm’s assets (VAssets). In practice, we also refer to VAssets as the firm value or the firm’s enterprise value (VFirm), which means that we can write Equation 13.1 as:
+
+firm value, or enterprise value the total value of the firm’s assets; it equals the value of the equity financing plus the value of the debt financing used by the firm
+
+(16.1)
+M&M Proposition 1 says that if the size of the pie (representing the present value of the free cash flows the firm’s assets are expected to produce in the future) is fixed, and no one other than the stockholders and the debt holders is getting a slice of the pie, then the combined value of the equity and debt claims does not change when you change the capital structure. You can see this in Exhibit 16.1, where each of the three pies represents a different capital structure. No matter how you slice the pie, the total value of the debt plus the equity remains the same. If the three conditions specified by M&M hold, the capital structure of the firm specifies how that pie is to be sliced, but it does not change the overall size of the pie or the combined size of the debt and equity slices.
+
+Building Intuition
+Capital Structure Choices Do Not Affect Firm Value If They Do Not Affect the Value of the Free Cash Flows to Investors
+
+Capital structure choices will not affect a firm’s value if all of the following three conditions exist: (1) there are no taxes, (2) there are no information or transaction costs, and (3) the way in which the firm is financed does not affect its real investment policy. This is M&M Proposition 1.
+
+Understanding M&M Proposition 1
+To help you better understand M&M Proposition 1, let’s consider its implications in the context of an example. Assume that the three conditions identified by M&M apply and consider a company, Millennium Motors, that is financed entirely with equity. Millennium Motors produces annual cash flows of $100, which are expected to continue forever. If the appropriate discount rate for Millennium’s cash flows is 10 percent, we can use the perpetuity model, Equation 6.3, to calculate the value of the firm:
+
+Since the firm is financed entirely with equity, the equity is also worth $1,000. Suppose that the management of Millennium Motors is considering changing its capital structure from $1,000 (100 percent) equity to $800 (80 percent) equity and $200 (20 percent) debt. The company would accomplish this change by selling $200 worth of perpetual bonds and paying the $200 to stockholders through a one-time special dividend.
+
+The change that Millennium is contemplating is an example of a financial restructuring. A financial restructuring is a combination of financial transactions that changes the capital structure of the firm without affecting its real assets. These transactions might involve issuing debt and using the proceeds to repurchase stock or to pay a dividend, or selling stock and using the proceeds to repay debt. No new money is actually being invested in the firm.
+
+financial restructuring a combination of financial transactions that changes the capital structure of the firm without affecting its real assets
+
+Now suppose that you are currently the only investor in Millennium—you own 100 percent of the outstanding stock—and that the firm would have to pay 5 percent interest on the debt after the restructuring. If the restructuring took place, you would immediately receive a $200 special dividend. After that, each year you would be entitled to the $90 that is left over after the $10 interest payment on the bonds.3
+
+M&M showed that if you, as an investor, decide that you do not like the effect the restructuring would have on your cash flows, management could go ahead with the restructuring and you could undo its effect on the cash flows you receive by making offsetting trades in your personal investment account. To undo the effects of Millennium’s proposed financial restructuring, you would simply use the entire $200 special dividend to buy all of the perpetual bonds the firm issues. From that point forward, you would receive the first $10 that the firm earns each year as an interest payment on your bonds. In addition, you would receive any remaining cash flows because you would still own 100 percent of the stock. Just as before the restructuring, you would be receiving all of the cash flows generated by the firm. Only now, instead of receiving all of those cash flows as dividends, you would receive some cash in the form of interest payments.
+
+What if Millennium Motors had more than one stockholder? It wouldn’t matter—the result would be the same. For instance, if you owned only 10 percent of the firm’s equity before the restructuring, you could still undo the change by using your special dividend to purchase 10 percent of the bonds. You would receive the same cash flows after the restructuring as you did before.
+
+Furthermore, M&M Proposition 1 suggests that transactions such as those we have described need not be used to undo a financial restructuring that the firm undertakes—investors can also use them to create their own restructuring. For example, as before, suppose you own 100 percent of the stock in Millennium Motors. This time, however, let’s assume that management has no intention of adding debt to the firm’s capital structure, but that you wish they would. You would like management to alter the capital structure so that it would include 80 percent equity and 20 percent debt and pay you a $200 special dividend.
+
+You could easily produce the same effect by making trades in your investment account that would alter your cash flows. You could borrow $200 at a 5 percent interest rate and pay the interest on the debt out of the annual cash flows you receive from the company. Of course, in order for this transaction to exactly duplicate a similar restructuring by the firm, you would have to be able to borrow at the same interest rate as the firm.4 If you borrowed at the same rate, your cash flows would be exactly the same as if Millennium Motors had borrowed the money and paid you the special dividend. You would receive $200 from the loan today, and you would have $90 left over each year after you paid interest on that loan.
+
+Learning by Doing Application 16.1 illustrates another example of how an investor can undo the effects of a financial restructuring.
+
+LEARNING BY DOING APPLICATION 16.1
+Undoing the Effects of a Financial Restructuring on Your Own
+
+Problem
+
+You own 5 percent of the stock in a company that is financed with 80 percent equity and 20 percent debt. Like Millennium Motors, the company generates cash flows of $100 per year before any interest payments and has a total value of $1,000. Management has announced plans to increase the proportion of debt in the firm’s capital structure from 20 percent to 30 percent by borrowing $100 and paying a special dividend equal to that amount. Assume that the interest rate on debt is 5 percent regardless of how much debt the company has. How can you undo the effect of the financial restructuring on the cash flows that you receive in your personal account? Show that when you do this, your cash flows after the restructuring are the same as they were before.
+
+
+
+
+
+Conclusion from M&M Proposition 1
+As our examples illustrate, in perfect financial markets—markets in which the three conditions specified in M&M Proposition 1 hold—investors can make changes in their own investment accounts that will replicate the cash flows for any capital structure that the firm’s management might choose or that they might desire. Since investors can do this on their own, they are not willing to pay more for the stock of a firm that does it for them. Therefore, the value of the firm will be the same regardless of its capital structure. This is true because changes in capital structure will not change the total value of the claims that debt holders and stockholders have on the cash flows—which is the point of M&M Proposition 1 and is illustrated in the pie diagrams of Exhibit 16.1.
+
+M&M Proposition 2
+
+Under the three conditions outlined in M&M Proposition 1, a firm’s capital structure does not affect the value of the firm’s real assets. That’s because capital structure decisions do not affect the level, timing, or risk of the cash flows produced by those assets. Although the risk of the cash flows produced by the assets does not change with changes in the firm’s capital structure, the risk of the equity claims on those cash flows—and therefore the required return on equity—does change. M&M’s Proposition 2 states that the cost of (required return on) a firm’s common stock is directly related to the debt-to-equity ratio.5 To see why, let’s return to the WACC formula, Equation 13.7:
+
+If there are no taxes, as M&M Proposition 1 assumes, then t = 0 and Equation 13.7 is:
+
+Furthermore, if we assume (for simplicity) that the firm has no preferred stock, then this equation can be simplified further:
+
+(16.2)
+where xDebt + xcs = 1.
+
+Since, under the M&M Proposition 1 conditions, capital structure choices do not affect the risk of the cash flows produced by a firm’s assets, the WACC does not change with the firm’s capital structure. The reason is that, as a weighted average of the cost of debt and the cost of equity, the WACC reflects the riskiness of the cash flows generated by the firm’s assets (kAssets). Now if we recognize that the proportions of debt and equity in the firm’s capital structure are calculated as:
+
+and
+
+where VDebt is the dollar value of the debt and Vcs is the dollar value of the common stock, we can write Equation 16.2 as follows:
+
+Finally, using some algebra, we can rearrange this equation to solve for k cs in terms of kAssets and kDebt. We find that:
+
+(16.3)
+Equation 16.3 is M&M’s Proposition 2, which shows that the cost of (required return on) a firm’s common stock is directly related to the debt-to-equity ratio. You can see this in the equation by noting that as the ratio VDebt /Vcs increases on the right-hand side, kcs will increase on the left-hand side. We have demonstrated this relation assuming that a firm has only common stock outstanding. However, you can rest assured that it also holds if the firm also has preferred stock outstanding.6
+
+Building Intuition
+The Cost of Equity Increases with Financial Leverage
+
+The required rate of return on a firm’s equity (cost of equity) increases as its debt-to-equity ratio increases. This is M&M Proposition 2.
+
+Understanding M&M Proposition 2
+We can think of the two terms on the right-hand side of Equation 16.3 as reflecting two sources of risk in the cash flows to which stockholders have a claim. The first source of risk is the underlying risk of the assets. This risk is reflected in the required return on the firm’s assets (kAssets) and is known as the business risk of the firm. It is the risk associated with the characteristics of the firm’s assets (projects).
+
+business risk the risk in the cash flows to stockholders that is associated with uncertainty due to the characteristics of the firm’s assets
+
+The second source of risk, which is reflected in the second term, is the capital structure of the firm. The capital structure determines the financial risk, which reflects the effect that financing decisions have on the riskiness of the cash flows that the stockholders will receive. The more debt financing a firm uses, the greater the financial risk. As you know from our earlier discussions, debt holders have the first claim on the cash flows produced by the assets. Interest and principal payments must be made before any cash can be distributed to the stockholders. Therefore, the larger the proportion of debt in a firm’s capital structure, the larger the interest and principal payments, and the greater the uncertainty associated with the cash flows to which the stockholders have a claim.
+
+financial risk the risk in the cash flows to stockholders that is due to the way in which the firm’s assets have been financed
+
+If we assume that a firm’s net income is a reasonable measure of the cash flows to which stockholders have a claim, then we can use the simple income statement in Exhibit 16.2 to illustrate the distinction between business and financial risk.7 The exhibit shows that business risk is associated with the operations of the business. If you think of business risk as the systematic risk associated with operating profits, and you recall the discussion of operating leverage in Chapter 12, you can see that a firm’s business risk reflects the systematic variation in (1) unit sales, (2) unit prices, (3) the costs of producing and selling the firm’s products, and (4) the degree of operating leverage in the production process.8 Financial risk, in contrast, is associated with required payments to a firm’s lenders. The total risk of the cash flows that the stockholders have a claim to depends on both the business risk and the financial risk.
+
+EXHIBIT 16.2 Relations between Business Risk, Financial Risk, and Total Equity Risk
+
+The total risk associated with the cash flows that stockholders are entitled to receive reflects the risk related to the firm’s assets (business risk) and the risk related to the way those assets are financed (financial risk). (We assume here that net income is a reasonable measure of these cash flows.)
+
+EXHIBIT 16.3 Illustration of Relations between Business Risk, Financial Risk, and Total Risk
+
+The exhibit shows how a decrease in revenue affects net income (total equity risk) for four different combinations of debt financing (financial risk) and operating leverage (business risk). In columns 1 and 2, we see the effect on a firm with no debt and low operating leverage; in columns 3 and 4, no debt and high operating leverage; in columns 5 and 6, debt and low operating leverage; and in columns 7 and 8, debt and high operating leverage. As you can see, total equity risk, represented by the percent drop in net income, is greater when operating leverage is higher (for example, compare columns 1 and 2 with columns 3 and 4) and when a firm has financial risk (for example, compare columns 1 and 2 with columns 5 and 6). Furthermore, financial risk magnifies operating risk (for example, compare columns 3 and 4 with columns 7 and 8).
+
+ 	No Financial Risk		Financial Risk
+ 	Low Operating Leverage	High Operating Leverage		Low Operating Leverage	High Operating Leverage
+Column	  1  	  2  	  3  	  4  	 	  5  	  6  	  7  	  8  
+Fixed costs as a percent of total costs	  20%		  60%		 	  20%		  60%	
+Interest expense	$0.00		$0.00		 	$15.00		$15.00	
+Before	After	Before	After	 	Before	After	Before	After
+   Revenue	$100.00	$80.00	$100.00	$80.00	 	$100.00	$80.00	$100.00	$ 80.00
+− Cost of goods sold (VC)	    60.00	   48.00	   30.00	   24.00	 	   60.00	   48.00	   30.00	   24.00
+   Gross profit	$ 40.00	$32.00	$ 70.00	$56.00	 	$ 40.00	$32.00	$ 70.00	$ 56.00
+− Selling, general, & admin. (FC)	   15.00	   15.00	   45.00	   45.00	 	   15.00	   15.00	   45.00	   45.00
+   Operating profits	$ 25.00	$17.00	$ 25.00	$11.00	 	$ 25.00	$17.00	$ 25.00	$ 11.00
+− Interest expense	     0.00	     0.00	     0.00	     0.00	 	   15.00	   15.00	   15.00	   15.00
+   Earnings before tax	$ 25.00	$17.00	$ 25.00	$11.00	 	$ 10.00	$ 2.00	$ 10.00	−$4.00
+− Income taxes (28%)	     7.00	     4.76	     7.00	     3.08	 	     2.80	     0.56	     2.80	     1.12
+   Net income	$ 18.00	$12.24	$ 18.00	$ 7.92	 	$ 7.20	$ 1.44	$ 7.20	−$2.88
+Percent change in net income		−32%		−56%	 		−80%		−140%
+The numerical example in Exhibit 16.3 illustrates the distinction between business risk and financial risk and shows how they combine to determine total equity risk. Consider a firm that sells recreational vehicles and that has the income statement illustrated in column 1. The firm has $100 in revenue; costs of goods sold of $60; and selling, general, and administrative expenses of $15. If we assume that costs of goods sold are all variable costs (VC) and that selling, general, and administrative expenses are all fixed costs (FC), 80 percent [$60/($60 + $15) = 0.80, or 80 percent] of the total costs at this firm are variable costs and 20 percent [$15/($60 + $15) = 0.20, or 20 percent] are fixed. This cost structure, combined with variation in unit sales, the unit pricing, and the costs of producing and selling the firm’s products, determines the business risk of the firm. Looking farther down the income statement in column 1, we can see that the firm has no interest expense, which means that it has no debt. In other words, this firm has no leverage and therefore no financial risk.
+
+Now suppose that the price of gasoline increases significantly, causing a drop in the demand for recreational vehicles and a 20 percent decline in revenue, from $100 to $80. Column 2 in Exhibit 16.3 shows that net income would decline to $12.24 (you should verify this calculation), which is a 32 percent decrease [($12.24 − $18.00)/$18.00 = −0.32, or −32 percent] from the net income in column 1. Since the firm has no debt, and we are assuming that the only change in costs is the reduction in variable costs that occurs when fewer units are sold, this change reflects only the decrease in revenue and the operating leverage of the firm.
+
+If the firm had greater operating leverage, the decline in net income would be even larger. For example, in columns 3 and 4, we show the income statements for a company that has fixed costs representing only 60 percent [$45/($30 + $45) = 0.60, or 60 percent] of total costs and that has no debt. In this case, a 20 percent decline in net revenue results in a 56 percent [($7.92 − $18.00)/$18.00 = −0.56, or −56 percent] decline in net income, illustrating how greater operating leverage magnifies changes in revenue even more.
+
+Next, consider a firm with the income statement presented in column 5. This firm is exactly like the one in column 1 except that it uses some debt financing. You can see that it has an annual interest expense of $15. If revenue drops by 20 percent, the net income of the firm in column 5 will drop by 80 percent [($1.44 − $7.20)/$7.20 = −0.80, or −80 percent]. Thirty-two percent of the decline is due to the nature of the business (remember that it is just like the business in columns 1 and 2), and the remaining 48 percent is due to the use of debt financing. The financial risk magnifies the effect of the operating leverage on net income.
+
+Columns 7 and 8 show that if a firm with the same cost structure as the firm in column 3 had to make a $15 interest payment, the decline in net income would increase from 56 percent to 140 percent—a difference of 84 percent! The examples in columns 5 through 8 illustrate why the proportion of debt in a firm’s capital structure is called financial leverage.9 Just as fixed operating costs create operating leverage, fixed-interest costs create financial leverage, which magnifies the effect of changes in revenue on the bottom line of the income statement. This is why the risk and, as M&M told us in their Proposition 2, the cost of common stock increases with financial leverage.
+
+Using M&M Proposition 2 to Calculate the Return on Equity
+M&M Proposition 2 can be used to calculate the cost of common stock following a financial restructuring. To see how this is done, let’s return to the Millennium Motors example.
+
+Before the restructuring, the return on equity for Millennium Motors was the same as the return on assets, 10 percent. We know this because the firm used 100 percent equity financing, which means that the stockholders received all of the cash flows produced by the assets.
+
+After the proposed restructuring, however, the firm would be financed with 20 percent debt and 80 percent common equity. The return on assets would still be 10 percent, and as noted earlier, the return on the debt would be 5 percent. From Equation 16.3, we know that the cost of equity will be:
+
+The financial restructuring would increase the cost of equity from 10 percent to 11.25 percent.
+
+Note, too, that if you (as the only investor in Millennium Motors) had offset the effect of the restructuring by using the $200 special dividend to purchase all of the bonds, then the expected return on your combined portfolio would be (0.2 × 0.05) + (0.8 × 0.1125) = 0.10, or 10 percent, just as it was before the restructuring. Again, the restructuring would not change the riskiness of the firm’s real assets or the value of those assets.
+
+Learning by Doing Application 16.2, on the next page, presents another example of calculating the cost of common stock using M&M Proposition 2.
+
+How the Costs of Assets, Debt, and Equity Change with Leverage
+Exhibit 16.4 illustrates M&M Proposition 2 by plotting the cost of common stock (kcs) against the debt-to-equity ratio. Recall from Equation 16.3 that kcs equals kAssets if the firm uses no debt financing (VDebt /Vcs = 0) and has no preferred stock. In Figure A of the exhibit, you can see that these costs both equal 10 percent if the firm has no leverage in this example. Equation 16.3 also tells us that as the debt-to-equity ratio increases from zero, the cost of equity will increase by (VDebt /Vcs)(kAssets − kDebt). This increase is illustrated by the blue upward-sloping line.
+
+LEARNING BY DOING APPLICATION 16.2
+Using M&M Proposition 2 to Calculate kcs
+
+Problem
+
+The required rate of return on the assets of Tempe Technologies is 8 percent, the firm has a debt-to-common-stock ratio of 30 percent, and the cost of debt is 5 percent. If the firm has no preferred stock and the three conditions specified by M&M hold, what is the expected rate of return on the firm’s common stock?
+
+
+
+
+
+EXHIBIT 16.4 Illustrations of M&M Proposition 2 The costs of assets, common stock, and debt for different debt-to-equity ratios. Figure A assumes that the cost of debt remains constant, and Figure B assumes that the cost of debt increases with leverage. The cost of assets, which is the return that investors require to compensate them for business risk, does not change with leverage. As M&M Proposition 2 tells us, the cost of common stock increases with leverage.
+
+
+Figure A in Exhibit 16.4 assumes that the cost of debt will remain 5 percent regardless of the amount of debt financing that the firm uses. Figure B in the exhibit shows a more realistic plot of how the costs of assets, debt, and equity change with the debt-to-equity ratio. The key things to understand about the plot in Figure B are that (1) both the cost of debt and the cost of equity increase as the debt-to-equity ratio increases and (2) the cost of debt increases at an increasing rate. We explain why the cost of debt increases as it does in the next section.
+
+What the M&M Propositions Tell Us
+
+M&M provided elegant analyses of how capital structure choices are related to firm value and how financial leverage affects the cost of equity. They recognized, however, that the three conditions underlying their analyses are unrealistic. Firms do pay taxes, there are information and transaction costs, and as you will see soon, financing decisions do affect the real investment policies of firms. The value of the M&M analysis is that it tells us exactly where we should look if we want to understand how capital structure affects firm value and the cost of equity. If financial policy matters, it must be because (1) taxes matter, (2) information or transaction costs matter, or (3) capital structure choices affect a firm’s real investment policy. We discuss each of these possibilities in the next section.
+
+Before You Go On
+What is the optimal capital structure for a firm?
+What is M&M Proposition 1? M&M Proposition 2?
+What is the difference between business risk and financial risk?
+How can the three conditions specified by M&M help us understand how the capital structure of a firm affects its value?
+
+An Excel model called “Leverage” will help you calculate the impact of leverage on a company’s earnings. Find this model on Matt Evans’s Web site at www.exinfm.com/free_spreadsheets.html
+
+
+You can see what the Nobel Prize selection committee said about Professors Modigliani and Miller if you visit the economics page on the Nobel Prize Web site at www.nobelprize.org
+
+16.2 The Benefits and Costs of Using Debt
+LEARNING OBJECTIVE
+
+Discuss the benefits and costs of using debt financing and calculate the value of the income tax benefit associated with debt.
+There are both benefits and costs associated with using debt to finance the purchase of assets. Studies suggest that for very low levels of debt (relative to equity), the marginal benefits of adding more debt outweigh the marginal costs, and the use of more debt reduces the firm’s WACC. However, as the amount of debt in the firm’s capital structure increases, the marginal costs become greater and eventually begin to outweigh the marginal benefits. The point at which the marginal costs just equal the marginal benefits is the point at which the WACC is minimized. Understanding the location of this point requires an understanding of the costs and benefits and how they change with the amount of debt used by a firm. In this section, we use the framework provided by the three M&M conditions to discuss the benefits and costs of debt.
+
+The Benefits of Debt
+We have noted that including debt in the capital structure has advantages for a firm. We now discuss these benefits in detail.
+
+Interest Tax Shield Benefit
+
+The most important benefit from including debt in a firm’s capital structure stems from the fact that, as we discussed in Chapter 13, firms can deduct interest payments for tax purposes, but cannot deduct dividend payments.10 This makes it less costly to distribute cash to investors through interest payments than through dividends.
+
+To understand the implications of the tax deductibility of interest payments for firm value, let’s return to the pie analogy in Exhibit 16.1. If we relax the M&M assumption that firms pay no taxes, while assuming that the other two M&M conditions still apply, the pie is now cut into three slices instead of two. In addition to the slices for debt holders and stockholders, there is now a tax slice for the government.
+
+Exhibit 16.5 illustrates the new situation. As shown in the pie on the left, if the firm is financed entirely with equity, there is no interest expense, the firm pays taxes on all of the income from operations, and the value of the firm equals the present value of the after-tax cash flows that the stockholders have a right to receive. Now if the firm uses debt, some of the income from operations will be tax deductible, and the tax slice—the present value of the taxes the firm must pay—will be smaller than in the first pie. This is illustrated for one level of debt in the second pie and for an even greater level of debt in the third pie. Note that the value of the firm, which equals the combined values of the debt and equity slices, increases as the tax slice gets smaller.
+
+Just how large is the value of the interest tax shield? Suppose a firm has fixed perpetual debt equal to D dollars, on which it pays an annual interest rate of kDebt. The total dollar amount of interest paid each year—and, therefore, the amount that will be deducted from the firm’s taxable income—is D × kDebt. This will result in a reduction in taxes paid of D × kDebt × t, where t is the firm’s marginal tax rate that applies to the interest expense deduction.
+
+To put this tax reduction in perspective, consider a firm that has no debt and annual earnings before interest and taxes, EBIT, of $100, which is expected to remain constant in perpetuity. Because the firm has no debt, it currently pays taxes equal to 28 percent of EBIT. Management is considering borrowing $1,000 at an interest rate of 5 percent. If the firm borrows the money, it will thus pay interest of $50 each year.
+
+EXHIBIT 16.5 Capital Structure and Firm Value with Taxes Leverage can increase the value of a firm when interest payments are tax deductible but dividend payments are not. The pie on the left represents a firm financed entirely with equity. The slice labeled VTaxes 1 reflects the proportion of the cash flows from operations that this firm pays in taxes. The two pies to the right illustrate how the value of the cash flows paid in taxes decreases as leverage is increased. By reducing the fraction paid in taxes, leverage increases the value of the firm in these examples.
+
+
+The after-tax earnings for the firm without the debt equal $72 [$100 × (1 − 0.28) = $72], and the taxes paid by the firm equal $28 ($100 × 0.28 = $28). If the firm borrows the $1,000, its after-tax earnings will be $36 [($100 − $50) × (1 − 0.28) = $36], and it will pay taxes of $14 [($100 − $50) × 0.28 = $14]. The new debt will reduce the taxes that the firm pays each year by $14 (D × k Debt × t = $1,000 × 0.05 × 0.28 = $14). The total cash flows to the government, the stockholders, and the debt holders in each situation are as follows:
+
+No Debt	After $1,000 Loan
+Government (taxes)	$ 28.00	$ 14.00
+Stockholders	   72.00	   36.00
+Debt holders	     0.00	   50.00
+Total	$100.00	$100.00
+How much is the reduction in taxes worth? If we assume the annual dollar value of the tax reduction will continue in perpetuity, we can use Equation 6.3, the perpetuity model, to calculate the present value of the tax savings from debt:
+
+All we need now is the appropriate discount rate. In this case, it is reasonable to assume that the appropriate discount rate equals the 5 percent cost of debt. This is a reasonable assumption because we know that the discount rate should reflect the risk of the cash flow stream that is being discounted. Since the firm will benefit from the interest tax shield only if it is able to make the required interest payments, the cash savings associated with the tax shield are about as risky as the cash flow stream associated with the interest payments. This implies that the value of the future tax savings is:
+
+If you look closely at this calculation, you will see that $280 is exactly equal to the product of the $1,000 that the firm would borrow and its 28 percent tax rate (D × t). In other words:
+
+(16.4)
+This is because kDebt is in both the numerator and the denominator in the formula and cancels out.
+
+You can see in the above example that the value of the interest tax shield increases with the amount of the debt that a firm has outstanding and with the size of the corporate tax rate. More debt or a higher tax rate implies a larger benefit.
+
+It is important to recognize that the income tax benefit we calculated using the perpetuity model is an upper limit for this value. This is true for several reasons. The perpetuity model assumes that (1) the firm will continue to be in business forever, (2) the firm will be able to realize the tax savings in the years in which the interest payments are made (the firm’s EBIT will always be at least as great as the interest expense), and (3) the firm’s tax rate will remain at 28 percent. As we note in Appendix C, which is available in your ebook or Wiley Course Resources, the 2017 Tax Cuts and Jobs Act also limits the deduction of pre-tax interest expense to 30 percent of EBITDA or EBIT. This can result in a further reduction in the value of the income tax benefit of debt for some firms.
+
+In the real world, each of these conditions is likely to be violated. While a corporation has an indefinite life, the fact is that corporations go out of business. Of course, at that point the tax benefit ends. Even firms that do not go out of business are unlikely to realize the full benefit of the tax shield. Firms occasionally have poor operating performance, which can prevent them from realizing the benefit of the interest deduction in the year when the payment is made. In such cases, firms often must carry the tax loss forward and apply it to earnings in a future year. Carrying a tax deduction forward reduces its value by pushing it further into the future. Finally, even if the firm is profitable, the effective tax rate can fall below 28 percent because earnings are lower than expected or the firm has other deductions that reduce the value of the interest tax shield.
+
+You might be asking yourself, too, whether it is reasonable to assume that a firm will borrow money forever. As we discussed in Chapter 13, it is reasonable to assume that the long-term borrowings by firms will be in place as long as the firm is in business. While the specific debt instruments used by firms are not perpetuities, firms do tend to roll over their maturing debt by borrowing new money to make required principal payments. Doing this replaces maturing debt with new debt, thereby leaving the amount of debt for the firm unchanged. As long as a firm does not shrink, prompting it to pay down some of its debt, and as long as the firm does not currently have too much debt, long-term debt can be considered permanent.
+
+The value of the interest tax shield adds to the total value of a firm. In other words, the value of a firm with debt equals the value of that firm without debt plus the present value of the interest tax shield. If only the tax condition, from among the three conditions identified by M&M, is violated, the more debt a firm has, the more it will be worth. This is illustrated in Exhibit 16.6, where we plot the value of a firm with debt, a financially leveraged firm, against the proportion of the firm’s total capital represented by debt.
+
+To illustrate how taxes affect firm value, let’s return to the initial Millennium Motors example. This time, we will assume that the company must pay corporate taxes equal to 28 percent of its taxable income. As before, the firm is financed entirely with common stock, and management is considering changing its capital structure by selling a $200 perpetual bond with an interest rate of 5 percent and paying a one-time special dividend of $200. The firm produces annual cash flows of $100, and the appropriate discount rate for these cash flows is 10 percent. What is the value of the firm without any debt, and what will the value be if the restructuring is completed?
+
+We begin by calculating the value of Millennium Motors without any debt. If the entire $100 in pretax cash flows that the firm generates is taxable, Millennium’s after-tax cash flows will equal $72 per year [$100 × (1 − 0.28) = $72]. Using the perpetuity formula, we find that the value of the unleveraged firm is $720 ($72/0.10 = $720) with a 10 percent discount rate.
+
+We next calculate the value of the interest tax shield that would accompany the new debt. This value is $56 (D × t = $200 × 0.28 = $56). The total value of the firm after the restructuring is equal to the value of the unleveraged firm plus the value of the tax shield. In this case, that is $776 ($720 + $56 = $776).
+
+EXHIBIT 16.6 How Firm Value Changes with Leverage When Interest Payments Are Tax Deductible and Dividends Are Not The value of a firm increases with leverage when interest payments are tax deductible and dividend payments are not, and when the second and third M&M conditions apply; there are no information or transaction costs and that the real investment policy of the firm is not affected by its capital structure decisions.
+
+
+We can also calculate the WACC for Millennium Motors after the financial restructuring using Equation 13.7. To do so, we must first calculate the value of the equity (VEquity). In this case, since we know from Equation 16.1 that VFirm = VEquity + VDebt, we can calculate the value of the equity to be $576 (VEquity = VFirm − VDebt = $776 − $200 = $576). Since we also know that the cash flows available to stockholders after the restructuring will equal $64.80 [($100.00 − $10.00) × (1 − 0.28) = $64.80], we can calculate the required return on equity to be 11.25 percent ($64.80/$576.00 = 0.1125). This is the same number we got when we used Equation 16.3. With these values, we are now ready to calculate the WACC:
+
+As Exhibit 16.4 illustrates, the cost of common stock increases with the amount of debt in the firm’s capital structure. In this example, it goes from 10 percent to 11.25 percent. However, with the interest tax deduction, the WACC actually decreases from 10 percent (recall that the cost of equity equals the WACC for a firm with no debt) to 9.28 percent.
+
+When we perform the same calculations for other potential debt levels at Millennium, we see how the value of the firm increases and the WACC decreases as the amount of debt in the capital structure increases. This is illustrated in Exhibit 16.7 for levels of debt ranging from $0 to $800.
+
+You should note several other points concerning Exhibit 16.7. First, we do not show the calculations for a firm with 100 percent debt because all firms must have some common equity. Second, the payments to investors and the firm value increase as the amount of debt financing increases. This is because the size of the government’s slice of the pie gets smaller. Third, for simplicity, we assume that the cost of debt remains constant. However, even though the cost of equity increases, the WACC decreases. This decrease is entirely due to the interest tax shield. Finally, while the value of the firm under each scenario is calculated as we have illustrated, you can confirm the answer by noting that the firm value for each capital structure equals the payments to investors for the unleveraged firm, $65, divided by the WACC. The payments to investors for the unleveraged firm are used in this calculation, regardless of the firm’s capital structure, because, as was the case for project analysis, the effects of capital structure choices are reflected in the discount rate rather than the cash flows.
+
+EXHIBIT 16.7 The Effect of Taxes on the Firm Value and WACC of Millennium Motors
+
+The value of Millennium Motors increases and its WACC decreases with the amount of debt in the capital structure. The calculations assume that the cost of debt remains constant regardless of the amount of leverage and that the second and third M&M conditions apply.
+
+Total debt
+          $0	      $200	      $400	      $600	      $800
+Cost of debt	    5.00%	    5.00%	    5.00%	    5.00%	    5.00%
+EBIT	$100.00	$100.00	$100.00	$100.00	$100.00
+Interest expense	         —	    10.00	    20.00	    30.00	    40.00
+Earnings before taxes	$100.00	$ 90.00	$ 80.00	$ 70.00	$ 60.00
+Taxes (28%)	   28.00	   25.20	   22.40	   19.60	   16.80
+Net income	$ 72.00	$ 64.80	$ 57.60	$ 50.40	$ 43.20
+Dividends	$ 72.00	$ 64.80	$ 57.60	$ 50.40	$ 43.20
+Interest payments	        —	   10.00	   20.00	   30.00	   40.00
+Payments to investors	$ 72.00	$ 74.80	$ 77.60	$ 80.40	$ 83.20
+Value of equity	$720.00	$576.00	$432.00	$288.00	$144.00
+Cost of equity	  10.00%	  11.25%	  13.33%	  17.50%	  30.00%
+Firm value	$720.00	$776.00	$832.00	$888.00	  944.00
+WACC	 10.00%	   9.28%	   8.65%	   8.11%	    7.63%
+Learning by Doing Application 16.3 presents another example of how debt affects firm value and WACC.
+
+LEARNING BY DOING APPLICATION 16.3
+Calculating the Effect of Debt on Firm Value and WACC
+
+Problem
+
+Up to this point, you have financed your pizza chain entirely with equity. You have heard about the tax benefit associated with using debt financing and are considering borrowing $1 million at an interest rate of 6 percent to take advantage of the interest tax shield. You do not need the extra money in the business, so you will distribute it to yourself through a special dividend. You are the only stockholder.
+
+Your pizza business generates taxable (pretax) cash flows of $300,000 each year and pays taxes at a rate of 25 percent; the cost of assets, kAssets (which equals kcs for your unleveraged firm), is 10 percent. What is the value of your firm without debt, and how much would $1 million of debt increase its value if you assume that all cash flows are perpetuities and that the second and third M&M conditions hold (that is, there are no information or transaction costs and the real investment policy of the firm is not affected by its capital structure decisions)? Also, what would the WACC for your business be before and after the proposed financial restructuring?
+
+
+
+
+
+We can also show that with taxes the cost of equity can be written as:
+
+(16.5)
+From Learning by Doing Application 16.3, we calculate the kcs as
+
+which is the same value that we had previously.
+
+Decision Making Example 16.1 shows how a change in the tax rate can affect a firm’s capital structure.
+
+DECISION MAKING EXAMPLE 16.1
+Capital Structure and Tax Rates
+
+Situation
+
+You are the chief financial officer at Maricopa Manufacturing Company in Phoenix, Arizona. The company is currently financed with 30 percent debt and 70 percent equity. Maricopa’s chief lobbyist in Washington, D.C., just told you that she expects the federal government will increase the corporate income tax rate from 21 percent to 28 percent beginning next year. What action should you take with regard to Maricopa’s capital structure?
+
+
+
+Other Benefits
+
+Any firm that must pay taxes can benefit from the interest tax shield. Not surprisingly, most financial managers cite it as a major benefit from using debt in a firm’s capital structure.
+
+Although the tax benefit is important, you should be aware of other benefits. For example, it is less expensive to issue debt than to issue stock. Underwriting spreads and out-of-pocket costs are more than three times as large for stock sales as they are for bond sales. Recall from Chapter 15 (in Exhibit 15.6) that a firm raising between $25.0 million and $49.9 million will typically pay 7.09 percent of the amount raised to sell stock, but only 1.63 percent of the amount raised to sell bonds—a substantial difference. This benefit is related to the second of the three conditions identified by M&M. Issuance costs are a form of transaction costs. If there were no transaction costs, then debt issues would not have this cost advantage.
+
+Another benefit associated with using debt financing is that debt provides managers with incentives to focus on maximizing the firm’s cash flows. Unlike dividends, which are discretionary, interest and principal payments must be made when they are due. Because managers must make these payments or face the prospect of bankruptcy, the use of debt puts pressure on managers to focus on the efficiency of the business. Because a bankruptcy filing can destroy a manager’s career, managers will work very hard to avoid letting this happen. Providing managers with these incentives can increase the overall value of the firm.
+
+Finally, debt can be used to limit the ability of bad managers to waste the stockholders’ money on things such as private corporate jets, plush offices, and other negative NPV projects that benefit the managers personally. It does this by forcing managers to distribute excess cash to the investors.
+
+The benefits arising from providing managers with incentives to focus on the cash flows generated by their firms and limiting their ability to make poor investments are related to the second and third conditions identified by M&M. These benefits are related to information and transaction costs because if investors had enough information to know whether managers were doing the right thing, or if it were reasonably inexpensive to provide the managers with pay packages that gave them incentives to do the right thing on their own, there would be no such benefits from debt. The benefits also relate directly to the M&M condition that capital structure decisions do not affect the real investment policies of the firm. The whole point of using debt to limit the investments managers can make is to change firms’ real investment policies so that managers focus on investing in only positive NPV projects.
+
+The Costs of Debt
+We have discussed several benefits associated with using debt. If this were the whole story, choosing the optimal capital structure would be straightforward. More debt would imply a higher firm value, and financial managers would use as much debt as possible. In other words, a plot of a firm’s value against the proportion of debt in its capital structure would look like the upward-sloping line in Exhibit 16.6. Managers would try to move their firms’ capital structures as far to the right as possible, and we would expect to see firms using as close to 100 percent debt financing as possible.
+
+Recall, however, that the debt of the average public firm represents only about 20 percent of the value of the firm. The fact that this number is so much lower than 100 percent raises a question: Is it just that financial managers do not understand the benefits of debt, or is something else going on? As you might suspect, the answer to this question is that financial managers are pretty smart and are limiting the amount of debt in their firms’ capital structures for some very good reasons. Offsetting the benefits of debt are costs, and these costs can be quite substantial at high levels of debt.
+
+Exhibit 16.8 illustrates how the costs of using debt combine with the benefits to result in an optimal capital structure that includes less than 100 percent debt. At low levels of debt, the benefits are greater than the costs, and adding more debt increases the overall value of the firm. However, at some point the costs begin to exceed the benefits, and adding more debt financing destroys firm value. Financial managers want to add debt just to the point at which the value of the firm is maximized.
+
+The costs of using debt fall into two general categories: bankruptcy costs and agency costs.
+
+Bankruptcy Costs
+
+Bankruptcy costs, also referred to as costs of financial distress, are costs associated with financial difficulties that a firm might get into because it uses debt financing. The term bankruptcy costs is used rather loosely in capital structure discussions to refer to costs incurred when a firm gets into financial distress. Financial distress occurs when a firm is not able to make all of the interest and principal payments that it owes its lenders. A financially distressed firm might subsequently enter into a formal legal bankruptcy process, such as those under Chapter 11 or Chapter 7 of the U.S. bankruptcy code, but not all financially distressed firms will do this. Consequently, as you will see shortly, firms can incur the bankruptcy costs discussed in this section even if they never actually file for bankruptcy.
+
+bankruptcy costs, or costs of financial distress costs associated with financial difficulties a firm might experience because it uses debt financing
+
+EXHIBIT 16.8 Trade-Off Theory of Capital Structure The benefits and costs of debt combine to affect firm value. For low levels of debt, adding more debt to a firm’s capital structure increases firm value because the additional (marginal) benefits are greater than the additional (marginal) costs. However, at some point, which is the point at which the value of the firm is maximized, the costs of adding more debt begin to outweigh the benefits, and the value of the firm decreases as more debt is added. The difference between the upward-sloping line and the curved line reflects the costs associated with debt.
+
+
+Direct Bankruptcy Costs
+Direct bankruptcy costs are out-of-pocket costs that a firm incurs as a result of financial distress. These costs include fees paid to lawyers, accountants, and consultants. One of the first actions a firm’s management takes when the firm gets into financial distress is to initiate negotiations with its lenders to defer its interest and principal payments. This deferment can give management more time to correct whatever went wrong with the firm’s operations that made it difficult to make interest and principal payments in the first place. Lawyers are experienced in assisting in these negotiations and in writing the necessary legal documents. Additional accounting support often becomes necessary to satisfy demands for information from lenders and to help management figure out what went wrong. Consultants might be hired to help identify and implement changes to improve the firm’s performance. In some cases, the bankruptcy process can take over a year. The costs of hiring all of these people are included in direct bankruptcy costs. For example, accountants, lawyers, and other professionals providing services in the Lehman Brothers bankruptcy were reportedly paid more than $2.2 billion in fees, while for the General Motors bankruptcy it was $110 million (which one expert suggested was astonishingly low given the size of the company!). Since the probability of financial distress increases with the amount of debt that a firm uses, the expected size of these costs increases with leverage, driving up the interest rate that investors charge the firm for its debt. Investors charge a higher interest rate when the expected value of direct bankruptcy costs increases because the payment of these costs is likely to come out of the cash flows that they would otherwise receive.
+
+direct bankruptcy costs out-of-pocket costs that a firm incurs when it gets into financial distress
+
+You might be asking yourself why the lenders to a firm would defer interest and principal payments. After all, pushing these payments further into the future reduces the present value of the payments that the lenders are promised. The reason is simple: it can cost lenders even more if they refuse to work with management and the firm is forced to file for bankruptcy. Once a firm files for bankruptcy, legal fees increase because the firm must hire attorneys to help with the bankruptcy process, and accounting fees increase because the bankruptcy process will require the firm to generate even more information. In addition, the firm must reimburse the court for the costs that it incurs. By negotiating with management up front, the lenders might be able to help the firm avoid incurring the costs associated with the formal bankruptcy process. This leaves more value in the firm, which can be used to satisfy the lenders’ claims.
+
+Direct bankruptcy costs are a form of transaction costs that must be incurred to facilitate negotiations with lenders and to navigate the bankruptcy process. The second condition identified by M&M—that there are no transaction and information costs—assumes that these transaction costs do not exist. Because the costs do exist, they tend to offset, at least to some extent, the benefits associated with debt. In fact, researchers have estimated that direct bankruptcty costs can amount to as much as 3 to 5 percent of firm value. Although these costs are substantial, they are not large enough on their own to cause the firm value curve to turn downward in the manner illustrated in Exhibit 16.8.
+
+Indirect Bankruptcy Costs
+Indirect bankruptcy costs are costs associated with changes in the behavior of people who deal with a firm when it becomes financially distressed. The interests of many people who deal with a firm are normally similar to those of the stockholders—they all want to maximize the firm’s value. However, when a firm gets into financial distress, the interests of these people begin to differ, and the actions they take to protect their interests often reduce firm value.
+
+indirect bankruptcy costs costs associated with changes in the behavior of people who deal with a firm when the firm gets into financial distress
+
+For example, suppose a firm’s products come with warranties or require after-sales service or parts (automobiles, for example) and it becomes known that the firm is having financial difficulties. Some of this firm’s potential customers will decide to purchase a competitor’s products because of concerns that the firm will not be able to honor its warranties or that parts or service will not be available in the future. Other customers will demand a lower price to compensate them for these risks. In either case, the firm’s revenues will decline below what they would otherwise have been. Indeed, when automaker SAAB was about to file for bankruptcy, new SAAB vehicles were being offered at record-low prices as dealers struggled to sell their inventory.
+
+When suppliers learn that a firm is in financial distress, they worry about not being paid. They can do little about goods they have already shipped, but to protect against losses for future shipments, they often begin to require cash on delivery. In other words, they will deliver supplies only if the firm pays cash for them. This requirement can be devastating for a financially distressed firm because such a firm typically does not have much cash. For example, if a retailer, like a department store, cannot pay cash for its merchandise, the amount of merchandise on the shelves in its stores will decline over time. Customers will not be able to find what they want, and they will respond by shopping at competitors’ stores. This will cause revenues to decline even faster than they might otherwise have. In the worst case, suppliers’ demands for cash payments can force a firm to stop operating altogether.
+
+Employees at a distressed firm worry that their jobs or benefits are in danger, and some start looking for new jobs. The loss of highly skilled employees can reduce the value of the firm, especially if they take jobs with direct competitors. Even when employees do not leave, their productivity will often decline because the firm’s problems lead to lower morale and distractions.
+
+Like direct bankruptcy costs, indirect bankruptcy costs are transaction costs that would not exist under the second condition identified by M&M. They are transaction costs because they represent costs incurred in the course of contracting with the people who deal with the firm.
+
+If the firm enters into the formal bankruptcy process, it incurs another indirect bankruptcy cost. This cost stems from the fact that the bankruptcy judge must approve all of the firm’s major investments. Bankruptcy judges are responsible for representing the interests of the creditors and tend to be more conservative than the stockholders would like. This results in a change in the firm’s real investment policy and a violation of the third M&M condition.
+
+Building Intuition
+People Behave Differently toward a Firm in Financial Distress, and This Increases Bankruptcy Costs
+
+When a firm gets into financial distress, the people who deal with the company take actions to protect their interests. These actions often contribute to the firm’s problems because when the firm is financially distressed, the interests of customers, suppliers, and employees, among others, differ from those of stockholders.
+
+The nature of indirect bankruptcy costs differs from company to company. For example, loss of skilled workers is more damaging to a technology firm than to a retailer. Potential customers of an auto manufacturer worry a lot more about the implications of financial distress than potential customers of a company that makes T-shirts, whereas suppliers are concerned in both of these cases. In spite of these differences, indirect bankruptcy costs are often very substantial and are reflected in the interest rates that firms must pay. Researchers have estimated that indirect bankruptcy costs range from 10 to 23 percent of firm value, suggesting that they can be large enough to offset the interest tax shield benefit of debt.
+
+It is worth stressing that indirect bankruptcy costs occur at absolutely the worst time for a firm. The point at which a firm gets into financial distress is the point at which it can benefit most from the support of people who deal with it. However, this is exactly when it is often in the best interests of those people to provide less support and, in many cases, abandon the firm. The associated changes in behavior can accelerate the firm’s deterioration and push it into formal bankruptcy.
+
+Agency Costs
+
+The managers and stockholders of a firm also often behave in ways that reduce a firm’s value when the firm becomes financially distressed. The resulting costs are a type of agency cost. You may recall from Chapter 1 that agency costs result from conflicts of interest between principals and agents. In agency relationships, one party, known as the principal, delegates decision-making authority to another party, known as the agent. The agent is expected to act in the interest of the principal. However, agents’ interests sometimes conflict with those of the principal.
+
+To better understand agency costs, consider the following example. Suppose you own a start-up that delivers food from local restaurants to area businesses during lunch hours. You want to go on vacation for a week, so you offer a friend $500 to make the scheduled deliveries for your business while you are gone. If your friend accepts the arrangement, you have entered into a principal–agent relationship. You advise your friend before you leave town that it is essential that the deliveries be made on time to ensure the quality of the food. Unfortunately, this is final exam week for your friend, and she is over an hour late in delivering several of the orders scheduled during the week of your vacation. Because of the late service, two of the restaurants that have been regular customers have informed you that they will no longer be using you for their deliveries, costing you a lot of future income. These losses are an example of agency costs, as they arose because you delegated decision-making authority to your friend, and she acted in her best interest rather than yours.
+
+Stockholder–Manager Agency Costs
+Stockholders hire managers to manage the firm on their behalf. In this relationship, managers receive considerable decision-making authority. While the board of directors approves major decisions and monitors the performance of the managers on behalf of the stockholders, managers still make many decisions that the board never observes. To the extent that the managers’ incentives are not perfectly identical to those of the stockholders, managers will make some decisions that benefit themselves at the expense of the stockholders.
+
+As we saw in our discussion of the benefits of debt, a firm’s use of debt financing can help align the interests of managers with those of stockholders. Using debt financing provides managers with incentives to focus on maximizing the firm’s cash flows and limits the ability of bad managers to waste the stockholders’ money on negative NPV projects. These benefits amount to reductions in the agency costs associated with the principal–agent relationship between stockholders and managers.
+
+Although the use of debt financing can reduce agency costs, it can also increase these costs by altering the behavior of managers. Managers often have a high proportion of their wealth riding on the success of the firm, through their stockholdings, future income, and reputations. Consequently, they tend to prefer less risk than stockholders who hold more diversified portfolios. As you know, the use of debt increases the volatility of a firm’s earnings and the probability that the firm will get into financial difficulty. This increased risk causes managers to make more conservative decisions. For example, managers of firms with more financial leverage will have greater incentives to turn down positive NPV projects with high risk than otherwise similar managers at firms with less leverage. Similarly, managers at highly financially leveraged firms will prefer to distribute fewer profits to stockholders because earnings retained as cash provide a buffer against possible bankruptcy. These types of actions reduce the overall value of the firm for stockholders and are examples of agency costs associated with the use of debt financing.
+
+Recall that the third M&M condition is that the use of debt financing does not affect the firm’s real investment policy. To the extent that using debt financing causes managers to turn down high-risk positive NPV projects and distribute fewer earnings, however, financing decisions do affect real investment policies. Leverage provides managers with incentives to invest in lower-risk positive NPV projects rather than in all positive NPV projects. It also provides them with incentives to retain excess earnings. They might even have incentives to invest some of the excess retained earnings in low-risk negative NPV projects. The fact that managers may act in this way is another reason that debt financing affects the value of the firm.
+
+Stockholder–Lender Agency Costs
+A principal–agent relationship also exists between lenders and stockholders. When investors lend money to a firm, they delegate authority to the stockholders to decide how that money will be used. The lenders expect that the stockholders, through the managers they appoint, will invest the money in a way that enables the firm to make all of the interest and principal payments that have been promised. However, stockholders may have incentives to use the money in ways that are not in the best interests of the lenders.
+
+For example, stockholders might decide that instead of investing the money to grow the firm, they will distribute it to themselves as a dividend. In the U.S. corporate system, the liability of stockholders is limited to the amount of money they have invested in the firm. Since loans that are made to a corporation are contracts between the lenders and the corporation, not the stockholders, paying such a dividend reduces the resources in the firm that are available to repay the lenders and therefore the value of the lenders’ claims. Unless the dividend violates the loan agreement or otherwise violates the law, the lenders have no way to get that money back. This is an example of what we call a wealth transfer from the lenders to the stockholders. Wealth has been transferred because the stockholders have made themselves better off at the expense of the lenders.
+
+Lenders know that stockholders have incentives to distribute some or all of the funds that they borrow as dividends. To protect themselves against this sort of behavior, lenders often include provisions in loan agreements that limit the ability of stockholders to pay dividends. However, these provisions are not entirely foolproof. Stockholders can be very innovative in transferring wealth from lenders to themselves.
+
+For example, in October 1992 Marriott Corporation had a substantial amount of debt that had been borrowed to build new hotels. The economy was in a recession, and there was growing concern about the ability of Marriott to make all of its promised interest and principal payments. If the company defaulted, the stockholders stood to lose a good deal of the value of their stock.
+
+In response to this situation, Marriott management announced a spin-off in which the company would be split into two separate companies. After the spin-off, stockholders would own one share of stock in each of the two new companies for every share that they had owned in the original company. While spin-offs are quite common, this one was unique in that the company was spinning off its most profitable businesses into one company and leaving much of its debt, some real estate, and a small operating business in the other. The spin-off effectively reduced the value of the assets that the lenders would have to rely on to receive their interest and principal payments while reducing the assets that the stockholders could lose if there was a default. When the spin-off was announced, the market value of Marriott’s public bonds decreased 16.51 percent, or $333.3 million, while the market value of Marriott’s outstanding stock increased by $236.3 million.11 The increase in the value of the stock represented a wealth transfer from the lenders to the stockholders. In addition, the fact that the value of the debt went down more than the value of the equity increased suggests that the capital markets did not like this transaction: the total value of the firm (debt plus equity) went down.
+
+Notice that when we talk about stockholder–lender agency costs, we assume that managers do exactly what the stockholders would like them to do. However, in the discussion of stockholder–manager agency costs, we saw that managers are not always so cooperative. This results in some conflicting possibilities with respect to how financial leverage affects managers’ decisions. For example, in a firm that uses debt financing, managers prefer to invest in low-risk projects, whereas diversified stockholders prefer high-risk projects. Stockholders will pressure managers to invest in riskier projects, but whether stockholders get what they want will depend on how strong the corporate governance system is in the firm.
+
+To better understand the nature of the conflict between stockholders and lenders, consider the following example. Suppose a firm has $50 million invested in 10 percent risk-free bonds that will pay $55 million in one year. The firm also has one-year debt on which $50 million of interest and principal will be due when it matures in a year. In other words, this firm is solvent and will be able to repay its debt, but the equity will be worth only $5 million at the end of the year, since this is all that will be left over after the lenders are paid.
+
+Now suppose that the stockholders decide to sell the risk-free bonds and invest in a project that has a 50 percent chance of returning $95 million in one year and a 50 percent chance of returning only $15 million. Instead of receiving $50 million with no risk, the lenders now face a 50 percent chance of receiving the $50 million they are owed, and a 50 percent chance of receiving only $15 million. The value that the lenders expect to receive is $32.5 million:
+
+This amount is $17.5 million less than the $50 million that the lenders expected to receive when the firm held the risk-free bonds. The value that the stockholders expect to receive, on the other hand, has increased by $17.5 million, from $5 million to $22.5 million:
+
+The change to riskier assets has resulted in a $17.5 million wealth transfer. This is known as the asset substitution problem. Once a loan has been made to a firm, the stockholders have an incentive to substitute more risky assets for less risky assets.
+
+asset substitution problem the incentive that stockholders in a financially leveraged firm have to substitute more risky assets for less risky assets
+
+Under certain circumstances, stockholders will actually have incentives to invest in risky negative NPV projects. To see how this can happen, assume that the stockholders in our example sell the $50 million of risk-free bonds and invest the proceeds in a project that has a 50 percent chance of returning $70 million and a 50 percent chance of returning $10 million. The expected return on the $50 million investment is $40 million [(0.50 × $70) + (0.50 × $10) = $40 million]. This is a negative NPV project. However, the value that the stockholders can expect to receive is $10 million—twice as much as the $5 million they could expect to receive when the firm owned the risk-free bonds:
+
+The lenders bear the $15 million loss in firm value ($55 million − $40 million = $15 million), and they pay for the $5 million gain to the stockholders. The lenders now expect to receive $20 million less than the $50 million they would have received if the risk-free bonds had not been sold:
+
+A situation similar to that just described confronted stockholders of firms in the U.S. savings and loan industry in the mid-1980s. Many small savings and loan firms had a very high ratio of debt to equity and faced the possibility that they would have to file for bankruptcy. With little to lose, managers at savings and loan firms, who were often also large stockholders, started making very risky real estate loans with high rates of interest. They knew that if the loans were repaid, their firms would avoid bankruptcy and the stockholders would realize much of the benefit. If the loans were not repaid, the government, which insured all of the deposits used to finance the loans, would have to bear the loss. Ultimately, these sorts of investments led to what became known as the savings and loan crisis.
+
+Stockholders of financially distressed firms can also have incentives to turn down positive NPV projects. This situation is known as the underinvestment problem. It occurs in a financially distressed firm when the value that is created by investing in a positive NPV project is likely to go to the lenders instead of the stockholders. For example, as of 2018 some companies in the oil industry with very high debt levels needed more cash to explore for, and extract from, potentially profitable oil and gas reserves. Given their poor financial condition, they could not raise more debt, and stockholders would not provide more equity to fund these investments, as any profits would go to paying the debt holders.
+
+underinvestment problem the incentive that stockholders in a financially leveraged firm have to turn down positive NPV projects when the firm is in financial distress
+
+To see how this can happen, suppose that a company has debt with a face value of $50 million outstanding and that the value of the company’s assets is $32.5 million. If the assets of this financially distressed firm were sold today, the lenders would receive $32.5 million, and the stockholders would receive nothing. Now suppose that the managers of the firm identify a project that requires a $5 million investment and will return $17.5 million tomorrow with no risk. Since the firm is distressed, management will have to sell stock to raise the $5 million required for this investment. Does it make sense for the stockholders to make the investment?
+
+The answer is no, because if the stockholders invest the $5 million, they can expect to get nothing back if the firm is subsequently sold. Both the $5 million that the stockholders invest and the $12.5 million NPV ($17.5 million − $5 million = $12.5 million) from the project will go to the lenders. Instead of receiving $32.5 million, the lenders will receive $50 million, and the stockholders will be out $5 million. This example illustrates why, in the real world, financially distressed businesses have a very difficult time raising equity capital.
+
+It is important to note that without financial leverage, there would be no asset substitution or underinvestment problems. Stockholders would always want to invest in positive NPV projects and reject negative NPV projects regardless of their risk.
+
+Lenders know that debt provides stockholders with incentives to alter their firms’ investment policies to engage in asset substitution and to turn down positive NPV projects. However, it is difficult to write contracts that protect lenders against this sort of behavior. Therefore, as with any other risk that they cannot eliminate, lenders compensate by increasing the interest rate that they charge. This increases the cost of adding more debt to a firm’s capital structure.
+
+The fact that there are a number of different benefits and costs associated with the use of debt financing suggests that managers will balance, or trade off, the benefits against the costs when they choose a firm’s capital structure. We discuss this idea along with an alternative theory for how managers choose their firms’ capital structures in the next section.
+
+Before You Go On
+What are some benefits of using debt financing?
+What are bankruptcy costs, and what are the two types of bankruptcy costs?
+What are agency costs, and how are they related to the use of debt financing?
+
+Learn more about the savings and loan crisis of the 1980s at www.fdic.gov/bank/historical/s&l
+
+16.3 Two Theories of Capital Structure
+LEARNING OBJECTIVE
+
+Describe the trade-off and pecking order theories of capital structure choice and explain what the empirical evidence tells us about these theories.
+How do managers choose the capital structures for their firms? Next, we consider two theories that attempt to explain how this choice is made: the trade-off theory and the pecking order theory.
+
+The Trade-Off Theory
+The trade-off theory of capital structure states that managers choose a specific target capital structure based on the trade-offs between the benefits and the costs of debt. This target capital structure is the capital structure that maximizes the value of the firm, as illustrated in Exhibit 16.8.
+
+trade-off theory the theory that managers trade off the benefits against the costs of using debt to identify the optimal capital structure for a firm
+
+Underlying the trade-off theory is the idea that when a firm uses a small amount of debt financing, it receives the interest tax shield and possibly some of the other benefits we discussed. Since leverage is low and the chances that the firm will get into financial difficulties are also low, the costs of debt are small relative to the benefits, and firm value increases. However, as more and more debt is added to the firm’s capital structure, the marginal costs of debt increase and eventually reach the point where the cost associated with the next dollar that is borrowed equals the benefit. Beyond this point, the costs of adding additional debt exceed the benefits, and any additional debt reduces firm value. The trade-off theory of capital structure says that managers will increase debt to the point at which the costs and benefits of adding another dollar of debt are exactly equal because this is the capital structure that maximizes firm value.
+
+The Pecking Order Theory
+The trade-off theory makes intuitive sense, but there is another popular theory of how the capital structures of firms are determined. This is known as the pecking order theory. The pecking order theory recognizes that different types of capital have different costs and that this leads to a pecking order in the financing choices that managers make. Managers choose the least expensive capital first then move to increasingly costly capital when the lower-cost sources of capital are no longer available.
+
+pecking order theory the theory that when financing projects, managers first use retained earnings, which they view as the least expensive form of capital, then debt, and finally externally raised equity, which they view as the most expensive
+
+Under the pecking order theory, managers view internally generated funds, or cash on hand, as the cheapest source of capital.12 Debt is more costly to obtain than internally generated funds but is still relatively inexpensive. In contrast, raising money by selling stock can be very expensive. As we saw in Exhibit 15.6, the out-of-pocket costs of selling equity are much higher than the comparable costs for bonds. In addition, the filings required by government agencies, such as the SEC, are greater, and the stock market tends to react negatively to announcements that firms are selling stock. When firms announce that they will sell stock, their stock prices often decline because such sales can be interpreted as evidence that the firms are not profitable enough to fund their investments internally. Of course, a lower stock price reduces the value of everyone’s shares and makes future stock issues even more costly, since more shares will have to be sold to raise the same dollar amount.
+
+The pecking order theory says that firms use internally generated funds as long as they are available. Following that, they tend to borrow money to finance additional projects until they are no longer able to do so because of restrictions in loan agreements or until high interest rates make debt unattractive. Only then will managers choose to sell equity. Notice that the pecking order theory does not assume that managers have a target capital structure. Rather, it implies that the capital structure of a firm is, in some sense, a by-product of the firm’s financing history.
+
+The Empirical Evidence
+At this point, you might be asking yourself what we know about how capital structures are determined in the real world. A great deal of research has been done in this area, and the evidence supports both of the theories we have just described. When researchers compare the capital structures in different industries, they find evidence that supports the trade-off theory. Industries with a great many tangible assets, such as the air transportation and printing, publishing, and related industries, typically use relatively large amounts of debt. In contrast, industries with more intangible assets and numerous growth opportunities, such as the computer and drug industries, use relatively little debt. What accounts for this difference? In part, the difference exists because indirect bankruptcy costs and stockholder–lender agency costs tend to be lower in industries with more tangible assets. The assets in these industries have higher liquidation values, and it is more difficult for stockholders to engage in asset substitution. Exhibit 16.9 shows the variation in capital structures across a sample of industries.
+
+EXHIBIT 16.9 Average Capital Structures for Selected Industries in 2019
+
+This table shows average capital structures for different U.S. industries in 2019. The industries are arranged in order of declining debt-to-firm value ratios, where firm value is estimated as the market value of equity plus the book value of debt. Industries with a great many tangible assets, such as the air transportation and printing, publishing, and related industries, tend to have larger debt-to-firm value ratios.
+
+Industry Description	Number of Firms	Debt/Firm Value
+Air transportation	  40	0.45
+Printing, publishing, and related industries	  34	0.39
+Communications (including telephone companies)	149	0.39
+Gas, electric, and sanitary services	182	0.36
+Food stores	  20	0.35
+Paper and allied product manufacturesrs	  32	0.33
+Building construction	  58	0.33
+Financial services	760	0.31
+Transportation equipment (including automobiles)	119	0.28
+Furniture and fixture manufacturers	  24	0.24
+Food manufacturers	116	0.20
+Electronic and other electrical equipment (including computer) manufacturers	317	0.15
+Business service companies	665	0.14
+Chemicals and allied products (including drug companies)	936	0.11
+Source: Estimated by authors using data from the Standard and Poor’s Compustat database.
+Some researchers argue that, on average, debt levels appear to be lower than the trade-off theory suggests they should be. Firms pay large amounts of taxes that could be reduced through the use of more debt financing, even though their current capital structures are such that they face little possibility of financial distress. For example, in 2019 the technology firms listed in the opener to this chapter each held cash and short-term securities that exceeded the face value of all of their interest-bearing debt. These firms pay out a great deal of money each year in taxes and yet do not use long-term debt to reduce their tax liability.
+
+More general evidence also indicates that the more profitable a firm is, the less debt it tends to have. This is exactly opposite what the trade-off theory suggests we should see. Under the trade-off theory, more profitable firms pay more taxes, so they should use more debt to take advantage of the interest tax shield. Instead, this evidence is consistent with the pecking order theory. Highly profitable firms have plenty of cash on hand that can be used to finance their projects, and this reduces their need for debt financing.
+
+The pecking order theory is also supported by the fact that, in an average year, public firms actually repurchase more shares than they sell. Moreover, in the United States, internally generated funds represent the largest source of financing for new investments, and debt represents the largest source of external financing.
+
+Both the trade-off theory and the pecking order theory offer some insights into how managers choose the capital structures for their firms. However, neither of them is able to explain all of the capital structure choices that we observe. The truth is that capital structure decisions are very complex, and it is difficult to characterize them with a single general theory. In the next section, we briefly discuss some of the practical issues that managers say they consider when they make capital structure decisions.
+
+Before You Go On
+What is the trade-off theory of capital structure?
+What is the pecking order theory of capital structure?
+What does the empirical evidence tell us about the two theories?
+
+To read more about the pecking order theory of capital structure, visit the Corporate Finance Institute’s discussion at www.corporatefinanceinstitute.com/resources/knowledge/finance/pecking-order-theory/
+
+16.4 Practical Considerations in Choosing a Capital Structure
+LEARNING OBJECTIVE
+
+Discuss some of the practical considerations that managers are concerned with when they choose a firm’s capital structure.
+When managers talk about capital structure choices, their comments are sprinkled with terms such as financial flexibility, risk, and earnings impact. Managers don’t think only in terms of a trade-off or a pecking order. Rather, they are concerned with how their financing decisions will influence the practical issues that they must deal with when managing a business.
+
+For example, financial flexibility is an important consideration in many capital structure decisions. Managers must ensure that they retain sufficient financial resources in the firm to take advantage of unexpected opportunities and to overcome unforeseen problems. In theory, if a positive NPV investment becomes available, managers should be able to obtain financing for it. Unfortunately, financing might not be available at a reasonable price for all positive NPV projects at all times. For example, it might be difficult to convince investors that a project is as good as management thinks it is. As a result, investors may require too high a return, making the project’s NPV negative and causing the firm to pass up a good opportunity. Similarly, if the firm does not have enough financial flexibility, an unforeseen problem might end up being more costly than it should be. To see how this might happen, suppose that a firm’s major manufacturing facility is destroyed by a hurricane. Insurance would eventually cover much of the loss, but by the time the insurance settlement is received, the company might be out of business. In such a case, cash is needed immediately to help employees so that key skills are not lost and to relocate or start rebuilding as quickly as possible.
+
+Managers are also concerned about the impact of financial leverage on the volatility of the firm’s net income. Most businesses experience fluctuations in their operating profits over time, and we know that fixed interest payments magnify fluctuations in operating profits, thereby causing even greater variation in net income. Managers do not like volatility in reported net income because it causes problems in their relationships with outside investors, who do not like unpredictable earnings. Furthermore, as we have seen, if a firm is too highly leveraged, it runs a greater risk of defaulting on its debt, which can lead to all sorts of bankruptcy and agency costs. Managers use the term risk to describe the possibility that normal fluctuations in operating profits will lead to financial distress. They try to manage their firms’ capital structures in a way that limits the risk to a reasonable level—one that allows them to sleep at night.
+
+A third factor that managers think about when they choose a capital structure is the impact of financial leverage on the size of the firm’s earnings per share. The interest expense associated with debt financing reduces the reported dollar value of net income. However, depending on the market value of the firm’s stock, using debt instead of equity to finance a project can increase the reported dollar value of earnings per share. Many managers are very concerned about the earnings per share that their firms report because they believe that it affects the stock price. Financial theory states that managers should not be so concerned about accounting earnings because cash flows are what really matter. Whether they are right or wrong, if managers believe that accounting earnings matter to investors, their capital structure decisions will reflect this belief.
+
+Another factor that managers consider when making capital structure decisions is the control implications of their decisions. The choice between equity and debt financing affects the control of the firm. For example, suppose that a firm is controlled by the founding family, which owns 55 percent of the common stock, and that the firm must raise capital to fund a large project. The project has a zero NPV, and the capital raised to finance it will result in a 20 percent increase in the value of the firm. On the one hand, using equity financing will drop the founding family’s ownership (voting rights) below 50 percent if the family does not buy some of the new shares. In fact, they will end up with 45.8 percent of the stock [55/(100 + 20) = 0.458, or 45.8 percent]. On the other hand, their ownership will remain at 55 percent, and they will retain absolute control of the firm if the project is financed entirely with debt. In such a situation, the founding family is likely to prefer debt financing. Of course, although debt can help a controlling stockholder retain control of a firm, too much debt can cause that stockholder to lose control. This can happen if the firm uses so much debt that fluctuations in business conditions put the firm in financial distress. When this happens, the ability of the creditors to control what happens to the firm can overwhelm the ability of the controlling stockholder to do so.
+
+These are just some examples of practical considerations that managers must deal with when choosing the appropriate capital structure for a firm. There is no set formula that they can follow in making financing decisions, because many of these considerations are difficult to quantify and their relative importance is unique to each firm. Nevertheless, it is safe to say that the ultimate objective of a firm’s stockholders—and of managers who have the stockholders’ interests in mind—is to choose the capital structure that maximizes the value of the firm.
+
+Before You Go On
+Why is financial flexibility important in the choice of a capital structure?
+How can capital structure decisions affect the risk associated with net income?
+How can capital structure decisions affect the control of a firm?
+Summary of Learning Objectives
+1 Describe the two Modigliani and Miller propositions, the key assumptions underlying them, and their relevance to capital structure decisions. Use Proposition 2 to calculate the return on equity.
+
+M&M Proposition 1 states that the value of a firm is unaffected by its capital structure if the following three conditions hold: (1) there are no taxes, (2) there are no information or transaction costs, and (3) capital structure decisions do not affect the real investment policies of the firm. This proposition tells us the three reasons that capital structure choices affect firm value.
+
+M&M Proposition 2 states that the expected return on a firm’s equity increases with the amount of debt in its capital structure. This proposition also shows that the expected return on equity can be separated into two parts—a part that reflects the risk of the underlying assets of the firm and a part that reflects the risk associated with the financial leverage used by the firm. This proposition helps managers understand the implications of financial leverage for the cost of the equity used to finance the firm’s investments. Equation 16.3 can be used to calculate the cost of equity for common stock.
+
+2 Discuss the benefits and costs of using debt financing and calculate the value of the income tax benefit associated with debt.
+
+Using debt financing provides several benefits. A major benefit arises from the deductibility of interest payments. Since interest payments are tax deductible and dividend payments are not, distributing cash to investors through interest payments can increase the value of a firm. Debt is also less expensive to issue than equity. Finally, debt can benefit stockholders in certain situations by providing managers with incentives to maximize the cash flows produced by the firm and by reducing their ability to invest in negative NPV projects.
+
+The costs of debt include bankruptcy and agency costs. Bankruptcy costs arise because financial leverage increases the probability that a firm will get into financial distress. Direct bankruptcy costs are the out-of-pocket costs that a firm incurs when it gets into financial distress, while indirect bankruptcy costs are associated with actions the people who deal with the firm take to protect their own interests when the firm is in financial distress. Agency costs are costs associated with actions taken by managers and stockholders who are acting in their own interests rather than in the best interests of the firm. When a firm uses financial leverage, managers have incentives to take actions that benefit themselves at the expense of stockholders, and stockholders have incentives to take actions that benefit themselves at the expense of lenders. To the extent that these actions reduce the value of lenders’ claims, the expected losses will be reflected in the interest rates that lenders require.
+
+Equation 16.4 can be used to calculate the value of the income tax benefit associated with debt.
+
+3 Describe the trade-off and pecking order theories of capital structure choice and explain what the empirical evidence tells us about these theories.
+
+The trade-off theory says that managers balance, or trade off, the benefits of debt against the costs of debt when choosing a firm’s capital structure in an effort to maximize the value of the firm. The pecking order theory says that managers raise capital as they need it in the least expensive way available, starting with internally generated funds, then moving to debt, then to the sale of equity. In contrast to the trade-off theory, the pecking order theory does not imply that managers have a particular target capital structure. There is empirical evidence that supports both theories, suggesting that each helps explain the capital structure choices made by managers.
+
+4 Discuss some of the practical considerations that managers are concerned with when they choose a firm’s capital structure.
+
+Practical considerations that concern managers when they choose a firm’s capital structure include the impact of the capital structure on financial flexibility, risk, net income, and the control of the firm. Financial flexibility involves having the necessary financial resources to take advantage of unforeseen opportunities and to overcome unforeseen problems. Risk refers to the possibility that normal fluctuations in operating profits will lead to financial distress. Managers are also concerned with the impact of financial leverage on their reported net income, especially on a per-share basis. Finally, the impact of capital structure decisions on who controls the firm is also a concern.
+
+Summary of Key Equations
+Equation	Description	Formula
+   16.1	Value of the firm as the sum of the debt and equity values	VFirm = VAssets = VDebt + VEquity
+   16.2	Formula for the weighted average cost of capital (WACC) for a firm with only debt and common stock and no taxes	WACC = xDebtkDebt + xcskcs
+   16.3	Cost of common stock in terms of financial leverage, the required return on assets, and the required return on debt	
+   16.4	Value of the tax savings from debt (upper bound)	VTax‐savings debt = D × t
+   16.5	Cost of common stock with taxes	
+Self-Study Problems
+16.1 Relaxing which of the three assumptions in Modigliani and Miller Proposition 1 will have the most predictably quantifiable impact on the value of the firm?
+
+
+
+16.2 If we assume that the cash flows for a firm with financial leverage are equal to the cash flows for the same firm without financial leverage, what can we say about the value of this firm if its cost of capital also does not vary with the degree of leverage utilized?
+
+
+
+16.3 Are taxes necessary for the cost of debt financing to be less than the cost of equity financing?
+
+
+
+16.4 You are offered jobs with identical responsibilities by two different firms in the same industry. One has no debt in its capital structure, and the other has 99 percent debt in its capital structure. Will you require a higher level of compensation from one firm than from the other? If so, which firm will have to pay you more?
+
+
+
+16.5 You are valuing two otherwise identical firms in the same industry. One firm has a corporate jet for every executive at the vice president level and above, while the other does not have a single corporate jet. More than likely, which firm has the greater stockholder–manager agency costs?
+
+
+
+Discussion Questions
+16.1 List and briefly describe the three key assumptions in Modigliani and Miller’s Proposition 1 that are required for total firm value to be independent of capital structure.
+
+16.2 Evaluate the statement that the weighted average cost of capital (WACC) for a firm (assuming that all three assumptions of Modigliani and Miller’s propositions hold) is always less than or equal to the cost of equity for the firm.
+
+16.3 If the value of the firm remains constant as a function of its capital structure and the three Modigliani and Miller assumptions apply, why might the overall cost of capital change or not change as capital structure changes?
+
+16.4 Consider the WACC for a firm that pays taxes. Explain what the best course of action would be to minimize the firm’s WACC and thereby maximize its value. Use the WACC formula for your explanation.
+
+16.5 The Modigliani and Miller propositions, when the no-tax assumption is relaxed, suggest that the firm should finance itself with as much debt as possible. Taking this suggestion to the extreme, is it even possible to finance a firm with 100 percent debt and no equity? Why or why not?
+
+16.6 Crossler Automobiles sells autos in a market where the standard auto comes with a 10-year/100,000-mile warranty on all parts and labor. Describe how an increased probability of bankruptcy could affect sales of autos by Crossler.
+
+16.7 Agency problems occur because the nonowner managers and stockholders of a firm have different interests. Propose a capital structure change that might help better align these different interests.
+
+16.8 If a firm increases its debt to a very high level, then the positive effect of debt in aligning the interests of management with those of stockholders tends to become negative. Explain why this occurs.
+
+16.9 Using the Modigliani and Miller framework, but excluding the assumptions that there are no taxes and no information or transaction costs, describe the value of the firm as a function of the proportion of debt in its capital structure.
+
+16.10 When we observe the capital structure of many firms, we find that they tend to utilize lower levels of debt than that predicted by the trade-off theory. Offer an explanation for this.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+16.1 M&M Proposition 1: The Modigliani and Miller theory suggests that the value of the firm’s assets is equal to the value of the claims on those assets and is not dependent on how the asset claims are divided. The common analogy to the theorem is that the total amount of pie available to be eaten (the firm) does not depend on the size of each slice of pie. If we continue with that analogy, then what if we cut up the pie with a very dull knife such that the total amount of pie available to be eaten is less after it is cut than before it was cut. Which of the three Modigliani and Miller assumptions, if relaxed, is analogous to the dull knife? Hint: Think about the process by which investors could undo the effects of a firm’s capital structure decisions.
+
+16.2 M&M Proposition 1: Describe what exactly is meant when someone is distinguishing between the value of the firm and the value of the equity of the firm.
+
+16.3 M&M Proposition 1: Under Modigliani and Miller’s Proposition 1, when all three of the assumptions remain in effect, explain how the value of the firm changes due to changes in the proportion of debt and equity utilized by the firm.
+
+16.4 M&M Proposition 1: Cerberus Security Company produces a cash flow of $200 per year and is expected to continue doing so in the infinite future. The cost of equity capital for Cerberus is 20 percent, and the firm is financed entirely with equity. Management would like to repurchase $100 in shares by borrowing $100 at a 10 percent annual rate (assume that the debt will also be outstanding into the infinite future). Using Modigliani and Miller’s Proposition 1, what is the value of the firm today, and what will be the value of the claims on the firm’s assets after the stock repurchase? What will be the rate of return on common stock required by investors after the stock repurchase?
+
+16.5 M&M Proposition 1: A firm that is financed completely with equity currently has a cost of capital equal to 15 percent. Assume that the assumptions in Modigliani and Miller’s Proposition 1 hold and that the firm’s management plans to change its capital structure to 50 percent debt and 50 percent equity. What will be the cost of equity after the change if the cost of debt is 10 percent?
+
+16.6 M&M Proposition 1: Swan Specialty Cycles is currently financed with 50 percent debt and 50 percent equity. The firm pays $125 each year to its debt investors (at a 10 percent cost of debt), and the debt has no maturity date. What will be the value of the equity if the firm repurchases all of its debt and raises the funds to do this by issuing equity? Assume that all of the assumptions in Modigliani and Miller’s Proposition 1 hold.
+
+16.7 M&M Proposition 1: The weighted average cost of capital for a firm, assuming all three Modigliani and Miller assumptions hold, is 10 percent. What is the current cost of equity capital for the firm if the cost of debt for the firm is 8 percent and the firm is 80 percent financed with debt?
+
+16.8 Interest tax shield benefit: Legitron Corporation has $350 million of debt outstanding at an interest rate of 9 percent. What is the dollar value of the tax shield on that debt, just for this year, if Legitron is subject to a 27 percent marginal tax rate?
+
+16.9 Interest tax shield benefit: FAJ, Inc., has $500 million of debt outstanding at an interest rate of 9 percent. What is the present value of the tax shield on that debt if it has no maturity and if FAJ is subject to a 30 percent marginal tax rate?
+
+16.10 Interest tax shield benefit: Springer Corp. has $250 million of debt outstanding at an interest rate of 11 percent. What is the present value of the interest tax shield if the debt has no maturity and if Springer is subject to a 26 percent marginal tax rate?
+
+16.11 Interest tax shield benefit: Structural Corp. currently has a cost of equity capital equal to 15 percent. Assume that the Modigliani and Miller Proposition 1 assumptions hold, with the exception of the assumption that there are no taxes, and that the firm’s capital structure consists of 50 percent debt and 50 percent equity. What is the weighted average cost of capital for the firm if the cost of debt is 10 percent and the firm is subject to a 28 percent marginal tax rate?
+
+16.12 Practical considerations in capital structure choice: List and describe three practical considerations that concern managers when they make capital structure decisions.
+
+Intermediate
+16.13 M&M Proposition 1: Keyboard Chiropractic Clinic produces $300,000 of cash flow each year. The firm has no debt outstanding, and its cost of equity capital is 25 percent. The firm’s management would like to repurchase $600,000 of its equity by borrowing $600,000 at a rate of 8 percent per year. If we assume that the debt will be perpetual, find the cost of equity capital for Keyboard after it changes its capital structure. Assume that the Modigliani and Miller Proposition 1 assumptions hold.
+
+16.14 M&M Proposition 1: Marx and Spender Corp. currently has a WACC of 21 percent. If the cost of debt capital for the firm is 12 percent and the firm is currently financed with 25 percent debt, then what is the current cost of equity capital for the firm? Assume that the assumptions in Modigliani and Miller’s Proposition 1 hold.
+
+16.15 M&M Proposition 1: What is the effect on Modigliani and Miller’s Proposition 1 of relaxing the assumption that there are no information or transaction costs?
+
+16.16 M&M Proposition 1: The weighted average cost of capital for a firm (assuming all three Modigliani and Miller Proposition 1 assumptions apply) is 15 percent. What is the current cost of equity capital for the firm if its cost of debt is 10 percent and the proportion of debt to total firm value for the firm is 0.5?
+
+16.17 M&M Proposition 2: Mikos Processed Foods is currently valued at $500 million. Mikos will repurchase $100 million of its equity by issuing perpetual debt at an annual interest rate of 10 percent. Mikos is subject to a 30 percent marginal tax rate. If the Modigliani and Miller assumptions apply, except the assumption that there are no taxes, what will the value of Mikos be after the recapitalization?
+
+16.18 M&M Proposition 2: Backwards Resources Company has a WACC of 12.6 percent, and it is subject to a 40 percent marginal tax rate. Backwards has $250 million of debt outstanding at an interest rate of 9 percent and $750 million of equity (at market value) outstanding. What is the expected return on the equity with this capital structure?
+
+16.19 The costs of debt: Briefly discuss costs of financial distress to a firm that may arise when employees believe it is highly likely that the firm will declare bankruptcy.
+
+16.20 The costs of debt: Santa’s Shoes is a retailer that has just begun having financial difficulty. Santa’s suppliers are aware of the increased possibility of bankruptcy. What might Santa’s suppliers do based on this information?
+
+16.21 Stockholder–manager agency costs: Deficit Corp. management has determined that the firm will be $50 million short of being able to pay its debt obligations at the end of this year. Management has identified a positive NPV project that will require a great deal of effort on its part. However, this project is expected to generate only $40 million at the end of the year. Assume that all the members of Deficit’s management team will lose their jobs if the firm goes into bankruptcy at the end of the year. How likely is management to take the positive NPV project? If management declines the project, what kind of cost will Deficit’s stockholders incur?
+
+16.22 Two theories of capital structure: Use the information in the following table to make a suggestion concerning the proportion of debt that the firm should utilize in its capital structure.
+
+Benefit or (Cost)	No Debt	25%Debt	50%Debt	75%Debt
+Tax shield	     $0	$10	  $20	  $30
+Agency cost	−$10	−$5	  −$5	−$20
+Financial distress cost	  −$1	−$3	−$10	−$10
+16.23 Two theories of capital structure: Problem 16.22 introduces taxes and information and transaction costs to the simplified Modigliani and Miller model. If the marginal tax rate for the firm were to suddenly increase by a material amount, would the capital structure that maximizes the firm include less or more debt?
+
+16.24 Two theories of capital structure: Describe how managers who subscribe to the pecking order theory of financing would rank the alternative sources of financing. Evaluate that ranking in terms of the costs of each source relative to the costs of other sources.
+
+16.25 Two theories of capital structure: The pecking order theory suggests that managers prefer to first use internally generated equity to finance new projects. Does this preference mean that these funds represent an even cheaper source of funds than debt? Justify your answer.
+
+16.26 The costs of debt: Discuss how the legal costs of financial distress may increase with the probability that a firm will formally declare bankruptcy, even if the firm has not reached that point yet.
+
+Advanced
+16.27 Operating a firm without debt is generally considered to be a conservative practice. Discuss how such a conservative approach to a firm’s capital structure is good or bad for the value of the firm in the absence of information or transaction costs and any effect of debt on the real investment policy of the firm.
+
+16.28 Finite Corp. has $250 million of debt outstanding at an interest rate of 11 percent. What is the present value of the debt tax shield if the debt will mature in five years (and no new debt will replace the old debt), assuming that Finite is subject to a 40 percent marginal tax rate?
+
+16.29 The Boring Corporation is currently valued at $900 million, but management wants to completely pay off its perpetual debt of $300 million. Boring is subject to a 30 percent marginal tax rate. If Boring pays off its debt, what will the total value of its equity be?
+
+16.30 If we drop the assumption that there are no information or transaction costs, in addition to dropping the no-tax assumption, then will the Modigliani and Miller model still suggest that the firm should take on a greater proportion of debt in its capital structure? Explain.
+
+16.31 PolyAna Corporation has such high cash flows that the company’s managers take Fridays off for a weekly luncheon in Cancun using the corporate jet. Describe how altering the capital structure of the firm might make the management of this firm stay in the office on Fridays in order to work on new positive NPV projects.
+
+16.32 M&M Proposition 2 with taxes: Forwards Resources Company is currently an all-equity firm with a WACC of 14 percent and a 40 percent marginal tax rate. Forwards wants to move to a capital structure with $250 million of debt outstanding at an interest rate of 9 percent and a market value of equity equal to $750 million outstanding. Using M&M Proposition 2 with taxes, Equation 16.5, what is the expected return on equity at the new capital structure?
+
+16.33 M&M Proposition 2 with taxes: You own all of the equity in a debt-free app development business that generates cash flows of $400,000 each year in perpetuity. The cost of assets, kAssets, is 10 percent, and the tax rate is 25 percent. What is the value of your all-equity firm? If you decide to replace $1 million of equity by borrowing $1 million at an interest rate of 6 percent, how much will the value of the firm increase? What would the kcs and WACC for your business be before and after the proposed financial restructuring? Use M&M Proposition 2 with taxes, Equation 16.5, to determine the expected return on the equity for input to the WACC calculation. Assume that all cash flows are perpetuities and that the second and third M&M conditions hold.
+
+CFA Problems
+16.34 Consider two companies that operate in the same line of business and have the same degree of operating leverage: the Basic Company and the Grundlegend Company. The Basic Company has no debt in its capital structure, but the Grundlegend Company has a capital structure that consists of 50 percent debt. Which of the following statements is true?
+
+The Grundlegend Company has a degree of total leverage that exceeds that of the Basic Company by 50 percent.
+The Grundlegend Company has the same sensitivity of net earnings to changes in earnings before interest and taxes as the Basic Company.
+The Grundlegend Company has the same sensitivity of earnings before interest and taxes to changes in sales as the Basic Company.
+The Grundlegend Company has the same sensitivity of net earnings to changes in sales as the Basic Company.
+16.35 According to the pecking order theory:
+
+New debt is preferable to new equity.
+New equity is preferable to internally generated funds.
+New debt is preferable to internally generated funds.
+New equity is always preferable to other sources of capital.
+16.36 According to the trade-off theory:
+
+The amount of debt a company has is irrelevant.
+Debt should be used only as a last resort.
+Debt will not be used if a company’s tax rate is high.
+Companies have an optimal level of debt.
+Sample Test Problems
+16.1 Central Grocers Inc. produces annual cash flows of $175,000, which are expected to continue indefinitely. The company is financed entirely with equity capital at an annual cost of 12 percent. Management is considering borrowing $400,000 at an annual interest rate of 6 percent to repurchase $400,000 of the company’s outstanding stock. (You can assume that the debt will be outstanding into the indefinite future.) What is the total value of Central Grocers’ stock before the stock repurchase? Under the assumptions in Modigliani and Miller’s Proposition 1, what would be the value of the total claims on the company’s assets after the stock repurchase? What will be the rate of return on common stock required by investors after the repurchase?
+
+16.2 The required rate of return on the assets of a firm is 12 percent. The firm has a debt-to-common-stock ratio of 40 percent and a cost of debt of 6 percent. If the firm has no preferred stock and the three conditions specified by M&M hold, what is the expected rate of return on the firm’s common stock?
+
+16.3 Your boss at Box and Freight Company asks you how much additional debt the company would have to add through a capital restructuring in order to create $9 million in present value from the resulting interest tax shields. What will you tell your boss if the debt will have no maturity and if Box and Freight is subject to a 32 percent marginal tax rate?
+
+16.4 Southwest Airlines has substantial cash reserves and an investment-grade bond rating. How would the trade-off theory predict that managers of Southwest would raise capital and choose the company’s capital structure if they were planning an expansion into Mexico? What would the pecking order theory suggest?
+
+16.5 What control implications do a firm’s capital structure decisions have?
+
+Appendix: Leasing
+LEARNING OBJECTIVES
+
+A1. Describe what a lease is and discuss the motivations for leasing, what types of assets are more or less likely to be leased, what conflicts arise in lease agreements, and how the costs of these conflicts are reduced by lessors. Evaluate the choice between leasing and purchasing an asset.
+Leasing is an alternative way of financing the acquisition of an asset. When the managers of a firm decide to acquire an asset, they can often choose between (1) purchasing the asset with a combination of debt and equity or (2) leasing it. A lease (or rental agreement) is a financial arrangement in which the user of an asset (the lessee) pays the owner of that asset (the lessor) to use it for a period of time.1
+
+lease (rental agreement) a financial arrangement in which the user of an asset pays the owner of the asset to use it for a period of time
+
+lessee the user of a leased asset
+
+A lease divides the right to use an asset into two parts: (1) the right to use it during the term of the lease and (2) the right to use it after the lease ends—the salvage rights. The lessee pays for the right to use the asset during the term of the lease, while the lessor, who owns the asset, receives the lease payments in return for giving up the right to use the asset during the term of the lease. As an example, consider a rental agreement through which an oil company leases an oil drilling rig for six months. This lease gives the oil company (the lessee) the right to use the rig for six months in return for payments to the owner of the rig (the lessor). The owner retains all rights to use the rig after the agreement expires in six months.
+
+lessor the owner of a leased asset
+
+Building Intuition
+Leasing Is an Alternative Means of Financing the Acquisition of an Asset
+
+When managers in a firm decide to acquire an asset, they often have a choice between purchasing the asset using debt and equity or leasing the asset. The firm gets the use of the asset in either case, but the ownership rights are different.
+
+Virtually all firms lease some of their assets. Commonly leased assets include office space, furniture, computers, copy machines, cars, trucks, rail cars, airplanes, ships, and oil drilling rigs. The length of a lease can be as short as a few minutes (for example, when someone leases the use of a supercomputer to run a simulation) or as long as many years (as is common with leases involving office space).
+
+Since leasing is an alternative means of financing the acquisition of an asset, whether leasing is more or less attractive than purchasing the asset depends on the same factors that affect the choice of how much debt and equity should be used to purchase an asset. In other words, the same three M&M conditions that affect the choice between debt and equity also affect the choice between leasing and purchasing an asset. If this choice affects firm value, it must be because of (1) taxes, (2) information or transaction costs, or (3) its effect on the real investment policy of the firm.
+
+In this appendix we first describe the two general types of lease agreements that businesses enter into. We then use the M&M conditions to provide a framework for understanding why leasing can be more attractive than purchasing and what types of assets are more likely to be leased versus owned. We next examine the types of conflicts that arise between lessees and lessors and the different ways in which lessors limit the cost of these conflicts. Finally, we discuss how managers choose between purchasing and leasing an asset.
+
+Two Types of Leases
+The value of an asset to a lessor is equal to the sum of the present value of the lease payments that the lessor will receive plus the salvage value of the asset at the end of the lease. The present value of the lease payments, as a percentage of the total value of an asset, varies with the length of a lease agreement. For example, consider a rental company that both rents cars by the day and leases them for up to seven years. The value of a one-day rental fee will be very small compared to the total value of the car. If the daily rental fee for a $20,000 car is $50, this fee represents only 0.25 percent ($50/$20,000 = 0.0025, or 0.25 percent) of the total value. In contrast, the lease payments on a seven-year lease might have a present value that equals the entire $20,000 value of the car. In such a lease, the lessee is effectively paying as much as it would cost to buy the car and, since the salvage value is likely to be quite small after seven years, the lease payments represent most of the value that the lessor will receive from the car. Note that the seven-year lease is pretty close to an outright sale in which the lessor is selling the car to the lessee and providing 100 percent debt financing.
+
+The fact that a lease can look like a sale is of concern to accountants and the IRS because accounting rules and tax laws treat leases and asset sales differently. Generally accepted accounting principles (GAAP) and the IRS distinguish between leases that are truly rentals (known as operating leases) and leases that have the key elements of an outright sale (known as financial leases). Specifically, a lease is considered to be a financial lease if any of the following four conditions hold: (1) the lease transfers ownership of the asset to the lessee at the end of the lease term; (2) the lease contains a bargain purchase option;2 (3) the lease period is at least 75 percent of the estimated economic life of the asset; or (4) the present value of the minimum lease payments is greater than 90 percent of the fair market value of the asset. If none of these conditions holds, then a lease is classified as an operating lease.
+
+operating lease a lease that does not have the characteristics of a sale
+
+financial lease a lease that has the characteristics of a sale
+
+In 2016 the Financial Accounting Standards Board (FASB) substantially updated its guidance for lease accounting. As of the beginning of 2019, public companies were required to account for both operating and financial leases, with terms of more than 12 months, as assets recorded on the lessee’s balance sheet, along with an offsetting liability equal to the present value of the lease payments. Prior to this change, firms were permitted to recognize an asset associated with an operating lease, but they were not required to record a liability associated with the lease obligation. Thus, operating leases were viewed as a form of off-balance-sheet financing, although many details of operating leases were disclosed elsewhere in the firm’s financial reports. The accounting firm Deloitte estimated that the new capitalization of operating leases would bring approximately $2 trillion in newly recognized liabilities onto the balance sheets of firms in the S&P 500.
+
+The classification as either an operating or a financial lease has important implications for the lessee’s income statement and taxes. For operating leases, a lessee recognizes the lease expense on a straight-line basis over the lease term as a pre-tax operating expense. For financial leases, the portion of the lease payment treated as an interest expense is deducted as a pre-tax operating expense, and the reduction of the lease liability as a financing expense.
+
+Motivations for Leasing
+The primary motivation for leasing an asset is that doing so can be a less expensive way of obtaining the use of the asset than purchasing it. We will use the M&M conditions to frame our discussion of how leasing can create value for stockholders.
+
+Taxes
+
+Let’s first consider how relaxing the M&M assumption that there are no taxes affects the choice between purchasing and leasing an asset. Suppose that you need a new delivery truck for your pizza restaurant business and that you can either (1) buy the truck outright using a loan or (2) lease the truck from a truck leasing company. Assume that the truck will cost $30,000 and will be depreciated for tax purposes using straight-line depreciation over three years to a salvage value of $0. Also assume that your business pays a marginal tax rate of 10 percent on its taxable income and that the truck leasing company, which is larger and more profitable, pays a marginal tax rate of 35 percent on its taxable income. Finally, assume that both you and the truck leasing company can finance the entire $30,000 purchase price with a 5 percent, three-year “balloon” loan from a bank. The entire face value of a balloon loan is repaid at the end of the life of the loan, which in this case is the end of the three-year life of the truck.
+
+If you purchased the truck, you would receive a deduction of $10,000 per year for depreciation, and this would save you $10,000 × 0.10 = $1,000 per year in taxes. You would also save $150 each year in taxes because of the interest deduction ($30,000 × 0.05 × 0.10 = $150), for a total tax saving of $1,150. By comparison, if the truck leasing company purchased the truck, it would save $3,500 on its taxes each year because of the depreciation tax shield ($10,000 × 0.35 = $3,500) and $525 because of the interest deduction ($30,000 × 0.05 × 0.35 = $525). The truck leasing company’s total tax savings would be $3,500 + $525 = $4,025.
+
+The difference between your total tax savings and that of the truck leasing company, $4,025 − $1,150 = $2,875, is a potential tax benefit that can be realized if you let the truck leasing company purchase the truck and lease it to you. Furthermore, if the monthly lease payments are set so that you and the truck leasing company split this $2,875 tax benefit, the leasing arrangement is a win-win situation. You get the use of the truck for less than it would cost you to buy it, and the truck leasing company profits from its share of the tax savings.
+
+Reducing the combined tax obligations of two companies can provide an important motivation for leasing. The delivery truck example illustrates how a lease contract can increase stockholder value when the company that uses an asset has a lower marginal tax rate than the lessor company. These types of tax differences, which exist between companies within countries as well as between companies in different countries, contribute to the wide range of leasing opportunities that exist today.
+
+Information and Transaction Costs
+
+Tax savings represent only one potential source of savings from lease contracts. A lease can also be used to reduce information and transaction costs. Furthermore, differences across types of assets in the extent to which information and transaction costs can be reduced provide us with insights as to what types of assets are more or less likely to be leased.
+
+Information and Transaction Cost Motivations for Leasing
+To see how leasing can reduce information and transaction costs, consider the choice between buying and leasing a car. The cost of acquiring a car and of selling it after you have finished using it can be quite high. When individuals purchase a car, they typically spend a considerable amount of time learning about the alternative makes and models that are being offered for sale, visiting dealerships, taking test drives, negotiating the price, and so on. Similarly, selling a car can require spending time searching for a buyer and negotiating and completing the sale. While it can make sense to incur such information and transaction costs if you are going to keep a car for several years, it makes no sense to do this if you only plan to use the car for a few days. This is the main reason that there is such a large car rental industry. Car rental companies incur the information and transaction costs associated with buying and selling a car and spread them across a large number of short-term renters, thereby reducing the cost of obtaining the use of a car for a few days. The same motivation explains the short-term rental agreements for assets like power tools, moving trucks, and aircraft.
+
+Of course, individuals and businesses also often lease cars for several years at a time. While the information and transaction costs associated with purchasing and selling a car are spread out (amortized) over a longer period and are therefore smaller on a per-day basis, there are circumstances under which it can still make sense to enter into a leasing contract. For example, a company can find it less costly to lease the cars in its fleet because a leasing company is able to manage the fleet, including activities such as providing regular maintenance, more efficiently. Furthermore, because the leasing company buys and sells a lot of cars in the ordinary course of its business, it is likely to be able to acquire cars at a lower price and to realize a higher value from used car sales. Cost reductions such as these contribute to the prevalence of long-term lease agreements on assets like copiers, computers, and office space, as well as vehicles.
+
+Finally, lease agreements in business are often written with clauses that allow the lessee to terminate the agreement before the end of the lease term by providing 60 or 90 days’ notice to the lessor. Early termination provisions like these provide the lessee with operational flexibility. For example, in the airline industry early termination provisions enable managers to rapidly, and at relatively low cost, adjust fleet sizes during economic downturns by reducing the number of leased aircraft. This flexibility is valuable to airlines because the opportunity cost of the capital tied up in an idle airplane is high. For example, if the cost of capital for an airline is 10 percent, the opportunity cost of capital that is tied up in a $150 million aircraft is $15 million per year.
+
+Why Certain Types of Assets Are Leased
+Information and transaction costs can also help to explain what types of assets are leased rather than owned by companies. In order to see why this is true, you must be familiar with the concepts of a firm-specific asset and a general-use asset. A firm-specific asset is an asset that is substantially more valuable to a particular firm than to any other firm. For example, the big signs with company names that you often see on the tops of office buildings are firm-specific assets. Such a sign is valuable to the company whose name is on it, but virtually worthless to any other firm. Similarly, a company that has a proprietary manufacturing process might use custom-made equipment in that process that would be of little value to any other company. In contrast, a general-use asset is of similar value to many potential users. Examples include office buildings and office equipment.
+
+firm-specific asset an asset that is substantially more valuable to a particular firm than to any other firm
+
+general-use asset an asset that is of similar value to many potential users
+
+Firm-specific assets are leased less frequently than general-use assets because it is easier for one party to engage in opportunistic behavior that harms the other party when a firm-specific asset is leased. To see why this is the case, suppose that managers at Pfizer Inc., the pharmaceutical firm, have decided to replace an old manufacturing plant. Instead of owning the new plant, they are in discussions with potential investors who would build the plant to Pfizer’s specifications using their own money and then lease it to Pfizer.
+
+Assume that the plant will cost $50 million and will have a useful life of 20 years. Also assume that while it will be worth $50 million to Pfizer, the highest price any other general user would pay for the plant is $40 million. In other words, the plant is a firm-specific asset in which $10 million of the value can be realized only by Pfizer. Finally, assume that the firm-specific and general-use values of the plant both decline in a straight line over its 20-year life, as illustrated in the following table:
+
+Value
+Value component	Year 0	Year 10	Year 20
+Pfizer-specific	$10 mil	 $5 mil	 $0 mil
+General-use	$40 mil	 $20 mil	 $0 mil
+Pfizer managers do not want finance the plant themselves, so they decide to propose a leasing arrangement that would be recognized as an operating lease. In particular, they decide to propose paying the investors for making the investment using two consecutive 10-year operating leases. In order to avoid financial lease treatment, both Pfizer management and the investors know that the first agreement cannot specify any of the conditions in the second lease. In other words, all of the terms of the second lease will be negotiated in 10 years. The Pfizer managers propose to the investors that the value of the lease payments over the first 10-year lease should be $25 million, since the lease will cover half of the life of the $50 million facility.
+
+This proposal concerns the investors. They worry that at the end of the first lease, Pfizer managers won’t agree to lease payments in the second lease that have a value equal to the remaining $25 million that they invested. Since Pfizer managers know that the plant will be worth only $20 million to another user in Year 10, the investors are afraid that if they accept $25 million in the first lease, Pfizer managers will offer them only $20 million for the second lease and that they will end up losing $5 million ($50 million invested − $25 million from first lease − $20 million from second lease = $5 million). This is what economists call a hold-up problem.
+
+To avoid the potential for a hold-up, the investors respond to Pfizer management by proposing that the payments for the first lease be set so that their total present value equals $30 million. This way, regardless of whether Pfizer leases the plant in the last 10 years, the investors will recover their investment. Unfortunately, while protecting the investors from the hold-up problem, this proposal subjects Pfizer to its own hold-up problem. Specifically, in Year 10 when it is time to renew the lease, the investors will know that use of the plant in the last 10 years of its life will be worth $25 million to Pfizer and that Pfizer would have to pay $25 million to obtain a comparable plant. Knowing this, the investors are likely to demand more than $20 million in the second lease. In fact, they would be able to charge Pfizer up to $25 million. If they did this, use of the plant for 20 years would end up costing Pfizer $55 million ($30 million + $25 million = $55 million). Pfizer would be better off building the plant itself for $50 million.
+
+There is no easy solution to this contracting problem. Both parties will be concerned about being held up because they cannot agree, in writing, on the terms for the second lease without the overall transaction being classified as a financial lease. The potential for this sort of problem arises whenever someone considers leasing a firm-specific asset. As a result, firm-specific assets are rarely leased. Because general-use assets tend to have a similar value to any number of users, they are not as subject to hold-up problems and therefore are more likely to be leased. Examples of commonly leased assets include transportation equipment, such as cars, trucks, rail cars, and planes, office furniture and equipment, such as copiers and computers, buildings with general office and retail space, and construction and oil drilling equipment.
+
+Real Investment Policy
+
+Even in the absence of taxes and information and transaction cost considerations, having the ability to structure lease agreements can affect stockholder value by changing the real investment opportunities that are available to a firm. For example, managers at manufacturing firms can sometimes use lease contracts to maximize the value of a product line by charging a higher price to customers who are willing to pay more and yet still making their products accessible to customers who are not willing to pay as much.
+
+To see how this might be done, consider a manufacturing company that has developed a new product for which there is limited direct competition in the market. The manufacturer can choose whether to sell the product or just make it available through lease contracts.3 Leasing provides more flexibility in setting prices than selling the product. For example, suppose a manufacturing firm has two types of customers. One type of customer is not willing to pay much more than the marginal cost to the manufacturing firm of producing its product because these customers won’t be using it very intensively. The other type of customer is willing to pay considerably more than the marginal cost because these customers will get a lot of use out of the asset. In a situation like this, the company can set a lease price that provides the company a modest return for producing an additional unit of the product, but that limits the product’s use. The high-volume users who are willing to pay more can be charged higher prices based on their usage levels. Products such as office copiers, telephones, and TV cable boxes have all been made available to consumers with such leasing schemes at one time or another.
+
+It is worth noting that a firm can achieve similar results by using a combination of sales and leasing. This is done by setting a high sales price and a lower lease price for modest usage. The high-volume users will pay a high price to purchase the product, and low-volume users will lease.
+
+Regardless of which strategy is used, using leases to charge different prices to different customers affects the mix of real assets within a firm. A firm that leases the products it manufactures will have different assets than a firm that only sells its products. The former will be in both the manufacturing and leasing businesses while the latter will be only in manufacturing.
+
+Conflicts between Lessees and Lessors
+Separating the right to use an asset during the term of a lease from the right to use the asset afterward creates two natural conflicts of interest between lessees and lessors. These conflicts concern how intensely the asset is used and how well it is maintained during the term of the lease. The intensity of use and maintenance conflicts lead to what we refer to as the asset abuse problem in leasing. The asset abuse problem can increase the cost of leasing for the lessor when it is not controlled.
+
+Intensity of Use Conflict
+This conflict arises because the lessee can have an incentive to use a leased asset more intensely than the lessor would prefer. As long as using the asset more intensely does not significantly affect the lessee’s ability to use it during the lease term, the lessee does not have an incentive to be concerned about how intensely the asset is used. To the extent that more intense use reduces the value of the asset, this reduction is borne by the lessor. For example, if you rent a car for a week you are unlikely to be concerned about driving it too many miles. On the other hand, the company that leases it to you is likely to be concerned. If rental car customers average 1,000 miles a week instead of 500 miles a week, the value of a rental fleet will decline more rapidly.
+
+Maintenance Conflict
+To the extent that cutting back on maintenance expenditures does not significantly affect a lessee’s ability to use a leased asset, the lessee has an incentive to spend less on maintenance than the lessor would like. Spending less on maintenance, or avoiding it altogether, can save the lessee money and time, but it can also reduce the asset’s salvage value and increase the out-of-pocket maintenance costs for the lessor.
+
+Building Intuition
+Splitting the Rights to an Asset between the Lessee and Lessor Can Create Costly Conflicts
+
+Separating the right to use an asset during the term of a lease from the right to use the asset afterward creates conflicts concerning how intensely the asset is used and how well it is maintained during the term of the lease. These conflicts can increase the cost of leasing.
+
+The intensity of use and maintenance conflicts are related. The quantity of services that an asset will provide over its life is generally related to how well it is maintained. Cutting back on maintenance can magnify the negative effects of using an asset more intensely.
+
+Lessors know all about the intensity of use and maintenance conflicts and do various things to protect themselves. It is important to recognize that it only makes sense to lease an asset if the lessor can reduce the cost of the asset abuse problem so that it is smaller than the benefits of leasing. Lessors can reduce the cost of asset abuse problems by doing the following:
+
+Invest in assets that are less subject to abuse: For example, hotel operators invest in room furniture that is durable and less likely to show abuse. They know that people tend to take better care of their own furniture than furniture in hotels, and so they tend to avoid purchasing furniture that shows wear and tear or breaks easily. This is why, even in some of the best hotels, the furniture is made of veneer-covered particle board.
+Price the lease so that the expected return on invested capital is equal to its opportunity cost: In doing this, lessors factor in the expected costs associated with asset abuse and under-maintenance. A higher rental price compensates the lessor for the greater susceptibility to asset abuse. This is the reason that lease prices are so high for assets that are more subject to abuse. You will see this if you ever rent an exotic sports car. The rental price for just a few hours can easily be several hundred dollars. Unfortunately, pricing the lease to compensate for asset abuse costs can also make the problem worse because it discourages people who are less likely to abuse an asset from leasing it.
+Track the total services obtained from the asset and charge the lessee based on usage: This reduces the incentive for the lessee to use the asset intensively and compensates the lessor if the lessee does so. An example of tracking usage and pricing based on it is seen in Ryder or U-Haul truck rental agreements. In these agreements, the base rental price includes a prespecified number of miles that the truck can be driven. The lessee must pay an additional per-mile charge for each mile the truck is driven over that limit.
+Require a damage deposit: Such deposits are commonly required in lease agreements involving apartments or other assets where it is easy to observe abuse. They provide an incentive for the lessee not to abuse the asset and make it easier for the lessor to recover the cost if the asset is abused.
+Bundle the lease contract with a service contract: Where under-maintenance is of particular concern, lessors often bundle a maintenance (service) contract with the lease contract. In other words, the lessee must purchase a maintenance contract along with the lease. Since the lessee simply has to make a phone call (or, for a vehicle, bring it to the shop) in order to have maintenance performed, he or she is more likely to do so.
+Place explicit restrictions on how an asset may be used: Bundling a maintenance contract with a lease might work well with an asset such as a copier where you are dealing with ordinary maintenance. However, it will be less effective with an asset like a car where you are also concerned about how it is used. For this reason, auto leasing companies often place restrictions on the use of leased vehicles. For example, they might prohibit driving the vehicle off-road or hauling a trailer with a weight in excess of a prespecified limit. Restrictions on use also take other forms, such as prohibitions on the commercial use of a piece of equipment that is designed for home use or limits on subleasing office space or an apartment.
+Provide the lessee with the right to buy the asset when the lease expires: Having the right to buy the asset gives the lessee an option on the salvage rights. This reduces the lessee’s incentive to abuse the asset during the lease term.
+Evaluating a Leasing Opportunity
+As we stated earlier, the primary motivation for leasing an asset is that doing so can be a less expensive way of obtaining the use of the asset than purchasing it. In other words, despite the intensity of use and maintenance conflicts, leasing an asset can create more value for stockholders than purchasing the asset. This value can come from larger tax shields, the flexibility that short-term leasing can provide, and reduced contracting costs, among other benefits.
+
+The analytical techniques that are used to choose between buying and leasing an asset are identical to those used in capital budgeting. Analysts typically use NPV analysis. Since the asset that would be purchased is often exactly the same as the asset that would be leased, many of the cash flows associated with the use of the asset are the same regardless of whether the asset is owned or leased. These identical cash flows, which often include the revenues and costs of goods sold associated with the sale of products produced using the leased asset, can be ignored when comparing the two alternatives. For this reason, the NPV values in a buy versus lease analysis only reflect cash flows that are not the same between the two alternatives. To see how this analysis is done, consider the following example.
+
+The owner of a small furniture manufacturing company in Athens, Ohio, has to replace an old wood lathe that has reached the end of its useful life. She is considering either buying or leasing a replacement lathe. Under either alternative, she plans to use the lathe in her business for only six years, even though its economic life is expected to be considerably longer. Assume that the furniture manufacturing company has a marginal tax rate of 25 percent.
+
+Lease alternative: The company that manufactures the lathe offers a leasing option under which the furniture manufacturing company can lease the lathe for an annual lease payment of $3,400 per year. With this option, the lessor will be responsible for maintenance of the lathe and will take it back after six years. The lease will be classified as an operating lease under the accounting and tax rules.
+Purchase alternative: It would cost $20,000 to purchase the replacement lathe, and a local bank has offered to lend the entire amount to the company at an interest rate of 8 percent. The loan would be a six-year balloon loan in which the company would not have to repay any of the principal until the loan matures in six years. The lathe would be depreciated using the five-year MACRS depreciation method shown in Exhibit 11.5. As a percentage of the purchase price, the annual depreciation deductions would be 20 percent, 32 percent, 19.2 percent, 11.52 percent, 11.52 percent, and 5.76 percent in Years 1 through 6, respectively. Maintenance of the lathe would cost $500 per year, and the lathe is expected to have a salvage value of $10,000 after six years.
+Analysis: Assuming that the revenues and cost of goods sold associated with the use of the lathe are the same under either alternative, we can ignore these cash flows in comparing the two alternatives. In making this assumption, we are also assuming that the asset abuse problem is not an important concern with this lease. There are two reasons this is reasonable in this situation. First, the manufacturing company is unlikely to significantly alter its production rates just to use this one machine more intensely. Second, the maintenance arrangement, which bundles a service contract with the lease contract, will limit the maintenance conflict.
+With the above information, the analysis of the lease versus purchase options involves calculating the present value of the after-tax cash flows that are unique to each of them.
+
+Exhibit A16.1 shows the annual after-tax cash flows and the NPV for the lease alternative. Since the lease is an operating lease, the furniture manufacturing company will be able to deduct the entire lease payment when calculating its taxes each year. Furthermore, since the lathe will be owned, maintained, and depreciated by the lessor, the lessee does not have to worry about the cash flows associated with the purchase or sale of the lathe, maintenance, or depreciation deductions. The NPV of the after-tax cash flows associated with the lease is −$12,539.18.4
+
+EXHIBIT A16.1 NPV of the Cash Flows for Leasing the Wood Lathe
+
+This table shows the cash flows and the NPV of the cash flows associated with leasing the wood lathe. This analysis excludes cash flows that would be the same under both the purchase and lease alternatives.
+
+ Year	 Pre-Tax Lease Payment (1)	 After-Tax Lease Payment (1) × (1 − 0.25) (2)
+  1	  −$3,400	  −$2,550
+  2	  −$3,400	  −$2,550
+  3	  −$3,400	  −$2,550
+  4	  −$3,400	  −$2,550
+  5	  −$3,400	  −$2,550
+  6	  −$3,400	  −$2,550
+After-tax cost of debt = 0.08 × (1 − 0.25) = 0.06, or 6%
+NPV of total after-tax cash flows at 6 percent = −$12,539.18
+The cash flows that are unique to the purchase option are the interest and principal payments associated with the loan, the tax savings associated with the depreciation of the lathe, the cost of the maintenance, and the salvage value of the lathe after six years. Exhibit A16.2 illustrates how the annual after-tax value of these cash flows and their NPV are calculated and shows that the present value of these cash flows is −$12,293.67. This NPV represents the total cost of obtaining the use of this machine for six years if it is purchased.
+
+Since the after-tax cost of leasing the wood lathe for six years is greater than the after-tax cost of owning it for six years (the NPV is more negative), the owner of the furniture manufacturing company should purchase the lathe.
+
+Decision Making Example A16.1 illustrates another lease or purchase decision.
+
+DECISION MAKING EXAMPLE A16.1
+Lease or Purchase Decision
+
+Situation
+
+You work for a courier firm that offers fast physical delivery of packages in downtown New York City (Manhattan). If someone wants to have a package delivered before the postal service or one of the big courier firms, such as FedEx or UPS, can deliver it, he or she will call your office and you will send a courier on a bicycle to pick up the package and make the delivery. Your couriers have used their own bicycles up to this point, but you have decided that it conveys a more professional image if they use identical bicycles with your company’s logo on them. A bicycle manufacturing company has offered to lease or sell you the bicycles that you want. After performing an NPV analysis, you find that the NPV associated with leasing a bicycle for two years is −$545.12 and that the NPV associated with purchasing and maintaining the same bicycle is −$515.00. Should you purchase or lease the bicycles?
+
+
+
+Before You Go On
+What is a lease? What are the two types of leases?
+What is the most common motivation for leasing?
+What types of conflicts arise with leases, and why?
+EXHIBIT A16.2 NPV of the Cash Flows for Purchasing the Wood Lathe
+
+This table shows the cash flows and the NPV of the cash flows associated with purchasing the wood lathe. This analysis excludes cash flows that would be the same under both the purchase and lease alternatives.
+
+ 	Loan	Depreciation	After-Tax Maintenance Cost $500 × (1 − 0.25) (7)	After-Tax Salvage valuea $10,000 × (1 − 0.25) (8)	Total After-Tax Cash Flows (1) + (3) + (6) + (7) + (8) (9)
+ 	 	Interest	 	 	 
+ Year	Principal Repayment (1)	Pre-Tax (8% × $20,000) (2)	After-Tax (2) × (1 − 0.25) (3)	Percent of Asset Cost (4)	Depreciation Deduction (4) × $20,000 (5)	Tax Savings (5) × 0.25 (6)
+  1	  	  −$1,600	  −$1,200	  20.00%	  $4,000	  $1,000	  −$375	  	  −$575
+  2	  	  −$1,600	  −$1,200	  32.00%	  $6,400	  $1,600	  −$375	  	  $25
+  3	  	  −$1,600	  −$1,200	  19.20%	  $3,840	  $960	  −$375	  	  −$615
+  4	  	  −$1,600	  −$1,200	  11.52%	  $2,304	  $576	  −$375	  	  −$999
+  5	  	  −$1,600	  −$1,200	  11.52%	  $2,304	  $576	  −$375	  	  −$999
+  6	  −$20,000	  −$1,600	  −$1,200	  5.76%	  $1,152	  $288	  −$375	  $7,500	  −$13,787
+After-tax cost of debt = 0.08 × (1 − 0.25) = 0.06, or 6%
+NPV of total after-tax cash flows at 6 percent = −$12,293.67
+aSince the lathe will be fully depreciated at the end of the sixth year, the entire salvage value will be taxable.
+
+Statista estimates that the global market for aircraft leases in 2020 was $285.5 billion. To read more about this important leasing market, visit Statista’s Web site www.statista.com/topics/3877/aircraft-leasing/
+
+Summary of Learning Objectives
+A1 Describe what a lease is and discuss the motivations for leasing, what types of assets are more or less likely to be leased, what conflicts arise in lease agreements, and how the costs of these conflicts are reduced by lessors. Evaluate the choice between leasing and purchasing an asset.
+
+A lease is a financial contract that divides the right to use an asset into two parts: (1) the right to use it during the term of the lease and (2) the right to use it after the lease expires (the salvage rights). Leasing is an alternative to purchasing an asset when someone wants to obtain the right to use the asset for a period of time. The primary motivation for leasing an asset is that it can be less expensive than purchasing the asset. Leasing can provide larger tax shields, greater flexibility, and reduced contracting costs. General-use assets are more likely to be leased because the hold-up problem will be less severe with them than with firm-specific assets. Because of the way a lease divides the right to use an asset, it leads to conflicts concerning how intensely the asset is used and how well it is maintained. Ways in which lessors limit the costs of these conflicts include (1) investing in assets that are less subject to abuse, (2) pricing leases to reflect expected abuse, (3) tracking how intensely the leased assets are used and charging based on that intensity of use, (4) requiring damage deposits, (5) bundling lease and service contracts, (6) restricting how the assets can be used, and (7) offering the lessees the right to purchase the assets at the end of the lease. The analytical techniques that are used to choose between buying and leasing an asset are identical to those used in capital budgeting.
+
+Self-Study Problem
+A16.1 You own a real estate investment firm and have been asked by the owner of Big Box Shipping Company if you would be willing to construct an office building and lease it to Big Box. The owner of Big Box has some very unusual requirements for the interior layout of the building and is only willing to commit to leasing the building for 10 years, even though the life of the building is likely to be many times that long. What should concern you about this proposal?
+
+
+
+Discussion Questions
+A16.1 Your boss just read an article about the tax benefits of leasing. He states that your firm should lease all of its assets, since it faces a low tax rate. How would you respond?
+
+A16.2 You have decided to open a Segway Personal Transporter (PT) rental shop on your campus. If you plan to rent Segway PTs by the day, what sort of asset abuse problems are you likely to be concerned about and how might you control them?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+A16.1 Leasing: What characteristic of a lease leads to conflicts between the lessee and the lessor?
+
+Intermediate
+A16.2 Leasing: Fresno Machine Shop management has decided to acquire a new machine that costs $3,000. The machine will be worthless after three years. Only straight-line depreciation is allowed by the IRS for this type of machine. ABC Leasing, Inc., offers to lease the same machine to Fresno under an operating lease. Annual lease payments are $1,200 per year and are due at the end of each of the three years. The market-wide borrowing rate is 8 percent for loans on assets such as this. Fresno’s marginal tax rate is 35 percent. Should Fresno lease the machine or buy it? Assume that Fresno would not borrow to purchase the machine.
+
+Advanced
+A16.3 Your firm is considering leasing a chromebook laptop computer. The lease would last for three years and require four payments of $100 per year, with the first payment due immediately. The computer would cost $360 to buy and would be depreciated using straight-line depreciation over three years to a salvage value of zero. The actual salvage value is expected to be $100 after three years. The borrowing rate is 10 percent for loans on assets such as this, and your firm’s marginal tax rate is 25 percent. Should your firm lease or buy the computer?
+
+Notes
+1 These are the types of securities that firms issue to finance the assets that they purchase. However, it is important to recognize that firms do not purchase all assets they use. Many assets that businesses use are leased (rented). A lease (rental) agreement can enable a business to obtain the use of an asset without purchasing it. Consequently, the asset and its associated lease financing might not show up on the company’s balance sheet. Also, since business lease agreements generally require no deposit, they essentially represent 100 percent debt financing. For these reasons, the decision to purchase or lease an asset is directly related to the capital structure choices that managers make. The appendix to this chapter discusses lease agreements and how managers choose between buying and leasing an asset.
+2 The Nobel Prize Committee cited the M&M propositions when it awarded Nobel Prizes in Economics to Professor Modigliani in 1985 and to Professor Miller in 1990.
+3 Since we are assuming that there are no taxes, the after-tax cost of the interest is $10.
+4 In order for this transaction to have precisely the same effect as if Millennium’s capital structure had been altered by management, you would also have to use the firm’s stock as the only collateral for this borrowing. That way, if you failed to pay the interest, you would forfeit the equity to the lender and have no further obligation. The assumption that you can borrow at the same rate as the firm and use the stock as collateral is implied by the M&M condition that there are no information or transaction costs. If you paid a higher interest rate than the firm, then some of the value you are entitled to receive from the firm would be transferred from you to the lender.
+5 In finance, we use the terms cost of debt or equity interchangeably with required return on debt or equity because, by definition, the pretax cost of a particular type of capital to a firm equals the rate of return that investors require. Note that since firms can deduct interest payments, the after-tax cost of debt to the firm will be lower than the rate of return required by its creditors.
+6 M&M assumed that the cost of debt was constant and equal to the risk-free rate when they derived their Proposition 2. Of course, we know that the rate of return required by investors increases with risk and that the riskiness of the interest and principal payments on debt increases with leverage. Therefore, the cost of debt must also increase with leverage. If you look carefully at Equation 16.3, you will notice that (kAssets − kDebt) gets smaller as leverage increases because, although kDebt gets larger, kAssets does not change. Although this suggests that kcs can get smaller as leverage increases (specifically, the decrease in kAssets − kDebt might more than offset the increase in VDebt/Vcs), this never happens in practice. The cost of common stock always increases with leverage.
+7 In previous chapters, we discussed a number of reasons that net income might differ from the cash flows to which stockholders have a claim. For example, accounting accruals may cause net income to differ from cash flows, or depreciation charges might not equal actual cash expenditures on capital equipment or working capital in a particular year. For the time being, we will ignore these potential complications.
+8 Recall from Chapter 12 that operating leverage is a measure of the relative amounts of fixed and variable costs in a project’s cost structure. The greater the proportion of total costs that are fixed, the higher the operating leverage. Operating leverage is the major factor that determines the sensitivity of operating profit (EBIT) to changes in revenue. The higher a project’s operating leverage, the greater this sensitivity.
+9 In Exhibit 16.3, the percentage decrease in net income is 1.75 times as large in the firm with financial leverage as it is in the firm without financial leverage, regardless of whether the firm has low or high operating leverage (−56.00 percent/−32.00 percent = 1.75 and −140.00 percent/−80.00 percent = 1.75). This is because the fixed-interest expense in this example is the same percentage of revenue in both businesses.
+10 This effect is offset somewhat by the fact that dividends and capital gains are taxed at a lower rate than interest income in individual income tax returns. This effect is secondary to the corporate income tax effect because it is smaller in magnitude and because many investors, such as pension funds, endowments, and foundations, pay no taxes at all.
+11 R. Parrino, “Spin-offs and Wealth Transfers: The Marriott Case,” Journal of Financial Economics 43 (1997), 241–274.
+12 Since internally generated funds are reinvested on behalf of the stockholders, the true cost of these funds equals the cost of equity. However, using internally generated funds enables the firm to avoid the issuance costs associated with borrowing or selling stock, which, in turn, can make internal funds most attractive.
+1 A rental agreement is a lease that involves tangible property.
+2 A bargain purchase option is an option to buy the asset at a price that is so low, relative to the expected fair market value of the property, that exercise of the option is reasonably assured.
+3 In practice, the leasing alternative would be accomplished by setting up a leasing subsidiary that is owned by the manufacturer.
+4 Note that we used the after-tax cost of the 8 percent loan as the discount rate. We did this because the bank has agreed to lend the company the entire $20,000 purchase price at that rate and the lease is effectively 100 percent debt financing. We can assume that the risk associated with the lease cash flows is the same as that associated with the loan cash flows. It only makes sense to do this if the bank would lend the entire amount at that rate without any guarantees from the furniture manufacturing company or its owner. If there were such guarantees, using the 8 percent stated cost of debt would understate the true cost of 100 percent debt financing.

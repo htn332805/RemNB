@@ -1,0 +1,1166 @@
+page 360
+
+PART 4
+
+Diversification and Risky Asset Allocation
+
+
+
+“It is the part of a wise man not to venture all his eggs in one basket.”
+
+–Miguel de Cervantes
+
+Learning Objectives
+
+To get the most out of this chapter, diversify your study time across:
+
+How to calculate expected returns and variances for a security.
+
+How to calculate expected returns and variances for a portfolio.
+
+The importance of portfolio diversification.
+
+The efficient frontier and the importance of asset allocation.
+
+Intuitively, we all know that diversification is important for managing investment risk. But how exactly does diversification work, and how can we be sure we have an efficiently diversified portfolio? Insightful answers can be gleaned from the modern theory of diversification and asset allocation.
+
+In this chapter, we examine the role of diversification and asset allocation in investing. Most of us have a strong sense that diversification is important. After all, Cervantes’s advice against “putting all your eggs in one basket” has become a bit of folk wisdom that seems to have stood the test of time quite well. Even so, the importance of diversification has not always been well understood. Diversification is important because portfolios with many investments usually produce a more consistent and stable total return than portfolios with just one investment. When you own many stocks, even if some of them decline in price, others are likely to increase in price (or stay at the same price).
+
+CFATM Exam Topics in This Chapter:
+
+Discounted cash flow applications (L1, S2)
+
+Statistical concepts and market returns (L1, S2)
+
+Probability concepts (L1, S2)
+
+Portfolio management: An overview (L1, S12)
+
+Portfolio risk and return: Part I (L1, S12)
+
+Basics of portfolio planning and construction (L1, S13)
+
+Introduction to asset allocation (L3, S9)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 361
+
+You might be thinking that a portfolio with only one investment could do very well if you pick the right solitary investment. Indeed, had you decided to hold only Dell (DELL) stock during the 1990s or shares of Apple (AAPL) in the 2000s, your portfolio would have been very profitable. As an investor, you do not get to look backwards in time—you must look forward and ask which single investment today will be very profitable in the future. That’s the problem. If you pick the wrong one, you could get wiped out. In fact, had you held DELL in the 2000s, that would have been a mistake. Its price fell from a high of $57 in March 2000 to under $14 in 2013. Knowing which investment will perform best in the future is impossible. Obviously, if we knew, then there would be no risk. Therefore, investment risk plays an important role in portfolio diversification.
+
+The role and impact of diversification on portfolio risk and return were first formally explained in the early 1950s by financial pioneer Harry Markowitz. These aspects of portfolio diversification were an important discovery—Professor Markowitz shared the 1986 Nobel Prize in Economics for his insights on the value of diversification. His pioneering work has become known as modern portfolio theory, or MPT for short.
+
+Surprisingly, Professor Markowitz’s insights are not related to how investors care about risk or return. In fact, we can talk about the benefits of diversification without having to know how investors feel about risk. Realistically, however, it is investors who care about the benefits of diversification. Therefore, to help you understand Professor Markowitz’s insights, we make two assumptions. First, we assume that investors prefer more return to less return; and second, we assume that investors prefer less risk to more risk. In this chapter, we focus on variance and standard deviation as key measures of risk, although we expand on this in an upcoming chapter.
+
+11.1 Expected Returns and Variances
+In Chapter 1, we discussed how to calculate average returns and variances using historical data. We begin this chapter with a discussion of how to analyze returns and variances when the information we have concerns future returns and their probabilities. We start here because the notion of diversification involves future returns and variances of future returns.
+
+See how traders attempt to profit from expected returns at
+earningswhispers.com.
+
+EXPECTED RETURNS
+We start with a straightforward case. Consider a period of time such as a year. We have two stocks, say, Starcents and Jpod. Starcents is expected to have a return of 25 percent in the coming year; Jpod is expected to have a return of 20 percent during the same period.
+
+In a situation such as this, if all investors agreed on these expected return values, why would anyone want to hold Jpod? After all, why invest in one stock when the expectation is that another will do better? Clearly, the answer must depend on the different risks of the two investments. The return on Starcents, although expected to be 25 percent, could turn out to be significantly higher or lower. Similarly, Jpod’s realized return could be significantly higher or lower than expected.
+
+For example, suppose the economy booms. In this case, we think Starcents will have a 70 percent return. But if the economy tanks and enters a recession, we think the return will be −20 percent. In this case, we say that there are two states of the economy, which means that there are two possible outcomes. This scenario is oversimplified, of course, but it allows us to illustrate some key ideas without a lot of computational complexity.
+
+Suppose we think boom and recession are equally likely to happen, meaning there is a 50–50 chance of each outcome. Table 11.1 illustrates the basic information we have described and some additional information about Jpod. Notice that Jpod earns 30 percent if there is a recession and 10 percent if there is a boom.
+
+States of the Economy and Stock Returns
+
+TABLE 11.1
+
+
+Obviously, if you buy one of these stocks, say, Jpod, what you earn in any particular year depends on what the economy does during that year. Suppose these probabilities stay the same through time. If you hold Jpod for a number of years, you’ll earn 30 percent about half the time and 10 percent the other half. In this case, we say your expected return on Jpod, E(RJ), is 20 percent:
+
+
+expected return
+
+Average return on a risky asset expected in the future.
+
+page 362
+
+In other words, you should expect to earn 20 percent from this stock, on average. Note, however, that you might not ever earn exactly 20 percent.
+
+For Starcents, the probabilities are the same, but the possible returns are different. Here we lose 20 percent half the time and we gain 70 percent the other half. The expected return on Starcents, E(RS), is thus 25 percent:
+
+
+Table 11.2 illustrates these calculations.
+
+Calculating Expected Returns
+
+TABLE 11.2
+
+
+In Chapter 1, we defined a risk premium as the difference between the returns on a risky investment and a risk-free investment, and we calculated the historical risk premiums on some different investments. Using our projected returns, we can calculate the projected or expected risk premium as the difference between the expected return on a risky investment and the certain return on a risk-free investment.
+
+For example, suppose risk-free investments are currently offering an 8 percent return. We will say that the risk-free rate, which we label Rf, is 8 percent. Given this, what is the projected risk premium on Jpod? On Starcents? Because the expected return on Jpod, E(RJ), is 20 percent, the projected risk premium is:
+
+
+Similarly, the risk premium on Starcents is 25% − 8% = 17%.
+
+In general, the expected return on a security or other asset is equal to the sum of the possible returns multiplied by their probabilities. So, if we have 100 possible returns, we would multiply each one by its probability and then add up the results. The sum would be the expected return. The risk premium would then be the difference between this expected return and the risk-free rate.
+
+Unequal Probabilities
+
+EXAMPLE 11.1
+
+Look again at Tables 11.1 and 11.2. Suppose you thought a boom would occur 20 percent of the time instead of 50 percent. What are the expected returns on Starcents and Jpod in this case? If the risk-free rate is 10 percent, what are the risk premiums?
+
+The first thing to notice is that a recession must occur 80 percent of the time (1 − .20 = .80) because there are only two possibilities. With this in mind, Jpod has a page 36330 percent return in 80 percent of the years and a 10 percent return in 20 percent of the years. To calculate the expected return, we multiply the possibilities by the probabilities and add up the results:
+
+
+Written as decimals, the returns are:
+
+
+Table 11.3 summarizes the calculations for both stocks. Notice that the expected return on Starcents is −2 percent.
+
+Calculating Expected Returns
+
+TABLE 11.3
+
+
+The risk premium for Jpod is 26% − 10% = 16% in this case. The risk premium for Starcents is negative: −2% − 10% = −12%. This is a little unusual, but, as we will see, it’s not impossible.
+
+There’s more on risk measures at
+investopedia.com
+and
+teachmefinance.com.
+
+CALCULATING THE VARIANCE OF EXPECTED RETURNS
+To calculate the variances of the expected returns on our two stocks, we first determine the squared deviations from the expected return. We then multiply each possible squared deviation by its probability. Next we add these up, and the result is the variance.
+
+To illustrate, one of our stocks in Table 11.2, Jpod, has an expected return of 20 percent. In a given year, the return will actually be either 30 percent or 10 percent. The possible deviations are thus 30% − 20% = 10% or 10% − 20% = −10%. In this case, the variance is:
+
+
+Notice that we used decimals to calculate the variance. The standard deviation is then just the square root of the variance:
+
+
+Table 11.4 contains the expected return and variance for both stocks. Notice that Starcents has a much larger variance. Starcents has the higher expected return, but Jpod has less risk. You could get a 70 percent return on your investment in Starcents, but you could also lose 20 percent. However, an investment in Jpod will always pay at least 10 percent.
+
+Expected Returns and Variances
+
+TABLE 11.4
+
+Starcents	Jpod
+Expected return, E(R)	.25, or 25%	.20, or 20%
+Variance of expected return, σ2	.2025	.0100
+Standard deviation of expected return, σ	.45, or 45%	.10, or 10%
+Which of these stocks should you buy? We can’t really say; it depends on your personal preferences regarding risk and return. We can be reasonably sure, however, that some investors would prefer one and some would prefer the other.
+
+page 364
+
+You’ve probably noticed that the way we calculated expected returns and variances of expected returns here is somewhat different from the way we calculated returns and variances in Chapter 1 (and probably different from the way you learned it in your statistics course). The reason is that we were examining historical returns in Chapter 1, so we estimated the average return and variance based on some actual events. Here, we have projected future returns and their associated probabilities. Therefore, we must calculate expected returns and variances of these expected returns.
+
+More Unequal Probabilities
+
+EXAMPLE 11.2
+
+Going back to Table 11.3 in Example 11.1, what are the variances on our two stocks once we have unequal probabilities? What are the standard deviations?
+
+
+Converting all returns to decimals, we can summarize the needed calculations as follows:
+
+Based on these calculations, the standard deviation for Starcents is:
+
+
+The standard deviation for Jpod is much smaller:
+
+
+CHECK THIS
+
+
+
+11.1aHow do we calculate the expected return on a security?
+
+11.1bIn words, how do we calculate the variance of an expected return?
+
+11.2 Portfolios
+Thus far in this chapter, we have concentrated on individual assets considered separately. However, most investors actually hold a portfolio of assets. All we mean by this is that investors tend to own more than just a single stock, bond, or other asset. Given that this is true, portfolio return and portfolio risk are obviously relevant. Accordingly, we now discuss portfolio expected returns and variances.
+
+portfolio
+
+Group of assets such as stocks and bonds held by an investor.
+
+page 365
+
+PORTFOLIO WEIGHTS
+There are many equivalent ways of describing a portfolio. The most convenient approach is to list the percentages of the total portfolio’s value that are invested in each portfolio asset. We call these percentages the portfolio weights.
+
+portfolio weight
+
+Percentage of a portfolio’s total value invested in a particular asset.
+
+For example, if we have $50 in one asset and $150 in another, then our total portfolio is worth $200. The percentage of our portfolio invested in the first asset is $50/$200 = .25, or 25%. The percentage of our portfolio invested in the second asset is $150/$200 = .75, or 75%. Notice that the weights sum up to 1.00 (100%) because all of our money is invested somewhere.1
+
+PORTFOLIO EXPECTED RETURNS
+Let’s go back to Starcents and Jpod. You put half your money in each. The portfolio weights are obviously .50 and .50. What is the pattern of returns on this portfolio? The expected return?
+
+To answer these questions, suppose the economy actually enters a recession. In this case, half your money (the half in Starcents) loses 20 percent. The other half (the half in Jpod) gains 30 percent. Your portfolio return, Rp, in a recession will thus be:
+
+
+Table 11.5 summarizes the remaining calculations. Notice that when a boom occurs, your portfolio would return 40 percent:
+
+
+Expected Portfolio Return
+
+TABLE 11.5
+
+
+As indicated in Table 11.5, the expected return on your portfolio, E(Rp), is 22.5 percent.
+
+We can save ourselves some work by calculating the expected return more directly. Given these portfolio weights, we could have reasoned that we expect half of our money to earn 25 percent (the half in Starcents) and half of our money to earn 20 percent (the half in Jpod). Our portfolio expected return is thus:
+
+
+This is the same portfolio return that we calculated in Table 11.5.
+
+This method of calculating the expected return on a portfolio works no matter how many assets are in the portfolio. Suppose we had n assets in our portfolio, where n is any number at all. If we let xi stand for the percentage of our money in Asset i, then the expected return is:
+
+
+Equation 11.2 says that the expected return on a portfolio is a straightforward combination of the expected returns on the assets in that portfolio. In fact, the portfolio expected return is a simple weighted average of the expected returns of the assets that comprise the portfolio. This result seems somewhat obvious, but, as we will examine next, the obvious approach is not always the right one.
+
+page 366
+
+More Unequal Probabilities
+
+EXAMPLE 11.3
+
+Suppose we had the following projections on three stocks:
+
+
+We want to calculate portfolio expected returns in two cases. First, what would be the expected return on a portfolio with equal amounts invested in each of the three stocks? Second, what would be the expected return if half of the portfolio were in A, with the remainder equally divided between B and C?
+
+From our earlier discussion, the expected returns on the individual stocks are:
+
+
+(Check these for practice.) If a portfolio has equal investments in each asset, the portfolio weights are all the same. Such a portfolio is said to be equally weighted. Because there are three stocks in this case, the weights are all equal to 1/3. The portfolio expected return is thus:
+
+
+In the second case, check that the portfolio expected return is 9.375 percent.
+
+PORTFOLIO VARIANCE OF EXPECTED RETURNS
+From the preceding discussion, the expected return on a portfolio that contains equal investments in Starcents and Jpod is 22.5 percent. What is the standard deviation of return on this portfolio? Simple intuition might suggest that half of our money has a standard deviation of 45 percent and the other half has a standard deviation of 10 percent, so the portfolio’s standard deviation might be calculated as follows:
+
+
+Unfortunately, this approach is completely incorrect!
+
+Let’s see what the standard deviation really is. Table 11.6 summarizes the relevant calculations. As we see, the portfolio’s standard deviation is much less than 27.5 percent—it’s only 17.5 percent. What is illustrated here is that the variance on a portfolio is not generally a simple combination (or weighted average) of the variances of the assets in the portfolio.
+
+Calculating Portfolio Variance and Standard Deviation
+
+TABLE 11.6
+
+
+*Notice that we used percents for all returns. Verify that if we wrote returns as decimals, we would get a variance of .030625 and a standard deviation of .175.
+
+We can illustrate this point a little more dramatically by considering a slightly different set of portfolio weights. Suppose we put 2/11 (about 18 percent) in Starcents and the other 9/11 (about 82 percent) in Jpod. If a recession occurs, this portfolio will have a return of:
+
+
+page 367
+
+If a boom occurs, this portfolio will have a return of:
+
+
+Notice that the return is the same no matter what happens. No further calculation is needed: This portfolio has a zero variance and, theoretically, no risk!
+
+This portfolio is a nice bit of financial alchemy. We take two quite risky assets and, by mixing them just right, we create a riskless portfolio. It seems very clear that combining assets into portfolios can substantially alter the risks faced by an investor. This observation is crucial. We will begin to explore its implications in the next section.2
+
+Portfolio Variance and Standard Deviations
+
+EXAMPLE 11.4
+
+In Example 11.3, what are the standard deviations of the two portfolios?
+
+
+To answer, we first have to calculate the portfolio returns in the two states. We will work with the second portfolio, which has 50 percent in Stock A and 25 percent in each of Stocks B and C. The relevant calculations are summarized as follows.
+
+The portfolio return when the economy booms is calculated as:
+
+
+The return when the economy goes bust is calculated the same way. Check that it’s 5 percent, and also check that the expected return on the portfolio is 9.375 percent. Expressing returns in decimals, the variance is thus:
+
+
+The standard deviation is:
+
+
+Check: Using equal weights, verify that the portfolio standard deviation is 5.5 percent.
+
+Note: If the standard deviation is 4.375 percent, the variance should be somewhere between 16 and 25 (the squares of 4 and 5, respectively). If we square 4.375, we get 19.141. To express a variance in percentage, we must move the decimal four places to the right. That is, we must multiply .0019141 by 10,000—which is the square of 100.
+
+CHECK THIS
+
+
+
+11.2aWhat is a portfolio weight?
+
+11.2bHow do we calculate the variance of an expected return?
+
+11.3 Diversification and Portfolio Risk
+Our discussion to this point has focused on some hypothetical securities. We’ve seen that portfolio risks can, in principle, be quite different from the risks of the assets that make up the portfolio. We now look more closely at the risk of an individual asset versus the risk of a page 368portfolio of many different assets. As we did in Chapter 1, we will examine some stock market history to get an idea of what happens with actual investments in U.S. capital markets.
+
+THE EFFECT OF DIVERSIFICATION: ANOTHER LESSON FROM MARKET HISTORY
+In Chapter 1, we saw that the standard deviation of the annual return on a portfolio of large-company common stocks was about 20 percent per year. Does this mean that the standard deviation of the annual return on a typical stock in that group is about 20 percent? As you might suspect by now, the answer is no. This observation is extremely important.
+
+To examine the relationship between portfolio size and portfolio risk, Table 11.7 illustrates typical average annual standard deviations for equally weighted portfolios that contain different numbers of randomly selected NYSE securities.
+
+Portfolio Standard Deviations
+
+TABLE 11.7
+
+(1)
+Number of Stocks in Portfolio	(2)
+Average Standard Deviation of Annual Portfolio Returns	(3)
+Ratio of Portfolio Standard Deviation to Standard Deviation of a Single Stock
+      1	  49.24%	1.00
+      2	  37.36	  .76
+      4	  29.69	  .60
+      6	  26.64	  .54
+      8	  24.98	  .51
+    10	  23.93	  .49
+    20	  21.68	  .44
+    30	  20.87	  .42
+    40	  20.46	  .42
+    50	  20.20	  .41
+   100	  19.69	  .40
+   200	  19.42	  .39
+   300	  19.34	  .39
+   400	  19.29	  .39
+   500	  19.27	  .39
+1,000	  19.21	  .39
+Source: Table 1, Meir Statman. (September 1987). “How Many Stocks Make a Diversified Portfolio?,” Journal of Financial and Quantitative Analysis 22, 353–64. Derived from E. J. Elton and M. J. Gruber. (October 1977). “Risk Reduction and Portfolio Size: An Analytic Solution.” Journal of Business 50, 415–37.
+
+In column 2 of Table 11.7, we see that the standard deviation, or total risk, for a “portfolio” of one security is just under 50 percent per year—49.24 percent, to be precise. What this means is that if you randomly select a single NYSE stock and put all your money into it, your standard deviation of return would typically have been about 50 percent per year. Obviously, such a strategy has significant risk! If you were to randomly select two NYSE securities and put half your money in each, your average annual standard deviation would have been about 37 percent.
+
+The important thing to notice in Table 11.7 is that the standard deviation declines as the number of securities is increased. By the time we have 100 randomly chosen stocks (and 1 percent invested in each), the portfolio’s volatility has declined by 60 percent, from 50 percent per year to 20 percent per year. With 500 securities, the standard deviation is 19.27 percent per year, similar to the approximately 20 percent per year we saw in Chapter 1 for large-company common stocks. The small difference exists because the portfolio securities, portfolio weights, and the time periods covered are not identical.
+
+An important foundation of the diversification effect is the random selection of stocks. When stocks are chosen at random, the resulting portfolio represents different sectors, market caps, and other features. Consider what would happen, however, if you formed a portfolio of 30 stocks, but all were technology companies. In this case, you might think you have a page 369diversified portfolio, but because all these stocks have similar characteristics, you are actually close to having “all your eggs in one basket.”
+
+Similarly, during times of extreme market stress, such as the Crash of 2008, many seemingly unrelated asset categories tend to move together—down. Thus, diversification, although generally a good thing, doesn’t always work as we might hope.
+
+THE PRINCIPLE OF DIVERSIFICATION
+Figure 11.1 illustrates the point we’ve been discussing. What we have plotted is the standard deviation of the return versus the number of stocks in the portfolio. Notice in Figure 11.1 that the benefit in terms of risk reduction from adding securities drops off as we add more and more. By the time we have 10 securities, most of the diversification effect is already realized, and by the time we get to 30 or so, there is very little remaining benefit.
+
+Portfolio Diversification
+
+FIGURE 11.1
+
+
+The diversification benefit does depend on the time period over which returns and variances are calculated. For example, the data in Table 11.7 precede 1987. Scholars revisited diversification benefits by looking at more recent stock returns and variances and found that 50 stocks were needed to build a highly diversified portfolio in this time period. The point is that investors should be thinking in terms of 30 to 50 individual stocks when they are building a diversified portfolio.
+
+Figure 11.1 illustrates two key points. First, some of the riskiness associated with individual assets can be eliminated by forming portfolios. The process of spreading an investment across assets (and thereby forming a portfolio) is called diversification. The principle of diversification tells us that spreading an investment across many assets will eliminate some of the risk. Not surprisingly, risks that can be eliminated by diversification are called “diversifiable” risks.
+
+principle of diversification
+
+Spreading an investment across a number of assets will eliminate some, but not all, of the risk.
+
+The second point is equally important. There is a minimum level of risk that cannot be eliminated by diversifying. This minimum level is labeled “nondiversifiable risk” in Figure 11.1. Taken together, these two points are another important lesson from financial market history: Diversification reduces risk, but only up to a point. Put another way, some risk is diversifiable and some is not.
+
+THE FALLACY OF TIME DIVERSIFICATION
+Has anyone ever told you, “You’re young. You should have a large amount of equity (or other risky assets) in your portfolio”? While this advice could be true, the argument frequently used to support this strategy is incorrect. In particular, the common argument goes something like this: Although stocks are more volatile in any given year, over time this volatility cancels itself out. Although this argument sounds logical, it is only partially correct. Investment professionals refer to this argument as the time diversification fallacy.
+
+page 370
+
+How can such logical-sounding advice be so faulty? Well, let’s begin with what is true about this piece of advice. Recall from the very first chapter that the average yearly return of large-cap stocks over the last 93 individual years is about 12 percent, and the standard deviation is about 20.0 percent. For most investors, however, time horizons are much longer than a single year, so let’s look at the average returns of longer investment horizon periods.
+
+Let’s use a five-year investment period to start. If you use the data in Table 1.1 from 1926 through 1930, the geometric average return for large-cap stocks was 8.26 percent. You can confirm this average using the method to calculate a geometric, or compounded, average return that we present in Chapter 1. After this calculation, we only have the average for one historical five-year period. Instead, suppose we calculate all possible five-year geometric average returns using the data in Table 1.1. That is, we would calculate the geometric average return using data from 1927 to 1931, then 1928 to 1932, and so on.
+
+When we finish all this work, we have a series of five-year geometric average returns. If we wanted, we could compute the simple average and standard deviation of these five-year geometric, or compounded, averages. Then, we could repeat the whole process using a rolling 10-year period or using a rolling 15-year period (or whatever period we might want to use).
+
+We have made these calculations for nine different holding periods, ranging from 1 year to 40 years. Our calculations appear in Table 11.8. What do you notice about the averages and standard deviations?
+
+Average Geometric Returns by Investment Holding Period (1926–2018)
+
+TABLE 11.8
+
+
+Average Ending Wealth by Investment Holding Period (1926–2018)
+
+TABLE 11.9
+
+
+As the time periods get longer, the average geometric return generally falls. This pattern is consistent with our discussion of arithmetic and geometric averages in Chapter 1. What is more important for our discussion here, however, is the pattern of the standard deviation of the average returns. Notice that as the time period increases, the standard deviation of the geometric averages falls and actually approaches zero. The fact that it does is the true impact of time diversification.
+
+So, at this point do you think time diversification is true or a fallacy? Well, the problem is that even though the standard deviation of the geometric return tends to zero as the time horizon grows, the standard deviation of your wealth does not. As investors, we care about wealth levels and the standard deviation of wealth levels over time.
+
+Let’s make the following calculation. Suppose someone invested a lump sum of $1,000 at the beginning of 1926. Using the return data from Table 1.1, you can verify that this $1,000 has grown to $1,486.97 five years later. Next, we suppose someone invests $1,000 in 1927 and see what it grows to at the end of 1931. We make this calculation for all possible five-year investment periods and seven other longer periods. Our calculations appear in Table 11.9, where we provide wealth averages and standard deviations.
+
+What do you notice about the wealth averages and standard deviations in Table 11.9? Well, the average ending wealth amount is larger over longer time periods. This result makes sense—after all, we are investing for longer time periods. What is important for our discussion, however, is the standard deviation of wealth. Notice that this risk measure increases with the time horizon.
+
+page 371
+
+Figure 11.2 presents a nice “picture” of the impact of having standard deviation (i.e., risk) increase with the investment time horizon. Figure 11.2 contains the results of simulating outcomes of a $1,000 investment in equity over a 40-year period. From Figure 11.1, you can see the two sides of risk. While investing in equity gives you a greater chance of having a portfolio with an extremely large value, investing in equity also increases the probability of ending with a really low value. By definition, a wide range of possible outcomes is risk.
+
+S&P 500 Random Walk Model—Risk and Return
+
+FIGURE 11.2
+
+
+Source: J. Norstad.
+
+Now you know about the time diversification fallacy: Time diversifies returns but not wealth. As investors, we are more concerned about how much money we have (i.e., our wealth) than we are about our exact percentage return over the life of our investment accounts.
+
+So, should younger investors put more money in equity? The answer is probably still yes—but for logically sound reasons that differ from the reasoning underlying the fallacy of time diversification. If you are young and your portfolio suffers a steep decline in a particular year, what could you do? You could make up for this loss by changing your work habits (e.g., your type of job, hours, second job). People approaching retirement have little future earning power, so a major loss in their portfolio will have a much greater impact on their wealth. Thus, the portfolios of young people should contain relatively more equity (i.e., risk).
+
+CHECK THIS
+
+
+
+11.3aWhat happens to the standard deviation of return for a portfolio if we increase the number of securities in the portfolio?
+
+11.3bWhat is the principle of diversification?
+
+11.3cWhat is the time diversification fallacy?
+
+page 372
+
+11.4 Correlation and Diversification
+We’ve seen that diversification is important. What we haven’t discussed is how to get the most out of diversification. For example, in our previous section, we investigated what happens if we spread our money evenly across randomly chosen stocks. We saw that significant risk reduction resulted from this strategy, but you might wonder whether even larger gains could be achieved using a more sophisticated approach. As we begin to examine that question here, the answer is yes.
+
+WHY DIVERSIFICATION WORKS
+Why diversification reduces portfolio risk as measured by the portfolio’s standard deviation is important and worth exploring in some detail. The key concept is correlation, which is the extent to which the returns on two assets move together. If the returns on two assets tend to move up and down together, we say they are positively correlated. If they tend to move in opposite directions, we say they are negatively correlated. If there is no particular relationship between the two assets, we say they are uncorrelated.
+
+correlation
+
+The tendency of the returns on two assets to move together.
+
+Measure portfolio diversification using Instant X-Ray at
+morningstar.com
+(use the search feature).
+
+The correlation coefficient, which we use to measure correlation, ranges from −1 to +1, and we will denote the correlation between the returns on two assets, say A and B, as Corr(RA, RB). The Greek letter ρ (rho) is often used to designate correlation as well. A correlation of +1 indicates that the two assets have a perfect positive correlation. For example, suppose that whatever return Asset A realizes, either up or down, Asset B does the same thing by exactly twice as much. In this case, they are perfectly correlated because the movement on one is completely predictable from the movement on the other. Notice, however, that perfect correlation does not necessarily mean they move by the same amount.
+
+A zero correlation means that the two assets are uncorrelated. If we know that one asset is up, then we have no idea what the other one is likely to do; there is no relation between them. Perfect negative correlation [Corr(RA, RB) = −1] indicates that they always move in opposite directions. Figure 11.3 illustrates the three benchmark cases of perfect positive, perfect negative, and zero correlation.
+
+Correlations
+
+FIGURE 11.3
+
+
+Diversification works because security returns are generally not perfectly correlated. We will be more precise about the impact of correlation on portfolio risk in just a moment. For now, it is useful to think about combining two assets into a portfolio. If the two assets are highly positively correlated (the correlation is near +1), then they have a strong tendency to move up and down together. As a result, they offer limited diversification benefit. For example, two stocks from the same industry, say, General Motors and Ford, will tend to be page 373relatively highly correlated because the companies are in essentially the same business, and a portfolio of two such stocks is not likely to be very diversified.
+
+In contrast, if the two assets are negatively correlated, then they tend to move in opposite directions; whenever one zigs, the other tends to zag. In such a case, the diversification benefit will be substantial because variation in the return on one asset tends to be offset by variation in the opposite direction from the other. In fact, if two assets have a perfect negative correlation [Corr(RA, RB) = −1], then it is possible to combine them such that all risk is eliminated. Looking back at our example involving Jpod and Starcents in which we were able to eliminate all of the risk, what we now see is that they must be perfectly negatively correlated.
+
+To illustrate the impact of diversification on portfolio risk further, suppose we observed the actual annual returns on two stocks, A and B, for the years 2015−2019. We summarize these returns in Table 11.10. In addition to actual returns on Stocks A and B, we also calculated the returns on an equally weighted portfolio of A and B in Table 11.10. We label this portfolio as AB. In 2015, for example, Stock A returned 10 percent and Stock B returned 15 percent. Because Portfolio AB is half invested in each, its return for the year was:
+
+
+Annual Returns on Stocks A and B
+
+TABLE 11.10
+
+Year	Stock A	Stock B	Portfolio AB
+2015	 10%	 15%	12.5%
+2016	 30	–10	10.0
+2017	–10	25	7.5
+2018	5	20	12.5
+2019	10	15	12.5
+Average returns	 9%	13%	11.0%
+Standard deviations	14.3%	13.5% 	 2.2%
+The returns for the other years are calculated similarly.
+
+At the bottom of Table 11.10, we calculated the average returns and standard deviations on the two stocks and the equally weighted portfolio. These averages and standard deviations are calculated just as they were in Chapter 1 (check a couple just to refresh your memory). The impact of diversification is apparent. The two stocks have standard deviations in the 13 percent to 14 percent per year range, but the portfolio’s volatility is only 2.2 percent. In fact, if we compare the portfolio to Stock A, it has both a higher return (11 percent vs. 9 percent) and much less risk.
+
+Figure 11.4 illustrates in more detail what is occurring with our example. Here we have three bar graphs showing the year-by-year returns on Stocks A and B and Portfolio AB. Examining the graphs, we see that in 2016, for example, Stock A earned 30 percent while Stock B lost 10 percent. The following year, Stock B earned 25 percent, while A lost 10 percent. These ups and downs tend to cancel out in Portfolio AB, however, with the result that there is much less variation in return from year to year. In other words, the correlation between the returns on Stocks A and B is relatively low.
+
+Impact of Diversification
+
+FIGURE 11.4
+
+
+Calculating the correlation between Stocks A and B is not difficult, but it would require us to digress a bit. Instead, we will explain the needed calculation in the next chapter, where we build on the principles developed here.
+
+CALCULATING PORTFOLIO RISK
+We’ve seen that correlation is an important determinant of portfolio risk. To further pursue this issue, we need to know how to calculate portfolio variances directly. For a portfolio of two assets, A and B, the variance of the return on the portfolio, , is given by Equation 11.3:
+
+
+In this equation, xA and xB are the percentages invested in Assets A and B. Notice that xA + xB = 1. (Why?)
+
+For a portfolio of three assets, the variance of the return on the portfolio, , is given by Equation 11.4:
+
+page 374
+
+
+Note that six terms appear in Equation 11.4. There is a term involving the squared weight and the variance of the return for each of the three assets (A, B, and C), as well as a cross-term for each pair of assets. The cross-term involves pairs of weights, pairs of standard deviations of returns for each asset, and the correlation between the returns of the asset pair. If you had a portfolio of six assets, you would have an equation with 21 terms. (Can you write this equation?) If you had a portfolio of 50 assets, the equation for the variance of this portfolio would have 1,275 terms! Let’s return to Equation 11.3.
+
+Equation 11.3 looks a little involved, but its use is straightforward. For example, suppose Stock A has a standard deviation of 40 percent per year and Stock B has a standard deviation of 60 percent per year. The correlation between them is .15. If you put half your money in each, what is your portfolio standard deviation?
+
+To answer, we just plug the numbers into Equation 11.3. Note that xA and xB are each equal to .50, while σA and σB are .40 and .60, respectively. Taking Corr(RA, RB) = .15, we have:
+
+
+Thus, the portfolio variance is .148. As always, variances are not easy to interpret because they are based on squared returns, so we calculate the standard deviation by taking the square root:
+
+
+Once again, we see the impact of diversification. This portfolio has a standard deviation of 38.47 percent, which is less than either of the standard deviations on the two assets that are in the portfolio.
+
+page 375
+
+Portfolio Variance and Standard Deviation
+
+EXAMPLE 11.5
+
+In the example we just examined, Stock A has a standard deviation of 40 percent per year and Stock B has a standard deviation of 60 percent per year. Suppose now that the correlation between them is .35. Also suppose you put one-fourth of your money in Stock A. What is your portfolio standard deviation?
+
+If you put 1/4 (or .25) in Stock A, you must have 3/4 (or .75) in Stock B, so xA = .25 and xB = .75. Making use of Equation 11.3to find portfolio variance, we have:
+
+
+Thus, the portfolio variance is .244. Taking the square root, we get:
+
+
+This portfolio has a standard deviation of 49 percent, which is between the individual standard deviations. This shows that a portfolio’s standard deviation isn’t necessarily less than the individual standard deviations.
+
+The impact of correlation in determining the overall risk of a portfolio has significant implications. For example, consider an investment in international equity. Historically, this sector has had slightly lower returns than large-cap U.S. equity, but the international equity volatility has been much higher.
+
+If investors prefer more return to less return, and less risk to more risk, why would anyone allocate funds to international equity? The answer lies in the fact that the correlation of international equity to U.S. equity is not close to +1. Although international equity is quite risky by itself, adding international equity to an existing portfolio of U.S. investments can reduce risk. In fact, as we discuss in the next section, adding international equity could actually give our portfolio a better return-to-risk (or more efficient) profile.
+
+Another important point about international equity and correlations is that correlations are not constant over time. Investors expect to receive significant diversification benefits from international equity, but if correlations increase, much of the benefit will be lost. When does this happen? Well, in the Crash of 2008, correlations across markets increased significantly, as almost all asset classes declined in value (an exception was short-term government debt). As investors, we must be mindful of the differences between expected and actual outcomes—particularly during crashes and bear markets.
+
+THE IMPORTANCE OF ASSET ALLOCATION, PART 1
+Why are correlation and asset allocation important, practical, real-world considerations? Well, suppose that as a very conservative, risk-averse investor, you decide to invest all of your money in a bond mutual fund. Based on your analysis, you think this fund has an expected return of 6 percent with a standard deviation of 10 percent per year. A stock fund is available, however, with an expected return of 12 percent, but the standard deviation of 15 percent is too high for your taste. Also, the correlation between the returns on the two funds is about .10.
+
+asset allocation
+
+How an investor spreads portfolio dollars among broad asset classes.
+
+Is the decision to invest 100 percent in the bond fund a wise one, even for a very risk-averse investor? The answer is no; in fact, it is a bad decision for any investor. To see why, Table 11.11 shows expected returns and standard deviations available from different combinations of the two mutual funds. In constructing the table, we begin with 100 percent in the stock fund and work our way down to 100 percent in the bond fund by reducing the percentage in the stock fund in increments of .05. These calculations are all done just like our examples above; you should check some (or all) of them for practice.
+
+Risk and Return with Stocks and Bonds
+
+TABLE 11.11
+
+Portfolio Weights
+Stocks	Bonds	Expected Return	Standard Deviation (Risk)
+1.00	.00	12.00%	15.00%
+.95	.05	11.70	14.31
+.90	.10	11.40	13.64
+.85	.15	11.10	12.99
+.80	.20	10.80	12.36
+.75	.25	10.50	11.77
+.70	.30	10.20	11.20
+.65	.35	9.90	10.68
+.60	.40	9.60	10.21
+.55	.45	9.30	9.78
+.50	.50	9.00	9.42
+.45	.55	8.70	9.12
+.40	.60	8.40	8.90
+.35	.65	8.10	8.75
+.30	.70	7.80	8.69
+.25	.75	7.50	8.71
+.20	.80	7.20	8.82
+.15	.85	6.90	9.01
+.10	.90	6.60	9.27
+.05	.95	6.30	9.60
+.00	1.00	6.00	10.00
+Beginning in the first row in Table 11.11, we have 100 percent in the stock fund, so our expected return is 12 percent and our standard deviation is 15 percent. As we begin to move page 376out of the stock fund and into the bond fund, we are not surprised to see both the expected return and the standard deviation decline. However, what might surprise you is the fact that the standard deviation falls only so far and then begins to rise again. In other words, beyond a point, adding more of the lower-risk bond fund actually increases your risk!
+
+The best way to see what is going on is to plot the various combinations of expected returns and standard deviations calculated in Table 11.11, as we do in Figure 11.5. We placed the standard deviations from Table 11.11 on the horizontal axis and the corresponding expected returns on the vertical axis.
+
+Risk and Return with Stocks and Bonds
+
+FIGURE 11.5
+
+
+Examining the plot in Figure 11.5, we see that the various combinations of risk and return available all fall on a smooth curve (in fact, for the geometrically inclined, it’s a hyperbola). This curve is called an investment opportunity set because it shows the possible combinations of risk and return available from portfolios of these two assets. One important thing to notice is that, as we have shown, there is a portfolio that has the smallest standard deviation (or variance–same thing) of all. It is labeled “minimum variance portfolio” in Figure 11.5. What are its approximate expected return and standard deviation?
+
+investment opportunity set
+
+Collection of possible risk-return combinations available from portfolios of individual assets.
+
+Review modern portfolio theory at
+moneychimp.com.
+
+Now we see clearly why a 100 percent bonds strategy is a poor one. With a 10 percent standard deviation, the bond fund offers an expected return of 6 percent. However, Table 11.11 shows us that a combination of about 60 percent stocks and 40 percent bonds has almost the same standard deviation, but a return of about 9.6 percent. Comparing 9.6 percent to 6 percent, we see that this portfolio has a return that is fully 60 percent greater (6% × 1.6 = 9.6%) with the same risk. Our conclusion? Asset allocation matters.
+
+Going back to Figure 11.5, notice that any portfolio that plots below the minimum variance portfolio is a poor choice because, no matter which one you pick, there is another portfolio with the same risk and a much better return. In the jargon of finance, we say that these undesirable portfolios are dominated and/or inefficient. Either way, we mean that given their level of risk, the expected return is inadequate compared to some other portfolio of page 377equivalent risk. A portfolio that offers the highest return for its level of risk is said to be an efficient portfolio. In Figure 11.5, the minimum variance portfolio and all portfolios that plot above it are therefore efficient.
+
+efficient portfolio
+
+A portfolio that offers the highest return for its level of risk.
+
+More Portfolio Variance and Standard Deviation
+
+EXAMPLE 11.6
+
+Looking at Table 11.11, suppose you put 57.627 percent in the stock fund. What is your expected return? Your standard deviation? How does this compare with the bond fund?
+
+If you put 57.627 percent in stocks, you must have 42.373 percent in bonds, so xA = .57627 and xB = .42373. From Table 11.11, you can see that the standard deviation for stocks and bonds is 15 percent and 10 percent, respectively. Also, the correlation between stocks and bonds is .10. Making use of Equation 11.3 for portfolio variance, we have:
+
+
+Thus, the portfolio variance is .01, so the standard deviation is .1, or 10 percent. Check that the expected return is 9.46 percent. Compared to the bond fund, the standard deviation is now identical, but the expected return is almost 350 basis points higher.
+
+MORE ON CORRELATION AND THE RISK-RETURN TRADE-OFF
+Given the expected returns and standard deviations on the two assets, the shape of the investment opportunity set in Figure 11.5 depends on the correlation. The lower the correlation, the more bowed to the left the investment opportunity set will be. To illustrate, Figure 11.6 shows the investment opportunity for correlations of −1, 0, and +1 for two stocks, A and B. Notice that Stock A has an expected return of 12 percent and a standard deviation of 15 percent, while Stock B has an expected return of 6 percent and a standard deviation of 10 percent. These are the same expected returns and standard deviations we used to build Figure 11.5, and the calculations are all done the same way; just the correlations are different. Notice also that we use the symbol ρ to stand for the correlation coefficient.
+
+page 378
+
+Risk and Return with Two Assets
+
+FIGURE 11.6
+
+
+In Figure 11.6, when the correlation is +1, the investment opportunity set is a straight line connecting the two stocks, so, as expected, there is little or no diversification benefit. As the correlation declines to zero, the bend to the left becomes pronounced. For correlations between +1 and zero, there would be a less pronounced bend.
+
+Finally, as the correlation becomes negative, the bend becomes quite pronounced, and the investment opportunity set actually becomes two straight-line segments when the correlation hits −1. Notice that the minimum variance portfolio has a zero variance in this case.
+
+It is sometimes desirable to be able to calculate the percentage investments needed to create the minimum variance portfolio. For a two-asset portfolio, Equation 11.5 shows the weight in Asset  that achieves the minimum variance.
+
+
+A question at the end of the chapter asks you to prove that Equation 11.5 is correct.
+
+Finding the Minimum Variance Portfolio
+
+EXAMPLE 11.7
+
+Looking back at Table 11.11, what combination of the stock fund and the bond fund has the lowest possible standard deviation? What is the minimum possible standard deviation?
+
+Recalling that the standard deviations for the stock fund and bond fund were .15 and .10, respectively, and noting that the correlation was .1, we have:
+
+
+Thus, the minimum variance portfolio has 28.8 percent in stocks and the balance, 71.2 percent, in bonds. Plugging these into our formula for portfolio variance, we have:
+
+
+The standard deviation is the square root of .007551, or about 8.7 percent. Notice that this is where the minimum occurs in Figure 11.5.
+
+page 379
+
+CHECK THIS
+
+
+
+11.4aFundamentally, why does diversification work?
+
+11.4bIf two stocks have positive correlation, what does this mean?
+
+11.4cWhat is an efficient portfolio?
+
+11.5 The Markowitz Efficient Frontier
+In the previous section, we looked closely at the risk-return possibilities available when we consider combining two risky assets. Now we are left with an obvious question: What happens when we consider combining three or more risky assets? As we will see, at least on a conceptual level, the answer turns out to be a straightforward extension of our previous examples that use two risky assets.
+
+THE IMPORTANCE OF ASSET ALLOCATION, PART 2
+As you saw in Equation 11.4, the formula to compute a portfolio variance with three assets is a bit cumbersome. Indeed, the amount of calculation increases greatly as the number of assets in the portfolio grows. The calculations are not difficult, but using a computer is highly recommended for portfolios consisting of more than three assets!
+
+We can, however, illustrate the importance of asset allocation using only three assets. How? Well, a mutual fund that holds a broadly diversified portfolio of securities counts as only one asset. So, with three mutual funds that hold diversified portfolios, we can construct a diversified portfolio with these three assets. Suppose we invest in three index funds—one that represents U.S. stocks, one that represents U.S. bonds, and one that represents foreign stocks. Then we can see how the allocation among these three diversified portfolios matters. (Our Getting Down to Business box at the end of the chapter presents a more detailed discussion of mutual funds and diversification.)
+
+Figure 11.7 shows the result of calculating the expected returns and portfolio standard deviations when there are three assets. To illustrate the importance of asset allocation, we calculated expected returns and standard deviations from portfolios composed of three key investment types: U.S. stocks, foreign (non-U.S.) stocks, and U.S. bonds. These asset classes are not highly correlated in general; therefore, we assume a zero correlation in all cases. When we assume that all correlations are zero, the return to this portfolio is still:
+
+
+Markowitz Efficient Portfolio
+
+FIGURE 11.7
+
+
+But when all correlations are zero, the variance of the portfolio becomes:
+
+
+Suppose the expected returns and standard deviations are as follows:
+
+Expected Returns	Standard Deviations
+Foreign stocks, F	18%	35%
+U.S. stocks, S	12	22
+U.S. bonds, B	8	14
+We can now compute risk-return combinations as we did in our two-asset case. We create tables similar to Table 11.11, and then we can plot the risk-return combinations.
+
+page 380
+
+In Figure 11.7, each point plotted is a possible risk-return combination. Comparing the result with our two-asset case in Figure 11.5, we see that now not only do some assets plot below the minimum variance portfolio on a smooth curve, but we have portfolios plotting inside as well. Only combinations that plot on the upper left-hand boundary are efficient; all the rest are inefficient. This upper left-hand boundary is called the Markowitz efficient frontier, and it represents the set of risky portfolios with the maximum return for a given standard deviation.
+
+Markowitz efficient frontier
+
+The set of portfolios with the maximum return for a given standard deviation.
+
+Figure 11.7 makes it clear that asset allocation matters. For example, a portfolio of 100 percent U.S. stocks is highly inefficient. For the same standard deviation, there is a portfolio with an expected return almost 400 basis points, or 4 percent, higher. Or, for the same expected return, there is a portfolio with about half as much risk! Our nearby Work the Web box shows you how an efficient frontier can be created online.
+
+Check out the online journal at
+www.efficientfrontier.com.
+
+The analysis in this section can be extended to any number of assets or asset classes. In principle, it is possible to compute efficient frontiers using thousands of assets. As a practical matter, however, this analysis is most widely used with a relatively small number of asset classes. For example, most investment banks maintain so-called model portfolios. These are recommended asset allocation strategies typically involving three to six asset categories.
+
+A primary reason that the Markowitz analysis is not usually extended to large collections of individual assets has to do with data requirements. The inputs into the analysis are (1) expected returns on all assets, (2) standard deviations on all assets, and (3) correlations between every pair of assets. Moreover, these inputs have to be measured with some precision or we just end up with a garbage-in, garbage-out (GIGO) system.
+
+Suppose we just look at 2,000 NYSE stocks. We need 2,000 expected returns and standard deviations. We already have a problem because returns on individual stocks cannot be predicted with precision at all. To make matters worse, however, we need to know the correlation between every pair of stocks. With 2,000 stocks, there are 2,000 × 1,999/2 = 1,999,000, or almost 2 million, unique pairs!3 Also, as with expected returns, correlations between individual stocks are very difficult to predict accurately. We will return to this issue in our next chapter, where we show that there may be an extremely elegant way around the problem.
+
+page 381
+
+WORK THE WEB
+
+Several websites allow you to perform a Markowitz-type analysis. One free site that provides this and other information is portfoliovisualizer.com. Once there, click on “Examples” and find the area titled “Efficient Frontier.” You can select asset classes or tickers and see the efficient frontier. We entered the ticker symbols for Wells Fargo, Nike, and Walmart. Once you have entered the data, the website provides some useful information. In particular, the output suggests the optimal portfolio allocation for the stocks we selected.
+
+
+Source: Portfolio Visualizer, 2019.
+
+CHECK THIS
+
+
+
+11.5aWhat is the Markowitz efficient frontier?
+
+11.5bWhy is Markowitz portfolio analysis most commonly used to make asset allocation decisions?
+
+page 382
+
+11.6 Summary and Conclusions
+In this chapter, we covered the basics of diversification and portfolio risk and return. The most important thing to take away from this chapter is an understanding of diversification and why it works. Once you understand this concept, then the importance of asset allocation becomes clear.
+
+Our diversification story is not complete, however, because we have not considered one important asset class: riskless assets. This will be the first task in our next chapter. However, in this chapter, we covered many aspects of diversification and risky assets. We recap some of these aspects, grouped below by the learning objectives of the chapter.
+
+1.  How to calculate expected returns and variances for a security.
+
+A.  In Chapter 1, we discussed how to calculate average returns and variances using historical data. When we calculate expected returns and expected variances, we have to use calculations that account for the probabilities of future possible returns.
+
+B.  In general, the expected return on a security is equal to the sum of the possible returns multiplied by their probabilities. So, if we have 100 possible returns, we would multiply each one by its probability and then add up the results. The sum is the expected return.
+
+C.  To calculate the variances, we first determine the squared deviations from the expected return. We then multiply each possible squared deviation by its probability. Next we add these, and the result is the variance. The standard deviation is the square root of the variance.
+
+2.  How to calculate expected returns and variances for a portfolio.
+
+A.  A portfolio’s expected return is a simple weighted combination of the expected returns on the assets in the portfolio. This method of calculating the expected return on a portfolio works no matter how many assets are in the portfolio.
+
+B.  The variance of a portfolio is generally not a simple combination of the variances of the assets in the portfolio. Review Equations 11.3 and 11.4 to verify this fact.
+
+3.  The importance of portfolio diversification.
+
+A.  Diversification is a very important consideration. The principle of diversification tells us that spreading an investment across many assets can reduce some, but not all, of the risk. Based on U.S. stock market history, for example, about 60 percent of the risk associated with owning individual stocks can be eliminated by naive diversification.
+
+B.  Diversification works because asset returns are not perfectly correlated. All else the same, the lower the correlation, the greater is the gain from diversification.
+
+C.  It is even possible to combine some risky assets in such a way that the resulting portfolio has zero risk. This is a nice bit of financial alchemy.
+
+4.  The efficient frontier and the importance of asset allocation.
+
+A.  When we consider the possible combinations of risk and return available from portfolios of assets, we find that some are inefficient (or dominated) portfolios. An inefficient portfolio is one that offers too little return for its risk.
+
+B.  For any group of assets, there is a set that is efficient. That set is known as the Markowitz efficient frontier. The Markowitz efficient frontier simultaneously represents (1) the set of risky portfolios with the maximum return for a given standard deviation and (2) the set of risky portfolios with the minimum standard deviation for a given return.
+
+page 383
+
+GETTING DOWN TO BUSINESS
+
+This chapter explained diversification, a very important consideration for real-world investors and money managers. The chapter also explored the Markowitz efficient portfolio concept, which shows how (and why) asset allocation affects portfolio risk and return.
+
+Building a diversified portfolio is not a trivial task. Of course, as we discussed many chapters ago, mutual funds provide one way for investors to build diversified portfolios, but there are some significant caveats concerning mutual funds as a diversification tool. First of all, investors sometimes assume a fund is diversified because it holds a relatively large number of stocks. However, with the exception of some index funds, most mutual funds will reflect a particular style of investing, either explicitly, as stated in the fund’s objective, or implicitly, as favored by the fund manager. For example, in the mid- to late-1990s, stocks as a whole did very well, but mutual funds that concentrated on smaller stocks generally did not do well at all.
+
+It is tempting to buy a number of mutual funds to ensure broad diversification, but even this may not work. Within a given fund family, the same manager may actually be responsible for multiple funds. In addition, managers within a large fund family frequently have similar views about the market and individual companies.
+
+Thinking just about stocks for the moment, what does an investor need to consider to build a well-diversified portfolio? At a minimum, such a portfolio probably needs to be diversified across industries, with no undue concentrations in particular sectors of the economy; it needs to be diversified by company size (small, mid-cap, and large); and it needs to be diversified across “growth” (i.e., high-PE) and “value” (i.e., low-PE) stocks. Perhaps the most controversial diversification issue concerns international diversification. The correlation between international stock exchanges is surprisingly low, suggesting large benefits from diversifying globally.
+
+Perhaps the most disconcerting fact about diversification is that it leads to the following paradox: A well-diversified portfolio will always be invested in something that does not do well! Put differently, such a portfolio will almost always have both winners and losers. In many ways, that’s the whole idea. Even so, it requires a lot of financial discipline to stay diversified when some portion of your portfolio seems to be doing poorly. The payoff is that, over the long run, a well-diversified portfolio should provide much steadier returns and be much less prone to abrupt changes in value.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+asset allocation 375
+
+correlation 372
+
+efficient portfolio 377
+
+expected return 361
+
+investment opportunity set 376
+
+Markowitz efficient frontier 380
+
+portfolio 364
+
+portfolio weight 365
+
+principle of diversification 369
+
+Chapter Review Problems and Self-Test
+
+Use the following table of states of the economy and stock returns to answer the review problems:
+
+Security Returns if State Occurs
+State of Economy	Probability of State of Economy	Roten	Bradley
+Bust	 .40	–10%	30%
+Boom	 .60	40	10
+1.00		
+page 384
+
+Expected Returns (LO1, CFA1)   Calculate the expected returns for Roten and Bradley.
+
+Standard Deviations (LO1, CFA2)   Calculate the standard deviations for Roten and Bradley.
+
+Portfolio Expected Returns (LO2, CFA3)   Calculate the expected return on a portfolio of 50 percent Roten and 50 percent Bradley.
+
+Portfolio Volatility (LO2, CFA5)   Calculate the variance and standard deviation of a portfolio of 50 percent Roten and 50 percent Bradley.
+
+Answers to Self-Test Problems
+
+We calculate the expected return as follows:
+
+
+We calculate the standard deviation as follows:
+
+
+Taking square roots, the standard deviations are 24.495 percent for Roten and 9.798 percent for Bradley.
+
+We calculate the expected return on a portfolio of 50 percent Roten and 50 percent Bradley as follows:
+
+
+We calculate the variance and standard deviation of a portfolio of 50 percent Roten and 50 percent Bradley as follows:
+
+
+page 385
+
+Test Your Investment Quotient
+
+
+Diversification (LO3, CFA7)   Starcents has an expected return of 25 percent and Jpod has an expected return of 20 percent. What is the likely investment decision for a risk-averse investor?
+
+Invest all funds in Starcents.
+
+Invest all funds in Jpod.
+
+Do not invest any funds in Starcents and Jpod.
+
+Invest funds partly in Starcents and partly in Jpod.
+
+Return Standard Deviation (LO1, CFA2)   Starcents experiences returns of 5 percent or 45 percent, each with an equal probability. What is the return standard deviation for Starcents?
+
+30 percent
+
+25 percent
+
+20 percent
+
+10 percent
+
+Return Standard Deviation (LO1, CFA2)   Jpod experiences returns of 0 percent, 25 percent, or 50 percent, each with a one-third probability. What is the approximate return standard deviation for Jpod?
+
+30 percent
+
+25 percent
+
+20 percent
+
+10 percent
+
+Expected Return (LO1, CFA1)   An analyst estimates that a stock has the following return probabilities and returns depending on the state of the economy:
+
+State of Economy	Probability	Return
+Good	.1	 15%
+Normal	.6	13
+Poor	.3	 7
+What is the expected return of the stock?
+
+7.8 percent
+
+11.4 percent
+
+11.7 percent
+
+13.0 percent
+
+Risk Aversion (LO3, CFA4)   Which of the following statements best reflects the importance of the asset allocation decision to the investment process? The asset allocation decision:
+
+Helps the investor decide on realistic investment goals.
+
+Identifies the specific securities to include in a portfolio.
+
+Determines most of the portfolio’s returns and volatility over time.
+
+Creates a standard by which to establish the appropriate investment time horizon.
+
+Optimal Portfolios (LO4, CFA5)   The best portfolios would be those that are described as having:
+
+The minimum risk for every level of return.
+
+Proportionally equal units of risk and return.
+
+The maximum excess rate of return for every given level of risk.
+
+The highest return for each level of beta using the capital asset pricing model.
+
+Diversification (LO3, CFA3)   An investor is considering adding another investment to a portfolio. To achieve the maximum diversification benefits, the investor should add an investment that has a correlation coefficient with the existing portfolio closest to:
+
+−1.0
+
+−.5
+
+0
+
++1.0
+
+page 386Risk Premium (LO2, CFA1)   Starcents has an expected return of 25 percent, Jpod has an expected return of 20 percent, and the risk-free rate is 5 percent. You invest half your funds in Starcents and the other half in Jpod. What is the risk premium for your portfolio?
+
+20 percent
+
+17.5 percent
+
+15 percent
+
+12.5 percent
+
+Return Standard Deviation (LO2, CFA5)   Both Starcents and Jpod have the same return standard deviation of 20 percent, and Starcents and Jpod returns have zero correlation. You invest half your funds in Starcents and the other half in Jpod. What is the return standard deviation for your portfolio?
+
+20 percent
+
+14.14 percent
+
+10 percent
+
+0 percent
+
+Return Standard Deviation (LO2, CFA5)   Both Starcents and Jpod have the same return standard deviation of 20 percent, and Starcents and Jpod returns have a correlation of +1. You invest half your funds in Starcents and the other half in Jpod. What is the return standard deviation for your portfolio?
+
+20 percent
+
+14.14 percent
+
+10 percent
+
+0 percent
+
+Return Standard Deviation (LO2, CFA5)   Both Starcents and Jpod have the same return standard deviation of 20 percent, and Starcents and Jpod returns have a correlation of −1. You invest half your funds in Starcents and the other half in Jpod. What is the return standard deviation for your portfolio?
+
+20 percent
+
+14.14 percent
+
+10 percent
+
+0 percent
+
+Minimum Variance Portfolio (LO2, CFA4)   Both Starcents and Jpod have the same return standard deviation of 20 percent, and Starcents and Jpod returns have zero correlation. What is the minimum attainable standard deviation for a portfolio of Starcents and Jpod?
+
+20 percent
+
+14.14 percent
+
+10 percent
+
+0 percent
+
+Minimum Variance Portfolio (LO2, CFA4)   Both Starcents and Jpod have the same return standard deviation of 20 percent, and Starcents and Jpod returns have a correlation of −1. What is the minimum attainable return deviation for a portfolio of Starcents and Jpod?
+
+20 percent
+
+14.14 percent
+
+10 percent
+
+0 percent
+
+Minimum Variance Portfolio (LO2, CFA4)   Stocks A, B, and C each have the same expected return and standard deviation. The following shows the correlations between returns on these stocks:
+
+Stock A	Stock B	Stock C
+Stock A	+1.0		
+Stock B	+.9	+1.0	
+Stock C	 +.1	 −.4	+1.0
+Given these correlations, which of the following portfolios constructed from these stocks would have the lowest risk?
+
+One equally invested in Stocks A and B
+
+One equally invested in Stocks A and C
+
+One equally invested in Stocks B and C
+
+One totally invested in Stock C
+
+page 387Markowitz Efficient Frontier (LO4, CFA5)   Which of the following portfolios cannot lie on the efficient frontier as described by Markowitz?
+
+Portfolio	Expected Return	Standard Deviation
+a.	W	9%	21%
+b.	X	5	 7
+c.	Y	15	36
+d.	Z	12	15
+Concept Questions
+
+Diversification and Market History (LO3, CFA7)   Based on market history, what is the average annual standard deviation of return for a single, randomly chosen stock? What is the average annual standard deviation for an equally weighted portfolio of many stocks?
+
+Interpreting Correlations (LO2, CFA3)   If the returns on two stocks are highly correlated, what does this mean? If they have no correlation? If they are negatively correlated?
+
+Efficient Portfolios (LO4, CFA5)   What is an efficient portfolio?
+
+Expected Returns (LO2, CFA3)   True or false: If two stocks have the same expected return of 12 percent, then any portfolio of the two stocks will also have an expected return of 12 percent.
+
+Portfolio Volatility (LO2, CFA5)   True or false: If two stocks have the same standard deviation of 45 percent, then any portfolio of the two stocks will also have a standard deviation of 45 percent.
+
+Time Diversification (LO3, CFA7)   Why should younger investors be willing to hold a larger amount of equity in their portfolios?
+
+Asset Allocation (LO4, CFA7)   Assume you are a very risk-averse investor. Why might you still be willing to add an investment with high volatility to your portfolio?
+
+Minimum Variance Portfolio (LO2, CFA4)   Why is the minimum variance portfolio important in regard to the Markowitz efficient frontier?
+
+Markowitz Efficient Frontier (LO4, CFA5)   True or false: It is impossible for a single asset to lie on the Markowitz efficient frontier.
+
+Portfolio Variance (LO2, CFA5)   Suppose two assets have zero correlation and the same standard deviation. What is true about the minimum variance portfolio?
+
+Questions and Problems
+
+Core Questions
+
+Expected Returns (LO1, CFA1)   Use the following information on states of the economy and stock returns to calculate the expected return for Dingaling Telephone:
+
+State of Economy	Probability of State of Economy	Security Return if State Occurs
+Recession	.25	   –8%
+Normal	.50	13
+Boom	.25	23
+Standard Deviations (LO1, CFA2)   Using the information in Question 1, calculate the standard deviation of returns.
+
+Expected Returns and Deviations (LO1, CFA2)   Repeat Questions 1 and 2 assuming that all three states are equally likely.
+
+page 388
+
+Use the following information on states of the economy and stock returns to answer Questions 4-7:
+
+Security Returns if State Occurs
+State of Economy	Probability of State of Economy	Roll	Ross
+Bust	.40	–10%	21%
+Boom	.60	28	8
+Expected Returns (LO1, CFA1)   Calculate the expected returns for Roll and Ross by filling in the following table (verify your answer by expressing returns as percentages as well as decimals):
+
+
+Standard Deviations (LO1, CFA2)   Calculate the standard deviations for Roll and Ross by filling in the following table (verify your answer using returns expressed in percentages as well as decimals):
+
+
+Portfolio Expected Returns (LO2, CFA3)   Calculate the expected return on a portfolio of 55 percent Roll and 45 percent Ross by filling in the following table:
+
+(1)
+State of Economy	(2)
+Probability of State of Economy	(3)
+Portfolio Return if State Occurs	(4)
+Product (2) × (3)
+Bust			
+Boom			
+Portfolio Volatility (LO2, CFA5)   Calculate the volatility of a portfolio of 35 percent Roll and 65 percent Ross by filling in the following table:
+
+page 389
+
+
+Calculating Returns and Standard Deviations (LO1, CFA2)   Based on the following information, calculate the expected return and standard deviation for the two stocks.
+
+Rate of Return if State Occurs
+State of Economy	Probability of State of Economy	Stock A	Stock B
+Recession	.3	.04	–.20
+Normal	.4	.09	  .13
+Boom	.3	.12	  .33
+Returns and Standard Deviations (LO2, CFA5)   Consider the following information:
+
+
+Your portfolio is invested 25 percent each in Stocks A and C and 50 percent in Stock B. What is the expected return of the portfolio?
+
+What is the variance of this portfolio? The standard deviation?
+
+Portfolio Returns and Volatilities (LO2, CFA5)   Fill in the missing information in the following table. Assume that Portfolio AB is 40 percent invested in Stock A.
+
+Year	Stock A	Stock B	Portfolio AB
+2015	11%	21%	
+2016	37	–38	
+2017	–21	48	
+2018	26	16	
+2019	13	24	
+Average return			
+Standard deviation			
+Intermediate Questions
+
+11. Portfolio Returns and Volatilities (LO2, CFA5)   Given the following information, calculate the expected return and standard deviation for a portfolio that has 35 percent invested in Stock A, 45 percent in Stock B, and the balance in Stock C.
+
+
+12. Portfolio Variance (LO2, CFA5)   Use the following information to calculate the expected return and standard deviation of a portfolio that is 50 percent invested in 3 Doors, Inc., and 50 percent invested in Down Co.:
+
+3 Doors, Inc.	Down Co.
+Expected return, E(R)	14%	10%
+Standard deviation, σ	42	31
+Correlation	.10
+13. page 390More Portfolio Variance (LO4, CFA3)   In Problem 12, what is the standard deviation if the correlation is +1? 0? −1? As the correlation declines from +1 to −1 here, what do you see happening to portfolio volatility? Why?
+
+14. Minimum Variance Portfolio (LO4, CFA4)   In Problem 12, what are the expected return and standard deviation on the minimum variance portfolio?
+
+15. Asset Allocation (LO4, CFA4)   Fill in the missing information assuming a correlation of .30.
+
+
+16. Minimum Variance Portfolio (LO4, CFA4)   Consider two stocks, Stock D, with an expected return of 13 percent and a standard deviation of 31 percent, and Stock I, an international company, with an expected return of 16 percent and a standard deviation of 42 percent. The correlation between the two stocks is −.10. What is the weight of each stock in the minimum variance portfolio?
+
+17. Minimum Variance Portfolio (LO2, CFA4)   What are the expected return and standard deviation of the minimum variance portfolio in Problem 16?
+
+18. Minimum Variance Portfolio (LO4, CFA4)   Asset K has an expected return of 10 percent and a standard deviation of 28 percent. Asset L has an expected return of 7 percent and a standard deviation of 18 percent. The correlation between the assets is .40. What are the expected return and standard deviation of the minimum variance portfolio?
+
+19. Minimum Variance Portfolio (LO4, CFA4)   The stock of Bruin, Inc., has an expected return of 14 percent and a standard deviation of 42 percent. The stock of Wildcat Co. has an expected return of 12 percent and a standard deviation of 57 percent. The correlation between the two stocks is .25. Is it possible for there to be a minimum variance portfolio since the highest-return stock has the lowest standard deviation? If so, calculate the expected return and standard deviation of the minimum variance portfolio.
+
+20. Portfolio Variance (LO2, CFA3)   You have a three-stock portfolio. Stock A has an expected return of 12 percent and a standard deviation of 41 percent, Stock B has an expected return of 16 percent and a standard deviation of 58 percent, and Stock C has an expected return of 13 percent and a standard deviation of 48 percent. The correlation between Stocks A and B is .30, between Stocks A and C is .20, and between Stocks B and C is .05. Your portfolio consists of 45 percent Stock A, 25 percent Stock B, and 30 percent Stock C. Calculate the expected return and standard deviation of your portfolio. The formula for calculating the variance of a three-stock portfolio is:
+
+
+21. Minimum Variance Portfolio (LO4, CFA4)   You are going to invest in Asset J and Asset S. Asset J has an expected return of 13 percent and a standard deviation of 54 percent. Asset S has an expected return of 10 percent and a standard deviation of 19 percent. The correlation between the two assets is .50. What are the standard deviation and expected return of the minimum variance portfolio? What is going on here?
+
+22. Portfolio Variance (LO2, CFA3)   Suppose two assets have perfect positive correlation. Show that the standard deviation on a portfolio of the two assets is:
+
+
+(Hint: Look at the expression for the variance of a two-asset portfolio. If the correlation is +1, the expression is a perfect square.)
+
+23. page 391Portfolio Variance (LO2, CFA5)   Suppose two assets have perfect negative correlation. Show that the standard deviation on a portfolio of the two assets is:
+
+
+(Hint: See previous problem.)
+
+24. Portfolio Variance (LO2, CFA5)   Using the result in Problem 23, show that whenever two assets have perfect negative correlation, it is possible to find a portfolio with a zero standard deviation. What are the portfolio weights? (Hint: Let x be the percentage in the first asset and (1 − x) be the percentage in the second. Set the standard deviation to zero and solve for x.)
+
+25. Portfolio Variance (LO2, CFA4)   Derive our expression in the chapter for the portfolio weight in the minimum variance portfolio. (Danger! Calculus required!) (Hint: Let x be the percentage in the first asset and (1 − x) the percentage in the second. Take the derivative with respect to x and set it to zero. Solve for x.)
+
+Spreadsheet Problem
+
+26. Markowitz Efficient Frontier (LO4, CFA5)   Assume you are evaluating two stocks, Stock A and Stock B. Stock A has an expected return and standard deviation of 10 percent and 25 percent, respectively. Stock B has an expected return and standard deviation of 15 percent and 40 percent, respectively. Assuming their correlation is .2, create a graph of the investment opportunity set.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA3, CFA5, CFA7]
+
+Andy Green, CFA, and Sue Hutchinson, CFA, are considering adding alternative investments to the portfolio they manage for a private client. After much discussion, they have decided to add a hedge fund to the portfolio. In their research, Mr. Green focuses on hedge funds that have the highest returns, while Ms. Hutchinson focuses on finding hedge funds that can reduce portfolio risk while maintaining the same level of return.
+
+After completing their research, Mr. Green proposes two funds: the New Horizon Emerging Market Fund (NH), which takes long-term positions in emerging markets, and the Hi Rise Real Estate Fund (HR), which holds a highly leveraged real estate portfolio. Ms. Hutchinson proposes two hedge funds: the Quality Commodity Fund (QC), which takes conservative positions in commodities, and the Beta Naught Fund (BN), which manages an equity long/short portfolio that targets a market risk of zero. The table below details the statistics for the existing portfolio, as well as for the four potential funds. The standard deviation of the market’s return is 18 percent.
+
+
+Mr. Green and Ms. Hutchinson have agreed to select the fund that will provide a portfolio with the highest return-to-risk ratio (i.e., average return relative to standard deviation). They have decided to invest 10 percent of the portfolio in the selected fund.
+
+As an alternative to one fund, Mr. Green and Ms. Hutchinson have discussed investing 5 percent in the Beta Naught Fund (BN) and 5 percent in one of the other three funds. This new 50/50 hedge fund would then serve as the 10 percent allocation in the portfolio.
+
+Mr. Green and Ms. Hutchinson divided up their research into return enhancement and diversification benefits. Based on the stated goals of their research, which of the two approaches is more likely to lead to an appropriate choice?
+
+Green’s research
+
+Hutchinson’s research
+
+Neither is appropriate.
+
+Which of the following is closest to the expected return of the client’s portfolio if 10 percent of the portfolio is invested in the New Horizon (NH) Emerging Market Fund?
+
+11 percent
+
+10.2 percent
+
+11.8 percent
+
+page 392Which of the following is closest to the expected standard deviation of the client’s portfolio if 10 percent of the portfolio is invested in the Quality Commodity (QC) Fund?
+
+9.6 percent
+
+14.1 percent
+
+16.0 percent
+
+Which of the following is closest to the expected return of a portfolio that consists of 90 percent of the original portfolio, 5 percent of the Hi Rise (HR) Real Estate Fund, and 5 percent of the Beta Naught (BN) Fund?
+
+9.0 percent
+
+10.4 percent
+
+9.7 percent
+
+When combined with Beta Naught in a 50/50 portfolio, which of the other three funds will produce a portfolio that has the lowest standard deviation?
+
+New Horizon only
+
+Quality Commodity only
+
+Either Hi Rise or Quality Commodity
+
+
+
+
+1 Some of it could be in cash, of course, but we would then consider cash to be another of the portfolio assets. In fact, as we learned in an earlier chapter, we could even have a negative weight in an asset if we were short.
+
+2 Earlier, we had a risk-free rate of 8 percent. Now we have, in effect, a 20.91 percent risk-free rate. If this situation actually existed, there would be a very profitable opportunity! In reality, we expect that all riskless investments would have the same return.
+
+3 With 2,000 stocks, there are 2,0002 = 4,000,000 possible pairs. Of these, 2,000 involve pairing a stock with itself. Further, we recognize that the correlation between A and B is the same as the correlation between B and A, so we only need to actually calculate half of the remaining 3,998,000 correlations.

@@ -1,0 +1,575 @@
+CHAPTER 20
+Options and Corporate Finance
+
+LEARNING OBJECTIVES
+
+Define a call option and a put option, and describe the payoff function for each of these options.
+List and describe the variables that affect the value of an option. Calculate the value of a call option and of a put option.
+Identify some of the real options that occur in business, and explain why traditional NPV analysis does not accurately incorporate their values.
+Describe how the agency costs of debt and equity are related to options.
+Explain how options can be used to manage a firm’s exposure to risk.
+On December 17, 2020, Caledonia Mining Corporation announced that it had entered into an option agreement giving the company the exclusive right to explore gold mining opportunities in an area of Zimbabwe known as Connemara North. Connemara North is situated in the Gweru mining district, an area that has historically produced significant quantities of gold. Caledonia’s right to explore would last for up to 18 months, and if successful, the company could, at its discretion, acquire the mining claims to the area. To acquire the exploration rights, Caledonia agreed to an initial payment of $300,000. Another payment of $5 million would be required if the company ultimately opted to exercise its right to acquire the mining claims.
+
+Founded in 1992, Caledonia Mining Corporation’s primary business was the operation of an existing gold mine, known as the Blanket Mine, in Zimbabwe. The exploration rights to the Connemara North site represented a significant opportunity to expand the company’s productive mining footprint in the country, if the surveys indicated that significant gold deposits were located on the land. The rights to the site also presented the company with potential operating synergies, as it was co-located with its current operations.
+
+Of course, even if significant deposits of gold were discovered, Caledonia would need to assess one very significant factor before it exercised the right to purchase the mining claims. Specifically, management would need to have a sound estimate of the future price of an ounce of gold on the world market. This estimate would be based on an understanding of macroeconomic fundamentals that determine the supply and demand for the precious metal, and would be balanced against the costs of mining to determine the future cash flows from a potential mine. In the early 2000s, gold mines in the Gweru mining district shut down when the price of gold dropped below $300 per ounce and the mines became negative NPV projects. In late 2020, however, one ounce of gold was selling for well over $1,800.
+
+To be sure, Caledonia could have purchased the mining rights to the Connemara North land outright, but doing so would have required considerably more money and would have been a much riskier strategy. The option to explore the site cost only a fraction of the cost of the mining rights and gave the company permission to carefully explore the potential value of a future mining operation on the land before making a much larger investment. Options such as those acquired by Caledonia Mining are one example of the many different types of options we see in the corporate world. This chapter explains what options are, some of their applications in corporate finance, how they can affect corporate decision making, and how they affect the value of a business.
+
+Chapter Preview
+Options and option-like payoffs add to the analytical frameworks that we have discussed in this book. Financial options, such as the right to buy or sell the shares of a company at a prespecified price, are often found in financial securities that firms issue and therefore must be considered in the valuation of those securities. Real options, such as those acquired by Caledonia Mining Corporation in the chapter opener, make calculation of a project’s NPV more complex. In order to fully understand the implications of these complications for financial analyses, it is important that you understand what options are and the types of options that are available to managers.
+
+We begin with a discussion of financial options and how they are valued, because financial options are, in many ways, simpler than real options to illustrate and value. Many financial options are traded independently in the financial markets, while others are bundled with the financial instruments that managers issue and also trade in the financial markets. Since financial options are commonly traded, we know a lot about how they are valued.
+
+We then turn to real options, which affect the value of corporate investments. As illustrated in the chapter opener, managers often have options to delay investing in a project, expand a project, abandon a project, change the technology employed in a project, and so on. You will see that the value of these options is not adequately reflected in a standard NPV analysis.
+
+We next revisit the agency costs of debt that we discussed in Chapter 16. In particular, we show how option-like payoffs contribute to the dividend payout, asset substitution, and underinvestment conflicts. We follow this discussion with a related discussion of how option-like payoffs contribute to conflicts between stockholders and the managers who work for them. We conclude the chapter with a discussion of the ways in which managers use financial options to alter their companies’ exposure to various types of risks.
+
+20.1 Financial Options
+LEARNING OBJECTIVE
+
+Define a call option and a put option, and describe the payoff function for each of these options.
+A financial option is a derivative security in that its value is derived from the value of another asset. The owner of a financial option has the right, but not the obligation, to buy or sell an asset on or before a specified date for a specified price. The asset that the owner has a right to buy or sell is known as the underlying asset. The last date on which an option can be exercised is called the exercise date or expiration date, and the price at which the option holder can buy or sell the asset is called the exercise price or strike price.
+
+financial option the right to buy or sell a financial security, such as a share of stock, on or before a specified date for a specified price
+
+derivative security a security that derives its value from the value of another asset; an option is an example of a derivative security
+
+underlying asset the asset from which the value of an option is derived
+
+exercise (expiration) date the last date on which an option can be exercised
+
+exercise (strike) price the price at which the owner of an option has the right to buy or sell the underlying asset
+
+Call Options
+Let’s consider how the value of an option is derived from the value of an underlying asset. Suppose you own an option to buy one share of IBM stock for $150 per share and today is the exercise date. If you don’t exercise the option today, it will expire and become worthless. If the price of IBM’s stock is less than $150 per share, it does not make sense to exercise your option, because if you did, you would be paying $150 for something you could buy for less than $150 in the open market. Similarly, if the stock price is $150, there is no benefit to be had from exercising your option. If, however, the price is above $150, then you will benefit from exercising the option. Even if you do not want to own IBM stock, you can buy it for $150 and immediately turn around and sell it for a profit. The value of the option to you is the difference between the market price of IBM stock and the exercise price of the option. For example, if the IBM stock is trading for $160 per share in the market, then the option is worth $10 ($160 stock price − $150 exercise price = $10) to you. If the stock is trading for $170 per share, then the value of the option is $20 ($170 − $150 = $20), and so on.
+
+The relation between the value of an option and the price (value) of the underlying asset, such as the IBM stock, is known as the option payoff function. Figure A in Exhibit 20.1 illustrates the payoff function at expiration (actually, the instant before the option expires) for the owner of an option that is like the IBM stock option we just discussed. This option is known as a call option because it gives the owner the right to buy, or “call,” the underlying asset.
+
+option payoff function the function that shows how the value of an option varies with the value of the underlying asset
+
+call option an option to buy the underlying asset
+
+EXHIBIT 20.1 Payoff Functions for a Call Option at Expiration
+
+
+With an exercise price of $150, the value of the IBM call option equals $0 if the price of the underlying stock is $150 or less. As we noted earlier, it would not make sense to exercise the option if the price of the stock is not greater than $150. Since an option is the right to buy or sell an underlying asset, rather than an obligation to buy or sell, the owner of the option can simply let it expire if it does not make sense to exercise it. This limits the downside for the owner of the option to $0.
+
+If the underlying asset price is above the exercise price, the value of the call option at exercise increases dollar for dollar with the price of the underlying asset. You can see this relation in Figure A of the exhibit. For every dollar that the asset price exceeds the exercise price, the value of the call option increases by one dollar. In other words, the slope of the payoff function equals one when the underlying asset price is above the exercise price.
+
+Figure B of Exhibit 20.1 illustrates the payoff function for a person who sells a call option. Notice that the payoff function for the seller is the mirror image of that for the owner (buyer) of the call option. This makes sense, since any gain for the owner is a loss for the seller. To see why this is true, let’s return to the IBM option example. Recall that if the stock is trading at $160 when the option expires, the call option is worth $10 to the owner, who can purchase the stock for $150 and then immediately sell it on the market for $160. The seller of the call option, though, must sell a share of stock that is worth $160 for $150, resulting in a $10 loss.
+
+Figure B of Exhibit 20.1 shows that the payoff to the seller of the call option is never positive. It is negative when the price of the underlying asset is greater than the exercise price, and it equals zero when the price of the underlying asset is equal to or less than the exercise price. You may be wondering why anyone would ever sell a call option if the return is never positive. The reason is simply that the buyer pays the seller a fee to purchase the option. This fee, which is known as the call premium, makes the total return to the seller positive when the price of the underlying asset is near or below the exercise price.
+
+call premium the price that the buyer of a call option pays the seller for that option
+
+A call premium is just like the premium you pay when you purchase insurance for your car. In return for the insurance premium, the insurance company agrees to pay you if certain events occur, such as if you collide with another car or if a hailstorm damages the car. The seller of a call option is simply selling insurance to the buyer that pays the buyer when the value of the underlying asset is above the exercise price.
+
+Put Options
+While the owner of a call option has the right to buy the underlying asset at a prespecified price on or before the expiration date, the owner of a put option has the right to sell the underlying asset at a prespecified price. The payoff function for the owner of a put option is similar to that for a call option, but it is the reverse in the sense that the owner of a put option profits if the price of the underlying asset is below the exercise price. This is illustrated in Exhibit 20.2.
+
+put option an option to sell the underlying asset
+
+EXHIBIT 20.2 Payoff Functions for a Put Option at Expiration
+
+
+Figure A of the exhibit shows that the owner of a put option will not want to exercise that option if the price of the underlying asset is above the exercise price. Obviously, it does not make sense to sell an asset for less than you can get on the open market. When the value of the underlying asset is below the exercise price, however, the owner of the put option will find it profitable to exercise the option. For example, suppose that you own a put option that is expiring today and that entitles you to sell a share of IBM stock for $150. If the current price of IBM stock in the market is $145, the put option is worth $5 to you because exercising the option will enable you to buy a share of stock for $145 and then turn around and sell it for $150. Similarly, if the current price of IBM stock is $130, the put option is worth $20 because you can buy the stock for $130 and sell it for $150.
+
+Figure B of Exhibit 20.2 shows that the payoff for the seller of the put option is negative when the price of the underlying asset is below the exercise price. This is because the seller of the put option is obligated to purchase the asset at a price that is higher than its market price. For instance, in the IBM put option example, if the exercise price is $150 and the current market price is $130, the seller of the put option must buy the stock for $150 but can only sell it for $130. This results in a $20 loss.
+
+As with a call option, the payoff for the seller of a put option, which is illustrated in Figure B of Exhibit 20.2, is never positive. The seller of a put option hopes to profit from the fee, or put premium, that he or she receives from the buyer of the put option.
+
+put premium the price that the buyer of a put option pays the seller of that option
+
+Decision Making Example 20.1 illustrates the decision of when to exercise an option.
+
+DECISION MAKING EXAMPLE 20.1
+When It Makes Sense to Exercise an Option
+
+Situation
+
+You own a call option and a put option on a share of Ford Motor Company stock. The exercise price for both of these options is $18 per share, and both options expire today. If the current price of Ford stock is $17, would you exercise either of these options? If so, which one?
+
+
+
+American, European, and Bermudan Options
+At the beginning of this section, we said that the owner of a financial option has the right to buy or sell a specific asset on or before a specified date for a specified price. In the real world, there are actually several different arrangements concerning when an option can be exercised. Some options can only be exercised on the expiration date. These are known as European options. Other options, known as American options, can be exercised at any point in time on or before the expiration date. There are also exotic options, such as so-called Bermudan options, that can be exercised only on specific dates during the life of the option. Most exchange-traded options (even in Europe) are American options.
+
+More on the Shapes of Option Payoff Functions
+It is important to note that the payoff functions in Exhibits 20.1 and 20.2 illustrate the values of options to owners and sellers at the instant before they expire. These payoff functions have similar, but somewhat different, shapes at earlier points in time. We discuss why this is the case in the next section.
+
+Building Intuition
+Payoff Functions for Options are not Linear
+
+Payoff functions for options are not straight lines. This is because the owners of options have the right, rather than the obligation, to buy or sell the underlying assets. If it is not in the owner’s best interest to exercise an option, he or she can simply let it expire without exercising it. This limits the owner’s potential loss to the value of the premium he or she paid for the option.
+
+It is also important to recognize that the payoff functions in Exhibits 20.1 and 20.2 are not straight lines for all possible values of the underlying asset. Each payoff function has a “kink” at the exercise price and thus is not linear. This kink exists because the owner of the option has a right, not an obligation, to buy or sell the underlying asset. If it is not in the owner’s interest to exercise the option, he or she can simply let it expire. Later, we will discuss how this feature of options is related to agency problems and how it can be useful in managing the risks faced by a firm.
+
+Before You Go On
+What is a call option, and what do the payoff functions for the owner and seller of a call option look like?
+What is a put option, and what do the payoff functions for the owner and seller of a put option look like?
+Why does the payoff function for an option have a kink in it?
+
+You can learn more about options on the Robinhood Web site at https://learn.robinhood.com/articles/a-big-little-primer-on-options/
+
+20.2 Option Valuation
+LEARNING OBJECTIVE
+
+List and describe the variables that affect the value of an option. Calculate the value of a call option and of a put option.
+We saw in the preceding section that determining the value of a call or a put option at the instant before it expires is relatively simple. For a call option, if the value of the underlying asset is less than or equal to the exercise price, the value of the option to the owner is $0. If the value of the underlying asset is greater than the exercise price, the value to the owner is simply the value of the underlying asset minus the exercise price. For a put option, if the value of the underlying asset is greater than or equal to the exercise price, the value of the option is $0 to the owner. If the value of the underlying asset is less than the exercise price, the value to the owner is the exercise price minus the value of the underlying asset.
+
+It is more complicated to determine the value of an option at a point in time before its expiration date. We don’t know exactly how the value of the underlying asset will change over time, and therefore we don’t know what value the owner will ultimately receive from the option. In this section, we discuss the key variables that affect the value of an option prior to expiration and describe one method that is commonly used to value options. Our objective is not to make you an expert in option valuation, but rather to help you develop some intuition about what makes an option more or less valuable. This intuition will help you better understand how options affect corporate finance decisions.
+
+Limits on Option Values
+Let’s begin by using some common sense to put limits on what the value of a call option can possibly be prior to its expiration date. We focus on call options here because, as you will see, there is a simple relation that enables us to calculate the value of a put option once we know the value of a call option with the same exercise price.
+
+We already know that the value of a call option can never be less than zero, since the owner of the option can always decide not to exercise it if doing so is not beneficial. A second limit on the value of a call option is that it can never be greater than the value of the underlying asset. It would not make sense to pay more for the right to buy an asset than you would pay for the asset itself. These two limits suggest that the value of a call option prior to expiration must be in the shaded area in Figure A of Exhibit 20.3. The shaded area is bounded below by the horizontal axis, because the value of the option must be greater than $0, and it is bounded above by the line that slopes upward at a 45-degree angle, because an option value greater than this would exceed the value of the underlying asset.
+
+EXHIBIT 20.3 Possible Values of a Call Option Prior to Expiration
+
+
+There are two other limits on the value of a call option prior to expiration, and these limits are somewhat more subtle. First, the value of a call option prior to the expiration date will never be less than the value of that option if it had to be exercised immediately. This is true because there is always a possibility that the value of the underlying asset will be greater than it is today at some time before the option expires. Of course, it is possible that the value will be lower, but since the value of the option cannot be less than $0 and there is no limit on how high it can go, the expected effect of an increase in the value of the underlying asset on the value of the option is greater than the expected effect of a decrease. The bottom line is that, prior to expiration, the value of a call option will be greater than the value represented by the solid red line in Figure A of Exhibit 20.1 (in the preceding section).1
+
+The fourth and final limit arises because of the time value of money. When we consider the value of a call option at some time prior to expiration, we must compare the current value of the underlying asset with the present value of the exercise price, discounted at the risk-free rate. We would be comparing apples and oranges if we did not do this. The present value of the exercise price is the amount that an investor would have to invest in risk-free securities at any point prior to the expiration date to ensure that he or she would have enough money to exercise the option when it expired. Thus, when we compare the value of a call option prior to expiration with the value at expiration, represented by the solid red line in Figure A of Exhibit 20.1, we must use the present value of the exercise price to draw the line. The shaded area in Figure B of Exhibit 20.3 illustrates the possible values for a call option prior to expiration under all four of the limits we have discussed.
+
+In practice, we find that, prior to expiration, call options have a shape that is very similar to the one illustrated by the dotted line in Figure C of Exhibit 20.3. Notice that this dotted line approaches $0 as the value of the underlying asset gets very small relative to the exercise price. This makes sense because, with a very low asset value, it becomes highly unlikely that the owner of the option will ever choose to exercise it.
+
+On the right side of the dotted line, you can see that the value of a call option prior to expiration approaches the value of the call option at expiration. This is because when the current value of the underlying asset is far to the right of the kink in the option’s payoff function, the probability that this value will fall below the exercise price is very small. In other words, the expected effect of an increase in the value of the underlying asset on the value of the option is no longer much greater than the expected effect of a decrease.
+
+Finally, notice that the dotted line is farthest above the value of the call option at expiration when the price of the underlying asset is near the exercise price. At the exercise price, the expected effect of an increase in the value of the underlying asset on the value of the option exceeds the expected effect of a decrease by the greatest amount.
+
+Variables That Affect Option Values
+Five variables affect the value of a call option prior to expiration. Four of them are related to the following questions:
+
+How likely is it that the value of the underlying asset will be higher than the exercise price the instant before the option expires?
+How far above the exercise price might it be?
+The first two variables are relatively easy to understand. They are the current value of the underlying asset and the exercise price. The higher the current value of the underlying asset, the more likely it is that the value of the asset will be above the exercise price when the call option nears expiration. Furthermore, the higher the current value of the asset, the greater the likely difference between the value of the asset and the exercise price. This means that, holding the exercise price constant, investors will pay more for a call option if the underlying asset value is higher, because the expected value of the option as it nears expiration is higher.2 For example, suppose that you are considering purchasing a three-month American call option on a share of IBM stock with an exercise price of $150. You should be willing to pay more for this option if the current price of IBM stock is $155 than if it is $150.
+
+The opposite relation applies to the exercise price. That is, the lower the exercise price, the more likely that the value of the underlying asset will be higher than the exercise price when the option nears expiration. In addition, the lower the exercise price, the greater the likely difference between these two amounts. Thus, the lower the exercise price, the more valuable the option is likely to be at expiration. Of course, if the option is expected to be more valuable at expiration, it will also be more valuable at any point prior to expiration. Returning to our IBM example, we see that a call option with an exercise price of $145 is worth more than a call option with an exercise price of $150.
+
+We turn next to two variables that affect the value of call options in somewhat more subtle ways. These variables are the volatility of the value of the underlying asset and the time until the expiration of the option. To understand how these factors affect the value of a call option, recall from Figure C of Exhibit 20.3 that the payoff function for a call option prior to expiration is not symmetric. If the value of the underlying asset is well above the exercise price, then the value of the option varies in much the same way as the value of the underlying asset. However, if the value of the underlying asset is well below the exercise price, then the value of the option approaches $0, but changes at a much lower rate than the value of the underlying asset changes. It does not matter if the underlying asset value is just a little bit below the exercise price or is completely worthless—a call option cannot be worth less than $0.
+
+To show how the volatility of the underlying asset value affects the value of an option, we will consider a call option on an underlying asset that has a value exactly equal to the exercise price of the option. Since the downside for the owner is limited to $0, the value of this option will increase more when the value of the underlying asset goes up than it will decrease when the value of the underlying asset goes down. Let’s suppose that the value of the underlying asset is equally likely to go up or down. In this case, the farther the value of the asset is likely to move (the greater its volatility), the higher the value of a call option on this asset will be. In other words, the greater the volatility of the underlying asset value, the higher the value of a call option on the asset prior to expiration.
+
+In our IBM example, suppose the exercise price for a call option on IBM stock is $150, the current price of the stock is $150, and the option expires in one year. Further suppose that the standard deviation, σ, of the return on the IBM stock is 30 percent per year. Recall from the discussion in Chapter 7 that with a standard deviation of 30 percent, there is a 5 percent chance that the IBM stock price will change by more than 58.8 percent (1.96 standard deviations × 30 percent = 58.8 percent) by the time the option expires. In other words, there is a 5 percent chance that the IBM stock price will be less than $61.80 [$150 × (1 − 0.588) = $61.80] or greater than $238.20 [$150 × (1 + 0.588) = $238.20] in a year. If, instead of 30 percent, the standard deviation of IBM stock was 40 percent per year, there would be a 5 percent chance that the price would be below $32.40 or above $267.60. (You should check these numbers to make sure you know how they are calculated.) As you can see, this higher standard deviation means the stock price is more volatile. Investors will pay more for an option on a stock that has a more volatile price, because the potential change in the stock’s price is greater.
+
+The time until the expiration affects the value of a call option through its effect on the volatility of the value of the underlying asset. The greater the time to maturity, the more the value of the underlying asset is likely to change by the time the option expires. Let’s return once again to the IBM example. Suppose that the option expires in two years rather than in one year. People who study statistics have found that the standard deviation of the return on an asset increases over time by the square root of n, where n is the number of periods. Thus, if the standard deviation of the return on IBM stock is 30 percent per year, the standard deviation over two years will be:
+
+Clearly, then, a two-year option will be worth more than a one-year option if all other characteristics of the options are the same.
+
+We’ve now discussed four of the five variables that affect the value of an option. The fifth variable is the risk-free rate of interest. The value of a call option increases with the risk-free rate. Exercising a call option involves paying cash in the future for the underlying asset. The higher the interest rate, the lower the present value of the amount that the owner of a call option will have to pay to exercise it.
+
+The Binomial Option Pricing Model
+In this section, we use a simple model to show how we can calculate the value of a call option at some point before the expiration date. This model assumes that the underlying asset will have one of only two possible values when the option expires. The value of the underlying asset will either increase to some value above the exercise price or decrease to some value below the exercise price.
+
+To solve for the value of the call option using this model, we must assume that investors have no arbitrage opportunities with regard to this option. Arbitrage is the act of buying and selling assets in a way that yields a return above that suggested by the Security Market Line (SML), which we discussed in Chapter 7. In other words, the absence of arbitrage opportunities means that investors cannot earn a return that is greater than that justified by the systematic risk associated with an investment. As an example of an arbitrage opportunity, suppose that the stock of a particular company is being sold for a lower price in one country than in another country. An investor could simultaneously buy the stock in the country where it is less expensive and sell it in the country where it is more expensive. Assuming that the profit exceeds any transaction costs, the investor would earn an instantaneous risk-free profit. Since it is instantaneous, this profit would, by definition, be above the SML, because the SML would predict that the expected return on a risk-free investment is zero if the holding period is zero.
+
+arbitrage buying and selling assets in a way that takes advantage of price discrepancies and yields a profit greater than that which would be expected based solely on the systematic risk of the individual investments
+
+To value the call option in our simple model, we will first create a portfolio that consists of the asset underlying the call option and a risk-free loan. The relative investments in these two assets will be selected so that the combination of the asset and the loan have the same cash flows as the call option, regardless of whether the value of the underlying asset goes up or down. This is called a replicating portfolio, since it replicates the cash flows of the option. The replicating portfolio must have the same value as the option today, since it has the same cash flows as the call option in all possible future outcomes. If the replicating portfolio did not have the same value as the option, an investor could construct an arbitrage portfolio by buying the cheaper of the two and selling the more expensive of the two. Such trading would eventually drive the values of the option and the replicating portfolio together.
+
+To see how a replicating portfolio is constructed, consider an example. Suppose that the stock of ABC Corporation currently trades for $50 and that its price will be either $70 or $40 in one year. We want to determine the value of a call option to buy ABC stock for $55 in one year. First, notice that the value of this option is $15 if the stock price goes up to $70 ($70 − $55 = $15) and that it is $0 if the stock price goes down to $40, since the option will not be exercised. Suppose also that the risk-free rate is 5 percent.
+
+We can construct a portfolio consisting of x shares of ABC Corporation stock and a risk-free loan with a value of y dollars that produces a payoff of either $70 or $40. The risk-free loan may involve either borrowing or lending, as you will see. For each risk-free dollar we lend, we know that we will receive $1.05 regardless of what happens to the price of ABC stock. In the same way, if we borrow $1, we will owe $1.05 at the end of the year. The value of the stock, the risk-free loan, and the option today and at expiration can be illustrated as follows.
+
+
+The value of each asset when the stock price goes up to $70 is shown on the right arrow, and the value when the stock goes down to $40 is shown on the left arrow. Notice that we do not know the value of the option today—that is what we are trying to calculate.
+
+We can write two equations that define the replicating portfolio that we want to construct:
+
+The first equation represents the case in which the stock price increases to $70, and the second equation represents the case in which the stock price goes down to $40. The first equation says that we want the portfolio to be worth $15 when the stock price increases to $70 and that the $15 value will consist of x shares of stock worth $70 and a risk-free loan with a face value of y and a value in one year of $1.05 per dollar of face value. Similarly, the second equation says that if the stock price falls to $40, we want the portfolio to be worth $0. In this case, the portfolio will consist of x shares of stock worth $40 and a risk-free loan with a face value of y and a value in one year of $1.05 per dollar of face value.
+
+Since we have two equations and there are two unknowns, x and y, we can solve for the values of the unknowns. Recall from your algebra class that we can solve for x and y by first writing one equation in terms of either x or y and then substituting the result into the second equation. For example, the first equation can be written in terms of x as follows:
+
+Now, substituting into the second equation gives us:
+
+We can now solve this equation for y as follows:
+
+Therefore:
+
+Finally, substituting this value back into the first equation gives us the value of x:
+
+This tells us that the replicating portfolio consists of one-half share of ABC Corporation stock (x = 0.50) and a $19.05 risk-free loan (y = −$19.05). The negative value for y tells us that we would borrow, rather than lend, $19.05 at the risk-free rate. If we buy one-half share of stock and borrow $19.05, then in one year our replicating portfolio will have exactly the same payoff as the call option with an exercise price of $55.
+
+If the value of the stock declined to $40, we would own one-half share of stock worth $20, and we would owe $19.05 × 1.05 = $20 on the loan. Since the value of the stock would exactly equal the amount owed on the loan, the portfolio would have a total value of exactly $0. In contrast, if the value of the stock increased to $70, the one-half share of stock would be worth $35. Since we would still owe only $20 in this case, the portfolio would have a total value of $15. These payoffs are exactly the same as those for the option, so this portfolio must have the same value as the option.
+
+At this point, we know what the replicating portfolio consists of, and we know that the replicating portfolio must have the same value as the call option. Now all we have to do to estimate the value of the call option is to figure out what the value of the replicating portfolio is. To do this, we simply determine how much of our own money we would actually have to invest to construct the replicating portfolio. In our example, we could use the $19.05 loan to help purchase the stock, so we would not have to come up with all the money for the stock on our own. In fact, since a share of ABC Corporation stock is currently worth $50, one-half share of this stock would cost only $25. Therefore, we would have to come up with only $5.95 ($25.00 − $19.05 = $5.95) over and above the amount received from the loan to buy the stock. Since $5.95 is the amount of money that we would actually have to invest to obtain the replicating portfolio, it is the value of this portfolio and therefore the value of the call option.
+
+The equation for calculating the value of the replicating portfolio, and therefore the value of the call option, can be expressed as follows:
+
+Notice, too, that the exercise price, the current price of the underlying stock, the possible future prices of the underlying stock, and the risk-free rate are all that entered into our calculations. We did not even mention the probabilities that the stock price would go up or down at any point. That is because the volatility of the underlying stock value is accounted for by how far apart the two possible future values are. Similarly, the time to expiration is not directly considered. However, the time to expiration affects how high and how low the stock price can be when the option expires.3
+
+This model may seem surprisingly simple. However, that is largely because we chose to illustrate a simple example. The model can be extended in several ways. For example, we can incorporate possible prices for the underlying asset between now and the expiration date of the option. The underlying asset price might take one of two values one month (or day or hour) from now, and then for each of those values there might be two possible values in the following month (day or hour), and so on. Solving a model such as this requires us to work backward from the expiration date to find the value of the option at each intermediate date and price until we finally arrive at the value of the option today. Most modern option pricing models are extensions of this type of model.
+
+Learning by Doing Application 20.1 illustrates another example of a call option valuation.
+
+Put-Call Parity
+To this point, our discussion has focused on call options. As mentioned earlier, this is possible because there is a simple relation that enables us to calculate the value of a put option once we know the value of a call option with the same exercise price. This relation is called put-call parity. The formula for put-call parity is:
+
+(20.1)
+put-call parity the relation between the value of a call option on an asset and the value of a put option on the same asset that has the same exercise price
+
+LEARNING BY DOING APPLICATION 20.1
+Valuing a Call Option
+
+Problem
+
+You are considering purchasing a call option on the stock of Grote Agricultural Company. Grote stock currently trades for $35 per share, and you predict that its price will be either $25 or $50 in one year. The call option would enable you to buy a share of Grote stock in one year for $30. What is this option worth if the risk-free rate is 4 percent?
+
+
+
+
+
+where P is the value of the put option, C is the value of the call option, X is the exercise price, r is the risk-free rate, t is the amount of time before the option expires, and V is the current value of the underlying asset. The term e−rt is an exponential function that you can calculate using the “ex” key on your calculator; it is simply a discount factor that assumes continuous compounding. It is important to make sure that the r and t are both stated in the same units of time (for example, months or years).
+
+To see how this formula works, let’s consider the call option on the stock of ABC Corporation that we just valued. We know that C = $5.95, X = $55, r = 0.05, t = 1, and V = $50. Substituting these values into the put-call parity formula and solving for P, we get
+
+Notice that the variables used in this calculation are the same variables that determine the value of a call option. This means that the same factors that affect the value of a call option also affect the value of a put option. Notice, too, that the value of the put option ($8.27) is greater than the value of the call option ($5.95) in this example. This will not always be true. However, it is true in our example because the current stock price of $50 is below the $55 exercise price.
+
+Learning by Doing Application 20.2 illustrates another example of a put option valuation.
+
+Valuing Options Associated with the Financial Securities That Firms Issue
+In the chapter preview, we stated that financial options are often included in the financial securities that firms issue and that they make the valuation of those securities more complicated. A detailed discussion of the valuation of financial securities with options is beyond the scope of this chapter. However, because such options are quite common, it is important that you have some intuition concerning how they affect security values. The key principle that we use in valuing securities with options is known as the principle of value additivity. It states that if two independent assets are bundled together, the total value of both assets equals the sum of their individual values. In other words, the value of a financial security with an option equals the value of the same security without the option, plus the value of the option. To illustrate this idea, let’s consider a few of the many options that are commonly observed in financial securities.
+
+LEARNING BY DOING APPLICATION 20.2
+Valuing a Put Option
+
+Problem
+
+In Learning by Doing Application 20.1, we found that a call option on a share of Grote Agricultural Company stock is worth $8.77 when the stock price is $35, the exercise price is $30, the risk-free rate is 4 percent, and the time to maturity is one year. What is the value of a put option on a share of this stock if the exercise price and all other variables have the same values?
+
+
+
+
+
+Note that the value of the put option is less than the value of the call option in this example. This is because the current price of the stock is above the exercise price.
+
+Financial options are often added to the securities that firms issue because doing so is beneficial to the firm. For example, when the managers of a young, rapidly growing company issue debt, they must be concerned about the amount of cash required to make interest and principal payments. If these payments are too great, the company’s operations might not generate enough cash to both service the debt and fund the company’s growth. One way to reduce the interest payments on debt is to make it convertible into common stock.
+
+To see how this works, consider the convertible bonds that we described in Chapter 8. Suppose that a 20-year vanilla bond issued by a particular company must have coupon payments of $80 per year, or 8 percent, in order to sell for its par value of $1,000. Further suppose that management of that company must raise $50 million today and only expects to have enough cash to pay interest of $3 million per year, or 6 percent, on the $50 million.
+
+One way to reduce the amount of interest that the firm must pay on the bonds is to make them convertible into the company’s stock. For example, if the company’s stock is currently trading at $40 per share, the bond might be structured so that buyers have the option (right, but not obligation) to convert each bond into 20 shares of stock. With this arrangement, each bond includes a call (conversion) option with an exercise price of $50 per share ($1,000/20 shares = $50 per share). The exercise price of the conversion option is above the current stock price. However, since there is a chance that the stock price will go above $50 before the debt matures in 20 years, this call option has a value that can be calculated using the binomial option pricing model.
+
+When a conversion option is included with a bond, investors will be willing to accept a lower interest rate. How much lower depends on the value of the option. If the company wants to sell the convertible bonds at their par value of $1,000, the present value of the interest and principal payments plus the value of the conversion option must equal $1,000. In the example above, if the bonds are going to pay 6 percent, the conversion option must be worth $197.93. This is because the valuation methods discussed in Chapter 8 tell us that a 20-year bond paying a coupon of 6 percent is only worth $802.07 if the market requires a return of 8 percent (you might check this number to confirm that you understand the bond valuation concepts from Chapter 8). If a conversion option with an exercise price of $50 is worth more or less than $197.93, then management will have to adjust the exercise price upward or downward until the total value of the 6 percent bond plus the conversion option equals $1,000.
+
+Convertible preferred stock provides another common example of a financial security that has an option associated with it. This type of preferred stock, which is typically sold to venture capitalists, for example, is convertible into the common stock of the company at a prespecified exercise price. Recall from Chapter 9 that regular preferred stock with no maturity can be valued using the zero-growth dividend model, Equation 9.2:
+
+For example, if the preferred stock pays an annual dividend, D, of $10 and the required rate of return, k ps, is 10 percent, then the value of the preferred stock is $100 ($10/0.10 = $100). If this preferred stock is made convertible into the company’s common stock, its value will be greater than $100 by an amount that equals the value of the conversion option. The company will get a higher price for convertible preferred stock because it is selling investors both regular preferred stock and a conversion option.
+
+Convertible bonds and preferred shares are not the only types of securities that firms issue with options attached to them. In another common transaction, managers sell financial securities with options when they bundle options to purchase a company’s common stock with common shares that are being sold in an initial public offering (IPO). When this happens, for each 100 shares that an investor purchases, he or she also receives options (which are called warrants in this instance) to purchase additional shares, on or before a specified future date, for a price that is higher than the IPO price. For example, if the shares are expected to sell for $10 each in the IPO, the investor might have the option to purchase a certain number of shares at any time in the next five years for $15 per share. Why would the managers of a firm bundle options with stock in an IPO? One reason is to reduce the number of common shares that must be sold at the IPO price in order to raise the amount of money that the firm needs. As was the case with convertible bonds and preferred stock, since the options have value, investors will pay a higher price for the package of stock plus options than they will for the stock alone.
+
+Before You Go On
+What are the limits on the value of a call option prior to its expiration date?
+What variables affect the value of a call option?
+Why are the variables that affect the value of a put option the same as those that affect the value of a call option?
+
+You can read about what affects the values of financial options and how they are traded at the Web site for the Chicago Board Options Exchange (CBOE) at www.cboe.com/
+
+20.3 Real Options
+LEARNING OBJECTIVE
+
+Identify some of the real options that occur in business, and explain why traditional NPV analysis does not accurately incorporate their values.
+Many investments in business involve real options—options on real assets. Unfortunately, as we mentioned in the chapter preview, NPV analysis does not adequately reflect the value of these options. While it is not always possible to directly estimate the value of the real options associated with a project, it is important to recognize that they exist when we perform a project analysis. If we do not even consider them, we are ignoring potentially important sources of value. In this section, we provide an overview of the types of real options commonly associated with real investments. As you read this section, you should note that the first three types of real options—options to defer investments, make follow-on investments, and change operations—are call options, while the fourth type of real option—the option to abandon a project—is a put option.
+
+real option an option for which the underlying asset is a real asset
+
+Options to Defer Investment
+In the chapter opener, we used the example of Caledonia Mining Corporation to illustrate a kind of real option that is commonly available to business managers. This is the option to defer making an investment decision. Recall that Caledonia obtained an option that gave the company the right to purchase mining claims in the Connemara North site of Zimbabwe. This option gave the managers at Caledonia an opportunity to better assess the economic viability of the mining claims before committing the large amount of money that would be required to purchase them. Caledonia’s managers must have thought that the price of the option was worth paying in order to be able to make more informed investment decisions. With this option, we can think of the underlying asset as being the stream of cash flows associated with owning the mining claims and the exercise price as being the cost of purchasing those claims. While it is too soon, at the time this discussion is being written, to tell how things will ultimately work out for Caledonia Mining, you can be sure that its managers will be better informed when they do make the final investment decision regarding the option that they acquired.
+
+Real estate developers often purchase deferral options on properties that they might want to develop in the near future. For example, a developer might pay a landowner $100,000 for a one-year option to purchase a property at a particular price. By accepting the payment, the landowner agrees not to sell the property to anyone else for a year. As in the Caledonia Mining example, such an option provides the developer with more time to make a final decision on whether it makes economic sense to purchase the land and proceed with a project. With these options, the land is the underlying asset, and the cost of purchasing it is the exercise price.
+
+Another example of an option to defer investment is found in the oil industry. Many oil companies own drilling rights on properties that are expected to contain oil deposits but have not yet been developed. In these situations, the oil companies have the option to wait and see what happens to oil prices before deciding whether to invest in developing the deposits. The underlying asset in this case is the stream of cash flows that the developed oil field is expected to produce, whereas the exercise price is the amount of money that the company would have to spend to develop it (drill the well and build any necessary infrastructure). Just as the value of a share of stock might go up or down, the value of the cash flows produced by the oil field might increase or decrease with the price of oil.
+
+The value of an option to defer investment is not reflected in an NPV analysis. Recall that the NPV rule tells us to accept a project with a positive NPV and to reject one with a negative NPV. NPV analysis does not allow for the possibility of deferring an investment decision (or deferring completion of a project once it is underway). It assumes that we invest either now or never. However, if we have the option of deferring an investment decision, it may make sense to do so. After all, a project that has a negative NPV today might have a positive NPV at some point in the future. The price of the product may increase, production costs may decline, or the cost of capital may go down, making the project attractive. We need not assume that an investment that is unattractive today will never be attractive.
+
+Options to Make Follow-On Investments
+Another very important type of real option is an option to make follow-on investments. Some projects open the door to future business opportunities that would not otherwise be available. For example, until the late 1990s, Dell, Inc., focused on selling computers to businesses. Although the company sold computers to individuals for home use, it did not focus on that market segment. In the late 1990s, Dell decided to target the home personal computer market and introduced a low-price, bare-bones computer. At first glance, this did not look like a very good move, because the low-end home computer business has small profit margins. However, the move created options for a wide range of follow-on investments. By moving into the home computer market, Dell established relationships with many individual consumers. These relationships, in turn, made it feasible for Dell to later move into new product areas, such as the sale of headphones, webcams, printers, and other consumer electronics. In other words, investing in the home computer business provided Dell with options to enter other consumer product markets.
+
+Another example of an option to make follow-on investments concerns an investment in a new technology that can be extended to other products. For instance, in the early 1990s, Boeing Company invested in a computer-aided aircraft design system as part of the development of its Boeing 777 aircraft. This system allowed the company to complete much more of the design work for a new aircraft on a computer before building a prototype, thereby lowering the cost of designing and building a new aircraft. While the cost of the new system and the associated facilities—over $1 billion—was relatively high compared with the cost of the 777 project, the investment provided benefits that extended well beyond that project. For example, the technologies could be used in the design of other new aircraft, both civilian and military. By reducing the cost of developing new aircraft, the design system made projects such as the successful line of 787 Dreamliner aircraft economically attractive.
+
+Options to make follow-on investments are inherently difficult to value because, at the time we are evaluating the original project, it may not be obvious what the follow-on projects will be. Even if we know what the projects will be, we are unlikely to have enough information to estimate what they are worth. Of course, this makes it impossible to directly estimate the value of any option associated with them. Nevertheless, it is important for managers to consider options to make follow-on investments when evaluating projects. Doing so is a central part of the process of evaluating projects in the context of the overall strategy of the firm. Projects that have the potential for follow-on investment opportunities that are consistent with a company’s overall strategy are more valuable than otherwise similar projects that do not.
+
+Options to Change Operations
+In addition to options to defer investment and options to make follow-on investments, which are real options related to the investment decisions themselves, there are also real options that are related to the flexibility managers have once an investment decision has been made. These options, which include the options to change operations and to abandon a project, affect the NPV of a project and must be taken into account at the time the investment decision is made.
+
+In an NPV analysis, we discount the expected cash flows from a project. We often consider several alternative scenarios and use our estimates of the probabilities associated with those scenarios to compute the expected cash flows. While this sort of analysis does consider alternative scenarios, it does not fully account for the fact that once a project has begun, the managers at a company have options to change operations as business conditions change. This means that there is value associated with being able to change operations that is not fully reflected in a scenario analysis.
+
+The changes that managers might make can involve something as simple as reducing output if prices decline or increasing output if prices increase. Businesses do this all the time in response to changing demand for their goods and services. At the extreme, managers might temporarily suspend operations entirely if business conditions are weak. This is quite common in the auto industry, where we often hear of plants being temporarily shut down during periods of slow auto sales. Other changes in operations can involve fundamentally altering the way in which a product is produced, as when a new production technology becomes available, making the old technology uncompetitive.
+
+Having the flexibility to react to changing business conditions can be very valuable. Since we do not know precisely how conditions are likely to change, it can be difficult to estimate just how valuable this flexibility is. Nevertheless, we can see that managers do recognize the importance of flexibility by observing how they structure projects. For example, most modern office buildings do not have permanent internal walls. Not having permanent walls provides flexibility in configuring the offices and work spaces in the building. If more people must be put into a building than originally anticipated, the work spaces can be compressed to fit them. If the company finds that it does not need all of the space, having a flexible interior makes it easier to change things so that the excess space can be leased. Similarly, when a company plans to build a new manufacturing facility, it often acquires more land than is immediately needed and designs the facility to accommodate additional production capacity if demand for its products is greater than expected.
+
+Building flexibility into a project costs money, but this can be money well spent if things change unexpectedly. The flexibility to expand, scale back, temporarily shut down, or change the methods or technology employed in a project are all real options that managers should consider when evaluating projects. Projects with more flexibility in these dimensions are inherently more valuable.
+
+Options to Abandon Projects
+A project can also be terminated if things do not go as well as anticipated.4 In other words, management often has an option to abandon a project. The ability to choose to terminate a project is a bit like a put option. By shutting down the project, management is saving money that would otherwise be lost if the project kept going. The amount saved represents the gain from exercising this option.
+
+As with flexibility, we can see that managers recognize the importance of having an option to abandon a project by observing the way they design projects. Consider, for example, that most industrial buildings are built like big boxes that can be easily reconfigured as manufacturing spaces, warehouses, or even retail outlets, depending on which use is most valuable. Suppose a company is building a facility to use as a warehouse. If the building is only able to accommodate a warehouse facility, it might end up sitting empty for long periods of time. Designing the building so that it can be reconfigured relatively inexpensively for some other use increases the likelihood that the building will remain fully utilized in the future.
+
+DECISION MAKING EXAMPLE 20.2
+The Value of Real Options
+
+Situation
+
+You work for a company that manufactures cardboard packaging under long-term contracts for several popular cereal and pasta brands. You have just won a five-year contract to produce packaging materials for a company that sells furniture on the Internet. Since this contract will require you to produce much larger boxes than you currently can produce, you must purchase some new equipment. You have narrowed your choices to two alternatives. The first is a capital-intensive process that will cost more up front but will be less expensive to operate. This process requires very specialized equipment that can be used only for the type of packaging that your furniture client needs. The second alternative is a labor-intensive process that will require a smaller up-front investment but will have higher unit costs. This process involves equipment that can be used to produce a wide range of other packages. If the expected life of both alternatives is 10 years and you estimate the NPV to be the same for both, which should you choose?
+
+
+
+Decision Making Example 20.2 presents an example of how real options affect investment decisions.
+
+Concluding Comments on NPV Analysis and Real Options
+We have stated that NPV analysis does not account for real options very well. This is true because the riskiness of a project that has real options associated with it varies with time, and the appropriate discount rate varies with the risk. For example, in order to use NPV analysis to value an option to expand operations, we would not only have to estimate the expected value of all the cash flows associated with the expansion but would also have to estimate the probability that we would actually undertake the expansion under alternative future scenarios and determine the appropriate rate(s) at which to discount the incremental cash flows from the expansion back to the present. Furthermore, the discount rate for the original project’s cash flows could change with the expansion.
+
+In some cases, we can incorporate the value of a real option into an investment analysis by valuing the option separately and then adding this value to the NPV estimate. When we do this, we value the real option using valuation methods similar to those used to value financial options, as illustrated in Section 20.2.
+
+Before You Go On
+What is a real option?
+What are four different types of real options commonly found in business?
+Is it always possible to estimate the value of a real option? Why or why not?
+
+You can find a list of Web sites with information about real options at www.real-options.com/resources_links.htm
+
+
+Real options are considered by NASA when space systems and other investments are evaluated. See the following document on the NASA Web site for a discussion of this and references to additional readings in this area: trs.jpl.nasa.gov/bitstream/handle/2014/18213/99-1681.pdf?sequence=1
+
+20.4 Agency Costs
+LEARNING OBJECTIVE
+
+Describe how the agency costs of debt and equity are related to options.
+Agency conflicts arise between stockholders and lenders (creditors and bondholders) and between stockholders and managers because the interests of stockholders, lenders, and managers are not perfectly aligned. In fact, their interests can differ greatly. One reason is that the claims that they have against the cash flows produced by the firm have payoff functions that look like different types of options. We now discuss how these payoff functions lead to agency conflicts and their related costs.
+
+Agency Costs of Debt
+In Chapter 16, we discussed agency costs that arise in a company that uses debt financing. We noted that these costs occur because the incentives of people who lend to a company differ from those of the stockholders. If you reread those discussions now, you will probably notice that the problems we discussed arise because the payoff functions for stockholders and lenders differ like those for the different options we have been discussing in this chapter.
+
+To understand why this is the case, consider a company that has a single loan outstanding. This loan will mature next year, and all of the interest and principal will be due at that time. Now, consider what happens when the debt matures. If the value of the company is less than the amount owed on the debt, the stockholders will simply default, and the lenders will take control of the assets of the company. The stockholder claims will be worth $0 in this case. If, however, the value of the company is greater than the amount owed on the loan, the stockholders will pay off the loan and retain control of the assets. In this case, the stockholder claims will be worth the difference between the value of the firm and the amount owed to the lenders.
+
+In other words, the payoff function for the stockholders looks exactly like that for the owner of a call option, where the exercise price is the amount owed on the loan and the underlying asset is the firm itself. If the value of the firm exceeds the exercise price, the stockholders will choose to exercise their option; and if it does not exceed the exercise price, they will let their option expire unexercised. Figure A of Exhibit 20.4 illustrates the payoff function for the stockholders in this example.
+
+The payoff function for the lenders in our example is illustrated in Figure B of Exhibit 20.4. If the value of the firm is less than the amount owed, the lenders receive only the assets of the firm; and if the value of the firm is greater than the amount owed, the lenders receive only the amount owed. One way to think about the payoff function for the lenders is that when they lend money to the firm, they are essentially selling a put option to the stockholders.5 This option gives the stockholders the right to “put” the assets to the lenders with an exercise price that equals the amount they owe. When the value of the firm is less than the exercise price, the stockholders will exercise their option by defaulting. Of course, the stockholders are able to default and walk away only because our bankruptcy laws limit their liability to the amount that they have invested in the company.
+
+The Dividend Payout Problem
+
+Knowing that debt and equity claims are like options in which the underlying asset is the firm, we can use the intuition gained from the discussion of the determinants of option value to better understand the agency costs of debt. As noted in the previous section, bankruptcy laws limit stockholder losses to what they have invested in the company. The option to default and “put” the assets to the lenders thus gives stockholders at a company facing bankruptcy an incentive to pay themselves cash dividends. Once paid, the dividends are protected by the bankruptcy laws. At the same time, the dividend payment lowers the value of assets available for the lenders. The net effect is to transfer value to stockholders at the expense of the lenders. If the firm goes bankrupt and the lenders end up receiving, for example, 50 percent or 80 percent of what they are owed, it will make no difference to the stockholders, who will get nothing from the liquidation of the company’s assets in either case.
+
+EXHIBIT 20.4 Payoff Functions for Stockholders and Lenders
+
+
+The Asset Substitution Problem
+
+In Chapter 16, we saw that when bankruptcy is possible, stockholders have an incentive to invest in very risky projects, some of which might even have negative NPVs. Stockholders have this incentive because they receive all of the benefits if things turn out well, but do not bear all of the costs if things turn out poorly. Since equity claims are like call options on the assets of the firm, this asset substitution problem should not be surprising. We pointed out earlier in this chapter that the more volatile the value of the underlying asset, the more valuable a call option on that asset will be. Stockholders of leveraged firms know this and therefore have an incentive to invest in risky projects that increase the overall volatility of the value of their companies’ assets.
+
+Lenders, in contrast, do not want the firm to invest in high-risk projects. As you can see from their payoff function in Exhibit 20.4, the lenders bear costs as the value of the firm drops below the amount they are owed, but do not benefit at all as the value of the firm’s assets increases above that amount. Lenders to companies that are worth more than they are owed can only expect to lose when a project increases the overall riskiness of a company’s assets.
+
+The Underinvestment Problem
+
+Chapter 16 also explained that stockholders have incentives to turn down positive NPV projects when all of the benefits are likely to go to the lenders. You can see how this underinvestment problem arises from the differences in the payoff functions in Exhibit 20.4. Suppose that the company will owe $10 million when the loan matures, that the company is currently worth $5 million, and that the loan matures next week. This company is financially distressed because its assets are not even worth as much as its outstanding debt—so it is unlikely to have enough money to finance new investments. Now suppose that management identifies a positive NPV project that would require a $3 million investment and that has a positive NPV of $1 million that will be realized before the debt payment must be made. Management would have a hard time convincing the stockholders to invest an additional $3 million in the firm, because even if the investment turns out to be worth $4 million, all of the money will go to the lenders. The stockholders have a strong incentive to turn down this positive NPV project.
+
+Agency Costs of Equity
+Many of our discussions assume that managers act in the best interests of the stockholders. Since managers are hired to manage the firm on behalf of the stockholders, this might appear to be a reasonable assumption. However, as you already know, managers do not always act in the stockholders’ best interest. This is because the payoff function for a manager can be quite different from that for stockholders. In fact, a manager’s payoff function can look a lot like a lender’s payoff function.
+
+To see how this is possible, consider the connection between managers’ personal wealth and the performance of the companies for which they work. The present value of a manager’s future earnings is a large part of his or her overall wealth. If a company gets into financial distress and a manager is viewed as responsible, that manager could lose his or her job and find it difficult to obtain a similar job at another company. So as long as a company is able to avoid defaulting on its debt, a manager has a reasonable chance of retaining his or her job. Once the firm defaults, the chances of job loss increase dramatically. In addition, researchers have found that senior managers of financially distressed large public companies who lose their jobs find it difficult to obtain similar jobs afterward.6 We might also expect that the worse the company’s financial distress, the worse the manager’s future employment prospects and the lower the present value of the compensation that he or she can expect to receive in the future. If this is so, when the value of a firm is less than the amount it owes, the payoff function for a manager will look something like that for the lender in Figure B of Exhibit 20.4—it will slope downward as the value of the firm decreases.
+
+On the positive side, we would expect the present value of a manager’s future earnings to increase with the value of the firm when this value is above the amount that the company owes to its lenders. Managers will receive larger bonuses and larger pay raises, and any stock or options that they receive will be more valuable. However, these increases will not be nearly as large as those for stockholders. The stockholders are not likely to give the managers a large proportion of any increase in firm value. The net result is that the payoff function for managers can look something like the one in Exhibit 20.5.
+
+The fact that the payoff function for a manager resembles that for a lender means that managers, like lenders, have incentives to invest in less risky assets and to distribute less value through dividends and stock repurchases than the stockholders would like them to. Because the likelihood of financial distress increases with leverage, managers also have incentives to use less debt than stockholders would like them to. These tendencies are reinforced by the fact that managers are individuals who do not hold diversified portfolios, since most of their wealth is tied to the performance of their firms. Managers tend to make conservative investment, payout, and financing decisions because the cost to them of failure can be very large.
+
+EXHIBIT 20.5 Representative Payoff Function for a Manager The payoff function for a manager with a typical compensation arrangement is more similar in shape to the payoff function for a lender than for a stockholder. While a stockholder’s payoff function is flat to the left of the face value of the debt, the value of the manager’s compensation is downward sloping, much like the payoff for a lender. When the value of the firm is greater than the face value of the debt, the value of the manager’s compensation does not increase as much as the value of the firm’s shares (the line in the payoff function is not as steep). Because managers’ payoff functions differ from those for stockholders, managers have incentives to take actions that are not in the best interests of stockholders.
+
+
+Boards of directors understand how the incentives of managers differ from those of stockholders. Consequently, boards put a great deal of effort into designing compensation plans that make the payoff functions for managers look as much as possible like those of stockholders. Ultimately, this is a key to minimizing agency conflicts between stockholders and the managers who represent them.
+
+Before You Go On
+What do the payoff functions for stockholders and lenders look like?
+What does the payoff function for a typical manager look like?
+20.5 Options and Risk Management
+LEARNING OBJECTIVE
+
+Explain how options can be used to manage a firm’s exposure to risk.
+We have discussed options that are bundled with financial securities, how options found in real investments can have value, and how the option-like payoff functions of stockholders, lenders, and managers contribute to agency conflicts. Another place in which options are frequently encountered in corporate finance is in the management of risk. Risk management involves hedging, or reducing the financial risks faced by a firm. Options, along with other derivative securities, such as forwards, futures, and swaps, are used to reduce risks associated with commodity prices, interest rates, foreign exchange rates, and equity prices.
+
+To see how risks can be managed using options, consider an oil company that is producing and selling oil to refiners. Suppose that the price of West Texas Intermediate (WTI) crude oil has recently risen above $90 per barrel and the company wants to make sure that, even if prices drop below $85 per barrel, it will receive at least $85 for each barrel of WTI oil that it sells during the next three months. If the company plans to sell 100,000 barrels of oil in the next three months, the financial managers can hedge the price risk by purchasing put options on 100,000 barrels of oil with an exercise price of $85 per barrel plus the cost of the options. The maturity dates on the options must be selected to match the timing of the company’s oil output over the next three months. In addition, the actual exercise prices on the options must be slightly greater than $85 to account for the premiums that the company pays to purchase the options. This will ensure that the company actually receives $85 per barrel after paying for the options.
+
+One interesting benefit of using options in this way is that they provide downside protection but do not limit the upside to the company if oil prices continue to increase. Put options give the company the right to sell its oil for the exercise price if prices fall, but because there is no obligation to sell, the company can still benefit if oil prices increase. As discussed earlier, this is just like buying insurance. In fact, many insurance contracts are really little more than specialized put options.
+
+In addition to using options and other derivative securities to manage commodity price risks, as in the oil company example, companies can use these securities to manage risks associated with changing interest rates. Large swings in interest rates can cause a great deal of volatility in the net income of a highly financially leveraged company whose managers rely on floating-rate debt. As interest rates go up and down, the company’s interest expense also goes up and down. Furthermore, under certain circumstances, this volatility can actually increase the company’s taxes.
+
+Options can also be used to manage risks associated with foreign exchange rates. For example, as we discuss in Chapter 21, the revenues that a U.S. company reports can be affected by changes in exchange rates if the company manufactures products in the United States and has overseas sales. If the dollar strengthens against foreign currencies, for example, the company will have to increase the overseas prices of its products in order to maintain the same dollar prices per unit. This, in turn, can prompt consumers in overseas markets to purchase fewer of the company’s products. By using options and other derivative securities to protect against exchange rate movements, managers can limit declines in revenues that occur because of such movements.
+
+Finally, options can be used to manage risks associated with equity prices. This is especially important to companies that have traditional defined-benefit pension plans, which provide retirees with guaranteed retirement payments. Companies are required to put money aside to cover the costs of these payments, and this money is generally invested in stocks. When the stock market declines significantly, these companies must replace any lost value with new contributions, which must come from earnings. As you might expect, managers are very interested in managing the risk that they will have to make these contributions.
+
+Before You Go On
+What is hedging?
+What types of risks can options be used to manage?
+Summary of Learning Objectives
+1 Define a call option and a put option, and describe the payoff function for each of these options.
+
+An option is the right, but not the obligation, to buy or sell an asset for a given price on or before a specific date. The price is called the exercise or strike price, and the date is called the exercise date or expiration date of the option. The right to buy the asset is known as a call option. The payoff from a call option equals $0 if the value of the underlying asset is less than or equal to the exercise price at expiration. If the value of the underlying asset is greater than the exercise price at expiration, then the payoff from a call option is equal to the value of the underlying asset value minus the exercise price. The right to sell the asset is called a put option. The payoff from a put option is $0 if the value of the underlying asset is greater than or equal to the exercise price at expiration. If the value of the underlying asset is less than the exercise price, then the payoff from a put option equals the exercise price minus the value of the underlying asset.
+
+2 List and describe the variables that affect the value of an option. Calculate the value of a call option and of a put option.
+
+The value of an option is affected by five variables: the current price of the underlying asset, the exercise price of the option, the volatility of the value of the underlying asset, the time left until the expiration of the option, and the risk-free rate.
+
+Section 20.2 describes how to calculate the values of call and put options, both at expiration and at some point before the expiration date.
+
+3 Identify some of the real options that occur in business, and explain why traditional NPV analysis does not accurately incorporate their values.
+
+Real options that are associated with investments include options to defer the investments, make follow-on investments, change operations, and abandon projects. Traditional NPV analysis is designed to make a decision to accept or reject a project at a particular point in time. It is not designed to incorporate potential value associated with deferring the investment decision. Incorporating the value of the other real options into an NPV framework is technically possible but would be very difficult to do because the rate used to discount the cash flows would change over time with their riskiness. In addition, the information necessary to value real options using the NPV approach is not always available.
+
+4 Describe how the agency costs of debt and equity are related to options.
+
+The chapter discusses two classes of agency conflicts. The first is between stockholders (owners) and lenders. When there is a risk of bankruptcy, stockholders may have incentives to increase the volatility of the firm’s assets, turn down positive NPV projects, or pay out assets in the form of dividends. Stockholders have these incentives because their payoff functions look like those for the owner of a call option.
+
+The other class of agency conflicts is between managers and stockholders. Managers tend to prefer less risk than stockholders. They have incentives to invest in less risky projects and use less debt financing than stockholders would like them to. Managers also prefer to distribute fewer assets in the form of dividends or through stock repurchases because their payoff functions are more like those of lenders than those of stockholders. These preferences are magnified by the fact that managers are risk-averse individuals whose portfolios are not well diversified.
+
+5 Explain how options can be used to manage a firm’s exposure to risk.
+
+A company can adjust its exposure to risks associated with commodity prices, interest rates, foreign exchange rates, and equity prices by buying or selling options. For example, a company that is concerned about a decline in the prices it will receive for products that will be delivered in the future can purchase put options to partially or totally eliminate that risk.
+
+Summary of Key Equations
+Equation	Description	Formula
+20.1	Put-call parity	P = C + Xe−rt − V
+Self-Study Problems
+20.1 Of the two parties to an option contract, the buyer and the seller, who has a right and who has an obligation?
+
+
+
+20.2 The stock of Augusta Light and Power is currently selling at $12 per share. Over the next year, the company is undertaking a new electricity production project. If the project is successful, the company’s stock is expected to rise to $24 per share. If the project fails, the stock is expected to fall to $8 per share. The risk free rate is 6 percent. Calculate the value today of a one-year call option on one share of Augusta Light and Power with an exercise price of $20.
+
+
+
+20.3 ADCAP International is a U.S.-based company that sells its products primarily in overseas markets. The company’s stock is currently trading at $50 per share. Depending on the outcome of U.S. trade negotiations with the countries to which ADCAP exports its products, the company’s stock price is expected to be either $65 or $30 in six months. The risk free rate is 8 percent per year. What is the value of a put option on ADCAP stock that has an exercise price of $40 per share?
+
+ 
+
+20.4 Your company is considering opening a new factory in Europe to serve the growing demand for your product there. What real options might you want to consider in your capital budgeting analysis of the factory?
+
+
+
+20.5 Your firm, which uses oil as an input to its production processes, hedges its exposure to changes in the price of oil by buying call options on oil at today’s price. If the price of oil goes down by the time the contract expires, what effect will that have on your company?
+
+
+
+Discussion Questions
+20.1 Options can be combined to create more complicated payoff structures. Consider the combination of one put option and one call option with the same expiration date and the same strike price. Draw the payoff diagram, and describe what the purchaser of such a combination thinks will happen before expiration.
+
+20.2 A writer (seller) of a call option may or may not actually own the underlying asset. If he or she owns the asset, and therefore will have the asset available to deliver should the option be exercised, he or she is said to be writing a covered call. Otherwise, he or she is writing a naked call and will have to buy the underlying asset on the open market should the option be exercised. Draw the payoff diagram of a covered call (including the value of the owned underlying asset) and compare it with the payoff of other options.
+
+20.3 An American option will never be worth less than a European option. Evaluate this statement.
+
+20.4 Explain why, in the binomial pricing theory, the probabilities of an upward move versus a downward move are not important.
+
+20.5 Like all other models, the binomial pricing model is a simplification of reality. In this model, how do we represent high volatility or low volatility of the value of the underlying asset?
+
+20.6 What kinds of real options should be considered in the following situations?
+
+Wingnuts R Us is considering two sites for a new factory. One is just large enough for the planned facility, while the other is three times larger.
+Carousel Cruises is purchasing three new cruise ships to be built sequentially. The first ship will commence construction today and will take one year to build. The second will then be started. Carousel can cancel the order for a given cruise ship at any time before construction begins.
+20.7 Future Enterprises is considering building a factory that will include an option to expand operations in three years. If things go well, the expansion will have an expected value of $10 million and will cost $2 million to undertake. Otherwise, the expansion will have an expected value of only $1 million and will not take place. What information would we need in order to analyze this capital budgeting problem using the traditional NPV approach that we would not need using option valuation techniques?
+
+20.8 Corporations frequently include employee stock options as a part of the compensation for their managers and sometimes for all of their employees. These options allow the holder to buy the stock of the company for a prespecified price like any other option, but they are usually very long lived, with maturities of 10 years. The goal of stock option plans is to align the incentives of employees with those of stockholders. What are the implications of these compensation plans for current stockholders?
+
+20.9 You own ABC Corp. bonds. Using option pricing theory, explain what agency concerns you would have if ABC were in danger of bankruptcy.
+
+20.10 A bond covenant is a part of a bond contract that restricts the behavior of the firm, barring it from taking certain actions. Using the terminology of options, explain why a bond contract might include a covenant preventing the firm from making large dividend payments to its stockholders.
+
+20.11 How can the insurance policy on a car be viewed as an option?
+
+Questions and Problems
+ EXCEL Excel templates and resources available in Wiley Course Resources.
+
+Basic
+20.1 Option characteristics: What is an option?
+
+20.2 Option characteristics: Explain how the payoff functions differ for the owner (buyer) and the seller of a call option and of a put option.
+
+20.3 Option payoffs: What is the payoff for a call option with a strike price of $50 if the stock price at expiration is $40? What if the stock price is $65?
+
+20.4 Option payoffs: What is the payoff for a put option with a strike price of $50 if the stock price at expiration is $40? What if the stock price is $65?
+
+20.5 Option valuation: What are the five variables that affect the value of an option, and how do changes in each of these variables affect the value of a call option?
+
+20.6 Option valuation: Assuming nothing else changes, what happens to the value of an option as time passes and the expiration date gets closer?
+
+20.7 Option valuation: What does the seller of a put option hope will happen?
+
+20.8 Option valuation: What is the value of a call option or a put option if the stock price is zero? What if the stock price is extremely high (relative to the strike price)?
+
+20.9 Option valuation: Like owners of stock, owners of options can lose no more than the amount they invested. They are far more likely to lose that full amount, but they cannot lose more. Do sellers of options have the same limitation on their losses?
+
+20.10 Option valuation: What is the value at expiration of a call option with a strike price of $65 if the stock price is $1? $50? $65? $100? $1,000?
+
+20.11 Option valuation: Suppose you have an option to buy a share of ABC Corp. stock for $100. The option expires tomorrow, and the current price of ABC Corp. is $95. How much is your option worth?
+
+20.12 Option valuation: You hold an American option to sell one share of Zyther Co. stock. The option expires tomorrow. The strike price of the option is $50, and the current stock price is $49. What is the value of exercising the option today? If you wanted to sell the option instead, about how much would you expect to receive?
+
+20.13 Real options: What is the difference between a financial option and a real option?
+
+20.14 Real options: List and describe four different types of real options that are associated with investment projects.
+
+20.15 Agency costs: How are options related to the agency costs of debt and equity?
+
+Intermediate
+20.16 Option valuation: Suppose that you own a call option and a put option on the same stock and that these options have the same exercise price. Explain how the relative values of these two options will change as the stock price increases or decreases.
+
+20.17 Other options: A callable bond is a bond that can be bought back by the bond issuer before maturity for some prespecified price (normally a small amount above face value) at the discretion of the bond issuer. How would you go about finding the value of such a bond? Would the bond be worth more or less than an equivalent noncallable bond?
+
+20.18 Other options: A convertible bond is a bond that can be exchanged for stock at the discretion of the bondholder. How would you go about finding the value of such a bond? Would the bond be worth more or less than an equivalent nonconvertible bond?
+
+20.19 Option valuation: The seller of an option can never make any money from a change in the value of the underlying asset; he or she can only hope that the option will not be exercised and that and he or she will not lose any money. Given that this is the case, why do people sell options?
+
+20.20 Option valuation: The stock of Socrates Motors is currently trading for $40 and will either rise to $50 or fall to $35 in one month. The risk-free rate for one month is 1.5 percent. What is the value of a one-month call option with a strike price of $40?
+
+20.21 Option valuation: Assume that the price of Socrates Motors stock will either rise to $50 or fall to $35 in one month and that the risk-free rate for one month is 1.5 percent. How much is an option with a strike price of $40 worth if the current stock price is $45 instead of $40?
+
+20.22 Option valuation: Assume that the stock of Socrates Motors is currently trading for $40 and will either rise to $50 or fall to $35 in one month. The risk-free rate for one month is 1.5 percent. What is the value of a one-month call option with a strike price of $25?
+
+20.23 Option valuation: You are considering buying a three-month put option on Wing and a Prayer Construction stock. The company’s stock currently trades for $10 per share, and its price will either rise to $15 or fall to $7 in three months. The risk-free rate for three months is 2 percent. What is the appropriate price for a put option with a strike price of $9?
+
+20.24 Option valuation: You hold a European put option on Tubes, Inc., stock, with a strike price of $100. Things haven’t been going too well for Tubes. The current stock price is $2, and you think that it will either rise to $3 or fall to $1.50 at the expiration of your option. The appropriate risk-free rate is 5 percent. What is the value of the option? If this were an American option, would it be worth more?
+
+20.25 Other options: A golden parachute is a part of a manager’s compensation package that makes a large lump-sum payment in the event that the manager is fired or loses his or her job in a merger. Providing such payouts to managers seems ill advised to most people first hearing about it. Explain how a golden parachute can help reduce agency costs between stockholders and managers.
+
+Advanced
+20.26 Consider the following payoff diagram.
+
+
+Find a combination of calls, puts, risk-free bonds, and stock that has this payoff. (You need not use all of these instruments, and there are many possible solutions.)
+
+20.27 Consider the payoff structures of the following two portfolios:
+
+Buying a one-month call option on one share of stock at a strike price of $50 and saving the present value of $50 (so that at expiration it will have grown to $50 with interest).
+Buying a one-month put option on one share of stock at a strike price of $50 and buying one share of stock.
+What conclusion can you draw about the relation between call prices and put prices from a comparison of these two portfolios?
+
+20.28 One way to extend the binomial pricing model is by including multiple time periods. Suppose Splittime, Inc., is currently trading for $100 per share. In one month, the price will either increase by $10 (to $110) or decrease by $10 (to $90). The following month will be the same. The price will either increase by $10 or decrease by $10. Notice that in two months, the price could be $120, $100, or $80. The risk-free rate is 1 percent per month. Find the value today of an option to buy one share of Splittime in two months for a strike price of $105. (Hint: To do this, first find the possible values of the option at the end of the second month. Then use those values as the payoffs to find the value today.)
+
+20.29 SpinTheWheel Co. has assets currently worth $10 million in the form of one-year, risk-free bonds that will return 10 percent. The company has debt with a face value of $5.5 million due in one year. (No interest payments will be made.) The stockholders decided to sell $8 million of the risk-free bonds and to invest the money in a very risky venture. This venture consists of giving Mr. William Kid the money now and, in one year, flipping a coin. If it comes up heads, Mr. Kid will pay SpinTheWheel $17.6 million. If it comes up tails, SpinTheWheel gets nothing. This investment has an NPV of zero.
+
+What is the value of the debt and equity before the stockholders make this “investment”?
+Using the binomial pricing model, with the payoff to the equity holders representing the option and the assets of the company representing the underlying asset, estimate the value of the equity after the stockholders make the investment.
+What is the new value of the debt after the investment?
+20.30 The price of a stock that does not pay dividends is currently $35, and the risk-free rate is 4 percent. A European call option on the stock, that has a strike price of $35 and that expires in six months, sells for $3.04. A European put option on the same stock with the same strike price sells for $2.35. Is there an arbitrage opportunity here? If so, what is it?
+
+20.31 Two call options have been written on the same underlying stock. Call #1 has a strike price of $42, and call #2 has a strike price of $52. Call #1 is selling for $5, and call #2 is selling for $6. What arbitrage opportunity do these prices present investors? Show the potential payoffs from this opportunity.
+
+20.32 Husky Motors has two debt issues outstanding, both of which mature in five years. The senior debt issue, which has a face value of $10 million, must be paid in full before any of the principal for the junior debt issue is paid. The junior debt issue also has a face value of $10 million. Draw the payoff diagrams for Husky’s equity and both debt issues as the value of the firm changes. Under what circumstances would you expect to see conflicts between the senior and junior debt holders?
+
+20.33 The payoff function for the holder of straight debt looks like that for the seller of a put option. Convertible debt is straight debt plus a call option on a firm’s stock. How does the addition of a call option to straight debt affect the concern that lenders have about the asset substitution problem, and why?
+
+Sample Test Problems
+20.1 You own a call option on Pepsico stock with a strike price of $60 per share that expires in 60 days. The current market price of Pepsico stock is $63.50 per share. What are the limits on the value of the call option you own?
+
+20.2 Assume that the current market price of Montrose Industrials stock is $28 per share and that the price will either rise to $38 per share or fall to $21 per share in one month. The risk-free rate for one month is 1 percent. What is the value of a one-month call option with a strike price of $24 per share?
+
+20.3 The market value of General Motors stock is currently $53.73 per share, and the annual risk-free rate is 3 percent. A three-month call option on the stock with a strike price of $55 sells for $2.15. What is the value of a put option on General Motors stock that has the same strike price and expiration date if there are no arbitrage opportunities?
+
+20.4 Why is it hard to account for real options in an NPV analysis?
+
+20.5 Fuel costs are a significant fraction of total costs in the airline industry. How might airline managers use options to manage fuel costs? What is the downside of doing this?
+
+Notes
+1 Even if the value of the option fell below the line to the right of the exercise price in Figure A of Exhibit 20.1, it would not stay there. This is because investors would be able to make an instant profit by buying the option, exercising it to get the underlying asset, and then selling the underlying asset. Such trading by investors would drive the price of the option back above the line.
+2 We are focusing in this discussion on what the value of the underlying asset is likely to be immediately before the option expires because it does not generally make sense to exercise an option before its expiration date as long as there is a chance that the value of the underlying asset could increase further. An exception is when the value of the underlying asset is not expected to be higher as the expiration of the option nears because value is being distributed to the owners of the underlying asset (for example, through dividend payments). In a situation like this, it can be appropriate to exercise a call option immediately before such a distribution. There are also situations where it is advantageous to exercise a put option early. Such situations can arise if the value of the underlying asset is $0 before expiration. When this happens, the value received from exercising the option today can exceed the present value of the amount that is expected to be received if the option is exercised immediately before expiration.
+3 There are other ways to solve the binomial pricing problem than by actually finding an equivalent portfolio. While they differ in their calculation, the underlying concepts are identical. See any advanced investments textbook for details.
+4 An exception exists where a contractual agreement prevents the project from being terminated without payment of a penalty that is equivalent to the remaining value of the project.
+5 This payoff function is actually like that from the combination of selling a put option and buying a risk-free loan. Lenders receive the face value of the loan from the risk-free bond, but they might have to pay some or all of that value in losses on the put option. Since the risk-free loan payout is unaffected by changes in the value of the firm, it does not affect the discussion above.
+6 S. C. Gilson, “Management Turnover and Financial Distress,” Journal of Financial Economics 25 (1989), 241–262.

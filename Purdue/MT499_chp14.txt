@@ -1,0 +1,848 @@
+CHAPTER 14
+Working Capital Management
+
+LEARNING OBJECTIVES
+
+Define net working capital, discuss the importance of working capital management, and compute a firm’s net working capital.
+Define the operating and cash conversion cycles, explain how they are used, and compute their values for a firm.
+Discuss the relative advantages and disadvantages of pursuing (1) flexible and (2) restrictive current asset management strategies.
+Explain how accounts receivable are created and managed, and compute the cost of trade credit.
+Explain the trade-off between carrying costs and reorder costs, and compute the economic order quantity for a firm’s inventory orders.
+Define cash collection time, discuss how a firm can minimize this time, and compute the economic costs and benefits of a lockbox.
+Describe three current asset financing strategies, and discuss the main sources of short-term financing.
+Since its founding in 1976 by partners Steve Jobs, Ronald Wayne, and Steve Wozniak, Apple Inc. has been a cutting-edge retailer of consumer electronics and computing software. With hardware products that include the Mac line of computers, Beats headphones, the iPhone and iPad tablet, and online retail businesses, including iTunes and Apple music, Apple Inc. has grown to become one of the largest publicly traded corporations in the world, with a market capitalization of approximately $2.2 trillion in January 2021.
+
+Although much of Apple’s success can be attributed to its innovative designs and strong worldwide demand for its products, the firm’s sophisticated approach to managing supply chain and hardware production is seen by many analysts and investors as a critical component of the firm’s success. Apple’s focus on managing these aspects of its operations is driven by former chief operating officer and current chief executive officer Tim Cook, who has often publicly related the mantra that “inventory is evil” because of its high cost and rapid depreciation.
+
+Mr. Cook shut down the company’s manufacturing businesses, opting instead to work with contract manufacturers around the world who build to order with customer demand. This in turn reduces Apple’s need to stock inventories of components and finished hardware, allowing the firm to virtually eliminate its warehouses while keeping only a limited number of products on hand in its Apple retail stores. Apple continues to streamline its production and inventory practices. When a consumer places a hardware order online today, assembly and shipping typically originate directly from a manufacturing facility in China. This allows Apple to minimize inventory in its supply chain.
+
+The focus of this chapter is on working capital management—which deals with the management of current assets, including cash, accounts receivable, and inventory—and how these assets are financed. In managing its working capital, Apple has concentrated on its inventory policies because inventory can comprise a significant portion of a firm’s balance sheet and can be subject to periodic write-downs. As we will discuss, Apple is an industry leader in working capital management efficiency, and its working capital management policies contribute significantly to the returns it earns on the capital invested in its businesses.
+
+Chapter Preview
+The previous chapters dealt with long-term investment decisions and their impact on firm value. These capital investment decisions typically commit a firm to a course of action for a number of years and are difficult to reverse. In contrast, this chapter focuses on short-term activities that involve cash inflows and outflows that occur within a year or less. Examples include purchasing and paying for raw materials, managing the firm’s investment in finished inventory, and collecting cash for sales made on credit. These types of activities comprise what is known as working capital management.
+
+The term working capital refers to the short-term assets necessary to run a business on a day-to-day basis. These assets include cash, accounts receivable, and inventory and are typically funded by short-term liabilities such as accounts payable. Because of the short-term nature of these assets and liabilities, decisions involving them are more flexible and easily reversed than capital investment decisions. The greater flexibility associated with working capital management does not mean that these activities are not important, however. The management of short-term assets and liabilities can have a significant impact on the cash flow available to a firm’s investors. In extreme cases, poor working capital management can result in severe financial consequences, including bankruptcy.
+
+We begin the chapter by reviewing some basic definitions and concepts. Next, we examine the individual working capital accounts and discuss how to determine and analyze the operating and cash conversion cycles. Then we explain how to manage the different working capital accounts: the cash account, accounts receivable, and inventory. We finish by considering alternative means of financing short-term assets and the risks associated with each.
+
+14.1 Working Capital Basics
+LEARNING OBJECTIVE
+
+Define net working capital, discuss the importance of working capital management, and compute a firm’s net working capital.
+Working capital management involves two fundamental questions: (1) What is the appropriate amount and mix of short-term assets for the firm to hold? (2) How should these short-term assets be financed? Firms must carry a certain amount of short-term assets to be able to operate smoothly. For example, without sufficient cash on hand, a company facing an unexpected expense might not be able to pay its bills on time. Without an inventory of raw materials, production might be subject to costly interruptions or shutdowns. Without an inventory of finished goods, sales might be lost because a product is out of stock.
+
+To provide a background for the discussion of working capital management, we first briefly review some important terminology and ideas. Throughout the chapter, we use financial statements and supporting data from Apple Inc. to illustrate our discussions. Exhibit 14.1 presents Apple’s balance sheet and income statement for the fiscal year that ended September 26, 2020.
+
+EXHIBIT 14.1 Apple Inc. Financial Statements, Fiscal Year Ended September 26, 2020 ($ millions)
+
+This exhibit shows the balance sheet and income statement for Apple Inc. for the fiscal year ended September 26, 2020. We use this information in illustrating various elements of working capital management.
+
+Balance Sheet as of September 26, 2020	Income Statement for the fiscal year ended September 26, 2020
+Assets	 	Liabilities and equity	 	 	 
+Cash	$  38,016	 	Accounts payable	$   42,296	 	Net sales	$ 274,515
+Short-term investments	52,927	 	Deferred revenue	6,643	 	Cost of goods sold	169,559
+Accounts receivable	16,120	 	Other current liabilities including accrued expenses	      56,453	 	Operating expenses	      38,668
+Inventory	4,061	 	   Total current liabilities	$ 105,392	 	Earnings before interest and taxes (EBIT)	$   66,288
+Other current assets	      32,589	 	Long-term debt	98,667	 	Interest and other income	            803
+   Total current assets	$ 143,713	 	Other noncurrent liabilities	       54,490	 	Earnings before taxes (EBT)	$   67,091
+Property, plant, and equipment	103,526	 	   Total liabilities	$ 258,549	 	Taxes	9,680
+Less: Accumulated. depreciation	      66,760	 	Preferred stock	0	 	Net income	$   57,411
+   Net plant and equipment	36,766	 	Common stock	50,779	 	Common stock dividend	$   14,087
+Investments	100,887	 	Retained earnings	14,966	 	Stock repurchases	72,516
+Other noncurrent assets	      42,522	 	Other stockholders’ equity	(406)	 	Other adjustments	1,640
+   Total assets	$ 323,888	 	Less: Treasury stock	               0	 	Addition to retained earnings	($  30,832)
+ 	 	   Total common equity	65,339	 		
+ 	   Total liabilities and stockholders’ equity	$ 323,888	 		
+Working Capital Terms and Concepts
+In earlier chapters, we discussed the basic terms associated with working capital management. Here, we provide a brief review:
+
+Current assets are cash and other assets that the firm expects to convert into cash in a year or less. These assets are usually listed on the balance sheet in order of their liquidity. Typical current assets include cash, short-term investments (sometimes also called marketable securities or cash equivalents because of their liquidity), accounts receivable, inventory, and others, such as prepaid expenses. At the end of its 2020 fiscal year, Apple’s total current assets were $143,713 million.
+Current liabilities (or short-term liabilities) are obligations that the firm expects to repay in a year or less. They may be interest bearing, such as short-term notes and current maturities of long-term debt, or noninterest bearing, such as accounts payable, deferred revenue, and accrued expenses. On September 26, 2020, Apple’s total current liabilities were $105,392 million.
+Working capital (also called gross working capital) includes the funds invested in a company’s cash and short-term investment accounts, accounts receivable, inventory, and other current assets. All firms require a certain amount of current assets to operate smoothly and to carry out day-to-day operations. Note that working capital is defined in terms of current assets, so the two terms are one and the same. Thus, Apple’s working capital was $143,713 million on September 26, 2020.
+Net working capital (NWC) refers to the difference between current assets and current liabilities.1
+
+NWC is important because it is a measure of a firm’s liquidity. It is a measure of liquidity because it is the amount of working capital a firm would have left over after it paid off all of its short-term liabilities. The larger the firm’s net working capital, the greater its liquidity. Most firms have more current assets than current liabilities, and therefore their net working capital is positive. Apple’s net working capital on September 26, 2020, was $38,321 million ($143,713 million − $105,392 million = $38,321 million).
+
+Working capital management involves management of current assets and their financing. The financial manager’s responsibilities include determining the optimum balance for each of the current asset accounts and deciding what mix of short-term debt, long-term debt, and equity to use in financing working capital. Working capital management decisions are usually fast paced, as they reflect the firm’s day-to-day operations.
+Working capital efficiency is a term that refers to how efficiently working capital is used. It is most commonly measured by a firm’s cash conversion cycle, which reflects the time between the point at which raw materials are paid for and the point at which finished goods made from those materials are converted into cash. The shorter a firm’s cash conversion cycle, the more efficient its use of working capital.
+Liquidity is the ability of a company to convert assets—real or financial—into cash quickly without suffering a financial loss.
+Working Capital Accounts and Trade-Offs
+Short-term cash inflows and outflows do not always match in their timing or magnitude, creating a need to manage the working capital accounts. The objective of the managers of these accounts is to enable the company to operate effectively with the smallest possible net investment in working capital. To do this, managers must make cost/benefit trade-offs. The trade-offs arise because it is easier to run a business with a generous amount of net working capital, but it is also more costly to do so. Let’s briefly look at each working capital account to see what the basic trade-offs are. Keep in mind as you read the discussion that working capital assets are costly for the firm to hold because they must be financed by borrowing or selling equity or by using cash from operations that could otherwise be paid out to the firm’s investors. The working capital accounts that are the focus of most working capital management activities are as follows:
+
+Cash (including short-term investments): The more cash a firm has on hand, the more likely it will be able to meet its financial obligations if an unexpected expense occurs or take advantage of an unexpected investment opportunity. If cash balances become too small, the firm runs the risk that it will be unable to pay its bills; and if this condition becomes chronic, creditors could force the firm into bankruptcy. The downside of holding too much cash is that the returns on cash are low even when it is invested in an interest-paying bank account or highly liquid short-term money market instruments, such as U.S. government Treasury securities.
+Receivables: The accounts receivable at a firm represent the total unpaid credit that the firm has extended to its customers. Accounts receivable can include trade credit (credit extended to another business) or consumer credit (credit extended to a consumer), or both. Businesses provide trade and consumer credit because doing so increases sales and because it is often a competitive necessity to match the credit terms offered by competitors. The downside to granting such credit is that it is expensive to evaluate customers’ credit applications to ensure that they are creditworthy and then to monitor their ongoing credit performance. Firms that are not diligent in managing their credit operations can suffer large losses from bad debts, especially during a recession, when customers may have trouble paying their bills.
+
+trade credit credit extended by one business to another
+
+consumer credit credit extended by a business to a consumer
+
+Inventory: Customers want firms to maintain large finished goods inventories because when they go to make a purchase, the item they want will likely be in stock. Similarly, large raw material inventories reduce the chance that the firm will not have access to raw materials when they are needed, which can cause costly interruptions in the manufacturing process. At the same time, large inventories are expensive to finance, can require warehouses that are expensive to build and maintain, must be protected against breakage and theft, and run a greater risk of obsolescence.
+Payables: Accounts payable are trade credits provided to firms by their suppliers. Because suppliers typically grant a grace period before payables must be repaid, and firms do not have to pay interest during this period, trade credit is an attractive source of financing. For this reason, financial managers do not hurry to pay their suppliers when bills arrive. Of course, suppliers recognize that they provide attractive financing to their customers and that trade credit is expensive for them. Consequently, suppliers tend to provide strong incentives (either by providing discounts for paying on time or charging penalties for late payment) for firms to pay on time. As you might expect, firms typically wait until near the end of the grace period to repay trade credit. The financial manager at a firm that is having serious financial problems may have no choice but to delay paying its suppliers. However, besides incurring monetary penalties, a manager who is consistently late in making payments runs the risk that the supplier will no longer sell to his or her firm on credit.
+When the financial manager makes a decision to increase working capital, good things are likely to happen to the firm—sales should increase, relationships with vendors and suppliers should improve, and work or manufacturing stoppages should be less likely. Unfortunately, the extra working capital costs money, and there is no simple algorithm or formula that determines the optimal level of working capital the firm should hold. The choice depends on management’s strategic preferences, its willingness to bear risk, and the firm’s line of business.
+
+Before You Go On
+How do you calculate net working capital, and why is it important?
+What are some of the trade-offs required in the management of working capital accounts?
+14.2 The Operating and Cash Conversion Cycles
+LEARNING OBJECTIVE
+
+Define the operating and cash conversion cycles, explain how they are used, and compute their values for a firm.
+A very important concept in working capital management is known as the cash conversion cycle. This is the length of time from the point at which a company actually pays for raw materials until the point at which it receives cash from the sale of finished goods made from those materials. This is an important concept because the length of the cash conversion cycle is directly related to the amount of money that a firm needs to finance its working capital.
+
+cash conversion cycle the length of time from the point at which a company pays for raw materials until the point at which it receives cash from the sale of finished goods made from those materials
+
+EXHIBIT 14.2 The Cash Conversion Cycle A typical cash conversion cycle begins with cash outflows for raw materials and conversion costs and goes through several stages before these resources are turned back into cash. The cash conversion cycle reflects the average time from the point that cash is used to pay for raw materials until cash is collected on the accounts receivable associated with the product produced with those raw materials. One of the main goals of a financial manager is to optimize the time between the cash outflows and the cash inflows.
+
+
+The sequence of events that occurs from the point in time that a firm actually pays for its raw materials to the point that it receives cash from the sale of finished goods is as follows: (1) the firm uses cash to pay for raw materials and the cost of converting them into finished goods (conversion costs), (2) finished goods are held in finished goods inventory until they are sold, (3) finished goods are sold on credit to the firm’s customers, and finally, (4) customers repay the credit the firm has extended them and the firm receives the cash. The cash is then reinvested in raw materials and conversion costs, and the cycle is repeated. Exhibit 14.2 shows a schematic diagram of the cash conversion cycle.
+
+Financial managers generally want to achieve several goals in managing this cycle:
+
+Delay paying accounts payable as long as possible without suffering any penalties.
+Maintain the minimum level of raw material inventories necessary to support production without causing manufacturing delays.
+Use as little labor and other inputs to the production process as possible while maintaining product quality.
+Maintain the level of finished goods inventory that represents the best trade-off between minimizing the amount of capital invested in finished goods inventory and the desire to avoid lost sales.
+Offer customers terms on trade credit that are sufficiently attractive to support sales and yet minimize the cost of this credit, both the financing cost and the risk of nonpayment.
+Collect cash payments on accounts receivable as quickly as possible to close the loop.
+All of these goals have implications for the firm’s efficiency and liquidity. It is the financial manager’s responsibility to ensure that he or she makes decisions that maximize the value of the firm. Managing the length of the cash conversion cycle is one aspect of managing working capital to maximize the value of the firm.2 Next, we discuss two simple tools to measure working capital efficiency. As you read the discussion, refer to Exhibit 14.3.
+
+EXHIBIT 14.3 Time Line for Operating and Cash Conversion Cycles for Apple Inc. in 2020 The exhibit shows the cash inflows and outflows and other key events in a firm’s operating cycle and cash conversion cycle, along with computed values for Apple. Both of these cycles are used for measuring working capital efficiency.
+
+
+Operating Cycle
+The operating cycle starts with the receipt of raw materials and ends with the collection of cash from customers for the sale of finished goods made from those materials. The operating cycle can be described in terms of two components: days’ sales in inventory and days’ sales outstanding. The formulas for these efficiency ratios were developed in Chapter 4. Apple’s ratios and the average ratios for several large comparison companies are shown in Exhibit 14.4.
+
+operating cycle the average time between receipt of raw materials and receipt of cash for the sale of finished goods made from those materials
+
+Days’ sales in inventory (DSI) shows, on average, how long a firm holds inventory before selling it. Recall from Chapter 4 that it is calculated by dividing 365 days by the firm’s inventory turnover and that inventory turnover equals cost of goods sold (COGS) divided by inventory. Equation 4.4 and the formula for DSI, along with a calculation for Apple in 2020, are as follows:
+
+EXHIBIT 14.4 Selected Financial Ratios for Apple Inc. and Comparison Companies in 2020
+
+When we compare working capital ratios for Apple with average ratios for Dell Technologies, Hewlett Packard, and Alphabet, we see that Apple is outperforming these comparison firms on all metrics. Apple holds less inventory, collects on its outstanding balances more quickly, and is able to defer its cash payments to suppliers longer. These three facts combined ensure that Apple’s operating and cash conversion cycles are significantly shorter than the comparison companies. Note that a negative cash conversion cycle of −60.87 days means that Apple collects cash from its customers before it has to pay its suppliers. Thus, Apple’s suppliers are financing all of Apple’s working capital and then some.
+
+Financial Ratio	Apple	Comparison Firm Average
+Days’ sales in inventory (DSI)	  8.74	25.45
+Days’ sales outstanding (DSO)	21.43	49.68
+Days’ payables outstanding (DPO)	91.05	81.27
+Operating cycle (days)	30.18	75.13
+Cash conversion cycle (days)	−60.87 	−6.14
+As shown in Exhibit 14.4, the comparison firm average for days’ sales in inventory is 25.45 days, while for Apple it is 8.74 days. Inventory management has long been a critical factor in Apple’s success, as discussed in the chapter opener. For the most part, Apple first takes the order from the customer and then routes the order to a contract manufacturer. According to the DSI ratio, it takes Apple a little less than nine days to complete this process, whereas the average comparison firm takes almost four weeks to complete the same task.
+
+Days’ sales outstanding (DSO) indicates how long it takes, on average, for the firm to collect its outstanding accounts receivable. Recall from Chapter 4 that DSO is calculated by dividing 365 days by accounts receivable turnover and that accounts receivable turnover equals net sales divided by accounts receivable. Sometimes this ratio is called the average collection period. An efficient firm with good working capital management should have a low average collection period compared with that of other firms. Equation 4.6, the DSO formula, and the calculation for Apple are as follows:
+
+Again, referring to Exhibit 14.4 we see that the average comparison firm has 49.68 days of sales outstanding, while Apple’s figure is 21.43 days. In 2020 Apple was doing a good job of quickly collecting the cash it was owed by its customers. This ratio helps to explain how Apple is managing its current assets more efficiently than other firms.
+
+We can now calculate the operating cycle by summing the days’ sales in inventory and the days’ sales outstanding.
+
+(14.1)
+Apple’s operating cycle for 2020 is 30.18 days (8.74 days + 21.43 days = 30.18 days), and the comparison firm average is 75.13 days (25.45 days + 49.68 days = 75.13 days). Apple manages to complete its operating cycle in less than one half the time it takes the average comparison firm, which means Apple is managing its working capital more efficiently than the comparison firms.
+
+Cash Conversion Cycle
+The cash conversion cycle is related to the operating cycle, but the cash conversion cycle does not begin until the firm actually pays for its raw materials. In other words, the cash conversion cycle is the length of time between the actual cash outflow for materials and the actual cash inflow from sales. To calculate this cycle, we need all of the information used to calculate the operating cycle plus one additional measure: days’ payables outstanding.
+
+Days’ payables outstanding (DPO) tells us how long, on average, a firm takes to pay its suppliers. Recall that it is calculated by dividing 365 days by accounts payable turnover and that accounts payable turnover equals COGS divided by accounts payable. The DPO formula and the calculation for Apple are:
+
+The comparison firm average DPO is 81.27 days, and the DPO for Apple is 91.05 days. Apple takes an average of almost ten days longer than the comparison firms to make payments to its suppliers.
+
+We can now calculate the cash conversion cycle by summing the days’ sales in inventory and the days’ sales outstanding and subtracting the days’ payables outstanding:
+
+(14.2)
+Apple’s cash conversion cycle is −60.87 days. Another way to calculate the cash conversion cycle is to notice that it is simply the operating cycle minus the days’ payables outstanding, as can be seen in Exhibit 14.3:
+
+(14.3)
+Thus, Apple’s cash conversion cycle for 2020 can be calculated as 30.18 days − 91.05 days = −60.87 days.
+
+A negative cash conversion cycle of −60.87 days means that Apple receives cash from its customers an average of about 61 days before it pays its suppliers. In other words, instead of Apple having to invest in inventories and receivables, its suppliers finance all of these current assets and then some. A direct comparison of the accounts receivable and inventory balances ($16,120 and $4,061, respectively) with the accounts payable balance ($42,296) in Exhibit 14.1 reveals that the financing provided by Apple’s suppliers is more than twice the amount the firm has invested in accounts receivable and inventories.
+
+Apple has been able to achieve a negative cash conversion cycle through careful management of its accounts receivable and payable. In addition, the company outsources much of its manufacturing, which reduces its days’ sales in inventory to just under nine days. We discuss just-in-time inventory systems in more detail later in this chapter.
+
+By now, it should be clear that the comparison firms as a whole have a much longer cash conversion cycle than Apple. The comparison firm average is −6.14 days, and Apple’s is −60.87 days. While Apple receives financing from its negative cash cycle for almost nine weeks, the average comparison firm receives financing for less than one week. Apple has built its reputation and overall firm strategy on being an efficient quality provider and has historically enjoyed great success. But Apple is not very representative of the average firm. A more typical manufacturing firm is shown in Exhibit 14.5 and is the subject of Learning by Doing Application 14.1.
+
+EXHIBIT 14.5 Kernel Mills Financial Statements, Fiscal Year Ended December 31, 2020 ($ millions)
+
+The exhibit shows the balance sheet and income statement for Kernel Mills for the fiscal year ended December 31, 2020, as well as some ratios from the food industry. Use the data to work through and support your analysis in Learning by Doing Application 14.1.
+
+Balance Sheet as of December 31, 2020	Income Statement
+Assets                                                               	Liabilities and equity                                           	 	 
+Cash	  $ 175,000	Accounts payable	$ 550,000	Net sales	$5,200,000
+Short-term investments	    165,000	Notes payable	   400,000	Cost of goods sold	  3,325,000
+Accounts receivable	    690,000	Accrued expenses	     85,000	Operating expenses	   1,500,000
+Inventory	   660,000	Taxes payable	     80,000	Earnings before interest	 
+   Total current assets	$1,690,000	   Total current liabilities	$1,115,000	and taxes (EBIT)	$ 375,000
+Plant and equipment	  2,400,000	Long-term debt	  1,100,000	Investment and other income	      40,000
+Less: Accum. depreciation	   (800,000)	   Total liabilities	$2,215,000	Interest expense	    116,500
+Net plant and equipment	  1,600,000	Common stock	     600,000	Earnings before taxes (EBT)	  $ 298,500
+Investments	    210,000	Retained earnings	    685,000	Taxes	    148,000
+   Total assets	$3,500,000	   Total common equity	$1,285,000	Net income	  $ 150,500
+ 	 	   Total liabilities and	 	 	 
+ 	 	   stockholder’s equity	$3,500,000	Common stock dividend	$ 15,500
+ 	 	 	 	Addition to retained earnings	  $ 135,000
+Selected food industry ratios: Days’ sales in inventory = 71.59, Days’ sales outstanding = 44.77, Days’ payables outstanding = 58.33, Cash conversion cycle = 58.03 days
+LEARNING BY DOING APPLICATION 14.1
+Measuring Kernel Mills’s Working Capital Efficiency
+
+Problem
+
+Kernel Mills is a manufacturing firm in the food industry. The board of directors would like to know how efficiently the firm’s working capital is being managed. They are particularly interested in the cash conversion cycle. Exhibit 14.5 shows the financial statements for Kernel Mills, as well as some data from the food industry for comparison.
+
+
+
+
+
+Before You Go On
+What is the operating cycle, and how is it related to the cash conversion cycle?
+14.3 Working Capital Management Strategies
+LEARNING OBJECTIVE
+
+Discuss the relative advantages and disadvantages of pursuing (1) flexible and (2) restrictive current asset management strategies.
+One of the financial manager’s key decisions with regard to working capital is to determine how much money should be invested in current assets for a given level of sales. To the extent that managers have limited ability to increase days’ payables outstanding without the risk of incurring high costs (losing discounts or having to pay penalties), choosing the level of current assets that the firm holds is essentially the same as choosing the amount of net working capital. Since more net working capital provides a firm with greater financial flexibility, but at a higher cost than a more restrictive (less flexible) strategy, choosing the appropriate amount of net working capital involves making trade-offs.
+
+Flexible Current Asset Management Strategy
+A firm that follows a flexible current asset management strategy might hold large balances of cash, short-term investments, and inventory. It might also offer liberal credit terms to customers, which results in high levels of accounts receivable. A flexible strategy is generally perceived to be a low-risk and low-return course of action. A principal benefit of such a strategy is that large working capital balances improve the firm’s ability to survive unforeseen threats. This reduces the size of the firm’s exposure to fluctuations in business conditions.
+
+flexible current asset management strategy current asset management strategy that involves keeping high balances of current assets on hand
+
+The downsides of such a strategy can include low returns on current assets, potentially high inventory carrying costs, and the cost of financing liberal credit terms. As discussed earlier, returns on cash and short-term investments can be low. Other current assets also usually earn lower returns than long-term assets. For example, inventory sitting on the shelf earns no interest income. Thus, by investing in current assets, management foregoes the higher rate of return it could have earned by investing in long-term assets. This is an opportunity cost. Furthermore, large investments in some types of inventory can require significant storage, tax, and insurance costs.
+
+inventory carrying costs expenses associated with maintaining inventory, including interest forgone on money invested in inventory, storage costs, taxes, and insurance
+
+Although a flexible current asset management strategy is a low-return strategy on average, it can yield large payoffs under certain circumstances. For example, having enough cash to weather a severe credit crunch that puts a firm’s major competitors out of business can yield very large long-run returns. Similarly, having sufficient cash to take advantage of an unforeseen acquisition opportunity can be very valuable.
+
+Restrictive Current Asset Management Strategy
+A firm that follows a restrictive current asset management strategy keeps levels of current assets at a minimum. The firm invests the minimum possible in cash, marketable securities, and inventory and has strict terms of sale intended to limit credit sales and accounts receivable. A restrictive strategy is a high-risk, high-return alternative to a flexible strategy. A restrictive strategy enables the firm to invest a larger fraction of its money in higher-yielding assets. The high risk comes in the form of exposure to shortage costs, which can be either operating or financial costs.
+
+restrictive current asset management strategy current asset management strategy that involves keeping the level of current assets at a minimum
+
+shortage costs costs incurred because of lost production and sales or illiquidity
+
+Operating shortage costs result from lost production and sales. If the firm does not hold enough raw materials in inventory, precious hours may be wasted by a halt in production. If the firm runs out of finished goods, sales may also be lost, and customer satisfaction may be damaged. Having restrictive credit policies, such as allowing no credit sales, will also result in lost sales. Overall, operating shortage costs can be substantial, especially if the product markets are competitive.
+
+Financial shortage costs arise mainly from illiquidity. Firms become illiquid when unforeseen circumstances cause them to run out of cash. If bills come due, the firm can be forced to use expensive external emergency borrowing. Worse yet, if outside funding cannot be secured, the firm may default on a current liability and run the risk of being forced into bankruptcy by creditors.
+
+The Working Capital Trade-Off
+To determine the optimal management strategy for current assets, the financial manager must balance shortage costs against carrying costs. This is the working capital trade-off. If the costs of running short of working capital (shortage costs) dominate the costs of carrying extra working capital (carrying costs), a firm will move toward a more flexible policy. Alternatively, if carrying costs are greater than shortage costs, then the firm will maximize value by adopting a more restrictive strategy. Overall, management will try to find the level of current assets that minimizes the sum of the carrying costs and shortage costs.
+
+Decision Making Example 14.1 illustrates additional applications of the concepts discussed in this section.
+
+DECISION MAKING EXAMPLE 14.1
+Managing Working Capital
+
+Situation
+
+You are the CFO of Cornet Construction Supply Company, a wholesale building supplies retailer in the U.S. Pacific Northwest. Cornet caters to a wide range of customers, from professional building and remodeling contractors to weekend do-it-yourself homeowners. A financial analyst for the firm has reported the following data for the working capital position of Cornet and the average working capital position of competing firms as of the end of fiscal year 2020.
+
+ 	Cornet Construction Supply	Industry Average
+DSI	58 days	75 days
+DSO	30 days	45 days
+DPO	25 days	30 days
+During the last year, Cornet realized sales growth of only 1.5 percent, while the average annual sales growth rate for other firms in the industry was 4.8 percent. Given Cornet’s relatively weak growth rate, you decide to do everything possible to improve the company’s return on assets. As part of this effort, you ask a team of financial analysts for options on how to improve the efficiency with which net working capital is used at Cornet.
+
+Your team recommends the following three actions:
+
+1. Reduce inventory to 50 DSI
+
+2. Reduce receivables to 25 DSO
+
+3. Increase payables to 30 DPO
+
+Which, if any, of these recommendations would you choose, and why?
+
+
+
+Before You Go On
+What are the two general current asset management strategies discussed in this section, and how do they differ?
+What are the types of costs associated with each of these strategies?
+14.4 Accounts Receivable
+LEARNING OBJECTIVE
+
+Explain how accounts receivable are created and managed, and compute the cost of trade credit.
+We will now consider the components of the operating cycle, starting with accounts receivable, which are at the end of the cash conversion cycle (see Exhibit 14.2). Companies frequently make sales to customers on credit by delivering the goods in exchange for the promise of a future payment. The promise is an account receivable from the firm’s point of view. The amount of credit offered to various customers and the terms of the credit are important decisions for the financial manager. Offering credit can help a firm attract customers by differentiating the firm and its products from its competitors, or it might be necessary to offer credit simply to match similar offers by competitors.
+
+Terms of Sale
+Whenever a firm sells a product, the seller spells out the terms and conditions of the sale in a document called the terms of sale. The simplest alternative is cash on delivery (COD)—that is, no credit is offered. Most firms would prefer to get cash from all sales immediately on delivery, but as mentioned before, being competitive often requires offering credit.
+
+When credit is part of the sale, the terms of sale spell out the credit agreement between the buyer and seller. The agreement specifies when the cash payment is due and the amount of any discount if early payment is made. Trade credit, which is short-term financing, is typically made with a discount for early payment rather than an explicit interest charge. For example, suppose a firm offers terms of sale of “3/10, net 40.” This firm will grant a 3 percent discount if the buyer pays the full amount of the purchase in cash within 10 days of the invoice date. Otherwise, the buyer has 40 days to pay the balance in full from the date of delivery.
+
+In this case, the seller is offering to lend the buyer money for an additional 30 days. How expensive is it to the buyer to take advantage of this financing? To calculate the cost, we need to determine the interest rate the buyer is paying. In this case, the buyer pays 97 percent of the purchase price if it pays within 10 days. Otherwise, the buyer pays the full price within 40 days. The increase in the payment (and therefore the interest implicit in the loan) is 3/97 = 0.0309, or 3.09 percent. This is the interest for 30 days (40 days − 10 days = 30 days). To find the annual interest rate, we need to compute the effective annual interest rate (EAR), which was introduced in Section 6.4 of Chapter 6. As you recall, the EAR conversion formula accounts for the number of compounding periods and thereby annualizes the interest rate.
+
+The formula for calculating the EAR for accounts receivable (EARR) is shown in Equation 14.4, together with the calculation for our example. Notice that to annualize the interest rate, we compound the per-period rate by the number of periods in a year, which is 12.1667 (365 days per year/30 days per period = 12.1667 periods per year).
+
+(14.4)
+By not paying on Day 10, but instead waiting until Day 40, the firm is paying an effective annual interest rate of 44.86 percent for the use of the money provided by the seller. The rate seems high, but these terms are not unusual for trade credit. Generally speaking, firms do not want to be in the short-term lending business and would prefer to be paid promptly. The terms of sale reflect this preference. If customers need short-term credit, most sellers would prefer that the customers go to firms that specialize in business lending, such as a commercial bank or commercial finance company. An important point to notice in the above example is that trade credit is a loan from the supplier and, as you can see, it can be a very costly form of credit.
+
+Learning by Doing Application 14.2 presents one more example of an EARR calculation.
+
+LEARNING BY DOING APPLICATION 14.2
+Cost of Trade Credit
+
+Problem
+
+Suppose that a firm sells its goods with terms of 4/10 EOM, net 30. What is the implicit cost of the trade credit?
+
+
+
+
+
+Another common credit term is end-of-month payment (EOM). If a firm makes several deliveries to the same customer over the course of a month, it often makes sense to send a single bill at the end of the month for the full amount. Of course, this can be combined with a discount for quick payment. For example, if the terms are “4/10 EOM, net 30,” the buyer receives a 4 percent discount for paying within 10 days of the end of the month in which the delivery was made. Otherwise, the customer has an additional 20 days in which to make the payment. We can calculate the cost of credit in this situation using Equation 14.4, just as we did in the earlier example.
+
+How do firms determine their terms of sale? One factor is the industry in which the firm operates. For example, purchases of some consumer products, such as cars and consumer durables, involve much larger amounts of money than others. Sales of relatively expensive products can be very sensitive to the availability of credit. The manufacturers of these types of products are therefore usually liberal with their terms of sale and frequently are in the business of offering short- to medium-term financing. Ford Motor Credit Company, Ford Motors’ credit division, exists for exactly this purpose. In contrast, companies selling lower-cost perishable products, such as food companies, might ask for payment in full in less than 10 days.
+
+The terms of sale are also affected by the customer’s creditworthiness. If the firm’s managers are confident that a customer will pay, they are far more likely to extend credit than if they have some doubt about receiving payment. If the customer is a particularly wealthy individual or a large firm or if there is a likelihood of repeat business, then extending credit may be part of the marketing effort to secure the order.
+
+Aging Accounts Receivable
+It would be nice if all customers paid their bills when they came due, but we all know that is not what happens. As a result, firms that offer sales on credit need tools to identify and monitor slow payers so that they can be prompted to pay. In credit circles, it is well documented that creditors that identify slow payers early and establish contact with them are more likely to be paid in full than those who do not monitor their receivables carefully. A tool that credit managers commonly use for this purpose is an aging schedule, which organizes the firm’s accounts receivable by their age. Its purpose is to identify and track delinquent accounts and to see that they are paid. Aging schedules are also an important financial tool for analyzing the quality of a company’s receivables. The aging schedule reveals patterns of delinquency and shows where collection efforts should be concentrated. Exhibit 14.6 shows aging schedules for three different firms.
+
+EXHIBIT 14.6 Aging Schedule of Accounts Receivable
+
+An aging schedule shows the breakdown of a firm’s accounts receivable by their date of sale; it tells managers how long the accounts have gone unpaid. This exhibit shows the aging schedules for three different firms: Minnow, which is extremely effective in collecting on its accounts receivable, and Rooney and Hastings, which are not performing as well.
+
+ 	      Minnow Corporation      	      Rooney, Inc.      	      Hastings Corporation      
+Age of Account (days)	Value of Account	% of Total Value	Value of Account	% of Total Value	Value of Account	% of Total Value
+   0–10	$436,043	60%	$363,370	50%	$319,765	44%
+11–30	  290,696	40	  218,022	30	  181,685	25
+31–45	              0	  0	  109,011	15	  116,278	16
+46–60	              0	  0	    36,336	  5	    72,674	10
+     Over 60   	              0	       0    	              0	       0    	     36,337	      5    
+     Total         	$726,739	  100%	$726,739	  100%	 $726,739	  100%
+The first schedule belongs to the Minnow Corporation, which is extremely effective in collecting its accounts receivable. Sixty percent of Minnow’s total accounts receivable are no more than 10 days old, and the remaining 40 percent are between 11 and 30 days old. Minnow does not have any open accounts receivable older than 30 days. Minnow’s effective DSO can be calculated as follows:
+
+The effective DSO is simply a weighted-average measure of DSO where the weights equal the percentage of total accounts receivable outstanding in each account category.
+
+Rooney, Inc., and Hastings Corporation are identical to Minnow in that they sell the same amount of goods for the same price and have the same terms of sale. However, neither company is able to collect all of its accounts receivable on time, which makes their aging schedules different from Minnow’s.
+
+Rooney collects only 50 percent of its receivables in 10 days or less and 30 percent in 30 days or less. Of the remaining 20 percent, it collects 15 percent in 45 days or less and 5 percent in 60 days or less. Rooney’s effective DSO is 23.75 days [(10 days × 0.50) + (30 days × 0.30) + (45 days × 0.15) + (60 days × 0.05) = 23.75 days], compared with Minnow’s 18 days.
+
+Things look even worse for Hastings. It collects 44 percent of its receivables in 10 days or less, 25 percent in 30 days or less, 16 percent in 45 days or less, and 10 percent in 60 days or less. As for the remaining 5 percent, they may never be collected. All we know is that these accounts receivable are over 60 days old. The worst-case scenario would be for Hastings to write these off as bad debt. Let’s assume that Hastings can collect the remaining 5 percent in a year. In that case, Hastings’s effective DSO becomes 43.35 days [(10 days × 0.44) + (30 days × 0.25) + (45 days × 0.16) + (60 days × 0.10) + (365 days × 0.05) = 43.35 days]. It takes Hastings more than twice as many days as Minnow to collect its accounts receivable.
+
+Financial managers keep close track of both the aging schedule and the effective DSO. If either or both show consistent deterioration, it may be time to reconsider the firm’s credit policy or the characteristics of its customers. Note that in some industries, sales vary by season. Managers must be aware of seasonal patterns and make the necessary adjustments before drawing conclusions about a firm’s accounts receivable.
+
+Before You Go On
+What does “4/15, net 30” mean?
+What is an aging schedule, and what is its purpose?
+
+Some steps a firm can take to monitor and collect on its accounts receivable are discussed at www.moneyinstructor.com/art/accountsreceivable.asp
+
+14.5 Inventory Management
+LEARNING OBJECTIVE
+
+Explain the trade-off between carrying costs and reorder costs, and compute the economic order quantity for a firm’s inventory orders.
+We have discussed the management of accounts receivable, which represents one end of the operating cycle. We now turn to a discussion of inventory management, which starts with the purchase of raw material and extends through the sale of finished goods inventory. Inventory management is largely a function of operations management, not financial management. For that reason, we touch briefly on a few major points related to operations.
+
+Economic Order Quantity
+Manufacturing companies generally carry three types of inventory: raw materials, work in process, and finished goods. We have already discussed some of the trade-offs a firm must consider in deciding how much inventory to hold. On the one hand, as explained earlier, a firm that carries too much inventory may incur high inventory carrying costs. On the other hand, a firm that does not carry enough inventory may incur high shortage costs.
+
+Closely related to the decision of how much inventory to hold is the decision of how much inventory to order. The more of a particular type of inventory a firm orders, the larger the firm’s inventory will be immediately after the order is received. A larger inventory means that the time before inventory must be ordered again will be greater, and so fewer orders will be required over the course of a year.
+
+The economic order quantity (EOQ) model helps managers choose the appropriate quantity of a particular type of inventory to order. This model mathematically determines the order quantity that minimizes the total costs incurred to order and hold inventory. This model accounts for both inventory reorder costs and inventory carrying costs. Reorder costs are the fixed costs associated with ordering inventory. The trick in determining the optimal amount of inventory to order is to find the trade-off between these two costs. This trade-off exists because as a firm increases the size of its orders, the number of orders declines, and thus total reorder costs decline. However, larger order sizes increase the average inventory size, and therefore, the carrying cost of inventory increases. The optimal order size strikes the balance between these two costs.
+
+economic order quantity (EOQ) order quantity that minimizes the total costs incurred to order and hold inventory
+
+The EOQ model makes the following assumptions: (1) that a firm’s sales are made at a constant rate over a period, (2) that the cost of reordering inventory is a fixed cost, regardless of the number of units ordered, and (3) that inventory has carrying costs, which includes items such as the cost of space, taxes, insurance, the cost of capital invested in the inventory, and losses due to spoilage and theft. Under these assumptions, the formula for the economic order quantity is:
+
+(14.5)
+Let’s look at an example. Suppose that Best Buy sells Hewlett-Packard color printers at the rate of 2,200 units per year. The total cost of placing an order is $750, and it costs $120 per year to carry a printer in inventory. Using the EOQ formula, what is the optimal order size? Substituting the values into Equation 14.5 yields this result:
+
+Given Best Buy’s cost structure, it should order 166 printers per order. This means that Best Buy should place about 13 orders per year (2,200 printers per year/166 printers per order = 13.25 orders per year). The EOQ formula also assumes that the firm uses up its entire inventory before the next inventory order is placed. Thus, over time, the average inventory is about 83 printers [(166 printers − 0 printers)/2 = 83 printers], with the inventory varying from a minimum of zero to a maximum of 166 printers.
+
+The assumption of reordering inventory when it declines to zero is not very realistic. Most firms maintain a buffer or safety stock. The size of the safety stock depends on factors such as the carrying cost of inventory, seasonal sales variation, the reliability of suppliers, and the accuracy of the firm’s sales projections. In our example, suppose that Best Buy’s financial analysts determine that because of future demand uncertainty, the buffer stock should be 15 printers. In that case, the average inventory would be 98 printers (83 printers + 15 printers = 98 printers).
+
+Learning by Doing Application 14.3 illustrates another EOQ calculation.
+
+LEARNING BY DOING APPLICATION 14.3
+Economic Order Quantity
+
+Problem
+
+Gator Marine and Supply, one of the largest boat dealers in the South, sells about 1,500 pontoon boats a year. The cost of placing an order with its supplier is $500, the inventory carrying costs are $100 for each boat, and the safety stock is 20 boats. As you would expect, boat sales are very seasonal; thus, all of Gator’s sales are made during a four-month period (summer and early fall). What should the average inventory be in boating season? How many orders should the firm place this year?
+
+
+
+
+
+Just-in-Time Inventory Management
+An important development in the management of raw material inventories is just-in-time inventory management, pioneered by Japanese firms such as Toyota Motor Company. Today, much of the auto industry and many other manufacturing companies have moved to just-in-time or nearly just-in-time supply delivery. In this system, based on the manufacturer’s day-by-day or even hour-by-hour needs, suppliers deliver raw materials just in time for them to be used on the production line. A firm using a just-in-time system has essentially no raw material inventory costs and no risk of obsolescence or loss to theft. On the downside, the firm is heavily dependent on its suppliers. If a supplier fails to make the needed deliveries, then production shuts down. When such systems work, they can reduce working capital requirements dramatically.
+
+Before You Go On
+What is the economic order quantity model?
+Why can investments in inventory be costly?
+
+For a more detailed discussion of the advantages and disadvantages of using the EOQ model, go to www.dearsystems.com/economic-order-quantity/
+
+14.6 Cash Management and Budgeting
+LEARNING OBJECTIVE
+
+Define cash collection time, discuss how a firm can minimize this time, and compute the economic costs and benefits of a lockbox.
+Next, we turn to the cash component of working capital. While most firms hold some cash, these balances earn little or no interest in a commercial bank account. Thus, many firms also invest their cash in short-term investments consisting of very liquid stocks and bonds that are expected to be converted into cash within one year. Corporate holdings of cash and short-term investments can be quite large. For example, at the end of its fiscal year 2020, Cisco reported holdings of over $30 billion. There are a variety of reasons why firms hold cash and short-term investments. We discuss these reasons next and then cover the issue of cash collection.
+
+Reasons for Holding Cash
+There are three main reasons for holding cash. The first is to facilitate transactions. Operational activities usually require cash. Cash collections from customers generate cash inflows, whereas payments for raw materials and payments to employees and to the government generate cash outflows. Because these cash inflows and outflows often do not occur simultaneously, firms hold positive cash balances to facilitate transactions. If a firm runs out of cash, it might have to sell some of its other investments or borrow, either of which will result in the firm incurring transaction costs.
+
+The second reason for holding cash is to ensure that the firm has sufficient cash to make it through unexpected crises or to take advantage of unexpected investment opportunties. In other words, firms might hold larger cash balances for precautionary or strategic reasons.
+
+The third reason for holding cash is that banks often require firms to hold minimum cash balances as partial compensation for the loans and other services the banks provide. These are known as compensating balances. The bank is, in part, compensated for the loans or services it provides by getting the use of the deposits interest free.
+
+compensating balances bank balances that firms must maintain to at least partially compensate banks for loans or services rendered
+
+In deciding how much cash to keep on hand, managers concentrate on the transaction and precautionary motives. Once an appropriate amount of cash is determined, the manager checks to see if the amount also satisfies any compensating balance requirements set by the bank. If it does, then all is well. If not, then the firm must hold the minimum compensating balance. The compensating balance thus forms a lower boundary on the amount of cash a firm will hold.
+
+Of course, firms may hold more cash than required by the transaction and precautionary motives. The most common explanation for why firms hold excess cash is the agency conflict we discussed in Chapter 1. Cash holdings can be used by managers to pursue their own self-interest in conflict with their stockholders. For example, managers can use excess cash to make unwise acquisitions or to invest in their own pet projects. When the interests of managers and stockholders are poorly aligned, managers have an incentive to hoard discretionary cash balances.
+
+Cash Collection
+The way in which a firm collects payments affects its cash needs. Collection time, or float, is the time between when a customer makes a payment and when the cash becomes available to the firm. Collection time can be broken down into three components. First is delivery or mailing time. When a customer mails a payment, it may take several days before that payment arrives at the firm. Second is processing delay. Once the payment is received, it must be opened, examined, accounted for, and deposited at the firm’s bank. Finally, there is a delay between the time of the deposit and the time the cash is available for withdrawal. For example, if the customer writes a check on an out-of-state (or foreign) bank, the delay may be several days while the availability of the funds is confirmed. While the use of paper checks by businesses and individuals is declining rapidly, the Federal Reserve reported that 14.5 billion checks were used in the United States during 2018, the most recent year for which the data are available.
+
+collection time (float) the time between when a customer makes a payment and when the cash becomes available to the firm
+
+Different forms of payment have different cash collection cycles. Cash payments made at the point of sale are the simplest, with a cash collection time of zero. If a firm takes checks or credit cards at the point of sale, then mailing time is eliminated, but processing and availability delays will still exist. Anything the firm can do to reduce the total collection time will reduce its total cash requirements, so firms spend time evaluating their cash collection procedures. A firm can reduce its total cash collection time in several ways, but as always, the firm’s ability to implement them will vary according to its industry and its customers’ expectations. A few restaurants manage to accept only cash, for example, but most find that such a policy hurts their sales.
+
+One way a firm can reduce its collection time is through the use of lockboxes or concentration accounts. A lockbox system allows geographically dispersed customers to send their payments to a post office box close to them. For example, a New York customer would send payments to an East Coast post office box and a California customer to a West Coast post office box. The firm’s bank then processes the payments. A concentration account system replaces the post office box with a local branch of the company. The local branch receives the mailings, processes the payments, and makes the deposits. With either system, mailing time is reduced because the mailing has less distance to travel and availability delay is often reduced because the checks are more frequently drawn on local banks.
+
+lockbox a system that allows geographically dispersed customers to send their payments to a post office box near them
+
+Another popular means of reducing cash collection time is through the use of electronic funds transfers. Electronic payments reduce cash collection time in every phase. First, mailing time is eliminated. Second, processing time is reduced or eliminated, since no data entry is necessary. Finally, there is little or no delay in funds availability. From the firm’s point of view, electronic funds transfers offer a perfect solution. For that reason, many firms encourage (and sometimes require) their customers to pay in this way.
+
+How much is it worth to reduce cash collection time? If a firm that has daily sales of $1 million can reduce its total collection time by even one day, then at 5 percent interest per year, the savings amount to about $50,000 per year. This is not a huge amount to a firm with $365 million in annual sales, but it is certainly worth consideration.
+
+Learning by Doing Application 14.4 illustrates another calculation of the savings from using a lockbox.
+
+LEARNING BY DOING APPLICATION 14.4
+When Is a Lockbox Worth Keeping?
+
+Problem
+
+Simon Electronics is evaluating whether a lockbox it is currently using is worth keeping. Management acknowledges that the lockbox reduces the mail float by 1.5 days and processing time by half a day. The remittances average $100,000 a day for Simon Electronics, with the average check being $1,000. The bank charges $0.30 per processed check. Assume that there are 270 business days in a year and that it costs Simon 5 percent to finance accounts receivable. Should Simon Electronics keep the lockbox?
+
+
+
+
+
+Before You Go On
+What is float?
+Explain how lockboxes are used.
+
+To learn more about lockboxes, visit www.paymentsjournal.com/how-to-support-ar-with-electronic-payments/
+
+14.7 Financing Working Capital
+LEARNING OBJECTIVE
+
+Describe three current asset financing strategies, and discuss the main sources of short-term financing.
+So far, we have been discussing the investment side of working capital management. Like other assets, working capital must be funded in some way. Financial managers can finance working capital with short-term debt, long-term debt, equity, or a mixture of all three. We next explore the main strategies used by financial managers to finance working capital, along with their benefits and costs.
+
+Strategies for Financing Working Capital
+In order to fully understand the strategies that might be used to finance working capital, it is important to recognize that some working capital needs are short term in nature and that others are long term, or permanent. As suggested earlier, the amount of working capital at a firm tends to fluctuate over time as its sales rise and fall with the business season. For example, a toy company might build up finished goods inventories in the spring and summer as it prepares to ship its products to retailers in the early fall for the holiday season. Working capital for the company will remain high through the fall as finished goods inventories are sold and converted into accounts receivable but will then decline in January as receivables are collected—at which point the seasonal pattern begins again. These fluctuations reflect seasonal working capital needs.
+
+Even during the slowest part of the year, the typical firm will hold some inventory, have some outstanding accounts receivable, and have some cash and prepaid expenses. This minimum level of working capital can be viewed as permanent working capital in the sense that it reflects a level of working capital that will always be on the firm’s books.
+
+permanent working capital the minimum level of working capital that a firm will always have on its books
+
+Exhibit 14.7 shows three basic strategies that a firm can follow to finance its working capital and fixed assets. The wavy line in each figure indicates the total financing needed for (1) seasonal working capital needs and (2) permanent working capital and fixed assets. The wavy line is upward sloping because we are assuming that the business represented in the figures is a going concern that is growing over time. As businesses grow, they need more working capital as well as more long-term productive assets. We next discuss each of the three strategies illustrated in the exhibit.
+
+The maturity matching strategy is shown in Figure A in Exhibit 14.7. Here, all seasonal working capital needs are funded with short-term borrowing. As the level of sales varies seasonally, short-term borrowing fluctuates with the level of seasonal working capital. Furthermore, all permanent working capital and fixed assets are funded with long-term financing. The principle underlying this strategy is very intuitive: the maturity of a liability should match the maturity of the asset that it funds. The “matching of maturities” is one of the most basic techniques used by financial managers to reduce risk when financing assets.
+
+maturity matching strategy financing strategy that matches the maturities of liabilities and assets
+
+EXHIBIT 14.7 Working Capital Financing Strategies Three alternative strategies for financing working capital and fixed assets are (1) a maturity matching strategy, which matches the maturities of assets and the sources of funding; (2) a long-term funding strategy, which relies on long-term debt to finance both working capital and fixed assets; and (3) a short-term funding strategy, which uses short-term debt to finance all seasonal working capital needs and a portion of permanent working capital and fixed assets.
+
+
+The long-term funding strategy is shown in Figure B in the exhibit. This strategy relies on long-term debt and equity to finance fixed assets, permanent working capital, and seasonal working capital. As shown, when the need for working capital is at its peak, it is funded entirely by long-term funds. As the need for working capital diminishes over the seasonal cycle and cash becomes available, the excess cash is invested in short-term money market instruments to earn interest until the funds are needed again.
+
+long-term funding strategy financing strategy that relies on long-term debt and equity to finance both fixed assets and working capital
+
+Figure C shows a short-term funding strategy, whereby all seasonal working capital and a portion of the permanent working capital and fixed assets are funded with short-term debt. The benefit of using this strategy is that it can take advantage of an upward-sloping yield curve and lower a firm’s overall cost of funding. Recall from Chapter 8 that yield curves are typically upward sloping, which means that short-term borrowing costs are lower than long-term rates. The downside to this strategy is that a portion of a firm’s long-term assets must be periodically refinanced over their working lives, which can pose a significant refinancing risk (the firm might not be able to obtain new financing when it is needed). Also, as discussed in Chapter 8, the yield curve can become inverted, making short-term funds more expensive than long-term funds.
+
+short-term funding strategy financing strategy that relies on short-term debt to finance all seasonal working capital and a portion of permanent working capital and fixed assets
+
+Financing Working Capital in Practice
+Each working capital funding strategy has its costs and benefits. A financial manager will typically use some variation of one of the strategies discussed here to achieve his or her risk and return objectives.
+
+Matching Maturities
+
+Many financial managers try to match the maturities of assets and liabilities when funding the firm. That is, short-term assets are funded with short-term financing, and long-term assets are funded with long-term financing. As suggested in the discussion of the three financing strategies, managers have very sound reasons for matching assets and liabilities.
+
+Suppose a firm buys a manufacturing plant with an estimated economic life of 15 years. If short-term rates are lower than long-term rates, short-term financing can look like a good deal. However, if the firm finances the project with short-term funds and interest rates increase substantially, the firm could find its borrowing cost skyrocketing when it refinances short-term debt at the new market interest rate. If the firm cannot pay the rising interest costs, it could be forced into bankruptcy. Even without bankruptcy, the project NPV could become negative. Managers therefore like to finance capital assets and other long-term assets with long-term debt or equity to lock in the cost of funds for the life of the project.
+
+When they finance seasonal working capital requirements for inventory and receivables, most financial managers also prefer to match maturities of assets and liabilities by financing these investments with short-term debt. As a firm’s sales rise and fall seasonally, a financial manager can expand or contract working capital by borrowing short term when more assets are needed and, as cash becomes available, using it to pay off the short-term obligations as they mature.
+
+Permanent Working Capital
+
+Many financial managers prefer to fund permanent working capital with long-term funds, as shown in Figure A in Exhibit 14.7. They prefer to do this in order to limit the risks associated with a short-term financing strategy. To the extent that permanent working capital is financed with long-term funds, the ability of the firm to finance this minimum level of working capital is not subject to short-term credit market conditions.
+
+As illustrated in Figure C of Exhibit 14.7, other managers use short-term debt to finance at least some permanent working capital requirements. These managers subject their firms to more risk in the hope that they will realize higher returns.
+
+Sources of Short-Term Financing
+Now that we have discussed working capital financing strategies, let’s turn our attention to the most important types of short-term financing instruments used in practice: accounts payable, bank loans, and commercial paper.
+
+Accounts Payable (Trade Credit)
+
+Accounts payable (trade credit) deserve special attention because they comprise a large portion of the current liabilities of many businesses. For example, accounts payable constitute about 35 percent of total current liabilities at publicly traded manufacturing firms. Accounts payable arise, of course, when managers do not pay for purchases with cash on delivery, but instead carry the amount owed as an account payable. If a firm orders $1,000 of a certain raw material daily and the supplier extends a 30-day credit policy, the firm will be receiving $30,000 of financing from this supplier in the form of trade credit.
+
+We already discussed the cost of extending credit and offering discounts from the seller’s point of view. We also discussed from a buyer’s point of view that, if a discount is offered, the buyer needs to figure out whether it makes financial sense to pay early and take advantage of the discount or to wait and pay in full when the account is due. Taking advantage of a discount reduces cost of goods sold, but it also increases the amount of financing that must be raised from other sources.
+
+Short-Term Bank Loans
+
+Short-term bank loans are also important financing tools. They account for about 20 percent of total current liabilities for publicly traded manufacturing firms. When securing a loan, the firm and the bank negotiate the amount, the maturity, and the interest rate, as well as any binding covenants that might be included. After an agreement is reached, both parties sign the debt contract, which is sometimes referred to as a promissory note.
+
+The firm may also have additional borrowing capacity with a bank through a line of credit. Lines of credits are advantageous because they provide easy access to additional financing without requiring a commitment to borrow unnecessary amounts. Lines of credit can be informal or formal.
+
+An informal line of credit is a verbal agreement between the firm and the bank, allowing the firm to borrow up to an agreed-upon limit. For example, an informal credit line of $1 million for three years allows the firm to borrow up to $1 million within the three-year period. If it borrows $600,000 the first year, it will still have a limit of $400,000 for the remaining two years. The interest rate on an informal credit line depends on the borrower’s credit standing. In exchange for providing the line of credit, a bank may require that the firm hold a compensating balance.
+
+informal line of credit a verbal agreement between a bank and a firm under which the firm can borrow an amount of money up to an agreed-on limit
+
+We mentioned compensating balances earlier as a possible reason for firms to hold cash. In exchange for providing a line of credit (or other loan or service), a bank may require a firm to maintain a compensating balance. When required for a loan, a compensating balance represents an implicit cost that must be included in an analysis for the cost of the loan. If a bank requires a compensating balance as a condition for making a loan, the firm must keep a predetermined percentage of the loan amount in a money market account, which can pay negligible interest. If the rate of return is low, the firm is subject to opportunity costs, which make the effective borrowing rate higher than the percentage stated in the promissory note. For example, suppose Virginia City Bank requires borrowers to hold a 10 percent compensating balance in an account that pays no interest. If the Miller Corporation borrows $120,000 from Virginia City at a 9 percent stated rate, it will have to maintain a compensating balance of 0.1 × $120,000 = $12,000. Because Miller cannot use this money, the effective amount borrowed is equal to only $120,000 − $12,000 = $108,000. However, since Miller still must pay interest on the entire loan amount, the firm’s interest expense is 0.09 × $120,000 = $10,800 and the effective rate on the loan is $10,800/$108,000 = 0.1, or 10 percent, rather than 9 percent.
+
+A formal line of credit is also known as revolving credit. Under this type of agreement, the bank has a contractual obligation to lend funds to the firm up to a preset limit. In exchange, the firm pays a yearly fee, in addition to the interest expense on the amount borrowed. The yearly fee is commonly a percentage of the unused portion of the entire credit line.
+
+formal line of credit a contractual agreement between a bank and a firm under which the bank has a legal obligation to lend funds to the firm up to a preset limit; also known as revolving credit
+
+We can illustrate the mechanics of a formal credit line with an example. Higgins Ltd. has a formal credit line of $20 million for five years with First Safety Bank. The interest rate on the loan is 6 percent. Under the agreement, Higgins has to pay 75 basis points (0.75 percent) on the unused amount as the yearly fee. If Higgins does not borrow at all, it will still have to pay First Safety 0.0075 × $20,000,000 = $150,000 for each year of the agreement. Suppose Higgins borrows $4 million the first day of the agreement. Then the fee drops to 0.0075 × ($20,000,000 − $4,000,000) = $120,000. Of course, Higgins will also have to pay an annual interest expense of 0.06 × $4,000,000 = $240,000. The effective interest rate on the loan for the first year is ($240,000 + $120,000)/$4,000,000 = 0.09, or 9 percent.
+
+Another important loan characteristic is whether the loan is secured or unsecured. If the firm backs the loan with an asset, called collateral, the loan is secured; otherwise, the loan is unsecured. Firms often use current assets such as inventory or accounts receivable as collateral when borrowing short term. These types of working capital tend to be highly liquid and therefore are attractive as collateral to lenders. Secured loans allow the borrower to borrow at a lower interest rate, all else being equal. The reason is, of course, that if the borrower defaults, the lender can liquidate the collateral and use the cash generated from the sale to pay off at least part of the loan. The more valuable and liquid the asset pledged as security, the lower the interest rate on the loan.
+
+Commercial Paper
+
+Commercial paper is short-term debt in the form of promissory notes issued by large, financially secure firms with high credit ratings. The precise number of firms issuing these notes varies with the state of the economy. When market conditions and the economy are weak, firms of lesser credit quality are unable to borrow in the commercial paper market.
+
+commercial paper short-term debt in the form of promissory notes issued by large, financially secure firms with high credit ratings
+
+Most large companies sell commercial paper on a regular basis. Some large firms, such as JPMorgan Chase, transact in the market regularly—they issue their own commercial paper as a source of funds or buy the commercial paper of other firms for their short-term investment portfolios. A firm’s demand for commercial paper financing depends on the commercial paper interest rate relative to other borrowing rates and the firm’s need for short-term funds at the time.
+
+In dollars, the commercial paper market is as large as, if not larger than, the short-term loan market. In March of 2020 the U.S. commercial paper market was approximately $1.1 trillion. The buyers of commercial paper are businesses such as banks, insurance companies, mutual funds, and corporations. The maturity of commercial paper ranges from 1 day to 270 days, which is the maximum legal maturity. Most commercial paper has a maturity of less than 60 days. Commercial paper does not have an active secondary market, as nearly all investors hold commercial paper to maturity.
+
+Commercial paper is not secured, which means that the lender does not have a claim on any specific assets of the issuer in the event of default. However, some commercial paper is backed by a credit line from a commercial bank. If the company does not have the money to pay off the paper at maturity, the bank will pay it. Therefore, the default rate on commercial paper is very low, usually resulting in an interest rate that is lower than the rate a bank would charge on a direct loan.
+
+Accounts Receivable Financing
+
+For medium-size and small businesses, accounts receivable financing is an important source of funds. Accounts receivable can be financed in two ways. First, a company can secure a bank loan by pledging (assigning) the firm’s accounts receivable as security. Then, if the firm fails to pay the bank loan, the bank can collect the cash shortfall from the receivables as they come due. If for some reason the assigned receivables fail to yield enough cash to pay off the bank loan, the firm is still legally liable to pay the remaining bank loan. During the pledging process, the company retains ownership of the accounts receivable.
+
+Second, a company can sell the receivables to a factor at a discount. A factor is an individual or a financial institution, such as a bank or a business finance company, that buys accounts receivable without recourse. “Without recourse” means that once the receivables are sold, the factor bears all of the risk of collecting the money due from the receivables. The firm that sells the receivables has no further legal obligation to the factor. The advantage of selling receivables to a factor is that the firm gets money from the receivables immediately rather than waiting for them to be paid as they come due. Factoring is just a specialized type of financing. The “discount” is the factor’s compensation (in the trade, it is called a “haircut”), which typically ranges from 2 to 5 percent of the face value of the receivable sold.
+
+factor an individual or a financial institution, such as a bank or a business finance company, that buys accounts receivable without recourse
+
+In computing the cost of financing from a factor, it is helpful to analyze the transaction on a per-dollar basis. For example, suppose that a firm sells its accounts receivable to a factor for a 2 percent discount and that the average collection period is one month. This means that for every dollar of receivables sold to the factor today, the firm receives 98 cents today; one month later, the factor collects the one-dollar receivable. The cost to the firm of receiving the dollar one month earlier is 2 cents ($1 − $0.98 = $0.02). The monthly cost in percentage terms is $2/$98 = 0.0204, or 2.04 percent. This translates to a simple annual rate of 24.48 percent (12 months per year × 2.04 percent per month = 24.48 percent) and, from Equation 6.7, an effective annual rate (EAR) of:
+
+This is the loan-equivalent cost of obtaining financing from the factor.
+
+Learning by Doing Application 14.5 illustrates another EAR calculation.
+
+LEARNING BY DOING APPLICATION 14.5
+Effective Annual Interest Rate for Financing from a Factor
+
+Problem
+
+Kirby Manufacturing sells $100,000 of its accounts receivable to a factor at a 5 percent discount. The firm’s average collection period is one month. What is the simple annual cost of the financing provided by the factor, and what is the effective annual loan-equivalent cost?
+
+
+
+
+
+Before You Go On
+List and briefly describe the three main strategies a firm may use to finance its working capital and fixed assets.
+What are the advantages and disadvantages of short-term financing?
+Give some examples of sources of short-term financing.
+
+The commercial paper market is monitored by the U.S. Federal Reserve Bank. For a description of this market and updated data, go to: www.federalreserve.gov/releases/CP/default.htm
+
+Summary of Learning Objectives
+1 Define net working capital, discuss the importance of working capital management, and compute a firm’s net working capital.
+
+Net working capital is the difference between total current assets and total current liabilities. Working capital management refers to the decisions made regarding the use of current assets and how they are financed. The goal of working capital management is to maintain the optimal mix of current assets and liabilities that enables the firm to continue its day-to-day operations and pay its short-term debt obligations. The computation of net working capital is illustrated in Section 14.1.
+
+2 Define the operating and cash conversion cycles, explain how are they used, and compute their values for a firm.
+
+The operating cycle is the period starting with the receipt of raw materials and ending with the receipt of cash for finished goods made from those raw materials. It can be divided into two components: (1) days’ sales in inventory, which shows how long a firm keeps its inventory before selling it, and (2) days’ sales outstanding, which indicates how long it takes on average for the firm to collect its outstanding accounts receivable. Related to the operating cycle is the cash conversion cycle, which is the length of time between the cash outflow for materials and the cash inflow from sales. An additional measure, days’ payables outstanding, is required to calculate the cash conversion cycle. Financial managers compute these cycles to help them monitor the efficiency with which working capital is being managed. The computations are illustrated in Section 14.2.
+
+3 Discuss the relative advantages and disadvantages of pursuing (1) flexible and (2) restrictive current asset management strategies.
+
+A flexible strategy involves maintaining relatively high levels of cash, short-term investments, and inventory, while a restrictive strategy keeps the levels of current assets relatively low. In general, a flexible strategy is thought to be low risk and low return; its downsides include low returns on current assets, potentially high inventory carrying costs, and the cost of the money necessary to provide liberal credit terms. The restrictive strategy involves higher risk and return, with higher potential financial and operating shortage costs as its major drawbacks.
+
+4 Explain how accounts receivable are created and managed, and compute the cost of trade credit.
+
+Accounts receivable are promises of future payment from customers that buy goods or services on credit. The details of trade credit agreements are defined in the terms of sale, which include the due date, the interest rate charged, and any discounts for early payment. The terms of sale are affected by industry practice and the creditworthiness of the customer. To manage accounts receivable, a financial manager keeps close track of both days’ sales outstanding and the aging schedule and takes necessary actions to ensure that neither goes outside the range that is acceptable to senior management.
+
+5 Explain the trade-off between carrying costs and reorder costs, and compute the economic order quantity for a firm’s inventory orders.
+
+The trade-off between carrying costs and reorder costs exists because as the size of a firm’s orders for materials increases, the number of orders and total reorder costs decline. At the same time, larger order sizes increase the average inventory size and, therefore, average inventory carrying costs. The economic order quantity (EOQ) calculation enables us to mathematically find the combination of the two costs that minimizes the firm’s total inventory cost. Learning by Doing Application 14.3 offers practice in computing a firm’s EOQ.
+
+6 Define cash collection time, discuss how a firm can minimize this time, and compute the economic costs and benefits of a lockbox.
+
+The cash collection time is the time between when a customer makes a payment and when the cash becomes available to the firm. It has three components: (1) delivery or mailing time, (2) processing delay, and (3) delay between deposit time and availability. A firm can minimize this time through lockboxes, concentration accounts, electronic funds transfers, and other methods. Learning by Doing Application 14.4 illustrates the computations necessary to decide whether a lockbox is worth keeping.
+
+7 Describe three current asset financing strategies, and discuss the main sources of short-term financing.
+
+Three current asset financing strategies are (1) the maturity matching strategy, which matches the maturities of assets with the maturities of liabilities; (2) the long-term funding strategy, which finances both seasonal working capital needs and long-term assets with long-term funds; and (3) the short-term funding strategy, which uses short-term debt for both seasonal working capital needs and some permanent working capital and long-term assets. Sources of short-term financing include accounts payable, short-term bank loans, lines of credit, and commercial paper.
+
+Summary of Key Equations
+Equation	Description	Formula
+14.1	Operating cycle	Operating cycle = DSI + DSO
+14.2	Cash conversion cycle	Cash conversion cycle = DSI + DSO − DPO
+14.3	Cash conversion cycle	Cash conversion cycle = Operating cycle − DPO
+14.4	Effective annual rate (EAR) for accounts receivable	
+14.5	Economic order quantity (EOQ)	
+Self-Study Problems
+14.1 You are provided the following working capital information for the Blue Ridge Company for the most recent fiscal year:
+
+Account	Beginning Balance	Ending Balance
+Inventory	   $2,600	   $2,890
+Accounts receivable	   $3,222	   $2,800
+Accounts payable	   $2,500	   $2,670
+    		
+Net sales	$24,589	 
+Cost of goods sold	$19,630	 
+What are the firm’s operating and cash conversion cycles?
+
+
+
+14.2 Merrifield Cosmetics management calculates that the firm’s operating cycle for last year was 76 days. The company had $230,000 in its accounts receivable account and sales of $1.92 million. Approximately how many days does it take from the time raw materials are received at Merrifield until the finished products they are used to produce are sold?
+
+ 
+
+14.3 Below is a partial aging of accounts receivable for Bitar Roofing Services. Fill in the rest of the information and determine Bitar’s days’ sales outstanding. How does it compare to the industry average of 40 days?
+
+Age of Account (days)	Value of Account	% of Total Value
+  0–10	$211,000	 
+11–30	 120,360	 
+31–45	 103,220	 
+46–60	    72,800	 
+Over 60	    23,740	 
+Total	$531,120	 
+
+
+14.4 By obtaining a lockbox, Nizam’s Manufacturing was able to reduce its total cash collection time by two days. The firm has annual sales of $570,000 and can earn 4.75 percent annual interest. Assuming that the lockbox costs $50 per year, calculate the savings that can be attributed to the lockbox.
+
+
+
+14.5 Rockville Corporation is going to borrow $250,000 from its bank at an APR of 8.5 percent. The bank requires its customers to maintain a 10 percent compensating balance. What is the effective interest rate on this bank loan?
+
+
+
+Discussion Questions
+14.1 What factors must a financial manager consider when making decisions about accounts receivable?
+
+14.2 List some of the working capital management practices you would expect to see in a manufacturing company following just-in-time inventory practices.
+
+14.3 What costs would a firm following a flexible current asset management strategy consider, and why?
+
+14.4 How are customers and suppliers affected by a firm’s working capital management decisions?
+
+14.5 A beverage bottling company in Vermont has days’ sales outstanding of 23.7 days. Is this good? Explain.
+
+14.6 How do the following circumstances affect the cash conversion cycle: (a) favorable credit terms allow the firm to pay its accounts payable slower, (b) inventory turnover increases, and (c) accounts receivable turnover decreases?
+
+14.7 What are some industries in which the use of lockboxes would especially benefit companies? Explain.
+
+14.8 Suppose you are a financial manager at a big firm and you expect interest rates to decline in the near future. What current asset investment strategy would you recommend that the company pursue?
+
+14.9 Why is the commercial paper market available only to the most creditworthy companies?
+
+14.10 Explain what a negative cash conversion cycle means.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+14.1 Cash conversion cycle: Wolfgang’s Masonry management estimates that it takes the company 27 days on average to pay its suppliers. Management also knows that the company has days’ sales in inventory of 64 days and days’ sales outstanding of 32 days. How does Wolfgang’s cash conversion cycle compare with the industry average of 75 days?
+
+14.2 Cash conversion cycle: Northern Manufacturing Company management found that during the last year it took an average of 47 days to pay its suppliers, whereas it took 63 days to collect its receivables. The company’s days’ sales in inventory was 49 days. What was Northern’s cash conversion cycle?
+
+14.3 Cash conversion cycle: Devon Automotive management estimates that it takes the company 62 days to collect cash from customers on finished goods from the day it receives raw materials, and it takes 65 days to pay its suppliers. What is the company’s cash conversion cycle? Interpret your answer.
+
+14.4 Operating cycle: Lilly’s Bakery distributes its products to more than 75 restaurants and delis. The company’s average collection period is 27 days, and it keeps its inventory for an average of four days. What is Lilly’s operating cycle?
+
+14.5 Operating cycle: NetSpeed Technologies is a telecom component manufacturer. The firm typically has a collection period of 44 days and days’ sales in inventory of 29 days. What is the operating cycle for NetSpeed?
+
+14.6 Operating cycle: Devlin Construction, Inc., reported the following balance sheet information for the last fiscal year. Devlin also reported net sales of $980,770 and days’ sales in inventory of 48.90 days.
+
+Devlin Construction Inc.
+Assets
+Cash and marketable securities	  $15,032
+Accounts receivable	$140,500
+Inventories	$289,809
+Other current assets	   $12,647
+   Total current assets	$457,988
+Calculate the firm’s operating cycle.
+
+14.7 Current asset management strategy: Describe the risks that are associated with a restrictive current asset management strategy.
+
+14.8 Cost of trade credit: Sybex Corp. sells its goods with terms of 2/10 EOM, net 30. What is the implicit cost of the trade credit?
+
+14.9 Cost of trade credit: Mill Street Corporation sells its goods with terms of 4/10 EOM, net 60. What is the implicit cost of the trade credit?
+
+14.10 Lockbox: Rosenthal Design has daily sales of $59,000. The financial management team has determined that a lockbox would reduce the collection time by 1.6 days. Assuming the company can earn 5.2 percent interest per year, what are the savings from the lockbox?
+
+14.11 Lockbox: Pacific Traders has annual sales of $1,895,000. The firm’s financial manager has determined that using a lockbox will reduce collection time by 2.3 days. If the firm’s opportunity cost on savings is 5.25 percent, what are the savings from using the lockbox?
+
+14.12 Effective interest rate: The Kellogg Bank requires borrowers to keep an 8 percent compensating balance. Gorman Jewels borrows $340,000 at a 7 percent stated APR. What is the effective interest rate on the loan?
+
+14.13 Effective interest rate: Morgan Contractors borrowed $1.75 million at an APR of 10.2 percent. The loan called for a compensating balance of 12 percent. What is the effective interest rate on the loan?
+
+14.14 Factoring: Maltz Landscaping has an average collection period of 38 days for its accounts receivable. Currently, Maltz factors all of its receivables at a 2 percent discount. What is the effective annual interest rate on the financing from the factor?
+
+14.15 Formal line of credit: Winegartner Cosmetics management is setting up a line of credit at the company’s bank for $5 million for up to two years. The interest rate is 5.875 percent, and the loan agreement calls for an annual fee of 40 basis points on any unused balance for the year. If the firm borrows $2 million on the day the loan agreement is signed, what is the effective rate for the line of credit?
+
+Intermediate
+14.16 Cash conversion cycle: Your boss asks you to compute your company’s cash conversion cycle. Looking at the financial statements, you see that the average inventory for the year was $26,300, accounts receivable averaged $17,900, and accounts payable averaged $15,100. You also see that the company had sales of $154,000 and that cost of goods sold was $122,000. Calculate and interpret your firm’s cash conversion cycle.
+
+14.17 Cash conversion cycle: Blackwell Automotive, Inc., reported the following financial information for the last fiscal year.
+
+Blackwell Automotive, Inc.
+Assets                                                                                    	Liabilities and Equity                                                                                    
+Cash and marketable securities	   $23,015	Accounts payable and accruals	$163,257
+Accounts receivable	$141,258	Notes payable	   $21,115
+Inventories	$212,444	Total current liabilities	$184,372
+Other current assets	   $11,223	 	 
+   Total current assets	$387,940	Sales and Costs                                                                                            
+ 	 	Net sales	$912,332
+ 	 	Cost of goods sold	$547,400
+Calculate the firm’s cash conversion cycle and operating cycle.
+
+14.18 Cash conversion cycle: Elsee, Inc., has net sales of $13 million, and 75 percent of these are credit sales. Its cost of goods sold is 65 percent of annual net sales. The firm’s cash conversion cycle is 41.3 days. The inventory balance at the firm is $1,817,344, while its accounts payable balance is $2,171,690. What is the firm’s accounts receivable balance?
+
+14.19 Cash conversion cycle: Joanna Handicrafts, Inc., has net sales of $4.23 million with 50 percent being credit sales. Its cost of goods sold is $2.54 million. The firm’s cash conversion cycle is 47.9 days, and its operating cycle is 86.3 days. What is the firm’s accounts payable balance?
+
+14.20 Operating cycle: Aviva Technology’s operating cycle is 81 days. Its inventory was $134,000 at the end of last year, and the company had cost of goods sold of $1.1 million. How long does it take Aviva to collect its receivables on average?
+
+14.21 Operating cycle: Premier Corp. has net sales of $812,344, and cost of goods sold equal to 70 percent of net sales. If the firm’s accounts receivable total $113,902 and its operating cycle is 81.6 days, how much inventory does the firm have?
+
+14.22 Operating cycle: Telecraft Enterprises carries 45 days of inventory in its stores. Last year Telecraft reported net sales of $1,400,000, and the company had receivables of $325,000 at the end of the year. What is the operating cycle at Telecraft?
+
+14.23 Operating cycle: Given the data for Telecraft Enterprises in Problem 14.22, re-estimate the firm’s operating cycle if days’ sales outstanding decreased to 75 days. For the same level of net sales, what is the implied dollar value of receivables with 75 days’ sales outstanding?
+
+14.24 Days’ sales outstanding: Sliver Computing, Inc., reported the following balance sheet information for the last fiscal year. Sliver Computing also reported cost of goods sold of $291,240 for the same period. Internal auditors state that the firm’s cash conversion cycle is 21.53 days.
+
+Sliver Computing Inc.
+Assets                                                                                    	Liabilities                                                                                    
+Cash and marketable securities	  $94,032	Accounts payable	   $68,561
+Accounts receivable	$160,684	Notes payable	$136,320
+Inventories	  $19,809	Total current liabilities	$204,881
+Other current assets	       $647	 	 
+   Total current assets	$275,172	 	 
+Calculate the firm’s days’ sales outstanding.
+
+14.25 Economic order quantity: Longhorn Traders is one of the largest RV dealers in Austin, Texas, and sells about 2,800 recreational vehicles a year. The cost of placing an order with Longhorn’s supplier is $800, and the inventory carrying costs are $150 for each RV. Management likes to maintain safety stock of 12 RVs. Most of its sales are made in either the spring or the fall. How many orders should the firm place this year?
+
+14.26 Effective interest rate: The Clarkson Designer Company management wants to borrow $750,000. The bank will provide the loan at an APR of 6.875. Since the loan calls for a compensating balance, the effective interest rate is actually 9.25 percent. What is the compensating balance on this loan?
+
+14.27 Effective interest rate: The Colonial Window Treatments Company is borrowing $1.5 million. The loan requires a 10 percent compensating balance, and the effective interest rate on the loan is 9.75 percent. What is the stated APR on this loan?
+
+14.28 Formal line of credit: Gruppa, Inc., has just set up a formal line of credit of $10 million with First Community Commercial Bank. The line of credit is good for up to five years. The bank will charge Gruppa an interest rate of 6.25 percent on any amount borrowed, and the firm will pay an annual fee of 60 basis points on the unused balance. The firm borrowed $7.5 million on the first day the credit line became available. What is the effective interest rate on this line of credit?
+
+14.29 Formal line of credit: Lansdowne Electronics has a formal line of credit of $1 million for up to three years with HND Bank. The interest rate on the loan is 5.3 percent, and under the agreement, Lansdowne has to pay an annual fee of 50 basis points on the unused amount. Suppose the firm borrows $675,000 the first day of the agreement. What is the fee the company must pay on the unused balance? What is the effective interest rate?
+
+14.30 Lockbox: Jennifer Electrical is evaluating whether a lockbox it is currently using is worth keeping. Management estimates that the lockbox reduces the mail float by 1.8 days and the processing by half a day. The remittances average $50,000 a day for Jennifer Electrical, with the average check being for $500. The bank charges $0.34 per processed check. Assume that there are 270 business days in a year and that the firm’s opportunity cost for these funds is 6 percent. What will the firm’s savings be from using the lockbox?
+
+14.31 Lockbox: Hazel Corp. has just signed up for a lockbox. Management expects the lockbox to reduce the mail float by 2.1 days. Hazel Corp.’s remittances average $37,000 a day, and the average check is $125. The bank charges $0.37 per processed check. Assume that there are 270 business days in a year. What will the firm’s savings be from using the lockbox if the opportunity cost for these funds is 12 percent?
+
+14.32 Aging schedule: Ginseng Company collects 50 percent of its receivables in 10 days or fewer, 31 percent in 11 to 30 days, 7 percent in 31 to 45 days, 7 percent in 46 to 60 days, and 5 percent in more than 60 days. The company has $1,213,000 in accounts receivable. Prepare an aging schedule for Ginseng Company.
+
+14.33 Aging schedule: A partial aging of accounts receivable for Lincoln Cleaning Services is given in the accompanying table. What percent of receivables is in the 45-day range? Determine the firm’s effective days’ sales outstanding. How does it compare with the industry average of 35 days?
+
+Age of Account (days)	Value of Account	% of Total Value
+10	$271,000	 
+30	$145,220	 
+45	 	 
+60	   $53,980	 
+75	   $31,245	            
+Total	$589,218	100.0%
+14.34 Aging schedule: Keswick Fencing Company collects 45 percent of its receivables in 10 days or fewer, 34 percent in 10 to 30 days, 12 percent in 31 to 45 days, 5 percent in 46 to 60 days, and 4 percent in more than 60 days. The company has $937,000 in accounts receivable. Prepare an aging schedule for Keswick Fencing.
+
+14.35 Factoring: Zenex, Inc., sells $250,000 of its accounts receivable to factors at a 3 percent discount. The firm’s average collection period is 90 days. What is the dollar cost of the factoring service? What is the simple annual interest cost of the factoring service?
+
+14.36 Factoring: A firm sells $100,000 of its accounts receivable to factors at a 2 percent discount. The firm’s average collection period is one month. What is the dollar cost of the factoring service?
+
+Advanced
+14.37 What impact would the following actions have on the operating and cash conversion cycles? Would the cycles increase, decrease, or remain unchanged?
+
+More raw material than usual is purchased.
+The company enters into an off season, and finished goods inventory builds up.
+Better terms of payment are negotiated with suppliers.
+The cash discounts offered to customers are decreased.
+All else remaining the same, an improvement in manufacturing technique decreases the cost of goods sold.
+14.38 What impact would the following actions have on the operating and cash conversion cycles? Would the cycles increase, decrease, or remain unchanged?
+
+Less raw material than usual is purchased.
+The company encounters unseasonable demand, and inventory declines rapidly.
+Tighter terms of payment are demanded by suppliers.
+The cash discounts offered to customers are increased.
+All else remaining the same, due to labor turnover and poor efficiency, the cost of goods sold increases.
+14.39 Morgan Sports Equipment Company just reported the following financial information.
+
+Morgan Sports Equipment Company
+Assets	Liabilities and Equity
+Cash	$ 677,423	Accounts payable	$1,721,669
+Accounts receivable	1,845,113	Notes payable	  2,113,345
+Inventories	  1,312,478	Total current liabilities	$3,835,014
+ Total current assets	$3,835,014	Sales and Costs
+ 	 	Net sales	$9,912,332
+ 	 	Cost of goods sold	$5,947,399
+Calculate the firm’s days’ sales outstanding.
+What is the firm’s days’ sales in inventory?
+What is the firm’s days’ payables outstanding?
+What is the firm’s operating cycle? How does it compare with the industry average of 72 days?
+What is the firm’s cash conversion cycle? How does it compare with the industry average of 42 days?
+14.40 Jackson Electrical, one of the largest generator dealers in Phoenix, sells about 2,000 generators a year. The cost of placing an order with its supplier is $750, and the inventory carrying costs are $170 for each generator. Jackson likes to maintain safety stock of 15 generators at all times.
+
+What is the firm’s EOQ?
+How many orders will the firm need to place this year?
+What is the average inventory for the season?
+14.41 Tanzaniqe, Inc., sells $200,000 of its accounts receivable to factors at a 5 percent discount. The firm’s average collection period is 90 days.
+
+What is the dollar cost of the factoring service?
+What is the simple annual interest cost of the loan?
+What is the effective annual interest cost of the loan?
+CFA Problems
+14.42 A company increasing its credit terms for customers from 1/10, net 30 to 1/10, net 60 will likely experience:
+
+An increase in cash on hand.
+An increase in the average collection period.
+Higher net income.
+A higher level of uncollectible accounts.
+14.43 Suppose a company uses trade credit with the terms of 2/10, net 50. If the company pays its account on the 50th day, the effective borrowing cost of skipping the discount on Day 10 is closest to
+
+14.6 percent.
+14.9 percent.
+15.0 percent.
+20.2 percent.
+The following information relates to Problems 14.44 through 14.46.
+
+Mary Gonzales is evaluating companies in the office supply industry and has compiled the following information:
+
+ 	                                          2019                                                        	                                          2020                                                        
+Company	Credit Sales	Average Receivables Balance	Credit Sales	Average Receivables Balance
+A	   $5.0 million	$1.0 million	   $6.0 million	$1.2 million
+B	   $3.0 million	$1.2 million	   $4.0 million	$1.5 million
+C	   $2.5 million	$0.8 million	   $3.0 million	$1.0 million
+D	   $0.5 million	$0.1 million	   $0.6 million	$0.2 million
+Industry	$25.0 million	$5.0 million	$28.0 million	$5.4 million
+14.44 Which of the companies has the lowest accounts receivable turnover in 2020?
+
+Company A.
+Company B.
+Company C.
+Company D.
+14.45 The industry average receivables collection period:
+
+Increased from 2019 to 2020.
+Decreased from 2019 to 2020.
+Did not change from 2019 to 2020.
+Increased along with the increase in the industry accounts receivable turnover.
+14.46 Which of the companies reduced the average time it took to collect on accounts receivable from 2019 to 2020?
+
+Company A.
+Company B.
+Company C.
+Company D.
+Sample Test Problems
+14.1 The Great Foods Market, Inc., balance sheet for the latest fiscal year included the following: total current assets of $1,975 million, total assets of $6,341 million, total current liabilities of $1,341 million, and total liabilities of $3,117 million. What was the company’s net working capital at the end of the fiscal year? What does this tell us?
+
+14.2 Last year, Perpetual Plastics Company took an average of 46 days to pay suppliers and 38 days to collect its receivables. The company’s average days’ sales in inventory was 52 days. What were Perpetual’s operating cycle and cash conversion cycle last year?
+
+14.3 Montrose, Inc., sells its products with terms of 3/15 EOM, net 30. What is the cost of the trade credit it provides its customers?
+
+14.4 FRA Manufacturing Company purchases 9,000 units of Part 3BX each year. The cost of placing an order is $5, and the cost of carrying one part in inventory for a year is $1. What is the economic order quantity (EOQ) for part 3BX if the company carries a safety stock of 200 units? How many orders will the company need to place each year?
+
+14.5 Rosemary Corporation has daily sales of $139,000. The financial manager at the firm has determined that a lockbox would reduce collection time by 2.2 days. Assuming the company can earn 5.5 percent interest per year, what are the potential annual savings from the lockbox?
+
+14.6 Sunny Way Landscaping has a formal line of credit of $500,000 with First Commerce Bank. The interest rate on the loan is 6 percent, and under the agreement Sunny Way must pay an annual fee of 75 basis points on the unused amount. The amount currently outstanding on the loan is $325,000. What is the annual fee the company must pay on the current unused balance? What is the effective interest rate?
+
+Notes
+1 Note that this is just Equation 3.2. For comparison, also note that the incremental additions to working capital (Add WC) in Equations 11.2 and 11.4 is a measure of the additional NWC that will be required to fund a project. Equation 11.4 does not include prepaid or accrued expenses because analysts do not typically forecast these items when they estimate Add WC. Prepaid and accrued expenses tend to be difficult to forecast and, to the extent that they cancel each other out in the calculation, are often quite small. All interest-bearing debt is also excluded from the calculation in Equation 11.4 because these sources of financing are either assumed to be temporary (for short-term notes) or, for current maturities of long-term debt, are assumed to be refinanced with new long-term debt and are therefore accounted for in the WACC calculation discussed in Chapter 13.
+2 It is not usually in the best interest of the firm’s stockholders for managers to simply minimize the cash conversion cycle. If it were, firms would stretch out repayment of their payables and not give credit to customers. Of course, this would upset suppliers, cause the firm to incur late-payment penalties, and result in lost sales.

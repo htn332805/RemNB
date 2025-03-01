@@ -1,0 +1,581 @@
+CHAPTER 17
+Dividends, Stock Repurchases, and Payout Policy
+
+LEARNING OBJECTIVES
+
+Explain what a dividend is, and describe the different types of dividends and the dividend payment process. Calculate the expected change in a stock’s price around an ex-dividend date.
+Explain what a stock repurchase is and how companies repurchase their stock. Calculate how taxes affect the after-tax proceeds that a stockholder receives from a dividend and from a stock repurchase.
+Discuss the benefits and costs associated with dividend payments, and compare the relative advantages and disadvantages of dividends and stock repurchases.
+Define stock dividends and stock splits, and explain how they differ from other types of dividends and from stock repurchases.
+Describe factors that managers consider when setting the dividend payouts for their firms.
+On March 3, 2020, managers at Hilton Worldwide Holdings Inc., the international hotel company, announced that its board of directors had authorized a significant increase in its share repurchase program. The revision allowed management to repurchase as much as $2.3 billion of Hilton stock on the open market. In a press release that day, the company indicated that the actual amount and timing of future repurchases would depend on a variety of factors, including the company’s overall liquidity, cash flow, and market conditions. Hilton also noted that the program did not obligate the company to repurchase a specific dollar amount of its stock, and the program could be suspended or discontinued at any time.
+
+The 2020 repurchase plan was part of Hilton’s broader policy to regularly distribute cash to the company’s stockholders. Since its inception in 2017, the Hilton repurchase program had acquired approximately 56 million shares for about $4.4 billion. In addition, the company paid a regular quarterly dividend to its common stockholders. In March 2020, shareholders received a quarterly dividend of $0.15 for each share of common stock they owned, and in all of 2019, stockholders of the company received total dividends of $0.60 per share. Dividend payouts per share had remained at the same level of $0.60 per year since 2015.
+
+The decision in early 2020 to keep quarterly cash dividends flat year-over-year, while increasing its stock repurchase program, most likely reflected uncertainty Hilton managers faced regarding the company’s future profitability and capital requirements. With cash dividends equal to nearly 20 percent ($0.60/$3.05 = 0.197, or 19.7 percent) of 2019 earnings per share, committing to a higher regular dividend might have placed the company in a bind if earnings suddenly dropped or an investment opportunity arose that required substantial capital. In contrast, the repurchase program provided Hilton managers with the flexibility to distribute excess cash to stockholders without committing to making regular distributions. In hindsight, the caution of Hilton management was well founded. By the end of March 2020, the Covid 19 pandemic was having a major impact on the company’s bottom line, forcing management to completely suspend future dividend payments and the stock repurchase program.
+
+The trade-off between regular cash dividends and stock repurchases is one that is faced by managers whenever they decide how to distribute excess cash to stockholders. Dividends have historically been a more popular means of distributing cash, but this is not always the case. For example, for several years leading up to the great recession of 2008, the total dollar value distributed by U.S. public firms through stock repurchases exceeded that distributed through dividends. This chapter discusses concepts that help us understand why managers make the dividend and stock repurchase decisions we observe in practice. It also helps us understand why firms distribute capital to stockholders and the implications of such distributions.
+
+Chapter Preview
+In Chapter 16, we discussed factors that influence capital structure decisions at firms. In this chapter, we look at some different but related financing decisions—those concerning how and when to return value (cash or other assets) to stockholders.
+
+We begin by describing the various types of dividends and the dividend payment process. We then discuss stock repurchases as an alternative to dividends. Stock repurchases are a potential component of any payout policy because, like dividends, they are a means of distributing value to stockholders.
+
+We next examine the benefits and costs associated with making dividend payments and describe how stock prices react when a company makes an announcement about future dividend payments. These discussions provide insights into the ways in which payout policies affect firm value. We end this part of the chapter by directly comparing the benefits and costs of dividends with those of stock repurchases.
+
+We then describe stock splits and stock dividends and discuss the reasons managers might want to split their company’s stock or pay a stock dividend. Finally, we conclude the chapter with a discussion of factors that managers and their boards of directors consider when they set payout policies.
+
+17.1 Dividends
+LEARNING OBJECTIVE
+
+Explain what a dividend is, and describe the different types of dividends and the dividend payment process. Calculate the expected change in a stock’s price around an ex-dividend date.
+Decisions concerning whether to distribute value to stockholders, how much to distribute, and how best to distribute it are very important financing decisions that have implications for a firm’s future investment and capital structure policies. Any time value is distributed to a firm’s stockholders, the amount of equity capital invested in the firm is reduced. Unless the firm raises additional equity by selling new shares, distributions to stockholders reduce the availability of capital for new investments and increase the firm’s financial leverage.
+
+The term payout policy refers to a firm’s overall policy regarding distributions of value to stockholders. In this section, we discuss the use of dividends to distribute this value. A dividend is something of value that is distributed to a firm’s stockholders on a pro-rata basis—that is, in proportion to the percentage of the firm’s shares that they own. A dividend can involve the distribution of cash, assets, or something else, such as discounts on the firm’s products that are available only to stockholders.
+
+payout policy the policy concerning the distribution of value from a firm to its stockholders
+
+dividend something of value distributed to a firm’s stockholders on a pro-rata basis—that is, in proportion to the percentage of the firm’s shares that they own
+
+Building Intuition
+Dividends Reduce the Stockholders’ Investment in a Firm
+
+A dividend reduces the stockholders’ investment in a firm by distributing some of that investment to them. The value that stockholders receive through a dividend was already theirs. A dividend simply takes this value out of the firm and returns it to them.
+
+When a firm distributes value through a dividend, it reduces the value of the stockholders’ claims against the firm. To see this, consider a firm that has $1,000 in cash plus other assets that have a market value of $9,000. If the firm has no debt and 10,000 shares are outstanding, what is the value of each share? Each share of this firm is worth $1, since the total value of the cash and the other assets is $10,000 and the stockholders own it all.
+
+Now, suppose management distributes the $1,000 of cash as a dividend. Each stockholder receives 10 cents ($1,000/10,000 shares = $0.10) for each share that he or she owns, and the value of each share declines to 90 cents. This is true because the firm is now worth $9,000 and there are still 10,000 shares. Note that each stockholder still has $1 of value for each share owned, but the share represents only 90 cents of the total. The other 10 cents is in the hands of the stockholder, who can spend or reinvest it.1
+
+Types of Dividends
+As mentioned, dividends can take various forms. The most common form is the regular cash dividend, which is a cash dividend that is paid on a regular basis. These dividends are generally paid quarterly and are a common means by which firms return some of their profits to stockholders. In 2020, over 4,000 public companies paid dividends to their investors. The aggregate dividends paid to investors in S&P 500 companies was $483.2 billion.2 The dividend payments made by the vast majority of these firms were part of regular cash dividend payment programs.
+
+regular cash dividend a cash dividend that is paid on a regular basis, typically quarterly
+
+In the chapter opener, you saw that in early 2020 Hilton was paying a regular cash dividend of $0.15 each quarter. The size of a firm’s regular cash dividend is typically set at a level that management expects the company to be able to maintain in the long run. This is because, barring some major change in the fortunes of the company, management does not want to reduce the dividend. As we will discuss later, stock market investors often view a dividend reduction negatively.
+
+Management can afford to err on the side of setting the regular cash dividend too low because it always has the option of paying an extra dividend if earnings are higher than expected. Extra dividends are often paid at the same time as regular cash dividends, and some companies use them to ensure that a minimum portion of earnings is distributed to stockholders each year. For example, suppose that the management of a company wants to distribute 40 percent of the company’s net income to stockholders each year. If the company earns $2 per share in a particular year and the regular cash dividend is 60 cents per share, management can pay an extra 20-cent dividend at the end of the year to ensure that the company hits its 40 percent payout target [($0.60 + $0.20)/$2.00 = 0.40, or 40 percent].
+
+extra dividend a dividend that is generally paid at the same time as a regular cash dividend to distribute additional value
+
+A special dividend, like an extra dividend, is a one-time payment to stockholders. However, special dividends tend to be considerably larger than extra dividends. They are normally used to distribute unusually large amounts of cash. For instance, a company might use a special dividend to distribute excess cash from operations that has accumulated over time. Microsoft did this in a very dramatic way in 2004 when it paid a $32.4 billion special dividend. Special dividends are a relatively common distribution of excess cash. In a more recent, but less dramatic, example, Wingstop, Inc., paid $148 million in total ($5 per share to each of its shareholders) on December 3, 2020. A special dividend might also be used to distribute the proceeds from the sale of a major asset or business or as a means of altering a company’s capital structure.
+
+special dividend a one-time payment to stockholders that is normally used to distribute a large amount of value
+
+Sealed Air Corporation, the company that first produced those plastic sheets of packaging materials with the air bubbles, provides a good example of how a special dividend can be used to dramatically change a company’s capital structure. In April 1989, Sealed Air borrowed $306.7 million, which it combined with cash it already had on hand to pay a $40 per share ($329.8 million) dividend. Since the price of Sealed Air’s stock was only about $45 before the dividend, most of the equity was distributed to stockholders. The net effect of borrowing the money to pay a large dividend like this was to substantially increase the debt-to-total-capital ratio at Sealed Air—from 8.1 percent to more than 76.2 percent.3 Sealed Air senior management increased the company’s leverage so dramatically in order to provide managers at all levels with incentives to focus on maximizing the firm’s cash flows. We discussed this potential benefit from using debt financing in Chapter 16.
+
+A liquidating dividend is a dividend that is paid to stockholders when a firm is liquidated. When we say that a firm is liquidated, we mean that its assets are sold; the proceeds from the sale of the assets are distributed to creditors, stockholders, and others who have a claim on the firm’s assets; and the firm ceases to exist. In the United States, the proceeds from the sale of a company’s assets are first used to pay all wages owed to employees, and satisfy obligations to suppliers, lenders, the various taxing authorities, and any other party that has a claim on those assets. Only after all of these obligations are satisfied can the company pay a liquidating dividend to the stockholders. These priorities highlight the fact that the stockholders are truly the residual claimants to a firm’s assets.
+
+liquidating dividend the final dividend that is paid to stockholders when a firm is liquidated
+
+Beyond the payments described above, distributions of value to stockholders can also take the form of discounts on the company’s products, free samples, and the like. Often, these noncash distributions are not thought of as dividends, in part because the value received by stockholders is not in the form of cash and in part because the value received by individual stockholders does not often reflect their proportional ownership in the firm.
+
+For example, CSX Corporation used to own a high-end resort in West Virginia called the Greenbrier. CSX stockholders received a discount on the cost of their hotel rooms when they stayed at the Greenbrier. For a three- or four-day stay, this discount could easily equal the value of the regular cash dividend for someone who owned 200 shares. However, the value of the discount was exactly the same for someone who owned 1 million shares. Obviously, for this large stockholder the value of the discount would be small compared with the value of the cash dividend. Note that the discount could actually exceed the total value of the shares owned by a stockholder who only had five or ten shares!
+
+More recently, AMC Entertainment, which owns and operates over 1000 movie theaters in the U.S. and internationally, has begun to offer its investors special perks when they visit AMC theaters. For example, in the summer of 2021, the company offered each of its stockholders a free large popcorn!
+
+The Dividend Payment Process
+A relatively standard sequence of events takes place before a dividend is paid. This process is more easily defined for companies with publicly traded stock than for private companies. For this reason, we first focus on the process for public companies and then discuss how it differs for private companies. The time line for the sequence of events in the dividend payment process at a public company is illustrated in Exhibit 17.1.
+
+EXHIBIT 17.1 The Dividend Payment Process Time Line for a Public Company The dividend payment process begins when the board votes to pay a dividend. Shortly afterward, the firm publicly announces its intent to pay a dividend, along with, typically, the amount of the dividend, the ex-dividend date, and the record date. The record date is the date by which an investor must be a stockholder of record in order to receive the dividend. The ex-dividend date, which is set by the stock exchange, normally precedes the record date by two days and is the date before which an investor must buy the stock to be a stockholder of record on the record date. The payable date is the date on which the firm actually pays the dividend.
+
+
+The Board Vote
+
+The process begins with a vote by a company’s board of directors to pay a dividend. As stockholder representatives, the board must approve any distribution of value to stockholders.
+
+The Public Announcement
+
+After the board vote, the company announces to the public that it will pay the dividend. The date on which this announcement is made is known as the declaration date, or announcement date, of the dividend. The announcement typically includes the amount of value that stockholders will receive for each share of stock that they own, as well as the other dates associated with the dividend payment process.
+
+declaration date the date on which a dividend is publicly announced
+
+Building Intuition
+Dividend Announcements Send Signals to Investors
+
+A dividend announcement reveals information about management’s view of a company’s prospects. Investors use this information to refine their expectations concerning future cash flows from the company. A change in investor expectations will cause the company’s stock price to change at the time of the public announcement.
+
+The price of a firm’s stock often changes when a dividend is announced. This happens because the public announcement sends a signal to the market about what management thinks the future performance of the firm will be. If the signal differs from what investors expected, they will adjust the prices at which they are willing to buy or sell the company’s stock accordingly. For example, the announcement that a company will significantly increase its dividend can indicate that management is optimistic about future profits—suggesting that future cash flows are higher than expected. This, in turn, can result in an increase in the company’s stock price. In contrast, the decision to cut or eliminate a dividend can send a signal that management is pessimistic and can cause the stock price to go down. We have more to say about how stock prices react to dividend announcements later in this chapter. For now, it is important to remember that a dividend decision sends information to investors and that information is incorporated into stock prices at the time of the public announcement.
+
+The Ex-Dividend Date
+
+An important date included in the public announcement is the ex-dividend date—the first date on which the stock will trade without rights to the dividend. An investor who buys shares before the ex-dividend date will receive the dividend, while an investor who buys the stock on or after the ex-dividend date will not. Before the ex-dividend date, a stock is said to be trading cum dividend, or with dividend. On or after the ex-dividend date, the stock is said to trade ex dividend.
+
+ex-dividend date the first day on which a stock trades without the rights to a dividend
+
+It is important for investors to know the ex-dividend date because it can have significant implications for the taxes and transaction costs they pay. If an investor purchases the company’s shares before the ex-dividend date, the investor knows that he or she will soon receive a dividend on which taxes will have to be paid. (Dividends received by investors are taxed by state and federal governments unless the investor is a tax-exempt organization, such as a university endowment.) In addition, a dividend can create difficulties for a stockholder who wants to have a specific amount of money invested in the firm. By returning value to the stockholder, a firm that pays a dividend may reduce the stockholder’s investment below the level preferred by the stockholder, thereby making it necessary for the stockholder to purchase additional shares and incur the associated brokerage fees and possibly other transaction costs.
+
+As you might suspect, the price of the firm’s shares drops on the ex-dividend date even if there is no new information about the firm. The decline simply reflects the difference in the value of the cash flows that the stockholders are entitled to receive before and after the ex-dividend date. To see how this works, consider a company that recently announced a $1 per share dividend. The company’s stock is currently trading for $10 per share, and the ex-dividend date is tomorrow. In this example, the $10 price includes the value of the dividend because an investor who purchases this company’s stock before the ex-dividend day will receive the dividend. You can think of the $10 as consisting of a $1 dividend plus the value of the stock on the ex-dividend date.4 Since an investor who buys the stock tomorrow will receive only the stock, and not the dividend, the price of the stock will certainly be below $10 tomorrow.
+
+Does it follow that the stock price will drop by $1 tomorrow? No. Research has shown that stock prices drop on the ex-dividend date but that this drop is smaller than the full amount of the dividend. In our example, this means that the drop will be less than $1. Why would the price not drop by the full $1? Because the dividend will be taxed. For the tax year 2020, individuals paid a graduated tax rate on dividend income from U.S. corporations of either 0, 15, or 20 percent depending on their total taxable income and filing status. If you knew that you would have to pay a 15 percent tax on a dividend that you received, would you pay 100 percent of the value of that dividend? We hope not. In this case, a $1 dividend has an after-tax value of only $0.85 if you have to pay a 15 percent tax on it [$1.00 × (1 − 0.15) = $0.85]. If investors pay a 15 percent tax on dividends, the $10 price of the stock in our example should include $0.85 for the dividend and $9.15 ($10.00 − $0.85 = $9.15) for other cash flows, so the stock price should drop to $9.15 on the ex-dividend date.
+
+Learning by Doing Application 17.1 illustrates another example of how stock prices change around the ex-dividend date.
+
+The Record Date
+
+The record date typically follows the ex-dividend date by one to two business days. The record date is the date on which an investor must be a stockholder of record (that is, officially listed as a stockholder) in order to receive the dividend. The board specifies the record date when it votes to make the dividend payment. Once the company informs the exchange on which its stock is traded what the record date is, the exchange sets the ex-dividend date. The ex-dividend day precedes the record date because it takes time to update the stockholder list when someone purchases shares. If you buy the shares before the ex-dividend date, the exchange will ensure that you are listed as a stockholder of record for that company as of the record date.
+
+record date the date by which an investor must be a stockholder of record in order to receive a dividend
+
+The Payable Date
+
+The final date in the dividend payment process is the payable date, when the stockholders of record actually receive the dividend. The payable date is typically a couple of weeks after the record date.
+
+payable date the date on which a company pays a dividend
+
+An Example of the Dividend Payment Process
+
+We can use Walmart Stores, Inc., to illustrate the dividend payment process. In early 2020, the board of directors of Walmart approved an increase in the company’s regular cash dividend to $2.16 per share per year. As is commonly done, Walmart pays its regular cash dividend quarterly. In other words, after the board vote, its stockholders could expect to receive dividends of $0.54 per share each quarter.5 The dividend increase was announced on February 18, 2020, and so this was the declaration, or announcement, date. Exhibit 17.2 summarizes the full sequence of events for Walmart’s dividend.
+
+LEARNING BY DOING APPLICATION 17.1
+Stock Prices and Dividend Payments
+
+Problem
+
+It is January 20, 2021, and J&W Corporation’s stock is trading at $23.50 per share. Earlier today, J&W announced that the record date for its next regular cash dividend will be Wednesday, February 17, 2021, and that the dividend payment will be $0.40 per share. The stock exchange has just announced that the ex-dividend date will be Monday, February 15, 2021. If all investors pay taxes of 20 percent on dividends, what do you expect will happen to J&W’s stock price between the time the market closes on Friday, February 12, 2021, and the time it opens on Monday, February 15, 2021?
+
+
+
+
+
+EXHIBIT 17.2 Key Dates for Walmart’s First-Quarter 2020 Dividend This exhibit summarizes the key dates and time line for the regular cash dividend that Walmart paid on April 6, 2020.
+
+
+Walmart’s announcement also specified the other key dates in Exhibit 17.2. The next regular cash dividend would be paid to investors of record as of Friday, March 20, 2020. This was the record date. The ex-dividend date was Thursday, March 19, 2020—one trading day earlier—and the payable date was Monday, April 6, 2020.
+
+The Dividend Payment Process at Private Companies
+
+The dividend payment process is not as well defined for private companies as it is for public companies, because in private companies shares are bought and sold less frequently, there are fewer stockholders, and no stock exchange is involved in the dividend payment process. The board members know the identities of the stockholders when they vote to authorize a dividend—generally, the list of stockholders is relatively short and the largest stockholders are on the board. As a result, it is easy to inform all stockholders of the decision to pay a dividend, and it is easy to actually pay it. There is no public announcement, and there is no need for an ex-dividend date. Consequently, the record date and payable date can be any day on or after the day that the board approves the dividend.
+
+Before You Go On
+How does a dividend affect the size of a stockholder’s investment in a firm?
+List and define four types of dividends.
+What are the key events and dates in the dividend payment process?
+
+You can read more about the ex-dividend date and the dividend payment process on the SEC Website at www.sec.gov/answers/dividen.htm
+
+17.2 Stock Repurchases
+LEARNING OBJECTIVE
+
+Explain what a stock repurchase is and how companies repurchase their stock. Calculate how taxes affect the after-tax proceeds that a stockholder receives from a dividend and from a stock repurchase.
+Stock repurchases are another popular method of distributing value to stockholders. With a stock repurchase, a company buys some of its shares from stockholders.
+
+stock repurchase the purchase of stock by a company from its stockholders; an alternative way for the company to distribute value to the stockholders
+
+How Stock Repurchases Differ from Dividends
+Stock repurchases differ from dividends in a number of important ways. First, they do not represent a pro-rata distribution of value to the stockholders, because not all stockholders participate. Individual stockholders decide whether they want to participate in a stock repurchase. Some stockholders participate, while others do not. In contrast, in a dividend distribution, all stockholders receive the dividend.
+
+Second, when a company repurchases its own shares, it removes them from circulation. This reduces the number of shares of stock held by investors. Removing a large number of shares from circulation can change the ownership of the firm. It can increase or decrease the fraction of shares owned by the major stockholders and thereby change their ability to control the company. Also, if a company with a relatively small number of shares in the public market distributes a lot of cash to investors through a stock repurchase, there will be less liquidity for the remaining shares. An extreme example of this occurs when a public company repurchases most of its outstanding shares and “goes private.” Since a dividend does not affect who owns the shares or the number of shares outstanding, it does not have these effects on ownership and liquidity.
+
+Third, stock repurchases are taxed differently than dividends. As we saw in the discussion of the ex-dividend date, the total value of dividends is taxable for investors.6 In contrast, when a stockholder sells shares back to the company, the stockholder is taxed only on the profit, or capital gain, from the sale. For example, suppose a stockholder purchased 100 shares for $150 and then sold them to the company for $200 a year later. In this example, the $50 profit ($200 − $150 = $50) that the stockholder earned on the sale would be treated as a capital gain and would be taxed. As with dividend income, individuals pay a graduated tax rate on capital gains of either 0, 15, or 20 percent depending on their total taxable income and filing status. The maximum total tax on the sale of the stock would be $10 ($50 × 0.20 = $10). In contrast, if the company had distributed the $200 as a dividend, the tax for the same investor would have been $40 ($200 × 0.20 = $40)—four times as much! Of course, this difference is even more significant when you remember that stockholders who receive dividends have no choice as to when they must pay the tax because a dividend is not optional. In contrast, since stockholders choose whether to sell their shares in a repurchase plan, they are able to choose when they pay taxes on the profits from selling their stock.
+
+Finally, dividends and stock repurchases are accounted for differently on the balance sheet. For example, when a company pays a cash dividend, the cash account on the assets side of the balance sheet and the retained earnings account on the liabilities and stockholders’ equity side of the balance sheet are reduced. In contrast, when a company uses cash to repurchase stock, the cash account on the assets side of the balance sheet is reduced, while the treasury stock account on the liabilities and stockholders’ equity side of the balance sheet is increased (becomes more negative). The balance sheet in Exhibit 3.1 includes a treasury stock account, indicating that Diaz Manufacturing repurchased 571,320 shares for $23.3 million in 2020.
+
+Learning by Doing Application 17.2 illustrates calculations associated with a stock repurchase.
+
+LEARNING BY DOING APPLICATION 17.2
+Stock Repurchases and Taxes
+
+Problem
+
+Your pizza parlor business has been doing very well, and, as a result, you have more cash than you can productively reinvest in the business. You have decided to distribute this cash to yourself, the only stockholder, through a stock repurchase. When you started the business, you invested $300,000 and received 10,000 shares of stock. In other words, each share cost you $30. There are no other shares outstanding, and your business valuation adviser tells you that the stock is worth $800,000 today. If you want to distribute $80,000 through a stock repurchase, how many shares will the company have to repurchase? If you pay taxes of 20 percent on capital gains, how much money will you have left over after paying taxes on the proceeds from the sale of your stock?
+
+
+
+
+
+How Stock Is Repurchased
+Companies repurchase stock in three general ways. First, they can simply purchase shares in the market, much as an individual would. These kinds of purchases are known as open-market repurchases and are a very convenient way of repurchasing shares on an ongoing basis. Open-market repurchases allow firms to determine when and how much of their stock to repurchase, giving managers additional flexibility.
+
+open-market repurchase the repurchase of shares by a company in the open market
+
+When a company has a large amount of cash to distribute, open-market repurchases can be cumbersome because the government limits the number of shares that a company can repurchase on a given day. These limits, which are intended to restrict the ability of firms to influence their stock price through trading activity, mean that it could take months for a company to distribute a large amount of cash using open-market repurchases.
+
+When the management of a company wants to distribute a large amount of cash at one time and does not want to use a special dividend, it can repurchase shares using a tender offer. A tender offer is an open offer by a company to purchase shares.7 There are two types of tender offers: fixed-price and Dutch auction. With a fixed-price tender offer, management announces the price that will be paid for the shares and the maximum number of shares that will be repurchased. Interested stockholders then tender their shares by letting management know how many shares they are willing to sell. If the number of shares tendered exceeds the announced maximum, then the maximum number of shares are repurchased, and each stockholder who tendered shares participates in the repurchase in proportion to the fraction of the total shares that he or she tendered.
+
+tender offer an open offer by a company to purchase shares
+
+With a Dutch auction tender offer, the firm announces the number of shares that it would like to repurchase and asks the stockholders how many shares they would sell at a series of prices, ranging from just above the price at which the shares are currently trading to some higher price. The alternative prices are set higher than the market price to make the offer attractive to stockholders. Stockholders then tell the company how many of their shares they would sell at the various offered prices. Once these offers to sell have been collected, management determines the price that would allow them to repurchase the number of shares that they want. All of the tendering stockholders who indicate a willingness to sell at or below this price will then receive this price for their shares.
+
+The third general way in which shares are repurchased is through direct negotiation with a specific stockholder. These targeted stock repurchases are typically used to buy blocks of shares from large stockholders. Such repurchases can benefit stockholders who are not selling because managers may be able to negotiate a per-share price that is below the current market price. This is possible because the only alternative for a stockholder who owns a large block of shares and wants to sell them at one time often involves offering the shares for a below-market price in the open market. Of course, targeted stock repurchases can also be attractive to managers for other reasons—notably, if the company repurchases the block of shares, there is less chance that the shares will fall into the hands of an unfriendly investor.
+
+targeted stock repurchase a stock repurchase that targets a specific stockholder
+
+Exhibit 17.3 presents statistics for the different types of stock repurchases from a sample of repurchases involving public U.S. firms over the 1984–2001 period. The exhibit indicates that the most common way to repurchase shares is through open-market repurchases (6,470 observations versus 737 for targeted stock repurchases, the second most common method). However, the average percentage of shares repurchased, at 7.37 percent, is considerably smaller for open-market repurchase programs than for the other repurchase methods. This confirms what we stated earlier—managers tend to use methods other than open-market repurchases when they want to distribute a large amount of cash at one time. Finally, Exhibit 17.3 shows that almost half of the targeted stock repurchases involve a purchase price that is below the stock’s price in the open market. This is consistent with the idea that managers can often negotiate discounts when making such purchases. Interestingly, the average stock price reaction to a targeted stock repurchase is negative. The reason for this is not obvious. In some cases, investors may think that managers are repurchasing shares to entrench themselves to the detriment of the stockholders. In other cases, a large stockholder’s willingness to sell his or her shares may signal this investor’s pessimism about the firm’s prospects, thereby causing other market participants to drive down the stock price.
+
+EXHIBIT 17.3 Descriptive Statistics for Stock Repurchases in the United States, 1984–2001
+
+Open-market repurchase programs are the most common means of repurchasing shares. However, managers tend to use other methods when they want to repurchase a large percentage of their firm’s total shares.
+
+ 	Open-Market Repurchase Programs	Fixed-Price Tender Offers	Dutch Auction Tender Offers	Targeted Stock Repurchases
+Average percentage of shares repurchased	7.37%	29.46%	15.88%	13.00%
+Average premium paid over market price	NA	20.74%	14.72%	1.92%
+Percentage of cases where repurchase price was below market price	NA	0.00%	0.40%	44.78%
+Average market-adjusted stock price change following repurchase announcement	2.39%	7.68%	7.60%	−1.81%
+Number of observations	6,470	303	251	737
+Source: Information from Journal of Financial Economics, 75(2), Urs C. Peyer and Theo Vermaelen, “The Many Facets of Privately Negotiated Stock Repurchases,” 361–395, Copyright 2005, with permission from Elsevier.
+Before You Go On
+What is a stock repurchase?
+How do stock repurchases differ from dividends?
+In what ways can a company repurchase its stock?
+
+Go to Thomas Bulkowski’s thepatternsite.com Web site at www.thepatternsite.com/dutch.html to read more about the Dutch auction tender offers.
+
+17.3 Dividends and Firm Value
+LEARNING OBJECTIVE
+
+Discuss the benefits and costs associated with dividend payments, and compare the relative advantages and disadvantages of dividends and stock repurchases.
+One reason that we devote so much space in this book to dividends is that they can affect the value of a firm. In this section, we explain why. The best way to begin is by recalling, from Chapter 16, the general conditions under which capital structure policy does not affect firm value:
+
+There are no taxes.
+There are no information or transaction costs.
+The real investment policy of the firm is fixed.
+These are the three conditions identified by Modigliani and Miller (M&M). Since a dividend payment has implications for a firm’s capital structure, as illustrated earlier in the Sealed Air example, the factors that cause dividends to affect firm value are very closely related to the conditions identified by M&M. In fact, if the above conditions hold, then the dividends a firm pays will not affect its value.
+
+Dividends do not matter under these conditions because a stockholder can “manufacture” any dividends he or she wants at no cost, and the total cash flows a firm produces from its real assets are not affected by the dividends that it pays. To see how a stockholder can manufacture dividends, consider a retired stockholder who owns 50,000 shares of a company’s stock and needs to receive a $1 per share dividend each year on this investment to cover his or her living expenses. If the company pays such a dividend, there is no problem. But what if the company does not pay such a dividend? Well, under the above conditions, the stockholder could “manufacture” his or her own dividend by selling $50,000 worth of stock each year. This would reduce the total value of this investor’s stock by $50,000, just as a $50,000 dividend would. Remember that we are assuming that no taxes must be paid, so the decline in the value of the shares would exactly equal the value of the dividend if one were paid.
+
+A stockholder could also undo the dividend decisions made by managers by simply reinvesting the dividends that the company pays in new shares. For instance, if a company paid a $50,000 dividend, thereby reducing the value of a stockholder’s shares, that stockholder could increase his or her ownership in the company’s shares to its previous level by purchasing $50,000 worth of shares. Again, we assume that there are no transactions costs, so the $50,000 purchase is equal to the dividend paid.
+
+Just as with changes in capital structure policy, if investors could replicate the dividends paid by a company on their own at no cost and the managers’ dividend decisions do not affect the total cash flows the firm produces, investors would not care whether or not the company paid a dividend. In other words, they would not be willing to pay more or less for the stock of a firm that pays a dividend than for the stock of a firm that does not pay a dividend.
+
+Benefits and Costs of Dividends
+Of course, we know that the M&M assumptions do not apply in the real world. But that is good news in the sense that the imperfect world we live in provides companies with the opportunity to create value through their dividend decisions. Doing so involves balancing benefits and costs, just as we do in choosing a capital structure. We now turn our attention to a discussion of the benefits and costs associated with paying dividends.
+
+Benefits of Dividends
+
+One benefit of paying dividends is that it attracts investors who prefer to invest in stocks that pay dividends. For example, consider the retired stockholder we discussed earlier. While he or she could simply sell some stock each month to cover expenses, in the real world it may be less costly—and it is certainly less trouble—to simply receive regular cash dividend payments instead. Recall that under the M&M conditions, there are no transaction costs. In the real world, though, the retiree will have to pay brokerage commissions each time he or she sells stock. The dividend check, in contrast, simply arrives each quarter. Of course, the retiree will have to consider the impact of taxes on the value of dividends versus the value of proceeds from the sale of stock; but it is quite possible that receiving dividends might, on balance, be more appealing.
+
+Another type of investor that might prefer income-paying stocks is an institutional investor, such as an endowment or a foundation. Because of their investment guidelines, some institutional investors are only allowed to spend proceeds that are received as income from their investments. These institutions face limitations on their ability to sell shares to replicate a dividend.
+
+Unfortunately, the ability to appeal to certain investors is not a very compelling reason for paying dividends. While retirees and some institutional investors might prefer dividends, investors with no current need for income from their investment portfolios might prefer not to receive dividends. Those investors might actually choose to avoid stocks that pay high dividends, since they might have to pay taxes on the dividends and would face transaction costs when they reinvest the dividends they receive.
+
+Furthermore, the fact that some investors prefer to receive dividends does not necessarily mean that an individual company can increase the value of its stock by paying dividends. After all, a wide range of dividend-paying stocks is already available on the market. The addition of one more such stock is unlikely to markedly increase the options available for investors looking for dividends. Therefore, these investors will not be willing to pay a higher price for that stock.
+
+Some people have argued that a large regular dividend indicates that a company is financially strong. This “signal” of strength, they say, can result in a higher stock price. This argument is based on the assumption that a company that is able to pay a large dividend, rather than holding on to cash for future investments, is a company that is doing so well that it has more money than it needs to fund its available investments. The problem with this line of reasoning is that such a company might have more than enough money for all its future investment opportunities because it does not have many future investment opportunities. In this situation, the fact that the company does not need the cash would be a bad signal, not a good one.
+
+Another benefit of paying dividends is suggested by the fact that many companies pay regular cash dividends on the one hand while routinely selling new shares on the other. For example, FPL Group pays a regular dividend and occasionally raises capital by issuing new equity. Why might FPL reduce its equity by paying a dividend and then turn around and increase it by selling new shares? One possible explanation is that management is just trying to appeal to investors who prefer dividends, as we discussed earlier. But another explanation is that this practice helps to align the incentives of managers and stockholders.
+
+Let’s look more closely at this second explanation. Consider a company that is so profitable that it never has to go to the debt or equity markets to raise external capital. This company can pay for all of its needs with earnings from operations. The managers in charge of the company might have incentives to operate the business less efficiently than the stockholders would like. For example, they might invest in negative NPV assets—such as corporate jets, plush offices, or a company apartment in Manhattan—that benefit them but do not create value for the stockholders. These managers might also spend more time than they should away from the office, perhaps serving on the boards of other companies or golfing, letting the operating performance of the company fall below the level that could be achieved if they focused on running the business. Stockholders understand that managers at highly profitable firms have these incentives. Thus, they are likely to reduce the price that they are willing to pay for this company’s stock to reflect the loss of value associated with the managers’ unproductive behaviors.
+
+Now suppose that the company’s board of directors votes to pay dividends that amount to more than the excess cash that the company is producing from its operations. Since the money to pay the dividends will have to come from somewhere, the board is effectively forcing management to sell equity periodically in the public markets. The need to raise equity in the capital markets will help align the incentives of managers with those of stockholders. Why? Because it increases the cost to managers of operating the business inefficiently. In order to raise equity at a reasonable cost, the managers must be careful how efficiently they are operating the business. The process of raising new equity involves a special audit that is more detailed than an annual audit and invites the close attention of lawyers, investment bankers, and outside experts. These outside parties provide a certification function that increases the amount of public information about the firm’s activities. Voluntarily submitting to such outside certification—by paying a dividend and issuing equity rather than just keeping cash inside the firm—can ultimately lead to better company performance and the willingness of investors to pay a higher price for the company’s stock.
+
+One last potential benefit of paying dividends is that dividends can be useful in managing the capital structure of a company. The trade-off theory of capital structure, which we discussed in Chapter 16, tells us that there is an optimal mix of debt and equity that maximizes the value of a firm. To the extent that a company is internally generating more equity than it can profitably invest, the fraction of debt in its capital structure will always be decreasing over time unless the company borrows more money (which it doesn’t need) or distributes cash to stockholders. Paying dividends can help keep the firm’s capital structure near its optimal mix.
+
+Costs of Dividends
+
+In addition to benefits, there are costs associated with dividends. Taxes are among the most important of these costs. As we discussed earlier, dividends are taxable, and the stockholders of firms that pay dividends have no choice but to receive the dividends and pay the associated taxes if they want to own the stock. Tax rates on dividends have varied substantially over time. Before 2003, dividends were taxed as ordinary income by the federal government in the United States. This meant that, depending on the stockholder’s income, as much as 39.6 percent of the dividend would be paid to the federal government in taxes. Tax law changes made in 2003 lowered this top rate to 15 percent, making it the same as the top rate on capital gains. The top rates on both dividends and capital gains were increased to 23.8 percent in 2013, but have since declined to 20 percent. Dividends are also taxed by a number of states, so the total tax rate paid by investors can be higher.
+
+Stockholders can always sell some of their shares to “manufacture” their own dividends, as we discussed earlier. If they do this, they pay taxes only on the profit on the sale. Unless the stockholder received the stock for free, this profit is a smaller amount than the amount the dividend would be. Furthermore, the U.S. tax system has typically treated capital gains differently from dividends. If you own a stock for some specified period of time, currently 12 months, any gain on the sale of that stock is treated as a capital gain. Until 2003, as mentioned, dividends were taxed as ordinary income, and the ordinary income tax rate for most taxpayers was higher than the capital gains tax rate. Thus, before 2003, if you sold shares rather than receiving dividends, you not only paid taxes on a smaller amount, but you also paid a lower rate on the amount that was taxable. Since 2003, the tax rates have been the same for dividends and capital gains. If history is any indication, however, tax rates on dividends may be higher again in the not-too-distant future.
+
+In addition to paying taxes on dividends, owners of stocks that pay dividends often have to pay brokerage fees if they want to reinvest the proceeds. To eliminate this cost, some companies offer dividend reinvestment programs (DRIPs). Through a DRIP, a company sells new shares, commission free, to dividend recipients who elect to automatically reinvest their dividends in the company’s stock. While DRIPs eliminate transaction costs, they do not affect the taxes that must be paid on the dividends. Also, since it is costly to administer a DRIP, these programs effectively transfer the cost from the stockholders who want to reinvest to the firm (which means all stockholders).
+
+dividend reinvestment program (DRIP) a program in which a company sells new shares, commission free, to dividend recipients who elect to automatically reinvest their dividends in the company’s stock
+
+It is worth remembering that the total value of the assets in a company goes down when a dividend is paid. To the extent that a company uses a lot of debt financing, paying dividends can increase the cost of debt. This will happen if the payment of dividends reduces the value of the assets underlying debt holder claims on the cash flows from the firm. With less valuable assets, the debt holders face greater risk of default. To compensate for this greater risk, they will charge the company a higher rate on its debt.
+
+Stock Price Reactions to Dividend Announcements
+In the earlier discussion of the dividend payment process, we stated that the price of a company’s stock often changes when a dividend is announced. We also noted that this happens because the public announcement sends a signal to the market about what management thinks the future performance of the firm will be. Let’s consider this issue in more detail.
+
+We can think about the market’s reaction to a dividend announcement in the context of what we call the cash flow identity, a term which means that, during any period, the sources of cash must equal the uses of cash in a firm:
+
+where:
+
+               CFOAt	=	cash flow to investors from operating activity in period t
+             Equityt	=	proceeds from the sale of stock in period t
+                Debtt	=	proceeds from the sale of debt in period t
+                  Divt	=	dividends paid in period t
+Repurchasest	=	cash used to repurchase stock in period t
+         Interestt	=	interest payments to debt holders in period t
+       Principalt	=	principal payments on debt in period t
+                  Invt	=	investments in net working capital and fixed assets period t
+How can this identity help us to understand how investors use dividend announcements to infer what management thinks the firm’s future performance will be? Let’s consider an example. Assume that a company has just announced an increase in its dividend payments that investors did not expect. If the company is not selling new equity or debt and is not repurchasing stock, and its investment in fixed assets and net working capital does not change, this means that Divt is going up and that Equityt, Debtt, Repurchasest, Interestt, Principalt, and Invt are not changing. Since investors know that the cash flow identity must hold, CFOAt, the cash flow to investors from operating activity, must be expected to increase. This situation can be illustrated as follows:
+
+An expected increase in the cash flow to investors from operating activity is a good signal, and investors will interpret it as suggesting that cash flows to stockholders will increase in the future. As a result, the stock price should go up.
+
+Evidence from studies of stock price reactions to dividend announcements is generally consistent with this theory. This evidence indicates that when a company announces it will begin paying a regular cash dividend, its stock price increases by an average of about 3.5 percent. Similarly, announcements of increases in regular cash dividends are associated with an average stock price increase of 1 to 2 percent. In contrast, the announcement that a company will reduce its regular cash dividend is associated with a 3.5 percent decrease in its stock price, on average. An announcement that a company will pay a special dividend is associated with an average stock price increase of about 2 percent.
+
+It is important to recognize that we cannot interpret these studies as proof that changes in dividends cause changes in stock prices. Rather, the cash flow identity suggests that managers change dividends when something fundamental has changed in the business. It is this fundamental change that causes the stock price to change. The dividend announcement is really just the means by which investors find out about the fundamental change. Although there are benefits and costs associated with dividend payments, the sizes of these benefits and costs tend to be relatively small compared with the changes in value associated with the fundamental changes that take place in firms. By the same token, there is no evidence that it is possible to increase firm value by increasing dividends. Again, dividend changes only provide a signal concerning a fundamental change at the firm. In this sense, they are only by-products of the change.
+
+Dividends versus Stock Repurchases
+As we noted earlier, stock repurchases are an alternative to dividends as a way of distributing value. Our discussion has already suggested that stock repurchases have some distinct advantages over dividends. They give stockholders the ability to choose when they receive the distribution, which affects the timing of the taxes they must pay as well as the cost of reinvesting funds that are not immediately needed. In addition, stockholders who sell shares back to a company pay taxes only on the gains they realize, and historically these capital gains have been taxed at a lower rate than dividends.
+
+From management’s perspective, stock repurchases provide greater flexibility in distributing value. We have already discussed how stock prices react to announcements of changes in dividend payments. We can therefore imagine why managers might find stock repurchases relatively more attractive. Even when a company publicly announces an ongoing open-market stock repurchase program, as opposed to a regular cash dividend, investors know that management can always quietly cut back or end the repurchases at any time. In contrast, dividend programs represent a stronger commitment to distribute value in the future because they cannot be quietly ended. For this reason, investors know that managers will initiate regular cash dividends only when they are quite confident that they will be able to continue them for the long run.
+
+Thus, if future cash flows are not certain, managers are likely to prefer to distribute extra cash today by repurchasing shares through open-market purchases because this enables them to preserve some flexibility. If cash flows decline in the future, management can reduce the repurchases without a pronounced effect on the company’s stock price.
+
+Potentially offsetting the advantages of stock repurchases are a few notable disadvantages. One of these disadvantages is the flip side of the signaling benefit discussed in the previous paragraph. Since most ongoing stock repurchase programs are not as visible as dividend programs, they cannot be used as effectively to send a positive signal about the company’s prospects to investors.
+
+A more subtle issue concerns the fact that managers can choose when to repurchase shares in a stock repurchase program. Just like other investors, managers prefer purchasing shares when they believe that the shares are undervalued in the market. The problem is that since managers have better information about the company’s prospects than do other investors, they can take advantage of this information to the detriment of other investors. If managers are taking advantage of superior information, their repurchases are effectively transferring value from stockholders who choose to sell their shares (perhaps because they simply need money to live on) to stockholders who choose to remain invested in the company. A transfer of wealth from one group of stockholders to another is a problem. Remember that management is supposed to act in the best interest of all of the firm’s stockholders.
+
+Companies in the United States have historically distributed more value through dividend payments than through stock repurchases. This suggests that managers have, on balance, found dividends more attractive. However, in recent years the popularity of stock repurchases has increased. From 2005 to 2007, the total dollar value distributed through stock repurchases exceeded the value distributed through dividends for the first time. While the dollar value of stock repurchases has been below that of dividends since 2008, it has remained at historically high levels. At the same time, the way companies pay dividends and how much they pay have changed substantially. Between 1978 and 2000, the number of public industrial companies in the United States that paid dividends declined dramatically, from approximately 2,250 to 926. Interestingly, the companies that stopped paying dividends were primarily those that had paid small dividends. The total value of dividends paid has actually increased since 1978 even after adjusting for inflation. The net result is that the firms that pay dividends are, on average, paying larger dividends.
+
+These trends are illustrated in Exhibit 17.4, which shows the total dollar value of dividends paid and stock repurchased by public U.S. firms over the last four decades, from 1980 to 2019. The exhibit also shows the total value of dividends and of stock repurchases as a percentage of the total market capitalization (total equity value) of public U.S. firms. You can see that the fraction of total equity value that is being distributed to stockholders has declined.
+
+EXHIBIT 17.4 Dividend Payments and Stock Repurchases by U.S. Public Firms, 1980–2019 Both the dollar value of dividends paid by U.S. public firms and the dollar value of stock repurchases increased over the period from 1980 to 2019, as shown in the top figure. However, the increase was more pronounced for stock repurchases. Despite these increases in dollar values, total distributions of value as a percentage of the total market capitalization (total equity value) of U.S. firms actually decreased, as shown in the bottom figure.
+
+
+Source: Estimated by authors using data from the Standard and Poors’ Compustat database.
+DECISION MAKING EXAMPLE 17.1
+Choosing a Payout Method
+
+Situation
+
+You are the chief executive officer of San Marcos Pharmaceuticals, a generic drug manufacturing firm. With patents on a lot of brand-name drugs sold by other pharmaceutical firms expiring, San Marcos has been doing very well manufacturing generic copies of those drugs. In fact, business has been going so well that San Marcos is generating more cash flow than is required for investment in the positive NPV projects that are available to the company.
+
+You have decided that you want to distribute the excess (free) cash flow to stockholders rather than accumulate it in the company’s cash accounts. You expect the company to continue to generate free cash flow in the future, but the amount is likely to vary considerably as competitors also start to produce generic drugs. You want to be able to adjust distributions as free cash flows rise and fall but do not want to make San Marcos’s stock price any more volatile than it already is. Furthermore, relatively few of the company’s shares are held by investors that do not pay taxes, such as pension funds and university endowments, so you would prefer that the distributions be as tax efficient as possible.
+
+Your chief financial officer tells you that the most feasible means of distributing the excess cash on an ongoing basis is to pay a regular cash dividend or to repurchase shares through open-market repurchases. Which of these two options should you choose?
+
+
+
+Decision Making Example 17.1 illustrates the choice of a payout method.
+
+Before You Go On
+What are the benefits and costs associated with dividends?
+How do stock prices react to dividend announcements?
+Why might stock repurchases be preferred to dividends?
+
+To read more about the dividend and repurchase activity by firms in the S&P Indices, see the discussion provided in this 2020 report by S&P Global: www.spglobal.com/spdji/en/documents/research/research-sp-examining-share-repurchases-and-the-sp-buyback-indices.pdf
+
+17.4 Stock Dividends and Stock Splits
+LEARNING OBJECTIVE
+
+Define stock dividends and stock splits, and explain how they differ from other types of dividends and from stock repurchases.
+Recall that earlier we defined a dividend as something of value distributed to a firm’s stockholders on a pro-rata basis The term dividend is not always used so precisely. In this section, we discuss actions taken by financial managers that are associated with dividends but that do not involve a distribution of value and are, therefore, not really dividends.
+
+Stock Dividends
+One type of dividend that does not involve the distribution of value is known as a stock dividend. When a company pays a stock dividend, it distributes new shares of stock on a pro-rata basis to existing stockholders. For example, if a company pays a 10 percent stock dividend, it gives each stockholder a number of new shares equal to 10 percent of the number of shares the stockholder already owns.8 If an investor owns 100 shares, that investor receives 10 additional shares. An investor that owns 500 shares receives 50 additional shares, and so on. Although stock dividends are not as common as regular cash dividends, a number of companies pay stock dividends. For example, Enbridge Energy Management, Tootsie Roll Industries, and United Security Bancshares all paid stock dividends recently.
+
+stock dividend a distribution of new shares to existing stockholders in proportion to the percentage of shares that they own (pro rata); the value of the assets in a company does not change with a stock dividend
+
+To understand why no value is distributed when a stock dividend is paid, consider again a company that pays a 10 percent stock dividend. Assume that the company has total assets with a market value of $11,000, that it has 10,000 shares of stock outstanding, and that it has no debt. Since there is no debt, the stockholders own all of the assets in the firm, and each share is worth $1.10 ($11,000/10,000 shares = $1.10 per share).
+
+When the 10 percent stock dividend is paid, the number of shares outstanding increases by 10 percent, from 10,000 to 11,000. Notice that this is really just an accounting change, since no assets are going out of the company. As a result, the value of the total assets in the company does not change, and the value of each share decreases from $1.10 to $1.00 ($11,000/11,000 shares = $1.00 per share). All that happens when the stock dividend is paid is that the number of shares each stockholder owns increases and their value goes down proportionately. The stockholder is left with exactly the same value as before. In our example, a stockholder who owned 100 shares worth $110 ($1.10 per share × 100 shares = $110) before the stock dividend will own 110 shares worth $110 ($1.00 per share × 110 shares = $110) afterward.
+
+Stock Splits
+A stock split is quite similar to a stock dividend, but it involves the distribution of a larger multiple of the outstanding shares.9 As the name suggests, we can think of a stock split as an actual division of each share into more than one share. For example, in a stock split, stockholders frequently receive one additional share for each share they already own. This is known as a two-for-one stock split. Stock splits can also involve larger ratios. For example, there might be a three-for-one stock split in which each stockholder receives two additional shares for each share of stock he or she owns. Besides their size, a key distinction between stock dividends and stock splits is that stock dividends are typically regularly scheduled events, like regular cash dividends, whereas stock splits tend to occur infrequently during the life of a company.
+
+stock split a pro-rata distribution of new shares to existing stockholders that is not associated with any change in the assets held by the firm; stock splits involve larger increases in the number of shares than stock dividends
+
+An example of a stock split is the four-for-one stock split that Apple, Inc., announced on July 30, 2020. In this stock split, each Apple stockholder received three additional shares for each share that he or she owned on August 28, 2020.
+
+As with a stock dividend, nothing substantial changes when a stock split takes place. A stockholder might own twice as many shares after the split, but because the split does not change the nature of the company’s assets, those shares represent the same proportional ownership in the company as the original shares. In this sense, stock splits are like cutting a pizza into more and more slices, which won’t make the pizza any bigger. In the Apple example, the prices per share at the close of trading on Friday, August 28, and Monday, August 31, the next trading day, were $499.24 and $127.58, respectively. This 74.4 percent [($127.58 − $499.24)/$499.24 = −0.744, or −74.4 percent] price decline was almost equal to the 75 percent decline that we would expect from a four-for-one stock split.10 The number of shares went up, while the value of the expected cash flows against which stockholders had claims remained essentially unchanged.
+
+Reasons for Stock Dividends and Splits
+At this point, you might be asking why companies pay stock dividends or split their stock. The most often cited reason is known as the trading range argument. This argument proposes that successful companies use stock dividends or stock splits to make their shares more attractive to investors. Why would stock dividends or splits have this effect? Suppose the price of the stock of a successful company was allowed to continue to increase over a long time. Eventually, few investors would be able to afford to purchase a round lot of 100 shares. This, in turn, could affect the company’s stock price.
+
+To understand this argument, you must know that it has historically been more expensive for investors to purchase odd lots, which consist of less than 100 shares, than round lots, which are multiples of 100 shares. Odd lots are less liquid than round lots because more investors want to buy round lots. Because of these disadvantages, investors tend to be less than enthusiastic about purchasing odd lots of less than 100 shares and managers prefer that they do not. According to the trading range argument, when buying a round lot becomes too expensive, investors might avoid buying the stock at all. Stock dividends and splits offer ways to bring the price of the stock down to the appropriate “trading range.”
+
+Although the trading range argument may be appealing to some, researchers have found little support for it. After a stock split, the stock’s dollar trading volume does not appear to be higher than it was before the split. Also, the transaction costs argument no longer carries much weight, as there is now no difference in the costs of purchasing round lots and odd lots. Recently, a number of Fintech startups, including Robinhood and Betterment, have begun to sell fractional shares to individuals. These shares offer investors ownership rights to just a fraction of an individual share of stock, making the per-share market price of stocks much less important.
+
+In the stock market, shares of some companies trade at per-share prices that are far above what is typically thought of as a normal trading range. The most famous of these companies is Berkshire Hathaway, Inc. Its class A shares were trading for $353,194 per share on January 13, 2021, with no apparent negative effects.11
+
+One real benefit of stock splits is that they can send a positive signal to investors about management’s outlook for the future. This, in turn, can lead to a higher stock price. After all, management is unlikely to want to split the stock of a company two-for-one or three-for-one if it expects the stock price to decline. It is only likely to split the stock when it is confident that the stock’s current market price is not too high. A number of research studies have reported evidence indicating that investors tend to interpret stock splits as good news.12
+
+Companies occasionally do reverse stock splits, in which case the number of shares owned by each stockholder is reduced. For example, in a 1-for-10 reverse split, a stockholder receives one share in exchange for each ten shares he or she owned before. If you owned 1,000 shares of the stock of such a company, you would have only 100 (1,000/10 = 100) shares after the reverse stock split.
+
+Reverse stock splits may be undertaken to satisfy exchange requirements. For example, the New York Stock Exchange generally requires listed shares to trade for more than $5, and the NASDAQ requires shares to trade for at least $1. Being removed from the NYSE or NASDAQ can dramatically reduce the liquidity of the company’s stock and harm management’s ability to raise capital in the future. A reverse stock split can help avoid these negative effects by keeping the per-share price above the required thresholds.
+
+Before You Go On
+What is a stock dividend?
+How does a stock dividend differ from a stock split?
+How does a stock dividend differ from other types of dividends?
+17.5 Setting a Dividend Payout
+LEARNING OBJECTIVE
+
+Describe factors that managers consider when setting the dividend payouts for their firms.
+An important question that you may be asking yourself is exactly how managers set the dividend payouts for their firms. In this section, we discuss the results from two important surveys. These surveys deal with how managers select their dividend payouts and what practical considerations managers must balance when they choose a dividend payout.
+
+What Managers Tell Us
+The best known survey of dividend decisions was published in 1956, more than 60 years ago, by John Lintner.13 The survey asked managers at 28 industrial firms how they set their firms’ dividend payouts. The key conclusions from the Lintner study are as follows:
+
+Firms tend to have long-term target payout ratios.
+Dividend changes follow shifts in long-term sustainable earnings.
+Managers focus more on dividend changes than on the level (dollar amount) of the dividend.
+Managers are reluctant to make dividend changes that might have to be reversed.
+These results are consistent with the idea that managers tend to use dividends to distribute excess earnings and that they are concerned about unnecessarily surprising investors with bad news.
+
+A more recent study, published in 2005, updates Lintner’s findings.14 The authors conducted a survey of 384 financial executives and personally interviewed 23 other managers. They found that managers continue to be concerned about surprising investors with bad news. Indeed, maintaining level dividend payouts is as important to executives as the investment decisions they make. The authors also found, as Lintner did, that the expected stability of future earnings affects dividend decisions. However, the link between earnings and dividends is weaker today than when Lintner conducted his survey.
+
+In response to the increased use of stock repurchases, the authors of the 2005 study asked managers about their views on repurchases. They found that rather than setting a target level for repurchases, managers tend to repurchase shares using cash that is left over after investment spending. In addition, many managers prefer repurchases because repurchase programs are more flexible than dividend programs and because they can be used to time the market by repurchasing shares when management considers its company’s stock price too low. Finally, the managers who were interviewed appeared to believe that institutional investors do not prefer dividends over repurchases or vice versa. In other words, the choice between these two methods of distributing value has little effect on who owns the company’s stock.
+
+Practical Considerations in Setting a Dividend Payout
+In this chapter, we have discussed a wide range of factors that enter into managers’ decisions regarding the selection of their firms’ dividend payouts. While the details are important, it is easy to get caught up in them and to lose sight of the big picture. A company’s dividend payout decision is largely about how the excess value in a company is distributed to its stockholders. Central to choosing this payout is the question of how much value should be distributed. It is extremely important that managers choose their firm’s dividend payouts in a way that enables them to continue to make the investments necessary for the firm to compete in its product markets. With this in mind, managers should consider several practical questions when selecting a dividend payout, including the following:
+
+Over the long term, how much does the company’s level of earnings (cash flows from operations) exceed its investment requirements? How certain is this level?
+Does the firm have enough financial reserves to maintain dividend payouts in periods when earnings are down or investment requirements are up?
+Does the firm have sufficient financial flexibility to maintain dividends if unforeseen circumstances wipe out its financial reserves when earnings are down?
+Can the firm quickly raise equity capital if necessary?
+If the company chooses to finance dividends by selling equity, will changes in the number of stockholders have implications for control of the company?
+Before You Go On
+How are dividend payouts affected by expected earnings?
+What did the 2005 study conclude about how managers view stock repurchases?
+List three practical considerations managers should take into account when setting a dividend payout.
+Summary of Learning Objectives
+1 Explain what a dividend is, and describe the different types of dividends and the dividend payment process. Calculate the expected change in a stock’s price around an ex-dividend date.
+
+A dividend is something of value that is distributed to a firm’s stockholders on a pro-rata basis—that is, in proportion to the percentage of the firm’s shares that they own. There are four types of dividends: (1) regular cash dividends, (2) extra dividends, (3) special dividends, and (4) liquidating dividends. Regular cash dividends are cash dividends that firms pay on a regular basis (typically quarterly). Extra dividends are paid, often at the same time as a regular cash dividend, when a firm wants to distribute additional cash to its stockholders. Special dividends are one-time payments that are used to distribute large amounts of cash. A liquidating dividend is paid when a company goes out of business and is liquidated.
+
+The dividend payment process begins with a vote by the board of directors to pay a dividend. This vote is followed by public announcement of the dividend on the declaration date. On the ex-dividend date, the shares begin trading without the right to receive the dividend. The record date, which follows the ex-dividend date by two days, is the date on which an investor must be a stockholder of record in order to receive the dividend. Finally, the payable date is the date on which the dividend is paid.
+
+Learning by Doing Application 17.1 shows how to calculate the expected change in a stock’s price around the ex-dividend date.
+
+2 Explain what a stock repurchase is and how companies repurchase their stock. Calculate how taxes affect the after-tax proceeds that a stockholder receives from a dividend and from a stock repurchase.
+
+A stock repurchase is a transaction in which a company purchases some of its own shares from stockholders. Like dividends, stock repurchases are used to distribute value to stockholders. The three ways in which stock is repurchased are (1) open-market repurchases, (2) tender offers, and (3) targeted stock repurchases. With open-market repurchases, the company purchases stock on the open market, just like any investor does. A tender offer is an open offer by a company to purchase shares. Finally, targeted stock repurchases are used to purchase shares from specific stockholders.
+
+The calculation of the after-tax proceeds that a stockholder receives is illustrated in the text and in Learning by Doing Application 17.2.
+
+3 Discuss the benefits and costs associated with dividend payments, and compare the relative advantages and disadvantages of dividends and stock repurchases.
+
+The potential benefits from paying dividends include (1) attracting investors who prefer dividends, (2) sending a positive signal to the market concerning the company’s prospects, (3) helping to provide managers with incentives to manage the company more efficiently, and (4) helping to manage the company’s capital structure. One cost of dividends is the fact that a stockholder must take a dividend, and pay taxes on the dividend, whether or not he or she wants the dividend. Stockholders who want to reinvest the dividend in the company must, unless there is a dividend reinvestment program (DRIP), pay brokerage fees to reinvest the money. Finally, paying a dividend can increase a company’s leverage and thereby increase its cost of debt.
+
+With a stock repurchase program, investors can choose whether they want to sell their shares back to the company. Historically, stock repurchases also received more favorable tax treatment. From management’s point of view, stock repurchase programs offer more flexibility than dividends and can have less of an effect on the company’s stock price. One disadvantage of stock repurchases involves an ethical issue: Managers have better information than others about the prospects of their companies, and a stock repurchase can enable them to take advantage of this information in a way that benefits the remaining stockholders at the expense of the selling stockholders.
+
+4 Define stock dividends and stock splits, and explain how they differ from other types of dividends and from stock repurchases.
+
+Stock dividends involve the pro-rata distribution of additional shares in a company to its stockholders. Stock splits are much like stock dividends but involve larger distributions of shares than stock dividends. Stock dividends and stock splits differ from other types of dividends because they do not involve the distribution of value to stockholders. The total value of each stockholder’s shares is largely the same after a stock dividend or stock split as it was before the distribution. Since they do not involve the distribution of value, stock dividends are not really dividends at all.
+
+5 Describe factors that managers consider when setting the dividend payouts for their firms.
+
+A company’s dividend payout decision is largely about how excess value in the company is distributed to its stockholders. Setting the payout depends on several factors: the expected level and certainty of the firm’s future profitability, the firm’s future investment requirements, the firm’s financial reserves and financial flexibility, the firm’s ability to raise capital quickly if necessary, and the control implications of financing dividends by selling equity.
+
+Self-Study Problems
+17.1 You would like to own a common stock that has a record date of Friday, September 4, 2020. What is the last date that you can purchase the stock and still receive the dividend?
+
+
+
+17.2 You believe that the average investor is subject to a 20 percent tax rate on dividend payments. If a firm is going to pay a $0.30 dividend, by what amount would you expect the stock price to drop on the ex-dividend date?
+
+
+
+17.3 Management of the Veil Acts Company just announced that instead of a regular dividend this quarter, the company will repurchase shares using the same amount of cash that would have been paid in the suspended dividend. Should this be a positive or negative signal from the firm?
+
+
+
+17.4 Management of the Bernie Rubbel Company has just declared a three-for-one stock split. If you own 12,000 shares before the split, how many shares will you own after the split? What if it were a one-for-three reverse stock split?
+
+
+
+17.5 Two publicly traded companies in the same industry are similar in all respects except one. Whereas Publicks has issued debt in the public markets, Privicks has never borrowed from any public source. In fact, Privicks always uses private bank debt for its borrowing. Which firm is likely to have a more aggressive regular dividend payout? Explain.
+
+
+
+Discussion Questions
+17.1 Suppose that you live in a country where it takes 10 days to settle a stock purchase. By how many days will the ex-dividend date precede the record date?
+
+17.2 The price of a share of stock is $15 on Tuesday, November 16, 2020. The record date for a $0.50 dividend is Friday, November 20, 2020. If there are no taxes on dividends, what would you expect the price of a share to be on each day from November 16 through 20 if no other information relevant to the price of the shares becomes public?
+
+17.3 You find that you are the only investor in a particular stock who is subject to a 15 percent tax rate on dividends (all other investors are subject to a 5 percent tax rate on dividends). Is there greater value to you in holding the stock beyond the ex-dividend date or selling the stock and then repurchasing it on or after the ex-dividend date? Assume that the stock is currently selling for $10.00 per share and the dividend will be $0.25 per share.
+
+17.4 Discuss why the dividend payment process is so much simpler for private companies than for public companies.
+
+17.5 You are the CEO of a firm that appears to be the target of a hostile takeover attempt. Thibeaux Piques has been accumulating the shares of your stock and now holds a substantial percentage of the outstanding shares. You would like to purchase the shares that he owns. List the possible stock repurchase methods that you could use. What are the advantages and disadvantages of each?
+
+17.6 You have accumulated stock in a firm that does not pay cash dividends. You have read that, according to Modigliani and Miller, you can create a “homemade” dividend should you require cash. Discuss why this choice may not be very good for the overall value of your position.
+
+17.7 You have just read a press release in which a firm claims that it will be able to generate a higher level of cash flows for its investors going forward. Justify the choice of a dividend payout that could credibly convey that information to the market.
+
+17.8 Some people argue that a high tax rate on dividends creates incentives for managers to go about their business without credibly convincing investors that the firm is doing well, even when it is. Discuss why this may be true.
+
+17.9 Fred Flightstone Mining Co. management does not like to pay cash dividends due to the volatility of the company’s cash flows. Management has found, however, that when the company does not pay dividends, its stock price becomes too high for individual investors. What course of action could management take to get the stock price down without dissipating firm value for stockholders?
+
+17.10 The Lintner study found that firms are reluctant to make dividend changes that might have to be reversed. Discuss the rationale for that behavior.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+17.1 Dividends: The Poseidon Shipping Company has paid a $0.25 dividend per quarter for the past three years. Poseidon just lowered its declared dividend to $0.20 for the next dividend payment. Discuss what this new information might convey concerning Poseidon management’s belief about the future of the company.
+
+17.2 Dividends: Marx Political Consultants management has decided to discontinue all of the firm’s business operations. The firm has total debt of $7 million, and the liquidation value of its assets is $10 million. If the book value of the firm’s equity is $5 million, then what will be the amount of the liquidating dividend when the firm liquidates all of its assets?
+
+17.3 Dividends: Place the following in the proper chronological order, and describe the purpose of each: ex-dividend date, record date, payment date, and declaration date.
+
+17.4 Dividends and firm value: Explain how the issuance of new securities by a firm can produce useful information about the issuing firm. How can this information make the shares of the firm more valuable, even if it only confirms existing information about the firm?
+
+17.5 Dividends: Explain why holders of a firm’s debt should insist on a covenant that restricts the amount of cash dividends the firm pays.
+
+17.6 Stock splits and stock dividends: Explain why managers of firms might prefer that their firms’ shares trade in a moderate per-share price range rather than in a high per-share price range. How do managers of firms keep their shares trading in a moderate price range?
+
+17.7 Dividends: Scintilla, Inc., stock is trading for $10.00 per share on the day before the ex-dividend date. If the dividend is $0.25 and there are no taxes, what should the price of the shares be on the ex-dividend date?
+
+17.8 Dividends: A company’s management announces a $1 per share dividend payment. Assuming all investors are subject to a 15 percent tax rate on dividends, how much should the company’s share price drop on the ex-dividend date?
+
+Intermediate
+17.9 Dividends and firm value: Explain how a stock repurchase is different from a dividend payment.
+
+17.10 Dividends and firm value: You have just encountered two identical firms with identical investment opportunities, as well as the ability to fund these opportunities. One of the firms has just announced that it will pay a dividend, while the other has continued to pay no dividend. Which of the two firms is worth more? Explain.
+
+17.11 Dividends and firm value: Explain what the introduction of transaction costs does to the Modigliani and Miller assumption that dividends are irrelevant. Start with a firm that pays dividends to investors that do not want to receive dividend payments. Do not consider taxes.
+
+17.12 Dividends and firm value: CashCo increased its cash dividend each quarter for the past eight quarters. While this may signal that the firm is financially very healthy, what else could we conclude from these actions?
+
+17.13 Dividends and firm value: In 2013, the maximum tax rate on dividends increased from 15 percent to 23.8 percent. How would you expect this increase to affect the prices of dividend-paying stocks versus those of non-dividend-paying stocks?
+
+17.14 Dividends: Undecided Corp. has excess cash on hand right now, although management is not sure about the level of cash flows going forward. If management would like to put cash in stockholders’ hands, what kind of dividend should the firm pay, and why?
+
+17.15 Dividends and firm value: A firm can deliver a negative signal to stockholders by increasing the level of dividends or by reducing the level of dividends. Explain why this is true.
+
+17.16 Dividends and firm value: A commentator on a financial talk show on TV says that “On average, firms pay out too little to stockholders. This is why stock prices go up with dividend increases and down with dividend decreases.” Is the commentator right?
+
+17.17 Dividends and firm value: You own shares in a firm that has extra cash on hand to distribute to stockholders. You do not want the cash. What course of action would you prefer the firm take?
+
+17.18 Dividends and firm value: Stock repurchases, once announced, do not actually have to occur in total or in part. From a signaling perspective, why would a special dividend be better than a stock repurchase?
+
+17.19 Dividends and firm value: Consider a firm that repurchases shares from its stockholders in the open market, and explain why this action might be detrimental to the stockholders from whom the firm buys shares.
+
+17.20 Dividends and firm value: You read that a number of public companies have been financing their dividend payments in recent years entirely through equity issues. A colleague of yours argues that this only increases taxes paid by individual stockholders and boosts underwriting and other transactions costs for the company. He says that such a policy cannot make sense. What do you say?
+
+17.21 Stock repurchases: Briefly discuss the methods available for a firm to repurchase its shares, and explain why you might expect the stock price reaction to the announcement of each of these methods to differ.
+
+17.22 Stock repurchases: What is an advantage of a Dutch auction over a fixed-price tender offer?
+
+Advanced
+17.23 In the early 1990s, the amount of time that elapsed between purchasing a stock and actually obtaining that stock was five business days. This period was known as the settlement period. The settlement period for stock purchases is now two business days. Describe what should have happened to the number of days between the ex-dividend date and the record date at the time of this change.
+
+17.24 Dividend reinvestment programs (DRIPs) sometimes sell shares at a discount to stockholders who reinvest their dividends through such plans. Your boss tells you that such plans are just a scheme to transfer wealth from nonparticipating to participating stockholders and that they should be stopped. Do you agree? Why or why not?
+
+17.25 WeAreProfits, Inc., has not issued any new debt securities in 10 years. It will begin paying cash dividends to its stockholders for the first time next year. Explain how a dividend might help the firm get closer to its optimal capital structure of 50 percent debt and 50 percent equity.
+
+17.26 Shadows, Inc., had shares outstanding that were valued at $120 per share before a two-for-one stock split. After the stock split, the shares were valued at $62 per share. If we accept that the firm’s financial maneuver did not create any new value, then why might the market value of the shares increase?
+
+17.27 Saguaro Company currently has 30,000 shares outstanding. Each share has a market value of $20. If the firm pays $5 per share in dividends, what will each share be worth after the dividend payment? Ignore taxes.
+
+17.28 Cholla Company currently has 30,000 shares outstanding. Each share has a market value of $20. If the firm repurchases $150,000 worth of shares, then what will be the value of each share outstanding after the repurchase? Ignore taxes.
+
+17.29 You purchased 1,000 shares of Koogal stock five years ago for $30 per share. Today Koogal is repurchasing your shares through a fixed-price tender offer for $80 per share. What are the after-tax proceeds to you if your capital gain is taxed at a 15 percent rate?
+
+17.30 You purchased 1,000 shares of Zebulon Copper Co. five years ago for $50 per share. Today Zebulon management is trying to decide whether to repurchase shares for $70 per share through a fixed-price tender offer or pay a $70 cash dividend per share. If capital gains are taxed at a 15 percent rate, then at what rate must dividends be taxed for you to be indifferent between receiving the dividend and selling your shares back to Zebulon?
+
+17.31 Llama Wool Company management is doing some financial planning for the coming year. Llama plans to raise $10,000 in new equity this year and wants to pay a dividend to stockholders of $30,000. The firm must pay $20,000 of interest during the year and will also pay down principal on its debt obligations by $10,000. Its capital budgeting plan calls for $100,000 of capital expenditures during the year. Given the above information, how much cash must be provided from operations for the firm to meet its plan?
+
+17.32 You are the chief financial officer (CFO) of a large publicly traded company. You would like to convey positive information about the firm to the market. If you agree with the conclusions from the Lintner study, will you keep paying your currently high dividend or raise that dividend by a small amount? Explain.
+
+17.33 You are the CFO of a public company that advises distressed companies about how to manage their businesses. Your company has been performing extremely well. In fact, it has earned so much money that the increase in its retained earnings has resulted in a decline in the firm’s debt-to-total-capital ratio from 30 percent to 15 percent. Much of the retained earnings is sitting in a cash account because your firm does not need the money to fund investments. You would like to increase the debt-to-total-capital ratio to 30 percent, which you view as optimal for your firm. How would you recommend doing this if you want to complete the adjustment as soon as possible?
+
+Sample Test Problems
+17.1 Shares of Convoy West, Inc., are trading for $55.45 on the day before the ex-dividend date. If the quarterly dividend is $0.16 per share and there are no taxes, how will the share price change on the ex-dividend date?
+
+17.2 Three years ago, you purchased 4,000 shares of Metwa Inc. for $17 per share. Today Metwa is repurchasing its shares through a fixed-price tender offer at a price of $45 per share. What are the after-tax proceeds that you will receive if capital gains are taxed at a rate of 20 percent?
+
+17.3 Why does an ongoing stock repurchase program offer management greater flexibility in distributing value to stockholders than a regular cash dividend?
+
+17.4 Why would management of a company undertake a reverse stock split?
+
+17.5 Tesla, Inc., completed a five-for-one stock split on August 28, 2020. Immediately before the stock split, there were 186.32 million shares outstanding at a price of $2,213 per share. After the split, how many shares were outstanding, and at what price would you expect them to trade? Did the stock split cause any substantial change for Tesla or its investors? Why would Tesla management choose to split the company’s stock?
+
+Notes
+1 The investors will actually have less than 10 cents per share to invest if they are required to pay taxes on the dividend. Later in this chapter, we discuss how taxes affect the attractiveness of dividends to investors and the dividend decisions made by firms.
+2 www.seekingalpha.com/article/4397820-dividends-numbers-for-december-2020-and-2020-q4
+3 This was the increase in the debt-to-total-capital ratio from the day before the initial public announcement of the restructuring to the ex-dividend date. For a detailed discussion of the Sealed Air restructuring, see Karen Hopper Wruck, “Financial Policy, Internal Control, and Performance: Sealed Air Corporation’s Leveraged Special Dividend,” Journal of Financial Economics 36 (1994), 157–192.
+4 We do not have to worry about the time value of money in this example since we are assuming that the ex-dividend date is tomorrow.
+5 Note that this announcement does not obligate Walmart to continue paying quarterly dividends at that level. In fact, Walmart has increased its dividend payment on a regular basis, but there is no reason that the board could not reduce the quarterly dividend payment at some point in the future.
+6 An exception is when the dividend is viewed as a return of the capital that the stockholders have invested in the firm, rather than a distribution of profits. Dividends generally are not a return of capital unless they are very large or when they are liquidating dividends.
+7 The term tender offer is commonly used to refer to any open offer to purchase any shares, not just the shares of the firm making the announcement. For example, when a company tries to take over another company, it might begin by announcing a tender offer for that other company’s shares.
+8 Fractional shares are generally made up for by a small cash payment.
+9 Note that for accounting purposes, a stock split and a stock dividend are treated differently. From a finance point of view, however, they are similar events.
+10 If nothing else happened, and the split had none of the effects discussed in the following section, we would expect the Apple stock price to drop by exactly 75 percent. However, changes in market conditions and other circumstances at the firm, as well as possible effects of the split on the attractiveness of Apple’s stock, apparently combined to cause a price decline of slightly less than 75 percent.
+11 In 1996, Berkshire Hathaway issued a second class of stock, which was trading at $234.51 on January 13, 2021, but which had no voting rights. Until 2010, when these shares were split 50-to-1, they were trading for as much as $4,500 per share.
+12 For an example of such a study, see R. M. Conroy and R. S. Harris, “Stock Splits and Information: The Role of Share Price,” Financial Management 28 (Autumn 1999), 28–40.
+13 J. Lintner, “Distribution of Incomes of Corporations among Dividends, Retained Earnings, and Taxes,” American Economic Review 46 (1956), 97–113.
+14 A. Brav, J. R. Graham, C. R. Harvey, and R. Michaely, “Payout Policy in the 21st Century,” Journal of Financial Economics 77 (2005), 483–527.

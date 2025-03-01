@@ -1,0 +1,1365 @@
+page 136 
+
+PART 2
+
+The Stock Market
+
+
+
+“One of the funny things about the stock market is that every time one man buys, another sells, and both think they are astute.”
+
+–William Feather
+
+“If you don’t know who you are, the stock market is an expensive place to find out.”
+
+–Adam Smith (pseud. for George J. W. Goodman)
+
+Learning Objectives
+
+Take stock in yourself. Make sure you have a good understanding of:
+
+The differences between private and public equity, and primary and secondary stock markets.
+
+The workings of the New York Stock Exchange.
+
+How NASDAQ operates.
+
+How to calculate index returns.
+
+On May 17, 1792, a group of commodity brokers met and signed the now famous Buttonwood Tree Agreement, thereby establishing the forerunner of what soon became the New York Stock Exchange (NYSE). While the NYSE structure was relatively stable for decades, there have been many recent changes. In 2007, the NYSE and Euronext completed a merger, forming the NYSE Euronext, which operated large and liquid stock exchanges in Amsterdam, Brussels, Paris, New York, and other cities worldwide. Then, in 2013, NYSE Euronext was acquired by the Intercontinental Exchange (or ICE), which was only 12 years old at the time. This industry is changing rapidly.
+
+Nonetheless, the NYSE is still the world’s best-known stock exchange. It’s big, too. In 2019, daily trading volume at the NYSE easily topped 1.5 billion shares on most days. Established in 1971, and now famous as an arena for “tech” stock investing, daily trading volume at the NASDAQ regularly reached 2.5 billion shares in 2019. Even though the trading volume suggests the NASDAQ might be larger, the NYSE is still about twice the size of the NASDAQ in terms of underlying market capitalization. Together, the NYSE and NASDAQ account for the vast majority of stock trading in the United States.
+
+CFATM Exam Topics in This Chapter:
+
+Market organization and structure (L1, S14)
+
+Security market indexes (L1, S14)
+
+Introduction to alternative investments (L1, S19)
+
+Private company valuation (L2, S11)
+
+Alternate investments portfolio management (L3, S15)
+
+Execution of portfolio decisions (L3, S18)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 137 
+
+With this chapter, we begin in earnest our study of stock markets. This chapter presents a big-picture overview of how a stock market works and how to read and understand stock market information reported in the financial press.
+
+5.1 Private Equity versus Selling Securities to the Public
+PRIVATE EQUITY
+The broad term private equity is often used to label the financing for nonpublic companies. For example, one day, you and a friend have a great idea for a new computer software product that helps users communicate using the next-generation Meganet. Filled with entrepreneurial zeal, you christen the product MegaComm and set about bringing it to market.
+
+Working nights and weekends, you are able to create a prototype of your product. It doesn’t actually work, but at least you can show it around to illustrate your idea. To develop a working product, you need to hire programmers, buy computers, rent office space, and so on. Unfortunately, because you are both college students, your combined assets are not sufficient to fund a pizza party, much less a start-up company. You need what is often referred to as OPM—other people’s money.
+
+Your first thought might be to approach a bank for a loan. You would probably discover, however, that banks are generally not interested in making loans to start-up companies with no assets (other than an idea) run by fledgling entrepreneurs with no track record. Instead, your search for capital would very likely lead you to the venture capital (VC) market, an important part of the private equity market.
+
+venture capital (VC)
+
+Financing for new, often high-risk ventures.
+
+Firms other than start-ups might need financing. Thus, in addition to venture capital, other areas of private equity include middle-market firms and large leveraged buyouts. We discuss each of these below, but before we do, we provide a general overview of a typical private equity fund. A private equity fund raises money from investors and invests in private companies.
+
+THE STRUCTURE OF PRIVATE EQUITY FUNDS
+Although they have differences, private equity funds and hedge funds share some characteristics. For example, both private equity funds and hedge funds are investment companies set up as limited partnerships that pool money from investors and then invest the money on behalf of those investors.
+
+Of course, investors pay private equity funds a management fee to make investment decisions and, in most cases, the investors also pay a performance fee. Similar to hedge funds, private equity funds typically use a 2/20 fee structure. Under this structure, the private equity fund charges a 2 percent annual management fee and retains 20 percent of all profits earned.
+
+Similar to hedge funds, private equity funds also have built-in constraints to prevent the fund managers from taking excessive compensation. Specifically, private equity funds generally have a high-water mark provision, as well as a clawback provision. The aim of a clawback provision is to make sure that the manager receives only the agreed-upon performance fee.
+
+Here is how a clawback works. Suppose the private equity fund is set up to have a two-year life. In its first year of operation, the private equity fund earns a 25 percent return. For every $1,000 in the fund, the managers of this private equity fund “receive” a hefty performance fee of $50 (20 percent of the $250 profit). In its second year, the private equity fund investors suffer a 10 percent loss. Under the terms of a typical clawback provision, the managers have to “give back” the first year’s performance fee when the fund is liquidated at the end of the second year. At liquidation, the managers earn a fee of $25 for every $1,000 in the fund (20 percent of the accumulated two-year profit of $125). Because the fund managers generally do not take any performance fees until the fund is liquidated, the performance fee for private equity firms is known as carried interest.
+
+Like hedge funds, the fees paid to the private equity managers significantly reduce the net return of the fund. The benefit of such investments is frequently debated. Right now, page 138the general thinking is that the average net return to investors in private equity funds is about equal to the return of small-cap stocks. So, is there any benefit to adding this type of investment to a portfolio? The answer depends on whether private equity funds provide significant diversification benefits to investors.
+
+Even if private equity funds do provide diversification benefits, they might not be a reasonable choice for most investors. First, an investor in private equity funds must be an accredited investor—that is, he or she must be “rich.” Second, the funds are really illiquid, possibly even more illiquid than hedge funds. A typical private equity fund is started by raising money from investors. After the money is raised, the managers invest in private companies, with the intention of improving them and subsequently exiting, preferably through an initial public offering (IPO). This process obviously can take some time. As a result, a typical fund will have a stated life of 7–10 years—which makes for an illiquid investment.
+
+TYPES OF PRIVATE EQUITY FUNDS
+VENTURE CAPITAL The term venture capital does not have a precise meaning, but it generally refers to financing for new, often high-risk ventures. For example, before it went public, internet auctioneer eBay was venture capital financed. Individual venture capitalists invest their own money, whereas venture capital firms specialize in pooling funds from various sources and investing them.
+
+Venture capitalists and venture capital firms recognize that many or even most new ventures will not fly, but the occasional one will. The potential profits are enormous in such cases. To limit their risk, venture capitalists generally provide financing in stages. At each stage, enough money is invested to reach the next milestone or planning stage. For example, the first-stage (or first “round”) financing might be enough to get a prototype built and a manufacturing plan completed. Based on the results, the second-stage financing might be a major investment needed to actually begin manufacturing, marketing, and distribution. There might be many such stages, each of which represents a key step in the process of growing the company.
+
+Venture capital firms often specialize in different stages. Some specialize in very early “seed money,” or ground floor, financing. In contrast, financing in the later stages might come from venture capitalists specializing in so-called mezzanine-level financing, where mezzanine level refers to the level just above the ground floor. This mezzanine-level financing could come in the form of either debt or equity. In either case, it will likely be structured to limit downside risk and retain upside profit potential. Examples of such securities include preferred stock that is convertible into common stock, or a bond that has some attached warrants or call options.
+
+The fact that financing is available in stages and is contingent on specified goals being met is a powerful motivating force for the firm’s founders. Often, the founders receive relatively little in the way of salary and have substantial portions of their personal assets tied up in the business. At each stage of financing, the value of the founder’s stake grows and the probability of success rises. If goals are not met, the venture capitalist will withhold further financing, thereby limiting future losses.
+
+In addition to providing financing, venture capitalists generally will actively participate in running the firm, providing the benefit of experience with previous start-ups as well as general business expertise. This is especially true when the firm’s founders have little or no hands-on experience in running a company.
+
+The internet is a tremendous source of venture capital information for both suppliers and demanders of capital. For example, see nvca.org.
+
+If a start-up succeeds, the big payoff frequently comes when the company is sold to another company or goes public. Either way, investment bankers are often involved in the process.
+
+MIDDLE MARKET When you hear the term venture capital, you probably think about investment in start-up companies. There are, however, many examples of private equity investments other than start-up companies. For example, many small, regional private equity funds concentrate their investments in “middle-market” companies. These companies are ongoing concerns (i.e., not start-ups) with a known performance history. Typically, these companies are small, and many are family owned and operated.
+
+page 139 
+
+Why would an established, middle-market company even be in the market for more capital? Many times these companies need capital if they wish to expand beyond their existing region. Other times, the founders of the firm want to retire from the business. In the latter case, the private equity fund might be interested in purchasing a portion, or all, of the business so that others can take over running the company.
+
+LEVERAGED BUYOUTS You might be familiar with the term going public, a process (that we discuss below) where a privately owned company sells ownership shares to the public market. However, what if the opposite happens? What if the company (or someone else) purchases all the shares held by the public at large? This process is called taking the company private. Because most publicly traded companies have a large market capitalization, the cost of going private is high. So a manager or investor who wants to take a company private probably needs to borrow a significant amount of money. Taking a company private using borrowed money is called a leveraged buyout (LBO). With its need for borrowed money, the activity level in the LBO market depends on credit market conditions.
+
+How big is the typical LBO? Unfortunately, there is no “typical” LBO. We can give you an idea, however, of the potential size of such deals. For example, during the height of the LBO boom around 2007, the Blackstone Group bought Hilton Hotels for $26 billion; Apollo and TPG funds bought Harrah’s Entertainment for $31 billion; and a group led by Goldman Sachs bought the energy firm TXU for around $48 billion.
+
+No matter the situation—venture capital, middle market, or LBO—the process and securities used will generally follow the structure we identified in the previous sections. The main difference among the types of private equity funds is really just the types of firms in which the funds are investing.
+
+SELLING SECURITIES TO THE PUBLIC
+The goal of the private equity funds we just discussed is to invest in a private company, improve its performance, and then exit the business with a profit. Exiting the firm can be accomplished by selling to another investor. Typically, however, the preferred route is to sell the firm to the general public.
+
+What about private companies that do not have private equity investors? Well, the managers of these companies might decide to raise additional capital by selling shares directly to the general investing public. In either case, shares of stock in the firm would then be listed on a stock exchange.
+
+Want to buy shares of companies yet to go public? Check out
+nasdaqprivatemarket.com.
+
+When we talk about the stock market, we are talking about securities that have been sold to the public. The stock market consists of a primary market and a secondary market. In the primary, or new-issue, market, shares of stock are first brought to the market and sold to investors. In the secondary market, existing shares are traded among investors.
+
+primary market
+
+The market in which new securities are originally sold to investors.
+
+secondary market
+
+The market in which previously issued securities trade among investors.
+
+In the primary market, companies issue new securities to raise money. In the secondary market, investors are constantly appraising the values of companies by buying and selling shares previously issued by these companies. We next discuss the operation of the primary market for common stocks, and then we turn our attention to the secondary market for stocks.
+
+THE PRIMARY MARKET FOR COMMON STOCK
+The primary market for common stock is how new securities are first brought to market. It is best known as the market for initial public offerings (IPOs). An IPO occurs when a company offers stock for sale to the public for the first time. Typically, the company is small and growing, and it needs to raise capital for further expansion.
+
+initial public offering (IPO)
+
+A company’s first-time offer of stock for sale to the public.
+
+An IPO is sometimes called an unseasoned equity offering because shares are not available to the public before the IPO. If a company already has shares owned by the public, it can raise equity with a seasoned equity offering (SEO). The terms secondary and follow-on offering also refer to an SEO. A seasoned equity offering of common stock can be made using a general cash offer or a rights offer. In a general cash offer, securities are offered to the general public on a “first-come, first-served” basis. With a rights offer, securities are initially offered only to existing owners. Rights offerings are rare in the United States but common in other countries.
+
+seasoned equity offering (SEO)
+
+The sale of additional shares of stock by a company whose shares are already publicly traded.
+
+general cash offer
+
+An issue of securities offered for sale to the general public on a cash basis.
+
+rights offer
+
+A public issue of securities in which securities are first offered to existing shareholders (also called a rights offering).
+
+page 140 
+
+Obviously, all initial public offerings are cash offers. To illustrate how an IPO occurs, let’s look in on the software company that you started several years ago. Suppose your company was initially set up as a privately held corporation with 100,000 shares of stock, all sold for $1 per share. The reason your company is privately held is that shares were not offered for sale to the general public. Instead, you bought 50,000 shares for yourself and sold the remaining 50,000 shares to a few supportive friends and relatives (who assumed the role of venture capitalists).
+
+For more on IPOs, check out the IPO Center at
+123jump.com.
+
+Fortunately, your company has prospered beyond all expectations. However, company growth is now hampered by a lack of capital. At an informal stockholders’ meeting, it is agreed to take the company public. Not really knowing how to do this, you consult your accountant, who recommends an investment banking firm. An investment banking firm, among other things, specializes in arranging financing for companies by finding investors to buy newly issued securities.
+
+investment banking firm
+
+A firm specializing in arranging financing for companies.
+
+After lengthy negotiations, including an examination of your company’s current financial condition and plans for future growth, your investment banker suggests an issue of 4 million shares of common stock. Two million shares will be distributed to the original stockholders (you and your original investors) in exchange for their old shares. These 2 million shares distributed to the original stockholders ensure that effective control of the corporation will remain in their hands.
+
+After much haggling, your investment banker agrees to underwrite the stock issue by purchasing the other 2 million shares from your company for $10 per share. The net effect of this transaction is that you have sold half the company to the underwriter for $20 million. The proceeds from the sale will allow your company to build its own headquarters and double its staff of programmers and sales consultants.
+
+underwrite
+
+To assume the risk of buying newly issued securities from a company and reselling them to investors.
+
+Your investment banker will not keep the 2 million shares but instead will resell them in the primary market. She thinks the stock can probably be sold for $11 per share in an IPO. The difference between the $11 the underwriter sells the stock for and the $10 per share you received is called the underwriter spread, or discount. It is the basic compensation received by the underwriter. The typical underwriter spread is in the range of 7 to 10 percent, depending on the size of the offering. Sometimes the underwriter will also get noncash compensation in the form of warrants and stock in addition to the spread.
+
+underwriter spread
+
+Compensation to the underwriter, determined by the difference between the underwriter’s buying price and offering price.
+
+Underwriters combine to form an underwriting group called a syndicate to share the risk and to help sell the issue. In a syndicate, one or more managers arrange the offering. One manager is designated as the lead manager, or principal manager. The lead manager typically has the responsibility of pricing the securities. The other underwriters in the syndicate serve primarily to distribute the issue.
+
+syndicate
+
+A group of underwriters formed to share the risk and to help sell an issue.
+
+Two basic types of underwriting are typically involved in a cash offer: firm commitment and best efforts. A third, and less common, type of underwriting is Dutch auction underwriting.
+
+FIRM COMMITMENT UNDERWRITING In firm commitment underwriting, the issuer sells the entire issue to the underwriters, who then attempt to resell it. This is the most prevalent type of underwriting in the United States. This is really a purchase-resale arrangement, and the underwriter’s fee is the spread. For a new issue of seasoned equity, the underwriters can look at the market price to determine what the issue should sell for, and about 95 percent of all such new issues are firm commitments.
+
+firm commitment underwriting
+
+The type of underwriting in which the underwriter buys the entire issue, assuming full financial responsibility for any unsold shares.
+
+If the underwriter cannot sell all of the issue at the agreed-upon offering price, it may have to lower the price on the unsold shares. Nonetheless, with firm commitment underwriting, the issuer receives the agreed-upon amount, and all the risk associated with selling the issue is transferred to the underwriter.
+
+Because the offering price usually isn’t set until the underwriters have investigated how receptive the market is to the issue, this risk is usually minimal. Also, because the offering price usually is not set until just before selling commences, the issuer doesn’t know precisely what its net proceeds will be until that time.
+
+BEST EFFORTS UNDERWRITING In best efforts underwriting, the underwriter is legally bound to use “best efforts” to sell the securities at the agreed-upon offering price. Beyond page 141this, the underwriter does not guarantee any particular amount of money to the issuer. This form of underwriting has become very uncommon in recent years; firm commitments are now the dominant form.
+
+best efforts underwriting
+
+The type of underwriting in which the underwriter sells as much of the issue as possible but can return any unsold shares to the issuer without financial responsibility.
+
+DUTCH AUCTION UNDERWRITING With Dutch auction underwriting, the underwriter does not set a fixed price at which to sell the shares. Instead, the underwriter conducts an auction in which investors bid for shares. The offer price is determined based on the submitted bids. A Dutch auction is also known by the more descriptive name uniform price auction.
+
+Dutch auction underwriting
+
+The type of underwriting in which the offer price is set based on competitive bidding by investors. Also known as a uniform price auction.
+
+This approach to selling securities to the public is relatively new in the IPO market and has not been widely used there, but it is very common in the bond markets. For example, it is the sole procedure used by the U.S. Treasury to sell enormous quantities of notes, bonds, and bills to the public. Dutch auction underwriting was much in the news in 2004 because web search company Google elected to use this approach.
+
+The best way to understand a Dutch, or uniform price, auction is to consider a simple example. Suppose The Roserita Company wants to sell 400 shares to the public. The company receives five bids as follows:
+
+Bidder	Quantity	Price
+A	100 shares	  $16
+B	100 shares	    14
+C	200 shares	    12
+D	100 shares	    12
+E	200 shares	    10
+Thus, Bidder A is willing to buy 100 shares at $16 each, Bidder B is willing to buy 100 shares at $14, and so on. The Roserita Company examines the bids to determine the highest price that will result in all 400 shares being sold. So, for example, at $14, A and B would buy only 200 shares, so that price is too high. Working our way down, all 400 shares won’t be sold until we hit a price of $12, so $12 will be the offer price in the IPO. Bidders A through D will receive shares; Bidder E will not.
+
+Second, notice that at the $12 offer price, there are actually bids for 500 shares, which exceeds the 400 shares Roserita wants to sell. Thus, there has to be some sort of allocation. How this is done varies a bit, but in the IPO market, the approach has been to compute the ratio of shares offered to shares bid at the offer price or better, which, in our example, is 400/500 = .8, and allocate bidders that percentage of their bids. In other words, Bidders A through D would each receive 80 percent of the shares they bid, and each would pay a price of $12 per share.
+
+As is common with an IPO, some restrictions are imposed on you as part of the underwriting contract. Most importantly, you and the other original stockholders agree not to sell any of your personal stockholdings for six months after the underwriting (this is called the “lockup” period). This ties most of your wealth to the company’s success and makes selling the stock to investors a more credible undertaking by the underwriter. Essentially, investors are assured that you will be working hard to expand the company and increase its earnings.
+
+After the underwriting terms are decided, much of your time will be devoted to the mechanics of the offering. In particular, before shares can be sold to the public, the issue must obtain an approved registration with the Securities and Exchange Commission (SEC). The SEC is the federal regulatory agency charged with regulating U.S. securities markets.
+
+Securities and Exchange Commission (SEC)
+
+Federal regulatory agency charged with enforcing U.S. securities laws and regulations.
+
+SEC regulations governing IPOs are especially strict. To gain SEC approval, you must prepare a prospectus, normally with the help of outside accounting, auditing, and legal experts. The prospectus contains a detailed account of your company’s financial position, its operations, and its investment plans for the future. Once the prospectus is prepared, it is submitted to the SEC for approval. The SEC makes no judgment about the quality of your company or the value of your stock. Instead, it only checks to make sure that various rules regarding full disclosure and other issues have been satisfied.
+
+prospectus
+
+Document prepared as part of a security offering detailing information about a company’s financial position, its operations, and its investment plans.
+
+While awaiting SEC approval, your investment banker will circulate a preliminary prospectus among investors to generate interest in the stock offering. This document is commonly page 142called a red herring because the cover page is stamped in red ink, indicating that final approval for the stock issue has not yet been obtained. The preliminary prospectus is essentially complete except for the final offering price and a few other pieces of information. These are not set because market conditions might change while SEC approval is being sought. Upon obtaining SEC approval, the prospectus will be updated and completed, and your underwriter can begin selling your company’s shares to investors.
+
+red herring
+
+A preliminary prospectus not yet approved by the SEC.
+
+To publicize an offering, the underwriter will usually place announcements in newspapers and other outlets. Because of their appearance, these announcements are known as tombstones, and they are a familiar sight in the financial press. A sample tombstone as it appeared in The Wall Street Journal is shown in Figure 5.1.
+
+As Figure 5.1 shows, a typical tombstone states the name of the company, some information about the stock issue being sold, and the underwriters for the issue. All but very small issues generally involve more than one underwriter, and the names of the participating underwriters are usually listed at the bottom of the tombstone. Those listed first are the “lead” underwriters, who are primarily responsible for managing the issue process.
+
+Initial public stock offerings vary in size a great deal. The 2 million share issue for your hypothetical software company discussed above is a fairly small issue. One of the largest public offerings in the United States was Facebook, which went public in May 2012. The new shares were offered at $38 per share, raised over $16 billion, and created a company market value of over $100 billion. For additional information on the largest IPOs of all time, check out the Investment Updates box.
+
+ALTERNATIVE SOURCES OF PUBLIC FUNDING
+CROWDFUNDING On April 5, 2012, the Jumpstart Our Business Startups (JOBS) Act was signed into law. A provision of this act allows companies to raise equity through crowdfunding, which is the practice of raising small amounts of capital from a large number of people, typically via the internet. Crowdfunding was first used to underwrite the U.S. tour of British rock band Marillion. Originally, the JOBS Act allowed a company to issue up to $1 million in securities in a 12-month period, although this limit was later raised to a maximum of $50 million.
+
+crowdfunding
+
+The practice of raising small amounts of cash from a large number of people, typically via the internet.
+
+Check out two of the more well-known project and charitable crowdfunding websites at
+kickstarter.com
+and
+gofundme.com.
+
+We should make an important distinction between two types of crowdfunding—project crowdfunding and equity crowdfunding. As an example of project crowdfunding, consider the card game Exploding Kittens, which exploded on the crowdfunding website Kickstarter and raised $8.8 million from about 220,000 backers. During the crowdfunding campaign, the company presold card decks. Every backer was shipped a deck of cards for the game, beginning about six months after the campaign ended. In this case, the backers were purchasers, not investors. This type of crowdfunding also has become a popular way to raise money for charitable causes. In contrast, with equity crowdfunding, the backers receive equity in the company.
+
+In May 2016, Regulation CF (also known as Title III of the JOBS Act) kicked in, which allows small investors access to new crowdfunding “portals.” Previously, investors in crowdfunding had to be “accredited.” To qualify as an accredited investor, an individual had to have more than $1 million in net worth or more than $200,000 in income for two of the past three years. Regulation CF, however, allows investors with less than $107,000 in income or assets to invest at least $2,200 per year, up to a maximum of $5,350.
+
+To sell securities through Regulation CF, a company must file a form with the SEC. This filing makes the company eligible to list its securities on a crowdfunding portal that is approved by FINRA (the Financial Industry Regulatory Authority). FINRA also reports bond prices, as we discuss elsewhere in the textbook. With the growth in the market, crowdfunding portals are already specializing in certain areas. For example, there are portals that specialize in only accredited investors, in all investors, or in real estate, to name just a few.
+
+See upcoming ICOs at
+tokenmarket.net/ico-calendar.
+
+INITIAL COIN OFFERING In addition to sales of traditional debt and equity, a company can raise funds by selling tokens. These tokens often grant the holder the right to use the company’s service in the future. For example, a company building a railroad might issue a token that can be used as a train ticket after the railroad is built.
+
+page 143 
+
+IPO Tombstone
+
+FIGURE 5.1
+
+
+page 144 
+
+INVESTMENT UPDATES
+
+TEN LARGEST GLOBAL IPOS IN HISTORY
+
+Alibaba Group’s initial public offering of $25 billion shattered records and jumped to the top of the list of biggest global IPOs in history. How does the Alibaba number compare to other huge IPOs? The list may surprise you. Only one U.S.-based company made the top five (it wasn’t Facebook). Chinese companies dominate the top of the list, holding three of the top five spots.
+
+Alibaba Holdings Group (NYSE:BABA), a diversified online e-commerce company based in China, went public on September 18, 2014, at $21.8 billion. Four days later, underwriters exercised an option to sell more shares, bringing the total IPO to $25 billion. Although technology companies traditionally list on NASDAQ, Alibaba chose the New York Stock Exchange for its debut. Underwriting was handled primarily by Credit Suisse.
+
+ABC Bank, also known as the Agricultural Bank of China (listed on the Shanghai Stock Exchange and the Hong Kong Stock Exchange), is one of China’s largest banks. ABC Bank went public on July 7, 2010, at an initial offering that raised $19.228 billion. The follow-on offerings from underwriter Goldman Sachs Asia brought the total to more than $22 billion.
+
+ICBC Bank, or Industrial and Commercial Bank of China (listed on the Shanghai Stock Exchange and the Hong Kong Stock Exchange), went public on October 20, 2006, at $19.092 billion. At the time of the IPO, ICBC Bank was the largest mainland Chinese bank and the third-largest Chinese bank to go public.
+
+General Motors Company (NYSE:GM) went public on November 16, 2000, after emerging from a bankruptcy filing one year earlier. The car manufacturer raised $20.1 billion in the offering, making it the largest IPO for any U.S.-based company.
+
+NTT DOCOMO (NYSE:DCM), a Tokyo-based telecommunications company, went public on October 22, 1998, at $18.099 billion. Underwritten by Goldman Sachs Asia, this IPO launched NTT to the third-largest market cap for a Japanese company.
+
+Visa Inc. (NYSE:V), a debit and credit card processing company, entered the public market on March 18, 2008, and raised $17.864 billion—this during a global financial crisis!
+
+AIA (OTC:AAIGF), an investment and insurance company based in Hong Kong, went public on October 21, 2010. It raised $17.816 billion and became the third Hong Kong–based financial company on this list.
+
+Enel S.p.A. (OTC:ENLAY) is an Italian gas and electric company that operates in North and South America and Europe. Enel S.p.A. listed on the New York Stock Exchange on November 1, 1999, after it raised $16.452 billion. It is the only utility company on this IPO list.
+
+Facebook (NASDAQ:FB) went public on May 1, 2012, raising $16.007 billion. This social media technology company’s high-profile launch was riddled with trading issues and accusations of inappropriate information sharing. In spite of these issues, Facebook remains the largest technology IPO in U.S. history.
+
+Deutsche Telekom AG (OTC:DTEGY) is a German telecommunications company. This is the oldest IPO on this list. On its debut to the market, November 17, 1996, the company raised over $13 billion.
+
+
+
+Source: Kristina Zucchi, Investopedia, August 13, 2018.
+
+Token sales occur on digital currency platforms. Tokens can be easily transferred on the platform, or they can be converted to U.S. dollars on specialized token exchanges. This liquidity has made tokens a popular means of funding since their introduction in 2015. Tokens are now purchased by both customers and investors, each of whom might never actually use the token for the service being offered.
+
+The initial sale of a token on a digital currency platform is often called an initial coin offering, or ICO (to sound like IPO). Many start-up companies are choosing to raise funds through an ICO rather than the traditional venture capital channels. The most common platform for issuing new tokens is Ethereum, but there are many competitors. In 2017, there were 234 ICOs with a total value of about $3.7 billion.
+
+Token sales are most popular among companies that are building services based on blockchain technology. This technology is at the heart of bitcoin and other cryptocurrencies. A blockchain is a time-stamped ledger of transactions that is kept among a network of users without centralized control. It is similar to a traditional database, except that page 145cryptography is used to make it infeasible to change data once they are added to the chain. Many industries, including finance, are now updating their record-keeping infrastructure with blockchain technology.
+
+Token sales can also serve as an effective marketing tool. This is especially true if the business benefits from network effects as the potential for price appreciation in the tokens attracts new customers. The increase in customers increases the value of the service, which in turn increases the value of the tokens. For example, Civic is building a blockchain-based identity platform, and its currency is used to purchase identity verification services from trusted parties. The company raised $33 million in June 2017 through an ICO of the CVC token. The total value of the tokens increased to over $400 million by early 2018. Unfortunately for investors, this value fell to under $20 million by early 2019.
+
+See the market value of tokens at
+coinmarketcap.com.
+
+THE SECONDARY MARKET FOR COMMON STOCK
+In the secondary market for common stock, investors buy and sell shares with other investors. If you think of the primary market as the new-car showroom at an automotive dealer, where cars are first sold to the public, then the secondary market is the used-car lot.
+
+Secondary market stock trading among investors is directed through three channels. An investor may trade:
+
+Directly with other investors.
+
+Indirectly through a broker who arranges transactions for others.
+
+Directly with a dealer who buys and sells securities from inventory.
+
+As we discussed in Chapter 2, for individual investors, almost all common stock transactions are made through a broker. However, large institutional investors, such as pension funds and mutual funds, trade through both brokers and dealers, and they also trade directly with other institutional investors.
+
+DEALERS AND BROKERS
+Because most securities transactions involve dealers and brokers, it is important that you understand exactly what these terms mean. A dealer maintains an inventory and stands ready to buy and sell at any time. By contrast, a broker brings buyers and sellers together but does not maintain an inventory. Thus, when we speak of used-car dealers and real estate brokers, we recognize that the used-car dealer maintains an inventory, whereas the real estate broker normally does not.
+
+dealer
+
+A trader who buys and sells securities from inventory.
+
+broker
+
+An intermediary who arranges security transactions among investors.
+
+In the securities markets, a dealer stands ready to buy securities from investors wishing to sell them and to sell securities to investors wishing to buy them. An important part of the dealer function involves maintaining an inventory to accommodate temporary buy and sell order imbalances. The price a dealer is willing to pay is called the bid price. The price at which a dealer will sell is called the ask price (sometimes called the offer or offering price). The difference between the bid and ask prices is called the spread.
+
+bid price
+
+The price a dealer is willing to pay.
+
+ask price
+
+The price at which a dealer is willing to sell. Also called the offer or offering price.
+
+spread
+
+The difference between the bid and ask prices.
+
+A dealer attempts to profit by selling securities at a price higher than the average price paid for them. Of course, this is a goal for all investors, but the distinguishing characteristic of securities dealers is that they hold securities in inventory only until the first opportunity to resell them. Essentially, trading from inventory is their business, and the spread is the compensation they earn.
+
+As you might expect, the spread for all securities is not the same. As a comparison, consider why some companies earn higher margins than others. For example, a grocery store generally has lower margins, but it is able to make up for this through high volume. The same is true for bid-ask spreads. For securities with high trading volume (and therefore increased competition among dealers), the spreads are quite low. For securities that trade in opaque markets, the spreads can be quite high. Either way, the spread is an implicit cost to the investor.
+
+Dealers exist in all areas of the economy, of course, not just in the stock markets. For example, your local university bookstore is both a primary and secondary market textbook dealer. If you buy a new book, then this is a primary market transaction. If you buy a used book, this is a secondary market transaction, and you pay the store’s ask price. If you sell the page 146book back, you receive the store’s bid price, often half the ask price. The bookstore’s spread is the difference between the bid and ask prices.
+
+In contrast, a securities broker arranges transactions between investors, matching investors wishing to buy securities with investors wishing to sell securities. Brokers may match investors with other investors, investors with dealers, and sometimes even dealers with dealers. The distinctive characteristic of securities brokers is that they do not buy or sell securities for their own account. Facilitating trades by others is their business.
+
+Most common stock trading is directed through an organized stock exchange or a trading network. Whether on a stock exchange or through a trading network, the goal is to match investors wishing to buy stocks with investors wishing to sell stocks. The largest, most active organized stock exchange in the United States is the New York Stock Exchange (NYSE). Other well-known stock exchanges include the Chicago Stock Exchange (CHX), the Boston Stock Exchange (BSE), the National Stock Exchange (NSX), and the Philadelphia Stock Exchange (PHLX). The major competitor to the organized stock exchanges is the vast trading network known as NASDAQ. We next discuss the workings of the NYSE, and then we turn to a discussion of NASDAQ.
+
+Want to trade movies or actors? Check out this unique stock exchange,
+hsx.com.
+
+CHECK THIS
+
+
+
+5.1aIs an IPO a primary or a secondary market transaction?
+
+5.1bWhich is bigger, the bid price or the ask price? Why?
+
+5.1cWhat is the difference between a securities broker and a securities dealer?
+
+5.2 The New York Stock Exchange
+The New York Stock Exchange, or NYSE, popularly known as the Big Board, was founded in 1792. It has occupied its current location on Wall Street since the turn of the twentieth century. Measured in terms of dollar volume of activity and the total value of shares listed, it is the largest stock market in the world.
+
+NYSE MEMBERS
+The NYSE exchange members number 1,366. Before 2006, the exchange members were said to own “seats” on the exchange. Collectively, the members of the exchange were also the owners. For this reason and others, seats were valuable and were bought and sold fairly regularly. Seat prices reached a record $4 million in 2005.
+
+NYSE exchange member
+
+Before 2006, the NYSE exchange members were the owners of the exchange.
+
+In 2006, the ownership structure changed when the NYSE became a publicly owned corporation. Naturally, its stock is listed on the NYSE. Now, instead of purchasing seats, exchange members must purchase trading licenses, the number of which is still limited to 1,366. In early 2019, a license cost $50,000 per year. Having a license entitles you to buy and sell securities on the floor of the exchange. Different members play different roles in this regard.
+
+On April 4, 2007, the NYSE grew even larger when it merged with Euronext to form NYSE Euronext. Euronext was a stock exchange in Amsterdam, with subsidiaries in Belgium, France, Portugal, and the United Kingdom. With the merger, NYSE Euronext became the world’s “first global exchange.” Further expansion occurred in 2008 when NYSE Euronext merged with the American Stock Exchange. Then, in November 2013, the acquisition of the NYSE by the Intercontinental Exchange (ICE) was completed. ICE, which was founded in May 2000, was originally a commodities exchange, but its rapid growth gave it the necessary $8.2 billion for the acquisition of the NYSE.
+
+As we briefly describe how the NYSE operates, keep in mind that other markets owned by NYSE Euronext and ICE might function differently. Further, our subsequent discussion in this chapter concerning the NYSE reflects the structure of the exchange as it exists at the time of this writing. How this structure will evolve over time will depend on numerous page 147changes that are being initiated in the global financial markets. For example, before its acquisition by ICE, the European Union rejected a proposal to merge the NYSE Euronext and the Deutsche Börse. Had this merger been approved, the discussion in this chapter would have been much different!
+
+What makes the NYSE somewhat unique is that it is a hybrid market. In a hybrid market, trading takes place both electronically and face-to-face. With electronic trading, orders to buy and orders to sell are submitted to the exchange. Orders are compared by a computer and whenever there is a match, the orders are executed with no human intervention. Most trades on the NYSE occur this way. For orders that are not handled electronically, the NYSE relies on its license holders. There are three different types of license holders: designated market makers (DMMs), floor brokers, and supplemental liquidity providers (SLPs).
+
+designated market maker (DMM)
+
+A new class of market maker at the NYSE; replaced the role of specialists on the exchange floor.
+
+floor brokers
+
+Firms that execute customer orders to buy and sell stock transmitted to the exchange floor.
+
+supplemental liquidity provider (SLP)
+
+A new class of market maker at the NYSE; located off the floor of the exchange.
+
+The DMMs, formerly known as specialists, act as dealers in particular stocks. Typically, each stock on the NYSE is assigned to a single DMM. As a dealer, a DMM maintains a two-sided market, meaning that the DMM continually posts and updates bid and ask prices. By doing so, the DMM ensures that there is always a buyer or seller available, thereby promoting market liquidity.
+
+Floor brokers execute trades for customers, trying to get the best price possible. Floor brokers are generally employees of large brokerage firms such as Merrill Lynch, the wealth management division of Bank of America. The interaction between floor brokers and DMMs is the key to nonelectronic trading on the NYSE. We discuss this interaction in detail later in this chapter.
+
+The SLPs are essentially investment firms that agree to be active market participants in the stocks assigned to them. Their job is to make a one-sided market (i.e., offering to either buy or sell). They trade purely for their own accounts (using their own money), so they do not represent customers. They are given a small rebate on their buys and sells, thereby encouraging them to be more aggressive. The NYSE’s goal is to generate as much liquidity as possible, which makes it easier for ordinary investors to quickly buy and sell at prevailing prices. Unlike DMMs and floor brokers, SLPs do not operate on the floor of the stock exchange.
+
+In recent years, floor brokers have become less important on the exchange floor because of the efficient Pillar system, which allows orders to be transmitted electronically directly to the DMM. Additionally, the NYSE has an electronic platform called Arca, which accounts for a substantial percentage of all trading on the NYSE, particularly for smaller orders. The average time for a trade to occur on the NYSE Arca is less than 1 second.
+
+Finally, a small number of NYSE members are floor traders who independently trade for their own accounts. Floor traders try to anticipate temporary price fluctuations and profit from them by buying low and selling high. In recent decades, the number of floor traders has declined substantially, suggesting that it has become increasingly difficult to profit from short-term trading on the exchange floor.
+
+For up-to-date info on the NYSE, surf to
+nyse.com.
+
+NYSE-LISTED STOCKS
+A company is said to be “listed” on the NYSE Euronext if its stock is traded there. At the beginning of 2019, some 3,100 companies listed on the NYSE represented nearly 25 percent of the world’s equity trading. This total includes many large companies so well known that we easily recognize them by their initials—for example, IBM, MMM, and CAT. This total number also includes many companies that are not so readily recognized. For example, relatively few investors would instantly recognize AEP as American Electric Power, but many would recognize AXP as American Express.
+
+U.S. companies that wish to have their stock listed for trading on the “Big Board” must apply for the privilege. They even have to pay an application fee of $25,000—a little more than your college application fee! If the application is approved, the company must pay an initial listing fee. In 2019, this fee was $50,000, plus a per-share listing fee of $.004, or $4,000 per million shares.
+
+Once listed, if a firm lists additional shares of a class of previously listed securities, it pays the following listing fees. For the first 75 million shares, the fee is $4,800 per million shares. For the next 225 million shares, it is $3,750 per million shares. For each million shares above page 148300 million, the fee is $1,900. The minimum initial listing fee is $150,000 and the maximum listing fee is $295,000.
+
+In addition to an initial listing fee, the NYSE assesses an annual listing fee. In 2019, the annual listing fee for common shares was $1,025 per million shares (subject to a $25,000 minimum fee).
+
+The NYSE has minimum requirements for companies wishing to apply for listing. Although the requirements might change from time to time, examples of minimum requirements in effect in 2019 for U.S. domestic stocks included:
+
+The company must have at least 2,200 shareholders (400 round lots for IPOs), and average monthly trading volume for the most recent six months must be at least 100,000 shares.
+
+At least 1.1 million stock shares must be held in public hands.
+
+Publicly held shares must have at least $100 million in market value ($40 million for IPOs).
+
+The company must have aggregate earnings of $10 million before taxes in the previous three years and $2 million pretax earnings in each of the preceding two years.
+
+In practice, most companies with stock listed on the NYSE easily exceed these minimum listing requirements. You can read copious details and minutiae about listing on the NYSE if you surf over to wallstreet.cch.com/LCM/.
+
+CHECK THIS
+
+
+
+5.2aWhat are the types of license holders at the New York Stock Exchange?
+
+5.2bWhat are the two primary types of market makers at the NYSE? What do they do?
+
+5.3 Operation of the New York Stock Exchange
+Now that we have a basic idea of how the NYSE is organized and who the major players are, we turn to the question of how trading actually takes place. Fundamentally, the business of the NYSE is to attract and process order flow—the flow of customer orders to buy and sell stocks. Thus, the NYSE is referred to as an order-driven market. Customers of the NYSE are the millions of individual investors and tens of thousands of institutional investors who place their orders to buy and sell NYSE-listed stock shares with member-firm brokers.
+
+About one-third of all NYSE stock trading volume is attributable to individual investors, and almost half (or more) is derived from institutional investors and so-called high-frequency traders. In recent years, improved technology (i.e., “fintech”) has led to an increase in algorithmic trading and machine learning. The remainder represents NYSE member trading, which is largely attributed to DMMs acting as market makers.
+
+NYSE FLOOR ACTIVITY
+Quite likely you have seen film footage of the NYSE trading floor on television, or you may have visited the NYSE and viewed exchange floor activity from the gallery (when it was open). Either way, you saw a big room, about the size of a small basketball gym. This big room is aptly called “the big room.” There are several other, smaller rooms that you normally do not see. Another is called “the garage” because that is what it was before it was taken over for securities trading. Two others were called the “blue room” because, well, the room is painted blue and the “extended blue room.” In November 2007, the NYSE closed the blue room and the extended blue room.
+
+page 149 
+
+On the floor of the exchange are a number of stations, each with a roughly figure-eight shape. These stations have multiple counters with numerous computer terminal screens above and on the sides. People operate behind and in front of the counters in relatively stationary positions.
+
+Other people move around on the exchange floor, frequently returning to the many telephone booths positioned along the exchange walls. In all, you may have been reminded of worker ants moving around an ant colony. It is natural to wonder: What are all those people doing down there (and why are so many wearing funny-looking coats)?
+
+As an overview of exchange floor activity, here is a quick look at what goes on. Each of the counters at the figure-eight-shaped stations is a DMM’s post. DMMs normally operate in front of their posts to monitor and manage trading in the stocks assigned to them. Clerical employees working for the DMMs operate behind the counters. Moving from the many telephone booths out to the exchange floor and back again are swarms of floor brokers, receiving relayed customer orders, walking out to the posts where the orders can be executed, and returning to confirm order executions and receive new customer orders.
+
+DMM’s post
+
+Fixed place on the exchange floor where the DMM operates.
+
+To better understand activity on the NYSE trading floor, imagine yourself as a floor broker. Your phone clerk has just handed you an order to sell 20,000 shares of KO (the ticker symbol for Coca-Cola common stock) for a customer of the brokerage company that employs you. The order is a market order, meaning that the customer wants to sell the stock at the best possible price as soon as possible. You immediately walk (running violates exchange rules) to the post where KO stock is traded.
+
+market order
+
+A customer order to buy or sell securities marked for immediate execution at the current market price.
+
+Upon approaching the post where KO is traded, you check the terminal screen for information on the current market price for KO stock. The screen reveals that the last executed trade for KO was at $46.63 and that the current bid is $46.55 per share. You could immediately sell at $46.55, but that would be too easy.
+
+Instead, as the customer’s representative, you are obligated to get the best possible price. It is your job to “work” the order, and your job depends on providing satisfactory order execution service. So you look around for another broker who represents a customer who wants to buy KO stock. Luckily, you quickly find another broker at the post with a market order to buy 20,000 shares of KO. Noticing that the posted asking price is $46.71 per share, you both agree to execute your orders with each other at a price of $46.63. This price, halfway between the posted bid and ask prices, saves each of your customers approximately $.08 × 20,000 = $1,600 compared to the posted prices.
+
+In a trade of this type, in which one floor broker buys from another, the DMM acts only as a broker assisting in matching buy orders and sell orders. On an actively traded stock, many floor brokers can be buying and selling. In such cases, trading is said to occur “in the crowd.” Thus, the DMM functions as a broker as long as buyers and sellers are available. The DMM steps in as a dealer when necessary to fill an order that would otherwise go unfilled.
+
+In reality, not all orders are executed so easily. For example, suppose you are unable to find another broker quickly with an order to buy 20,000 shares of KO. Because you have a market order, you may have no choice but to sell at the posted bid price of $46.55. In this case, the need to execute an order quickly takes priority, and the DMM provides the necessary liquidity to allow immediate order execution.
+
+Note an important caveat concerning this discussion of NYSE floor operations. If you think about it, there’s no way that the NYSE could trade more than a billion shares a day just using humans. It’s physically impossible. What actually happens is that over 99 percent of orders are processed electronically. Based on the volume of orders submitted, however, that number drops to about 75 percent. The implication is that larger orders are handled by floor brokers, but smaller orders are not. In fact, much of the trading in liquid stocks during normal times happens completely electronically.
+
+SPECIAL ORDER TYPES
+Many orders are transmitted to the NYSE floor as limit orders. A limit order is an order to buy or sell stock, where the customer specifies a maximum price he is willing to pay in the case of a buy order, or a minimum price he will accept in the case of a sell order. For page 150example, suppose that as a NYSE floor broker, you receive a limit order to sell 20,000 shares of KO stock at $46.75. This means that the customer is not willing to accept any price below $46.75 per share, even if it means missing the trade.
+
+limit order
+
+Customer order to buy or sell securities with a specified “limit” price. The order can be executed only at the limit price or better.
+
+stop order
+
+Customer order to buy or sell securities when a preset “stop” price is reached.
+
+A stop order may appear similar to a limit order, but there is an important difference. With a stop order, the customer specifies a “stop” price. This stop price serves as a trigger point. No trade can occur until the stock price reaches this stop price. When the stock price reaches the stop price, the stop order is immediately converted into a market order. Because the order is now a market order, the customer may get a price that is better or worse than the stop price. Thus, the stop price only serves as a trigger point for conversion into a market order. Unlike a limit price, the stop price places no limit on the price at which a trade can occur. Once converted to a market order, the trade is executed just like any other market order.
+
+The most common type of stop order is a stop-sell order, which is an order to sell shares if the stock price falls to a specified stop price below the current stock price. This type of order is generally called a stop-loss because it is usually intended to limit losses on a long position. The other type is a stop-buy order, which is an order to buy shares if the price rises to a specified stop price above the current stock price. Stop-buy orders are often placed in conjunction with short sales, again as a means of limiting losses.
+
+Placing stop-loss orders is frequently touted as a smart trading strategy, but there are a couple of issues we should mention. For example, suppose you buy 1,000 shares of GoGo Corp. at $20. You simultaneously place a stop-sell order at $15. Thus you seem to have limited your potential loss to $5 per share.
+
+Unfortunately, after the market closes, a rumor circulates that GoGo has uncovered a significant accounting fraud. The next morning, the stock opens at $8, meaning the first trade occurs at $8 per share. Because this price is below your $15 stop price, a market order to sell your stock will be placed and executed, and you’ll lose much more than $5 per share. What you discover is that your stop-loss guarantees only that a market order to sell will be placed as soon as the stock trades at $15 or below.
+
+Adding insult to injury, after your stock is sold, a credible announcement is made indicating that the rumor is false. GoGo shares promptly bounce back to $20, but you were sold out at a big loss. Thus, a second danger in blindly using stop-loss orders is that volatile conditions can lead to an unfavorable stop sale. Table 5.1 summarizes the characteristics of limit and stop orders.
+
+Stock Market Order Types
+
+TABLE 5.1
+
+Order Type	Buy	Sell
+Market order	Buy at best price available for immediate execution.	Sell at best price available for immediate execution.
+Limit order	Buy at best price available, but not more than the preset limit price. Forgo purchase if limit is not met.	Sell at best price available, but not less than the preset limit price. Forgo sale if limit is not met.
+Stop order	Convert to a market order to buy when the stock price crosses the stop price from below.	Convert to a market order to sell when the stock price crosses the stop price from above. Also known as a “stop-loss.”
+Stop-limit order	Convert to a limit order to buy when the stock price crosses the stop price from below.	Convert to a limit order to sell when the stock price crosses the stop price from above.
+This exact situation happened at the entire market level on May 6, 2010. During the so-called Flash Crash, the Dow Jones Industrial Average suffered its largest and fastest decline ever. Many stocks momentarily lost half their values. The nearby Investment Updates box provides some additional detail on this day.
+
+In response to the Flash Crash, regulators updated their approach to circuit breakers. At the market level, circuit breakers were designed to calm the market in the event of a steep decline, with the initial levels kicking in with a loss of 10 percent in a given day.
+
+circuit breakers
+
+All the methods used by stock exchanges during large sell-offs.
+
+Unfortunately, although there were many stocks with significant losses, the market as a whole never tripped the existing circuit breakers. As a result, regulators lowered the marketwide circuit breaker level to 7 percent and also implemented individual stock circuit breakers. We discuss this issue in more detail in a later chapter.
+
+page 151 
+
+INVESTMENT UPDATES
+
+TRADING PROGRAM SPARKED MAY “FLASH CRASH”
+
+
+Federal regulators blamed automated trading software for the historic “flash crash” of May 2010. The Securities and Exchange Commission and the Commodity Futures Trading Commission claimed in their report on the incident that a large unnamed investor used a trading algorithm to quickly sell large volumes of orders for futures contracts called E-Minis. Traders use E-Minis to bet on the future performance of stocks in the S&P 500 index.
+
+The selling was initially absorbed by high-frequency traders, but the algorithm responded to a rise in trading volume by increasing the number of E-Mini sell orders it was placing in the market. “What happened next is best described in terms of two liquidity crises—one at the broad index level in the E-Mini, the other with respect to individual stocks,” the report said.
+
+What does that mean? The lack of buyers and the rapid selling of E-Mini futures contracts began to affect the value of the underlying stocks and the broader stock indexes. (It certainly didn’t help that the market was already under stress due to concerns about the European debt crisis.) Against this backdrop, the Dow Jones industrial average plunged nearly 1,000 points, briefly erasing $1 trillion in market value, before regaining much of the lost ground later that day.
+
+
+
+Source: Ben Rooney, “Trading Program Sparked May ‘Flash Crash,’” CNN Money, October 1, 2010.
+
+On August 24, 2015, a similar event occurred, as many stocks saw their prices swing wildly. For example, bellwether stocks such as GE and JPMorgan fell by more than 20 percent, but they quickly recovered. Not only would stop-loss orders have been ineffective at preventing losses, but some managers actually blame these order types for much of the volatility. In response, as the nearby Investment Updates box illustrates, the NYSE is eliminating some of these order types. Nonetheless, given their popularity and usefulness, brokers will likely continue to offer these special order types.
+
+While these new regulations may help to prevent unforeseen losses on stop orders, investors have the ability to add their own level of control. A limit price can be attached to a stop order to create a stop-limit order. This is different from a simple stop order in that once the stock price reaches the preset stop price, the order is converted into a limit order. By contrast, a simple stop order is converted into a market order. At this point, the limit order is just like any other limit order.
+
+Notice that with a stop-limit order you must specify two prices, the stop and the limit. The two prices can be the same, or they can be different. In our GoGo Corp. example, you could place a stop-limit sell order at $15 stop, $12 limit. This order converts to a limit order to sell at $12 or better if the price ever hits $15 or below. Thus, you will never sell below $12. page 152Of course, you may never sell at all unless your limit price is reached! Our nearby Work the Web box shows how these orders are entered in an actual online brokerage account.
+
+INVESTMENT UPDATES
+
+NYSE ENDS USE OF STOP ORDERS
+
+In 2015, the New York Stock Exchange eliminated stop orders. Why restrict the type of transactions that investors can make? Because other investors, including BlackRock, blame stop orders for escalating extreme share-price swings.
+
+What are stop orders? Stop orders are instructions to immediately trade once a stock hits a certain price, even if the price is far worse than the one specified in the order.
+
+How do stop orders work? Say an investor requests that 1,000 shares of Alpha X get sold once the price falls to $15. If the stock plunges from $20 to $10, without hitting any intermediate prices first, the stop order will be executed at that first stopping point . . . even though it’s much lower than the specified $15 target.
+
+Was there a key incident that led investors to call for this ban? You know there was! On August 24, 2015, hundreds of normally stable securities (including blue chips like General Electric and JPMorgan Chase) posted unusual moves, plunging as much as 21 percent before quickly recovering. BlackRock, the world’s biggest asset manager, took a close look at these swings and decided that stop orders were part of the problem.
+
+At least some academics agreed. Annie Massa at Bloomberg quoted James Angel, a Georgetown University professor, as saying that “Stop orders are like land mines; they blow up in ways that are unanticipated by the people who plant them.”
+
+Brokerage firms can still program their systems to execute orders achieving the same results as a stop order for their clients. The ban on stop orders, though, should raise awareness of the risks that investors take in making these types of trades.
+
+
+
+Source: Annie Massa, “NYSE Kills ‘Land Mine’ Order Type Some Blame for August Mayhem,” Bloomberg, November 19, 2015.
+
+CHECK THIS
+
+
+
+5.3aWhat are the four main types of orders to buy and sell common stocks?
+
+5.3bWhat do DMMs do?
+
+5.3cWhat is a limit order? How do limit and stop orders differ?
+
+5.4 NASDAQ
+In terms of total dollar volume of trading, the second largest stock market in the United States is NASDAQ (say “Naz-dak”). In terms of the number of companies listed and, on some days, number of shares traded, NASDAQ is actually bigger than the NYSE.
+
+The somewhat odd name is derived from the acronym NASDAQ, which stands for National Association of Securities Dealers Automated Quotations system. But NASDAQ is now a proper name in its own right.
+
+NASDAQ’s website is
+nasdaq.com. Click on “Our Businesses.”
+
+NASDAQ OPERATIONS
+Introduced in 1971, the NASDAQ market is a computer network of securities dealers who disseminate timely security price quotes to NASDAQ subscribers. These dealers act as market makers for securities listed on NASDAQ. As market makers, NASDAQ dealers post bid and ask prices at which they accept sell and buy orders, respectively. For this reason, it is referred to as a quote-driven market, as opposed to the NYSE, which is an order-driven market. With each price quote, they also post the number of stock shares that they obligate themselves to trade at their quoted prices.
+
+page 153 
+
+WORK THE WEB
+
+To illustrate the importance of getting order types straight, we captured the actual trading screen from one of the largest discount brokers, Schwab. On the screen below, the ticker symbol entered is JWN, a purveyor of fine apparel, Nordstrom, Inc. The order is a limit order to buy 200 shares at $45.75. That is, we want to purchase these shares for a price of $45.75 or lower. The limit order is good for the day only, but we could also choose for the order to be good until a specific date or even good until canceled. In the latter case, this is generally only for 90 days.
+
+
+Source: www.schwab.com.
+
+Clicking on the “Review Order” button allows you to double-check your order before you submit it for transaction. Here is our preview screen:
+
+
+Source: www.schwab.com.
+
+After checking to make sure we have entered everything correctly, we hit the “Place Order” button to submit our order.
+
+page 154 
+
+Like NYSE DMMs, NASDAQ market makers trade on an inventory basis, using their inventory as a buffer to absorb buy and sell order imbalances. Unlike the NYSE DMM system, NASDAQ features multiple market makers for actively traded stocks. Thus, there are two basic differences between the NYSE and NASDAQ:
+
+NASDAQ is a computer network and has no physical location where trading takes place.
+
+NASDAQ has a multiple market maker system rather than the DMM/SLP system.
+
+Traditionally, a securities market largely characterized by dealers who buy and sell securities for their own inventories is called an over-the-counter (OTC) market. Consequently, NASDAQ is often referred to as an OTC market. In their efforts to promote a distinct image, NASDAQ officials prefer that the term OTC not be used when referring to the NASDAQ market. Nevertheless, old habits die hard, and many people still refer to NASDAQ as an OTC market.
+
+over-the-counter (OTC) market
+
+Securities market in which trading is almost exclusively done through dealers who buy and sell for their own inventories.
+
+The NASDAQ is actually made up of three separate markets: the NASDAQ Global Select Market, the NASDAQ Global Market, and the NASDAQ Capital Market. As the market for NASDAQ’s larger and more actively traded securities, the NASDAQ Global Select Market listed about 1,500 securities (as of 2019), including some very well-known companies. The Global Market companies are somewhat smaller in size. NASDAQ lists almost 900 of these companies. Finally, the smallest companies listed on NASDAQ are in the NASDAQ Capital Market. About 1,000 companies are listed in this market. As you might guess, an important difference among the markets is that the Global Select Market has the most stringent listing requirements. Of course, as Capital Market companies become more established, they may move up to the Global Market or the Global Select Market.
+
+The success of the NASDAQ Global Select Market as a competitor to the NYSE and other organized exchanges can be judged by its ability to attract stock listings by companies that traditionally might have chosen to be listed on the NYSE. Some of the best-known companies in the world such as Microsoft, Apple, Intel, Starbucks, and, of course, Alphabet (aka, Google) list their securities on NASDAQ.
+
+NASDAQ PARTICIPANTS
+As we mentioned previously, the NASDAQ has historically been a dealer market, characterized by competing market makers. In early 2019, over 3,300 companies were listed on the NASDAQ system. More than 500 NASDAQ member firms act as market makers.
+
+In an important development, in the late 1990s, the NASDAQ system was opened to so-called electronic communications networks (ECNs). ECNs are basically websites that allow investors to trade directly with one another. Investor buy and sell orders placed on ECNs are transmitted to the NASDAQ and displayed along with market maker bid and ask prices. As a result, the ECNs open up the NASDAQ by essentially allowing individual investors to enter orders through their brokers, not just market makers. As a result, the ECNs act to increase liquidity and competition.
+
+electronic communications network (ECN)
+
+A website that allows investors to trade directly with each other.
+
+If you check prices on the web for both NASDAQ- and NYSE-listed stocks, you’ll notice an interesting difference. For NASDAQ stocks, you can actually see the bid and ask prices as well as recent transactions information. The bid and ask prices for the NASDAQ listings you see represent inside quotes, that is, the highest bid and the lowest ask prices. For a relatively small fee (or possibly even free from your broker), you can even have access to “Level II” quotes, which show all of the posted bid and ask prices and, frequently, the identity of the market maker. “Level III” quotes provide even more detail and features, and their access is restricted to registered market makers only. Of course, NYSE DMMs post bid and ask prices as well; they are just not disclosed to the general public.
+
+inside quotes
+
+The highest bid quotes and the lowest ask quotes offered by dealers for a security.
+
+CHECK THIS
+
+
+
+5.4aHow does NASDAQ differ from the NYSE?
+
+5.4bWhat are the different levels of access to the NASDAQ network?
+
+page 155 
+
+5.5 NYSE and NASDAQ Competitors
+The NYSE and NASDAQ face strong competition in the market for order execution services from securities trading firms operating in the third market. The phrase “third market” refers to trading in exchange-listed securities that occurs off the exchange on which the security is listed. For example, a substantial volume of NYSE-listed stock trading is executed through independent securities trading firms.
+
+third market
+
+Off-exchange market for securities listed on an organized exchange.
+
+This type of market can be attractive to investors who want to make a transaction without that transaction moving the price of the securities they are trading. One specific type of trading portal that allows investors to make these trades is a crossing network, which is an electronic trading system that enables the trading of large blocks of shares at prices posted on the actual exchange. Similarly, dark pools allow for off-exchange trading without posting the identity of the source making the trade. This system allows large institutional investors to maintain a level of privacy. It also keeps market prices from moving simply based on trading decisions by large institutional investors.
+
+NASDAQ and the NYSE also face substantial competition from the fourth market. The term “fourth market” refers to direct trading of exchange-listed securities among investors. A good example of a company engaged in fourth-market trading activity is Instinet, one of the pioneers in ECNs. As we discussed in our previous section, however, these fourth-market ECNs are increasingly becoming integrated into the NASDAQ system or being acquired by other platforms such as BATS Global Markets.
+
+fourth market
+
+Market for exchange-listed securities in which investors trade directly with other investors, usually through a computer network.
+
+The third and fourth markets are not the only NYSE and NASDAQ competitors. Regional exchanges also attract substantial trading volume away from the NYSE and NASDAQ. For example, thousands of stocks are dually listed on the NYSE and either on NASDAQ or on at least one regional exchange. In a recent move, some large financial firms such as Morgan Stanley and Fidelity have banded together to create the Members Exchange, or MEMX. The idea behind MEMX is to create a trading venue that has lower fees than the NYSE. Similar to how the NYSE was originally created, MEMX is controlled by its members, not by stockholders. We will have to wait to see if this new exchange succeeds.
+
+Some companies do not meet the listing requirements of the NYSE or NASDAQ, so they need to list elsewhere. Even if they do meet these requirements, however, the company’s management might still decide to list shares elsewhere. A nearby Work the Web box describes an alternative.
+
+CHECK THIS
+
+
+
+5.5aWhat is the third market for securities?
+
+5.5bWhat is the fourth market for securities?
+
+5.6 Stock Market Information
+Many newspapers publish current price information for a selection of stocks. In the United States, the newspaper best known for reporting stock price information is The Wall Street Journal and its online version, wsj.com. Investors interested in an overview of stock market activity refer to daily summaries. Among other things, these summaries contain information regarding several stock market indexes. Immediately below, we describe the most important stock market indexes.
+
+THE DOW JONES INDUSTRIAL AVERAGE
+The most widely followed barometer of day-to-day stock market activity is the Dow Jones Industrial Average (DJIA), often called the “Dow” for short. The DJIA is an index of the stock prices of 30 large companies representative of American industry. There are other, more specialized Dow Jones averages such as a utilities average and a transportation average. We will focus on the industrial average. Figure 5.2 provides a DJIA price chart.
+
+Dow Jones Industrial Average
+
+FIGURE 5.2
+
+
+Source: finance.yahoo.com, accessed January 3, 2019.
+
+page 156 
+
+WORK THE WEB
+
+Where do companies trade when they can’t (or don’t want to) meet the listing requirements of the larger stock markets? Mostly, they trade on the OTCQX®, OTCQB®, and OTC Pink® marketplaces operated by OTC Markets Group. The OTCQX® marketplace includes qualitative and quantitative standards, and the OTCQB® marketplace imposes some requirements as well, though these requirements are less restrictive than those enforced by the larger stock markets. OTC Pink® is called the “Open Marketplace” because there are no filing or financial requirements.
+
+A small portion of companies also continue to trade on the Over-the-Counter Bulletin Board, or OTCBB, operated by the Financial Industry Regulatory Authority, known as FINRA. The OTCBB began as an electronic bulletin board that was created to facilitate OTC trading in nonlisted stocks. It has, however, been effectively replaced by OTC Markets Group’s OTCQB® marketplace as the primary marketplace for these types of companies. Like the OTCQX® and OTCQB®, the OTCBB imposes some requirements, though they are not as restrictive as those of the larger markets. For example, OTCBB only requires that listed firms file financial statements with the SEC (or other relevant agency).
+
+Trading at any of the OTC Markets Group marketplaces, as well as the OTCBB, is conducted under a dealer-driven framework. So, aside from the minimal requirements for inclusion on these marketplaces, all that is necessary for a particular security to begin trading is a registered broker-dealer willing (and being approved) to quote and make a market in the security. Investors can trade OTCQX®, OTCQB®, and OTC Pink® securities in a manner similar to the trading of an exchange-listed stock. Given the ease of trading, these marketplaces (OTCQX®, in particular) are attractive to foreign firms that file with regulators in their home countries but do not have interest in filing with U.S. regulators. These markets are also an option for companies that have been delisted from the larger markets either by choice or for failure to maintain their listing requirements.
+
+Stocks traded on these markets often have very low prices and are frequently referred to as “penny stocks,” “microcaps,” or even “nanocaps.” Relatively few brokers do research on these companies, so information is often spread through word of mouth or the internet, probably not the most reliable of sources. To get a feel for what trading looks like, we captured information on the most active stocks from otcmarkets.com. Notice that GBTC is up over 16 percent! That’s not something you see very often.
+
+
+Source: OTCMarkets.com, accessed January 3, 2019.
+
+At the end of a “typical” day in 2019, total dollar trading volume at the OTC Markets Group surpassed $800 million. By contrast, average daily volume for Microsoft Corp. (MSFT) is about 42 million shares at the NASDAQ. With a stock price of about $98 per share, this means that total dollar trading volume for Microsoft is about $4.1 billion, or about 5 times more than the volume of the entire OTC Markets Group.
+
+All in all, the OTCBB and OTC Markets Group can be pretty wild places to trade. Low stock prices allow huge percentage returns on small stock price movements. Be advised, however, that attempts at manipulation and fraud are possible. Also, many stocks on these markets are often very thinly traded, meaning there is little volume. It is not unusual for a stock listed on any of these markets to have zero trades on a given day. Even two or three days in a row without a trade in a particular stock is not uncommon.
+
+page 157 
+
+Figure 5.2 shows closing prices and moving averages for the DJIA from July 2018 through early January 2019. We can see that, based on closing prices, the Dow reached a high of about 26,450 during this period compared to a low of about 22,000. Figure 5.3 contains a list of 30 well-known companies in the DJIA and their prices on January 3, 2019.
+
+Although the Dow is the most familiar stock market index, a number of other indexes are widely followed. In fact, as we begin to discuss next, the Dow is not the most representative index by any means, and the way it is computed presents various problems that can make it difficult to interpret.
+
+STOCK MARKET INDEXES
+The Dow Jones Industrial Average web page is informative, but market watchers might be interested in more detail regarding recent stock market activity. A more comprehensive view of stock market trading is contained in Figure 5.4, which is also published daily at wsj.com.
+
+What are the Russell indexes? Visit
+russell.com
+to find out.
+
+The Dow Jones Industrial Average Component Stocks
+
+FIGURE 5.3
+
+
+Source: CNN Money, (2019).
+
+The web page we examine here, “Stock Indexes,” reports information about a variety of stock market indexes in addition to the Dow Jones averages. Of the non–Dow Jones indexes shown, by far the best known and most widely followed is Standard & Poor’s index of 500 stocks, commonly abbreviated as the S&P 500, or often just the S&P. We have seen this index before. In Chapter 1, we used it as a benchmark to track the performance of large-company common stocks for the last nine decades.
+
+If you were to scrutinize the various indexes in Figure 5.4, you would quickly find essentially four differences between them: (1) the market covered; (2) the types of stocks included; (3) how many stocks are included; and (4) how the index is calculated.
+
+page 158 
+
+The first three of these differences are straightforward. Some indexes listed in Figure 5.4, such as the Dow Jones Utility, focus on specific industries. Others, such as the NASDAQ Composite, focus on particular markets. Some have a small number of stocks, like the Dow Jones Industrial Average. Others, like the New York Stock Exchange Composite, have a large number.
+
+How stock market indexes are computed is not quite so straightforward, but it is important to understand. There are two major types of stock market indexes: price-weighted and value-weighted. With a price-weighted index, stocks are held in the index in proportion to their share prices. With a value-weighted index, stocks are held in proportion to the aggregate market value of the companies in the index.
+
+price-weighted index
+
+Stock market index in which stocks are held in proportion to their share price.
+
+value-weighted index
+
+Stock market index in which stocks are held in proportion to the aggregate market value of the companies in the index.
+
+The best way to understand the difference between price and value weighting is to consider an example. To keep things relatively simple, we suppose that there are only two companies in the entire market. We have the following information about their shares outstanding, share prices, and total market values:
+
+page 159 
+
+Stock Market Major Indexes
+
+FIGURE 5.4
+
+
+Source: The Wall Street Journal (2019). Dow Jones & Company, Inc.
+
+page 160 
+
+
+As shown, Company A has a lower share price but many more shares outstanding. Ignoring dividends, notice that Company A’s stock price rose by 40 percent ($10 to $14) while Company B’s stock price fell by 20 percent ($50 to $40).
+
+The question we want to answer here is: How did the market do for the year? There are several ways we could answer this question. We could first focus on what happened to the average share price. The average share price was ($10 + $50)/2 = $30 at the beginning of the year and ($14 + $40)/2 = $27 at the end, so the average share price fell. If we take the average share price as our index, then our index fell from 30 to 27, for a change of −3 points. Because the index began at 30, this is −3/30 = −.10, or a 10% decrease. In this case, investors say that the market was “off” by 10 percent.
+
+This is an example of a price-weighted index. Because Company B’s stock price is five times bigger than Company A’s, it carries five times as much weight in the index. This explains why the index was down even though Company A’s stock gained 40 percent whereas Company B’s stock only lost 20 percent. The Dow Jones indexes are price weighted.
+
+Alternatively, instead of focusing on the price of a typical share, we could look at what happened to the total value of a typical company. Here we notice that the average total value, in millions, rose from ($500 + $50)/2 = $275 to ($700 + $40)/2 = $370. If we take average total company value as our index, then our index rose from 275 to 370, a 35 percent increase.
+
+This is an example of a value-weighted index. The influence a company has in this case depends on its overall change in total market value, not just its stock price change. Because Company A has a much larger total value, it carries a much larger weight in the index. With the exception of the Dow Jones indexes, most of the other indexes in Figure 5.4, including the Standard & Poor’s, are value weighted.
+
+Take a look at the “value” and “growth” indexes at
+msci.com.
+
+Now we have a problem. One index tells us the market was down by 10 percent, while the other tells us it was up by 35 percent. Which one is correct? The answer seems fairly obvious. The total value of the market as a whole grew from $550 million to $740 million, so the market as a whole increased in value. Put differently, investors as a whole owned stock worth $550 million at the beginning of the year and $740 million at the end of the year. So, on the whole, stock market investors earned 35 percent, even though the average share price went down.
+
+This example shows that a price-weighted index can be misleading as an indicator of total market value. The basic flaw in a price-weighted index is that the effect a company has on the index depends on the price of a single share. However, the price of a single share is only part of the story. Unless the number of shares is also considered, the true impact on the overall market isn’t known, and a distorted picture can emerge.
+
+Caution: Indexes under Construction
+
+EXAMPLE 5.1
+
+Suppose there are only two stocks in the market and the following information is given:
+
+Price per Share
+Shares Outstanding	Beginning of Year	End of Year
+Betty Co.	10 million	$10	11
+Gray Bull, Inc.	20 million	  20	25
+Construct price- and value-weighted indexes and calculate the percentage changes in each.
+
+page 161 
+
+The average share price rose from $15 to $18, or $3, so the price-weighted index would be up by 3/15 = .20, or 20 percent. Average total market value, in millions, rose from $250 to $305, so the value-weighted index rose by 55/250 = .22, or 22 percent.
+
+MORE ON PRICE-WEIGHTED INDEXES
+Earlier we indicated that the Dow Jones averages are price weighted. Given this, you may wonder why the Dow Jones Industrial Average has such a high value when the stock prices used to calculate the average are much smaller. To answer this question, we must explain one last detail about price-weighted indexes.
+
+The extra detail concerns the effects of stock splits on price-weighted indexes. For example, in a 2-for-1 stock split, all current shareholders receive two new shares in exchange for each old share that they own. However, the total value of the company does not change because it is still the same company after the stock split. There are twice as many shares, each worth half as much.
+
+A stock split has no effect on a value-weighted index since the total value of the company does not change. But it can have a dramatic effect on a price-weighted index. To see this, consider what happens to the price-weighted and value-weighted indexes we created above when Company B enacts a 2-for-1 stock split. Based on beginning prices, with a 2-for-1 split, Company B’s shares fall to $25. The price-weighted index falls to ($10 + $25)/2 = 17.50 from 30, even though nothing really happened.
+
+For a price-weighted index, the problem of stock splits can be addressed by adjusting the divisor each time a split occurs. Once again, an example is the best way to illustrate. In the case stated just above, suppose we wanted the index value to stay at 30 even though B’s price per share fell to $25 as a result of the split. The only way to accomplish this is to add together the new stock prices and divide by something less than 2.
+
+This new number is called the index divisor, and it is adjusted as needed to remove the effect of stock splits. To find the new divisor in our case, the stock prices are $25 and $10, and we want the index to equal 30. We solve for the new divisor, d, as follows:
+
+
+The new divisor is thus approximately 1.17.
+
+Adjusting the divisor takes care of the problem in one sense, but it creates another problem. Because we are no longer dividing the sum of the share prices by the number of companies in the index, we can no longer interpret the change in the index as the change in price of an average share.
+
+Adjusting the Divisor
+
+EXAMPLE 5.2
+
+Take a look back at Example 5.1. Suppose that Gray Bull splits 5-for-1. Based on beginning information, what is the new divisor?
+
+Following a 5-for-1 split, Gray Bull’s share price will fall from $20 to $4. With no adjustment to the divisor, the price-weighted index would drop from 15 to ($10 + $4)/2 = 7. To keep the index at its old level of 15, we need to solve for a new divisor such that ($10 + $4)/d = 15. In this case, the new divisor would be $14/15 = .93333. This example shows how the divisor can drop below 1.0.
+
+page 162 
+
+THE DOW JONES DIVISORS
+The method we described of adjusting the divisor on a price-weighted index for stock splits is the method used to adjust the Dow Jones averages. Through time, with repeated adjustments for stock splits, the divisor becomes smaller and smaller. As of January 3, 2019, the DJIA divisor was a nice, round .1474807199. Because there are 30 stocks in the index, the divisor on the DJIA would be 30 if it were never adjusted, so it has declined substantially. Divisors for the other Dow Jones averages have similarly odd values.
+
+Given their shortcomings, you might wonder why the financial press continues to report the Dow Jones averages. The reason is tradition. The Dow Jones averages have been around for more than 100 years, and each new generation of investors becomes accustomed to its quirks.
+
+MORE ON INDEX FORMATION: BASE-YEAR VALUES
+We next discuss one or two more details about indexes. First, to ease interpretation, the starting value of an index is usually set equal to some simple base number, like 100 or 1,000. For example, if you were to create a value-weighted index for the NYSE, the actual value of the index would be very large and cumbersome, so adjusting it makes sense.
+
+To illustrate, suppose we have a value-weighted index with a starting value of 1.4 million. If we want the starting value to be 100, we just divide the starting value, and every subsequent value, by 1.4 million and then multiply by 100. So, if the next value of the index is 1.6 million, the “reindexed” value would be 1.6 million/1.4 million × 100 = 114.29, which is easily interpreted as a 14.29 percent increase over a base of 100.
+
+Reindexing
+
+EXAMPLE 5.3
+
+You’ve calculated values for an index over a four-year period as follows:
+
+Year 1:1,687 million
+
+Year 2:1,789 million
+
+Year 3:1,800 million
+
+Year 4:1,700 million
+
+Suppose you wanted the index to start at 1,000. What would the reindexed values be?
+
+To reindex these numbers, we need to (1) divide each of them by the starting value, 1,687 million, and then (2) multiply each by 1,000. Thus, we have:
+
+Year 1:1,687 million/1,687 million × 1,000 = 1,000.00
+
+Year 2:1,789 million/1,687 million × 1,000 = 1,060.46
+
+Year 3:1,800 million/1,687 million × 1,000 = 1,066.98
+
+Year 4:1,700 million/1,687 million × 1,000 = 1,007.71
+
+Finally, an important consideration in looking at indexes is whether dividends are included. Most indexes don’t include them. As a result, the change in an index measures only the capital gain (or loss) component of your return. When you’re trying to evaluate how a particular type of stock market investment has done over time, dividends have to be included to get an accurate picture.
+
+So which index is the best? The most popular alternative to the DJIA is the value-weighted S&P 500. You might further wonder, however, why this popular index limits itself to 500 stocks. The answer is timeliness and accuracy. Almost all stocks in the S&P 500 index trade every day, and therefore accurate daily updates of market prices are available each day. Stocks that do not trade every day can cause index staleness. Index staleness occurs when an index does not reflect all current price information because some of the stocks in the index have not traded recently. Also, as a practical matter, the largest 500 companies account for a large portion (about 75 percent) of the value of the overall stock market.
+
+index staleness
+
+Condition that occurs when an index does not reflect all current price information because some of the stocks in the index have not traded recently.
+
+page 163 
+
+While the value-weighted approach dominates, investors are always in search of a “better mousetrap.” So, we have recently seen a surge in the number and types of indexes available. Much of this follows a so-called fundamental indexing approach. The most popular are indexes based on fundamental metrics such as earnings or dividend yields, with those stocks having the highest yields receiving the largest weights. As with anything new, however, there is still ongoing debate about whether these approaches actually create a better index.
+
+CHECK THIS
+
+
+
+5.6aWhat is the difference between price and value weighting in the construction of stock market indexes? Give an example of a well-known index of each type.
+
+5.6bWhich is better, price or value weighting? Why?
+
+5.6cWhich stock market index is likely to contain the greater degree of index staleness, the DJIA or the NYSE Composite Index? Why?
+
+5.7 Summary and Conclusions
+This chapter introduces you to stock markets. We discussed who owns stocks, how the stock exchanges operate, and how stock market indexes are constructed and interpreted. This chapter covers many important aspects of stock markets, including the following items—grouped by the chapter’s important concepts.
+
+1.  The differences between private and public equity, and primary and secondary stock markets.
+
+A.  Private equity funds are investment companies that invest in private companies. These investments range from early-stage financing (i.e., venture capital) to large leveraged buyouts of public companies (i.e., going private).
+
+B.  The stock market is composed of a primary market, where stock shares are first sold, and a secondary market, where investors trade shares among themselves. In the primary market, companies raise money for investment projects. Investment bankers specialize in arranging financing for companies in the primary market. Investment bankers often act as underwriters, buying newly issued stock from the company and then reselling the stock to the public. The primary market is best known as the market for initial public offerings (IPOs).
+
+C.  In the secondary market, investors trade securities with other investors. Secondary market transactions are directed through three channels: directly with other investors, indirectly through a broker, or directly with a dealer. We saw that a broker matches buyers and sellers; a dealer buys and sells out of inventory.
+
+2.  The workings of the New York Stock Exchange.
+
+A.  Most common stock trading is directed through an organized stock exchange or through a trading network. The most well-known stock exchange in the United States is the New York Stock Exchange (NYSE). Popularly known as the Big Board, the NYSE was once owned by its members. Today, however, the NYSE itself is a publicly traded company (a subsidiary of its parent company Intercontinental Exchange)—so, it is owned by its shareholders.
+
+B.  The three major types of NYSE license holders are designated market makers (DMMs), floor brokers, and supplemental liquidity providers (SLPs). We discussed the role of each in the functioning of the exchange.
+
+page 164 
+
+3.  How NASDAQ operates.
+
+A.  The NASDAQ market is a computer network of securities dealers who post timely security price quotes to NASDAQ subscribers. These dealers act as market makers for securities listed on the NASDAQ.
+
+B.  Unlike the NYSE, the NASDAQ relies on multiple market makers instead of using a specialist system. Because it is a computer network, the NASDAQ has no physical location.
+
+C.  The NASDAQ network operates with three levels of information access:
+
+Level I provides timely and accurate price quotes that are freely available on the internet.
+
+Level II allows users to view price quotes from all NASDAQ market makers. This level allows access to inside quotes. Inside quotes are the highest bid and lowest ask quotes for a NASDAQ-listed security.
+
+Level III is for use by NASDAQ market makers only. With this access, market makers can change their quotes.
+
+4.  How to calculate index returns.
+
+A.  Investors interested in an overview of stock market activity refer to the returns on several stock market indexes.
+
+B.  The most widely followed barometer of day-to-day stock market activity is the Dow Jones Industrial Average (DJIA), often called the “Dow” for short. The DJIA is an index of the stock prices of 30 large companies representative of American industry. The DJIA is a price-weighted index.
+
+C.  Another widely followed index is the Standard & Poor’s index of 500 stocks, commonly abbreviated as the S&P 500, or often just the S&P. The S&P 500 index is a value-weighted index.
+
+D.  Many newspapers and websites publish current price information for indexes as well as stocks. In the United States, the newspaper best known for reporting stock price information is The Wall Street Journal—with its companion website, www.wsj.com.
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the operations and organization of the major stock markets. It also covered some of the most important order types and the construction of stock market indexes. How should you, as an investor or investment manager, put this information to work?
+
+First, as in some previous chapters, you need to submit as many as possible of the different order types suggested by this chapter in a simulated brokerage account—like Stock-Trak (note that not all simulated brokerage accounts allow all trade types). Your goal is to gain experience with the different order types and what they mean and accomplish for you as an investor or investment manager.
+
+In each case, once you have placed the order, be sure to monitor the price of the stock in question to see if any of your orders should be executed. When an order is executed, compare the result to the stop or limit price to see how you did.
+
+The second thing to do is to start observing the different indexes and learning how they are computed, what’s in them, and what they are intended to cover. For example, the NASDAQ 100 is made up of the largest NASDAQ stocks. Is this index broadly representative of big stocks in general? Of NASDAQ stocks in general? Learn about other indexes, like the Russell 2000, at russell.com.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+page 165 
+
+Key Terms
+
+ask price 144
+
+best efforts underwriting 140
+
+bid price 144
+
+broker 144
+
+circuit breakers 150
+
+crowdfunding 142
+
+dealer 144
+
+designated market maker (DMM) 147
+
+DMM’s post 149
+
+Dutch auction underwriting 141
+
+electronic communications network (ECNs) 154
+
+firm commitment underwriting 140
+
+floor brokers 147
+
+fourth market 155
+
+general cash offer 139
+
+index staleness 162
+
+initial public offering (IPO) 139
+
+inside quotes 154
+
+investment banking firm 140
+
+limit order 149
+
+market order 149
+
+NYSE exchange member 146
+
+over-the-counter (OTC) market 154
+
+price-weighted index 158
+
+primary market 139
+
+prospectus 141
+
+red herring 142
+
+rights offer 139
+
+seasoned equity offering (SEO) 139
+
+secondary market 139
+
+Securities and Exchange Commission (SEC) 141
+
+spread 144
+
+stop order 150
+
+supplemental liquidity provider (SLP) 147
+
+syndicate 140
+
+third market 155
+
+underwrite 140
+
+underwriter spread 140
+
+value-weighted index 158
+
+venture capital (VC) 137
+
+Chapter Review Problems and Self-Test
+
+1.  Index Construction (LO4, CFA2)   Suppose there are only two stocks in the market and the following information is given:
+
+Price per Share
+Shares Outstanding	Beginning of Year	End of Year
+Ally Co.	100 million	$ 60	$ 66
+McBeal, Inc.	400 million	  120	  100
+Construct price- and value-weighted indexes and calculate the percentage changes in each.
+
+2.  Stock Splits (LO4, CFA2)   In Problem 1, suppose that McBeal splits 3-for-1. Based on beginning information, what is the new divisor?
+
+Answers to Self-Test Problems
+
+1.  The average share price at the beginning of the year is ($60 + $120)/2 = $90. At the end of the year, the average price is $83. Thus, the average price declined by $7 from $90, a percentage drop of −$7/$90 = −.0778, or −7.78%. Total market cap at the beginning of the year is ($60 × 100) + ($120 × 400) = $54 billion. It falls to $46.6 billion, a decline of $7.4 billion. The percentage decline is −$7.4 billion/$54 billion = −.137, or −13.7%, or almost twice as much as the price-weighted index.
+
+2.  Following a 3-for-1 split, McBeal’s share price falls from $120 to $40. To keep the price-weighted index at its old level of 90, we need a new divisor such that ($60 + $40)/d = 90. In this case, the new divisor would be $100/90 = 1.1111.
+
+page 166 
+
+Test Your Investment Quotient
+
+
+New York Stock Exchange (LO2, CFA1)   Which of the following is false?
+
+DMMs can trade for their own accounts.
+
+DMMs earn income from providing liquidity.
+
+On the NYSE, all buy and sell orders are negotiated through a floor broker.
+
+DMMs stand ready to trade at quoted bid and ask prices.
+
+Private Equity (LO1, CFA5)   Private equity funds that concentrate in early-stage financing would likely be what type of fund?
+
+Venture capital
+
+Middle market
+
+Leveraged buyouts
+
+Distressed assets
+
+Private Equity (LO1, CFA4)   The compensation constraint that requires private equity fund managers to “give back” performance fees when subsequent losses occur is a(n) _____ provision.
+
+High-water mark
+
+Clawback
+
+Zenith
+
+Index
+
+Value-Weighted Index (LO4, CFA2)   An analyst gathered the following data about Stocks J, K, and L, which together form a value-weighted index:
+
+
+The ending value-weighted index (base index = 100) is closest to:
+
+92.31
+
+93.64
+
+106.80
+
+108.33
+
+Dow Jones Index (LO4, CFA2)   The divisor for the Dow Jones Industrial Average (DJIA) is most likely to decrease when a stock in the DJIA:
+
+Has a stock split.
+
+Has a reverse split.
+
+Pays a cash dividend.
+
+Is removed and replaced.
+
+New York Stock Exchange (LO2, CFA1)   Which of the following activities is not conducted by DMMs on the NYSE?
+
+Acting as dealers for their own accounts
+
+Monitoring compliance with margin requirements
+
+Providing liquidity to the market
+
+Posting bid and ask prices
+
+Stock Markets (LO1, CFA1)   What is a securities market characterized by dealers who buy and sell securities for their own inventories called?
+
+A primary market
+
+A reordered market
+
+An over-the-counter market
+
+An institutional market
+
+Stock Markets (LO1, CFA1)   page 167What is the over-the-counter market for exchange-listed securities called?
+
+Third market
+
+Fourth market
+
+After-market
+
+Block market
+
+Stock Indexes (LO4, CFA2)   If the market price of each of the 30 stocks in the Dow Jones Industrial Average changes by the same percentage amount during a given day, which stock will have the greatest impact on the DJIA?
+
+The one whose stock trades at the highest dollar price per share
+
+The one whose total equity has the highest market value
+
+The one having the greatest amount of equity in its capital structure
+
+The one having the lowest volatility
+
+Stock Indexes (LO4, CFA2)   In calculating the Standard & Poor’s stock price indexes, how are adjustments for stock splits made?
+
+By adjusting the divisor
+
+Automatically, due to the manner in which the index is calculated
+
+By adjusting the numerator
+
+Quarterly, on the last trading day of each quarter
+
+Stock Indexes (LO4, CFA2)   Which of the following indexes includes the largest number of actively traded stocks?
+
+The NASDAQ Composite Index
+
+The NYSE Composite Index
+
+The Wilshire 5000 Index
+
+The Value Line Composite Index
+
+Private Equity (LO1, CFA5)   Private equity funds that concentrate in smaller, family-owned companies with established cash flows are typically referred to as:
+
+Venture capital.
+
+Middle market.
+
+Leveraged buyouts.
+
+Distressed assets.
+
+Private Equity (LO1, CFA4)   The compensation constraint that requires private equity fund managers to meet a particular return target before performance fees can be taken is a(n) _____ provision.
+
+High-water mark
+
+Clawback
+
+Zenith
+
+Index
+
+Private Equity (LO1, CFA4)   Private equity funds will often use convertible preferred stock or bonds with attached call options. These types of securities are used because they:
+
+Increase the risk of the transaction.
+
+Shorten the life of the investment.
+
+Allow upside potential associated with a successful venture.
+
+Meet SEC regulations for such investments.
+
+Stock Indexes (LO4, CFA2)   Which one of the following statements regarding the Dow Jones Industrial Average is false?
+
+The DJIA contains 30 well-known large-company stocks.
+
+The DJIA is affected equally by dollar changes in low- and high-priced stocks.
+
+The DJIA is affected equally by percentage changes in low- and high-priced stocks.
+
+The DJIA divisor must be adjusted for stock splits.
+
+Concept Questions
+
+Primary and Secondary Markets (LO1, CFA5)   At your local Chevrolet retailer, both a primary and a secondary market are in action. Explain. Is the Chevy retailer a dealer or a broker?
+
+Brokers (LO1, CFA1)   page 168Why would floor brokers be willing to pay $40,000 per year just for the right to trade on the NYSE?
+
+Market and Limit Orders (LO1, CFA6)   What is the difference between a market order and a limit order? What is the potential downside to each type of order?
+
+Stop That! (LO2, CFA6)   What is a stop-loss order? Why might it be used? Is it sure to stop a loss?
+
+Order Types (LO2, CFA6)   Suppose Intel is currently trading at $50. You want to sell it if it reaches $55. What type of order should you submit?
+
+Order Types (LO2, CFA6)   Suppose Tesla is currently trading at $300. You think that if it reaches $310, it will continue to climb, so you want to buy it if and when it gets there. Should you submit a limit order to buy at $310?
+
+NASDAQ Quotes (LO3, CFA1)   With regard to the NASDAQ, what are inside quotes?
+
+Index Composition (LO4, CFA2)   There are basically four factors that differentiate stock market indexes. What are they? Comment on each.
+
+Index Composition (LO4, CFA2)   Is it necessarily true that, all else the same, an index with more stocks is better? What is the issue here?
+
+Private Equity (LO1, CFA5)   Why would venture capitalists provide financing in stages?
+
+Questions and Problems
+
+Core Questions
+
+Price-Weighted Divisor (LO4, CFA2)   Able, Baker, and Charlie are the only three stocks in an index. The stocks sell for $93, $312, and $78, respectively. If Baker undergoes a 2-for-1 stock split, what is the new divisor for the price-weighted index?
+
+Price-Weighted Divisor (LO4, CFA2)   In Problem 1, assume that Baker undergoes a 4-for-1 stock split. What is the new divisor now?
+
+Order Books (LO2, CFA1)   You find the following order book on a particular stock. The last trade on the stock was at $70.54.
+
+Buy Orders	Price per Share
+Shares	Price	Shares	Price
+  250	$70.53	  100	$70.56
+  100	  70.52	  600	  70.57
+  900	  70.51	1,000	  70.59
+   75	  70.49	  700	  70.60
+  900	  70.61
+If you place a market buy order for 100 shares, at what price will it be filled?
+
+If you place a market sell order for 200 shares, at what price will it be filled?
+
+Suppose you place a market order to buy 400 shares. At what price will it be filled?
+
+Price-Weighted Index (LO4, CFA2)   You are given the following information concerning two stocks that make up an index. What is the price-weighted return for the index?
+
+Price per Share
+Shares Outstanding	Beginning of Year	End of Year
+Kirk, Inc.	35,000	$37	$42
+Picard Co.	26,000	84	91
+Value-Weighted Index (LO4, CFA2)   Calculate the index return for the information in the previous problem using a value-weighted index.
+
+Reindexing (LO4, CFA2)   In Problem 5, assume that you want to reindex with the index value at the beginning of the year equal to 100. What is the index level at the end of the year?
+
+Index Level (LO4, CFA2)   page 169In Problem 5, assume the value-weighted index level was 408.16 at the beginning of the year. What is the index level at the end of the year?
+
+Reindexing (LO4, CFA2)   Suppose you calculated the total market value of the stocks in an index over a five-year period:
+
+Year 1: $4,387 million
+
+Year 2: $4,671 million
+
+Year 3: $5,032 million
+
+Year 4: $4,820 million
+
+Year 5: $5,369 million
+
+Suppose you wanted the index to start at 1,000. What would the reindexed values be?
+
+Intermediate Questions
+
+  9. Price-Weighted Divisor (LO4, CFA2)   Look back at Problem 1. Assume that Able undergoes a 1-for-2 reverse stock split. What is the new divisor?
+
+10. DJIA (LO4, CFA2)   On January 4, 2019, the DJIA opened at 22,686.22. The divisor at that time was .1474807199. Suppose on this day the prices for 29 of the stocks remained unchanged and 1 stock increased $5.00. What would the DJIA level be at the end of the day?
+
+11. DJIA (LO4, CFA2)   In January 2019, Boeing was the highest-priced stock in the DJIA and Cisco was the lowest. The closing price for Boeing on January 3, 2019, was $310.90, and the closing price for Cisco was $41.07. Suppose the next day the other 29 stock prices remained unchanged and Boeing increased 5 percent. What would the new DJIA level be? Now assume only Cisco increased by 5 percent. Find the new DJIA level. Use the information from Problem 10 to answer this question.
+
+12. DJIA (LO4, CFA2)   Looking back at Problems 10 and 11, what would the new index level be if all stocks on the DJIA increased by $1.00 per share on the next day?
+
+13. Price-Weighted Divisor (LO4, CFA2)   You construct a price-weighted index of 40 stocks. At the beginning of the day, the index is 8,465.52. During the day, 39 stock prices remain the same, and 1 stock price increases $5.00. At the end of the day, your index value is 8,503.21. What is the divisor on your index?
+
+14. Price-Weighted Indexes (LO4, CFA2)   Suppose the following three defense stocks are to be combined into a stock index in January 2019 (perhaps a portfolio manager believes these stocks are an appropriate benchmark for his or her performance):
+
+
+Calculate the initial value of the index if a price-weighting scheme is used.
+
+What is the rate of return on this index for the year ending December 31, 2019? For the year ending December 31, 2020?
+
+15. Price-Weighted Indexes (LO4, CFA2)   In Problem 14, suppose that Douglas McDonnell shareholders approve a 3-for-1 stock split on January 1, 2020. What is the new divisor for the index? Calculate the rate of return on the index for the year ending December 31, 2020, if Douglas McDonnell’s share price on January 1, 2021, is $39.33 per share.
+
+16. Value-Weighted Indexes (LO4, CFA2)   Repeat Problem 14 if a value-weighted index is used. Assume the index is scaled by a factor of 10 million; that is, if the average firm’s market value is $5 billion, the index would be quoted as 500.
+
+17. Value-Weighted Indexes (LO4, CFA2)   In Problem 16, will your answers change if the Douglas McDonnell stock splits? Why or why not?
+
+18. Equal-Weighted Indexes (LO4, CFA2)   In addition to price-weighted and value-weighted indexes, an equally weighted index is one in which the index value is computed from the average rate of return of the stocks comprising the index. Equally weighted indexes are frequently used by financial researchers to measure portfolio performance.
+
+Using the information in Problem 14, compute the rate of return on an equally weighted index of the three defense stocks for the year ending December 31, 2019.
+
+If the page 170index value is set to 100 on January 1, 2019, what will the index value be on January 1, 2020? What is the rate of return on the index for 2020?
+
+19. Dutch Auctions (LO1, CFA1)   Escambia Beach Systems is offering 1,000 shares in a Dutch auction IPO. The following bids have been received:
+
+Bidder	Quantity	Price
+A	400	$20
+B	400	19
+C	300	18
+D	200	17
+How much will Bidder A have to spend to purchase all of the shares that have been allocated to her?
+
+20. Equal-Weighted versus Value-Weighted Indexes (LO4, CFA2)   Historically there have been periods where a value-weighted index has a higher return than an equally weighted index and other periods where the opposite has occurred. Why do you suppose this would happen? Hint: Look back to Chapter 1.
+
+21. Geometric Indexes (LO4)   Another type of index is the geometric index. The calculation of a geometric index is similar to the calculation of a geometric return:
+
+
+The difference in the geometric index construction is that the returns used are the returns for the different stocks in the index for a particular period, such as a day or year. Construct the geometric index returns for Problem 14 over each of the two years. Assume the beginning index level is 100.
+
+22. Interpreting Index Values (LO4, CFA2)   Suppose you want to replicate the performance of several stock indexes, some of which are price weighted, others value weighted, and still others equally weighted. Describe the investment strategy you need for each of the index types. Are any of the three strategies passive, in that no portfolio rebalancing need be performed to perfectly replicate the index (assuming no stock splits or cash distributions)? Which of the three strategies do you think is most often followed by small investors? Which strategy is the most difficult to implement?
+
+Spreadsheet Problem
+
+23. Price-Weighted vs. Value-Weighted Indexes (LO4, CFA2)   Suppose the following four stocks are to be combined into a stock index in January 2019 (perhaps a portfolio manager believes these stocks are an appropriate benchmark for his or her performance):
+
+
+Calculate the initial value of the index if a price-weighting scheme is used. What is the rate of return on this index for the year ending December 31, 2019? For the year ending December 31, 2020?
+
+Now assume that a value-weighted index is used and that it is scaled by a factor of 10 million; that is, if the average firm’s market value is $5 billion, the index would be quoted as 500.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA6]
+
+George White, CFA, and Elizabeth Plain, CFA, manage an account for Briggs and Meyers Securities. In managing the account, White and Plain use a variety of strategies, and they trade in different markets. They use both market and limit orders to execute their trades, which are often based on page 171algorithmic methods. Their supervisor has asked them to compose a summary of their trading records to see how various strategies have worked.
+
+Their supervisor also asks them to assess the costs and risks of the various types of trades. The supervisor specifically asks Mr. White and Ms. Plain to explain the difference in risks associated with market and limit orders. After Mr. White and Ms. Plain explain how limit orders can give a better price, the supervisor asks why they wouldn’t always use limit orders.
+
+As part of the discussion, Ms. Plain explains the issue of spread. She uses a recent example where the quoted bid and ask prices of GHT stock were $25.40 and $25.44, respectively.
+
+Which of the following statements regarding market orders is most accurate? Market orders:
+
+Have price uncertainty, and limit orders have execution uncertainty.
+
+Have execution uncertainty, and limit orders have price uncertainty.
+
+And limit orders both have execution uncertainty and no price uncertainty.
+
+In the example given by Ms. Plain, what was the spread for the GHT stock just prior to execution?
+
+$.06
+
+$.02
+
+$.04
+
+Assume that when Mr. White and Ms. Plain entered their buy order for GHT, the price of the stock increased to $25.45. This is the price at which the trade was executed. Given this impact, the effective spread was _____ that in Question 2 above.
+
+Lower than
+
+Higher than
+
+The same as
+
+What’s on the Web?
+
+DJIA   As you have seen, in a price-weighted index, a stock with a higher price has a higher weight in the index return. To find out the weight of the stocks in the DJIA, go to www.slickcharts.com/dowjones. Which stock in the DJIA has the highest weight? The lowest weight?
+
+DJIA   You want to find the current divisor for the DJIA. Go to the market data center at wsj.com and look up the current divisor.
+
+S&P 500   To find out the most recent changes in the S&P 500, go to standardandpoors.com. Once at the website, find the 10 most recent additions and deletions to the stocks in the index.
+
+Nikkei 225   The Nikkei 225 Index is a highly followed index that measures the performance of the Japanese stock market. Go to indexes.nikkei.co.jp/en/nkave and find out if the Nikkei 225 is a price-weighted or value-weighted index. What is the divisor for this index? When was the latest reconstitution of the index? Which stocks were added? Which stocks were deleted? Hint: Look in the “More Details” section.

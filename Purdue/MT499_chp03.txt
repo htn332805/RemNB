@@ -1,0 +1,960 @@
+CHAPTER 3
+Financial Statements, Cash Flows, and Taxes
+
+LEARNING OBJECTIVES
+
+Discuss generally accepted accounting principles (GAAP) and their importance to the economy.
+Explain the balance sheet identity and why a balance sheet must balance.
+Describe how market-value balance sheets differ from book-value balance sheets.
+Identify the basic equation for the income statement and the information it provides.
+Understand the calculation of cash flows from operating, investing, and financing activities required in the statement of cash flows.
+Explain how the four major financial statements discussed in this chapter are related.
+Identify the cash flow to a firm’s investors using its financial statements.
+Discuss the difference between average and marginal tax rates.
+On October 20, 2020, after the close of U.S. financial markets, Netflix announced revenues for the third quarter of the year of $6.44 billion and earnings per share of $1.74. The news shocked both investors and Wall Street analysts who had forecast that the firm would make much more money during the quarter. The performance was particularly surprising given that, heading into the third quarter, Netflix management had announced they expected earnings per share of around $2.09. As it turned out, Netflix attributed its shortfall to adding fewer customers than management had expected. Netflix’s share price fell with the news, losing nearly 5 percent in the hours following the earnings announcement.
+
+This example illustrates the close relation between the information contained in a firm’s accounting statements and its stock performance. Public corporations in the United States communicate their financial performance to their investors through their financial statements, leading to Wall Street’s virtual obsession with accounting earnings. Analysts estimate what a firm’s revenue should be and how much the firm should earn in a particular reporting period, and if the firm fails to meet these estimates it can be punished by a drop in its stock price. If a firm consistently fails to meet these estimates, its CEO can be out of a job. Pressure to meet analyst expectations has occasionally led managers to misstate accounting results in an attempt to mislead analysts and investors. In the wake of several large-scale accounting frauds, involving firms such as Enron and WorldCom, Congress and federal regulators tightened accounting standards and oversight of the accounting profession in the early 2000s. Passage of the Sarbanes-Oxley Act, discussed in Chapter 1, is an example of these steps.
+
+Clearly, the correct preparation of financial statements is crucial for investors. In this chapter and the next, we focus on the preparation, interpretation, and limitations of financial statements. The concepts that we discuss in these chapters provide an important foundation for the material discussed in the rest of this book.
+
+Chapter Preview
+In Chapter 1 we noted that all businesses have owners and stakeholders—managers, creditors, suppliers, and the government, among others—who have claims on the firm’s cash flows. The owners and stakeholders in a firm need to monitor the firm’s progress and evaluate its performance. Financial statements enable them to do this. The accounting system is the framework that gathers information about the firm’s business activities and translates the information into objective numerical financial reports.
+
+Most firms prepare financial statements on a regular basis and have independent auditors certify that the financial statements have been prepared in accordance with generally accepted accounting principles and contain no material misstatements. The audit increases the confidence of the owners and stakeholders that the financial statements prepared by management present a “fair and accurate” picture of the firm’s financial condition at a particular point in time. In fact, it is difficult to get any type of legitimate business loan without audited financial statements.
+
+This chapter reviews the basic structure of a firm’s financial statements and explains how the various statements fit together. It also explains the relation between accounting income and cash flow to investors. We begin by examining the preparation of the balance sheet, the income statement, the statement of retained earnings, and the statement of cash flows. As you read through this part of the chapter, pay particular attention to the differences between (1) book value and market value and (2) accounting income and cash flow to investors. Understanding the differences between these concepts is necessary to avoid serious analytical and decision-making errors. The last part of the chapter discusses essential features of the federal tax code for corporations. In finance we make most decisions on an after-tax basis, so understanding the tax code is very important.
+
+3.1 Financial Statements and Accounting Principles
+LEARNING OBJECTIVE
+
+Discuss generally accepted accounting principles (GAAP) and their importance to the economy.
+Before we can meaningfully interpret and analyze financial statements, we need to understand some accounting principles that guide their preparation. Thus, we begin the chapter with a discussion of generally accepted accounting principles, which guide firms in the preparation of financial statements. First, however, we briefly describe the annual report.
+
+The Annual Report
+The annual report is the most important report that firms issue to their stockholders and make available to the general public. Historically, annual reports were dull, black-and-white publications that presented audited financial statements for firms. Today some annual reports, especially those of large public companies, are slick, picture-laden, full-color documents with orchestrated media messages.
+
+Annual reports typically are divided into three distinct sections. First are the financial tables, which contain financial information about the firm and its operations for the year, and an accompanying summary explaining the firm’s performance over the past year. For example, the summary might explain that sales and profits were down because of declining consumer demand. Often, there is a letter from the chairperson or CEO that provides some insights into the reasons for the firm’s performance, a discussion of new developments, and a high-level view of the firm’s strategy and future direction. It is important to note that the financial tables are historical records reflecting past performance of the firm and do not necessarily indicate what the firm will do in the future.
+
+The second part of the report is often a corporate public relations piece discussing the firm’s product lines, its services to its customers, its contributions to the communities in which it operates, and its relationships with other stakeholders. Over the last few years there has been increased attention paid to corporate social, environmental (or sustainability), and governance policies by companies and investors. As a result, many companies regularly report additional nonfinancial information on these issues both inside and outside of their financial statements. In fact, a 2020 survey of approximately 500 large U.S. firms found that 90 percent published a separate report on their sustainability practices, up from just 20 percent publishing such reports in 2011.1 These reports often include details about the firm’s policies and goals on a variety of social and environmental issues ranging from carbon emissions to workplace diversity, equity and inclusion.
+
+The third part of the annual report presents the audited financial statements: the balance sheet, the income statement, the statement of retained earnings, and the statement of cash flows. Overall, the annual report provides a good overview of the firm’s operating and financial performance and states why, in management’s judgment, things turned out the way they did.
+
+Generally Accepted Accounting Principles
+In the United States, accounting statements are prepared in accordance with generally accepted accounting principles (GAAP), a set of widely agreed-upon rules and procedures that defines how companies are to maintain financial records and prepare financial reports. These principles are important because without them, financial statements would be less standardized. Accounting standards such as GAAP make it easier for analysts and management to make meaningful comparisons of a company’s performance against that of other companies.
+
+generally accepted accounting principles (GAAP) a set of rules that defines how companies are to prepare financial statements
+
+Accounting principles and reporting practices for U.S. firms are promulgated by the Financial Accounting Standards Board (FASB), a not-for-profit body that operates in the public interest. FASB derives its authority from the Securities and Exchange Commission (SEC). GAAP and reporting practices are published in the form of FASB standards, and certified public accountants are required to follow these standards in their auditing and accounting practices.
+
+Fundamental Accounting Principles
+To better understand financial statements, it is helpful to look at some fundamental accounting principles embodied in GAAP. These principles determine the manner of recording, measuring, and reporting company transactions. As you will see, the practical application of these principles requires professional judgment, which can result in considerable differences in financial statements.
+
+The Assumption of Arm’s-Length Transactions
+
+Accounting is based on the recording of economic transactions that can be quantified in dollar amounts. It assumes that the parties to a transaction are economically rational and are free to act independently of each other. In other words, all transactions are assumed to be “arm’s-length transactions.” The price you pay for something or the price for which you sell something is what gets recorded on the financial statements. To illustrate, let’s assume that you are preparing a personal balance sheet for a bank loan on which you must list all your assets. You are including your Tesla Model S as an asset. You bought the car a few months ago from your father for $10,000 when the market value of the car was $35,000. You got a good deal. However, the price you paid, which would be the number recorded on your balance sheet, was not the market value. Since you did not purchase the Tesla in an arm’s-length transaction, your balance sheet would not reflect the true value of the asset.
+
+The Cost Principle
+
+Generally, the value of an asset that is recorded on a company’s “books” reflects its historical cost. The historical cost is assumed to represent the fair market value of the item at the time it was acquired and is recorded as the book value. Over time, it is unlikely that an asset’s book value will be equal to its market value because market values tend to change over time. The major exception to this principle is marketable securities, such as the stock of another company, which are recorded at their current market value.
+
+book value the net value of an asset or liability recorded on the financial statements—normally reflects historical cost
+
+It is important to note that accounting statements are records of past performance; they are based on historical costs, not on current market prices or values. Accounting statements translate the business’s past performance into dollars and cents, which helps management and investors better understand how the business has performed in the past.
+
+The Realization Principle
+
+Under the realization principle, revenue is recognized only when the sale is essentially completed and the exchange value for the goods or services can be reliably determined. As a practical matter, this means that most revenues are recognized at the time of sale whether or not cash is actually received. At this time, if a firm sells to its customers on credit, an account receivable is recorded. The firm receives the cash only when the customer actually makes the payment. Although the realization principle seems straightforward, there can be considerable ambiguity in its interpretation. For example, should revenues be recognized when goods are ordered, when they are shipped, or when payment is received from the customer?
+
+The Matching Principle
+
+Accountants try to match revenue on the income statement with the expenses incurred to generate the revenue. In practice, this matching principle means that revenue is first recognized (according to the realization principle) and then is matched with the costs associated with producing the revenue. For example, if we manufacture a product and sell it on credit (accounts receivable), the revenue is recognized at the time of sale. The expenses associated with manufacturing the product—expenditures for raw materials, labor, equipment, and facilities—are recognized at the same time. Notice that the actual cash outflows for expenses may not occur at the same time the expenses are recognized. The figures on the income statement more than likely will not correspond to the actual cash inflows and outflows during the period.
+
+The Going Concern Assumption
+
+The going concern assumption is the assumption that a business will remain in operation for the foreseeable future. This assumption underlies much of what is done in accounting. For example, suppose that GameStop has $860 million of inventory on its balance sheet, representing what the firm actually paid for the inventory in arm’s-length transactions. If we assume that GameStop is a going concern, the balance sheet figure is a reasonable number because in the normal course of business we expect GameStop to be able to sell the goods for their cost plus some reasonable markup.
+
+However, suppose GameStop declares bankruptcy and is forced by its creditors to liquidate its assets. If this happens, GameStop is no longer a going concern. What will the inventory be worth then? We cannot be certain, but 50 cents on the dollar might be a high figure. The going concern assumption allows the accountant to record assets at cost rather than their value in a liquidation sale, which is usually much less.
+
+You can see that the fundamental accounting principles just discussed leave considerable professional discretion to accountants in the preparation of financial statements. As a result, financial statements can and do differ because of honest differences in professional judgments. Of course, there are limits on honest professional differences, and at some point an accountant’s choices can cross a line and result in “cooking the books.”
+
+International GAAP
+Accounting is often called the language of business. Just as there are different dialects within languages, there are different international “dialects” in accounting. For example, the set of generally accepted accounting principles in the United Kingdom is called U.K. GAAP. Given the variation in accounting standards, accountants must adjust financial statements so that meaningful comparisons can be made between firms that utilize different accounting principles. The cost of making these adjustments represents an economic inefficiency that adds to the overall cost of international business transactions.
+
+By the end of the 1990s, the two predominant international reporting standards were the U.S. GAAP and the International Financial Reporting Standards, also known as IFRS. Both FASB and the International Accounting Standards Board (IASB) have been working toward a convergence of these rules in an effort to provide a truly global accounting standard. Today most international jurisdictions utilize IFRS or some close variant of those standards. Consistent with these practices, the U.S. SEC has been reviewing proposals for U.S. corporations to adopt IFRS for financial reporting, but to date there has been no move to change the accounting standard from U.S. GAAP.
+
+Illustrative Company: Diaz Manufacturing
+In the next part of this chapter, we turn to a discussion of four fundamental financial statements: the balance sheet, the income statement, the statement of retained earnings, and the statement of cash flows. To more clearly illustrate these financial statements, we use data from Diaz Manufacturing Company, a fictional Houston-based provider of petroleum and industrial equipment and services worldwide.2 Diaz Manufacturing was formed in 2016 as a spin-off of several divisions of a large multinational corporation. The firm specializes in the design and manufacturing of systems used in petroleum production and has two divisions: (1) Diaz Energy Services, which sells oil and gas compression equipment, and (2) Diaz Manufacturing, which makes valves and related parts for energy production.
+
+In 2020 Diaz Manufacturing’s sales were $1.56 billion, an increase of 12.8 percent from the previous year. A letter to stockholders in the 2020 annual report stated that management did not expect earnings in 2021 to exceed the 2020 earnings. The reason for caution was that Diaz’s earnings are very susceptible to changes in the political and economic environment in the world’s energy-producing regions, and with COVID-19 in 2020 the business environment was highly unstable. Management reassured investors, however, that Diaz had the financial strength and the management team needed to weather any economic adversity.
+
+Before You Go On
+What types of information does a firm’s annual report contain?
+What is the realization principle, and why may it lead to a difference in the timing of when revenues are recognized on the books and cash is collected?
+
+To find annual reports and other corporate filings for U.S. corporations, visit the EDGAR search page maintained by the U.S. Securities and Exchange Commission (SEC) at www.sec.gov/edgar.shtml
+
+
+More information about sustainability from the investor viewpoint can be found at www.unpri.org
+
+
+You can find more information about FASB at www.fasb.org
+
+
+You can read more about IFRS at www.ifrs.com
+
+3.2 The Balance Sheet
+LEARNING OBJECTIVE
+
+Explain the balance sheet identity and why a balance sheet must balance.
+The balance sheet reports the firm’s financial position at a particular point in time. Exhibit 3.1 shows the balance sheets for Diaz Manufacturing on December 31, 2019, and December 31, 2020. The left-hand side of the balance sheet identifies the firm’s assets, which are listed at book value. These assets are owned by the firm and are used to generate income. The right-hand side of the balance sheet includes liabilities and stockholders’ equity, which tell us how the firm has financed its assets. Liabilities are obligations of the firm that represent claims against its assets. These claims arise from debts and other obligations to pay creditors, employees, or the government. In contrast, stockholders’ equity represents the residual claim of the owners on the remaining assets of the firm after all liabilities have been paid.3 The basic balance sheet identity can thus be stated as follows:4
+
+balance sheet a financial statement that shows a firm’s financial position (assets, liabilities, and equity) at a point in time
+
+EXHIBIT 3.1 Diaz Manufacturing Balance Sheets as of December 31 ($ millions)
+
+The left-hand side of the balance sheet lists the assets that the firm has at a particular point in time, while the right-hand side shows how the firm has financed those assets.
+
+Assets	2020	2019	Liabilities and Stockholders’ Equity	2020	2019
+Casha	$288.5	$16.6	Accounts payable and accruals	$349.3	$325.0
+Accounts receivable	306.2	268.8	Notes payable	10.5	4.2
+Inventories	423.8	372.7	Accrued taxes	18.0	16.8
+Other current assets	21.3	29.9	  Total current liabilities	$377.8	$346.0
+Total current assets	$1,039.8	$688.0	Long-term debt	574.0	305.6
+ 	 	 	  Total liabilities	$951.8	$651.6
+Plant and equipment	911.6	823.3	Preferred stockb	—	—
+Less: Accumulated depreciation	512.2	429.1	Common stock (54,566,054 shares)c	50.0	50.0
+Net plant and equipment	$399.4	$394.2	Additional paid-in capital	842.9	842.9
+ 	 	 	Retained earnings	67.8	(50.7)
+Goodwill and other assets	450.0	411.6	Treasury stock (571,320 shares)	(23.3)	—
+ 	 	 	  Total stockholders equity	$   937.4	$   842.2
+Total assets	$1,889.2	$1,493.8	Total liabilities and equity	$1,889.2	$1,493.8
+aCash includes investments in marketable securities.
+
+b10,000,000 preferred stock shares authorized.
+
+c150,000,000 common stock shares authorized.
+
+(3.1)
+Since stockholders’ equity is the residual claim, stockholders would receive any remaining value if the firm decided to sell off all of its assets and use the money to pay its creditors. That is why the balance sheet always balances. Simply put, if you total what the firm owns and what it owes, then the difference between the two is the total stockholders’ equity:
+
+
+Notice that total stockholders’ equity can be positive, negative, or equal to zero.
+
+It is important to note that balance sheet items are listed in a specific order. Assets are listed in order of their liquidity, with the most liquid assets, cash and marketable securities, at the top. The liquidity of an asset is defined by how quickly it can be converted into cash without loss of value. Thus, an asset’s liquidity has two dimensions: (1) the speed and ease with which the asset can be sold and (2) whether the asset can be sold without loss of value. Of course, any asset can be sold easily and quickly if the price is low enough. Liabilities on the balance sheet are listed based on their maturity, with the liabilities having the shortest maturities listed at the top. Maturity refers to the length of time remaining before the obligation must be paid.
+
+Next, we examine some important balance sheet accounts of Diaz Manufacturing as of December 31, 2020 (see Exhibit 3.1). As a matter of convention, accountants classify assets and liabilities as short-term (or current) or long-term. We will start by looking at current assets and liabilities.
+
+Current Assets and Liabilities
+Current assets are assets that can reasonably be expected to be converted into cash within one year. Besides cash, which includes investments in marketable securities such as money market instruments, other current assets are accounts receivable, which are typically due within 30 to 45 days, and inventory, which is money invested in raw materials, work-in-process inventory, and finished goods. Diaz’s current assets at the end of 2020 totaled $1,039.8 million.
+
+Current liabilities are obligations payable within one year. Typical current liabilities are accounts payable, which arise in the purchases of goods and services from vendors and are normally paid within 30 to 45 days; notes payable, which are formal borrowing agreements with a bank or some other lender that have a stated maturity; and accrued taxes from federal, state, and local governments, which are taxes Diaz owes but has not yet paid. Diaz’s total current liabilities were $377.8 million at the end of 2020.
+
+Net Working Capital
+
+Recall from Chapter 1 that the dollar difference between total current assets and total current liabilities is the firm’s net working capital:
+
+(3.2)
+Net working capital is a measure of a firm’s ability to meet its short-term obligations as they come due. One way that firms maintain their liquidity is by holding more current assets than current liabilities.
+
+For Diaz Manufacturing, total current assets at the end of 2020 were $1,039.8 million, and total current liabilities were $377.8 million. The firm’s net working capital was thus:
+
+ 
+
+To interpret this number, if Diaz Manufacturing took its current cash on hand and liquidated its marketable securities, accounts receivables, and inventory at book value, it would have $1,039.8 million with which to pay off its short-term liabilities of $377.8 million, leaving $662.0 million of “cushion.” As a short-term creditor, such as a bank, you would have a positive view of the net working capital position of Diaz because current assets exceed current liabilities by almost three times ($1,039.8/$377.8 = 2.75).
+
+Accounting for Inventory
+
+Inventory, as noted earlier, is a current asset on the balance sheet, but it is usually the least liquid of the current assets. The reason is that it can take a long time for a firm to convert inventory into cash. For a manufacturing firm, the inventory cycle begins with raw materials, continues with goods in process, proceeds with finished goods, and finally concludes with selling the asset for cash or an account receivable. For a firm such as The Boeing Company, for example, the inventory cycle in manufacturing an aircraft can be nearly a year.
+
+An important decision for management is the selection of an inventory valuation method. The most common methods are FIFO (first in, first out) and LIFO (last in, first out). During periods of changing price levels, how a firm values its inventory affects both its balance sheet and its income statement. For example, suppose that prices have been rising (inflation). If a company values its inventory using the FIFO method, when the firm makes a sale, it assumes the sale is from the oldest, lowest-cost inventory—first in, first out. Thus, during rising prices, firms using FIFO will have the lowest cost of goods sold, the highest net income, and the highest inventory value. In contrast, a company using the LIFO method assumes the sale is from the newest, highest-cost inventory—last in, first out. During a period of inflation, firms using LIFO will have the highest cost of goods sold, the lowest net income, and the lowest inventory value.
+
+Because inventory valuation methods can have a significant impact on both the income statement and the balance sheet, when financial analysts compare different companies, they make adjustments for differences in inventory valuation methods. Although firms can switch from one inventory valuation method to another, this type of change is an extraordinary event and cannot be done frequently.
+
+Diaz Manufacturing reports inventory values in the United States using the LIFO method. The remaining inventories, which are located outside the United States and Canada, are calculated using the FIFO method. Diaz’s total inventory is $423.8 million at the end of 2020.
+
+Long-Term Assets and Liabilities
+The remaining assets on the balance sheet are classified as long-term assets. Typically, these assets are financed by long-term liabilities and stockholders’ equity.
+
+Long-Term Assets
+
+Long-term (productive) assets are the assets that the firm uses to generate most of its income. Long-term assets may be tangible or intangible. Tangible assets are balance sheet items such as land, mineral resources, buildings, equipment, machinery, and vehicles that are used over an extended period of time. In addition, tangible assets can include other businesses that a firm wholly or partially owns, such as foreign subsidiaries. Intangible assets are items such as patents, copyrights, licensing agreements, technology, and other intellectual capital the firm owns.
+
+Goodwill is an intangible asset that arises only when a firm purchases another firm. Conceptually, goodwill is a measure of how much the price paid for the acquired firm exceeds the sum of the values of the acquired firm’s individual assets. There are a variety of reasons why the purchase price of an asset might exceed its value to the seller. Goodwill may arise from improvements in efficiency, the reputation or brands associated with products or trademarks, or even a valuable client base for a particular service. For example, if Diaz Manufacturing paid $2.0 million for a company that had individual assets with a total fair market value of $1.9 million, the goodwill paid would be $100,000 ($2.0 million − $1.9 million = $0.1 million).
+
+Diaz Manufacturing’s long-term assets at the end of 2020 included net plant and equipment of $399.4 million and intangible and other assets of $450.0 million, as shown in Exhibit 3.1. The term net plant and equipment indicates that accumulated depreciation has been subtracted to arrive at the net value. That is, net plant and equipment equals total plant and equipment less accumulated depreciation; accumulated depreciation is the total amount of depreciation expense taken on plant and equipment up to the balance sheet date. For Diaz Manufacturing, net plant and equipment for 2020 is calculated as follows:
+
+ 
+
+Accumulated Depreciation
+
+When a firm acquires a tangible asset that deteriorates with use and wears out, accountants try to allocate the asset’s cost over its estimated useful life. The matching principle requires that the cost be expensed during the period in which the firm benefited from use of the asset. Thus, depreciation allocates the cost of a limited-life asset to the periods in which the firm is assumed to benefit from the asset. Tangible assets with an unlimited life, such as land, are not depreciated. Depreciation affects the balance sheet through the accumulated depreciation account; we discuss its effect on the income statement in Section 3.4.
+
+depreciation the allocation of the cost of an asset over its estimated useful life to reflect the wear and tear on the asset as it is used to produce the firm’s goods and services
+
+Management of a company can elect whether to depreciate its assets using straight-line depreciation or one of the approved accelerated depreciation methods. All of these methods allow the same amount of total depreciation over an asset’s life. However, accelerated depreciation methods allow for more depreciation expense in the early years of an asset’s life than straight-line depreciation.
+
+Diaz Manufacturing uses the straight-line method of depreciation. Had Diaz elected to use accelerated depreciation, the value of its depreciable assets would have been written off to the income statement more quickly as a higher depreciation expense, which results in a lower net plant and equipment account on its balance sheet and a lower net income for the period.
+
+Long-Term Liabilities
+
+Long-term liabilities include debt instruments due and payable beyond one year as well as other long-term obligations of the firm. They include bonds, bank term loans, mortgages, and other types of liabilities, such as pension obligations and deferred compensation. Typically, firms finance long-term assets with long-term liabilities. Diaz Manufacturing has a single long-term liability of $574.0 million at the end of 2020, which is a long-term debt.
+
+Equity
+We have summarized the types of assets and liabilities that appear on the balance sheet. Now we look at the equity accounts. Diaz Manufacturing’s total stockholders’ equity at the end of 2020 is $937.4 million and is made up of four accounts—common stock, additional paid-in capital, retained earnings, and treasury stock—which we discuss next. We conclude with a discussion of preferred stock. Although a line item for preferred stock appears on Diaz Manufacturing’s balance sheets, the company has no shares of preferred stock outstanding.
+
+The Common Stock Accounts
+
+The most important equity accounts are those related to common stock, which represent the true ownership of the firm. Certain basic rights of ownership typically come with common stock; those rights are as follows:
+
+The right to vote on corporate matters, such as the election of the board of directors or important actions such as the purchase of another company.
+The preemptive right, which allows stockholders to purchase any additional shares of stock issued by the corporation in proportion to the number of shares they currently own. This allows common stockholders to retain the same percentage of ownership in the firm, if they choose to do so.
+The right to receive cash dividends if they are paid.
+If the firm is liquidated, the right to all remaining corporate assets after all creditors and preferred stockholders have been paid.
+A common source of confusion is the number of different common stock accounts on the balance sheet, each of which identifies a source of the firm’s equity. The common stock account identifies the funding from equity investors that was used to start and maintain the business and is priced at a par value. The par value is an arbitrary number set by management, usually a nominal amount such as $1.
+
+Clearly, par value has little to do with the market value of the stock when it is sold to investors. The additional paid-in capital is the amount of capital received from the sale of common stock in excess of par value. Thus, for example, if a new business is started with $40,000 from the sale of 1,000 shares of common stock with a par value of $1, the owners’ equity account looks as follows:
+
+Common stock (1,000 shares @ $1 par value)	$ 1,000
+Additional paid-in capital	39,000
+Total paid-in capital	$40,000
+Note the money put up by the initial investors: $1,000 in total par value (1,000 shares of common stock with a par value of $1) and $39,000 additional paid-in capital, for a total of $40,000.
+
+As you can see in Exhibit 3.1, Diaz manufacturing has 54,566,054 shares of common stock with a par value of 91.63 cents, for a total value of $50.0 million (54,566,054 shares × 91.63 cents = $50 million). The additional paid-in capital is $842.9 million. Thus, Diaz’s total paid-in capital is $892.9 million ($50.0 million + $842.9 million = $892.9 million).
+
+Retained Earnings
+
+The retained earnings account represents earnings that have been retained and reinvested in the business over time rather than being paid out as cash dividends. The change in retained earnings from one period to the next can be computed as the difference between net income and dividends paid. Diaz Manufacturing’s retained earnings account is $67.8 million in 2020. Reading the annual report, we learn that in the recent past the company “wrote down” the value of a substantial amount of assets. This transaction, which will be discussed later in this chapter, reduced the size of the retained earnings account by reducing net income.
+
+Note that retained earnings are not the same as cash. In fact, as we discuss in Section 3.7 of this chapter, a company can have a very large retained earnings account and no cash. Conversely, it can have a lot of cash and a very small retained earnings account. Because retained earnings appear on the liability side of the balance sheet, they do not represent an asset.
+
+Treasury Stock
+
+The treasury stock account represents stock that the firm has repurchased from investors. Publicly traded companies can simply buy shares of stock from stockholders on the market at the prevailing price. Typically, repurchased stock is held as “treasury stock,” and the firm can reissue it in the future if it desires. Diaz Manufacturing spent a total of $23.3 million during 2020 to repurchase the 571,320 shares of common stock it currently holds as treasury stock. The company has had a policy of repurchasing common stock, which has been subsequently reissued to senior executives under the firm’s stock-option plan.
+
+treasury stock stock that the firm has repurchased from investors
+
+You may wonder why a firm’s management would repurchase its own stock. This is a classic finance question, and it has no simple answer. One reason is that when a company has excess cash and management believes its stock price is undervalued, it makes sense to purchase stock with the cash. However, it is important to note that treasury stock is not an asset, and that firms cannot make profits on stock repurchases. We discuss share repurchases in more detail in Chapter 17.
+
+Preferred Stock
+
+Preferred stock is a cross between common stock and long-term debt. Preferred stock pays dividends at a specified fixed rate, which means that the firm cannot increase or decrease the dividend rate, regardless of whether the firm’s earnings increase or decrease. However, like common stock dividends, preferred stock dividends are declared by the board of directors, and in the event of financial distress, the board can elect not to pay a preferred stock dividend. If preferred stock dividends are not paid, the firm is typically required to pay dividends that have been skipped in the past before they can pay dividends to common stockholders. In the event of bankruptcy, preferred stockholders are paid before common stockholders but after bondholders and other creditors. As shown in Exhibit 3.1, Diaz Manufacturing has no preferred stock outstanding, but the company is authorized to issue up to 10 million shares of preferred stock.
+
+Before You Go On
+What is net working capital? Why might a low value for this number be considered undesirable?
+Explain the accounting concept behind depreciation.
+What is treasury stock?
+
+You can go to Yahoo! Finance to obtain financial statements and other information about public companies at www.finance.yahoo.com
+
+3.3 Market Value versus Book Value
+LEARNING OBJECTIVE
+
+Describe how market-value balance sheets differ from book-value balance sheets.
+Although accounting statements are helpful to analysts and managers, they have a number of limitations. One of these limitations, mentioned earlier, is that accounting statements are historical—they are based on data such as the cost of a building that was built years ago. Thus, the value of assets on the balance sheet is generally what the firm paid for them and not their current market value—the amount they are worth today.
+
+market value the price at which an item can be sold
+
+Investors and management, however, care about how the company will do in the future. The best information concerning how much a company’s assets can earn in the future, as well as how much of a burden its liabilities are, comes from the current market value of those assets and liabilities. Accounting statements would therefore be more valuable if they measured current value. The process of recording assets at their current market value is often called marking to market.
+
+In theory, everyone agrees that it is better to base financial statements on current information. Marking to market provides decision makers with financial statements that more closely reflect a company’s true financial condition; thus, they have a better chance of making the correct economic decision, given the information available. For example, providing current market values means that managers can no longer conceal a failing business or hide unrealized gains on assets.
+
+On the downside, it can be difficult to identify the market value of an asset, particularly if there are few transactions involving comparable assets. Critics also point out that estimating market value can require complex financial modeling, and the resulting numbers can be open to manipulation and abuse. Finally, mark-to-market accounting can become inaccurate if market prices deviate from the “fundamental” values of assets and liabilities. This might occur because buyers and sellers have either incorrect information or overly optimistic or pessimistic expectations about the future.
+
+A More Informative Balance Sheet
+To illustrate why market value provides better economic information than book value, let’s revisit the balance sheet components discussed earlier. Our discussion will also help you understand why there can be such large differences between some book-value and market-value balance sheet accounts.
+
+Assets
+
+For current assets, market value and book value may be reasonably close. The reason is that current assets have a short life cycle and typically are converted into cash quickly. Then, as new current assets are added to the balance sheet, they are entered at their current market price.
+
+In contrast, long-term assets, which are also referred to as fixed assets, have a long life cycle, and their market value and book value are not likely to be equal. In addition, if an asset is depreciable, the amount of depreciation shown on the balance sheet does not necessarily reflect the actual loss of economic value. As a general rule, the longer the time that has passed since an asset was acquired, the more likely it is that the current market value will differ from the book value.
+
+For example, suppose a firm purchased land for a trucking depot in Atlanta, Georgia, 30 years ago for $100,000. Today the land is nestled in an expensive suburban area and is worth $5.5 million. The difference between the book value of $100,000 and the market value is $5.4 million.
+
+Liabilities
+
+The market value of liabilities can also differ from their book value, though typically by smaller amounts than is the case with assets. For liabilities, the balance sheet shows the amount of money that the company has promised to pay. This figure is generally close to the actual market value for short-term liabilities because of their relatively short maturities.
+
+For long-term debt, however, book value and market value can differ substantially. The market value of debt with fixed interest payments is affected by the level of interest rates in the economy. More specifically, after long-term debt is issued, if the market rate of interest increases, the market value of the debt will decline. Conversely, if interest rates decline, the market value of the debt will increase. For example, assume that a firm has $1 million of 20-year bonds outstanding. If the market rate of interest increases from 5 to 8 percent, the price of the bonds will decline to around $700,000.5 Thus, changes in interest rates can have an important effect on the market values of long-term liabilities, such as corporate bonds. Even if interest rates do not change, the market value of long-term liabilities can change if the performance of the firm declines and the probability of default increases.
+
+Stockholders’ Equity
+
+The book value of the firm’s equity is one of the least informative items on the balance sheet. The book value of equity, as suggested earlier, is simply a historical record. As a result, it says very little about the current market value of the stockholders’ stake in the firm.
+
+In contrast, on a balance sheet where both assets and liabilities are marked-to-market, the firm’s equity is more informative to management and investors. The difference between the market values of the assets and liabilities provides a better estimate of the market value of stockholders’ equity than the difference in the book values. Intuitively, this makes sense because if you know the true market values of the firm’s assets and liabilities, the difference must equal the market value of the stockholders’ equity.
+
+You should be aware, however, that the difference between the sum of the market values of the individual assets and total liabilities will not give us an exact estimate of the market value of stockholders’ equity. The reason is that the total value of a firm’s assets depends on how these assets are utilized. By utilizing the assets efficiently, management can make the total value greater than the simple sum of the individual asset values. We will discuss this idea in more detail in Chapter 18.
+
+Finally, if you know the market value of the stockholders’ equity and the number of shares of stock outstanding, it is easy to compute the stock price. Specifically, the price of a share of stock is the market value of the firm’s stockholders’ equity divided by the number of shares outstanding.
+
+A Market-Value Balance Sheet
+Let’s look at an example of how a market-value balance sheet can differ from a book-value balance sheet. Marvel Airline is a small regional carrier that has been serving the Northeast for five years. The airline has a fleet of short-haul jet aircraft, most of which were purchased over the past two years. The fleet has a book value of $600 million. Recently, the airline industry has suffered substantial losses in revenue due to the slump in travel resulting from COVID-19, and most carriers are projecting operating losses for the foreseeable future. As a result, the market value of Marvel’s aircraft fleet is only $400 million. The book value of Marvel’s long-term debt is $300 million, which is near its current market value. The firm has 100 million shares outstanding. Using these data, we can construct two balance sheets, one based on historical book values and the other based on market values:
+
+ 	Marvel Airlines
+Book-Value versus Market-Value Balance Sheets ($ millions)
+ 	Assets	 	Liabilities and Stockholders’ Equity
+ 	Book	Market	 	Book	Market
+Aircraft	$600	$400	Long-term debt	$300	$300
+ 	 	 	Stockholders’ equity	300	100
+Total	$600	$400	 	$600	$400
+Based on the book-value balance sheet, the firm’s financial condition looks fine; the book value of Marvel’s aircraft at $600 million reflects what the firm paid, and the stockholders’ equity account is $300 million. But when we look at the market-value balance sheet, a different story emerges. We immediately see that the value of the aircraft has declined by $200 million and the stockholders’ equity has declined by $200 million!
+
+Why the decline in stockholders’ equity? Recall that in Chapter 1 we argued that the value of any asset—stocks, bonds, or a firm—is determined by the future cash flows the asset will generate. At the time the aircraft were purchased, it was expected that they would generate a certain amount of cash flow over time. Now that hard times plague the industry, the cash flow expectations have been lowered, leading to a decline in the value of stockholders’ equity.
+
+Learning by Doing Application 3.1 presents another example of a market-value balance sheet and what it tells us.
+
+LEARNING BY DOING APPLICATION 3.1
+The Market-Value Balance Sheet
+
+Problem
+
+Grady Means and his four partners in Menlo Park Consulting (MPC) have developed a revolutionary new continuous audit program that can monitor high-risk areas within a firm and identify abnormalities so that corrective actions can be taken. The partners have spent about $300,000 developing the program. The firm’s bookkeeper records the audit program on the firm’s balance sheet as an asset valued at cost, which is $300,000. To launch the product, the four partners recently invested an additional $1 million, and the money is currently in the firm’s bank account. At a recent trade show, a number of accounting and financial consulting firms tried to buy the new continuous product—the highest offer being $15 million. Assuming these are MPC’s only assets and liabilities, prepare the firm’s book-value and market-value balance sheets and explain the difference between the two.
+
+
+
+
+
+Before You Go On
+What is the difference between book value and market value?
+What are some objections to the preparation of marked-to-market balance sheets?
+
+For some perspective on mark-to-market accounting, go to www.investopedia.com/ask/answers/042315/how-market-market-accounting-different-historical-cost-accounting.asp
+
+3.4 The Income Statement and the Statement of Retained Earnings
+LEARNING OBJECTIVE
+
+Identify the basic equation for the income statement and the information it provides.
+In the previous sections, we examined a firm’s balance sheet, which is like a financial snapshot of the firm at a point in time. In contrast, the income statement illustrates the flow of operating activity and tells us how profitable a firm was between two points in time.
+
+The Income Statement
+The income statement summarizes the revenues, expenses, and profitability (or losses) of the firm over some period of time, usually a month, a quarter, or a year. The basic equation for the income statement can be expressed as follows:
+
+(3.3)
+income statement a financial statement that reports a firm’s revenues, expenses, and profits or losses over a period of time
+
+Let’s look more closely at each element in this equation.
+
+Revenues
+
+A firm’s revenues (sales) arise from the products and services it creates through its business operations. For manufacturing and merchandising companies, revenues come from the sale of merchandise. Service companies, such as consulting firms, generate fees for the services they perform. Other kinds of businesses earn revenues by charging interest or collecting rent. Regardless of how they earn revenues, most firms either receive cash or create an account receivable for each transaction.
+
+Expenses
+
+Expenses are the various costs that the firm incurs to generate revenues. Broadly speaking, expenses are (1) the value of long-term assets consumed through business operations, such as depreciation expense, and (2) the costs incurred in conducting business, such as labor, utilities, materials, and taxes.
+
+Net Income
+
+The firm’s net income reflects its accomplishments (revenues) relative to its efforts (expenses) during a time period. If revenues exceed expenses, the firm generates net income for the period. If expenses exceed revenues, the firm has a net loss. Net income is often referred to as profits, as income, or simply as the “bottom line,” since it is the last item on the income statement. Net income is often reported on a per-share basis and is then called earnings per share (EPS), where EPS equals net income divided by the number of common shares outstanding. A firm’s earnings per share tell a stockholder how much the firm has earned (or lost) for each share of stock outstanding.
+
+earnings per share (EPS) net income divided by the number of common shares outstanding
+
+Income statements for Diaz Manufacturing for 2019 and 2020 are shown in Exhibit 3.2. You can see that in 2020 total revenues from all sources (net sales) were $1,563.7 million. Total expenses for producing and selling those goods were $1,445.2 million—the total of the amounts for cost of goods sold, selling and administrative expenses, depreciation, interest expense, and taxes.6
+
+EXHIBIT 3.2 Diaz Manufacturing Income Statements for the Fiscal Year Ending December 31 ($ millions)
+
+The income statement shows the sales, expenses, and profit earned by the firm over a specific period of time.
+
+ 	2020	2019
+Net salesa	$1,563.7	$1,386.7
+Cost of goods sold	1,081.1	974.8
+Selling and administrative expenses	231.1	197.4
+Earnings before interest, taxes, depreciation, and amortization (EBITDA)	$251.5	$214.5
+Depreciation and amortization	83.1	75.3
+Earnings before interest and taxes (EBIT)	$168.4	$139.2
+Interest expense	5.6	18.0
+Earnings before taxes (EBT)	$162.8	$121.2
+Taxes	44.3	16.1
+Net income	$118.5	$105.1
+Common stock dividend	—	—
+Addition to retained earnings	$118.5	$105.1
+Per-share data:	 	 
+Earnings per share (EPS)	$2.17	$1.91
+Dividends per share (DPS)	—	—
+Book value per share (BVPS)	$17.18	$15.27
+Cash flow from operating activity per share (CFPS)	$3.80	$3.60
+aNet sales is defined as total sales less all sales discounts and sales returns and allowances.
+
+Using Equation 3.3, we can use these numbers to calculate Diaz Manufacturing’s net income for the year:
+
+ 
+
+Since Diaz Manufacturing had 54,566,054 common shares outstanding at year’s end, its EPS was $2.17 per share ($118.5 million/54,566,054 shares = $2.17 per share).
+
+A Closer Look at Some Expense Categories
+
+Next, we take a closer look at some of the expense items on the income statement. We discussed depreciation earlier in relation to the balance sheet, and we now look at the role of depreciation expense in the income statement.
+
+Depreciation Expense
+An interesting feature of financial reporting is that companies are allowed to prepare two sets of financial statements: one for tax purposes and one for financial reporting to the SEC and investors. For tax purposes, most firms elect to accelerate depreciation as quickly as is permitted under the tax code. The reason is that accelerated depreciation results in a higher depreciation expense to the income statement, which in turn results in a lower earnings before taxes (EBT) and a lower tax liability in the first few years after the asset is acquired. The good news about accelerating depreciation for tax purposes is that the firm pays lower taxes but the depreciation expense does not represent a cash flow. In contrast, straight-line depreciation results in lower depreciation expenses to the income statement, which results in higher EBT and higher tax payments. Firms generally use straight-line depreciation in the financial statements they report to the SEC and investors because it makes their earnings look better. The higher a firm’s EBT, the higher its net income.
+
+It is important to understand that, as we noted earlier, the company does not take more total depreciation under accelerated depreciation methods than under the straight-line method; the total amount of depreciation expensed to the income statement over the life of an asset is the same. Total depreciation cannot exceed the price paid for the asset. Note that the depreciation method does not aﬀect the cost of the asset and accelerating depreciation only alters the timing of when the depreciation is expensed.
+
+Amortization Expense
+Amortization is the process of writing off expenses for intangible assets—such as patents, licenses, copyrights, and trademarks—over their useful life. Since depreciation and amortization are very similar, they are often lumped together on the income statement. Both are noncash expenses, which means that an expense is recorded on the income statement, but the associated cash does not necessarily leave the firm in that period. For Diaz Manufacturing, the depreciation and amortization expense for 2020 was $83.1 million.
+
+At one time, goodwill was one of the intangible assets subject to amortization. Beginning in June 2001, however, goodwill could no longer be amortized. The value of the goodwill on a firm’s balance sheet is now subject to an annual impairment test. This test requires that the company annually value the businesses that were acquired in the past to see if the value of the goodwill associated with those businesses has declined below the value at which it is being carried on the balance sheet. If the value of the goodwill has declined (been impaired), management must expense the amount of the impairment. This expense reduces the firm’s reported net income.
+
+Unusual or Nonrecurring Items
+Other items reported separately in the income statement, or in footnotes to the income statement, include unusual or nonrecurring items. These are amounts that can affect the reported profit but are typically unrelated to the firm’s regular operating activities. For example, in 2019 MGM Resorts sold its Bellagio Casino and reported a $2.67 billion dollar gain on the deal. In contrast, at the end of 2019, Equifax Inc. reported a cost of just over $800 million associated with legal proceedings and government investigations related to an earlier cybersecurity breach. Providing the detail of irregular or unusual items allows users of financial statements to better understand the nature of revenues, expenses, and profits for firms from their regular day-to-day operations. Diaz Manufacturing had no unusual or nonrecurring expense items during 2020.
+
+Step by Step to the Bottom Line
+
+You probably noticed in Exhibit 3.2 that Diaz Manufacturing’s income statement showed income at several intermediate steps before reaching net income, the so-called bottom line. These intermediate income figures, which are typically included on a firm’s income statement, provide important information about the firm’s performance and help identify what factors are driving the firm’s income or losses.
+
+EBITDA
+The first intermediate income figure is EBITDA, or earnings before interest, taxes, depreciation, and amortization. The importance of EBITDA is that it shows what is earned purely from operations and reflects how efficiently the firm can manufacture and sell its products without taking into account the cost of the productive asset base (plant and equipment and intangible assets). For Diaz Manufacturing, EBITDA was $251.5 million in 2020.
+
+EBIT
+Subtracting depreciation and amortization from EBITDA yields the next intermediate figure, EBIT, or earnings before interest and taxes. EBIT for Diaz Manufacturing was $168.4 million in 2020.
+
+EBT
+When interest expense is subtracted from EBIT, the result is EBT, or earnings before taxes. Diaz Manufacturing had EBT of $162.8 million in 2020.
+
+Net Income
+Finally, taxes are subtracted from EBT to arrive at net income. For Diaz Manufacturing, as we have already seen, net income in 2020 was $118.5 million.
+
+In Chapter 4 you will see how to use these intermediate income figures to evaluate the firm’s financial condition. Next, we look at the statement of retained earnings, which provides detailed information about how management allocated the $118.5 million of net income earned during the period.
+
+The Statement of Retained Earnings
+Corporations often prepare a statement of retained earnings, which identifies the changes in the retained earnings account from one accounting period to the next. During any accounting period, two events can affect the retained earnings account balance:
+
+When the firm reports net income or loss.
+When the board of directors declares and pays a cash dividend.
+EXHIBIT 3.3 Diaz Manufacturing Statement of Retained Earnings for the Fiscal Year Ending December 31, 2020 ($ millions)
+
+The statement of retained earnings accompanies the balance sheet and shows the beginning balance of retained earnings, the adjustments made to retained earnings during the year, and the ending balance.
+
+Balance of retained earnings, December 31, 2019	$ (50.7)
+Add: Net income, 2020	118.5
+Less: Dividends to common stockholders, 2020	—
+Balance of retained earnings, December 31, 2020	$ 67.8
+Exhibit 3.3 shows the activity in the retained earnings account for 2020 for Diaz Manufacturing. The beginning balance is a negative $50.7 million. The firm’s annual report explains that the retained earnings deficit resulted from a $441 million write-down of assets that occurred when Diaz Manufacturing became a stand-alone business in June 2016. As reported in the 2020 income statement (Exhibit 3.2), the firm earned $118.5 million that year, and the board of directors elected not to declare any dividends. Retained earnings consequently went from a negative $50.7 million to a positive balance of $67.8 million, an increase of $118.5 million.
+
+Before You Go On
+How is net income computed?
+What is EBITDA, and what does it measure?
+What accounting events trigger changes to the retained earnings account?
+3.5 The Statement of Cash Flows
+LEARNING OBJECTIVE
+
+Understand the calculation of cash flows from operating, investing, and financing activities required in the statement of cash flows.
+There are times when the financial manager wants to know the details of all the cash inflows and outflows that have taken place during the year and to reconcile the beginning-of-year and end-of-year cash balances. The reason for the focus on cash flows is very practical. Managers must have a complete understanding of the uses of cash and the sources of cash in the firm. Firms must have the cash to pay wages, suppliers, and other creditors, and they often elect to defer cash receipts from sales by providing credit to customers. Managers may also decide to issue new securities to raise cash or may retire existing liabilities or repurchase equity to use cash. Finally, the purchase and sale of long-term productive assets can have a measurable impact on a firm’s cash position. In sum, managers are responsible for a wide variety of transactions that involve sources and uses of cash over an accounting period. The statement of cash flows provides them with what amounts to an inventory of these transactions, and helps them understand why the cash balance changed as it did from the beginning to the end of the period.
+
+Sources and Uses of Cash
+The statement of cash flows shows the company’s cash inflows (receipts) and cash outflows (payments and investments) for a period of time. We derive these cash flows by looking at the firm’s net income during the period and at changes in balance sheet accounts from the beginning of the period (end of the previous period) to the end of the period. In analyzing the statement of cash flows, it is important to understand that changes in the balance sheet accounts reflect cash flows. More specifically, increases in assets or decreases in liabilities and equity are uses of cash, while decreases in assets or increases in liabilities and equity are sources of cash. These changes in balance sheet items can be summarized by the following:
+
+Working capital. An increase in current assets (such as accounts receivable and inventory) is a use of cash. For example, if a firm increases its inventory, it must use cash to purchase the additional inventory. Conversely, the sale of inventory increases a firm’s cash position. An increase in current liabilities (such as accounts or notes payable) is a source of cash. For example, if during the year a firm increases its accounts payable, it has effectively borrowed money from suppliers and increased its cash position.
+Fixed assets. An increase in long-term fixed assets is a use of cash. If a company purchases fixed assets during the year, it decreases cash because it must use cash to pay for the purchase. If the firm sells a fixed asset during the year, the firm’s cash position will increase.
+Long-term liabilities and equity. An increase in long-term debt (bonds and private placement debt) or equity (common and preferred stock) is a source of cash. The retirement of debt or the purchase of treasury stock requires the firm to pay out cash, reducing its cash balance.
+Dividends. Any cash dividend payment decreases a firm’s cash balance.
+statement of cash flows a financial statement that shows a firm’s cash receipts, cash payments, and investments for a period of time
+
+Organization of the Statement of Cash Flows
+
+The statement of cash flows is organized around three business activities—operating activities, long-term investing activities, and financing activities—and the reconciliation of the cash account. We next discuss each element and illustrate them with reference to the statement of cash flows for Diaz Manufacturing, which is shown in Exhibit 3.4.
+
+Operating Activities
+Cash flows from operating activities in the statement of cash flows are the net cash flows that are related to a firm’s principal business activities. The most important items are the firm’s net income, depreciation and amortization expense, and working capital accounts (other than cash and short-term debt obligations, which are classified elsewhere).
+
+In Exhibit 3.4, the first section of the statement of cash flows for Diaz Manufacturing shows the cash flow from operations. The section starts with the firm’s net income of $118.5 million for the year ending December 31, 2020. Depreciation expense ($83.1 million) is added because it is a noncash expense on the income statement.
+
+Next come changes in the firm’s working capital accounts that affect operating activities. Note that working capital accounts that involve financing (bank loans and notes payable) and cash reconciliation (cash and marketable securities) will be classified separately. For Diaz, the working capital accounts that are sources of cash are (1) increase in accounts payable of $24.3 million ($349.3 − $325.0 = $24.3), (2) decrease in other current assets of $8.6 million ($29.9 − $21.3 = $8.6), and (3) increase in accrued income taxes of $1.2 million ($18.0 − $16.8 = $1.2). Changes in working capital items that are uses of cash are (1) increase in accounts receivable of $37.4 million ($306.2 − $268.8 = $37.4) and (2) increase in inventory of $51.1 million ($423.8 − $372.7 = $51.1). The total cash provided to the firm from operations is $147.2 million.
+
+To clarify why changes in working capital accounts affect the statement of cash flows, let’s look at some of the changes. Diaz had a $37.4 million increase in accounts receivable, which is subtracted from net income as a use of cash because the number represents sales that were included in the income statement but for which no cash has been collected. Diaz provided financing for these sales to its customers. Similarly, the $24.3 million increase in accounts payable represents a source of cash because goods and services the company purchased have been received but no cash has been paid out.
+
+Long-Term Investing Activities
+Cash flows from long-term investing activities relate to the buying and selling of long-term assets. In Exhibit 3.4, the second section shows the cash flows from long-term investing activities. Diaz Manufacturing made long-term investments in two areas: (1) the purchase of plant and equipment, totaling $88.3 million ($911.6 − $823.3 = $88.3) and (2) an increase in goodwill and other assets of $38.4 million ($450.0 − $411.6 = $38.4). Thus, Diaz’s investments in property, equipment, and other assets resulted in a cash outflow of $126.7 million ($88.3 + $38.4 = $126.7).
+
+EXHIBIT 3.4 Diaz Manufacturing Statement of Cash Flows for the Fiscal Year Ending December 31, 2020 ($ millions)
+
+The statement of cash flows shows the sources of the cash that has come into the firm during a period of time and the ways in which this cash has been used.
+
+Operating Activities	 
+Net income	$118.5
+Additions (sources of cash)	 
+Depreciation and amortization	83.1
+Increase in accounts payable	24.3
+Decrease in other current assets	8.6
+Increase in accrued income taxes	1.2
+Subtractions (uses of cash)	 
+Increase in accounts receivable	(37.4)
+Increase in inventories	(51.1)
+Net cash provided by operating activities	$147.2
+Long-Term Investing Activities	 
+Property, equipment, and other assets	$(88.3)
+Increase in goodwill and other assets	(38.4)
+Net cash used in investing activities	$(126.7)
+Financing Activities	 
+Increase in long-term debt	$268.4
+Purchase of treasury stock	(23.3)
+Increase in notes payable	6.3
+Net cash provided by financing activities	$251.4
+Cash Reconciliationa	 
+Net increase in cash and marketable securities	$271.9
+Cash and securities at beginning of year	16.6
+Cash and securities at end of year	$288.5
+aCash includes investments in marketable securities.
+
+Financing Activities
+Cash flows from financing occur when cash is obtained from or repaid to creditors or owners (stockholders). Typical financing activities involve cash received from the issuance of common or preferred stock, as well as cash from bank loans, notes payable, and long-term debt. Cash payments of dividends to stockholders and cash purchases of treasury stock reduce a company’s cash position.
+
+Diaz Manufacturing’s financing activities include the sale of bonds for $268.4 million ($574.0 − $305.6 = $268.4), which is a source of cash, and the purchase of treasury stock for $23.3 million, which is a use of cash. The firm’s notes payable position also increased by $6.3 million ($10.5 − $4.2 = $6.3). Overall, Diaz had a net cash inflow from financing activities of $251.4 million.
+
+Cash Reconciliation
+The final part of the statement of cash flows is a reconciliation of the firm’s beginning and ending cash positions. For Diaz Manufacturing, these cash positions are shown on the 2019 and 2020 balance sheets. The first step in reconciling the company’s beginning and ending cash positions is to add together the amounts from the first three sections of the statement of cash flows: (1) the net cash inflows from operations of $147.2 million, (2) the net cash outflow from long-term investment activities of −$126.7 million, (3) and the net cash inflow from financing activities of $251.4 million. Together, these three items represent a total net increase in cash to the firm of $271.9 million ($147.2 − $126.7 + $251.4 = $271.9). Finally, we add this amount ($271.9 million) to the beginning cash balance of $16.6 million to obtain the ending cash balance for 2020 of $288.5 million ($271.9 + $16.6 = $288.5).
+
+Before You Go On
+How do increases in fixed assets from one period to the next affect cash holdings for the firm?
+Name two working capital accounts that represent sources of cash for the firm.
+Explain the difference between cash flows from financing and investment activities.
+3.6 Tying Together the Financial Statements
+LEARNING OBJECTIVE
+
+Explain how the four major financial statements discussed in this chapter are related.
+Up to this point, we have treated a firm’s financial statements as if they were independent of one another. As you might suspect, though, the four financial statements presented in this chapter are related. Let’s see how.
+
+Recall that the balance sheet summarizes what assets the firm has at a particular point in time and how the firm has financed those assets with debt and equity. From one year to the next, the firm’s balance sheet will change because the firm will buy or sell assets and the dollar value of the debt and equity financing will change. These changes are exactly the ones presented in the statement of cash flows. In other words, the statement of cash flows is a summary of the changes in a firm’s balance sheet from the beginning of a period to the end of that period.
+
+This concept is illustrated in Exhibit 3.5, which presents summaries of the four financial statements for Diaz Manufacturing for the year 2020. The exhibit also presents the balance sheet for the beginning of that year, which is dated December 31, 2019. If you compare the changes in the balance sheet numbers from the beginning of the year to the end of the year, you can see that these changes are in fact summarized in the statement of cash flows. For example, the change in the cash balance of $271.9 million ($288.5 − $16.6 = $271.9) appears at the bottom of the statement of cash flows. Similarly, excluding cash and notes payable, the change in net working capital from the beginning to the end of 2020 is $54.4 million, which is calculated as follows: [($751.3 − $367.3) − ($671.4 − $341.8)] = ($384.0 − $329.6) = $54.4.7 This number is equal to the net working capital investment reflected in the statement of cash flows. Note, too, that the net working capital investment in Diaz’s statement of cash flows is just the total change in the firm’s investment in the following working capital accounts: accounts payable, other current assets, accrued income taxes, accounts receivable, and inventories. You can also see in Exhibit 3.5 that the change in fixed assets, which includes net property, plant, and equipment, goodwill, and other long-term assets, is $43.6 million ($849.4 − $805.8 = $43.6). This number is equal to the sum of the cash flows from investing activities and depreciation and amortization, −$126.7 + $83.1 = −$43.6, in the statement of cash flows. We add depreciation to investing activities in the latter calculation because the fixed asset accounts in the balance sheet are net of depreciation.
+
+EXHIBIT 3.5 The Interrelations among the Financial Statements: Illustrated Using Diaz Manufacturing Financial Results ($ millions) The statement of cash flows ties together the income statement with the balance sheets from the beginning and the end of the period. The statement of retained earnings shows how the retained earnings account has changed from the beginning to the end of the period.
+
+
+Turning to the liability and equity side of the balance sheet, notice the change in the amount of debt plus equity that the firm has sold in 2020, which is represented by the sum of the long-term liabilities and notes and capital stock in the balance sheet. This sum equals the value of the financing activities in the statement of cash flows. The change in the balance sheet values is calculated as follows: [($584.5 + $869.6) − ($309.8 + $892.9)] = ($1,454.1 − $1,202.7) = $251.4 million.8 Finally, since Diaz did not pay a dividend in 2020, the change in retained earnings of $118.5 million [$67.8 − (−$50.7) = $118.5] exactly equals the company’s net income, which appears on the top line of the statement of cash flows.
+
+Again, the important point here is that the statement of cash flows summarizes the changes in the balance sheet. How do the other financial statements fit into the picture? Well, the income statement calculates the firm’s net income, which is used to calculate the retained earnings at the end of the year and is included as the first line in the statement of cash flows. The income statement provides an input that is used in the balance sheet and the statement of cash flows. The statement of retained earnings just summarizes the changes to the retained earnings account a little differently than the statement of cash flows. This different format makes it simpler for managers and investors to see why retained earnings changed as it did.
+
+Before You Go On
+Explain how the four financial statements are related.
+3.7 Cash Flow to Investors
+LEARNING OBJECTIVE
+
+Identify the cash flow to a firm’s investors using its financial statements.
+As we discussed in Chapter 1, the concept of cash flow is very important in corporate finance. Financial managers are concerned with maximizing the value of stockholders’ shares, which means making decisions that maximize the value of the cash flows that stockholders can expect to receive. Similarly, the firm has interest and principal obligations to its debt holders that must be met. It is important to recognize that the revenues, expenses, and net income reported in a firm’s income statement provide an incomplete picture of the cash flows available to its investors.
+
+Net Income versus the Cash Flow to Investors
+Managers and investors are primarily interested in a firm’s ability to generate cash flows to meet the firm’s obligations to its debt holders and that can be distributed to stockholders. These cash obligations and distributions include interest payments and the repayment of principal to the firm’s debt holders, as well as distributions of cash to its stockholders in the form of dividends or stock repurchases. Cash flow to investors is the cash flow that a firm generates for its investors in a given period (cash receipts less cash payments and investments), excluding cash inflows from investors themselves, such as from the sale of new equity or long-term interest-bearing debt.
+
+cash flow to investors the cash flow that a firm generates for its investors in a given period, excluding cash inflows from the sale of securities to investors
+
+So how is cash flow to investors different from net income? One significant difference arises because accountants do not necessarily count the cash coming into the firm and the cash going out when they prepare financial statements. Under GAAP, accountants recognize revenue at the time a sale is substantially completed, not when the customer actually pays the firm. In addition, because of the matching principle, accountants match revenues with the costs of producing those revenues regardless of whether these are cash costs to the firm during that period.9 Finally, cash flows for capital expenditures occur at the time that an asset is purchased, not when it is expensed through depreciation and amortization. As a result of these accounting rules, there can be a substantial difference between the time when revenues and expenses are recorded and when cash is actually collected (in the case of revenue) or paid (in the case of expenses).
+
+Cash flow to investors is one of the most important concepts in finance, as it identifies the cash flow in a given period that is available to meet the firm’s obligations to its debt holders and that can be distributed to its stockholders. This, in turn, defines the value of their investments in the firm. The cash flow to investors is calculated as the cash flow to investors from operating activity, minus the cash flow invested in net working capital, minus the cash flow invested in long-term assets.
+
+Cash Flow to Investors from Operating Activity
+
+Accounting profits can be converted into cash flow to investors from operating activity by subtracting the taxes that the firm paid during the period from earnings before interest and taxes (EBIT) and adding back all of the firm’s noncash expenses. This calculation results in a number that is different from the net cash provided by operating activities that is reported in the statement of cash flows because it does not include cash flows associated with working capital accounts. Unlike the statement of cash flows, when we calculate cash flow to investors, we compute cash flows associated with net working capital separately. We also start from EBIT rather than net income, since interest paid to debt holders has been deducted in the net income calculation and we want to include it in cash flow to investors. Cash flow to investors from operating activity (CFOA) can be formally written as:
+
+(3.4)
+For most businesses, the largest noncash expenses are depreciation and amortization of long-term assets. These are noncash expenses because they are deducted from revenues on the income statement during the years after a long-term asset was purchased, even though no cash is actually being paid out. The cash outflow took place when the asset was purchased. Other noncash items include the following:
+
+Depletion charges, which are like depreciation but apply to extractive natural resources, such as crude oil, natural gas, timber, and mineral deposits (noncash expense).
+Deferred taxes, which are the portion of a firm’s income tax expense that is postponed because of differences in the accounting policies adopted for financial reporting and for tax reporting (noncash expense).
+Expenses that were paid in cash in a previous period (prepaid expenses), such as for rent and insurance (noncash expense).
+Revenues previously received as cash but not yet earned (deferred revenues). An example of deferred revenue would be prepaid magazine subscriptions to a publishing company that are recorded as revenue in a period after the cash has been paid (noncash revenue).
+We can use the data from Diaz Manufacturing’s 2020 income statement in Exhibit 3.2 to illustrate the calculation of CFOA. If the company had no deferred taxes and the taxes reported in the income statement equal the taxes actually paid by the firm, Diaz’s CFOA in 2020 was:
+
+
+Decision Making Example 3.1 presents another illustration of the CFOA concepts.
+
+DECISION MAKING EXAMPLE 3.1
+Cash Flow to Investors from Operating Activity
+
+Situation
+
+You are a financial manager at Bonivo Corporation and are preparing a report for senior management. You have asked two analysts who work for you to compute cash flow to investors from operating activity during the year that just ended. A short while later, they come to your office and report that they cannot agree on how to do the calculation.
+
+The first analyst thinks it should be computed as:
+
+Net income
++ Depreciation and amortization
++ Increase in accounts payable
++ Increase in accrued income taxes
+− Increase in accounts receivable
+− Increase in inventories
+− Increase in other current assets
+= Cash flow to investors from operating activity
+The second analyst proposes that the calculation is:
+
+EBIT
+− Current taxes
++ Depreciation and amortization
+= Cash flow to investors from operating activity
+Which calculation should you use for your report to senior management?
+
+
+
+Cash Flow Invested in Net Working Capital
+
+As we discussed in Section 3.5, changes in current assets and liabilities from one period to the next represent sources and uses of cash. When we calculate the cash flow to investors, we account for these sources and uses by computing the change in net working capital during the period. This change takes into account all the money that has been invested in current assets, including cash and marketable securities, accounts receivable and inventories, and all of the financing that has been received from current liabilities, such as accounts payable and notes payable, during the period. These sources and uses all directly affect the cash flow that is available to investors during the period.
+
+Recall from Equation 3.2 that a firm’s investment in net working capital (NWC) at any point in time can be computed as the difference between its total current assets and total current liabilities:
+
+
+We saw earlier that Diaz Manufacturing’s investment in NWC at the end of 2020 was:
+
+
+The corresponding value at the end of 2019 was:
+
+
+As is the case with all balance sheet items, the investment in NWC is a snapshot at a point in time. To determine the flow of cash into, or out of, working capital we compute the cash flow invested in net working capital (CFNWC). This equals the difference between NWC at the end of the current period and NWC at the end of the previous period:
+
+(3.5)
+For Diaz Manufacturing, CFNWC is:
+
+
+The positive difference between Diaz Manufacturing’s net working capital in 2020 and 2019 indicates that current assets increased by $320.0 million more than current liabilities during 2020. This net investment in NWC reduced the amount of cash that might otherwise have been available for distribution to the Diaz investors in 2020. Of course, investments in NWC are likely to yield positive cash flows in the future. For example, accounts receivable can be collected, and inventories will eventually be sold. Also, selling items on credit or having a greater stock of finished inventories can help the company attract new customers. For Diaz Manufacturing, the single largest investment in working capital is the addition of $271.9 million to cash and marketable securities. We will discuss reasons why firms make investments in cash in Chapter 14.
+
+Cash Flow Invested in Long-Term Assets
+
+Long-term assets, such as land, buildings, and plant and equipment, represent a large portion of the total assets of many firms. Because the purchases and sales of such assets can have a substantial impact on the cash flow to investors, it is very important that we account for them in our cash flow calculations. If a firm is a net investor (buys more than it sells) in long-term assets during a given year, its cash flow to investors will be reduced by the amount of the net purchases. If the firm is a net seller of long-term assets, its cash flow to investors will increase by the value of the net sales.
+
+As we discussed earlier, Diaz Manufacturing had $911.6 million invested in plant and equipment and $450.0 million invested in goodwill and other assets at the end of 2020 (Exhibit 3.1). The company’s total investment in long-term assets at the end of 2020 was therefore $911.6 million + $450.0 million = $1,361.6 million. The corresponding value at the end of 2019 was $823.3 million + $411.6 million = $1,234.9 million. As with investments in net working capital, we use the change in the value of the long-term assets to compute the amount that a firm invested in long-term investments during a period. Specifically, the cash flow invested in long-term assets (CFLTA) is computed as:
+
+(3.6)
+It is very important to remember that, since depreciation is a noncash charge, we ignore accumulated depreciation when we compute the effects of investment in long-term assets on cash flow to investors. For Diaz Manufacturing, CFLTA in 2020 was:
+
+
+where the $1,361.6 million and $1,234.9 million values represent the long-term asset values before accumulated depreciation. This calculation indicates that Diaz Manufacturing invested a total of $126.7 million in long-term assets during 2020. Of this total, $88.3 million ($911.6 − $823.3 = $88.3) was invested in plant and equipment and $38.4 million ($450 − $411.6 = $38.4) was invested in goodwill and other assets. Like investments in net working capital, investments in long-term assets are likely to generate positive cash flows in the future but reduce the cash flow to investors in the current period.
+
+Learning by Doing Application 3.2 illustrates another CFNWC and CFLTA calculation.
+
+LEARNING BY DOING APPLICATION 3.2
+Problem
+
+Alexi Ghosh and Paul Heaton are the founding partners of BitByte Inc., a leading developer of application delivery management software and solutions. Since opening for business in 2017, BitByte’s revenue has nearly tripled. The partners would like to know more about how much cash flow the firm is investing in net working capital and long-term assets to facilitate this growth. While the firm has no inventory for software development, it has increasingly relied on accounts receivable as a term of sale. In addition, growth has required additional investment in long-term assets such as computing hardware, networking equipment, and facilities. Using the information in the following financial statements, calculate the cash flow invested in net working capital and the cash flow invested in long-term assets during fiscal year 2020 for BitByte Inc.
+
+BitByte Inc. Balance Sheets as of December 31, 2020, and December 31, 2019
+Assets	2020	2019
+Cash and marketable securities	 	 
+Accounts receivable	$15,844	$26,103
+Inventory	573,228	421,670
+Other current assets	3,554	10,007
+Total current assets	$592,626	$457,780
+Plant and equipment	309,675	205,480
+Less: Accumulated depreciation	(91,410)	(48,295)
+Net plant and equipment	$218,265	$157,185
+Goodwill and other assets	12,689	12,689
+Total assets	$823,580	$627,654
+Liabilities and Equity	2020	2019
+Accounts payable and accurals	$157,090	$94,137
+Notes payable	101,159	59,815
+Other current liabilities	—	—
+Total current liabilities	$258,249	$153,952
+Long-term debt	—	—
+Total liabilities	$258,249	$153,952
+Preferred stock	—	—
+Common stock (8,000 shares)	8,000	8,000
+Additional paid-in capital	493,231	493,231
+Retained earnings	64,100	(27,529)
+Less: Treasury stock	—	—
+Total common equity	$565,331	$473,702
+Total liabilities and equity	$823,580	$627,654
+
+
+
+
+Cash Flow to Investors: Putting It All Together
+Having calculated the cash flow from operating activity, cash flow invested in net working capital, and cash flow invested in long-term assets, we are now ready to compute cash flow to investors (CFI). We use Equation 3.7 to do this:
+
+(3.7)
+Note that in this calculation, CFNWC and CFLTA are subtracted from CFOA because investments in both net working capital and long-term assets reduce the cash flow available to investors. Of course, it is possible for either or both of these figures to be negative in a given period. For example, CFLTA will be negative if proceeds for the sale of long-term assets exceed total investments in these assets.
+
+Putting this all together for Diaz Manufacturing, we can see that the company’s CFI in 2020 was:
+
+
+The negative value indicates that Diaz invested more cash than was produced by its operating activity during 2020. This is not uncommon for a rapidly growing company like Diaz, which experienced a net sales increase of almost 13 percent from 2019 to 2020. Fast-growing firms often must invest more cash than they generate. The difference is financed by selling stock to investors or by borrowing money. In such situations, both the old and new investors are counting on the firm to produce cash flows in the future that will compensate them for the investment that they are making now. A brief look at the liability side of the Diaz balance sheet suggests that the negative cash flow to investors was funded largely by issuing new long-term debt.
+
+Before You Go On
+How does the calculation of net income differ from the calculation of cash flow to investors from operating activity?
+All else being equal, if a firm increases its accounts payable, what effect will this have on cash flow to investors?
+What does it mean when a firm’s cash flow to investors is negative?
+3.8 Federal Income Tax
+LEARNING OBJECTIVE
+
+Discuss the difference between average and marginal tax rates.
+We conclude this chapter with a discussion of corporate income taxes. Taxes take a big bite out of the income of most businesses and represent one of their largest cash outflows. For example, as shown in the income statement for Diaz Manufacturing (Exhibit 3.2), the firm’s earnings before interest and taxes (EBIT) in 2020 amounted to $168.4 million, and its tax bill was $44.3 million, or 26.3 percent of EBIT ($44.3/$168.4 = 0.263, or 26.3 percent)—not a trivial amount by any standard. Because of their magnitude, taxes play a critical role in most business financial decisions.
+
+As you might suspect, corporations spend a considerable amount of effort and money employing tax specialists to find legal ways to minimize their tax burdens. The tax laws are complicated, continually changing, and at times seemingly bizarre—in part because the tax code is not an economically rational document; rather, it reflects the changing and sometimes conflicting political and social values of Congress and the president over time. Corporations must also make sure they pay any state taxes that they owe.
+
+If you work in the finance or accounting area, a tax specialist will advise you on the tax implications of most decisions in which you will be involved as a businessperson. Consequently, we will not try here to make you a tax expert, but we will present a high-level view of the major portions of the federal tax code that have a significant impact on business decision making.
+
+Corporate Income Tax Rates
+In 2017 a new federal law, H.R. 1, also known as the Tax Cuts and Jobs Act, introduced major changes to the federal tax code. While we discuss a number of the implications of H.R. 1. in Appendix C, one of the most significant changes for corporations (C-Corps) was the introduction of a single or “flat” tax rate of 21 percent on taxable income. Beginning in 2018, the new flat tax replaced the previous progressive corporate income tax rates, under which higher levels of income were taxed at different rates.
+
+It is important to note that many state and local taxes are still determined using progressive tax rates. This means that corporate income will continue to be subject to varying “blended” marginal tax rates that are determined by the combined application of federal, state, and local tax rates.
+
+To simplify calculations throughout the book, we will generally specify a single tax rate for a corporation, such as 29 percent. The rate may include payments for state and local taxes, which will make the total tax rate the firm pays greater than the federal rate.
+
+Average versus Marginal Tax Rates
+The average tax rate is simply the total taxes paid divided by taxable income. In contrast, the marginal tax rate is the tax rate that is paid on the next dollar of income earned. When you are making investment decisions, the relevant tax rate to use is usually the marginal tax rate. The reason is that new investments (projects) are expected to generate new cash flows, which will be taxed at the firm’s marginal tax rate. As a result, it is important to consider any difference between the average tax rate and the marginal tax rate in financial decision making. The current flat tax rate of 21 percent for C-Corps means that for federal taxes the marginal and average rate are a constant 21 percent.
+
+average tax rate total taxes paid divided by taxable income
+
+marginal tax rate the tax rate paid on the next dollar of income earned
+
+A simple example will show that under the current tax rules the firm’s average and marginal federal tax rates are the same. Suppose that the Zippy Corporation has taxable income of $150,000. Using a flat tax rate of 21 percent, what is the firm’s federal tax liability? What are the firm’s average and marginal federal tax rates?
+
+Zippy Corporation’s total federal liability is computed as follows:
+
+
+The average federal tax rate is equal to the total federal taxes divided by the total taxable income, which is $31,500/$150,000 = 0.21, or 21 percent. The marginal federal tax rate is the tax rate paid on the last dollar earned which, because there is currently a flat federal tax rate, is also 0.21, or 21 percent.
+
+Let’s look at a simplified example of “blended” federal and state taxes to see that there can be a difference between average and marginal rates. Suppose that Zippy Corporation’s total federal taxes are the $31,500 we calculated above, but the company is located in a state where companies are required to pay progressive state taxes at a rate of 0.06, or 6 percent, on taxable income up to $100,000 and a rate of 0.08, or 8 percent, on taxable income over $100,000.10
+
+The company’s state tax liability is computed as 0.06 × $100,000 = $6,000 for the first $100,000 of taxable income plus 0.08 × ($150,000 − $100,000) = $4,000 on the amount above $100,000, for total state taxes of $10,000 ($6,000 + $4,000 = $10,000). Adding this to the federal taxes of $31,500 gives a total state and federal tax amount of $41,500 ($10,000 + $31,500 = $41,500).
+
+Zippy Corporation’s “blended” federal and state average tax rate is equal to the total state and federal taxes divided by the total taxable income, which is $41,500/$150,000 = 0.277, or 27.7 percent. The blended marginal tax rate is the tax rate paid on the last dollar earned. For Zippy Corporation, this is 0.29, or 29 percent. The blended marginal rate is the 0.21, or 21 percent, federal tax rate plus the 0.08, or 8 percent, state tax rate (0.21 + 0.08 = 0.29, or 29 percent). We use the higher 8 percent state rate as that is Zippy Corporation’s tax rate on taxable income above $100,000.
+
+Learning by Doing Application 3.3 presents another example of the tax calculations for a firm.
+
+Unequal Treatment of Dividends and Interest Payments
+An interesting anomaly in the U.S. tax code is the unequal treatment of interest and dividend payments. For C-corporations (discussed in Chapter 1), interest paid on debt obligations is a tax-deductible business expense. Dividends paid to common or preferred stockholders are not deductible, however.
+
+LEARNING BY DOING APPLICATION 3.3
+Average and Marginal Tax Rates
+
+Problem
+
+Snappy Corporation has taxable income of $90,000. If the federal tax rate is a flat 21 percent, what is the firm’s federal tax liability? What are the firm’s average and marginal federal tax rates?
+
+
+
+
+
+The unequal treatment of interest and dividend payments is not without consequences. In effect, it lowers the cost of debt financing compared with the cost of an equal amount of common or preferred stock financing. Thus, there is a tax-induced bias toward the use of debt financing, which we discuss more thoroughly in later chapters.
+
+Before You Go On
+Why is it important to consider the consequences of taxes when financing a new project?
+Which type of tax rate, marginal or average, should be used in analyzing the expansion of a product line, and why?
+What are the tax implications of a decision to finance a project using debt rather than new equity?
+
+The Tax Foundation provides summary information about federal and state taxes at www.taxfoundation.org/state-corporate-taxes-corporate-profits/
+
+Summary of Learning Objectives
+1 Discuss generally accepted accounting principles (GAAP) and their importance to the economy.
+
+GAAP are a set of authoritative guidelines that define accounting practices at a particular point in time. The principles determine the rules for how a company maintains its accounting system and how it prepares financial statements. Accounting standards are important because without them each firm could develop its own unique accounting practices. This would make it difficult for anyone to monitor the firm’s true performance or compare the performance of different firms. The result would be a loss of confidence in the accounting system and the financial reports it produces. Fundamental accounting principles include arm’s-length transactions, the cost principle, the realization principle, the matching principle, and the going concern assumption.
+
+2 Explain the balance sheet identity and why a balance sheet must balance.
+
+A balance sheet provides a summary of a firm’s financial position at a particular point in time. It identifies the current assets that a firm has and the productive assets that it uses to generate income, as well as the sources of funding from creditors (liabilities) and owners (stockholders’ equity) that were used to buy the assets. The balance sheet identity is Total assets = Total liabilities + Total stockholders’ equity. Stockholders’ equity represents ownership in the firm and is the residual claim of the owners after all other obligations to creditors, employees, and vendors have been paid. The balance sheet must always balance because the owners get what is left over after all creditors have been paid—that is, Total stockholders’ equity = Total assets − Total liabilities.
+
+3 Describe how market-value balance sheets differ from book-value balance sheets.
+
+Book value is the amount a firm paid for its assets at the time of purchase. The current market value of an asset is the amount that a firm would receive for the asset if it were sold on the open market (not in a forced liquidation). Most managers and investors are more concerned about what a firm’s assets can earn in the future than about what the assets cost in the past. Thus, marked-to-market balance sheets are more helpful in showing a company’s true financial condition than balance sheets based on historical costs. The reason that marked-to-market balance sheets are not commonly used is that it is difficult to estimate market values for some assets and liabilities.
+
+4 Identify the basic equation for the income statement and the information it provides.
+
+An income statement presents a firm’s profit or loss for a period of time, usually a month, quarter, or year. The income statement identifies the major sources of revenues generated by the firm and the corresponding expenses needed to generate those revenues. The equation for the income statement is Net income = Revenues − Expenses. If revenues exceed expenses, the firm generates a net profit for the period. If expenses exceed revenues, the firm generates a net loss. Net profit or net income is the most comprehensive accounting measure of a firm’s performance.
+
+5 Understand the calculation of cash flows from operating, investing, and financing activities required in the statement of cash flows.
+
+Cash flows from operating activities in the statement of cash flows are the net cash flows that are related to a firm’s principal business activities. The most important items are the firm’s net income, depreciation and amortization expense, and working capital accounts (other than cash and short-term debt obligations, which are classified elsewhere). Cash flows from long-term investing activities relate to the buying and selling of long-term assets. Cash flows from financing occur when cash is obtained from or repaid to creditors or owners (stockholders). Typical financing activities involve cash received from the issuance of common or preferred stock, as well as cash from bank loans, other notes payable, and long-term debt. Cash payments of dividends to stockholders and cash purchases of treasury stock reduce a company’s cash position.
+
+6 Explain how the four major financial statements discussed in this chapter are related.
+
+The four financial statements discussed in the chapter are the balance sheet, the income statement, the statement of retained earnings, and the statement of cash flows. The key financial statement that ties together the other three statements is the statement of cash flows, which summarizes changes in the balance sheet from the beginning of the year to the end. These changes reflect the information in the income statement and in the statement of retained earnings.
+
+7 Identify the cash flow to a firm’s investors using its financial statements.
+
+Cash flow to investors is the cash flow that a firm generates in a given period (cash receipts less cash payments and investments), excluding cash inflows from new equity sales or long-term debt issues. Cash flow to investors is the cash flow that is used to meet the firm’s obligations to its debt holders and that is distributed to its stockholders, which in turn defines the value of their investments in the firm over time. The cash flow to investors is calculated as the cash flow to investors from operating activity, minus the cash flow invested in net working capital, minus the cash flow invested in long-term assets.
+
+8 Discuss the difference between average and marginal tax rates.
+
+The average tax rate is computed by dividing the total taxes paid by taxable income. It takes into account the taxes paid at all levels of income. The marginal tax rate is the rate that is paid on the next dollar of income earned. When companies are making financial investment decisions, they use the marginal tax rate because new projects are expected to generate additional cash flows, which will be taxed at the firm’s marginal tax rate. Under a flat tax system, the marginal and average rates are the same. Under a progressive tax system, the average tax rate will normally be lower than the marginal rate.
+
+Summary of Key Equations
+Equation	Description	Formula
+3.1	Balance sheet identity	
+3.2	Net working capital	
+3.3	Income statement equation	
+3.4	Cash flow from operating activity	
+3.5	Cash flow invested in net working capital	
+3.6	Cash flow invested in long-term assets	
+3.7	Cash flow to investors	
+Self-Study Problems
+3.1 The going concern assumption of GAAP implies that the firm:
+
+Is going under and needs to be liquidated at historical cost.
+Will continue to operate and that its assets should be recorded at historical cost.
+Will continue to operate and that all assets should be recorded at their cost rather than at their liquidation value.
+Is going under and needs to be liquidated at liquidation value.
+
+
+3.2 The Ellicott City Ice Cream Company management has just completed an assessment of the company’s assets and liabilities and has obtained the following information. The firm has total current assets worth $625,000 at book value and $519,000 at market value. In addition, its long-term assets include plant and equipment valued at market for $695,000, while their book value is $940,000. The company’s total current liabilities are valued at market for $543,000, while their book value is $495,000. Both the book value and the market value of long-term debt are $350,000. If the company’s total assets are equal to a market value of $1,214,000 (book value of $1,565,000), what are the book value and market value of its stockholders’ equity?
+
+
+
+3.3 Depreciation and amortization expenses are:
+
+Part of current assets on the balance sheet.
+After-tax expenses that reduce a firm’s cash flows.
+Long-term liabilities that reduce a firm’s net worth.
+Noncash expenses that cause a firm’s after-tax cash flows to exceed its net income.
+ 
+
+3.4 You are given the following information about Clarkesville Plumbing Company. Revenues in 2020 totaled $896, depreciation expenses $75, costs of goods sold $365, and interest expenses $54. At the end of the year, current assets were $121 and current liabilities were $107. The company has an average tax rate of 29 percent. Calculate its net income by setting up an income statement.
+
+
+
+3.5 The Huntington Rain Gear Company had $633,125 in taxable income in the year ending September 30, 2020. Calculate the company’s tax liability using a flat tax rate of 25%.
+
+
+
+Discussion Questions
+3.1 What is a major reason for the accounting scandals in the early 2000s? How do firms sometimes attempt to meet Wall Street analysts’ earnings projections?
+
+3.2 Why are taxes and the tax code important for managerial decision making?
+
+3.3 Identify the five fundamental principles of GAAP, and explain briefly their importance.
+
+3.4 Explain why firms prefer to use accelerated depreciation methods over the straight-line method for tax purposes.
+
+3.5 What is treasury stock? Why do firms have treasury stock?
+
+3.6 Define book-value accounting and market-value accounting.
+
+3.7 Compare and contrast depreciation expense and amortization expense.
+
+3.8 Why are retained earnings not considered an asset of the firm?
+
+3.9 What is the statement of cash flows, and what is its role?
+
+3.10 How does a firm’s cash flow to investors from operating activity differ from net income, and why?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+3.1 Balance sheet: Elkridge Sporting Goods, Inc., has cash and marketable securities of $25,135, accounts receivable of $43,758, inventory of $167,112, net fixed assets of $325,422, and other assets of $13,125. It also has accounts payable of $67,855, notes payable of $36,454, long-term debt of $223,125, and common stock of $150,000. Given this information construct a balance sheet for Elkridge. What are the firm’s retained earnings?
+
+3.2 Inventory accounting: What is the difference between FIFO and LIFO accounting?
+
+3.3 Inventory accounting: Explain how the choice of FIFO versus LIFO can affect a firm’s balance sheet and income statement.
+
+3.4 Market-value accounting: How does the use of market-value accounting help managers?
+
+3.5 Working capital: Laurel Electronics reported the following information at its annual meeting: The company had cash and marketable securities worth $1,235,455, accounts payable worth $4,159,357, inventory of $7,121,599, accounts receivable of $3,488,121, short-term notes payable worth $1,151,663, and other current assets of $121,455. What is the company’s net working capital?
+
+3.6 Working capital: The financial information for Laurel Electronics referred to in Problem 3.5 is all at book value. Suppose marking to market reveals that the market value of the firm’s inventory is 20 percent below its book value, its receivables are 25 percent below their book value, and the market value of its current liabilities is identical to the book value. What is the firm’s net working capital using market values? What is the percentage difference in net working capital using market versus book values?
+
+3.7 Income statement: The Oakland Mills Company has just disclosed the following financial information in its annual report: sales of $1.45 million, cost of goods sold of $812,500, depreciation expenses of $175,000, and interest expenses of $89,575. Assume that the firm has an average tax rate of 29 percent. What is the company’s net income? Set up an income statement to answer the question.
+
+3.8 Cash flows: Describe the organization of the statement of cash flows.
+
+3.9 Cash flows: Last year, Towson Recording Company increased its investment in marketable securities by $36,845, funded fixed-assets acquisitions of $109,455, and had marketable securities of $14,215 mature. What is the net cash used in investing activities?
+
+3.10 Cash flows: Caustic Chemicals management identified the following cash flows as significant in its year-end meeting with analysts: During the year, Caustic repaid existing debt of $312,080 and raised additional debt capital of $650,000. It also repurchased stock in the open market for a total of $45,250. What is the net cash provided by financing activities?
+
+3.11 Cash flows: Identify and describe the noncash expenses that a firm may incur.
+
+3.12 Cash flows: Given the data for Oakland Mills Company in Problem 3.7, compute the cash flows to investors from operating activity.
+
+3.13 Cash flows: Hillman Corporation reported current assets of $3,495,055 on December 31, 2020, and $3,103,839 on December 31, 2019. Current liabilities for the firm were $2,867,225 and $2,760,124 at the end of 2020 and 2019, respectively. Compute the cash flow invested in net working capital at Hillman Corporation during 2020.
+
+3.14 Cash flows: Del Bridge Construction had long-term assets before depreciation of $990,560 on December 31, 2019, and $1,211,105 on December 31, 2020. How much cash flow was invested in long-term assets by Del Bridge during 2020?
+
+3.15 Tax: Define average tax rate and marginal tax rate.
+
+3.16 Tax: What is the relevant tax rate to use when making financial decisions? Explain why.
+
+3.17 Tax: Manz Property Management Company just announced earnings before taxes of $1,478,936. Calculate its taxes using a flat tax rate of 30 percent.
+
+Intermediate
+3.18 Balance sheet: Tim Dye, the CFO of Blackwell Automotive, Inc., is putting together this year’s financial statements. He has gathered the following balance sheet information: The firm had a cash balance of $23,015, accounts payable of $163,257, common stock of $313,299, retained earnings of $512,159, inventory of $212,444, goodwill and other assets equal to $78,656, net plant and equipment of $711,256, and short-term notes payable of $21,115. It also had accounts receivable of $141,258 and other current assets of $11,223. How much long-term debt does Blackwell Automotive have?
+
+3.19 Working capital: Mukhopadhya Network Associates has a current ratio of 1.60, where the current ratio is defined as follows: Current ratio = Current assets/Current liabilities. The firm’s current assets are equal to $1,233,265, its accounts payable are $419,357, and its notes payable are $351,663. Its inventory is currently at $721,599. The company plans to raise funds in the short-term debt market and invest the entire amount in additional inventory. How much can notes payable increase without the current ratio falling below 1.50?
+
+3.20 Market value: Reservoir Bottling Company reported the following information at the end of the year. Total current assets are worth $237,513 at book value and $219,344 at market value. In addition, plant and equipment have a market value of $343,222 and a book value of $362,145. The company’s total current liabilities are valued at market for $134,889 and have a book value of $129,175. Both the book value and the market value of long-term debt are $144,000. The company’s total assets have a market value of $562,566 and a book value of $599,658. What is the value of the difference between the market value of equity and the book value of equity?
+
+3.21 Income statement: Nimitz Rental Company provided the following information to its auditors. For the latest fiscal year, the company had revenues of $878,412, general and administrative expenses of $352,666, depreciation expenses of $131,455, leasing expenses of $108,195, and interest expenses equal to $78,122. If the company’s average tax rate is 27 percent, what is its net income after taxes?
+
+3.22 Income statement: Sosa Corporation recently reported an EBITDA of $31.3 million and net income of $9.7 million. The company had $6.8 million in interest expense, and its average corporate tax rate was 30 percent. What was its depreciation and amortization expense?
+
+3.23 Income statement: Fraser Corporation has announced that its net income for the year was $1,353,412. The company had EBITDA of $4,967,855, and its depreciation and amortization expense was equal to $1,112,685. The company’s average tax rate is 29 percent. What was its interest expense?
+
+3.24 Income Statement/CFOA: For its most recent fiscal year, Carmichael Hobby Shop recorded EBITDA of $512,725.20, EBIT of $362,450.20, zero interest expense, and cash flow to investors from operating activity of $348,461.25. Assuming there are no noncash revenues recorded on the income statement, what is the firm’s net income after taxes?
+
+3.25 Retained earnings: Eau Claire Paper Mill, Inc., had, at the beginning of the current fiscal year, retained earnings of $323,325. During the year, the company produced net income after taxes of $713,445 and paid out 45 percent of its net income as dividends. Construct a statement of retained earnings and compute the year-end balance of retained earnings.
+
+3.26 Cash flows: Refer to the information given in Problem 3.21. What is the cash flow from operating activity for Nimitz Rental?
+
+3.27 Tax: Mount Hebron Electrical Company’s financial statements indicated that the company had earnings before interest and taxes of $718,323. The interest rate on its $850,000 debt was 8.95 percent. Calculate the taxes the company is likely to owe if its tax rate is a flat 30%. What are the marginal and average tax rates for this company?
+
+Advanced
+3.28 The Centennial Chemical Corporation just announced income after taxes of $2,768,028.25 on revenues of $13,144,680. The company’s costs (excluding depreciation and amortization) amounted to 61 percent of sales, and it had interest expenses of $392,168. What is the firm’s depreciation and amortization expense if its average tax rate is 34 percent?
+
+3.29 Columbia Construction Company earned $451,888 during the year. After paying out $225,794 in dividends, the balance went into retained earnings. If the firm’s total retained earnings were $846,972 at the end of the year, what were the retained earnings on the balance sheet at the start of the year?
+
+3.30 Menomonie Casino Company earned $23,458,933 before interest and taxes last year and had interest expenses of $1,645,123. If the firm is taxed at 25% on taxable income up to $15,000,000 and 28% on taxable income above $15,000,000, calculate the firm’s tax obligation. What are the marginal and average tax rates for this company?
+
+3.31 Vanderheiden Hog Products Corp. provided the following financial information for its most recent quarter.
+
+Net income: $189,425
+Depreciation and amortization: $63,114
+Increase in receivables: $62,154
+Increase in inventory: $57,338
+Increase in accounts payable: $37,655
+Decrease in other current assets: $27,450
+What is this firm’s cash flow from operating activities during the quarter?
+
+3.32 Analysts following the Tomkovick Golf Company were given the following balance sheet information for the years ended June 30, 2020, and June 30, 2019:
+
+Assets	2020	2019
+Cash and marketable securities	$33,411	$16,566
+Accounts receivable	260,205	318,768
+Inventory	423,819	352,740
+Other current assets	41,251	29,912
+Total current assets	$758,686	$717,986
+Plant and equipment	1,931,719	1,609,898
+Less: Accumulated depreciation	(419,044)	(206,678)
+Net plant and equipment	$1,512,675	$1,403,220
+Goodwill and other assets	382,145	412,565
+Total assets	$2,653,506	$2,533,771
+Liabilities and Equity	2020	2019
+Accounts payable and accruals	$ 378,236	$ 332,004
+Notes payable	14,487	7,862
+Accrued income taxes	21,125	16,815
+Total current liabilities	$ 413,848	$ 356,681
+Long-term debt	679,981	793,515
+Total liabilities	$1,093,829	$1,150,196
+Preferred stock	—	—
+Common stock (10,000 shares)	10,000	10,000
+Additional paid-in capital	975,465	975,465
+Retained earnings	587,546	398,110
+Less: Treasury stock	(13,334)	—
+Total common equity	$1,559,677	$1,383,575
+Total liabilities and equity	$2,653,506	$2,533,771
+In addition, it was reported that the company had a net income of $3,155,848 and that depreciation expenses were equal to $212,366 during 2020. Assume amortization expense was $0 in 2020.
+
+Construct a 2020 cash flow statement for this firm.
+Calculate the net cash provided by operating activities for the statement of cash flows.
+What is the net cash used in investing activities?
+Compute the net cash provided by financing activities.
+3.33 Based on the financial statements for Tomkovick Golf Company in Problem 3.32, compute the cash flow invested in net working capital and the cash flow invested in long-term assets that you would use in a calculation of the cash flow to investors for 2020.
+
+Sample Test Problems
+3.1 What is the matching principle, and how can it cause accounting expenses to differ from actual cash outflows?
+
+3.2 Wolf Pack Enterprises has total current assets of $346,002 and fixed assets of $476,306. The company also has long-term debt of $276,400, $100,000 in its common stock account, and retained earnings of $187,567. What is the value of its total current liabilities?
+
+3.3 What is the difference between a book-value balance sheet and a market-value balance sheet? Which provides better information to investors and management?
+
+3.4 ACME Corporation had revenues last year of $867,030. It also had expenses (excluding depreciation) of $356,240, depreciation of $103,456, and interest expense of $52,423. What was the company’s net income after taxes if its average tax rate was 29 percent?
+
+3.5 Last year, True Blue Company increased its investments in marketable securities by $323,370 and paid $1,220,231 for new fixed assets. The company also repaid $779,200 of existing long-term debt while raising $913,455 of new debt capital. In addition, True Blue had a net cash inflow of $345,002 from the sale of fixed assets, and repurchased stock in the open market for a total of $56,001. What is the net cash used in long-term investing activities by True Blue? What is the net cash provided by the company’s financing activities?
+
+3.6 Sun Devil Corporation reported EBITDA of $7,300,125 and net income of $3,789,882 last year. The company also had $1,155,378 in interest expense, $1,023,285 in depreciation and amortization expense, and an average corporate tax rate of 26 percent. What was the firm’s cash flow to investors from operating activity during the year?
+
+Notes
+1 Visit the homepage of the Governance and Accountability Institute at www.ga-institute.com/research-reports/flash-reports/2020-sp-500-flash-report.html
+2 Although Diaz Manufacturing Company is not a real firm, the financial statements and situations presented are based on a composite of actual firms.
+3 The terms owners’ equity, stockholders’ equity, shareholders’ equity, net worth, and equity are used interchangeably to refer to the ownership of a corporation’s stock.
+4 An identity is an equation that is true by definition; a balance sheet must balance.
+5 We will discuss how changes in interest rates affect the market price of debt in Chapter 8, so for now don’t worry about the numerical calculation.
+6 Looking at Exhibit 3.2, we find that the total expenses (in millions) are as follows: $1,081.1 + $231.1 + $83.1 + $5.6 + $44.3 = $1,445.2.
+7 From the 2020 balance sheet ($ millions): (1) Current assets − Cash = $1,039.8 − $288.5 = $751.3, and (2) Current liabilities − Notes payable = $377.8 − $10.5 = $367.3. The calculations are similar for the 2019 balance sheet.
+8 From the 2020 balance sheet, note the following ($ millions): Debt = $574.0 (long-term debt) + $10.5 (notes payable) = $584.5 and equity = $50.0 (common stock) + $842.9 (additional paid-in capital) − $23.3 (treasury stock) = $869.6. The calculations for 2019 are made in a similar manner.
+9 The accounting practice of recognizing revenues and expenses as they are earned and incurred, and not when cash is received or paid, is called accrual accounting.
+10 In this hypothetical and highly simplified example, we are ignoring many of the other complex details that can affect state and federal taxes.

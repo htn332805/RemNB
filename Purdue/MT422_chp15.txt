@@ -1,0 +1,1402 @@
+page 484
+
+PART 5
+
+Stock Options
+
+
+
+“I have no objection to the granting of options. Companies should use whatever form of compensation best motivates employees—whether this be cash bonuses, trips to Hawaii, restricted stock grants or stock options.”
+
+–Warren Buffett
+
+Learning Objectives
+
+Give yourself some in-the-money academic and professional options by understanding:
+
+The basics of option contracts and how to obtain price quotes.
+
+The difference between option payoffs and option profits.
+
+The workings of some basic option trading strategies.
+
+The logic behind the put-call parity condition.
+
+Options have fascinated investors for centuries. The option concept is simple. Instead of buying stock shares today, you buy an option to buy the stock at a later date at a price specified in the option contract. You are not obligated to exercise the option, but if doing so benefits you, of course you will. Moreover, the most you can lose is the original price of the option, which is normally only a fraction of the stock price. Sounds good, doesn’t it?
+
+Options on common stocks have traded in financial markets for about as long as common stocks have been traded. However, it was not until 1973, when the Chicago Board Options Exchange (CBOE) was established, that options trading became a large and important part of the financial landscape. Since then, the success of options trading has been phenomenal.
+
+Much of the success of options trading is attributable to the tremendous flexibility that options offer investors in designing investment strategies. For example, options can be used to reduce risk through hedging strategies or to increase risk through speculative strategies. As a result, when properly understood and applied, options are appealing both to conservative investors and to aggressive speculators.
+
+In this chapter, we discuss options generally, but our primary focus is on options on individual common stocks. We also discuss options on stock market indexes, which are options on portfolios of common stocks. We begin by reviewing some of the ideas we touched on in an earlier chapter, where we very briefly discussed options.
+
+CFATM Exam Topics in This Chapter:
+
+Derivative markets and instruments (L1, S18)
+
+Basics of derivatives pricing and valuation (L1, S18)
+
+Valuation of contingent claims (L2, S14)
+
+Derivative strategies (L2, S14)
+
+Risk management applications of option strategies (L3, S17)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 485
+
+15.1 Options on Common Stocks
+OPTION BASICS
+As we have discussed, options on common stock are a type of derivative security because the value of a stock option is “derived” from the value of the underlying common stock. For example, the value of an option to buy or sell IBM stock is derived from the value of IBM stock. However, the relationship between the value of a particular stock option and the value of the underlying stock depends on the specific type of option.
+
+derivative security
+
+Security whose value is derived from the value of another security. Options are a type of derivative security.
+
+Recall that there are two basic option types: call options and put options. Call options are options to buy and put options are options to sell. Thus, a call option on IBM stock is an option to buy IBM shares and a put option on IBM stock is an option to sell IBM shares. More specifically, a call option on common stock grants the holder the right, but not the obligation, to buy the underlying stock at a given strike price before the option expiration date. Similarly, a put option on common stock grants the holder the right, but not the obligation, to sell the underlying stock at a given strike price before the option expiration date. The strike price, also called the exercise price, is the price at which stock shares are bought or sold to fulfill the obligations of the option contract.
+
+call option
+
+Grants the holder the right, but not the obligation, to buy the underlying asset at a given strike price.
+
+put option
+
+Grants the holder the right, but not the obligation, to sell the underlying asset at a given strike price.
+
+strike price
+
+Price specified in an option contract that the holder pays to buy shares (in the case of call options) or receives to sell shares (in the case of put options) if the option is exercised. Also called the exercise price.
+
+Options are contracts, and, in practice, option contracts are standardized to facilitate convenience in trading and price reporting. Standardized stock options have a contract size of 100 shares of common stock per option contract. This means that a single call option contract involves an option to buy 100 shares of stock. Likewise, a single put option contract involves an option to sell 100 shares of stock.
+
+Because options are contracts, an understanding of stock options requires that we know the specific contract terms. In general, options on common stock must stipulate at least the following six contract terms:
+
+The identity of the underlying stock.
+
+The strike price, also called the striking or exercise price.
+
+The option contract size.
+
+The option expiration date, also called the option maturity.
+
+The option exercise style.
+
+The delivery or settlement procedure.
+
+First, a stock option contract requires that the specific stock issue be clearly identified. While this may seem to be stating the obvious, in financial transactions it is important that the “obvious” is in fact clearly and unambiguously understood by all concerned parties.
+
+Second, the strike price, also called the exercise price, must be stipulated. The strike price is quite important because it is the price that an option holder will pay (in the case of a call option) or receive (in the case of a put option) if the option is exercised.
+
+Third, the size of the contract must be specified. As stated earlier, the standard contract size for stock options is 100 stock shares per option.
+
+The fourth contract term that must be stated is the option expiration date. An option cannot be exercised after its expiration date. If an option is unexercised and its expiration date has passed, the option becomes worthless.
+
+Fifth, the option’s exercise style determines when the option can be exercised. There are two basic exercise styles: American and European. American options can be exercised any time before option expiration, but European options can be exercised only at expiration. Options on individual stocks are normally American style and stock index options are usually European style.
+
+American option
+
+An option that can be exercised any time before expiration.
+
+European option
+
+An option that can be exercised only at expiration.
+
+Finally, in the event that a stock option is exercised, the settlement process must be stipulated. For stock options, standard settlement requires delivery of the underlying stock shares several business days after a notice of exercise is made by the option holder.
+
+Like a stock exchange, or, for that matter, any securities exchange, an options exchange is a marketplace where buy and sell orders from customers are matched up with each other. Stock options are traded in financial markets in a manner similar to the way that common stocks are traded. For example, there are organized options exchanges, and there are over-the-counter (OTC) options markets. The largest volume of stock options trading in the United States takes place at the Chicago Board Options Exchange (CBOE).
+
+Visit these options exchanges:
+cboe.com
+and
+nyse.com.
+
+page 486
+
+OPTION PRICE QUOTES
+Stock option prices are available on the websites of the exchanges on which the options trade. For example, Figure 15.1 reproduces part of a page from the Chicago Board Options Exchange (cboe.com) website. The quote is for some options traded on Apple, Inc.
+
+Listed Options Quotations
+
+FIGURE 15.1
+
+
+Source: www.cboe.com. Accessed April 28, 2019.
+
+For the Apple options listed in Figure 15.1, options are separated by expiration date. We have provided only a small sample of the large number of Apple options that are available. Historically, standardized option contracts were offered only by month. These so-called monthly options expire on the third Friday of the expiration month. For the Apple options quoted in Figure 15.1, the June 21st expiration represents the standard monthly contract.
+
+More recently, weekly options have become widely available. By convention, weekly stock options are created on a Thursday and expire the following Friday (or the Friday of the designated expiration week). The exception is that there are no weekly options listed the week when a monthly option will expire. By clicking on the near-terms months, you can see quotes for weekly options.
+
+The notable difference between a monthly and a weekly option is their time to expiration. That is, their other features are the same. Weekly options are only available in the short term, generally within the current month. For investors who want an option position six months out, the available contract is the standard monthly option contract. Thus, the only expiration date available that far out is the third Friday of the designated month.
+
+Back to Figure 15.1. These first three contract terms—the identity of the underlying stock, the strike price, and the expiration date—will not change during the life of the option. Because the price of a stock option depends in part on the price of the underlying stock, however, the price of an option changes as the stock price changes.
+
+Current option prices for both calls and puts are reported in Figure 15.1 in the columns labeled “Last.” The quote also provides bid and ask prices, which would be relevant depending on whether you are buying or selling the options. The option prices are stated on a per-share basis, but the actual price of an option contract is 100 times the per-share price. Each option contract represents an option on 100 shares of stock. Following the Bid and Ask columns is a column showing the volume of each contract traded so far on this particular day. The final column is the current open interest outstanding in each contract.
+
+Aside from the exchanges, option prices are widely available online. One easy-to-use source is Yahoo! Finance (finance.yahoo.com). The nearby Work the Web box contains an option chain for Starbucks Corp. (SBUX) stock options. The top box reports the time and price for the last trade in Starbucks stock, along with the change in price from the previous day and the trading volume so far for the current day. The bottom boxes contain the Starbucks option chain, one for call options and one for put options.
+
+option chain
+
+A list of available option contracts and their prices for a particular security arrayed by strike price and maturity.
+
+page 487
+
+WORK THE WEB
+
+Here is a stock quote and an option chain for Starbucks Corp. (SBUX) from Yahoo! Finance (finance.yahoo.com).
+
+
+Source: Yahoo! Finance.
+
+Let’s take a look at one of the option symbols to see what it means. Look at the symbol SBUX190418C00072500 at the beginning of the list of call options. The first four characters, “SBUX,” represent the ticker symbol for Starbucks Corp. The next six digits tell us the expiration year (19), the expiration month (04), and the expiration day (18), respectively. So these options expire on April 18, 2019. The next character, “C,” tells us whether this option is a call (C) or a put (P). The next five digits (00072) tell us the integer of strike price, in dollars, or $72. The final three digits (500) tell us the fraction of strike price, in dollar decimals, or $.500. The strike price, therefore, is $72.50. Of course, one can easily find the strike price by looking in the third column (labeled “Strike”). The fourth column (“Last Price”) reports the option price for the last trade. The next two columns (“Bid” and “Ask”) contain representative bid and ask price quotes from dealers. The seventh column (“Change”) states the change in price from the previous day’s last trade, where a zero indicates either no change in price or no trade that day. The percentage change from the previous day’s close appears in the eighth column. The ninth column (“Volume”) reports trading volume as the number of contracts traded that day, and the tenth column (“Open Interest”) states open interest as the total number of contracts outstanding. The final column provides an estimate of implied volatility, which is a topic for another chapter.
+
+page 488
+
+CHECK THIS
+
+
+
+15.1aWhat is a call option? What is a put option?
+
+15.1bWhat are the six basic contract terms that an option contract must specify?
+
+15.1cWhat is an option chain?
+
+15.2 The Options Clearing Corporation
+Suppose that you order a new car through a local dealer and pay a $2,000 deposit. Further suppose that, two weeks later, you receive a letter informing you that your dealer has entered bankruptcy. No doubt, you would be quite upset at the prospect of losing your $2,000 deposit.
+
+Visit the OCC at
+theocc.com.
+
+Now consider a similar situation where you pay $2,000 for several call options through a broker. On the day before expiration, you tell your broker to exercise the options because they would produce, say, a $5,000 payoff. Then, a few days later, your broker tells you that the call writer entered bankruptcy proceedings and that your $2,000 call premium and $5,000 payoff were lost. No doubt, this default would upset you. However, this situation cannot occur if your option trade was made on a registered options exchange. In effect, the exchange eliminates counterparty risk.
+
+Option traders who transact on options exchanges have an important ally. The Options Clearing Corporation (OCC), founded in 1973, is the clearing agency for these options exchanges: the BATS Options Market, the Chicago Board Options Exchange, the International Securities Exchange, NYSE Arca, and the Nasdaq Options Market, among others.
+
+Options Clearing Corporation (OCC)
+
+Private agency that guarantees that the terms of an option contract will be fulfilled if the option is exercised; issues and clears all option contracts trading on U.S. exchanges.
+
+Once an option trade is made on an options exchange, the Options Clearing Corporation steps in and becomes a party to both sides of the trade. In other words, the option buyer effectively purchases the option from the OCC and the seller effectively sells the option to the OCC. In this way, each investor is free from the worry that the other party will default. Each option investor looks to the OCC.
+
+Most option investors are unaware of the OCC because only member firms of an options exchange deal directly with it. However, in fact, all option contracts traded on U.S. options exchanges are originally issued, guaranteed, and cleared by the OCC. Brokerage firms merely act as intermediaries between investors and the OCC.
+
+The OCC is an agency consisting of brokerage firms that are called “clearing members.” The OCC’s clearing members represent more than 100 of the largest U.S. broker-dealers, futures commission merchants, and non-U.S. securities firms. To guarantee the performance of all trades, the OCC has capital contributed by clearing members. If existing capital were to prove insufficient, the OCC could draw additional funds from its members. This structure ensures the integrity of the options markets.
+
+The OCC began life as the clearinghouse for listed equity options. Today, however, the OCC clears many products. The OCC is regulated by both the Securities and Exchange Commission (SEC) and the Commodities Futures Trading Commission (CFTC). Under the watchful eye of the SEC, the OCC clears trades for put and call options on common stocks, stock indexes, foreign currencies, and single-stock futures. With CFTC oversight, the OCC clears and settles trades in futures contracts and options on futures contracts.
+
+The OCC also sponsors the Options Industry Council (OIC). Founded in 1992, the OIC was created to educate investors about the benefits and risks of exchange-traded equity options. The OIC conducts hundreds of seminars and webcasts and distributes thousands of interactive CDs and brochures each year. In addition, the OIC has an extensive website for investors to explore.
+
+Visit the OIC at
+optionseducation.org.
+
+page 489
+
+CHECK THIS
+
+
+
+15.2aWho makes up the OCC? Who regulates the OCC?
+
+15.2bHow does the OCC protect option traders?
+
+15.2cWhat is the OIC, and what does it do?
+
+15.3 Why Options?
+As a stock market investor, a basic question you might ask is “Why buy stock options instead of buying shares of stock directly?” Good question! To answer it properly, we need to compare the possible outcomes from two investment strategies. The first investment strategy is buying stock. The second strategy involves buying a call option that allows the holder to buy stock any time before option expiration.
+
+To learn more about options, visit the “Education” tab at
+cboe.com.
+
+For example, suppose you buy 100 shares of 3M (MMM) stock at a price of $190 per share, representing an investment of $19,000. Afterwards, three things could happen to the stock price: it could go up, go down, or remain the same. If the stock price goes up, you make money; if it goes down, you lose money. Of course, if the stock price remains the same, you break even.
+
+Now, consider the alternative strategy of buying a call option with a strike price of $190 expiring in three months at a per-share price of $5. This corresponds to a contract price of $500 because the standard option contract size is 100 shares. The first thing to notice about this strategy is that you have invested $500; therefore, the most that you can lose is $500.
+
+To compare the two investment strategies just described, let’s examine three possible cases for MMM’s stock price at the close of trading on the third Friday of the option’s expiration month. In Case 1, the stock price goes up to $200. In Case 2, the stock price goes down to $180. In Case 3, the stock price remains the same at $190.
+
+Case 1: If the stock price goes up to $200, and you originally bought 100 shares at $190 per share, then your profit is 100 × ($200 − $190) = $1,000. As a percentage of your original investment amount of $19,000, this represents a return on investment of $1,000/$19,000 = .0526, or 5.26%.
+
+Alternatively, if you originally bought the call option, you can exercise the option and buy 100 shares at the strike price of $190 and sell the stock at the $200 market price. After accounting for the original cost of the option contract, your profit is 100 × ($200 − $190) − $500 = $500. As a percentage of your original investment of $500, this represents a return on investment of $500/$500 = 1.00, or 100%.
+
+Case 2: If the stock price goes down to $180, and you originally bought 100 shares at $190 per share, then your loss is 100 × ($180 − $190) = −$1,000. As a percentage of your original investment, this represents a return of −$1,000/$19,000 = −.0526, or −5.26%.
+
+If instead you originally bought the call option, exercising the option would not pay and it would expire worthless. You would then realize a total loss of your $500 investment, and your return is −100 percent.
+
+Case 3: If the stock price remains the same at $190, and you bought 100 shares, you break even and your return is zero percent.
+
+However, if you bought the call option, exercising the option would not pay and it would expire worthless. Once again, you would lose your entire $500 investment.
+
+As these three cases illustrate, the outcomes of the two investment strategies differ significantly, depending on subsequent stock price changes. Whether one strategy is preferred over another is a matter for each individual investor to decide. What is important is the fact that options offer an alternative means of formulating investment strategies.
+
+page 490
+
+Stock Returns
+
+EXAMPLE 15.1
+
+Suppose you bought 100 shares of stock at $50 per share. If the stock price goes up to $60 per share, what is the percentage return on your investment? If, instead, the stock price falls to $40 per share, what is the percentage return on your investment?
+
+If the stock goes up to $60 per share, you make $10/$50 = .20, or 20%. If it falls to $40 per share, you lose $−10/$50 = −.20, or −20%.
+
+Call Option Returns
+
+EXAMPLE 15.2
+
+In Example 15.1, suppose that you bought one call option contract for $200. The strike price is $50. If the stock price is $60 just before the option expires, should you exercise the option? If you exercise the option, what is the percentage return on your investment? If you don’t exercise the option, what is the percentage return on your investment?
+
+If the stock price is $60, you should definitely exercise. If you do, you will make $10 per share, or $1,000, from exercising. Once we deduct the $200 original cost of the option, your net profit is $800. Your percentage return is $800/$200 = 4.00, or 400%. If you don’t exercise, you lose your entire $200 investment, so your loss is 100 percent.
+
+More Call Option Returns
+
+EXAMPLE 15.3
+
+In Example 15.2, if the stock price is $40 just before the option expires, should you exercise the option? If you exercise the option, what is the percentage return on your investment? If you don’t exercise the option, what is the percentage return on your investment?
+
+If the stock price is $40, you shouldn’t exercise because, by exercising, you will be paying $50 per share. If you did exercise, you would lose $10 per share, or $1,000, plus the $200 cost of the option, or $1,200 total. This would amount to a $1,200/$200 = 6.00, or 600% loss! If you don’t exercise, you lose the $200 you invested, for a loss of 100 percent.
+
+Of course, we can also calculate percentage gains and losses from a put option purchase. Here we make money if the stock price declines. So, suppose you buy a put option with a strike price of $20 for $.50. If you exercise your put when the stock price is $18, what is your percentage gain?
+
+You make $2 per share because you are selling at $20 when the stock is worth $18. Your put contract cost $50, so your net profit is $200 − $50 = $150. As a percentage of your original $50 investment, you made $150/$50 = 3.00, or 300%.
+
+CHECK THIS
+
+
+
+15.3aIf you buy 100 shares of stock at $10 and sell out at $12, what is your percentage return?
+
+15.3bIf you buy one call contract with a strike price of $10 for $100 and exercise it when the stock is selling for $12, what is your percentage return?
+
+15.4 Stock Index Options
+Following the tremendous success of stock options trading on the Chicago Board Options Exchange, the exchange looked for other new financial products to offer to investors and portfolio managers. In 1982, the CBOE created stock index options, which represented a new type of option contract at the time.
+
+page 491
+
+INDEX OPTIONS: FEATURES AND SETTLEMENT
+A stock index option is an option on a stock market index. The first stock index options were contracts on the Standard & Poor’s index of 100 large companies representative of American industry. This index is often called the “S&P 100.” S&P 100 index options trade under the ticker symbol OEX, and S&P 100 index options are referred to as “OEX options.” The second stock index options introduced by the CBOE were contracts on the Standard & Poor’s index of 500 companies, the “S&P 500.” S&P 500 index options trade under the ticker symbol SPX and are referred to as “SPX options.” In 1997, the CBOE introduced options on the Dow Jones Industrial Average (DJIA), which trade under the ticker symbol DJX.
+
+stock index option
+
+An option on a stock market index. The most popular stock index options are options on the S&P 100 index, S&P 500 index, and Dow Jones Industrial Average.
+
+Learn more about trading index options at
+cboe.com.
+
+Besides the different underlying indexes, the major difference between SPX, DJX, and OEX contracts is that OEX options are American style, whereas SPX and DJX options are European style. The CBOE also lists the “XEO option,” which is based on the S&P 100 index. The XEO option has European-style exercise. American-style options can be exercised any time before expiration, whereas European-style options can be exercised only on the last day before option expiration.
+
+Before stock index options could be introduced, one very important detail that had to be worked out was what to do when an index option is exercised. Exchange officials saw that settlement by delivery was obviously impractical because of the number of stocks comprising an index. Instead, a cash settlement procedure was adopted for index options. For this reason, all stock index options are cash-settled options. With cash settlement, when a stock index option is exercised, the option writer pays a cash amount to the option buyer based on the difference between the exercise date index level and the option’s strike price. For example, suppose you had purchased an SPX call option with a strike price of $2,920, and the S&P 500 index was $2,940 on the day of exercise. The difference between the index level and the strike price is $2,940 − $2,920 = $20. Because the contract size for SPX options is 100 times the S&P 500 index, the option writer must pay 100 × $20 = $2,000 to the option holder exercising the option.
+
+cash-settled option
+
+An option contract settled by a cash payment from the option writer to the option holder when the option is exercised.
+
+In the example above, the contract size for SPX options was stated to be 100 times the S&P 500 index. In fact, the contract size for almost all standardized stock index options is 100 times the underlying index. Thus, the actual price of a stock index option is 100 times the price stated on an index-level basis. There are only a few exceptions to this rule. For example, the CBOE offers so-called Reduced Value (or “mini”) index options with a contract size that is one-tenth the size of standard index options. Reduced Value index options are appealing to some individual investors, but they represent a small share of all index options trading.
+
+INDEX OPTION PRICE QUOTES
+As with individual stock options, quotes for index options are readily available online. As you might expect, the process of finding and interpreting the information is similar. In fact, as you can see by comparing Figure 15.2 to Figure 15.1, there really isn’t any difference between the two. The quotes are formatted in the same way and provide the same information.
+
+Index Options
+
+EXAMPLE 15.4
+
+Suppose you bought 10 April 2890 SPX call contracts at a quoted price of $16.5. How much did you pay in total? At option expiration, suppose the S&P 500 index is at 2910. What would you receive? What is your profit, if any?
+
+The price per SPX contract is 100 times the quoted price. Because you bought 10 contracts, you paid a total of $16.5 × 100 × 10 = $16,500. If the S&P 500 is at 2910 at expiration, you would receive $100 × (2910 − 2890) = $2,000 per contract, or $20,000 in all. This $20,000 would be paid to you in cash because index options feature cash settlement. Your profit is $3,500.
+
+S&P 500 Index Options Quote
+
+FIGURE 15.2
+
+
+Source: www.cboe.com. Accessed April 17, 2019.
+
+page 492
+
+CHECK THIS
+
+
+
+15.4aIn addition to the underlying asset, what is the major difference between an ordinary stock option and a stock index option?
+
+15.4bIn addition to the underlying index, what is the major difference between the OEX and SPX option contracts?
+
+15.5 Option Intrinsic Value and “Moneyness”
+To understand option payoffs and profits, we need to know some important concepts related to option value. The first important concept is called intrinsic value. The intrinsic value of an option is what the option would be worth if it were expiring immediately. Equivalently, the intrinsic value of an option is the payoff to an option holder if the underlying stock price does not change from its current value.
+
+intrinsic value
+
+The payoff that an option holder receives assuming the underlying stock price remains unchanged from its current value.
+
+Computing the intrinsic value of an option is easy—all you need to know is whether the option is a call or a put, the strike price of the option, and the price of the underlying stock. The intrinsic value calculation, however, depends on whether the option is a call or a put.
+
+You can calculate the intrinsic value of an option at any time, whether the option is dead or alive. For ease, we begin with examples where the option is just about to expire, and then show formulas that can be used at any time to calculate intrinsic value.
+
+page 493
+
+INTRINSIC VALUE FOR CALL OPTIONS
+The first step to calculate the intrinsic value of a call option is to compare the underlying stock price to the strike price. Suppose a call option contract specifies a strike price of $50, and the underlying stock price is $45. Also, suppose this option was just minutes from expiring. With the stock price at $45 and a strike price of $50, this call option would have no value. Why would you pay anything to buy the stock at $50 when you can buy it for $45? In this situation, the value of this call option is zero.
+
+Alternatively, suppose the underlying stock price is $55. If the call option with a strike of $50 was minutes from expiration, it would be worth about $5. Why? This option grants the holder the right to buy the stock for $50 when everyone else would have to pay the going market price of $55.
+
+Let’s look at call options that are not about to expire. If the underlying stock price is less than the strike price, the intrinsic value for a call option is set to zero. If, however, the underlying stock price, S, is greater than the strike price, K, the intrinsic value for a call option is the value S − K. Equation 15.1 shows how to calculate the intrinsic value of a call option.
+
+
+In Equation 15.1, MAX stands for maximum and the comma stands for the word “or.” You read Equation 15.1 as follows: The call option intrinsic value is the maximum of the stock price minus the strike price or zero.
+
+call option intrinsic value
+
+The maximum of (a) the stock price minus the strike price or (b) zero.
+
+We assume that call option investors are rational and will prefer to exercise only call options that have a positive intrinsic value. For call options, rational exercise implies that the call option holder is able to purchase the stock for less than its current market price.
+
+INTRINSIC VALUE FOR PUT OPTIONS
+The first step to calculate the intrinsic value of a put option is also to compare the underlying stock price to the strike price. Suppose a put option contract specifies a strike price of $50, and the underlying stock price is $55. Also, suppose this option was minutes from expiring. With the stock price at $55 and a strike price of $50, this put option would have no value. Why would you pay anything to be able to sell the stock at $50 when you can sell shares for $55? In this situation, the value of the put option is zero.
+
+Alternatively, suppose the underlying stock price is $45. If the put option with a strike price of $50 was minutes from expiration, it would be worth about $5. Why? This put option grants the holder the right to sell the stock for $50 when everyone else would have to sell at the going market price of $45.
+
+Let’s look at put options that are not just about to expire. If the underlying stock price is greater than the strike price, the intrinsic value for a put option is set to zero. If, however, the underlying stock price is less than the strike price, the intrinsic value for a put option is the value K − S. Equation 15.2 shows how to calculate the intrinsic value of a put option.
+
+
+In Equation 15.2, MAX stands for maximum and the comma stands for the word “or.” You read Equation 15.2 as follows: The put option intrinsic value is the maximum of the strike price minus the stock price or zero.
+
+put option intrinsic value
+
+The maximum of (a) the strike price minus the stock price or (b) zero.
+
+We assume that put option investors are rational and will prefer to exercise only put options that have a positive intrinsic value. For put options, rational exercise implies that the put option holder is able to sell the stock for more than its current market price.
+
+TIME VALUE
+Now that you know how to calculate the intrinsic value of an option, you can think of intrinsic value as the amount of money an investor receives if exercising the option is rational. Note, however, that being rational and being smart are not the same thing. For example, in most cases the investor would be better off to sell the option rather than exercise it because the price of the option will be greater than its intrinsic value.
+
+The difference between the price of the option and the intrinsic value of the option is known as option time value. At expiration, the time value of an option is zero. Before expiration, the time value for options with American-style exercise is at least zero, but it is almost page 494always positive. Because options with American-style exercise can be exercised at any time, arbitrageurs will ensure that the price of these options remains at least as high as their intrinsic value. For options with European-style exercise, however, deep in-the-money put option prices that are less than intrinsic value are possible.
+
+option time value
+
+The difference between the price of an option and its intrinsic value.
+
+A full discussion of why investors exercise options is a topic generally covered in a derivatives course. Calculating option prices, including time value, is the topic of a whole other chapter in this textbook.
+
+THREE LESSONS ABOUT INTRINSIC VALUE
+There are three important lessons about intrinsic value. First, investors can calculate intrinsic value whether the option is “dead” (at expiration) or “alive” (before expiration). Second, at expiration, the value of an option equals its intrinsic value because no time value is left at expiration. Third, before expiration, the value of an option equals its intrinsic value plus its time value.
+
+SHOW ME THE MONEY
+Option investors have developed shortcuts in the way they talk about the intrinsic value of options. Three important terms in this lingo are in-the-money options, at-the-money options, and out-of-the-money options.
+
+in-the-money option
+
+Any option with a positive intrinsic value.
+
+at-the-money option
+
+Any option with a strike price exactly equal to the underlying price.
+
+out-of-the-money option
+
+An option that would not yield a positive payoff if the stock price remained unchanged until expiration.
+
+Essentially, in-the-money options are those call options or put options with a positive intrinsic value. For an at-the-money call or put option, the strike price is exactly equal to the underlying stock price. For an out-of-the-money call option, the stock price is less than the strike price. For an out of-the-money put option, the strike price is less than the stock price. Exercising an out-of-the-money option does not result in a positive payoff.
+
+Once you get the hang of all this “moneyness” and intrinsic value language, you will see that it is not difficult. Examples 15.5 through 15.10 give you some practice. Also, the chart immediately below summarizes the relationship between the stock price and the strike price for in-the-money, out-of-the-money, and at-the-money call and put options.
+
+In the Money	Out of the Money	At the Money
+Call option	S > K	S < K	S = K
+Put option	S < K	S > K	S = K
+In-the-Money Call Option
+
+EXAMPLE 15.5
+
+Walmart (WMT) stock is currently $102 per share. Let’s look at a call option to buy WMT stock at $97 ($97 is the strike price). The stock price is greater than the strike price. If the call option were exercised immediately, there would be a positive payoff of $5 = $102 − $97. Because the option has a positive payoff if it is exercised immediately, this option is known as an in-the-money option.
+
+Out-of-the-Money Call Option
+
+EXAMPLE 15.6
+
+Walmart (WMT) stock is currently $102 per share. Let’s look at a call option to buy WMT stock at $107 ($107 is the strike price). Because the stock price is less than the strike price, immediate exercise would not benefit the option holder. Because option exercise would not yield a positive payoff, this option is called an out-of-the-money option.
+
+Intrinsic Value for Calls
+
+EXAMPLE 15.7
+
+Suppose a call option exists with 20 days to expiration. It is selling for $1.65. The underlying stock price is $41.15. Calculate the intrinsic value and time value of (1) a call with a strike price of $40 and (2) a call with a strike price of $45.
+
+A call with a strike price of $40 has an intrinsic value of MAX(S − K, 0) = MAX($41.15 − $40, 0) = $1.15. The time value of this call option equals the option price minus the intrinsic value, $1.65 − $1.15 = $.50.
+
+page 495
+
+A call with a strike price of $45 has an intrinsic value of MAX(S − K, 0) = MAX($41.15 − $45, 0) = $0. The time value of this call option equals the option price minus the intrinsic value, $1.65 − $0 = $1.65.
+
+In-the-Money Put Option
+
+EXAMPLE 15.8
+
+AT&T (T) stock is selling at $31. Let’s look at a put option to sell T at a price of $37 per share ($37 is the strike price). Notice that the stock price is less than the strike price. If the put option were exercised immediately, it would yield a payoff of $6 = $37 − $31. Because the option has a positive payoff if exercised immediately, it is known as an in-the-money option.
+
+Out-of-the-Money Put Option
+
+EXAMPLE 15.9
+
+AT&T (T) stock is selling at $31. Let’s look at a put option to sell T at a price of $28 per share ($28 is the strike price). Because the stock price is greater than the strike price, immediate exercise would not benefit the option holder. Because option exercise would not yield a positive payoff, this option is called an out-of-the-money option.
+
+Intrinsic Value for Puts
+
+EXAMPLE 15.10
+
+Suppose a put option exists with 15 days to expiration. It is selling for $5.70. The underlying asset price is $42.35. Calculate the intrinsic value and time value of (1) a put with a strike price of $40 and (2) a put with a strike price of $45.
+
+A put with a strike price of $40 has an intrinsic value of MAX(K − S, 0) = MAX($40 − $42.35, 0) = $0. The time value of this put option equals the option price minus the intrinsic value, $5.70 − $0 = $5.70.
+
+A put with a strike price of $45 has an intrinsic value of MAX(K − S, 0) = MAX($45 − $42.35, 0) = $2.65. The time value of this put option equals the option price minus the intrinsic value, $5.70 − $2.65 = $3.05.
+
+CHECK THIS
+
+
+
+15.5aAll else equal, would an in-the-money option or an out-of-the-money option have a higher price? Why?
+
+15.5bDoes an out-of-the-money option ever have value? Why?
+
+15.5cWhat is the intrinsic value of a call option? A put option?
+
+15.5dSuppose the stock price is $35. Is there a strike price for which a call option and a put option have the same intrinsic value?
+
+15.6 Option Payoffs and Profits
+Options are appealing because they offer investors a wide variety of investment strategies. In fact, there is essentially no limit to the number of different investment strategies available using options. However, fortunately for us, only a small number of basic strategies are available, and more complicated strategies are built from these. We discuss the payoffs from these basic strategies here and in the next section.
+
+page 496
+
+OPTION WRITING
+Thus far, we have discussed options from the standpoint of the buyer only. However, options are contracts, and every contract must link at least two parties. The two parties to an option contract are the buyer and the seller. The seller of an option is called the “writer,” and the act of selling an option is referred to as option writing.
+
+option writing
+
+Taking the seller’s side of an option contract.
+
+By buying an option, you buy the right, but not the obligation, to exercise the option before the option’s expiration date. By selling or writing an option, you take the seller’s side of the option contract. As a result, option writing involves receiving the option price and, in exchange, assuming the obligation to satisfy the buyer’s exercise rights if the option is exercised.
+
+For example, a call writer is obligated to sell stock at the option’s strike price if the buyer decides to exercise the call option (to buy the stock). Similarly, a put writer is obligated to buy stock at the option’s strike price if the buyer decides to exercise the put option (to sell the stock).
+
+call writer
+
+One who has the obligation to sell stock at the option’s strike price if the option is exercised.
+
+put writer
+
+One who has the obligation to buy stock at the option’s strike price if the option is exercised.
+
+OPTION PAYOFFS
+It is useful to think about option investment strategies in terms of their initial cash flows and terminal cash flows. The initial cash flow of an option is the price of the option, also called the option premium. To the option buyer, the option price (or premium) is a cash outflow. To the option writer, the option price (or premium) is a cash inflow. The terminal cash flow of an option is the option’s payoff that could be realized from the exercise privilege. To the option buyer, a payoff entails a cash inflow. To the writer, a payoff entails a cash outflow.
+
+To learn more about options, see
+optionseducation.org
+and
+optionsxpress.com.
+
+For example, suppose the current price of Exxon Mobil (XOM) stock is $80 per share. You buy a call option on XOM with a strike price of $80. The premium is $4 per share. Thus, the initial cash flow is −$400 for you and +$400 for the option writer. What are the terminal cash flows for you and the option writer if XOM has a price of $90 when the option expires? What are the terminal cash flows if XOM has a price of $70 when the option expires?
+
+If XOM is at $90, then you experience a cash inflow of $10 per share, whereas the writer experiences an outflow of $10 per share. If XOM is at $70, you both have a zero cash flow when the option expires because it is worthless. Notice that in both cases the buyer and the seller have the same cash flows, just with opposite signs. This shows that options are a “zero-sum game,” meaning that any gains to the buyer must come at the expense of the seller and vice versa.
+
+OPTION PAYOFF DIAGRAMS
+When investors buy options, the price that they are willing to pay depends on their assessment of the likely payoffs (cash inflows) from the exercise privilege. Likewise, when investors write options, an acceptable selling price depends on their assessment of the likely payoffs (cash outflows) resulting from the buyers’ exercise privilege. Given this, a general understanding of option payoffs is critical for understanding how option prices are determined.
+
+A payoff diagram is a very useful graphical device for understanding option payoffs. The payoffs from buying a call option and the payoffs from selling (or writing) a call option are seen in the payoff diagram in Figure 15.3. The vertical axis of Figure 15.3 measures option payoffs, and the horizontal axis measures the possible stock prices on the option expiration date. These examples assume that the call option has a strike price of $50 and that the option will be exercised only on its expiration date.
+
+Call Option Payoffs
+
+FIGURE 15.3
+
+
+In Figure 15.3, notice that the call option payoffs are zero for all stock prices below the $50 strike price. This is because the call option holder will not exercise the option to buy stock at the $50 strike price when the stock is available in the stock market at a lower price. In this case, the option expires worthless.
+
+In contrast, if the stock price is higher than the $50 strike price, the call option payoff is equal to the difference between the market price of the stock and the strike price of the option. For example, if the stock price is $60, the call option payoff is equal to $10, which is the difference between the $60 stock price and the $50 strike price. This payoff is a cash inflow to the buyer because the option buyer can buy the stock at the $50 strike price and sell the stock at the $60 market price. However, this payoff is a cash outflow to the writer because the option writer must sell the stock at the $50 strike price when the stock’s market price is $60.
+
+Putting it all together, the distinctive “hockey stick” shape of the call option payoffs shows that the payoff is zero if the stock price is below the strike price. Above the strike price, however, page 497the buyer of the call option gains $1 for every $1 increase in the stock price. Of course, as shown, the call option writer loses $1 for every $1 increase in the stock price above the strike price.
+
+Figure 15.4 is an example of a payoff diagram illustrating the payoffs from buying a put option and from selling (or writing) a put option. As with our call option payoffs, the vertical axis measures option payoffs and the horizontal axis measures the possible stock prices on the option expiration date. Once again, these examples assume that the put has a strike price of $50 and that the option will be exercised only on its expiration date.
+
+Put Option Payoffs
+
+FIGURE 15.4
+
+
+In Figure 15.4, the put option payoffs are zero for all stock prices above the $50 strike price. This is because a put option holder will not exercise the option to sell stock at the $50 strike price when the stock can be sold in the stock market at a higher price. In this case, the option expires worthless.
+
+page 498
+
+In contrast, if the stock price is lower than the $50 strike price, the put option payoff is equal to the difference between the market price of the stock and the strike price of the option. For example, if the stock price is $40, the put option payoff is equal to $10, which is the difference between the $40 stock price and the $50 strike price. This payoff is a cash inflow to the buyer because the option buyer can buy the stock at the $40 market price and sell the stock at the $50 strike price. However, this payoff is a cash outflow to the writer because the option writer must buy the stock at the $50 strike price when the stock’s market price is $40.
+
+Our payoff diagrams illustrate an important difference between the maximum possible gains and losses for puts and calls. Notice that if you buy a call option, there is no upper limit to your potential profit because there is no upper limit to the stock price. However, with a put option, the most you can make is the strike price. In other words, the best thing that can happen to you if you buy a put is for the stock price to go to zero. Of course, whether you buy a put or a call, your potential loss is limited to the option premium you pay.
+
+Similarly, as shown in Figure 15.3, if you write a call, there is no limit to your possible loss, but your potential gain is limited to the option premium you receive. As shown in Figure 15.4, if you write a put, both your gain and loss are limited, although the potential loss could be substantial.
+
+OPTION PROFIT DIAGRAMS
+Between them, Figures 15.3 and 15.4 tell us essentially everything we need to know about the payoffs from the four basic strategies involving options: buying and writing puts and calls. However, these figures give the payoffs at expiration only and so do not consider the original cash inflow or outflow. Option profit diagrams are an extension of payoff diagrams that do take into account the initial cash flow.
+
+For even more on options, see
+investorlinks.com.
+
+As we have seen, the profit from an option strategy is the difference between the option’s terminal cash flow (the option payoff) and the option’s initial cash flow (the option price, or premium). An option profit diagram adjusts option payoffs for the original price of the option. This means that the option premium is subtracted from the payoffs from buying options and added to payoffs from writing options.
+
+To illustrate, Figures 15.5 and 15.6 are profit diagrams corresponding to the four basic investment strategies for options. In each diagram, the vertical axis measures option profits and the horizontal axis measures possible stock prices. Each profit diagram assumes that the option’s strike price is $50 and that the put and call option prices are both $10. Notice that in each case the characteristic hockey stick shape is maintained; the “stick” is just shifted up or down.
+
+Call Option Profits
+
+FIGURE 15.5
+
+
+Put Option Profits
+
+FIGURE 15.6
+
+
+page 499
+
+CHECK THIS
+
+
+
+15.6aWhat is option writing?
+
+15.6bWhat are the payoffs and profits from writing call options?
+
+15.6cWhat are the payoffs and profits from writing put options?
+
+15.6dExplain how a payoff diagram that shows option value at expiration can be thought of as a diagram that shows the intrinsic value of the option at expiration.
+
+15.7 Using Options to Manage Risk
+Thus far, we have considered the payoffs and profits from buying and writing individual calls and puts. In this section, we consider what happens when we start to combine puts, calls, and shares of stock. We could examine any of numerous combinations, but we will stick to a few of the most basic and important strategies. Note that in the following discussion, the diagrams represent pretax outcomes.
+
+THE PROTECTIVE PUT STRATEGY
+Suppose you own a share of Nordstrom, Inc. (JWN), stock currently worth $45. Suppose you also purchase a put option with a strike price of $45 for $2. What is the net effect of this purchase?
+
+To answer, we can compare what happens if Nordstrom stock stays at or above $45 to what happens if it drops below $45. If Nordstrom stock stays at or above $45, your put will expire worthless because you would choose not to exercise it. You would lose the $2 you paid for the put option. However, if Nordstrom stock falls below $45, you would exercise your put and the put writer would pay you $45 for your stock. No matter how far below $45 the price falls, you have guaranteed that you will receive $45 for your Nordstrom share of stock.
+
+Thus, by purchasing a put option, you have protected yourself against a price decline. In the jargon of Wall Street, you have paid $2 to eliminate the “downside risk.” For this reason, the strategy of buying a put option on a stock you already own is called a protective put strategy. Figure 15.7 shows the net effect of the protective put strategy. Notice that the net effect resembles the profit diagram of a long call. That is, when an investor who owns stock buys a put, the profit diagram of this new portfolio resembles the profit diagram of a long call.
+
+protective put
+
+Strategy of buying a put option on a stock already owned. This strategy protects against a decline in value.
+
+Protective Put on a Share of Nordstrom Stock
+
+FIGURE 15.7
+
+
+page 500
+
+The protective put strategy reduces the overall risk faced by an investor, so it is a conservative strategy. This is a good example of how options, or any derivative asset, can be used to decrease risk rather than increase it. Stated differently, options can be used to hedge as well as speculate, so they do not inherently increase risk.
+
+CREDIT DEFAULT SWAPS
+If you own a car, you surely have car insurance. Insurance is effectively a put option. You pay a premium to the insurance company. If you get into an accident (we hope not), then you have the right to “put” your car to the insurance company in exchange for a cash payout. This situation is not unique to cars or stocks—investors have the ability to buy “insurance” on many assets.
+
+One type of put option that received quite a bit of attention during the recent financial crisis was a credit default swap (CDS). A CDS is essentially a portfolio of put options on a fixed-income asset (i.e., a bond). For example, consider an investor who buys a bond of a distressed company. To hedge the risk of default, the investor might be able to purchase a CDS on the bond. If the bond issuer defaults, then the holder of a CDS is compensated according to the terms of the CDS contract.
+
+While the example we provided is for a single bond, most CDS contracts are sold on baskets of fixed-income securities known as collateralized debt obligations, or CDOs. We discuss these securities in detail in a later chapter. But no matter how complex the underlying security, the CDS works pretty much the same: The CDS acts like a protective put option.
+
+So, why were CDS contracts so important in the financial crisis following the Crash of 2008? Well, two factors played key roles. First, at the height of the crisis, analysts estimated that about $55 trillion in securities were being hedged using credit default swaps. To put this dollar amount into perspective, at the same time the estimated net wealth of all U.S. citizens was $56 trillion. This comparison illustrates the importance of CDS contracts to the financial markets.
+
+Second, historically most CDS contracts were not traded on an exchange. Rather, these specialized contracts were bought and sold directly between buyers and sellers. This type of trading means that counterparty risk is prevalent. In fact, you might recall the fall of two investment banking stalwarts, Bear Stearns and Lehman Brothers, as well as the insurance giant AIG. These firms were active players in the CDS market, and each firm was undercapitalized relative to its position. As with any type of leverage, positions work well when asset prices move in the “right” direction. Disastrous ruin can occur, however, when prices move in the “wrong” direction. Such is the hard lesson about leverage learned time and again.
+
+Because CDS contracts act like insurance contracts, the costs of the contracts can tell us something about the perceived risk of default for the underlying firm. In fact, many investors page 501(both bond and stock) pay great attention to CDS spreads. For example, each month Citigroup screens stocks based on both dividend yields and CDS spreads. The goal is to provide a list of stocks that pay a high dividend and also have low credit risk. Citigroup refers to this approach as its “CDS-adjusted dividend stock screen.”
+
+THE PROTECTIVE PUT STRATEGY AND CORPORATE RISK MANAGEMENT
+Suppose you own and operate a gold mine. Your revenue stream is risky because it will change as world gold prices change. However, your costs, which mostly consist of moving around tons of dirt and boulders, do not change as world gold prices change. Therefore, your profits change as world gold prices change.
+
+This “underlying risk exposure” is the blue line in Figure 15.8. Suppose you decide to protect your operation from the possibility of low gold prices with the purchase of a put option. The put option profit is the red line in Figure 15.8. Your “net exposure” is the green line in Figure 15.8.
+
+Using Puts to Manage Risk
+
+FIGURE 15.8
+
+
+To construct your net exposure, you combine the blue line and the red line. Once you do, you see that to the left of the vertical axis, the result is that if gold prices fall, the decrease in profits reflects only the cost of purchasing the put option; decreases in the price of gold will not adversely affect your profits.
+
+To the right of the vertical axis, if gold prices increase, your profits will increase too. However, they will be smaller than if you had not purchased the put option.
+
+USING CALL OPTIONS IN CORPORATE RISK MANAGEMENT
+Suppose you own and operate an airline that uses jet aircraft. Assume that you and your employees are skilled at competitively pricing seats on your flights. This skill results in a relatively stable revenue stream. Your operating costs, however, will vary with world prices for jet fuel because, after labor, jet fuel is the second largest operating expense for an airline.
+
+The competitive nature of the airline industry means that you cannot easily pass higher fuel prices on to passengers by raising fares. Changes in jet fuel prices could thus affect your profits. Fortunately, you can protect your profits using call options.
+
+The red line in Figure 15.9 represents your underlying exposure to increases in jet fuel prices. Suppose you decide to protect your profits from the possibility of high jet fuel prices with the purchase of a call option. The call option profit is the blue line in Figure 15.9. Your net exposure is the green line in Figure 15.9.
+
+Using Calls to Manage Risk
+
+FIGURE 15.9
+
+
+To construct your net exposure, you combine the blue line and the red line. Once you do, you see that to the left of the vertical axis, the result is that if jet fuel prices fall, your profits will increase. However, because you purchased call options, your profits will decrease by the amount of the cost of purchasing the call options. Decreases in the price of jet fuel thus will increase your profits.
+
+page 502
+
+To the right of the vertical axis, if the price of jet fuel increases, the decrease in your profits reflects only the cost of purchasing the call option. That is, the increase in jet fuel prices will not adversely affect your profits.
+
+Futures contracts are also available on jet fuel (although they are thinly traded). What is the big difference between using futures contracts or option contracts to hedge? Well, remember that with futures contracts, whether you buy or sell, you have an obligation. If jet fuel prices fall, you will still have to buy the fuel at the agreed-upon settle price. You have no obligation with a long option position. In this case, you can abandon your option position and buy the jet fuel at prevailing market prices.
+
+CHECK THIS
+
+
+
+15.7aWhat is a protective put strategy, and how does it work?
+
+15.7bWhat is a credit default swap?
+
+15.7cExplain how a company can use options today to protect itself from higher future input prices.
+
+15.8 Option Trading Strategies
+In this section, we present three types of option trading strategies. In the first type, traders add an option position to their stock position. Strategies in this category help traders modify their stock risk. The second type of option trading strategy is called a spread. A spread strategy involves taking a position on two or more options of the same type at the same time. By same type, we mean call options only or put options only. The third type of option trading strategy is called a combination. In a combination, the trader takes a position in a mixture of call and put options. Note that the effects of these strategies are pretax effects. Nonetheless, learning about these pretax effects is important for option traders.
+
+For ideas on option trading strategies, see
+commodityworld.com.
+
+THE COVERED CALL STRATEGY
+Suppose you own a share of Nordstrom, Inc. (JWN), stock which is currently worth $45. Now, instead of buying a put, consider selling a call option for, say, $3, with an exercise price of $45. What is the net effect of this strategy?
+
+page 503
+
+To answer, we can compare what happens if Nordstrom stock stays below $45 (the exercise price on the option you sold) to what happens if Nordstrom’s stock price rises above $45. If Nordstrom stock stays below $45, the option will expire worthless, and you pocket the $3 premium you received from selling the call option. If Nordstrom stock rises above $45, the call option holder will exercise the call option against you, and you must deliver the Nordstrom stock in exchange for $45.
+
+Thus, when you sell a call option on stock you already own, you keep the option premium no matter what. The worst thing that can happen to you is that you will have to sell your stock at the exercise price. Because you already own the stock, you are said to be “covered,” which is why this is known as the covered call strategy.
+
+covered call
+
+Strategy of selling a call option on stock already owned.
+
+Let’s examine your covered call strategy further. Nordstrom stock is currently selling for $45. Because the strike price on the call option is $45, the net effect of this strategy is to give up the possibility of profits on the stock in exchange for the certain option premium of $3. Figure 15.10 shows the covered call option position on Nordstrom stock. Notice that the net effect resembles the profit diagram of a short put. That is, when an investor who owns stock sells a call, the profit diagram of this new portfolio resembles the profit diagram of a short put.
+
+Covered Call Option on Nordstrom Stock
+
+FIGURE 15.10
+
+
+In Wall Street jargon, a covered call exchanges uncertain future “upside” potential for certain cash today, thereby reducing risk and potential reward. In contrast, a strategy of selling call options on stock you do not own is known as a “naked” call strategy, which, as we saw earlier, has unlimited potential losses. Thus, selling call options either is highly risky or else acts to reduce risk, depending on whether you are covered or naked. This distinction is important to understand.
+
+SPREADS
+A spread strategy involves taking a position on two or more options of the same type. By same type, we mean call options only or put options only.
+
+spread
+
+An option trading strategy involving two or more call options or two or more put options.
+
+Three examples of spreads are:
+
+Bull call spreads. This spread is formed by buying a call and also selling a call with a higher strike price. This spread is known as a “bull” spread because traders make a profit from this strategy if the underlying stock price increases in value.
+
+Bear call spreads. This spread is formed by buying a call and also selling a call with a lower strike price. This spread is known as a “bear” spread because traders make a profit from this strategy if the underlying stock price decreases in value.
+
+page 504
+
+Butterfly spreads. Using call options with equally spaced strikes, a “long” butterfly spread is formed by three option positions. To create a long butterfly spread, the trader buys one call option with the lowest strike price and buys one call option with the highest strike price while also selling two options with the middle strike. Traders profit from a long butterfly spread if the underlying stock price hovers around the strike price of the middle options.
+
+There are many more examples of option spreads. For example, traders can form bull put spreads, bear put spreads, and short butterfly spreads. Traders can also form butterfly spreads using put options. These are just a few of the vast number of option spread strategies. You can learn more about these trading strategies in a derivatives course or online. For starters, see the terrific set of tutorials at www.cboe.com/Education.
+
+COMBINATIONS
+In a combination, the trader takes a position in a mixture of call and put options. Perhaps the best-known combination is called a straddle. Here is how a straddle works: Suppose a share of stock is currently selling at $50. You think the price is going to make a major move, but you are uncertain about the direction. What could you do? One answer is buy a call and buy a put, each with a $50 exercise price. That way, if the stock goes up sharply, your call will pay off; if it goes down sharply, your put will pay off. This combination is an example of a long straddle.
+
+combination
+
+An option trading strategy involving two or more call and put options.
+
+For more information on trading options, see
+optionetics.com
+and
+ino.com.
+
+This strategy is called a straddle because you have, in effect, “straddled” the current $50 stock price. It is a long straddle because you bought both options. Figure 15.11 shows the profit from a long straddle. Note that the stock must make a major move for the trader to profit from this strategy. In fact, the stock price must either climb to a price equal to the option strike price plus the cost of both options or it must fall to a price equal to the option strike price minus the cost of both options.
+
+Long Straddle Using a Long Call and a Long Put
+
+FIGURE 15.11
+
+
+If you thought the stock price was not going to make a major move in either direction, you might sell a put and a call, thereby generating income today. This combination is an example of a short straddle. In this case, your income would be maximized if the stock price at option expiration equals the option strike price, $50 in this example. If the stock price is $50 at option expiration, both options would expire worthless.
+
+There are many other combination strategies, with colorful names such as strips, straps, strangles, collars, and box “spreads” (which, for no known reason, are called spreads but are really combinations).
+
+Another Option Strategy
+
+EXAMPLE 15.11
+
+You own a share of stock worth $80. Suppose you sell a call option with a strike price of $80 and also buy a put with a strike price of $80. What is the net effect of these transactions on the risk of owning the stock?
+
+page 505
+
+Notice that what you have done is combine a protective put and a covered call strategy. To see the effect of doing this, suppose that, at option expiration, the stock is selling for more than $80. In this case, the put is worthless. The call will be exercised against you, and you will receive $80 for your stock. If the stock is selling for less than $80, the call is worthless. You would exercise your put and sell the stock for $80. In other words, the net effect is that you have guaranteed that you will exchange the stock for $80 no matter what happens, so you have created a riskless asset.
+
+Although option trading strategies are captivating, we really should move on. Up to now, we have mostly focused our attention on what options are worth when they expire. In our closing sections, we will put down the foundation we need to calculate option prices before expiration.
+
+CHECK THIS
+
+
+
+15.8aWhat is the difference between option spreads and option combinations?
+
+15.8bWhat is a short straddle? When might it be appropriate?
+
+15.9 Arbitrage and Option Pricing Bounds
+The “hockey stick” diagrams that show option payoffs can help you learn an extremely important concept: intrinsic value. The payoff diagrams, however, show what happens only at option expiration. Investors are also quite interested in option prices before expiration.
+
+In our next chapter, we will calculate option prices before expiration. In this section and the next one, we will explore how arbitrage forces set some price limits on option prices before expiration. An arbitrage is a trading opportunity that (1) requires no net investment on your part, (2) has no possibility of loss, and (3) has at least the potential for a gain.
+
+In general, option price limits depend on (1) whether the option in question is American or European and (2) whether a dividend is paid between today and the option expiration day. Dividends make discussing option price limits much more complicated. Therefore, in this section, we assume that the stock pays no dividends over the life of the option.
+
+THE UPPER BOUND FOR CALL OPTION PRICES
+What is the most a call option could sell for before expiration? Suppose we have a call option on a share of stock. The current stock price is $60 and the stock pays no dividends. Without more information, we cannot say a lot about the price of the call option, but we do know one thing: The price of the option must be less than $60. How do we know this?
+
+If you think about it, the right to buy a share of stock cannot be worth more than the share itself. To illustrate, suppose the call option was actually selling for $65 when the stock was selling at $60. What would you do?
+
+What you would do is get very rich, very fast. You would sell call options at $65 and buy stock at $60. You pocket the $5 difference. The worst thing that can happen to you is that the options are exercised and you receive the exercise price. In this case, it is theoretically possible for you to make an unlimited amount of money at no risk. This trading strategy will work for options with either American- or European-style exercise.
+
+This situation is an example of a true arbitrage opportunity. Unfortunately, such simple money machines don’t exist very often (if at all) in the real world, so we know that a call option can’t sell for more than the underlying stock.
+
+THE UPPER BOUND FOR PUT OPTION PRICES
+At expiration, we know that the value of a put option equals its intrinsic value. If the stock price is zero, then the intrinsic value is equal to the strike price of the put option. Therefore, page 506at expiration, the most a put option can sell for is the strike price. What is the most that a put option can sell for before expiration? The answer is the present value of the strike price.
+
+To begin to see this bound, suppose we have a put option with an exercise price of $50 and the put option price is $60. This situation is an arbitrage opportunity. What would you do? You would sell puts for $60 and deposit the proceeds in the bank. The worst thing that could happen to you at expiration is that you would have to buy the stock for $50 a share. However, you would also have $10 per share in cash (the difference between the $60 you received and the $50 you paid for the stock) and the interest on the proceeds.
+
+Now suppose we have a put option with an exercise price of $50 and the put option price is also $50. This situation is also an arbitrage opportunity. You would sell puts for $50 and deposit the proceeds in the bank. Again, the worst thing that could happen to you at expiration is that you would have to buy the stock for $50 a share. However, you keep the interest on the proceeds from the sale of the put.
+
+So, the upper bound on a European put’s price is less than the strike price. How much less? The answer depends on the going interest rate on risk-free investments. We will have an arbitrage if the price of the put plus the interest you could earn over the life of the option is greater than the stock price. For example, suppose the risk-free rate is 3 percent per quarter. We have a put option selling for $49 with an exercise price of $50 and 90 days to maturity. Is there an arbitrage opportunity?
+
+Yes, there is. You would sell the put and invest the $49 for 90 days at 3 percent to get $49 × 1.03 = $50.47. You will make at least $.47 guaranteed. At this point, you probably see where this is going. What is the maximum put value that does not result in an arbitrage opportunity? This value is:
+
+
+Notice that our answer, $48.54, is the present value of the strike price computed at the risk-free rate. This result is the general answer: The maximum price for a European put option is the present value of the strike price computed at the risk-free rate.
+
+The most put options with American-style exercise can sell for before expiration is the strike price. If an American put option had a price higher than the strike price, traders would sell these puts and invest the proceeds. The worst that could happen is that the stock price falls to zero and the holder of the American put exercises the put. The American put seller must buy the stock at the strike price—which is lower than the price of the put. The trader keeps the difference between the put price and the strike price, plus any interest earned before the put buyer exercised the put.
+
+THE LOWER BOUNDS FOR CALL AND PUT OPTION PRICES
+What is the lowest price possible for call and put options? Can an option have a negative value? A negative value means that holders would pay someone to take the option off their hands. However, option holders can let the option expire, so there would be no need to pay someone to haul away options. Thus, we conclude that options cannot have a negative value, which is true for European- and American-style options.
+
+AMERICAN CALLS We can set a “higher” lower bound by answering this question: Is it possible for an American call option to sell for less than its intrinsic value? The answer is no. We know that sometimes the intrinsic value of an option is zero and that the value of an option cannot be less than zero, but it can be zero. However, what about the cases in which the intrinsic value of an option is greater than zero? Why does the option have to sell for at least as much as its intrinsic value?
+
+To see this result, suppose a current stock price is S = $60 and a call option with a strike price of K = $50 has a price of C = $5. Clearly, this call option is in the money, and the $5 call price is less than the intrinsic value of S − K = $10.
+
+If you are presented with these actual stock and option prices, you have an arbitrage opportunity. That is, you have a way to obtain a riskless profit by following a simple three-step strategy.
+
+page 507
+
+First, buy the call option at its price of C = $5. Second, immediately exercise the call option and buy the stock from the call writer at the strike price of K = $50. At this point, you have acquired the stock for $55, which is the sum of the call price plus the strike price.
+
+As a third and final step, sell the stock at the current market price of S = $60. Because you acquired the stock for $55 and sold the stock for $60, you have earned an arbitrage profit of $5. Clearly, if such an opportunity continued to exist, you would repeat these three steps over and over until you became bored with making easy money. But realistically, such easy arbitrage opportunities do not exist, and it therefore follows that an American call option price is never less than its intrinsic value (even when dividends are paid). That is:
+
+
+AMERICAN PUTS A similar arbitrage argument applies to American put options. For example, suppose a current stock price is S = $40 and a put option with a strike price of K = $50 has a price of P = $5. This $5 put price is less than the option’s intrinsic value of K − S = $10. To exploit this profit opportunity, you first buy the put option at its price of P = $5 and then buy the stock at its current price of S = $40. At this point, you have acquired the stock for $45, which is the sum of the put price plus the stock price.
+
+Now you immediately exercise the put option, thereby selling the stock to the option writer at the strike price of S = $50. Because you acquired the stock for $45 and sold the stock for $50, you have earned an arbitrage profit of $5. Again, you would not realistically expect such an easy arbitrage opportunity to exist. Therefore, we conclude that the price of an American put option price is never less than its intrinsic value:
+
+
+EUROPEAN CALLS Because European options cannot be exercised before expiration, we cannot use the arbitrage strategies that we used to set lower bounds for American options. We must use a different approach (which can be found in many textbooks that focus on options). It turns out that the lower bound for a European call option is greater than its intrinsic value.
+
+
+EUROPEAN PUTS The lower bound for a European put option price is less than its intrinsic value. In fact, in-the-money European puts will frequently sell for less than their intrinsic value. How much less? Using an arbitrage strategy that accounts for the fact that European put options cannot be exercised before expiration, the lower bound for a European put option is:
+
+
+To give you some intuition, let’s look at an extreme case. Suppose the stock price falls to zero before expiration and there is absolutely no chance that the stock price will recover before expiration. American put holders would immediately exercise their puts because it is impossible for the puts to get further into the money. European put holders also would like to exercise their puts immediately for the same reason. However, they cannot. In this example, you can see that European put holders have a riskless asset that will be worth $K at expiration. Therefore, it is worth the present value of $K. Looking at Equation 15.6, you can see that the lower bound increases as the option gets closer to expiration.
+
+A STRONGER BOUND When no dividends are paid, Equation 15.5 also becomes the lower bound for American call option prices. Equation 15.5 is a “stronger” lower bound than Equation 15.3. To illustrate why Equation 15.5 is stronger, consider an example where S = $44, K = $40, r = 10 percent, and T = 1 year. Equation 15.5 says that for an American (or European) call option on a non-dividend-paying stock: C ≥ S − K/(1 + r)T, i.e., C ≥ $44 − $40/1.1 = $7.64. Equation 15.3, however, says that for American (not European) calls: C ≥ S − K, or C ≥ $44 − $40 = $4. So, Equation 15.5 is a stronger (i.e., higher) lower bound than Equation 15.3. That is, stating that the American call price must exceed $7.64 is stronger than saying the American call price must exceed $4.
+
+page 508
+
+CHECK THIS
+
+
+
+15.9aWhat is the most a European call option could be worth? How about an American call option?
+
+15.9bWhat is the most a European put option could be worth? How about an American put option?
+
+15.10 Put-Call Parity
+Suppose an investor has a long stock position and then decides to buy a protective put and sell a covered call at the same time. What happens in this case? That is, what kind of portfolio has this investor formed (assume both options have European-style exercise)? We will be creative and name the set of positions in these three risky assets “Portfolio A.”
+
+Table 15.1 presents the value of each position in Portfolio A when the options expire. For the put and the call, we calculate the intrinsic value of the option and then determine whether the investor receives or pays the intrinsic value.
+
+For example, if the expiration date stock price is less than the strike price, that is, if ST < K, then the call option expires worthless and the put option has an intrinsic value of K − ST. Because you bought the put option, you receive the intrinsic value.
+
+If the stock price on option expiration day exactly equals the strike price, both the call and the put expire worthless. However, if the expiration day stock price is greater than the strike price, that is, ST > K, the put option expires worthless and the call option intrinsic value is ST − K. Because you sold the call, however, you must pay the call option holder the intrinsic value. So, to you, the value of the call option is −(ST − K).
+
+In Table 15.1, notice that whether the expiration date stock price is less than, equal to, or greater than the strike price, the payoff to Portfolio A is always equal to the strike price, K. This means that this portfolio, which contains three risky assets, has a risk-free payoff at option expiration.
+
+Because Portfolio A is risk-free, the cost of acquiring Portfolio A today should be equal to the cost of acquiring any other risk-free investment that will be worth K in one year. One such risk-free investment is a U.S. Treasury bill. The discounted amount, K/(1 + rf)T, is the cost of a U.S. Treasury bill paying K dollars at option expiration.1
+
+We now use the fundamental principle of finance that states that two investments with the same risk and the same payoff on the same future date must have the same price today. If this fundamental principle were not true, then investors could create unlimited amounts of risk-free profits.
+
+Two Portfolios with the Same Value at Option Expiration
+
+TABLE 15.1
+
+
+page 509
+
+From Table 15.1, we see that Portfolio A and Portfolio B have the same payoff, K, at the option expiration date. The cost today of acquiring Portfolio A is S + P − C. The cost today of acquiring Portfolio B is K/(1 + rf)T. Setting these costs equal to one another yields this equation:
+
+
+Equation 15.7 says something important about the relationship among the stock price, a put option, a call option, and a riskless asset. If we have any three prices, we can figure out the price of the fourth. Also, note that we have three assets on one side of Equation 15.7 and one on the other. By reading the signs of the terms in Equation 15.7, we know what position to take in the three assets that have the same payoff as the fourth asset.
+
+Option Alchemy
+
+EXAMPLE 15.12
+
+Miss Molly, your eccentric (and very wealthy) aunt, wants you to explain something to her. Recently, at the Stable Club, she heard something fantastic. Her friend Rita said that there is a very interesting way to combine shares, puts, calls, and T-bills. Rita claims that having a share of stock and a put is the same as having a call and a T-bill. Miss Molly cannot believe it. Using the following information for Blue Northern Enterprises, show her that Rita is correct.
+
+Stock price	$110
+Put price	$5
+Call price	$15
+Strike price for both options	$105
+Options expire in	1 year
+One-year interest rate	5%
+For $115, an investor can buy one share of stock and one put.2 An investor can also take this $115, buy one call for $15, and invest $100. What happens in one year? We know the investment will grow to $105 in one year ($100 × 1.05 = $105). We know the options will be worth their intrinsic value in one year. However, we do not know what the stock price per share will be in one year. Therefore, we have listed some possible values below.
+
+
+page 510
+
+
+What happens? We see that in both ways, you will have the same gain or loss for each stock price. That is, in one year, the combined value of a stock and a put is the same as the combined value of a call and a T-bill.
+
+Therefore, the value today of a share of stock and a put is the same as today’s value of a call and a T-bill (with a price equal to the strike price). It looks like Rita is correct.
+
+Rearranging Equation 15.7 a bit yields the put-call parity relationship, which is generally written as:
+
+put-call parity
+
+The no-arbitrage relationship between put and call prices for European-style options with the same strike price and expiration date.
+
+
+Put-call parity is the most basic relationship between two European option prices. Put-call parity states that the difference between a call option price and a put option price for options with the same strike price and expiration date is equal to the difference between the underlying stock price and the discounted strike price.
+
+PUT-CALL PARITY WITH DIVIDENDS
+The put-call parity argument stated above assumes that the underlying stock paid no dividends before option expiration. But what happens if the stock does pay a dividend before option expiration? To begin, we will rewrite the put-call parity relationship as:
+
+
+Equation 15.9 says that holding a long stock position has the same payoff at option expiration as the portfolio consisting of a long call, a short put, and a long T-bill. However, will these payoffs be identical if the stock pays a dividend? The answer is no. The holder of the stock will receive a dividend at some time before option expiration. To get the same payoff, the holder of the portfolio needs an extra amount today. Because the dividend occurs at a later date, this extra amount is the present value of the dividend.
+
+If the stock does pay a dividend before option expiration, then we adjust the put-call parity equation to:
+
+
+In Equation 15.10, “Div” represents the present value of any dividend paid before option expiration.
+
+Implied Put Option Prices
+
+EXAMPLE 15.13
+
+A current stock price is $50, and a call option with a strike price of $55 maturing in two months has a price of $8. The stock will pay a $1 dividend in one month. If the interest rate is 6 percent, what is the price implied by put-call parity for a put option with a $50 strike price that matures in two months?
+
+page 511
+
+Rearranging the put-call parity equation yields the following price for a put option:
+
+
+WHAT CAN WE DO WITH PUT-CALL PARITY?
+Put-call parity allows us to calculate the price of a call option before it expires. However, to calculate the call option price using put-call parity, you have to know the price of a put option with the same strike. No problem, you say. Put-call parity allows us to calculate the price of a put option. However, to calculate the put option price using put-call parity, you have to know the price of a call option with the same strike price. Uh-oh.
+
+Do we abandon the notion of put-call parity? No. If you use an option pricing model to calculate a call option price, you can use put-call parity to calculate a put price. Option pricing models are the topic of the next chapter. As you can see in the following examples, put-call parity is also useful for arbitrageurs to align call and put option prices.
+
+Identifying an Arbitrage Opportunity with Put-Call Parity
+
+EXAMPLE 15.14
+
+Suppose you observe the following market prices:
+
+
+The strike price for the call and the put is $40. The riskless interest rate is 6 percent per year, and the options expire in three months. The stock does not pay dividends. Is there an arbitrage opportunity?
+
+To answer this question, use put-call parity (PCP) to calculate the “PCP-implied put price.” Then compare this calculated price to the market price of puts. This difference, if any, is the potential arbitrage profit.
+
+
+Taking Advantage of an Arbitrage Opportunity
+
+EXAMPLE 15.15
+
+In Example 15.14, we calculated a $.42 potential arbitrage profit. How would an arbitrageur take advantage of this opportunity? How much profit will the arbitrageur make?
+
+In Example 15.14, buying a call, selling stock, and investing the discounted strike together have a value of $2.42. If an arbitrageur has these three positions, this portfolio is called a long “synthetic put.” However, the arbitrageur can buy actual puts for $2.00. Arbitrageurs make money when they buy low and sell high. Therefore, the arbitrageur will buy a put for $2.00 and sell a synthetic put. That is, the investor will sell a call, buy stock, and borrow the difference. The arbitrageur can spend $2.00 to purchase an actual put and receive $2.42 for the sale of a synthetic put. This results in a potential profit of $.42. However, traders incur costs of trading. The realized pretax profit will be the potential profit minus trading costs.
+
+This approach is used quite often by arbitrageurs. A recent example is provided in the nearby Investment Updates box.
+
+page 512
+
+INVESTMENT UPDATES
+
+ONE-WAY VOL BETS SEEN AS ‘FOOL’S ERRAND’ BY 6,000% WINNER
+
+Heads you lose, tails you lose. This year for the first time, trading strategies betting on a jump in equity market volatility and those wagering for calm are both losing.
+
+The reason? February’s “volmageddon” blow out, which did enough to sink short-volatility strategies but not enough to protect long-vol trades from the tranquility that’s enveloped stocks on their way to new peaks.
+
+“Winning trades are quite hard to come by,” said Lincoln Edwards, founder of Houndstooth Capital Management LLC, a $7.5 million hedge fund in Austin, Texas, that reaped 6,000 percent in February’s meltdown. These days his bets seek to ride volatility on the way down as well as up; trying to time the crests is “a fool’s errand,” he reckons.
+
+Edwards at Houndstooth says he likes puts on short-VIX positions just as the gauge spikes. While risky, the trade pays off in a market that reliably returns to calm.
+
+“We like VIX options that trade a couple months out,” he said. “Since February, we’ve seen some sort of VIX spike almost every single month. Selling option spreads a couple months out allows you enough time for the VIX to calm back down and erode the options’ value.”
+
+_____________
+
+
+Source: Dani Burger and Yakob Peterseil, “One-Way Vol Bets Seen as ‘Fool’s Errand’ by 6,000% Winner,” Bloomberg, August 29, 2018, https://www.bloomberg.com/news/articles/2018-08-29/volatility-traders-damned-either-way-as-february-bets-washed-out.
+
+CHECK THIS
+
+
+
+15.10aYour friend Kristen claims that forming a portfolio today of long call, short put, and short stock has a value at option expiration equal to −K. Does it? (Hint: Create a table similar to Table 15.1.)
+
+15.10bIf a dividend payment occurs before option expiration, investors lower today’s stock price to an “effective stock price.” Why does this adjustment reduce call values and increase put values?
+
+15.10cExchange-traded options on individual stocks have American-style exercise. Therefore, put-call parity does not hold exactly for these options. Using option chain data from finance.yahoo.com or from the online version of The Wall Street Journal (wsj.com), compare the differences between selected call and put option prices with the differences between stock prices and discounted strike prices. You can find a short-term, riskless T-bill rate at reuters.com. How closely does put-call parity appear to hold for these equity options with American-style exercise?
+
+15.11 Summary and Conclusions
+In 1973, organized stock options trading began when the Chicago Board Options Exchange (CBOE) was established. Since then, options trading has grown enormously. In this chapter, we examined a number of concepts and issues surrounding stock options—which we have grouped by the chapter’s important concepts.
+
+1.  The basics of option contracts and how to obtain price quotes.
+
+A.  Options are contracts. Standardized stock options represent a contract size of 100 shares of common stock per option contract. We saw how standardized option prices are quoted online.
+
+page 513
+
+B.  Options on common stock are derivative securities because the value of a stock option is derived from the value of the underlying common stock. The two basic types of options are call options and put options. Holders of call options have the right, but not the obligation, to buy the underlying asset at the strike, or exercise, price. Holders of put options have the right, but not the obligation, to sell the underlying asset at the strike, or exercise, price.
+
+C.  A stock index option is an option on a stock market index such as the S&P 500. All stock index options use a cash settlement procedure when they are exercised. With a cash settlement procedure, when a stock index option is exercised, the option writer pays a cash amount to the option buyer.
+
+D.  The Options Clearing Corporation (OCC) is the clearing agency for major options exchanges in the United States. It guarantees that the terms of an option contract are fulfilled if the option is exercised.
+
+2.  The difference between option payoffs and option profits.
+
+A.  The initial cash flow of an option is the price of the option, also called the option premium. To the option buyer, the option price (or premium) is a cash outflow. To the option writer, the option price (or premium) is a cash inflow. The terminal cash flow of an option is the option’s payoff realized from the exercise privilege.
+
+B.  At expiration, the value of the option is its intrinsic value. For call options, this value is the maximum of zero or the stock price minus the strike price. For put options, this value is the maximum of zero or the strike price minus the stock price.
+
+C.  The profit from an option strategy is the difference between the option’s terminal cash flow (the option payoff) and the option’s initial cash flow (the option price, or premium). An option profit diagram adjusts option payoffs for the original price of the option. This means that the option premium is subtracted from the payoffs from buying options and added to payoffs from writing options. Note that these profits are pretax.
+
+3.  The workings of some basic option trading strategies.
+
+A.  There are many option trading strategies. In one strategy type, traders add an option position to their stock position. Examples of this strategy include protective puts and covered calls.
+
+B.  A spread is another type of option trading strategy. A spread strategy involves taking a position on two or more options of the same type at the same time. By same type, we mean call options only or put options only. A “butterfly” is a well-known example of a spread.
+
+C.  A combination is the third type of option trading strategy. In a combination, the trader takes a position in a mixture of call and put options. A straddle is the best-known combination.
+
+D.  Option prices have boundaries enforced by arbitrage. A call option cannot sell for more than the underlying asset, and a put option cannot sell for more than the strike price on the option.
+
+4.  The logic behind the put-call parity condition.
+
+A.  Put-call parity is perhaps the most fundamental relationship between two option prices. Put-call parity states that the difference between a call price and a put price for European-style options with the same strike price and expiration date is equal to the difference between the stock price and the discounted strike price.
+
+B.  The logic behind put-call parity is based on the fundamental principle of finance stating that two securities with the same riskless payoff on the same future date must have the same price.
+
+page 514
+
+GETTING DOWN TO BUSINESS
+
+This chapter added to your understanding of put and call options by covering the rights, obligations, and potential gains and losses involved in trading options. How should you put this information to work? You need to buy and sell options to experience the gains and losses that options can provide. So, with a simulated brokerage account (such as Stock-Trak), you should first execute each of the basic option transactions: buy a call, sell a call, buy a put, and sell a put.
+
+For help getting started, you can find an enormous amount of information about options on the internet. A useful place to start is the Chicago Board Options Exchange (cboe.com). Excellent websites devoted to options education are the Options Industry Council (optionseducation.org) and the Options Clearing Corporation (theocc.com).
+
+For information on option trading strategies, try entering the strategy name into an internet search engine. For example, enter the search phrases “covered calls” or “protective puts” for online information about those strategies.
+
+If you’re having trouble understanding options ticker symbols, don’t feel alone because almost everyone has trouble at first. For help on the net, try the search phrases “option symbols” or “options symbols.” Of course, the options exchanges listed above also provide complete information on the option ticker symbols they use.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+American option 485
+
+at-the-money option 494
+
+call option 485
+
+call option intrinsic value 493
+
+call writer 496
+
+cash-settled option 491
+
+combination 504
+
+covered call 503
+
+derivative security 485
+
+European option 485
+
+in-the-money option 494
+
+intrinsic value 492
+
+option chain 486
+
+Options Clearing Corporation (OCC) 488
+
+option time value 493
+
+option writing 495
+
+out-of-the-money option 494
+
+protective put 499
+
+put-call parity 510
+
+put option 485
+
+put option intrinsic value 493
+
+put writer 496
+
+spread 503
+
+stock index option 491
+
+strike price 485
+
+Chapter Review Problems and Self-Test
+
+Call Option Payoffs (LO2, CFA2)   You purchase 25 call option contracts on Blue Ox stock. The strike price is $22 and the premium is $1. If the stock is selling for $24 per share at expiration, what are your call options worth? What is your net profit? What if the stock were selling for $23? $22?
+
+Stock versus Options (LO1, CFA1)   Stock in Bunyan Brewery is currently priced at $20 per share. A call option with a $20 strike price and 60 days to maturity is quoted at $2. Compare the percentage gains and losses from a $2,000 investment in the stock versus the option in 60 days for stock prices of $26, $20, and $18.
+
+Put-Call Parity (LO4, CFA1)   A call option sells for $8. It has a strike price of $80 and six months until expiration. If the underlying stock sells for $60 per share, what is the price of a put option with an $80 strike price and six months until expiration? The risk-free interest rate is 6 percent per year.
+
+page 515
+
+Answers to Self-Test Problems
+
+Blue Ox stock is selling for $24. You own 25 contracts, each of which gives you the right to buy 100 shares at $22. Your options are thus worth $2 per share on 2,500 shares, or $5,000. The option premium was $1, so you paid $100 per contract, or $2,500 total. Your net profit is $2,500. If the stock is selling for $23, your options are worth $2,500, so your net profit is exactly zero. If the stock is selling for $22, your options are worthless, and you lose the entire $2,500 you paid.
+
+Bunyan stock costs $20 per share, so if you invest $2,000, you’ll get 100 shares. The option premium is $2, so an option contract costs $200. If you invest $2,000, you’ll get $2,000/$200 = 10 contracts. If the stock is selling for $26 in 60 days, your profit on the stock is $6 per share, or $600 total. The percentage gain is $600/$2,000 = .30, or 30%.
+
+In this case, your options are worth $6 per share, or $600 per contract. You have 10 contracts, so your options are worth $6,000 in all. Since you paid $2,000 for the 10 contracts, your profit is $4,000. Your percentage gain is a whopping $4,000/$2,000 = 2.00, or 200%.
+
+If the stock is selling for $20, your profit is $0 on the stock, so your percentage return is 0 percent. Your options are worthless (why?), so the percentage loss is −100 percent. If the stock is selling for $18, verify that your percentage loss on the stock is −10 percent and your loss on the options is again −100 percent.
+
+Using the put-call parity formula, we have:
+
+
+Rearranging to solve for P, the put price, and plugging in the other numbers gets us:
+
+
+Test Your Investment Quotient
+
+
+Option Contracts (LO1, CFA1)   Which of the following is not specified by a stock option contract?
+
+The underlying stock’s price
+
+The size of the contract
+
+Exercise style—European or American
+
+Contract settlement procedure—cash or delivery
+
+Option Payoffs (LO2, CFA2)   All of the following statements about the value of a call option at expiration are true, except that the:
+
+Short position in the same call option can result in a loss if the stock price exceeds the exercise price.
+
+Value of the long position equals zero or the stock price minus the exercise price, whichever is higher.
+
+Value of the long position equals zero or the exercise price minus the stock price, whichever is higher.
+
+Short position in the same call option has a zero value for all stock prices equal to or less than the exercise price.
+
+Option Strategies (LO3, CFA2)   Which of the following stock option strategies has the greatest potential for large losses?
+
+Writing a covered call
+
+Writing a covered put
+
+Writing a naked call
+
+Writing a naked put
+
+Option Strategies (LO3, CFA5)   Which statement does not describe an at-the-money protective put position (comprised of owning the stock and the put)?
+
+It protects against loss at any stock price below the strike price of the put.
+
+It has limited profit potential when the stock price rises.
+
+It returns any increase in the stock’s value, dollar for dollar, less the cost of the put.
+
+It provides a pattern of returns similar to a stop-loss order at the current stock price.
+
+page 516
+
+Put-Call Parity (LO4, CFA1)   Which of the following is not included in the put-call parity condition?
+
+Price of the underlying stock
+
+Strike price of the underlying call and put option contracts
+
+Expiration dates of the underlying call and put option contracts
+
+Volatility of the underlying stock
+
+Put-Call Parity (LO4, CFA1)   According to the put-call parity condition, a risk-free portfolio can be created by buying 100 shares of stock and:
+
+Writing one call option contract and buying one put option contract.
+
+Buying one call option contract and writing one put option contract.
+
+Buying one call option contract and buying one put option contract.
+
+Writing one call option contract and writing one put option contract.
+
+Option Strategies (LO3, CFA5)   Investor A uses options for defensive and income reasons. Investor B uses options as an aggressive investment strategy. What is an appropriate use of options for investors A and B, respectively?
+
+Writing covered calls/buying puts on stock not owned
+
+Buying out-of-the-money calls/buying puts on stock owned
+
+Writing naked calls/buying in-the-money calls
+
+Selling puts on stock owned/buying puts on stock not owned
+
+Option Strategies (LO3, CFA3)   Which one of the following option combinations best describes a straddle? Buy both a call and a put on the same stock with:
+
+Different exercise prices and the same expiration date.
+
+The same exercise price and different expiration dates.
+
+The same exercise price and the same expiration date.
+
+Different exercise prices and different expiration dates.
+
+Option Strategies (LO3, CFA3)   Which of the following strategies is the riskiest options transaction if the underlying stock price is expected to increase substantially?
+
+Writing a naked call option
+
+Writing a naked put option
+
+Buying a call option
+
+Buying a put option
+
+Option Gains and Losses (LO2, CFA3)   You create a “strap” by buying two calls and one put on ABC stock, all with a strike price of $45. The calls cost $5 each and the put costs $4. If you close your position when ABC stock is priced at $55, what is your per-share gain or loss?
+
+$4 loss
+
+$6 gain
+
+$10 gain
+
+$20 gain
+
+Option Gains and Losses (LO2, CFA3)   A put on XYZ stock with a strike price of $40 is priced at $2.00 per share, while a call with a strike price of $40 is priced at $3.50. What is the maximum per-share loss to the writer of the uncovered put and the maximum per-share gain to the writer of the uncovered call?
+
+Maximum Loss to Put Writer	Maximum Gain to Call Writer
+a.	$38.00	$ 3.50
+b.	$38.00	$36.50
+c.	$40.00	$ 3.50
+d.	$40.00	$40.00
+Option Pricing (LO2, CFA3)   If a stock is selling for $25, the exercise price of a put option on that stock is $20, and the time to expiration of the option is 90 days, what are the minimum and maximum prices for the put today?
+
+$0 and $5
+
+$0 and $20
+
+$5 and $20
+
+$5 and $25
+
+page 517
+
+Option Strategies (LO3, CFA5)   Which of the following strategies is most suitable for an investor wishing to eliminate “downside” risk from a long position in stock?
+
+A long straddle position
+
+A short straddle position
+
+Writing a covered call option
+
+Buying a protective put option
+
+Covered Calls (LO3, CFA1)   The current price of an asset is $75. A three-month, at-the-money American call option on the asset has a current value of $5. At what value of the asset will a covered call writer break even at expiration?
+
+$70
+
+$75
+
+$80
+
+$85
+
+Option Strategies (LO3, CFA2)   The current price of an asset is $100. An out-of-the-money American put option with an exercise price of $90 is purchased along with the asset. If the break-even point for this hedge is at an asset price of $114 at expiration, then the value of the American put at the time of purchase must have been:
+
+$0
+
+$4
+
+$10
+
+$14
+
+Concept Questions
+
+Basic Properties of Options (LO1, CFA1)   What is a call option? A put option? Under what circumstances might you want to buy each? Which one has greater potential profit? Why?
+
+Calls versus Puts (LO1, CFA1)   Complete the following sentence for each of these investors:
+
+A buyer of call options
+
+A buyer of put options
+
+A seller (writer) of call options
+
+A seller (writer) of put options
+
+The (buyer/seller) of a (put/call) option (pays/receives) money for the (right/obligation) to (buy/sell) a specified asset at a fixed price for a fixed length of time.
+
+Option Break-Even (LO2, CFA2)   In general, if you buy a call option, what stock price is needed for you to break even on the transaction ignoring taxes and commissions? If you buy a put option?
+
+Protective Puts (LO3, CFA5)   Buying a put option on a stock you own is sometimes called “stock price insurance.” Why?
+
+Defining Intrinsic Value (LO2, CFA1)   What is the intrinsic value of a call option? How do we interpret this value?
+
+Defining Intrinsic Value (LO2, CFA1)   What is the intrinsic value of a put option? How do we interpret this value?
+
+Arbitrage and Options (LO2, CFA3)   You notice that shares of stock in the Patel Corporation are going for $50 per share. Call options with an exercise price of $35 per share are selling for $10. What’s wrong here? Describe how you could take advantage of this mispricing if the option expires today.
+
+Use the following options quotations to answer Questions 8 through 11:
+
+
+page 518
+
+Interpreting Options Quotes (LO1, CFA2)   How many option contracts on Milson stock were traded with an expiration date of July? How many underlying shares of stock do these option contracts represent?
+
+Interpreting Options Quotes (LO1, LO2, CFA1)   Are the call options in the money? What is the intrinsic value of a Milson Corp. call option?
+
+Interpreting Options Quotes (LO1, LO2, CFA1)   Are the put options in the money? What is the intrinsic value of a Milson Corp. put option?
+
+Interpreting Options Quotes (LO1, LO2, CFA3)   Two of the options are clearly mispriced. Which ones? At a minimum, what should the mispriced options sell for? Explain how you could profit from the mispricing in each case.
+
+Option Strategies (LO3, CFA5)   Recall the option strategies of a protective put and covered call discussed in the text. Suppose you have sold short some shares of stock. Discuss analogous option strategies and how you would implement them. (Hint: They’re called protective calls and covered puts.)
+
+Put-Call Parity (LO4, CFA1)   A put and a call option have the same maturity and strike price. If both are at the money, which is worth more? Prove your answer and then provide an intuitive explanation.
+
+Put-Call Parity (LO4, CFA1)   A put and a call option have the same maturity and strike price. If they also have the same price, which one is in the money?
+
+Put-Call Parity (LO4, CFA2)   One thing the put-call parity equation tells us is that given any three of a stock—a call, a put, and a T-bill—the fourth can be synthesized or replicated using the other three. For example, how can we replicate a share of stock using a put, a call, and a T-bill?
+
+Questions and Problems
+
+Core Questions
+
+Call Option Payoffs (LO2, CFA2)   Suppose you purchase eight call contracts on Macron Technology stock. The strike price is $60 and the premium is $3. If, at expiration, the stock is selling for $64 per share, what are your call options worth? What is your net profit?
+
+Put Option Payoffs (LO2, CFA2)   Suppose you purchase five put contracts on Testaburger Co. The strike price is $45 and the premium is $3. If, at expiration, the stock is selling for $39 per share, what are your put options worth? What is your net profit?
+
+Stock versus Options (LO2, CFA1)   Stock in Cheezy-Poofs Manufacturing is currently priced at $50 per share. A call option with a $50 strike and 90 days to maturity is quoted at $1.95. Compare the percentage gains and losses from a $97,500 investment in the stock versus the option in 90 days for stock prices of $40, $50, and $60.
+
+Use the following options quotations to answer Problems 4 through 7:
+
+
+Options Quotes (LO1)   Suppose you buy 50 April 100 call option contracts. How much will you pay, ignoring commissions?
+
+Calculating Option Payoffs (LO2, CFA2)   In Problem 4, suppose that Hendreeks stock is selling for $105.70 per share on the expiration date. How much is your options investment worth? What if the stock price is $101.60 on the expiration date?
+
+Calculating Option Payoffs (LO2, CFA2)   Suppose you buy 30 March 100 put option contracts. What is your maximum gain? On the expiration date, Hendreeks is selling for $84.60 per share. How much is your options investment worth? What is your net gain?
+
+page 519Calculating Option Payoffs (LO2, CFA2)   Suppose you write 30 of the July 100 put contracts. What is your net gain or loss if Hendreeks is selling for $90 at expiration? For $110? What is the break-even price, that is, the terminal stock price that results in a zero profit?
+
+Put-Call Parity (LO4, CFA1)   A call option is currently selling for $3. It has a strike price of $65 and six months to maturity. What is the price of a put option with a $65 strike price and six months to maturity? The current stock price is $66 and the risk-free interest rate is 5 percent.
+
+Put-Call Parity (LO4, CFA1)   A call option currently sells for $8. It has a strike price of $80 and five months to maturity. A put with the same strike and expiration date sells for $6. If the risk-free interest rate is 4 percent, what is the current stock price?
+
+Put-Call Parity (LO4, CFA1)   A put option with a strike price of $50 sells for $3.20. The option expires in two months and the current stock price is $51. If the risk-free interest rate is 5 percent, what is the price of a call option with the same strike price?
+
+Intermediate Questions
+
+11. Put-Call Parity (LO4, CFA1)   A call option is currently selling for $3.90. It has a strike price of $45 and five months to maturity. The current stock price is $47 and the risk-free rate is 4 percent. The stock will pay a dividend of $1.45 in two months. What is the price of a put option with the same exercise price?
+
+12. Put-Call Parity (LO4, CFA1)   A call option is currently selling for $4.60. It has a strike price of $60 and three months to maturity. A put option with the same strike price sells for $7.20. The risk-free rate is 6 percent and the stock will pay a dividend of $2.10 in three months. What is the current stock price?
+
+13. Put-Call Parity (LO4, CFA1)   A put option is currently selling for $8.30. It has a strike price of $80 and seven months to maturity. The current stock price is $83. The risk-free rate is 5 percent and the stock will pay a $1.40 dividend in two months. What is the price of a call option with the same strike price?
+
+14. Call Option Writing (LO2, CFA3)   Suppose you write 10 call option contracts with a $50 strike. The premium is $2.75. Evaluate your potential gains and losses at option expiration for stock prices of $40, $50, and $60.
+
+15. Put Option Writing (LO2, CFA3)   Suppose you write 15 put option contracts with a $45 strike. The premium is $2.40. Evaluate your potential gains and losses at option expiration for stock prices of $35, $45, and $55.
+
+16. Index Options (LO2, CFA1)   Suppose you buy one SPX call option contract with a strike of 2200. At maturity, the S&P 500 index is at 2218. What is your net gain or loss if the premium you paid was $14?
+
+17. Option Strategies (LO3, CFA5)   You write a put with a strike price of $60 on stock that you have shorted at $60 (this is a “covered put”). What are the expiration date profits to this position for stock prices of $50, $55, $60, $65, and $70 if the put premium is $1.80?
+
+18. Option Strategies (LO3, CFA5)   You buy a call with a strike price of $70 on stock that you have shorted at $70 (this is a “protective call”). What are the expiration date profits to this position for stock prices of $60, $65, $70, $75, and $80 if the call premium is $3.40?
+
+19. Option Strategies (LO3, CFA5)   You simultaneously write a covered put and buy a protective call, both with strike prices of $80, on stock that you have shorted at $80. What are the expiration date payoffs to this position for stock prices of $70, $75, $80, $85, and $90?
+
+20. Option Strategies (LO3, CFA5)   You simultaneously write a put and buy a call, both with strike prices of $80, naked, i.e., without any position in the underlying stock. What are the expiration date payoffs to this position for stock prices of $70, $75, $80, $85, and $90?
+
+21. Option Strategies (LO3, CFA5)   You buy a straddle, which means you purchase a put and a call with the same strike price. The put price is $2.80 and the call price is $4.20. Assume the strike price is $75. What are the expiration date profits to this position for stock prices of $65, $70, $75, $80, and $85? What are the expiration date profits for these same stock prices? What are the break-even stock prices?
+
+22. Index Option Positions (LO3, CFA3)   Suppose you buy one SPX call option with a strike of 2125 and write one SPX call option with a strike of 2150. What are the payoffs at maturity to this position for S&P 500 index levels of 2050, 2100, 2150, 2200, and 2250?
+
+23. Index Option Positions (LO3, CFA3)   Suppose you buy one SPX put option with a strike of 2100 and write one SPX put option with a strike of 2125. What are the payoffs at maturity to this position for S&P 500 index levels of 2000, 2050, 2100, 2150, and 2200?
+
+24. page 520Index Option Positions (LO3, CFA3)   Suppose you buy one SPX call option with a strike of 2100 and write one SPX put option with a strike of 2100. What are the payoffs at maturity to this position for S&P 500 index levels of 2000, 2050, 2100, 2150, and 2200?
+
+25. Index Option Positions (LO3, CFA3)   Suppose you buy one each of SPX call options with strikes of 2000 and 2200 and write two SPX call options with a strike of 2100. What are the payoffs at maturity to this position for S&P 500 index levels of 1900, 1950, 2000, 2050, 2100, 2150, and 2200?
+
+26. Strangles (CFA5)   A strangle is created by buying a put and buying a call on the same stock with a higher strike price and the same expiration. A put with a strike price of $100 sells for $6.75 and a call with a strike price of $110 sells for $8.60. Draw a graph showing the payoff and profit for a straddle using these options.
+
+27. Bull Spread with Calls (CFA5)   You create a bull spread using calls by buying a call and simultaneously selling a call on the same stock with the same expiration at a higher strike price. A call option with a strike price of $20 sells for $4.55 and a call with a strike price of $25 sells for $1.24. Draw a graph showing the payoff and profit for a bull spread using these options.
+
+28. Bull Spread with Puts (CFA5)   You can also create a bull spread using put options. To do so, you buy a put and simultaneously sell a put at a higher strike price on the same stock with the same expiration. A put with a strike price of $20 is available for $.45 and a put with a strike price of $25 is available for $1.64. Draw a graph showing the payoff and profit for a bull spread using these options.
+
+Spreadsheet Problems
+
+29. Butterfly Spread with Calls (CFA5)   You create a butterfly spread using calls by buying a call at K1, buying a call at K3, and selling two calls at K2. All of the calls are on the same stock and have the same expiration date. Additionally, butterfly spreads assume that K2 = ½(K1 + K3). Calls on a stock with strike prices of $35, $40, and $45 are available for $7.00, $3.59, and $1.31, respectively. Draw a graph showing the payoff and profit for a butterfly spread using these options.
+
+30. Butterfly Spread with Puts (CFA5)   You can also create a butterfly spread using puts by buying a put at K1, buying a put at K3, and selling two puts at K2. All of the puts are on the same stock and have the same expiration date, and the assumption that K2 = ½(K1 + K3) still holds. Puts on a stock with strike prices of $35, $40, and $45 are available for $.90, $2.35, and $5.10, respectively. Draw a graph showing the payoff and profit for a butterfly spread using these options.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA1, CFA2]
+
+Rachel Barlow is a recent finance graduate from Columbia University. She has accepted a position at a large investment bank but must first complete an intensive training program. Currently she is spending three months at her firm’s Derivatives Trading Desk. To prepare for her assignment, Ms. Barlow decides to review her notes on option relationships, concentrating particularly on put-call parity. The data she will be using in her review are provided below. She also decides to assume continuous compounding.
+
+Option 1	Option 2
+Stock price	$100	$110
+Strike price	$100	$100
+Interest rate	7%	7%
+Dividend yield	0%	0%
+Time to maturity (years)	.5	.5
+Standard deviation of stock	20%	20%
+Call option price	$7.38	$14.84
+She would like to compute the value of the corresponding put option for Option 1. Which of the following is closest to Ms. Barlow’s answer?
+
+$3.79
+
+$3.94
+
+$4.41
+
+page 521Ms. Barlow notices that the stock in the table above does not pay dividends. If the stock begins to pay a dividend, how will the price of the call option be affected?
+
+It will decrease.
+
+It will increase.
+
+It will not change.
+
+She would like to compute the value of the corresponding put option for Option 2. Which of the following is closest to Ms. Barlow’s answer?
+
+$.98
+
+$1.41
+
+$4.84
+
+What’s on the Web?
+
+Option Prices You want to find the option prices for Intel (INTC). Go to finance.yahoo.com and find the option price quotes for Intel. What are the option premium and strike price for the highest and lowest strike price options that are nearest to expiring? What are the option premium and strike price for the highest and lowest strike price options expiring next month?
+
+Option Symbol Construction What is the option symbol for a call option on Cisco Systems (CSCO) with a strike price of $25 that expires in July? Go to cboe.com and find the links for the option ticker symbol construction. Find the basic ticker symbol for Cisco Systems options and the codes for the expiration month and strike price. Use these codes to construct the call option ticker symbol. Now construct the ticker symbol for a put option with the same strike price and expiration.
+
+Option Expiration Go to cboe.com and find the expiration calendar for options traded on the CBOE. On what day do equity options expire in the current month? On what day do they expire next month?
+
+LEAPS Go to cboe.com and find the link for “LEAPS.” What are LEAPS? What are the two types of LEAPS? What are the benefits of equity LEAPS? What are the benefits of index LEAPS?
+
+FLEX Options Go to cboe.com and find the link for “FLEX Options.” What is a FLEX option? When do FLEX options expire? What is the minimum size of a FLEX option?
+
+ 
+
+1 In this discounted amount, rf is the risk-free interest rate for one year and T represents the time to maturity. In this case, the time to maturity is one year, so T = 1. If the time to maturity is, say, six months, then T = ½. In other words, in the discounted amount K/(1 + rf)T, the risk-free rate, rf, is entered as an annual rate and the time to maturity, T, is entered in years (or a fraction of a year).
+
+2 This example uses prices per share. You know that exchange-traded option contracts are on 100 shares. An investor would have to buy 100 shares for $11,000 and one put for 100 × $5 = $500. This total outlay is $11,500 (or $115 per share).

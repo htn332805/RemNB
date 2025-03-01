@@ -1,0 +1,1046 @@
+page 557
+
+PART 6
+
+Alternative Investments
+
+
+
+“Buy land. They ain’t making any more of the stuff.”
+
+–American humorist Will Rogers
+
+Learning Objectives
+
+To get an alternative view of your investments, make sure you:
+
+Understand the benefits and risks of alternative investments.
+
+Identify the styles and structure of hedge funds and private equity funds.
+
+Understand how commodities can be used within an investment portfolio.
+
+Identify the forms of investment and valuation alternatives for real estate.
+
+Are you into alternative music? For many of you, the answer is probably yes. But just what constitutes “alternative” music? It’s hard to say in an objective way, and the same is true for alternative investments. Loosely speaking, the term “alternative investments” refers to investment strategies and assets that lie outside the more common, everyday approaches to asset selection and portfolio management.
+
+Our goal in this chapter is to provide you with a basic understanding of some common types of alternative investments. To accomplish this goal, we begin with a general discussion of the benefits and risks of alternative investments as compared to more traditional assets like stocks, bonds, or mutual funds. Then we examine two subcategories of alternative investments: alternative strategies and alternative assets.
+
+Within the strategies category, we explore two primary investment companies: hedge funds and private equity funds, which include venture capital. We discussed hedge funds briefly in an earlier chapter, but we will provide greater depth here. For alternative assets, we concentrate on the two most widely held: commodities and real estate. With an understanding of these common alternative investments, you should be able to build a much more diversified (and hopefully more efficient) investment portfolio.
+
+CFATM Exam Topics in This Chapter:
+
+Introduction to alternative investments (L1, S19)
+
+Alternative investments (L2, S15)
+
+Alternative investments for portfolio management (L3, S15)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 558
+
+17.1 Benefits and Risks
+As with any traditional investment, there are benefits and risks to alternative investments as well. We explore some of the most common in this section.
+
+BENEFITS OF ALTERNATIVE INVESTMENTS
+If you wanted to invest in large-cap stocks, you could choose to purchase a typical index mutual fund or an exchange-traded fund (ETF), such as SPY (the SPDR S&P 500 ETF Trust). If you do, you have a long position in this asset: You want its value to increase. In contrast, an investor with a bearish market outlook could use an inverse ETF (such as SH, the ProShares Short S&P 500 fund). Even though this investor buys the inverse ETF, she has a short position: She wants the value of the market to fall. If the market falls, the value of the inverse ETF goes up.
+
+Now, consider what would happen if you created an equally weighted portfolio that contained a long position in both SPY and SH. Effectively, you have formed an almost risk-free portfolio. If the market had a positive return day, your long position would benefit, but the negative return on your inverse ETF would offset this gain. The opposite occurs if the market experiences a down day. So, you might be asking, “What is the point of this whole example?” Well, this extreme example illustrates the principle of diversification that we talked about in a previous chapter.
+
+Investors often avoid asset classes that are considered too risky, such as alternative investments, when considered in isolation. Our example, however, shows that we were able to add another risky investment (SH) to an existing risky asset (SPY) in such a way that we actually reduced the overall portfolio risk.
+
+As we explained in an earlier chapter, investors are not rewarded on the basis of the total risk on an individual investment. The relative (or systematic) risk matters. That is, how does the potential investment move in relation to the current portfolio held? The same concept applies to alternative investments. Adding an alternative investment will likely not completely eliminate the risk of a portfolio. It is possible, however, that adding an extremely “risky” alternative asset can actually reduce the risk of the overall portfolio.
+
+You might recall that diversification benefits depend on the correlation among asset returns. If an asset’s return does not have a high positive correlation with the returns of the assets already in the portfolio, then risk can be reduced. As a result, the portfolio can have lower risk and still have the same, or even better, return. That is, the portfolio is more efficient.
+
+Let’s use gold as an example. Many investors flocked to this alternative asset in the wake of the 2008 financial crisis. As a result, the price of gold doubled from about $800 per ounce in early 2008 to over $1,600 per ounce in mid-2011. Over this time, the correlation of gold with the S&P 500 index was almost zero. Thus, adding gold to a portfolio effectively lowered risk (and, in this case, increased return), even though gold prices in isolation might be just as volatile as the portfolio of stocks in the S&P 500.
+
+A REAL-WORLD EXAMPLE INPRS is a state government entity that oversees the pension and retirement fund management for state employees in Indiana. One of INPRS’s main responsibilities is to decide on an asset allocation for its $20+ billion portfolio. Obviously, this important decision will ultimately impact thousands of people, from the plan participants to the taxpayers that provide the source of funds. Wouldn’t it be interesting to get INPRS’s view on alternative investments and the potential benefits they bring?
+
+To illustrate the potential benefits, take a look at Figure 17.1. This figure compares a traditionally diversified portfolio that INPRS held about 20 years ago to its more recent portfolio, which includes a broader range of investments. In Figure 17.1A, you can see the “traditional” portfolio made up of large-cap domestic stocks (S&P 500), bonds (Barclay’s Aggregate), and international equity (MSCI EAFE). With this allocation, INPRS earned a historical average return of about 6.86 percent and had a standard deviation of about 11.12 percent. Let’s look, however, at the benefit INPRS experienced by adding alternative investments to its portfolio.
+
+Traditional Portfolio
+
+FIGURE 17.1A
+
+
+page 559
+
+In Figure 17.1B, the portfolio now has the same three assets as before, plus a small-cap stock index (Russell 2000) and an international emerging markets index (MSCI EM). Notice that the portfolio also contains three alternative investments: real estate (which is the REIT component), commodities, and a market neutral hedge fund. What is the impact of these changes?
+
+More Diversified Portfolio
+
+FIGURE 17.1B
+
+
+Each category added is individually more volatile than the assets that were already in the portfolio. The new portfolio, however, has a lower standard deviation (9.99 percent, down from 11.12 percent). In addition, the return increased (7.92 percent, up from 6.86 percent). This result is the best of both worlds—lower risk and higher return. Thus, the primary benefit of these alternative investments is a better all-around (i.e., more efficient) portfolio. Results like these are the reason why entities such as INPRS include alternative investments in their portfolios.
+
+RISKS OF ALTERNATIVE INVESTMENTS
+Given the benefits discussed above, you might be completely ready to add alternative investments to your portfolio. Before you do, however, you also need to be aware of the added difficulties (and risks) of alternative investments.
+
+STRUCTURE AND TRANSPARENCY The Securities and Exchange Commission (SEC) is the federal agency responsible for enforcing securities laws. Investment advisors must register with the SEC once they reach a certain size. Many alternative investment funds, however, have historically been structured to avoid registering with the SEC.
+
+To avoid having to register, funds are often structured as limited partnerships. The manager serves as the general partner, and the underlying investors are limited partners. Besides page 560having this basic structure, the funds also limit the number of limited partners to fewer than 100 and do not offer shares for sale to the general public. These distinctive features circumvent many registration requirements. They also enable the funds to use strategies not generally available to the managers of more traditional funds. These strategies include things like having highly concentrated positions, being extremely leveraged, short selling, and holding illiquid securities.
+
+This overall structure creates at least two possible issues. First, if the fund is limited to fewer than 100 people, then to create a large fund, the minimum investment amounts are generally large, preventing many investors from gaining access. For example, most successful, well-known funds, such as AQR Capital, have minimum investments of at least $1 million. Second, the lack of registration means that the fund itself is less transparent because it faces fewer reporting requirements. The lack of information reporting adds risk, particularly considering that the underlying investments might even be less transparent. As a result, the lack of transparency at these two levels makes it more difficult for investors to value the investment opportunity.
+
+LIQUIDITY Alternative investments are generally less liquid than traditional investments. For example, alternative fund managers will often limit investor access to their money. Hedge funds, which we describe in detail below, often impose lockup periods. A lockup period means that investors commit to a minimum time period, say two years, before they can withdraw any of their money. Even after the lockup period, investor redemptions might be limited to particular windows of time, say, once per quarter. And, even with this permitted access, investors often must provide notice of at least 30 days.
+
+Similarly, private equity funds, which we discuss later in this chapter, are also less liquid than traditional investments. Most private equity funds have a set life, typically 10 years. After investors commit to investing, the fund will “call” the capital when the managers are ready to invest it. Thus, not only do investors have a long time commitment, but there is also some uncertainty about when they will have to provide money to the fund. While these constraints allow private equity funds to take longer-term positions, they definitely reduce liquidity for investors. This issue is sometimes offset with the use of a takedown schedule, which is a predetermined time frame over which capital will be called.
+
+TAXES When you buy a stock, the tax implications are straightforward—potentially, there will be dividend income each year, as well as a capital gain (or loss) when you sell the stock. For alternative investments, the tax implications are not always so clear-cut. As an example, if you invest in a fund that is structured as a limited partnership, then each year you will receive a statement called a Schedule K-1.
+
+Tax treatment of this partnership income (or loss) is more complicated than traditional income taxes. Further, partnership income can trigger the alternative minimum tax—another complicated calculation. What does different tax treatment mean for investors in alternative assets? Often, it means that these investors will need to hire specialists to help them calculate their tax bills. Paying for this help is an implicit cost to investors who add alternative investments to their portfolio.
+
+COMPENSATION AND COSTS For a typical mutual fund, an investor is charged a management fee, maybe around 1 percent (though often less). For alternative investment funds, the standard management fee is much higher. A typical hedge or private equity fund uses a 2/20 fee structure. This fee structure means that the investor is charged an annual management fee of 2 percent. In addition, the investor leaves behind 20 percent of the annual profits for the fund managers. While these funds might produce high gross returns, the net returns (after taxes and fees) might not be so attractive.
+
+In addition, directly investing in alternative assets such as gold or real estate is typically more costly. Trading costs are higher, and with physical assets, the investor pays for storage and insurance. These costs, all else equal, reduce the net return investors earn from these assets. We discuss these issues in greater detail later in the chapter.
+
+page 561
+
+QUALIFIED INVESTORS Given all the potential risks and costs, you might be having second thoughts about alternative investments. If so, you are not alone. Even the U.S. government recognizes that these investments are complex, so it limits who is able to invest in them. The U.S. government classifies some investors as accredited investors. Only accredited investors are allowed (by the U.S. government) to employ certain investment strategies, particularly pertaining to hedge funds and private equity funds.
+
+accredited investors
+
+In the United States, an investor who has assets or income that exceed a minimum level set by the federal government and qualifies to invest in more aggressive alternative investments and strategies.
+
+An accredited investor is defined generally as someone who is “rich.” Obviously, this term is vague. Specifically, to be classified as an accredited investor, a person must have at least $1 million in net assets to invest, or have an income of at least $200,000 ($300,000 if married) in each of the last two years. In addition, institutional investors, like those managing pensions and endowments, could also be considered accredited. Thus, while alternative assets might be beneficial, not all investors will be able to take advantage of every asset or strategy.
+
+CHECK THIS
+
+
+
+17.1aHow is it possible to add a volatile asset to a portfolio yet actually lower overall risk?
+
+17.1bWhat are some of the primary risks associated with alternative investments?
+
+17.2 Hedge Funds
+When you hear the name “hedge fund,” you might think that these funds are actually low-risk investments (as in the saying “hedging your bets”). Some hedge funds do try to exploit arbitrage opportunities on a low-risk basis. Most hedge funds, however, actually undertake aggressive, risk-enhancing strategies—thus, only accredited investors may participate.
+
+While hedge funds are considered an alternative investment strategy, most hedge funds primarily invest in publicly available underlying securities like stocks, bonds, futures, and options. For hedge funds, it is not the actual investments that are classified as alternative. Instead, the alternative classification stems from the strategies that hedge funds use in these securities. For example, hedge funds might use extensive leverage, short sell, or use some combination of these approaches.
+
+Find information on hedge funds at
+barclayhedge.com.
+
+HEDGE FUND REGULATION
+Historically, hedge funds have not been subject to much regulation. In the past 20 years, however, some events have triggered a renewed effort by the federal government to increase hedge fund regulation. In 1998, a hedge fund named Long-Term Capital Management collapsed. The Federal Reserve stepped in and helped bail out the firm in order to avoid a systemic financial crisis.
+
+In response to this event and others, beginning in 2006, the Securities and Exchange Commission (SEC) required larger hedge funds (those with assets under management over $100 million) to register as investment advisors. Hedge fund managers do not have to register each of the funds they manage. Instead, managers must provide some basic information to the SEC and have a person on staff whose duties include helping the hedge fund comply with SEC rules. To ensure compliance, the SEC can randomly examine registered hedge fund managers.
+
+The role of hedge funds in the most recent financial crisis of 2008 is still being hotly debated. As such, Congress is considering even stricter regulations. As would be expected, the hedge fund industry is defending itself and resisting these efforts. See the nearby Investment Updates box for more on this issue.
+
+page 562
+
+INVESTMENT UPDATES
+
+ARE HEDGE FUNDS “TOO SAFE TO FAIL”?
+
+A global hedge fund association, seeking to deflect efforts to increase regulation of the investment vehicles, said today hedge funds aren’t “systemically important financial institutions” that would require special government oversight.
+
+While more than 1,400 hedge funds closed during the recent financial crisis, the Alternative Investment Management Association said, they did so in “an orderly manner.”
+
+“The 2008 experience shows that hedge funds are ‘safe to fail,’ even if they are not fail-safe,” said Todd Groome, chairman of the association, in a statement. “This difficult period provided a very up-to-date and significant stress test concerning hedge fund risk to markets.”
+
+AIMA’s argument comes as regulators continue to mull which organizations should be deemed systemically important, in a bid to better devise rules to rein in financial companies that are “too big to fail.”
+
+The Dodd-Frank financial-overhaul law automatically designates banks with $50 billion or more in assets as systemically important, but gives regulators authority to decide which nonbank financial firms pose systemic risks.
+
+Some regulators have told Congress they want a larger number of non-bank firms, such as hedge funds, to provide data to regulators even if they escape the systemic designation.
+
+One often-cited example in the argument to boost regulation of hedge funds is the 1998 rescue of Long-Term Capital Management L.P. organized by the Federal Reserve, which had feared its failure might cause a chain reaction in markets and among counterparties on Wall Street.
+
+___________
+
+Source: Amy Or, “Are Hedge Funds ’Too Safe to Fail’?,” The Wall Street Journal, July 7, 2011.
+
+HEDGE FUND FEES
+As we noted in the previous section, most hedge funds have traditionally charged a 2/20 fee. This means that the investor pays a management fee of 2 percent and gives 20 percent of the profits earned to the fund manager on an annual basis. Although this approach has been common, there are many different fee structures—and some can be quite elaborate. In almost every case, however, the performance fee (in this case, the 20 percent) is the main feature of the compensation structure.
+
+One positive aspect of the performance fee is that the hedge fund manager has an incentive to earn as much profit as possible. There are, however, some potentially negative consequences. Suppose the performance bonus is awarded each year. What might the hedge fund manager do if he knew that the fund was going to lose money this year? One possible strategy to maximize the fund’s bonus is for the manager to write off as much loss as possible in the current year. As a result, the manager would be in a better position to make a large percentage profit for the fund next year (and a healthy performance fee for the manager).
+
+Hedge fund investors are savvy. To prevent this type of manipulation, many fee structures also include constraints (or hurdles) that the manager must meet. One of the more common is a high-water mark. When a hedge fund has a high-water mark, the manager will only receive performance fees when the fund’s value is higher than its previous highest value. Should the value of the investment drop in a given period, then the manager must make the value of the investment exceed the previous high-water mark before performance fees are paid. For a more detailed illustration of a high-water mark provision, take a look at Example 17.1.
+
+high-water mark
+
+A provision that ensures performance fees are not earned when the value of the fund regains previous levels. The value of the fund must exceed the previous high value of the fund before new performance fees are paid to the manager.
+
+High-Water Mark
+
+EXAMPLE 17.1
+
+You invested $1,000,000 with a hedge fund that has a standard 2/20 fee structure and a high-water mark provision. Suppose the returns over the first two years are −5 percent and 25 percent, respectively. What are the management and performance fees paid each year? Assume the management fees are paid at the beginning of each year and performance fees, when relevant, are paid at the end of each year.
+
+page 563
+
+Management fees are paid on the invested amount, so the first-year management fee is $20,000 (= $1,000,000 × .02). Because this fee is paid at the beginning of the year, the remaining $980,000 is invested. With a −5% loss, the end-of-year balance is $931,000 (= $980,000 × .95). No performance fee is paid.
+
+At the beginning of Year 2, the 2 percent management fee is applied, which is $18,620 (= $931,000 × .02). The manager has $912,380 to invest in Year 2. The second-year return is 25 percent, meaning the ending balance is $1,140,475 (= $912,380 × 1.25). A performance fee will be paid, but only on the amount above the maximum portfolio value since inception, which in this case is the initial investment of $1,000,000.
+
+The fund manager receives a performance fee of ($1,140,475 − $1,000,000) × .20 = $28,095. The investor’s net balance is $1,112,380. This ending balance represents a geometric average return of 5.47 percent over the two-year period, which is much less than the average of the actual yearly returns. This example shows that fees have a big impact on these investments.
+
+Why are investors willing to pay these high fees? The obvious answer is that the returns earned may still be high enough to provide the investor a reasonable net return. However, there is significant debate surrounding this issue. Many experts believe that the returns offered by hedge funds are not much better than the overall stock market, particularly after fees are subtracted.
+
+If hedge fund returns are not higher than, say, a simple market index fund, is there any reason to invest with a hedge fund? Yes. As we concluded earlier, the answer depends on the principle of diversification. That is, investments should be judged on how their returns move with the assets already in the portfolio.
+
+HEDGE FUND STYLES
+Worldwide there are thousands of hedge funds. Whether large or small, each fund has its own investment style or niche. For example, a hedge fund might focus on a particular sector, like technology, or a particular global region, like Asia or Eastern Europe. Alternatively, a hedge fund might pursue a particular investment strategy. In this section, we highlight some common investment styles. After we describe each style, we identify its level of expected return volatility.
+
+Market neutral. The goal of this strategy is to offset risk by holding opposite positions in pairs of securities. These funds are also called long-short funds. The managers of these funds take long positions in a set of securities that the managers believe are underpriced. Then, the manager matches these investments with corresponding short positions in securities that are perceived to be overpriced. Properly constructed, the resulting portfolio makes money regardless of the direction of the overall market, hence the name “market neutral.” Be aware that some funds might offset all long positions, whereas other funds match only a portion of them. Expected volatility: Low to moderate.
+
+Arbitrage. With this strategy, fund managers attempt to identify a mispricing in relationships between securities that, theoretically, should not exist. Arbitrage fund managers look at pricing relationships for securities offered by the same company or for investments across time or countries. For example, a hedge fund manager might buy convertible bonds of a company and short sell the common stock of the same company. This strategy is called convertible arbitrage. Another common arbitrage strategy is buying the stock of an acquisition target and short selling the stock of the acquiring firm. This strategy is called M&A (merger and acquisition) arbitrage. Example 17.2 illustrates this strategy. Expected volatility: Low.
+
+page 564
+
+Distressed securities. The managers of these hedge funds concentrate their investments in securities that are being offered at deep discounts, which typically result from company-specific or sectorwide distress. For example, a manager of a distressed securities fund might buy shares in firms that are facing bankruptcy. This particular approach falls into the category of “event-driven” funds. Expected volatility: Low to moderate.
+
+Macro. These hedge fund managers attempt to profit from changes in global economies brought about by government policy changes that affect such things as interest rates, currencies, or commodity prices. Macro fund managers will often use leverage and derivatives to increase the impact of market movements. Expected volatility: High.
+
+Short selling. In contrast to a long-short fund, a pure short hedge fund manager only short sells. Expected volatility: High.
+
+Market timing. Managers of these hedge funds attempt to identify trends in particular sectors or overall global markets. Often, these managers take concentrated positions, i.e., they “put a lot of eggs into one basket.” Also, they generally use leverage to increase the fund’s exposure to predicted movements. Expected volatility: High.
+
+M&A Arbitrage
+
+EXAMPLE 17.2
+
+Tango Corp. has made an offer to acquire Cash Corp. The deal specifies that one share of Tango will be exchanged for two shares of Cash. Tango is currently trading at $50 per share, and, after a run-up following the acquisition announcement, Cash is currently priced at $24 per share. The deal has been approved by the board and is awaiting approval by the stockholders and federal agencies, both of which seem likely. What trades would an arbitrage hedge fund manager make in this situation?
+
+The hedge fund manager should short one share of Tango and purchase two shares of Cash. The net cash flow is a $2 inflow. If the acquisition goes through as planned, the two shares of Cash will be converted into one share of Tango, which can then be used to cover the short position. The risk is that the acquisition may not be approved or may not occur for some other reason.
+
+As you can see, there are many hedge fund styles, and we did not list them all. Note that each style has its own level of risk. Once you make your millions and become a qualified investor, you still have your work cut out trying to identify the best hedge fund for your portfolio. What if you cannot decide? Maybe you will invest in a fund of funds.
+
+FUNDS OF FUNDS A significant portion of the money invested in hedge funds is funneled through funds of funds. A fund of funds is just what the name suggests: An investment company that invests in hedge funds. For investors, a fund of funds has advantages and disadvantages.
+
+A specific advantage of funds of funds is diversification. Remember, most hedge funds have high minimum investment requirements. Thus, an investor might not have enough money to invest in multiple strategies, or even enough to enter a particular fund. A fund of funds enables investors to hold positions in many hedge funds. In spirit, a fund of funds works like an equity mutual fund. If investors buy a mutual fund, they have a position in many stocks. Another advantage is the potential expertise that fund of funds managers might have in selecting the “best” hedge funds. The due diligence they provide might enable the creation of a better portfolio of hedge funds than an individual could build.
+
+Funds of funds, however, have disadvantages, too. A big drawback is the added layer of fees that are charged by the fund of funds. When you consider two layers of management and performance fees, these fees can be quite hefty. Another potential disadvantage could be the effect on one’s overall portfolio diversification. Diversification, as noted above, is generally considered to be a good thing when investing. In this context, though, it is important to note that a fund of funds might blend funds to reduce the overall risk of the hedge portfolio; thus, adding this component to an investment portfolio might result in lower returns if diversification on the hedge fund side offsets the benefits of diversification in the investor’s portfolio.
+
+page 565
+
+PERFORMANCE COMPARISON
+For a traditional mutual fund, we typically judge performance relative to a benchmark. For example, we would compare the performance of a large-cap fund to the S&P 500. If we compare a fund to the correct benchmark on the basis of both risk and return, we can calculate the fund’s alpha. Most hedge fund strategies, however, do not correspond to typical market segments such as large-cap equity, small-cap equity, corporate bonds, or government bonds. As a result, it is difficult to judge performance. In fact, hedge funds sometimes refer to themselves as absolute return funds, which implies that there is no relative benchmark. While this lack of correlation benefits portfolio diversification, it makes performance evaluation much more difficult.
+
+So, how do we separate “good” hedge funds from “bad” hedge funds? Well, we still rely on performance comparisons, but the comparison is made relative to composite style category indexes. For example, several data vendors provide average returns for the various investment styles we discussed: market neutral, arbitrage, distressed securities, etc. With this information, we can at least see whether a particular hedge fund performed above the average of the hedge funds in its style category.
+
+This comparison provides some objective information, but the composites often have their own problems. The composites might not reflect all underlying hedge funds, particularly because hedge fund managers get to decide whether to report their performance. Similarly, because hedge fund styles are not standardized, even comparing hedge funds to the performance of others in a given style category might not be meaningful.
+
+Another significant issue is survivorship bias. Many unsuccessful hedge funds close their doors, so only successful hedge funds survive to report performance results. Investors do not know in advance if the hedge fund they use will survive. Thus, the style benchmark return is higher than it would be if we adjusted the benchmark returns for shuttered hedge funds. Of course, you should conduct some research before you invest; however, you should understand that comparing hedge funds is much less objective than comparing mutual funds.
+
+CHECK THIS
+
+
+
+17.2aExplain the workings of a 2/20 fee structure with a high-water mark provision.
+
+17.2bIdentify some common hedge fund strategies.
+
+17.3 Private Equity Funds
+In the previous section, you learned that hedge funds primarily invest in publicly available securities, so it is not really the underlying assets that are “alternative.” What is alternative about hedge funds are the strategies that they use. Private equity funds are alternative investments because they invest in companies that are not publicly traded. Thus, private equity funds provide a way for investors to diversify into privately held companies.
+
+PRIVATE EQUITY AND VENTURE CAPITAL
+In his dorm room in 1984, Michael Dell started PC’s Limited (now called Dell Technologies). Today, the company has a market capitalization of over $38 billion. What happened to allow for this dramatic growth? A significant portion of the growth can be traced to investments by private equity and venture capital funds.
+
+A business goes through various stages in its development. When an entrepreneur begins a company, it is likely just an idea—i.e., the company is in the seed stage. The entrepreneur then develops the idea through the early, or start-up, stage until it reaches the formative stage. In this stage, the company begins to sell products and/or services. If successful, the business enters the late stage as it continues to grow.
+
+At each stage, the existing owners might need additional funding. They also might need outside expertise. Enter private equity and venture capital funds. Both types of investment page 566funds provide funding and industry knowledge in exchange for ownership in the business. The main difference involves the stage in which the participation occurs. Venture capitalists typically provide seed and early-stage financing. Private equity funds offer formative and late-stage capital.
+
+While the process is similar, there are obvious differences in the risk profiles of venture capital and private equity funds. Venture capital is a much riskier type of investment fund because the business failure rates in the early stages can be quite high. As you learned early in the book, however, there is a potential trade-off between risk and return. Thus, venture capitalists will demand a larger potential return (and ownership percentage) in exchange for their investment.
+
+Venture capital and private equity funds will usually concentrate in specific areas. For example, some venture capital and private equity funds might be industry specific, focusing on technology or energy. Others might work only with distressed companies. The largest area, however, is diversified private equity, because funds in this category span multiple areas looking for the best investment opportunities. To give some perspective on the size and distribution of private equity funds, check out Table 17.1. The table lists the top 15 fund managers as of early 2019. The rankings are based on the total amount of capital raised in the previous five years.
+
+Top 15 Private Equity Firms by Capital Raised
+
+TABLE 17.1
+
+Rank	Firm Name	Capital Raised ($ billion)
+1	The Blackstone Group	$58.32
+2	Kohlberg Kravis Roberts	$41.62
+3	The Carlyle Group	$40.73
+4	TPG Capital	$36.05
+5	Warburg Pincus	$30.81
+6	Advent International	$26.95
+7	Apollo Global Management	$24.00
+8	EnCap Investments	$21.22
+9	Neuberger Berman	$20.40
+10	CVC Capital Partners	$19.90
+11	Bain Capital	$18.17
+12	Thomas Bravo	$17.21
+13	Vista Equity Partners	$17.20
+14	Apax Partners	$17.02
+15	Clayton Dubilier & Rice	$16.69
+Source: Private Equity International.
+
+\
+Check out
+pwcmoneytree.com
+for details on current activity in
+the venture capital industry.
+
+PRIVATE PLACEMENT MEMORANDUM
+Before a private equity fund makes any investments, it must raise capital. Like hedge funds, private equity and venture capital funds are primarily structured as limited partnerships. Unlike hedge funds, however, these funds have stated lives, typically 10 years. Thus, private equity funds are constantly being created (and liquidated). To raise enough money, managers must have a successful track record in their previous funds. If they do not, they will likely need to reduce their fee structure and settle for a smaller fund size. To raise capital, fund managers create a private placement memorandum (PPM) that provides details on the proposed fund. These details include the fund’s expected life, its target size, and the strategies the fund manager intends to use. The PPM also includes details on the fund’s fee structure and any restrictions to which it will subject itself.
+
+private placement memorandum (PPM)
+
+A memorandum that details the characteristics of a proposed private equity fund and is distributed to potential investors.
+
+The fee structure is similar to those of hedge funds in that many use a standard 2/20 approach, with a 2 percent management fee per year and a 20 percent performance fee. There are, however, significant differences. For example, the management fee is charged on the total amount that has been committed for investment, called committed capital, not just that which has been called and invested.
+
+committed capital
+
+The total amount of capital that an investor has committed to invest in a fund over its entire life.
+
+page 567
+
+For private equity and venture capital funds, the performance fee is typically referred to as carried interest. This carried interest is most often subject to a hurdle rate. A hurdle rate is a minimum return that must be achieved before any carried interest is paid. A hurdle rate acts as an additional incentive for managers to perform as well as they can.
+
+carried interest
+
+The performance fee earned by the private equity manager. It is typically carried until near the end of the fund’s life, when it is paid.
+
+hurdle rate
+
+The minimum return the private equity manager must generate before any carried interest is awarded.
+
+To prevent fund managers from taking performance distributions too early, most funds also contain a clawback provision. This provision requires the general partner (i.e., fund manager) to return capital in a case where an early investment generates high returns, but subsequent investments perform poorly. What happens to the carried interest generated by the returns to the early investment? Investors should not have to pay for one successful investment that is followed by a series of poor investments. Effectively, the clawback provision does not allow the payout of carried interest to the general partners until the fund is liquidated or near liquidation.
+
+clawback provision
+
+A provision that forces private equity fund managers to return carried interest in the case of subsequent poor performance.
+
+Importantly, the PPM spells out how the fund can use leverage to enhance returns. When managers identify an investment, they can enhance returns by using a combination of committed capital and borrowed funds. As expected, however, the use of leverage increases the risk of the fund. By setting maximum leverage levels, the risk level of the fund is reduced. The risk is not eliminated, because managers can still make poor investment decisions.
+
+THE INVESTMENT PROCESS
+After the manager distributes the PPM to accredited investors, investors will decide whether to invest in the fund. When the fund manager has enough capital commitments, the fund manager proceeds to the actual investment process. Private equity funds and venture capital funds tend to follow this five-step investment process: deal flow, valuation, deal structure, value creation, and exit. Let’s look at some aspects of each of these steps.
+
+DEAL FLOW The phrase “garbage in, garbage out” is particularly applicable for private equity firms. Much of a fund’s success will be based on the quality of the deals from which to choose. Well-known, prestigious funds will receive many unsolicited offers that they can evaluate. Even lesser-known, smaller fund managers receive unsolicited offers, particularly if they have developed a strong network within the industry and investor community.
+
+An average private equity fund might evaluate about 500 potential investments in a year. From this investment set, the fund manager applies some basic filters to pare down the investment set to a manageable number. These filters might include the investment size (minimum and maximum), the industry, or standard financial ratios. This filtering might result in a subset of 20 to 50 deals that are evaluated at a deeper level.
+
+With further scrutiny of existing company management, the company’s product line, and other items, the fund managers decide to offer preliminary deals—maybe to five or six companies. A proposed deal is formalized in a letter of intent (LOI), which contains details of the preliminary structure of the investment and the dollar amount that the fund offers to invest. Even after agreement is made on the LOI, however, there is more due diligence to do. As such, not all LOIs are officially accepted; the fund manager or the target company might pull out of the deal. In the end, an average private equity firm might close only one or two deals per year. While this number might seem small, there is a large amount of work required to manage even one private equity transaction.
+
+letter of intent (LOI)
+
+Document that provides details of a proposed deal between the private equity fund and the firm selling equity or debt.
+
+VALUATION Unlike investing in publicly traded companies, there is no transparent market to help investors see the market value of a target firm. Thus, fund managers rely on their own valuation models. These models might include the various traditional discounted present value models of cash flows. The dominant approach used by these funds, however, appears to be based on a multiple of current cash flows, with a focus on EBITDA (earnings before interest, taxes, depreciation, and amortization).
+
+With an EBITDA number, fund managers can evaluate historical deals in the industry to determine an appropriate multiple, say five to seven times EBITDA. When this multiple is applied to the target firm’s EBITDA, the fund manager can estimate a value for the target firm. Refer to Example 17.3 to see how to make calculations associated with a sample deal.
+
+page 568
+
+Multiples Valuation
+
+EXAMPLE 17.3
+
+Centerwire Capital Partners is considering an investment in Glass Technologies. Glass has an EBITDA of $12.2 million, and Centerwire determines that similar deals have recently closed at a 5.5 times multiple. With this multiple in mind, what is the valuation estimate for Glass Technologies?
+
+The valuation estimate is the EBITDA times the average industry multiple, which in this case is $12.2 million × 5.5 = $67.1 million. As we discussed in a prior chapter, when EBITDA is used, the valuation is for the entire firm, not just for equity. Centerwire and Glass Technologies will negotiate this valuation and the percentage of the firm that Centerwire will own.
+
+Unfortunately, price multiples are not stable, and they will vary depending on firm size. The multiples also vary through time because of changing economic conditions. For example, across all deals, enterprise value (EV) to EBITDA multiples, which we discussed in our chapter on common stock valuation, were around 8 during the 2014 to 2016 time period, but they reached a high of 10 in the third quarter of 2017. This increase in the multiple represents a 25 percent increase in valuation. During the same time period, deals up to $25 million had multiples around 6. Larger deals, say $250 million and above, had multiples of about 12, on average.
+
+DEAL STRUCTURE Once the firm and the fund settle on a valuation, the next step is to agree on the terms of the deal. The major term of the deal is the fund’s dollar investment and the percentage of the company the fund owns. The ownership percentage can range from only, say, 5 percent to as much as 100 percent. In many cases, however, the fund will require its ownership to be above 50 percent, which gives operating control to the fund. In addition, the fund manager might require that the fund get a specified number of seats on the company’s board of directors—which, again, helps the fund maintain operational control of the firm. The value of the company drives the percentage ownership the fund receives for its investment.
+
+In addition, particularly for venture capital funds, the ownership required is related to the expected value of the firm when the fund exits its investment. One valuation approach often used is called the venture capital method. There are three basic steps to this valuation method:
+
+Step 1: Estimate the post-money (exit) valuation. Private equity and venture capital funds profit by investing in companies so that the companies can grow in value. These funds then sell their ownership and move on to search for new deals. Before investing, the fund manager forecasts the value of the investment when the fund exits the deal. Estimating this value means that the fund manager has to specify how long the fund anticipates holding this ownership, and, potentially, how the fund will exit the deal. Both of these factors will impact the exit valuation.
+
+Step 2: Determine the pre-money valuation. After negotiations, the fund manager and target company agree on an amount the fund will invest. Using the venture capital fund’s required rate of return, this amount will be compounded forward to the exit date. For most funds, the required return is quite high, often 50 percent or more. This return might seem excessive, but consider the high risk involved with investing in young companies, many of which fail.
+
+Step 3: Determine the ownership fraction. Once the required future value of the fund’s initial investment and the exit value of the company are estimated, the ratio of these two values determines the fund’s required ownership percentage. Example 17.4 walks you through an example of the venture capital valuation method.
+
+page 569
+
+Venture Capital Method
+
+EXAMPLE 17.4
+
+Scenic Ventures is considering an investment in a start-up firm offering ecotourism excursions in Costa Rica. Scenic Ventures estimates that, if the venture is successful, the ecotourism company will have a value of $25 million in four years, the time of the exit. Scenic has agreed to an initial investment of $3 million and requires a return of 50 percent on these types of investments. What ownership fraction will Scenic demand in exchange for its investment?
+
+Step 1:   Post-money (exit) valuation = $25 million
+
+Step 2:   Pre-money valuation = $3 million, with a future value of $3 million × 1.504 = $15.1875 million
+
+Step 3:   Ownership fraction = $15.1875/$25 = .6075, or 60.75%
+
+In addition to straight equity, there are other possible deal structures. Venture capital funds often use preferred stock that is convertible into shares of common stock. With convertible preferred stock, the fund might be able to specify the payment of an annual dividend. This dividend reduces the investment’s risk because it provides some cash flow to the fund before the exit date. Many companies that need venture capital, however, do not have the cash flow to make dividend payments. Even without a dividend, convertible preferred stock might still be used—to provide some protection to the fund in case the company goes bankrupt. The most critical aspect of convertible preferred stock, however, is the conversion feature. This feature enables the venture capital fund to retain the potential of an upside return if the company succeeds. Thus, convertible preferred stock is a way to enhance downside protection without forgoing upside return—the best of both worlds.
+
+Some private equity funds make debt-based investments. These firms are often called mezzanine funds because they are between the debt and equity levels on the balance sheet. These “mez” funds provide debt financing to firms that might be able to borrow more from traditional lenders. Obviously, this investment is higher risk than typical debt. As a result, the interest rates on these debts are generally higher than rates on other debts. Mez funds might also demand warrants as part of the agreement. A warrant is really just a call option on a specified number of shares in the firm, so owning warrants is another way to be compensated for risk. Thus, if the firm is successful, the private equity fund makes a return on the mez debt, as well as through equity it is able to collect by exercising the warrants.
+
+The structures we have addressed are only a small sampling of what is possible. Because private equity investments are an agreement between two parties, there is really no limit to the range and complexity of the deal structure. As long as both sides agree, any term can be written into the contract.
+
+VALUE CREATION Once a deal is in place, the real work begins. In addition to their capital investment, a good private equity or venture capital fund will bring expertise and industry contacts to their acquisition. These resources are valuable to the company because they did not have access to them before the deal. Fund managers will often take board seats and might even be involved in day-to-day operations. In an extreme case, the fund managers might even replace the management of the acquired firm. The overall ownership goal is to restructure and grow the business to increase cash flow (i.e., EBITDA). Increasing cash flow comes from improving the business—improving margins, expanding product lines, and making other operational refinements.
+
+Although the multiple of cash flow paid for the business often depends on the industry, there is variation. Firms with more stable cash flows receive higher multiples, particularly at higher levels of EBITDA. The goals of the fund manager are to increase the cash flow and to expand the multiple.
+
+To give you an idea of value creation, take a look at the nearby Investment Updates box featuring ABC’s Shark Tank, which debuted in 2009. In this show, entrepreneurs present their businesses to a panel of venture capitalists, all of whom have the opportunity to assess the business and make an offer. As a result of the show, many entrepreneurs, like the one in the article, have received both capital and expertise to help them grow their businesses.
+
+page 570
+
+INVESTMENT UPDATES
+
+TV STINT PUTS CITIKITTY NEAR $1 MILLION MARK
+
+How might an appearance on national TV impact a young business with just one product?
+
+For CitiKitty, Inc., a recent stint on ABC’s Shark Tank has put the six-year-old enterprise on track to hit the $1 million mark in sales this year. Founder Rebecca Rescate says the company received more orders for its cat toilet-training kit during the week after the reality show aired in mid-May than it did for all of 2010, when revenue totaled just $350,000. Shark Tank invites entrepreneurs to pitch investors for financing. Rescate went on the show seeking $100,000 in exchange for a 15% equity stake in her company. She landed two offers in that range and accepted one from Kevin Harrington, chairman and founder of TVGoods, Inc., a Clearwater, FL, marketing company that specializes in producing infomercials. Rescate says she went with Harrington, even though he requested a slightly larger equity stake than the other investor, real-estate mogul Barbara Corcoran, because she saw him as a better fit for her business. CitiKitty has produced one standard TV commercial and its kits are in As Seen on TV stores across the nation.
+
+Harrington says he opted to invest in CitiKitty mainly because it has a proven track record. “In our business, having something that has been tested already is a very positive thing,” he explains. Harrington says he also likes that the company’s kits offer consumers an opportunity to save by no longer having to invest in litter or litter boxes. Plus, the effect of the product is amusing to watch in action, as demonstrated through a number of videos the company created that show cats using the toilet. “It’s the kind of product that we look for, something that has a wow factor to it,” he says.
+
+Through her new partnership with Harrington and TVGoods, Rescate says she’s so far secured a deal for shelf space at several Walgreens outlets. They’re now working together on getting CitiKitty into more retail locations.
+
+___________
+
+Source: Sarah E. Needleman, “TV Stint Puts CitiKitty Near $1 Million Mark,” The Wall Street Journal, July 6, 2011.
+
+EXIT Recall that private equity and venture capital funds have defined lives—mostly in the range of 10 years. As a result, defining an exit strategy is important. There are three basic ways for the fund to exit. The worst-case scenario is the company fails and the fund managers lose their investment.
+
+For more on Shark Tank, visit
+abc.go.com/shows/shark-tank.
+
+Obviously, a much more desirable outcome is to sell the business at a profit. This sale could be to another private equity fund (i.e., financial buyer) or to another company in the industry (i.e., strategic buyer). Another type of sale is an initial public offering (IPO), where the company sells equity to the general public. An IPO often generates the highest return for the fund.
+
+PERFORMANCE MEASUREMENT
+As with hedge funds, there is not a defined benchmark for comparing the performance of private equity and venture capital funds. Thus, it becomes a “beauty contest” of sorts, where one fund is compared to the others that are available, often based on subjective assessments. This comparison is even more difficult when performance data for funds are based on assets yet to be liquidated.
+
+Some academic studies have examined overall industry returns over longer periods of time. The most interesting result is that the total return of private equity funds seems to be in line with the overall stock market. Given that these funds are more risky, we might expect a higher return. The high fees paid, however, might be the reason behind the lower than expected returns. Remember, though, the greatest benefit of these funds might not be a higher return, but rather the potential diversification benefits they bring.
+
+CHECK THIS
+
+
+
+17.3aWhat restricts a private equity manager from taking too much carried interest?
+
+17.3bWhat are the basic steps of the private equity or venture capital investment process?
+
+page 571
+
+17.4 Commodities
+By definition, a commodity is a basic good that is nearly identical to other goods of the same type. That is, there is not much variation in a given commodity, even if it is provided by two different producers. For example, an ounce of gold in the United States is equivalent to an ounce of gold in China. Commodity exchanges are marketplaces where commodities trade. Trading commodities can involve spot price, or immediate, transactions or futures trading. Traditionally, commodities were primarily physical goods, such as gold, oil, or corn. More recently, however, commodity futures exchanges have also added contracts on financial assets, such as currencies, fixed income products, equity indexes, and other indexes.
+
+Commodities have two basic roles. First, producers of goods use commodities as inputs. For example, jewelers use gold, textile mills use cotton, oil refineries use crude oil, and flour mills use wheat. Second, investors can trade commodities—either to shift risk or to take risk.
+
+Investors can use commodities to diversify their portfolio risk further. Investors can also trade commodities to help protect their portfolios from general price increases in the economy. Finally, nonagricultural commodities like copper, silver, and gold are not perishable. These commodities can act as a store of value—similar to one of the roles of money. Particularly for U.S. investors, commodities can also help protect against inflation, or a loss in purchasing power, because many commodities are priced worldwide in dollars.
+
+A prime example of this is oil. No matter where in the world it is traded, oil typically changes hands in dollars. Because it is traded in many world markets, oil prices reflect the supply and demand in many markets—which is one reason oil prices are so volatile. Being priced in dollars also plays a part in the volatility of oil prices. If the value of the dollar declines versus other currencies, oil becomes cheaper around the world. Foreign buyers can convert their currencies into a larger number of dollars and buy more oil for the same amount of their home currency. This buying pressure pushes demand (and price) up. In this situation, for U.S. investors holding oil, the oil price increase resulting from the dollar’s decline protects their portfolio in real terms—i.e., oil prices provide an inflation hedge. Thus, once again, while the return to alternative assets might not be higher over time than traditional assets, the diversification they provide can be quite valuable.
+
+How do investors diversify into commodities? Basically, individual investors have three choices: spot market transactions, futures contracts, and third-party managers (commodity-based funds). In the following sections, we discuss some aspects of each of these three approaches.
+
+SPOT MARKET TRANSACTIONS
+If you wanted to own gold, you could visit your local coin dealer and purchase a U.S. Gold Eagle or South African Krugerrand. Both of these coins contain one troy ounce of gold. By the way, one pound contains 14.58333 troy ounces. As of early 2019, one of these coins was worth over $1,300. By purchasing these coins, the investor is making a spot market transaction, which means buying (or selling) the actual commodity today. Spot market transactions result in an actual physical exchange of the commodity.
+
+For small spot market transactions like buying gold coins, local dealers are the primary suppliers. As in any dealer market, dealers make money from the spread on each transaction. That is, the asking prices investors pay exceed the bid prices investors receive for the commodity. Remember, the size of the spread depends on the liquidity and competition in a particular spot market. For small transactions, the spread is relatively high. For example, if the spot price of gold were $1,300 per troy ounce, you might pay $1,325 to purchase a gold coin from a dealer. Moreover, this price does not include the premium that is charged for some gold coins that are more collectible than others.
+
+For large transactions, investors do not visit the local coin shop. Imagine walking in and asking to purchase 5,000 troy ounces of gold, which represents over 340 pounds and $6.5 million. Obviously, these large transactions are conducted in a different way. In most cases, these transactions take place through the exchange of a storage receipt. A seller who owns a large amount of gold will likely store it in a central repository. The seller signs over the gold to the buyer—there page 572is no physical exchange of gold. If the buyer keeps the gold in the same location, this process really simplifies the transaction. Further, because these purchases are large, the bid-ask spread per ounce will be much lower, probably in the range of $2 to $5 per ounce.
+
+Regardless of the size of the spot transaction, there are other costs. For example, physical commodities must be stored and insured. Storage and insurance are inexpensive for a small number of gold coins if you own a safe and have them covered on your homeowners insurance policy. On a large scale, however, storing gold in a depository will be much more costly.
+
+FUTURES CONTRACTS
+Futures contracts allow investors to benefit from commodity price changes without actually owning the physical commodity. Recall from our discussion of futures markets in another chapter that investors can benefit from price increases or price decreases. For example, investors who agree to take delivery of the commodity in the future are locking in a price today that they will pay. If the commodity’s price rises, these investors earn a profit because they have a contract that allows them to buy the commodity at less than the current price. Similarly, investors who agree to make delivery of the commodity in the future benefit from price declines.
+
+Compared to spot market trades, futures contracts have benefits and disadvantages. Being able to use margin is one potential advantage of using futures contracts. Investors may purchase one gold futures contract, giving them a position consisting of 100 troy ounces. In the spot market, 100 ounces of gold at a price of $1,300 costs $130,000, plus a commission. In the futures markets, however, the initial margin on a gold futures contract is much less, say $4,000. Thus, for a much smaller investment, futures contracts enable investors to take the same size position as spot market investors. For the same investment amount, futures contracts enable investors to take a much larger position than spot market investors.
+
+Recall, however, that using margin brings additional risk. The leverage created by using margin means that small movements in the commodity’s price will have a large impact on the investor’s return. In our example, the margin in the futures account is $4,000/$130,000 = .0308, or 3.08%. Using this value, we can calculate a leverage factor, which tells us the percentage movement in the futures position for a given movement in the underlying commodity. The leverage factor is calculated as:
+
+
+For this example, the leverage factor is 1/.0308 = 32.5 times. So, for every one percent change in the price of gold, the equity in this account changes by 32.5 percent. Obviously, this price change greatly benefits the investor if the price change is in a favorable direction. This leverage, however, can be quite damaging if the price change is unfavorable.
+
+Investors can hold physical commodities as long as they want to pay the storage and insurance costs. Futures contracts, however, are short-term positions, generally lasting only a few months. If investors want to hold an ongoing futures market position, they must “roll” the contracts before they expire. Investors roll over their futures contract position by closing out the contract they hold and replacing it with (i.e., rolling into) a contract with a longer time to expiration. Rolling contracts come with a cost in addition to the small trading commission, and the roll cost can be substantial.
+
+In our chapter on futures contracts, we discussed spot-futures parity. This parity equation identifies the expected relationship between spot and futures prices:
+
+
+In Equation 17.2, F is the futures price; S is the spot price; r is the annual interest rate; and T is the time to futures contract settlement, measured in fractions of a year. For example, if the spot price of gold is $1,300 per ounce, the interest rate is 4 percent per year, and the contract lasts three months, then, ignoring storage costs, the futures contract price should be:
+
+
+Equation 17.2 shows that the futures price is higher than the spot price, and this difference increases with the contract’s length. This relationship is known as contango. When traders roll a long futures contract position, a market in contango means that they close out the current page 573contract at a lower price than what they pay to roll into the longer contract. Thus, each time traders roll a contract in a contango market, they incur a loss, which is the roll cost. It is even possible that investors lose money when the spot price of the commodity remains unchanged.
+
+contango
+
+In the futures market, a term to indicate that the futures price is higher than the spot price.
+
+The opposite of roll cost is roll yield. Roll yields are possible when the futures contracts for a commodity are in “backwardation.” Backwardation means that futures prices are lower than spot prices. In this case, when investors roll a long position, they sell at a price higher than the price they pay to replace the long futures position with a new contract. This relationship is unusual across most commodities, with the exception of crude oil and related products such as unleaded gasoline and heating oil.
+
+backwardation
+
+In the futures market, a term that indicates that the futures price is lower than the spot price.
+
+ARBITRAGE IN FUTURES CONTRACTS Why should we expect the spot-futures parity relationship to hold? If it did not hold, then active traders would engage in arbitrage trades and earn excess returns. This monitoring aligns spot prices and futures prices. For example, suppose the futures price was $1,350 per ounce—higher than Equation 17.2 predicts. In this case, a trader buys 100 ounces of gold in the spot market and sells one gold futures contract (which covers 100 ounces). This is called a cash and carry trade, because the trader buys in the cash (i.e., spot) market and carries the gold to the time when the gold can be delivered to settle the terms of the futures contract. In addition, the trader uses borrowed money to buy gold in the spot market. In this manner, the trader has no investment but makes a profit—the definition of an arbitrage. How big is the trader’s profit?
+
+In our example, the trader borrows $1,300 for three months at a 4 percent interest rate and buys gold in the spot market. The trader holds, or carries, the gold until futures contract settlement. Because the trader sold a gold futures contract, the trader is agreeing to deliver 100 ounces of gold when the contract expires and receive $1,350 per ounce. Based on the interest rate, the trader needs $1,312.81 to repay the loan in three months. So, these trades today result in a profit of $37.19 (per ounce) in three months. Traders looking for arbitrage opportunities keep the spot-futures relationship in, or close to, parity.
+
+You might be wondering whether the trader has to pay for storage and insurance in the example above. The answer is yes. Thus, we must adjust the spot-futures parity equation to include storage and insurance costs. That is:
+
+
+Notice that the spot price includes the term, PVSC, which is the present value of the storage and insurance costs. The present value of the storage and insurance costs is added to today’s spot price because the trader will also borrow this amount of money to store and insure the gold for three months.
+
+Suppose storage and insurance costs are $1.25 per ounce per month. We calculate the present value of these cash outflows as follows:
+
+
+Thus, the expected futures price would be:
+
+
+The storage and insurance costs reduce the arbitrage profits. By how much? The arbitrage profit without any storage and insurance costs is $1,350 − $1,312.81 = $37.19. With storage costs, the arbitrage profit is $1,350 − $1,316.57 = $33.43.
+
+Why should investors using commodity futures in their portfolio care about all this parity stuff? When the spot-futures parity relationship holds, it means that futures prices reflect fair value. If futures prices did not reflect fair value, then investors using commodity futures in their portfolios would be taking additional risk.
+
+THIRD-PARTY MANAGERS
+Spot market transactions require storage facilities, and trading futures contracts yourself can be quite hazardous to your wealth. Fortunately, market participants have created two products to trade commodities in an easier way: (1) commodity-based exchange-traded funds (ETFs) or notes (ETNs) and (2) hedge funds that offer managed futures strategies.
+
+page 574
+
+EXCHANGE-TRADED FUNDS AND NOTES We discussed ETFs in detail in an earlier chapter. Here we will concentrate on some key issues for exchange-traded funds that deal in commodities. To give you an idea of the products available, take a look at Table 17.2. The table provides a sampling of some of the most popular exchange-traded products. You will see from this small sample that there are products available that are diversified across all commodities (such as PDBC and GSG). There are also funds that concentrate in specific commodities (such as GLD, SLV, and UGAZ). Investors have many choices.
+
+Commodity ETFs and ETNs
+
+TABLE 17.2
+
+Ticker	Name	Assets ($ millions)
+GLD	SPDR Gold Shares ETF	$33,631
+IAU	iShares Gold Trust	$12,557
+SLV	iShares Silver Trust	$ 4,866
+PDBC	Invesco Optimum Yield Commodity Strategy	$ 1,845
+DBC	Invesco DB Commodity Index Tracking Fund	$ 1,779
+USO	United States Oil Fund	$ 1,653
+GSG	iShares S&P GSCI Commodity-Indexed Trust	$ 1,259
+SGOL	Aberdeen Standard Physical Swiss Gold	$  903
+DJP	iPath Dow Jones-UBS Commodity ETN	$  773
+UGAZ	Velocity Shares 3x Long Natural Gas	$  634
+One thing you might notice is that some funds are labeled ETFs, while others are labeled ETNs. An ETF is a traditional exchange-traded fund, where an investor owns a proportional share of the underlying assets held by the fund. For example, GLD is a traditional ETF. This fund receives dollars from investors and purchases physical gold. Investors then effectively own their proportion of the actual gold held by the fund. The value of an ETF should move in direct relation to the market price of the asset it holds. When the price of gold increases, so does the value of GLD.
+
+Exchange-traded notes have two main differences. An ETN is effectively a debt instrument created by an issuer, where the promised return is based on the movement of some underlying asset (such as oil). So, investors don’t actually own assets, but rather a variable-rate debtlike instrument. For most people, this difference is irrelevant. In fact, most investors in these assets probably do not know this fact. One related issue, however, is taxes. ETNs are taxed differently than ETFs. ETNs are treated like partnerships. Thus, as we discussed with hedge funds and private equity funds, there might be unique tax issues with ETNs (such as partnership income being reported on a Schedule K-1 tax form).
+
+A second difference is that ETNs, rather than holding physical assets, attempt to mimic price movements in the underlying commodity using futures contracts. Thus, the same potential disadvantages we discussed above, in particular the roll cost, apply to ETNs, too. As an example, take a look at Figure 17.2. The graph charts the return of UNG (a natural gas fund) versus the actual natural gas index price (^XNG). You should notice that natural gas prices experienced a steep decline over the past five years, dropping roughly 50 percent. However, the ETF actually lost 79 percent over the same period. Much of this difference is from the impact of contango on the roll cost. So, buyer beware—exchange-traded commodity products are not all equal.
+
+Return of UNG versus Actual Natural Gas Index
+
+FIGURE 17.2
+
+
+Source: Yahoo! Finance.
+
+MANAGED FUTURES One particular hedge fund investment style is called managed futures. These funds trade futures contracts. Some might be diversified across multiple commodities, while others concentrate on currencies, metals, energy, Treasury bonds or other interest rate futures contracts, stock index futures, or some other area. In all cases, the goal of these funds is to attempt to exploit trading opportunities, such as the carry trade we discussed.
+
+Another common trading example is known as the crack spread. For example, after crude oil is extracted from the ground, it can be refined (cracked) into multiple petroleum-related products, such as gasoline, heating oil, and kerosene. If the prices of the refined products page 575move too far away from the crude oil prices, traders can try to arbitrage the crack spread by buying crude oil futures and selling the futures for gasoline and heating oil, or vice versa. A similar trade can be made in soybeans, soybean meal, and soybean oil. This trade is called the crush spread because soybeans are crushed to make the products.
+
+CHECK THIS
+
+
+
+17.4aWhat are some basic ways to invest in commodities?
+
+17.4bWhy does the rolling of futures contracts create a cost when a futures market is in contango?
+
+17.5 Real Estate
+Real estate is probably the largest alternative asset category. Some experts estimate that about one-third of all assets in U.S. portfolios are in real estate. If you look at investor accounts held at brokerages and other institutions, real estate does not appear. Consider, however, that home ownership is one type of real estate investment. For many people, their home is their most valuable asset.
+
+When we consider real estate as an alternative asset, this class is broad. For example, we could invest in assets such as raw land, residential apartments, houses to rent, or commercial buildings (offices, warehouses, retail space, and hotels). In every case, real estate returns come from two sources: (1) rental income, net of operating costs, generated by the property and (2) capital gains (or losses) associated with sale at a higher (lower) price than the purchase price.
+
+FORMS OF REAL ESTATE INVESTMENT
+The simplest form of real estate investment is an all-cash deal, in which the asset is financed by 100 percent equity. Obviously, this type of investment requires a large cash outlay, which limits the size of the investments that can be made. A much more likely scenario is called leveraged equity, that is, page 576using debt and equity. For example, most people who buy a home make an equity down payment (say 20 percent) and borrow the rest. In this form, we say the investment is leveraged.
+
+The leveraged equity approach is also the most commonly used approach for commercial real estate investments. The benefit of using leverage is that a larger investment can be made than would otherwise be possible in an all-equity deal. The risk, however, is that leverage will exaggerate the gains and losses associated with movement in the price of the underlying real estate. This impact of leverage is familiar: we saw it when we discussed margin trading earlier in this chapter.
+
+The mortgage loans that result from leveraged equity deals are also forms of real estate investment. Given the size and importance of this particular market, we devote an entire subsequent chapter to this specific topic. For now, understand that a bank will package together a set of mortgage loans (i.e., create a “mortgage-backed security”) and sell this bundle to investors. The resulting investment is a form of fixed income security, in that there are promised repayments at designated future dates. As we saw with the subprime crisis in 2008, however, these assets can get much more complicated.
+
+For individual investors, the most feasible way to invest in real estate is probably through real estate investment trusts, or REITs. Most of these trusts are publicly traded securities that purchase a diversified portfolio of real estate properties. The portfolio could be shopping malls around the country, office buildings, condos, or other real estate properties. The goal of the trust is to generate income from the underlying properties, which is then passed through to investors.
+
+Visit
+reit.com.
+This site, sponsored by the National Association of Real Estate Investment Trusts, has much information on this particular alternative asset.
+
+A similar investment is commingled real estate funds, or CREFs. These funds work much like REITs, with the exception that they are private funds. Many of these funds, in fact, could be considered private equity funds. Thus, many of the same aspects we discussed earlier in the chapter about private equity funds apply to CREFs.
+
+REAL ESTATE VALUATION
+When we value any asset, we can apply some basic principles. For example, we might ask, “What is the price of a similar asset?” Or, we might try to calculate the cost to replace the asset if we had to. We can also apply these approaches to valuing real estate if we can find comparable assets. There are three common approaches used to value real estate assets.
+
+COST APPROACH The cost approach asks the question “What would it cost to replace the building in its current form?” Obviously, we must include the cost of the land and the building costs. The approach to building costs is straightforward. We would obtain estimates from builders on what they would charge to rebuild the asset—i.e., the current construction costs.
+
+While this approach is easy, it has some drawbacks. One issue is the difference between market value and construction costs. In the wake of the most recent recession, the values of existing properties fell significantly. In fact, many fell below what it would cost to rebuild a similar structure. In contrast, a building might be more valuable than the cost to rebuild it if it has a stable tenant base or has some features that are not easily replaced.
+
+SALES COMPARISON The sales comparison approach is commonly used to value homes. This valuation method is similar to a price multiple comparison. For example, within a given area, many houses (and other buildings) will sell at a given price per square foot. We can evaluate historical transactions to calculate an average price multiple, then apply it to the number of square feet in the building under consideration.
+
+There are, however, limitations to this approach. One limitation is that prices are not stable through time. So, if we are using historical averages over long periods, current pricing trends might be significantly different. For example, there was a huge drop in home prices following the housing crisis and recession in 2008. Thus, using comparable sales from 2006 and 2007 would not have been accurate in 2008.
+
+Another limitation of the comparison approach is that total square footage is not the only variable that determines property values. For a house, characteristics such as the number of bedrooms or bathrooms also play a role. To create a more formal comparison, there are two options. First, we could include only assets that are virtually identical, but this method severely limits the size of our comparison set. Second, we could conduct a regression analysis (remember your stats class), where we evaluate the impact of each underlying attribute page 577on sales prices. This analysis helps us estimate the value that the market places on a set of individual features of the property. As an example, we might be able to calculate that a swimming pool adds, on average, $17,500 to the value of a home, while each additional bedroom adds $12,000 to the value. While this approach involves a statistical approach, it can provide greater accuracy for property values.
+
+INCOME APPROACH The primary goal of most real estate investment, particularly commercial real estate, is to generate rental income. Using the income approach to valuation is consistent with this goal. This approach can be used to calculate the present value of the net operating income (NOI) generated by the property. The NOI is gross potential income, less expenses, which includes items such as expected vacancy rates, utilities, and repairs. Investment in real estate often provides tax write-offs, so we definitely want the model to capture any relevant tax benefits, too.
+
+net operating income (NOI)
+
+The income after expenses generated by a property.
+
+When we use the income approach, we assume that the NOI is a perpetual payment, so we can use a simple perpetuity formula to estimate the value:
+
+
+You recall that the present value of a perpetuity is the cash flow divided by the discount rate. In Equation 17.4, the market capitalization rate (or cap rate) is the discount rate. The cap rate represents the required rate of return on similar real estate properties. To estimate this rate, most investors will use historic transactions on similar properties. For a detailed calculation, check out Example 17.5.
+
+The Income Approach
+
+EXAMPLE 17.5
+
+You are considering a rental property investment. You estimate gross potential income of $100,000 per year. You expect, however, an average vacancy rate of 5 percent. Operating costs will average $45,000 per year. A similar property with an estimated NOI of $60,000 recently sold for $480,000. Based on this information, what is the estimated value of the rental property that you are considering?
+
+
+
+Find the market capitalization rate using the comparable sale:
+
+
+
+Thus, the estimated value for the rental property is:
+
+
+CHECK THIS
+
+
+
+17.5aWhat are the primary approaches to valuing real estate?
+
+17.5bHow might the recent cap on mortgage interest deductions affect real estate values?
+
+17.6 Summary and Conclusions
+1.  Understand the benefits and risks of alternative investments.
+
+A.  Alternative investments might provide a higher return than traditional investments. Their main benefit, however, is how their returns can help further diversify a portfolio.
+
+B.  Risks include reduced pricing transparency, limited liquidity, and added tax complications. The most practical disadvantages, however, are the high costs and the potential requirement that investors must be classified as qualified, or accredited.
+
+page 578
+
+2.  Identify the styles and structure of hedge funds and private equity funds.
+
+A.  Both hedge funds and private equity funds are structured as limited partnerships, with the manager serving as the general partner and investors serving as limited partners.
+
+B.  To compensate the general partners, a 2/20 fee structure is customary. This implies a 2 percent yearly management fee and a performance fee of 20 percent of the profits. The performance fee is controlled through provisions such as a high-water mark, hurdle rate, or clawback provision.
+
+C.  Hedge funds have their own unique investment styles, but common categories include market neutral, arbitrage, distressed, macro, short selling, and market timing. Funds of funds are also popular, as they provide diversification across investment styles, but at a steep cost.
+
+D.  Private equity funds purchase an ownership stake in private companies and bring expertise to the business. Venture capital is a type of private equity that concentrates on seed and early-stage financing.
+
+3.  Understand how commodities can be used within an investment portfolio.
+
+A.  Commodities as a whole have a low correlation to traditional markets. Thus, investment in commodities can add diversification benefits and act as a potential hedge against inflation.
+
+B.  Positions in commodities can be taken in the spot or futures markets. Investors can also use commodity ETFs, ETNs, or managed futures hedge funds.
+
+C.  Spot commodity transactions require direct storage costs, whereas futures contracts often have an indirect storage cost due to rollover. Futures market prices in contango contain these costs.
+
+4.  Identify the forms of investment and valuation alternatives for real estate.
+
+A.  Real estate can be purchased outright using 100 percent equity, or it can be purchased using leverage via a mortgage loan. Mortgage loans are often packaged and sold as mortgage-backed securities. The most common publicly traded real estate investment is a REIT, or real estate investment trust.
+
+B.  Methods to value real estate include using replacement cost, using comparable transactions, or calculating the present value of net operating income using the perpetuity formula.
+
+GETTING DOWN TO BUSINESS
+
+While alternative investments can be quite risky individually, they can be valuable additions to an investment portfolio. As we discussed, you can easily purchase assets such as commodities and real estate, particularly because exchange-traded funds (ETFs) and REITs are readily available. What about hedge funds and private equity funds, however, that require investors to be qualified? For most young investors, investing in hedge funds or private equity funds is likely just an investment goal. Do they have any investment options today?
+
+Direct investment in these funds is not possible for investors who are not qualified. For private equity, however, one alternative is to consider Warren Buffett’s company, Berkshire Hathaway. Berkshire Hathaway is similar to a private equity fund because it takes large ownership positions (often 100 percent) in companies. Some of these companies are private, while others are publicly traded and then are “taken private.” Because Berkshire Hathaway is publicly traded, investors can easily buy shares in Berkshire Hathaway—just as they can with any other publicly traded equity. The underlying businesses held by Berkshire Hathaway, however, might provide some of the diversification benefits of private equity.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+page 579
+
+Key Terms
+
+accredited investor 561
+
+backwardation 573
+
+carried interest 567
+
+clawback provision 567
+
+committed capital 566
+
+contango 572
+
+high-water mark 562
+
+hurdle rate 567
+
+letter of intent (LOI) 567
+
+net operating income (NOI) 577
+
+private placement memorandum (PPM) 566
+
+Chapter Review Problems and Self-Test
+
+Private Equity Valuation (LO2, CFA4) FRS Capital Advisors, a private equity firm, is considering purchasing Tom’s Auto, a private company. Tom’s EBITDA is $4.1 million, and FRS has collected information on two similar transactions. Information on these comparable purchases follows:
+
+Company	EBITDA	Valuation
+Tim’s Auto Nation	$2.5 million	$14.50 million
+Bob’s Imports	$5.4 million	$30.24 million
+What value should FRS assign to Tom’s Auto?
+
+Spot-Futures Arbitrage (LO3, CFA6) Suppose silver is currently trading at $17 per troy ounce. You are evaluating a four-month carry trade opportunity using silver. The appropriate interest rate is 3 percent, and the carrying cost is $.55 per ounce per month. If the current market price of a four-month futures contract on silver is $21 per troy ounce, calculate the potential carry trade profit per ounce.
+
+Answers to Self-Test
+
+The EBITDA multiples for the comparable transactions are:
+
+Tim’s Auto Nation: $14.50/$2.5 = 5.8 times
+
+Bob’s Imports: $30.24/$5.4 = 5.6 times
+
+The average multiple is 5.7 times. Thus, an appropriate valuation for Tom’s Auto would be: $4.1 million × 5.7 = $23.37 million.
+
+Using spot-futures parity, we can determine what the price of a futures contract should be:
+
+
+The present value of the storage costs (PVSC) is:
+
+
+Thus, F = ($17 + $2.186) * (1.03) (4/12) = $19.38
+
+Because the actual futures price of $21 is greater than $19.38, we can accomplish a carry trade. We will borrow $19.186, which will enable us to purchase silver in the spot market and pay the storage costs. We will simultaneously sell the futures contract at a settle price of $21. At expiration, we will deliver the silver to settle the futures contract and pay back our loan, which will net $21 − $19.38 = $1.62 per troy ounce.
+
+Test Your Investment Quotient
+
+
+Risks of Alternative Investments (LO1, CFA1)   All of the following are limitations of alternative investments except:
+
+Low volatility.
+
+Limited liquidity.
+
+High costs.
+
+Limited transparency.
+
+page 580
+
+Fee Limitations (LO1, CFA1)   All of the following prevent alternative investment managers from generating excessive performance fees except a:
+
+High-water mark provision.
+
+Clawback provision.
+
+Contango provision.
+
+Hurdle rate.
+
+Fee Structure (LO2, CFA1)   A hedge fund has a 2/20 fee structure. If the fund has $12 million of assets under management, what is the yearly management fee?
+
+$24,000
+
+$240,000
+
+$1,320,000
+
+$2,400,000
+
+Performance Comparison (LO2, CFA3)   You are attempting to compare the performance of a particular hedge fund to a reported composite benchmark. If there is a survivorship bias in the composite benchmark, its return is:
+
+Understated.
+
+Overstated.
+
+Accurate.
+
+None of the above.
+
+Investment Styles (LO2, CFA1)   Which of the following is not a common investing style of hedge funds?
+
+Market neutral
+
+Short selling
+
+Market timing
+
+Buy and hold
+
+Venture Capital (LO2, CFA1)   A venture capital fund will typically invest in which stage of a business’ development?
+
+Early stage
+
+Middle stage
+
+Late stage
+
+None of the above
+
+Raising Money (LO2, CFA2)   A private placement memorandum (PPM) will typically address all of the following items except:
+
+Planned acquisitions.
+
+The fund’s anticipated life.
+
+The fund’s target size.
+
+Leverage limits.
+
+Private Equity Process (LO2, CFA2)   Which of the following choices correctly identifies the order of steps that a private equity firm goes through in its investing process?
+
+Deal flow, valuation, deal structure, value creation, exit
+
+Deal flow, deal structure, value creation, valuation, exit
+
+Deal structure, deal flow, valuation, value creation, exit
+
+Value creation, deal flow, valuation, deal structure, exit
+
+Commodity Futures (LO3, CFA1)   A commodity ETF that uses futures contracts to mimic the return of an underlying commodity will experience a roll yield if the market is in:
+
+Contango.
+
+Convexity.
+
+Backwardation.
+
+Parity.
+
+ETN vs. ETF (LO3, CFA1)   Which of the following choices is a distinguishing characteristic of a commodity-based ETN, as compared to an ETF?
+
+An ETN typically holds spot positions.
+
+An ETF is taxed like a partnership.
+
+An ETN is a debt instrument.
+
+An ETF will often experience roll yield.
+
+page 581
+
+Hedge Fund Styles (LO3, CFA1)   A style of hedge fund that primarily invests in commodity-related securities is:
+
+Distressed security.
+
+M&A arbitrage.
+
+Short selling.
+
+Managed futures.
+
+Real Estate Investment Styles (LO4, CFA1)   A form of real estate investment that typically involves a fund manager issuing ownership shares that are publicly traded on the stock market is called a:
+
+REIT.
+
+CREF.
+
+TIAA.
+
+PVSC.
+
+Real Estate Investment Styles (LO4, CFA2)   Which of the following is not a form of real estate investment?
+
+Free and clear purchase
+
+Leveraged equity
+
+Mortgage-backed security
+
+All of the above are forms of real estate investment.
+
+Real Estate Valuation (LO4, CFA2)   Which of the following real estate valuation approaches finds the present value of a perpetuity of a property’s net operating income (NOI)?
+
+Cost approach
+
+Sales comparison
+
+Income approach
+
+Net margin approach
+
+Real Estate Valuation (LO4, CFA2)   You have identified a rental property that you would like to purchase. If your cap rate is 12 percent and you estimate the property’s NOI to be $190,000, what is the maximum price you would pay?
+
+$22,800
+
+$190,000
+
+$1.58 million
+
+$15.8 million
+
+Concept Questions
+
+Benefits of Alternative Investments (LO1, CFA1) In isolation, alternative investments are extremely volatile. So, why might even a moderately conservative investor consider these investments for her portfolio?
+
+Accredited Investors (LO1, CFA1) Define what is meant by an “accredited” investor. Why do you think the federal government limits some investments to only these investors?
+
+Performance Comparison (LO2, CFA3) Discuss why evaluating the performance of hedge funds and private equity funds is difficult.
+
+Fee Limitations (LO2, CFA1) Briefly explain how a high-water mark prevents hedge fund managers from manipulating their performance fee.
+
+Funds of Funds (LO2, CFA1) What are the advantages and disadvantages of a funds of funds approach to investing in hedge funds?
+
+Fee Limitations (LO2, CFA2) Briefly explain why investors in private equity funds will often demand a clawback provision with respect to carried interest.
+
+Security Types (LO2, CFA2) Why do venture capital funds often use convertible preferred stock in their investments?
+
+Futures Contract Pricing (LO3, CFA1) Define contango in futures markets and discuss how it creates a potential roll cost.
+
+Commodity Investments (LO3, CFA1) Describe the relative disadvantages of spot positions versus futures contracts for investing in commodities.
+
+ETNs vs. ETFs (LO3, CFA1) What are the disadvantages of investing in exchange-traded notes (ETNs) as compared to exchange-traded funds (ETFs)?
+
+page 582
+
+Questions and Problems
+
+Core Questions
+
+Performance Fee (LO2, CFA1)   High Rollers Hedge Fund has a standard 20 percent performance fee. If High Rollers were able to raise $10 million and generate a 25 percent return in its first year of operation, what would be the dollar amount of their performance fee?
+
+Arbitrage (LO2, CFA1)   Arm Technologies has offered to purchase Hammer Group by exchanging one share of Arm for three shares of Hammer. Arm is currently trading at $50 per share and Hammer is currently selling for $15 per share. What is the potential arbitrage profit per share of Arm Technologies?
+
+Performance Fee (LO2, CFA2)   Private Partner Ventures is a private equity fund that just formed a new $1 billion fund. They recently made their first capital call for $300 million. If they use a standard 2/20 fee structure, what is their management fee in the first year?
+
+Performance Fee (LO2, CFA2)   Assume Cambridge Ventures raises $10,000,000 for a private equity fund with a one-year life. The fund has a hurdle rate of 6 percent, above which it earns a carried interest of 20 percent. If Cambridge generates a return of 18 percent, what is the firm’s carried interest for the year?
+
+Private Equity Valuation (LO2, CFA2)   A company with an EBITDA of $2.9 million was recently acquired for $18.6 million. What is the valuation multiple implied in this price?
+
+Futures Margin (LO3, CFA1)   You have decided to use futures contracts to invest in silver at a settle price of $15 per ounce. Each futures contract has a standard size of 5,000 troy ounces and an initial margin requirement of $4,500. If you purchase 25 contracts, what is the total margin (in dollars) you will need to provide?
+
+Leverage Factor (LO3, CFA1)   Given the information in the previous problem, what is the leverage factor associated with these contracts. If silver rises to $17 per ounce, what is your total percentage return?
+
+Spot-Futures Parity (LO3, CFA3)   Assume the spot price of wheat is $3.17 per bushel. The appropriate interest rate is 3 percent, and there are no storage costs. Under spot-futures parity, calculate the price for a six-month wheat futures contract?
+
+Real Estate Valuation (LO4, CFA2)   A potential investment property has an NOI of $425,000 and a capitalization rate of 15 percent. Using the income approach, calculate the value of this investment property.
+
+Real Estate Valuation (LO4, CFA2)   A real estate investment company just bought an office building. The company estimates that the building will generate $945,000 in net operating income annually. If the building was purchased for $5.25 million, what is the implied capitalization rate?
+
+Intermediate Questions
+
+11. Performance Fee (LO2, CFA1)   A hedge fund with $25 million of assets under management has a standard 2/20 fee structure and earns 14 percent this year. Assume that management fees are paid at the beginning of each year and performance fees are paid at the end of each year. Assume that the fund’s fee structure also contains a high-water mark provision.
+
+What is the management fee collected by the fund managers?
+
+What is the performance fee collected by the fund managers?
+
+What is the investor’s net return?
+
+12. Performance Fee (LO2, CFA3)   Two years ago, you invested $750,000 with a market neutral hedge fund manager. The fee structure is 2/20, and the fund has a high-water mark provision. Suppose the first year the fund manager lost 10 percent, and the second year she gained 20 percent. Assume management fees are paid at the beginning of each year and performance fees are paid at the end of each year. Under the terms of the high-water mark provision:
+
+What are the management and performance fees paid in Year 1?
+
+What are the management and performance fees paid in Year 2?
+
+13. Private Equity Valuation (LO2, CFA2)   Robbin Partners, a private equity fund, has identified Nest Corp. as a potential acquisition target. Nest has an EBITDA of $28 million. Robbin knows that these similar deals have recently closed:
+
+Company	EBITDA	Valuation
+Shell Technologies	$20 million	   $96 million
+Layer Company	$36 million>	$165.6 million
+Case Partners	$30 million	  $150 million
+page 583
+
+Based on the above transactions:
+
+What is the average price multiple?
+
+Using the valuation multiple from part (a), what is the estimated value of Nest Corp.?
+
+14. Venture Capital Pricing (LO2, CFA2)   Vista Venture Partners is considering an investment in a start-up firm that has developed a new technology for streaming data. If the venture is successful, Vista estimates they will be able to grow the business to an exit value of $380 million in five years. Vista has agreed to an initial investment of $12 million to fund the early-stage development. If Vista has a 45 percent required return, what ownership percentage will they demand in exchange for their investment?
+
+15. Leverage Factor (LO3, CFA1)   You have decided to purchase 25 oil futures contracts at a settle price of $55 per barrel. Each futures contract has a standard size of 1,000 barrels and an initial margin requirement of $5,500.
+
+What is the leverage factor associated with these contracts?
+
+If oil rises to $56.25 per barrel, what is the total percentage return on your futures position?
+
+What is the total percentage return on your futures position if oil falls to $54 per barrel?
+
+16. Real Estate Valuation (LO4, CFA2)   Sky High Partners is evaluating a high-rise office building to add to its investment portfolio. To calculate a value, Sky High plans to use the income approach, based on the following estimates:
+
+Gross potential yearly rental income	$894,000
+Estimated vacancy rate	      3.5%
+Yearly operating costs	$426,000
+Market capitalization rate	      16%
+Compute the net operating income (NOI) for the building.
+
+Using the income approach, calculate the value for the office building.
+
+17. Real Estate Valuation (LO4, CFA2)   Using price data from several recent housing transactions in a particular area, Polaris Real Estate Group has identified the main characteristics that affect prices. The estimated value impact of each characteristic, as well as a standard base price, is as follows:
+
+Characteristic	Units	Impact
+Base price		$125,000
+Living area	Square feet	        $35/square foot
+Number of bathrooms	Number	            $8,000/bathroom
+Age of home	Years	  −$6,000/year
+Using the above values, estimate a price for a five-year-old home that has a living area of 1,500 square feet and two bathrooms.
+
+18. Real Estate Valuation (LO4, CFA2)   Centerland Partners has collected information on the recent purchases of three small shopping centers. Centerland is considering the purchase of a similar property with an NOI of $3.1 million.
+
+Shopping Center	NOI	Valuation
+Castleton Round	  $2.2 million	  $13.75 million
+Fashion Commons	$3.6 million	$22.22 million
+Belden Square	  $2.7 million	  $16.46 million
+What is the market capitalization rate?
+
+What valuation should Centerland assign to the target property?
+
+Spreadsheet Problems
+
+19. Spot-Futures Arbitrage (LO3, CFA3)   Suppose unleaded gasoline is currently trading at $3 per gallon. You face an interest rate of 4 percent and a carrying cost of $.07 per gallon per month. The current market price of a four-month futures contract on gasoline is $3.50 per gallon. You are evaluating a three-month carry trade opportunity.
+
+Determine the present value of the storage costs (PVSC).
+
+Identify what the futures price should be under spot-futures parity.
+
+Explain the trades necessary to conduct the carry trade and calculate the potential profit per gallon.
+
+20. Spot-Futures Arbitrage (LO3, CFA3) Given the information in the previous problem, how would the trade change if instead the futures price for gasoline were $2.95 per gallon?
+
+page 584
+
+CFA Exam Review by Kaplan Schweser
+
+(CFA1, CFA3)
+
+Suzanne Harlan has a large, well-diversified stock and bond portfolio. She wants to try some alternative investments, such as hedge funds, and has contacted Lawrence Phillips, CFA, to help her assemble a new portfolio.
+
+Before agreeing to make recommendations for Ms. Harlan, Phillips wants to determine whether she is a good candidate for alternative investments. He gives her a standard questionnaire. Here are some of her comments:
+
+I’m interested in high returns. I’m not afraid of risk, and I’m investing money for the benefit of my heirs.
+
+I pay a lot of attention to expense and return data from my investments, and track their performance closely.
+
+Investors have told me that it is difficult to assess the quality of hedge funds, so I’m interested in purchasing a fund of funds so that I can diversify my risk while potentially sharing in some outsized returns.
+
+I pay several million dollars in taxes every year, and I want any additional investments to be tax-friendly.
+
+My neighbors founded Kelly Tool and Die 20 years ago. They are declaring bankruptcy, and I am interested in obtaining a partial interest in the business.
+
+It is imperative that the returns of any investments you recommend must be in some way comparable to a benchmark.
+
+Mr. Phillips is not excited about the idea of acquiring an interest in the business, and does not, in general, recommend funds of funds. He does know, however, several managers of individual hedge funds. Mr. Phillips steers Ms. Harlan to the Stillman Fund, which concentrates on spin-offs. Their strategy is to buy the spun-off company and short the parent company.
+
+In an attempt to persuade Ms. Harlan away from investing in a fund of funds, Mr. Phillips addressed the advantages of investing in individual funds. Which of the following would be his most compelling argument?
+
+The lower expenses of individual funds
+
+The likelihood of style drift in a fund of funds
+
+The lack of a benchmark for a fund of funds
+
+What investment approach would be consistent with Ms. Harlan’s tolerance for risk?
+
+Distressed security
+
+Arbitrage
+
+Market neutral
+
+Which of Ms. Harlan’s responses is most likely to make Mr. Philips consider her a bad candidate for investing in hedge funds?
+
+I pay a lot of attention to expense and return data from my investments and track their performance closely.
+
+I pay several million dollars in taxes every year, and I want any additional investments to be tax-friendly.
+
+I’m interested in high returns. I’m not afraid of risk, and I’m investing money for the benefit of my heirs.
+
+If Ms. Harlan is truly concerned about benchmarks, she should avoid which of her suggested investments?
+
+None of them
+
+Kelly Tool and Die
+
+Hedge funds
+
+What’s on the Web?
+
+Futures Exchange The primary website for information on futures markets in the United States is cmegroup.com. Visit this site and examine the prices of some commodities. Take a specific look at corn futures and determine if the market is in contango or in backwardation.
+
+Real Estate Investment Trusts Visit reit.com and use the REIT market data section to identify which sectors have had the best recent performance.

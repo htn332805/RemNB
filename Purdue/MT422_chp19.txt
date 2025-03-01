@@ -1,0 +1,1332 @@
+page 621
+
+PART 6
+
+Projecting Cash Flow and Earnings
+
+
+
+“Financial statements are like fine perfume; to be sniffed, but never swallowed.”
+
+–Abraham Briloff
+
+Learning Objectives
+
+Help yourself grow as a stock analyst by knowing:
+
+How to obtain financial information about companies.
+
+How to read basic financial statements.
+
+How to use performance and price ratios.
+
+How to use the percentage of sales method in financial forecasting.
+
+Cash flow is a company’s lifeblood, and, for a healthy company, the primary source of cash flow is earnings. Security analysts strive to make accurate predictions about future cash flow and earnings because an analyst who predicts these well has a head start in forecasting future stock performance.
+
+Like any security analyst, we must examine financial statements to make cash flow and earnings projections. The quality of our financial statement analysis depends on accurate and timely financial statements. Generally, firms issue financial statements that provide a fair and accurate summary of the firm’s financial health. You should know, however, that firms do have some discretion in reporting financial information. In rare cases, firms issue inaccurate, or even fraudulent, financial statements. Therefore, Abraham Briloff offers sound advice when he advocates a careful viewing of financial statements.
+
+CFATM Exam Topics in This Chapter:
+
+Financial statement analysis: An introduction (L1, S6)
+
+Financial reporting standards (L1, S6)
+
+Understanding income statements (L1, S7)
+
+Understanding balance sheets (L1, S7)
+
+Understanding cash flow statements (L1, S7)
+
+Financial analysis techniques (L1, S7)
+
+Financial reporting quality (L1, S9)
+
+Financial statement analysis: Applications (L1, S9)
+
+Measures of leverage (L1, S11)
+
+Evaluating the quality of financial reports (L2, S6)
+
+Integration of financial statement analysis techniques (L2, S6)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 622
+
+In a previous chapter, we examined some important concepts of stock analysis and valuation. Many of these concepts depend on either cash flow or earnings forecasts. In this chapter, we probe more deeply into the topic of stock valuation through an analysis of financial statements. In particular, we focus on cash flow and earnings forecasting. In this chapter, you will become acquainted with the financial accounting concepts necessary to understand basic financial statements and to make forecasts of cash flow and earnings. You may not become an expert analyst—this requires experience. But you will have a solid grasp of the fundamentals, which is a really good start.
+
+Most investors have a difficult time reading the financial statements that are directly issued by firms. These investors rely on secondary sources of financial information. Bear in mind, however, that no one is paid well just for reading secondary sources of financial information.
+
+By studying this chapter, you are taking an important step toward becoming “financial statement literate” (a good course in financial accounting is also very helpful). Ultimately, you learn how to read financial statements by reading financial statements! You know that your golf or tennis game improves with practice. Your financial statement reading skills also improve with practice. If you have an aptitude for it, financial statement analysis is a skill worth mastering. Good analysts are paid well because they provide good analyses. Who knows? Perhaps you, too, will become a financial analyst.
+
+Review Regulation FD at the SEC website:
+sec.gov.
+
+19.1 Sources of Financial Information
+Good financial analysis begins with good financial information. An excellent primary source of financial information about any company is its annual report to stockholders. Most companies expend considerable resources preparing and distributing annual reports. In addition to their stockholders, companies also make annual reports available to anyone who requests a copy. In fact, most companies provide electronic copies of their financial statements on their websites, typically under a tab labeled “Investor Information.”
+
+A convenient way to access annual reports from several companies at one time is to visit the website of the Securities and Exchange Commission (SEC). The SEC requires corporations with publicly traded securities to prepare and submit financial statements on a regular basis. When received, these documents are made available for immediate public access through the SEC’s Electronic Data Gathering, Analysis, and Retrieval (EDGAR) archives. Visit sec.gov and click on the “Filings” tab to enter the EDGAR database.
+
+EDGAR
+
+Electronic archive of company filings with the SEC.
+
+10-K
+
+Annual company report filed with the SEC.
+
+10-Q
+
+Quarterly updates of 10-K reports filed with the SEC.
+
+Regulation FD (Fair Disclosure)
+
+Requires companies making a public disclosure of material nonpublic information to do so fairly, without preferential recipients.
+
+material nonpublic information
+
+Any information that could reasonably be expected to affect the price of a security.
+
+The most important EDGAR document is the annual 10-K report, often called the “10-K.” Companies are required to submit an EDGAR-compatible 10-K file to the SEC at the end of each fiscal year. They are also required to file quarterly updates, called 10-Qs. The 10-Q is a mini-10-K filed each quarter, except when the 10-K is filed. Every 10-K and 10-Q report contains three important financial statements: a balance sheet, an income statement, and a cash flow statement. You must be familiar with these three financial statements to analyze company earnings and cash flow.
+
+The Securities and Exchange Commission’s Regulation FD (Fair Disclosure) stipulates that when a company discloses material nonpublic information to security analysts and stockholders who may trade on the basis of the information, it must also make a simultaneous disclosure of that information to the general public. Most companies satisfy Regulation FD by distributing important announcements via e-mail alerts. To receive these e-mail alerts automatically, you can register for the service at the company’s website. You can usually find the registration page in the investor relations section of the company’s website.
+
+19.2 Financial Statements
+Financial statements reveal the hard facts about a company’s operating and financial performance. This is why the SEC requires timely dissemination of financial statements to the public. It’s also why security analysts spend considerable time poring over a firm’s financial page 623statements before making an investment recommendation. A firm’s balance sheet, income statement, and cash flow statement are essential reading for security analysts. Each of these interrelated statements offers a distinct perspective. The balance sheet provides a snapshot view of a company’s assets and liabilities on a particular date. The income statement measures operating performance over an accounting period, usually a quarter or a year, and summarizes company revenues and expenses. The cash flow statement reports how cash was generated and where it was used over the accounting period. Understanding the format and contents of these three financial statements is a prerequisite for understanding earnings and cash flow analysis.
+
+balance sheet
+
+Accounting statement that provides a snapshot view of a company’s assets and liabilities on a particular date.
+
+income statement
+
+Summary statement of a firm’s revenues and expenses over a specific accounting period, usually a quarter or a year.
+
+cash flow statement
+
+Analysis of a firm’s sources and uses of cash over the accounting period, summarizing operating, investing, and financing cash flows.
+
+Use the search box at
+thestreet.com
+to find helpful information about a particular company.
+
+We begin by considering the basic structure and general format of financial statements through a descriptive analysis of the balance sheet, income statement, and cash flow statement of a hypothetical intergalactic company—Borg Corporation.
+
+THE BALANCE SHEET
+Table 19.1 presents year-end 2535 and 2536 balance sheets for Borg Corporation. The format of these balance sheets is typical of those contained in company annual reports distributed to stockholders and company 10-K filings with the SEC. You will quickly see the accounting practice of specifying subtraction with parentheses and calculating subtotals with underlines. For example, Borg’s 2536 fixed assets section is reproduced below, with the left numerical column following standard accounting notation and the right numerical column following standard arithmetic notation:
+
+Fixed Assets	Accounting Style	Numeric Style
+Plant facilities	$35,000	$35,000
+Production equipment	20,000	+20,000
+Administrative facilities	15,000	+15,000
+Distribution facilities	10,000	+10,000
+Accumulated depreciation	(20,000)	−20,000
+   Total fixed assets	$60,000	= $60,000
+In the accounting style column, locate the row labeled “Total fixed assets.” The single underline indicates this number will be used in another sum. Referring to Table 19.1, notice that total fixed assets is a subtotal used to calculate total assets, which is indicated by a double underline. With these conventions in mind, let us look over these sample balance sheets and try to become familiar with their format and contents.
+
+The Borg Corporation balance sheet has four major asset categories: current assets, fixed assets, goodwill, and other assets. Current assets are cash or items that will be converted to cash or be used within a year. For example, inventory will be sold, accounts receivable will be collected, and materials and supplies will be used within a year. Cash is, of course, the quintessential current asset. Fixed assets have an expected life longer than one year and are used in normal business operations. Fixed assets may be tangible or intangible. Property, plant, and equipment are the most common tangible fixed assets. Borg Corporation has no intangible fixed assets. However, rights, patents, and licenses are examples of intangible assets. Except for land, all fixed assets normally depreciate in value over time. Goodwill measures the premium paid over market value to acquire an asset. Other assets include miscellaneous items that do not readily fit into any of the other asset categories.
+
+asset
+
+Anything a company owns that has value.
+
+The Borg balance sheet has three major liability categories: current liabilities, long-term debt, and other liabilities. Current liabilities normally require payment or other action within a one-year period. These include accounts payable and short-term debt. Long-term debt includes notes, bonds, or other loans with a maturity longer than one year. Other liabilities include miscellaneous items that do not belong to any other liability category.
+
+liability
+
+A firm’s financial obligation.
+
+Shareholder equity is the difference between total assets and total liabilities. It includes paid-in capital, which is the amount received by the company from issuing common stock, and retained earnings, which represents accumulated income not paid out as dividends but instead used to finance company growth.
+
+equity
+
+An ownership interest in the company.
+
+page 624
+
+Borg Corporation Balance Sheets, 2536 and 2535
+
+TABLE 19.1
+
+Year 2536	Year 2535
+Current assets
+Cash	$   2,000	$ 1,480
+Accounts receivable	6,200	6,200
+Prepaid expenses	1,500	1,500
+Materials and supplies	1,300	1,300
+Inventory	9,000	9,000
+Total current assets	$ 20,000	$ 19,480
+Fixed assets		
+Plant facilities	$35,000	$35,000
+Production equipment	20,000	20,000
+Administrative facilities	15,000	15,000
+Distribution facilities	10,000	
+Accumulated depreciation	(20,000)	(17,000)
+Total fixed assets	$60,000	$53,000
+Goodwill	$  5,000	
+Other assets	3,000	3,000
+Total assets	$88,000	$75,480
+ 	 	 
+Current liabilities		
+Short-term debt	$10,000	$10,000
+Accounts payable	5,000	5,000
+Total current liabilities	$15,000	$15,000
+Long-term debt	$30,000	$20,000
+Other liabilities	3,000	3,000
+Total liabilities	$48,000	$38,000
+Shareholder equity		
+Paid-in capital	$10,000	$10,000
+Retained earnings	30,000	27,480
+Total shareholder equity	$40,000	$37,480
+Total liabilities and equity	$88,000	$75,480
+ 	 	 
+Shares outstanding	2,000	2,000
+Year-end stock price	$40	$36
+The fundamental accounting equation for balance sheets states that assets are equal to liabilities plus equity:
+
+
+This equation says that the balance sheet must always “balance” because the left side must always equal the right side. If an imbalance occurs when a balance sheet is created, then an accounting error has been made and needs to be corrected.
+
+Financial analysts often find it useful to condense a balance sheet down to its principal categories. This has the desirable effect of simplifying further analysis while still revealing the basic structure of the company’s assets and liabilities. How much a balance sheet can be condensed and still be useful is a subjective judgment of the analyst. When making this decision, recall Albert Einstein’s famous dictum: “Simplify as much as possible, but no more.”
+
+Table 19.2 is a condensed version of Borg’s 2536 balance sheet that still preserves its basic structure. Notice that the current assets rows are reduced to two components: cash and operating assets. We separate cash from operating assets for a good reason.
+
+page 625
+
+Borg Corporation Condensed 2536 Balance Sheet
+
+TABLE 19.2
+
+Cash	$ 2,000	Current liabilities	$15,000
+Operating assets	18,000	Long-term debt	30,000
+Fixed assets	60,000	Other liabilities	3,000
+Goodwill and other assets	8,000	Shareholder equity	40,000
+Total assets	$88,000	Total liabilities and equity	$88,000
+Later, we show that the net cash increase from the cash flow statement is used to adjust cash on the balance sheet. This adjustment is more clearly illustrated by first separating current assets into cash and operating assets.
+
+CHECK THIS
+
+
+
+19.2aWhat are some examples of current assets?
+
+19.2bWhat are some examples of fixed assets?
+
+19.2cWhat are some examples of current liabilities?
+
+19.2dWhich accounts in Table 19.1 show changes between the 2535 and 2536 balance sheets?
+
+THE INCOME STATEMENT
+Table 19.3 is a condensed income statement for Borg Corporation. This income statement reports revenues and expenses for the corporation over a one-year accounting period. Examine it carefully and be sure you are familiar with its top-down structure.
+
+Borg Corporation Income Statement, Year 2536
+
+TABLE 19.3
+
+Year 2536
+Net sales	$110,000
+Cost of goods sold	(89,000)
+Gross profit	$  21,000
+Depreciation	(3,000)
+Other operating expenses	(10,000)
+Operating income	$   8,000
+Interest expense	(2,000)
+Pretax income	$   6,000
+Income taxes	(2,400)
+Net income	$   3,600
+Dividends	(1,080)
+Retained earnings	$ 2,520
+The income statement begins with net sales, from which cost of goods sold (COGS) is subtracted to yield gross profit. Cost of goods sold represents direct costs of production and sales, that is, costs that vary directly with the level of production and sales. Next, depreciation and operating expenses are subtracted from gross profit to yield operating income. Operating expenses are indirect costs of administration and marketing. That is, these costs do not vary directly with production and sales. Subtracting interest expense on debt from operating income yields pretax income. Finally, subtracting income taxes from pretax income yields net income. Net income is often referred to as the “bottom line” because it is normally the last line of the income statement. In this example, however, we have added dividends and retained earnings information (items that often appear in a separate financial statement). To avoid a page 626separate statement, we show here that Borg Corporation paid dividends during the year. The sum of dividends and retained earnings is equal to net income:
+
+income
+
+The difference between a company’s revenues and expenses, used to pay dividends to stockholders or kept as retained earnings within the company to finance future growth.
+
+
+In Table 19.3, note that we assume a 40 percent tax rate.
+
+CHECK THIS
+
+
+
+19.2eWhat is cost of goods sold (COGS)?
+
+19.2fWhat is the difference between gross profit and operating income?
+
+19.2gWhat is the difference between net income and pretax income?
+
+19.2hWhat is meant by retained earnings?
+
+THE CASH FLOW STATEMENT
+The cash flow statement reports where a company generated cash and where cash was used over a specific accounting period. The cash flow statement assigns all cash flows to one of three categories: operating cash flows, investment cash flows, or financing cash flows.
+
+Table 19.4 is a condensed cash flow statement for Borg Corporation. The cash flow statement begins with net income, which is the principal accounting measure of earnings for a corporation. However, net income and cash flow are not the same and often deviate greatly from each other. A primary reason why net income differs from cash flow is that net income contains noncash items. For example, depreciation is a noncash expense that must be added to net income when calculating cash flow. Adjusting net income for noncash items yields operating cash flow.
+
+cash flow
+
+Income realized in cash form.
+
+noncash items
+
+Income and expense items not realized in cash form.
+
+operating cash flow
+
+Cash generated by a firm’s normal business operations.
+
+In your accounting classes, you learned that the difference between earnings and cash flow is generally the result of accrual accounting. Under this system, businesses recognize income and expenses as they are incurred, rather than when the cash flow is actually paid or received. As a result, earnings might not reflect cash flow accurately.
+
+With this thought in mind, analysts generally agree that cash flow is a more reliable measure than earnings and agree that cash flow is better suited for cross-company comparisons. Moreover, analysts often refer to a company as having “high-” (or “low-”) quality earnings. This distinction is a judgment of whether earnings accurately reflect the cash flow of the company. If they do, then the company is said to have high-quality earnings.
+
+Operating cash flow is the first of three cash flow categories reported in the cash flow statement. The second and third categories are investment cash flow and financing cash flow. Investment cash flow (or “investing” cash flow) includes any purchases or sales of fixed assets and investments. For example, Borg’s purchase of Klingon Enterprises’s distribution facilities reported in footnote “a” is an investment cash flow. Financing cash flow includes any funds raised by issuing securities or expended by a repurchase of outstanding securities. In this example, Borg’s $10,000 debt issue and $1,080 dividend payout reported in footnote “b” are examples of financing cash flows.
+
+investment cash flow
+
+Cash flow resulting from purchases and sales of fixed assets and investments.
+
+financing cash flow
+
+Cash flow originating from the issuance or repurchase of securities and the payment of dividends.
+
+Borg Corporation Condensed 2536 Cash Flow Statement
+
+TABLE 19.4
+
+Year 2536
+Net income	$ 3,600
+Depreciation	3,000
+Operating cash flow	$ 6,600
+Investment cash flow*	(15,000)
+Financing cash flow†	8,920
+Net cash increase	$   520
+* December 31, 2536, purchase of distribution facilities from Klingon Enterprises for $15,000 (including $5,000 goodwill).
+
+† Issue of $10,000 par value 5 percent coupon bonds, less a $1,080 dividend payout.
+
+page 627
+
+Standard accounting practice specifies that dividend payments to stockholders are financing cash flows, whereas interest payments to bondholders are operating cash flows. One reason is that dividend payments are discretionary, while interest payments are mandatory. Also, dividend payouts are not tax deductible, but interest payments are.
+
+The sum of operating cash flow, investment cash flow, and financing cash flow yields the net change in the firm’s cash. This change is the “bottom line” of the cash flow statement and reveals how much cash flowed into or out of the company’s cash account during an accounting period. In this case, $520 of cash flowed into Borg Corporation (you can also see this change in cash by comparing the cash columns in Table 19.1).
+
+CHECK THIS
+
+
+
+19.2iWhat is the difference between net income and operating cash flow?
+
+19.2jWhat are some noncash items used to calculate operating cash flow?
+
+19.2kWhat is the difference between an investment cash flow and a financing cash flow?
+
+19.2lWhat is meant by net increase in cash?
+
+19.2mCan you explain why a cash item like interest expense does not appear on the cash flow statement?
+
+PERFORMANCE RATIOS AND PRICE RATIOS
+Annual reports and 10-Ks normally contain various items of supplemental information about the company. For example, certain profitability ratios may be reported to assist interpretation of the company’s operating efficiency. For Borg Corporation, some standard profitability ratios for 2536 are calculated immediately below:
+
+Check out the “Investing” section at
+moneyunder30.com.
+
+
+Notice that return on assets (ROA) and return on equity (ROE) are calculated using current year-end values for total assets and shareholder equity. It could be argued that prior-year values should be used for these calculations. However, the use of current year-end values is more common.
+
+return on assets (ROA)
+
+Net income stated as a percentage of total assets.
+
+return on equity (ROE)
+
+Net income stated as a percentage of shareholder equity.
+
+Annual reports and 10-Ks may also report per-share calculations of book value, earnings, and operating cash flow, respectively. Per-share calculations require the number of common stock shares outstanding. Borg’s balance sheet reports 2,000 shares of common stock outstanding. Thus, for Borg Corporation, these per-share values are calculated as follows:
+
+
+page 628
+
+WORK THE WEB
+
+One of the more frequent uses of financial ratios is in stock screening. Stock screening is the process of selecting stocks based on specific criteria. A popular method used by legendary investor Warren Buffett, among others, is searching for value stocks that have high growth potential. A value stock has a relatively low price-earnings ratio. However, low price-earnings ratios can be an indication of low future growth potential, so we also want to determine if these stocks have future growth possibilities.
+
+We went to finviz.com and clicked on the “Screener” tab. You can see that there are three different sets of criteria to choose from: Descriptive, Fundamental, and Technical. Under Descriptive criteria, we chose to limit our search to U.S. equities with a market cap over $10 billion (i.e., large-cap stocks). Under the Fundamental tab, which we show below, we screened for stocks with a PE less than 15, estimated EPS growth greater than 30 percent, and P/FCF less than 10. The results are shown in the table below.
+
+Using stock screening as an investment tool is not really this simple. What we have done here is narrowed the universe of stocks to a few stocks that meet our criteria. It is now up to us to further examine the companies to determine if they are actually good investments. In other words, stock screening is not the end of the investment process—it narrows the field.
+
+
+Source: finviz.com, 2019.
+
+Notice that cash flow per share (CFPS) is calculated using operating cash flow—not the bottom line on the cash flow statement (see Table 19.4). Usually, when you hear the term “cash flow,” it refers to operating cash flow.
+
+Recall that in a previous chapter, we made extensive use of price ratios to analyze stock values. Using the per-share values calculated immediately above and Borg’s year-end stock price of $40 per share, we get the following price ratios:
+
+
+We use these price ratios later when assessing the potential impact of a sales campaign on Borg Corporation’s future stock price. Our nearby Work the Web box shows how we can use price ratios to help screen for potential investments.
+
+page 629
+
+CHECK THIS
+
+
+
+19.2nWhat is the difference between gross margin and operating margin?
+
+19.2oWhat is the difference between return on assets and return on equity?
+
+19.2pWhat is the difference between earnings per share and cash flow per share?
+
+19.2qHow is cash flow per share calculated?
+
+19.3 Financial Statement Forecasting
+In December 2536, Borg publicly announces the completion of an acquisition of some distribution outlets from Klingon Enterprises, LLC. The stated purpose of the acquisition is to expand sales. Complementing the acquisition, Borg also announces plans for a marketing campaign to increase next year’s net sales to a targeted $137,500.
+
+As a Borg analyst, you must examine the potential impact of these actions. You immediately contact Borg management to inquire about the details of the acquisition and the marketing campaign. Armed with this additional information, you decide to construct pro forma financial statements for Borg Corporation for the year 2537.
+
+pro forma financial statements
+
+Statements prepared using certain assumptions about future income, cash flow, and other items. “Pro forma” literally means according to prescribed form.
+
+THE PERCENTAGE OF SALES APPROACH
+A simple model to construct pro forma financial statements is one in which every item increases at the same rate as sales. This may be a reasonable assumption for some financial statement items. For others, such as long-term debt, it probably is not because the amount of long-term debt is something set by company management. Therefore, long-term debt levels do not necessarily relate directly to the level of sales.
+
+A more sophisticated model builds on the basic idea of separating the income statement and balance sheet items into two groups: those that do vary directly with sales and those that do not. Given a sales forecast, calculating how much financing the firm will need to support the predicted sales level is easy. This quick and practical model is known as the percentage of sales approach. You have decided to use this approach to generate pro forma financial statements for Borg Corporation for the year 2537.
+
+percentage of sales approach
+
+A financial planning method in which some accounts vary with the level of predicted sales.
+
+THE PRO FORMA INCOME STATEMENT
+The Borg Corporation announced projected sales for the year 2537 of $137,500—an increase of 25 percent over 2536. We use the 2536 Borg Corporation income statement and several assumptions to generate the pro forma income statement. From Table 19.3, we see that in the year 2536, the ratio of total costs to net sales was about 94.55 percent (actually 94.5454 percent). We assume the ratio of total costs to sales will be 94.55 percent in the year 2537 also.
+
+Table 19.5 is our pro forma income statement for Borg Corporation for 2537. To generate Table 19.5, we assume that the ratio of cost of goods sold to net sales will be the same in 2537 as it was in 2536 (80.91 percent).
+
+page 630
+
+Borg Corporation Pro Forma Income Statement, Year 2537
+
+TABLE 19.5
+
+Year 2536	Year 2537
+Net sales	$110,000	$137,500
+Cost of goods sold	(89,000)	(111,250)
+Gross profit	$ 21,000	$ 26,250
+Depreciation	(3,000)	(3,750)
+Other operating expenses	(10,000)	(12,500)
+Operating income	$ 8,000	$ 10,000
+Interest expense	(2,000)	(2,500)
+Pretax income	$ 6,000	$ 7,500
+Income taxes	(2,400)	(3,000)
+Net income	$ 3,600	$ 4,500
+Dividends	(1,080)	(1,350)
+Retained earnings	$ 2,520	$ 3,150
+ 	 	 
+Net profit margin	3.27%	3.27%
+ 	 	 
+Total costs/Net sales	94.55%	94.55%
+We see in Table 19.4 that depreciation in the year 2536 was $3,000. Accountants grapple with various methods to produce depreciation schedules. Here, as a practical matter, we apply the percentage of sales approach. Depreciation expense as a percentage of sales in 2536 was $3,000/$110,000 ≈ 2.7272 percent. For the year 2537, we estimate depreciation expense to be ($3,000/$110,000) × $137,500 = $3,750. (Note that we multiplied the actual ratio in 2536 by estimated sales in the year 2537.)
+
+Borg Corporation financed the purchase of the distribution outlets with 5 percent coupon bonds, which represent long-term debt. To estimate the 2537 interest expense, we assume that Borg pays 4 percent simple interest on its short-term debt and 8 percent on its existing long-term debt. Given these assumptions, the 2536 interest expense of $2,000 was split $400 (= $10,000 × .04) for short-term debt and $1,600 (= $20,000 × .08) for long-term debt. Therefore, the additional $10,000 in long-term debt added at the end of 2536 will increase interest expense on long-term debt to $2,100 (= $20,000 × .08 + $10,000 × .05). Adding an assumed $400 for interest on short-term debt, the total interest expense in the year 2537 will be $2,500.
+
+Finally, recall that we assume that the ratio of total costs to net sales will be the same in 2537 as it was in 2536 (about 94.55 percent). To achieve this, we assume that the other operating expenses account is our “plug” and if we set this account to $12,500, we maintain the desired ratio of 94.55 percent.
+
+The effect of assuming that total costs are a constant percentage of sales is to assume that the profit margin (net income/net sales) is constant. To check this, notice that in Table 19.5 Borg Corporation’s profit margin was $3,600/$110,000 = 3.27 percent in 2536 and $4,500/$137,500 = 3.27 percent projected for 2537. In this calculation, a tax rate of 40 percent is assumed for both years.
+
+Next, we need to project the dividend payment. The decision of how much of net income will be paid in dividends is a decision that rests with the management of Borg Corporation. However, two dividend payment schemes are reasonable: one where the dollar payout is the same from year to year and one where the percentage payout is the same from year to year.
+
+We will assume that Borg management has a policy of paying a dividend that is a constant percentage of net income. For 2536, the dividend payout ratio was $1,080/$3,600 = 30 percent. We can also calculate the ratio of the addition to retained earnings to net income, which is $2,520/$3,600 = 70 percent for 2536. This ratio is called the retention ratio or plowback ratio, and it is equal to one minus the dividend payout ratio. The term “plowback ratio” is logical because if net income is not paid out to the shareholders, it must be retained by the company. Assuming the payout ratio is constant, the projected dividends are $4,500 × .30 = $1,350. Thus, the addition to retained earnings is $3,150.
+
+THE PRO FORMA BALANCE SHEET
+To generate a pro forma balance sheet, we start with the balance sheet for 2536 shown in Table 19.1. On this balance sheet, we assume that some of the items vary directly with sales and others do not. For the items that do vary with sales, we express each as a percentage of sales for the year just completed, year 2536. When an item does not vary directly with sales, we write “n/a,” for “not applicable.” For example, on the asset side, inventory is equal to about 8.2 percent of sales in 2536. We assume that this percentage also applies to 2537, so for each $1 increase in sales, inventory will increase by $.082.
+
+The ratio of total assets to sales for 2536 is $88,000/$110,000 = .80, or 80 percent. The ratio of total assets to sales is sometimes called the capital intensity ratio. This ratio tells us page 631the amount of assets needed to generate $1 in sales. So the higher this ratio, the more capital-intensive is the firm. For Borg Corporation, $.80 in assets was needed to generate $1 in sales in 2536. If we assume that the capital intensity ratio is constant, total assets of $110,000 will be needed to generate sales of $137,500 in 2537.
+
+capital intensity ratio
+
+A firm’s total assets divided by its sales, or the amount of assets needed to generate $1 in sales.
+
+On the liability side of the balance sheet, we have assumed that only accounts payable vary with sales. The reason is that we expect Borg to place more orders with its suppliers as sales increase, so payables will change directly with sales. Short-term debt, on the other hand, represents bank borrowing. This account is not likely to vary directly with sales. Therefore, we write n/a in the “Approximate Percent of Sales” column for short-term debt in Table 19.6. Similarly, we write n/a for long-term debt because long-term debt will not vary directly with sales. The same is true for other liabilities and the paid-in capital account.
+
+Retained earnings, however, will change with an increase in sales, but the increase in retained earnings will not be a simple percentage of sales. Instead, we must calculate the change in retained earnings based on our projected net income and dividends, which come from our pro forma income statement.
+
+We can now construct a partial pro forma balance sheet for Borg Corporation, as shown in Table 19.6. We construct the column labeled “2537” by using the percentage of sales wherever possible to calculate projected amounts. For example, inventory in 2537 is projected to be ($9,000/$110,000) × $137,500 = $11,250. More generally, the ratio of total fixed page 632assets to sales was about 54.5 percent in 2536. For 2537, total fixed assets is projected to be ($60,000/$110,000) × $137,500 = $75,000. This amount represents an increase of $15,000 from the total fixed assets in 2536.
+
+page 633
+
+Borg Corporation Partial Pro Forma Balance Sheet, Year 2537
+
+TABLE 19.6
+
+
+For the items that do not vary directly with sales, note that we initially assume no change and write in the existing amounts. You can see the application of this method in the column labeled “2537” in Table 19.6. Notice that the change in retained earnings is projected to be $3,150, which is the amount shown in Table 19.5.
+
+Inspecting the partial pro forma balance sheet for Borg Corporation, we see that total assets are projected to increase by $22,000 in 2537. However, without additional financing, liabilities and equity will increase by only $4,400, leaving a shortfall, or imbalance, of $22,000 − $4,400 = $17,600. In Table 19.6, to be safe, we have calculated this $17,600 shortfall in two ways: as the difference between total assets ($110,000) and total liabilities and equity ($92,400) and as the difference between the change in total assets ($22,000) and the change in total assets and liabilities ($4,400). We have labeled the shortfall amount as external financing needed (EFN).
+
+SCENARIO ONE
+The creation of a pro forma income statement and a pro forma balance sheet points out a potentially serious problem with Borg Corporation’s projected sales increase of 25 percent—it isn’t going to happen unless Borg can somehow raise $17,600 in new financing. For analysts working for Borg Corporation, this is a good example of how the planning process can point out problems and potential conflicts. For example, if Borg had a goal of not raising new financing, then an increase in sales of 25 percent is not possible.
+
+If we take the need for $17,600 in new financing as given, we know that Borg Corporation has three possible sources: short-term debt, long-term debt, and new equity. The choice of the exact combination of the three sources of financing is a decision that the management of Borg Corporation must make. For illustration, however, we will choose one of the many possible combinations.
+
+Suppose Borg Corporation decides to borrow the needed funds, some via short-term debt and some via long-term debt. In Table 19.6, you can see that current assets increased by $5,000, but current liabilities increased only by $1,250 (the increase in accounts payable). If Borg wants to keep the ratio between current assets and current liabilities constant, it should borrow $2,500 in short-term debt. In 2536, the ratio between total current assets and total current liabilities was 4 to 3, or 1.3333 (= $20,000/$15,000). In 2537, total current assets are $25,000, which means total current liabilities should be $18,750, or $2,500 more than the amount shown in Table 19.6.
+
+If Borg borrows $2,500 in short-term debt, this leaves $15,100 to be raised by issuing additional long-term debt. These financing amounts are shown at the bottom of Table 19.6. Table 19.7 shows a completed pro forma balance sheet given this assumed financing decision.
+
+We have used a combination of short-term debt and long-term debt to solve the financing problem for Borg Corporation. It is extremely important for us to emphasize that this is only one possible strategy—and it might not even be the best strategy for Borg Corporation. As analysts, we could (and should) investigate many other scenarios. For example, we would have to ask how the increased debt load would affect future earnings of the company.
+
+Borg Corporation Pro Forma Balance Sheet, Year 2537
+
+TABLE 19.7
+
+
+SCENARIO TWO
+The assumption that assets are a fixed percentage of sales is convenient, but it may not be suitable in many cases. In particular, we made a hidden assumption when we constructed pro forma financial statements for Borg Corporation: We assumed that Borg was using its fixed assets at 100 percent of capacity because any increase in sales led to an increase in fixed assets. For most businesses, there would be some slack, or excess capacity, and production could be increased by, perhaps, running an extra shift or utilizing spare equipment.
+
+If we assume that Borg Corporation is running at 75 percent of capacity, then the need for external funds will be quite different. When we say “75 percent of capacity,” we mean that the current sales level is 75 percent of the full-capacity sales level:
+
+
+This calculation tells us that sales could increase by one-third, from $110,000 to $146,667, before any new fixed assets would be needed.
+
+In Scenario One, we assumed that adding $15,000 in net fixed assets would be necessary. In our current scenario, no spending on fixed assets is needed because sales are projected to rise only to $137,500, which is substantially less than the $146,667 full-capacity sales level. As a result, our Scenario One estimate of $17,600 in external funds needed is too high. In fact, an argument could be made in Scenario Two that the level of external funds needed is $2,600.
+
+To begin, you can see in Table 19.8 that we have now written n/a next to the total fixed assets account, and we have written in a value of $60,000 (the same as for the year 2536). When no change is assumed for the total fixed assets account, total assets increase by $7,000. On the liability side of the balance sheet as shown in Table 19.5, a sales level of $137,500 generates an increase of $3,150 in retained earnings. In addition, this sales level means that the accounts payable account will increase by $1,250. The difference between the increase in total assets and the increase in total liabilities and equity would be $2,600 without any external financing (= $7,000 − $3,150 − $1,250). In Table 19.8, which is a completed year 2537 pro forma balance sheet, we see that this is the amount that the short-term debt account has increased. That is, we have assumed that Borg Corporation will use only short-term debt as its EFN source. You will note, however, that this assumption means that the ratio between total current assets and total current liabilities will decrease (slightly).
+
+page 634
+
+Borg Corporation Pro Forma Balance Sheet, Year 2537
+
+TABLE 19.8
+
+
+EFN and Capacity Usage
+
+EXAMPLE 19.1
+
+Suppose Borg Corporation was operating at 88 percent of capacity. What would sales be at full capacity? What is the EFN in this case? What is the capital intensity ratio at full capacity?
+
+Full-capacity sales would be $110,000/.88 = $125,000. From Table 19.1, we know that fixed assets are $60,000. At full capacity, the ratio of fixed assets to sales is $60,000/$125,000 = .48. This tells us that Borg Corporation needs $.48 in fixed assets for every $1 in sales once the company reaches full capacity. At the projected sales level of $137,500, Borg needs $137,500 × .48 = $66,000 in fixed assets. This is $9,000 less than the original year 2537 value of $75,000 shown in Table 19.6. Therefore, EFN is $17,600 − $9,000 = $8,600. Current assets and other assets would still be $25,000 and $10,000, respectively, so total assets would be $101,000. The capital intensity ratio would then be $101,000/$137,500 = .7345.
+
+CHECK THIS
+
+
+
+19.3aWhat is the basic idea behind the percentage of sales approach?
+
+19.3bUnless it is modified, what does the percentage of sales approach assume about fixed asset capacity usage?
+
+page 635
+
+PROJECTED PROFITABILITY AND PRICE RATIOS
+In addition to preparing pro forma financial statements, you also decide to calculate projected profitability ratios and per-share values under the new sales forecast. These values are reported immediately below and compared with their original year-end values.
+
+Year 2536	Year 2537   
+Gross margin	19.09%	19.09%   
+Operating margin	7.27%	7.27%   
+Return on assets (ROA)	4.09%	4.09%/4.74%
+Return on equity (ROE)	9.00%	10.43%   
+Book value per share (BVPS)	$20.00	$21.58    
+Earnings per share (EPS)	$1.80	$2.25    
+Cash flow per share (CFPS)	$3.30	$4.13    
+Note that two ROA numbers are provided for 2537. The first is from Scenario One, where we assume Borg is already running at 100 percent capacity. The second is from Scenario Two, where we assume Borg is running at 75 percent capacity.
+
+One common method of analysis is to calculate projected stock prices under the new sales scenario using prior-period price ratios and projected per-share values from pro forma financial statements. For Borg Corporation, you decide to take your previously calculated year-end 2536 price ratios and multiply each ratio by its corresponding pro forma per-share value. The results of these projected stock price calculations (rounded) are shown immediately below:
+
+
+Which projected stock price is correct? Well, it clearly depends on which sales level is realized and which price ratio the financial markets will actually use to value Borg Corporation’s stock. This is where experience and breadth of knowledge count immensely. Of course, no one can make perfectly accurate predictions, but the analyst’s job is to expertly assess the situation and make an investment recommendation supported by reasonable facts and investigation. But some analysts are better than others. Like professional baseball players, professional stock analysts with better batting averages can do very well financially.
+
+19.4 Starbucks Corporation Case Study
+Visit Starbucks’s website at
+starbucks.com.
+
+After carefully reading the analysis of Borg Corporation, you should have a reasonably clear picture of how to do an earnings and cash flow analysis using pro forma financial statements. In this section, we present an analysis based on the 2018 financial statements for Starbucks Corporation. As you will see, using data for a real company is challenging.
+
+This section begins with a review of the 2018 financial statements for Starbucks. We then proceed to analyze the effects on earnings and cash flow that might result from two sales projection scenarios. The analysis is similar to that for Borg Corporation, with a few important differences. Note that amounts shown are in millions of dollars (except earnings per share).
+
+Table 19.9 is the 2018 condensed balance sheet for Starbucks. This balance sheet shows that at fiscal year-end 2018 (September 30, 2018), Starbucks had $24,156 million (or $24.156 billion) of total assets and $1,176 million (or $1.176 billion) of shareholder equity. In Table 19.10, which is the 2018 condensed income statement for Starbucks, the bottom line reveals that Starbucks earned $4.518 billion in net income from $24.720 billion in net revenues.
+
+page 636
+
+Starbucks Corporation Balance Sheet for 2018 and 2017 ($ in 000,000s)
+
+TABLE 19.9
+
+2018		2017
+Current assets	 	 	 
+Cash and cash equivalents	$  8,756.3	 	$  2,462.3
+Short-term investments	181.5	 	228.6
+Accounts receivable	693.1	 	870.4
+Inventory	1,400.5	 	1,364.0
+Other current assets	 1,462.8	 	  358.1
+ Total current assets	$12,494.2	 	$ 5,283.4
+ 	 	 	 
+Fixed assets	 	 	 
+Long-term investments	$    267.7	 	$    542.3
+Property, plant and equipment, net	6,263.8	 	5,401.1
+Other assets	  546.9	 	  1,158.2
+ Total fixed assets	$ 7,078.4	 	$ 7,101.6
+ 	 	 	 
+Goodwill and intangible assets	 $ 4,583.8	 	 $ 1,980.6
+ Total assets	$24,156.4	 	$14,365.6
+ 	 	 	 
+Current liabilities	 	 	 
+Accounts payable	$ 1,179.3	 	$ 782.5
+Accrued expenses	2,298.4	 	1,934.5
+Other current liabilities	 2,206.5	 	 1,503.7
+ Total current liabilities	$ 5,684.2	 	$ 4,220.7
+ 	 	 	 
+Long-term debt	$ 9,090.2	 	$ 3,932.6
+Other long-term liabilities	 8,206.2	 	  755.3
+Total liabilities	$22,980.6	 	$ 8,908.6
+ 	 	 	 
+Shareholder equity	 	 	 
+Common stock	$        1.3	 	$        1.4
+Paid-in capital	41.1	 	41.1
+Retained earnings	1,457.4	 	5,563.2
+Other stockholder equity	 (324.0)	 	 (148.7)
+ Total stockholder equity	$  1,175.8	 	$  5,457.0
+ Total liabilities and equity	$24,156.4	 	$14,365.6
+ 	 	 	 
+Shares outstanding (000,000s)	1,394.6	 	1,461.5
+(Fiscal) Year-end stock price	$56.84		$53.71
+From these values, we calculate Starbucks’s return on assets (ROA) as 18.7 percent. Because of a one-time decrease in equity, return on equity (ROE) is calculated as a whopping 384 percent. In 2017, ROE was 52.9 percent, which is roughly in line with recent historical values for Starbucks. As of its 2018 fiscal year-end date, Starbucks Corporation had 1,394.6 million shares outstanding.
+
+Based on the number of shares outstanding, earnings per share in 2018 was $3.24 and book value per share was $.84, which also reflects the one-time decrease in equity. For comparison, book value per share was $3.73 in 2017, which is in line with recent historical values. Remember, book value is defined as a company’s net worth (i.e., total assets minus total liabilities), which is measured by total stockholder equity. Based on a fiscal year-end 2018 stock price of $56.84, the price-book ratio for Starbucks was 67.42, and the price-earnings ratio was 17.54 (= $56.84/$3.24).
+
+page 637
+
+Starbucks Corporation Reported Income Statements for 2018 and 2017 ($ in 000,000s)
+
+TABLE 19.10
+
+ 	2018	 	2017
+Total net revenues	$24,719.5	 	$22,386.8
+Cost of sales	 10,174.5	 	 9,034.3
+Gross profit	$14,545.0	 	$13,352.5
+ 	 	 	 
+Store operating expenses	$  7,193.2	 	$  6,493.3
+Other operating expenses	539.3	 	500.3
+Depreciation expense	1,247.0	 	1,011.4
+General and administrative expenses	 1,983.4	 	 1,604.2
+Total operating expenses	 10,962.9	 	 9,609.2
+Income from equity investees	 301.2	 	 391.4
+Operating income	$ 3,883.3	 	$ 4,134.7
+ 	 	 	 
+Gains from acquisitions and dispositions	$ 1,875.6	 	$ 93.5
+Interest income and other income	191.4	 	181.8
+Interest expense	 (170.3)	 	 (92.5)
+ 	 	 	 
+Earnings before income taxes (EBT)	$ 5,780.0	 	$ 4,317.5
+Income tax expense	 1,261.7	 	 1,432.8
+ 	 	 	 
+Net income	$ 4,518.3	 	$ 2,884.7
+ 	 	 	 
+Earnings per share	$       3.24	 	$       1.97
+Shares outstanding (in 000s)	1,394.6	 	1,461.5
+ 	 	 	 
+Cash dividend declared per share	$       1.26	 	$       1.00
+Cash dividend payout ratio	38.9%	 	50.7%
+ 	 	 	 
+Operating margin (OI/Total net revenues)	15.7%	 	18.5%
+Income tax rate (Income tax expense/EBT)	21.8%	 	33.2%
+PRO FORMA INCOME STATEMENT
+To construct a 2019 pro forma income statement for Starbucks, we use forecasted sales and the percentage of sales approach, just as we did for Borg Corporation. As shown in the Work the Web box, we visited finance.yahoo.com and entered the ticker symbol for Starbucks, SBUX.
+
+Clicking on the “Analysis” link, we see that the highest estimate for Starbucks’s 2019 revenue was $28.1 billion, or an increase of about 13.7 percent from Starbucks’ 2018 revenue level of $24.72 billion. The low estimate for 2019 revenue was $26.02 billion. Finding ourselves in a frothy mood, we will take the highest and lowest revenue estimates as two cases as we begin to create our 2019 pro forma income statement.
+
+Table 19.11 is our pro forma income statement for Starbucks for 2019. We included 2018 for comparison. For both the high and low estimates for revenue, we assumed that gross margin, operating margin, and net interest and other income as a percentage of sales will be the same in 2019 as they were in 2018. We assume, however, that the income tax rate will be 33.2 percent. As good analysts do, we judge the actual 2018 income tax rate of 21.8 percent as too low by historical rates. These assumptions have the net effect of assuming that the profit margin will remain the same, about 15.6 percent.
+
+page 638
+
+WORK THE WEB
+
+Calculating company growth rates can involve detailed research. A major part of a stock analyst’s job is to provide estimates of growth rates. One place to find earnings and sales growth rates is at finance.yahoo.com. We pulled up a quote for Starbucks (SBUX) and followed the “Analysis” link. Below, you will see an abbreviated look at the results.
+
+You can see that analysts expect sales to increase 6.60 percent in the current year and 7.50 percent next year. The estimated earnings growth is 11.60 percent for the current year, 12.60 percent next year, and 12.25 percent for the next five years (per annum).
+
+
+We assume that Starbucks will maintain its dividend payout of about 38.9 percent ($1.08 per share dividend on our restated $2.77 earnings per share) and assume that Starbucks will not issue or repurchase shares. Therefore, 61.1 percent of net income will flow to retained earnings and shares outstanding will remain at 1,394.6 million. Combined, these assumptions and the two sales forecasts result in a rounded earnings per share of $3.15 given the high revenue estimate and $2.91 per share with the low revenue estimate.
+
+PRO FORMA BALANCE SHEET
+Table 19.12 contains partial pro forma balance sheets for Starbucks for 2019 using the percentage of sales approach we discussed earlier in the chapter. Again, we included the actual 2018 balance sheet for comparison. Notice that we assumed that all asset accounts, including property, plant, and equipment, will increase with sales. Short-term and long-term investment levels, however, are certainly likely to reflect decisions made by senior management at Starbucks. We will also stick with our assumption that only two liability accounts will vary with sales—accounts payable and accrued expenses. In both cases, this assumption is reasonable.
+
+page 639
+
+Starbucks Corporation Pro Forma Income Statement, 2019
+
+TABLE 19.11
+
+
+Looking at the partial pro forma balance sheet using the high sales estimate, we see that the external financing needed is $145.8 million. Why does this financing need occur, and what does it mean?
+
+In this scenario, assets will grow by about $3,303.5 million and current liabilities will grow by about $475.6 million. The difference between the growth in assets and the growth in current liabilities is $2,827.9 million. Retained earnings, however, increase by about $2,682.1 million, which is $145.8 million less than the difference between asset growth and the growth in current liabilities and equity. For the low growth scenario, Starbucks generates excess cash, to the tune of $1,395.7 million.
+
+This excess cash means that under the low sales growth scenario, Starbucks becomes quite the “cash cow.” That is, the existing profit margin Starbucks enjoys is such that considerable future growth can be financed out of sales. At these projected sales growth levels, no external financing is needed to finance this growth, so “excess” cash accumulates.
+
+Senior management at Starbucks could use this additional cash in many ways. In terms of investments, Starbucks could purchase other companies, look for new ways to expand the company, or buy back its own shares in the open market. Management at Starbucks could let this cash accumulate while looking for places to spend it. Or they could choose to declare an increase in the cash dividend and distribute some cash to shareholders.
+
+At this point, we can generate a pro forma balance sheet that actually balances, depending on what sales forecast we use. To conduct ratio analysis, as we will, we need to use a pro forma balance sheet that balances. In both sales growth scenarios, we assume that management uses the long-term debt account to balance the balance sheet. In the high sales growth scenario, we assume management will issue more long-term debt. In the low sales growth scenario, we assume management will pay down long-term debt. Ask yourself, what other options are available to the management team at Starbucks? Table 19.13 presents these pro forma balance sheets.
+
+page 640
+
+Starbucks Corporation Partial Pro Forma Balance Sheet, 2018 ($ in 000,000s)
+
+TABLE 19.12
+
+
+CHECK THIS
+
+
+
+19.4aUse the high sales estimate and data in Table 19.12 to determine the level of external financing needed if short-term and long-term investments were held at their 2018 levels.
+
+19.4bUsing the high sales estimate and data in Table 19.12, do you think it is more likely that Starbucks would use short-term or long-term debt if external financing needed was $3 billion? What financial data support your answer?
+
+page 641
+
+Starbucks Corporation Pro Forma Balance Sheet, 2019 ($ in 000,000s)
+
+TABLE 19.13
+
+
+VALUING STARBUCKS USING RATIO ANALYSIS
+We now turn our attention to valuing Starbucks using ratio analysis and the pro forma income statement and balance sheets that we generated. Immediately below, we report actual and projected profitability and per-share values for 2018 and 2019.
+
+page 642
+
+ 	2018	2019 (High Sales Forecast)	2019 (Low Sales Forecast)
+Gross margin	58.8%	58.8%	58.8%
+Operating margin	15.7%	15.7%	15.7%
+Return on assets (ROA)	16.0%	16.0%	16.0%
+Return on equity (ROE)	328.4%	113.8%	111.1%
+Earnings per share (EPS)	$2.77	$3.15	$2.91
+Book value per share (BVPS)	$.84	$2.77	$2.62
+For Starbucks, the low equity value in 2018 gives a book value per share of $.84, much lower than the book value per share we calculated for 2017, which was $3.73. We computed the PE ratio for 2018 and the P/B ratios for 2018 and 2017. Taking these price ratios and multiplying each ratio by its corresponding projected 2019 per-share value results in the following stock price calculations:
+
+
+Using ratio analysis, we generate Starbucks’s prices, which range from $37.74 to $186.50. We note that both P/B ratios seem to make poorer forecasts than the PE ratio. Looking across sales forecasts, you can see that the prices we generate for Starbucks do not differ greatly. In fact, our projected Starbucks stock prices are more sensitive to the values picked for the price-earnings (PE) ratio and price-book (P/B) ratio than they are to the value of the sales forecast picked.
+
+VALUING STARBUCKS USING A TWO-STAGE DIVIDEND GROWTH MODEL
+In a previous chapter, we introduced the two-stage dividend growth model. Fortunately for us, Starbucks pays a dividend, so we can assume that dividends grow at rate g1 for T periods and then grow at rate g2 forever thereafter. The model is:
+
+
+In Equation 19.3 we need values for dividends per share, D0, as of Time 0 (2018 in this case). We can pluck this value, $1.08, from the data provided above. We assume that Starbucks pays the same percentage, 38.9%, of earnings as a dividend. We need dividend growth rates for the two periods, however, and an appropriate discount rate.
+
+From the preceding Work the Web box, we can see that analysts collectively think that Starbucks will be able to grow earnings at 12.25 percent for the next five years. After that, we will assume that Starbucks will be able to grow earnings forever by one-fourth of that, 3.0625 percent. Even though this is a significant drop-off from 12.25 percent, it is still higher than the long-term historical real growth rate of the U.S. economy, which is about 3 percent. Therefore, in Equation 19.3, g1 = .1225 and g2 = .030625.
+
+We calculate an initial discount rate using the capital asset pricing model (CAPM). If we use a risk-free rate of 2.5 percent, a market risk premium of 8 percent, and a Starbucks beta of .43, the discount rate, k, is 2.5% + .43 × 8.0% = 5.94%.
+
+Plugging these inputs into Equation 19.3, we obtain this value for Starbucks:
+
+
+This estimate of $58.10 is only about $1.26 higher than the Starbucks stock price of $56.84, which was observed at the time of Starbucks’s fiscal year-end. It looks like we were fortunate in our selection of inputs (or perhaps sly).
+
+We note that the early May share price for Starbucks is about $78. How can we explain that price with the two-stage growth model? Like any good analyst would, we vary our inputs page 643to see how sensitive the estimated price is to changes in these inputs. Even though we could change the growth rates, we will not. Instead, we will vary the discount rate and the length of time that Starbucks will exhibit an earnings growth rate of 12.25 percent.
+
+We generate a set of additional discount rates by varying the beta for Starbucks. Recall that we discussed how difficult it is to calculate a true beta and that betas vary by source. Beginning with the beta value we looked up, .43, we selected four other beta values, while keeping the risk-free rate and the market risk premium the same as before. We suspect that the length of time that Starbucks will grow earnings at the rate of 12.25 percent could be too short or too long, but we cannot be sure. Therefore, we vary this length of time from four to seven years. We then recalculate a Starbucks price for each of these combinations using the two-stage growth model. The results appear immediately below.
+
+
+From this sensitivity analysis, it appears that both the discount rate and the length of time that Starbucks grows its earnings by 12.25 percent are important in estimating a value for Starbucks. For an analyst, performing various “what-if” scenarios concerning input values that are used in valuation formulas is good practice.
+
+VALUING STARBUCKS: WHAT DOES THE MARKET SAY?
+As with many publicly traded companies, analysts frequently offer conflicting opinions concerning the future growth prospects of Starbucks and its current value. If you are a believer in the efficient markets hypothesis, the easiest way to value Starbucks is to look at what its shares are selling for in the open market. After all, the market price for Starbucks shares is the result of the collective assessment from thousands of analysts and investors. If, however, you believe that you are an above-average prognosticator for future sales and earnings growth for Starbucks, you can use the methods in this chapter to assist you in your personal investing decisions concerning Starbucks and other companies.
+
+The methods presented in this chapter are intended to help you become a better financial analyst. Calibrating these methods to a publicly traded company is a useful way to get familiar with how inputs and assumptions affect the resulting valuation. These methods could be valuable to you if you are an internal analyst. For example, suppose you are asked to calculate whether the company you work for needs more financing to meet its expected sales growth levels. You can use the percentage of sales approach when you perform this task.
+
+The methods in this chapter are especially useful if you are trying to value a nontraded company after you are given its financial data. Someday, you might find yourself calculating a per-share tender offer in a hostile takeover attempt. In any case, we are confident that this chapter will help you become more “financial statement literate” and help you develop as a financial analyst.
+
+19.5 Summary and Conclusions
+In this chapter, we focus on earnings and cash flow analysis using financial statement information. Several important aspects of financial statements and their use were covered. We summarize these points by the important concepts of the chapter.
+
+1.  How to obtain financial information about companies.
+
+A.  Good financial analysis begins with good financial information. A primary source of financial information is a company’s annual report. In addition, the annual 10-K report and the quarterly 10-Q updates filed with the SEC are available from the EDGAR archives.
+
+B.  The internet is a convenient source of financial information about many companies. For example, the SEC provides a document search portal called “EDGAR.”page 644
+
+2.  How to read basic financial statements.
+
+A.  Three financial statements are essential reading for securities analysts: the balance sheet, the income statement, and the cash flow statement. The balance sheet has three sections: assets, liabilities, and equity. A fundamental accounting identity for balance sheets states that assets equal liabilities plus equity.
+
+B.  The income statement reports revenues and expenses. Companies use their net income to pay dividends or to finance future growth. Net income is the “bottom line” for a company.
+
+C.  The cash flow statement reports how cash was generated and where it was used. The cash flow statement assigns all cash flows to one of three categories: operating cash flow, investment cash flow, or financing cash flow.
+
+3.  How to use performance and price ratios.
+
+A.  Profitability ratios based on financial statement information are often reported to help investors interpret a company’s operating efficiency. Standard profitability ratios include gross margin, operating margin, return on assets (ROA), and return on equity (ROE)
+
+B.  Annual reports, 10-Ks, and 10-Qs also report per-share calculations of book value, earnings, and operating cash flow, respectively. If we divide the stock price by these per-share values, we get three important ratios: the price to book ratio (P/B), the price-earnings ratio (PE), and the cash flow per share (CFPS).
+
+4.  How to use the percentage of sales method in financial forecasting.
+
+A.  Financial analysts often make projections about sales growth, future costs, and net income. These forecasts can be used to construct a forecasted, or pro forma, set of financial statements.
+
+B.  The percentage of sales approach is a method analysts can use to construct pro forma financial statements. This approach is based on the basic idea of separating the income statement and balance sheet items into two groups: those that do vary directly with sales and those that do not. Given a sales forecast, analysts can use the percentage of sales approach to calculate how much financing the firm will need to support the predicted sales level.
+
+GETTING DOWN TO BUSINESS
+
+This chapter delves deeper into earnings and cash flow concepts, which are two of the most important tools of fundamental analysis. It focuses on using financial statement information to develop pro forma numbers to use in stock valuation. How should you, as an investor or investment manager, get started putting this information to work? The answer is that you need to get your fingers dirty! Dig into the financial statements of a few companies and develop your own pro forma financial statements.
+
+An excellent source for financial statement information is the SEC EDGAR database (sec.gov). Other useful online sources are The Public Register Online (annualreportservice.com) and Corporate Information (corporateinformation.com).
+
+A good place to start is to download the most recent financial reports for Starbucks from SEC EDGAR (sec.gov) or the Starbucks company website (starbucks.com). Then try your hand at developing pro forma financial statements for Starbucks similar to the ones developed in this chapter.
+
+A next step is to pick a company you are interested in and examine its financial statements. As you read a company’s financial statements, an important exercise is to try to understand what each number really represents. Why is it there? Is it a market value? Or is it just an accounting number (like depreciation)? Once you are familiar with a company’s current financial statements, try to develop pro forma statements for various sales scenarios as was done in this chapter. You really can learn a lot by doing this.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+page 645
+
+Key Terms
+
+10-K 622
+
+10-Q 622
+
+asset 623
+
+balance sheet 623
+
+capital intensity ratio 630
+
+cash flow 626
+
+cash flow statement 623
+
+EDGAR 622
+
+equity 623
+
+financing cash flow 626
+
+income 625
+
+income statement 623
+
+investment cash flow 626
+
+liability 623
+
+material nonpublic information 622
+
+noncash items 626
+
+operating cash flow 626
+
+percentage of sales approach 629
+
+pro forma financial statements 629
+
+Regulation FD (Fair Disclosure) 622
+
+return on assets (ROA) 627
+
+return on equity (ROE) 627
+
+Chapter Review Problems and Self-Test
+
+Margin Calculations (LO3, CFA7) Use the following income statement for Paul Bunyan Lumber Co. to calculate gross and operating margins:
+
+Paul Bunyan Lumber 2019 Income Statement
+Net sales	$ 8,000
+Cost of goods sold	(6,400)
+Gross profit	$ 1,600
+Operating expenses	 (400)
+Operating income	$ 1,200
+Other income	80
+Net interest expense	 (120)
+Pretax income	$ 1,160
+Income tax	 (464)
+Net income	$    696
+Earnings per share	$   3.48
+Recent share price	$ 76.56
+Return Calculations (LO3, CFA7) Use the following balance sheet for Paul Bunyan Lumber Co. along with the income statement in Question 1 to calculate return on assets and return on equity:
+
+Paul Bunyan Lumber 2019 Balance Sheet
+Cash and cash equivalents	$   400
+Operating assets	  400
+Property, plant, and equipment	3,160
+Other assets	  216
+Total assets	$ 4,176
+Current liabilities	$   720
+Long-term debt	612
+Other liabilities	 60
+Total liabilities	$ 1,392
+Paid-in capital	$ 600
+Retained earnings	 2,184
+Total shareholder equity	 $ 2,784
+Total liabilities and equity	$ 4,176
+Pro Forma Income Statements (LO4, CFA2) Prepare a pro forma income statement for Paul Bunyan Lumber Co. assuming a 5 percent increase in sales. Based only on the pro forma income statement, what is the projected stock price? (Hint: What is the price-earnings ratio?)
+
+page 646
+
+Answers to Self-Test Problems
+
+Gross margin is $1,600/$8,000 = .20, or 20%; Operating margin is $1,200/$8,000 = .15, or 15%
+
+Return on assets is $696/$4,176 = .1667, or 16.67%; Return on equity is $696/$2,784 = .25, or 25%
+
+With 5 percent sales growth, sales will rise to $8,400 from $8,000. The pro forma income statement follows. A constant gross margin is assumed, implying that cost of goods sold will also rise by 5 percent. A constant tax rate of 40 percent is used.
+
+Paul Bunyan Lumber Pro Forma 2020 Income Statement
+Net sales	$8,400
+Cost of goods sold	(6,720)
+Gross profit	$1,680
+Operating expenses	 (400)
+Operating income	$1,280
+Other income	80
+Net interest expense	 (120)
+ 	$1,240
+Income tax	 (496)
+Net income	$   744
+Earnings per share	$  3.72
+To get a projected stock price, notice that the 2019 price-earnings ratio was $76.56/$3.48 = 22. Using this ratio as a benchmark, the pro forma earnings of $3.72 imply a stock price of 22 × $3.72 = $81.84.
+
+Test Your Investment Quotient
+
+
+Balance Sheet Assets (LO2, CFA8) White Company assets as of December 31, 2018:
+
+Cash and cash equivalents	$   150
+Operating assets	$1,190
+Property, plant, and equipment	$1,460
+Total assets	$2,800
+White Co. experienced the following events in 2019:
+
+Old equipment that cost $120 and that was fully depreciated was scrapped.
+
+Depreciation expense was $125.
+
+Cash payments for new equipment were $200.
+
+Based on the information above, what was White Co.’s net amount of property, plant, and equipment at the end of 2019?
+
+$1,415
+
+$1,535
+
+$1,655
+
+$1,660
+
+Cash Flow (LO2, CFA5) Cash flow per share is typically calculated as:
+
+Net cash flow/Shares outstanding.
+
+Operating cash flow/Shares outstanding.
+
+Investing cash flow/Shares outstanding.
+
+Financing cash flow/Shares outstanding.
+
+Cash Flow (LO2, CFA5) Which of the following is not an adjustment to net income used to obtain operating cash flow?
+
+Changes in operating assets
+
+Changes in current liabilities
+
+Depreciation
+
+Dividends paid
+
+page 647
+Cash Flow (LO2, CFA5) The difference between net income and operating cash flow is at least partially accounted for by which of the following items?
+
+Retained earnings
+
+Cash and cash equivalents
+
+Depreciation
+
+Dividends paid
+
+Financial Ratios (LO3, CFA6) Which of the following profitability ratios is incorrect?
+
+Gross margin = Gross profit/Cost of goods sold
+
+Operating margin = Operating income/Net sales
+
+Return on assets = Net income/Total assets
+
+Return on equity = Net income/Shareholder equity
+
+Financial Ratios (LO3, CFA6) Which of the following per-share ratios is incorrect?
+
+Book value per share = Total assets/Shares outstanding
+
+Earnings per share = Net income/Shares outstanding
+
+Cash flow per share = Operating cash flow/Shares outstanding
+
+Dividends per share = Dividends paid/Shares outstanding
+
+Dividend Payment (LO2, CFA4) A dividend payment has which of the following effects on the balance sheet?
+
+An increase in shares outstanding
+
+A decrease in shareholder equity
+
+A decrease in paid-in capital
+
+An increase in retained earnings
+
+Sales Growth (LO4, CFA8) A particular firm is operating at less than full capacity. If sales are expected to grow at only a modest rate next year, which of the following is true?
+
+Assets will likely increase faster than sales in the short-term future.
+
+Dividends should be reduced to conserve cash.
+
+No further financial planning should be performed until the sales growth rate increases.
+
+External financing will likely not be needed next year.
+
+Capacity Usage (LO4, CFA9) Which of the following is true regarding the full-capacity sales level of a firm?
+
+A firm that is operating at less than full capacity will never need external financing.
+
+For a firm that is operating at less than full capacity, fixed assets will typically increase at the same rate as sales.
+
+A firm with excess capacity has room to expand without increasing its investment in fixed assets.
+
+Only firms operating at full capacity can grow rapidly.
+
+Use the following raw data to answer Questions 10–13:
+
+Net income:	$16
+Depreciation/amortization:	$4
+Repurchase of outstanding common stock:	$10
+Issuance of new debt:	$18
+Sale of property:	$12
+Purchase of equipment:	$14
+Dividend payments:	$4
+10. Cash Flow Analysis (LO2, CFA5) Operating cash flow is:
+
+$20
+
+$16
+
+$12
+
+$30
+
+11. Cash Flow Analysis (LO2, CFA5) Investing cash flow is:
+
+$2
+
+($2)
+
+$12
+
+($12)
+
+page 648
+12. Cash Flow Analysis (LO2, CFA5) Financing cash flow is:
+
+$8
+
+($8)
+
+$4
+
+($4)
+
+13. Cash Flow Analysis (LO2, CFA5) Net cash increase is:
+
+$18
+
+$20
+
+$22
+
+$24
+
+Use the following financial data to answer the Questions 14—16:
+
+Cash payments for interest:	($12)
+Retirement of common stock:	($32)
+Cash payments to merchandise suppliers:	($85)
+Purchase of land:	($8)
+Sale of equipment:	$30
+Payments of dividends:	($37)
+Cash payment for salaries:	($35)
+Cash collection from customers:	$260
+Purchase of equipment:	($40)
+14. Cash Flow Analysis (LO2, CFA5) Cash flows from operating activities are:
+
+$91
+
+$128
+
+$140
+
+$175
+
+15. Cash Flow Analysis (LO2, CFA5) Cash flows from investing activities are:
+
+($67)
+
+($48)
+
+($18)
+
+($10)
+
+16. Cash Flow Analysis (LO2, CFA5) Cash flows from financing activities are:
+
+($81)
+
+($69)
+
+($49)
+
+($37)
+
+17. Cash Flow Analysis (LO2, CFA5) A firm has net sales of $3,000, cash expenses (including taxes) of $1,400, and depreciation of $500. If accounts receivable increase over the period by $400, cash flow from operations equals:
+
+$1,200
+
+$1,600
+
+$1,700
+
+$2,100
+
+18. Cash Flow Analysis (LO2, CFA5) A firm using straight-line depreciation reports gross investment in fixed assets of $80 million, accumulated depreciation of $45 million, and annual depreciation expense of $5 million. The approximate average age of fixed assets is:
+
+7 years.
+
+9 years.
+
+15 years.
+
+16 years.
+
+19. Ratio Analysis (LO3, CFA6) An increase in the market price of a company’s stock would cause which of the following ratios to increase?
+
+Return on assets (ROA)
+
+Return on equity (ROE)
+
+Price-book (P/B)
+
+Book value per share (BVPS)
+
+page 649
+20. Price Ratios (LO3, CFA6) All else the same, which of the following ratios is unaffected by an increase in depreciation?
+
+Price-earnings (PE)
+
+Price-book (P/B)
+
+Price-cash flow (P/CF)
+
+Price-sales (P/S)
+
+Concept Questions
+
+10-K and 10-Q (LO1, CFA1) What are the 10-K and 10-Q reports? By whom are they filed? What do they contain? With whom are they filed? What is the easiest way to retrieve one?
+
+Sales Forecast (LO4, CFA8) Why do you think most long-term financial planning begins with sales forecasts? Put differently, why are future sales the key input?
+
+Current Events (LO2, CFA4) What makes current assets and liabilities “current”? Are operating assets “current”?
+
+Income and EPS (LO2, CFA6) What is the relationship between net income and earnings per share (EPS)?
+
+Noncash Items (LO2, CFA5) Why do we say depreciation is a “noncash item”?
+
+Operating Cash Flow (LO2, CFA5) In the context of the standard cash flow statement, what is operating cash flow?
+
+Comparing ROE and ROA (LO3, CFA6) Both ROA and ROE measure profitability. Which one is more useful for comparing two companies? Why?
+
+Retained Earnings (LO2, CFA1) What is the difference between the “retained earnings” number on the income statement and that on the balance sheet?
+
+Gross! (LO3, CFA6) What is the difference between gross margin and operating margin? What do they tell us? Generally speaking, are larger or smaller values better?
+
+More Gross (LO3, CFA6) Which is larger, gross margin or operating margin? Can either be negative? Can both?
+
+Questions and Problems
+
+Core Questions
+
+Income Statements (LO2, CFA3) Given the following information for Smashville, Inc., construct an income statement for the year:
+
+Cost of goods sold:	$164,000
+Investment income:	$1,200
+Net sales:	$318,000
+Operating expense:	$71,000
+Interest expense:	$7,400
+Dividends:	$3,200
+Tax rate:	21%
+What are retained earnings for the year?
+
+Balance Sheets (LO2, CFA4) Given the following information for Smashville, Inc., construct a balance sheet:
+
+Current liabilities:	$42,000
+Cash:	$21,000
+Long-term debt:	$102,000
+Other assets:	$36,000
+Fixed assets:	$150,000
+Other liabilities:	$11,000
+Investments:	$32,000
+Operating assets:	$64,000
+page 650
+
+Performance Ratios (LO3, CFA6) Given the information in Problems 1 and 2, calculate the gross margin, the operating margin, return on assets, and return on equity for Smashville, Inc.
+
+Per-Share Ratios (LO3, CFA6) During the year, Smashville, Inc., had 17,000 shares of stock outstanding and depreciation expense of $15,000. Calculate the book value per share, earnings per share, and cash flow per share.
+
+Price Ratios (LO3, CFA6) At the end of the year, Smashville stock sold for $48 per share. Calculate the price-book ratio, price-earnings ratio, and price-cash flow ratio.
+
+Calculating EFN (LO4, CFA8) The most recent financial statements for Bradley, Inc., are shown here (assuming no income taxes):
+
+
+Assets and costs are proportional to sales. Debt and equity are not. No dividends are paid. Next year’s sales are projected to be $6,240. What is the external financing needed?
+
+Operating Cash Flow (LO3, CFA5) Weston Corporation had earnings per share of $1.64, depreciation expense of $310,000, and 140,000 shares outstanding. What was the operating cash flow per share? If the share price was $43, what was the price-cash flow ratio?
+
+Earnings per Share (LO3, CFA3) Alphonse, Inc., has a return on equity of 12 percent, 28,000 shares of stock outstanding, and a net income of $98,000. What are earnings per share?
+
+Addition to Retained Earnings (LO2, CFA8) Lemon Co. has net income of $520,000 and 75,000 shares of stock. If the company pays a dividend of $1.28 per share, what are the additions to retained earnings?
+
+Cash Flow Statement (LO2, CFA5) Given the following information for Hetrich, Inc., calculate the operating cash flow, investment cash flow, financing cash flow, and net cash flow:
+
+Net income:	$175
+Depreciation:	$52
+Issuance of new stock:	$7
+Repurchase of debt:	$18
+Sale of property:	$10
+Purchase of equipment:	$70
+Dividend payments:	$9
+Interest payments:	$32
+EFN (L04, CFA8) The most recent financial statements for Martin, Inc., are shown here:
+
+
+Assets and costs are proportional to sales. Debt and equity are not. A dividend of $850 was paid, and Martin wishes to maintain a constant payout ratio. Next year’s sales are projected to be $31,625. What is the external financing needed?
+
+page 651
+
+Intermediate Questions
+
+Use the following financial statement information to answer Questions 12–16. Amounts are in thousands of dollars (except number of shares and price per share):
+
+Kiwi Fruit Company Balance Sheet
+Cash and equivalents	$   570
+Operating assets	650
+Property, plant, and equipment	2,700
+Other assets	 110
+Total assets	$4,030
+ 	 
+Current liabilities	$   920
+Long-term debt	1,280
+Other liabilities	 120
+Total liabilities	$2,320
+Paid in capital	$   340
+Retained earnings	 1,370
+Total equity	$1,710
+Total liabilities and equity	$4,030
+Kiwi Fruit Company Income Statement
+Net sales	$ 7,800
+Cost of goods sold	 (5,900)
+Gross profit	$ 1,900
+Operating expense	 (990)
+Operating income	$   910
+Other income	70
+Net interest expense	 (250)
+Pretax income	$    730
+Income tax	 (200)
+Net income	$    530
+ 	 
+Earnings per share	$   2.00
+Shares outstanding	265,000
+Recent price	$ 34.50
+Kiwi Fruit Company Cash Flow Statement
+Net income	$   530
+Depreciation and amortization	175
+Increase in operating assets	(90)
+Decrease in current liabilities	 (120)
+Operating cash flow	$   495
+ 	 
+Net (purchase) sale of property	$   180
+Increase in other assets	 (80)
+Investing cash flow	$   100
+ 	 
+Net (redemption) issuance of LTD	$ (190)
+Dividends paid	 (220)
+Financing cash flow	$ (410)
+ 	 
+Net cash increase	$   185
+12. Calculating Margins (LO3, CFA6) Calculate the gross and operating margins for Kiwi Fruit.
+
+13. Calculating Profitability Measures (LO3, CFA6) Calculate ROA and ROE for Kiwi Fruit and interpret these ratios.
+
+page 652
+
+14. Calculating Per-Share Measures (LO3, CFA6) Calculate the price-book, price-earnings, and price-cash flow ratios for Kiwi Fruit.
+
+15. Pro Forma Financial Statements (LO4, CFA8) Following the examples in the chapter, prepare a pro forma income statement, balance sheet, and cash flow statement for Kiwi Fruit assuming a 10 percent increase in sales.
+
+16. Projected Share Prices (LO4, CFA6) Based on Problems 14 and 15, what is the projected stock price assuming a 10 percent increase in sales?
+
+17. Full-Capacity Sales (LO4, CFA9) Thorpe Mfg., Inc., is currently operating at only 75 percent of fixed asset capacity. Current sales are $480,000. How fast can sales grow before any new fixed assets are needed?
+
+18. Fixed Assets and Capacity Usage (LO4, CFA9) For the company in Problem 17, suppose fixed assets are $420,000 and sales are projected to grow to $695,000. How much in new fixed assets is required to support this growth in sales?
+
+Spreadsheet Problems
+
+19. Calculating EFN (LO4, CFA8) The most recent financial statements for Moose Tours, Inc., follow. Sales for 2020 are projected to grow by 15 percent. Interest expense will remain constant; the tax rate and the dividend payout rate will also remain constant. Costs, other expenses, current assets, and accounts payable increase spontaneously with sales. If the firm is operating at full capacity and no new debt or equity is issued, what is the external financing needed to support the 15 percent growth rate in sales?
+
+MOOSE TOURS, INC.2019 Income Statement
+Sales	 	$995,000
+Costs	 	(782,000)
+Other expenses	 	 (15,000)
+Earnings before interest and taxes	 	$ 198,000
+Interest paid	 	 (21,670)
+Taxable income	 	$ 176,330
+Taxes (21%)	 	 (37,029)
+Net income	 	$  139,301
+ Dividends	$45,700	 
+ Addition to retained earnings	$93,601	 
+
+20. Capacity Usage and Growth (LO4, CFA8) In Problem 19, suppose the firm was operating at only 90 percent capacity in 2020. What is EFN now?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA3, CFA5, CFA11]
+
+Laura Bond is a Senior VP of MediaInvests Partners (MIP), a late-stage venture capital firm. MIP is considering an investment in VirtualCon Corp. VirtualCon went public during the dot-com boom, and it currently trades at a small fraction of its IPO value; however, its recent financial statements have shown improvement.
+
+page 653
+
+Harry Darling, a former employee of MIP and current VirtualCon board member, thinks that VirtualCon is an excellent candidate to take private. He has presented the idea to MIP’s board, pointing out the rising operating cash flows. Ms. Bond has the highest regard for Mr. Darling, but she remains dubious about his assessment of VirtualCon. She has come across several items in the footnotes to the financial statements that have raised concerns.
+
+Ms. Bond noticed that six months ago VirtualCon created a special-purpose entity (SPE) to securitize its receivables. The firm sold off $12 million of its accounts receivable in those two quarters, which represented 80 percent of those outstanding and more than five months of revenue. She notes that a change in the default rate assumption and the discount rate at the time of sale caused the fair value of the receivables to exceed book value by $3.8 million, which VirtualCon booked as revenue.
+
+Mr. Darling also points out, “VirtualCon has become more active in managing its accounts payable. It set up a financial arrangement with its principal bank so the bank makes payments to VirtualCon’s suppliers on its behalf, and VirtualCon has 90 days to pay the bank. The suppliers are more willing to do business with VirtualCon because they have the assurance of being paid by the bank.”
+
+Ignoring interest, what is the effect on VirtualCon’s total cash flow (CF) and cash flow from financing (CFF) from its financing arrangement for its accounts payable at the time of payment to the supplier?
+
+ 	Total CF	CFF
+a.	Unaffected	Increase
+b.	Decrease	Unaffected
+c.	Unaffected	Unaffected
+Which of the following statements about VirtualCon’s securitization of receivables is least accurate?
+
+It accelerates operating cash flow into the current period.
+
+It enables the firm to reclassify financing cash flow as operating cash flow.
+
+It could allow the firm to recognize a reduction in operating expenses.
+
+If VirtualCon had decided to slow its payment of accounts payable by 90 days instead of entering into a financing arrangement with the bank, what would be the impact on its operating cash flow (OCF) and financing cash flow (CFF) during the 90 days relative to its cash flow under the financing arrangement, ignoring interest?
+
+ 	OCF	CFF
+a.	Higher	Lower
+b.	Higher	Higher
+c.	Lower	Higher
+What’s on the Web?
+
+Ratio Analysis Go to finance.yahoo.com and enter the ticker symbol for Pfizer, PFE. Look under the “Statistics” link to find some ratios and other financial information for Pfizer. Discuss Pfizer’s performance by interpreting the following ratios (calculating them where necessary): gross margin, operating margin, return on assets, return on equity, book value per share, earnings per share, cash flow per share, price-book, price-earnings, and price-cash flow.
+
+Ratio Calculation Under the “Investors” link at DuPont’s website (dupont.com), you will find financial statements for the company. Using the most recent Form 10-K, calculate the following ratios for DuPont over the three years reported: gross margin, operating margin, return on assets, return on equity, book value per share, earnings per share, cash flow per share, price-book, price-earnings, and price-cash flow. How have these ratios changed over this period?
+
+Cash Flow Statement You can find financial statements for 3M in the company’s annual report located in the “Investor Relations” section of the company’s website, 3m.com. Locate the statement of cash flows in the annual report. How have the items changed over the years? Explain 3M’s most recent cash flow statement in words.

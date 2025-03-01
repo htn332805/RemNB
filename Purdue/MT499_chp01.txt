@@ -1,0 +1,698 @@
+CHAPTER 1
+The Financial Manager and the Firm
+
+LEARNING OBJECTIVES
+
+Identify the key financial decisions facing the financial manager of any business.
+Identify common forms of business organization in the United States and their respective strengths and weaknesses.
+Describe the typical organization of the financial function in a large corporation.
+Explain why maximizing the value of the firm’s stock is the appropriate goal for management.
+Discuss how agency conflicts affect the goal of maximizing stockholder value.
+Explain why ethics is an important topic in the study of corporate finance.
+In July of 2020, Uber Technologies, Inc. (Uber) entered into an agreement for a $2.65 billion deal to acquire the delivery service Postmates. Why did Uber’s management decide to purchase Postmates, and how did the Uber and Postmates management teams agree on the $2.65 billion price tag?
+
+In a press release related to the deal, Postmates co-founder and CEO Bastian Lehmann stated that “Over the past eight years we have been focused on a single mission: enable anyone to have anything delivered to them on-demand. Joining forces with Uber will continue that mission as we continue to build Postmates while creating an even stronger platform that brings this mission to life for our customers.” In the same press release, Uber CEO Dara Khosrowshahi noted that “Uber and Postmates have long shared a belief that platforms like ours can power much more than just food delivery—they can be a hugely important part of local commerce and communities, all the more important during crises like COVID-19.”
+
+Analysts noted the potential for the combination to create value for the shareholders of Uber. Postmates services are complementary to those of Uber Eats, with differentiated geographic coverage and customer demographics. More notably, Postmates is a pioneer of “delivery-as-a-service,” which would complement Uber’s growing efforts in the delivery of groceries, essentials, and other goods. Of course, none of the potential benefits are sure to be realized in the future. For example, Uber Eats faces stiff competition in its food delivery services from a number of competitors, including Grubhub, which itself was acquired in April of 2020 for $7.3 billion by the European service Just Eat Takeaway.
+
+The managers of companies like Uber and Postmates use many of the concepts covered in this chapter and throughout this book to create the most value possible for their investors. Managers can create value by buying companies only when the expected benefit of doing so exceeds the cost of the acquisition. This involves managing the assets of the company as efficiently as possible, and financing companies with the least expensive combination of debt and equity. This chapter introduces you to the key decisions facing financial managers, and the remainder of the book fills in many of the details of how these decisions are made.
+
+Chapter Preview
+This book provides an introduction to corporate finance. In it we focus on the responsibilities of the financial manager, who oversees the accounting and treasury functions and sets the overall financial strategy for the firm. We pay special attention to the financial manager’s role as a decision maker. To that end, we emphasize the mastery of fundamental financial concepts and tools that are used to make sound financial decisions that create value for stockholders. These financial concepts and tools apply not only to business organizations but also to other venues, such as government entities, not-for-profit organizations, and sometimes even our own personal finances.
+
+We begin this chapter by discussing the three major types of decisions that a financial manager makes. We then describe common forms of business organization. After next discussing the major responsibilities of the financial manager, we explain why maximizing the value of the firm’s stock is an appropriate goal for a financial manager. We go on to describe the conflicts of interest that can arise between stockholders and managers and the mechanisms that help align the interests of these two groups. Finally, we discuss the importance of ethical conduct in business.
+
+1.1 The Role of the Financial Manager
+LEARNING OBJECTIVE
+
+Identify the key financial decisions facing the financial manager of any business.
+The financial manager is responsible for making decisions that are in the best interests of the firm’s owners, whether the firm is a start-up business with a single owner or a billion-dollar corporation owned by thousands of stockholders. The decisions made by the financial manager or owner should be one and the same. In most situations this means that the financial manager should make decisions that maximize the value of the owners’ stock. This helps maximize the owners’ wealth, which is the economic value of the assets the owner possesses. Our underlying assumption in this book is that most people who invest in businesses do so because they want to increase their wealth. In the following discussion, we describe the responsibilities of the financial manager in a new business in order to illustrate the types of decisions that such a manager makes.
+
+wealth the economic value of the assets someone possesses
+
+Stakeholders
+Before we discuss the new business, you may want to look at Exhibit 1.1, which shows the cash flows between a firm and its owners (in a corporation, the stockholders) and various stakeholders. A stakeholder is someone other than an owner who has a claim on the cash flows of the firm. Stakeholders include managers, who want to be paid salaries and performance bonuses; other employees, who want to be paid wages; suppliers, who want to be paid for goods or services they provide; creditors, who want to be paid interest and principal; and the government, which wants the firm to pay taxes. Stakeholders may have interests that differ from those of the owners. When this is the case, they may exert pressure on management to make decisions that benefit them. We will return to these types of conflicts of interest later in the book. For now, though, we are primarily concerned with the overall flow of cash between the firm and its stockholders and stakeholders.
+
+stakeholder anyone other than an owner (stockholder) with a claim on the cash flows of a firm, including employees, suppliers, creditors, and the government
+
+EXHIBIT 1.1 Cash Flows Between the Firm and Its Stakeholders and Owners (Stockholders) A. Making business decisions is all about cash flows, because only cash can be used to pay bills and buy new assets. Cash initially flows into the firm as a result of the sale of goods or services. These cash inflows are used in a number of ways: to pay wages and salaries, to buy supplies, to repay creditors, and to pay taxes.
+B. Any cash that is left over (residual cash flows) can be reinvested in the business or paid as dividends to stockholders or used to repurchase shares.
+
+
+It’s All About Cash Flows
+To produce its products or services, a firm needs to acquire a variety of assets. Most will be long-term assets, which are also known as productive assets. Productive assets can be tangible assets, such as equipment, machinery, or a manufacturing facility, or intangible assets, such as patents, trademarks, technical expertise, or other types of intellectual capital. Regardless of the type of asset, the firm tries to select assets that will generate the greatest cash flows for the firm’s owners. The decision-making process through which the firm purchases productive assets is called capital budgeting, and it is one of the most important decision processes in a firm.
+
+productive assets the long-term tangible and intangible assets a firm uses to generate cash flows
+
+Once the managers of a firm have selected the firm’s productive assets, they must raise money to pay for them. Financing decisions determine the ways in which firms obtain and manage long-term financing to acquire and support their productive assets. There are two basic sources of funds: debt and equity. Every firm has some equity because equity represents ownership in the firm. It consists of capital contributions by the owners plus cash flows that have been reinvested in the firm. In addition, most firms borrow from a bank or issue some type of long-term debt to finance productive assets.
+
+After the productive assets have been purchased and the business is operating, the managers of the firm will try to produce products at the lowest possible cost while maintaining quality. This means buying raw materials at the lowest possible cost, holding production and labor costs down, keeping management and administrative costs to a minimum, and seeing that shipping and delivery costs are competitive. In addition, day-to-day finances must be managed so that the firm will have sufficient cash on hand to pay salaries, purchase supplies, maintain inventories, pay taxes, and cover the myriad of other expenses necessary to run a business. The management of current assets, such as money owed by customers who purchase on credit, inventory, and current liabilities, such as money owed to suppliers, is called working capital management.1
+
+A firm generates cash flows by selling the goods and services it produces. A firm is successful when these cash inflows exceed the cash outflows needed to pay operating expenses, creditors, and taxes. After meeting these obligations, managers of the firm can distribute the remaining cash, called residual cash flows, to the owners as a cash dividend or by repurchasing some shares, or reinvest the cash in the business. The reinvestment of residual cash flows in the business to buy more productive assets is a very important concept. If these funds are invested wisely, they provide the foundation for the firm to grow and provide larger residual cash flows in the future for the owners. The reinvestment of cash flows (earnings) is the most fundamental way that businesses grow in size. Exhibit 1.1 illustrates how the revenue generated by productive assets ultimately becomes residual cash flows.
+
+residual cash flows the cash remaining after a firm has paid operating expenses and what it owes creditors and in taxes; can be distributed to the owners as a cash dividend or by repurchasing some shares, or reinvested in the business
+
+Building Intuition
+Cash Flows Matter Most to Investors
+
+Cash is what investors ultimately care about when making an investment. The value of any asset—a share of stock, a bond, or a business—is determined by the cash flows it is expected to generate in the future. To understand this concept, just consider how much you would pay for an asset from which you could never expect to obtain any cash flows. Buying such an asset would be like giving your money away. It would have a value of exactly zero. Conversely, as the expected cash flows from an investment increase, you would be willing to pay more and more for it.
+
+A firm is unprofitable when it fails to generate sufficient cash inflows to pay operating expenses, creditors, and taxes. Firms that are unprofitable over time will be forced into bankruptcy by their creditors if the owners do not shut them down first. In bankruptcy the company will be reorganized or the company’s assets will be liquidated, whichever is more valuable. If the company is liquidated, creditors are paid in a priority order according to the structure of the firm’s financial contracts and prevailing bankruptcy law. If anything is left after all creditor and tax claims have been satisfied, which usually does not happen, the remaining cash, or residual value, is distributed to the owners.
+
+bankruptcy legally declared inability of an individual or a company to pay its creditors
+
+Three Fundamental Decisions in Financial Management
+Based on our discussion so far, we can see that financial managers are concerned with three fundamental decisions when running a business:
+
+Capital budgeting decisions: Identifying the productive assets the firm should buy.
+Financing decisions: Determining how the firm should finance or pay for assets.
+Working capital management decisions: Determining how day-to-day financial matters should be managed so that the firm can pay its bills, and how surplus cash should be invested.
+Exhibit 1.2 shows the impact of each decision on the firm’s balance sheet. We briefly introduce each decision here and discuss them in greater detail in later chapters.
+
+Capital Budgeting Decisions
+
+A firm’s capital budget is simply a list of the productive (capital) assets that management wants to purchase over a budget cycle, typically one year. The capital budgeting decision process addresses which productive assets the firm should purchase and how much money the firm can afford to spend. As shown in Exhibit 1.2, capital budgeting decisions affect the asset side of the balance sheet and are concerned with a firm’s long-term investments. Capital budgeting decisions, as we mentioned earlier, are among management’s most important decisions. Over the long run, they have a large impact on the firm’s success or failure. The reason is twofold. First, capital (productive) assets generate most of the cash flows for the firm. Second, capital assets are long term in nature. Once they are purchased, the firm owns them for a long time, and they may be hard to sell without taking a financial loss.
+
+EXHIBIT 1.2 How the Financial Manager’s Decisions Affect the Balance Sheet Financial managers are concerned with three fundamental types of decisions: capital budgeting decisions, financing decisions, and working capital management decisions. Each type of decision has a direct and important effect on the firm’s balance sheet and, ultimately, the success or failure of the firm.
+
+
+The fundamental question in capital budgeting is this: Which productive assets should the firm purchase? A capital budgeting decision may be as simple as a movie theater’s decision to buy a popcorn machine or as complicated as Boeing’s decision to invest more than $6 billion to design and build the 787 Dreamliner passenger jet. Capital investments may also involve the purchase of an entire business, such as Fintech giant Intuit’s acquisition of the consumer technology company Credit Karma for approximately $7.1 billion.
+
+Regardless of the project, a good investment is one in which the benefits are worth more to the firm than the costs of the asset. For example, in February 2020 Morgan Stanley agreed to pay $13 billion to acquire E*TRADE. The acquisition of E*TRADE would give Morgan Stanley access to E*TRADE’s more than 5.2 million retail client accounts with over $360 billion in assets invested, complementing its existing wealth management business. Presumably, Morgan Stanley expects that the investment will produce a stream of future cash flows worth more than the $13 billion it agreed to pay. Suppose that Morgan Stanley estimates that in terms of the current market value, the future cash flows it can generate from E*TRADE’s client accounts are worth about $17 billion. Is the purchase a good deal for Morgan Stanley? The answer is yes because the value of the expected cash flow benefits from the purchase exceeds the cost by $4 billion ($17 billion − $13 billion = $4 billion). If the purchase of E*TRADE works out as planned, the value of Morgan Stanley will increase by $4 billion!
+
+Building Intuition
+Sound Investments Are Those Where the Value of the Benefits Exceeds Their Cost
+
+Financial managers should invest in a capital project only if the value of its future cash flows exceeds the cost of the project (benefits > cost). Such investments increase the value of the firm and thus increase stockholders’ (owners’) wealth. This rule holds whether you’re making the decision to purchase new machinery, build a new plant, or buy an entire business.
+
+Not all investment decisions are successful. Just open the business section of any newspaper on any day, and you will find stories of bad decisions. For example, Universal Pictures’ 2019 CGI movie Cats reportedly cost over $100 million in production and advertising expenses, but made only $10.9 million in worldwide box office receipts. Even with sales of future streaming rights, the overall cash flows for the movie will not come close to covering its up-front costs.
+
+Financing Decisions
+
+Financing decisions determine how firms raise cash to pay for their investments, as shown in Exhibit 1.2. Productive assets, which are long term in nature, are financed by long-term borrowing, equity investment, or both. Financing decisions involve trade-offs between the advantages and disadvantages of these financing alternatives for the firm.
+
+A major advantage of debt financing is that interest payments are tax deductible for many corporations. However, debt financing increases a firm’s risk because it creates a contractual obligation to make periodic interest payments and, at maturity, to repay the amount that is borrowed. These obligations must be paid regardless of the firm’s operating cash flow, even if the firm suffers a financial loss. If the firm fails to make payments as promised, it defaults on its debt obligation and could be forced into bankruptcy.
+
+In contrast, equity has no maturity, and there are no guaranteed payments to equity investors. In a corporation, the board of directors has the right to decide whether dividends should be paid to stockholders. This means that if a dividend payment is reduced or omitted altogether, the firm will not be in default. Unlike interest payments, however, dividend payments to stockholders are not tax deductible.
+
+Building Intuition
+Financing Decisions Affect the Value of the Firm
+
+How a firm is financed with debt and equity affects the value of the firm. The reason is that the mix between debt and equity affects the taxes the firm pays and the probability that the firm will go bankrupt. The financial manager’s goal is to determine the combination of debt and equity that minimizes the cost of financing the firm.
+
+The mix of debt and equity on the balance sheet is known as a firm’s capital structure. The term capital structure is used because long-term funds are considered capital, and these funds are raised in capital markets—financial markets where equity and debt instruments with maturities greater than one year are traded.
+
+capital structure the mix of debt and equity that is used to finance a firm
+
+capital markets financial markets where equity and debt instruments with maturities greater than one year are traded
+
+Working Capital Management Decisions
+
+Management must also decide how to manage the firm’s current assets, such as cash, inventory, and accounts receivable, as well as its current liabilities, such as trade credit and accounts payable. The dollar difference between a firm’s total current assets and its total current liabilities is called its net working capital, as shown in Exhibit 1.2. As mentioned earlier, working capital management is the day-to-day management of the firm’s short-term assets and liabilities. The goals of managing working capital are to ensure that the firm has enough cash to pay its bills and invest any spare cash to earn interest.
+
+net working capital the dollar difference between total current assets and total current liabilities
+
+The mismanagement of working capital can cause a firm to default on its debt and go into bankruptcy, even though, over the long term, the firm may be profitable. For example, a firm that makes sales to customers on credit but is not diligent about collecting the accounts receivable can quickly find itself without enough cash to pay its bills. If this condition becomes chronic, and the firm is unable to obtain alternative financing, creditors can force the firm into bankruptcy.
+
+A firm’s profitability can also be affected by its inventory level. If the firm has more inventory than it needs to meet customer demands, it has too much capital tied up in assets that are not earning cash. Conversely, if the firm holds too little inventory, it can lose sales because it does not have products to sell when customers want them. Management must therefore determine the optimal inventory level.
+
+Before You Go On
+What are the three basic types of financial decisions managers must make?
+Explain why you would make an investment if the value of the expected cash flows exceeds the cost of the project.
+Why are capital budgeting decisions among the most important decisions in the life of a firm?
+1.2 Forms of Business Organization
+LEARNING OBJECTIVE
+
+Identify common forms of business organization in the United States and their respective strengths and weaknesses.
+Firms are organized in a number of different ways in the United States. In this section we discuss some of the more common forms of organization and the factors that business owners consider when they choose which to use. Exhibit 1.3 summarizes key characteristics of common forms of business organization.
+
+Sole Proprietorships
+A sole proprietorship is a business that is owned by a single person. Its life is limited to the period that the owner (proprietor) is associated with the business because there is no ownership interest that can be transferred to someone else—there is no stock or other such interest that can be sold. A sole proprietorship ceases to exist when the proprietor stops being involved with the business. Many small businesses in the United States are organized this way.
+
+sole proprietorship a business owned by a single person
+
+EXHIBIT 1.3 Characteristics of Different Forms of Business Organization
+
+Choosing the appropriate form of business organization is an important step in starting a business. This exhibit compares key characteristics of the most popular forms of business organization in the United States.
+
+ 	Sole Proprietorship	Partnership	Corporation	Limited Liability Partnership (LLP) or Company (LLC)
+General	Limited	S-Corp.	C-Corp.
+Cost to establish	Inexpensive	More costly	More costly	More costly	More costly	More costly
+Life of entity	Limited	Flexible	Flexible	Indefinite	Indefinite	Flexible
+Control by founder over business decisions	Complete	Shared	Shared	Depends on ownership	Depends on ownership	Shared
+Access to capital	Very limited	Limited	Less limited	Less limited	Excellent	Less limited
+Cost to transfer ownership	High	High	High	High	Can be low	High
+Separation of management and investment	No	No	Yes	Yes	Yes	Yes
+Potential owner/manager conflicts	No	No	Some	Potentially high	Potentially high	Some
+Ability to provide incentives to attract and retain high-quality employees	Limited	Good	Good	Good	Good	Good
+Liability of owners	Unlimited	Unlimited	Unlimited for general partner	Limited	Limited	Limited
+Tax treatment of income	Flow-through	Flow-through	Flow-through	Flow-through	Double tax	As elected
+Tax deductibility of owner benefits	Limited	Limited	Limited	Limited	Less limited	Limited
+A sole proprietorship is the simplest and least expensive form of business to set up and is the least regulated. To start a sole proprietorship, all you have to do is obtain the business licenses required by your local and state governments.
+
+The ownership structure of a sole proprietorship has both advantages and disadvantages. Among the advantages is the fact that the proprietor does not have to share decision making with anyone and can run the business as he or she chooses.
+
+There are several disadvantages related to the fact that there is no stock or other ownership interest to sell to others. First, the amount of equity capital that can be raised to finance the business is limited to the owner’s personal wealth. This can restrict growth for the business unless the proprietor is very wealthy. Second, it can be more costly to transfer ownership. The proprietor must sell the assets of the business directly, rather than indirectly through the sale of an ownership interest in an operating business. The business must essentially be re-established every time it is sold. Third, because the proprietor provides all of the equity capital and manages the business, there is no separation of the management and investment roles. This limits the ability of good managers to form a business if they do not also have capital to invest. Fourth, it is not possible to provide employees with compensation in the form of ownership interests, such as stock or stock options, which can motivate them to work harder.
+
+Another disadvantage of a sole proprietorship is that proprietor faces unlimited liability. If someone is harmed by the business, the proprietor’s liability extends beyond the money invested in the business. The proprietor can lose some or all of his or her personal wealth, too.
+
+Finally, profits from a sole proprietorship flow through to the proprietor’s personal tax return, meaning that the business does not pay taxes before profits are distributed to the owner. Because the business is not subject to income taxes, profits are not subject to double taxation as in a C-corporation (described later). There are limitations on tax deductions for personal expenses, such as those associated with health insurance, but the costs of these limitations are often outweighed by the benefits from the flow-through of profits in a sole proprietorship.
+
+Partnerships
+A partnership consists of two or more owners who have joined together legally to manage a business. To form a partnership, the owners (partners) enter into an agreement that details how much capital each partner will invest in the partnership, what their management roles will be, how key management decisions will be made, how the profits will be divided, and how ownership will be transferred in case of specified events, such as the retirement or death of a partner. A general partnership is a partnership in which all of the partners are owners of (investors in) the business and active in managing it. In contrast, a limited partnership has both general partners, who are owners and managers, and limited partners, who are owners but not managers.
+
+partnership two or more owners who have joined together legally to manage a business and share its profits
+
+Partnerships are more costly to form than sole proprietorships because the partners must hire an attorney to draw up and maintain the partnership agreement, which specifies the nature of the relationships between or among the partners. On the other hand, partnership agreements can be amended to allow for the business to continue when a partner leaves. The ability to make the life of a business independent of that of the partners makes it easier to raise capital and less costly for the partners to sell their interests at an attractive price.
+
+Many of the other advantages and disadvantages of a general partnership are similar to those of a sole proprietorship. A key disadvantage of a general partnership is that, like the proprietor in a sole proprietorship, all partners have unlimited liability. This liability can be even worse than in a sole proprietorship because a general partner can be held liable for all of the partnership’s debts and other obligations, regardless of what proportion of the business he or she owns or how the debt or other obligations were incurred.
+
+The problem of unlimited liability is avoided for some partners in a limited partnership because limited partners can generally only lose the amount of money that they have invested in the business. In a limited partnership, the general partners have unlimited liability and actively manage the business, while each limited partner is liable for business obligations only up to the amount of capital he or she invested in the partnership. In other words, the limited partners have limited liability.
+
+limited liability a structure in which the legal liability of an investor is limited to the amount of capital invested in the business
+
+Corporations
+Most large businesses are organized as corporations. A corporation is a legal entity authorized under a state charter. In a legal sense, it is a “person” distinct from its owners. For example, corporations can sue and be sued, enter into contracts, borrow money, and own assets. They can also be general or limited partners in partnerships, and they can own stock in certain types of other corporations. Because a corporation is an entity that is distinct from its owners, it can have an indefinite life. Corporations hold the majority of all business assets and generate the majority of business revenues and profits in the United States. The owners of a corporation are its stockholders.
+
+corporation a legal entity formed and authorized under a state charter; in a legal sense, a corporation is a “person” distinct from its owners
+
+Starting a corporation is more costly than starting a sole proprietorship. For example, it requires writing articles of incorporation and by-laws that conform to the laws of the state of incorporation. These documents spell out the name of the corporation, its business purpose, its intended life span (unless explicitly stated otherwise, the life is indefinite), the amount of stock to be issued, and the number of directors and their responsibilities. Over the life of a successful business, these costs are not very important. However, to a cash-strapped entrepreneur, they can seem substantial.
+
+On the other hand, the corporate form of organization has several advantages. For example, shares in a corporation can be sold to raise capital from investors who are not involved in the business. This can greatly increase the amount of capital that can be raised to fund the business.
+
+Another major advantage of a corporation is that stockholders have limited liability for debts and other obligations. Owners of corporations have limited liability because corporations are legal persons that take actions in their own names, not in the names of individual owners.
+
+An S-corporation is a form of corporation that can be used by private businesses that meet certain requirements. An S-corporation can have only one class of stock and cannot have more than one hundred stockholders or any stockholders that are corporations or nonresident alien investors. In contrast, a C-corporation, which is the form used by public corporations, does not face such limits.
+
+While there are more restrictions on S-corporations, there are also advantages. Specifically, all profits earned by an S-corporation pass directly to the stockholders, just as they pass to a sole proprietor or the partners in a partnership. This means that no taxes are paid at the corporate level.
+
+In contrast, a major disadvantage of a C-corporation is that it must pay taxes on the income it earns. If the corporation pays a cash dividend, the stockholders must also pay taxes on the dividends they receive. Thus, the owners of C-corporations are subject to double taxation—first at the corporate level and then at the personal level when they receive dividends.
+
+Corporations can be classified as public or private. Most large companies prefer to operate as public corporations because large amounts of capital can be raised in public markets at a relatively low cost. Public markets, such as the New York Stock Exchange (NYSE) and NASDAQ, are regulated by the Securities and Exchange Commission (SEC).2
+
+public markets markets regulated by the Securities and Exchange Commission in which securities such as stocks and bonds are publicly traded
+
+In contrast, privately held, or closely held, corporations are owned by a small number of investors, and their shares are not traded publicly. When a corporation is first formed, the common stock is often held by a few investors, typically the founder, a small number of key managers, and financial backers. Over time, as the company grows in size and needs larger amounts of capital, management may decide that the company should “go public” in order to gain access to the public markets.
+
+privately held, or closely held, corporations corporations whose stock is not traded in the public markets
+
+Limited Liability Partnerships and Companies
+
+Historically, law firms, accounting firms, investment banks, and other professional groups were organized as sole proprietorships or partnerships. For partners in these firms, all income was taxed as personal income, and general partners had unlimited liability for all debts and other obligations of the firm. It was widely believed that in professional partnerships, such as those of attorneys, accountants, or physicians, the partners should be liable individually and collectively for the professional conduct of each partner. This structure gave the partners an incentive to monitor each other’s professional conduct and discipline poorly performing partners, resulting in a higher quality of service and greater professional integrity. Financially, however, misconduct by one partner could result in disaster for the entire firm. For example, a physician found guilty of malpractice exposes every partner in the medical practice to financial liability, even if the others never treated the patient in question.
+
+In the 1980s, because of sharp increases in the number of professional malpractice cases and large damages awards in the courts, professional groups began lobbying state legislators to create hybrid forms of business organization. One such hybrid is known as a limited liability partnership (LLP). An LLP combines some of the limited liability characteristics of a corporation with the tax advantage of a partnership. While liability varies from state to state, LLP partners in general have more limited liability than general partners in regular partnerships. Typically, they are not personally liable for any other partner’s malpractice or professional misconduct. As in regular partnerships, income to the partners of an LLP is taxed as personal income.
+
+limited liability partnership (LLP) and limited liability company (LLC) hybrid business organizations that combine some of the advantages of corporations and partnerships; in general, income to the partners is taxed only as personal income, but the partners have limited liability
+
+A limited liability company (LLC) is another hybrid form of organization that is becoming increasingly common. Like LLPs, LLCs have benefited founders of many businesses that would otherwise have been organized as limited partnerships. They also provide limited liability to the people who make the business decisions in the firm while enabling all investors to retain the flow-through tax advantages of a limited partnership.
+
+You will notice that Exhibit 1.3 indicates that the lives of partnerships, LLPs, and LLCs are flexible. This is because, while partnership, LLP, and LLC agreements can be written so that their lives are indefinite, they can also be written with a fixed life in mind. For example, private equity and venture capital limited partnerships and LLCs are typically structured so that they last only 10 years.
+
+Before You Go On
+Why are many businesses operated as sole proprietorships or partnerships?
+What are some advantages and disadvantages of operating as a corporation?
+Explain why professional partnerships such as physicians’ groups organize as limited liability partnerships.
+
+Visit the Web sites of the NYSE and NASDAQ at www.nyse.com and www.nasdaq.com to get more information about public market activity.
+
+1.3 Managing the Financial Function
+LEARNING OBJECTIVE
+
+Describe the typical organization of the financial function in a large corporation.
+As we discussed earlier, financial managers are concerned with a firm’s investment, financing, and working capital management decisions. The senior financial manager holds one of the top executive positions in the firm. In a large corporation, the senior financial manager usually has the rank of vice president or senior vice president and goes by the title of chief financial officer or CFO. In smaller firms, the job tends to focus more on the accounting function, and the top financial officer may be called the controller or chief accountant. In this section we focus on the financial function in a large corporation.
+
+chief financial officer or CFO the most senior financial manager in a company
+
+Organizational Structure
+Exhibit 1.4 shows a typical organizational structure for a large corporation, with special attention to the financial function. As shown, the top management position in the firm is the chief executive officer (CEO), who has the final decision-making authority among all the firm’s executives. The CEO’s most important responsibilities are to set the strategic direction of the firm and see that the management team executes the strategic plan. The CEO reports directly to the board of directors, which is accountable to the company’s stockholders. The board’s responsibility is to see that the top management makes decisions that are in the best interest of the stockholders.
+
+The CFO reports directly to the CEO and focuses on managing all aspects of the firm’s finances, as well as working closely with the CEO on strategic issues. A number of positions report directly to the CFO. In addition, the CFO often interacts with people in other functional areas on a regular basis because all senior executives are involved in financial decisions that affect the firm and their areas of responsibility.
+
+Positions Reporting to the CFO
+Exhibit 1.4 also shows the positions that typically report to the CFO in a large corporation and the activities managed in each area.
+
+EXHIBIT 1.4 Simplified Corporate Organization Chart The firm’s top finance and accounting executive is the CFO, who reports directly to the CEO. Positions that report directly to the CFO include the treasurer, risk manager, and controller. The internal auditor reports both to the CFO and to the audit committee of the board of directors. The external auditor and the compliance and ethics director also are ultimately responsible to the audit committee.
+
+
+The treasurer looks after the collection and disbursement of cash, investing excess cash so that it earns interest, raising new capital, handling foreign exchange transactions, and overseeing the firm’s pension fund managers. The treasurer also assists the CFO in handling important Wall Street relationships, such as those with investment bankers and credit rating agencies.
+The risk manager monitors and manages the firm’s risk exposure in financial and commodity markets and the firm’s relationships with insurance providers.
+The controller is really the firm’s chief accounting officer. The controller’s staff prepares the financial statements, maintains the firm’s financial and cost accounting systems, prepares the taxes, and works closely with the firm’s external auditors.
+The internal auditor is responsible for identifying and assessing major risks facing the firm and performing audits in areas where the firm might incur substantial losses. The internal auditor reports to the board of directors as well as the CFO.
+External Auditor
+Virtually every large corporation hires a licensed certified public accounting (CPA) firm to provide an independent annual audit of the firm’s financial statements. Through this audit the CPA comes to a conclusion as to whether the firm’s financial statements present fairly, in all material respects, the financial position of the firm and results of its activities, or in other words, whether the financial numbers are reasonably accurate, accounting principles have been consistently applied year to year and do not significantly distort the firm’s performance, and the accounting principles used conform to those generally accepted by the accounting profession. Creditors and investors require independent audits, and the SEC requires publicly traded firms to supply audited financial statements.
+
+The Audit Committee
+The audit committee, a powerful subcommittee of the board of directors, has the responsibility of overseeing the accounting function and the preparation of the firm’s financial statements. In addition, the audit committee oversees or, if necessary, conducts investigations of significant fraud, theft, or malfeasance in the firm, especially if it is suspected that senior managers in the firm may be involved.
+
+The external auditor reports directly to the audit committee to help ensure his or her independence from management. On a day-to-day basis, however, the external auditor works closely with the CFO’s staff. The internal auditor also reports to the audit committee to help ensure his or her independence from management. On a day-to-day basis, however, the internal auditor, like the external auditor, works closely with the CFO staff.
+
+The Compliance and Ethics Director
+Many publicly traded companies have a compliance and ethics director who oversees three mandated programs: (1) a compliance program that ensures that the firm complies with federal and state laws and regulations, (2) an ethics program that promotes ethical conduct among executives and other employees, and (3) a compliance hotline, which must include a whistleblower program. Like the internal auditor, the compliance director reports to the audit committee to ensure independence from management, though on a day-to-day basis the director typically reports to the firm’s legal counsel.
+
+Before You Go On
+What are the major responsibilities of the CFO?
+Identify the financial officers who typically report to the CFO and describe their duties.
+Why does the internal auditor report to both the CFO and the audit committee of the board of directors?
+
+Go to the Web site of CFO magazine at www.cfo.com to get a better idea of the responsibilities of a CFO.
+
+1.4 The Goal of the Firm
+LEARNING OBJECTIVE
+
+Explain why maximizing the value of the firm’s stock is the appropriate goal for management.
+For business owners, it is important to determine the appropriate goal for management decisions. Should the goal be to try to keep costs as low as possible? Or to maximize sales or market share? Or to achieve steady growth and earnings? Let’s look at this fundamental question more closely.
+
+What Should Management Maximize?
+Suppose you own and manage a pizza parlor. Depending on your preferences and tolerance for risk, you can set any goal for the business that you want. For example, you might have a fear of bankruptcy and losing money. To avoid the risk of bankruptcy, you could focus on keeping your costs as low as possible, paying low wages, avoiding borrowing, advertising minimally, and remaining reluctant to expand the business. In short, you will avoid any action that increases your firm’s risk. You will sleep well at night, but you may eat poorly because of meager profits.
+
+Conversely, you could focus on maximizing market share and becoming the largest pizza business in town. Your strategy might include cutting prices to increase sales, borrowing heavily to open new pizza parlors, spending lavishly on advertising, and developing exotic menu items such as pizza de foie gras. In the short run, your high-risk, high-growth strategy will have you both eating poorly and sleeping poorly as you push the firm to the edge. In the long run, you will either become very rich or go bankrupt! There must be a better operational goal than either of these extremes.
+
+Why Not Maximize Profits?
+One goal for decision making that seems reasonable is profit maximization. After all, don’t stockholders and business owners want their companies to be profitable? Although profit maximization seems a logical goal for a business, it has some serious drawbacks.
+
+A problem with profit maximization is that it is hard to pin down what is meant by “profit.” To the average businessperson, profits are just revenues minus expenses. To an accountant, however, a decision that increases profits under one set of accounting rules can reduce it under another. A second problem is that accounting profits are not necessarily the same as cash flows. For example, many firms recognize revenues at the time a sale is made, which is typically before the cash payment for the sale is received. Ultimately, the owners of a business want cash because only cash can be used to make investments or to buy goods and services.
+
+Building Intuition
+The Timing of Cash Flows Affects Their Value
+
+A dollar today is worth more than a dollar in the future because if you have a dollar today, you can invest it and earn interest. For businesses, cash flows can involve large sums of money, and receiving money one day late can cost a great deal. For example, if a bank has $100 billion of consumer loans outstanding and the average annual interest payment is 5 percent, it would cost the bank $13.7 million if every consumer decided to make an interest payment one day later.
+
+Yet another problem with profit maximization as a goal is that it does not distinguish between getting a dollar today and getting a dollar some time in the future. In finance, the timing of cash flows is extremely important. For example, the longer you go without paying your credit card balance, the more interest you must pay the bank for the use of the money. The interest accrues because of the time value of money; the longer you have access to money, the more you have to pay for it. The time value of money is one of the most important concepts in finance and is the focus of Chapters 5 and 6.
+
+Finally, profit maximization ignores the uncertainty, or risk, associated with cash flows. A basic principle of finance is that there is a trade-off between expected return and risk. When given a choice between two investments that have the same expected returns but different risk, most people choose the less risky one. This makes sense because most people do not like bearing risk and, as a result, must be compensated for taking it. The profit maximization goal ignores differences in value caused by differences in risk. We return to the important topics of risk, its measurement, and the trade-off between risk and return in Chapter 7. What is important at this time is that you understand that investors do not like risk and must be compensated for bearing it.
+
+Building Intuition
+The Riskiness of Cash Flows Affects Their Value
+
+A risky dollar is worth less than a safe dollar. The reason is that investors do not like risk and must be compensated for bearing it. For example, if two investments have the same expected return—say, 5 percent—most people will prefer the investment with the lower risk. Thus, the more risky an investment’s cash flows, the less it is worth.
+
+In sum, it appears that profit maximization is not an appropriate goal for a firm because the concept is difficult to define and does not directly account for the firm’s cash flows. What we need is a goal that looks at a firm’s cash flows and considers both their timing and their riskiness. Fortunately, we have just such a measure: the market value of the firm’s stock.
+
+Maximize the Value of the Firm’s Stock
+The underlying value of any asset is determined by the cash flows it is expected to generate in the future. This principle holds whether we are buying a bank certificate of deposit, a corporate bond, or an office building. Furthermore, as we will discuss in Chapter 9, when security analysts and investors on Wall Street determine the value of a firm’s stock, they consider (1) the size of the expected cash flows, (2) the timing of the cash flows, and (3) the riskiness of the cash flows. Notice that the mechanism for determining stock values overcomes all the cash flow objections we raised with regard to profit maximization as a goal.
+
+Thus, an appropriate goal for management is to maximize the current value of the firm’s stock. Maximizing the value of the firm’s stock is an unambiguous objective that is easy to measure for a firm whose stock is traded in a public market. We simply look at the market value of the stock online on a given day to determine the value of the stockholders’ shares and whether the price went up or down. Publicly traded securities are ideally suited for this task because public markets are wholesale markets with large numbers of buyers and sellers where securities trade near their true value.
+
+What about firms whose stock is not publicly traded, such as private corporations and partnerships? The total value of the stockholder or partner interests in such a business is equal to the value of the owner’s equity. Thus, our goal can be restated for these firms as this: Maximize the current value of owner’s equity. The only other restriction is that the entities must be for-profit businesses.
+
+Building Intuition
+The Financial Manager’s Goal Is to Maximize the Value of the Firm’s Stock
+
+The goal for financial managers is to make decisions that maximize the firm’s stock price. By maximizing stock price, management will help maximize stockholders’ wealth. To do this, managers must make investment and financing decisions so that the total value of cash inflows exceeds the total value of cash outflows by the greatest possible amount (benefits > costs). Notice that the focus is on maximizing the value of cash flows, not profits.
+
+It is important to recognize that maximizing the value of stock is not inconsistent with maximizing the value of claims to the firm’s other stakeholders. In maximizing the value of the stock, managers must make decisions that account for the interests of all stakeholders. Consider an instance where the managers of a firm decide to delay paying suppliers in an effort to increase the cash flows to the firm’s owners. This delay is likely to be met by resistance from suppliers, who might increase the prices they charge the firm in order to offset the cost of this policy to them. In the extreme, suppliers might even stop selling their products to the firm. This notion that firms must recognize the interests of stakeholders is succinctly summarized in IBM’s 2019 annual report, which states: “Our business model is built to deliver long-term value to stakeholders.” In maximizing the value of the owner’s equity, managers must make decisions that account for the interests of all stakeholders.
+
+Diversity, equity, and inclusion (DEI) programs in companies are an example of initiatives focused on an important class of stakeholders, the employees, with the intent to maximize stockholder value. DEI programs seek to bring people from diverse backgrounds— from the standpoint of age, gender, religion, etc.—to be part of the workplace and include them in decision-making process throughout the organization. Numerous studies suggest that diversity improves both financial performance and innovation, ultimately benefitting the corporate bottom line. For example, a recent report by McKinsey & Company noted that “Companies in the top-quartile for ethnic/cultural diversity on executive teams were 33% more likely to have industry-leading profitability.”3
+
+Over the last decade, financial managers have also increasingly directed their attention to issues associated with the environmental, social, and governance strategies of the firm. These factors, commonly referred to as “ESG,” have drawn the attention of customers and investors alike, suggesting that they are very important determinants of the value of a company’s stock. While the concept of ESG is quite broad, many associate the term with issues of sustainability and corporate social responsibility in evaluating the impact of the firm’s operations on the broader community. In keeping with this movement, The Business Roundtable, a group of chief executive officers of nearly 200 major U.S. corporations, issued a statement in 2019 with a new definition of the “purpose of a corporation.” As part of this statement, the CEOs emphasized that the main goals of business include investing in employees, delivering value to customers, dealing ethically with suppliers, and supporting outside communities. In response to the interests of both consumers and investors, public companies often explicitly report on their ESG-related activities, and the quality of corporate ESG strategies are rated by a variety of investment advisors.
+
+Can Management Decisions Affect Stock Prices?
+An important question is whether management decisions actually affect the firm’s stock price. Fortunately, the answer is yes. As noted earlier, a basic principle in finance is that the value of an asset is determined by the future cash flows it is expected to generate. As shown in Exhibit 1.5, a firm’s management makes numerous decisions that affect its cash flows. For example, management decides what type of products or services to produce and what productive assets to purchase. Managers also make decisions concerning the mix of debt and equity financing the firm uses, debt collection policies, and policies for paying suppliers, to mention a few examples. In addition, cash flows are affected by how efficient management is in making products, the quality of the products, management’s sales and marketing skills, and the firm’s investment in research and development for new products. Some of these decisions affect cash flows over the long term, such as the decision to build a new plant, and other decisions have a short-term impact on cash flows, such as launching an advertising campaign. For example, on November 9, 2020, Pfizer announced a successful trial outcome tied to its experimental COVID-19 vaccine. Pfizer’s stock price increased by almost 10 percent on the day of the announcement, suggesting that the vaccine was expected to have a positive impact on the firm’s long-run cash flows.
+
+The firm’s managers also must deal with a number of external factors over which they have little or no control, such as economic conditions (recession or expansion), war or peace, and new government regulations. External factors are constantly changing, and management must weigh the impact of these changes and adjust its strategy and decisions accordingly.
+
+The important point here is that, over time, management makes a series of decisions when executing the firm’s strategy that affects the firm’s cash flows and, hence, the price of the firm’s stock. Firms that have a better business strategy, are more nimble, make better business decisions, and can execute their plans well will have a higher stock price than similar firms that just can’t get it right.
+
+EXHIBIT 1.5 Major Factors Affecting Stock Prices The firm’s stock price is affected by a number of factors, and management can control only some of them. Managers exercise little control over external conditions (blue boxes), such as the state of the general economy, although they can closely observe these conditions and make appropriate changes in strategy. Managers make many other decisions that directly affect the firm’s expected cash flows (green boxes)—and hence the price of the firm’s stock.
+
+
+Before You Go On
+Why is profit maximization an unsatisfactory goal for managing a firm?
+Explain why maximizing the market price of a firm’s stock is an appropriate goal for the firm’s management.
+What is the fundamental determinant of an asset’s value?
+
+Starbucks is very active in defining its ESG strategy and management. To view the company’s 2020 Global Social Impact Report, go to: stories.starbucks.com/stories/2021/starbucks-global-environmental-and-social-impact-report-2020/
+
+1.5 Agency Conflicts: Separation of Ownership and Control
+LEARNING OBJECTIVE
+
+Discuss how agency conflicts affect the goal of maximizing stockholder value.
+We turn next to an important issue facing stockholders of large corporations: the separation of ownership and control of the firm. In a large corporation, ownership is often spread over a large number of small stockholders who may have little control over management. Managers may therefore make decisions that benefit their own interests rather than those of the stockholders. In contrast, in smaller firms, owners and managers are usually one and the same, and there is no conflict of interest between them. As you will see, this self-interested behavior may affect the value of the firm.
+
+Ownership and Control
+To illustrate, let’s continue with our pizza parlor example. As the owner of a pizza parlor, you have decided your goal is to maximize the value of the business and thereby your ownership interest. There is no conflict of interest in your dual roles as owner and manager because your personal and economic self-interest is tied to the success of the pizza parlor. The restaurant has succeeded because you have worked hard and have focused on customer satisfaction.
+
+Now suppose you decide to hire a college student to manage the restaurant. Will the new manager always act in your interest? Or could the new manager be tempted to give free pizza to friends now and then or, after an exhausting day, leave early rather than spend time cleaning and preparing for the next day? From this example, you can see that once ownership and management are separated, managers may be tempted to pursue goals that are in their own self-interest rather than the interests of the owners.
+
+Agency Relationships
+The relationship we have just described between the pizza parlor owner and the student manager is an example of an agency relationship. An agency relationship arises whenever one party, called the principal, hires another party, called the agent, to perform some service on behalf of the principal. The relationship between stockholders and management is an agency relationship. Legally, managers (who are the agents) have a fiduciary duty to the stockholders (the principals), which means managers are obligated to put the interests of the stockholders above their own. However, in these and all other agency relationships, the potential exists for a conflict of interest between the principal and the agent. These conflicts are called agency conflicts.
+
+agency conflicts conflicts of interest between a principal and an agent
+
+Do Managers Really Want to Maximize Stock Price?
+It is not difficult to see how conflicts of interest between managers and stockholders can arise in the corporate setting. In most large corporations, especially those that are publicly traded, there is a significant degree of separation between ownership and management. The largest corporations can have more than one million stockholders. As a practical matter, it is not possible for all of the stockholders to be active in the management of the firm or to individually bear the high cost of monitoring management. The bottom line is that stockholders own the corporation, but managers control the money and have the opportunity to use it for their own benefit.
+
+How might management be tempted to indulge itself and pursue its self-interest? We need not look far for an answer to this question. Corporate excesses are common. High on the list are palatial office buildings, corporate hunting and fishing lodges in exotic places, expensive corporate jets, extravagant expense-account dinners kicked off with bottles of Dom Perignon and washed down with 1953 Margaux—and, of course, a king’s compensation package.4 Besides economic nest feathering, corporate managers may focus on maximizing market share, their industry prestige, and their job security.
+
+Needless to say, these types of activities and spending conflict with the goal of maximizing a firm’s stock price. The costs of these activities are called agency costs. Agency costs are the costs incurred because of conflicts of interest between a principal and an agent. Examples are the cost of the lavish dinner mentioned earlier and the cost of a corporate jet for executives. However, not all agency costs are frivolous. The cost of hiring an external auditor to certify financial statements is also an agency cost because it is a cost that is incurred to limit actions by managers that result in agency costs.
+
+agency costs the costs arising from conflicts of interest between a principal and an agent—for example, between a firm’s owners and its managers
+
+Aligning the Interests of Managers and Stockholders
+If the linkage between stockholder and manager goals is weak, a number of mechanisms can help to better align the behavior of managers with the goals of stockholders. These include (1) board of directors, (2) management compensation, (3) managerial labor market, (4) other managers, (5) large stockholders, (6) the takeover market, and (7) the legal and regulatory environment.
+
+Board of Directors
+
+A corporation’s board of directors has a legal responsibility to represent stockholders’ interests. The board’s duties include hiring and firing the CEO, setting his or her compensation, and monitoring his or her performance. The board also approves major decisions concerning the firm, such as the firm’s annual capital budget or the acquisition of another business. These responsibilities make the board a key mechanism for ensuring that managers’ decisions are aligned with the interests of stockholders.
+
+How well boards actually perform in this role has been questioned in recent years. As an example, critics point out that some boards are unwilling to make hard decisions such as firing the CEO when a firm performs poorly. Other people believe that a lack of independence from management is a reason that boards are not as effective as they might be. For example, the CEO often chairs the board of directors. This dual position can give the CEO undue influence over the board, as the chairperson sets the agenda for and chairs board meetings, appoints committees, and controls the flow of information to the board.
+
+Management Compensation
+
+The most effective means of aligning the interests of managers with those of stockholders is a well-designed compensation (pay) package that rewards managers when they do what stockholders want them to do and penalizes them when they do not. This type of plan is effective because a manager will quickly internalize the benefits and costs of making good and bad decisions and, thus, will be more likely to make the decisions that stockholders want. Therefore, there is no need for some outside monitor, such as the board of directors, to try to figure out whether the managers are making the right decisions. The information that outside monitors have is not as good as the managers’ information, so these outside monitors are always at a disadvantage in trying to determine whether a manager is acting in the interest of stockholders.
+
+Most corporations have management compensation plans that tie compensation to the performance of the firm. The idea behind these plans is that if compensation is sensitive to the performance of the firm, managers will have greater incentives to make decisions that increase the stockholders’ wealth. Although these incentive plans vary widely, they usually include (1) a base salary, (2) a bonus based on accounting performance, and (3) some compensation that is tied to the firm’s stock price.5 The base salary ensures the executive of receiving some minimum compensation as long as he or she remains with the firm, and the bonus and stock price–based compensation are designed to align the manager’s incentives with those of the stockholders. The trick in designing such a program is to choose the right mix of these three components so that the manager has the right incentives and the overall package is sufficiently appealing to attract and retain high-quality managers at the lowest possible cost.
+
+Managerial Labor Market
+
+The managerial labor market also provides managers with incentives to act in the interests of stockholders. Firms that have a history of poor performance or a reputation for “shady operations” or unethical behavior have difficulty hiring top managerial talent. Individuals who are top performers have better alternatives than to work for such firms. Therefore, to the extent that managers want to attract high-quality people, the labor market provides incentives to run a good company.
+
+Furthermore, studies show that executives who “manage” firms into bankruptcy or are convicted of white-collar crimes can rarely secure equivalent positions after being fired for poor performance or convicted for criminal behavior. Thus, the penalty for extremely poor performance or a criminal conviction is a significant reduction in the manager’s lifetime earnings potential. Managers know this, and the fear of such consequences helps keep them working hard and honestly.6
+
+Other Managers
+
+Competition among managers within firms also helps provide incentives for each manager to act in the interests of stockholders. Managers compete to attain the CEO position and in doing so try to attract the board of directors’ attention by acting in the stockholders’ interests. Furthermore, even when a manager becomes CEO, he or she is always looking over his or her shoulder because other managers covet that job.
+
+Large Stockholders
+
+All stockholders have an interest in providing managers with incentives to maximize stockholder value. However, as we noted earlier, most stockholders in large corporations own too few shares to make it worthwhile for them to actively monitor managers. Only large stockholders, those with a significant investment in the firm, have enough money at stake and enough power to make it worthwhile for them to actively monitor managers and to try to influence their decisions. For firms that are publicly traded, many of the large stockholders are institutional investors, such as mutual funds, large commercial banks, or hedge funds.
+
+The Takeover Market
+
+The market for takeovers provides incentives for managers to act in the interests of stockholders. When a firm performs poorly because its current managers are doing a poor job, an opportunity arises for astute investors, so-called corporate raiders, to make money by buying the company at a price that reflects its poor performance and replacing the current managers with a top-flight management team. If the investors have evaluated the situation correctly, the firm will soon be transformed into a strong performer, its stock price will increase, and investors can sell their stock for a significant profit. The possibility that a firm might be discovered by corporate raiders provides incentives for managers to perform well.
+
+The Legal and Regulatory Environment
+
+Finally, the laws and regulations that firms must adhere to limit the ability of managers to make decisions that harm the interests of stockholders. An example is federal and state statutes that make it illegal for managers to steal corporate assets. Similarly, regulatory reforms such as the Sarbanes-Oxley Act, discussed next, limit the ability of managers to mislead stockholders.
+
+Sarbanes-Oxley and Other Regulatory Reforms
+Managers of public firms in the United States have long been required to make audited financial statements available to investors that show how their firms have been performing, what their assets are, and how those assets have been financed. Prior to 1933, these disclosure requirements were specified by the individual states in which firms were incorporated. Since the passage of the Securities Act of 1933, also known as the Truth in Securities Act, these requirements have been standardized throughout the country. They have evolved to the point at which financial reports must adhere to the Generally Accepted Accounting Principles (GAAP), which are discussed in Chapter 3.
+
+With the longstanding disclosure requirements for public firms, many investors during the latter part of the 1900s were comfortable with the quality of corporate financial statements. However, a series of accounting scandals and ethical lapses by corporate officers shocked the nation in the early years of the twenty-first century. A case in point was WorldCom’s bankruptcy filing in 2002 and the admission that its officers had “cooked the books” by misstating $7.2 billion of expenses, which allowed WorldCom to report profits when the firm had actually lost money. The accounting fraud at WorldCom followed similar scandals at Enron, Global Crossing, Tyco, and elsewhere. These scandals—and the resulting losses to stockholders— led to a set of far-reaching regulatory reforms passed by Congress in 2002.7 The most significant reform measure to date is the Sarbanes-Oxley Act, which focuses on (1) reducing agency costs in corporations, (2) restoring ethical conduct within the business sector, and (3) improving the integrity of the accounting reporting system within firms.
+
+Overall, these regulations require all public corporations to implement five overarching strategies. (Private corporations and partnerships are not required to implement these measures.)
+
+Ensure greater board independence. Firms must structure their boards so that the majority of the members are outside directors. Furthermore, it is recommended that the positions of chair and CEO be separated. Finally, Sarbanes-Oxley makes it clear that board members have a fiduciary responsibility to represent and act in the interest of stockholders, and board members who fail to meet their fiduciary duty can be fined and receive jail sentences.
+Establish internal accounting controls. Firms must establish internal accounting control systems to protect the integrity of the accounting systems and safeguard the firms’ assets. The internal controls are intended to improve the reliability of accounting data and the quality of financial reports and to reduce the likelihood that individuals within the firm engage in accounting fraud.
+Establish compliance programs. Firms must establish corporate compliance programs that ensure that they comply with important federal and state regulations. For example, a compliance program would document whether a firm’s truck drivers complied with all federal and state truck and driver safety regulations, such as the number of hours one can drive during the day and the gross highway weight of the truck.
+Establish an ethics program. Firms must establish ethics programs that monitor the conduct of employees and executives. Among other features, these programs must include a whistleblower protection provision. The intent is to create an ethical work environment so that employees will know what is expected of them in their relationships with customers, suppliers, and other stakeholders.
+Expand the audit committee’s oversight powers. The external auditor, the internal auditor, and the compliance and ethics director owe their ultimate legal responsibilities to the audit committee, not to the firm. In addition, the audit committee has the unconditional power to probe and question any person in the firm, including the CEO, regarding any matter that might materially impact the firm or its financial statements.
+Exhibit 1.6 summarizes some of the regulatory requirements that are designed to reduce agency costs.
+
+A noticeable shift has occurred in the behavior of board members and management since the Sarbanes-Oxley Act was passed. Boards appear much more serious about monitoring firms’ performance and ratifying important decisions by management. Audit committees, with their new independence and investigative powers, are providing greater oversight over the preparation of financial statements. Stronger internal accounting control systems, compliance programs, and ethics programs are improving the integrity of accounting systems and reducing the likelihood of fraud and other illegal activities. Thus, the Sarbanes-Oxley Act does appear to be having an effect. The major complaint from business has been the cost of compliance.
+
+EXHIBIT 1.6 Corporate Governance Regulations Designed to Reduce Agency Costs
+
+These are regulatory requirements that are designed to reduce agency costs. The most important requirements resulted from the Sarbanes-Oxley Act, passed by Congress in 2002. The act was aimed at reducing agency costs, promoting ethical conduct, and improving the integrity of accounting reporting systems.
+
+Board of Directors
+Board has a fiduciary responsibility to represent the best interest of the firm’s owners.
+Majority of the board must be outside independent directors.
+Firm is required to have a code of ethics, which has to be approved by the board.
+Firm must establish an ethics program that has a complaint hotline and a whistleblower protection provision that is approved by the board.
+Separation of chairperson and CEO positions is recommended.
+Board members can be fined or receive jail sentences if they fail to fulfill their fiduciary responsibilities.
+Audit Committee
+External auditor, internal auditor, and compliance and ethics director’s fiduciary (legal) responsibilities are to the audit committee.
+Audit committee approves the hiring, firing, and fees paid to external auditors.
+CEO and CFO must certify financial statements.
+All audit committee members must be outside independent directors.
+One member must be a financial expert.
+External Auditor
+Lead partner must change every five years.
+There are limits on consulting (nonaudit) services that external auditors can provide.
+Sources: Sarbanes-Oxley Act, Public Accounting Reform and Investor Protection Act, and NYSE and NASDAQ new listing requirements.
+More recently, the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 introduced a number of other requirements for public companies. Two that have received a great deal of attention relate to executive compensation. The first requires that companies allow stockholders a nonbinding advisory vote on executive compensation policies—the so-called “say-on-pay” rule. The aim of say-on-pay is to provide shareholders with a way to send a message to the company if there are concerns about the firm’s compensation practices. The second requirement is that all companies adopt “clawback” policies to recover compensation from executives if compensation is paid based on financial statements that later have to be “materially restated.” The goal of clawbacks is to discourage executives from misreporting the firm’s accounting numbers in order to increase their pay, as any compensation they earn as a result would ultimately be “clawed back” from them.
+
+Before You Go On
+What are agency conflicts?
+What are corporate raiders?
+List the three main objectives of the Sarbanes-Oxley Act.
+
+To find out more about the Sarbanes-Oxley Act, visit www.soxlaw.com
+
+1.6 The Importance of Ethics in Business
+LEARNING OBJECTIVE
+
+Explain why ethics is an important topic in the study of corporate finance.
+We have just seen that Congress included ethics program requirements in the Sarbanes-Oxley Act. Why are ethics important to business?
+
+Business Ethics
+The term ethics describes a society’s ideas about what actions are right and wrong. Ethical values are not moral absolutes, and they can and do vary across societies. Regardless of cultural differences, however, if we think about it, all of us would probably prefer to live in a world where people behave ethically—where people try to do what is right.
+
+In our society, ethical rules include considering the impact of our actions on others, being willing to sometimes put the interests of others ahead of our own interests, and realizing that we must follow the same rules we expect others to follow. The golden rule—“Do unto others as you would have done unto you”—is an example of a widely accepted ethical norm.8
+
+Are Business Ethics Different from Everyday Ethics?
+Perhaps business is a dog-eat-dog world where ethics do not matter. People who take this point of view link business ethics to the ethics of the poker game and not to the ethics of everyday morality. Poker players, they suggest, must practice cunning deception and must conceal their strengths and their intentions. After all, they are playing the game to win. How far does one go to win?
+
+In 2002, investors learned the hard way about a number of firms that had been behaving according to the ethics of the poker game: Cunning deception and concealment of information were the order of the day at WorldCom, Enron, Global Crossing, Tyco, and a host of other firms. The market’s reaction to the behavior of these firms was to wipe out $2.3 trillion of stockholder value. More recently, in 2016, it was revealed that Wells Fargo employees had opened millions of unauthorized checking and credit card accounts for the bank’s customers. Wells Fargo dismissed more than 5,300 low-level employees and was fined $185 million; the value of the firm’s equity dropped $28 billion as this scandal developed.
+
+We believe that those who argue that ethics do not matter in business are mistaken. Indeed, most academic studies on the topic suggest that traditions of morality are very relevant to business and to financial markets in particular. The reasons are practical as well as ethical. Corruption in business creates inefficiencies in an economy, inhibits the growth of capital markets, and slows a country’s rate of economic growth.
+
+For example, as Russia made the transition to a market economy, it had a difficult time establishing a stock market and attracting foreign investment. The reason was a simple one. Corruption was rampant in local government and in business. Contractual agreements were not enforceable, and there was no reliable financial information about Russian companies. Not until the mid-1990s did some Russian companies begin to display enough financial transparency to attract investment capital.9
+
+Types of Ethical Conflicts in Business
+We turn next to a consideration of the ethical problems that arise in business dealings. Most problems involve three related areas: agency costs, conflicts of interest, and informational asymmetry.
+
+Agency Costs
+
+As we discussed earlier in this chapter, many relationships in business are agency relationships. Agents can be bound both legally and ethically to act in the interest of the principal. Financial managers have agency obligations to act honestly and to see that subordinates act honestly with respect to financial transactions. A product recall or environmental offense may cause a decline in a firm’s stock price. However, revelations of dishonesty, deception, and fraud in financial matters can have a larger and longer-lasting impact on the stock price. If the dishonesty is flagrant, the firm may go bankrupt, as we saw with the bankruptcies of Enron and WorldCom.
+
+Conflicts of Interest
+
+Conflicts of interest often arise in agency relationships. A conflict of interest in such a situation can arise when the agent’s interests are different from those of the principal. For example, suppose you’re interested in buying a house and a local real estate agent is helping you find the home of your dreams. As it turns out, the dream house is one for which your agent is also the listing agent. Your agent has a conflict of interest because her professional obligation to help you find the right house at a fair price conflicts with her professional obligation to get the highest price possible for the client whose house she has listed.
+
+Organizations can be either principals or agents and, hence, can be parties to conflicts of interest. In the past, for example, many large accounting firms provided both consulting services and audits for corporations. This dual function may compromise the independence and objectivity of the audit opinion, even though the work is done by different parts of the firm. For example, if consulting fees from an audit client become a large source of income, the auditing firm may be less likely to render an adverse audit opinion and thereby risk losing the consulting business.
+
+Conflicts of interest are typically resolved in one of two ways. Sometimes complete disclosure is sufficient. Thus, in real estate transactions, it is not unusual for the same lawyer or realtor to represent both the buyer and the seller. This practice is not considered unethical as long as both sides are aware of the fact and give their consent. Alternatively, the conflicted party can withdraw from serving the interests of one of the parties. Sometimes the law mandates this solution. For example, public accounting firms are not permitted to provide certain types of consulting services to their audit clients.
+
+Information Asymmetry
+
+Information asymmetry exists when one party in a business transaction has information that is unavailable to the other parties in the transaction. The existence of information asymmetry in business relationships is commonplace. For example, suppose you decide to sell your 10-year-old car. You know much more about the real condition of the car than does the prospective buyer. The ethical issue is this: How much should you tell the prospective buyer? In other words, to what extent is the party with the information advantage obligated to reduce the amount of information asymmetry?
+
+information asymmetry the situation in which one party in a business transaction has information that is unavailable to the other parties in the transaction
+
+Society imposes both market-based and legal solutions for transactional information asymmetries. Consider the prospective car buyer in the previous example. You can be reasonably sure that the buyer understands that he or she has less information about the car’s condition than the seller and, as a result, will pay a lower price for the vehicle. Conversely, sellers who certify or provide a warranty with respect to the condition of the vehicle reduce the concerns that buyers have about information asymmetries and therefore tend to receive higher prices.
+
+Legal solutions often require sellers to disclose material facts to buyers or prohibit trading on information that is not widely available. For example, when you sell a car, you are required to disclose to the seller whether it has been in an accident and whether the odometer has been altered. Similarly, in many states home sellers must disclose if they are aware of any major defects in their home. In the investment world, the trading of stocks based on material inside information (e.g., information that is not available to the public) has been made illegal in an effort to create a “level playing field” for all investors.
+
+The Importance of an Ethical Business Culture
+Some economists have noted that the legal system and market forces impose substantial costs on individuals and institutions that engage in unethical behavior. As a result, these forces provide important incentives that foster ethical behavior in the business community. The incentives include financial losses, legal fines, jail time, and bankruptcy. Ethicists argue, however, that laws and market forces are not enough. For example, the financial sector is one of the most heavily regulated areas of the U.S. economy. Yet despite heavy regulation, the sector has a long and rich history of financial scandals.
+
+In addition to laws and market forces, many people argue that it is important to create an ethical culture in the firm. Why is this important? An ethical business culture means that people have a set of principles—a moral compass, so to speak—that helps them identify moral issues and make ethical judgments without being told what to do. The culture has a powerful influence on the way people behave and the way they make decisions.
+
+The people at the top of a company determine whether or not the culture of that company is ethical. At Wells Fargo, for example, top officers promoted a culture of aggressive sales of its products to customers in order to increase fees, and a willingness, at times, to cross over ethical and even legal lines. The motto “Do no evil” was adopted by Google’s founders before they took the firm public in 2004.
+
+More than likely, you will be confronted with ethical issues during your professional career. Knowing how to identify and deal with ethical issues is an important part of your professional skill set. Exhibit 1.7 presents a framework for making ethical judgments.
+
+Serious Consequences
+In recent years the rules have changed, and the cost of ethical mistakes can be extremely high. In the past, the business community and legal authorities often dismissed corporate scandals as a “few rotten apples” in an otherwise sound barrel. This is no longer true today. In 2005, for instance, Bernard J. Ebbers, the 63-year-old CEO of WorldCom, was found guilty of fraud and theft and was sentenced to 25 years in prison. Judge Barbara S. Jones, acknowledging that Ebbers would probably serve the rest of his days in jail, said, “I find a sentence of anything less would not reflect the seriousness of the crime.” In the past, sentences for white-collar crimes were minimal; even for serious crimes, there often was no jail time at all. Clearly, business ethics is a topic of high interest and increasing importance in the business community and one that will be discussed throughout this book.
+
+EXHIBIT 1.7 A Framework for the Analysis of Ethical Conflicts
+
+Dealing with ethical conflicts is an inescapable part of professional life for most people. An analytical framework can be helpful in understanding and resolving such conflicts.
+The first step toward ethical behavior is to recognize that you face a moral issue. In general, if your actions or decisions will cause harm to others, you are facing a moral issue. When you find yourself in this position, you might ask yourself the following questions:
+
+What does the law require? When in doubt, consult the legal department.
+What do your role-related obligations require? What is your station, and what are its duties? If you are a member of a profession, what does the code of conduct of your profession say you should do in these circumstances?
+Are you an agent employed on behalf of another in these circumstances? If so, what are the interests and desires of the employing party?
+Are the interests of the stockholders materially affected? Your obligation is to represent the best interests of the firm’s owners.
+Do you have a conflict of interest? Will full diclosure of the conflict be sufficient? If not, you must determine what interest has priority.
+Are you abusing an information asymmetry? Is your use of the information asymmetry fair? It probably is fair if you would make the same decision if the roles of the parties were reversed or if you would publicly advocate the principle behind your decision.
+Would you be willing to have your action and all the reasons that motivated it reported in the Wall Street Journal?
+Before You Go On
+What is a conflict of interest in a business setting?
+How would you define an ethical business culture?
+Summary of Learning Objectives
+1 Identify the key financial decisions facing the financial manager of any business.
+
+The financial manager faces three basic decisions: (1) which productive assets the firm should buy (capital budgeting decisions), (2) how the firm should finance the productive assets purchased (financing decisions), and (3) how the firm should manage its day-to-day financial activities (working capital decisions). The financial manager should make these decisions in a way that maximizes the current value of the firm’s stock.
+
+2 Identify common forms of business organization in the United States and their respective strengths and weaknesses.
+
+Businesses in the United States are commonly organized as a sole proprietorship, a general or limited partnership, a corporation, or a limited liability partnership or company. Most large firms elect to organize as C-corporations because of the ease of raising money; the major disadvantage is double taxation. Smaller companies tend to organize as sole proprietorships or partnerships. The advantages of these forms of organization include ease of formation and taxation at the personal income tax rate. The major disadvantage is the owners’ unlimited personal liability. Limited liability partnerships and companies and S-corporations provide owners of small businesses who make the business decisions with limited personal liability.
+
+3 Describe the typical organization of the financial function in a large corporation.
+
+In a large corporation, the financial manager generally has the rank of vice president and goes by the title of chief financial officer. The CFO reports directly to the firm’s CEO. Positions reporting directly to the CFO generally include the treasurer, the risk manager, the controller, and the internal auditor. The audit committee of the board of directors is also important in the financial function. The committee hires the external auditor for the firm, and the internal auditor, external auditor, and compliance and ethics director all report to the audit committee.
+
+4 Explain why maximizing the value of the firm’s stock is the appropriate goal for management.
+
+Maximizing the firm’s stock value is an appropriate goal because it forces management to focus on decisions that will generate the greatest amount of wealth for stockholders. Since the value of a share of stock (or any asset) is determined by its cash flows, management’s decisions must consider the size of the cash flow (larger is better), the timing of the cash flow (sooner is better), and the riskiness of the cash flow (given equal returns, lower risk is better). In maximizing the value of the owner’s equity, managers must make decisions that account for the interests of all stakeholders.
+
+5 Discuss how agency conflicts affect the goal of maximizing stockholder value.
+
+In most large corporations, there is a significant degree of separation between management and ownership. As a result, stockholders have little control over corporate managers, and management may thus be tempted to pursue its own self-interest rather than maximizing the value of the owners’ stock. The resulting conflicts give rise to agency costs. Ways of reducing agency costs include developing compensation agreements that link employee compensation to the firm’s performance and having independent boards of directors monitor management.
+
+6 Explain why ethics is an important topic in the study of corporate finance.
+
+If we lived in a world without ethical norms, we would soon discover that it would be difficult to do business. As a practical matter, the law and market forces provide important incentives that foster ethical behavior in the business community, but they are not enough to ensure ethical behavior. An ethical culture is also needed. In an ethical culture, people have a set of moral principles—a moral compass—that helps them identify ethical issues and make ethical judgments without being told what to do.
+
+Self-Study Problems
+1.1 Give an example of a capital budgeting decision and a financing decision.
+
+
+
+1.2 What is the appropriate decision criterion for financial managers to use when selecting a capital project?
+
+
+
+1.3 What are some of the things that managers do to manage a firm’s working capital?
+
+
+
+1.4 Which one of the following characteristics does not pertain to corporations?
+
+Can enter into contracts.
+Can borrow money.
+Are the easiest type of business to form.
+Can be sued.
+Can own stock in other companies.
+
+
+1.5 What are typically the main components of an executive compensation package?
+
+
+
+Discussion Questions
+1.1 Describe the cash flows between a firm and its stakeholders.
+
+1.2 What are the three fundamental decisions the financial manager is concerned with, and how do they affect the firm’s balance sheet?
+
+1.3 What is the difference between stockholders and stakeholders?
+
+1.4 Suppose that several accountants want to start an accounting business. What organizational form would they most likely choose, and why?
+
+1.5 Why would the owners of a business choose to form a corporation even though they will face double taxation?
+
+1.6 Explain why profit maximization is not the best goal for a company. What is a better goal?
+
+1.7 What are some of the major external and internal factors that affect a firm’s stock price? What is the difference between the two general types of factors?
+
+1.8 Identify the sources of agency costs. What are some ways these costs can be controlled in a company?
+
+1.9 What is the Sarbanes-Oxley Act, and what is its focus? Why does it focus in these areas?
+
+1.10 Give an example of a conflict of interest in a business setting, other than the one involving the real estate agent discussed in the chapter text.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+1.1 Capital: What are the two basic sources of funds for all businesses?
+
+1.2 Management role: What is net working capital?
+
+1.3 Cash flows: Explain the difference between profitable and unprofitable firms.
+
+1.4 Management role: What three major decisions are of most concern to financial managers?
+
+1.5 Cash flows: What is the appropriate decision rule for a firm considering undertaking a capital project? Give a real-life example.
+
+1.6 Management role: What is a firm’s capital structure, and why is it important?
+
+1.7 Management role: What are some of the working capital decisions that a financial manager faces?
+
+1.8 Organizational form: What are the common forms of business organization discussed in this chapter?
+
+1.9 Organizational form: What are the advantages and disadvantages of a sole proprietorship?
+
+1.10 Organizational form: What is a partnership, and what is the biggest disadvantage of this form of business organization? How can this disadvantage be avoided?
+
+1.11 Organizational form: Who are the owners of a corporation, and how is their ownership represented?
+
+1.12 Organizational form: Explain what is meant by stockholders’ limited liability.
+
+1.13 Organizational form: What is double taxation?
+
+1.14 Organizational form: What is the form of business organization taken by most large companies and why?
+
+1.15 Finance function: What is the primary responsibility of the board of directors in a corporation?
+
+1.16 Finance function: All public companies must hire a certified public accounting firm to perform an independent audit of their financial statements. What exactly does the term audit mean?
+
+1.17 Firm’s goal: What are some of the drawbacks to setting profit maximization as the main goal of a company?
+
+1.18 Firm’s goal: What is the appropriate goal of financial managers? How do managers’ decisions affect how successful the firm is in achieving this goal?
+
+1.19 Firm’s goal: What are the major factors that affect a firm’s stock price?
+
+1.20 Agency conflicts: What is an agency relationship, and what is an agency conflict? How can agency conflicts be reduced in a corporation?
+
+1.21 Firm’s goal: What can happen if a firm is poorly managed and its stock price falls substantially below its potential price if the firm was better managed?
+
+1.22 Agency conflicts: What are some of the regulations that pertain to boards of directors that were put in place to reduce agency conflicts?
+
+1.23 Business ethics: How can a lack of business ethics negatively affect the performance of an economy? Give an example.
+
+1.24 Agency conflicts: What are some ways to resolve a conflict of interest?
+
+1.25 Information asymmetry: Describe what an information asymmetry is in a business transaction. Explain how the inequity associated with an information asymmetry might be, at least partially, solved through the market for goods or services.
+
+1.26 Business ethics: What ethical conflict does insider trading present?
+
+Sample Test Problems
+1.1 Identify three fundamental types of decisions that financial managers make, and identify which part of the balance sheet each of these decisions affects.
+
+1.2 Advantages of the corporate form of organization include which of the following?
+
+Reduced start-up costs.
+Greater access to capital markets.
+Unlimited liability.
+Single taxation.
+1.3 Why is stock value maximization superior to profit maximization as a goal for management?
+
+1.4 What are agency costs? Explain.
+
+1.5 Identify seven mechanisms that can help better align the goals of managers with those of stockholders.
+
+Ethics Case
+Incentives and Ethics: Cross-Selling at Wells Fargo
+
+In September 2016, news broke of Wells Fargo’s $185 million settlement with the Consumer Financial Protection Bureau, the Los Angeles City Attorney, and the Office of the Comptroller of the Currency. The penalties were assessed after investigations revealed that, over the course of five years, Wells Fargo employees had opened more than two million bank or credit card accounts without customers’ knowledge or permission. As a result, Wells Fargo fired more than 5,300 employees. In addition, the firm’s board chairman and chief executive officer (CEO), John Stumpf, was required to give up more than $69 million of compensation and retired shortly after the settlement was announced.
+
+How did such a massive fraud happen for such a long period without being discovered? At its heart, it appeared that the bank was on a strong trajectory of solid growth, which was built on the notion of cross-selling its various financial products. However, as we will see, this turned out to be problematic.
+
+Cross-Selling: Eight Is Great!
+
+Wells Fargo bank employees were encouraged to “cross-sell” products to customers. That is, someone who had a checking account could also be offered overdraft protection, a savings account, a credit card, a home equity loan, wealth management services, or other financial products that would generate additional fees for the bank. The idea behind cross-selling is that it is less costly to sell a new product to an existing customer than to a new customer. Thus, cross-selling to current customers increases fee income for the bank while keeping costs down, resulting in higher profits.
+
+In the 2010 Wells Fargo Annual Report, John Stumpf was quoted as saying “I’m often asked why we set a cross-sell goal of eight. The answer is, it rhymed with ‘great.’ Perhaps our new cheer should be: ‘Let’s go again, for ten!’” By 2015, the firm’s retail banking cross-sell was 6.11 products per household, but the message to employees was clear: “Eight is great,” and selling more products to current customers was a key focus in the firm’s Community Banking division.
+
+Is Eight That Great?
+
+As a business strategy, cross-selling is a perfectly reasonable practice. And while it certainly added to Wells Fargo’s growth and the bottom line, signs of potential problems came to light in a Los Angeles Times story that ran in late 2013.1 The article outlined a laser focus on increased sales, with employees being assigned daily targets for signing up customers for additional products. Not only was employee compensation tied to the number of new accounts opened, but at least some employees were told that if they did not meet their daily targets, they would have to work evenings and weekends to do so. Some employees even said that they were threatened with being fired if they failed to make their sales goals. The LA Times article suggested that the bank had a “pressure cooker sales culture” and reported that branch managers were asked not just to meet but to exceed daily quotas handed down from the regional head office. When commenting on the regional managers’ daily conference calls to review sales progress, one former branch manager said, “If you do not make your goal, you are severely chastised and embarrassed in front of 60-plus managers in your area by the Community Banking president.”
+
+News of potential problems in the LA area first came to light after about 30 Wells Fargo employees were fired for opening accounts that had never been used and for manipulating customer approval surveys. The newspaper also quoted a senior spokesman for the region as saying that “We found a breakdown in a small number of our team members.”2 As it turned out, the problems were considerably larger than this quote would suggest. In fact, because of the newspaper reporting, the Los Angeles city attorney initiated an investigation that ultimately led the city to sue Wells Fargo over the opening of unauthorized accounts.3 Other authorities, including the Consumer Financial Protection Bureau and the Office of the Comptroller of the Currency, also started to scrutinize the bank’s activities.
+
+The subsequent investigations discovered that employees had opened additional accounts without customer permission, transferred funds to those accounts without customers’ knowledge or consent, ordered new credit cards without customer approval, issued and activated debit cards without authorization, created fake email addresses to enroll customers in online banking, and in some cases allegedly forged customer signatures in order to open new accounts. Many customers were charged for insufficient funds or overdraft fees because the money was not in their original accounts, and credit card customers were charged annual fees, finance or interest charges, and other fees. But perhaps just as important, their trust in the company they had asked to look after their finances had been betrayed.
+
+The Fallout
+
+While the $185 million fine was small relative to Wells Fargo’s 2016 revenues of $94 billion and profits of $23 billion, in the weeks following the announcement of the settlement, the bank’s stock price declined from $49.90 (on September 8) to $44.28 by month-end—a drop of about 11 percent. And since that time, the firm has repeatedly been the focus of negative headlines in the business press. Other investigations have ensued. Board chairman and CEO John Stumpf was called to testify before the Senate Banking Committee, where he was grilled over the bank’s practices. Senator Elizabeth Warren told Stumpf, “You should resign . . . and you should be criminally investigated.” In the committee hearings, Stumpf was also asked if the firm’s board of directors would try to “claw back” any compensation paid to senior executives who were associated with the fraud. This was, perhaps, in part because Carrie Tolstedt (the head of the Community Banking division where the problems occurred) would leave the firm with an exit package worth an estimated $125 million. Stumpf’s response was, “I am not part of that process. I want to make sure nothing I say will prejudice their process.”4 Of course, the implication was that he too should be financially penalized.
+
+When it comes to recovering payments from executives in cases of fraud or financial irregularities, the Securities and Exchange Commission (SEC) has the regulatory authority to “claw back” payments to senior executives, but only if there is a “material misstatement” of a firm’s financials. The problems at Wells Fargo, however, did not rise to this level. At the same time, Wells Fargo had its own clawback policy that allowed the board to recover compensation from executives if their actions caused “reputational harm” to the company. But only after external pressure mounted to a crescendo did the board act to claw back compensation. Intially, the company announced that Tolstedt would not receive a bonus or severance, and would forfeit $19 million worth of unvested stock awards. She also agreed not to exercise around $34 million in stock options. Similarly, John Stumpf would forgo most of his 2016 salary, would receive no bonus for 2016, and would give up some $41 million in stock awards. The firm later announced it would claw back an additional $47 million from Tolstedt and another $28 million from Stumpf. Stumpf decided to retire around this time. This was a dramatic fall from grace for someone who had been named as CEO of the year by Morningstar the prior year.
+
+The fallout at Wells Fargo continues, with ongoing investigations by the company and regulators, several senior bank executives (including the regional heads of Los Angeles and Arizona) being dismissed, and lawsuits being filed by customers, former employees, and shareholders. At the same time, as part of the settlement agreement, the company has agreed to overhaul its sales practices, removing product sales goals, untying employee compensation from the number of new accounts opened, and basing pay more on branch-level as opposed to individual performance. Will these changes fix the problems? Only time will tell. What we do know is that Wells Fargo has experienced double-digit declines in new checking accounts and credit card applications every month since the settlement.
+
+Discussion Questions
+Should employee pay be linked to sales targets?
+Should the practice of cross-selling be eliminated?
+What other steps could Wells Fargo have taken ahead of time to avoid the problems that it faced?
+Should senior executives Carrie Tolstedt and John Stumpf have been financially penalized by the company?
+How important is it to have regulators like the Securities and Exchange Commission or Congress involved in the oversight of situations such as that at Wells Fargo?
+Source: www.washingtonpost.com/business/capitalbusiness/with-2519b-in-deposits-wells-fargo-remains-the-areas-largest-bank/2014/10/03/daef0fdc-4811-11e4-a046-120a8a855cca_story.html?utm_term=.a521c7505a0a
+Notes
+1 From accounting, current assets are assets that will be converted into cash within one year, and current liabilities are liabilities that must be paid within one year.
+2 We examine the public and private markets in more detail in Chapters 2 and 15.
+3 www.mckinsey.com/~/media/mckinsey/business%20functions/organization/our%20insights/delivering%20through%20diversity/delivering-through-diversity_full-report.ashx
+4 A favorite premeal “quaffing” champagne of young investment bankers on Wall Street is Dom Perignon, known as the “Domer,” which, depending on the vintage, can cost as much as $700 a bottle. Senior partners who are more genteel are reported to favor a 1953 Margaux, a French Bordeaux wine from Château Margaux; 1953 is considered a stellar vintage year, and Margaux 1953 is an excellent but very pricey choice (about $2,500 per bottle in 2020).
+5 This component, which may include stock options, will increase and decrease with the stock price.
+6 Nonquantifiable costs of convictions for crimes are the perpetrators’ personal embarrassment and the embarrassment of their families and the effect these costs may have on their lives. On average, the overall cost of such convictions is higher than even that suggested by the labor market argument.
+7 The major laws passed by Congress in this area in 2002 were the Public Accounting Reform and Investor Protection Act and the Sarbanes-Oxley Act.
+8 The golden rule can be stated in a number of ways. One version, in the Gospel of Matthew, states, “In everything do to others as you would have them do to you.” A less noble version you occasionally hear in business is “He who has the gold makes the rules.”
+9 In economics, transparency refers to openness and access to information. China faces many of the same issues today as it seeks to modernize its financial markets and attract foreign investors.
+1 www.latimes.com/business/la-fi-wells-fargo-sale-pressure-20131222-story.html
+2 www.articles.latimes.com/2013/oct/03/business/la-fi-1004-wells-fargo-firings-20131004
+3 www.lacityattorney.org/single-post/2016/09/08/Los-Angeles-City-Attorney-Mike-Feuer-Achieves-Historic-Result-in-Consumer-Action-Against-Wells-Fargo-Bank-to-Make-Restitution-to-Customers-Pay-50-million-in-Penalties-Unprecedented-Coordination-with-Federal-Regulators-to-Benefit-Consumers-Nationwide
+4 www.nytimes.com/2016/09/21/business/dealbook/wells-fargo-ceo-john-stumpf-senate-testimony.html?_r=0

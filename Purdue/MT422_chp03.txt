@@ -1,0 +1,822 @@
+PART 1
+
+Overview of Security Types
+
+
+
+“An investment operation is one which upon thorough analysis promises safety of principal and an adequate return. Operations not meeting these requirements are speculative.”
+
+–Benjamin Graham
+
+Learning Objectives
+
+Price quotes for all types of investments are easy to find, but what do they mean? Learn the answers for:
+
+Various types of interest-bearing assets.
+
+Equity securities.
+
+Futures contracts.
+
+Option contracts.
+
+You invest $5,000 in Microsoft common stock and just months later sell the shares for $7,500, realizing a 50 percent return. Not bad! At the same time, your neighbor invests $5,000 in Microsoft stock options, which are worth $25,000 at expiration—a 400 percent return. Shazam! Alternatively, your Microsoft shares fall in value to $2,500, and you realize a 50 percent loss. Too bad! But at the same time, your neighbor’s Microsoft stock options are now worthless. Clearly, there is a big difference between stock shares and stock options. Security type matters.
+
+Our goal in this chapter is to introduce you to some of the different types of securities that are routinely bought and sold in financial markets around the world. As we mentioned in Chapter 1, we will be focusing on financial assets such as bonds, stocks, futures, and options in this book, so these are the securities we briefly describe here. The securities we discuss are covered in much greater detail in the chapters ahead, so we touch on only some of their most essential features in this chapter.
+
+For each of the securities we examine, we ask three questions. First, what is its basic nature and what are its distinguishing characteristics? Second, what are the potential gains and losses from owning it? Third, how is its price quoted in the financial press?
+
+CFATM Exam Topics in This Chapter:
+
+Discounted cash flow applications (L1, S2)
+
+Fixed-income securities: Defining elements (L1, S15)
+
+Overview of equity securities (L1, S16)
+
+Derivative markets and instruments (L1, S18)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 74
+
+3.1 Classifying Securities
+To begin our overview of security types, we first develop a classification scheme for the different securities. As shown in Table 3.1, financial assets can be grouped into three broad categories, and each of these categories can be further subdivided into a few major subtypes. This classification is not exhaustive, but it covers the major types of financial assets. In the sections that follow, we describe these assets in the order in which they appear in Table 3.1.
+
+Classification of Financial Assets
+
+TABLE 3.1
+
+Basic Types	Major Subtypes
+Interest-bearing	Money market instruments
+Fixed-income securities
+Equities	Common stock
+Preferred stock
+Derivatives	Futures
+Options
+When we examine some of these security types in more detail, we will see that the distinctions can become a little blurred, particularly with some recently created financial instruments; as a result, some financial assets are hard to classify. The primary reason is that some instruments are hybrids, meaning that they are combinations of the basic types.
+
+As you may have noticed in our discussion, financial assets, such as bonds and stocks, are often called securities. They are often called financial “instruments” as well. In certain contexts, there are distinctions between these terms, but they are used more or less interchangeably in everyday discussion, so we will stick with common usage.
+
+CHECK THIS
+
+
+
+3.1aWhat are the three basic types of financial assets?
+
+3.1bWhy are some financial assets hard to classify?
+
+3.2 Interest-Bearing Assets
+Broadly speaking, interest-bearing assets (as the name suggests) pay interest. Some pay interest implicitly and some pay it explicitly, but the common denominator is that the value of these assets depends, at least for the most part, on interest rates. The reason that these assets pay interest is that they all begin life as a loan of some sort, so they are all debt obligations of some issuer, most likely a corporation or government.
+
+There are many types of interest-bearing assets. They range from the relatively simple to the astoundingly complex. We discuss some basic types and their features next. The more complex types are discussed in later chapters.
+
+MONEY MARKET INSTRUMENTS
+For the most part, money market instruments are the simplest form of interest-bearing asset. Money market instruments generally have the following two properties:
+
+money market instruments
+
+Debt obligations of large corporations and governments with an original maturity of one year or less.
+
+They are essentially IOUs sold by large corporations or governments to borrow money.
+
+They mature in less than one year from the time they are sold, meaning that the loan must be repaid within one year.
+
+page 75
+
+INVESTMENT UPDATES
+
+WHEN LOSING MONEY MAKES SENSE
+
+An interesting trend developed in European bond markets over the earlier part of this decade: many investors were increasingly willing to lend money to governments for almost nothing. Why would this be?
+
+To answer this question, consider the eurozone’s largest economy. Germany has been a driver of European economic growth and stability, and in unsteady financial markets, its bonds are considered to be among the safest assets available for investors.
+
+In fact, in mid-2012, yields on 2-year German bonds actually turned negative, falling to –0.5%. What does that mean? Investors end up receiving less money back than they invested (earning a negative yield) if they held the bonds until their maturity. In the same period, French, Danish, and Swiss bond yields also turned negative, and Finnish and Dutch bond yields fell to record lows.
+
+This flight to safety reflected a heightened aversion to risk, as other countries struggled to avoid falling into the financial crisis that brought down Greece, Portugal, and Ireland (among others). “It’s like putting money under the mattress,” Ben Rooney of CNN Money quotes Schwab fixed-income strategist Kathy Jones as saying. “Investors trust the core countries and non-euro countries to return their money, even if it costs them something.”
+
+
+
+Source: Ben Rooney, “Europe: When Losing Money Makes Sense,” CNN Money, July 16, 2012.
+
+Most money market instruments trade in very large denominations, and most, but not all, are quite liquid.
+
+The most familiar example of a money market instrument is a Treasury bill, or T-bill for short. Every week, the U.S. Treasury borrows billions of dollars by selling T-bills to the public. Like many (but not all) money market instruments, T-bills are sold on a discount basis. This means that T-bills are sold at a price that is less than their stated face value. In other words, an investor buys a T-bill at one price and later, when the bill matures, receives the full face value. The difference is the interest earned.
+
+U.S. Treasury bills are the most liquid type of money market instrument—that is, the type with the largest and most active market. Other types of money market instruments traded in active markets include bank certificates of deposit (or CDs) and corporate and municipal money market instruments.
+
+The potential gain from buying a money market instrument is fixed because the owner is promised a fixed future payment. The most important risk is the risk of default, which is the possibility that the borrower will not repay the loan as promised. With a T-bill, there is (in theory) no possibility of default, so, as we saw in Chapter 1, T-bills are essentially risk-free. In fact, most money market instruments have relatively low risk, but there are exceptions, and a few spectacular defaults have occurred in the past.
+
+Would an investor ever pay more than face value? For a money market instrument, such as a T-bill, that pays a lump sum at maturity, the answer is generally no. There are, however, extreme circumstances when investors might be willing to pay more than face value. Why would investors do so knowing that they are essentially guaranteeing that they will lose money? The answer lies in a situation called a “flight to quality.” During the financial crisis of 2008, many investors feared the financial system could collapse. Paying more than face value meant that investors were effectively willing to pay the government to “babysit” their money for a period of time. See the nearby Investment Updates box for another example of investors purposely “losing money” in this way.
+
+The financial press quotes prices for different types of money market instruments. These quotes usually appear as interest rates. When they do, some calculations will be necessary to convert the quoted interest rate to a price. The procedures are not complicated, but they involve a fair amount of detail, so we save them for another chapter.
+
+FIXED-INCOME SECURITIES
+Fixed-income securities are exactly what the name suggests: securities that promise to make fixed payments according to some preset schedule. The other key characteristic of a page 76fixed-income security is that, like a money market instrument, it begins life as a loan of some sort. Fixed-income securities are therefore debt obligations. They are typically issued by corporations and governments. Unlike money market instruments, fixed-income securities have lives that exceed 12 months at the time they are issued.
+
+fixed-income securities
+
+Longer-term debt obligations, often of corporations and governments, that promise to make fixed payments according to a preset schedule.
+
+The words “note” and “bond” are generic terms for fixed-income securities, but “fixed-income” is more accurate. This term is being used more frequently as securities are increasingly being created that don’t fit within traditional note or bond frameworks but are nonetheless fixed-income securities.
+
+EXAMPLES OF FIXED-INCOME SECURITIES To give one particularly simple example of a fixed-income security, near the end of every month, the U.S. Treasury sells over $25 billion of two-year notes to the public. If you buy a two-year note when it is issued, you will receive a check every six months for two years for a fixed amount, called the bond’s coupon, and in two years you will receive the face amount on the note.
+
+Check out bond basics at
+investinginbonds.com.
+
+Suppose you buy $1 million in face amount of a 4 percent, two-year note. The 4 percent is called the coupon rate, and it tells you that you will receive 4 percent of the $1 million face value each year, or $40,000, in two $20,000 semiannual “coupon” payments. In two years, in addition to your final $20,000 coupon payment, you will receive the $1 million face value. The price you would pay for this note depends on market conditions. U.S. government security prices are discussed in detail in a later chapter.
+
+You must be careful not to confuse the coupon rate with the current yield. The current yield is the annual coupon divided by the current bond price. For most bonds, the coupon rate never changes, but the current yield fluctuates with the price of the bond.
+
+current yield
+
+A bond’s annual coupon divided by its market price.
+
+A “Note-Worthy” Investment?
+
+EXAMPLE 3.1
+
+Suppose you buy $100,000 in face amount of a just-issued five-year U.S. Treasury note. If the coupon rate is 5 percent, what will you receive over the next five years if you hold on to your investment?
+
+You will receive 5 percent of $100,000, or $5,000, per year, paid in two semiannual coupons of $2,500. In five years, in addition to the final $2,500 coupon payment, you will receive the $100,000 face amount.
+
+To give a slightly different example, suppose you take out a 48-month car loan. Under the terms of the loan, you promise to make 48 payments of $400 per month. It may not look like it to you, but in taking out this loan, you have issued a fixed-income security to your bank. In fact, your bank may even turn around and sell your car loan (perhaps bundled with a large number of other loans) to an investor. This process of securitization is most active in the markets for home mortgages and student loans, which are routinely bought and sold in huge quantities.
+
+FIXED-INCOME PRICE QUOTES Corporate bond dealers now report trade information through what is known as the Trade Reporting and Compliance Engine (TRACE). This system is monitored by the Financial Industry Regulatory Authority, or FINRA for short. As this is written, daily transaction prices are reported on thousands of bonds. A nearby Work the Web box shows you how to get data from TRACE through FINRA’s website.
+
+To learn more about TRACE, visit
+www.finra.org.
+
+As shown in Figure 3.1, FINRA provides an online daily snapshot of the data from TRACE by reporting information on the most active investment-grade bonds. Information for the most active high-yield bonds and convertible bonds is available, too. Most of the information is self-explanatory.
+
+Corporate Bond Trading
+
+FIGURE 3.1
+
+
+Source: FINRA, accessed January 8, 2019, https://finra-markets.morningstar.com/BondCenter. FINRA is a registered trademark of the Financial Industry Regulatory Authority, Inc.
+
+page 77
+
+WORK THE WEB
+
+Corporate bond quotes have become more available with the rise of the internet. One site where you can find current corporate bond prices is https://finra-markets.morningstar.com/BondCenter. We went there and searched for bonds issued by 3M Co. (MMM), long known as Minnesota Mining and Manufacturing Company. Here is a look at some of these bonds:
+
+We will focus on the last bond in the list. The bond has a coupon rate of 3.875 percent and matures on June 15, 2044. The last sale price of this bond was $97.444 per $100 of face value. At this price, the yield to maturity is 4.037 percent. By clicking on the link for this bond, you can obtain more detailed information such as the issue size, historical pricing, and yields.
+
+
+Source: FINRA, January 2019.
+
+page 78
+
+Corporate Bond Quotes
+
+EXAMPLE 3.2
+
+In Figure 3.1, which bond has the longest maturity? Assuming a face value of $1,000 each, how much would you have to pay for 100 of these bonds?
+
+The bond with the longest maturity is the last bond in the list, which was issued by General Motors. It has a 5.95 percent coupon and matures in April 2049. Based on the reported last price, the price you would pay is 94.052 percent of face value per bond. Assuming a $1,000 face value, this amount is $940.52 for one bond, or $94,052 for 100 bonds.
+
+The potential gains from owning a fixed-income security come in two forms. First, there are the fixed payments promised and the final payment at maturity. In addition, the prices of most fixed-income securities rise when interest rates fall, so there is the possibility of a gain from a favorable movement in rates. An increase in interest rates will produce a loss.
+
+Another significant risk for many fixed-income securities is the possibility that the issuer will not make the promised payments. This risk depends on the issuer. It doesn’t exist for U.S. government bonds, but for many other issuers the possibility is very real. Finally, unlike most money market instruments, fixed-income securities are often quite illiquid, again depending on the issuer and the specific type.
+
+CHECK THIS
+
+
+
+3.2aWhat are the two basic types of interest-bearing assets?
+
+3.2bWhat are the two basic features of a fixed-income security?
+
+3.3 Equities
+Equities are probably the most familiar type of security. They come in two basic forms: common stock and preferred stock. Of these, common stock is much more important to most investors, so we discuss it first.
+
+Are you a Foolish investor? Go to
+fool.com
+and find the 13 steps under “How to Invest.”
+
+COMMON STOCK
+Common stock represents ownership in a corporation. If you own 1,000 shares of IBM, for example, then you own about .00011 percent of IBM (IBM has roughly 900 million shares outstanding). It’s really that simple. As a part owner, you are entitled to your pro rata share of anything paid out by IBM. If IBM were to be sold or liquidated, you would receive your share of whatever was left over after all of IBM’s debts and other obligations (such as wages) were paid.
+
+As an owner, you also have the right to vote on important matters regarding IBM. Unfortunately, your .00011 percent ownership probably isn’t going to carry much weight in any votes. To make matters worse, some companies adopt a dual-class share system. Under this approach, companies issue two (or more) types of shares. The special voting class stock, which is usually retained by the founding owners, carries additional votes relative to the common shares owned by typical investors. A dual-class share system allows the founders of the firm to maintain control without having a majority ownership of the shares.
+
+Table 3.2 provides some examples of well-known companies that have chosen this share structure, along with the number of extra votes that the special share class carries. For example, for every share of the special voting stock that Mark Zuckerberg, Facebook’s founder, owns, he receives 10 votes. A recent trend, however, involves adding a sunset provision for these share structures. Under a sunset provision, all share classes revert to a normal one-share, one-vote structure at a specified time, say in five years.
+
+Companies with Dual-Class Shares
+
+TABLE 3.2
+
+Company	Voting Rights
+Groupon	150  
+Zynga	70
+Facebook	10
+Google	10
+LinkedIn	10
+Zillow	10
+page 79
+
+The potential benefits from owning common stock come primarily in two forms. First, many companies (but not all) pay cash dividends to their shareholders. However, neither the timing nor the amount of any dividend is guaranteed. At any time, it can be increased, decreased, or omitted altogether. Dividends are paid strictly at the discretion of a company’s board of directors, which is elected by the shareholders.
+
+We typically think dividends come in cash. They do, but there are other forms of dividends. While not common, some firms pay their shareholders a dividend in the form of the actual products the firm produces. These in-kind payouts are called a whiskey dividend, because the National Distillers Products Corp. was among the first companies to make such a dividend. In 1933, National Distillers provided a coupon to its shareholders: For every five shares owned, an investor received a case of whiskey. We are sure that this dividend attracted a loyal ownership base.
+
+The second potential benefit from owning stock is that the value of your stock may rise because share values overall increase or because the future prospects for your particular company improve (or both). The downside is the reverse: Your shares may lose value if either the economy or your particular company falters. As we saw back in Chapter 1, both the potential rewards and the risks from owning common stock have been substantial, particularly shares of stock in smaller companies.
+
+PREFERRED STOCK
+The other type of equity security, preferred stock, differs from common stock in several important ways. First, the dividend on a preferred share is usually fixed at some amount and never changed. Further, in the event of liquidation, preferred shares have a particular face value. The reason that preferred stock (or preference stock, as it is sometimes termed) is called “preferred” is that a company must pay the fixed dividend on its preferred stock before any dividends can be paid to common shareholders. In other words, preferred shareholders must be paid first.
+
+The dividend on preferred stock can be omitted at the discretion of the board of directors, so, unlike a debt obligation, there is no legal requirement that the dividend be paid (as long as the common dividend is also skipped). However, some preferred stock is cumulative, meaning that any and all skipped dividends must be paid in full (although without interest) before common shareholders can receive a dividend.
+
+Potential gains from owning preferred stock consist of the promised dividend plus any gains from price increases. The potential losses are the reverse: The dividend may be skipped and the value of your preferred shares may decline from either marketwide decreases in value or diminished prospects for your particular company’s future business (or both).
+
+In many ways, preferred stock resembles a fixed-income security; in fact, it is sometimes classified that way. In particular, preferred stocks usually have a fixed payment and a fixed liquidation value (but no fixed maturity date). The main difference is that preferred stock is not a debt obligation. Also, for accounting and tax purposes, preferred stock is treated as equity.
+
+Preferred stock is a good example of why it is sometimes difficult to neatly and precisely classify every security type. To further complicate matters, some preferred stock issues have dividends that are not fixed. So it seems clear that these securities are not fixed-income securities. However, some bond issues make no fixed payments and allow the issuer to skip payments under certain circumstances. As we mentioned earlier, these are examples of hybrid securities.
+
+page 80
+
+To give a more difficult example, consider a convertible bond. Such a bond is an ordinary bond in every way except that it can be exchanged for a fixed number of shares of stock at the bondholder’s discretion. Whether this is really a debt or equity instrument is difficult (or even impossible) to say. We discuss this particular security in more detail in a later chapter.
+
+COMMON STOCK PRICE QUOTES
+Unlike fixed-income securities, the price quotes on common and preferred stock are fairly uniform. Part of the common stock page found at wsj.com can be seen in Figure 3.2. Locate the entry for AT&T (T).
+
+NYSE Most Active Stocks
+
+FIGURE 3.2
+
+
+Source: www.wsj.com, January 8, 2019. The Wall Street Journal, 2015. Dow Jones & Company Inc.
+
+The “Issue” column contains the company name and its ticker symbol. The next column, “Volume,” is the actual number of shares traded for the day: 39,834,094 (as of close on January 7, 2019). Because investors usually trade stock in multiples of 100 shares, called “round lots,” sometimes you will see volume figures reported in multiples of hundreds. For example, if you wanted to report AT&T’s volume in round lots, you would report volume as 398,341.
+
+The next three columns contain AT&T’s current share price, the share price change (“Chg”) measured in dollars, and the percent change from the previous day’s closing price (“% Chg”). You can see that AT&T shares closed at $30.89, which is $.55 higher than the previous day. In percent change terms, you can verify that the price is 1.81 percent higher than the previous closing price. At the end of the day, the closing price is the last price at which a trade occurred before regular trading hours ended at 4:00 P.M. EST.
+
+You can also get preferred stock quotes at wsj.com. They appear in a separate section with a relatively simple format. Of course, the information contained in The Wall Street Journal and at wsj.com can be obtained online in many other places, too. The nearby Work the Web box describes one way.
+
+To interpret this information, you will need to know the company’s ticker symbol. The ticker symbol is a unique combination of letters assigned to each company. Nordstrom’s ticker symbol, for example, is JWN. Most stocks listed on the New York Stock Exchange (NYSE) have ticker symbols with one to three letters, such as T for AT&T, VZ for Verizon, or WMT for Walmart. Stocks listed on the NASDAQ market generally have ticker symbols with four letters, such as AMZN for Amazon or TSLA for Tesla.
+
+page 81
+
+WORK THE WEB
+
+Throughout this chapter, we have looked at information available online at websites such as wsj.com. One problem is that prices reported are sometimes from the previous day. Before you trade, you’ll want more up-to-date prices, particularly in fast-moving markets. Using an internet site, such as Yahoo! Finance, let’s get some intraday prices for Nordstrom, Inc., ticker JWN.
+
+Most of the information here is self-explanatory. The abbreviation “Market Cap” is short for “market capitalization,” which is the total value of all outstanding shares. Notice, on this particular day, JWN was up 2.23 percent, compared to the $48.16 (“Prev Close”) that you would see in the print version of The Wall Street Journal. We’ll discuss other unfamiliar terms, such as “Bid” and “Ask,” a little later in the book. For now, a good exercise is to select a detailed quote yourself and find out what information is in the links below the stock quote.
+
+
+Source: Yahoo! Finance, January 8, 2019.
+
+Stock price information is also available all day long on television and on the web. For example, the on-air “ticker tape” is a familiar sight on television, particularly on financially oriented shows and networks. The most widely watched financial channel is CNBC. All day long, at the bottom of the screen, two rows of information scroll by. The upper band shows trading on the NYSE and the lower band shows trading on the NASDAQ. A lot of other information (too much, in fact, for us to cover here) will also scroll by.
+
+The display is called a “ticker” because, at one time, information was printed on a thin strip of “ticker tape” (paper) by a “ticker” machine (so named because of the sound it made while printing). In fact, the reason for ticker symbols in the first place was to make information quicker and easier to print. Perhaps you have seen old film footage of a “ticker tape parade” in New York. The paper raining down on the celebrities and dignitaries is ticker tape. Ticker machines date to an era before television (if you can imagine such a time). The first one was introduced in 1867 and was later improved upon by none other than Thomas Edison.
+
+To learn more, visit the website
+stocktickercompany.com.
+
+Some investors don’t necessarily want minute-by-minute price changes. For example, a long-term investor might want a list of companies that pay (high) dividends. A sample of such a list from wsj.com appears in Figure 3.3. Notice that much of the information is similar to the information in Figure 3.2. You can find some additional information, however, on dividends, dividend yields, and price-earnings ratios. The moral of the story is that there are page 82many sources of financial data, all with many different types of data. As a result, it is becoming easier for investors to find the specific information they desire.
+
+Top-Yielding Stocks, Automobiles/Parts
+
+FIGURE 3.3
+
+
+Source: www.wsj.com, January 9, 2019. The Wall Street Journal, 2019. Dow Jones & Company Inc.
+
+You can see that this list is for a group of stocks in the “Automobiles/Parts” sector. Locate the entry for Harley-Davidson (HOG). The first two columns in Figure 3.3 are the annual dividend amount and dividend yield, $1.48 and 4.10 percent, respectively, for Harley-Davidson. Most dividend-paying companies pay their dividends quarterly. So, the dividend number reported here, $1.48, is actually four times the most recent quarterly dividend. The dividend yield is the annualized dividend amount divided by the closing price.
+
+The last column contains the price-earnings ratio, or “PE ratio.” This ratio, as the name suggests, is equal to the price per share divided by earnings per share. Earnings per share is calculated as the sum of earnings per share over the last four quarters. We will discuss dividends, dividend yields, and price-earnings ratios in detail in a later chapter.
+
+CHECK THIS
+
+
+
+3.3aWhat are the two types of equity securities?
+
+3.3bWhy is preferred stock sometimes classified as a fixed-income security?
+
+3.4 Derivatives: Futures Contracts
+There is a clear distinction between real assets, which are essentially tangible items, and financial assets, which are pieces of paper describing legal claims. Financial assets can be further subdivided into primary and derivative assets. A primary asset (sometimes called a primitive asset) is a security that was originally sold by a business or government to raise money; it represents a claim on the assets of the issuer. Thus, stocks and bonds are primary financial assets.
+
+primary asset
+
+Security originally sold by a business or government to raise money.
+
+page 83
+
+In contrast, as the name suggests, a derivative asset is a financial asset that is derived from an existing primary asset rather than issued by a business or government to raise capital. As we will see, derivative assets usually represent claims either on other financial assets, such as shares of stock or even other derivative assets, or on the future price of a real asset such as gold. Beyond this, it is difficult to give a general definition of the term “derivative asset” because there are so many different types, and new ones are created almost every day. On the most basic level, however, any financial asset that is not a primary asset is a derivative asset.
+
+derivative asset
+
+A financial asset that is derived from an existing traded asset rather than issued by a business or government to raise capital. More generally, any financial asset that is not a primary asset.
+
+To give a simple example of a derivative asset, imagine that you and a friend buy 1,000 shares of a dividend-paying stock, perhaps the AT&T stock we discussed. You each put up half the money, and you agree to sell your stock in one year. Furthermore, the two of you agree that you will get all the dividends paid while your friend gets all the gains or absorbs all the losses on the 1,000 shares.
+
+This simple arrangement takes a primary asset, shares of AT&T stock, and creates two derivative assets, the dividend-only shares that you hold and the no-dividend shares held by your friend. Derivative assets such as these actually exist, and there are many variations on this basic theme.
+
+Two types of derivative assets, futures and options, are particularly important. Many other types exist, but they can usually be built up from these two basic types, possibly by combining them with other primary assets. Futures are the simpler of the two, so we discuss them first.
+
+FUTURES CONTRACTS
+In many ways, a futures contract is the simplest of all financial assets. A futures contract is an agreement made today regarding the terms of a trade that will take place later. Futures contracts are traded at futures exchanges, which are regulated markets that match buyers and sellers. For example, suppose you know that you will want to buy 100 ounces of gold in six months. One thing you could do is strike a deal today with a seller in which you promise to pay, say, $1,200 per ounce in six months for the 100 ounces of gold. In other words, you and the seller, through a futures exchange, agree that six months from now, you will exchange $120,000 for 100 ounces of gold. The agreement that you have created is a futures contract.
+
+futures contract
+
+An agreement made today regarding the terms of a trade that will take place later.
+
+With your futures contract, you have locked in the price of gold six months from now. Suppose that gold is actually selling for $1,350 per ounce in six months. You benefit from having entered into the futures contract because you have to pay only $1,200 per ounce. However, if gold is selling for $1,100, you lose because you are forced to pay $1,200 per ounce. Thus, a futures contract is risky because the price of gold in the future can differ from the futures contract price today. Notice that with your futures contract, no money changes hands today.
+
+You can download lots of basic futures information from the “Education” link at
+cmegroup.com.
+
+After entering into the futures contract, what happens if you change your mind in, say, four months and you want out of the contract? The answer is that you can sell your contract to someone else. You would generally have a gain or a loss when you sell. The contract still has two months to run. If market participants generally believe that gold will be worth more than $1,200 when the contract matures in two months, then your contract is valuable and you would have a gain if you sold it. If, on the other hand, market participants think gold will not be worth $1,200, then you would have a loss on the contract if you sold it because you would have to pay someone else to take it off your hands.
+
+Futures contracts are traded all over the world on many types of assets and can be traced back to ancient civilizations. As we discuss in detail in a later chapter, there are two broad categories of futures contracts: financial futures and commodity futures. The difference is that, with financial futures, the underlying asset is intangible, usually stocks, bonds, currencies, or money market instruments. With commodity futures, the underlying asset is a real asset, typically either an agricultural product (such as cattle or wheat) or a natural resource product (such as gold or oil).
+
+FUTURES PRICE QUOTES
+An important feature of exchange-traded futures contracts is that they are standardized, meaning that one contract calls for the purchase of a specific quantity of the underlying asset. Further, the contract specifies in detail what the underlying asset is and where it is to be delivered. For example, with a wheat contract, one contract specifies that 5,000 bushels of a page 84particular type of wheat will be delivered at one of a few approved locations on a particular date in exchange for the agreed-upon futures contract price.
+
+In Figure 3.4, futures price quotations for U.S. Treasury bonds (or “T-bonds” for short) are seen as they appear online at cmegroup.com. A nearby Work the Web box contains additional information on finding and reading futures price quotes. Looking at Figure 3.4, these are quotes for delivery of T-bonds with a total par, or face, value of $100,000. These contracts are traded on the CBOT, which is the Chicago Board of Trade (part of the CME Group).
+
+Futures Trading, U.S. 10-Year T-Note
+
+FIGURE 3.4
+
+
+Source: www.cmegroup.com, January 8, 2019.
+
+The “Month” column in Figure 3.4 tells us the delivery date for the bond specified by the contract. For example, “JUN 2019” indicates that the second contract listed is for T-bond delivery in June 2019. Following the delivery month, we have a series of prices. In order, we have the current (or last) price, the change from the prior close, the prior closing (or settle) price, the open price, the high price, and the low price. The open price is the price at the start of the trading day; the high and low are the highest and lowest prices for the day. The “Volume” column tells us how many contracts have been traded during the current day.
+
+To get a better idea of how T-bond futures contracts work, suppose you buy one June 2019 contract at the current settle price, which is the column labeled “Last.” What you have done is agree to buy T-bonds with a total par value of $100,000 in June at a price of 122’010 per $100 of par value, where the “010” represents  percent of par value. Thus, 122’010 can also be written as  which represents a price of $122,031.25 per $100,000 face value. No money changes hands today. If you take no further action, however, when June rolls around, your T-bonds will be delivered and you must pay for them at that time.
+
+Actually, most futures contracts do not result in delivery. Most buyers and sellers close out their contracts before the delivery date. To close out a contract, you take the opposite side. For example, suppose that with your one T-bond contract, you later decide you no longer wish to be obligated. To get out, you sell one contract, thereby canceling your position.
+
+GAINS AND LOSSES ON FUTURES CONTRACTS
+Futures contracts have the potential for enormous gains and losses. To see why, let’s consider again buying T-bond contracts based on the current settle prices in Figure 3.4. To make matters somewhat more interesting, suppose you buy 15 March contracts at the last price of 121’265 per $100 of par value.
+
+One month later, perhaps because of falling inflation, the futures price of T-bonds for March delivery rises five dollars to 126’265. This may not seem like a huge increase, but it generates a substantial profit for you. You have locked in a price of 121’265 per $100 par value. The price has risen to 126’265, so you make a profit of $5 per $100 of par value, or $5,000 per $100,000 face value. With 15 contracts, each of which calls for delivery of $100,000 in face value of T-bonds, you make a tidy profit of 15 × $5,000 = $75,000. Of course, if the price had decreased by five dollars, you would have lost $75,000 on your 15-contract position.
+
+page 85
+
+WORK THE WEB
+
+Futures price quotes have also become more available with the rise of the internet. The primary site for finding futures price quotes is cmegroup.com.
+
+At the CME Group, futures contracts for agricultural products (e.g., corn, wheat, soybeans), energy (oil, natural gas), interest rates (U.S. Treasury notes and bonds, German bonds), foreign currency (yen, euro), metals (gold, silver), and indexes (Dow Jones, S&P 500) are listed. A complete list of all the contracts traded can be found on the website. Each futures contract has some unique aspects. For example, here is a sample soybean futures screen from the CME Group’s website.
+
+
+Source: www.cmegroup.com, January 8, 2019.
+
+Locate the line that starts with MAR 2019. This futures contract calls for March 2019 delivery of 5,000 bushels of soybeans. By convention, soybean prices are still quoted in cents and eighths of a cent, even though the minimum price change is one-fourth cent, or two-eighths of a cent. In the “Last” column, you can see an entry of 917’6, which is 917 and 6/8 cents, or $9.1775. The daily low was 916’2, which is 916 and 2/8 cents, or $9.1625.
+
+The volume of 57,049 says that there have been 57,049 futures contracts traded today. This volume represents 57,049 × 5,000 = 285,245,000 bushels. The dollar, or notional, value of these contracts is the number of bushels times the per-bushel price. In this case, the March 2019 contracts alone have a dollar value of over $2.6 billion!
+
+Understanding futures markets, their use, and their quoting conventions takes a great deal of study. Your school might even offer a course where you can study futures markets in depth.
+
+page 86
+
+Future Shock
+
+EXAMPLE 3.3
+
+It is July. Suppose you purchase five September T-bond contracts at the prior settle price of 122’175. How much will you pay today? Suppose in one month you close your position and the September futures price at that time is 117’165. Did you make or lose money? How much?
+
+When you purchase the five contracts, you pay nothing today because the transaction is for September. However, you have agreed to pay 122’175 per $100 par value. If, when you close your position in a month, the futures price is 117’165, you have a loss of  per $100 par value, or  per contract. Your total loss is thus $5,031.25 × 5 contracts, or $25,156.25 in all (ouch!).
+
+CHECK THIS
+
+
+
+3.4aWhat is a futures contract?
+
+3.4bWhat are the general types of futures contracts?
+
+3.4cExplain how you make or lose money on a futures contract.
+
+3.5 Derivatives: Option Contracts
+An option contract is an agreement that gives the owner the right, but not the obligation, to buy or sell (depending on the type of option) a specific asset at a specified price for a set period of time. The most familiar options are stock options. These are options to buy or sell shares of stock, and they are the focus of our discussion here. Options are a very flexible investment tool, and a great deal is known about them. We present some of the most important concepts here; our detailed coverage begins in a later chapter.
+
+option contract
+
+An agreement that gives the owner the right, but not the obligation, to buy or sell a specific asset at a specified price for a set period of time.
+
+OPTION TERMINOLOGY
+Options come in two flavors, calls and puts. The owner of a call option has the right, but not the obligation, to buy an underlying asset at a fixed price for a specified time. The owner of a put option has the right, but not the obligation, to sell an underlying asset at a fixed price for a specified time.
+
+call option
+
+Grants the holder the right, but not the obligation, to buy the underlying asset at a given strike price.
+
+put option
+
+Grants the holder the right, but not the obligation, to sell the underlying asset at a given strike price.
+
+Options occur frequently in everyday life. Suppose that you are interested in buying a used car. You and the seller agree that the price will be $8,000. You give the seller $200 to hold the car for one week, meaning that you have one week to come up with the $8,000 purchase price, or else you lose your $200.
+
+This agreement is a call option. You paid the seller $200 for the right, but not the obligation, to buy the car for $8,000. If you change your mind because, for example, you find a better deal elsewhere, you can walk away. You’ll lose your $200, but that is the price you paid for the right, but not the obligation, to buy. The price you pay to purchase an option, the $200 in this example, is called the option premium.
+
+option premium
+
+The price you pay to buy an option.
+
+A few other definitions will be useful. First, the specified price at which the underlying asset can be bought or sold with an option contract is called the strike price, the striking price, or the exercise price. Using an option to buy or sell an asset is called exercising the option.
+
+strike price
+
+Price specified in an option contract that the holder pays to buy shares (in the case of call options) or receives to sell shares (in the case of put options) if the option is exercised. Also called the exercise price.
+
+The last trading day for all monthly stock options in the United States is the third Friday of the option’s expiration month (except when Friday falls on a holiday, in which case the last trading day is the third Thursday). The expiration day for stock options is the Saturday immediately following the last trading day. The expiration day is the last day (in the case of American-style options) or the only day (in the case of European-style options) on which an option may be exercised. More recently, weekly options have become popular. As the name suggests, these options expire at the end of the current week, with the last trading day being either Thursday or Friday, depending on the contract.
+
+page 87
+
+OPTIONS VERSUS FUTURES
+Our discussion thus far illustrates the two crucial differences between an option contract and a futures contract. The first is that the purchaser of a futures contract is obligated to buy the underlying asset at the specified price (and the seller of a futures contract is obligated to sell). The owner of a call option has the right, but not the obligation, to buy.
+
+The second important difference is that when you buy a futures contract, you pay no money at the time of purchase (and you receive none if you sell). However, if you buy an option contract, you pay the premium at the time of the purchase; if you sell an option contract, you receive the premium at the time of the sale.
+
+To learn more about options, visit
+cboe.com
+and select “Education.”
+
+OPTION PRICE QUOTES
+Like futures contracts, most option contracts are standardized. One call option contract, for example, gives the owner the right to buy 100 shares (one round lot) of stock. Similarly, one put option contract gives the owner the right to sell 100 shares. Figure 3.5 presents intraday quotes for call and put options on Nike common stock. The data are from finance.yahoo.com. To obtain these option quotes, enter a ticker symbol (here: NKE); then click the “Options” link. At the time these quotes were obtained, Nike stock was trading at $76.47.
+
+Options Trading
+
+FIGURE 3.5
+
+
+Source: finance.yahoo.com, January 8, 2019.
+
+page 88
+
+The first column in Figure 3.5 lists the unique symbol for each option. Ignoring the trade time and date, the second column lists the strike prices for options expiring February 15, 2019. Option data for other expiration weeks and months can be obtained by clicking the drop-down box. The third column lists last sale prices. Current bid and ask prices appear in the next two columns. The bid price is the price you will receive if you want to sell an option at the prevailing market price; the ask price is the price you will pay if you want to buy an option at the prevailing market price. The sixth and seventh columns list changes from the previous closing prices. Volume and open interest numbers appear in the next two columns. Volume is the number of contracts traded that day. Open interest is the number of contracts outstanding. Implied volatility is a difficult concept that we will save for our dedicated chapter on option pricing.
+
+Referring to the Nike 75 call options, we see that 12 call option contracts have been traded so far in this trading day, and the last transaction price for this option was $3.73 per share. Because each listed option contract actually involves 100 shares, the price per contract was $3.73 × 100 = $373.
+
+The bid and ask prices reflect current market conditions, not the market conditions that prevailed at the time of the last transaction price. Based on the bid and ask prices, what price would you pay now for one of these call options? Remember, the ask price is the price you pay, so you would pay $3.75 per share, or $375 for the contract. If you were selling, you would sell at the bid price of $3.65 per share, or $365 for the contract.
+
+Suppose you wanted the right to buy 500 shares of Nike for $80 sometime before February 15, 2019. What would you buy? Based on the information in Figure 3.5, how much would you have to pay?
+
+You want the right to buy, so you want to purchase call options. Because each contract is for 100 shares, and you want the right to buy 500 shares, you need five contracts. The contract you want would be described as the Nike 80 call option. From Figure 3.5, the quoted option premium to buy the contract with a $80 strike is $1.38, so one contract would cost $1.38 × 100 = $138. The cost for five contracts would therefore be 5 × $138 = $690.
+
+Put Options
+
+EXAMPLE 3.4
+
+Suppose you want the right to sell 200 shares of Nike sometime before February 15, 2019, at a price of $65. In light of the information in Figure 3.5, what contract should you buy? How much will it cost you?
+
+You want the right to sell stock at a fixed price, so you want to buy put options. Specifically, you want to buy two 65 put contracts. In Figure 3.5, the ask price for this contract is given as $.28. Recalling that this is the premium per share, one contract will cost you $28, so two contracts would cost $56. Because each option contract is for 100 shares, we must multiply the quoted option price by 100.
+
+GAINS AND LOSSES ON OPTION CONTRACTS
+As with futures contracts, option contracts have the potential for large gains and losses. Let’s consider our previous example in which you paid $690 for five Nike 80 call contracts. Suppose you hold on to your contracts until February 15, 2019, rolls around, and they are about to expire. What are your gains (or losses) if Nike is selling for $90 per share? $70 per share?
+
+If Nike is selling for $90 per share, you will profit handsomely. You have the right to buy 500 shares at a price of $80 per share. Because the stock is worth $90, your options are worth $10 per share, or $5,000 in all. So you invested $690 and ended up with more than seven times that. Not bad.
+
+If the stock ends up at $70 per share, however, the result is not so pretty. You have the right to buy the stock for $80 when it is selling for $70, so your call options expire worthless. You lose the entire $690 you originally invested. In fact, if the stock price is anything less than $80, you lose the entire $690 premium.
+
+page 89
+
+More on Puts
+
+EXAMPLE 3.5
+
+In Example 3.4, you bought two Nike 65 put contracts for $56. Suppose that the expiration date arrives and Nike is selling for $45 per share. How did you do? What’s the break-even stock price, that is, the stock price at which you just make enough to cover your $56 cost?
+
+Your put contracts give you the right to sell 200 shares of Nike at a price of $65 per share. If the stock is worth only $45 per share, your put options are worth $20 per share, or $4,000 in all. To determine the break-even stock price, notice that you paid $.28 per share for the option. The break-even stock price is thus $65 − $.28 = $64.72. At any price below $64.72, the buyer of the put option would experience a gain.
+
+INVESTING IN STOCKS VERSUS OPTIONS
+To get a better idea of the potential gains and losses from investing in stocks compared to investing in options, let’s suppose you have $15,000 to invest. You’re looking at Visa (V), which is currently selling for $150 per share. You also notice that a call option with a $150 strike price and three months to maturity is available. The premium is $10.1
+
+You’re considering investing all $15,000 either in the stock or in the call options. What is your return from these two investments, if, in three months, Visa is selling for $165 per share? What about $135 per share?
+
+First, if you buy the stock, your $15,000 will purchase one round lot, meaning 100 shares. A call contract costs $1,000 (why?), so you can buy 15 of them. Notice that your 15 contracts give you the right to buy 1,500 shares at $150 per share.
+
+If, in three months, Visa is selling for $165, your stock will be worth 100 shares × $165 = $16,500. Your dollar gain will be $16,500 less the $15,000 you invested, or $1,500. Because you invested $15,000, your return for the three-month period is $1,500/$15,000 = .10, or 10%. If Visa is selling for $135 per share, then you lose $1,500 and your return is −10 percent.
+
+If Visa is selling for $165, your call options are worth $165 − $150 = $15 each, but now you control 1,500 shares, so your options are worth 1,500 shares × $15 = $22,500 total. You invested $15,000, so your dollar return is $22,500 − $15,000 = $7,500 and your percentage return is $7,500/$15,000 = .50, or 50%, compared to 10 percent on the stock investment. If Visa is selling for $135 when your options mature, however, then you lose everything, and your return is −100 percent.
+
+Put Returns
+
+EXAMPLE 3.6
+
+In our example for Visa, suppose a put option with a strike price of $150 is also available, with a premium of $7.50. Calculate your percentage return for the three-month holding period if the stock price declines to $141 per share. What is your annualized return?
+
+One put contract costs $750, so you can buy 20 of them. Notice that your 20 contracts give you the right to sell 2,000 shares at $150 per share.
+
+If, in three months, Visa is selling for $141, your put options are worth $150 − $141 = $9 each. You control 2,000 shares, so your options are worth 2,000 shares × $9 = $18,000 total. You invested $15,000, so your dollar return is $18,000 − $15,000 = $3,000, and your percentage return is $3,000/$15,000 = .20, or 20%.
+
+To annualize your return, we need to compute the effective annual return, recognizing that there are four three-month periods in a year:
+
+
+Your annualized return is thus about 107 percent.
+
+page 90
+
+CHECK THIS
+
+
+
+3.5aWhat is a call option? A put option?
+
+3.5bIf you buy a call option, what do you hope will happen to the underlying stock? What if you buy a put option?
+
+3.5cWhat are the two key differences between a futures contract and an option contract?
+
+3.6 Summary and Conclusions
+In this chapter, we examine the basic types of financial assets. We discuss three broad classes: interest-bearing assets, equity securities, and derivative assets (futures and options). For each of the broad classes, we ask three questions. First, what is its basic nature and what are its distinguishing characteristics? Second, what are the potential gains and losses from owning it? Third, how are its prices quoted online and in the financial press? We cover many aspects of these investments. We provide a brief description of these investments broken down by the chapter’s important concepts.
+
+1.  Various types of interest-bearing assets.
+
+A.  Each of these major groups can be further subdivided. Interest-bearing assets include money market instruments and fixed-income securities.
+
+B.  Money market instruments generally have the following two properties: (1) they are essentially IOUs sold by large corporations or governments to borrow money and (2) they mature in less than one year from the time they are sold, meaning that the loan must be repaid within one year.
+
+C.  Fixed-income securities are securities that promise to make fixed payments according to some preset schedule. Another key characteristic of a fixed-income security is that it begins life as a loan of some sort. That is, fixed-income securities are debt obligations. Corporations and governments issue fixed-income securities. Unlike money market instruments, fixed-income securities have lives that exceed 12 months at the time they are issued.
+
+2.  Equity securities.
+
+A.  The two major equity types are common stock and preferred stock. Common stock represents ownership in a corporation. If you own 1,000 shares of General Electric, then you own a very small percentage of GE’s outstanding shares. Nonetheless, you are a part-owner of GE. As a part-owner, you are entitled to your pro rata share of anything paid out by GE, and you have the right to vote on important matters regarding the company.
+
+B.  Preferred stock differs from common stock in several important ways. First, the dividend on a preferred share is usually fixed at some amount and never changed. Second, if the company liquidates, preferred shares have a particular face value. The reason preferred stock is called “preferred” is that a company must pay the fixed dividend on its preferred stock before any dividends can be paid to common shareholders. In other words, preferred shareholders must be paid first.
+
+3.  Futures contracts.
+
+A.  In many ways, a futures contract is the simplest of all financial assets. A futures contract is an agreement made today regarding the terms of a trade that will take place later.
+
+B.  As an example of a futures contract, suppose you know that you will want to buy 100 ounces of gold in six months. One thing you could do is strike a deal today with a seller in which you promise to pay, say, $1,200 per ounce in six months for the page 91100 ounces of gold. In other words, you and the seller agree that six months from now, you will exchange $120,000 for 100 ounces of gold. The agreement that you have created is a futures contract.
+
+4.  Option contracts.
+
+A.  An option contract is an agreement that gives the owner the right, but not the obligation, to buy or sell (depending on the type of option) a specific asset at a specified price for a set period of time.
+
+B.  The most familiar options are stock options. These are options to buy or sell shares of stock, and they are the focus of our discussion here. Options are a very flexible investment tool, and a great deal is known about them. We present some of the most important option concepts in this chapter.
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the basics of the four main types of financial assets: stocks, bonds, futures, and options. In addition to discussing basic features, we alerted you to some of the risks associated with these instruments. We particularly stressed the large potential gains and losses possible with derivative assets. How should you, as an investor or investment manager, put this information to work?
+
+Following up on our previous chapter, you need to execute each of the possible transaction types suggested by this chapter in a simulated brokerage account. Your goal is to experience some of the large gains (and losses) to understand them on a personal level. Try to do at least the following:
+
+Buy a corporate or government bond.
+
+Buy agriculture, natural resource, and financial futures contracts.
+
+Sell agriculture, natural resource, and financial futures contracts.
+
+Buy put and call option contracts.
+
+Sell put and call option contracts.
+
+In each case, once you have created the position, be sure to monitor it regularly by checking prices, trading activity, and relevant news using The Wall Street Journal or an online information service to understand why it changes in value.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+One thing you will discover if you execute these trades is that some of these investments carry relatively low risk and some carry relatively high risk. Which are which? Under what circumstances is each of these investments appropriate? We will have more to say about these investments later, but you’ll get a lot more out of our discussion (and have some fun stories to tell) if you already have some personal experience. As always, it’s better to become educated about these things with play money before you commit real money.
+
+Key Terms
+
+call option 86
+
+current yield 76
+
+derivative asset 83
+
+fixed-income securities 75
+
+futures contract 83
+
+money market instruments 74
+
+option contract 86
+
+option premium 86
+
+primary asset 82
+
+put option 86
+
+strike price 86
+
+page 92
+
+Chapter Review Problems and Self-Test
+
+Corporate Bond Quotes (LO1, CFA2)   In Figure 3.1, locate the Comcast Corporation bond that matures in the year 2028. What is the coupon rate on this issue? Suppose you purchase $100,000 in face value. How much will this cost? Assuming semiannual payments, what will you receive in coupon payments?
+
+Call Options (LO4, CFA4)   In Figure 3.5, locate the Nike 75 call option. If you buy 10 contracts, how much will you pay? Suppose that just as the option is about to expire, Nike is selling for $80 per share. What are your options worth? What is your profit/loss?
+
+Answers to Self-Test Problems
+
+Based on Figure 3.1, the Comcast Corporation bond that matures in 2028 has a 4.15 percent coupon rate. The last price, as a percentage of face value, is 99.148, or 99.148 percent. If you buy $100,000 in face value, you would thus pay $99,148. You will receive 4.15 percent of $100,000, or $4,150, in coupon payments every year, paid in two $2,075 semiannual installments.
+
+From Figure 3.5, the Nike 75 call ask premium is 3.75, or $3.75 per share. Because one contract involves 100 shares, the cost of a contract is $375, and 10 contracts would cost $3,750. At expiration, if Nike is selling for $80, then you have the right to buy 10 contracts × 100 shares = 1,000 shares at $75. Your contracts are thus worth $80 − $75 = $5 per share, or $5,000 total. Because they cost you $3,750, your gain is $1,250, which is a return of 33.33%.
+
+Test Your Investment Quotient
+
+
+Money Market Securities (LO1, CFA1)   Which of the following is not a common characteristic of money market securities?
+
+They are sold on a discount basis.
+
+They mature in less than one year.
+
+The most important risk is default risk.
+
+All of the above are characteristics.
+
+Money Market Securities (LO1, CFA1)   Which of the following money market securities is the most liquid?
+
+U.S. Treasury bills
+
+Bank certificates of deposit
+
+Corporate money market debt
+
+Municipality money market debt
+
+Options (LO4, CFA4)   A European option can be exercised:
+
+Only after American options.
+
+Anytime up to and including the expiration date.
+
+Only on the day before the expiration date.
+
+Only on a European exchange.
+
+Fixed-Income Securities (LO1, CFA2)   Your friend told you she just received her semiannual coupon payment on a U.S. Treasury note with a $100,000 face value that pays a 6 percent annual coupon. How much money did she receive from this coupon payment?
+
+$3,000
+
+$6,000
+
+$30,000
+
+$60,000
+
+Common Stock (LO2, CFA3)   A corporation with common stock issued to the public pays dividends:
+
+At the discretion of management, who are elected by the shareholders.
+
+At the discretion of shareholders, since they own the corporation.
+
+At the discretion of the company’s board of directors, who are elected by shareholders.
+
+At the discretion of the company’s board of directors, who are appointed by management.page 93
+
+Futures Contracts (LO3, CFA4)   You buy (go long) five copper futures contracts at 100 cents per pound, where the contract size is 25,000 pounds. At contract maturity, copper is selling for 102 cents per pound. What is your profit (+) or loss (−) on the transaction?
+
+−$2,500
+
++$2,500
+
+−$25,000
+
++$25,000
+
+Futures Contracts (LO3, CFA4)   You sell (go short) 10 gold futures contracts at $400 per ounce, where the contract size is 100 ounces. At contract maturity, gold is selling for $410 per ounce. What is your profit (+) or loss (−) on the transaction?
+
+−$1,000
+
++$1,000
+
+−$10,000
+
++$10,000
+
+Option Contracts (LO4, CFA4)   You buy 100 CJC call option contracts with a strike price of $95 at a quoted price of $1. At option expiration, CJC sells for $97. What is your net profit on the transaction?
+
+$2,000
+
+$5,000
+
+$10,000
+
+$20,000
+
+Option Contracts (LO4, CFA4)   You buy 100 CJC put option contracts with a strike price of $92 at a quoted price of $8. At option expiration, CJC sells for $83.80. What is your net profit on the transaction?
+
+$200
+
+$1,000
+
+$2,000
+
+$10,000
+
+Short Sales (LO4, CFA4)   Which of the following statements about short selling is true?
+
+A short position may be hedged by writing call options.
+
+A short position may be hedged by purchasing put options.
+
+Short-sellers may be subject to margin calls if the stock price increases.
+
+Stocks that pay large dividends should be sold short before the ex-dividend date and bought afterward to take advantage of the large price declines in a short time period.
+
+Concept Questions
+
+Money Market Instruments (LO1, CFA1)   What are the distinguishing features of a money market instrument?
+
+Preferred Stock (LO2, CFA3)   Why is preferred stock “preferred”?
+
+WSJ Stock Quotes (LO2, CFA3)   What is the PE ratio reported for stocks in The Wall Street Journal? In particular, how is it computed?
+
+Yields (LO1, CFA2)   The current yield on a bond is the coupon rate divided by the price. Thus, it is very similar to what number reported for common and preferred stocks?
+
+Volume Quotations (LO1, LO2, LO3, LO4)   Explain how volume is quoted for stocks, corporate bonds, futures, and options.
+
+Futures Contracts (LO3, CFA4)   Changes in what price lead to gains and/or losses in futures contracts?
+
+Futures Contracts (LO3, CFA4)   What is the open interest on a futures contract? What do you think will usually happen to open interest as maturity approaches?
+
+Futures versus Options (LO3, LO4, CFA4)   What is the difference between a futures contract and an option contract? Do the buyer of a futures contract and the buyer of an option contract have the same rights? What about the seller?page 94
+
+Asset Types (LO1, LO2, LO3, LO4)   What is the distinction between a real asset and a financial asset? What are the two basic types of financial assets, and what does each represent?
+
+Puts versus Calls (LO4, CFA4)   Suppose a share of stock is selling for $100. A put and a call are offered, both with $100 strike prices and nine months to maturity. Intuitively, which do you think is more valuable?
+
+Questions and Problems
+
+Core Questions
+
+Stock Quotations (LO2, CFA3)   You found the following stock quote for DRK Enterprises, Inc., at your favorite website. You also found that the stock paid an annual dividend of $.75, which resulted in a dividend yield of 1.30 percent. What was the closing price for this stock yesterday? How many round lots of stock were traded yesterday?
+
+  
+Stock Quotations (LO2, CFA3)   In Problem 1, assume the company has 100 million shares of stock outstanding and a PE ratio of 15. What was net income for the most recent four quarters?
+
+Dividend Yields (LO2, CFA3)   You find a stock selling for $74.20 that has a dividend yield of 3.4 percent. What was the last quarterly dividend paid?
+
+Earnings per Share (LO2)   In Problem 3, if the company has a PE ratio of 21.5, what is the earnings per share (EPS) for the company?
+
+Bonds (LO1, CFA2)   You purchase 3,000 bonds with a par value of $1,000 for $980 each. The bonds have a coupon rate of 7.2 percent paid semiannually and mature in 10 years. How much will you receive on the next coupon date? How much will you receive when the bonds mature?
+
+Futures Profits (LO3, CFA4)   The contract size for platinum futures is 50 troy ounces. Suppose you need 300 troy ounces of platinum and the current futures price is $850 per ounce. How many contracts do you need to purchase? How much will you pay for your platinum? What is your dollar profit if platinum sells for $900 a troy ounce when the futures contract expires? What if the price is $800 at expiration?
+
+Option Profits (LO4, CFA4)   You purchase 10 call option contracts with a strike price of $75 and a premium of $3.85. If the stock price at expiration is $82, what is your dollar profit? What if the stock price is $72?
+
+Stock Quotations (LO2, CFA3)   You found the following stock quote for Gigantus Corporation in today’s newspaper. What was the stock selling for on January 1?
+
+  
+Use the following bond quote for Problems 9 and 10:
+
+  
+Bond Quotations (LO1, CFA2)   What is the yield to maturity of the bond? What is the current yield of the bond?
+
+Bond Quotations (LO1, CFA2)   If you currently own 15 of the bonds, how much will you receive on the next coupon date?page 95
+
+Intermediate Questions
+
+  Use the following corn futures quotes for Problems 11–13:
+
+
+11. Futures Quotations (LO3, CFA4)   How many of the March contracts are currently open? How many of these contracts should you sell if you wish to deliver 225,000 bushels of corn in March? If you actually make delivery, how much will you receive? Assume you locked in the settle price.
+
+12. Futures Quotations (LO3, CFA4)   Suppose you sell 25 of the May corn futures at the high price of the day. You close your position later when the price is 465.375. Ignoring commission, what is your dollar profit on this transaction?
+
+13. Using Futures Quotations (LO3, CFA4)   Suppose you buy 15 of the September corn futures contracts at the last price of the day. One month from now, the futures price of this contract is 462.125, and you close out your position. Calculate your dollar profit on this investment.
+
+Use the following quotes for Target stock options for Problems 14–16:
+
+
+Source: Yahoo! Finance. January 8, 2019.
+
+14. Options Quotations (LO4, CFA4)   If you wanted to purchase the right to sell 2,000 shares of Target stock in March 2019 at a strike price of $55 per share, how much would this cost you?
+
+15. Options Quotations (LO4, CFA4)   Which put contract sells for the lowest price? Which one sells for the highest price? Explain why these respective options trade at such extreme prices.
+
+16. Using Options Quotations (LO4, CFA4)   In Problem 14, suppose Target stock sells for $53 per share immediately before your options’ expiration. What is the rate of return on your investment? What is your rate of return if the stock sells for $60 per share (think about it)? Assume your holding period for this investment is exactly three months.
+
+17. Options (LO4, CFA4)   You’ve located the following option quote for Eric-Cartman, Inc. (ECI): Two of the premiums shown can’t possibly be correct. Which two? Why?page 96
+
+
+18. Annualized Returns (LO2, LO4, CFA1)   Suppose you have $28,000 to invest. You’re considering Miller-Moore Equine Enterprises (MMEE), which is currently selling for $40 per share. You also notice that a call option with a $40 strike price and six months to maturity is available. The premium is $4.00. MMEE pays no dividends. What is your annualized return from these two investments if, in six months, MMEE is selling for $48 per share? What about $36 per share?
+
+19. Annualized Returns (LO2, LO4, CFA1)   In Problem 18, suppose a dividend of $.80 per share is paid. Comment on how the returns would be affected.
+
+20. Option Returns (LO4, CFA4)   In Problem 18, suppose a put option with a $40 strike is also available with a premium of $2.80. Calculate your percentage return for the six-month holding period if the stock price declines to $36 per share.
+
+Spreadsheet Problem
+
+21. Option Returns (LO4, CFA4)   You purchase 25 call option contracts with a strike price of $45, a premium of $2.77, and four months until expiration.
+
+If the stock price at expiration is $52, what is your dollar (and percent) profit? What if the stock price is $42?
+
+If you had bought a put contract, how do your answers change?
+
+What’s on the Web?
+
+Option Prices You want to find the option prices for Conagra Brands (CAG). Go to finance.yahoo.com, get a stock quote, and follow the “Options” link. What are the option premium and strike price for the highest and lowest strike price options that are nearest to expiring? What are the option premium and strike price for the highest and lowest strike price options expiring next month?
+
+Futures Quotes Go to cmegroup.com and find the contract specifications for corn futures. What is the size of the corn futures contract? On the website, find the settle price for the corn futures contract that will expire the soonest. If you go long 10 contracts, how much will the corn cost at the current price?
+
+LEAPS Go to cboe.com, select the “Products” tab, then select “Stock Index Options (SPX-RUT-MSCI-FTSE)” and “S&P 500® Index Options,” and then follow the “SPX LEAPS” link. What are LEAPS? What are the two types of LEAPS? What are the benefits of equity LEAPS? What are the benefits of index LEAPS?
+
+FLEX Options Go to cboe.com, select the “Institutional” tab, and then follow the “Cboe FLEX Options” link. What is a FLEX option? When do FLEX options expire? What is the minimum size of a FLEX option?
+
+
+
+
+1 We ignore any dividends paid by Visa, which would impact the calculation. However, we will return to this impact in a later chapter.

@@ -1,0 +1,1248 @@
+page 453 
+
+PART 5
+
+Futures Contracts
+
+
+
+“There are two times in a man’s life when he should not speculate: when he can’t afford it and when he can.”
+
+–Mark Twain
+
+“When you bet on a sure thing—hedge!”
+
+–Robert Half
+
+Learning Objectives
+
+You will derive many future benefits if you have a good understanding of:
+
+The basics of futures markets and how to obtain price quotes for futures contracts.
+
+The risks involved in futures market speculation.
+
+How cash prices and futures prices are linked.
+
+How futures contracts can be used to transfer price risk.
+
+Futures contracts can be used for speculation or for risk management. For would-be speculators, Mark Twain’s advice is well worth considering. In addition to their risk dimension, trading in futures contracts adds a time dimension to commodity markets. A futures contract separates the date of the agreement—when a delivery price is specified—from the date when delivery and payment actually occur. Both buyers and sellers can manage risk effectively when these dates are separated. This fundamental feature of futures contracts is one of the reasons that futures contracts have withstood the test of time.
+
+This chapter covers modern-day futures contracts. The first sections discuss the basics of futures contracts and how their prices are quoted in the financial press. From there, we move into a general discussion of how futures contracts are used for speculation and risk management. We also present the theoretical relationship between current cash prices and futures prices.
+
+CFATM Exam Topics in This Chapter:
+
+Derivative markets and instruments (L1, S18)
+
+Basics of derivatives pricing and valuation (L1, S18)
+
+Introduction to alternative investments (L1, S19)
+
+Pricing and valuation of forward commitments (L2, S14)
+
+Risk management applications of forward and futures strategies (L3, S17)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 454 
+
+14.1 Futures Contract Basics
+By definition, a forward contract is a formal agreement between a buyer and a seller who both commit to a commodity transaction at a future date at a price set by negotiation today. The genius of forward contracting is that it allows a producer to sell a product to a willing buyer before it is actually produced. By setting a price today, both buyer and seller remove price uncertainty as a source of risk. With less risk, buyers and sellers mutually benefit and commerce is stimulated. This principle has been understood and practiced for centuries.
+
+forward contract
+
+Agreement between a buyer and a seller, who both commit to a transaction at a future date at a price set by negotiation today.
+
+Visit these futures exchange websites:
+theice.com
+and
+cmegroup.com.
+
+Futures contracts represent a step beyond forward contracts. Futures contracts and forward contracts accomplish the same economic task, which is to specify a price today for future delivery. This specified price is called the futures price, or settle price. However, while a forward contract can be struck between any two parties, futures contracts are managed through organized futures exchanges. Sponsorship through a futures exchange is a major distinction between a futures contract and a forward contract.
+
+futures contract
+
+Contract between a seller and a buyer specifying a commodity or financial instrument to be delivered and price paid at contract maturity. Futures contracts are managed through an organized futures exchange.
+
+futures price
+
+Price negotiated by buyer and seller at which the underlying commodity or financial instrument will be delivered and paid for to fulfill the obligations of a futures contract.
+
+As we discuss later, because futures contracts are listed on exchanges, they come with many standardized features, such as the size of the contract and the delivery date. This standardization comes with trade-offs relative to forward contracts. For example, on the negative side, the fixed size of the futures contract means that buyers and sellers might not be able to match a particular position exactly.
+
+On the positive side, the standardization of futures contracts facilitates the trading of contracts after they are created—thereby increasing liquidity. Further, because the exchange ensures that both sides of the trade can cover any potential losses they might incur, futures contracts have little counterparty risk. For most investors, the advantages of futures contracts well outweigh the disadvantages.
+
+MODERN HISTORY OF FUTURES TRADING
+The Chicago Board of Trade (CBOT) was the first organized futures exchange in the United States. The CBOT was established in 1848 and grew with the westward expansion of American ranching and agriculture. The CBOT became the largest, most active futures exchange in the world. Other early American futures exchanges include the MidAmerica Commodity Exchange (founded in 1868), New York Cotton Exchange (1870), New York Mercantile Exchange (1872), Chicago Mercantile Exchange (1874), Minneapolis Grain Exchange (1881), New York Coffee Exchange (1882), and Kansas City Board of Trade (1882).
+
+For more than 100 years, American futures exchanges devoted their activities exclusively to commodity futures. However, a revolution began in the 1970s with the introduction of financial futures. Unlike commodity futures, which call for delivery of a physical commodity, financial futures require delivery of a financial instrument. The first financial futures were foreign currency contracts introduced in 1972 at the International Monetary Market (IMM), a division of the Chicago Mercantile Exchange (CME).
+
+Next came interest rate futures, introduced at the Chicago Board of Trade in 1975. An interest rate futures contract specifies delivery of a fixed-income security. For example, an interest rate futures contract might specify a U.S. Treasury bill, note, or bond as the underlying instrument. Two of the most actively traded futures contracts are based on interest rates: Eurodollars (traded at the CME) and Treasury notes (traded at the CBOT).
+
+Stock index futures were introduced in 1982 at the Kansas City Board of Trade (KBT), the Chicago Mercantile Exchange, and the New York Futures Exchange (NYFE). A stock index futures contract specifies a particular stock market index as its underlying instrument.
+
+Financial futures have been so successful that they now constitute the bulk of all futures trading. This success is largely attributed to the fact that financial futures have become an indispensable tool for financial risk management by corporations and portfolio managers. As we will see, futures contracts can be used to reduce risk through hedging strategies or to increase risk through speculative strategies. In this chapter, we discuss futures contracts generally, but, because this text deals with financial markets, we will ultimately focus on financial futures.
+
+During 2007, several important commodity exchanges merged. For example, in January 2007, the Intercontinental Exchange (ICE), which listed mainly energy contracts, page 455purchased the New York Board of Trade (NYBOT) for about $1 billion. The NYBOT listed “soft” commodities such as coffee, sugar, cocoa, and cotton. The NYBOT was once the New York Cotton Exchange (NYCE). Through previous mergers the NYBOT had acquired the Coffee, Sugar, and Cocoa Exchange (CSCE) as well as the New York Futures Exchange (NYFE).
+
+On July 9, 2007, the Chicago Mercantile Exchange finalized its merger with its long-time rival, the Chicago Board of Trade. In this whopper of a deal, the CME bought the CBOT for about $8 billion. The book value of the new company, The CME Group, Inc., was about $26 billion. Then, in 2008, the newly formed CME Group acquired the New York Mercantile Exchange (NYMEX), giving it greater exposure to metals and petroleum-based futures. On December 3, 2012, the CME Group announced it had completed its acquisition of the Kansas City Board of Trade.
+
+FUTURES CONTRACT FEATURES
+Futures contracts are a type of derivative security because the value of the contract is derived from the value of an underlying instrument. For example, the value of a futures contract to buy or sell gold is derived from the market price of gold. However, because a futures contract represents a zero-sum game between a buyer and a seller, the net value of a futures contract is always zero. That is, any gain realized by the buyer is exactly equal to a loss realized by the seller, and vice versa.
+
+Futures are contracts and, in practice, exchange-traded futures contracts are standardized to facilitate convenience in trading and price reporting. Standardized futures contracts have a set contract size specified according to the particular underlying instrument. For example, a standard gold futures contract specifies a contract size of 100 troy ounces. This means that a single gold futures contract obligates the seller to deliver 100 troy ounces of gold to the buyer at contract maturity. In turn, the contract also obligates the buyer to accept the gold delivery and pay the negotiated futures price for the delivered gold.
+
+To properly understand a futures contract, we must know the specific terms of the contract. In general, futures contracts must stipulate at least the following five contract terms:
+
+The identity of the underlying commodity or financial instrument.
+
+The futures contract size.
+
+The futures maturity date, also called the expiration date.
+
+The delivery or settlement procedure.
+
+The futures price.
+
+First, a futures contract requires that the underlying commodity or financial instrument be clearly identified. This is stating the obvious, but it is important that the obvious is clearly understood in financial transactions.
+
+Second, the size of the contract must be specified. As stated earlier, the standard contract size for gold futures is 100 troy ounces. For U.S. Treasury note and bond futures, the standard contract size is $100,000 in par value notes or bonds, respectively.
+
+The third contract term that must be stated is the maturity date. Contract maturity is the date on which the seller is obligated to make delivery and the buyer is obligated to make payment.
+
+Fourth, the delivery process must be specified. For commodity futures, delivery normally entails sending a warehouse receipt for the appropriate quantity of the underlying commodity. After delivery, the buyer pays warehouse storage costs until the commodity is sold or otherwise disposed.
+
+Finally, the futures price must be mutually agreed on by the buyer and seller. The futures price (or contract settlement price) is quite important because it is the price that the buyer will pay and the seller will receive for delivery at expiration of the contract.
+
+For financial futures, delivery is often accomplished by a transfer of registered ownership. For example, ownership of U.S. Treasury bills, notes, and bonds is registered at the Federal Reserve in computerized book-entry form. Futures delivery is accomplished by a notification to the Fed to make a change of registered ownership.
+
+page 456 
+
+WORK THE WEB
+
+One problem with futures quotes from newspapers is that the prices are from the previous trading day. If you want to know the latest quotes, one place to find intraday quotes is the website of the futures exchange. We wanted to find current prices for futures contracts on the 30 blue-chip companies in the Dow Jones Industrial Average. We went to cmegroup.com, surfed around, and found these (delayed) intraday quotes:
+
+
+Source: cmegroup.com.
+
+Quotes are delayed about 10 minutes, because access to real-time quotes is not free! As you can see, the website reports information on different stock index futures contracts. We pulled information on the E-mini Dow Futures contract. This futures contract trades in a standard size of $5 times the level of the index. You can see information for four futures contracts that are set to expire in 2019 and 2020. Like many futures contracts, trading volume is much higher in the near-term contract. You will notice that you can get quoted prices for Globex Futures (which we report here) and Globex Options (which we cover in another chapter). The Globex platform is a global electronic trading system. Through Globex, traders have around-the-clock access to a variety of interest rate and index futures contracts.
+
+Other financial futures feature cash settlement, which means that the buyer and seller settle up in cash with no actual delivery. We discuss cash settlement in more detail when we discuss stock index futures. The important thing to remember for now is that delivery procedures are selected for convenience and low cost. Specific delivery procedures are set by the futures exchange and may change slightly from time to time.
+
+FUTURES PRICES
+The largest volume of futures trading in the United States takes place in Chicago. However, futures trading is also quite active at futures exchanges in New York, Kansas City, and Minneapolis. Current futures prices for contracts traded at the major futures exchanges are reported each day in The Wall Street Journal. Our nearby Work the Web box shows how to get prices online, and Figure 14.1 provides a snapshot of some of the most actively traded futures contracts from the various exchanges.
+
+For futures markets information for many more contracts, visit
+wsj.com.
+
+page 457 
+
+Futures Prices (April 10, 2019)
+
+FIGURE 14.1
+
+
+Sources: The Wall Street Journal, April 11, 2019, Dow Jones & Company, Inc. and SIX Financial Information.
+
+page 458 
+
+In our snapshot of futures prices, the information is divided into sections according to categories of the underlying commodities or financial instruments. For example, the section “Metal & Petroleum Futures” reports price information for commodities such as copper, gold, and petroleum products. The “Agriculture Futures” section lists futures price information for corn, wheat, soybeans, live cattle, lean hogs, coffee, sugar, and cocoa, among others. Separate sections report financial futures, which include “Interest Rate,” “Currency,” and “Index” categories.
+
+Each section states the contract name, futures exchange, and contract size, along with price information for various contract maturities. For example, under “Metal & Petroleum Futures” we find the Copper contract traded at the Commodities Exchange (CMX), i.e., the COMEX (which is one of four CME Group futures exchanges). The standard contract size for copper is 25,000 pounds per contract. The futures price is quoted in dollars per pound.
+
+Futures Quotes
+
+EXAMPLE 14.1
+
+In Figure 14.1, locate the gold and wheat contracts. Where are they traded? What are the contract sizes for the gold and wheat contracts and how are their futures prices specified?
+
+The gold contract trades on the CMX, the COMEX division of the CME Group. One gold contract calls for delivery of 100 troy ounces. The gold futures price is quoted in dollars per troy ounce.
+
+Wheat contracts are traded on the Chicago Board of Trade (CBT), the Kansas City Board of Trade (KC), and the Minneapolis Grain Exchange (MPLS). One wheat contract calls for delivery of 5,000 bushels of wheat, and wheat futures prices are quoted in cents per bushel. Why do you think there are different wheat prices at these exchanges? Is all wheat the same?
+
+For futures prices and price charts, visit these websites:
+futures.tradingcharts.com
+and
+barchart.com.
+
+The reporting format for each futures contract is similar. For example, the first column of a price listing gives the contract delivery/maturity month. For each maturity month, the next six columns report futures information observed during the previous day: the price at opening of trade (“Open”); the highest intraday price (“High”); an area to signal a life-of-contract high or low; the lowest intraday price (“Low”); the price at close of trading (“Settle,” often referred to as the “Last” price); and the change in settle price from the previous day (“Chg”). The last column reports open interest for each contract maturity, which is the number of contracts outstanding at the end of that day’s trading.
+
+By now, we see that four of the contract terms for futures contracts are stated in the futures prices listing. These are:
+
+The identity of the underlying commodity or financial instrument.
+
+The futures contract size.
+
+The futures maturity date.
+
+The futures price.
+
+Exact contract terms for the delivery process are available from the appropriate futures exchange on request.
+
+Futures Prices
+
+EXAMPLE 14.2
+
+In Figure 14.1, locate the soybean contract with the greatest open interest. Explain the information provided.
+
+The soybean (or just “bean”) contract with the greatest open interest is specified by the contract maturity with the greatest number of contracts outstanding, so the May 2019 contract is the one we seek. One contract calls for delivery of 5,000 bushels of beans (a bushel, of course, is four pecks and weighs about 60 pounds). The closing price for delivery at maturity is quoted in cents per bushel. Because there are 5,000 bushels in a single contract, the total contract value is the settle price per bushel of 902.00 cents times 5,000, or $45,100.00, for the May contract.
+
+page 459 
+
+To get an idea of the magnitude of financial futures trading, take a look at the second entry under “Interest Rate Futures” in Figure 14.1, the CBT Treasury note contract. This entry is for 10-year T-note futures (note the next two entries are for the 5-year and the 2-year T-note.) One T-note contract calls for the delivery of $100,000 in par value notes. The total open interest in these contracts often exceeds a million contracts. In fact, as we see from the quote, the June 2019 contract has an open interest of over 3.9 million contracts. Thus, the total face value represented by the outstanding June contracts is over $390 billion.
+
+Who does all this trading? The orders originate from money managers around the world and are sent to the various exchanges’ trading floors and electronic systems for execution. On the floor, the orders are executed by professional traders who are quite vocal in trying to get the best prices. In the next section, we will discuss how and why futures contracts are used for speculation and hedging.
+
+CHECK THIS
+
+
+
+14.1aWhat is a forward contract?
+
+14.1bWhat is a futures contract, and why is it different from a forward contract?
+
+14.1cWhat is a futures price?
+
+14.2 Why Futures?
+The major economic purpose of futures contracts is to allow hedgers to transfer risk to speculators. Therefore, a viable futures market cannot exist without participation by both hedgers and speculators. We begin to help you understand the use of futures markets by describing how speculators use futures markets. We then turn to a discussion about how hedgers use futures contracts.
+
+To learn more about futures, visit the CME Institute at
+cmegroup.com.
+
+SPECULATING WITH FUTURES
+Suppose you are thinking about speculating on commodity prices because you believe that you can accurately forecast future prices. The most convenient way to speculate is to use futures contracts. If you believe that gold prices will increase, then you can speculate on this belief by buying gold futures. Alternatively, if you think gold prices will decrease, you can speculate by selling gold futures.
+
+Buying a futures contract is often referred to as “going long,” or establishing a long position. Selling a futures contract is often called “going short,” or establishing a short position. A speculator accepts price risk in an attempt to profit on the direction of prices. Speculators can go long or short in futures contracts. A speculator who is long benefits from price increases and loses from price decreases. The opposite is true for a speculator who is short.
+
+long position
+
+A market position where the holder benefits from price increases and loses from price decreases.
+
+short position
+
+A market position where the holder benefits from price decreases and loses from price increases.
+
+speculator
+
+A person or firm that takes the risk of loss for the chance for profit.
+
+To illustrate the basics of speculating, suppose you believe the price of gold will go up. In particular, suppose the current price for delivery in three months is $1,300 per ounce (this $1,300 is called the “futures” price, or settle price). You think that gold will be selling for much more than $1,300 three months from now, so you go long 100 gold contracts that expire in three months. When you do, you are obligated to take delivery of gold and pay the agreed-upon price, $1,300 per ounce. Each gold contract represents 100 troy ounces, so 100 contracts represents 10,000 troy ounces of gold with a total contract value of 10,000 × $1,300 = $13,000,000. In futures jargon, you have a $13 million long gold position.
+
+Suppose your belief turns out to be correct, and three months later, the market price of gold is $1,320 per ounce. Your three-month futures contracts have just expired. So, to fulfill the terms of your long futures position, you accept delivery of 10,000 troy ounces of gold, pay $1,300 per ounce, and immediately sell the gold at the market price of $1,320 per ounce. Your profit is $20 per ounce, or 10,000 × $20 = $200,000. Of course, you will pay some brokerage commissions and taxes out of this profit.
+
+page 460 
+
+Suppose your belief turns out to be incorrect and gold prices fall. You will lose money in this case because you are obligated to buy the 10,000 troy ounces at the agreed-upon price of $1,300 per ounce. If gold prices fell to, say, $1,275 per ounce, you would lose $25 per ounce, or 10,000 × $25 = $250,000. In addition, you will pay some brokerage commissions.
+
+As this gold example shows, futures speculation can lead to substantial gains and losses. An important point is that your gains from futures speculation depend on accurate forecasts of the direction of future prices. You must ask yourself: Is it easy to forecast price changes?
+
+Consider another example of commodity speculation. Suppose you analyze weather patterns and you are convinced that the coming winter months will be colder than usual. You believe that this will cause heating oil prices to rise. (Heating oil is labeled as NY Harbor ULSD in Figure 14.1.)
+
+You can speculate on this belief by going long heating oil futures. The standard contract size for heating oil is 42,000 gallons. Suppose you go long 10 contracts at a futures price of $2.10 per gallon. Your long position has a total contract value of 10 × 42,000 × $2.10 = $882,000.
+
+If the price of heating oil at contract maturity is, say, $1.90 per gallon, your loss before commissions would be 20 cents per gallon, or 10 × 42,000 × $.20 = $84,000. Of course, if heating oil prices rose by 20 cents per gallon, you would gain $84,000 (less applicable commissions) instead.
+
+Once again, futures speculation can lead to substantial gains and losses. The important point from this example is that your gains from futures speculation depend on you making more accurate weather forecasts than other traders. So ask yourself: How easy is it to out-forecast other traders?
+
+What Would Juan Valdez Do?
+
+EXAMPLE 14.3
+
+After an extensive analysis of political currents in Central and South America, you conclude that the political situation will stabilize. As a result, you believe that coffee prices in the future will be lower than currently indicated by futures prices. Would you go long or short? Analyze the impact of a swing in coffee prices of 20 cents per pound in either direction if you have a 10-contract position, where each contract calls for delivery of 37,500 pounds of coffee.
+
+You would go short because you expect prices to decline. Because you are short 10 contracts, you must deliver 10 × 37,500 = 375,000 pounds of coffee to fulfill your contract. If coffee prices fall to 20 cents below your originally contracted futures price, then you make 20 cents per pound, or $.20 × 37,500 × 10 = $75,000. Of course, if you are wrong and the political situation destabilizes, the resulting $.20 increase in coffee prices would generate a $75,000 loss in your short futures position.
+
+HEDGING WITH FUTURES
+PRICE RISK Many businesses face price risk when their activities require them to hold a working inventory. By a working inventory, we mean that firms purchase and store goods for later resale at market prices. Price risk is the risk that the firm will not be able to sell its goods at a price sufficiently higher than the acquisition cost.
+
+For example, suppose you own a regional heating oil distributorship and must keep a large pre–heating season inventory of heating oil of, say, 2.1 million gallons. In futures market jargon, this heating oil inventory represents a long position in the underlying commodity. If heating oil prices go up, the value of the heating oil you have in inventory goes up, but if heating oil prices fall, the value of the heating oil you have to sell goes down. Your risk is not trivial because even a 15-cent-per-gallon fluctuation in the price of heating oil will cause your inventory to change in value by $315,000. Because you are in the business of distributing heating oil, and not in the business of speculating on heating oil prices, you decide to remove this price risk from your business operations.
+
+Investors face similar risks. For example, consider a U.S. investor who buys stock in Australia. The investor now has the risk of the investment itself and the risk of the currency page 461exchange rate between Australia and the United States. For example, if the investment goes up in value, but the Australian dollar depreciates sufficiently relative to the U.S. dollar, then the net result could be a loss for the investor. To shed the “price” (or currency) risk, the investor could use currency futures to “lock in” an Australian/U.S. dollar exchange rate. In this case, the investor would hedge by selling (i.e., take a short position) in Australian dollar futures contracts.
+
+Whether the investor chooses to shift this risk depends on many factors. For example, when we discussed diversification, we saw that the lower the correlation, the higher the diversification benefit from combining securities. So, to the extent that an investor desires diversification, the investor might choose to pass on hedging currency. Further, the investor might not know the planned holding period of the investment, making it difficult to place a precise hedge.
+
+THE MECHANICS OF SHIFTING PRICE RISK An important function of futures markets is that they allow firms that have price risk to shift it to others who want price risk. A person or company that wants to shift price risk to others is called a hedger. Hedgers transfer price risk by taking a futures market position that is the opposite of their existing position in the underlying asset. You can think about this using a portfolio approach. Hedgers look to add a futures market position to their position in the underlying asset that will provide cash to the hedgers when their position in the underlying asset declines in value. However, the cost of adding a futures position is that the futures position draws down cash when the position in the underlying asset generates value.
+
+hedger
+
+Trader who seeks to transfer price risk by taking a futures position opposite to an existing position in the underlying asset.
+
+underlying asset
+
+The commodity or financial instrument on which the futures contract is based.
+
+In the case of your heating oil enterprise, the heating oil you have in inventory represents a long position in the underlying asset. Therefore, the value of this heating oil inventory can be protected by taking a short position in heating oil futures contracts. Hedgers often say they are “selling” futures contracts when they are initiating a short position. Because you are using this short position for hedging purposes, you have created a short hedge.
+
+short hedge
+
+Adding a short futures position to a long position in the underlying asset.
+
+With a short hedge in place, changes in the value of your long position in the underlying asset are offset by an approximately equal, but opposite, change in value of your short futures position.
+
+AN EXAMPLE OF A SHORT HEDGE One of the first questions a hedger has to answer is how many futures contracts are needed to shift risk. This question has many answers, and most can be found in a course devoted to futures contracts and other derivatives. However, a reasonable hedging strategy is known as a full hedge. When a hedger has an equal, but opposite, futures position to the position in the underlying asset, the hedger is said to have a full hedge.
+
+full hedge
+
+A futures position that is equal, but opposite, the position in the underlying asset.
+
+Heating oil futures contracts are traded on the New York Mercantile Exchange (NYM), a division of the CME Group. The standard contract size for heating oil futures is 42,000 gallons per contract. Because you wish to full hedge 2.1 million gallons, you need to sell 2,100,000/42,000 = 50 heating oil contracts.
+
+Suppose the average acquisition price of your 2.1 million gallons of heating oil is $1.40 per gallon and that today’s futures price for delivery during your heating season is $1.50. In the past, market conditions in your distribution area were such that you could sell your heating oil to your customers at a price 20 cents higher than the prevailing futures price. To help finance your inventory purchases, you borrowed money. During the heating season, you have to make an interest payment of $200,000.
+
+Given these numbers, you can forecast your pretax profit per gallon of heating oil. Revenues are 2,100,000 × $1.70 = $3,570,000. The cost of the heating oil is 2,100,000 × $1.40 = $2,940,000. Subtracting this cost and the debt payment of $200,000 from revenue results in a pretax profit of $430,000, or $430,000/2,100,000 = $.205 per gallon.
+
+However, if heating oil prices decrease by $.20, your pretax profit per gallon of heating oil will only be $.005. You view this risk as unacceptable and decide to hedge by selling 50 heating oil futures contracts at a price of $1.50 per gallon. Table 14.1 summarizes three possible outcomes: heating oil prices remain steady, they increase by $.20, and they decrease by $.20.
+
+As you can see in Table 14.1, with the short hedge, your pretax profit will be $.205 per gallon in all three cases. To see why, suppose heating oil prices fall by $.20. In this case, revenues are 2,100,000 × $1.50 = $3,150,000. The cost of the heating oil is 2,100,000 × $1.40 = $2,940,000. page 462Subtracting this cost and the debt payment of $200,000 from revenues results in an unhedged pretax profit of $10,000, or $10,000/2,100,000 = $.005 per gallon. However, if you had a short hedge in place, your pretax futures profit is $420,000 because ($1.50 − $1.30) × 42,000 × 50 = $420,000. Adding $420,000 to the unhedged pretax profit of $10,000 results in a hedged pretax profit of $430,000, which is $430,000/2,100,000 = $.205 per gallon.
+
+Hedging Heating Oil Inventory during the Heating Season
+
+TABLE 14.1
+
+Base Case: No Change in Heating Oil Price	Heating Oil Price Decrease	Heating Oil Price Increase
+Heating oil inventory (gal.)	2,100,000	2,100,000	2,100,000
+Selling price, per gallon	$         1.70	$         1.50	$         1.90
+Average purchase price, per gallon	$         1.40	$         1.40	$         1.40
+Futures price	$         1.50	$         1.30	$         1.70
+Without a Hedge	 	 	 	 
+   Revenue	$   3,570,000	$   3,150,000	$   3,990,000
+   Cost of inventory sold	$   2,940,000	$   2,940,000	$   2,940,000
+   Interest expense	$      200,000	$      200,000	$      200,000
+   Pretax profit	$      430,000	$      10,000	$      850,000
+Pretax profit, per gallon	$         .205	$         .005	$         .405
+With Short Hedge (short futures at $1.50)	 	 	 	 
+   Revenue	$   3,570,000	$   3,150,000	$   3,990,000
+   Cost of inventory sold	$   2,940,000	$   2,940,000	$   2,940,000
+   Interest expense	$      200,000	$      200,000	$      200,000
+   Futures gain (loss)	$               0	$      420,000	($   420,000)
+   Pretax profit	$      430,000	$      430,000	$      430,000
+Hedge effect (constant pretax profit)	$            .205	$            .205	$            .205
+Futures gain (loss), per gallon	$            .00	$            .20	($            .20)
+In fact, your pretax profit will remain steady for a wide range of prices. We illustrate this result in Figure 14.2. In Figure 14.2, the blue line represents your pretax profit per gallon of heating oil for a wide range of possible heating oil selling prices. The red line represents your futures market gains or losses. Note that heating oil futures prices and futures contract gains (losses) appear across the top and on the right side of the graph. If futures prices remain unchanged at $1.50, you have no futures gain or loss. If futures prices fall to $1.30, your futures gain is $.20.
+
+In Figure 14.2, the purple line remains steady at a value of $.205. This means that for a wide range of heating oil selling prices, your pretax profit remains unchanged if you employ the short hedge.
+
+Your business activities may also include distributing other petroleum products like gasoline and natural gas. Futures contracts are also available for gasoline and natural gas, and therefore they may be used for hedging purposes. In fact, your business activities might dictate you use another common hedge, known as a long hedge.
+
+long hedge
+
+Adding a long futures position to a short position in the underlying asset.
+
+Firms that use a long hedge do not currently own the underlying asset but plan to acquire it in the future. In this case, it is as if the firm is “short” the underlying asset because if the price increases between now and the time at which the firm actually purchases the underlying asset, the firm will pay more than it thought. Note that the firm does not go into the market and establish a short position in the underlying asset. That would be speculating. Rather, its planned business activities create situations where the firm is exposed to price increases in the underlying asset. This exposure is what gives rise to the saying that the firm is effectively “short the underlying.”
+
+FINAL THOUGHTS ABOUT HEDGING In real hedging applications, many factors influence the exact profit recognized. But this example provides you with an overview of how hedging works. The important thing to remember is this: If you want to shed risk, do not take risk. That is, if you are long the underlying asset, do not buy futures too!
+
+page 463 
+
+There is an easy way to remember which position to take in the futures market. In the heating oil example above, pretax profits per gallon change penny by penny with heating oil price changes. That is, the slope of the blue line in Figure 14.2 is one. To eliminate price risk, the hedger needs to add a futures position to the underlying position that results in a slope of zero. What number do we have to add to one to get zero? Obviously, the answer is negative one, which is the slope of the red line in Figure 14.2.
+
+Heating Oil Selling Prices, Pretax Profits, and Futures Profits
+
+FIGURE 14.2
+
+
+Figure 14.2 is sometimes called “the X” or “the cross” in that it shows how the risk of the futures position offsets the risk of the underlying position. If you can remember Figure 14.2, you will remember which futures position to take when you want to hedge.
+
+Hedging greatly reduces and, in some cases, eliminates the possibility of a loss from a decline in the price of the underlying asset. However, by hedging with futures, the firm also eliminates the possibility of a gain from a price increase in the underlying asset. This is an important point. If the price of the underlying asset rises, you will incur a loss on your futures position.
+
+However, forgone opportunities for increases in the value of the underlying asset represent the bulk of hedging costs. Failure to shift price risk through hedging means that the firm is actually holding price risk. Some people think that holding price risk that could be shifted is the same as taking price risk. The owners of the firm must decide whether they are price risk shifters or price risk holders.
+
+Short Hedging
+
+EXAMPLE 14.4
+
+Suppose you have an inventory of 1.8 million pounds of soybean oil. Describe how you would hedge this position.
+
+Because you are long in the underlying commodity, soybean oil, you need to go short in futures (i.e., sell). A single soybean oil contract calls for delivery of 60,000 pounds of bean oil. To hedge your position, you need to sell 1.8 million/60,000 = 30 futures contracts.
+
+page 464 
+
+More Hedging
+
+EXAMPLE 14.5
+
+You need to buy 360,000 pounds of orange juice concentrate in three months. How can you hedge the price risk associated with this planned purchase? One orange juice contract calls for delivery of 15,000 pounds of orange juice concentrate.
+
+In this example, if the price of concentrate increases between now and when you actually purchase the orange juice concentrate, you will pay more than you thought. So, effectively, you have a “short” position in the underlying asset because you do not currently own it (but you do plan to buy it later). To offset the risk of higher orange juice concentrate prices when you actually buy, you need to establish a long futures position today (this hedge is known as a long hedge). You should buy 360,000/15,000 = 24 contracts.
+
+Even More Hedging
+
+EXAMPLE 14.6
+
+Suppose your company will receive payment of £15 million in three months, at which time your company will convert the British pounds to U.S. dollars. What is the standard futures contract size for British pounds? Describe how you could use futures contracts to lock in an exchange rate from British pounds to U.S. dollars for your planned receipt of £15 million, including how many contracts are required.
+
+Your company will be receiving £15 million, so you are effectively long British pounds. So, if the British pound per U.S. dollar exchange rate falls, the British pounds you will receive will decline in terms of their value in U.S. dollars.
+
+To hedge these British pounds, you can use a short hedge. That is, you short (or sell) British pound futures contracts today. As with any short position, your short position in British pound futures obligates you to deliver the underlying asset. In this case, when the futures contract expires, you are obligated to deliver British pounds. You will receive U.S. dollars at today’s futures price (which is quoted as the U.S. dollar price for one British pound). One British pound contract calls for delivery of £62,500. You will therefore sell £15 million/£62,500 = 240 contracts.
+
+CHECK THIS
+
+
+
+14.2aExplain what is meant by a long position in futures and what is meant by a short position in futures.
+
+14.2bSuppose a hedger employs a futures hedge that is two-thirds the size of the underlying position. Why do you think this is called a “partial” hedge?
+
+14.2cYou have a short position in the underlying asset. How would you modify Figure 14.2 in this case?
+
+14.2dSuppose a firm has a long position in the underlying asset. What happens if this firm buys futures contracts instead of selling futures contracts? Create an example like the one shown in Table 14.1 to help explain the consequences. (By the way, this activity is jokingly referred to as a “Texas hedge.”)
+
+14.3 Futures Trading Accounts
+A futures exchange, like a stock exchange, allows only exchange members to trade on the exchange. Exchange members may be firms or individuals trading for their own accounts, or they may be brokerage firms handling trades for customers. Some firms conduct both trading and brokerage operations on the exchange. In this section, we discuss the mechanics of a futures trading account as it pertains to a customer with a trading account at a brokerage firm.
+
+page 465 
+
+For a list of online futures brokers, see
+nerdwallet.com.
+
+The biggest customer trading accounts are those of corporations that use futures to manage their business risks and money managers who hedge or speculate with clients’ funds. Many individual investors also have futures trading accounts of their own, although speculation by individual investors is not recommended without a full understanding of all risks involved. Whether a futures trading account is large or small, the mechanics of account trading are essentially the same.
+
+There are several essential things to know about futures trading accounts. The first thing is that margin is required. In this way, futures accounts resemble the stock margin accounts we discussed in a previous chapter; however, the specifics are quite different. Futures margin is a deposit of funds in a futures trading account dedicated to covering potential losses from an outstanding futures position. An initial margin is required when a futures position is first established. The amount varies according to contract type and size, but margin requirements for futures contracts usually range between 5 percent and 15 percent of total contract value. Initial margin is the same for both long and short futures positions.
+
+futures margin
+
+Deposit of funds in a futures trading account dedicated to covering potential losses from an outstanding futures position.
+
+initial margin
+
+The minimum margin that must be supplied on a securities purchase.
+
+The second thing to know about a futures trading account is that contract values in outstanding futures positions are marked to market on a daily basis. Marking to market is a process whereby gains and losses on outstanding futures positions are recognized at the end of each trading day.
+
+marking to market
+
+In futures trading accounts, the process whereby gains and losses on outstanding futures positions are recognized on a daily basis.
+
+For example, suppose one morning you call your broker and instruct her to go long five U.S. Treasury note contracts for your account. A few minutes later, she calls back to confirm order execution at a futures price of 125. Because the Treasury note contract size is $100,000 par value, contract value is 125% × $100,000 = $125,000 per contract. Thus, the total position value for your order is $625,000, for which your broker requires $35,000 initial margin. In addition, your broker requires that at least $27,500 in maintenance margin be present at all times. The necessary margin funds are immediately wired from a bank account to your futures account.
+
+Now, at the end of trading that day, Treasury note futures close at a price of 123. Overnight, all accounts are marked to market. Your Treasury note futures position is marked to $123,000 per contract, or a $615,000 total position value. This value means you have lost $10,000. This loss is deducted from your initial margin, leaving you with only $25,000 in your futures account.
+
+maintenance margin
+
+The minimum margin that must be present at all times in a margin account.
+
+Because the maintenance margin level on your account is $27,500, your broker will issue a margin call on your account. Essentially, your broker will notify you that you must immediately restore your margin level to the initial margin level of $35,000, or else she will close out your Treasury note futures position at whatever trading price is available at the exchange.
+
+margin call
+
+Notification to increase the margin level in a trading account.
+
+This example illustrates what happens when a futures trading account is marked to market and the resulting margin funds fall below the maintenance margin level. The alternative, and more pleasant, experience occurs when a futures price moves in your favor, and the marking-to-market process adds funds to your account. In this case, marking-to-market gains can be withdrawn from your account so long as remaining margin funds are not less than the initial margin level.
+
+The third thing to know about a futures trading account is that a futures position can be closed out at any time; you do not have to hold a contract until maturity. A futures position is closed out by instructing your broker to close out your position. To close out a position, your broker will enter a reverse trade for your account.
+
+reverse trade
+
+A trade that closes out a previously established futures position by taking the opposite position.
+
+A reverse trade works like this: Suppose you are currently short five Treasury note contracts, and you instruct your broker to close out the position. Your broker responds by going long five Treasury note contracts for your account. In this case, going long five contracts is a reverse trade because it exactly cancels your previous five-contract short position. At the end of the day in which you make your reverse trade, your account will be marked to market at the futures price realized by the reverse trade. From then on, your position is closed out, and no more gains or losses will be realized.
+
+This example illustrates that closing out a futures position is no more difficult than initially entering into a position. There are two basic reasons to close out a futures position before contract maturity. The first is to capture a current gain or loss, without realizing further price risk. The second is to avoid the delivery requirement that comes from holding a page 466futures contract until it matures. In fact, over 98 percent of all futures contracts are closed out before contract maturity, which indicates that less than 2 percent of all futures contracts result in delivery of the underlying commodity or financial instrument.
+
+Before closing this section, let’s briefly list the three essential things to know about a futures trading account as discussed above:
+
+Margin is required.
+
+Futures accounts are marked to market daily.
+
+A futures position can be closed out at any time by a reverse trade.
+
+Understanding the items in this list is important to anyone planning to use a futures trading account.
+
+CHECK THIS
+
+
+
+14.3aWhat are the three essential things you should know about a futures trading account?
+
+14.3bWhat is meant by initial margin for a futures position? What is meant by maintenance margin for a futures position?
+
+14.3cExplain the process of marking to market a futures trading account. What is a margin call, and when is one issued?
+
+14.3dHow is a futures position closed out by a reverse trade? What proportion of all futures positions are closed out by reverse trades rather than by delivery at contract maturity?
+
+14.4 Cash Prices versus Futures Prices
+We now turn to the relationship between today’s price of some commodity or financial instrument and its futures price. We begin by examining current cash prices.
+
+CASH PRICES
+The cash price of a commodity or financial instrument is the price quoted for current delivery. The cash price is also called the spot price, as in “on the spot.” In futures jargon, terms like “spot gold” or “cash wheat” are used to refer to commodities being sold for current delivery in what is called the cash market or the spot market.
+
+cash price
+
+Price of a commodity or financial instrument quoted for current delivery. Also called the spot price.
+
+cash market
+
+Market in which commodities or financial instruments are traded for immediate delivery. Also called the spot market.
+
+Figure 14.3 reproduces some common “Cash Prices” for the same day as the “Futures Prices” seen in Figure 14.1. The data are divided into sections according to commodity categories. For example, the section “Grains and Feeds” lists spot price information for wheat, corn, soybeans, and similar crops. Other commodity sections include “Food,” “Fats and Oils,” “Energy,” and “Metals.” Each section gives commodity names along with cash market prices for the day of trading and one year earlier.
+
+CASH-FUTURES ARBITRAGE
+Intuitively, you might think that the cash price of a commodity is closely related to its futures price. If you do, then your intuition is quite correct. In fact, your intuition is backed up by strong economic argument and more than a century of experience observing the simultaneous operation of cash and futures markets.
+
+As a routine matter, cash and futures prices are closely watched by market professionals. To understand why, suppose you notice that spot gold is trading for $1,300 per ounce while the two-month futures price is $1,350 per ounce. Do you see a profit opportunity?
+
+You should, because buying spot gold today at $1,300 per ounce while simultaneously selling gold futures at $1,350 per ounce locks in a $50 per ounce profit. True, gold has storage costs page 467(you have to put it somewhere) and a spot gold purchase ties up capital that could be earning interest. These costs, however, are small relative to the $50 per ounce gross profit, which is $50/$1,300 = .0385, or 3.85% per two months, or about 23 percent per year. Furthermore, this profit is risk-free! Alas, in reality, such easy profit opportunities are the stuff of dreams.
+
+Commodity Cash Prices
+
+FIGURE 14.3
+
+
+Source: The Wall Street Journal, April 10, 2019.
+
+Earning risk-free profits from an unusual difference between cash and futures prices is called cash-futures arbitrage. In a competitive market, cash-futures arbitrage has very slim profit margins. In fact, the profit margins are almost imperceptible when they exist at all.
+
+cash-futures arbitrage
+
+Strategy for earning risk-free profits from an unusual difference between cash and futures prices.
+
+Comparing cash prices for commodities in Figure 14.3 with their corresponding futures prices reported in Figure 14.1, you will find that cash prices and futures prices are seldom equal. In futures jargon, the difference between a cash price and a futures price is called the basis.1
+
+basis
+
+The difference between the cash price and the futures price for a commodity, i.e., Basis = Cash price − Futures price.
+
+For commodities with storage costs, the cash price is usually less than the futures price. This is referred to as a carrying-charge market, or contango. Sometimes, however, the cash price is greater than the futures price, and this is referred to as an inverted market, or backwardation. We can summarize this discussion of carrying-charge markets, inverted markets, and basis as follows:
+
+
+carrying-charge market
+
+The case where the futures price is greater than the cash price; i.e., the basis is negative.
+
+inverted market
+
+The case where the futures price is less than the cash price; i.e., the basis is positive.
+
+A variety of factors can lead to an economically justifiable difference between a commodity’s cash price and its futures price, including availability of storage facilities, transportation page 468costs, and seasonal price fluctuations. The primary determinants of the cash-futures basis, however, are storage costs and interest costs. Storage cost is the cost of holding the commodity in a storage facility, and interest cost refers to interest income forgone on funds used to buy and hold the commodity.
+
+INVESTMENT UPDATES
+
+CONTANGO AND ITS EFFECT ON YOUR COMMODITY ETF/ETN
+
+As exchange traded funds (ETFs) have grown, so have investments and interest in a couple of related investment types: commodity based ETFs and exchange traded notes (ETNs). While they share some similarities with standard ETFs, many commodity based ETFs and ETNs are subject to a phenomenon called contango, which arises when front-month futures contracts are cheaper than second-month futures contracts. Put more simply, contango occurs when the price of a commodity for future delivery is higher than the spot price. An opposite phenomenon, backwardation, can also occur.
+
+This affects all ETFs and ETNs that are futures based or track commodity indexes (or both), which typically invest in the front month futures contracts of the tracked commodities. Contango generates what is known as a negative roll yield. This negative roll yield can negatively affect the returns of the ETF and cause tracking errors. The wider the spread, or “contango effect,” the higher the risk that said negative roll yield will also negatively affect the net asset value of the full ETF. According to Kevin Grewal at Smartstops, “When markets are in contango, which some argue is a normal price relationship which reflects the costs of carrying the commodity, the relative ETF will underperform its underlying commodity.”
+
+Many commonly traded ETFs have been influenced by contango, including the US Oil Fund (NYSE:USO), the United States Natural Gas Fund (NYSE:UNG), and the iPath S&P GSCI Crude Oil Total Return Index ETN (NYSE:OIL). For (NYSE:USO) and (NYSE:UNG), their investment goals are to follow the percentage change in the price of their respective commodities’ front month contract, so their performance doesn’t always follow the performance of their respective underlying indexes. Many experts recommend utilizing an exit strategy to help mitigate risk when investing in these funds.
+
+_______________
+
+Source: http://etfdailynews.com/2010/06/08/is-your-commodity-etfetn-influenced-by-contango-ung-uso-oil/, June 8, 2010.
+
+If a futures price rises far enough above a cash price to more than cover storage costs and interest expense, commodity traders will undertake cash-futures arbitrage by buying in the cash market and selling in the futures market. This trading drives down the futures price and drives up the cash price until the basis is restored to an economically justifiable level.
+
+Similarly, if a futures price falls far enough relative to a cash price, traders will undertake cash-futures arbitrage by short selling in the cash market and buying in the futures market. This trading drives down the cash price and drives up the futures price until an economically justifiable basis is restored. In both cases, arbitrage ensures that the basis is kept at an economically appropriate level.
+
+As we discussed in another chapter, many investors use exchange-traded funds (ETFs) or notes (ETNs) to gain exposure to areas that have traditionally been off limits to smaller investors. In particular, commodity-based investments have become quite popular. Some of the largest such funds are SLV (silver), GLD (gold), USO (oil), UNG (natural gas), and UUP (the U.S. dollar). These funds allow for diversification—but they come with unusual risks. As the nearby Investment Updates box discusses, these risks are associated with two curiously named price structures: contango and backwardation.
+
+SPOT-FUTURES PARITY
+We can be slightly more precise in illustrating the relationship between spot and futures prices for financial futures. Consider the example of futures contracts for shares of stock in a single company. One place such futures contracts are traded in the United States is OneChicago, a joint venture of the major Chicago exchanges. Single-stock futures contracts have a standard contract size of 100 shares of the underlying stock, but futures prices are quoted on a per-share basis.
+
+For more information on single-stock futures trading, visit
+onechicago.com.
+
+Suppose we are examining a particular single-stock futures contract that calls for delivery of 100 shares of stock in one year. The current (i.e., cash or spot) stock price is $50 per page 469share, and the stock does not pay dividends. Also, 12-month T-bills are yielding 2 percent. What should the futures price be? To answer, notice that you can buy 100 shares of stock for $50 per share, or $5,000 total. You can eliminate all of the risk associated with this purchase by selling one futures contract. The net effect of this transaction is that you have created a risk-free asset. Because the risk-free rate is 2 percent, your investment must have a future value of $5,000 × 1.02 = $5,100. In other words, the futures price should be $51 per share.
+
+Suppose the futures price is, in fact, $50 per share. What would you do? To make money, you would short 100 shares of stock at $50 per share and invest the $5,000 proceeds at 2 percent.2 Simultaneously, you would buy one futures contract.
+
+At the end of the year, you would have $5,100. You would use $5,000 to buy the stock to fulfill your obligation on the futures contract and then return the stock to close out the short position. You pocket $100. This trading is another example of cash-futures arbitrage.
+
+More generally, if we let F be the futures price, S be the spot price, and r be the risk-free rate, then our example illustrates that:
+
+
+In other words, the futures price is the future value of the spot price, calculated at the risk-free rate. This is the famous spot-futures parity condition. This condition must hold in the absence of cash-futures arbitrage opportunities.
+
+spot-futures parity
+
+The relationship between spot prices and futures prices that holds in the absence of arbitrage opportunities.
+
+More generally, if r is the risk-free rate per period and the futures contract matures in T periods, then the spot-futures parity condition is:
+
+
+Notice that T could be a fraction of one period. For example, if we have the risk-free rate per year, but the futures contract matures in six months, T would be 1/2.
+
+Parity Check
+
+EXAMPLE 14.7
+
+A non-dividend-paying stock has a current price of $12 per share. The risk-free rate is 4 percent per year. If a futures contract on the stock matures in three months, what should the futures price be?
+
+From our spot-futures parity condition, we have:
+
+
+The futures price should be $12.12. Notice that r is expressed as an annual rate and T is expressed in terms of years for this example. Therefore, we set r = .04 and T = 1/4.
+
+MORE ON SPOT-FUTURES PARITY
+In our spot-futures parity example above, we assumed that the underlying financial instrument (the stock) had no cash flows (no dividends). If there are dividends (for a stock future) or coupon payments (for a bond future), then we need to modify our spot-futures parity condition.
+
+For a stock, we let D stand for the dividend and we assume that the dividend is paid in one period, at or near the end of the futures contract’s life. In this case, the spot-futures parity condition becomes:
+
+
+Notice that we have subtracted the amount of the dividend from the future value of the stock price. The reason is that if you buy the futures contract, you will not receive the dividend, but the dividend payment will reduce the stock price.
+
+page 470 
+
+An alternative, and useful, way of writing the dividend-adjusted spot-futures parity result in Equation 14.4 is to define d as the dividend yield on the stock. Recall that the dividend yield is the upcoming dividend divided by the current price. In our current notation, the dividend yield is d = D/S. With this fraction in mind, we can write the dividend-adjusted parity result as:
+
+
+Finally, as above, if there is something other than a single period involved, we would write:
+
+
+where T is the number of periods (or fraction of a period) and r is the interest rate per period.
+
+For example, suppose there is a futures contract on a stock with a current price of $80. The futures contract matures in six months. The risk-free rate is 4 percent per year and the stock has an annual dividend yield of 3 percent. What should the futures price be?
+
+Plugging in the values to our dividend-adjusted parity equation, we have:
+
+
+Notice that we set T equal to 1/2 because the contract matures in six months.
+
+CHECK THIS
+
+
+
+14.4aWhat is the spot price for a commodity?
+
+14.4bWith regard to futures contracts, what is the basis?
+
+14.4cWhat is an inverted market?
+
+14.4dWhat is the spot-futures parity condition?
+
+14.5 Stock Index Futures
+There are a number of futures contracts on stock market indexes. Because these contracts are particularly important, we devote this entire section to them. We first describe the contracts and then discuss some trading and hedging strategies involving their use.
+
+BASICS OF STOCK INDEX FUTURES
+Locate the section labeled “Index Futures” in Figure 14.1. Here we see various stock index futures contracts. The third contract listed, the Mini S&P 500, has the highest open interest (by far). With this contract, actual delivery would be difficult or impossible because the seller of the contract would have to buy all 500 stocks in exactly the right proportions to deliver. Clearly, this portfolio formation is not practical. While index funds are available, they will generally not match the actual index weights precisely. For these reasons, stock index futures contracts feature cash settlement.
+
+For information on stock index futures, visit the website at CME Group,
+cmegroup.com.
+
+To understand how stock index futures work, suppose you bought one Mini S&P 500 contract at a futures price of 2,890. The contract size is $50 times the level of the index. What this means is that, at maturity, the buyer of the contract will pay the seller $50 times the difference between the futures price of 2,890 and the level of the S&P 500 index at contract maturity.
+
+For example, suppose that at maturity the S&P had actually fallen to 2,860. In this case, the buyer of the contract must pay $50 × (2,890 − 2,860) = $1,500 to the seller of the contract. In effect, the buyer of the contract has agreed to purchase 50 “units” of the index at a price of $2,890 per unit. If the index is below 2,890, the buyer will lose money. If the index is above that, then the seller will lose money.
+
+page 471 
+
+Index Futures
+
+EXAMPLE 14.8
+
+Suppose you are convinced that the Dow stocks are going to skyrocket in value. Consequently, you buy 20 Mini-DJIA futures contracts maturing in six months at a price of 25,900. Suppose that the Dow Jones Industrial Average is at 26,220 when the contracts mature. How much will you make or lose?
+
+The futures price is 25,900, and this Mini-DJIA has a contract size of $5 times the level of the index. At maturity, if the index is at 26,220, you make $5 × (26,220 − 25,900) = $1,600 per contract. With 20 contracts, your total profit is $32,000.
+
+INDEX ARBITRAGE
+The spot-futures parity relation we developed above is the basis for a common trading strategy known as index arbitrage. Index arbitrage refers to monitoring the futures price on a stock index along with the level of the underlying index. The trader looks for violations of parity and trades as appropriate.
+
+index arbitrage
+
+Strategy of monitoring the futures price on a stock index and the level of the underlying index to exploit deviations from parity.
+
+For example, suppose the Mini S&P 500 futures price for delivery in one year is 2,970. The current S&P 500 index level is 2,900. The dividend yield on the S&P is projected to be 3 percent per year and the risk-free rate is 5 percent. Is there a trading opportunity here?
+
+From our dividend-adjusted parity Equation 14.6, the futures price should be:
+
+
+For information on program trading, visit
+programtrading.com.
+
+For information on stock index arbitrage, visit
+indexarb.com.
+
+Thus based on our parity calculation, the futures price is too high. We want to buy low, sell high, so we buy the index and simultaneously sell the futures contract.
+
+Index arbitrage is often implemented as a program trading strategy. While this term covers a lot of ground, it generally refers to the monitoring of relative prices by computer to more quickly spot opportunities. In some cases, it includes submitting the needed buy and sell orders using a computer to speed up the process.
+
+program trading
+
+Computer-assisted monitoring of relative prices of financial assets; it sometimes includes computer submission of buy and sell orders to exploit perceived arbitrage opportunities.
+
+Whether a computer is used in program trading is not really the issue; instead, a program trading strategy is any coordinated, systematic procedure for exploiting (or trying to exploit) violations of parity or other arbitrage opportunities. Such a procedure is a trading “program” in the sense that whenever certain conditions exist, certain trades are made. Thus, the process is sufficiently mechanical that it can be automated, at least in principle.
+
+Technically, the NYSE defines program trading as the simultaneous purchase or sale of at least 15 different stocks with a total value of $1 million or more. Program trading can account for over half the total trading volume on the NYSE, but not all program trading involves stock index arbitrage.
+
+Another phenomenon was often associated with index arbitrage and, more generally, futures and options trading. S&P 500 futures contracts have four expiration months per year, and they expire on the third Friday of those months. On these same four Fridays, options on the S&P index and various individual stock options also expire. These Fridays are dubbed the “triple witching hour” because all three types of contracts expire, sometimes leading to unusual price behavior.
+
+In particular, on “triple witching hour” Fridays, all positions must be liquidated, or “unwound.” To the extent that large-scale index arbitrage and other program trading have taken place, enormous buying or selling sometimes occurs late in the day on such Fridays as positions are closed out. Large price swings and, more generally, increased volatility are often seen. To curtail this problem, the exchanges have adopted rules regarding the size of a position that can be carried to expiration.
+
+HEDGING STOCK MARKET RISK WITH FUTURES
+We earlier discussed hedging using futures contracts in the context of a business protecting the value of its inventory. We now discuss some hedging strategies available to portfolio page 472managers based on financial futures. Essentially, an investment portfolio is an inventory of securities, and financial futures can be used to reduce the risk of holding a securities portfolio.
+
+We consider the specific problem of an equity portfolio manager wishing to protect the value of a stock portfolio from the risk of an adverse movement of the overall stock market. Here, the portfolio manager wishes to establish a short hedge position to reduce risk and must determine the number of futures contracts required to properly hedge a portfolio.
+
+In this hedging example, you are responsible for managing a broadly diversified stock portfolio with a current value of $185 million. Analysis of market conditions leads you to believe that the stock market is unusually susceptible to a price decline during the next few months. Of course, nothing is certain regarding stock market fluctuations, but you are still sufficiently concerned to believe that action is required.
+
+A fundamental problem exists for you, however, in that no futures contract exactly matches your particular portfolio. As a result, you decide to protect your stock portfolio from a fall in value caused by a falling stock market using stock index futures. This is an example of a cross-hedge, where a futures contract on a related, but not identical, commodity or financial instrument is used to hedge a particular spot position.
+
+cross-hedge
+
+Hedging a particular spot position with futures contracts on a related, but not identical, commodity or financial instrument.
+
+Thus, to hedge your portfolio, you wish to establish a short hedge using stock index futures. To do this, you need to know how many index futures contracts are required to form an effective hedge. Four basic inputs are needed to calculate the number of stock index futures contracts required to hedge a stock portfolio:
+
+The current value of your stock portfolio.
+
+The beta of your stock portfolio.
+
+The contract value of the index futures contract used for hedging.
+
+The beta of the futures contract.
+
+Based on previous chapters, you are familiar with the concept of beta as a measure of market risk for a stock portfolio. Essentially, beta measures portfolio risk relative to the overall stock market. We will assume that you have maintained a beta of 1.25 for your $185 million stock portfolio.
+
+You believe that the market (and your portfolio) will fall in value over the next three months and you decide to eliminate market risk from your portfolio. Because you hold a stock portfolio, you know that you will need to establish a short hedge using futures contracts. You decide to use futures contracts on the S&P 500 index because you used this index to calculate the beta for your portfolio.
+
+From The Wall Street Journal, you find that the Mini S&P 500 futures price for contracts that mature in three months is currently 2,880. Because the contract size for the Mini S&P 500 futures is 50 times the index level, the current value of a single S&P 500 index futures contract is $50 × 2,880 = $144,000.
+
+You now have all the information you need to calculate the number of Mini S&P 500 index futures contracts needed to hedge your $185 million stock portfolio. The number of stock index futures contracts needed to hedge the portfolio fully is:
+
+
+where: VP = Value of the stock portfolio
+
+VF = Value of one stock index futures contract
+
+βP = Current beta of the stock portfolio
+
+βF = Current beta of the futures contract
+
+For your particular hedging problem, βP = 1.25, VP = $185 million, and VF = $144,000. We are not given the beta of the futures contract, but because we are using S&P 500 futures, the beta should be close to that of the S&P 500, which is 1. The only time βF would be different from 1 is if the futures contract being used is different from the index being used to calculate the beta of the underlying portfolio. For example, if we calculate the beta of the underlying portfolio using the S&P 500, but we use Dow futures contracts to hedge, then we would also have to calculate the beta of the Dow futures contracts relative to the S&P 500 index.
+
+page 473 
+
+Given the information in our example, the following calculation results:
+
+
+Thus, you can establish an effective short hedge by going short 1,606 S&P 500 index futures contracts. This short hedge will protect your stock portfolio against the risk of a general fall in the stock market during the remaining three-month life of the futures contract.
+
+Hedging with Stock Index Futures
+
+EXAMPLE 14.9
+
+How many stock index futures contracts are required to completely hedge a $250 million stock portfolio, assuming a portfolio beta of .75 and a Mini S&P 500 index futures level of 2,900?
+
+Using Equation 14.7:
+
+
+Therefore, you need to short 1,293 stock index futures contracts to hedge this $250 million portfolio. In this example, note that the value of one futures contract is given by $50 × 2,900 = $145,000.
+
+HEDGING INTEREST RATE RISK WITH FUTURES
+Having discussed hedging a stock portfolio, we now turn to hedging a bond portfolio. As we will see, the bond portfolio hedging problem is similar to the stock portfolio hedging problem. Once again, we will be cross-hedging, but this time using futures contracts on U.S. Treasury notes. Here, our goal is to protect the bond portfolio against changing interest rates.
+
+In this example, you are responsible for managing a bond portfolio with a current value of $100 million. Recently, rising interest rates have caused your portfolio to fall in value slightly, and you are concerned that interest rates may continue to trend upward for the next several months. You decide to establish a short hedge based on 10-year Treasury note futures.
+
+The formula for the number of U.S. Treasury note futures contracts needed to hedge a bond portfolio is similar to Equation 14.7:
+
+
+where: DP = Duration of the bond portfolio
+
+VP = Value of the bond portfolio
+
+DF = Duration of the futures contract
+
+VF = Value of a single futures contract
+
+We already know the value of the bond portfolio, which is $100 million. Also, suppose that the duration of the portfolio is given as eight years. Next, we must calculate the duration of the futures contract and the value of the futures contract.
+
+As a useful rule of thumb, the duration of an interest rate futures contract is equal to the duration of the underlying instrument plus the time remaining until contract maturity:
+
+
+where: DF = Duration of the futures contract
+
+DU = Duration of the underlying instrument
+
+MF = Time remaining until contract maturity
+
+For simplicity, let us suppose that the duration of the underlying U.S. Treasury note is 6½ years and the futures contract has a maturity of ½ year, yielding a futures contract duration of 7 years.
+
+page 474 
+
+The value of a single futures contract is the current futures price times the futures contract size. The standard contract size for U.S. Treasury note futures contracts is $100,000 par value. Now suppose that the futures price is 125, or 125 percent of par value. This yields a futures contract value of $100,000 × 1.25 = $125,000.
+
+You now have all inputs required to calculate the number of futures contracts needed to hedge your bond portfolio. The number of U.S. Treasury note futures contracts needed to hedge the bond portfolio is calculated as follows:
+
+
+Thus, you can establish an effective short hedge by going short 914 futures contracts for 10-year U.S. Treasury notes. This short hedge will protect your bond portfolio against the risk of a general rise in interest rates during the life of the futures contracts.
+
+Hedging with U.S. Treasury Note Futures
+
+EXAMPLE 14.10
+
+How many futures contracts are required to hedge a $250 million bond portfolio with a portfolio duration of 5 years using 10-year U.S. Treasury note futures with a duration of 7.5 years and a futures price of 115?
+
+Using the formula for the number of contracts, we have:
+
+
+You therefore need to sell 1,449 contracts to hedge this $250 million portfolio.
+
+FUTURES CONTRACT DELIVERY OPTIONS
+Many futures contracts have a delivery option whereby the seller can choose among several different “grades” of the underlying commodity or instrument when fulfilling delivery requirements. Naturally, we expect the seller to deliver the cheapest among available options. In futures jargon, this is called the cheapest-to-deliver option. The cheapest-to-deliver option is an example of a broader feature of many futures contracts, known as a “quality” option. Of course, futures buyers know about the delivery option, and therefore the futures prices reflect the value of the cheapest-to-deliver instrument.
+
+cheapest-to-deliver option
+
+Seller’s option to deliver the cheapest instrument when a futures contract allows several instruments for delivery. For example, U.S. Treasury note futures allow delivery of any Treasury note with a maturity between 6½ and 10 years.
+
+As a specific example of a cheapest-to-deliver option, the 10-year Treasury note contract allows delivery of any Treasury note with a maturity between 6½ and 10 years. This complicates the bond portfolio hedging problem. For the portfolio manager trying to hedge a bond portfolio with U.S. Treasury note futures, the cheapest-to-deliver feature means that a note can be hedged only based on an assumption about which note will actually be delivered. Furthermore, through time the cheapest-to-deliver note may vary, and, consequently, the hedge will have to be monitored regularly to make sure that it correctly reflects the note issue that is most likely to be delivered. Fortunately, because this is a common problem, many commercial advisory services provide this information to portfolio managers and other investors.
+
+CHECK THIS
+
+
+
+14.5aWhat is a cross-hedge?
+
+14.5bWhat are the basic inputs required to calculate the number of stock index futures contracts needed to hedge an equity portfolio?
+
+14.5cWhat are the basic inputs required to calculate the number of U.S. Treasury note futures contracts needed to hedge a bond portfolio?
+
+14.5dWhat is the cheapest-to-deliver option?
+
+page 475 
+
+14.6 Summary and Conclusions
+The topic of this chapter is futures markets. In this chapter, we surveyed the basics of futures markets and contracts—which we summarize by the chapter’s important concepts.
+
+1.  The basics of futures markets and how to obtain price quotes for futures contracts.
+
+A.  A futures contract is an agreement between a buyer and a seller for a future transaction at a price set today. Futures contracts are managed through organized futures exchanges. The existence of a futures exchange virtually eliminates default risk. Four major terms for standardized futures contracts are (1) the identity of the underlying commodity or financial instrument, (2) the futures contract size, (3) the futures maturity date, and (4) the future price at which the contract will be fulfilled.
+
+B.  Most commodity futures contracts call for delivery of a physical commodity. Financial futures require delivery of a financial instrument or, in many cases, cash. Futures contracts are a type of derivative security because the value of the contract is derived from the value of an underlying instrument.
+
+C.  Quotes for futures prices are available through the financial press. These days, however, delayed intraday quotes for futures prices are available at the websites of many futures exchanges.
+
+2.  The risks involved in futures market speculation.
+
+A.  Speculators accept price risk in an attempt to profit on the direction of prices. Speculators can go long or short futures contracts. Speculators buy futures contracts if they think prices are going to go higher. Buying futures is often referred to as “going long,” or establishing a long position. Speculators sell futures contracts if they think prices are going lower. Selling futures is often called “going short,” or establishing a short position.
+
+B.  Futures speculation can lead to substantial gains and losses. An important point is that your gains from futures speculation depend on accurate forecasts of the direction of future prices. You must ask yourself: Is it easy to forecast price changes?
+
+C.  You can sustain losses in futures markets far in excess of your original margin deposit. As futures market prices move against your position, you could be asked to deposit more money into your futures trading account.
+
+3.  How cash prices and futures prices are linked.
+
+A.  The cash price of a commodity or financial instrument is the price quoted for current delivery. The cash price is also called the spot price.
+
+B.  The futures price is the future value of the spot price, calculated at the risk-free rate. This statement is the famous spot-futures parity condition. This condition must hold in the absence of cash-futures arbitrage opportunities.
+
+4.  How futures contracts can be used to transfer price risk.
+
+A.  Hedging is the major economic reason for the existence of futures markets. However, a viable futures market requires participation by both hedgers and speculators.
+
+B.  Hedgers transfer price risk to speculators, and speculators absorb price risk. Therefore, hedging and speculating are complementary activities.
+
+C.  Hedgers transfer price risk by taking a futures position opposite to their position in the spot market. For example, if the hedger has an inventory of some commodity, the hedger is said to be long in the spot market. Therefore, the hedger will offset price risk in the spot market by taking a short position in the futures market.
+
+page 476 
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the essentials of what many consider to be a complex subject, futures contracts. We hope you realize that futures contracts per se are not complicated at all; in fact, they are, for the most part, quite simple. This doesn’t mean that they’re for everybody, of course. Because of the tremendous leverage possible, very large gains and losses can (and do) occur with great speed.
+
+To experience some of the gains and losses from outright speculation, you should buy and sell a variety of contracts in a simulated brokerage account such as Stock-Trak. Be sure to go both long and short and pick a few of each major type of contract.
+
+The internet is a rich resource for more information on trading futures. Probably the best place to begin is by visiting the websites of the major futures exchanges: the CME Group (cmegroup.com), the Intercontinental Exchange (theice.com), and the London Metals Exchange (lme.com). You might also visit the websites of some other international futures exchanges. Wikipedia has a list of worldwide futures exchanges. Bear in mind that the list changes frequently.
+
+For information on futures markets regulation, the federal agency charged with regulating U.S. futures markets is the Commodities Futures Trading Commission (cftc.gov). The professional organization charged with self-regulation is the National Futures Association (nfa.futures.org). General information on futures markets and trading can be found at the Futures Industry Association (fia.org).
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+basis 467
+
+carrying-charge market 467
+
+cash-futures arbitrage 467
+
+cash market 466
+
+cash price 466
+
+cheapest-to-deliver option 474
+
+cross-hedge 472
+
+forward contract 454
+
+full hedge 461
+
+futures contract 454
+
+futures margin 465
+
+futures price 454
+
+hedger 461
+
+index arbitrage 471
+
+initial margin 465
+
+inverted market 467
+
+long hedge 462
+
+long position 459
+
+maintenance margin 465
+
+margin call 465
+
+marking to market 465
+
+program trading 471
+
+reverse trade 465
+
+short hedge 461
+
+short position 459
+
+speculator 459
+
+spot-futures parity 469
+
+underlying asset 461
+
+Chapter Review Problems and Self-Test
+
+Futures Gains and Losses (LO1, CFA2)   Suppose you purchase 10 orange juice contracts today at the settle price of $1 per pound. How much do these 10 contracts cost you? If the settle price is lower tomorrow by 2 cents per pound, how much do you make or lose? The contract size is 15,000 pounds.
+
+Spot-Futures Parity (LO3, CFA1)   There is a futures contract on a stock, which is currently selling at $200 per share. The contract matures in two months; the risk-free rate is 5 percent annually. The stock does not pay a dividend. What does the parity relationship imply the futures price should be?
+
+page 477 
+
+Answers to Self-Test Problems
+
+If you go long (purchase) 10 contracts, you pay nothing today (you will be required to post margin, but a futures contract is an agreement to exchange cash for goods later, not today). If the settle price drops by 2 cents per pound, you lose $.02 × 15,000 pounds (the contract size) = $300 per contract. With 10 contracts, you lose $3,000.
+
+The spot-futures parity condition is:
+
+
+where S is the spot price, r is the risk-free rate, d is the dividend yield, F is the futures price, and T is the time to expiration measured in years.
+
+Plugging in the numbers, with zero for the dividend yield and 1/6 for the number of years (2 months out of 12), we have:
+
+
+Test Your Investment Quotient
+
+
+Futures versus Forward Contracts (LO1, CFA2)   Which of the following statements is true regarding the distinction between futures contracts and forward contracts?
+
+Futures contracts are exchange-traded, whereas forward contracts are OTC-traded.
+
+All else equal, forward prices are higher than futures prices.
+
+Forward contracts are created from baskets of futures contracts.
+
+Futures contracts are cash-settled at maturity, whereas forward contracts result in delivery.
+
+Futures versus Forward Contracts (LO1, CFA2)   In which of the following ways do futures contracts differ from forward contracts?
+
+  I. Futures contracts are standardized.
+
+ II. For futures, performance of each party is guaranteed by a clearinghouse.
+
+III. Futures contracts require a daily settling of any gains or losses.
+
+I and II only
+
+I and III only
+
+II and III only
+
+I, II, and III
+
+Futures Contracts (LO1, CFA2)   The open interest on a futures contract at any given time is the total number of outstanding:
+
+Contracts.
+
+Unhedged positions.
+
+Clearinghouse positions.
+
+Long and short positions.
+
+Futures Margin (LO2, CFA2)   Initial margin for a futures contract is usually:
+
+Regulated by the Federal Reserve.
+
+Less than 2 percent of contract value.
+
+In the range between 2 percent and 5 percent of contract value.
+
+In the range between 5 percent and 15 percent of contract value.
+
+Futures Margin (LO2, CFA2)   In futures trading, the minimum level to which an equity position may fall before requiring additional margin is most accurately termed the:
+
+Initial margin.
+
+Variation margin.
+
+Cash flow margin.
+
+Maintenance margin.
+
+Futures Margin (LO2, CFA2)   A silver futures contract requires the seller to deliver 5,000 troy ounces of silver. An investor sells one April silver futures contract at a price of $15 per ounce, posting an $8,400 initial margin. If the required maintenance margin is $6,900, the price per ounce at which the investor would first receive a maintenance margin call is closest to:
+
+$13.62
+
+$14.70
+
+page 478 
+
+$15.30
+
+$16.38
+
+Futures Margin (LO2, CFA2)   Which of the following statements is false about futures account margin?
+
+Initial margin is higher than maintenance margin.
+
+A margin call results when account margin falls below maintenance margin.
+
+Marking to market of account margin occurs at least daily.
+
+A margin call results when account margin falls below initial margin.
+
+Futures Contracts (LO1, CFA2)   Which of the following contract terms changes daily during the life of a futures contract?
+
+Futures price
+
+Futures contract size
+
+Futures maturity date
+
+Underlying commodity
+
+Futures Delivery (LO1, CFA2)   On the maturity date, stock index futures contracts require delivery of:
+
+Common stock.
+
+Common stock plus accrued dividends.
+
+Treasury bills.
+
+Cash.
+
+Spot-Futures Parity (LO3, CFA1)   A Treasury note futures contract has a quoted price of 100. The underlying bond has a coupon rate of 7 percent and the current market interest rate is 7 percent. Spot-futures parity then implies a cash bond price of:
+
+93
+
+100
+
+107
+
+114
+
+Spot-Futures Parity (LO3, CFA1)   A stock index futures contract maturing in one year has a currently traded price of $1,000. The cash index has a dividend yield of 2 percent and the interest rate is 5 percent. Spot-futures parity then implies a cash index level of:
+
+$933.33
+
+$970.87
+
+$1,071
+
+$1,029
+
+Spot-Futures Parity (LO3, CFA1)   A stock index futures contract matures in one year. The cash index currently has a level of $1,000 with a dividend yield of 2 percent. If the interest rate is 5 percent, then spot-futures parity implies a futures price of:
+
+$943.40
+
+$970.87
+
+$1,060
+
+$1,030
+
+Futures Hedging (LO3, CFA2)   You manage a $100 million stock portfolio with a beta of .8. Given a contract size of $100,000 for a stock index futures contract, how many contracts are needed to hedge your portfolio? Assume the beta of the futures contract is 1.
+
+8
+
+80
+
+800
+
+8,000
+
+Futures Hedging (LO4, CFA2)   You manage a $100 million bond portfolio with a duration of 9 years. You wish to hedge this portfolio against interest rate risk using T-bond futures with a contract size of $100,000 and a duration of 12 years. How many contracts are required?
+
+750
+
+1,000
+
+133
+
+1,333
+
+page 479 
+
+Futures Hedging (LO4, CFA2)   Which of the following is not an input needed to calculate the number of stock index futures contracts required to hedge a stock portfolio?
+
+The value of the stock portfolio
+
+The beta of the stock portfolio
+
+The contract value of the index futures contract
+
+The initial margin required for each futures contract
+
+Concept Questions
+
+Understanding Futures Quotations (LO1, CFA2)   Using Figure 14.1, answer the following questions:
+
+How many exchanges trade wheat futures contracts?
+
+If you have a position in 10 gold futures, what quantity of gold underlies your position?
+
+If you are short 20 corn futures contracts and you opt to make delivery, what quantity of corn must you supply?
+
+Which maturity of the gasoline contract has the largest open interest? Which one has the smallest open interest?
+
+Hedging with Futures (LO4, CFA2)   Kellogg’s uses large quantities of corn in its breakfast cereal operations. Suppose the near-term weather forecast for the corn-producing states is droughtlike conditions, so corn prices are expected to rise. To hedge its costs, Kellogg’s decides to use the Chicago Board of Trade corn futures contracts. Should the company be a short hedger or a long hedger in corn futures?
+
+Hedging with Futures (LO4, CFA2)   Suppose one of Fidelity’s mutual funds closely mimics the S&P 500 index. The fund has done very well during the year, and, in November, the fund manager wants to lock in the gains he has made using stock index futures. Should he take a long or short position in S&P 500 index futures?
+
+Hedging with Futures (LO4, CFA2)   A mutual fund that predominantly holds long-term Treasury bonds plans to liquidate the portfolio in three months. However, the fund manager is concerned that interest rates may rise from current levels and wants to hedge the price risk of the portfolio. Should she buy or sell Treasury bond futures contracts?
+
+Hedging with Futures (LO4, CFA2)   An American electronics firm imports its completed circuit boards from Japan. The company signed a contract today to pay for the boards in Japanese yen upon delivery in four months; the price per board in yen was fixed in the contract. Should the importer buy or sell Japanese yen futures contracts?
+
+Hedging with Futures (LO4, CFA2)   Jed Clampett just dug another oil well, and, as usual, it’s a gusher. Jed estimates that in two months, he’ll have 2 million barrels of crude oil to bring to market. However, Jed would like to lock in the value of this oil at today’s prices because the oil market has been skyrocketing recently. Should Jed buy or sell crude oil futures contracts?
+
+Hedging with Futures (LO4, CFA2)   The town of South Park is planning a bond issue in six months and Kenny, the town treasurer, is worried that interest rates may rise, thereby reducing the value of the bond issue. Should Kenny buy or sell Treasury bond futures contracts to hedge the impending bond issue?
+
+Futures Markets (LO1, CFA2)   Is it true that a futures contract represents a zero-sum game, meaning that the only way for a buyer to win is for a seller to lose, and vice versa?
+
+Program Trading (LO1)   Program traders closely monitor relative futures and cash market prices, but program trades are not actually made on a fully mechanical basis. What are some of the complications that might make program trading using, for example, the S&P 500 contract more difficult than the spot-futures parity formula indicates?
+
+Short Selling (LO1, CFA2)   What are the similarities and differences in taking the short side of a futures contract and short selling a stock? How do the cash flows differ?
+
+page 480 
+
+Questions and Problems
+
+Core Questions
+
+Understanding Futures Quotations (LO1, LO2, CFA2)   Using Figure 14.1, answer the following questions:
+
+What was the settle price for July 2019 coffee futures on this date? What is the total dollar value of this contract at the close of trading for the day?
+
+What was the settle price for June 2019 gasoline futures on this date? If you held 10 contracts, what is the total dollar value of your futures position?
+
+Suppose you held an open position of 25 June 2019 Mini Dow Jones Industrial Average futures on this day. What is the change in the total dollar value of your position for this day’s trading? If you held a long position, would this represent a profit or a loss to you?
+
+Suppose you are short 10 July 2019 soybean oil futures contracts. Would you have made a profit or a loss on this day?
+
+Futures Profits and Losses (LO2, CFA2)   You are long 20 July 2019 soybean futures contracts. (Grain traders would say you are “long 100,” i.e., 100,000 bushels.) Calculate your dollar profit or loss from this trading day using Figure 14.1.
+
+Futures Profits and Losses (LO2, CFA2)   You are short 15 July 2019 corn futures contracts. (Grain traders would say that you are “short 75,” i.e., 75,000 bushels.) Calculate your dollar profit or loss from this trading day using Figure 14.1.
+
+Futures Profits and Losses (LO2, CFA2)   You are short 30 June 2019 five-year Treasury note futures contracts. Calculate your profit or loss from this trading day using Figure 14.1.
+
+Open Interest (LO1, CFA2)   Referring to Figure 14.1, what is the total open interest on the June 2019 Japanese yen contract? Does it represent long positions, short positions, or both? Based on the settle price on the contract, what is the dollar value of the open interest?
+
+Spot-Futures Parity (LO3, CFA1)   A non-dividend-paying stock is currently priced at $16.40. The risk-free rate is 3 percent and a futures contract on the stock matures in six months. What price should the futures be?
+
+Spot-Futures Parity (LO3, CFA1)   A non-dividend-paying stock has a futures contract with a price of $94.90 and a maturity of two months. If the risk-free rate is 4.5 percent, what is the price of the stock?
+
+Spot-Futures Parity (LO3, CFA1)   A non-dividend-paying stock has a current share price of $42.60 and a futures price of $42.95. If the maturity of the futures contract is four months, what is the risk-free rate?
+
+Spot-Futures Parity (LO3, CFA1)   A stock has a current share price of $49.24 and a dividend yield of 1.5 percent. If the risk-free rate is 5.4 percent, what is the futures price if the maturity is four months?
+
+Spot-Futures Parity (LO3, CFA1)   A single-stock futures contract is priced at $27.18. The stock has a dividend yield of 1.25 percent and the risk-free rate is 2.5 percent. If the futures contract matures in six months, what is the current stock price?
+
+Intermediate Questions
+
+11. Margin Call (LO2, CFA2)   Suppose the initial margin on heating oil futures is $8,400, the maintenance margin is $7,200 per contract, and you establish a long position of 10 contracts today, where each contract represents 42,000 gallons. Tomorrow, the contract settles down $.04 from the previous day’s price. Are you subject to a margin call? What is the maximum price decline on the contract that you can sustain without getting a margin call?
+
+12. Marking to Market (LO2, CFA2)   You are long 10 gold futures contracts, established at an initial settle price of $1,300 per ounce, where each contract represents 100 troy ounces. Your initial margin to establish the position is $12,000 per contract and the maintenance margin is $11,200 per contract. Over the subsequent four trading days, gold settles at $1,295, $1,290, $1,305, and $1,315, respectively. Compute the balance in your margin account at the end of each of the four trading days, and compute your total profit or loss at the end of the trading period. Assume that a margin call requires you to fund your account back to the initial margin requirement.
+
+13. Marking to Market (LO2, CFA2)   You are short 15 gasoline futures contracts, established at an initial settle price of $2.085 per gallon, where each contract represents 42,000 gallons. Your page 481initial margin to establish the position is $7,425 per contract and the maintenance margin is $6,500 per contract. Over the subsequent four trading days, gasoline settles at $2.071, $2.099, $2.118, and $2.146, respectively. Compute the balance in your margin account at the end of each of the four trading days, and compute your total profit or loss at the end of the trading period. Assume that a margin call requires you to fund your account back to the initial margin requirement.
+
+14. Futures Profits (LO2, CFA2)   You went long 20 June 2019 crude oil futures contracts at a price of $62.15. Looking back at Figure 14.1, if you closed your position at the settle price on this day, what was your profit?
+
+15. Futures Profits (LO2, CFA2)   You shorted 15 June 2019 British pound futures contracts at the high price for the day. Looking back at Figure 14.1, if you closed your position at the settle price on this day, what was your profit?
+
+16. Index Arbitrage (LO3, CFA1)   Suppose the CAC-40 Index (a widely followed index of French stock prices) is currently at 4,920, the expected dividend yield on the index is 2 percent per year, and the risk-free rate in France is 6 percent annually. If CAC-40 futures contracts that expire in six months are currently trading at 4,952, what program trading strategy would you recommend?
+
+17. Cross-Hedging (LO4, CFA2)   You have been assigned to implement a three-month hedge for a stock mutual fund portfolio that primarily invests in medium-sized companies. The mutual fund has a beta of 1.15 measured relative to the S&P Midcap 400, and the net asset value of the fund is $175 million. Should you be long or short in the Midcap 400 futures contracts? Assuming the Midcap 400 Index is at 1,450 and its futures contract size is 500 times the index, determine the appropriate number of contracts to use in designing your cross-hedge strategy.
+
+18. Spot-Futures Parity (LO3, CFA3)   Suppose the 6-month Mini S&P 500 futures price is 2,281.55, while the cash price is 2,270.42. What is the implied difference between the risk-free interest rate and the dividend yield on the S&P 500?
+
+19. Spot-Futures Parity (LO3, CFA3)   Suppose the 6-month Mini S&P 500 futures price is 2,399.25, while the cash price is 2,370.48. What is the implied dividend yield on the S&P 500 if the risk-free interest rate is 5 percent?
+
+20. Hedging Interest Rate Risk (LO4, CFA2)   Suppose you want to hedge a $500 million bond portfolio with a duration of 5.1 years using 10-year Treasury note futures with a duration of 6.7 years, a futures price of 102, and 3 months to expiration. The multiplier on Treasury note futures is $100,000. How many contracts do you buy or sell?
+
+21. Hedging Interest Rate Risk (LO4, CFA2)   Suppose you want to hedge a $400 million bond portfolio with a duration of 8.4 years using 10-year Treasury note futures with a duration of 6.2 years, a futures price of 102, and 85 days to expiration. The multiplier on Treasury note futures is $100,000. How many contracts do you buy or sell?
+
+22. Futures Arbitrage (LO3, CFA4)   A non-dividend-paying stock is currently priced at $48.15 per share. A futures contract maturing in five months has a price of $48.56 and the risk-free rate is 4 percent. Describe how you could make an arbitrage profit from this situation. How much could you make on a per-share basis?
+
+23. Futures Arbitrage (LO3, CFA4)   A stock is currently priced at $53.87 and the futures on the stock that expire in six months have a price of $55.94. The risk-free rate is 5 percent and the stock is not expected to pay a dividend. Is there an arbitrage opportunity here? How would you exploit it? What is the arbitrage opportunity per share of stock?
+
+Spreadsheet Problem
+
+24. Hedging Heating Oil with Futures (LO4, CFA5)   Heating oil futures contracts are traded on the New York Mercantile Exchange (NYM), a division of the CME Group. The standard contract size for heating oil futures is 42,000 gallons per contract. You have an inventory of 1.68 million gallons, and you want to construct a full hedge. Suppose the average acquisition price of your 1.68 million gallons of heating oil is $1.75 per gallon and that today’s futures price for delivery during your heating season is $2.05. In the past, market conditions in your distribution area were such that you could sell your heating oil to your customers at a price 25 cents higher than the prevailing futures price. To help finance your inventory purchases, you borrowed money. During the heating season, you have to make an interest payment of $600,000. Calculate the pretax profit for your enterprise in the cases shown in the spreadsheet without a hedge in place and with a hedge in place.
+
+page 482 
+
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA2, CFA4, CFA5]
+
+Jackson, Inc., is a multinational company based in West Point, Mississippi, that makes freight cars. One-third of Jackson’s sales occur in the Netherlands. To manufacture the cars, the firm must import approximately half of the raw materials from Canada.
+
+Two months from now, Jackson plans to sell freight cars to a Dutch firm for €15 million. To protect the company from any adverse moves in exchange rates, Jackson enters into a €15 million futures contract due in 60 days. Jackson also enters into a 60-day futures contract to lock in C$8.5 million, which will be used to purchase steel from a supplier.
+
+The current euro to U.S. dollar exchange rate is €.79/$1 while the Canadian dollar to U.S. dollar exchange rate is C$1.30/$1. The 60-day euro to U.S. dollar rate is €.80/$1, while the Canadian dollar to U.S. dollar rate is C$1.33/$1. At the end of the two months, the actual euro to U.S. dollar exchange rate is €.90/$1 and the actual Canadian dollar to U.S. dollar rate is C$1.20/$1.
+
+To help understand the relationships, Jackson’s chief risk officer, Dr. Charles Miles, has put together the following table on hedging currency positions:
+
+Currency Exposure	Position	Action
+Receiving foreign currency	Long	Buy forward contracts
+Paying foreign currency	Short	Sell forward contracts
+When hedging its exchange rate risk on the freight car sale, Jackson used a futures contract to:
+
+Sell €15 million in exchange for $18.75 million.
+
+Buy €15 million in exchange for $18.75 million.
+
+Sell €15 million in exchange for $16.67 million.
+
+To hedge the foreign exchange risk relative to the Canadian dollar, Jackson should:
+
+Buy a futures contract to exchange $7,083,333 for C$8.5 million.
+
+Buy a futures contract to exchange $6,390,977 for C$8.5 million.
+
+Sell a futures contract to exchange $6,390,977 for C$8.5 million.
+
+page 483 
+
+In regard to the table that Dr. Miles constructed, which of the following is true?
+
+The receiving foreign currency position is correct; the action is incorrect.
+
+The receiving foreign currency position is incorrect; the action is also incorrect.
+
+The paying foreign currency position is correct; the action is also correct.
+
+What’s on the Web?
+
+One Chicago Go to onechicago.com. How many single-stock futures and narrow-based indexes are traded at One Chicago? What is the contract size of a single-stock future? What is the minimum tick size, contract month, and contract expiration? What is the margin requirement?
+
+Spot-Futures Parity Go to onechicago.com and find the futures quotes for eBay. Now go to finance.yahoo.com and find the current stock price for eBay. What is the implied risk-free rate using these prices? Does each different maturity give you the same interest rate? Why or why not?
+
+Contract Specifications You want to find the contract specifications for futures contracts. Go to the CME Group at cmegroup.com and find the contract specifications for corn, rough rice, butter, and lean hogs. What are the contract sizes for each of these contracts?
+
+The Juice Go to the Intercontinental Exchange website at theice.com. What contracts are traded on the Intercontinental Exchange? What does “FCOJ” stand for? What are the trading months for FCOJ futures contracts? What are the position limits for FCOJ futures contracts? What is the last trading day of the expiration month for FCOJ futures? What are the trading months and last trading day for FCOJ options contracts? What is the FCOJ Differential contract?
+
+Hedging with Futures You are working for a company that processes beef and will take delivery of 720,000 pounds of cattle in August. You would like to lock in your costs today because you are concerned about an increase in cattle prices. Go to the CME Group at cmegroup.com and find the contract size for live cattle. How many futures contracts will you need to hedge your exposure? Will you go long or short on these contracts? Now find the most recent price quote for live cattle futures on the CME Group website. What price are you effectively locking in if you traded at the last price? Suppose cattle prices increase 5 percent before the expiration. What is your profit or loss on the futures position? What if the price decreases by 5 percent? Explain how your futures position has eliminated your exposure to price risk in the live cattle market.
+
+
+
+
+1 The official Commodity Trading Manual of the CME Group defines “basis” as the difference between the cash price and the futures price, i.e., Basis = Cash price − Futures price. We will be consistent with the CME Group definition. For nonagricultural futures, however, the basis is nearly always defined as the futures price minus the cash price.
+
+2For the sake of simplicity, we ignore the fact that individual investors do not earn interest on the proceeds from a short sale, and we assume the stock does not pay dividends.

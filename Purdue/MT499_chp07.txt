@@ -1,0 +1,1101 @@
+CHAPTER 7
+Risk and Return
+
+LEARNING OBJECTIVES
+
+Explain the relation between risk and return.
+Describe the two components of a total holding period return, and calculate this return for an asset.
+Explain what an expected return is, and calculate the expected return for an asset.
+Explain what the standard deviation of returns is and why it is very useful in finance, and calculate it for an asset.
+Explain what an arithmetic average return is and what a geometric average return is, and calculate these returns for an asset.
+Explain the concept of diversification and its effect on risk.
+Discuss why systematic risk matters to investors and how this measure relates to expected returns.
+Describe what the Capital Asset Pricing Model (CAPM) tells us and how to use it to evaluate whether the expected return of an asset is sufficient to compensate an investor for the risks associated with that asset.
+The Kohls department store chain was facing headwinds coming into 2020. At approximately $20 billion, the firm’s revenues had changed little since 2019. However, operating income excluding unusual items had declined by almost 20% over the same period. Kohls performance was similar to that of other U.S. retailers facing falling mall traffic, import tariffs, and increasing transportation costs. In addition, Kohls’ business was increasingly being squeezed between the growing segments of e-commerce retailers and off-price stores like TJ Maxx and Nordstrom Rack. Kohls’ stock price reflected the company’s perilous position, declining precipitously from its all-time high of $79.11 per share on August 1, 2018 to $21.36 just two years later.
+
+The challenges faced by Kohls did not affect every firm in its industry equally. For example, Target’s sales and operating income grew steadily over the same period, thanks in part to its focus on growing its e-commerce sales channel, the diversification of its product offerings to include traditional grocery, and the creation of a range of highly profitable private label brands. The success of Target’s business model paid off for its shareholders, who saw the value of their shares nearly double from $87.50 per share on August 1, 2018 to $151.21 two years later.
+
+This chapter discusses risk, return, and the relation between them. The difference in returns earned by Kohls and Target from August 2018 to August 2020 illustrates a challenge faced by all investors. The shares of both companies were risky investments in 2018, and yet someone who invested in Kohls stock lost 72.9 percent [($21.36 − $79.11)/$79.11 = − 0.729, or −72.9 percent] of their investment over the next two years. An investor in Target, however, earned a positive return of 72.8 percent [($151.21 − $87.50)/$87.50 = 0.728 or 72.8 percent] during the same period. How should investors have viewed the risks of investing in the shares of these companies in 2018, and how is this risk related to the returns that the investors could expect to earn? In addition, how should an investor think about risk and return if these stocks are included in a portfolio of other risky investments? These questions are the focus of this chapter.
+
+Chapter Preview
+Up to this point, we have mentioned the rate of return that we use to discount cash flows, but we have not explained how that rate is determined. We have now reached the point where it is time to examine key concepts underlying the discount rate. This chapter introduces a quantitative framework for measuring risk and return. This framework will help you develop an intuitive understanding of how risk and return are related and what risks matter to investors. The relation between risk and return has implications for the rate we use to discount cash flows because the time value of money concepts that we discussed in Chapters 5 and 6 are directly related to the returns that investors require. We must understand these concepts in order to determine the correct present value for a series of cash flows and to be able to make investment decisions that create value for stockholders.
+
+We begin this chapter with a discussion of the general relation between risk and return to introduce the idea that investors require a higher rate of return from riskier assets. This is one of the most fundamental relations in finance. We next develop the statistical concepts required to quantify holding period returns, expected returns, and risk. We then apply these concepts to portfolios with a single asset and with more than one asset to illustrate the benefit of diversification. From this discussion, you will see how investing in more than one asset enables an investor to reduce the total risk associated with his or her investment portfolio, and you will learn how to quantify this benefit.
+
+Once we have discussed the concept of diversification, we examine what it means for the relation between risk and return. We find that the total risk associated with an investment consists of two components: (1) unsystematic risk and (2) systematic risk. Diversification enables investors to eliminate the unsystematic risk associated with an individual asset. Investors do not require higher returns for the unsystematic risk that they can eliminate through diversification. Only systematic risk—risk that cannot be diversified away—affects expected returns on an investment. The distinction between unsystematic and systematic risk and the recognition that unsystematic risk can be diversified away are extremely important in finance. After reading this chapter, you will understand precisely what the term risk means in finance and how it is related to the rates of return that investors require.
+
+7.1 Risk and Return
+LEARNING OBJECTIVE
+
+Explain the relation between risk and return.
+The rate of return that investors require for an investment depends on the risk associated with that investment. The greater the risk, the larger the return investors require as compensation for bearing that risk. This is one of the most fundamental relations in finance. The rate of return is what you earn on an investment, stated in percentage terms. We will be more specific later, but for now you might think of risk as a measure of how certain you are that you will receive a particular return. Higher risk means you are less certain.
+
+To get a better understanding of how risk and return are related, consider an example. You are trying to select the best investment from among the following three stocks:
+
+Stock	Expected Return (%)	Risk Level (%)
+A	12	12
+B	12	16
+C	16	16
+Which would you choose? If you were comparing only Stocks A and B, you should choose Stock A. Both stocks have the same expected return, but Stock A has less risk. It does not make sense to invest in the riskier stock if the expected return is the same. Similarly, you can see that Stock C is clearly superior to Stock B. Stocks B and C have the same level of risk, but Stock C has a higher expected return. It would not make sense to accept a lower return for taking on the same level of risk.
+
+Building Intuition
+More Risk Means a Higher Expected Return
+
+The greater the risk associated with an investment, the greater the return investors expect from it. A corollary to this idea is that investors want the highest return for a given level of risk or the lowest risk for a given level of return. When choosing between two investments that have the same level of risk, investors prefer the investment with the higher return. Alternatively, if two investments have the same expected return, investors prefer the less risky alternative.
+
+But what about the choice between Stocks A and C? This choice is less obvious. Making it requires understanding the concepts that we discuss in the rest of this chapter.
+
+7.2 Holding Period Returns
+LEARNING OBJECTIVE
+
+Describe the two components of a total holding period return, and calculate this return for an asset.
+Before we begin a detailed discussion of the relation between risk and return, we should define more precisely what these terms mean. We begin with the measure of holding period return. When people refer to the return from an investment, they are generally referring to the total return over some investment period, or holding period. The total holding period return consists of two components: (1) capital appreciation and (2) income. The capital appreciation component of a return, RCA, arises from a change in the price of the asset over the investment or holding period and is calculated as follows:
+
+ 
+ 
+ 
+
+where P0 is the price paid for the asset at time zero and P1 is the price at a later point in time.
+
+total holding period return the total return on an asset over a specific period of time or holding period
+
+The income component of a return arises from income that an investor receives from the asset while he or she owns it. For example, when a firm pays a cash dividend on its stock, the income component of the return on that stock, RI, is calculated as follows:
+
+ 
+ 
+
+where CF1 is the cash flow from the dividend.
+
+The total holding period return, RT, is simply the sum of the capital appreciation and income components of return:
+
+(7.1)
+ 
+ 
+ 
+Let’s consider an example of calculating the total holding period return on an investment. One year ago today, you purchased a share of Twitter, Inc., stock for $32.05. Today it is worth $44.00. What total return did you earn on this stock over the past year if Twitter paid no dividend?
+
+Since Twitter paid no dividend, and assuming you received no other income from holding the stock, the total return for the year equals the return from the capital appreciation. The total return is calculated as follows:
+
+ 
+ 
+ 
+
+What return would you have earned if Twitter had paid a $1 dividend and today’s price was $43.00? With the $1 dividend and a correspondingly lower price, the total return is the same:
+
+ 
+ 
+ 
+
+You can see from this example that a dollar of capital appreciation is worth the same as a dollar of income.
+
+Learning by Doing Application 7.1 illustrates another holding period return calculation.
+
+LEARNING BY DOING APPLICATION 7.1
+Calculating the Return on an Investment
+
+Problem
+
+You purchased a beat-up 1974 Datsun 240Z sports car a year ago for $1,500. Datsun is what Nissan, the Japanese car company, was called in the 1970s. The 240Z was the first in a series of cars that led to the Nissan 370Z that is being sold today. Recognizing that a mint-condition 240Z is a much sought-after car, you invested $7,000 and a lot of your time in fixing up the car. Last week, you sold it to a collector for $18,000. Not counting the value of the time you spent restoring the car, what is the total return you earned on this investment over the one-year holding period?
+
+
+
+
+
+Before You Go On
+What are the two components of a total holding period return?
+7.3 Expected Returns
+LEARNING OBJECTIVE
+
+Explain what an expected return is, and calculate the expected return for an asset.
+An expected return is a reflection of the possible returns from an investment, weighted by the probability of each possible return. Expected returns reflect investors’ expectations about future outcomes. To better understand this concept, let’s suppose that you are a senior who plays college baseball and that your team is in the College World Series. Furthermore, suppose that you have been drafted by the Washington Nationals and are coming up for your last at-bat as a college player. The fact that this is your last at-bat is important because you just signed a very unusual contract with the Nationals. Your signing bonus will be determined solely by whether you get a hit in your final collegiate at-bat. If you get a hit, then your signing bonus will be $800,000. Otherwise, it will be $400,000. This past season, you got a hit 32.5 percent of the times you were at bat (you did not get a hit 67.5 percent of the time), and you believe this percentage reflects the likelihood that you will get a hit in your last collegiate at-bat.1
+
+What is the expected value of your bonus? If you have taken a statistics course, you might recall that an expected value represents the sum of the products of the possible outcomes and the probabilities that those outcomes will be realized. In our example, the expected value of the bonus can be calculated using the following formula:
+
+
+where E(Bonus) is your expected signing bonus, pH is the probability of a hit, pNH is the probability of no hit, BH is the bonus you receive if you get a hit, and BNH is the bonus you receive if you get no hit. Since pH equals 0.325, pNH equals 0.675, BH equals $800,000, and BNH equals $400,000, the expected value of your bonus is:
+
+ 
+
+Notice that the expected bonus of $530,000 is not equal to either of the two possible payoffs. Neither is it equal to the simple average of the two possible payoffs. This is because the expected bonus takes into account the probability of each event occurring. If the probability of each event had been 50 percent, then the expected bonus would be equal to the simple average of the two payoffs:
+
+
+However, since it is more likely that you will not get a hit (a 67.5 percent chance) than that you will get a hit (a 32.5 percent chance), and the payoff is lower if you do not get a hit, the expected bonus is less than the simple average.
+
+What would your expected payoff be if you got a hit 99 percent of the time? We intuitively know that the expected bonus should be much closer to $800,000 in this case. In fact, it is:
+
+
+The key point here is that the expected value reflects the relative likelihoods of the possible outcomes.
+
+We calculate an expected return in finance in the same way that we calculate any expected value. The expected return is a weighted average of the possible returns from an investment, where each of these returns is weighted by the probability that it will occur. In general terms, the expected return on an asset, E(RAsset), is calculated as follows:
+
+(7.2)
+expected return an average of the possible returns from an investment, where each return is weighted by the probability that it will occur
+
+where Ri is possible return i and pi is the probability that you will actually earn Ri. The summation symbol in this equation
+
+
+is mathematical shorthand indicating that n values are added together. In Equation 7.2, each of the n possible returns is multiplied by the probability that it will be realized, and these products are then added together to calculate the expected return.
+
+It is important to make sure that the sum of the n individual probabilities, the pi s, always equals 1, or 100 percent, when you calculate an expected value. The sum of the probabilities cannot be less than 100 percent because you must account for all possible outcomes in the calculation. On the other hand, as you may recall from statistics, the sum of the probabilities of all possible outcomes cannot exceed 100 percent. For example, notice that the sum of the pi s equals 1 in each of the expected bonus calculations that we discussed earlier (0.325 + 0.625 = 1 in the first calculation, 0.5 + 0.5 = 1 in the second, and 0.99 + 0.01 = 1 in the third).
+
+The expected return on an asset reflects the return that you can expect to receive from investing in that asset over the period that you plan to own it. It is your best estimate of this return, given the possible outcomes and their associated probabilities.
+
+Note that if each of the possible outcomes is equally likely (that is, p1 = p2 = p3 = … = pn = p = 1/n), this formula reduces to the formula for a simple (equally weighted) average of the possible returns:
+
+ 
+ 
+
+To see how we calculate the expected return on an asset, suppose you are considering purchasing Twitter, Inc. stock for $44.00 per share. You plan to sell the stock in one year. You estimate that there is a 30 percent chance that Twitter stock will sell for $41.50 at the end of one year, a 30 percent chance that it will sell for $47.00, a 30 percent chance that it will sell for $48.25, and a 10 percent chance that it will sell for $50.00. If Twitter pays no dividends on its shares, what is the return that you expect from this stock in the next year?
+
+With no dividends, the total return on Twitter stock equals the return from capital appreciation:
+
+ 
+
+Therefore, we can calculate the return from owning Twitter stock under each of the four possible outcomes using the approach we used for the Twitter problem we solved earlier in the chapter. These returns are calculated as follows:
+
+Twitter Stock Price in One Year	Total Return
+$41.50	
+ 
+$47.00	
+ 
+$48.25	
+ 
+$50.00	
+ 
+Applying Equation 7.2, the expected return on Twitter stock over the next year is therefore 4.60 percent, calculated as follows:
+
+ 
+
+Notice that the negative return is entered into the formula just like any other. Also notice that the sum of the pi’s equals 1.
+
+Learning by Doing Application 7.2 and Decision Making Example 7.1 illustrate another expected return calculation and the application of expected returns in decision making.
+
+LEARNING BY DOING APPLICATION 7.2
+Calculating Expected Returns
+
+Problem
+
+You have just purchased 100 railroad cars that you plan to lease (rent) to a large railroad company. Demand for shipping goods by rail has recently increased due to the rising price of oil. You expect oil prices, which are currently at $74.56 per barrel, to reach $98.00 per barrel in the next year. If this happens, railroad shipping prices will increase, thereby driving up the value of your railroad cars as increases in demand outpace the rate at which new cars are being produced.
+
+Given your oil price prediction, you estimate that there is a 30 percent chance that the value of your railroad cars will increase by 15 percent, a 40 percent chance that their value will increase by 25 percent, and a 30 percent chance that their value will increase by 30 percent in the next year. In addition to appreciation in the value of your cars, you expect to earn 10 percent on your investment over the next year (after expenses) from leasing the railroad cars. What total return do you expect to earn on your railroad car investment over the next year?
+
+
+
+
+
+DECISION MAKING EXAMPLE 7.1
+Using Expected Values in Decision Making
+
+Situation
+
+You are deciding whether you should advertise your pizza business on the radio or on billboards placed on local taxicabs. For $1,000 per month, you can either buy 20 one-minute ads on the radio or place your ad on 40 taxicabs.
+
+There is some uncertainty regarding how many new customers will visit your restaurant after hearing one of your radio ads. You estimate that there is a 30 percent chance that 35 people will visit, a 45 percent chance that 50 people will visit, and a 25 percent chance that 60 people will visit. Therefore, you expect the following number of new customers to visit your restaurant in response to each radio ad:
+
+
+This means that you expect 20 one-minute ads to bring in 20 × 48 = 960 new customers.
+
+Similarly, you estimate that there is a 20 percent chance you will get 20 new customers in response to an ad placed on a taxi, a 30 percent chance you will get 30 new customers, a 30 percent chance that you will get 40 new customers, and a 20 percent chance that you will get 50 new customers. Therefore, you expect the following number of new customers in response to each ad that you place on a taxi:
+
+ 
+
+Placing ads on 40 taxicabs is therefore expected to bring in 40 × 35 = 1,400 new customers.
+
+Which of these two advertising options is more attractive? Is it cost-effective?
+
+
+
+Before You Go On
+How is the expected return on an investment calculated?
+7.4 Variance and Standard Deviation as Measures of Risk
+LEARNING OBJECTIVE
+
+Explain what the standard deviation of returns is and why it is very useful in finance, and calculate it for an asset.
+We turn next to a discussion of the two most basic measures of risk used in finance—variance and standard deviation. These are the same variance and standard deviation measures that you studied if you took a course in statistics.
+
+Calculating Variance and Standard Deviation
+Let’s begin by returning to our College World Series example. Recall that you will receive a bonus of $800,000 if you get a hit in your final collegiate at-bat and a bonus of $400,000 if you do not. The expected value of your bonus is $530,000. Suppose you want to measure the risk, or uncertainty, associated with the bonus. How can you do this? One approach would be to compute a measure of how much, on average, the bonus payoffs deviate from the expected value. The underlying intuition is that the greater the difference between the actual bonus and the expected value, the greater the risk. For example, you might calculate the difference between each possible bonus payment and the expected value, and sum these differences. If you do this, you will get the following result:
+
+ 
+
+Unfortunately, using this calculation to obtain a measure of risk presents two problems. First, since one difference is positive and the other difference is negative, one difference partially cancels the other. As a result, you are not getting an accurate measure of total risk. Second, this calculation does not take into account the number of potential outcomes or the probability of each outcome.
+
+A better approach would be to square the differences (squaring the differences makes all the numbers positive) and multiply each squared difference by its associated probability before summing them up. This calculation yields the variance (σ2) of the possible outcomes. The variance does not suffer from the two problems associated with the above calculation and provides a measure of risk that has a consistent interpretation across different situations or assets. For the original bonus arrangement, the variance is:
+
+ 
+
+variance (σ2) a measure of the uncertainty associated with an outcome
+
+Note that the square of the Greek symbol sigma, σ2, is generally used to represent the variance.
+
+Because it is somewhat awkward to work with units of squared dollars, in a calculation such as this we would typically take the square root of the variance. The square root gives us the standard deviation (σ) of the possible outcomes. For our example, the standard deviation is:
+
+
+standard deviation (σ) the square root of the variance
+
+As you will see when we discuss the normal distribution, the standard deviation has a natural interpretation that is very useful for assessing investment risks.
+
+The general formula for calculating the variance of returns can be written as follows:
+
+(7.3)
+Equation 7.3 simply extends the calculation illustrated above to the situation where there are n possible outcomes. Like the expected return calculation (Equation 7.2), Equation 7.3 can be simplified if all of the possible outcomes are equally likely. In this case, it becomes:
+
+ 
+
+In both the general case and the case where all possible outcomes are equally likely, the standard deviation is simply the square root of the variance 
+.
+
+Interpreting Variance and Standard Deviation
+The variance and standard deviation are especially useful measures of risk for variables that are normally distributed—those that can be represented by a normal distribution. The normal distribution is a symmetric frequency distribution that is completely described by its mean (average) and standard deviation. Exhibit 7.1 illustrates what this distribution looks like. Even if you have never taken a statistics course, you have already encountered the normal distribution. It is the “bell curve” on which instructors often base their grade distributions. SAT scores and IQ scores are also based on normal distributions.
+
+normal distribution a symmetric frequency distribution that is completely described by its mean and standard deviation; also known as a bell curve due to its shape
+
+This distribution is very useful in finance because the returns for many assets are approximately normally distributed. This makes the variance and standard deviation practical measures of the uncertainty associated with investment returns. Since the standard deviation is more easily interpreted than the variance, we will focus on the standard deviation as we discuss the normal distribution and its application in finance.
+
+In Exhibit 7.1, you can see that the normal distribution is symmetric: the left and right sides are mirror images of each other. The mean falls directly in the center of the distribution, and the probability that an outcome is less than or greater than a particular distance from the mean is the same whether the outcome is on the left or the right side of the distribution. For example, if the mean is 0, the probability that a particular outcome is −3 or less is the same as the probability that it is +3 or more (both are 3 or more units from the mean). This enables us to use a single measure of risk for the normal distribution. That measure is the standard deviation.
+
+The standard deviation tells us everything we need to know about the width of the normal distribution or, in other words, the variation in the individual values. This variation is what we are referring to when we talk about risk in finance. In general terms, risk is a measure of the range of potential outcomes. The standard deviation is an especially useful measure of risk because it tells us the probability that an outcome will fall a particular distance from the mean, or within a particular range. You can see this in the following table, which shows the fraction of all observations in a normal distribution that are within the indicated number of standard deviations from the mean.
+
+EXHIBIT 7.1 Normal Distribution The normal distribution is a symmetric distribution that is completely described by its mean and standard deviation. The mean is the value that defines the center of the distribution, and the standard deviation, σ, describes the dispersion of the values centered around the mean.
+
+
+Number of Standard Deviations from the Mean	Fraction of Total Observations
+1.000	68.26%
+1.645	     90%
+1.960	     95%
+2.575	     99%
+Since the returns on many assets are approximately normally distributed, the standard deviation provides a convenient way of computing the probability that the return on an asset will fall within a particular range. In these applications, the expected return on an asset equals the mean of the distribution, and the standard deviation is a measure of the uncertainty associated with the return.
+
+For example, if the expected return for a real estate investment in Miami, Florida, is 10 percent with a standard deviation of 2 percent, there is a 90 percent chance that the actual return will be within 3.29 percent of 10 percent. How do we know this? As shown in the table above, 90 percent of all outcomes in a normal distribution have a value that is within 1.645 standard deviations of the mean value, and 1.645 × 2 percent = 3.29 percent. This tells us that there is a 90 percent chance that the realized return on the investment in Miami will be between 6.71 percent (10 percent − 3.29 percent = 6.71 percent) and 13.29 percent (10 percent + 3.29 percent = 13.29 percent), a range of 6.58 percent (13.29 percent − 6.71 percent = 6.58 percent).
+
+You may be wondering what is standard about the standard deviation. The answer is that this statistic is standard in the sense that it can be used to directly compare the uncertainties (risks) associated with the returns on different investments. For instance, suppose you are comparing the real estate investment in Miami with a real estate investment in Fresno, California. Assume that the expected return on the Fresno investment is also 10 percent. If the standard deviation for the returns on the Fresno investment is 3 percent, there is a 90 percent chance that the actual return is within 4.935 percent (1.645 × 3 percent = 4.935 percent) of 10 percent. In other words, 90 percent of the time, the return will be between 5.065 percent (10 percent − 4.935 percent = 5.065 percent) and 14.935 percent (10 percent + 4.935 percent = 14.935 percent), a range of 9.87 percent (14.935 percent − 5.065 percent = 9.87 percent).
+
+This range is exactly 9.87 percent/6.58 percent = 1.5 times as large as the range for the Miami investment opportunity. Notice that the ratio of the two standard deviations also equals 1.5 (3 percent/2 percent = 1.5). This is not a coincidence. We could have used the standard deviations to directly compute the relative uncertainty associated with the Fresno and Miami investment returns. The relation between the standard deviation of returns and the width of a normal distribution (the uncertainty) is illustrated in Exhibit 7.2. As you can see in the exhibit, the larger the standard deviation, the riskier the investment.
+
+Let’s consider another example of how the standard deviation is interpreted. Suppose customers at your pizza restaurant have complained that there is no consistency in the number of slices of pepperoni that your cooks are putting on large pepperoni pizzas. One night you decide to work in the area where the pizzas are made so that you can count the number of pepperoni slices on the large pizzas to get a better idea of just how much variation there is. After counting the slices of pepperoni on 50 pizzas, you estimate that, on average, your pizzas have 18 slices of pepperoni and that the standard deviation is 3 slices.
+
+With this information, you estimate that 95 percent of the large pepperoni pizzas sold in your restaurant have between 12.12 and 23.88 pepperoni slices. You are able to estimate this range because you know that 95 percent of the observations in a normal distribution fall within 1.96 standard deviations of the mean. With a standard deviation of three slices, this implies that the number of pepperoni slices on 95 percent of your pizzas is within 5.88 slices of the mean (3 slices × 1.96 = 5.88 slices). This, in turn, indicates a range of 12.12 (18 − 5.88 = 12.12) to 23.88 (18 + 5.88 = 23.88) slices.
+
+Since you put only whole slices of pepperoni on your pizzas, 95 percent of the time the number of slices is somewhere between 12 and 24. That’s a big difference, so it is no wonder your customers are up in arms! In response to this information, you decide to implement a standard policy regarding the number of pepperoni slices that go on each type of pizza.
+
+Learning by Doing Application 7.3 illustrates application of a normal distribution to the analysis of a stock return.
+
+EXHIBIT 7.2 Standard Deviation and Width of the Normal Distribution The larger standard deviation for the return on the Fresno investment means that the Fresno investment is riskier than the Miami investment. The actual return for the Fresno investment is more likely to be further from its expected return.
+
+
+LEARNING BY DOING APPLICATION 7.3
+Understanding the Standard Deviation
+
+Problem
+
+You are considering investing in a share of Mastercard Inc. stock and want to evaluate how risky this potential investment is. You know that stock returns tend to be normally distributed, and you have calculated the expected return on Mastercard stock to be 4.67 percent and the standard deviation of the annual return to be 23 percent. Based on these statistics, within what range would you expect the return on this stock to fall during the next year? Calculate this range for a 90 percent level of confidence (that is, 90 percent of the time, the returns will fall within the specified range).
+
+
+
+
+
+Historical Market Performance
+Now that we have discussed how returns and risks can be measured, we are ready to examine the characteristics of the historical returns earned by securities such as stocks and bonds. Exhibit 7.3 illustrates the distributions of historical returns for some securities in the United States and shows the average and standard deviations of these annual returns for the period from 1926 to 2019.
+
+Note that the statistics reported in Exhibit 7.3 are for indexes that represent total average returns for the indicated types of securities, not total returns on individual securities. We generally use indexes to represent the performance of the stock or bond markets. For instance, when news services report on the performance of the stock market, they often report that the Dow Jones Industrial Average (an index based on 30 large stocks), the S&P 500 Index (an index based on 500 large stocks), or the NASDAQ Composite Index (an index based on all stocks that are traded on NASDAQ) went up or down on a particular day. These and other indexes are discussed in Chapter 9.
+
+The plots in Exhibit 7.3 are arranged from top to bottom in order of decreasing risk, which is indicated by the decreasing standard deviation of the annual returns. The top plot shows returns for a small-stock index that represents the 10 percent of U.S. firms that have the lowest total equity value (number of shares multiplied by price per share). The second plot shows returns for the S&P 500 Index, representing large U.S. stocks. The remaining plots show three different types of government debt: long-term government bonds that mature in 20 years, intermediate-term government bonds that mature in 5 years, and U.S. Treasury bills, which are short-term debts of the U.S. government, that mature in 30 days.
+
+The key point to note in Exhibit 7.3 is that, on average, annual returns have been higher for riskier securities. Small stocks, which have the largest standard deviation of total returns, at 31.48 percent, also have the largest average annual return, 16.26 percent. On the other end of the spectrum, Treasury bills have the smallest standard deviation, 3.09 percent, and the smallest average annual return, 3.37 percent. Returns for small stocks in any particular year may have been higher or lower than returns for the other types of securities, but on average, they were higher. This is evidence that investors require higher returns for investments with greater risks.
+
+EXHIBIT 7.3 Distributions of Annual Total Returns for U.S. Stocks and Bonds from 1926 to 2019 Higher standard deviations of returns have historically been associated with higher returns. For example, between 1926 and 2019, the standard deviation of the annual returns for small stocks was higher than the standard deviations of the returns earned by other types of securities, and the average return that investors earned from small stocks was also higher. At the other end of the spectrum, the returns on Treasury bills had the smallest standard deviation, and Treasury bills earned the smallest average return.
+
+
+Source: Morningstar, 2020 SBBI Yearbook
+The statistics in Exhibit 7.3 describe actual investment returns, as opposed to expected returns. In other words, they represent what has happened in the past. Financial analysts often use historical numbers such as these to estimate the returns that might be expected in the future. That is exactly what we did in the baseball example earlier in this chapter. We used the percentage of at-bats in which you got a hit this past season to estimate the likelihood that you would get a hit in your last collegiate at-bat. We assumed that your past performance was a reasonable indicator of your future performance.
+
+To see how historical numbers are used in finance, let’s suppose that you are considering investing in a fund that mimics the S&P 500 Index (this is what we call an index fund) and that you want to estimate what the returns on the S&P 500 Index are likely to be in the future. If you believe that the 1926 to 2019 period provides a reasonable indication of what we can expect in the future, then the average historical return on the S&P 500 Index of 12.09 percent provides a perfectly reasonable estimate of the return you can expect from your investment in the S&P 500 Index fund. In Chapter 13 we will explore in detail how historical data can be used in this way to estimate the discount rate for evaluating projects in the capital budgeting process.
+
+Comparing the historical returns for an individual stock with the historical returns for an index can also be instructive. Exhibit 7.4 shows such a comparison for Apple Inc. and the S&P 500 Index using monthly returns for the period from September 2015 through September 2020. Notice in the exhibit that the returns for Apple stock are much more volatile than the average returns for the firms represented in the S&P 500 Index. In other words, the standard deviation of returns for Apple stock is higher than that for the S&P 500 Index. This is not a coincidence; we will discuss shortly why returns on individual stocks tend to be riskier than returns on indexes.
+
+One last point is worth noting while we are examining historical returns: the value of a $1.00 investment in 1926 would have varied greatly by 2019, depending on where that dollar was invested. Exhibit 7.5 shows that $1.00 invested in U.S. Treasury bills in 1926 would have been worth $21.60 by 2019. In contrast, that same $1.00 invested in small stocks would have been worth $39,381.93 by 2019.2 Over a long period of time, earning higher rates of return can have a dramatic impact on the value of an investment. This huge difference reflects the impact of compounding of returns (returns earned on returns), much like the compounding of interest we discussed in Chapter 5.
+
+EXHIBIT 7.4 Monthly Returns for Apple Inc. stock and the S&P 500 Index from September 2015 through September 2020 The returns on shares of individual stocks tend to be much more volatile than the returns on portfolios of stocks, such as the S&P 500.
+
+
+EXHIBIT 7.5 Cumulative Value of $1 Invested in 1926 The value of a $1 investment in stocks, small or large, grew much more rapidly than the value of a $1 investment in bonds or Treasury bills over the 1926 to 2019 period. This graph illustrates how earning a higher rate of return over a long period of time can affect the value of an investment portfolio. Although annual stock returns were less certain between 1926 and 2019, the returns on stock investments were much greater.
+
+
+Source: Morningstar, 2020 SBBI Yearbook
+Before You Go On
+What is the relation between the variance and the standard deviation?
+What relation do we generally observe between risk and return when we examine historical returns?
+7.5 Arithmetic Average and Geometric (Compounded) Average Returns
+LEARNING OBJECTIVE
+
+Explain what an arithmetic average return is and what a geometric average return is, and calculate these returns for an asset.
+The average returns reported for the different types of U.S. stocks and bonds in Exhibit 7.3 are known as arithmetic average returns. These returns are calculated for each type of stock or bond by simply adding up the returns during each year from 1926 through 2019 and then dividing by the total number of years. This calculation tells us the return that was earned in an average year during the 94-year period from 1926 to 2019. An arithmetic average return can be calculated for an investment period of any length, such as a day, month, quarter, or year, by adding the returns across all periods and dividing by the total number of periods. Equation 7.4 shows this calculation.
+
+(7.4)
+ 
+where:
+
+ 
+
+arithmetic average return the return earned in an average period
+
+While the arithmetic average return is helpful in comparing the annual returns earned on investments in the different types of U.S. stocks and bonds in Exhibit 7.3, it does not tell us the average annual return an investor would have earned on an investment in a particular stock or bond.
+
+For example, the 12.09 percent arithmetic average annual return on large U.S. stocks does not mean that a $1 investment in large U.S. stocks in 1926 would have grown at a compounded rate of 12.09 percent through 2019. If it had done this, that investment would have grown to $45,633.70 [$1 × (1 + 0.1209)94 = $45,633.70], when, in fact, Exhibit 7.5 shows that it grew to only $9,229.00.
+
+The future value formula, Equation 5.1, tells us that this $9,229.00 value implies a compounded average annual return on large U.S. stocks from 1926 to 2019 of only 10.02 percent:
+
+ 
+
+Why is there a difference between the arithmetic average return and the average return that an investor actually earned? The answer is that the compounded average annual return that an investor earns, which we call the geometric (compounded) average return, is sensitive to variation in returns over time. To see this, consider a two-year investment of $1 that returns 6.95 percent in Year 1 and 16.95 percent in Year 2. This investment, which has an arithmetic average return of 11.95 percent [(6.95 percent + 16.95 percent)/2 = 11.95 percent], will be worth $1.25 in Year 2 [Value in Year 2 = (1 + 0.0695)(1 + 0.1695) = $1.25], which implies a geometric (compounded) average return of:
+
+ 
+
+geometric (compounded) average return average compounded return earned by an investor
+
+In contrast, if the return is 11.95 percent in both years, the arithmetic and geometric average returns both equal 11.95 percent. The fact that the return is not the same each year causes the geometric average return to differ from the arithmetic average return. The more variation there is in the year-to-year return, the greater the difference between the arithmetic and geometric returns.
+
+Note that in the preceding example, in which the returns are 6.95 percent and 16.95 percent, we can write the equation for the geometric average return as:
+
+ 
+
+If we substitute RGeometric average for i, the general form of this equation can be written as:
+
+(7.5)
+where:
+
+ 
+
+The geometric average return will always be lower than the arithmetic average return when there is year-to-year variation in returns because of the difference in the way that the two calculations treat the dollar value of percentage changes. For example, suppose that you invest $1 for two years and your investment earns 15 percent in Year 1 and loses 15 percent in Year 2. The arithmetic average return would be 0 percent [(15 percent + −15 percent)/2 = 0 percent], but the geometric average would be −1.13 percent ([(1 + 0.15)(1 + −0.15)]1/2 – 1 = −0.0113). The lower geometric return reflects the fact that the positive return in Year 1 represents a $0.15 increase in value (0.15 × $1 = $0.15) while the negative return in Year 2 represents a $0.17 decrease in value (−0.15 × [$1 × (1 + 0.15)] = −$0.17). The difference is that the 15 percent increase in Year 1 is based on a smaller dollar amount (the $1 starting value) than the 15 percent decrease in Year 2, which is a decrease from the Year 1 value of $1.15. The arithmetic average return calculation treats both changes equally while the geometric average calculation accounts for the difference.
+
+Before You Go On
+What type of return tells you the average compounded return earned by an investor?
+7.6 Risk and Diversification
+LEARNING OBJECTIVE
+
+Explain the concept of diversification and its effect on risk.
+It does not generally make sense to invest all of your money in a single asset. The reason is directly related to the fact that returns on individual stocks tend to be riskier than returns on indexes. By investing in two or more assets whose values do not always move in the same direction at the same time, an investor can reduce the risk of his or her collection of investments, or portfolio. This is the idea behind the concept of diversification.
+
+portfolio the collection of assets an investor owns
+
+diversification reducing risk by investing in two or more assets whose values do not always move in the same direction at the same time
+
+This section develops the tools necessary to evaluate the benefits of diversification. We begin with a discussion of how to quantify risk and return for a single-asset portfolio, and then we discuss more realistic and complicated portfolios that have two or more assets. Although our discussion focuses on stock portfolios, it is important to recognize that the concepts discussed apply equally well to portfolios that include a range of assets, such as stocks, bonds, gold, art, and real estate, among others.
+
+Single-Asset Portfolios
+Returns for individual stocks from one day to the next have been found to be largely independent of each other and approximately normally distributed. In other words, the return for a stock on one day is largely independent of the return on that same stock the next day, two days later, three days later, and so on. Each daily return can be viewed as having been randomly drawn from a normal distribution where the probability associated with the return depends on how far it is from the expected value. If we know what the expected value and standard deviation are for the distribution of returns for a stock, it is possible to quantify the risks and expected returns that an investment in the stock might yield in the future.
+
+To see how we might do this, assume that you are considering investing in one of two stocks for the next year: Advanced Micro Devices (AMD) or Intel. Also, to keep things simple, assume that there are only three possible economic conditions (outcomes) a year from now and that the returns on AMD and Intel under each of these outcomes are as follows:
+
+Economic Outcome	Probability	AMD Return	Intel Return
+Poor	0.2	–0.13	–0.10
+Neutral	0.5	  0.10	  0.07
+Good	0.3	  0.25	  0.22
+With this information, we can calculate the expected returns for AMD and Intel by using Equation 7.2:
+
+ 
+
+and
+
+ 
+
+Similarly, we can calculate the standard deviations of the returns for AMD and Intel in the same way that we calculated the standard deviation for our baseball bonus example in Section 7.2:
+
+ 
+
+and
+
+ 
+
+Having calculated the expected returns and standard deviations for AMD and Intel stock, the natural question to ask is which provides the higher risk-adjusted return. Before we answer this question, let’s return to the example at the beginning of Section 7.1. Recall that, in this example, we proposed choosing among three stocks: A, B, and C. We stated that investors would prefer the investment that provides the highest expected return for a given level of risk or the lowest risk for a given expected return. This made it fairly easy to choose between Stocks A and B, which had the same return but different risk, and between Stocks B and C, which had the same risk but different returns. We were stuck when trying to choose between Stocks A and C, however, because they differed in both risk and return. Now, armed with tools for quantifying expected returns and risk, we can at least take a first pass at comparing stocks such as these.
+
+The coefficient of variation (CV) is a measure that can help us in making comparisons such as that between Stocks A and C. The coefficient of variation for stock i is calculated as:
+
+(7.6)
+ 
+coefficient of variation (CV) a measure of the risk associated with an investment for each 1 percent of expected return
+
+In this equation, CV is a measure of the risk associated with an investment for each 1 percent of expected return.
+
+Recall that Stock A has an expected return of 12 percent and a risk level of 12 percent, while Stock C has an expected return of 16 percent and a risk level of 16 percent. If we assume that the risk level given for each stock is equal to the standard deviation of its return, we can find the coefficients of variation for the stocks as follows:
+
+ 
+ 
+
+Since these values are equal, the coefficient of variation measure suggests that these two investments are equally attractive on a risk-adjusted basis.
+
+While this analysis appears to make sense, there is a conceptual problem with using the coefficient of variation to compute the amount of risk an investor can expect to realize for each 1 percent of expected return. This problem arises because investors expect to earn a positive return even when assets are completely risk free. For example, as shown in Exhibit 7.3, from 1926 to 2019 investors earned an average return of 3.37 percent each year on 30-day Treasury bills, which are considered to be risk free.3 If investors can earn a positive risk-free rate without bearing any risk, then it really only makes sense to compare the risk of the investment, , with the return that investors expect to earn over and above the risk-free rate. As we will discuss in detail in Section 7.7, the expected return over and above the risk-free rate is a measure of the return that investors expect to earn for bearing risk.
+
+This suggests that we should use the difference between the expected return, E(Ri), and the risk-free rate, Rrf, instead of E(Ri) alone in the coefficient of variation calculation. With this change, Equation 7.6 would be written as:
+
+ 
+
+where 
+ is a modified coefficient of variation that is computed by subtracting the risk-free rate from the expected return.
+
+Let’s compute this modified coefficient of variation for the AMD and Intel example. If the risk-free rate equals 0.03, or 3 percent, the modified coefficients of variation for the two stocks are:
+
+ 
+ 
+ 
+ 
+ 
+
+We can see that the modified coefficient of variation for AMD is smaller than the modified coefficient of variation for Intel. This tells us that an investment in AMD stock is expected to have less risk for each 1 percent of return. Since investors prefer less risk for a given level of return, the AMD stock is a more attractive investment.
+
+A popular version of this modified coefficient of variation calculation is known as the Sharpe Ratio. This ratio is named after 1990 Nobel Prize Laureate William Sharpe, who developed the concept and was one of the originators of the Capital Asset Pricing Model that is discussed in Section 7.8. The Sharpe Ratio is simply the inverse of the modified coefficient of variation:
+
+(7.7)
+ 
+Sharpe Ratio a measure of the return per unit of risk for an investment
+
+For the stocks of AMD and Intel, the Sharpe Ratios are:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+This tells us that investors in AMD stock can expect to earn 0.524 percent for each one standard deviation of return while investors in Intel stock can expect to earn 0.458 percent for each one standard deviation of return. Many people find the Sharpe Ratio to be a more intuitive measure than the coefficient of variation because they find it easier to think about the return per unit of risk than risk per unit of return.
+
+Learning by Doing Application 7.4 illustrates other Sharpe Ratio calculations.
+
+Portfolios with More Than One Asset
+It may seem like a good idea to evaluate investments by calculating a measure of risk for each 1 percent of expected return or the expected return per unit of risk. However, the coefficient of variation and the Sharpe Ratio have a critical shortcoming that is not quite evident when we are considering only a single asset. In order to explain this shortcoming, we must discuss the more realistic setting in which an investor has constructed a portfolio with more than one asset.
+
+LEARNING BY DOING APPLICATION 7.4
+Calculating and Interpreting the Sharpe Ratio
+
+Problem
+
+You are trying to choose between two investments. The first investment, a painting by Picasso, has an expected return of 14 percent with a standard deviation of 30 percent over the next year. The second investment, a pair of blue suede shoes once worn by Elvis, has an expected return of 20 percent with a standard deviation of 40 percent. The risk-free rate of interest is 3 percent. What is the Sharpe Ratio for each of these investments, and what do these ratios tell us?
+
+
+
+
+
+Expected Return on a Portfolio with More Than One Asset
+
+Suppose you own a portfolio that consists of $500 of AMD stock and $500 of Intel stock and that over the next year you expect to earn returns on the AMD and Intel shares of 9.9 percent and 8.1 percent, respectively. How would you calculate the expected return for the overall portfolio?
+
+Let’s try to answer this question using our intuition. If half of your funds are invested in each stock, it would seem reasonable that the expected return for this portfolio should be a 50–50 mixture of the expected returns from the two stocks, or:
+
+
+Notice that this formula is just like the expected return formula for an individual stock. However, in this case, instead of multiplying outcomes by their associated probabilities, we are multiplying expected returns for individual stocks by the fraction of the total portfolio value that each of these stocks represents. In other words, the formula for the expected return for a two-stock portfolio is:
+
+
+where x1 represents the fraction of the portfolio invested in asset 1, and x2 represents the fraction of the portfolio invested in asset 2. The corresponding equation for a portfolio with n assets is:
+
+(7.8)
+ 
+where xi represents the fraction of the portfolio invested in asset i. Equation 7.8 is just like Equation 7.2, except that (1) the returns are expected returns for individual assets and (2) instead of multiplying by the probability of an outcome, we are multiplying by the fraction of the portfolio invested in each asset. Note that this equation can be used only if you have already calculated the expected return for each stock.
+
+To see how Equation 7.8 is used to calculate the expected return on a portfolio with more than two assets, consider an example. Suppose that you were recently awarded a $500,000 grant from a national foundation to pursue your interest in advancing the art of noodling—a popular pastime in some parts of the country in which people catch 40- to 50-pound catfish by putting their hands into catfish holes and wiggling their fingers like noodles to attract the fish.4 Since your grant is intended to support your activities for five years, you kept $100,000 to cover your expenses for the next year and invested the remaining $400,000 in U.S. Treasury bonds and stocks. Specifically, you invested $100,000 in Treasury bonds (TB) that yield 4.5 percent; $150,000 in Procter & Gamble stock (P&G), which has an expected return of 7.5 percent; and $150,000 in Exxon Mobil Corporation stock (EMC), which has an expected return of 9.0 percent. What is the expected return on this $400,000 portfolio?
+
+In order to use Equation 7.8, we must first calculate xi, the fraction of the portfolio invested in asset i, for each investment. These fractions are as follows:
+
+ 
+ 
+ 
+
+Therefore, the expected return on the portfolio is:
+
+ 
+
+Learning by Doing Application 7.5 illustrates another expected return calculation for a portfolio.
+
+Risk of a Portfolio with More Than One Asset
+
+Now that we have calculated the expected return on a portfolio with more than one asset, the next question is how to quantify the risk of such a portfolio. Before we discuss the mechanics of how to do this, it is important to have some intuitive understanding of how variances in the returns for different assets interact to determine the variance of the overall portfolio.
+
+LEARNING BY DOING APPLICATION 7.5
+Calculating the Expected Return for a Portfolio
+
+Problem
+
+You have become concerned that you have too much of your money invested in your pizza restaurant and have decided to diversify your personal portfolio. Right now the pizza restaurant is your only investment. To diversify, you plan to sell 45 percent of your restaurant and invest the proceeds from the sale, in equal proportions, into a stock market index fund and a bond market index fund. Over the next year, you expect to earn a return of 15 percent on your remaining investment in the pizza restaurant, 12 percent on your investment in the stock market index fund, and 8 percent on your investment in the bond market index fund. What return will you expect from your diversified portfolio over the next year?
+
+
+
+
+
+EXHIBIT 7.6 Monthly Returns for American Airlines and Target Stock from September 2015 through September 2020 The returns on two stocks are generally different. In some periods, the return on one stock is positive, while the return on the other is negative. Even when the returns on both are positive or negative, they are rarely exactly the same.
+
+
+The prices of two stocks in a portfolio will rarely, if ever, change by the same amount and in the same direction at the same time. Normally, the price of one stock will change by more than the price of the other. In fact, the prices of two stocks will frequently move in different directions. These differences in price movements affect the total variance of the returns for a portfolio.
+
+Exhibit 7.6 shows monthly returns for the stock of American Airlines and Target over the period from September 2015 through September 2020. Notice that the returns on these shares are generally different and that the prices of the shares can move in different directions in a given month (one stock has a positive return when the other has a negative return). When the stock prices move in opposite directions, the change in the price of one stock offsets at least some of the change in the price of the other stock. As a result, the level of risk for a portfolio of the two stocks is less than the average of the risks associated with the individual shares.
+
+This means that we cannot calculate the variance of a portfolio containing two assets simply by calculating the weighted average of the variances of the individual stocks. We have to account for the fact that the returns on different shares in a portfolio tend to partially offset each other. For a two-asset portfolio, we calculate the variance of the returns using the following formula:
+
+(7.9)
+where x1 represents the fraction of the portfolio invested in stock 1, 
+ is the variance of the return of stock 1, x2 represents the fraction of the portfolio invested in stock 2, 
+ is the variance of the return of stock 2, and  is the covariance of the returns between stocks 1 and 2. The covariance of returns is a measure of how the returns on two assets covary, or move together. The third term in Equation 7.9, the covariance, accounts for the fact that returns from the two assets will offset each other to some extent. The covariance of returns is calculated using the following formula:
+
+(7.10)
+covariance of returns a measure of how the returns on two assets covary, or move together
+
+where i represents outcomes rather than assets. Compare this equation with Equation 7.3, reproduced here:
+
+
+You can see that the covariance calculation is very similar to the variance calculation. The difference is that, instead of squaring the difference between the return from each outcome and the expected return for an individual asset, we calculate the product of this difference for two different assets.
+
+Just as it is difficult to directly interpret the variance of the returns for an asset—recall that the variance is in units of squared dollars—it is difficult to directly interpret the covariance of returns between two assets. We get around this problem by dividing the covariance of returns by the product of the standard deviations of the returns for the two assets. This gives us the correlation, ρ, between the returns on those assets:
+
+(7.11)
+ρ
+ 
+The correlation between the returns on two assets will always have a value between −1 and +1. This makes the interpretation of this variable straightforward. A negative correlation means that the returns tend to have opposite signs. That is, when the return on one asset is positive, the return on the other asset tends to be negative. If the correlation is exactly −1, the returns on the two assets are perfectly negatively correlated. In other words, when the return on one asset is positive, the return on the other asset will always be negative. A positive correlation means that when the return on one asset is positive, the return on the other asset also tends to be positive. If the correlation is exactly equal to +1, then the returns of the two assets are said to be perfectly positively correlated. That is, the return on one asset will always be positive when the return on the other asset is positive. Finally, a correlation of 0 means that the returns on the assets are not correlated. In this case, the fact that the return on one asset is positive or negative tells you nothing about how likely it is that the return on the other asset will be positive or negative.
+
+Let’s work an example to see how Equation 7.9 is used to calculate the variance of the returns on a portfolio that consists of 50 percent American Airlines stock and 50 percent Target stock. Using the data plotted in Exhibit 7.6, we can calculate the variance of the annual returns for the American Airlines and Target stocks, 
+, to be 0.1795 and 0.0847, respectively. The covariance between the annual returns on these two stocks is 0.0255. We do not show the calculations for the variances and the covariance because each of these numbers was calculated using 60 different monthly returns. These calculations are too cumbersome to illustrate. Rest assured, however, that they were calculated using Equations 7.3 and 7.10.5 With these values, we can calculate the variance of a portfolio that consists of 50 percent American Airlines (AAL) stock and 50 percent Target (TGT) stock as:
+
+ 
+
+You can see that this portfolio variance is smaller than the average of the variances of the returns on the American Airlines and Target stocks [(0.1795 + 0.0847)/2 = 0.1321]. This is because their returns are not perfectly positively correlated. Indeed, in this case, the portfolio variance is lower than the individual variances of both stocks.
+
+If we calculate the standard deviations by taking the square roots of the variances, we find that the standard deviations for American Airlines stock, Target stock, and the portfolio consisting of those two stocks are 0.424 (42.4 percent), 0.291 (29.1 percent), and 0.281 (28.1 percent), respectively.
+
+Exhibit 7.7 illustrates the monthly returns for the portfolio of American Airlines and Target stock, along with the monthly returns for the individual stocks. You can see in this exhibit that the returns on the portfolio vary quite a bit. However, as noted above, this variation is less than the average variation in the returns for the individual company shares.
+
+Using Equation 7.11, we can calculate the correlation of the returns between American Airlines and Target stock as:
+
+ 
+ 
+
+EXHIBIT 7.7 Monthly Returns for American Airlines and Target Stock and for a Portfolio with 50 Percent of the Value in Each of These Two Stocks from September 2015 through September 2020 The variation in the returns from a portfolio that consists of American Airlines and Target stock in equal proportions is less than the variation in the returns from either of those stocks alone.
+
+
+The positive correlation tells us that the prices of American Airlines and Target stock tend to move in the same direction. However, the correlation of less than 1 tells us that they do not always do so. The fact that the prices of these two shares do not always move together is the reason that the returns on a portfolio of the two stocks have less variation than the average variation of the returns on the individual company shares. This example illustrates the benefit of diversification—how holding more than one asset with different risk characteristics can reduce the risk of a portfolio. Note that if the correlation of the returns between American Airlines and Target stock equaled 1, holding these two stocks would not reduce risk because their prices would always move up or down together. Also, the standard deviation of the returns on the portfolio would equal the average of the standard deviations of the returns on the individual stocks.6
+
+As we add more and more assets to a portfolio, calculating the variance using the approach illustrated in Equation 7.9 becomes increasingly complex. The reason for this is that we have to account for the covariance between each pair of assets. These more extensive calculations are beyond the scope of this book, but they are conceptually the same as those for a portfolio with two assets.
+
+Learning by Doing Application 7.6 illustrates another calculation of the variance for a two-asset portfolio.
+
+LEARNING BY DOING APPLICATION 7.6
+Calculating the Variance of a Two-Asset Portfolio
+
+Problem
+
+You are still planning to sell 45 percent of your pizza restaurant in order to diversify your personal portfolio. However, you have now decided to invest all of the proceeds in the stock market index fund. After you diversify, you will have 55 percent of your wealth invested in the restaurant and 45 percent invested in the stock market index fund. You have estimated the variances of the returns for these two investments and the covariance between their returns to be as follows:
+
+ 
+
+What will be the variance and standard deviation of returns in your portfolio after you have sold the ownership interest in your restaurant and invested in the stock market index fund?
+
+
+
+
+
+The Limits of Diversification
+In the sample calculations for the portfolio containing American Airlines and Target stock, we saw that the standard deviation of the returns from September 2015 through September 2020 for a portfolio consisting of equal investments in those two stocks was 28.1 percent and that this figure was lower than the average of the standard deviation of returns for the individual stocks. You might wonder how the standard deviation for the portfolio is likely to change if we increase the number of assets in the portfolio. The answer is simple. If the returns on the individual stocks added to our portfolio do not all change in the same way (are not perfectly correlated), then increasing the number of stocks in the portfolio will reduce the standard deviation of the portfolio returns even further.
+
+Building Intuition
+Diversified Portfolios Are Less Risky
+
+Diversified portfolios generally have less risk for a given level of return than the individual risky assets in the portfolio. This is because the values of individual assets rarely change by the same amount and in the same direction at the same time. As a result, some of the variation in an asset’s value can be diversified away by owning another asset at the same time. This is important because it tells us that investors can eliminate some of the risk associated with individual investments by holding them in a diversified portfolio.
+
+Let’s consider a simple example to illustrate this point. Suppose that all assets have a standard deviation of returns that is equal to 40 percent and that the covariance between the returns for each pair of assets is 0.048. If we form a portfolio in which we have an equal investment in two assets, the standard deviation of returns for the portfolio will be 32.25 percent. If we add a third asset, the portfolio standard deviation of returns will decrease to 29.21 percent. It will be even lower, at 27.57 percent, for a four-asset portfolio. Exhibit 7.8 illustrates how the standard deviation for the portfolio declines as more stocks are added.
+
+In addition to showing how increasing the number of assets decreases the overall risk of a portfolio, Exhibit 7.8 illustrates three other very important points. First, the decrease in the standard deviation for the portfolio gets smaller and smaller as more assets are added. You can see this effect by looking at the distance between the straight horizontal line and the plot of the standard deviation of the portfolio returns.
+
+The second important point is this: as the number of assets becomes very large, the portfolio standard deviation does not approach zero; it decreases only so far. In the example in Exhibit 7.8, it approaches 21.9 percent. The standard deviation does not approach zero because we are assuming that the variations in the asset returns do not completely cancel each other out. This is a realistic assumption because in practice investors cannot diversify away all risk. They can diversify away risk that is unique to the individual assets, but they cannot diversify away risk that is common to all assets. The risk investors can diversify away is called unsystematic or diversifiable risk, and the risk they cannot diversify away is called systematic or nondiversifiable risk. In the next section, we will discuss systematic risk in detail.
+
+unsystematic or diversifiable risk risk that can be eliminated through diversification
+
+systematic or nondiversifiable risk risk that cannot be eliminated through diversification
+
+EXHIBIT 7.8 Total Risk in a Portfolio as the Number of Assets Increases The total risk of a portfolio decreases as the number of assets increases. This is because the amount of unsystematic risk in the portfolio decreases. The diversification benefit from adding another asset declines as the total number of assets in the portfolio increases and the unsystematic risk approaches zero. Most of the diversification benefit can often be achieved with as few as 15 or 20 assets.
+
+
+The third key point illustrated in Exhibit 7.8 is that most of the risk-reduction benefits from diversification can be achieved in a portfolio with 15 to 20 assets. Of course, the number of assets required to achieve a high level of diversification depends on the covariances between the assets in the portfolio. However, in general, it is not necessary to invest in a very large number of different assets.
+
+Before You Go On
+What does the coefficient of variation tell us, and how is it related to the Sharpe Ratio?
+How would we expect the standard deviation of the return on an individual stock to compare with the standard deviation of the return on a stock index?
+What are the two components of total risk?
+Why does the total risk of a portfolio not approach zero as the number of assets in a portfolio becomes very large?
+
+You can read more about the Sharpe Ratio and other ratios that are used to measure risk-adjusted returns for investments at the following Web site: en.wikipedia.org/wiki/Sharpe_ratio
+
+7.7 Systematic Risk
+LEARNING OBJECTIVE
+
+Discuss why systematic risk matters to investors and how this measure relates to expected returns.
+The objective of diversification is to eliminate variation in returns that is unique to individual assets. We diversify our investments across a number of different assets in the hope that their unique variations will cancel each other out. With complete diversification, all of the unsystematic risk is eliminated from the portfolio. An investor with a diversified portfolio still faces systematic risk, however, and we now turn our attention to that form of risk.
+
+Why Systematic Risk Is All That Matters
+The idea that unsystematic risk can be diversified away has direct implications for the relation between risk and return. If the transaction costs associated with constructing a diversified portfolio are relatively low, then rational, informed investors will prefer to hold diversified portfolios.
+
+Diversified investors face only systematic risk, whereas investors whose portfolios are not well diversified face systematic risk plus unsystematic risk. Because they face less risk, the diversified investors will be willing to pay higher prices for individual assets than the other investors. Therefore, expected returns on individual assets will be lower than the total risk (systematic plus unsystematic risk) of those assets suggests they should be.
+
+To illustrate, consider two individual investors, Emily and Jane. Each of them is trying to decide if she should purchase stock in your pizza restaurant. Emily holds a diversified portfolio and Jane does not. If your restaurant’s stock has systematic and unsystematic risk, Emily faces less risk than Jane (Emily can diversify away the unsystematic risk while Jane cannot) and will require a lower expected rate of return. Consequently, Emily will be willing to pay a higher price than Jane.
+
+Building Intuition
+Systematic Risk Is the Risk That Matters
+
+The required rate of return on an asset depends only on the systematic risk associated with that asset. Because unsystematic risk can be diversified away, investors can and will eliminate their exposure to this risk. Competition among diversified investors will drive the prices of assets to the point where the expected returns will compensate investors for only the systematic risk that they bear.
+
+If the market includes a large number of diversified investors such as Emily, competition among these investors will drive the price of your restaurant’s shares up further. This competition will ultimately push the price up to the point where the expected return just compensates all investors for the systematic risk associated with your stock. The bottom line is this: because of competition among diversified investors, all investors are only rewarded for bearing systematic risk in asset markets. For this reason, we are concerned only about systematic risk when we think about the relation between risk and return in finance.
+
+Measuring Systematic Risk
+If systematic risk is all that matters when we think about expected returns, then we cannot use the standard deviation of returns as a measure of risk.7 The standard deviation is a measure of total risk. We need a way of quantifying the systematic risk of individual assets.
+
+A natural starting point for doing this is to recognize that the most diversified portfolio possible will come closest to eliminating all unsystematic risk. Such a portfolio provides a natural benchmark against which we can measure the systematic risk of an individual asset. What is the most diversified portfolio possible? The answer is simple. It is the portfolio that consists of all assets, including stocks, bonds, real estate, precious metals, commodities, art, baseball cards, and so forth from all over the world. In finance, we call this the market portfolio.
+
+market portfolio the portfolio of all assets
+
+Unfortunately, we do not have very good data for most of these assets for most of the world, so we use the next best thing: the U.S. public stock market. A large number of stocks from a broad range of industries trade in this market. The companies that issue these stocks own a wide range of assets all over the world. These characteristics, combined with the facts that the U.S. market has been operating for a very long time and that we have very reliable and detailed information on prices for U.S. stocks, make the U.S. stock market a natural benchmark for estimating systematic risk.
+
+Since systematic risk is, by definition, risk that cannot be diversified away, the systematic risk of an individual asset is really just a measure of the relation between the returns on the individual asset and the returns on the market portfolio, which has no unsystematic risk. In fact, systematic risk is often referred to as market risk. To see how we might use data from the U.S. public stock market to estimate the systematic risk of an individual asset, look at Exhibit 7.9, which plots 60 historical monthly returns for General Electric Company (GE) against the corresponding monthly returns for the S&P 500 Index (a proxy for the U.S. stock market). In this plot, you can see that returns on GE stock tend to be higher when returns on the S&P 500 tend to be higher. The measure of systematic risk that we use in finance is a statistical measure of this relation.
+
+market risk a term commonly used to refer to nondiversifiable, or systematic, risk
+
+EXHIBIT 7.9 Plot of Monthly General Electric Company Stock and S&P 500 Index Returns: September 2015 through September 2020 The monthly returns on General Electric stock are positively related to the returns on the S&P 500 Index. In other words, the return on General Electric’s stock tends to be higher when the return on the S&P 500 Index is higher and lower when the return on the S&P 500 Index is lower.
+
+
+We quantify the relation between the returns on GE stock and the market by finding the slope of the line that best represents the relation illustrated in Exhibit 7.9. Specifically, we estimate the slope of the line of best fit. We do this using the statistical technique called regression analysis. If you are not familiar with regression analysis, don’t worry; the details are beyond the scope of this course. All you have to know is that this technique gives us the line that fits the data best.
+
+Exhibit 7.10 illustrates the line that was estimated for the data in Exhibit 7.9 using regression analysis. Note that the slope of this line is 0.93. Recall from your math classes that the slope of a line equals the ratio of the rise (vertical distance) divided by the corresponding run (horizontal distance). In this case, the slope is the change in the return on GE stock divided by the change in the return on the U.S. stock market. A slope of 0.93 therefore means that, on average, the change in the return on GE stock was 0.93 times as large as the change in the return on the S&P 500 Index. Thus, if the S&P 500 Index goes up 1 percent, the average increase in GE’s stock is 0.93 percent. This is a measure of systematic risk because it tells us that the volatility of the returns on GE stock is 0.93 times as large as that for the S&P 500 as a whole.
+
+To explore this idea more completely, let’s consider another, simpler example. Suppose that you have data for Nike stock and for the U.S. stock market (S&P 500 Index) for each of the past two years. In the first year, the return on the market was 10 percent, and the return on Nike stock was 15 percent. In the second year, the return on the market was 12 percent, and the return on Nike stock was 19 percent. From this information, we know that the return on Nike stock increased by 4 percent while the return on the market increased 2 percent. If we plotted the returns for Nike stock and for the market for each of the last two periods, as we did for GE stock and the market in Exhibits 7.9 and 7.10, and estimated the line that best fit the data, it would be a line that connected the dots for the two periods. The slope of this line would equal 2, calculated as follows:
+
+EXHIBIT 7.10 Slope of Relation between General Electric Company Monthly Stock Returns and S&P 500 Index Returns: September 2015 through September 2020 The line shown in the exhibit best represents the relation between the monthly returns on General Electric stock and the returns on the S&P 500 Index. The slope of this line, which equals 0.93, indicates that the return on General Electric stock tends to equal about 0.93 times the return on the S&P 500 Index.
+
+
+ 
+ 
+ 
+ 
+
+Although we have to be careful about drawing conclusions when we have only two data points, we might interpret the slope of 2 to indicate that new information that causes the market return to increase by 1 percent will tend to cause the return on Nike stock to increase by 2 percent. Of course, the reverse might also be true. That is, new information that causes the market return to decrease by 1 percent may also cause the return on Nike stock to go down by 2 percent. To the extent that the same information is driving the changes in returns on Nike stock and on the market, it would not be possible for an investor in Nike stock to diversify this risk away. It is nondiversifiable, or systematic, risk.
+
+In finance, we call the slope of the line of best fit beta. Often we simply use the corresponding Greek letter, β, to refer to this measure of systematic risk. As shown below, a beta of 1 tells us that an asset has just as much systematic risk as the market. A beta higher than or lower than 1 tells us that the asset has more or less systematic risk than the market, respectively. A beta of 0 indicates a risk-free security, such as a U.S. Treasury bill.
+
+ 
+
+beta (β) a measure of nondiversifiable, systematic (or market) risk
+
+Now you might ask yourself what happened to the unsystematic risk of GE or Nike stock. This is best illustrated by the GE example, where we have more than two return observations. As you can see in Exhibit 7.10, the line of best fit does not go through each data point. That is because some of the change in GE’s stock price each month reflected information that did not affect the S&P 500 as a whole. That information is the unsystematic component of the risk of GE’s stock. The vertical distance between each data point and the line of best fit represents variation in GE’s stock return that can be attributed to this unsystematic risk.
+
+The positive slope (β) of the regression line in Exhibit 7.10 tells us that returns for the S&P 500 and for GE stock will tend to move in the same direction. The return on the S&P 500 and the return on GE’s stock will not always change in the same direction, however, because the unsystematic risk associated with GE stock can more than offset the effect of the market in any particular period. In the next section, we will discuss the implications of beta for the level (as opposed to the change) in the expected return for a stock such as GE.
+
+Compensation for Bearing Systematic Risk
+Now that we have identified the measure of the risk that diversified investors care about—systematic risk—we are in a position to examine how this measure relates to expected returns. Earlier, in our discussion of the coefficient of variation and the Sharpe Ratio, we asserted that the expected return over and above the risk-free rate is the return that investors expect to earn for bearing risk. To see why this must be true, think about the rate of return that you would require for an investment. First, you would want to make sure that you were compensated for inflation. It would not make sense to invest if you expected the investment to return an amount that did not at least allow you to have the same purchasing power that the money you invested had when you made the investment. Second, you would want some compensation for the fact that you are giving up the use of your money for a period of time. This compensation may be very small if you are forgoing the use of your money for only a short time, such as when you invest in a 30-day Treasury bill, but it might be relatively large if you are investing for several years. Finally, you would also require compensation for the systematic risk associated with the investment.
+
+When you invest in a U.S. government security such as a Treasury bill, note, or bond, you are investing in a security that has no risk of default. After all, the U.S. government can always increase taxes or print more money to pay you back. Changes in economic conditions and other factors that affect the returns on other assets do not affect the default risk of U.S. government securities. As a result, these securities do not have systematic risk, and their returns can be viewed as risk free. In other words, returns on government bonds reflect the compensation required by investors to account for the impact of inflation on purchasing power and for their inability to use the money during the life of the investment.
+
+It follows that the difference between required returns on government securities and required returns for risky investments represents the compensation investors require for taking risk. Recognizing this allows us to write the expected return for an asset i as:
+
+
+where Rrf is the return on a security with a risk-free rate of return, which analysts typically estimate by looking at returns on government securities. The compensation for taking risk, which varies with the risk of the asset, is added to the risk-free rate of return to get an estimate of the expected rate of return for an asset. If we recognize that the compensation for taking risk varies with asset risk and that systematic risk is what matters, we can write the preceding equation as follows:
+
+
+where units of systematic riski is the number of units of systematic risk associated with asset i. Finally, if beta, β, is the appropriate measure for the number of units of systematic risk, we can also define compensation for taking risk as follows:
+
+
+where βi is the beta for asset i.
+
+Remember that beta is a measure of systematic risk that is directly related to the risk of the market as a whole. If the beta for an asset is 2, that asset has twice as much systematic risk as the market. If the beta for an asset is 0.5, then the asset has half as much systematic risk as the market. Recognizing this natural interpretation of beta suggests that the appropriate “unit of systematic risk” is the level of risk in the market as a whole and that the appropriate “compensation per unit of systematic risk” is the expected return required for the level of systematic risk in the market as a whole. The required rate of return on the market, over and above that of the risk-free return, represents compensation required by investors for bearing market (systematic) risk. This suggests that:
+
+
+where E(Rm) is the expected return on the market. The term E(Rm) − Rrf is called the market risk premium. Consequently, we can now write the equation for expected return as:
+
+(7.12)
+Before You Go On
+Why are returns on the stock market used as a benchmark in measuring systematic risk?
+How is beta estimated?
+How would you interpret a beta of 1.5 for an asset? A beta of 0.75?
+
+A convenient place to find betas for individual companies is MSN Money Central at www.msn.com/en-us/money. Just enter the stock symbol in the “Get Quote” box near the top of the page and hit “Enter.” Try the aerospace company Boeing (BA), for example. You will get the stock price, an estimate of the beta, and other financial information for this company.
+
+7.8 The Capital Asset Pricing Model
+LEARNING OBJECTIVE
+
+Describe what the Capital Asset Pricing Model (CAPM) tells us and how to use it to evaluate whether the expected return of an asset is sufficient to compensate an investor for the risks associated with that asset.
+In deriving Equation 7.12, we intuitively arrived at the Capital Asset Pricing Model (CAPM). Equation 7.12 is the CAPM, a model that describes the relation between risk and expected return. We will discuss the predictions of the CAPM in more detail shortly, but first let’s look more closely at how it works.
+
+Capital Asset Pricing Model (CAPM) a model that describes the relation between risk and expected return
+
+Suppose that you want to estimate the expected return for a stock that has a beta of 1.5 and that the expected return on the market and risk-free rate are 10 percent and 4 percent, respectively. We can use Equation 7.12 (the CAPM) to find the expected return for this stock:
+
+ 
+
+Note that we must have three pieces of information in order to use Equation 7.12: (1) the risk-free rate, (2) beta, and (3) either the market risk premium or the expected return on the market. Recall that the market risk premium is the difference between the expected return on the market and the risk-free rate [E(Rm) − Rrf], which is 6 percent in the above example.
+
+While the expected return on the market is known in the above example, we actually cannot observe it in practice. For this reason, financial analysts estimate the market risk premium using historical data. We discuss how they do this in Chapter 13.
+
+The Security Market Line
+Exhibit 7.11 displays a plot of Equation 7.12 to illustrate how the expected return on an asset varies with systematic risk. This plot shows that the relation between the expected return on an asset and beta is positive and linear. In other words, it is a straight line with a positive slope. The line in Exhibit 7.11 is known as the Security Market Line (SML).
+
+Security Market Line (SML) a plot of the relation between expected return and systematic risk
+
+In Exhibit 7.11, you can see that the expected rate of return equals the risk-free rate when beta equals 0. This makes sense because when investors do not face systematic risk, they will only require a return that reflects the expected rate of inflation and the fact that they are giving up the use of their money for a period of time. Exhibit 7.11 also shows that the expected return on an asset equals the expected return on the market when beta equals 1. This is not surprising given that both the asset and the market would have the same level of systematic risk if this were the case.
+
+It is important to recognize that the SML illustrates what the CAPM predicts the expected total return should be for various values of beta. The actual expected total return depends on the price of the asset. You can see this from Equation 7.1:
+
+ 
+
+where P0 is the price that the asset is currently selling for. If an asset’s price implies that the expected return is greater than that predicted by the CAPM, that asset will plot above the SML in Exhibit 7.11. This means that the asset’s price is lower than the CAPM suggests it should be. Conversely, if the expected return on an asset plots below the SML, this implies that the asset’s price is higher than the CAPM suggests it should be. The point at which a particular asset plots relative to the SML, then, tells us something about whether the price of that asset might be low or high. Recognizing this fact can be helpful in evaluating the attractiveness of an investment such as the General Electric stock in Learning by Doing Application 7.7.
+
+Decision Making Example 7.2 further illustrates application of the concepts discussed in this section to the selection of investments.
+
+EXHIBIT 7.11 The Security Market Line The Security Market Line (SML) is the line that shows the relation between expected return and systematic risk, as measured by beta. When beta equals 0 and there is no systematic risk, the expected return equals the risk-free rate. As systematic risk (beta) increases, the expected return increases. This is an illustration of the positive relation between risk and return. The SML shows that it is systematic risk that matters to investors.
+
+
+LEARNING BY DOING APPLICATION 7.7
+Expected Returns and Systematic Risk
+
+Problem
+
+You are considering buying 100 shares of General Electric stock. The Yahoo! Finance Web site reports that the beta for General Electric is 0.93. The risk-free rate is 4 percent, and the market risk premium is 6 percent. What is the expected rate of return on General Electric stock according to the CAPM?
+
+
+
+
+
+DECISION MAKING EXAMPLE 7.2
+Choosing between Two Investments
+
+Situation
+
+You are trying to decide whether to invest in one or both of two different stocks. Stock 1 has a beta of 0.8 and, based on its current price, has an expected return of 7.0 percent. Stock 2 has a beta of 1.2 and, based on its current price, has an expected return of 9.5 percent. You remember learning about the CAPM in school and believe that it does a good job of telling you what the appropriate expected return should be for a given level of risk. Since the risk-free rate is 4 percent and the market risk premium is 6 percent, the CAPM tells you that the appropriate expected rate of return for an asset with a beta of 0.8 is 8.8 percent. The corresponding return for an asset with a beta of 1.2 is 11.2 percent. Should you invest in either or both of these stocks?
+
+
+
+The Capital Asset Pricing Model and Portfolio Returns
+The expected return for a portfolio can also be estimated using the CAPM. The expected return on a portfolio with n assets is calculated using the relation:
+
+
+Of course, this should not be surprising, since investing in a portfolio is simply an alternative to investing in a single asset.
+
+The fact that the SML is a straight line turns out to be rather convenient if we want to estimate the beta for a portfolio. Recall that the equation for the expected return for a portfolio with n assets was given by Equation 7.8:
+
+ 
+
+If we substitute Equation 7.12 into Equation 7.8 for each of the n assets and rearrange the equation, we find that the beta for a portfolio is simply a weighted average of the betas for the individual assets in the portfolio. In other words:
+
+(7.13)
+where xi is the proportion of the portfolio value that is invested in asset i, βi is the beta of asset i, and n is the number of assets in the portfolio. This formula makes it simple to calculate the beta of any portfolio of assets once you know the betas of the individual assets. As an exercise, you might prove this to yourself by using Equations 7.8 and 7.12 to derive Equation 7.13.
+
+Let’s consider an example to see how Equation 7.13 is used. Suppose that you invested 25 percent of your wealth in a fully diversified market fund, 25 percent in risk-free Treasury bills, and 50 percent in a house with twice as much systematic risk as the market. What is the beta of your overall portfolio? What rate of return would you expect to earn from this portfolio if the risk-free rate is 4 percent and the market risk premium is 6 percent?
+
+We know that the beta for the market must equal 1 by definition and that the beta for a risk-free asset equals 0. The beta for your home must be 2 since it has twice the systematic risk of the market. Therefore, the beta of your portfolio is:
+
+ 
+
+Your portfolio has 1.25 times as much systematic risk as the market. Based on Equation 7.12, you would, therefore, expect to earn a return of 11.5 percent, calculated as follows:
+
+ 
+
+Learning by Doing Application 7.8 illustrates another calculation of the expected return for a portfolio.
+
+LEARNING BY DOING APPLICATION 7.8
+Portfolio Risk and Expected Return
+
+Problem
+
+You have recently become very interested in real estate. To gain some experience as a real estate investor, you have decided to get together with nine of your friends to buy three small cottages near campus. If you and your friends pool your money, you will have just enough to buy the three properties. Since each investment requires the same amount of money and you will have a 10 percent interest in each, you will effectively have one-third of your portfolio invested in each cottage.
+
+While the cottages cost the same, they are different distances from campus and in different neighborhoods. You believe that this causes them to have different levels of systematic risk, and you estimate that the betas for the individual cottages are 1.2, 1.3, and 1.5. If the risk-free rate is 4 percent and the market risk premium is 6 percent, what will be the expected return on your real estate portfolio after you make all three investments?
+
+
+
+
+
+Up to this point, we have focused on calculating the expected rate of return for an investment in any asset from the perspective of an investor, such as a stockholder. A natural question that might arise is how these concepts relate to the rate of return that should be used within a firm to evaluate a project. The short answer is that they are the same. The rate of return used to discount the cash flows for a project with a particular level of systematic risk is exactly the same as the rate of return that an investor would expect to receive from an investment in any asset having the same level of systematic risk. In Chapter 13 we will explore the relation between the expected return and the rate used to discount project cash flows in much more detail. By the time we finish that discussion, you will understand thoroughly how businesses determine the rate that they use to discount the cash flows from their investments.
+
+Before You Go On
+How is the expected return on an asset related to its systematic risk?
+What name is given to line on the graph in Exhibit 7.11 that shows the relation between risk and expected return implied by the CAPM?
+If an asset’s expected return does not plot on the line in question 2 above, what does that imply about its price?
+Summary of Learning Objectives
+1 Explain the relation between risk and return.
+
+Investors require higher returns for taking greater risk. They prefer the investment with the highest possible return for a given level of risk or the investment with the lowest risk for a given level of return.
+
+2 Describe the two components of a total holding period return, and calculate this return for an asset.
+
+The total holding period return on an investment consists of a capital appreciation component and an income component. This return is calculated using Equation 7.1. It is important to recognize that investors do not care whether they receive a dollar of return through capital appreciation or as a cash dividend. Investors value both sources of return equally.
+
+3 Explain what an expected return is, and calculate the expected return for an asset.
+
+The expected return is a weighted average of the possible returns from an investment, where each of these returns is weighted by the probability that it will occur. It is calculated using Equation 7.2.
+
+4 Explain what the standard deviation of returns is and why it is very useful in finance, and calculate it for an asset.
+
+The standard deviation of returns is a measure of the total risk associated with the returns from an asset. It is useful in evaluating returns in finance because the returns on many assets tend to be normally distributed. The standard deviation of returns provides a convenient measure of the dispersion of returns. In other words, it tells us about the probability that a return will fall within a particular distance from the expected value or within a particular range. To calculate the standard deviation, the variance is first calculated using Equation 7.3. The standard deviation of returns is then calculated by taking the square root of the variance.
+
+5 Explain what an arithmetic average return is and what a geometric average return is, and calculate these returns for an asset.
+
+The arithmetic average return is the return earned in an average period, while the geometric average return is the average compounded return earned by an investor. Equations 7.4 and 7.5 are used to calculate these returns.
+
+6 Explain the concept of diversification and its effect on risk.
+
+Diversification entails reducing risk by investing in two or more assets whose returns do not always move in the same direction at the same time. Investing in a portfolio containing assets whose prices do not always move together reduces risk because some of the changes in the prices of individual assets offset each other. This can cause the overall variance in the returns of an investor’s portfolio to be lower than if it consisted of only a single asset.
+
+7 Discuss why systematic risk matters to investors and how this measure relates to expected returns.
+
+Investors care about only systematic risk. This is because they can eliminate unsystematic risk by holding a diversified portfolio. Diversified investors will bid up prices for assets to the point at which they are just being compensated for the systematic risks they must bear. Expected returns increase with the systematic risk of an asset. Government securities do not have systematic risk, since there is no risk of default. The difference between the required returns on government securities, measured by the risk-free rate of return, and required returns for risky assets, represents the compensation investors require for taking on systematic risk.
+
+8 Describe what the Capital Asset Pricing Model (CAPM) tells us and how to use it to evaluate whether the expected return of an asset is sufficient to compensate an investor for the risks associated with that asset.
+
+The CAPM tells us that the relation between systematic risk and return is linear and that the risk-free rate of return is the appropriate return for an asset with no systematic risk. From the CAPM, we know what rate of return investors will require for an investment with a particular amount of systematic risk (beta). This means that we can use the expected return predicted by the CAPM as a benchmark for evaluating whether expected returns for individual assets are sufficient. If the expected return for an asset is less than that predicted by the CAPM, then the asset is an unattractive investment because its expected return is lower than the CAPM indicates it should be. By the same token, if the expected return for an asset is greater than that predicted by the CAPM, then the asset is an attractive investment because its return is higher than it should be.
+
+Summary of Key Equations
+Equation	Description	Formula
+7.1	Total holding period return	
+ 
+ 
+ 
+7.2	Expected return on an asset	
+7.3	Variance of return on an asset	
+7.4	Arithmetic average return	
+ 
+7.5	Geometric (compounded) average return	
+7.6	Coefficient of variation	
+ 
+7.7	Sharpe Ratio	
+ 
+7.8	Expected return for a portfolio	
+7.9	Variance for a two-asset portfolio	
+7.10	Covariance of returns between two assets	
+7.11	Correlation between the returns on two assets	
+ 
+7.12	Expected return and systematic risk	
+7.13	Portfolio beta	
+Self-Study Problems
+7.1 Kaaran made a friendly wager with a colleague that involves the result from flipping a coin. If heads comes up, Kaaran must pay her colleague $15; otherwise, her colleague will pay Kaaran $15. What is Kaaran’s expected cash flow, and what is the variance of that cash flow if the coin has an equal probability of coming up heads or tails? Suppose Kaaran’s colleague is willing to handicap the bet by paying her $20 if the coin toss results in tails. If everything else remains the same, what are Kaaran’s expected cash flow and the variance of that cash flow?
+
+
+
+7.2 You know that the price of CFI, Inc., stock will be $12 exactly one year from today. Today the price of the stock is $11. Describe what must happen to the price of CFI, Inc., today in order for an investor to generate a 20 percent return over the next year. Assume that CFI does not pay dividends.
+
+
+
+7.3 The expected value of a normal distribution of prices for a stock is $50. If you are 90 percent sure that the price of the stock will be between $40 and $60, then what is the variance of the stock price?
+
+
+
+7.4 For each year from 2015 through 2019, the annual returns on small U.S. stocks were −3.60 percent, 25.65 percent, 11.19 percent, −11.60 percent, and 20.63 percent, respectively. What would a $1 investment, made at the beginning of 2015, have been worth at the end of 2019? What average annual return would have been earned on this investment?
+
+
+
+7.5 You must choose between investing in Stock A or Stock B. You have already used CAPM to calculate the rate of return you should expect to receive for each stock given each one’s systematic risk and decided that the expected return for both exceeds that predicted by CAPM by the same amount. In other words, both are equally attractive investments for a diversified investor. However, since you are still in school and do not have a lot of money, your investment portfolio is not diversified. You have decided to invest in the stock that has the highest expected return per unit of total risk. If the expected return and standard deviation of returns for Stock A are 10 percent and 25 percent, respectively, and the expected return and standard deviation of returns for Stock B are 15 percent and 40 percent, respectively, which should you choose? Assume that the risk-free rate is 5 percent.
+
+
+
+7.6 Viatris, Inc., stock has a beta of 1.35. If the expected market return is 14.5 percent and the risk-free rate is 5.5 percent, what does CAPM indicate the appropriate expected return for Viatris stock is?
+
+
+
+Discussion Questions
+7.1 Suppose that you know the risk and the expected return for two stocks. Discuss the process you might utilize to determine which of the two stocks is a better buy. You may assume that the two stocks will be the only assets held in your portfolio.
+
+7.2 What is the difference between the expected rate of return and the required rate of return? What does it mean if they are different for a particular asset at a particular point in time?
+
+7.3 Suppose that the standard deviation of the returns on the shares of stock at two different companies is exactly the same. Does this mean that the required rate of return will be the same for these two stocks? How might the required rate of return on the stock of a third company be greater than the required rates of return on the stocks of the first two companies even if the standard deviation of the returns of the third company’s stock is lower?
+
+7.4 The correlation between Stocks A and B is 0.50, while the correlation between Stocks A and C is −0.5. You already own Stock A and are thinking of buying either Stock B or Stock C. If you want your portfolio to have the lowest possible risk, would you buy Stock B or C? Would you expect the stock you choose to affect the return that you earn on your portfolio?
+
+7.5 The idea that we can know the return on a security for each possible outcome is overly simplistic. However, even though we cannot possibly predict all possible outcomes, this fact has little bearing on the risk-free return. Explain why.
+
+7.6 Which investment category included in Exhibit 7.3 has shown the greatest degree of risk in the United States since 1926? Explain why that makes sense in a world where the value of an asset in this investment category is likely to be more sensitive to changes in market conditions than is the price of a corporate bond.
+
+7.7 You are concerned about one of the investments in your fully diversified portfolio. You just have an uneasy feeling about the CFO, Iam Shifty, of that particular firm. You do believe, however, that the firm makes a good product and that it is appropriately priced by the market. Should you be concerned about the effect on your portfolio if Shifty embezzles a portion of the firm’s cash?
+
+7.8 The CAPM is used to price the risk (estimate the expected return) for any asset. Our examples have focused on stocks, but we could also use CAPM to estimate the expected rate of return for bonds. Explain why.
+
+7.9 In recent years, investors have agreed that the market portfolio consists of more than just a group of U.S. stocks and bonds. If you are an investor who invests in only U.S. stocks and bonds, describe the effects on the risk in your portfolio.
+
+7.10 You may have heard the statement that you should not include your home as an asset in your investment portfolio. Assume that your house will comprise up to 75 percent of your assets in the early part of your investment life. Evaluate the implications of omitting it when calculating the risk of your overall investment portfolio.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+7.1 Returns: Describe the difference between a total holding period return and an expected return.
+
+7.2 Expected returns: John is watching an old game show rerun called Let’s Make a Deal in which the contestant chooses a prize behind one of two curtains. Behind one of the curtains is a gag prize worth $150, and behind the other is a round-the-world trip worth $7,200. The producer of the game show has placed a subliminal message on the curtain containing the gag prize, which makes the probability of choosing the gag prize equal to 75 percent. What is the expected value of the selection, and what is the standard deviation of that selection?
+
+7.3 Expected returns: You have chosen biology as your college major because you would like to be a medical doctor. However, you find that the probability of being accepted to medical school is about 10 percent. If you are accepted to medical school, then your starting salary when you graduate will be $300,000 per year. However, if you are not accepted, then you would choose to work in a zoo, where you will earn $40,000 per year. Without considering the additional years you would spend in school if you study medicine or the time value of money, what is your expected starting salary as well as the standard deviation of that starting salary?
+
+7.4 Historical market: Describe the general relation between risk and return that we observe in the historical bond and stock market data.
+
+7.5 Single-asset portfolios: Stocks A, B, and C have expected returns of 15 percent, 15 percent, and 12 percent, respectively, while their standard deviations are 45 percent, 30 percent, and 30 percent, respectively. If you were considering the purchase of each of these stocks as the only holding in your portfolio and the risk-free rate is 0 percent, which stock should you choose?
+
+7.6 Arithmetic average: Tanner invested $1,000 in large U.S. stocks at the beginning of 2017. This investment earned 15.98 percent in 2017, 32.41 percent in 2018, 13.69 percent in 2019, and 1.41 percent in 2020. What return did he earn in the average year during the 2017–2020 period?
+
+7.7 Geometric average: What was the average annual return that Tanner earned over the 2017–2020 period in Problem 7.6?
+
+7.8 Diversification: Describe how investing in more than one asset can reduce risk through diversification.
+
+7.9 Systematic risk: Define systematic risk.
+
+7.10 Measuring systematic risk: Susan is expecting the returns on the market portfolio to be negative in the near term. Since she is managing a stock mutual fund, she must remain invested in a portfolio of stocks. However, she is allowed to adjust the beta of her portfolio. What kind of beta would you recommend for Susan’s portfolio?
+
+7.11 Measuring systematic risk: Describe and justify what the value of the beta of a U.S. Treasury bill should be.
+
+7.12 Measuring systematic risk: If the expected rate of return for the market is not much greater than the risk-free rate of return, what does this suggest about the general level of compensation for bearing systematic risk?
+
+7.13 CAPM: Describe the Capital Asset Pricing Model (CAPM) and what it tells us.
+
+7.14 The Security Market Line: If the expected return on the market is 10 percent and the risk-free rate is 4 percent, what is the expected return for a stock with a beta equal to 1.5? What is the market risk premium?
+
+Intermediate
+7.15 Expected returns: José is thinking about purchasing a soft drink machine and placing it in a business office. He knows that there is a 5 percent probability that someone who walks by the machine will make a purchase from the machine, and he knows that the profit on each soft drink sold is $0.10. If José expects a thousand people per day to pass by the machine and requires a complete return of his investment in one year, then what is the maximum price that he should be willing to pay for the soft drink machine? Assume 250 working days in a year, and ignore taxes and the time value of money.
+
+7.16 Interpreting the variance and standard deviation: The distribution of grades in an introductory finance class is normally distributed, with an expected grade of 75. If the standard deviation of grades is 7, in what range would you expect 95 percent of the grades to fall?
+
+7.17 Calculating the variance and standard deviation: Kate recently invested in real estate with the intention of selling the property one year from today. She has modeled the returns on that investment based on three economic scenarios. She believes that if the economy stays healthy, then her investment will generate a 30 percent return. However, if the economy softens, as predicted, the return will be 10 percent, while the return will be −25 percent if the economy slips into a recession. If the probabilities of the healthy, soft, and recessionary states are 0.4, 0.5, and 0.1, respectively, then what are the expected return and the standard deviation of the return on Kate’s investment?
+
+7.18 Calculating the variance and standard deviation: Barbara is considering investing in a company’s stock and is aware that the return on that investment is particularly sensitive to how the economy is performing. Her analysis suggests that four states of the economy can affect the return on the investment. Using the table of returns and probabilities that follows, find the expected return and the standard deviation of the return on Barbara’s investment.
+
+Probability	Return
+Boom	0.1	25.00%
+Good	0.4	15.00%
+Level	0.3	10.00%
+Slump	0.2	−5.00%
+7.19 Calculating the variance and standard deviation: Ben would like to invest in gold and is aware that the returns on such an investment can be quite volatile. Use the following table of states, probabilities, and returns to determine the expected return and the standard deviation of the return on Ben’s gold investment.
+
+Probability	Return
+Boom	0.1	  40.00%
+Good	0.2	  30.00%
+OK	0.3	  15.00%
+Level	0.2	    2.00%
+Slump	0.2	−12.00%
+7.20 Single-asset portfolios: Using the information from Problems 7.17, 7.18, and 7.19, calculate the coefficient of variation for each of the investments in those problems.
+
+7.21 Portfolios with more than one asset: Emmy is analyzing a two-stock portfolio that consists of a utility stock and a commodity stock. She knows that the return on the utility stock has a standard deviation of 40 percent and the return on the commodity stock has a standard deviation of 30 percent. However, she does not know the exact covariance of the returns of the two stocks. Emmy would like to plot the variance of the portfolio for each of three cases—covariance of 0.12, 0, and −0.12—in order to understand what the variance of the portfolio would be for a range of covariances. Do the calculation for all three cases (0.12, 0, and −0.12), assuming an equal proportion of each stock in the portfolio.
+
+7.22 Portfolios with more than one asset: Given the returns and probabilities for the three possible states listed below, calculate the covariance between the returns of Stock A and Stock B. For convenience, assume that the expected returns of Stock A and Stock B are 11.75 percent and 18 percent, respectively.
+
+Probability	Return on Stock A	Return on Stock B
+Good	0.35	  0.30	  0.50
+OK	0.50	  0.10	  0.10
+Poor	0.15	−0.25	−0.30
+7.23 Compensation for bearing systematic risk: You have constructed a diversified portfolio of stocks such that there is no unsystematic risk. Explain why the expected return of that portfolio should be greater than the expected return of a risk-free security.
+
+7.24 Compensation for bearing systematic risk: Write out the equation for the covariance of the returns of two assets, Asset 1 and Asset 2. Using that equation, explain the easiest way for the two asset returns to have a covariance of zero.
+
+7.25 Compensation for bearing systematic risk: Evaluate the following statement: “By fully diversifying a portfolio, such as by buying every asset in the market, we can completely eliminate all types of risk, thereby creating a synthetic Treasury bill.”
+
+7.26 CAPM: Damien knows that the beta of his portfolio is equal to 1, but he does not know the risk-free rate of return or the market risk premium. He also knows that the expected return on the market is 8 percent. What is the expected return on Damien’s portfolio?
+
+7.27 CAPM: In December 2020, the risk-free rate was 2.97 percent, the market risk premium was 6 percent, and the beta for Twitter stock was 0.99. What is the expected return that was consistent with the systematic risk associated with the returns on Twitter stock?
+
+7.28 CAPM: The market risk premium is 6 percent, and the risk-free rate is 5 percent. If the expected return on a bond is 6.5 percent, what is its beta?
+
+Advanced
+7.29 David is going to purchase two stocks to form the initial holdings in his portfolio. Iron stock has an expected return of 15 percent, while Copper stock has an expected return of 20 percent. If David plans to invest 30 percent of his funds in Iron and the remainder in Copper, what will be the expected return from his portfolio? What if David invests 70 percent of his funds in Iron stock?
+
+7.30 Peter knows that the covariance of the return on two assets is −0.0025. Without knowing the expected return of the two assets, explain what that covariance means.
+
+7.31 In order to fund her retirement, Glenda needs her portfolio to have an expected return of 12 percent per year over the next 30 years. She has decided to invest in Stocks 1, 2, and 3, with 25 percent in Stock 1, 50 percent in Stock 2, and 25 percent in Stock 3. If Stocks 1 and 2 have expected returns of 9 percent and 10 percent per year, respectively, then what is the minimum expected annual return for Stock 3 that is likely to enable Glenda to achieve her investment requirement?
+
+7.32 Tonalli is putting together a portfolio of 10 stocks in equal proportions. What is the relative importance of the variance for each stock versus the covariance for the pairs of stocks in her portfolio? For this exercise, ignore the actual values of the variance and covariance terms and explain their importance conceptually.
+
+7.33 Explain why investors who have diversified their portfolios will determine the price and, consequently, the expected return on an asset.
+
+7.34 Brad is about to purchase an additional asset for his well-diversified portfolio. He notices that when he plots the historical returns of the asset against those of the market portfolio, the line of best fit tends to have a large amount of prediction error for each data point (the scatter plot is not very tight around the line of best fit). Do you think that this will have a large or a small impact on the beta of the asset? Explain your opinion.
+
+7.35 Draw the Security Market Line (SML) for the case where the market risk premium is 5 percent and the risk-free rate is 7 percent. Now suppose an asset has a beta of −1.0 and an expected return of 4 percent. Plot it on your graph. Is the security properly priced? If not, explain what we might expect to happen to the price of this security in the market. Next, suppose another asset has a beta of 3.0 and an expected return of 20 percent. Plot it on the graph. Is this security properly priced? If not, explain what we might expect to happen to the price of this security in the market.
+
+7.36 If the CAPM describes the relation between systematic risk and expected returns, can both an individual asset and the market portfolio of all risky assets have negative expected real rates of return? Why or why not?
+
+7.37 You have been provided the following data on the securities of three firms and the market:
+
+Security	E[Ri]		ρ	βi
+Stock A	0.15		1.0	1.5
+Stock B	0.15	0.18	0.5	
+Stock C	0.10	0.02		0.5
+Market portfolio	0.10	0.04		
+Treasury bills	0.05	0		
+Assume the CAPM and SML are true and fill in the missing values in the table. Would you invest in the stock of any of the three firms? If so, which one(s) and why?
+
+7.38 You have been provided with the following information about the expected returns to Stock A and Stock B for various possible future economic conditions.
+
+State of Economy	Probability of State of Economy	Return for Stock A	Return for Stock B
+Boom	0.25	0.25	0.45
+Level	0.60	0.35	0.12
+Slump	0.15	0.10	−0.10
+The market risk premium is 7 percent, and the risk-free rate is 4 percent.
+
+Which stock has more systematic risk?
+Which stock has more unsystematic risk?
+Which stock is “riskier” and why?
+Sample Test Problems
+7.1 Given the following information from Capstone Corporation, what price would the CAPM predict that the company’s stock will trade for one year from today?
+
+Risk free rate: 3%
+Market risk premium: 8%
+Beta: 0.65
+Current stock price: $64.61
+Annual dividend: $1.92
+7.2 You are considering investing in a mutual fund. The fund is expected to earn a return of 15 percent in the next year. If its annual return is normally distributed with a standard deviation of 6.5 percent, what return can you expect the fund to beat 95 percent of the time?
+
+7.3 You have just invested in a portfolio of three stocks. The amount of money that you invested in each stock and its beta are summarized below. Calculate the beta of the portfolio and use the Capital Asset Pricing Model (CAPM) to compute the expected rate of return for the portfolio. Assume that the expected rate of return on the market is 15 percent and that the risk-free rate is 7 percent.
+
+Stock	Investment	Beta
+A	$200,000	1.50
+B	  300,000	0.65
+C	  500,000	1.25
+7.4 What would you recommend to an investor who is considering making an investment in a stock that plots below the Security Market Line (SML)? Explain.
+
+7.5 Why does an investor want a diversified portfolio? Can an investor eliminate all risk?
+
+Ethics Case
+Pay for Performance or Just More Pay? The Conflicting Case for CEO Pay
+
+Few issues in corporate America today garner as much attention as the pay of public company CEOs. As discussed in Chapter 1 of this textbook, management compensation can be the most effective means of aligning the interests of managers with those of their stockholders when executive pay is linked to company performance. Thus, most incentive plans include a base salary as well as performance bonuses and stock-based compensation such as stock options and stock grants. While the right mix of these elements can provide strong incentives for managerial performance, many corporate governance experts and shareholder groups have expressed alarm at the sharp rise in CEO pay that may not adequately reflect the performance of their corporations. In a recent example, Abigail Disney, great-niece of the company’s co-founder Walt Disney, criticized the $65 million pay package of then CEO Bob Iger as “insane” stating that “No one on this freaking planet is worth that much money.”
+
+The CEOs of large corporations today are some of the top paid individuals on the globe. Many CEOs earn vastly more than the well-publicized earnings paid to top professional athletes and entertainment stars. For example, in 2020 the highest paid NBA player, LeBron James, earned approximated $96.5 million in salary, endorsements and other investments. While a vast sum by any standard, LeBron’s income was less than half of the $211 million earned by Paycom CEO Chad Richison, and only one tenth of the record 2020 payout of $1.1 billion to Alexander Karp, the CEO of Palantir Technologies.1
+
+While the executive payouts at Paycom and Palantir are outliers, the median pay package for the CEOs of some of the largest U.S. public companies was a generous $13.7 million, up from the median pay package of $12.8 million for the same companies just one year before. This increase was remarkable given the vast negative impact of the COVID 19 pandemic on many aspects of business around the world. This latest increase in pay is just part of a longer trend in which CEO compensation nearly doubled for CEOs of S&P 500 companies over the course of the last decade and increased over 1,000 percent over the last three decades!2,3
+
+Critics of CEO pay packages are quick to point out that these company leaders earn vastly more that their own rank and file employees, contributing to the growing trend in income inequality. Data compiled by Equilar and The New York Times show that the gap in earnings has accelerated as rapidly as the level of CEO pay. In 1989, the CEOs of the largest U.S. corporations earned approximately 61 times the average worker in their companies, but by 2019, that number had ballooned to almost 300 times.4
+
+
+How Do Boards of Directors Set CEO Pay
+
+With such astronomical pay packages, it is natural to question how CEO compensation is determined. From the standpoint of shareholders, hiring a CEO is an important investment for the company. As with any other investment, corporate boards should pay CEOs based on the value they will create for the company, however, this figure can be very difficult to estimate. One of the most important approaches in setting CEO pay is to determine what other “peer” companies pay their CEOs. Compensation Committees of boards typically hire outside compensation consultants who benchmark CEO pay against a carefully selected peer group that consists of a dozen or more companies that are similar in size and have comparable business models. While the CEO pay at company peers provides a reasonable benchmark, critics of this process have noted a potential pitfall to this approach, noting that corporate directors may be favorably biased in assessing the skills and performance of their own CEO. This bias can cause members of the compensation committee to set their CEO pay at the high end of the peer group. And when committees increase CEO pay, that, in turn, drives other companies to pay their CEOs more because peer group norms go up. This so called “ratchet” effect is one explanation for the sharp increase in CEO pay over time.
+
+
+Linking CEO Pay to Company Performance
+
+Designing a CEO pay package that is sensitive to company performance is important for the shareholders and other corporate stakeholders. When a company’s board of directors create these incentives, CEOs are more likely to focus on taking actions that maximize the value of the company, because doing so maximizes their pay. Performance-based pay takes several forms including bonuses tied to accounting performance and other important outcomes, as well as stock-based pay such as restricted stock, performance shares, and stock option grants.
+
+Restricted stock is stock awarded to a CEO with a specific vesting schedule for when in the future the CEO can expect to fully own the shares. Consider a CEO who receives 10,000 shares of restricted stock in their company that vests in two years with a per share price of $20 per share. The value of the restricted stock awarded to the executive is $200,000. If, however, the CEO is able to make investment and other decisions that increase the price per share to $30 over the next two years, her stock award will be worth $300,000 when it vests, a $100,000 gain! After vesting, the CEO can sell some or all of her stock to realize the gains attributable to her performance.
+
+If instead, the CEO receives 10,000 performance shares, she will need to meet a specific performance target(s) to take actual ownership of the shares. These targets can include traditional financial metrics such as earnings and return on assets, but may also include more specific goals set by company directors, for example diversity and sustainability outcomes. Finally, stock options awards grant executives the right to buy shares in their company stock at a predetermined price that is above the current market price. Much like restricted stock and performance shares, executive stock options vest over time and become more valuable when executives take actions that cause an appreciation in the stock price.
+
+Critics of stock-based pay today argue that the incentive awards have become simply too large, and do not include stringent enough performance hurdles. Today, stock awards comprise more than 50 percent of the total pay awarded to CEOs of S&P 500 companies. In the extreme case of Palantir Technologies, the bulk of Alexander Karp’s 2020 pay consisted of options worth approximately $800 million, with another $300 million in stock awards. This stock-based compensation vastly outweighed his roughly $1.5 million in cash compensation in the same year. For some perspective, the $1.1 billion pay package of Mr. Karp was equivalent to the total revenue of Palantir in 2020, making it difficult to understand how it could be in the best interests of the company’s stockholders or other stakeholders.
+
+Additional concerns focus on the performance targets associated with stock-based compensation. For example, incentives tied to stock prices can reward CEOs for luck rather than their effort if a company’s stock price rises due simply to macroeconomic factors such as the business cycle, or industry wide gains. Critics have also noted that performance targets can be gamed by CEOs who can manipulate investment and other company decisions to boost earnings up, and are wary that boards of directors may set performance conditions that are not sufficiently tough to meet.
+
+Do Shareholders Have a Say on Pay?
+
+Most large public companies in the U.S. are now required to provide shareholders with an annual vote on CEO compensation under the SEC’s Say-on-Pay rule. While Say-on-Pay votes are non-binding and do not require a response by the board of directors, they do provide shareholders, particularly institutional investors, with a voice in the process of setting CEO pay. Since the inception of the 2010 federal Say-on-Pay legislation, only about 2 percent of Say-on-Pay votes failed to garner a majority of shareholder approval. However, a number of high-profile shareholder rejections, including the 2021 resolution at Starbucks, have caused some boards to reconsider how they set CEO pay.5
+
+Discussion Questions
+Do CEOs make too much money? If you were a corporate director, how would you suggest your company determine the pay of the CEO? Do CEOs make too much money relative to their average worker?
+Should companies focus exclusively on performance targets for CEO pay that are related to stockholder value such as return on equity and per share earnings, or should they include broader targets such as Environmental, Social, and Governance (ESG) goals?
+Do you think that Say-on-Pay votes should be binding, and therefore require a response by boards of directors if pay proposals fail to receive a majority of shareholder approval?
+Notes
+1 For simplicity, let’s ignore the possibility of your hitting a sacrifice fly and other such outcomes.
+2 From a practical standpoint, it would not really have been possible to grow $1.00 to $39,381.93 by investing in small U.S. stocks because this increase assumes that an investor is able to rebalance the stock portfolio by buying and selling shares as necessary at no cost. Since buying and selling shares is costly, the final wealth would have been lower. Nevertheless, even after transaction costs, it would have been much more profitable to invest in small stocks than in U.S. Treasury bills.
+3 On August 5, 2011, Standard and Poor’s, the credit rating agency, lowered its rating on U.S. Treasury securities from AAA to AA+, indicating that it considered these securities to have a very small amount of default risk. The other two large credit rating agencies, Moody’s and Fitch, decided not to lower their ratings of U.S. Treasury securities at that time, suggesting that if there was any default risk, it remained extremely small. The agencies have not subsequently changed their ratings on U.S. Treasury securities.
+4 For more information on noodling, see the April 21, 2006, New York Times article titled “In the Jaws of a Catfish,” by Ethan Todras-Whitehill and the May 16, 2011, Wall Street Journal article titled “Long Arm of the Law Penalizes Texans Who Nab Catfish by Hand,” by Ana Campoy.
+5 The only adjustment that we had to make was to account for the fact that our calculations used monthly returns rather than annual returns. This adjustment simply required us to multiply each number we calculated by 12 because there are 12 months in a year.
+6 You can see this by using Equation 7.11 to solve for , substituting for  in Equation 7.9, and then solving for  by using algebra to solve for the square root of 
+.
+7 This statement is true in the context of how expected returns are determined. However, the standard deviation is still a very useful measure of the risk faced by an individual investor who does not hold a diversified portfolio. For example, the owners of most small businesses have much of their personal wealth tied up in their businesses. They are certainly concerned about the total risk because it is directly related to the probability that they will go out of business and lose much of their wealth.
+1 The compensation consultant Equilar and The New York Times have partnered to provide a survey of the 2020 pay packages of the top 200 public companies and you can access this report here: www.equilar.com/reports/82-table-equilar-new-york-times-top-200-highest-paid-ceos-2021
+2 www.wsj.com/articles/covid-19-brought-the-economy-to-its-knees-but-ceo-pay-surged-11618142400?st=wo4p5j1igkhlijn&reflink=desktopwebshare_permalink/
+3 www.epi.org/publication/ceo-compensation-2018/
+4 www.nytimes.com/2021/05/11/learning/are-ceos-paid-too-much.html
+5 https://www.cnbc.com/2021/03/18/starbucks-shareholders-vote-against-executive-pay-plan.html

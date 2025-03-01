@@ -1,0 +1,1287 @@
+CHAPTER 10
+The Fundamentals of Capital Budgeting
+
+LEARNING OBJECTIVES
+
+Discuss why capital budgeting decisions are the most important investment decisions made by a firm’s management.
+Explain the benefits of using the net present value (NPV) method to analyze capital expenditure decisions and calculate the NPV for a capital project.
+Describe the strengths and weaknesses of the payback period as a capital expenditure decision-making tool and compute the payback period for a capital project.
+Explain why the accounting rate of return (ARR) is not recommended for use as a capital expenditure decision-making tool.
+Compute the internal rate of return (IRR) for a capital project and discuss the conditions under which the IRR technique and the NPV technique produce different results.
+Explain how the profitability index can be used to rank projects when a firm faces capital rationing and describe the limitations that apply to the profitability index.
+Explain the benefits of postaudit and periodic reviews of capital projects.
+In February 2020, managers of SK Hynix Inc., one of the largest manufacturers of memory chips in the world, reported that the company would cut its investment in new projects considerably from its recent expenditures of $10.6 billion and $21.4 billion in 2019 and 2018 respectively. This included cutting back on projects such as additions to capacity, upgrades at existing plants, and maintenance, resulting in investments of just $7.5 billion by the third quarter of the year. In October 2020, however, SK Hynix management changed course, announcing that the company had agreed to spend an additional $9 billion to buy Intel’s NAND SSD business. These sorts of major capital expenditures at manufacturing companies like SK Hynix are typically part of the firm’s long-term, ongoing capital investment program that are designed to create value.
+
+Managers at SK Hynix had decided that the time was right to increase their NAND flash manufacturing operations, expand their storage solutions business, and further position themselves for growth in the semiconductor industry. NAND flash memory is a type of nonvolatile storage technology that does not require power to retain data, while NAND SSD is a type of solid-state drive that uses the NAND memory for storage. Managers apparently believed that the investment in these products was necessary to pursue the company’s business strategy.
+
+The decision to spend so much money on the expansion of the firm’s operations in a single deal was undoubtedly based on a careful review of the firm’s business strategy and detailed analyses of the alternative investments that would best help SK Hynix achieve this strategy. Firms in capital-intensive industries, such as memory chip and storage manufacturing, continually evaluate their capabilities in light of their strategic goals, what their competitors are doing, and the economic environment in which they are competing. In addition, companies evaluate environmental, social, and governance (ESG) considerations when making their investment decisions. At SK Hynix this includes a focus on reducing carbon emissions and water waste, establishing a culture of diversity and inclusion for employees, and addressing issues important to the company’s suppliers and local communities. The capital budgeting process, through which firms decide which real assets to invest in, is an integral element of these evaluations.
+
+While few companies have capital expenditure programs as large as those at SK Hynix, all companies must routinely invest capital in projects that are critical to their success. Whether large or small, all investment opportunities must be carefully scrutinized, and their costs and benefits carefully weighed. How do firms make these important capital budgeting decisions? In this chapter we examine this decision-making process and introduce some financial models used to make investment decisions.
+
+Chapter Preview
+This chapter is about capital budgeting, a topic we first visited in Chapter 1. Capital budgeting is the process of deciding which capital investments the firm should make.
+
+We begin the chapter with a discussion of the types of capital projects that firms undertake and how the capital budgeting process is managed within the firm. When making capital investment decisions, management’s goal is to select projects that will increase the value of the firm.
+
+Next we examine some of the techniques used to evaluate capital budgeting decisions. We first discuss the net present value (NPV) method, which is the capital budgeting approach recommended in this book. The NPV method takes into account the time value of money and provides a direct measure of how much a capital project will increase the value of the firm.
+
+We then examine the payback method and the accounting rate of return. As methods of selecting capital projects, both of these have some serious deficiencies. We also discuss the internal rate of return (IRR), which is the expected rate of return for a capital project when the project’s NPV is equal to zero. The IRR is a very popular and important alternative to the NPV technique. However, in certain circumstances, the IRR can lead to incorrect decisions.
+
+After discussing the above commonly used methods for selecting individual projects, we turn to the methods that financial managers use to select projects when there is not enough money to invest in all of the attractive ones. Finally, we present evidence on which techniques financial managers actually use when making capital budgeting decisions.
+
+10.1 An Introduction to Capital Budgeting
+LEARNING OBJECTIVE
+
+Discuss why capital budgeting decisions are the most important investment decisions made by a firm’s management.
+We begin with an overview of capital budgeting, followed by a discussion of some important concepts you will need to understand in this and later chapters.
+
+The Importance of Capital Budgeting
+Capital budgeting decisions are the most important investment decisions made by management. The objective of these decisions is to select investments in productive assets that will increase the value of the firm. These investments create value when they are worth more than they cost. Capital investments are important because they can involve substantial cash outlays and, once made, are not easily reversed. They also define what the company is all about—the firm’s lines of business and its inherent business risk. For better or worse, capital investments produce most of a typical firm’s revenues for years to come.
+
+capital budgeting the process of choosing the productive assets in which the firm will invest
+
+Capital budgeting techniques help management systematically analyze potential business opportunities in order to decide which are worth undertaking. As you will see, not all capital budgeting techniques are equal. The best techniques are those that determine the value of a capital project by discounting all of the cash flows generated by the project and thus account for the time value of money.
+
+In the final analysis, capital budgeting is really about management’s search for the best capital projects—those that add the greatest value to the firm. Over the long term, the most successful firms are those whose managements consistently search for and find capital investment opportunities that increase firm value.
+
+The Capital Budgeting Process
+The capital budgeting process starts with a firm’s strategic plan, which spells out its strategy for the next three to five years. Division managers then convert the firm’s strategic objectives into business plans. These plans have a one- to two-year time horizon, provide a detailed description of what each division should accomplish during the period covered by the plan, and have quantifiable targets that each division is expected to achieve. Behind each division’s business plan is a capital budget that details the resources management believes it needs to get the job done.
+
+The capital budget is generally prepared jointly by the CFO’s staff and financial staffs at the divisional and lower levels and reflects, in large part, the activities outlined in the divisional business plans. Many of these proposed expenditures are routine in nature, such as the repair or purchase of new equipment at existing facilities. Less frequently, firms face broader strategic decisions, such as whether to launch a new product, build a new plant, enter a new market, or buy a business. Exhibit 10.1 identifies some reasons that firms initiate capital projects.
+
+EXHIBIT 10.1 Key Reasons for Making Capital Expenditures
+
+Capital budgeting decisions are the most important investment decisions made by management. Many of these decisions are routine in nature, but from time to time, managers face broader strategic decisions that call for significant capital investments.
+
+Reason	Description
+Renewal	Over time, equipment must be repaired, overhauled, rebuilt, or retrofitted with new technology to keep the firm’s manufacturing or service operations going. For example, a company that has a fleet of delivery trucks may decide to overhaul the trucks and their engines rather than purchase new trucks. Renewal decisions typically do not require an elaborate analysis and are made on a routine basis.
+Replacement	At some point, an asset will have to be replaced rather than repaired or overhauled. The major decision is whether to replace the asset with a similar piece of equipment or purchase equipment that would require a change in the production process. Sometimes, replacement decisions involve equipment that is operating satisfactorily but has become obsolete. The new or retrofitted equipment may provide cost savings with respect to labor or material usage and/or may improve product quality. These decisions typically originate at the plant level.
+Expansion	Strategically, the most important motive for capital expenditures is to expand the level of operating output. One type of expansion decision involves increasing the output of existing products. This may mean new equipment to produce more products or expansion of the firm’s distribution system. These types of decisions typically require a more complex analysis than a renewal or replacement decision. Another type of expansion decision involves producing a new product or entering a new market. This type of expansion often involves large dollar amounts and significant business risk and requires the approval of the firm’s board of directors.
+Regulatory	Some capital expenditures are required by federal and state regulations. These mandatory expenditures usually involve meeting workplace safety standards and environmental standards.
+Other	This category includes items such as parking facilities, office buildings, and executive aircraft. Many of these capital expenditures are hard to analyze because it is difficult to estimate their cash inflows. Ultimately, the decisions can be more subjective than analytical.
+Sources of Information
+Where does management get all of the information it needs to make capital budgeting decisions? Most of the information is generated within the firm, and, for expansion decisions, it often starts with sales representatives and marketing managers who are in the marketplace talking to potential and current customers on a day-to-day basis. For example, a sales manager with a new product idea might present the idea to management. If the product looks promising, the firm’s marketing research group will estimate the size of the market and a market price. If the product requires new technology, the firm’s research and development group must decide whether to develop the technology or to buy it. Next, cost accountants and production engineers will determine the cost of producing the product and any capital expenditures necessary to manufacture it. Finally, the CFO’s staff will take the data and estimate the total cost of the project and the cash flows it will generate over time. The project is a viable candidate for the capital budget if the present value of the expected cash flows exceeds the present value of the project’s cost.
+
+Classification of Investment Projects
+Potential capital budgeting projects can be classified into three types: (1) independent projects, (2) mutually exclusive projects, and (3) contingent projects.
+
+Independent Projects
+
+Projects are independent when their cash flows are unrelated. With independent projects, accepting or rejecting one project does not eliminate other projects from consideration (assuming the firm has unlimited funds to invest). For example, suppose a firm has unlimited funding and management wants to (1) build a new parking ramp at its headquarters; (2) acquire a small competitor; and (3) add manufacturing capacity to one of its plants. Since the projects’ cash flows are unrelated, accepting or rejecting one of the projects will have no effect on the others.
+
+independent projects projects whose cash flows are unrelated
+
+Mutually Exclusive Projects
+
+When projects are mutually exclusive, acceptance of one project precludes acceptance of others. Typically, mutually exclusive projects perform the same function, and thus only one project needs to be accepted. For example, when BMW decided to manufacture automobiles in the United States, it considered three possible manufacturing sites (or capital projects). Once BMW management selected the Spartanburg, South Carolina, site, the other two possible locations were out of the running. Since some projects are mutually exclusive, it is very important that a capital budgeting method allow us to choose the best project when we are faced with two or more alternatives.
+
+mutually exclusive projects projects for which acceptance of one precludes acceptance of the other
+
+Contingent Projects
+
+With contingent projects, the acceptance of one project is contingent on the acceptance of another. There are two types of contingency situations. In the first type of situation, the contingent product is mandatory. For example, when a public utility company (such as your local electric company) builds a power plant, it must also invest in suitable pollution control equipment to meet federal environmental standards. The pollution control investment is a mandatory contingent project. When faced with mandatory contingent projects, it is best to treat all of the projects as a single investment for the purpose of evaluation. This provides management with the best measure of the value created by these projects.
+
+contingent projects projects whose acceptance depends on the acceptance of other projects
+
+In the second type of situation, the contingent project is optional. For example, suppose Lenovo invests in a new computer for the home market. This computer has a feature that allows Lenovo to bundle a proprietary gaming system. The gaming system is a contingent project but is an optional add-on to the new computer. In these situations, the optional contingent project should be evaluated independently and should be accepted or rejected on its own merits.
+
+Basic Capital Budgeting Terms
+In this section we briefly introduce two terms that you will need to be familiar with—cost of capital and capital rationing.
+
+Cost of Capital
+
+The cost of capital is the rate of return that a capital project must earn to be accepted by management. The cost of capital can be thought of as an opportunity cost. Recall from Chapter 8 that an opportunity cost is the value of the most valuable alternative given up if a particular investment is made.
+
+cost of capital the required rate of return for a capital investment
+
+Building Intuition
+Investment Decisions Have Opportunity Costs
+
+When any investment is made, the opportunity to earn a return from an alternative investment is lost. The lost return can be viewed as a cost that arises from a lost opportunity. For this reason, it is called an opportunity cost. The opportunity cost of capital is the return an investor gives up when his or her money is invested in one asset rather than the best alternative asset with the same risk. For example, suppose that a firm invests in a piece of equipment rather than returning money to stockholders. If stockholders could have earned an annual return of 12 percent on a stock with cash flows that are as risky as the cash flows the equipment will produce, this is the opportunity cost of capital associated with the investment in the piece of equipment.
+
+Let’s consider the opportunity cost concept in the context of capital budgeting decisions. When investors buy shares of stock in a company or loan money to a company, they are giving management money to invest on their behalf. Thus, when a firm’s management makes capital investments in productive assets such as plant and equipment, they are investing stockholders’ and creditors’ money in real assets. Since stockholders and creditors could have invested their money in financial assets, the minimum rate of return they are willing to accept on an investment in a real asset is the rate they could have earned investing in financial assets that have similar risk. The rate of return that investors can earn on financial assets with similar risk is an opportunity cost because investors lose the opportunity to earn that rate if the money is invested in a real asset instead. It is therefore the rate of return that investors will require for an investment in a capital project. In other words, this rate is the cost of capital. It is also known as the opportunity cost of capital. Chapter 13 discusses how we estimate the opportunity cost of capital in practice.
+
+opportunity cost of capital the return an investor gives up when his or her money is invested in one asset rather than the best alternative asset with the same risk
+
+Capital Rationing
+
+When a firm has all the money it needs to invest in all the capital projects that meet its capital selection criteria, the firm is said to be operating without a funding constraint, or resource constraint. Firms are rarely in this position, especially growth firms. Typically, a firm has a fixed number of dollars available for capital expenditures, and the number of qualified projects that need funding exceeds the funds that are available. This funding constraint on investments means that some projects will be mutually exclusive, since investing in one project exhausts resources that might otherwise be invested in another. When faced with a resource constraint, the firm must allocate its funds to the subset of projects that provides the largest increase in stockholder value. The process of limiting, or rationing, capital expenditures in this way is called capital rationing. Capital rationing and its implications for capital budgeting are discussed in Section 10.6.
+
+capital rationing a situation where a firm does not have enough capital to invest in all attractive projects and must therefore ration capital
+
+Before You Go On
+Why are capital investments the most important decisions made by a firm’s management?
+What are the differences between capital projects that are independent, mutually exclusive, and contingent?
+What is the cost of capital?
+Describe the process of capital rationing.
+10.2 Net Present Value
+LEARNING OBJECTIVE
+
+Explain the benefits of using the net present value (NPV) method to analyze capital expenditure decisions and calculate the NPV for a capital project.
+In this section we discuss a capital budgeting method that is consistent with this goal of financial management—to maximize the wealth of the firm’s owners. It is called the net present value (NPV) method, and it is one of the most basic analytical methods underlying corporate finance. The NPV method tells us the amount by which the benefits from a capital expenditure exceed its costs. It is the capital budgeting technique recommended in this book.
+
+net present value (NPV) method a method of evaluating a capital investment project that measures the difference between its cost and the present value of its expected cash flows
+
+Valuation of Real Assets
+Throughout this book, we have emphasized that the value of any asset is the present value of its future cash flows. In Chapters 8 and 9, we developed valuation models for financial assets, such as bonds, preferred stock, and common stock. We now extend our discussion of valuation models from financial to real assets. The steps used in valuing an asset are the same whether the asset is real or financial:
+
+Estimate the expected future cash flows.
+Determine the required rate of return, or discount rate, which depends on the riskiness of the future cash flows.
+Compute the present value of the future cash flows to determine what the asset is worth.
+The valuation of real assets, however, is less straightforward than the valuation of financial assets, for two reasons.
+
+First, in many cases, cash flows for financial assets are well documented in a legal contract. If they are not, we are at least able to make some reasonable assumptions about what they are. For real assets, much less information exists. Specialists within the firm, usually from the finance, marketing, and production groups, often prepare estimates of expected future cash flows for capital projects with only limited information.
+
+Second, many financial securities are traded in public markets, and these markets are reasonably efficient. Thus, market data on rates of return are accessible. For real assets, no such markets exist. As a result, we must estimate required rates of return on real assets (opportunity costs) from market data on financial assets; this can be difficult to do.
+
+NPV—The Basic Concept
+The NPV of a project is the difference between the present value of the project’s expected future cash flows and the present value of its cost. The NPV can be expressed as follows:
+
+If a capital project has a positive NPV, the value of the cash flows the project is expected to generate exceeds the project’s cost. Thus, a positive NPV project increases the value of the firm and, hence, stockholders’ wealth. If a capital project has a negative NPV, the value of the expected cash flows from the project is less than its cost. If accepted, a negative NPV project will decrease the value of the firm and stockholders’ wealth.
+
+To illustrate these important points, consider an example. Suppose a firm is considering building a new marina for pleasure boats. The firm has an app that tells the future with perfect certainty. The finance staff estimates that the marina will cost $3.50 million. The app determines that the present value of the future cash flows from the marina is $4.25 million.
+
+Assuming this information is correct, the NPV for the marina project is a positive $750,000 ($4.25 million − $3.50 million = $0.75 million). Management should accept the project because the excess of the value of the cash flows over cost increases the value of the firm by $750,000. Why is a positive NPV a direct measure of how much a capital project will increase the value of the firm? If management wanted to, the firm could sell the marina for $4.25 million, pay the $3.50 million in expenses, and deposit $750,000 in the bank. The value of the firm would increase by the $750,000 deposited in the bank. In sum, the NPV method tells us which capital projects to select and how much value they add to the firm.
+
+NPV and Value Creation
+We have just stated that any project with a positive NPV should be accepted because it will increase the value of the firm. Let’s take a moment to think about this proposition. What makes a capital asset worth more than it costs? In other words, how does management create value with capital investments?
+
+How Value Is Created
+
+Suppose that when you were in college, you worked part time at a successful pizza parlor near campus. During this time, you learned a lot about the pizza business. After graduation, for $100,000 you purchased a pizza parlor that was in a good location but had been forced to close because of a lack of business. The owners had let the restaurant and the quality of the pizzas deteriorate, and the wait staff had been rude to customers. Once you purchased the restaurant, you immediately invested $40,000 to fix it up: you painted the building, spruced up the interior, replaced some of the dining room furniture, and added an eye-catching, 1950s-style neon sign to attract attention. You also spent $15,000 for a one-time advertising blitz to quickly build a customer base. More important, you improved the quality of the pizzas you sold, and you built a profitable takeout business. Finally, you hired your wait staff carefully and trained them to be customer friendly.
+
+Almost immediately the restaurant was earning a substantial profit and generating substantial cash flows. The really good news was that several owners of local pizzerias wanted to buy your restaurant. After intense negotiations with several of the potential buyers, you accepted a cash offer of $475,000 for the business shortly after you purchased it.
+
+What is the NPV for the pizza parlor? For this investment, the NPV is easy to calculate. We do not need to estimate future cash flows and discount them because we already have an estimate of the present value of the cash flows the pizza parlor is expected to produce—$475,000. Someone is willing to pay you $475,000 because he or she believes the future cash flows are worth that amount. The cost of your investment includes the purchase price of the restaurant, the cost to fix it up, and the cost of the initial advertising campaign, which totals $155,000 ($100,000 + $40,000 + $15,000 = $155,000). Thus, the NPV for the pizza parlor is:
+
+The $475,000 price paid for the pizza parlor exceeds the cost ($155,000) by $320,000. You have created $320,000 in value. How did you do this? You did it by improving the food, customer service, and dining ambiance while keeping prices competitive. Your management skills and knowledge of the pizza business resulted in significant growth in the current year’s cash flows and the prospect of even larger cash flows in the future.
+
+Where did the $320,000 in value you created go? The NPV of your investment is the amount that your personal net worth increased because of the investment. For an ongoing business, the result would have been a $320,000 increase in the value of the firm.
+
+How about the original owners? Why would they sell a business worth $475,000 to you for $100,000? The answer is simple; if they could have transformed the business as you did, they would have done so. Instead, when they ran the business, it lost money! They sold it to you because you offered them a price reflecting its value to them.
+
+Market Data versus Discounted Cash Flows
+
+Our pizza parlor example is greatly simplified by the fact that we can observe the price that someone is willing to pay for the asset. In most capital project analyses, we have to estimate the market value of the asset by forecasting its future cash flows and discounting them by the cost of capital. The discounted value of a project’s future cash flows is an estimate of its value, or the market price for which it can be sold.
+
+Framework for Calculating NPV
+We now describe a framework for analyzing capital budgeting decisions using the NPV method. As you will see, the NPV approach uses the discounted cash flow technique developed in Chapters 5 and 6 and applied in Chapters 8 and 9. The good news, then, is that the NPV method requires only the application of what you already know.
+
+The five-step framework discussed in this section and a cash flow worksheet like the one illustrated in Exhibit 10.2 can help you systematically organize a project’s cash flow data and compute its NPV. Most mistakes people make when working capital budgeting problems result from problems with cash flows: not identifying a cash flow, getting a cash flow in the wrong time period, or assigning the wrong sign to a cash flow. What can make cash flow analysis difficult in capital budgeting is that there are often multiple cash flows in a single time period, and some are cash inflows and others are cash outflows.
+
+As always, we recommend that you prepare a time line when doing capital budgeting problems. Exhibit 10.2 shows a sample time line along with an identification of the cash flows for each period. Our goal is to compute the net cash flow (NCF) for each time period t, where NCFt = Total cash inflows − Total cash outflows for the period t. For a capital project, the time periods (t) are usually in years, and t varies from the current period (t = 0) to some finite time period that is the estimated life of the project (t = n). Recall that getting the correct sign on each cash flow is critical to getting the correct answer to a problem. As you have seen in earlier chapters, the convention in finance problem solving is that cash inflows carry a positive sign and cash outflows carry a negative sign. Finally, note that all cash flows in this chapter are on an after-tax basis. We will make adjustments for tax consequences on specific transactions such as the calculation of a project’s salvage value.
+
+Our five-step framework for analysis is as follows:
+
+Determine the initial cost of starting the project. We first need to identify and add up all the cash flows related to the initial cost of starting the project. In most cases, the initial cost of a project is incurred at the start; hence the cash flows are already in current dollars. These cash flows typically include any property, plant, and equipment outlays for production as well as employee hiring and training costs. In some cases, like those involving the construction of a manufacturing facility, these initial outlays can be made over several years before the project is up and running. Of course, any future cash flows must be discounted to obtain their present value. Turning to Exhibit 10.2, we have incurred a single negative cash flow (−CF0) as our initial cost of starting the project; thus NCF0 has a negative value.
+Estimate the project’s future cash flows over its expected life. Once they are up and running, capital projects typically generate some cash inflows from revenues (CIFt) for each period, along with some cash outflows (COFt) associated with costs incurred to generate the revenues. In most cases revenues exceed costs, and thus, NCFt is positive. However, this may not always be the case. For example, if the project is the purchase of a piece of equipment, it is possible for NCF3 to have a negative value (CIF3 < COF3) if the equipment is projected to need a major overhaul or must be replaced during the third year. Finally, you also need to pay attention to a project’s final cash flow, which is t = 5 in Exhibit 10.2. Final project cash flows can be positive or negative. For example, the company might have to pay the costs of environmental cleanup for a production site. There may also be a salvage value (SV) for machinery and equipment at the end of the project, which is a cash inflow. In that case NCF5 = CIF5 − COF5 + SV. The important point is that for each time period, we must identify all the cash flows that take place, assign each cash flow its proper sign, and add up all the cash flows.
+Determine the riskiness of the project and the appropriate cost of capital. The third step is to identify for each project its risk-adjusted cost of capital, which takes into account the riskiness of the project’s cash flows. The riskier the project, the higher its cost of capital. The cost of capital is the discount rate used in determining the present value of the future expected cash flows. In this chapter, the cost of capital and any risk adjustments will be supplied, and no calculations will be required for this step.
+Compute the project’s NPV. The NPV, as you know, is the present value of the net cash flows the project is expected to generate minus the cost of the project.
+Make a decision. If the NPV is positive, the project should be accepted because all projects with a positive NPV will increase the value of the firm. If the NPV is negative, the project should be rejected; projects with negative NPVs will decrease the value of the firm.
+Exhibit 10.2 shows a sample worksheet for conducting an NPV analysis.
+
+EXHIBIT 10.2 Sample Worksheet for Net Present Value Analysis In addition to following the five-step framework for solving NPV analysis problems, we recommend that you use a worksheet with a time line like the one shown here to help you determine the proper cash flows for each period.
+
+
+You might be wondering about how to handle a capital project with an NPV of 0. Technically, management should be indifferent to accepting or rejecting projects such as this because they neither increase nor decrease the value of the firm. When the NPV = 0, the project is generating returns that are just equal to the opportunity cost of capital. At a practical level, projects rarely have an NPV equal to 0, and most firms have more good capital projects (with NPV > 0) than they can fund. Thus, this is not an issue that generates much interest among practitioners.
+
+Net Present Value Techniques
+The NPV of a capital project can be stated in equation form as the present value of all net cash flows (total cash inflows − total cash outflows) connected with the project, whether in the current period or in the future. The NPV equation can be written as follows:
+
+(10.1)
+where:
+
+NCFt	=	net cash flow (total cash inflows − total cash outflows) in period t, where t = 0, 1, 2, 3, …, n
+k	=	the cost of capital
+n	=	the project’s estimated life
+Next, we will work an example to see how the NPV is calculated for a capital project. Suppose you are the president of a small regional firm located in Chicago that manufactures frozen pizzas which are sold to grocery stores and to firms in the hospitality and food service industry. Your market research group has developed an idea for a “pocket” pizza that can be used as an entrée with a meal or as an “on the go” snack. The sales manager believes that, with an aggressive advertising campaign, sales of the product will be about $300,000 per year. The cost to modify the existing production line will also be $300,000, according to the plant manager. The marketing and plant managers estimate that the cost to produce the pocket pizzas, to market and advertise them, and to deliver them to customers will be about $220,000 per year. The product’s life is estimated to be five years, and the specialized equipment necessary for the project has an estimated salvage value of $30,000. The appropriate cost of capital is 15 percent.
+
+When analyzing capital budgeting problems, we typically have a lot of data to sort through. The worksheet introduced in Exhibit 10.2 is helpful in keeping track of the data in an organized format.The steps in analyzing the project’s cash flows and determining its NPV are as follows:
+
+Determine the initial cost of starting the project. The cost of the project is the one-time cost to modify the existing production line, which is $300,000. This is a cash outflow (negative sign).
+Estimate the project’s future cash flows over its expected life. The project’s future cash inflows come from sales of the new product. Sales are estimated at $300,000 per year (positive sign). The cash outflows are the costs to manufacture and distribute the new product, which are $220,000 per year (negative sign). The life of the project is five years. The project has a salvage value of $30,000, which is a cash inflow (positive sign). The net cash flow (NCF) in a particular time period is just the sum of the cash inflows and cash outflows for that period, including the cost of starting the project and any salvage value. For example, the NCF for period t = 0 is −$300,000, the NCF for period t = 1 is $80,000, and so on, as you can see in Exhibit 10.3.
+Determine the riskiness of the project and the appropriate cost of capital. The discount rate is the cost of capital, which is 15 percent.
+Compute the project’s NPV. To compute the project’s NPV, we apply Equation 10.1 by plugging in the NCF values for each time period and using the cost of capital, 15 percent, as the discount rate. The equation looks like this (the figures are in thousands of dollars):
+The NPV for the pocket pizza project is therefore −$16,910.
+
+Make a decision. The pocket pizza project has a negative NPV, which indicates that the project is not a good investment and should be rejected. If management undertook this project, the value of the firm would decrease by $16,910; and, if the firm had 100,000 shares of stock outstanding, we can estimate that the project would decrease the value of each share by about 17 cents ($16,910/100,000 shares = $0.1691 per share).
+Exhibit 10.3 shows the time line and relevant cash flows for the pocket pizza project.
+
+EXHIBIT 10.3 Pocket Pizza Project Time Line and Cash Flows ($ thousands) The worksheet introduced in Exhibit 10.2 is helpful in organizing the data given for the pocket pizza project.
+
+
+Calculating NPV with a Financial Calculator
+
+Using a financial calculator is an easier way to calculate the present value of the future cash flows. In this example you should recognize that the cash flow pattern is a five-year ordinary annuity with an additional cash inflow in the fifth year. This is exactly the cash pattern for a bond with annual coupon payments and payment of principal at maturity that we saw in Chapter 8. We can find the present value using a financial calculator, with $80 being the annuity stream for five years and $30 the salvage value at Year 5:
+
+
+The PV of the future cash flows is −$283.09. With that information, we can compute the NPV using Equation 10.1 as follows:
+
+Learning by Doing Application 10.1 and the following Using Excel Example illustrate another NPV calculation.
+
+LEARNING BY DOING APPLICATION 10.1
+The Dough’s Up: The Self-Rising Pizza Project
+
+Problem
+
+Let’s continue our frozen pizza example. Suppose the head of the research and development (R&D) group announces that R&D engineers have developed a breakthrough technology—self-rising frozen pizza dough that, when baked, rises and tastes exactly like fresh-baked dough.
+
+The cost is $300,000 to modify the production line, and the modifications will have a five-year life. Sales of the new product are estimated at $200,000 for the first year, $300,000 for the next two years, and $500,000 for the final two years. It is estimated that production, sales, and advertising costs will be $250,000 for the first year and will then decline to a constant $200,000 per year. There is no salvage value at the end of the product’s life, and the appropriate cost of capital is 15 percent. Is the project, as proposed, economically viable?
+
+
+
+
+
+Using Excel
+Net Present Value
+
+Net present value problems are most commonly solved using a spreadsheet. The spreadsheet’s design is good for keeping track of all the cash flows and the periods in which they occur. The spreadsheet setup for Learning by Doing Application 10.1, presented on the right, shows how to calculate the NPV for the self-rising pizza dough machine.
+
+Notice that the Excel NPV formula does not take into account the cash flow in year zero. Therefore, you only enter into the NPV formula the cash flows in Years 1 through 5, along with the discount rate. You then add the cash flow in Year zero to the total from the NPV formula calculation to get the NPV for the investment.
+
+
+Mutually Exclusive Projects and NPV
+
+Recall that investments are mutually exclusive if, by making one, another will not be undertaken. Projects may be mutually exclusive because they are substitutes for one another or because the firm has a funding constraint. A project’s NPV provides an objective measure of its incremental value to the firm’s investors, and thus makes it simple to choose between two or more mutually exclusive projects. When faced with such a choice, managers should allocate capital to the project that has the most positive dollar impact on the value of the firm—in other words, the project with the highest NPV.
+
+Decision Making Example 10.1 illustrates how NPVs are used in project selection.
+
+DECISION MAKING Example 10.1
+The IS Department’s Capital Projects
+
+Situation
+
+Suppose you are the manager of the information systems (IS) department of the frozen pizza manufacturer we have been discussing. Your department has identified four possible capital projects with the following NPVs: (1) $4,500, (2) $3,000, (3) $0.0, and (4) −$1,000. What should you decide about each project if the projects are independent? What should you decide if the projects are mutually exclusive?
+
+
+
+Concluding Comments on NPV
+Some concluding comments about the NPV method are in order. First, as you may have noticed, the NPV computations are rather mechanical once we have estimated the cash flows and the cost of capital. The real difficulty is estimating or forecasting the future cash flows. Although this may seem to be a daunting task, managers with experience in producing and selling a particular type of product can usually generate fairly accurate estimates of sales volumes, prices, and production costs. Most business managers are routinely required to make decisions that involve expectations about future events. In fact, that is what business is really all about—dealing with uncertainty and making decisions that involve risk.
+
+Second, estimating project cash flows over a long forecast period requires skill and judgment. There is nothing wrong with using estimates to make business decisions as long as they are based on informed judgments and not guesses. Problems can arise with the cash flow estimates when a project team becomes overly enamored with a project. In wanting a particular project to succeed, a project team can be too optimistic about the cash flow projections. It is therefore very important that capital budgeting decisions be subject to ongoing and postaudit review.
+
+In conclusion, the NPV approach is the method we recommend for making capital investment decisions. It provides a direct (dollar) measure of how much a project will increase the value of the firm. NPV also makes it possible to correctly choose between mutually exclusive projects. The accompanying table summarizes NPV decision rules and the method’s key advantages and disadvantages.
+
+Summary of Net Present Value (NPV) Method
+ 
+Key Advantages	Key Disadvantage
+Uses the discounted cash flow valuation technique to adjust for the time value of money.
+Provides a direct (dollar) measure of how much a capital project will increase the value of the firm.
+Is consistent with the goal of maximizing stockholder value.
+Can be difficult to understand without an accounting and finance background.
+Before You Go On
+What is the NPV of a project?
+If a firm accepts a project with a $10,000 NPV, what is the effect on the value of the firm?
+What are the five steps used in NPV analysis?
+
+The Corporate Finance Institute’s Web site has a lot of free worksheets that are useful to financial managers, including several related to capital budgeting. Go to www.corporatefinanceinstitute.com/resources/templates/excel-modeling/
+
+10.3 The Payback Period
+LEARNING OBJECTIVE
+
+Describe the strengths and weaknesses of the payback period as a capital expenditure decision-making tool and compute the payback period for a capital project.
+The payback period is one of the most widely used tools for evaluating capital projects. The payback period is defined as the number of years it takes for the cash flows from a project to recover the project’s initial investment. With the payback method for evaluating projects, a project is accepted if its payback period is below some specified threshold. Although it has serious weaknesses, this method does provide some insight into how quickly a firm will recover the cash that has been invested in a project.
+
+payback period the length of time required to recover a project’s initial cost
+
+Computing the Payback Period
+To compute the payback period, we need to know the project’s cost and estimate its future net cash flows. The net cash flows and the project cost are the same values that we use to compute the NPV. The payback (PB) equation can be expressed as follows:
+
+(10.2)
+Exhibit 10.5 shows the net cash flows (row 1) and cumulative net cash flows (row 2) for a proposed capital project with an initial cost of $70,000. The payback period calculation for our example is:
+
+Let’s look at this calculation in more detail. Note in Exhibit 10.5 that the firm recovers cash flows of $30,000 in the first year and $30,000 in the second year, for a total of $60,000 over the two years. During the third year, the firm needs to recover only $10,000 ($70,000 − $60,000 = $10,000) to pay back the full cost of the project. The third-year cash flow is $20,000. Assuming that the cash flows arrive evenly throughout the year, we will have to wait 0.5 year ($10,000/$20,000 = 0.5) to recover the final amount. Thus, the payback period for this project is 2.5 years (2 years + 0.5 year = 2.5 years). Exhibit 10.5 shows the payback period cash flows and calculations.
+
+EXHIBIT 10.5 Payback Period Cash Flows and Calculations The exhibit shows the net and cumulative net cash flows for a proposed capital project with an initial cost of $70,000. The cash flow data are used to compute the payback period, which is 2.5 years.
+
+
+The idea behind the payback period method is simple: the shorter the payback period, the faster the firm gets its money back and the more desirable the project. However, there is no economic rationale that links the payback method to stockholder value maximization. Firms that use the payback method accept all projects having a payback period under some threshold and reject those with a payback period over this threshold. If a firm has a number of projects that are mutually exclusive, the projects are selected in order of their payback rank: projects with the shortest payback period are selected first.
+
+Learning by Doing Application 10.2 illustrates additional payback calculations.
+
+How the Payback Period Performs
+We have worked through some simple examples of how the payback period is computed. Now we will consider several more complex situations to see how well the payback period performs as a capital budgeting rule. Exhibit 10.6 illustrates five different capital budgeting projects. The projects all have an initial investment of $500, but each one has a different cash flow pattern. The bottom part of the exhibit shows each project’s payback period, along with its net present value for comparison. We will assume that management has set a payback period of two years as the cutoff point for an acceptable project.
+
+LEARNING BY DOING APPLICATION 10.2
+A Payback Calculation
+
+Problem
+
+A firm has two capital projects, A and B, which are under review for funding. Both projects cost $500, and the projects have the following cash flows:
+
+Year	Project A	Project B
+0	−$500	−$500
+1	     100	     400
+2	     200	     300
+3	     200	     200
+4	     400	     100
+What is the payback period for each project? If the projects are independent, which project should management select? If the projects are mutually exclusive, which project should management accept? The firm’s payback cutoff point is two years.
+
+
+
+
+
+EXHIBIT 10.6 Payback Period with Various Cash Flow Patterns
+
+Each of the five capital budgeting projects shown in the exhibit calls for an initial investment of $500, but all have different cash flow patterns. The bottom part of the exhibit shows each project’s payback period, along with its net present value for comparison.
+
+Year	A	B	C	D	E
+0	−$500	−$500	 −$500	 −$500	−$500
+1	     200	     300	      250	      500	     200
+2	     300	     100	      250	            0	     200
+3	     400	       50	   −250	            0	     200
+4	     500	          0	     250	 −5,000	  5,000
+Payback (years)	      2.0	        ∞	2.0/4.0	   1.0/∞	      2.5
+NPV	  $450	−$131	  −$115	−$2,924	$2,815
+Cost of capital = 15%						
+Project A: The cash flows for Project A are $200 in the first year and $300 in the second, for a total of $500; thus, the project’s payback period is two years. Under our acceptance criterion, management should accept this project. Project A also has a positive NPV of $450, so the two capital budgeting decision rules agree.
+
+Project B: Project B never generates enough cash flows to pay off the original investment of $500: $300 + $100 + $50 = $450. Thus, the project payback period is infinite. With an infinite payback period, the project should be rejected. Also, as you would expect, Project B’s NPV is negative. So far, the payback period and NPV methods have agreed on which projects to accept.
+
+Project C: Project C has a payback period of two years: $250 + $250 = $500. Thus, according to the payback criteria, it should be accepted. However, the project’s NPV is a negative $115, which indicates that the project should be rejected. Why the conflict? Look at the cash flows after the payback period of two years. In Year 3 the project requires an additional investment of $250 (a cash outflow) and now is in a deficit position; that is, the cumulative net cash balance is now only $250 ($250 + $250 − $250 = $250). Then, in the final year, the project earns an additional $250, recovering the cost of the total investment. The payback period analysis can lead to erroneous decisions because the rule does not consider cash flows after the payback period.
+
+Projects D and E: Projects D and E dramatically illustrate the problem when a capital budgeting evaluation tool fails to consider cash flows after the payback period. Project D has a payback period of one year, suggesting that it should be accepted, and Project E has a payback period of 2.5 years, suggesting that it should be rejected. However, looking at the future cash flows suggests otherwise. It is clear that Project D, with a negative $5,000 cash flow in Year 4, is a disaster and should be rejected, while Project E, with a positive $5,000 cash flow in Year 4, should be accepted. Indeed, the NPV analysis confirms these conclusions: Project D has a negative NPV of $2,924, and Project E has a positive NPV of $2,815. In both instances, the payback rule led to the wrong economic decision. These examples illustrate that a rapid payback does not necessarily mean a good investment.
+
+Discounted Payback Period
+Another weakness of the ordinary payback period criteria is that it does not take into account the time value of money. All dollars received before the cutoff period are given equal weight. To address this problem, some financial managers use a variant of the payback period called the discounted payback period. The discounted payback calculation is similar to the ordinary payback calculation except that the future cash flows are discounted by the cost of capital. Exhibit 10.7 shows the discounted payback period cash flows and calculations.
+
+discounted payback period the length of time required to recover a project’s initial cost, accounting for the time value of money
+
+EXHIBIT 10.7 Discounted Payback Period Cash Flows and Calculations The exhibit shows the net and cumulative net cash flows for a proposed capital project with an initial cost of $40,000. The cash flow data are used to compute the discounted payback period for a 10 percent cost of capital, which is 2.35 years.
+
+
+The major advantage of the discounted payback approach is that it tells management how long it takes a project to reach an NPV of zero. This is an improvement over the standard payback calculation, which can lead to accepting projects with negative NPVs. Despite this improvement, the discounted payback method is not widely used by businesses, and it also ignores all cash flows after the arbitrary cutoff period, which is a major flaw.
+
+To see how the discounted payback period is calculated, let’s take a look at Exhibit 10.7. The exhibit shows the net cash flows for a proposed capital project along with both the cumulative and discounted cumulative cash flows; thus, we can compute both the ordinary and the discounted payback periods for the project and then compare them. The cost of capital is 10 percent.
+
+The first two rows show the nondiscounted cash flows, and we can see by inspection that the ordinary payback period is two years. We do not need to make any additional calculations because the cumulative cash flows equal zero at precisely two years. Now let’s turn our attention to the lower two rows, which show the project’s discounted and cumulative discounted cash flows. Note that the first year’s cash flow is $20,000 and its discounted value is $18,182 ($20,000 × (1/1.1) = $18,182). The second year’s cash flow is also $20,000, and its discounted value is $16,529 ($20,000 × (1/(1.1)2) = $16,529). Now, looking at the cumulative discounted NCF row, notice that it turns positive between two and three years. This means that the discounted payback period is two years plus some fraction of the third year’s discounted cash flow. The exact discounted payback period computed value is 2 years + $5,289/$15,026 year = 2 years + 0.35 year = 2.35 years.
+
+As expected, the discounted payback period is longer than the ordinary payback period (2 years < 2.35 years), and in 2.35 years the project will reach a NPV of $0. The project NPV is positive (NPV = $9,737); therefore, we should accept the project. But notice that the payback decision criteria are ambiguous. If we use 2.0 years as the payback criterion, we reject the project, and if we use 2.5 or 3.0 years as the criterion, the project is accepted. The lack of a definitive decision rule remains a major problem with the payback period as a capital budgeting tool.
+
+Evaluating the Payback Rule
+The standard payback period is often calculated for projects because it provides an intuitive and simple measure of a project’s liquidity risk. This makes sense because there is a strong feeling in business that “getting your money back quickly” is an important standard when making capital investments. This intuition can be economically justified if the firm faces payments to creditors before the payback date, or if estimates of project cash flows beyond the payback date are very uncertain. Probably the greatest advantage of the payback period is its simplicity; it is easy to calculate and easy to understand.
+
+When compared with the NPV method, however, the payback methods have some serious shortcomings. First, the standard payback calculation does not adjust or account for the time value of money or risk associated with future cash flows. Second, there is little economic justification for the choice of the payback cutoff criteria other than a liquidity motive. Who is to say that a particular cutoff, such as two years, is optimal with regard to maximizing stockholder value? Finally, perhaps the greatest shortcoming of the payback method is its failure to consider cash flows after the payback period. As a result, the payback method is biased toward shorter-term projects and may cause managers to reject important positive NPV projects where cash inflows tend to occur farther in the future, such as research and development investments, new product launches, and entry into new lines of business.
+
+While the payback period is relatively simple to calculate, it is important to note that payback requires forecasts of future project cash flows up to the established cutoff period. Furthermore, discounted payback requires that managers identify a project’s discount rate. Thus the inputs into the payback and NPV methods are virtually identical. Consequently, using a payback method may not even save much time and effort in evaluating a project. The table below summarizes key advantages and disadvantages of the payback method.
+
+Summary of Payback Method
+Decision Rule:  
+Key Advantages	Key Disadvantage
+Easy to calculate and understand for people without a strong accounting and finance background.
+A simple measure of a project’s liquidity risk.
+Most common version does not account for time value of money.
+Does not consider cash flows past the payback period.
+Bias against long-term projects such as research and development and new product launches.
+Arbitrary cutoff point.
+Before You Go On
+What is the payback period?
+Why does the payback period provide a measure of a project’s liquidity risk?
+What are the main shortcomings of the payback method?
+10.4 The Accounting Rate of Return
+LEARNING OBJECTIVE
+
+Explain why the accounting rate of return (ARR) is not recommended for use as a capital expenditure decision-making tool.
+We turn next to a capital budgeting technique based on the accounting rate of return (ARR), sometimes called the book value rate of return. This method computes the return on a capital project using accounting numbers—the project’s net income (NI) and book value (BV)—rather than cash flow data. The ARR can be calculated in a number of ways, but the most common definition is:
+
+accounting rate of return (ARR) a rate of return on a capital project based on average net income divided by average book value over the project’s life; also called the book value rate of return
+
+(10.3)
+where:
+
+Average net income	=	(NI1 + NI2 + ⋯ + NIn)/n
+Average book value	=	(BV0 + BV1 + BV2 + ⋯ + BVn)/(n + 1)
+n	=	the project’s estimated life
+BV0	=	the original cost of the asset
+Although ARR is fairly easy to understand and calculate, as you probably guessed, it has major flaws as a tool for evaluating capital expenditure decisions. Instead of discounting a project’s cash flows over time, it simply gives us a number based on average figures from the income statement and balance sheet. Thus, the ARR is based on accounting numbers and ignores the time value of money. Also, as with the payback method, there is no economic rationale that links a particular acceptance criterion to the goal of maximizing stockholder value.
+
+Because of these major shortcomings, the ARR technique should not be used to evaluate the viability of capital projects under any circumstances. You may wonder why we even included the ARR technique in this book if it is a poor criterion for evaluating projects. The reason is simply that we want to be sure that if you run across the ARR method at work, you will recognize it and be aware of its shortcomings.
+
+Before You Go On
+What are the major shortcomings of using the accounting rate of return (ARR) method as a capital budgeting method?
+10.5 Internal Rate of Return
+LEARNING OBJECTIVE
+
+Compute the internal rate of return (IRR) for a capital project and discuss the conditions under which the IRR technique and the NPV technique produce different results.
+The internal rate of return, known in practice as the IRR, is an important alternative to the NPV method. The NPV and IRR techniques are closely related in that both involve discounting the cash flows from a project; thus, both account for the time value of money. When we use the NPV method to evaluate a capital project, the discount rate is the rate of return required by investors for investments with similar risk, which is the project’s opportunity cost of capital. When we use the IRR, we are looking for the rate of return associated with a project so that we can determine whether this rate is higher or lower than the project’s discount rate.
+
+internal rate of return (IRR) the discount rate at which the present value of a project’s expected cash inflows equals the present value of the project’s outflows; it is the discount rate at which the project’s NPV equals zero
+
+We can define the IRR as the discount rate that equates the present value of a project’s cost to the present value of its expected cash inflows:
+
+This means that we can also describe the IRR as the discount rate that causes the NPV to equal zero. This relation can be written in a general form as follows:
+
+(10.4)
+Because of their close relation, it may seem that the IRR and the NPV are interchangeable—that is, either should tell you to accept or reject the same capital projects. After all, both methods are based on whether the project’s return exceeds the cost of capital and, hence, whether the project will add value to the firm. In many circumstances, the IRR and NPV methods do give us the same answer. As you will see later, however, some of the properties of the IRR equation can lead to incorrect decisions concerning whether to accept or reject a particular capital project.
+
+Calculating the IRR
+The IRR is an expected rate of return much like the yield to maturity we calculated for bonds in Chapter 8. Thus, in calculating the IRR, we need to apply the same trial-and-error method we used in Chapter 8. We will begin by doing some IRR calculations by trial and error so that you understand the process, and then we will switch to the financial calculator and computer spreadsheets, which provide an answer more quickly.
+
+Trial-and-Error Method
+
+Suppose that Ford Motor Company has an investment opportunity with cash flows (in thousands of dollars) as shown in Exhibit 10.8 and that the cost of capital is 12 percent. We want to find the IRR for this project. Using Equation 10.4, we will substitute various values for IRR into the equation to compute the project’s IRR by trial and error. We continue this process until we find the IRR value that makes Equation 10.4 equal zero.
+
+A good starting point is to use the cost of capital as the discount rate. Note that when we discount the NCFs by the cost of capital, we are calculating the project’s NPV:
+
+Recall that the result we are looking for is zero. Because our result is greater than zero ($16.44), the discount rate of 12 percent is too low, and we must try a higher rate. Let’s try 13 percent:
+
+We are very close; let’s try 14 percent:
+
+Because our result is now a negative number, we know the correct rate is between 13 percent and 14 percent, and looking at the magnitude of the numbers, we know that the answer is closer to 14 percent. Let’s try 13.7 percent.
+
+Good guess! This means that the NPV of Ford’s capital project is zero at a discount rate of 13.7 percent. The required rate of return is the cost of capital, which is 12.0 percent. Since the project’s IRR of 13.7 percent exceeds the cost of capital, the IRR criterion indicates that the project should be accepted. Exhibit 10.8 shows the time line and expected net cash flows for the Ford Motor Company project.
+
+EXHIBIT 10.8 Time Line and Expected Net Cash Flows for the Ford Motor Company Project ($ thousands) The cash flow data in the exhibit are used to compute the project’s IRR. The project’s NPV is a positive $16,440, which indicates that the IRR is greater than the cost of capital of 12 percent.
+
+
+The project’s NPV is a positive $16,440, which also indicates that Ford should go ahead with the project. Thus, both the IRR and the NPV suggest the same conclusion.
+
+Learning by Doing Application 10.3 and the following Using Excel Example illustrate additional IRR calculations.
+
+When the IRR and NPV Methods Agree
+In the Ford example, the IRR and NPV methods agree. The two methods will always agree when you are evaluating independent projects and the projects’ cash flows are conventional. As discussed earlier, an independent project is one that can be selected with no effect on the viability of any other project. A project with conventional cash flows is one with an initial cash outflow followed by one or more cash inflows. Put another way, after the initial investment is made (cash outflow), the net cash flow in each future year is positive (inflows). For example, the purchase of a bond involves conventional cash flows. You purchase the bond for a price (cash outflow), and in the future you receive coupon payments and a principal payment at maturity (cash inflows).
+
+conventional cash flow a cash flow pattern consisting of an initial cash outflow that is followed by one or more cash inflows
+
+LEARNING BY DOING APPLICATION 10.3
+Calculating the IRR at Larry’s Homemade Ice Cream Shop
+
+Problem
+
+Larry’s Homemade Ice Cream Shop in the DuPont Circle area of Washington, D.C., is famous for its gourmet ice cream. However, some customers have asked for a healthy, low-cal, soft yogurt. The machine that makes this yogurt is manufactured in Italy and costs $5,000 plus $1,750 for installation. Larry estimates that the machine will generate a net cash flow of $2,000 a year. Larry also estimates that the machine’s life will be 10 years and that it will have a $400 salvage value. His cost of capital is 15 percent. Larry thinks the machine is overpriced. Is he right?
+
+
+
+
+
+Using Excel
+Internal Rate of Return
+
+You know that calculating IRR by hand can be tedious. The trial-and-error method can take a long time. Knowing all the cash flows and an approximate rate will allow you to use a spreadsheet to get an answer quickly.
+
+The accompanying spreadsheet shows the setup for calculating the IRR for the low-cal yogurt machine at Larry’s Homemade Ice Cream Shop that is described in Learning by Doing Application 10.3.
+
+Here are a couple of important points to note about IRR calculations using spreadsheets:
+
+Unlike the NPV formula, the Excel IRR formula accounts for all cash flows, including the initial investment in Year 0, so there is no need to add this cash flow later.
+The syntax of the IRR function requires that you first provide the project’s cash flows in order beginning at time zero. To calculate the IRR, you can provide a “guess” value, or a number you estimate is close to the IRR. A good value to start with is the cost of capital.
+
+Let’s look more closely at the kinds of situations in which the NPV and the IRR methods agree. A good way to visualize the relation between the IRR and NPV methods is to graph NPV as a function of the discount rate. The graph, called an NPV profile, shows the NPV of the project at various costs of capital.
+
+NPV profile a graph showing NPV as a function of the discount rate
+
+Exhibit 10.9 shows the NPV profile for the Ford Motor Company project. We have placed the NPVs on the vertical axis, or y-axis, and the discount rates on the horizontal axis, or x-axis. We used the calculations from our earlier example and made some additional NPV calculations at various discount rates as follows:
+
+Discount Rate	NPV ($ thousands)
+     0%	$160
+  5	    94
+10	    37
+15	  −12
+20	  −54
+25	  −92
+30	 −124
+As you can see, a discount rate of 0 percent corresponds with an NPV of $160,000, a discount rate of 5 percent with an NPV of $94,000, and so forth. As the discount rate increases, the NPV curve declines smoothly. Not surprisingly, the curve intersects the x-axis at precisely the point where the NPV is 0 and the IRR is 13.7 percent.
+
+The NPV profile in Exhibit 10.9 illustrates why the NPV and IRR methods lead to identical accept-reject decisions for the Ford Motor Company project. The IRR of 13.7 percent precisely marks the point at which the NPV changes from a positive to a negative value. Whenever a project is independent and has conventional cash flows, the result will be as shown in the exhibit. The NPV will decline as the discount rate increases, and the IRR and the NPV methods will result in the same capital expenditure decision.
+
+EXHIBIT 10.9 NPV Profile for the Ford Motor Company Project In the NPV profile for the Ford Motor Company project, the NPV value is on the vertical (y) axis and the discount rate is on the horizontal (x) axis. You can see that as the discount rate increases, the NPV profile curve declines smoothly and intersects the x-axis at the point where the NPV is 0. The IRR of 13.7 percent is the point at which the NPV changes from a positive to a negative value. The NPV and IRR methods lead to identical accept-or-reject decisions for the Ford Motor Company project.
+
+
+When the NPV and IRR Methods Disagree
+We have seen that the IRR and NPV methods lead to identical investment decisions for capital projects that are independent and that have conventional cash flows. However, if either of these conditions is not met, the IRR and NPV methods can produce different accept-reject decisions.
+
+Unconventional Cash Flows
+
+Unconventional cash flows can cause a conflict between the NPV and IRR decision rules. In some instances the cash flows for an unconventional project are just the reverse of those of a conventional project: the initial cash flow is positive, and all subsequent cash flows are negative. In this case, we need only reverse the IRR decision rule and accept the project if the IRR is less than the cost of capital to make the IRR and NPV methods agree.
+
+When a project’s future cash flows include both positive and negative cash flows, the situation is more complicated. An example of such a project is an assembly line that will require one or more major renovations over its lifetime. Another common business situation is a project that has conventional cash flows except for the final cash flow, which is negative. The final cash flow might be negative because extensive environmental cleanup is required at the end of the project, such as the cost for decommissioning a nuclear power plant, or because the equipment originally purchased has little or no salvage value and is expensive to remove.
+
+Consider an example. Suppose a firm invests in a gold-mining operation that costs $55 million and has an expected life of two years. In the first year, the project generates a cash inflow of $150 million. In the second year, extensive environmental and site restoration is required, so the expected cash flow is a negative $100 million. The time line for these cash flows follows.
+
+
+Once again, the best way to understand the effect of these cash flows is to look at an NPV profile. Shown here are NPV calculations we made at various discount rates to generate the data necessary to plot the NPV profile shown in Exhibit 10.10:
+
+Discount Rate	NPV ($ millions)
+      0%	−$5.00
+10	  −1.28
+20	    0.56
+30	    1.21
+40	    1.12
+50	    0.56
+60	  −0.31
+70	  −1.37
+Looking at the data in the table, you can probably spot a problem. The NPV is initially negative (−$5.00); then, at a discount rate of 20 percent, switches to positive ($0.56); and then, at a discount rate of 60 percent, switches back to negative (−$0.31).
+
+The NPV profile in Exhibit 10.10 shows the results of this pattern: we have two IRRs, one at 16.05 percent and the other at 55.65 percent. Which is the correct IRR, or are both correct? Actually, there is no correct answer; the results are meaningless, and you should not try to interpret them. Thus, in this situation, the IRR technique provides information that should not be used for decision making.
+
+How many IRR solutions can there be for a given cash flow? The maximum number of IRR solutions is equal to the number of sign reversals in the cash flow stream. For a project with a conventional cash flow, there is only one cash flow sign reversal; thus, there is only one IRR solution. In our mining example, there are two cash flow sign reversals; thus, there are two IRR solutions.
+
+Finally, for some cash flow patterns, it is impossible to compute an IRR. These situations can occur when the initial cash flow (t = 0) is either a cash inflow or outflow and is followed by cash flows with two or more sign reversals. An example of such a cash flow pattern is NCF0 = $15, NCF1 = −$25, and NCF2 = $20. This type of cash flow pattern might occur on a building project where the contractor is given a prepayment, usually the cost of materials and supplies ($15); then does the construction and pays the labor cost ($25); and finally, upon completion of the work, receives the final payment ($20). Note that when it is not possible to compute an IRR, the project either has a positive NPV or a negative NPV for all possible discount rates. In this example, the NPV is always positive.
+
+EXHIBIT 10.10 NPV Profile for Gold-Mining Operation with Multiple IRR Solutions The gold-mining operation has unconventional cash flows. Because there are two cash flow sign reversals, we end up with two IRRs—16.05 percent and 55.65 percent—neither of them useful. In situations like this, the IRR provides a solution that is meaningless and, therefore, the results should not be used for capital budgeting decisions.
+
+
+Mutually Exclusive Projects
+
+The other situation in which the IRR can lead to incorrect capital budgeting decisions is when projects are mutually exclusive—that is, when accepting one project means rejecting the other. For example, suppose you own a small store in the business district of Seattle that is currently vacant. You are looking at two business opportunities: opening an upscale coffee house or opening a copy center. Since you cannot pursue both projects at the same location, they are mutually exclusive.
+
+When you have mutually exclusive projects, how do you select the best alternative? If you are using the NPV method, the answer is easy. You select the project that has the highest NPV because it will increase the value of the firm by the largest amount. If you are using the IRR method, it would seem logical to select the project with the highest IRR. In this case, though, the logic is wrong! You cannot tell which mutually exclusive project to select just by looking at the projects’ IRRs.
+
+Let’s consider another example to illustrate the problem. The cash flows for two projects, A and B, are as follows:
+
+Year	Project A	Project B
+0	−$100	−$100
+1	       50	       20
+2	       40	       30
+3	       30	       50
+4	       30	       65
+The IRR is 20.7 percent for Project A and 19.0 percent for Project B. Because the two projects are mutually exclusive, only one project can be accepted. If you were following the IRR decision rule, you would accept Project A. However, as you will see, it turns out that Project B might be the better choice.
+
+The following table shows the NPVs for the two projects at several discount rates:
+
+Discount Rate	NPV of Project A	NPV of Project B
+      0%	$50.0	$65.0
+  5	  34.5	  42.9
+10	  21.5	  24.9
+13	  14.8	  15.7
+15	  10.6	  10.1
+20	    1.3	  −2.2
+25	 −6.8	−12.6
+30	−13.7 	−21.3
+IRR	        20.7%	        19.0%
+Notice that the NPV of each project depends on the rate of return used to discount the cash flows. Our example shows a conflict in the ranking order between the IRR and NPV methods at discount rates between 0 percent and 13 percent. In this range, Project B has the lower IRR, but it has the higher NPV and should be the project selected. If the discount rate is 15 percent or above, however, Project A has the higher NPV as well as the higher IRR. In this range, there is no conflict between the two evaluation methods.
+
+The relative IRR and NPV rankings change in this way because the larger cash inflows of Project B arrive later than the larger cash flows of Project A. Thus, higher discount rates have more of an impact on the value of Project B. In other words, changes in relative IRR and NPV rankings result from differences in the timing of project cash flows.
+
+Now take a look at Exhibit 10.11, which shows the NPV profiles for Projects A and B. As you can see, there is a point, called the crossover point, at which the NPV profiles for Projects A and B intersect. The crossover point here is at a discount rate of 14.3 percent. For any cost of capital above 14.3 percent, the NPV for Project A is higher than that for Project B; thus, Project A should be selected if its NPV is positive. For any cost of capital below the crossover point, Project B should be selected.
+
+crossover point the discount rate at which the NPV profiles of two projects cross and, thus, at which the NPVs of the projects are equal
+
+EXHIBIT 10.11 NPV Profiles for Two Mutually Exclusive Projects The NPV profiles for two projects often cross over each other. When evaluating mutually exclusive projects, it is helpful to know where this crossover point is. For Projects A and B in the exhibit, the crossover point is at 14.3 percent. For any cost of capital above 14.3 percent but below 20.7 percent, the NPV for Project A is higher than that for Project B and is positive; thus, Project A should be selected. For any cost of capital below the crossover point, the NPV of Project B is higher, and Project B should be selected.
+
+
+Another conflict involving mutually exclusive projects concerns comparisons of projects that have significantly different costs. The IRR does not adjust for these differences in the scale of projects. What the IRR gives us is a rate of return on each dollar invested. In contrast, the NPV method computes the total dollar value created by the project.
+
+Decision Making Example 10.2 illustrates how this conflict can distort investment decisions when using the IRR criteria to evaluate mutually exclusive projects.
+
+Modified Internal Rate of Return (MIRR)
+A major weakness of the IRR method compared with the NPV method concerns the rate at which the cash flows generated by a capital project are reinvested. The NPV method assumes that cash flows from a project are reinvested at the cost of capital, whereas the IRR technique assumes they are reinvested at the IRR. Determining which is the better assumption depends on which rate better represents the rate that firms can actually earn when they reinvest a project’s cash flows over time. It is generally believed that the cost of capital, which is often lower than the IRR, better reflects the rate that firms are likely to earn. Using the IRR may thus involve overly optimistic assumptions regarding reinvestment rates.
+
+To eliminate the reinvestment rate assumption of the IRR, some practitioners prefer to calculate the modified internal rate of return (MIRR). In this approach, each operating cash flow is converted to a future value at the end of the project’s life, compounded at the cost of capital. These values are then summed up to get the project’s future value (PFV). The MIRR is the interest rate that equates the project’s cost (PVCost), or cash outflows, with the future value of the project’s cash inflows at the end of the project (PVPFV).1 Because each future value is computed using the cost of capital as the interest rate, the reinvestment rate problem is eliminated.
+
+modified internal rate of return (MIRR) an internal rate of return (IRR) measure that assumes that cash inflows are reinvested at the opportunity cost of capital until the end of the project
+
+DECISION MAKING EXAMPLE 10.2
+The Lemonade Stand versus the Convenience Store
+
+Situation
+
+Suppose you work for an entrepreneur who owns a number of small businesses in Fresno, California, as well as a small piece of property near California State University at Fresno, that he believes would be an ideal site for a student-oriented convenience store. His 7-year-old son, who happens to be in the office after school, says he has a better idea: his father should open a lemonade stand. Your boss tells you to find the NPV and IRR for both projects, assuming a 10 percent discount rate. After collecting data, you present the following analysis:
+
+Year	Lemonade Stand	Convenience Store
+0	−$1,000	−$1,000,000
+1	        850	        372,000
+2	        850	        372,000
+3	        850	        372,000
+4	        850	        372,000
+IRR	   76.2%	           18.0%
+NPV	  $1,694	    $179,190
+Assuming the projects are mutually exclusive, which should be selected?
+
+
+
+We can set up the equation for the MIRR in the same way we set up Equation 10.4 for the IRR:
+
+(10.5)
+To compute the MIRR, we have to make two preliminary calculations. First, we calculate the value of PVCost, which is the present value of the cash outflows that make up the investment cost of the project. Since for most capital projects, the investment cost cash flows are incurred at the beginning of the project, t = 0, there is often no need to calculate a present value. If investment costs are incurred over time (t > 0), then the cash flows must be discounted at the cost of capital.
+
+Second, we need to compute the project’s future value (PFV). To do this, we find the future value of each operating cash flow at the end of the project’s life, compounded at the cost of capital. We then sum up these future values to get the PFV. Mathematically, the PFV can be expressed as:
+
+where:
+
+PFV	=	the project’s future value
+CFt	=	cash flow from operations in period t
+k	=	the cost of capital
+n	=	the project life
+Once we have computed the values of PVCost and PFV, we use Equation 10.5 to compute the MIRR. Note that by combining intermediate cash flows into a single future value, MIRR has the added advantage of always yielding a conventional cash flow.
+
+To illustrate, let’s return to the Ford Motor Company example shown in Exhibit 10.8. Recall that the cost of the project is $560, incurred at t = 0, and that the discount rate is 12 percent. To determine the MIRR for the project, we start by calculating the future value of the cash flows, as shown on the following time line:
+
+
+The project’s future value of $809.86 equals the sum of the $240 in Year 1 compounded at 12 percent for two years plus the $240 in Year 2 compounded at 12 percent for one year plus the $240 in Year 3. Mathematically, this calculation is:
+
+With the information that the cost of the project is $560 and the PFV is $809.86, we can calculate the MIRR using Equation 10.5:
+
+At 13.09 percent, the MIRR is higher than Ford’s cost of capital of 12 percent, so the project should be accepted.
+
+IRR versus NPV: A Final Comment
+The IRR method, as noted, is an important alternative to the NPV method. As we have seen, it accounts for the time value of money, which is not true of methods such as the payback period and accounting rate of return. Furthermore, the IRR technique has great intuitive appeal. Many business practitioners are in the habit of thinking in terms of rates of return, whether the rates relate to their common-stock portfolios or their firms’ capital expenditures. To these practitioners, the IRR method just seems to make sense. Indeed, we suspect that the IRR’s popularity with business managers results more from its simple intuitive appeal than from its merit.
+
+On the downside, we have seen that the IRR method has several flaws. For example, IRR can’t be used effectively for projects with unconventional cash flows, and IRR can lead to incorrect investment decisions when it is used to choose between mutually exclusive projects. MIRR addresses some of the shortcomings of IRR; namely, it does not assume that project proceeds are reinvested at the IRR, and it eliminates issues associated with unconventional project cash flows. Nonetheless, we believe that NPV should be the primary method used to make capital budgeting decisions. Investment decisions made using NPV are always consistent with the goal of maximizing the value of the firm, even when discriminating between mutually exclusive projects. Finally, it is important to note that the IRR, MIRR, and NPV methods all require a set of projected cash flows over the life of the project and a discount rate. Thus, using IRR or MIRR, rather than NPV, does not require less effort from financial managers.
+
+Summary of Internal Rate of Return (IRR) Method
+Decision Rule:
+
+ 
+Key Advantages	Key Disadvantage
+Intuitive and easy to understand.
+Based on discounted cash flow technique.
+With nonconventional cash flows, IRR approach can yield no usable answer or multiple answers.
+A lower IRR can be better if a cash inflow is followed by cash outflows.
+With mutually exclusive projects, IRR can lead to incorrect investment decisions.
+IRR calculation assumes cash flows are reinvested at the IRR.
+Before You Go On
+What is the internal rate of return (IRR) method?
+Under what circumstances do the NPV and IRR decision rules always yield the same decision?
+In capital budgeting, what is a conventional cash flow pattern?
+Why should the NPV method be the primary decision tool used in making capital investment decisions?
+
+To read an article that warns managers using the IRR about the method’s pitfalls, visit www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/internal-rate-of-return-a-cautionary-tale
+
+10.6 Investment Decisions with Capital Rationing
+LEARNING OBJECTIVE
+
+Explain how the profitability index can be used to rank projects when a firm faces capital rationing and describe the limitations that apply to the profitability index.
+Our discussion of capital budgeting so far has focused on determining whether an individual project creates value for stockholders. Although the analytical methods we have discussed are critical components of the capital budgeting process, they do not tell us what to do when, as is often the case, a firm does not have enough money to invest in all available positive NPV projects. In other words, they do not tell us how to identify the bundle or combination of positive NPV projects that creates the greatest total value for stockholders when there are capital constraints or, as we called it earlier in this chapter, capital rationing.
+
+In an ideal world we could accept all positive NPV projects because we would be able to finance them. If managers and investors agreed on which projects had positive NPVs, investors would provide capital to those projects because returns from them would be greater than the returns the investors could earn elsewhere in the capital markets. However, the world is not ideal, and firms often cannot invest in all of the available projects with positive NPVs. It can be difficult for outside investors to accurately assess the risks and returns associated with the firm’s projects. Consequently, investors may require returns for their capital that are too high, and the firm may face capital constraints. Managers might be forced to reject some positive NPV projects because investors are not providing enough capital to fund those projects at reasonable rates.
+
+Capital Rationing in a Single Period
+The basic principle that we follow in choosing the set of projects that creates the greatest value in a given period is to select the projects that yield the largest value per dollar invested. We can do this by computing the profitability index (PI) for each project and choosing the projects with the largest profitability indexes until we run out of money. The profitability index is computed as follows:
+
+profitability index (PI) a measure of the value a project generates for each dollar invested in that project
+
+(10.6)
+where initial investment is the up-front investment required to fund the project.
+
+To illustrate, let’s suppose you run a lawn mowing business and are considering buying a new lawn mower. Assume that the new mower would cost $2,000 and would bring in net cash flows of $7,000 for four years. With a discount rate of 10 percent, the NPV of this mower is $20,189, and its PI is calculated as follows:
+
+This means that an investment in the new mower is expected to generate $11.09 of value for every dollar invested.
+
+Now consider the case in which we have several projects to choose from in a given year but do not have enough money to invest in all of them. For example, suppose that we have identified the four positive NPV projects listed in Exhibit 10.12 and have only $10,000 to invest. How do we choose from among the four projects when we cannot afford to invest in all of them?
+
+Our objective in a case such as this is to identify the bundle or combination of positive NPV projects that creates the greatest total value for stockholders. The PI is helpful in such a situation because it helps us choose the projects that create the most value per dollar invested. We use the PI to do this by following a four-step procedure:
+
+Calculate the PI for each project.
+Rank the projects from highest PI to lowest PI.
+Starting at the top of the list (the project with the highest PI) and working your way down (to the project with the lowest PI), select the projects that the firm can afford.
+Repeat the third step by starting with the second project on the list, the third project on the list, and so on to make sure that a more valuable bundle cannot be identified.
+Applying this process to the projects in Exhibit 10.12, we would choose to accept Projects A, B, and D. We would begin by choosing Projects A and B because they have the largest PIs and we have enough money to invest in both. Since choosing Projects A and B means we would no longer have enough money to invest in Project C, we would skip C and choose D, for which we do have enough money. Projects A, B, and D would generate a total of $7,500 in total value for stockholders. Following the fourth step reveals that no other combination of projects has a larger total NPV than Projects A, B, and D, so we would select these projects.
+
+Learning by Doing Application 10.4 and Decision Making Example 10.3 illustrate the calculation of PIs for projects and their use in making investment decisions.
+
+EXHIBIT 10.12 Positive NPV Investments This Year
+
+With only $10,000 to invest, how do we choose among these four positive NPV projects? The exhibit shows the yearly free cash flows, NPV, and profitability index (PI) for the projects. The PI values indicate the value of the expected future free cash flows per dollar invested in each project.
+
+Project	Year 0	Year 1	Year 2	NPV @ 10%	PI
+A	−$5,000	$5,500	$6,050	$5,000	2.000
+B	−$3,000	$2,000	$3,850	$2,000	1.667
+C	−$3,000	$4,400	        $0	$1,000	1.333
+D	−$2,000	$1,500	$1,375	   $500	1.250
+LEARNING BY DOING APPLICATION 10.4
+Ranking Projects Using the Profitability Index
+
+Problem
+
+You have identified the following seven positive NPV investments for your in-home computer-support business. If you have $50,000 to invest this year, which projects should you accept?
+
+Project	Investment	NPV @ 10%
+Buy new notebook computer	$  3,000	$    500
+Buy employee training program	    8,000	   4,000
+Buy new tool set	      500	   1,000
+Buy office condo	40,000	   5,000
+Buy used car	12,000	   4,000
+Paint existing cars	  4,000	    2,000
+Buy new test equipment	10,000	   2,000
+
+
+
+
+DECISION MAKING EXAMPLE 10.3
+Ranking Investment Alternatives
+
+Situation
+
+The profitability index concept does not apply only to a firm’s investments in projects. It can also apply to your personal investments. For example, suppose that you have just inherited $50,000 and want to invest it in ways that create as much value as possible. After researching investment alternatives, you have identified five investments that you believe will have positive NPVs. You estimate that the NPVs and PIs for these investments are as follows:
+
+Project	Investment	NPV	PI
+Buy a new car for your business	$20,000	$10,000	1.500
+Buy a duplex apartment near campus	  50,000	  22,500	1.450
+Start a small moving business	  25,000	  10,000	1.400
+Invest in your roommate’s internet business	  15,000	    5,000	1.333
+Buy a collection of old comic books	     5,000	    1,000	1.200
+Which investment(s) should you choose?
+
+
+
+Capital Rationing across Multiple Periods
+The PI concept is relatively straightforward and easy to apply if you are choosing among projects in a single period. However, if you are faced with capital rationing over several years, the investments you choose this year can affect your ability to make investments in future years. This can happen if you plan on reinvesting some or all of the cash flows generated by the projects you invest in this year. In such a situation, you cannot rely solely on the PI to identify the projects you should invest in this year. You must maximize the total NPV across all of the years in which you will be investing.
+
+Let’s look more closely at how multiperiod concerns can cause you to deviate from PI-based investment choices in a given year. Suppose you operate a business that will generate $10,000 per year for new investments. Furthermore, suppose that today (Year 0) you are choosing among Projects A, B, C, and D in Exhibit 10.13 and that, based on the PIs of the individual projects, you choose to invest in Projects A, B, and D. The total NPV from these projects will be $7,500, and the total Year 1 cash flow from them will be $9,000 ($5,500 + $2,000 + $1,500 = $9,000).
+
+Now suppose that you expect Projects F, G, and H to be available next year (Year 1). If other operations yield $10,000 for investments next year, you will have a total of $19,000 to invest in Year 1. With this amount of money, you can invest in Projects F and H, which require a total investment of $15,000 and have a combined NPV of $9,546 ($9,091 + $455 = $9,546). Therefore, in Year 0 dollars, the total value created from investing activities over the two years will be $17,046 ($7,500 + $9,546 = $17,046).
+
+While $17,046 is a lot of value for a total investment of $25,000 ($10,000 today and $15,000 in Year 1), you could do better. Notice that if, instead of Projects A, B, and D, you invest in Projects A, C, and D today, you will have enough cash in Year 1 to invest in Projects F and G. This strategy would yield a total NPV of $21,955 ($5,000 + $1,000 + $500 + $9,091 + $6,364 = $21,955)! Ranking and selecting the projects today based on the PI would have yielded a bundle of projects over two years with a lower NPV. This illustrates an important limitation of the profitability index. It does not tell us enough to make informed decisions over multiple periods. Solving a multiple-period problem requires the application of more advanced analytical techniques, such as linear programming, that are beyond the scope of this book.
+
+EXHIBIT 10.13 Investing Across Multiple Periods
+
+Investment decision making with capital rationing becomes more complex when multiple periods are involved. This exhibit shows the yearly free cash flows, NPV, and profitability index (PI) for the four positive NPV projects in Exhibit 10.12 and for three other positive-NPV projects that are expected to become available in Year 1.
+
+Project	Year 0	Year 1	Year 2	Year 3	Year 0
+NPV @ 10%	PI
+A	−$5,000	     $5,500	  $6,050	           $0	$5,000	2.000
+B	−$3,000	     $2,000	  $3,850	           $0	$2,000	1.667
+C	−$3,000	     $4,400	          $0	           $0	$1,000	1.333
+D	−$2,000	     $1,500	  $1,375	           $0	    $500	1.250
+F		−$10,000	$12,000	$11,000	$9,091	1.909
+G		−$10,000	  $8,000	$11,770	$6,364	1.636
+H		   −$5,000	  $4,000	  $2,255	    $455	1.091
+Before You Go On
+What might cause a firm to face capital constraints?
+What decision criteria should managers use in selecting projects when a firm faces capital constraints?
+How can the profitability index (PI) help in choosing projects when a firm faces capital constraints? What are its limitations?
+
+You can learn more about linear programming at www.purplemath.com/modules/linprog.htm
+
+10.7 Capital Budgeting in Practice
+LEARNING OBJECTIVE
+
+Explain the benefits of postaudit and periodic reviews of capital projects.
+Capital expenditures are big-ticket items in the U.S. economy. According to the World Bank, capital investment in the United States totaled $4.32 trillion in 2018. Capital investments can represent large expenditures for individual firms, though the amount spent can vary widely from year to year. For example, AT&T invested heavily in its communications businesses in 2019, and its $19.4 billion in capital expenditures that year exceeded those of all but a very small number of firms in the world. More typical are the capital expenditure totals for Caterpillar, Microsoft, and Kellogg Company, which are shown in the following table. Given the large dollar amounts and the strategic importance of capital expenditures, it is no surprise that corporate managers spend considerable time and energy analyzing capital projects.
+
+Company	2019 Capital Expenditures ($ billions)	2019 Sales ($ billions)	Capital Expenditures as a Percentage of Sales
+AT&T, Inc.	$19.4	$181.2	   10.7%
+Caterpillar, Inc.	    2.7	    53.8	  5.0
+Microsoft Corp.	  15.4	  143.0	10.8
+Kellogg Company	    0.6	    13.6	  4.4
+Practitioners’ Methods of Choice
+Because of the importance of capital budgeting, over the years a number of surveys have asked financial managers what techniques they actually use in making capital investment decisions. Exhibit 10.14, which summarizes the results from two such studies, reveals significant changes over time. As shown, in 1981 only 16.5 percent of the financial managers surveyed frequently used the NPV approach, and the payback period and accounting rate of return approaches were used even less frequently. Most firms, 65.3 percent, used the IRR method. However, practices changed in the 1980s and 1990s. By 1999, 74.9 percent of the firms surveyed were frequently using the NPV technique, 75.7 percent were using the IRR, and 56.7 percent were using the payback period method. As you can see, the most recent findings reflect a much better alignment between what practitioners do and the theory discussed in this chapter. As you can also see, many financial managers use multiple capital budgeting tools.
+
+EXHIBIT 10.14 Capital Budgeting Techniques Used by Business Firms
+
+The exhibit summarizes evidence from two studies that examined the use of capital budgeting techniques by businesses. As you can see, over time more firms have come to use the NPV and IRR techniques. Surprisingly, though, even in 1999, 20.3 percent still computed the accounting rate of return.
+
+Capital Budgeting Tool	Percent of Surveyed Firms That Use the Technique Frequently
+1981	1999
+Payback period	       5.0%	    56.7%
+Accounting rate of return (ARR)	10.7	20.3
+Internal rate of return (IRR)	65.3	75.7
+Net present value (NPV)	16.5	74.9
+Sources: Stanley, Marjorie T., and Stanley B. Block, “A Survey of Multinational Capital Budgeting,” The Financial Review, March 1984. Graham, John R., and Campbell R. Harvey, “The Theory and Practice of Corporate Finance,” Journal of Financial Economics, May/June 2001.
+Postaudit and Periodic Reviews
+Some firms have policies that require periodic reviews of the status of ongoing capital projects and postaudit reviews of completed capital projects. In a postaudit review, management compares the actual performance of a project with what was projected in the capital budgeting proposal. For example, suppose a new microchip production line was expected to earn a 20 percent IRR, but the project’s actual IRR turned out to be 9 percent. A postaudit examination would determine why the project failed to achieve its expected financial goals. Project reviews keep all people involved in the capital budgeting process honest because they know that the project and their performance will be reviewed and that they will be held accountable for the results.
+
+postaudit review an audit to compare actual project results with the results projected in the capital budgeting proposal
+
+Periodic reviews of the status of ongoing capital projects provide useful information about a firm’s business plan, including the cash flow projections and the operating cost assumptions. Business plans are management’s best estimates of future events at the time they are prepared, but as new information becomes available, managers use this information to adjust their plans.
+
+Managers also use information from periodic reviews to evaluate the people responsible for implementing a capital project. In doing this, they determine whether the project’s revenues and expenses are meeting projections. If the project is not proceeding according to plan, they try to determine whether the problem is a flawed plan or poor execution by the implementation team. If the problem is poor execution, the project’s performance might be improved by putting a new team in place.
+
+Before You Go On
+What changes have taken place in the capital budgeting techniques used by U.S. companies?
+
+To read an article that discusses different capital budgeting techniques used by financial managers, visit www.cfo.com/budgeting/2017/10/best-path-forward/
+
+Summary of Learning Objectives
+1 Discuss why capital budgeting decisions are the most important investment decisions made by a firm’s management.
+
+Capital budgeting is the process by which management decides which productive assets the firm should invest in. Because capital expenditures involve large amounts of money, are critical to achieving the firm’s strategic plan, define the firm’s line of business over the long term, and determine the firm’s profitability for years to come, they are the most important investment decisions made by management.
+
+2 Explain the benefits of using the net present value (NPV) method to analyze capital expenditure decisions and calculate the NPV for a capital project.
+
+The net present value (NPV) method leads to better investment decisions than other techniques because it (1) uses the discounted cash flow valuation approach, which accounts for the time value of money, and (2) provides a direct measure of how much a capital project is expected to increase the dollar value of the firm. Thus, NPV is consistent with the top management goal of maximizing stockholder value. NPV calculations are described in Section 10.2 and Learning by Doing Application 10.1.
+
+3 Describe the strengths and weaknesses of the payback period as a capital expenditure decision-making tool and compute the payback period for a capital project.
+
+The payback period is the length of time it will take for the cash flows from a project to recover the cost of the project. The payback period is widely used, mainly because it is simple to apply and easy to understand. It also provides a simple measure of liquidity risk because it tells management how quickly the firm will get its money back. The payback period has a number of shortcomings, however. For one thing, the payback period, as most commonly computed, ignores the time value of money. We can overcome this objection by using discounted cash flows to calculate the payback period. Regardless of how the payback period is calculated, however, it fails to take account of cash flows recovered after the payback period. Thus, the payback period is biased in favor of short-lived projects. Also, the determination of what payback period is acceptable can be arbitrary. Payback period calculations are described in Section 10.3 and Learning by Doing Application 10.2.
+
+4 Explain why the accounting rate of return (ARR) is not recommended for use as a capital expenditure decision-making tool.
+
+The ARR is based on accounting numbers, such as book value and net income, rather than cash flow data. As such, it is not a true rate of return. Instead of discounting a project’s cash flows over time, it simply gives us a number based on average figures from the income statement and balance sheet. Furthermore, as with the payback method, there is no economic rationale for establishing the hurdle rate. Finally, the ARR does not account for the relative sizes of projects when a choice between projects of different sizes must be made.
+
+5 Compute the internal rate of return (IRR) for a capital project and discuss the conditions under which the IRR technique and the NPV technique produce different results.
+
+The IRR is the expected rate of return for a capital project; it is the discount rate that equates the present value of a project’s expected cash inflows to the present value of the project’s outflows—in other words, it is the discount rate at which the NPV is equal to zero. Calculations are shown in Section 10.5 and Learning by Doing Application 10.3. If a project’s IRR is greater than the required rate of return, the cost of capital, the project is accepted. The IRR rule often gives the same investment decision for a project as the NPV rule. However, the IRR method does have operational pitfalls that can lead to incorrect decisions. Specifically, when a project’s cash flows are unconventional, the IRR calculation may yield no IRR or more than one IRR. In addition, the IRR technique cannot be used to rank projects that are mutually exclusive because the project with the highest IRR may not be the project that would add the greatest value to the firm if accepted—that is, the project with the highest NPV.
+
+6 Explain how the profitability index can be used to rank projects when a firm faces capital rationing and describe the limitations that apply to the profitability index.
+
+The profitability index (PI) aids in the process of choosing the most valuable bundle of projects that the firm can afford. It is a measure of value received per dollar invested, which can be used to rank projects in a given period. As with the IRR, there is a scale problem with the PI. However, by using the PI and the four-step procedure in Section 10.6 we can identify the most valuable bundle of projects. The major limitation of the PI is that, although it can be used to rank projects in a given period, it can lead to less valuable project choices when considering capital investments over multiple years.
+
+7 Explain the benefits of postaudit and periodic reviews of capital projects.
+
+A postaudit review enables managers to determine whether a project’s goals were met and to quantify the actual benefits or costs of the project. By conducting these reviews, managers can avoid making similar mistakes in future projects, learn to better recognize opportunities, and keep the people involved in the budgeting process honest. A periodic review enables managers to assess the impact of changing information and market conditions on the value of a project that is already underway.
+
+Summary of Key Equations
+Equation	Description	Formula
+10.1	Net present value	
+10.2	Payback period	
+10.3	Accounting rate of return	
+10.4	Internal rate of return	
+10.5	Modified internal rate of return	
+10.6	Profitability index	
+Self-Study Problems
+10.1 The management of Premium Manufacturing Company is evaluating two forklift systems to use in its plant that produces the towers for a windmill power farm. The costs and the cash flows from these systems are shown below. If the company uses a 12 percent discount rate for all projects, determine which forklift system should be purchased using the net present value (NPV) approach.
+
+ 	Year 0	Year 1	Year 2	Year 3
+Otis Forklifts	−$3,123,450	$979,225	$1,358,886	$2,111,497
+Craigmore Forklifts	−$4,137,410	$875,236	$1,765,225	$2,865,110
+
+
+10.2 Perryman Crafts Corp. management is evaluating two indepen-dent capital projects that will each cost the company $250,000. The two projects are expected to provide the following cash flows:
+
+Year	      	Project A	      	Project B
+1	   	 $  80,750	   	$  32,450
+2	   	     93,450	   	    76,125
+3	   	     40,235	   	 153,250
+4	   	  145,655	   	   96,110
+Which project will be chosen if the company’s payback criterion is three years? What if the company accepts all projects as long as the payback period is less than five years?
+
+
+
+10.3 Terrell Corp. management is considering purchasing a machine that will cost $117,250 and will be depreciated on a straight-line basis over a five-year period. The sales and expenses (excluding depreciation) for the next five years are shown in the following table. The company’s tax rate is 34 percent.
+
+ 	Year 1	Year 2	Year 3	Year 4	Year 5
+Sales	$123,450	$176,875	$242,455	$255,440	$267,125
+Expenses	$137,410	$126,488	$141,289	$143,112	$133,556
+Terrell will accept all projects that provide an accounting rate of return (ARR) of at least 45 percent. Should the company accept this project?
+
+
+
+10.4 Refer to Problem 10.1. Compute the IRR for each of the two systems. Is the investment decision different from the one indicated by NPV?
+
+
+
+10.5 You are considering a project that has an initial outlay of $1 million. The profitability index of the project is 2.24. What is the NPV of the project?
+
+
+
+Discussion Questions
+10.1 Explain why the cost of capital is referred to as the “hurdle” rate in capital budgeting.
+
+10.2
+
+Sykes, Inc., management is considering two projects: a plant expansion and a new computer system for the firm’s production department. Classify these projects as independent, mutually exclusive, or contingent projects and explain your reasoning.
+A company is building a new plant on the outskirts of Smallesville. The town has offered to donate the land, and as part of the agreement, the company will have to build an access road from the main highway to the plant. How will the project of building the road be classified in the capital budgeting analysis?
+Management of your firm is currently considering upgrading the operating systems of all the firm’s computers. One alternative is to choose the Linux operating system that a local computer services firm has offered to install and maintain. Microsoft has also put in a bid to install the new Windows operating system for businesses. How would these projects be classified?
+10.3 In the context of capital budgeting, what is “capital rationing”?
+
+10.4 Provide two conditions under which a set of projects might be characterized as mutually exclusive.
+
+10.5
+
+A firm invests in a project that is expected to earn a return of 12 percent. If the appropriate cost of capital is also 12 percent, did the firm make the right decision? Explain.
+What is the impact on the firm if it accepts a project with a negative NPV?
+10.6 Identify the weaknesses of the payback period method.
+
+10.7 What are the strengths and weaknesses of the accounting rate of return approach?
+
+10.8 Under what circumstances might the IRR and NPV approaches produce conflicting results?
+
+10.9 The modified IRR (MIRR) alleviates two concerns with using the IRR method for evaluating capital investments. What are they?
+
+10.10 Elkridge Construction Company has an average cost of capital of 12 percent. This cost of capital reflects the cost of capital for an Elkridge Construction project with average risk. However, the firm takes on projects of various risk levels. The company’s experience suggests that low-risk projects have a cost of capital of 10 percent and high-risk projects have a cost of capital of 15 percent. Which of the following projects should the company reject?
+
+Project	Expected Return	Risk
+1. Single-family homes	    13%	Low
+2. Multifamily residential	12	Average
+3. Commercial	18	High
+4. Single-family homes	   9	Low
+5. Commercial	13	High
+10.11 High Tech Monopoly Co. has plenty of cash to fund any conceivable positive NPV project. Can you describe a situation in which capital rationing could still occur?
+
+10.12 The profitability index is a tool for measuring a project’s benefits relative to its costs. How might this help to eliminate bias in project selection?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+10.1 Net present value: Riggs Corp. management is planning to spend $650,000 on a new marketing campaign. It believes that this action will result in additional cash flows of $325,000 over the next three years. If the discount rate is 17.5 percent, what is the NPV of this project?
+
+10.2 Net present value: Kingston, Inc., management is considering purchasing a new machine at a cost of $4,133,250. It expects this equipment to produce cash flows of $814,322, $863,275, $937,250, $1,017,112, $1,212,960, and $1,225,000 over the next six years. If the appropriate discount rate is 15 percent, what is the NPV of this investment?
+
+10.3 Net present value: Crescent Industries management is planning to replace some existing machinery in its plant. The cost of the new equipment and the resulting cash flows are shown in the accompanying table. If the firm uses an 18 percent discount rate for projects like this, should management go ahead with the project?
+
+Year	    	Cash Flow
+0	    	−$3,300,000
+1	    	875,123
+2	    	966,222
+3	    	1,145,000
+4	    	1,250,399
+5	    	1,504,445
+10.4 Net present value: Management of Franklin Mints, a confectioner, is considering purchasing a new jelly bean–making machine at a cost of $312,500. It projects that the cash flows from this investment will be $121,450 for each of the next seven years. If the appropriate discount rate is 14 percent, what is the NPV for the project?
+
+10.5 Net present value: Blanda Incorporated management is considering investing in two alternative production systems. The systems are mutually exclusive, and the cost of the new equipment and the resulting cash flows are shown in the accompanying table. If the firm uses a 9 percent discount rate for production system projects, in which system should the firm invest?
+
+Year	System 1	System 2
+0	−$15,000	−$45,000
+1	     15,000	     32,000
+2	     15,000	     32,000
+3	     15,000	     32,000
+10.6 Payback: Refer to Problem 10.5. What are the payback periods for Production Systems 1 and 2? If the systems are mutually exclusive and the firm always chooses projects with the lowest payback period, in which system should the firm invest?
+
+10.7 Payback: Quebec, Inc., is purchasing machinery at a cost of $3,768,966. The company’s management expects the machinery to produce cash flows of $979,225, $1,158,886, and $1,881,497 over the next three years, respectively. What is the payback period?
+
+10.8 Payback: Northern Specialties just purchased inventory-management computer software at a cost of $1,645,276. Cost savings from the investment over the next six years will produce the following cash flow stream: $212,455, $292,333, $387,479, $516,345, $645,766, and $618,325. What is the payback period on this investment?
+
+10.9 Payback: Nakamichi Bancorp has made an investment in banking software at a cost of $1,875,000. If management expects productivity gains and cost savings to generate additional cash flows of $586,212, $713,277, $431,199, and $318,697 over the next four years, what is the investment’s payback period?
+
+10.10 Average accounting rate of return (ARR): Capitol Corp. management is expecting a project to generate after-tax income of $63,435 in each of the next three years. The average book value of the project’s equipment over that period will be $212,500. If the firm’s investment decision on any project is based on an ARR of 37.5 percent, should this project be accepted?
+
+10.11 Internal rate of return: Refer to Problem 10.4. What is the IRR that Franklin Mints management can expect on this project?
+
+10.12 Internal rate of return: Hathaway, Inc., a resort management company, is refurbishing one of its hotels at a cost of $7.8 million. Management expects that this will lead to additional cash flows of $1.8 million for each of the next six years. What is the IRR of this project? If the appropriate cost of capital is 12 percent, should Hathaway go ahead with this project?
+
+10.13 Profitability index: What is the profitability index, and why is it helpful in the capital rationing process?
+
+Intermediate
+10.14 Net present value: Champlain Corp. management is investigating two computer systems. The Alpha 8300 costs $3,122,300 and will generate cost savings of $1,345,500 in each of the next five years. The Beta 2100 system costs $3,750,000 and will produce cost savings of $1,125,000 each year in the first three years and then $2 million each year for the next two years. If the company’s discount rate for similar projects is 14 percent, what is the NPV of each system? Which one should be chosen based on the NPV?
+
+10.15 Net present value: Briarcrest Condiments is a spice-making firm. Recently, it developed a new process for producing spices. The process requires new machinery that would cost $1,968,450, would have a life of five years, and would produce the cash flows shown in the following table. What is the NPV if the discount rate is 15.9 percent?
+
+Year	Cash Flow
+1	$512,496
+2	  −242,637
+3	    814,558
+4	    887,225
+5	    712,642
+10.16 Net present value: Cranjet Industries is expanding its product line and its production capacity. The costs and expected cash flows of the two independent projects are given in the following table. The firm uses a discount rate of 16.4 percent for such projects.
+
+What are the NPVs of the two projects?
+Should both projects be accepted? or either? or neither? Explain your reasoning.
+Year	Product Line Expansion	Production Capacity Expansion
+0	−$2,575,000	−$8,137,250
+1	        600,000	     2,500,000
+2	        875,000	     2,500,000
+3	        875,000	     2,500,000
+4	        875,000	     3,250,000
+5	        875,000	     3,250,000
+10.17 Net present value: Emporia Mills management is evaluating two alternative heating systems. Costs and projected energy savings are given in the following table. The firm uses 11.5 percent to discount such project cash flows. Which system should be chosen?
+
+Year	System 100	System 200
+0	−$1,750,000	−$1735,000
+1	        275,223	       750,000
+2	        512,445	       612,500
+3	        648,997	       550,112
+4	        875,000	       384,226
+10.18 Payback: Creative Solutions, Inc., has just invested $4,615,300 in new equipment. The firm uses a payback period criterion of rejecting any project that takes more than four years to recover its costs. Management anticipates cash flows of $644,386, $812,178, $943,279, $1,364,997, $2,616,300, and $2,225,375 over the next six years. Does this investment meet the firm’s payback criterion?
+
+10.19 Discounted payback: Timeline Manufacturing Co. management is evaluating two projects. The company uses a payback criterion of three years or less. Project A has a cost of $912,855, and Project B’s cost is $1,175,000. Cash flows from both projects are given in the following table. What are their discounted payback periods, and which will be accepted with a discount rate of 8 percent?
+
+Year	Project A	Project B
+1	$86,212	$586,212
+2	313,562	  413,277
+3	427,594	  231,199
+4	285,552	
+10.20 Payback: Regent Corp. management is evaluating three competing types of equipment. Costs and cash flow projections for all three are given in the following table. Which would be the best choice based on payback period?
+
+Year	Type 1	Type 2	Type 2
+0	−$1,311,450	−$1,415,888	−$1,612,856
+1	        212,566	        586,212	        786,212
+2	        269,825	        413,277	        175,000
+3	        455,112	        331,199	        175,000
+4	        285,552	        141,442	        175,000
+5	        121,396	        	        175,000
+6	        	        	        175,000
+10.21 Discounted Payback: Nugent Communication Corp. is considering an investment in new technologies. The company’s management expects significant benefits in the first three years after installation and smaller constant benefits in each of the next four years. Using the cash flows in the following table, calculate the discounted payback period for the project assuming a discount rate of 10 percent.
+
+Year	Cash Flow
+0	−$9,365,000
+1	   $2,265,433
+2	   $4,558,721
+3	   $3,378,911
+4–7	   $1,250,000
+10.22 Modified internal rate of return (MIRR): Morningside Bakeries recently purchased equipment at a cost of $650,000. Management expects the equipment to generate cash flows of $275,000 in each of the next four years. The cost of capital is 14 percent. What is the MIRR for this project?
+
+10.23 Modified internal rate of return (MIRR): Management of Sycamore Home Furnishings is considering acquiring a new machine that can create customized window treatments. The equipment will cost $263,400 and will generate cash flows of $85,000 over each of the next six years. If the cost of capital is 12 percent, what is the MIRR on this project?
+
+10.24 Internal rate of return: Management of Great Flights, Inc., an aviation firm, is considering purchasing three aircraft for a total cost of $161 million. The company would lease the aircraft to an airline. Cash flows from the proposed leases are shown in the following table. What is the IRR of this project?
+
+Year	Cash Flow
+1–4	$23,500,000
+5–7	   72,000,000
+8–10	   80,000,000
+10.25 Internal rate of return: Refer to Problem 10.5. Compute the IRR for both Production System 1 and Production System 2. Which has the higher IRR? Which production system has the higher NPV? Explain why the IRR and NPV rankings of Systems 1 and 2 are different.
+
+10.26 Internal rate of return: Ancala Corporation management is considering investments in two new golf apparel lines for next season: golf hats and belts. Due to a funding constraint, these lines are mutually exclusive. A summary of each project’s estimated cash flows over its three-year life, as well as the IRR and NPV of each, are outlined below. The CFO of the firm has decided to manufacture the belts; however, the CEO is questioning this decision given that the IRR is higher for manufacturing hats. Explain to the CEO why the IRRs and NPVs of the belt and hat projects disagree. Is the CFO’s decision correct?
+
+Year	Golf Belts	Golf Hats
+0	−$1,000	   −$500
+1	     1,000	        500
+2	        500	        300
+3	        500	        300
+NPV	$697.97	$427.87
+IRR	       54%	       61%
+10.27 Internal rate of return: Compute the IRR on the following cash flow streams:
+
+An initial investment of $25,000 followed by a single cash flow of $37,450 in Year 6.
+An initial investment of $1 million followed by a single cash flow of $1,650,000 in Year 4.
+An initial investment of $2 million followed by cash flows of $1,650,000 and $1,250,000 in Years 2 and 4, respectively.
+10.28 Internal rate of return: Compute the IRR for the following project cash flows:
+
+An initial outlay of $3,125,000 followed by annual cash flows of $565,325 for the next eight years.
+An initial investment of $33,750 followed by annual cash flows of $9,430 for the next five years.
+An initial outlay of $10,000 followed by annual cash flows of $2,500 for the next seven years.
+10.29 Profitability index: Suppose that you could invest in the following projects but have only $30,000 to invest. How would you make your decision and in which projects would you invest?
+
+Project	Cost	NPV
+A	$ 8,000	$4,000
+B	11,000	  7,000
+C	  9,000	  5,000
+D	  7,000	  4,000
+10.30 Profitability index: Suppose that you could invest in the same projects as in the previous problem but have only $25,000 to invest. Which projects would you choose?
+
+Advanced
+10.31 Management of Draconian Measures, Inc., is evaluating two independent projects. The company uses a 13.8 percent discount rate for such projects. The costs and cash flows for the projects are shown in the following table. What are their NPVs?
+
+Year	Project 1	Project 2
+0	−$8,425,375	−$11,368,000
+1	    3,225,997	       2,112,589
+2	    1,775,882	       3,787,552
+3	    1,375,112	       3,125,650
+4	    1,176,558	       4,115,889
+5	    1,212,645	       4,556,424
+6	    1,582,156	       
+7	    1,365,882	       
+10.32 Refer to Problem 10.31.
+
+What are the IRRs for the projects?
+Does the IRR criterion suggest a different decision than the NPV criterion?
+Explain how you would expect the management of Draconian Measures to decide which project(s) to invest in.
+10.33 Management of Dravid, Inc., is currently evaluating three independent projects. The cost of funds can be either 13.6 percent or 14.8 percent depending on their financing plan. All three projects cost the same at $500,000. Expected cash flow streams are shown in the following table. Which projects would be accepted at a discount rate of 14.8 percent? What if the discount rate was 13.6 percent?
+
+Year	Project 1	Project 2	Project 3
+1	$             0	$            0	$245,125
+2	  125,000	              0	  212,336
+3	  150,000	500,000	  112,500
+4	  375,000	500,000	     74,000
+10.34 Management of Intrepid, Inc., is considering investing in three independent projects. The costs and the cash flows are given in the following table. The appropriate cost of capital is 14.5 percent. Compute the project IRRs and identify the projects that should be accepted.
+
+Year	Project 1	Project 2	Project 3
+0	−$275,000	−$312,500	−$500,000
+1	       63,000	    153,250	    212,000
+2	       85,000	    167,500	    212,000
+3	       85,000	    112,000	    212,000
+4	    100,000	    	    212,000
+10.35 Jekyll & Hyde Corp. management is evaluating two mutually exclusive projects. The cost of capital is 15 percent. Costs and cash flows for each project are given in the following table. Which project should be accepted?
+
+Year	Project 1	Project 2
+0	−$1,250,000	−$1,250,000
+1	        250,000	        350,000
+2	        350,000	        350,000
+3	        450,000	        350,000
+4	        500,000	        350,000
+5	        750,000	        350,000
+10.36 Management of Larsen Automotive, a manufacturer of auto parts, is considering investing in two projects. The company typically compares project returns to a cost of funds of 17 percent. Compute the IRRs based on the cash flows in the following table. Which project(s) will be accepted?
+
+Year	Project 1	Project 2
+0	−$475,000	−$500,000
+1	    300,000	    117,500
+2	    110,000	    181,300
+3	    125,000	    244,112
+4	    140,000	    278,955
+10.37 Compute the IRR for each of the following projects:
+
+Year	Project 1	Project 2	Project 3
+0	−$10,000	−$10,000	−$10,000
+1	       4,750	       1,650	           800
+2	       3,300	       3,890	       1,200
+3	       3,600	       5,100	       2,875
+4	       2,100	       2,750	       3,400
+5	       	           800	       6,600
+10.38 Primus Corp. management is planning to convert an existing warehouse into a new plant that will increase its production capacity by 45 percent. The cost of this project will be $7,125,000. It will result in additional cash flows of $1,875,000 for each of the next eight years. The discount rate is 12 percent.
+
+What is the payback period?
+What is the NPV for this project?
+What is the IRR?
+10.39 Quasar Tech Co. management is investing $6 million in new machinery that will produce the next-generation routers. Sales to its customers will amount to $1,750,000 for the next three years and then increase to $2.4 million for three more years. The project is expected to last six years, and operating costs, excluding depreciation, will be $898,620 annually. The machinery will be depreciated to a salvage value of $0 over six years using the straight-line method. The company’s tax rate is 30 percent, and the cost of capital is 16 percent.
+
+What is the payback period?
+What is the average accounting return (ARR)?
+Calculate the project NPV.
+What is the IRR for the project?
+10.40 Management of Skywards, Inc., an airline caterer, is purchasing refrigerated trucks at a total cost of $3.25 million. After-tax net income from this investment is expected to be $750,000 for each of the next five years. Annual depreciation expense will be $650,000. The cost of capital is 17 percent.
+
+What is the discounted payback period?
+Compute the ARR.
+What is the NPV of this investment?
+Calculate the IRR.
+10.41 Trident Corp. management is evaluating two independent projects. The costs and expected cash flows are given in the following table. The cost of capital is 10 percent.
+
+Year	Project A	Project B
+0	−$312,500	−$395,000
+1	    121,450	    153,552
+2	    121,450	    158,711
+3	    121,450	    166,220
+4	    121,450	    132,000
+5	    121,450	    122,000
+Calculate the projects’ NPV.
+Calculate the projects’ IRR.
+Which project should be chosen based on NPV? Based on IRR? Is there a conflict?
+If you are the decision maker for the firm, which project or projects will be accepted? Explain your reasoning.
+10.42 Management of Tyler, Inc., is considering switching to a new production technology. The cost of the required equipment will be $4 million. The discount rate is 12 percent. The cash flows that management expects the new technology to generate are as follows.
+
+Year	CF
+1–2	                   0
+3–5	$    845,000
+6–9	$1,450,000
+Compute the payback and discounted payback periods for the project.
+What is the NPV for the project? Should the firm go ahead with the project?
+What is the IRR, and what would be the decision based on the IRR?
+10.43 You are analyzing two proposed capital investments with the following cash flows:
+
+Year	Project X	Project Y
+0	−$20,000	−$20,000
+1	     13,000	       7,000
+2	       6,000	       7,000
+3	       6,000	       7,000
+4	       2,000	       7,000
+The cost of capital for both projects is 10 percent. Calculate the profitability index (PI) for each project. Which project, or projects, should be accepted if you have unlimited funds to invest? Which project should be accepted if they are mutually exclusive?
+
+10.44 You and a coworker are analyzing two proposed capital investments with the following cash flows:
+
+Year	Project A	Project B
+0	−17,000	−40,000
+1	   12,000	   10,000
+2	     5,000	   10,000
+3	     5,000	   10,000
+4	     2,000	   28,000
+The cost of capital for both projects is 10 percent.
+
+Calculate the profitability index (PI) for each project.
+Your coworker looks at your analysis and says “Let’s recommend the project with the highest PI.” If you have unlimited funds to invest, do you agree or disagree with your coworker? Explain why you agree or disagree? Assume that you have no other resource constraints and that you do not have to consider future investments.
+If the projects are mutually exclusive, which of the two projects do you recommend? Explain your reasoning.
+10.45 The CFO of Edgeworth Inc., a cardboard box maker, is deciding between one of two new cardboard cutting machines: the Super Cutter and the Duper Cutter. The cash flows for the two cutters are as follows:
+
+Super Cutter	Duper Cutter
+Year	Cash Flow	Year	Cash Flow
+0	−21,000	0	−80,000
+1	     6,000	1	   21,000
+2	     6,000	2	   21,000
+3	     6,000	3	   21,000
+4	     6,000	4	   21,000
+5	     6,000	5	   21,000
+6	     6,000	6	   21,000
+The cost of capital for both machines is 10 percent. Assume that you have no other resource constraints and that you do not have to consider future investments.
+
+Based on the IRR, which cutter do you recommend? Explain your reasoning.
+Based on the PI, which cutter do you recommend? Explain your reasoning.
+Overall, what is your recommendation to the CFO? Explain your recommendation given your answers to (a) and (b).
+CFA Problems
+10.46 Given the following cash flows for a capital project, calculate the NPV and IRR. The required rate of return is 8 percent.
+
+
+ 	NPV	IRR
+a.	$1,905	10.9%
+b.	$1,905	26.0%
+c.	$3,379	10.9%
+d.	$3,379	26.0%
+10.47 Given the following cash flows for a capital project, calculate its payback period and discounted payback period. The required rate of return is 8 percent.
+
+
+The discounted payback period is
+
+0.16 year longer than the payback period.
+0.80 year longer than the payback period.
+1.01 years longer than the payback period.
+1.85 years longer than the payback period.
+10.48 An investment of $100 generates after-tax cash flows of $40 in Year 1, $80 in Year 2, and $120 in Year 3. The required rate of return is 20 percent. The net present value is closest to
+
+$42.22
+$58.33
+$68.52
+$98.95
+10.49 An investment of $150,000 is expected to generate an after-tax cash flow of $100,000 in one year and another $120,000 in two years. The cost of capital is 10 percent. What is the internal rate of return?
+
+28.19 percent
+28.39 percent
+28.59 percent
+28.79 percent
+10.50 An investment requires an outlay of $100 and produces after-tax cash flows of $40 annually for four years. A project enhancement increases the required outlay by $15 and the annual after-tax cash flows by $5. How will the enhancement affect the project’s NPV profile? The vertical intercept of the NPV profile of the project shifts:
+
+Up and the horizontal intercept shifts left.
+Up and the horizontal intercept shifts right.
+Down and the horizontal intercept shifts left.
+Down and the horizontal intercept shifts right.
+Sample Test Problems
+10.1 Testco Corporation is considering adding a new product line. The cost of the factory and equipment to produce this product is $1,780,000. Company management expects net cash flows from the sale of this product to be $450,000 in each of the next eight years. If Testco uses a discount rate of 12 percent for projects like this, what is the net present value of this project? What is the internal rate of return?
+
+10.2 Flowers Unlimited is considering purchasing an additional delivery truck that will have a seven-year useful life. The new truck will cost $42,000. Cost savings with this truck are expected to be $12,800 for the first two years, $8,900 for the following two years, and $5,000 for the last three years of the truck’s useful life. What is the payback period for this project? What is the discounted payback period for this project with a discount rate of 10 percent?
+
+10.3 What is the average accounting rate of return (ARR) on a piece of equipment that will cost $1.2 million and that will result in pretax cost savings of $380,000 for the first three years and then $280,000 for the following three years? Assume that the machinery will be depreciated to a salvage value of 0 over six years using the straight-line method and the company’s tax rate is 32 percent. If the acceptance decision is based on the project exceeding an ARR of 20 percent, should this machinery be purchased?
+
+10.4 What do we know about a project’s IRR if we know that it has a positive NPV?
+
+10.5 West Street Automotive is considering adding state safety inspections to its service offerings. The equipment necessary to perform these inspections will cost $557,000 and will generate cash flows of $195,000 over each of the next five years. If the cost of capital is 14 percent, what is the MIRR on this project?
+
+10.6 You are chairperson of the investment committee at your firm. Five projects have been submitted to your committee for approval this month. The investment required and the project profitability index for each of these projects are presented in the following table:
+
+Project	Investment	PI
+A	$20,000	2.500
+B	  50,000	2.000
+C	  70,000	1.750
+D	  10,000	1.000
+E	  80,000	0.800
+If you have $500,000 available for investments, which of these projects would you approve? Assume that you do not have to worry about having enough resources for future investments when making this decision.
+
+Ethics Case
+Going Green: Can Automakers Invest in Environmental Solutions?
+
+As concerns about global warming increase, many corporations and governments around the world are working to limit the production of so-called greenhouse gases (GHG) that have been linked to climate change. Indeed, after taking office, President Biden committed the U.S. to limiting carbon emissions by rejoining the Paris Climate Agreement. The administration also introduced policies encouraging the use of solar and wind power for producing electricity as alternatives to coal and natural gas. More recently, both China and the European Union have announced major changes to limit carbon emissions, including restrictions on the production of gasoline powered vehicles.
+
+Many businesses have responded to the increased focus on climate change. For example, a group of automakers, including General Motors (GM), has said they are looking forward to working with the Biden administration “… to advance the shared goals of reducing emissions and realizing the benefits of an electric future.” So, what are greenhouse gases and how are they related to global warming? What is the Paris Climate Agreement? And what do automakers have to do with all of this?
+
+Global Warming and Greenhouse Gases
+
+Global warming is defined as the long-term heating of Earth’s climate system due to human activities that increase greenhouse gases.1 Climate data over the last 160 years suggests that the global average temperature has increased by over 1 degree Celsius to date, with ever increasing rates of change. There is evidence suggesting that global warming, and resulting climate change, negatively affects the environment by way of drought, flooding, rising sea levels, and increased intensity and frequency of severe weather. The majority of scientists today agree that greenhouse gases, including carbon dioxide emitted when fossil fuels (e.g., coal, diesel, natural gas, and oil) are burned, are major contributors to climate change.
+
+The Paris Climate Agreement
+
+Given concerns about the social and economic costs of climate change, representatives from 196 countries around the world met on December 12, 2015, in Paris, France to join the Paris Climate Agreement. The agreement is a voluntary, but legally binding, international treaty on climate change committing the signatories to develop and implement plans to reduce greenhouse gas emissions. The goal of the Paris Agreement is to limit global warming to less than 2 degrees Celsius above levels in the 1850-1900 “pre-industrial” period (and if possible, less than 1.5 degrees). Having already surpassed 1-degree above the pre-industrial level, the 2-degree threshold is seen by many scientists as critical in reducing the risks of climate change associated with global warming.2
+
+
+The Auto Industry and General Motors
+
+Automakers, including GM, are deeply involved in issues related to fuel efficiency and carbon emissions. In the U.S., the Environmental Protection Agency (EPA) reports that fuel used for transportation of people and goods is the single largest source of carbon dioxide emissions (with the production of electricity being the second largest).3 This is largely due to the reliance on vehicles powered by internal combustion engines that use fossil fuels.
+
+In late January 2021, GM announced a strategic repositioning of the company for an “all-electric vehicle future.” This move was intended to both to address consumer concerns over the environment, and counter the rapidly increasing market share of competitors such as Toyota and Tesla in the hybrid and all-electric vehicle market. GM management said that the company would eliminate emissions from new light duty vehicles by 2035, and be carbon-neutral in its global operations (i.e., have net zero carbon emissions) by 2040.4 This would include cutting emissions where possible and using renewable energy sources such as wind and solar to power manufacturing facilities.
+
+GM also announced plans to invest $27 billion over the next five years to produce electric and autonomous vehicles. This record investment for the firm includes updating manufacturing facilities in Michigan and Tennessee to produce vehicles using the firm’s new Battery Electric Vehicle 3 platform. GM will also build a new plant in Ohio to manufacture the firm’s new, more efficient and less costly Ultium lithium-ion batteries. GM’s Chief Executive Officer Mary Barra has said of the firm’s strategy: “I really see long-term value creation for General Motors and for our shareholders.”
+
+
+Will Producing Electric Vehicles Lower Emissions?
+
+Some have applauded the efforts of GM and other automakers as important steps in an attempt reducing GHG emissions and working toward the goals of the Paris Agreement aimed at limiting global warming. Others, however, have expressed skepticism, and pointed out that GM’s investment might be risky for their shareholders.
+
+While EVs produce little GHGs, the sources of electricity that are used to produce and charge vehicles and their batteries can produce GHGs. For example, vehicles produced or charged using electricity produced by solar power will result in less total GHGs compared with those that rely on electricity generated by coal-fired power plants.
+
+Moreover, despite the focus on EVs, automakers will continue to produce vehicles including mid- and heavy-duty trucks that rely on internal combustion engines. One survey reported that about 40 percent of U.S. adults asked would consider buying an EV in the next decade.5 However, with the average price tag of an EV at $19,000 more than a gas-powered vehicle, it is unclear how many consumers will actually make the switch.6
+
+It has also been suggested that the light duty vehicles that the auto manufacturers are focusing on in their EV strategy – particularly personal vehicles – contribute relatively little to overall GHG emissions. In the U.S., for example, the EPA reported that light duty vehicles accounted for about 17 percent of total U.S. emissions in 2019. As a result, it has been suggested that efforts to reduce emissions would be more effective if targeted elsewhere, for example at electricity generation.
+
+Having said that, in other regions of the world, such as China and the European Union, the shift to EVs looks more certain as laws have been passed that require the reduction or elimination of new vehicles powered by internal combustion engines.7
+
+Employees
+
+Investments such as those that GM and other automakers are undertaking, and a move to EVs more generally, will result in changes in the types of employees that the auto and related industries will need. There will be increased demand for employees with experience in EV technology at firms that produce automobiles, batteries, and electric charging stations. But expanded production of EVs will likely result in the loss of other jobs. For example, there will be less demand for employees with experience in the manufacturing of internal combustion engines in the auto industry, and for employees in the related auto parts and auto services industries as EVs require fewer moving parts, and do not need gas, oil changes, or transmission fluids.
+
+Communities
+
+While many view the growing market for EVs as environmentally beneficial, there are potential downsides to adopting this technology. For example, the lithium-ion batteries used to power EVs have been linked to adverse environmental and social effects. Specifically, much of the world’s cobalt, a critical input to lithium-ion batteries, is mined in the Democratic Republic of the Congo (DRC) where there are concerns about abusive child labor practices, a lack of worker protections from cobalt’s toxic effects, and the pollution of local communities from mining operations. In other areas, such as Chile and the U.S, the potential for existing and planned lithium mines to damage the environment has also attracted the scrutiny of local communities and environmentalists.
+
+Will EV Strategies Put Automakers in High Gear?
+
+It is clear that there are pressures from politicians and many segments of society to reduce GHGs. It remains an open question, however, as to how effective the transition to EVs will be, and the impact that the automakers’ EV strategies will have on their shareholders and other stakeholders.
+
+Discussion Questions
+Identify 3 sets of stakeholders at GM and explain how each might i) benefit and ii) be harmed in some way from the firm’s plan to focus on the production of EVs in place of fossil-fuel powered vehicles.
+As noted in the case, light duty vehicles currently contribute about 17 percent to the total U.S. emissions. Identify 2 factors that would limit reductions in emissions when drivers switch to EVs.
+Notes
+1 As we pointed out in Chapters 5 and 6, financial decision-making problems can be solved either by discounting cash flows to the beginning of the project or by using compounding to find the future value of cash flows at the end of a project’s life.
+1 https://climate.nasa.gov/resources/global-warming-vs-climate-change/
+2 www.unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement
+3 www.epa.gov/ghgemissions/overview-greenhouse-gases.
+4 Light duty vehicles include passenger cars and light trucks: minivans, passenger vans, pickup trucks, and sport-utility vehicles.
+5 www.morningconsult.com/2021/04/15/electric-vehicles-tesla-interest/.
+6 www.nrdc.org/stories/electric-vs-gas-it-cheaper-drive-ev.
+7 www.wsj.com/articles/eu-to-propose-sweeping-economic-plan-to-combat-climate-change-11626251377.

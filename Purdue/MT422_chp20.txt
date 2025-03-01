@@ -1,0 +1,874 @@
+page 654
+
+PART 6
+
+Global Economic Activity and Industry Analysis
+
+
+
+“Blessed are the young, for they will inherit the national debt.”
+
+–President Herbert Hoover
+
+Learning Objectives
+
+If you want the supply of your investment services to be in high demand, you should:
+
+Understand the process of top-down analysis.
+
+Be able to measure the level of economic activity both globally and domestically.
+
+Understand the relation of monetary and fiscal policies to economic activity.
+
+Be able to identify industry sensitivity to business cycles.
+
+Do you like roller coasters? If you do, you know some of the thrill is the anticipation of the next dip or loop. Financial markets and economies also have ups and downs (but no loops, we hope). Many of these financial moves, like those of the roller coaster, can be quite extreme. The movement in the fortunes of the overall economy is called the business cycle. Unlike the gyrations of roller coasters, economic cycles can have serious effects on your wealth. As a result, economists and investors spend much time and effort trying to predict these movements.
+
+CFATM Exam Topics in This Chapter:
+
+Topics in demand and supply analysis (L1, S4)
+
+Aggregate output, prices, and economic growth (L1, S4)
+
+Understanding business cycles (L1, S4)
+
+Monetary and fiscal policy (L1, S5)
+
+Currency exchange rates (L1, S5)
+
+Industry and company analysis (L1, S15)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 655
+
+In this chapter, we answer some general questions about economic activity. For example, what is the business cycle? How is economic activity measured? What is monetary and fiscal policy? How does economic activity impact sectors of the economy and the firms in these sectors? Answering these questions might help us anticipate economic movements. These predictions, in turn, might be valuable for deciding which investments to choose for a particular time period.
+
+As you might imagine, in recent years there has been an increased focus on global economic conditions. This focus is important because the global economy impacts investments abroad and also those “at home.” For example, the stock price of domestic firms that operate abroad will be influenced by economic cycles in other countries. Further, political and economic policies of other countries can impact domestic interest rates and relative currency values. Understanding the impact of global economic activity is, therefore, critical to successful investing.
+
+20.1 Top-Down Analysis
+What if your professor asked you to identify the single stock that you believe will be the best one to hold for the next six months. Because thousands of stocks are actively traded in the United States alone, this question is difficult, maybe impossible, to answer. Nonetheless, this is the task that active equity portfolio managers face every day—trying to select the stocks that they think will outperform all the others.
+
+In the process of security selection, some managers undertake a “bottom-up” approach. That is, they select securities without regard to perceived economic cycles or industry-specific information. The more common style, however, is called “top-down” analysis. Under this approach, managers essentially take a big-picture perspective of the global economy. With the big picture in view, the manager then filters and sorts potential investments into smaller and smaller groups. As Figure 20.1 illustrates, this process is like a funnel, where all possible investments go in at the top. Then, based on economic, industry, and company analysis, the best potential investments are identified.
+
+To better understand this process, consider this example: An investment manager studies the global economy and predicts an increased U.S. budget deficit will weaken the U.S. dollar. The manager also thinks that economic growth in international markets will be stronger than economic growth in the United States. This manager might then decide to select a group of U.S. companies that receive the bulk of their revenue from outside the United States. Within the major U.S. sectors, this strategy might imply that industrial, consumer staple, or technology companies should receive further attention.
+
+Next, the manager looks at the economic cycle. If the expectation is for strong growth, then industrial companies will be preferred to consumer staple companies, which are more defensive. A “defensive” company, as we discuss later, is one that performs relatively better in a climate of weak growth. As you might expect, everyone still needs toilet paper, and other necessities, even if the economy isn’t doing so well.
+
+Once the industry is selected, the manager faces the task of selecting the best company within the industry. As we discussed elsewhere, this decision is largely based on forecasting cash flow, sales growth, earnings growth, and other critical financial information. In this chapter, however, we concentrate on identifying information that helps us see the “big picture” of the economy.
+
+page 656
+
+Top-Down Analysis
+
+FIGURE 20.1
+
+
+CHECK THIS
+
+
+
+20.1aWhat does it mean to be a top-down analyst?
+
+20.1bHow does economic information play into top-down analysis?
+
+20.2 Global Macroeconomic Activity
+As we mentioned in the chapter opening, economies all around the world have a significant impact on the investment process. Investors should not only look at domestic activity and invest in only domestic stocks. This notion is particularly true when you consider that the United States makes up only about 40 percent of global equity market capitalization. In the following sections, we discuss economic activity measures mainly from a U.S. perspective. The same measures can (and should) be used to evaluate the health of the economy of any country.
+
+REAL GDP
+One of the most important measures of the health of an economy is gross domestic product, or GDP. GDP measures the market value of goods and services produced over a period of time. Thus, GDP effectively reflects a quantity of output. GDP is an indicator, or measure, of the standard of living for people residing in the country.
+
+gross domestic product (GDP)
+
+The market value of goods and services produced over a period of time.
+
+page 657
+
+GDP versus Market Capitalization
+
+FIGURE 20.2
+
+
+Source: World Bank, 2019 (in US$ equivalent)
+
+Typically, GDP is reported on a nominal basis. Nominal GDP reflects the dollar value of output in terms of the current year. Many economists, however, prefer to focus on real GDP. Real GDP is nominal GDP adjusted for inflation. Because real GDP accounts for the effects of inflation, it is a more consistent comparison of the standard of living across time periods.
+
+nominal GDP
+
+The dollar value of economic output in terms of the current year.
+
+real GDP
+
+The value of economic output adjusted for inflation.
+
+Why do analysts care about real GDP? As an example, consider a country whose nominal GDP increases in one year from $1.29 trillion to $1.41 trillion. This increase is 9.3 percent. If the country is experiencing high inflation, however, then the real economic growth is much less. For example, if inflation were 7.1 percent during the year, then the real growth rate of the economy is closer to 2.2 percent (i.e., 9.3 percent – 7.1 percent). As investors, if we were using expected growth rates to decide our country investment levels, real GDP is a much better measure of true underlying economic growth than nominal GDP.
+
+Figure 20.2 illustrates this important relationship. This figure plots the GDP and corresponding market capitalization of the 15 leading economies in the world as of 2018. What do you notice about the relationship between GDP and market values? They seem to be significantly correlated—those countries with the highest GDP also have the highest equity market valuations. In fact, the correlation value of .93 is almost perfectly positive. Thus, investors wanting to allocate capital across countries should consider using GDP growth in their decisions..
+
+BUSINESS CYCLES
+When analyzing potential GDP growth, investors need to be aware of the business cycle. As we point out in our opening roller coaster analogy, a nation’s economy, especially GDP, goes through periods of ups and downs. In the national economy, this up-and-down movement is called the business cycle. Figure 20.3 is a simple illustration of this cycle.
+
+The four stages of the cycle include peak, contraction, trough, and expansion. While Figure 20.3 suggests that the cycle follows a rather smooth pattern, reality is not so simple. For example, look at Figure 20.4A, which illustrates real GDP levels (in 2012 dollars) in the United States since 1959. You might be thinking that you do not see much of a wave pattern in Figure 20.4A. Well, you are right. So, look at Figure 20.4B, which plots yearly growth in real GDP. In this figure, you can see the ups and downs of the business cycle. You can also see that the actual data do not follow the smooth pattern that Figure 20.3 suggests..
+
+page 658
+
+The Business Cycle
+
+FIGURE 20.3
+
+
+If you are conducting a top-down analysis, you must understand the link between the business cycle and GDP growth. An investor who can successfully identify patterns in the cycle might be able to predict which sectors within an economy are better situated for short-term growth. To help you with this process, check out Figure 20.5, which identifies the stages of the business cycle in which some of the major market sectors might perform well.
+
+cyclical sectors
+
+Economic sectors that have a high sensitivity to the business cycle.
+
+defensive sectors
+
+Economic sectors that have a low sensitivity to the business cycle.
+
+Sectors are often referred to as cyclical or defensive. Cyclical sectors, such as industrials and materials, have above-average sensitivity to the business cycle, which means they tend to perform best when the economy is expanding. In contrast, defensive sectors, such as health care and consumer staples, have relatively little sensitivity to the business cycle, so they perform relatively better during the late stages of the business cycle.
+
+U.S. Real GDP, 1959–2018
+
+FIGURE 20.4A
+
+
+Source: St. Louis Federal Reserve Bank.
+
+page 659
+
+U.S. Real GDP Growth, 1959–2018
+
+FIGURE 20.4B
+
+
+Source: St. Louis Federal Reserve Bank.
+
+Sector Performance Across the Business Cycle
+
+FIGURE 20.5
+
+
+Source: https://www.schwab.com/resource-center/insights/sites/g/files/eyrktu156/files/2017-08/OnInvesting_Summer16_web.pdf.
+
+For data on current economic conditions, check out The Economist magazine at
+economist.com.
+
+page 660
+
+ECONOMIC INDICATORS
+Because of the relationship between GDP, economic growth, and equity value, astute investors must be able to identify the economic indicators that help investors accurately forecast future economic conditions. Most economists rely on a group of leading economic indicators for this information. There are two other groups of indicators used to gauge economic activity: lagging and coincident (i.e., simultaneous) indicators. Table 20.1 contains a list of the major economic indicators within each of these three groups.
+
+leading, lagging, and coincident economic indicators
+
+Economic time series data that tend to change in advance of, behind, or with the economy.
+
+You might be surprised by Item 7 in the list of leading economic indicators in Table 20.1: stock prices, 500 common stocks. Recall, as investors we attempt to use economic information to help us decide when and where to invest. One of the most accurate indicators, however, is the stock market itself. This accuracy is consistent with the general thought that the stock market does not reflect current conditions. Rather, the stock market is typically looking about six months ahead. So, we seem to have a “chicken and the egg” investing scenario. Because the current stock market generally provides an idea of overall future economic health, investing ahead of the market is quite a difficult task—even for the best investors.
+
+THE GLOBAL ECONOMY AND STOCK RETURN CORRELATIONS
+Increased technology and improved supply chain logistics, combined with reduced trade barriers, have significantly increased the integration of economies around the world. Recall that we examined the business cycle in the context of one economy. Today, however, business cycles tend to move together worldwide.
+
+Astute investors know that the principle of diversification predicts that returns from international investments can offset the returns from domestic investments. The amount of the offset depends on the correlation among investments. Over time, correlations across country stock market returns have increased. Unfortunately, this increase is especially true during bear markets—which is precisely when investors need protection provided by diversification page 661the most. For example, in the Crash of 2008, correlations across country stock market returns essentially went to +1 because almost all countries were hit with a recession (i.e., a contraction stage).
+
+Economic Indicators
+
+TABLE 20.1
+
+Leading Indicators
+Average weekly hours, manufacturing
+
+Average weekly initial claims for unemployment insurance
+
+Manufacturers’ new orders, consumer goods, and materials
+
+Index of supplier deliveries
+
+Manufacturers’ new orders, nondefense capital goods
+
+New private housing units authorized by local building permits
+
+Stock prices, 500 common stocks
+
+Money supply (M2) growth rate
+
+Index of consumer expectations
+
+Interest rate spread, 10-year Treasury bonds less federal funds rate
+
+Coincident Indicators
+Employees on nonagricultural payrolls
+
+Personal income less transfer payments
+
+Industrial production
+
+Manufacturing and trade sales
+
+Lagging Indicators
+Average duration of unemployment
+
+Ratio of trade inventories to sales
+
+Change in index of labor cost per unit of output
+
+Average prime rate charged by banks
+
+Commercial and industrial loans outstanding
+
+Ratio of consumer installment credit outstanding to personal income
+
+Change in Consumer Price Index for services
+
+Source: The Conference Board.
+
+The major differences in correlations among economic conditions occur in the expansion stage because each country comes out of the trough stage at a different rate. Understanding the differences in economic activity can be helpful in determining investment allocations across countries—especially during expansions.
+
+THE EFFECTS OF EXCHANGE RATES ON GLOBAL INVESTMENTS
+Suppose an investor can make accurate predictions of which stock markets around the world will perform relatively better. Even with this enviable skill, another factor affects the rate of return on international investments—the exchange rate. For example, suppose a U.S. investor wants to buy an asset in Germany, whose currency is the euro. The first step for the investor is to convert U.S. dollars into euros. Once the euros are in hand, the investment can be made. When the asset is sold, this U.S. investor converts the euros back into U.S. dollars. The net return will be based on the return of the asset and on whether the euro appreciated or depreciated relative to the U.S. dollar.
+
+Let’s consider an example. Suppose we have $10,000 to buy shares of a company listed on the Deutsche Börse, the German stock exchange. At the time of the investment, the exchange rate is $1.29/€. The shares increase in value by 10 percent during the year. At the end of the year, we sell the shares and convert the euros back into dollars at a rate of $1.18/€. What is our net dollar return?
+
+Well, the asset itself had a positive return, so that is good. But what about the impact of the exchange rate? As with any asset, we want to invest in currencies that are appreciating. We were invested in euros, so did the euros appreciate or depreciate relative to the U.S. dollar? At the beginning of the year, one euro could be converted into $1.29. At the end of the year, one euro could be converted into only $1.18. Thus, one euro is worth less in terms of U.S. dollars at the end of the year. This means that the euro has depreciated relative to the U.S. dollar. This depreciation means that the net return to the U.S. investor will not be 10 percent because the asset return is going to be reduced by the depreciation of the euro. Let’s calculate the exact return.
+
+Step 1: We convert the U.S. dollars into euros at the beginning of the year. It takes $1.29 to “buy” one euro. Thus, with $10,000 we can purchase $10,000/($1.29/€) = €7,751.94 worth of shares.
+
+Step 2: We calculate the ending value of the shares. If the €7,751.94 investment increases in value by 10 percent, the ending value is €7,751.94 × 1.10 = €8,527.13 when we sell the shares.
+
+Step 3: We convert the euros back into dollars. At the end of the year, one euro can be converted into $1.18. Thus, €8,527.13 × $1.18/€ = $10,062.02.
+
+Step 4: We calculate the dollar-denominated return. Because the investment of $10,000 grew to $10,062.02, the return was .62 percent. As we thought, the depreciation of the euro reduced the dollar-denominated return earned on the euro-denominated shares (which was 10 percent).
+
+Check out
+xe.com
+for a list of exchange rates, as well as a currency converter.
+
+As international investors, we need to be aware of the impact of exchange rates, as well as think about asset allocation and security selection. Changes in exchange rates will likely increase or decrease our international portfolio returns. Although exchange rate movements complicate the investment process, these movements actually provide some potential diversification benefit over longer periods of time. Nonetheless, some investors prefer to avoid all exchange rate risk. As we discussed in an earlier chapter, international investors can use futures contracts to reduce this currency risk if they so desire.
+
+page 662
+
+Exchange Rate Risk and Returns
+
+EXAMPLE 20.1
+
+You have found an attractive stock listed on the Bolsa (the Mexican stock exchange). You decide to invest $25,000. The investment does well, earning 15 percent in one year. During the year, the exchange rate goes from 19.05 pesos per dollar to 18.78 pesos per dollar. What is your dollar-denominated return on this investment? (You should note that whether we multiply or divide depends on the direction of the conversion.)
+
+
+The investment itself did well. Plus, the peso appreciated. In this case, the net dollar return, 16.65 percent, was higher than the return on the peso-denominated investment (which was 15 percent).
+
+CHECK THIS
+
+
+
+20.2aWhat is the difference between nominal and real GDP?
+
+20.2bIn what stages of the business cycle would you prefer to invest in cyclical industries?
+
+20.2cHow do exchange rates impact investor returns?
+
+20.3 Monitoring Jobs and the Price Level
+LABOR MARKET INDICATORS
+For goods and services to be sold, there must be demand for them. In the United States, about 70 percent of GDP is the result of consumer spending, with the remainder being driven by categories such as investment and government spending. Because so much of GDP is from consumer spending (i.e., consumption), employment levels are critical for the health of the economy.
+
+Most economists believe that unemployment is a lagging indicator because recessions bring about unemployment. Unemployment does not fall until expansion begins. Some economists, however, suggest that unemployment is a leading indicator. Their argument is that high levels of unemployment can signal an even longer contraction—because consumers cannot spend as much if they are unemployed (or underemployed). Whether you believe unemployment is a lagging or a leading indicator, knowing how unemployment is calculated is important.
+
+Economists divide the nonmilitary working-age population into three groups: employed, unemployed but seeking employment, and unemployed and not seeking employment. The labor force is defined as all nonmilitary working-age people who are employed or unemployed but seeking employment. The unemployment rate is the percentage of the labor force that is unemployed but seeking employment. The labor force participation rate equals the labor force divided by the nonmilitary working-age population. For example, in early 2019 in the United States, the labor force was approximately 163 million people. According to the Federal Reserve, this number represents a participation rate of 63.1 percent. Of the labor force, about 3.9 percent, or 6.4 million people, were unemployed.
+
+labor force
+
+All nonmilitary working-age people who are employed or unemployed but seeking employment.
+
+unemployment rate
+
+The percentage of the labor force that is unemployed but seeking employment.
+
+labor force participation rate
+
+The labor force divided by the nonmilitary working-age population.
+
+As with any statistic, understanding the calculation is important when interpreting the number. For example, at the height of the recession in 2009–2010, unemployment levels surged to over 10 percent. The reduction in the unemployment rate since this time is likely a result, at least in part, of economic growth. There are other underlying issues, however. For example, the participation rate was over 66 percent before the recession. When unemployed people become discouraged, they often drop out of the labor force. All else equal, this exodus page 663reduces the unemployment rate because these people are no longer used to calculate the unemployment rate. Astute investors must disentangle this effect if they want a true picture of the economy’s health.
+
+While increasing employment is generally good for the economy, it is only one measure of the health of the economy. Two other important measures are the wage rate and the inflation rate. For example, if unemployed people find work in lower-paying jobs, spending by these consumers will be lower. Or if inflation increases at a higher rate than wages, then purchasing power decreases and workers are actually worse off in real terms. Thus, in addition to employment, the real (or inflation-adjusted) wage rate is an important measure to help gauge economic health.
+
+THE CONSUMER PRICE INDEX
+In the previous sections, we saw how important the inflation rate was to calculate real levels of GDP and wages. We now discuss how inflation is measured. The most commonly used measure of inflation is the Consumer Price Index (CPI). The CPI measures the average price of a fixed basket of consumer goods and services. Inflation is the percentage change in the CPI from one period to the next. For example, if the CPI increases from 104.3 to 105.2 during the year, then the inflation rate is .9 percent for that year [= (105.2 – 104.3)/104.3].
+
+Consumer Price Index (CPI)
+
+Measures the average prices paid by urban consumers for a fixed “basket” of consumer goods and services.
+
+Major parts of the CPI basket include housing and food. Smaller parts include medical care, recreation, education, energy, and apparel. There are variations of the CPI. For example, some economists prefer to focus on Core CPI, which excludes food and energy prices. The logic used by these economists is that these items are subject to greater volatility because of potential supply disruptions. This issue became particularly relevant in 2011 when energy and food prices rose drastically, but Core CPI remained roughly unchanged. In this case, Core CPI may understate the true impact of inflation on consumers.
+
+Core CPI
+
+Measures the average prices paid by urban consumers for a fixed “basket” of consumer goods and services, excluding food and energy.
+
+Of course, there are others who suggest that the CPI overstates inflation. For example, the CPI does not consider the invention of new goods or quality improvement. Also, so-called substitution effects are ignored. An example of a substitution effect is when consumers switch to chicken and away from beef if beef prices rise relative to chicken prices. A congressional commission studied this issue and concluded that the CPI might be overstated by about 1 percent in any given year as a result of these substitution effects.
+
+Given the debate over the ability of the CPI to measure inflation, it is the responsibility of investors to understand its limitations. Otherwise, return expectations and other analyses might be incomplete.
+
+As Figure 20.6 illustrates, the inverse relationship between inflation and real GDP is quite pronounced. This negative correlation suggests that high inflation is detrimental to real economic growth. This relation might be driven by the fact that high inflation leads to higher interest rates. Providers of funds will demand a higher interest rate to compensate them for their loss in purchasing power brought on by inflation. High interest rates tend to reduce the demand for loanable funds—which, in turn, reduces economic growth.
+
+A common rule of thumb on Wall Street is that the inflation rate plus the market price-to-earnings (PE) ratio equals 20. (Remember we discussed price ratios in an earlier chapter.) While this is not an exact number and obviously varies through time, it does illustrate that inflation can have a negative effect on stock prices.
+
+For example, assume this rule holds true and inflation is 4 percent. Then, the market PE ratio should be about 16. If inflation heats up and increases to 6 percent, then the PE would likely fall, to about 14. For every dollar of earnings a company has, its share price would fall by about two dollars. If earnings increase with inflation, then the full drop in price might not be realized, but the negative effect of inflation will likely still be felt in stock prices.
+
+Given the above relationships, we can identify a “Goldilocks” scenario as a country where economic conditions are not too hot nor too cold . . . they are “just right.” Such a country will have strong income growth, low unemployment, and low inflation. This combination should result in rapid expansion of the economy and, as a result, benefit the underlying companies that are competing in that economy. Understanding this link will help investors select their allocations across assets, particularly those allocations across geographic regions where different economic conditions exist.
+
+page 664
+
+U.S. Real GDP Growth and CPI, 1959–2018
+
+FIGURE 20.6
+
+
+Source: St. Louis Federal Reserve Bank.
+
+CHECK THIS
+
+
+
+20.3aIf all else stayed the same, but the labor force participation rate declined, what would happen to the unemployment rate?
+
+20.3bWhat is the “Goldilocks” scenario with regard to economic conditions?
+
+20.4 Monetary and Fiscal Policy
+Think about the economy as if it were a car: you want to keep it moving forward but avoid going too slowly or too rapidly. To maintain the desired pace, someone needs to drive the car, monitor the speed, and give the car more (or less) gas as needed. For an economy, the role of maintaining a desired pace generally has been assumed by monetary and fiscal policy makers.
+
+MONETARY POLICY
+Money is a generally accepted means of payment. Money functions as a medium of exchange, a unit of account, and a store of value. There are various ways to measure the amount of money, or money supply, that is in the economy. The most basic measure of money supply is called M1, which includes currency and checking deposits. A broader money supply measure, M2, is M1 plus time deposits, savings accounts, and money markets.
+
+The money supply is important for the economy because it represents the “gas” for the economic engine. Giving the economy more gas (i.e., more money) makes it go faster, but giving it too much can result in overheating (i.e., high inflation). In fact, a common saying is that “inflation is always, and everywhere, a monetary phenomenon.” So, the goal of policy makers is to keep the money supply growing at just the right pace to keep the economy moving forward at the desired rate. To see the importance of money supply for investors, check out Figure 20.7. You can see the generally positive relationship between money supply growth and stock prices.
+
+page 665
+
+U.S. M2 and S&P 500 Index, 1959–2018
+
+FIGURE 20.7
+
+
+Source: St. Louis Federal Reserve and author calculations.
+
+THE FEDERAL RESERVE The Federal Reserve (or “Fed” for short) is the central bank of the United States. A central bank is called the “banker’s bank” because it provides loans to banks and holds deposits for banks. Besides regulating the nation’s banks, the Fed also monitors and changes the money supply. Monitoring the money supply is a difficult task for the Federal Reserve.
+
+The Federal Reserve is an independent federal governmental agency. Technically, the Fed does not answer to any other part of the government. The reason for this independence is to enable the Fed to pursue its goals without political consequences. Whether the Fed is actually independent, however, is a matter of debate, because the Fed Board is appointed by the president and approved by the Senate. Nonetheless, the primary goals of the Fed are to keep inflation in check, generate full employment, moderate the business cycle, and help achieve long-term economic growth.
+
+While other countries have similar central banks, the goals of these central banks can differ from those of the Fed. For example, the European Central Bank (ECB) oversees the European Union. The ECB, however, has only one main goal: control inflation. The ECB has little, if any, responsibility to stimulate economic growth. The lack of such a goal might seem unimportant to you, but it can have a big impact on investment allocation. Slow economic growth might be reflected in relatively lower stock prices.
+
+To achieve its goals, the Fed has primarily relied on its ability to change interest rates. For example, the Fed has control over the discount rate, which is the interest rate the Fed charges its member banks on loans. While “discount window” lending is small in comparison to other Fed operations, changing the discount rate has a ripple effect throughout the banking system. The federal funds rate, which is the short-term rate at which banks lend to each other, generally changes with the discount rate. In turn, changes in the federal funds rate can even impact longer-term rates for mortgages and other loans. All else equal, reducing the discount rate should stimulate demand for loans, which, in turn, spurs economic growth.
+
+discount rate
+
+The interest rate the Fed charges its member banks on loans.
+
+federal funds rate
+
+Interest rate that banks charge each other for overnight loans of $1 million or more.
+
+MONEY CREATION The Fed has historically focused on the discount rate, but it also has the ability to “pump” money directly into the financial system. In fact, this activity increased dramatically in the wake of the Crash of 2008. To impact the money supply through the financial markets, the Fed conducts open market operations. Through this process, the Fed either buys or sells Treasury bonds in the open market. Buying bonds puts money into the page 666financial system because the Fed pays dollars to the bond sellers. The goal of buying bonds is to spur economic growth. The Fed puts the brakes on the economy by reducing the money supply. When the Fed sells bonds, it takes dollars from the bond buyers.
+
+open market operations
+
+The buying and selling of bonds directly on the secondary market for purposes of increasing or decreasing the money supply.
+
+Adding money to the financial system has a ripple effect because the United States follows a fractional reserve banking system. In this type of banking system, banks must keep only a percentage (or fraction) of their deposits on reserve. This fraction is set by the Fed. Deposits that are not held on reserve can be loaned to borrowers. When borrowers make purchases, the sellers deposit the proceeds into a bank. A fraction of this deposit is set aside, and the remaining funds are lent again. As you can imagine, this process repeats over and over.
+
+How big is this ripple effect? With a 20 percent reserve requirement, total money supply from an initial $100 deposit can become $500 in total money supply. This expansion results from the money multiplier, which is calculated as 1 divided by the reserve requirement (1/.20 = 5). If banks increase lending standards, or if there is a lack of demand for borrowing, then the money supply will not expand to the level predicted by the money multiplier. In this case, banks would have excess reserves caused by a so-called lower velocity of money. The Fed can control the inflow of reserves into the banking system and predict the total money supply using the money multiplier. End-user demand and bank lending standards, however, can prevent the money supply from reaching the amount predicted by the Fed.
+
+FISCAL POLICY
+The federal government collects taxes and uses this money to pay for products and services. The determination of tax rates and spending policies is referred to as fiscal policy. Potentially, fiscal policy has significant impacts on the overall economy. For example, if the government wanted to spur investment, it could reduce (or even eliminate) taxes on capital gains. Or, the federal tax code could allow for a faster depreciation of capital spending by businesses—which would also spur investment. Interestingly, it seems that lower taxes can actually increase government revenue. If economic activity increases enough as a result of lower tax rates, total tax revenue increases. This is referred to as “supply-side economics,” a concept that has been hotly debated since Ronald Reagan was president.
+
+For a running tab of the government’s debt, check out
+usdebtclock.org.
+
+fiscal policy
+
+Government determination of tax rates and spending policies.
+
+Unlike you and me, the federal government is not really forced to abide by, or even set, a restrictive budget. As a result, one of the “hot button” issues in recent years has been the fact that the federal government’s expenditures exceed tax revenues. When government expenditures exceed tax revenues, the resulting shortfall is called the budget deficit. Over time, these budget deficits grow and increase the national debt because excess spending must be paid for with borrowings. As of early 2019, the national debt was over $22 trillion.
+
+In theory, the national debt finances government spending, which is part of GDP. Thus, there are some who believe that increased government spending actually aids economic activity. The downside of debt, however, is that it must be financed and repaid. In the long run, continued debt implies higher interest rates and increased taxes, both of which slow growth. To pay off the debt, the federal government could print money. As we learned earlier, however, increasing the money supply would spur inflation and devalue the dollar. The general consensus is that sustained budget deficits are detrimental for the long-run prosperity of an economy.
+
+For an investor, national debt can be a critical factor in choosing country investment allocations. For example, the impact of high federal debt levels was a driving factor behind the recent European debt crisis. In 2010, the PIGS (Portugal, Ireland, Greece, and Spain) all suffered large budget deficits and increased their level of sovereign debt. As a result, their sovereign debt was downgraded. This downgrade, in turn, increased interest rates on new debt and caused many investors to flee from these four stock markets.
+
+Table 20.2 provides some information on the PIGS’s government debt levels as a percent of GDP, as well as their corresponding yields on 10-year government debt. The table also provides comparable statistics for the United States. In 2010, U.S. debt (held by the public) as a percentage of GDP was close to that of Spain, and it was the highest it had been since the 1950s. Recall that the U.S. national debt in the 1950s was a result of spending for World War II.
+
+page 667
+
+Country Debt, 2010
+
+TABLE 20.2
+
+Total Debt as a % of GDP	Bond Yield (10-year)
+Greece	140.2	11.3%
+Ireland	97.4	8.3
+Portugal	82.8	6.8
+Spain	64.4	5.5
+United States	62.2	3.3
+Source: The Economist.
+
+You can see from Table 20.2 why many people are concerned that the United States may turn into a “European-type” state. This fear has become more pronounced over the last few years as the U.S. debt (held by the public) has increased to over 75 percent of GDP. When other debt is considered (such as Treasury bonds held internally by Social Security), the figure rises to over 100 percent of GDP.
+
+CHECK THIS
+
+
+
+20.4aWho controls monetary policy? Who controls fiscal policy?
+
+20.4bIf the Fed adds $10 billion to the money supply, why would the money supply be expected to grow by more than $10 billion?
+
+20.5 Industry Analysis
+Economic information is helpful to investors when they are looking for areas of potential growth (or decline). While much of the discussion in previous sections focused on country-level issues, economic information is also useful for analyzing industries. For example, in an attempt to help the economy recover from the recent economic crisis, the federal government passed a stimulus bill (fiscal policy). Much of this increased spending was supposed to go to capital improvements such as roads. As a result, many investors thought industrial firms would be big beneficiaries of this spending because new equipment would be required.
+
+Earlier in this chapter, we discussed the business cycle and how investments in specific firms can be classified as defensive or cyclical. These classifications are a description of how dependent these firms are on the business cycle. Defensive investments are not as linked to the business cycle as are cyclical investments. To examine these links in more detail, and to learn how to evaluate sectors and industries, we turn our focus to the general process of sector and industry analysis.
+
+IDENTIFYING SECTORS
+S&P SECTORS There are many ways to define a sector. A good starting point is the list of 11 basic sectors used by Standard and Poor’s, the creator of the S&P 500 index. Table 20.3 provides a list of the 11 sectors, along with their early 2019 index weights. As you can see, some sectors are quite small (such as materials and real estate), while others (such as health care and technology) are quite large.
+
+While these weights are not extremely volatile, they do change when some sectors do well relative to other sectors. For example, in early 2007, financials comprised over 20 percent of the index weight. Financials were less than 15 percent of the index following the financial crisis and related Crash of 2008. This fluctuation might seem like common sense, but understanding the reasons behind these movements could give you an advantage when you invest.
+
+ROTATIONAL INVESTING As we discussed earlier in the chapter, macroeconomic trends and government actions can favor some industries more than others. Unsophisticated investors might believe that if the S&P 500 return is positive, then the returns for all sectors must be positive. It is possible, however, for some sectors within the S&P 500 to have a negative return over a given period even if the entire index has a positive return. Of course, the reverse is also true. As a result, active investors will decide to enter and exit industries over time. This process of moving investment dollars from one industry to another is often referred to as rotational investing because investors “rotate” dollars out of some industries and into others.
+
+page 668
+
+Sectors of the S&P, January 2019
+
+TABLE 20.3
+
+Sector	Market Value (%)	
+Materials	2.74	
+Energy	5.58	
+Financials	13.24	
+Real estate	2.94	
+Industrials	9.36	
+Consumer staples	7.24	
+Utilities	3.25	
+Health care	15.19	
+Consumer discretionary	10.17	
+Technology	19.92	
+Communication services	10.36	
+Total: 100.00	
+Figures 20.8 and 20.9 provide a snapshot of performance differences. Figure 20.8 shows the returns for the sectors over some historical time periods. As of January 11, 2019, you will notice that for the last month (the column labeled “Net (%) 30”), the consumer staples sector had lost about 6.20 percent of its value, while the materials sector was up about .88 percent. The other time periods provide different stories. For example, notice that over the last year, energy (–20.22 percent) underperformed utilities (+6.00 percent). So, is this most recent move a sign of sector rotation? We can’t say for sure, but it is definitely a possibility.
+
+S&P 500 Sector Returns as of January 11, 2019
+
+FIGURE 20.8
+
+
+Source: Author calculations.
+
+page 669
+
+S&P 500 Heat Map
+
+FIGURE 20.9
+
+
+Source: finviz.com, 2019.
+
+To see the current heat map, check out
+finviz.com/map.ashx.
+
+Figure 20.9 is called a “heat map,” and it provides a breakdown of the S&P 500 into its major sectors. Within each sector, the heat map identifies the specific companies in the S&P 500, with the size of each box representing relative market weights. Each box is then color coded to identify whether the stock price for a particular company (and therefore industry) is up or down. The heat map changes throughout the trading day, but at any moment it provides a visual snapshot of the market and its sectors.
+
+There are other factors that lead investors to rotate sectors. One particularly relevant factor is the industry life cycle. As Figure 20.10 illustrates, industries often follow a defined life cycle: start-up, consolidation, maturity, and relative decline. Of course, each industry is different and the stages can vary in length. By understanding this framework, however, investors might be able to identify which companies are poised for higher growth and which ones are likely to face a more muted future.
+
+SUBSECTOR (INDUSTRY) DIFFERENCES The 11 S&P sectors provide a good distinction across firms, but they are not without limitation. For example, do you think it would be good to compare Ford Motor Company to Starbucks? Most investors would say that these two businesses are quite distinct. Ford is in automobiles, and Starbucks is in retail. Yet, S&P puts them both into the Consumer Discretionary sector. This example illustrates that sophisticated industry analysis often involves drilling down to uncover more detailed information.
+
+One way to gather information is to make comparisons across subsectors. These subsectors are often referred to as industry groups. One way to separate these groups is to use the Global Industry Classification System (or GICS). This system begins with the 11 S&P sectors, but it then subdivides them into 24 industry groups, 69 industries, and 158 subindustries. The GICS allows for a more defined comparison across firms.
+
+The Industry Life Cycle
+
+FIGURE 20.10
+
+
+page 670
+
+As an example, consider the classifications for Ford and Starbucks as follows:
+
+
+The first two digits (25) identify the sector, which is Consumer Discretionary. The next two digits (10 and 30, respectively) identify the industry groups, which are Automobiles and Components (for Ford) and Hotels, Restaurants, and Leisure (for Starbucks). The remaining values further distinguish firms within the industries. Obviously, this more specific breakdown provides a potentially better (but more narrow) list of comparison firms.
+
+PORTER’S FIVE FORCES
+Once you have narrowed down the industries in which you are interested, you will want to undertake some additional analysis. One particularly helpful approach is to use Porter’s five forces, which is named after strategy guru Michael Porter. Figure 20.11 illustrates the basic framework of this industry analysis technique.
+
+Check out Morningstar’s economic moat rating system at:
+morningstar.com/InvGlossary/economic_moat.aspx.
+
+Porter’s Five Forces Model of Competition
+
+FIGURE 20.11
+
+
+The goals of this analysis are to estimate how competitive the industry is and to identify which firms might be best positioned for success. The framework focuses on five core pieces:
+
+Threat of new entrants. This piece examines the ease with which new firms can enter the market. In turn, the extent of these “barriers to entry” impacts how likely it is that a firm will be able to retain market share. Morningstar, a leading financial analysis firm, refers to these barriers to entry as a company’s “economic moat.”
+
+Bargaining power of buyers. This area analyzes how difficult it would be for a buyer to switch to another seller. The easier it is to switch, the more pricing pressure a seller will face. This pressure will affect the ability of a company to maintain its profit margins.
+
+Bargaining power of suppliers. This piece examines the supplier network for the company and estimates whether suppliers have the power to raise prices. Again, this power will also impact the ability of a firm to control its profit margins.page 671
+
+Threat of substitute products. This area is similar to new entrants, but it goes a step further. For example, if beef prices increase significantly, a consumer could switch to chicken. Thus, firms need to be concerned about competing products beyond the specific industry.
+
+Intensity of rivalry. Taken together, the above factors help score the intensity of the competition within the industry. Understanding this intensity helps investors identify which industries (and companies) they think are most likely to retain (or gain) market share.
+
+Once an analyst has identified relevant industries, the next step is to select the best companies within these industries. We discussed many of these issues in previous chapters, where we covered relevant financial metrics and valuation approaches. With all of this information, you are now ready to conduct top-down analysis.
+
+CHECK THIS
+
+
+
+20.5aAre all firms in the same sector comparable?
+
+20.5bHow is Porter’s five forces model useful in analyzing industries?
+
+20.6 Summary and Conclusions
+In this chapter, we present some ways for investors to narrow the set of all possible investments. We discuss many economic conditions that can influence potential investment returns.
+
+1.   Understand the process of top-down analysis.
+
+A.  There are thousands of individual stocks in the United States alone. One method to narrow the list of choices is top-down analysis.
+
+B.  The filters used to “funnel” the choices often focus on measures of macroeconomic and industry activity.
+
+2.   Be able to measure the level of economic activity both globally and domestically.
+
+A.  Economic globalization has had a significant impact on the investment process, particularly because the United States represents only about 40 percent of global market values.
+
+B.  Gross domestic product (GDP) measures the overall level of economic activity in an economy. Growth in GDP is highly correlated to asset values within the economy.
+
+C.  Changes in GDP are often driven by the business cycle, which economists try to predict using leading economic indicators. Other indicators, such as employment and the price level (or inflation), are also important.
+
+D.  Aside from asset values, changes in exchange rates also impact the net return to an investor.
+
+3.   Understand the relation of monetary and fiscal policies to economic activity.
+
+A.  Monetary policy is controlled in the United States by the Federal Reserve, or the Fed. The Fed uses changes in interest rates, combined with open market operations, to increase or decrease the amount of money available.
+
+B.  Increased money supply is like “gas” for the “economic engine.”
+
+C.  Government policies on taxes and spending are called fiscal policy.
+
+4.   Be able to identify industry sensitivity to business cycles.
+
+A.  There are 11 basic sectors used to categorize companies. These sectors, though correlated, come in and out of favor at various times. The process of reallocating investment dollars among sectors is known as rotational investing.
+
+B.  Companies within a sector are not always similar. Thus, investors often need to drill down to subsectors to provide a better comparison.
+
+C.  One method used to evaluate the strength of an industry is Porter’s five forces: threat of new entrants, bargaining power of buyers, bargaining power of suppliers, threat of substitute products, and intensity of rivalry.
+
+page 672
+
+GETTING DOWN TO BUSINESS
+
+This chapter discusses top-down investment analysis. When investors undertake a top-down analysis, they must know how to measure and interpret economic activity. This knowledge will help them make better decisions about investing across countries and industries.
+
+As investors, there are two primary decisions we must make: asset allocation (percentage allocations across countries and industries) and security selection (picking individual securities within each allocation). Investors tend to believe that security selection is the key determinant of portfolio performance. The general conclusion, however, is that asset allocation is more critical for returns than security selection. In fact, the general consensus among researchers is that asset allocation determines about 90 percent of a portfolio’s return, while security selection accounts for only 10 percent. Thus, understanding top-down analysis can be a critical factor for long-term investment success because it plays a key role in choosing allocation strategies.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+Consumer Price Index (CPI) 663
+
+Core CPI 663
+
+cyclical sectors 658
+
+defensive sectors 658
+
+discount rate 665
+
+federal funds rate 665
+
+fiscal policy 666
+
+gross domestic product (GDP) 656
+
+labor force 662
+
+labor force participation rate 662
+
+leading, lagging, and coincident economic indicators 660
+
+nominal GDP 657
+
+open market operations 665
+
+real GDP 657
+
+unemployment rate 662
+
+Chapter Review Problems and Self-Test
+
+Exchange Rates (LO2, CFA5) You invest $50,000 in Germany when the exchange rate is $1.42/€. Your investment gains 15 percent, and you subsequently exchange the euros back into dollars at a rate of $1.48/€. What is your total return on this investment?
+
+Real vs. Nominal (LO2, CFA2) Assume the inflation rate in 2019 is 2.4 percent. If nominal GDP grew 3.5 percent and nominal wages grew 2.8 percent, what are the approximate real growth rates in GDP and wages?
+
+Answers to Self-Test Problems
+
+Step 1: $50,000/$1.42/€ = €35,211.27
+Step 2: €35,211.27 × 1.15 = €40,492.96
+Step 3: €40,492.96 × $1.48/€ = $59,929.58
+Step 4: ($59,929.58 – $50,000)/$50,000 = .1986, or 19.86%
+
+Real GDP growth ≈ 3.5% – 2.4% = 1.1%
+Real wage growth ≈ 2.8% – 2.4% = .4%
+
+page 673
+
+Test Your Investment Quotient
+
+
+Money Multiplier (LO3, CFA4) If the Fed adds $10 billion to the banking system and the reserve requirement is 20 percent, what is the maximum increase in the money supply?
+
+$200 billion
+
+$50 billion
+
+$10 billion
+
+$2 billion
+
+Real GDP (LO2, CFA2) If nominal GDP grew by 5 percent and inflation was 3 percent, the closest approximation of real GDP is:
+
+15 percent.
+
+8 percent.
+
+5 percent.
+
+2 percent.
+
+Inflation (LO2, CFA2) If the CPI increased from 123.4 to 125.3, the inflation rate is closest to:
+
+–1.5 percent.
+
+0 percent.
+
+1.5 percent.
+
+3.0 percent.
+
+Industry Analysis (LO4, CFA6) Which of the following industries would be considered the most defensive?
+
+Consumer discretionary
+
+Industrials
+
+Technology
+
+Consumer staples
+
+Leading Indicators (LO2, CFA3) Which of the following is not considered a leading economic indicator?
+
+Stock prices, 500 common stocks
+
+Money supply (M2) growth rate
+
+Average duration of unemployment
+
+Index of consumer expectations
+
+Business Cycle (LO2, CFA3) Which of the following is not one of the four stages of the business cycle?
+
+Peak
+
+Contraction
+
+Trough
+
+Cliff
+
+Exchange Rates (LO2, CFA5) Suppose you are a U.S. investor looking to buy assets in Mexico. If you have $10,000 and the current exchange rate is 11.87 pesos/dollar, how many pesos will you have to invest?
+
+842
+
+11,245
+
+78,926
+
+118,700
+
+Real vs. Nominal (LO2, CFA1) If the average wage rate increases from $15.23/hour to $15.65/hour and the inflation rate over the period is 4.2 percent, what is the approximate real increase in wages?
+
+2.8 percent
+
+1.4 percent
+
+–1.4 percent
+
+–2.8 percent
+
+Monetary Policy (LO3, CFA4) All of the following are ways the Federal Reserve changes the money supply except:
+
+The discount rate.
+
+Open market operations.
+
+The prime rate.
+
+All of the above are used by the Fed.page 674
+
+Industry Analysis (LO4, CFA6) Which of the following is not one of Porter’s five forces?
+
+Bargaining power of buyers
+
+Threat of substitute products
+
+Threat of new entrants
+
+All of the above are part of Porter’s five forces.
+
+Concept Questions
+
+Monetary Policy (LO3, CFA4) If the economy was in recession, what monetary policies might the Fed employ?
+
+Exchange Rates (LO2, CFA5) If you are a U.S. investor who believes the Australian dollar is going to appreciate, would that make you more or less likely to invest in Australian stocks?
+
+Industry Analysis (LO1, CFA6) Briefly explain the process of top-down analysis.
+
+Industry Analysis (LO4, CFA6) Which sector would generally be more sensitive to the business cycle: industrials or health care?
+
+Leading Indicators (LO2, CFA3) Why do you think that consumer sentiment is considered a leading economic indicator?
+
+Inflation (LO2, CFA2) If you believed inflation was going to increase over the coming years, would you rather invest in short-term or long-term debt?
+
+Industry Analysis (LO4, CFA6) Many health care companies depend on patents to sustain profits. In the context of Porter’s five forces, how would a patent expiration impact a health care firm?
+
+Fiscal Policy (LO3, CFA4) Which one of the following propositions would be consistent with a supply-side view of fiscal policy?
+
+Higher marginal tax rates will help reduce the size of the budget deficit.
+
+A tax reduction will increase disposable income and spur economic growth.
+
+Real vs. Nominal (LO2, CFA2) Why is inflation associated with lower values of real GDP and wages?
+
+Fiscal Policy (LO3, CFA4) Briefly explain why a high level of national debt may be detrimental for economic growth.
+
+Questions and Problems
+
+Core Questions
+
+Money Multiplier (LO3, CFA4) Assume that the Federal Reserve injects $2 billion into the financial system. If the reserve requirement is 18 percent, what is the maximum increase in money supply? Why might the maximum increase not be achieved?
+
+Money Multiplier (LO3, CFA4) Assume that the Federal Reserve injects $60 billion into the financial system. If the money supply increases by a maximum of $300 billion, what must the reserve requirement be?
+
+Inflation (LO2, CFA2) Assume the CPI increases from 123.9 to 125.6 over the period. What is the inflation rate implied by this CPI change over this period? What does this value indicate?
+
+Inflation (LO2, CFA2) The CPI for this year was reported at 154.65. If inflation was 2.2 percent, what must the CPI have been last year?
+
+Real vs. Nominal (LO2, CFA2) If wages grew 3.2 percent, but inflation was 2.8 percent, what was the approximate real increase in wages?
+
+Real vs. Nominal (LO2, CFA1) If nominal GDP was reported at $124.9 billion and real GDP was reported at $122.8 billion, what was the inflation rate for the period?
+
+Real vs. Nominal (LO2, CFA1) If nominal GDP was reported at $1,425.68 billion and inflation was 4.3 percent, what is the level of real GDP for the period?
+
+Unemployment (LO2, CFA2) Assume there are 300 million people in the United States, 155 million of whom make up the labor force. If 10 million people are unemployed, what is the unemployment rate?
+
+Intermediate Questions
+
+9. Inflation (LO2, CFA2) An analyst gathered the following year-end price level data for an economy:
+
+page 675
+
+2014	174.0
+2018	190.3
+2019	196.8
+What is the economy’s annual inflation rate for 2019? What is the average compounded inflation rate for 2014–2019?
+
+10. GDP Growth (LO2, CFA2) Consider the following information on GDP and CPI for an economy over the last three years:
+
+GDP ($ billions)	CPI
+2017	125.4	105.3
+2018	136.1	106.1
+2019	138.2	106.4
+Calculate nominal GDP growth for 2018 and 2019.
+
+11. Real vs. Nominal (LO2, CFA2) Using the information from Problem 10, calculate the inflation rates and approximate real GDP growth rates for 2018 and 2019.
+
+12. Exchange Rates (LO2, CFA5) Suppose you want to convert U.S. dollars into Indian rupees. If you have $1,500,000 and the exchange rate is $.0245 per rupee, how many rupees will you receive in the conversion?
+
+13. Exchange Rates (LO2, CFA5) Suppose you are a U.S. investor who is planning to invest $125,000 in Japan. You do so at a starting exchange rate of 84.28¥/$. Your Japanese investment gains 7 percent, and the ending exchange rate is 82.56¥/$. What is your total return on this investment?
+
+14. Exchange Rates (LO2, CFA5) In Problem 13, what would the total return be if the ending exchange rate were 88.65¥/$? What does your answer tell you about the importance of currency fluctuations?
+
+15. Exchange Rates (LO2, CFA5) Suppose you are a U.S. investor who is planning to invest $785,000 in Mexico. Your Mexican investment gains 10 percent. If the exchange rate moves from 12.2 pesos per dollar to 12.5 pesos per dollar over the period, what is your total return on this investment?
+
+Spreadsheet Problems
+
+16. GDP Growth (LO2, CFA2) Assume the following. In 2008, the U.S. had real GDP of $15.6 trillion and the CPI was at 90.52. At the end of 2018, real GDP in the U.S. was $18.4 trillion and the CPI was at 103.42. Calculate the compounded (i.e., geometric) growth rate for this 10-year period.
+
+17. Exchange Rates (LO2, CFA5) You are a U.S. investor who invested $420,000 in India five years ago. Assume that your investment gained 7 percent per year. If the exchange rate moved from 70.1 rupees per dollar to 72.4 rupees per dollar over the five-year period, what was your total return on this investment?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA5, CFA6]
+
+Mary Smith, a Level II CFA candidate, was recently hired for an analyst position at The Bank of Ireland. Her first assignment was to examine the competitive strategies employed by various French wineries. Ms. Smith is eager to impress her boss, Ms. R. D. Van Eaton, and has taken care to make sure she is following the CFA Institute Standards of Practice when writing her research report. Ms. Smith’s report identifies four wineries that are the major players in the French wine industry. Key characteristics of each are cited in Figure 1.
+
+Characteristics of Four Major French Wineries
+
+FIGURE 1
+
+
+In the body of Ms. Smith’s report, she includes a discussion of the competitive structure of the French wine industry. She notes that over the past five years, the French wine industry has not responded to changing consumer tastes. Profit margins have declined steadily, and the number of firms representing the industry has decreased from 10 to 4. It appears that participants in the French wine industry must consolidate in order to survive.
+
+page 676
+
+Ms. Smith’s report notes that French consumers have strong bargaining power over the industry. She supports this conclusion with five key points.
+
+Bargaining Power of Buyers
+
+With meals and at social occasions, many consumers are drinking more beer than wine.
+
+Increasing sales over the internet have allowed consumers to research wines, read opinions from other customers, and identify which producers have the best prices.
+
+The French wine industry is consolidating and consists of only 4 wineries today, compared to 10 wineries five years ago.
+
+Over 65 percent of the business for the French wine industry consists of restaurant purchases. Restaurants typically make bulk purchases, buying four to five cases of wine at a time.
+
+Land in France where the soil is fertile enough to grow grapes necessary for wine production is becoming harder to find.
+
+After completing the first draft of her report, Ms. Smith takes it to Ms. Van Eaton to review. Ms. Van Eaton tells her that she is a wine connoisseur herself and often makes purchases from the South Winery. Ms. Smith tells Ms. Van Eaton, “In my report, I have classified the South Winery as a stuck-in-the-middle firm. It tries to be a cost leader by selling its wine at a price that is slightly below the other firms, but it also tries to differentiate itself from its competitors by producing wine in bottles with curved necks, which increases its cost structure. The end result is that the South Winery’s profit margin gets squeezed from both sides.” Ms. Van Eaton replies, “I have met members of the management team from the South Winery at a couple of the wine conventions. I believe that the South Winery could succeed at both being a cost leader and having a differentiation strategy if the winery separated its operations into distinct operating units, with each unit pursuing a different competitive strategy.” Ms. Smith makes a note to do more research on generic competitive strategies to verify Ms. Van Eaton’s assertions before publishing the final draft of her report.
+
+If the French home currency were to greatly appreciate in value compared to the English currency, what is the likely impact on the East Winery?
+
+It will make the firm less competitive in the English market.
+
+It will have no impact since the major market for East Winery is England, not France.
+
+It will make the firm more competitive in the English market.
+
+Ms. Smith would likely categorize the French wine industry into which of the following life-cycle phases?
+
+Decline phase
+
+Pioneer phase
+
+Mature phase
+
+Ms. Van Eaton tells Ms. Smith that she likes the fact that the conclusions in her report are backed up with facts, but she tells her that she is concerned about the section concerning the bargaining power of buyers. She says that while all of the points she listed may be factual, they do not all support her conclusion. Which of Ms. Smith’s points support the conclusion that consumers have strong bargaining power over the industry?
+
+Points 2, 3, and 4
+
+Points 2 and 4
+
+Points 1, 2, and 4
+
+Regarding Ms. Smith’s and Ms. Van Eaton’s statements made about the competitive strategy of the South Winery:
+
+Both are incorrect.
+
+Both are correct.
+
+Only one is correct.
+
+What’s on the Web?
+
+Exchange Rates Go to xe.com and find the current euro/dollar exchange rate. If you had $75,000, how many euros would that be worth at the current exchange rate?
+
+Industry Analysis Use the heat map at finviz.com/map.ashx to determine which sectors are currently the strongest and weakest in the S&P 500.
+
+Industry Analysis Visit msci.com/gics and click on “GICS Structure & Sub-Industry Definitions.” Find the code for the Coal and Consumable Fuels sub-industry.

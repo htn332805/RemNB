@@ -1,0 +1,1586 @@
+page 172
+
+PART 2
+
+Common Stock Valuation
+
+
+
+“If a business is worth a dollar and I can buy it for 40 cents, something good may happen to me.”
+
+–Warren Buffett
+
+“Prediction is difficult, especially about the future.”
+
+–Niels Bohr1
+
+Learning Objectives
+
+Separate yourself from the commoners by having a good understanding of these security valuation methods:
+
+The basic dividend discount model.
+
+The two-stage dividend growth model.
+
+The residual income and free cash flow models.
+
+Price ratio analysis.
+
+Common stock valuation is one of the most challenging tasks in financial analysis. A fundamental assertion of finance holds that the value of an asset is based on the present value of its future cash flows. Accordingly, common stock valuation attempts the difficult task of predicting the future. Consider that the dividend yield for a typical large-company stock might be about 2 percent. This implies that the present value of dividends to be paid over the next 10 years constitutes only a portion of the current stock price. Thus, much of the value of a typical stock is derived from dividends to be paid more than 10 years away!
+
+CFATM Exam Topics in This Chapter:
+
+Financial reporting quality (L1, S9)
+
+Cost of capital (L1, S10)
+
+Overview of equity securities (L1, S15)
+
+Equity valuation: Concepts and basic tools (L1, S15)
+
+Equity valuation: Applications and processes (L2, S9)
+
+Discounted dividend valuation (L2, S10)
+
+Free cash flow valuation (L2, S11)
+
+Market-based valuation: Price and enterprise value multiples (L2, S11)
+
+Residual income valuation (L2, S11)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 173
+
+In this chapter, we examine several methods commonly used by financial analysts to assess the economic value of common stocks. These methods are grouped into two categories: discount models and price ratio models. After studying these models, we provide an analysis of a real company to illustrate the use of the methods discussed in this chapter.
+
+6.1 Security Analysis: Be Careful Out There
+It may seem odd that we start our discussion with an admonition to be careful, but in this case, we think it is a good idea. The methods we discuss in this chapter are examples of those used by many investors and security analysts to assist in making buy and sell decisions for individual stocks. The basic idea is to identify both “undervalued” or “cheap” stocks to buy and “overvalued” or “rich” stocks to sell. In practice, however, many stocks that look cheap may in fact be correctly priced for reasons not immediately apparent to the analyst. Indeed, the hallmark of a good analyst is a cautious attitude and a willingness to probe further and deeper before committing to a final investment recommendation.
+
+The type of security analysis we describe in this chapter falls under the heading of fundamental analysis. Numbers such as a company’s earnings per share, cash flow, book equity value, and sales are often called fundamentals because they describe, on a basic level, a specific firm’s operations and profits (or lack of profits).
+
+fundamental analysis
+
+Examination of a firm’s accounting statements and other financial and economic information to assess the economic value of a company’s stock.
+
+Fundamental analysis represents the examination of these and other accounting statement–based company data used to assess the value of a company’s stock. Information regarding such things as management quality, products, and product markets is often examined as well.
+
+We urge you to be cautious when you apply these techniques. Further, the simpler the technique, the more cautious you should be. As our later chapter on market efficiency explains, there is good reason to believe that simple techniques that rely on widely available information are not likely to yield systematically superior investment results. In fact, they could lead to unnecessarily risky investment decisions. This is especially true for ordinary investors (like most of us) who do not have timely access to the information that a professional security analyst working for a major securities firm would possess.
+
+As a result, our goal here is not to teach you how to “pick” stocks with a promise that you will become rich. Certainly, one chapter in an investments text is not likely to be sufficient to acquire that level of investment savvy. Still, an appreciation of the techniques in this chapter is important because buy and sell recommendations made by securities firms are frequently couched in the terms we introduce here. Much of the discussion of individual companies in the financial press relies on these concepts as well, so some background is necessary to interpret commonly presented investment information. In essence, you must learn both the jargon and the concepts of security analysis.
+
+Visit the CFA Society New York website at
+cfany.org.
+
+CHECK THIS
+
+
+
+6.1aWhat is fundamental analysis?
+
+6.1bWhat is a “rich” stock? What is a “cheap” stock?
+
+6.1cWhy does valuing a stock necessarily involve predicting the future?
+
+6.2 The Dividend Discount Model
+A fundamental principle of finance says that the value of a security equals the sum of its future cash flows, where the cash flows are adjusted for risk and the time value of money. A popular model used to value common stock is the dividend discount model, or DDM. The dividend discount model values a share of stock as the sum of all expected future dividend payments, where the dividends are adjusted for risk and the time value of money.
+
+dividend discount model (DDM)
+
+Method of estimating the value of a share of stock as the present value of all expected future dividend payments.
+
+For example, suppose a company pays a dividend at the end of each year. Let DT denote a dividend to be paid T years from now and let P0 represent the present value of the future page 174dividend stream. Also, let k denote the appropriate risk-adjusted discount rate. Using the dividend discount model, the present value of a share of this company’s stock is measured as this sum of discounted future dividends:
+
+
+In Equation 6.1, we assume that the last dividend is paid T years from now. The value of T depends on the time of the terminal, or last, dividend. Thus, if T = 3 years and D1 = D2 = D3 = $100, the present value, P0, is stated as:
+
+
+If the discount rate is k = 10 percent, then a quick calculation yields P0 = $248.69. Thus, the stock price should be about $250 per share.
+
+Check out the American Association of Individual Investors website at
+aaii.com.
+
+Using the Dividend Discount Model
+
+EXAMPLE 6.1
+
+Suppose again that a stock pays three annual dividends of $100 per year and the discount rate is k = 15 percent. In this case, what is the price of the stock today?
+
+With a 15 percent discount rate, we have:
+
+
+Check that the answer is P0 = $228.32.
+
+Using the Dividend Discount Model Again
+
+EXAMPLE 6.2
+
+Suppose instead that the stock pays three annual dividends of $10, $20, and $30 in Years 1, 2, and 3, respectively, and the discount rate is k = 10 percent. What is the price of the stock today?
+
+In this case, we have:
+
+
+Check that the answer is P0 = $48.16.
+
+CONSTANT PERPETUAL GROWTH
+A particularly simple and useful form of the dividend discount model is called the constant perpetual growth model. In this case, we assume the firm will pay dividends that grow at the constant rate g forever. In the constant perpetual growth model, stock prices are calculated using this formula:
+
+
+constant perpetual growth model
+
+A version of the dividend discount model in which dividends grow forever at a constant rate, and the growth rate is strictly less than the discount rate.
+
+Because D0(1 + g) = D1, we can also write the constant perpetual growth model as:
+
+
+Try surfing to the CFA Institute website at
+cfainstitute.org.
+
+Either way, we have a very simple, and very widely used, formula for the price of a share of stock based on its future dividend payments.
+
+Notice that the constant perpetual growth model requires that the growth rate be strictly less than the discount rate, that is, g < k. It looks as if the share value would be negative if this were not true. Actually, the formula is not valid in this case. The reason is that a perpetual dividend growth rate greater than the discount rate implies an infinite value because the present page 175value of the dividends keeps getting bigger and bigger. Because no security can have infinite value, the requirement that g < k makes good economic sense.
+
+To illustrate the constant perpetual growth model, suppose that the growth rate is g = 4 percent, the discount rate is k = 9 percent, and the current dividend is D0 = $10. In this case, a simple calculation yields:
+
+
+Using the Constant Perpetual Growth Model
+
+EXAMPLE 6.3
+
+Suppose dividends for a particular company are projected to grow at 5 percent forever. If the discount rate is 15 percent and the current dividend is $10, what is the value of the stock?
+
+
+With these inputs, the stock should sell for $105.
+
+HOW DO WE GET THE FORMULA FOR CONSTANT PERPETUAL GROWTH? Good question. Many people wonder how such a simple-looking formula, Equation 6.3, emerges when we add up an infinite number of dividends. Recall that perpetual dividend growth means that dividends will grow forever. This means today’s stock price, P0, equals:
+
+
+Equation 6.4 says that the stock price today is equal to the sum of the discounted amounts of all future dividends. To get the formula for today’s stock price when assuming constant perpetual growth, we begin by multiplying both sides of Equation 6.4 by the amount [(1 + g)/(1 + k)]. Equation 6.4 then becomes:
+
+
+Then, we subtract Equation 6.5 from Equation 6.4. If you look closely, you can see that when we do this, we can cancel a lot of terms. In fact, we can cancel all the terms on the right side of Equation 6.5 and all but the first term on the right side of Equation 6.4. Using a little bit of algebra, we show what happens when we subtract Equation 6.5 from Equation 6.4:
+
+
+page 176
+
+Now you know how we get a formula for the price of a share of stock when we assume that dividends grow at a constant rate forever. We apply this formula in the following section.
+
+APPLICATIONS OF THE CONSTANT PERPETUAL GROWTH MODEL In practice, the constant perpetual growth model is the most popular dividend discount model because it is so simple to use. Certainly, the model satisfies Einstein’s famous dictum: “Simplify as much as possible, but no more.” However, experienced financial analysts are keenly aware that the constant perpetual growth model can be usefully applied only to companies with a history of relatively stable earnings and dividends that are expected to continue to grow into the distant future.
+
+Visit the AEP and DTE websites at
+aep.com
+and
+dteenergy.com.
+
+A standard example of an industry for which the constant perpetual growth model can often be usefully applied is the electric utility industry. Consider American Electric Power, which is traded on the New York Stock Exchange under the ticker symbol AEP. In early 2019, AEP was paying an annual dividend of $2.68; thus, we set D0 = $2.68.
+
+To use the constant perpetual growth model, we also need a discount rate and a growth rate. An old quick-and-dirty rule of thumb for a risk-adjusted discount rate for electric utility companies is the yield to maturity on 20-year-maturity U.S. Treasury bonds, plus 2 percent. At the time this example was written, the yield on 20-year-maturity T-bonds was just under 3 percent. Adding 2 percent, we get a discount rate of k = 5 percent.
+
+Over the past 15 years, AEP has increased its dividend by about 3 percent per year. This growth rate is consistent with the projected earnings growth rate for the overall electric utilities industry.
+
+Putting it all together, we have k = 5 percent, g = 3 percent, and D0 = $2.68. Using these numbers, we obtain this estimate for the value of a share of AEP stock:
+
+
+This estimate is well above the early 2019 AEP stock price of $73.05, possibly suggesting that AEP stock was undervalued.
+
+We emphasize the word “possibly” here because we made several assumptions in the process of coming up with this estimate. A change in any of these assumptions could easily lead us to a different conclusion. In particular, we made assumptions about the discount rate, the growth rate, and the steady nature of dividend growth. What happens when we change these assumptions? We will return to this point several times in future discussions.
+
+Valuing DTE Energy Co.
+
+EXAMPLE 6.4
+
+In 2019, the utility company DTE Energy (DTE) paid a $3.78 dividend. Using D0 = $3.78, k = 5 percent, and an industry average growth rate of g = 2 percent, calculate a present value estimate for DTE. Compare this with the early 2019 DTE stock price of $109.17.
+
+Plugging in the relevant numbers, we immediately have:
+
+
+This estimate is higher than the early 2019 DTE stock price of $109.17, possibly suggesting that DTE stock was undervalued.
+
+HISTORICAL GROWTH RATES
+In the constant growth model, a company’s historical average dividend growth rate is frequently taken as an estimate of future dividend growth. Sometimes historical growth rates are provided in published information about the company. Other times it is necessary to calculate a historical growth rate yourself. There are two ways to do this: (1) using a geometric average dividend growth rate or (2) using an arithmetic average dividend growth rate. As we will show, both methods are relatively easy to use.
+
+geometric average dividend growth rate
+
+A dividend growth rate based on a geometric average of historical dividends.
+
+arithmetic average dividend growth rate
+
+A dividend growth rate based on an arithmetic average of historical dividends.
+
+page 177
+
+To show the difference between a geometric average and an arithmetic average of historical dividend growth, suppose that The Broadway Joe Company paid the following dividends at the end of each of these years:
+
+2019:	$2.20
+2018:	  2.00
+2017:	  1.80
+2016:	$1.75
+2015:	  1.70
+2014:	  1.50
+We begin with a geometric average growth rate because it is easier to calculate. Notice that five years elapsed between the $1.50 dividend paid at the end of 2014 and the $2.20 dividend paid at the end of 2019. A geometric average growth rate is equivalent to a constant rate of growth over the five-year period that would grow the dividend from $1.50 to $2.20. That is, it is the growth rate that solves this growth equation:
+
+
+Thus, in this case, the five-year geometric average dividend growth rate is 8 percent. Notice that this calculation is similar to our calculation of the geometric average return in Chapter 1.
+
+In general, if D0 is the earliest dividend used and DN is the latest dividend used to calculate a geometric average dividend growth rate over N years, the general equation used is:
+
+
+In the above example, D0 = $1.50, DN = $2.20, and N = 5, which yields g = 8 percent.
+
+An arithmetic average growth rate takes a little more effort to calculate because it requires that we first calculate each year’s dividend growth rate separately and then calculate an arithmetic average of these annual growth rates. For our Broadway Joe example, the arithmetic average of five years of dividend growth is calculated as follows:
+
+Year	Dividend	Yearly Growth Rate
+2019	$2.20	10.00% = (2.20 – 2.00)/2.00
+2018	2.00	11.11% = (2.00 – 1.80)/1.80
+2017	1.80	2.86% = (1.80 – 1.75)/1.75
+2016	1.75	2.94% = (1.75 – 1.70)/1.70
+2015	1.70	13.33% = (1.70 – 1.50)/1.50
+2014	1.50	
+SUM/N = 40.24%/5 = 8.05%
+The sum of the five yearly growth rates is 40.24%. Dividing by five yields an arithmetic average growth rate of 40.24%/5 = 8.05%. Notice that this arithmetic average growth rate is close to the geometric average growth rate of 8.0 percent. This is usually the case for dividend growth rates, but not always.
+
+Remember that geometric averages are always less than or equal to arithmetic averages. The size of the difference depends on the volatility of the returns of the underlying asset. A large difference between the two averages implies that the dividend growth was erratic. An irregular growth pattern calls into question the use of the geometric, or constant growth, formula.
+
+Erratic Dividend Growth
+
+EXAMPLE 6.5
+
+To illustrate how the geometric average and the arithmetic average of historical dividend growth can differ, consider the following dividends paid by the Joltin’ Joe Company:
+
+2019:	$2.20
+2018:	  2.00
+2017:	  1.80
+2016:	$2.00
+2015:	  1.50
+2014:	  1.50
+page 178
+
+Because the starting and ending dividend amounts are the same as they are in the Broadway Joe example, the geometric growth rate is still 8 percent.
+
+For Joltin’ Joe’s pattern of dividends, the five-year arithmetic average of dividend growth is calculated as follows:
+
+Year	Dividend	Yearly Growth Rate
+2019	$2.20	10.00% = (2.20 – 2.00)/2.00
+2018	2.00	11.11% = (2.00 – 1.80)/1.80
+2017	1.80	–10.00% = (1.80 - 2.00)/2.00
+2016	2.00	33.33% = (2.00 – 1.50)/1.50
+2015	1.70	0.00% = (1.50 – 1.50)/1.50
+2014	1.50	
+44.44%/5 = 8.89%
+In this case, the sum of the five yearly growth rates is 44.44 percent. Dividing by five yields an arithmetic average growth rate of 44.44%/5 = 8.89%. Notice that this arithmetic average growth rate is somewhat larger than the geometric average growth rate of 8.0 percent, which you can verify using Equation 6.7.
+
+As the Joltin’ Joe example shows, sometimes the arithmetic and geometric growth rate averages can yield rather different results. In practice, most analysts prefer to use a geometric average when calculating an average historical dividend growth rate. In any case, a historical average growth rate might or might not be a reasonable estimate of future dividend growth. Many analysts adjust their estimates to reflect other information available to them (for example, whether the growth rate appears to be sustainable).
+
+THE SUSTAINABLE GROWTH RATE
+As we have seen, when using the constant perpetual growth model, it is necessary to come up with an estimate of g, the growth rate of dividends. In our previous discussions, we described how to do this using the company’s historical average growth rate. We now describe a second way, using the sustainable growth rate, which involves using a company’s earnings to estimate g.
+
+sustainable growth rate
+
+A dividend growth rate that can be sustained by a company’s earnings.
+
+As we have discussed, a limitation of the constant perpetual growth model is that it should be applied only to companies with stable dividend and earnings growth. Essentially, a company’s earnings can be paid out as dividends to its stockholders or kept as retained earnings within the firm to finance future growth. The proportion of earnings paid to stockholders as dividends is called the payout ratio. The proportion of earnings retained for reinvestment is called the retention ratio.
+
+retained earnings
+
+Earnings retained within the firm to finance growth.
+
+payout ratio
+
+Proportion of earnings paid out as dividends.
+
+retention ratio
+
+Proportion of earnings retained for reinvestment.
+
+If we let D stand for dividends and EPS stand for earnings per share, then the payout ratio is D/EPS. Because anything not paid out is retained, the retention ratio is just 1 minus the payout ratio. For example, if a company’s current dividend is $4 per share and its EPS is currently $10, then the payout ratio is $4/$10 = .40, or 40 percent, and the retention ratio is 1 − .40 = .60, or 60 percent.
+
+A firm’s sustainable growth rate is equal to its return on equity (ROE) times its retention ratio:2
+
+
+Return on equity is commonly computed using an accounting-based performance measure and is calculated as a firm’s net income divided by shareholders’ equity:
+
+
+page 179
+
+Calculating Sustainable Growth
+
+EXAMPLE 6.6
+
+In 2019, American Electric Power (AEP) had a return on equity (ROE) of 10.5 percent, had earnings per share (EPS) of $3.97, and paid dividends of D0 = $2.68. What was AEP’s retention rate? Its sustainable growth rate?
+
+AEP’s dividend payout was $2.68/$3.97 = .675, or about 67.5 percent. Its retention ratio was thus 1 − .675 = .325, or 32.5 percent. Finally, AEP’s sustainable growth rate was .105 × .325 = .0341, or 3.41 percent.
+
+Valuing American Electric Power (AEP)
+
+EXAMPLE 6.7
+
+Using AEP’s sustainable growth rate of 3.41 percent (see Example 6.6) as an estimate of perpetual dividend growth and its current dividend of $2.68, what is the value of AEP’s stock assuming a discount rate of 5 percent?
+
+Using the constant growth model, we obtain a value of $2.68(1.0341)/(.05 − .0341) = $174.30 (or $174.51 without rounding the growth rate). Clearly, something is wrong because the actual price was $73.05. Can you identify some reasons for this difference?
+
+Valuing DTE Energy Co. (DTE)
+
+EXAMPLE 6.8
+
+In 2019, DTE had an ROE of 11.7 percent, EPS of $6.73, and a per-share dividend of D0 = $3.78. Assuming a 5 percent discount rate, what is the value of DTE’s stock?
+
+DTE’s payout ratio was $3.78/$6.73 = .562, or about 56.2 percent. Thus, DTE’s retention ratio was 1 − .562 = .438, or 43.8 percent. DTE’s sustainable growth rate is thus 11.7% × .438 = 5.13%.
+
+Well, we have a problem. Remember that the discount rate (k) must be greater than the growth rate (g ). In this case, k = 5 percent and g = 5.13 percent. Thus, we cannot use the perpetual dividend growth model.
+
+A common problem with sustainable growth rates is that they are sensitive to year-to-year fluctuations in earnings. As a result, security analysts routinely adjust sustainable growth rate estimates to smooth out the effects of earnings variations. Unfortunately, there is no universally standard method to adjust a sustainable growth rate, and analysts depend a great deal on personal experience and their own subjective judgment. Our Work the Web box contains more information on analyst-estimated growth rates.
+
+ANALYZING ROE
+Two factors are needed to estimate a sustainable growth rate: the dividend payout ratio and ROE. For most firms, dividend policy is relatively stable. Thus, any major changes in the firm’s sustainable growth rate likely stem from changes in ROE. Therefore, an understanding of ROE is critical when you are analyzing a stock price.
+
+You might recall from other finance classes that ROE, net income divided by equity, can be broken down into three components. This “decomposition” is so important that it has a name: the DuPont formula, because it was first used by the DuPont Company (now DowDuPont). The DuPont formula is:
+
+
+The DuPont formula shows that ROE has three parts. The first part is the firm’s net profit margin, which measures the amount of net income for each dollar of sales. The second part measures asset efficiency, and it is referred to as asset turnover. Asset efficiency measures how much revenue a firm gets from its assets. The third part is called the equity multiplier. The equity multiplier captures the amount of leverage (or debt) used by the firm. If the equity multiplier equals one, then the firm has no debt.
+
+page 180
+
+WORK THE WEB
+
+We discussed use of the sustainable growth formula to estimate a company’s growth rate; however, the formula is not foolproof. Changes in the variables of the model can have a dramatic effect on growth rates. One of the most important tasks of an equity analyst is estimating future growth rates. These estimates require a detailed analysis of the company. One place to find earnings and sales growth rates on the web is Yahoo! Finance at finance.yahoo.com. Here, we pulled up a quote for Coca-Cola (KO) and followed the “Analysis” link. Below you will see an abbreviated look at the results.
+
+As shown, analysts expect revenue (sales) to grow from $31.86 billion in 2018, to $32.98 billion in 2019, an increase of 3.5 percent.
+
+
+Source: Yahoo! Finance, accessed January 2019.
+
+You can now see the ways that managers of a firm can increase the firm’s sustainable growth rate. They can pay out a smaller percentage of the earnings. A lower payout ratio will increase the growth rate. If managers find ways to increase profitability or increase asset efficiency, ROE increases. Finally, managers can increase debt. The resulting increase in the equity multiplier means that ROE increases (assuming a positive profit margin). Looking at the sustainable growth rate formula, you can see that if ROE increases, so does the sustainable growth rate.
+
+Before we move on, it is important to note that valuations are not always just a result of company-specific factors. For example, Congress recently passed the Tax Cuts and Jobs Act of 2017. While there were many provisions, one key point was the reduction of corporate taxes to what effectively became a flat rate of 21 percent. How should this impact stock values? Well, if you consider the sustainable growth formula, you should expect prices to rise. Why? A lower tax rate, all else equal, means higher net income, which will lead to a higher ROE and a higher sustainable growth rate.
+
+CHECK THIS
+
+
+
+6.2aCompare the dividend discount model, the constant growth model, and the constant perpetual growth model. How are they alike? How do they differ?
+
+6.2bWhat is a geometric average growth rate? How is it calculated?
+
+6.2cWhat is a sustainable growth rate? How is it calculated?
+
+6.2dWhat are the components of ROE?
+
+page 181
+
+6.3 The Two-Stage Dividend Growth Model
+In the previous section, the dividend discount model used one growth rate. You might have already thought that a single growth rate is often unrealistic. You might be thinking that companies experience temporary periods of unusually high or low growth, with growth eventually converging to an industry average or an economy-wide average. In these cases, financial analysts frequently use a two-stage dividend growth model.
+
+two-stage dividend growth model
+
+A dividend discount model that assumes a firm will temporarily grow at a rate different from its long-term growth rate.
+
+A two-stage dividend growth model assumes that a firm will initially grow at a rate g1 during a first stage of growth lasting T years and thereafter grow at a rate g2 during a perpetual second stage of growth. The formula for the two-stage dividend growth model is stated as follows:
+
+
+Equation 6.11 has two parts. The first term on the right-hand side measures the present value of the first T dividends. The second term then measures the present value of all subsequent dividends, assuming that the dividend growth rate changes from g1 to g2 at Date T.
+
+Using the formula is mostly a matter of “plug and chug” with a calculator. For example, suppose a firm has a current dividend of $2 and dividends are expected to grow at the rate g1 = 20 percent for T = 5 years, and thereafter grow at the rate g2 = 5 percent. With a discount rate of k = 12 percent, the stock price today, P0, is calculated as:
+
+
+In this calculation, the total present value of $54.72 is the sum of a $12.36 present value for the first five dividends plus a $42.36 present value for all subsequent dividends.
+
+Using the Two-Stage Model
+
+EXAMPLE 6.9
+
+Suppose a firm has a current dividend of D0 = $5, which is expected to “shrink” at the rate g1 = −10 percent for T = 5 years and thereafter grow at the rate g2 = 4 percent. With a discount rate of k = 10 percent, what is the value of the stock?
+
+Using the two-stage model, the stock price today, P0, is calculated as:
+
+
+The total present value of $46.03 is the sum of a $14.25 present value of the first five dividends plus a $31.78 present value of all subsequent dividends.
+
+The two-stage growth formula requires that the second-stage growth rate be strictly less than the discount rate, that is, g2 < k. However, the first-stage growth rate g1 can be greater than, less than, or equal to the discount rate.
+
+Valuing American Express (AXP)
+
+EXAMPLE 6.10
+
+American Express trades on the New York Stock Exchange under the ticker symbol AXP. In 2019, AXP was paying a dividend of $1.56 and analysts forecasted five-year growth rates of 10.2 percent for AXP and 6 percent for the overall market. Assume that AXP grows at 10.2 percent for the next five years, then falls to the market growth page 182rate thereafter. If we use a discount rate of 12 percent, what value would we place on AXP?
+
+
+This present value estimate is much less than AXP’s early 2019 share price of $98.14. Is AXP overvalued? What other factors could explain the difference?
+
+Pepsi! Pepsi! Pepsi! (PEP)
+
+EXAMPLE 6.11
+
+Pepsi shares trade on the NASDAQ under the ticker symbol PEP. In 2019, Pepsi was paying a dividend of $3.71 and analysts forecasted a five-year growth rate of 6.95 percent for Pepsi and a 6 percent growth rate for the overall market. Suppose Pepsi grows at 6.95 percent for five years and then at 6 percent thereafter. Assuming a 12 percent discount rate, what value would we place on PEP?
+
+Plugging this information into the two-stage dividend growth model, we get:
+
+
+This estimate is about 38 percent below PEP’s early 2019 share price of $110.18.
+
+Suppose we try a second-stage growth rate of 7.5 percent and a discount rate of 11 percent. In this case, we get a price of $111.24 (check this for yourself). This new estimate is close to the actual price of PEP. This example illustrates how sensitive stock price estimates using dividend growth models can be to small changes in either the estimated growth rate or discount rate.
+
+Visit the AXP and PEP websites at
+americanexpress.com
+and
+pepsico.com.
+
+NONCONSTANT GROWTH IN THE FIRST STAGE
+The last case we consider is nonconstant growth in the first stage. As a simple example of nonconstant growth, consider the case of a company that is currently not paying dividends. You predict that, in five years, the company will pay a dividend for the first time. The dividend will be $.50 per share. You expect that this dividend will then grow at a rate of 10 percent per year indefinitely. The required return on companies such as this one is 20 percent. What is the price of the stock today?
+
+To see what the stock is worth today, we first find out what it will be worth once dividends are paid. We can then calculate the present value of that future price to get today’s price. The first dividend will be paid in five years, and the dividend will grow steadily from then on. Using the dividend growth model, we can say that the price in four years will be:
+
+
+If the stock will be worth $5 in four years, then we can get the current value by discounting this price back four years at 20 percent:
+
+
+The stock is therefore worth $2.41 today.
+
+page 183
+
+The problem of nonconstant growth is only slightly more complicated if the dividends are not zero for the first several years. For example, suppose that you have come up with the following dividend forecasts for the next three years:
+
+Year	Expected Dividend
+1	$1.00
+2	2.00
+3	2.50
+After the third year, the dividend will grow at a constant rate of 5 percent per year. The required return is 10 percent. What is the value of the stock today?
+
+In dealing with nonconstant growth, a time line can be very helpful. Figure 6.1 illustrates one for this problem. The important thing to notice is when constant growth starts. As we’ve shown, for this problem, constant growth starts at Time 3. This means that we can use our constant growth model to determine the stock price at Time 3, P3. By far the most common mistake in this situation is to incorrectly identify the start of the constant growth phase and, as a result, calculate the future stock price at the wrong time.
+
+Time Line
+
+FIGURE 6.1
+
+
+The value of the stock is the present value of all future dividends. To calculate this present value, we first have to compute the present value of the stock price three years down the road, just as we did before. We then have to add in the present value of the dividends that will be paid between now and then. So, the price in three years is:
+
+
+We can now calculate the total value of the stock as the present value of the first three dividends plus the present value of the price at Time 3, P3:
+
+
+The value of the stock today is thus $43.88.
+
+“Supernormal” Growth
+
+EXAMPLE 6.12
+
+Chain Reaction, Inc., has been growing at a phenomenal rate of 30 percent per year because of its rapid expansion and explosive sales. You believe that this growth rate will last for three more years and that the rate will then drop to 10 percent per year. If the growth rate then remains at 10 percent indefinitely, what is the total value of the stock? Total dividends just paid were $5 million, and the required return is 20 percent.
+
+page 184
+
+Chain Reaction’s situation is an example of supernormal growth. It is unlikely that a 30 percent growth rate can be sustained for any extended length of time. To value the equity in this company, we first need to calculate the total dividends over the supernormal growth period:
+
+Year	Total Dividends (in millions)
+1	$5.00 × 1.3 = $ 6.500
+2	6.50 × 1.3 = 8.450
+3	8.45 × 1.3 = 10.985
+The price at Time 3 can be calculated as:
+
+
+where g is the long-run growth rate. So we have:
+
+
+To determine the value today, we need the present value of this amount plus the present value of the total dividends:
+
+
+The total value of the stock today is thus $87.58 million. If there were, for example, 20 million shares, then the stock would be worth $87.58/20 = $4.38 per share.
+
+THE H-MODEL
+In Example 6.12, we assumed a supernormal growth rate of 30 percent per year for three years, and then growth at a perpetual 10 percent. For most firms, however, growth does not follow this disjointed path. The growth rate is more likely to start at a high level and then fall over time until reaching its perpetual level.
+
+There are many ways that we can assume the growth rate declines over time. One popular approach is the H-model, which assumes a linear decline in growth. To illustrate this decline, let’s look at our example again. Suppose the growth rate begins at 30 percent and reaches 10 percent in Year 4 and beyond. Using the H-model, we would assume that the company’s growth rate would decline by 20 percent from the end of Year 1 to the beginning of Year 4.
+
+If we assume a linear decline, then the growth rate would fall by 6.67 percent per year (= 20 percent/3 years). Using the H-model, our growth estimates would be 30, 23.33, 16.66, and 10 percent over Years 1 through 4, respectively. With these growth estimates, you can repeat Example 6.12. You should find that the firm value is $75.93 million, with a per-share value of $3.80. As we would expect, this value is lower than our initial estimate because we are assuming lower growth rates in Years 2 and 3 compared to the original example.
+
+DISCOUNT RATES FOR DIVIDEND DISCOUNT MODELS
+You may wonder where the discount rates used in the preceding examples come from. The answer is that they come from the capital asset pricing model (CAPM). Although a detailed discussion of the CAPM is deferred to a later chapter, we can point out here that, based on the CAPM, the discount rate for a stock can be estimated using this formula:
+
+
+The components of this formula, as we use it here, are defined as follows:
+
+U.S. T-bill rate:	Return on 90-day U.S. T-bills
+Stock beta:	Risk relative to an average stock
+Stock market risk premium:	Risk premium for an average stock
+page 185
+
+The basic intuition for this approach appears in Chapter 1. There we saw that the return we expect to earn on a risky asset had two parts, a “wait” component and a “worry” component. We labeled the wait component as the time value of money, and we noted that it can be measured as the return we earn from an essentially riskless investment. Here we use the return on a 90-day Treasury bill as the riskless return.
+
+We called the worry component the risk premium, and we noted that the greater the risk, the greater the risk premium. Depending on the exact period studied, the risk premium for the U.S. market as a whole over the past 90 or so years has averaged about 8.3 percent. This 8.3 percent can be interpreted as the risk premium for bearing an average amount of stock market risk. Remember, though, the risk premium has been neither constant through time nor consistent across countries. Based on recent history and global metrics, we proposed that a risk premium around 7 percent might be more applicable over the coming years.
+
+Finally, when we look at a particular stock, we recognize that it may be more or less risky than an average stock. A stock’s beta is a measure of a single stock’s risk relative to an average stock, and we discuss beta at length in a later chapter. For now, it suffices to know that the market average beta is 1.0. A beta of 1.5 indicates that a stock has 50 percent more risk than the average stock, so its risk premium is 50 percent higher. A beta of .50 indicates that a stock is 50 percent less risky than average and has a smaller risk premium.
+
+beta
+
+Measure of a stock’s risk relative to the stock market average.
+
+Over time, T-bill rates have averaged about 4 percent, although they have been much lower in recent years. Taking the concept of stock beta as given for now, a stock beta of .8 yields an estimated discount rate of 4.0% + (.8 × 7%) = 9.6%. Similarly, a stock beta of 1.2 yields the discount rate of 4.0% + (1.2 × 7%) = 12.4%. For the remainder of this chapter, we will use discount rates calculated according to this CAPM formula.
+
+OBSERVATIONS ON DIVIDEND DISCOUNT MODELS
+We have examined three dividend discount models: the constant perpetual growth model, the two-stage dividend growth model, and the nonconstant growth model. Each model has advantages and disadvantages. Certainly, the main advantage of the constant perpetual growth model is that it is simple to compute. However, it has several disadvantages: (1) it is not usable for firms not paying dividends, (2) it is not usable when the growth rate is greater than the discount rate, (3) it is sensitive to the choice of growth rate and discount rate, (4) discount rates and growth rates may be difficult to estimate accurately, and (5) constant perpetual growth is often an unrealistic assumption.
+
+The two-stage dividend growth model offers several improvements: (1) it is more realistic since it accounts for low, high, or zero growth in the first stage, followed by constant long-term growth in the second stage; and (2) it is usable when the first-stage growth rate is greater than the discount rate. The two-stage model, however, is also sensitive to the choice of discount rate and growth rates. Also, it is not useful for companies that don’t pay dividends, but this limitation applies to dividend models in general.
+
+Financial analysts readily acknowledge the limitations of dividend discount models. Consequently, they also turn to other valuation methods to expand their analyses. In the next few sections, we discuss some popular stock valuation methods based on residual income, free cash flow, and price ratios.
+
+CHECK THIS
+
+
+
+6.3aWhat are the three parts of a CAPM-determined discount rate?
+
+6.3bUnder what circumstances is a two-stage dividend discount model appropriate?
+
+6.4 The Residual Income Model
+To this point, we have been valuing only firms that pay dividends. What about the many companies that don’t pay dividends? As it turns out, there is an elegant and simple model that we can use.
+
+page 186
+
+RESIDUAL INCOME
+At the beginning of any period, we can think of the book, or the accounting, equity in a firm as representing the total amount of money that stockholders have tied up in the company. Let Bt−1 stand for the book equity per share at the beginning of a period that ends at Time t. Over the period, the stockholders have a required return on that investment of k. Thus, the required return in dollars, or required earnings per share (REPS), during the period that ends at Time t is:
+
+
+The difference between actual earnings, EPSt, and required earnings, REPSt, during a period is called the residual income, RI, and is given by:
+
+
+Residual income is sometimes called economic value added, or EVA for short. It is also called “abnormal” earnings. Whatever it is called, it is the excess of actual earnings over required earnings. We can also think of it as the value created by a firm in Period t.
+
+economic value added (EVA)
+
+A financial performance measure based on the difference between a firm’s actual earnings and required earnings.
+
+Next, we can write the value of a share of stock as the sum of two parts. The first part is the current book value of the firm (i.e., what is currently invested). The second part is the present value of all future residual earnings. That is:
+
+
+When we developed the constant perpetual growth model for dividend-paying stocks, we made the simplifying assumption that dividends grow at a constant rate of g. Here we make the similar assumption that earnings grow at a constant rate of g. With this assumption, we can simplify Equation 6.13 to:
+
+
+Equation 6.14 is known as the residual income model, or RIM. If we write both terms in Equation 6.14 with a common denominator, we get another way to write the residual income model:
+
+
+residual income model (RIM)
+
+A method for valuing stock in a company that does not pay dividends.
+
+THE RIM VERSUS THE CONSTANT GROWTH DDM
+The RIM is closely related to the constant perpetual growth dividend model. To see the connection, assume that the change in book value per share on a stock is equal to earnings per share minus dividends. This is known as the clean surplus relationship (CSR), written as:
+
+
+clean surplus relationship (CSR)
+
+An accounting relationship in which earnings minus dividends equals the change in book value per share.
+
+Note that in practice the CSR does not exactly hold because various “dirty” surplus changes to book equity are allowed. But it is usually a good approximation, particularly over the long run.
+
+Assuming that earnings and dividends per share grow at rate g, the CSR shows that book value per share must also grow at rate g, so we can write:
+
+
+Plugging the expression for D1 from Equation 6.16 into Equation 6.15, we see right away that the residual income model is mathematically the same as the constant perpetual growth model:
+
+
+So these two approaches are really the same, but the RIM is more flexible because we can apply it to any stock, not just dividend payers.
+
+Although we do not present them, there are other forms of the RIM. For example, a two-stage residual income model incorporates two different periods of growth. Also, the case of page 187nonconstant growth for a number of years followed by constant growth can be handled by another form of the residual income model.
+
+As with any model, the RIM is most appropriate for certain types of firms. For example, the focus on book value implies that the RIM might not be appropriate for industries with a large amount of intangible assets that don’t show up on the balance sheet, such as a technology company. For insurance and financial firms, however, the RIM might be a good choice because their assets turn over quickly. The quicker the asset turnover, the closer book value is to actual market value.
+
+Just Ducky
+
+EXAMPLE 6.13
+
+Suppose we are evaluating Quackenbush, Inc. (or DUCK for short). In our analysis, we find that DUCK pays no dividends, so we conclude that we cannot use a dividend discount model. Thus, we decide to calculate a value using a residual income model, for which we collected the following data:
+
+Share Information	July 1, 2019 (Time 0)
+EPS0	$1.20
+Dividends	$0
+Book value per share, B0	$5.886
+Assume that it is July 1, 2019, and DUCK shares are trading at $10.94. Also assume that g = 9 percent and k = 13 percent. Using the residual income model:
+
+
+Verify this price using Equation 6.15. Be careful to use g, not (1 + g). Is the market price for DUCK shares too low? If you say yes, what are you assuming about the values for g and k?
+
+The Growth of DUCK
+
+EXAMPLE 6.14
+
+Using the relevant data in Example 6.13 and the residual income model, what growth rate g results in a price of $10.94?
+
+
+CHECK THIS
+
+
+
+6.4aWhat does the residual income model do that the perpetual constant growth model cannot do?
+
+6.4bWhat is the critical assumption that makes the residual income model mathematically equal to the perpetual constant growth model?
+
+page 188
+
+6.5 The Free Cash Flow Model
+The residual income model allows us to value companies that do not pay dividends. But when we used the residual income model, we assumed that the company had positive earnings. Some companies do not pay dividends and have negative earnings. How do we value them? You might think that such companies have little value. Remember that we calculate earnings based on accounting rules that use tax codes. Even though a company has negative earnings, it may have positive cash flows—and a positive value.
+
+The key to understanding how a company can have negative earnings and positive cash flows is how we handle depreciation—the writing down of assets. Depreciation reduces earnings, but it impacts cash flow positively because depreciation is counted as an expense. Higher expenses mean lower taxes paid, all else equal. To value companies when we account for depreciation, we turn to a model that examines “free cash flow.”
+
+FREE CASH FLOW
+Free cash flow (FCF) converts reported earnings into cash flow by adjusting for items that impact earnings and cash flows differently. Formal models can be used to calculate free cash flow (you probably saw some of them in your corporate finance class). Most stock analysts, however, use a relatively simple formula to calculate firm FCF. Specifically, we define FCF as:
+
+
+From this equation, you can see how it is possible for a company to have negative earnings (i.e., EBIT, earnings before interest and taxes) but have a positive (free) cash flow. Of course, if the company undertakes a large capital expenditure or has a large increase in net working capital, it can have positive earnings and a negative cash flow.
+
+Most analysts agree that in examining a company’s financial performance, cash flow can be more informative than net income. To see why, consider the hypothetical example of two identical companies: Twiddle-Dee Co. and Twiddle-Dum Co. Suppose that both companies have the same constant revenues and expenses in each year over a three-year period. Also, suppose each company has no debt (and therefore no interest expense), no capital expenditures (CAPEX), and no change in net working capital (NWC). These constant revenues and cash expenses (excluding depreciation) yield the same constant annual cash flows, and they are stated as follows:
+
+ 	Twiddle-Dee	Twiddle-Dum
+Revenues	$ 5,000	$ 5,000
+Cash expenses	  −3000	  −3000
+Cash flow	  $2000	  $2000
+Thus, both companies have the same $2,000 cash flow in each of the three years of this hypothetical example.
+
+Next, suppose that both companies incur total depreciation of $3,000 spread out over the three-year period. Standard accounting practices sometimes allow a manager to choose among several depreciation schedules. Twiddle-Dee Co. chooses straight-line depreciation, and Twiddle-Dum Co. chooses accelerated depreciation. These two depreciation schedules are shown below:
+
+ 	Twiddle-Dee	Twiddle-Dum
+Year 1	  $1000	  $1500
+Year 2	    1000	    1000
+Year 3	    1000	     500
+Total	$ 3,000	$ 3,000
+page 189
+
+Note that total depreciation over the three-year period is the same for both companies. However, Twiddle-Dee Co. has the same $1,000 depreciation in each year, while Twiddle-Dum Co. has accelerated depreciation of $1,500 in the first year, $1,000 in the second year, and $500 depreciation in the third year.
+
+Now let’s look at the resulting annual cash flows and net income figures for the two companies, recalling that in each year Cash flow = Net income + Depreciation (when capital expenditures, interest expense, and change in NWC all = 0):
+
+
+Note that Twiddle-Dum Co.’s net income is lower in the first year and higher in the third year than Twiddle-Dee Co.’s net income. This is purely a result of Twiddle-Dum Co.’s accelerated depreciation schedule and has nothing to do with Twiddle-Dum Co.’s actual profitability. However, an inexperienced analyst observing Twiddle-Dum Co.’s rapidly rising annual earnings figures might incorrectly label Twiddle-Dum as a growth company. An experienced analyst would observe that there was no cash flow growth to support this naive conclusion.
+
+THE FCF MODEL VERSUS THE CONSTANT GROWTH DDM
+A basic finance principle is that the price of an asset should equal the present value of its expected future cash flows. The dividend discount model (DDM) assumed that dividends were the relevant cash flow for equity investors, which is a valid approach. What differs when we look at firm FCF? Well, as opposed to dividends, which are paid directly to stockholders, FCF could be used to pay off debt holders and stockholders. Thus, when we use the FCF approach, we are valuing the entire company, not just its equity.
+
+You should remember the basic accounting identity: Assets = Liabilities + Equity. With the DDM, we can value equity directly. With firm FCF, we are actually valuing the overall market value of the company’s assets. We can, however, use the FCF approach to value equity, too. The approach has two steps. First, we find the value of the company, and then we subtract the value of the company’s debt. We are left with our estimate of the equity value:
+
+
+There is another issue to consider. Specifically, when we estimate the required return for the DDM using the CAPM, we use the company’s equity beta. If we are valuing the entire company, however, we need to use the “asset” beta.
+
+A beta measures risk. In a later chapter we discuss betas at length, but for now all you need to know about betas is that they measure risk. Asset betas measure the risk of the industry to which the company belongs. Two firms in the same industry should have approximately the same asset betas. Their equity betas, however, could be quite different. Why? As we saw in an earlier chapter, investors can increase portfolio risk by using margin (i.e., borrowing money to buy stock). A business can do the same by using debt in its capital structure. So, when we value the company, we must “convert” reported equity betas into asset betas by adjusting for the amount of leverage being used. The following formula is one way to accomplish this conversion:
+
+
+Note that when a company has no debt, its equity beta equals its asset beta. Also notice that a higher amount of debt increases the equity beta. This increase makes sense because stockholders face more risk when the company takes on more debt. All else equal, the cash flows to stockholders are more risky when the company has more debt.
+
+page 190
+
+Note that we account for the tax rate, t. We do so because the interest cost on the debt is tax deductible. Because the company can deduct interest as an expense, the government effectively subsidizes part of the cost of debt. This subsidy creates a more stable cash flow associated with debt, thereby reducing risk for the equity holders, all else equal. In an extreme example, the government might return money to a company that has a negative taxable income.
+
+Once we have an estimate of FCF, the growth rate of FCF, and the proper discount rate, we can value the company using, for example, a “DDM” formula. We have “DDM” in quotes because we are using firm FCF, not dividends, in the formula. Equation 6.20 summarizes this approach.
+
+
+In Equation 6.20, FCF is the firm-level free cash flow from Equation 6.17. Warning! In Equation 6.20, k and g do represent discount and growth rates, respectively. Note, however, that these two rates are not the same values as those in the formulas where we use dividends. In Equation 6.20, k is the discount rate based on an asset beta and g is the estimate of the growth in FCF. Example 6.15 shows you how to value a company using this approach.
+
+To be consistent in estimating k, we continue to use the CAPM. In this case, however, we use a calculated asset beta, as in Equation 6.19. Note, however, that with the free cash flow approach, we are calculating the overall required return of the firm. You might recall from your corporate finance class that this return is exactly what the weighted average cost of capital (or WACC) represents. So, if you already know the company’s WACC, you can use it to calculate the firm value. To be clear, however, the required return we get from inserting an asset beta into the CAPM formula is equivalent to the weighted average cost of capital, or WACC, particularly in the absence of taxes.
+
+Free Cash Flow Valuation
+
+EXAMPLE 6.15
+
+Landon Air is a new airline that flies only a circular route from Indianapolis to Lexington to Starkville to Indianapolis. It has EBIT of $45 million, interest expense of $6.54 million, no change in net working capital, depreciation expense of $10 million, and capital expenditures of $3 million. Landon Air has an expected constant growth rate in FCF of 3 percent and an average tax rate of 21 percent. Assume that it has a debt-to-equity ratio of .4 (with $100 million of debt); the current equity beta is 1.2; the risk-free rate is 4 percent; and the market risk premium is 7 percent. Landon Air pays no dividends. What is Landon Air’s current equity value?
+
+The first step is to calculate Landon Air’s asset beta. Using Equation 6.19:
+
+
+The next step is to use the asset beta to calculate Landon Air’s required return, which we can still do using the CAPM:
+
+
+Next, we need to know Landon Air’s free cash flow, which we can calculate using Equation 6.17:
+
+
+Now that we have these values, we can use the constant growth model to find the current value for Landon Air (difference due to rounding):
+
+
+If Landon Air has $100 million in debt outstanding, then its equity value is $493.62 million. To get the per-share equity value, we would then divide this total equity value by the total number of shares outstanding.
+
+page 191
+
+CHECK THIS
+
+
+
+6.5aHow is it possible for a company to have negative earnings but still have positive free cash flow?
+
+6.5bWhy is a firm’s equity beta different from its asset beta? When would these two measures of risk be the same?
+
+6.6 Price Ratio Analysis
+Price ratios are widely used by financial analysts, more so even than dividend discount models. Of course, all valuation methods try to accomplish the same thing, which is to appraise the economic value of a company’s stock. However, analysts readily agree that no single method can adequately handle this task on all occasions. In this section, we therefore examine several of the most popular price ratio methods and provide examples of their use in financial analysis.
+
+PRICE-EARNINGS RATIOS
+The most popular price ratio used to assess the value of common stock is a company’s price-earnings ratio, abbreviated as PE ratio. In fact, as we saw in Chapter 3, PE ratios are reported in the financial press every day. As we discussed, a price-earnings ratio is calculated as the ratio of a firm’s current stock price divided by its annual earnings per share (EPS).
+
+price-earnings (PE) ratio
+
+Current stock price divided by annual earnings per share (EPS).
+
+The inverse of a PE ratio is called an earnings yield, and it is measured as earnings per share divided by the current stock price (E/P). Clearly, an earnings yield and a price-earnings ratio are two ways to measure the same thing. In practice, earnings yields are less commonly stated and used than PE ratios.
+
+earnings yield (E/P)
+
+Inverse of the P/E ratio: earnings per share divided by price per share.
+
+Because most companies report earnings each quarter, annual earnings per share can be calculated either as the most recent quarterly earnings per share times four, or as the sum of the last four quarterly earnings per share figures. Many analysts prefer the first method of multiplying the latest quarterly earnings per share value times four. However, some published data sources, including The Wall Street Journal, report annual earnings per share as the sum of the last four quarters’ figures. Unless a business is seasonal, the difference is usually small, but it can sometimes be a source of confusion.
+
+Financial analysts often refer to high-PE stocks as growth stocks. To see why, notice that a PE ratio is measured as the current stock price over current earnings per share. Now, consider two companies with the same current earnings per share, where one company is a high-growth company and the other is a low-growth company. Which company do you think should have a higher stock price, the high-growth company or the low-growth company?
+
+growth stocks
+
+A term often used to describe high-P/E stocks.
+
+This question is a no-brainer. All else equal, we would be surprised if the high-growth company did not have a higher stock price, and therefore a higher PE ratio. In general, companies with higher expected earnings growth will have higher PE ratios, which is why high-PE stocks are often referred to as growth stocks.
+
+To give an example, the online retailer Amazon has a history of aggressive sales growth. Its stock trades on NASDAQ under the ticker symbol AMZN. In early 2019, AMZN stock traded at $1,582.66 with earnings per share (EPS) of $17.85, and so had a PE ratio of $1,582.66/$17.85 = 88.66. This PE ratio is well above the 2019 average PE ratio of about 19.4 for the S&P 500 (of which AMZN is a member). Given its growth focus, AMZN has yet to begin paying a dividend. Instead, Amazon reinvests all of its earnings. So far this strategy has been successful, as the firm has grown rapidly.
+
+The reason high-PE stocks are called growth stocks seems obvious enough; however, in a seeming defiance of logic, low-PE stocks are often referred to as value stocks. The reason is that low-PE stocks are often viewed as “cheap” relative to current earnings. (Notice again the emphasis on “current.”) This suggests that these stocks may represent good investment values, and hence the term “value stocks.”
+
+value stocks
+
+A term often used to describe low-P/E stocks.
+
+page 192
+
+In mid-2007, shares of the well-known S&P 500 auto company General Motors (GM) were trading at a price of $31.08. With EPS = $3.75, the PE ratio was $31.08/$3.75 = 8.29. This was well below the S&P 500 average, so General Motors might have been considered a value stock. Given its 2009 bankruptcy, it might not have been such a value after all.
+
+After all this discussion about growth stocks and value stocks, we want to emphasize, however, that the terms “growth stock” and “value stock” are mostly just commonly used labels. Of course, only time will tell whether a high-PE stock actually turns out to be a high-growth stock, or whether a low-PE stock is really a good value, as the GM example illustrates. What we do know, however, is that over long periods of time, value stocks tend to outperform growth stocks. This outperformance might not be what you expect. Remember, though, the price today of growth stocks reflects high expected growth rates. High growth rates do not always occur as predicted. Therefore, the actual returns to growth stocks depend on realized growth rates, not the forecasted growth rates.
+
+Although PE ratios seem quite “easy” to evaluate, you need to be aware that PE ratios are not that stable. To illustrate, consider a company that has a one-time write-off that significantly reduces earnings. If the write-off is truly a one-time event, then the share price should not be impacted too severely. In this case, the price remains stable, but earnings are much lower—resulting in a faux increase in the PE ratio. An unwary investor might even think that this company is a growth stock. The facts about the write-off, however, do not support this conclusion. What would happen if there was a one-time positive impact on earnings? The lesson: A high or low PE ratio is not necessarily bad or good.
+
+Because it is difficult to compare companies that have different PE ratios, investment managers often calculate the PEG ratio. The PEG ratio is calculated by dividing the PE ratio by the expected earnings growth rate. Although not perfect, the PEG ratio provides investors with a better method to compare companies, particularly those with differing growth rates.
+
+For your next investment, would you prefer a low- or high-PEG ratio? All else equal, lower is better because it means that you are paying a small amount relative to the earnings growth you are expecting. Most investment sources label the PEG on a range from 1 (strong buy) to 5 (sell). While Amazon has a high PE at 88.66, its PEG is quite low at 1.71. Thus, the market must expect that Amazon is going to sell many books and other items.
+
+PRICE-CASH FLOW RATIOS
+Instead of PE ratios, many analysts prefer to look at price-cash flow ratios. A price-cash flow (P/CF) ratio is measured as a company’s current stock price divided by its current annual cash flow per share. Like earnings, cash flow is normally reported quarterly, and most analysts multiply the last quarterly cash flow figure by four to obtain annual cash flow. Again, like earnings, many published data sources report annual cash flow as a sum of the latest four quarterly cash flows.
+
+price-cash flow (P/CF) ratio
+
+Current stock price divided by current cash flow per share.
+
+cash flow
+
+In the context of the price-cash flow ratio, usually taken to be net income plus depreciation.
+
+Financial analysts typically use both PE ratios and P/CF ratios. They point out that when a company’s earnings per share is not significantly larger than its cash flow per share (CFPS), this is a signal, at least potentially, of good-quality earnings. The term “quality” means that the accounting earnings mostly reflect actual cash flow, not just accounting numbers. When earnings are bigger than cash flow, this may be a signal of poor-quality earnings.
+
+Going back to some of our earlier examples, Amazon had CFPS = $3.16, yielding a P/CF ratio of $1,582.66/$3.16 = 500.84. Notice that cash flow per share was below its earnings per share of $17.85. This might suggest lower-quality earnings, or it might reflect a high amount of capital expenditures (which is the case as Amazon has expanded heavily into cloud computing). Investigating these possibilities is a job for a good financial analyst.
+
+PRICE-SALES RATIOS
+An alternative view of a company’s performance is provided by its price-sales (P/S) ratio. A price-sales ratio is calculated as the current price of a company’s stock divided by its current annual sales revenue per share. A price-sales ratio focuses on a company’s ability to generate sales growth. Essentially, a high P/S ratio would suggest high sales growth, while a low P/S ratio might indicate sluggish sales growth.
+
+price-sales (P/S) ratio
+
+Current stock price divided by annual sales per share.
+
+For example, Amazon had sales per share of $443.07, to yield P/S = $1,582.66/$443.07 = 3.57. We should note that there can be a large variation in price-sales ratios for two companies, page 193particularly if they are in very different kinds of businesses. Security analysts recognize that price-sales ratios cannot be compared in isolation from other important information.
+
+PRICE-BOOK RATIOS
+A very basic price ratio for a company is its price-book (P/B) ratio, sometimes called the market-book ratio. A price-book ratio is measured as the market value of a company’s outstanding common stock divided by its book value of equity.
+
+price-book (P/B) ratio
+
+Market value of a company’s common stock divided by its book (or accounting) value of equity.
+
+Price-book ratios are appealing because book values represent, in principle, historical cost. The stock price is an indicator of current value, so a price-book ratio measures what the equity is worth today relative to what it cost. A ratio bigger than 1.0 indicates that the firm has been successful in creating value for its stockholders. A ratio smaller than 1.0 indicates that the company is actually worth less than it cost.
+
+This interpretation of the price-book ratio seems simple enough, but the truth is that because of varied and changing accounting standards, book values are difficult to interpret. For this reason and others, price-book ratios might not have as much information value as they once did. The exceptions might be for financial and insurance companies, which turn their assets over quickly. The quicker the asset turnover, the closer book value is to actual market value.
+
+APPLICATIONS OF PRICE RATIO ANALYSIS
+Price-earnings ratios, price-cash flow ratios, and price-sales ratios are commonly used to calculate estimates of expected future stock prices. This is done by multiplying a historical average price ratio by an expected future value for the price ratio denominator variable. For example, Table 6.1 summarizes such a price ratio analysis for Intel Corporation (INTC) based on information available in early 2019.
+
+Check out the Intel website at
+intel.com.
+
+Price Ratio Analysis for Intel Corporation (INTC) Early 2019 Stock Price: $47.30
+
+TABLE 6.1
+
+ 	Earnings	Cash Flow	Sales
+Five-year average price ratio	15.9 (PE)	8.8 (P/CF)	3.1 (P/S)
+Current value per share	$ 3.22 (EPS)	$ 3.06 (CFPS)	$14.70 (SPS)
+Growth rate	.9%	2.2%	3.1%
+Expected stock price	$51.66  	$27.52  	$46.98  
+In Table 6.1, the five-year average ratio row contains five-year average PE, P/CF, and P/S ratios. The current value row contains values for earnings per share, cash flow per share, and sales per share; and the growth rate row contains five-year projected growth rates for EPS, CFPS, and SPS.
+
+The expected stock price row contains expected stock prices in one year. The basic idea is this: Because Intel had an average PE ratio of 15.9, we will assume that Intel’s stock price will be 15.9 times its earnings per share one year from now. To estimate Intel’s earnings one year from now, we note that Intel’s earnings are projected to grow at a rate of .9 percent per year. If earnings continue to grow at this rate, next year’s earnings will be equal to this year’s earnings times 1.009. Putting it all together, we have:
+
+
+The same procedure is used to calculate an expected price based on cash flow per share:
+
+
+page 194
+
+Finally, an expected price based on sales per share is calculated as:
+
+
+See Mickey’s website at
+disney.com.
+
+Notice that in the case of Intel, the price ratio methods yield prices ranging from about $28 to about $52. However, when this analysis was made in early 2019, Intel’s stock price was around $47.25. This difference may be explained by the fact that price ratios for Intel have fallen sharply in recent years. For example, Intel’s P/CF ratio fell from a high of 12.5 in 2007 to just 8.8 in 2019. With such a large change, a historical average price ratio may be inaccurate.
+
+Going to Disneyland
+
+EXAMPLE 6.16
+
+Table 6.2 contains information about The Walt Disney Company. Calculate expected share prices using each of the three price ratio approaches we have discussed.
+
+For example, using the PE approach, we come up with the following estimates of the price of Walt Disney stock in one year:
+
+
+Price Ratio Analysis for The Walt Disney Company (DIS) Early 2019 Stock Price: $109.61
+
+TABLE 6.2
+
+ 	Earnings	Cash Flow	Sales
+Five-year average price ratio	19.3 (PE)	13.2 (P/CF)	3.2 (P/S)
+Current value per share	$ 8.36 (EPS)	$ 6.52 (CFPS)	$ 39.44 (SPS)
+Growth rate	7.3%	8.4%	5.6%
+Expected stock price	$173.13	$93.29	$133.28
+ENTERPRISE VALUE RATIOS
+The PE ratio is an equity ratio because the numerator is the price per share of stock and the denominator is the earnings per share of stock. Practitioners, however, often use ratios involving both debt and equity. Perhaps the most common one is the enterprise value (EV) to EBITDA ratio. Enterprise value is equal to the market value of the firm’s equity plus the market value of the firm’s debt minus cash. EBITDA stands for earnings before interest, taxes, depreciation, and amortization.
+
+enterprise value (EV)
+
+The market value of the firm’s equity plus the market value of the firm’s debt minus cash.
+
+For example, imagine Kourtney’s Kayaks has equity worth $800 million, debt worth $300 million, and cash of $100 million. The enterprise value is $1 billion (= $800 + $300 − $100). Suppose Kourtney’s Kayaks’ income statement is:
+
+Revenue	$ 700 million
+‒ Cost of goods sold	‒500 million
+EBITDA	$ 200 million
+‒ Depreciation and amortization	‒100 million
+‒ Interest	‒24 million
+Pretax income	$ 76 million
+‒ Taxes (@21%)	‒16 million
+Net income	$ 60 million
+page 195
+
+The EV to EBITDA ratio is 5 (= $1 billion/$200 million). Note that all the items in the income statement below EBITDA are ignored when calculating this ratio.
+
+Analysts often assume that similar firms have similar EV/EBITDA ratios (and similar PE ratios and asset betas, for that matter). For example, suppose the average EV/EBITDA ratio in the industry is 6. If Qwerty Corporation, a firm in the industry with EBITDA of $50 million, is judged to be similar to the rest of the industry, its enterprise value is estimated at $300 million (= 6 × $50 million). Now imagine that Qwerty has $75 million of debt and $25 million of cash. Given our estimate of Qwerty’s EV, our estimate of its stock value is $250 million (= $300 − $75 + $25).
+
+Four important questions arise concerning enterprise value ratios.
+
+Does the EV ratio have any advantage over the PE ratio? Yes. As we have seen in our discussion of asset betas, companies in the same industry may differ by leverage, that is, the ratio of debt to equity. While firms in the same industry may be otherwise comparable, the different degrees of leverage may create variability across firm PE ratios. Because enterprise value includes equity and debt, the impact of leverage on the EV/EBITDA ratio is less than the impact on PE ratios.
+
+Why is EBITDA used in the denominator? The numerator and denominator of a ratio should be consistent. Because the numerator in the PE ratio is the price of a share of stock, it makes sense that the denominator is earnings per share (EPS) of stock. That is, interest is specifically subtracted before EPS is calculated because stockholders are residual claimants. By contrast, because EV involves the sum of debt and equity, we need to use a denominator that reflects the flow to both bondholders and stockholders. Thus, we need a denominator that is unaffected by interest payments. We use EBITDA because, as its name implies, EBITDA is calculated before interest payments are subtracted.
+
+Why does the denominator ignore depreciation and amortization? Many practitioners argue that, because depreciation and amortization are not cash flows, earnings should be calculated before subtracting depreciation and amortization. In other words, depreciation and amortization merely reflect the sunk cost of a previous purchase. Others, however, point out that depreciable assets will eventually be replaced and that depreciation reflects the cost of future replacement.
+
+Why is cash omitted? Many firms seem to hold considerable amounts of cash. For example, Apple (as of early 2019) holds over $200 billion in cash and investments. Because an enterprise value ratio attempts to estimate the ability of productive assets to create earnings or cash flow, cash should be omitted. This view, however, is not without criticism because some cash is definitely necessary to run a business.
+
+CHECK THIS
+
+
+
+6.6aWhy are high-PE stocks sometimes called growth stocks?
+
+6.6bWhy might an analyst prefer a price-cash flow ratio to a price-earnings ratio?
+
+6.7 An Analysis of CVS Health Corporation
+Stock market investors have access to many sources of information about the financial performance of companies with publicly traded stock. Indeed, the sheer volume of information available can often be overwhelming. For this reason, several sources publish reference summaries for individual companies. While many of these sources charge hefty fees for access, there are quite a few sources that are available for free. We focus on using these.
+
+Two of the most well-known, and easy to use, financial data sources available to all investors are Yahoo! Finance (finance.yahoo.com) and Morningstar (morningstar.com). page 196Both provide a mountain of information, much of which we can use for valuing a company’s stock. To illustrate the process of stock valuation, we are going to consider CVS Health Corporation, which trades on the New York Stock Exchange (NYSE) under the ticker symbol CVS. Figure 6.2 provides a summary quote from Yahoo! Finance, and Table 6.3 provides some key metrics that we collected from the two sites.
+
+Summary Quote for CVS Health Corporation (CVS), January 4, 2019
+
+FIGURE 6.2
+
+
+Source: Yahoo! Finance, accessed January 2019.
+
+Key Statistics for CVS Health Corporation
+
+TABLE 6.3
+
+Metric	Value	Source
+Return on equity	8.71%	Yahoo!
+Debt-to-equity ratio	1.72 	Yahoo!
+Shares outstanding (billions)	1.017	Yahoo!
+ 	 	 
+Sales per share	$184.91  	Yahoo!
+Earnings per share	$ 3.04 	Yahoo!
+Cash flow per share	$ 4.02 	Estimated via Yahoo!
+Book value per share	$ 35.94  	Yahoo!
+Debt per share	$ 62.89  	Yahoo!
+ 	 	 
+Sales growth estimate	5.00%	Yahoo!
+Earnings growth estimate	6.30%	Yahoo!
+Cash flow growth estimate	3.20%	Estimated via Morningstar
+ 	 	 
+Five-year average PE	19.63 	Morningstar
+Five-year average P/CF	11.79 	Morningstar
+Five-year average P/S	 .61	Morningstar
+Source: Data as of January 2019.
+
+USING THE DIVIDEND DISCOUNT MODEL
+Our first task is to estimate a discount rate for CVS. From Figure 6.2, we can see that CVS’s beta is 1.03. Using a normalized Treasury bill rate of 3.0 percent and a projected stock market risk premium of 7 percent, we obtain a CAPM discount rate estimate for CVS of 3.0% + 1.03 × 7% = 10.21%.
+
+page 197
+
+Our next task is to calculate a sustainable growth rate. From Figure 6.2, we can see that CVS’s most recent earnings per share (annualized) is $3.04, and the company has annualized dividends per share of $2.00, implying a retention ratio of 1 − $2.00/$3.04 = .342, or 34.2 percent. To finish our estimate of the sustainable growth rate, we need a value for ROE. From the financial highlights provided in Table 6.3, you will note that Yahoo! reports an ROE of 8.71 percent. Putting these together yields a sustainable growth rate of .342 × 8.71% = 2.98%.
+
+Finally, with a discount rate and sustainable growth rate, we can calculate a share value for CVS. Using the constant dividend growth rate model with the 2019 dividend of D0= $2.00, a discount rate of k = 10.21 percent, and a growth rate of g = 2.98 percent, we get:
+
+
+which is not likely true given that this price is extremely low relative to the current market price of $66.82. As a good analyst would, we’ll try something else.
+
+What if we have underestimated the growth rate? As we saw in our Work the Web example earlier in the chapter, Yahoo! provides estimates of analysts’ forecasted growth rates. Yahoo! includes the low, median, and high estimates across the analysts surveyed. For the next few years, we found that analysts, on average, are actually projecting that CVS will grow earnings at a rate of 6.3 percent (see Table 6.3). So, what if this higher estimate is a more reasonable view of CVS’s ongoing dividend growth? If it is, we get:
+
+
+which is closer to the market price, but still well below. So, maybe we should consider what growth rate the market is implying by its current price. To find this value, we solve for the growth rate that gives us the current market price:
+
+
+Thus, market participants are pricing CVS to grow dividends at roughly 7 percent per year into perpetuity. If we believe the growth rate will be higher, then we should buy the stock. If we do not, then we should sell.
+
+We could stop here, but where is the fun in that? Let’s consider a two-stage discount model, where the growth rate stays at 6.3 percent for five years, then drops to a 3 percent growth rate thereafter. This approach assumes that CVS will grow earnings at a rate consistent with analyst estimates for five years, then revert to a more sustainable growth rate thereafter. Using Equation 6.11, we find a price of $32.83:
+
+
+Again, our estimate is well below the current market price. So, either the stock is overvalued and we should sell, or the market’s higher implied growth rate is more accurate than our estimates. A good analyst is able to determine which is correct.
+
+USING THE RESIDUAL INCOME MODEL
+To apply the residual income model, we need to collect the following data: current book value per share, current earnings per share, the discount rate, and the expected growth rate in dividends. We already know that earnings per share is $3.04. From our calculations above, we have estimates of the discount rate (k = 10.21 percent) and the sustainable growth rate (g = 2.98 percent). Remember, though, we also had analyst-estimated earnings growth of 6.3 percent. So, really, the only additional piece of information we need is the current book value per share, which from Table 6.3 is $35.94.
+
+page 198
+
+With the book value per share of $35.94, we can now apply the residual income model using Equation 6.14. Below you will find two estimates. The first uses the sustainable growth rate of 2.98 percent, while the other uses a growth estimate of 6.3 percent, which is closer to analyst forecasts.
+
+
+What is unusual about this case is that the forecasted EPS is not high enough to cover the required earnings based on the book value per share and the required return. Thus, both forecasts are below the current book value per share.
+
+Remember, under the “clean surplus accounting” relationship, the estimated value from the residual income model should match the estimated value from the dividend growth model. While this match does not generally happen in practice, it is actually the case for CVS in our example using a sustainable growth rate of 2.98 percent. The estimated price for CVS is $28.49 for both the dividend discount model and the RIM.
+
+USING THE FREE CASH FLOW MODEL
+From Equation 6.20, we know that we can value a firm on a cash flow basis if we know its free cash flow as well as estimates of the discount rate and growth rate. While we have already estimated discount rates and growth rates, we can’t use these estimates because we are focusing on cash flows, not dividends. Remember, free cash flow is available to all investors (both equity and debt holders), so when we use free cash flow, we are valuing the whole firm, not just the equity. Thus, we need a firm-level discount rate, not a discount rate for equity holders.
+
+Using Equation 6.19, we can convert CVS’s equity beta of 1.03 to an asset beta as follows:
+
+
+The 1.72 used in the formula represents the debt-to-equity ratio, which comes from Table 6.3. The tax rate of .21 is the standard marginal tax rate for most large corporations under the Tax Cuts and Jobs Act of 2017.
+
+Using the normalized Treasury bill rate of 3.0 percent and a projected stock market risk premium of 7 percent, we obtain a CAPM discount rate estimate for CVS of 3.0% + .44 × 7% = 6.06% (without rounding). As we noted earlier in the chapter, this should be equivalent to the firm’s weighted average cost of capital (WACC). So, if you knew the WACC, you could skip the process of unlevering beta and estimating a discount rate. You could then use k = WACC to value the firm.
+
+The most difficult part of using cash flow valuation is coming up with an estimate of cash flow growth. Unfortunately, the free sources don’t generally provide this estimate. They do, however, provide historical growth rates, which we have used to estimate a historical average growth rate for CVS’s cash flows. Based on this process, Table 6.3 notes a cash flow growth estimate of 3.2 percent, as well as the most recent free cash flow per share of $4.02.
+
+Putting all the information together, we can estimate a firm value using free cash flow as follows:
+
+
+Remember, this is the value of the whole firm on a per-share basis, but we want to know the per-share equity value. So, we need to subtract out the value of the firm’s debt on a per-share basis, which is given in Table 6.3 as $62.89.
+
+Putting all this free cash flow information together, we estimate the per-share equity value for CVS as VE = $145.23 – $62.89 = $82.34. Unlike our other estimates, this value is a bit larger than the current share price.
+
+page 199
+
+USING PRICE RATIO ANALYSIS
+To value a stock using price ratios, we need three pieces of information: (1) the average historical price multiple (PE, P/CF, or P/S); (2) the current value of the underlying metric (earnings per share, cash flow per share, or sales per share); and (3) the forecasted growth rate in earnings, cash flow, or sales. All of this information is included in Table 6.3. For example, CVS had a five-year average PE ratio of 19.63, a P/CF ratio of 11.79, and a P/S ratio of .61.
+
+Putting it all together, we would then estimate share price as:
+
+
+The results of these calculations are found in Table 6.4. You should check these for practice.
+
+Price Ratio Analysis for CVS Health Corporation (CVS) January 2019 Stock Price: $66.82
+
+TABLE 6.4
+
+ 	Earnings	Cash Flow	Sales
+Five-year average price ratio	19.63 (PE)	11.79 (P/CF)	.61 (P/S)
+Current value per share	$ 3.04 (EPS)	$4.02 (CFPS)	$184.91 (SPS)
+Growth rate	6.30%	3.20%	5.00%
+Expected share price	$63.43  	$48.91  	$118.43   
+We can now summarize our analysis by listing the stock prices obtained by the different ways we have described in this chapter, along with the model used to derive them:
+
+DDM, with calculated sustainable growth rate:	  $28.49
+DDM, with analyst forecasted growth rate:	  $54.37
+DDM, two-stage model:	  $32.83
+RIM, with calculated sustainable growth rate:	  $28.49
+RIM, with analyst forecasted growth rate:	  $24.74
+FCF, with historical growth rate:	  $82.34
+Price-earnings model:	  $63.43
+Price-cash flow model:	  $48.91
+Price-sales model:	$118.43
+Notice the wide range of share values we obtained using the various models. This is not uncommon in security analysis, and it suggests how daunting a task security analysis can be. In this case, the price-earnings approach yields the closest value to the observed stock price of $66.82. The goal, however, is not to find a model that yields a value closest to the current price. Rather, the goal is to find a model about which we are confident.
+
+For example, suppose you believe the FCF model is the most appropriate. If so, then you might conclude that CVS stock is somewhat underpriced. In contrast, some of the other valuation methods provide the exact opposite conclusion. What we can say with some degree of certainty is that the market is pricing CVS to achieve a growth rate that is at the high end of its forecasted range.
+
+So, what is the lesson? A fair amount of subjectivity is entailed in the valuation process, even though we can look at financial data objectively. This is why different analysts looking at the same financial information will provide conflicting value estimates. For example, under its premium Stock Analysis section, in January 2019 Morningstar provided a fair value estimate for CVS of $96, but it gave a range of possible values anywhere from $67.20 to $129.60. Even the experts have a hard time determining an exact value! So, don’t give up.
+
+page 200
+
+CHECK THIS
+
+
+
+6.7aCan you calculate the growth rate in earnings that would be necessary to provide a RIM valuation equivalent to the market’s current price?
+
+6.8 Summary and Conclusions
+In this chapter, we examined several methods of fundamental analysis used by financial analysts to value common stocks. The methods we examined are the learning objectives for the chapter. We illustrated many of these methods with a detailed analysis of CVS Health Corporation.
+
+The basic dividend discount model.
+
+A.  Dividend discount models value common stock as the sum of all expected future dividend payments, where the dividends are adjusted for risk and the time value of money.
+
+B.  The dividend discount model is often simplified by assuming that dividends will grow at a constant growth rate. A particularly simple form of the dividend discount model is the case in which dividends grow at a constant perpetual growth rate. The simplicity of the constant perpetual growth model makes it the most popular dividend discount model. However, it should be applied only to companies with stable earnings and dividend growth.
+
+C.  Dividend models require an estimate of future growth. We described the sustainable growth rate, which is measured as a firm’s return on equity times its retention ratio, and illustrated its use.
+
+The two-stage dividend growth model.
+
+A.  Companies often experience temporary periods of unusually high or low growth, where growth eventually converges to an industry average. In such cases, analysts frequently use a two-stage dividend growth model.
+
+B.  The two-stage growth model can be used with two separate growth rates for two distinct time periods, or with growth rates that linearly converge toward the constant growth rate. This latter case is referred to as the H-model.
+
+C.  The two-stage growth model can be used where there is a period with nonconstant dividend growth and a period of constant dividend growth.
+
+The residual income and free cash flow models.
+
+A.  The difference between actual and required earnings in any period is called residual income. Residual income is sometimes called economic value added.
+
+B.  The residual income model is a method that can be used to value a share of stock in a company that does not pay dividends. To derive the residual income model, a series of constant growth assumptions are made for EPS, assets, liabilities, and equity. Together, these growth assumptions result in a sustainable growth rate.
+
+C.  The clean surplus relationship is an accounting relationship that says earnings minus dividends equals the change in book value per share. The clean surplus relationship might not hold in actual practice. But if the clean surplus relationship is true, then the residual income model is mathematically equivalent to the constant perpetual growth model.
+
+D.  The free cash flow (FCF) model values the entire firm by concentrating on firm FCF.
+
+E.  Because the FCF model values the whole firm, we must use an asset beta rather than an equity beta. We must also use the firm’s equity value, which we can get by subtracting the value of the firm’s debt from the value of the whole firm.
+
+page 201
+
+Price ratio analysis.
+
+A.  Price ratios are widely used by financial analysts. The most popular price ratio is a company’s price-earnings ratio. A PE ratio is calculated as the ratio of a firm’s stock price divided by its earnings per share (EPS).
+
+B.  Financial analysts often refer to high-PE stocks as growth stocks and low-PE stocks as value stocks. In general, companies with high expected earnings growth will have high PE ratios, which is why high-PE stocks are referred to as growth stocks. Low-PE stocks are referred to as value stocks because they are viewed as cheap relative to current earnings.
+
+C.  Instead of price-earnings ratios, many analysts prefer to look at price-cash flow (P/CF) ratios. A price-cash flow ratio is measured as a company’s stock price divided by its cash flow per share. Most analysts agree that cash flow can provide more information than net income about a company’s financial performance.
+
+D.  An alternative view of a company’s performance is provided by its price-sales (P/S) ratio. A price-sales ratio is calculated as the price of a company’s stock divided by its annual sales revenue per share. A price-sales ratio focuses on a company’s ability to generate sales growth. A high P/S ratio suggests high sales growth, while a low P/S ratio suggests low sales growth.
+
+E.  A basic price ratio for a company is its price-book (P/B) ratio. A price-book ratio is measured as the market value of a company’s outstanding common stock divided by its book value of equity. A high P/B ratio suggests that a company is potentially expensive, while a low P/B value suggests that a company may be cheap.
+
+F.  A common procedure using price-earnings ratios, price-cash flow ratios, and price-sales ratios is to calculate estimates of expected future stock prices. However, each price ratio method yields a different expected future stock price. Because each method uses different information, each makes a different prediction.
+
+G.  An alternative to price ratios is the enterprise value (EV) to EBITDA ratio. Similar to the FCF approach, EV captures both debt and equity.
+
+GETTING DOWN TO BUSINESS
+
+This chapter introduced you to some of the basics of common stock valuation and fundamental analysis. It focused on four important tools used by stock analysts in the real world to assess whether a particular stock is “rich” or “cheap”: dividend discount models, residual income models, free cash flow models, and price ratio analysis. How should you, as an investor or investment manager, put this information to use?
+
+The answer is that you need to pick some stocks and get to work! As we discussed in the chapter, experience and judgment are needed to use these models, and the only way to obtain these is through practice. Try to identify a few stocks that look cheap and buy them in a simulated brokerage account such as Stock-Trak. At the same time, find a few that look rich and short them. Start studying PE ratios. Scan The Wall Street Journal (or a similar source of market information) and look at the range of PEs. What’s a low PE? What’s a high one? Do they really correspond to what you would call growth and value stocks?
+
+The internet provides copious information on valuing companies. Try, for example, MarketWatch (marketwatch.com), D&B Hoovers (hoovers.com), and Zacks (zacks.com). Don’t forget to check out The Motley Fool (fool.com).
+
+Several trade associations have informative websites that can be helpful. For individual investors, there is the American Association of Individual Investors (aaii.com). The CFA Institute (cfainstitute.org) provides a financial analyst certification (or charter) that is highly respected among security analysts.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+page 202
+
+Key Terms
+
+arithmetic average dividend growth rate 176
+
+beta 185
+
+cash flow 192
+
+clean surplus relationship (CSR) 186
+
+constant perpetual growth model 174
+
+dividend discount model (DDM) 173
+
+earnings yield (E/P) 191
+
+economic value added (EVA) 186
+
+enterprise value (EV) 194
+
+fundamental analysis 173
+
+geometric average dividend growth rate 176
+
+growth stocks 191
+
+payout ratio 178
+
+price-book (P/B) ratio 193
+
+price-cash flow (P/CF) ratio 192
+
+price-earnings (PE) ratio 191
+
+price-sales (P/S) ratio 192
+
+residual income model (RIM) 186
+
+retained earnings 178
+
+retention ratio 178
+
+sustainable growth rate 178
+
+two-stage dividend growth model 181
+
+value stocks 191
+
+Chapter Review Problems and Self-Test
+
+The Perpetual Growth Model (LO1, CFA6) Suppose dividends for Layton’s Pizza Company are projected to grow at 6 percent forever. If the discount rate is 16 percent and the current dividend is $2, what is the value of the stock?
+
+The Two-Stage Growth Model (LO2, CFA6) Suppose the Titanic Ice Cube Co.’s dividend grows at a 20 percent rate for the next three years. Thereafter, it grows at a 12 percent rate. What value would we place on Titanic assuming a 15 percent discount rate? Titanic’s most recent dividend was $3.
+
+Residual Income Model (LO3, CFA9) Suppose Al’s Infrared Sandwich Company has a current book value of $10.85 per share. The most recent earnings per share (EPS) was $2.96, and earnings are expected to grow at 6 percent forever. The appropriate discount rate is 8.2 percent. Assume the clean surplus relationship is true. Assuming the company maintains a constant retention ratio, what is the value of the company according to the residual income model if there are no dividends?
+
+Price Ratio Analysis (LO4, CFA4) The table below contains some information about the Jordan Air Co. Provide expected share prices using each of the three price ratio approaches we have discussed.
+
+Price Ratio Analysis for Jordan Air (Current Stock Price: $40)
+ 	Earnings	Cash Flow	Sales
+Five-year average price ratio	25 (PE)	7 (P/CF)	1.5 (P/S)
+Current value per share	$2.00 (EPS)	$6.00 (CFPS)	$30.00 (SPS)
+Growth rate	10%	16%	14%
+Answers to Self-Test Problems
+
+Plugging the relevant numbers into the constant perpetual growth formula results in:
+
+
+As shown, the stock should sell for $21.20.
+
+Plugging all the relevant numbers into the two-stage formula gets us:
+
+
+Thus, the stock should sell for about $137.
+
+page 203
+
+Recall the formula for the residual income model when the clean surplus relationship is true:
+
+
+Next, make a table of all the information that you need to put into the formula:
+
+Al’s Infrared Sandwich Company	Time 0, i.e., Now
+Beginning book value, B0	$10.85
+Earnings per share, EPS0	$ 2.96
+Growth rate, g	6%
+Discount rate, k	8.2%
+We can now solve the problem.
+
+
+Using the PE approach, we come up with the following estimate of the price of Jordan Air in one year:
+
+
+Using the P/CF approach, we get:
+
+
+Finally, using the P/S approach, we get:
+
+
+Test Your Investment Quotient
+
+
+Sustainable Growth (LO1, CFA6)   A company has a return on equity (ROE) of 20 percent, and from earnings per share of $5 it pays a $2 dividend. What is the company’s sustainable growth rate?
+
+8 percent
+
+10 percent
+
+12 percent
+
+20 percent
+
+Sustainable Growth (LO1, CFA6)   If the return on equity for a firm is 15 percent and the retention ratio is 40 percent, the sustainable growth rate of earnings and dividends is which of the following?
+
+6 percent
+
+9 percent
+
+15 percent
+
+40 percent
+
+Dividend Discount Model (LO1, CFA4)   A common stock pays an annual dividend per share of $2.10. The risk-free rate is 7 percent and the risk premium for this stock is 4 percent. If the annual dividend is expected to remain at $2.10, the value of the stock is closest to:
+
+$19.09
+
+$30.00
+
+$52.50
+
+$70.00
+
+page 204
+
+Dividend Discount Model (LO1, CFA4)   The constant growth dividend discount model will not produce a finite value if the dividend growth rate is which of the following?
+
+Above its historical average
+
+Above the required rate of return
+
+Below its historical average
+
+Below the required rate of return
+
+Dividend Discount Model (LO1, CFA4)   In applying the constant growth dividend discount model, a stock’s intrinsic value will do which of the following when the required rate of return is lowered?
+
+Decrease
+
+Increase
+
+Remain unchanged
+
+Decrease or increase, depending on other factors
+
+Dividend Discount Model (LO1, CFA4)   The constant growth dividend discount model would typically be most appropriate for valuing the stock of which of the following?
+
+A new venture expected to retain all earnings for several years
+
+A rapidly growing company
+
+A moderate growth, mature company
+
+A company with valuable assets not yet generating profits
+
+Dividend Discount Model (LO1, CFA6)   A stock has a required return of 15 percent, a constant growth rate of 10 percent, and a dividend payout ratio of 50 percent. What should the stock’s PE ratio be?
+
+3.0
+
+4.5
+
+9.0
+
+11.0
+
+Dividend Discount Model (LO1, CFA6)   Which of the following assumptions does the constant growth dividend discount model require?
+
+  I. Dividends grow at a constant rate.
+
+ II. The dividend growth rate continues indefinitely.
+
+III. The required rate of return is less than the dividend growth rate.
+
+I only
+
+III only
+
+I and II only
+
+I, II, and III
+
+Dividend Discount Model (LO2, CFA4)   A stock will not pay dividends until three years from now. The dividend then will be $2.00 per share, the dividend payout ratio will be 40 percent, and return on equity will be 15 percent. If the required rate of return is 12 percent, which of the following is closest to the value of the stock?
+
+$27
+
+$33
+
+$53
+
+$67
+
+Dividend Discount Model (LO1, CFA4)   Assume that at the end of the next year, Company A will pay a $2.00 dividend per share, an increase from the current dividend of $1.50 per share. After that, the dividend is expected to increase at a constant rate of 5 percent. If you require a 12 percent return on the stock, what is the value of the stock?
+
+$28.57
+
+$28.79
+
+$30.00
+
+$31.78
+
+Dividend Discount Model (LO1, CFA6)   A share of stock will pay a dividend of $1.00 one year from now, with dividend growth of 5 percent thereafter. In the context of a dividend discount model, the stock is correctly priced at $10 today. According to the constant dividend growth model, if the required return is 15 percent, what should the value of the stock be two years from now?
+
+$11.03
+
+$12.10
+
+$13.23
+
+$14.40
+
+page 205
+
+Free Cash Flow (LO3, CFA7)   A firm has EBIT of $275 million, which is net of $52 million in depreciation. In addition, the firm had $81 million in capital expenditures and an increase in net working capital of $5 million. The firm’s tax rate is 21 percent. The firm’s FCF is closest (in millions) to:
+
+$280
+
+$101
+
+$231
+
+$183
+
+Free Cash Flow (LO3, CFA7)   A firm had a free cash flow (FCF) in the prior year of $125 million. The FCF is expected to grow at 3 percent per year into perpetuity. The appropriate discount rate is 12 percent. What is the firm’s current value (in millions) based on the FCF model?
+
+$1,042
+
+$1,389
+
+$1,555
+
+$1,431
+
+Price Ratios (LO4, CFA5)   Two similar companies acquire substantial new production facilities, which they both will depreciate over a 10-year period. However, Company A uses accelerated depreciation while Company B uses straight-line depreciation. In the first year that the assets are depreciated, which of the following is most likely to occur?
+
+A’s P/CF ratio will be higher than B’s.
+
+A’s P/CF ratio will be lower than B’s.
+
+A’s PE ratio will be higher than B’s.
+
+A’s PE ratio will be lower than B’s.
+
+Price Ratios (LO4, CFA4)   An analyst estimates the earnings per share and price-to-earnings ratio for a stock market series to be $43.50 and 26 times, respectively. The dividend payout ratio for the series is 65 percent. The value of the stock market series is closest to:
+
+396
+
+735
+
+1,131
+
+1,866
+
+Enterprise Value Ratio (LO4, CFA8)   Which of the following is an advantage of the enterprise value ratio as compared to price ratios?
+
+The EV ratio excludes interest expense.
+
+The EV ratio adds the value of the firm’s cash holding.
+
+The EV ratio captures the value of both firm debt and equity.
+
+The EV ratio controls for the market risk premium while price ratios do not.
+
+PE Ratio (LO4, CFA5)   A company’s return on equity is greater than its required return on equity. The earnings multiplier (PE) for that company’s stock is most likely to be positively related to the:
+
+Risk-free rate.
+
+Market risk premium.
+
+Earnings retention ratio.
+
+Stock’s capital asset pricing model beta.
+
+Residual Income Model (LO3, CFA9)   The residual income model separates the value of the firm into two basic components. What are these two components?
+
+The current book value and the present value of future earnings
+
+The value of earnings per share and the value of cash flow per share
+
+The current value of the firm’s shares and the future value of its shares
+
+The time value of money and the value of bearing risk
+
+Residual Income (LO3, CFA9)   Residual income is:
+
+The actual earnings less expected earnings.
+
+Any increase in the value of the firm.
+
+The value of profitable investment projects.
+
+The value added by economical use of assets.
+
+page 206
+
+Clean Surplus Relationship (LO3, CFA9)   The clean surplus relationship says that:
+
+Assets minus liabilities minus shareholder’s equity equals the change in current assets plus debt payments.
+
+The difference between earnings and dividends equals the change in book value.
+
+Dividends minus earnings equals one minus the payout ratio.
+
+The difference between earnings and dividends equals the change in surplus inventory.
+
+Concept Questions
+
+Dividend Discount Model (LO1, CFA4)   What is the basic principle behind dividend discount models?
+
+PE Ratios (LO4, CFA5)   Why do growth stocks tend to have higher PE ratios than value stocks?
+
+Residual Income Model (LO3, CFA9)   What happens in the residual income model when EPS is negative?
+
+FCF Valuation (LO3, CFA7)   Why do we need to convert the typical equity beta to value a firm using FCF?
+
+Stock Valuation (LO1, CFA5)   Why does the value of a share of stock depend on dividends?
+
+Stock Valuation (LO3, CFA5)   A substantial percentage of the companies listed on the NYSE and the NASDAQ don’t pay dividends, but investors are nonetheless willing to buy shares in them. How is this possible given your answer to Question 5?
+
+Taxes (LO1, CFA6)   As a result of the Tax Cuts and Jobs Act of 2017, corporate tax rates were reduced. Under the dividend discount model, how would the tax rate reduction impact stock values?
+
+Constant Perpetual Growth Model (LO1, CFA6)   Under what two assumptions can we use the constant perpetual growth model presented in the chapter to determine the value of a share of stock? How reasonable are these assumptions?
+
+Dividend Growth Models (LO1, CFA4)   Based on the dividend growth models presented in the chapter, what are the two components of the total return of a share of stock? Which do you think is typically larger?
+
+Stock Valuation (LO3, CFA5)   If a firm has no dividends and has negative earnings, which valuation models are appropriate?
+
+Questions and Problems
+
+Core Questions
+
+Dividend Valuation (LO1, CFA6)   JJ Industries will pay a regular dividend of $2.40 per share for each of the next four years. At the end of the four years, the company will also pay out a $40 per share liquidating dividend, and the company will cease operations. If the discount rate is 10 percent, what is the current value of the company’s stock?
+
+Dividend Valuation (LO1, CFA6)   In Problem 1, suppose the current share price is $60. If all other information remains the same, what must the liquidating dividend be?
+
+Free Cash Flow Model (LO3, CFA2)   You are going to value Lauryn’s Doll Co. using the FCF model. After consulting various sources, you find that Lauryn’s has a reported equity beta of 1.4, a debt-to-equity ratio of .3, and a tax rate of 21 percent. Based on this information, what is the asset beta for Lauryn’s?
+
+Free Cash Flow Model (LO3, CFA7)   Using your answer to Problem 3, calculate the appropriate discount rate assuming a risk-free rate of 4 percent and a market risk premium of 7 percent.
+
+Free Cash Flow Model (LO3, CFA7)   Lauryn’s Doll Co. had EBIT last year of $40 million, which is net of a depreciation expense of $4 million. In addition, Lauryn’s made $5 million in capital expenditures and increased net working capital by $3 million. Using the information from Problem 3, what is Lauryn’s FCF for the year?page 207
+
+Free Cash Flow Model (LO3, CFA7)   Using your answers from Problems 3 through 5, value Lauryn’s Doll Co. assuming the company’s FCF is expected to grow at a rate of 3 percent into perpetuity. Is this value the value of the equity?
+
+Enterprise Value (LO4, CFA8)   If a firm has an EV of $750 million and EBITDA of $165 million, what is its EV ratio?
+
+Perpetual Dividend Growth (LO1, CFA6)   Xytex Products just paid a dividend of $1.62 per share, and the stock currently sells for $28. If the discount rate is 10 percent, what is the dividend growth rate?
+
+Perpetual Dividend Growth (LO1, CFA6)   Star Light & Power increases its dividend 3.8 percent per year every year. This utility is valued using a discount rate of 9 percent, and the stock currently sells for $38 per share. If you buy a share of stock today and hold on to it for at least three years, what do you expect the value of your dividend check to be three years from today?
+
+Sustainable Growth (LO1, CFA6)   Johnson Products earned $2.80 per share last year and paid a dividend of $1.25 per share. If ROE was 14 percent, what is the sustainable growth rate?
+
+Sustainable Growth (LO4, CFA6)   Joker stock has a sustainable growth rate of 8 percent, ROE of 14 percent, and dividends per share of $1.65. If the PE ratio is 19, what is the value of a share of stock?
+
+Capital Asset Pricing Model (LO1, CFA2)   A certain stock has a beta of 1.3. If the risk-free rate of return is 3.2 percent and the market risk premium is 7.5 percent, what is the expected return of the stock? What is the expected return of a stock with a beta of .75?
+
+Residual Income Model (LO3, CFA9)   Bill’s Bakery expects earnings per share of $2.56 next year. Current book value is $4.70 per share. The appropriate discount rate for Bill’s Bakery is 11 percent. Calculate the share price for Bill’s Bakery if earnings grow at 3 percent forever.
+
+Residual Income Model (LO3, CFA9)   For Bill’s Bakery described in Problem 13, suppose instead that current earnings per share is $2.56. Calculate the share price for Bill’s Bakery.
+
+Intermediate Questions
+
+15. Two-Stage Dividend Growth Model (LO2, CFA5)   Could I Industries just paid a dividend of $1.10 per share. The dividends are expected to grow at a 20 percent rate for the next six years and then level off to a 4 percent growth rate indefinitely. If the required return is 12 percent, what is the value of the stock today?
+
+16. H-Model (LO2, CFA6)   The dividend for Should I, Inc., is currently $1.25 per share. It is expected to grow at 20 percent next year and then decline linearly to a 5 percent perpetual rate beginning in four years. If you require a 15 percent return on the stock, what is the most you would pay per share?
+
+17. Multiple Growth Rates (LO2, CFA6)   Carter Communications does not currently pay a dividend. You expect the company to begin paying a $4 per share dividend in 15 years, and you expect dividends to grow perpetually at 5.5 percent per year thereafter. If the discount rate is 15 percent, how much is the stock currently worth?
+
+18. Enterprise Value Ratio (LO4, CFA8)   Jonah’s Fishery has EBITDA of $65 million. Jonah’s has market value of equity and debt of $420 million and $38 million, respectively. Jonah’s has cash on the balance sheet of $12 million. What is Jonah’s EV ratio?
+
+19. Multiple Growth Rates (LO1, CFA6)   Leisure Lodge Corporation is expected to pay the following dividends over the next four years: $15.00, $10.00, $5.00, and $2.20. Afterwards, the company pledges to maintain a constant 4 percent growth rate in dividends forever. If the required return on the stock is 10 percent, what is the current share price?
+
+20. Multiple Required Returns (LO1, CFA6)   Sea Side, Inc., just paid a dividend of $1.68 per share on its stock. The growth rate in dividends is expected to be a constant 5.5 percent per year indefinitely. Investors require an 18 percent return on the stock for the first three years, then a 13 percent return for the next three years, and then an 11 percent return thereafter. What is the current share price?
+
+21. Price Ratio Analysis (LO4, CFA4)   Given the information below for Seger Corporation, compute the expected share price at the end of 2020 using price ratio analysis. Assume that the historical (arithmetic) average growth rates will remain the same for 2020.
+
+
+page 208
+
+21. Dividend Growth Analysis (LO1, CFA6)   In Problem 21, suppose the dividends per share over the same period were $1.00, $1.08, $1.17, $1.25, $1.35, and $1.40, respectively. Compute the expected share price at the end of 2020 using the perpetual growth method. Assume the market risk premium is 7.5 percent, Treasury bills yield 3 percent, and the projected beta of the firm is 1.10.
+
+22. Price Ratio Analysis for Internet Companies (LO4, CFA8)   Given the information below for HooYah! Corporation, compute the expected share price at the end of 2020 using price ratio analysis. Assume that the historical (arithmetic) average growth rates will remain the same for 2020.
+
+
+24. Price Ratio Analysis for Internet Companies (LO4, CFA8)   Given the information below for StartUp Co., compute the expected share price at the end of 2020 using price ratio analysis.
+
+
+25. Price Ratio Analysis (LO4, CFA8)   The current price of Parador Industries stock is $67 per share. Current earnings per share is $3.40, the earnings growth rate is 6 percent, and Parador does not pay a dividend. The expected return on Parador stock is 13 percent. What one-year-ahead PE ratio is consistent with Parador’s expected return and earnings growth rate?
+
+26. Price Ratio Analysis (LO4, CFA8)   The current price of Parador Industries stock is $67 per share. Current sales per share are $18.75, the sales growth rate is 8 percent, and Parador does not pay a dividend. The expected return on Parador stock is 13 percent. What one-year-ahead P/S ratio is consistent with Parador’s expected return and sales growth rate?
+
+Use the following information to answer Problems 27–31.
+
+Beagle Beauties engages in the development, manufacture, and sale of a line of cosmetics designed to make your dog look glamorous. Below you will find selected information necessary to compute some valuation estimates for the firm. Assume the values provided are from year-end 2019. Also assume that the firm’s equity beta is 1.40, the risk-free rate is 2.75 percent, and the market risk premium is 7 percent.
+
+Dividends per share	$ 2.04
+Return on equity	     9.50%
+Book value per share	$17.05
+ 	Earnings	Cash Flow	Sales
+2019 value per share	$ 5.00	$ 6.60	$25.65
+Average price multiple	  13.10	    9.42	    2.36
+Forecasted growth rate	      13.48%	      11.41%	      7.34%
+27. Constant Perpetual Growth Model (LO1, CFA6)   What are the sustainable growth rate and required return for Beagle Beauties? Using these values, estimate the current share price of Beagle Beauties stock according to the constant dividend growth model.
+
+28. Price Ratios (LO4, CFA8)   Using the PE, P/CF, and P/S ratios, estimate the 2020 share price for Beagle Beauties.
+
+29. Residual Income Model (LO3, CFA9)   Assume the sustainable growth rate and required return you calculated in Problem 27 are valid. Use the clean surplus relationship to calculate the share price for Beagle Beauties with the residual income model.
+
+30. Clean Surplus Dividend (LO3, CFA9)   Use the information from Problem 29 and calculate the stock price with the clean surplus dividend. Do you get the same stock price as in Problem 29? Why or why not?
+
+page 209
+
+31. Stock Valuation (LO1, LO3, LO4, CFA5, CFA8, CFA9)   Given your answers in Problems 27–30, do you feel Beagle Beauties is overvalued or undervalued at its current price of around $82? At what price do you feel the stock should sell?
+
+32. Residual Income Model and Nonconstant Growth (LO3, CFA9)   When a stock is going through a period of nonconstant growth for T periods, followed by constant growth forever, the residual income model can be modified as follows:
+
+
+
+where:
+
+
+
+Al’s Infrared Sandwich Company had a book value of $12.95 at the beginning of the year, and the earnings per share for the past year was $3.41. Molly Miller, a research analyst at Miller, Moore & Associates, estimates that the book value and earnings per share will grow at 12.5 and 11 percent per year for the next four years, respectively. After four years, the growth rate is expected to be 6 percent. Molly believes the required return for the company is 8.2 percent. What is the value per share for Al’s Infrared Sandwich Company?
+
+Spreadsheet Problems
+
+33. Two-Stage Dividend Growth Model (LO2, CFA5)   Hank’s Barbecue just paid a dividend of $1.85 per share. The dividends are expected to grow at a 12 percent rate for the next five years and then level off to a 5 percent growth rate indefinitely. If the required return is 10 percent, what is the value of the stock today? What if the required return is 15 percent?
+
+34. Free Cash Flow Model (LO3, CFA7)   You have been tasked with using the FCF model to value Julie’s Jewelry Co. After your initial review, you find that Julie’s has a reported equity beta of 1.1, a debt-to-equity ratio of .5, and a tax rate of 21 percent. In addition, market conditions suggest a risk-free rate of 3 percent and a market risk premium of 7 percent. If Julie’s had FCF last year of $47.5 million and has current debt outstanding of $120 million, find the value of Julie’s equity assuming a 2 percent growth rate in FCF.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA2, CFA6, CFA7]
+
+Beachwood Builders merged with Country Point Homes on December 31, 2002. Both companies were builders of midscale and luxury homes in their respective markets. In 2019, because of tax considerations and the need to segment the business, Beachwood decided to spin off Country Point, its luxury subsidiary, to its shareholders. Beachwood retained Bernheim Securities to value the spin-off of Country Point as of December 31, 2019.
+
+When the books closed on 2019, Beachwood had $140 million in debt outstanding due in 2028 at a coupon rate of 8 percent, which is a spread of 2 percent above the current risk-free rate. Beachwood also had 5 million common shares outstanding. It pays no dividends, has no preferred shareholders, and faces a total tax rate of 30 percent. Bernheim is assuming a market risk premium of 11 percent.
+
+The common equity allocated to Country Point for the spin-off was $55.6 million as of December 31, 2019. There was no long-term debt allocated from Beachwood.
+
+The managing directors in charge of Bernheim’s construction group, Denzel Johnson and Cara Nguyen, are prepping for the valuation presentation. Ms. Nguyen tells Mr. Johnson that Bernheim estimated Country Point’s net income at $10 million in 2019, growing $5 million per year through 2023. Based on Ms. Nguyen’s calculations, Country Point will be worth $223.7 million in 2023. Ms. Nguyen decided to use a cost of equity for Country Point in the valuation equal to its return on equity at the end of 2019 (rounded to the nearest percentage). Ms. Nguyen also gives Mr. Johnson the table she obtained from Beachwood projecting depreciation and capital expenditures ($ in millions):
+
+
+page 210
+
+What is the estimate of Country Point’s free cash flow (FCF) in 2021?
+
+25
+
+16
+
+11
+
+What is the cost of capital that Ms. Nguyen used for her valuation of Country Point?
+
+18 percent
+
+17 percent
+
+15 percent
+
+Given Ms. Nguyen’s estimate of Country Point’s terminal value in 2023, what is the growth assumption she must have used for free cash flow after 2023?
+
+7 percent
+
+9 percent
+
+3 percent
+
+The value of beta for Country Point is:
+
+1.09
+
+1.27
+
+1.00
+
+What is the estimated value of Country Point in a proposed spin-off?
+
+$144.5 million
+
+$162.5 million
+
+$178.3 million
+
+What’s on the Web?
+
+Sustainable Growth Rate You can find the home page for Caterpillar, Inc., at cat.com. Go to this page and find the most recent annual report for Caterpillar. Calculate the sustainable growth rate for each of the past two years. Are these values the same? Why or why not?
+
+Sustainable Growth Rate Go to finance.yahoo.com and find the analysts’ estimates for Procter & Gamble’s (PG) growth rate over the next five years. How does this compare to the industry, sector, and S&P 500 growth rates? Now find the EPS and dividends per share for PG and calculate the sustainable growth rate. How does your number compare to analysts’ estimates for the company? Why might these estimates differ?
+
+Perpetual Dividend Growth Model Go to finance.yahoo.com and find the following information: the beta, the most recent annual dividend, and analysts’ estimated growth rate for Johnson & Johnson (JNJ). Next, find the three-month Treasury bill yield on finance.yahoo.com. Assuming the market risk premium is 7 percent, what is the required return for JNJ? What is the value of JNJ stock using the perpetual dividend growth model? Does JNJ appear overpriced, underpriced, or correctly priced? Why might this analysis be inappropriate, or at least misleading?
+
+
+
+
+1 This quote has also been attributed to Yogi Berra, Samuel Goldwyn, and Mark Twain.
+
+2 Strictly speaking, this formula is correct only if ROE is calculated using beginning-of-period shareholders’ equity. If ending figures are used, then the precise formula is ROE × Retention ratio / [1 − (ROE × Retention ratio)]. However, the error from not using the precise formula is usually small, so most analysts might not bother with it.

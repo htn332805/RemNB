@@ -1,0 +1,1246 @@
+PART 1
+
+The Investment Process
+
+
+
+“Don’t gamble! Take all your savings and buy some good stock and hold it till it goes up. If it don’t go up, don’t buy it.”
+
+–Will Rogers
+
+Learning Objectives
+
+Don’t sell yourself short. Instead, learn about these key investment subjects:
+
+The importance of an investment policy statement.
+
+The various types of securities brokers and brokerage accounts.
+
+How to trade on margin, including calculating the initial and maintenance margins.
+
+The workings of short sales.
+
+Are you planning to take a road trip on your upcoming fall or spring break? If so, you might do quite a few things to prepare for this adventure. Among them, you will probably consult an online road map to determine the best route to get you to your destination. You might also check for any expected construction delays. If you find any, you might look for ways to change your route. While road-trip planning might seem unrelated to investing, this process is similar to the approach that you should take with your investment portfolio. For example, investors need to understand their current financial position, as well as where they want to be in the future—like at retirement. Investors also need to identify any constraints that might keep them from reaching their goals.
+
+To help you along your way, we discuss the general investment process in this chapter. We begin with the investment policy statement, which serves as the investor’s “road map.” We then discuss how you go about buying and selling stocks and bonds.
+
+CFATM Exam Topics in this Chapter:
+
+Discounted cash flow applications (L1, S2)
+
+Portfolio management: An overview (L1, S12)
+
+Basics of portfolio planning and construction (L1, S13)
+
+Market organization and structure (L1, S14)
+
+Security market indexes (L1, S14)
+
+Market efficiency (L1, S14)
+
+The portfolio management process and the investment policy statement (L2, S16)
+
+Managing individual investor portfolios (L3, S5)
+
+Taxes and private wealth management in a global context (L3, S5)
+
+Introduction to asset allocation (L3, S9)
+
+Execution of portfolio decisions (L3, S18)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 40 
+
+2.1 The Investment Policy Statement
+Different investors will have very different investment objectives and strategies. For example, some will be active, buying and selling frequently; others will be relatively inactive, buying and holding for long periods of time. Some will be willing to bear substantial risk in seeking out returns; for others, safety is a primary concern. In this section, we describe the investment policy statement, which is designed to reflect these choices.
+
+The investment policy statement, or IPS, is typically divided into two sections: objectives and constraints. In thinking about investor objectives, the most fundamental question is: Why invest at all? For the most part, the only sensible answer is that we invest today to have more tomorrow. In other words, investment is simply deferred consumption; instead of spending today, we choose to wait because we wish to have (or need to have) more to spend later.
+
+For some sample investment policy statements, check out
+https://institutional.vanguard.com/iam/pdf/IAMIPS.pdf.
+
+Given that we invest now to have more later, the particular objectives identified will depend on, among other things, the time horizon, liquidity needs, and taxes. We discuss these and other issues next.
+
+OBJECTIVES: RISK AND RETURN
+Probably the most fundamental decision that an investor must make concerns the amount of risk to take. Most investors are risk-averse, meaning that, all else equal, they dislike risk and want to expose themselves to the minimum risk level possible. However, as our previous chapter indicated, larger returns are generally associated with larger risks, so there is a trade-off. In formulating investment objectives, the individual must therefore balance return objectives with risk tolerance.
+
+How else can you build a portfolio? Go to
+msn.com/en-us/money/investing
+and check out the resources for new investors.
+
+An individual’s tolerance to risk is affected by not only the person’s ability to take on risk, but also his or her willingness to take risk. First, some investors are able to take on more risk, possibly due to a larger beginning portfolio or a longer time horizon. Second, although some investors are well suited to take on risk, they are not willing to do so. Thus, risk tolerance is impacted by both an investor’s ability and willingness to take on risk.
+
+Attitudes toward risk are strictly personal preferences, and individuals with very similar economic circumstances can have very different degrees of risk aversion. For this reason, the first thing that must be assessed in evaluating the suitability of an investment strategy is risk tolerance. Unfortunately, this is not an easy thing to do. Most individuals have a difficult time articulating in any precise way their attitude toward risk (what’s yours?). One reason is that risk is not a simple concept; it is not easily defined or measured. Nevertheless, the Investment Updates box contains information on a short quiz that might help you assess your attitude toward risk. When you take the quiz, remember there are no right or wrong answers.
+
+INVESTOR CONSTRAINTS
+In addition to attitude toward risk, an investor’s investment strategy will be affected by various constraints. We discuss five of the most common and important constraints next.
+
+RESOURCES Probably the most obvious constraint, and the one to which many students can most easily relate, is resources. Obviously, if you have no money, you cannot invest at all. Beyond that, certain types of investments and investment strategies generally have minimum requirements.
+
+What is the minimum resource level needed? The answer to this question depends on the investment strategy, so there is no precise answer. Through mutual funds, initial investments in the stock market can be made for as little as $250, with subsequent investments as small as $50 or less. Investors interested in actively making trading decisions need their own account. This account should contain at least a few thousand dollars, but more is better. Why? When buying and selling securities, the investor’s account must cover brokerage commissions, account fees, and other costs.
+
+HORIZON The investment horizon refers to the planned life of the investment. For example, individuals frequently save for retirement, where the investment horizon, depending on your age, can be very long. On the other hand, you might be saving to buy a house in the near future, implying a relatively short horizon.
+
+page 41 
+
+INVESTMENT UPDATES
+
+INVESTOR PROFILE QUESTIONNAIRE
+
+On its website, Charles Schwab provides a publicly available risk tolerance survey, or questionnaire. The survey helps investors determine two important investment-related items: time horizon and risk tolerance. While time horizon is likely related to a person’s age, it is more a factor of when money will be needed and at what rate. The longer the time horizon, the more risk an investor is able to take. Risk tolerance, on the other hand, addresses the level of risk an investor is willing to take. Understanding these two elements allows an investor to craft an appropriate asset allocation plan.
+
+Taking the Test
+
+To get a better perspective of your ability and willingness to take on risk, you should take the survey that Charles Schwab provides (see source below). Using calculated time horizon and risk tolerance scores, investors can use the chart below to determine their overall “Investor Profile,” which ranges from conservative to aggressive. With this result, investors can then select assets (and portfolios) that match the appropriate investment strategy.
+
+
+Source: Charles Schwab & Co., Inc., “Investor Profile Questionnaire.” Accessed January 2019. http://www.schwab.com/public/file/P-778947/InvestorProfileQuestionnaire.pdf.
+
+The reason that horizon is important is evident in our previous chapter. It is true that stocks outperformed other investments in the long run, but there were short periods over which they did much worse. This means that, if you have to pay tuition in 30 days, stocks are probably not the best investment for that money. Thus, in thinking about the riskiness of an investment, one important factor is when the money will be needed. This is why most risk tolerance surveys include questions about the investor’s time horizon.
+
+LIQUIDITY Some investors might have to sell an asset quickly. In such cases, the asset’s liquidity is particularly important. An asset with a high degree of liquidity is one that can be sold quickly without a significant price concession. Such an asset is said to be liquid.
+
+Liquidity has two related parts. One part of liquidity is the ease with which an asset can be sold. The other part is how much you have to lower the price to sell the asset quickly. Liquidity is difficult to measure precisely, but some assets are clearly much more liquid than others. A good way to think about liquidity is to imagine buying an asset and then immediately reselling it. The less you would lose on this “round-trip” transaction, the more liquid is the asset.
+
+TAXES Different types of investments are taxed very differently. When we talk about the return on an investment, what is really relevant is the aftertax return. As a result, taxes are a vital consideration. Higher tax bracket investors will naturally seek investment strategies with favorable tax treatments, while lower tax bracket (or tax-exempt) investors will focus more on pretax returns.
+
+page 42 
+
+In addition, the way in which an investment is held can dramatically affect its tax status. The tax laws and other rules are in a constant state of flux. For example, the Tax Cuts and Jobs Act of 2017 changed the tax rates faced by both individuals and corporations. It also changed the list of items that qualify as a valid tax deduction. So, we will stick to broad principles.
+
+The general idea is that certain types of accounts, particularly retirement savings accounts, receive preferential tax treatment. The tax break can be enormous, and, as a result, the amount you can invest each year in these accounts is strictly limited. There are also rules regarding when you can withdraw the money, and it is important to pay careful attention to them.
+
+For more risk tolerance quizzes, visit
+fool.com,
+individual.ml.com, and
+msn.com/en-us/money.
+
+Taxes impact almost every step of the investment process, from the type of account you choose to the nature and length of the investments themselves. Thus, we will discuss taxes throughout the remainder of the book, and throughout the rest of this chapter in particular. For now, though, consider a simple example on the impact of taxes.
+
+If you started with $1 and were fortunate enough to make an investment that earned 100 percent (i.e., “a double”), then you would end up with $2. What if you were fortunate enough to do this 20 times? So, your $1 became $2, which became $4, and so on. After 20 investments, you would have just over $1 million in pre-tax income ($1,048,576 to be precise).
+
+What about the tax implications? If this is a tax deferred account, then you pay tax all at the end. If you are in the 35 percent tax bracket, then you would end up with about $650,000—much less than the original amount. However, what if you have to pay tax each time you liquidate one of the investments? So, your $1 becomes $1.65 instead of $2, which becomes $2.72 instead of $4, and so on. Well, in this case, you only end up with $22,370! How can it be so much lower? This is the power of compounding, and this simple example illustrates that deferring taxes can be a powerful tool for accumulating wealth.
+
+UNIQUE CIRCUMSTANCES Almost everyone will have some special or unique requirements or opportunities. For example, many companies will match certain types of investments made by employees on a dollar-for-dollar basis (typically up to some maximum per year). In other words, you double your money immediately with complete certainty. It is difficult to envision any other investment with such a favorable payoff. Therefore, investors should probably seize this opportunity even though there could be some undesirable liquidity, tax, or horizon considerations.
+
+The list of possible special circumstances is essentially endless; here we consider a few examples. The number of dependents and their needs will vary from investor to investor. Therefore, the need to provide for dependents will be an important constraint for some investors. Some investors want to invest only in companies whose products and activities they consider to be socially or politically suitable. Some investors want to invest primarily in their own community or state. Other investors, such as corporate insiders, face regulatory and legal restrictions on their investing. Elected officials may have to avoid (or at least ethically should avoid) some types of investments out of conflict of interest concerns.
+
+STRATEGIES AND POLICIES
+Once the IPS is in place, the investor must determine the appropriate strategies to achieve the stated objectives. Investors need to address four key areas when they devise their investment strategy. These key areas are investment management, market timing, asset allocation, and security selection. We discuss each of these next.
+
+INVESTMENT MANAGEMENT A basic decision that all investors make is who manages their investments. At one extreme, investors make all of the buy and sell decisions themselves. At the other extreme, investors make no buy and sell decisions. Instead, the investor hires someone to manage his or her investments.
+
+Want to have a career in financial advice? See
+cfainstitute.org
+and
+cfp.net.
+
+Often investors make some investment decisions and hire professional managers to make others. For example, suppose you divide your money among four different mutual funds. In this case, you have hired four different money managers. However, you decided what types of mutual funds to buy. Also, you chose the particular funds within each type. Finally, you decided how to divide your money among the funds.
+
+page 43 
+
+At first blush, managing your money yourself might seem to be the cheapest way to go because you do not pay management fees. Upon reflection, this is not a cheap decision. First, you must consider the value of your time. For some investors, researching investments and making investment decisions is something of a hobby. For most investors, however, it is too time-consuming. The value of your time is a powerful incentive to hire professional money managers. Also, for some strategies, the costs of doing it yourself can exceed those of hiring someone even after considering fees. This higher cost is due to the higher level of commissions and other fees that individual investors generally have to pay. For example, it might not be a bad idea for some of your investment to be in real estate, but a small investor will find it very difficult to directly acquire a sound real estate investment at reasonable cost.
+
+An interesting question regarding professional money managers concerns their performance. It certainly seems logical to argue that by hiring a professional investor to manage your money, you would earn more, at least on average. Surely the pros make better investment decisions than the amateurs! Surprisingly, this is not necessarily true. We will return to this subject in a later chapter. For now, we simply note that the possibility of a superior return might not be a compelling reason to prefer professional management.
+
+MARKET TIMING A second basic investment decision you must make is whether you will try to buy and sell in anticipation of the future direction of the overall market. For example, you might move money into the stock market when you think stock prices will rise. Or you might move money out of the stock market when you think stock prices will fall. This trading activity is called market timing. Some investors actively move money around to try to time short-term market movements. Other investors are much less active, but they still try to time long-term market movements. At the extreme, a fully passive strategy is one in which you make no attempt to time the market.
+
+market timing
+
+Buying and selling in anticipation of the overall direction of a market.
+
+Market timing certainly seems like a reasonable thing to do. After all, why leave money in an investment if you expect it to decrease in value? You might be surprised that a common recommendation is that investors avoid trying to time the market. Why? As we discuss in more detail in a later chapter, the simple reason is that successful market timing is, to put it mildly, extremely difficult. To outperform a completely passive strategy, you must be able to accurately predict the future. If you make even a small number of bad calls, you will likely never catch up.
+
+ASSET ALLOCATION Another fundamental decision that you must make concerns the distribution of your investment across different types of assets. We saw in Chapter 1 that different asset types—small stocks, large stocks, bonds—have distinct risk and return characteristics. In formulating your investment strategy, you must decide what percentage of your money will be placed in each of these broad categories. This decision is called asset allocation.
+
+asset allocation
+
+How an investor spreads portfolio dollars among broad asset classes.
+
+An important asset allocation decision for many investors is how much to invest in common stocks and how much to invest in bonds. There are some basic rules of thumb for this decision, one of the simplest being to split the portfolio into 60 percent stocks and 40 percent bonds. A slightly more sophisticated rule of thumb is that your equity percentage should be equal to your age subtracted from 100 (or, sometimes, 120). Under this rule, a 22-year-old college student should have 100 − 22 = 78 percent (or 120 − 22 = 98 percent) of her portfolio in stocks. This approach gradually reduces your exposure to stocks as you get older. Most of the major investment firms, as well as many websites, maintain recommended asset allocation schemes, which can be custom-tailored for individuals depending on their risk tolerance, wealth, and retirement goals.
+
+SECURITY SELECTION Finally, after deciding who will manage your investments, whether you will try to time the market, and the various asset classes you wish to hold, you must decide which specific securities to buy within each class. This is termed security selection.
+
+security selection
+
+Selection of specific securities within a particular class.
+
+For example, you might decide that you want 30 percent of your money in small stocks. This is an asset allocation decision. Next, however, you must decide which small stocks to page 44buy. Here again you must choose an active strategy or a passive strategy. With an active strategy, you would try to identify those small stocks that you think will perform best in the future. In other words, you are trying to pick “winners.” Investigating particular securities within a broad class in an attempt to identify superior performers is often called security analysis.
+
+With a passive security selection strategy, you might acquire a diverse group of small stocks, perhaps by buying a mutual fund that holds shares in hundreds of small companies (such funds are discussed in detail in a later chapter).
+
+A useful way to distinguish asset allocation from security selection is to note that asset allocation is a macro-level activity. That is, the focus is on whole markets or classes of assets. Security selection is a much more micro-level activity. The focus of security selection is on individual securities.
+
+If we consider the active versus passive aspects of asset allocation and security selection simultaneously, four distinct investment strategies emerge. These strategies appear in the following two-by-two table:
+
+Security Selection
+Asset Allocation	Active	Passive
+Active	I	II
+Passive	III	IV
+With Strategy I, we actively move money between asset classes based on our beliefs and expectations about future performance. In addition, we try to pick the best performers in each class. This is a fully active strategy. At the other extreme, Strategy IV is a fully passive strategy. In this strategy, we seldom change asset allocations or attempt to choose the likely best performers from a set of individual securities.
+
+With Strategy II, we actively vary our holdings by class, but we do not try to choose particular securities within each class. With this strategy, we might move back and forth between short-term government bonds and small stocks in an attempt to time the market. Finally, with Strategy III, we do not vary our asset allocations, but we do select individual securities. A die-hard stock picker would fall into this category. Such an investor holds 100 percent stocks and concentrates solely on buying and selling individual companies.
+
+Between asset allocation and security selection, which one do you think is most important to the success of a portfolio? Because the news media tend to concentrate on the success and failure of individual stocks, you might be inclined to think security selection is the most important element of a successful investing strategy. Research shows, however, that asset allocation is the most important determinant of portfolio returns. In fact, many experts suggest that about 90 percent of the performance of a portfolio is determined by asset allocation, while only 10 percent is from security selection.
+
+How is this result possible? Well, consider the Crash of 2008. If at the beginning of 2008 you had allocated all your money to bonds (as opposed to stocks), you would have done much better than an investor who had heavily allocated to stocks. This outcome could happen even if the stock investor was excellent at selecting stocks. The idea is that equities tend to move together, so even good stocks can do poorly if all equities are doing poorly.
+
+CHECK THIS
+
+
+
+2.1aWhat does the term “risk-averse” mean?
+
+2.1bWhat are some of the constraints investors face in making investment decisions?
+
+2.1cWhat is asset allocation?
+
+page 45 
+
+2.2 Investment Professionals
+Suppose you have created your IPS, detailing your objectives and constraints. So, what comes next? One way to get started is to open an account with a securities broker, such as Charles Schwab, E*TRADE, or Merrill Lynch. Such accounts are often called brokerage or trading accounts. Opening a trading account is straightforward and really much like opening a bank account. You will be asked to supply some basic information about yourself and to sign an agreement (often called a customer’s agreement) that spells out your rights and obligations, as well as those of your broker. You then give your broker a check and instructions on how you want the money invested.
+
+To illustrate, suppose that instead of going to Disneyland, you would rather own part of it. You therefore open an account with $15,000. You instruct your broker to purchase 100 shares of Walt Disney stock and to retain any remaining funds in your account. Your broker will locate a seller and purchase the stock on your behalf. Say shares of stock in The Walt Disney Company are selling for about $110 per share, so your 100 shares will cost $11,000. In addition, for providing this service, your broker will generally charge you a commission. How much depends on a number of things, including the type of broker and the size of your order, but on this order, $20 wouldn’t be an unusual commission charge. After paying for the stock and paying the commission, you would have $3,980 left in your account. Your broker will hold your stock for you. At a later date, you can sell your stock by instructing your broker to do so. You would receive the proceeds from the sale, less another commission charge. You can always add money to your account and purchase additional securities, and you can withdraw money from your account or even close it altogether.
+
+In broad terms, this basic explanation is really all there is to it. As we begin to discuss in the next section, however, a range of services are available to you, and there are important considerations that you need to take into account before you actually begin investing.
+
+CHOOSING A BROKER/ADVISOR
+The first step in opening an account is choosing a broker. Brokers are traditionally divided into three groups: full-service brokers, discount brokers, and deep-discount brokers. What distinguishes the three groups is the level of service they provide and the resulting commissions they charge.
+
+With a deep-discount broker, essentially the only services provided are account maintenance and order execution—that is, buying and selling. You generally deal with a deep-discount broker using the internet (see the next section, “Online Brokers and Robo-Advisors”).
+
+At the other extreme, a full-service broker will provide investment advice regarding the types of securities and investment strategies that might be appropriate for you to consider (or avoid). The larger brokerage firms do extensive research on individual companies and securities, as well as maintain lists of recommended (and not recommended) securities. They maintain offices throughout the country, so, depending on where you live, you can actually stop in and speak to the person assigned to your account. A full-service broker will even manage your account for you if you wish. In this case, the broker is said to have discretion over the account.
+
+Today, many full-service brokers are trying to specialize in wealth management. That is, these brokers manage many aspects of financial planning for high-net-worth investors. These high-net-worth accounts are exactly what you think they are—accounts with a lot of money in them. Particularly on the full-service side, many brokers have moved toward an advisory-based relationship with their clients. So, rather than charging commissions on every transaction, the investment advisor charges an annual fee, say 1 percent, based on the balance in the account. This fee covers all services associated with advice and trading. An advisory-based relationship brings potential benefits to the client and advisor. For example, without commissions, the advisor has little incentive to trade an account actively. As a result, the interests of the client and the advisor may be more closely aligned.
+
+Discount brokers fall somewhere between the two cases we have discussed so far, offering more investment counseling than the deep-discounters and lower commissions or fees than page 46the full-service brokers. Which type of broker should you choose? It depends on how much advice and service you need or want. If you are the do-it-yourself type, then you may seek out the lower commissions. If you are not, then a full-service advisor might be more suitable. Investors might begin with a full-service broker, and then, as they gain experience and confidence, move on to a discount broker or a deep-discount broker. In contrast, some investors might begin with a discount broker when they have less money and move to a full-service broker as the advice becomes more meaningful.
+
+We should note that the brokerage industry is very competitive, and differences between broker types seem to be blurring. Full-service brokers frequently discount commissions or fees to attract new customers (particularly those with large accounts), and you should not hesitate to ask about commission rates. Similarly, discount brokers have begun to offer securities research and extensive account management services. Basic brokerage services have become almost commoditylike, and, more and more, brokerage firms are competing by offering financial services such as retirement planning, credit cards, and check-writing privileges, to name a few.
+
+ONLINE BROKERS AND ROBO-ADVISORS
+The most important recent change in the brokerage industry is the rapid growth of online brokers, also known as e-brokers or cyberbrokers. With an online broker, you place buy and sell orders over the internet or through an app on your smartphone.
+
+Before 1995, online accounts essentially did not exist. By 2019, many millions of investors were buying and selling securities online. Online investing has fundamentally changed the discount and deep-discount brokerage industry by slashing costs dramatically. In a typical online trade, no human intervention is needed by the broker as the entire process is handled electronically, so operating costs are held to a minimum. As costs have fallen, so have commissions. Even for relatively large trades, online brokers typically charge less than $20 (or even $10) per trade. For budget-minded investors and active stock traders, the attraction is clear.
+
+Competition among online brokers is fierce. Some take a no-frills approach, offering only basic services and very low commission rates. Others, particularly the larger ones, charge a little more but offer a variety of services, including research and various banking services such as check-writing privileges, credit cards, debit cards, and even mortgages. As technology continues to improve and investors become more comfortable using it, online brokerages will almost surely become the dominant form because of their enormous convenience—and low commission rates.
+
+An example of this industry transformation is the recent advent of so-called robo-advisors. Under this approach, most advice given to the investor is made without consulting a human. In this process, an investor answers a series of questions designed to evaluate risk tolerance, time horizon, and investment capacity, among other things. Based on these answers, the robo-advisor recommends an asset allocation and associated investments, which are typically funds rather than individual securities. The goal of this process is to provide objective advice while lowering costs. As time progresses, it will be interesting to see if the machines are able to give better advice than humans.
+
+INVESTOR PROTECTION
+THE FEDERAL DEPOSIT INSURANCE CORPORATION You probably know that a U.S. government agency called the Federal Deposit Insurance Corporation, or FDIC, protects money deposited into bank accounts. In fact, the FDIC currently insures deposits up to $250,000 per account in nearly every bank and thrift in the United States. However, savers have not always had deposit insurance.
+
+In the 1920s and early 1930s, many banks failed. When these banks failed, the money held in bank accounts vanished. To help restore faith in the banking system, the U.S. Congress created the FDIC in 1933. So far, so good. Since the start of FDIC insurance on January 1, 1934, no depositor has lost a single cent of insured funds as a result of a bank failure.
+
+However, the FDIC insures only bank deposits. That is, the FDIC does not insure stocks, bonds, mutual funds, or other investments offered by banks, thrift institutions, and brokerage firms—even those calling themselves investment banks.
+
+page 47 
+
+INVESTMENT FRAUD Suppose someone swindles you by selling you shares in a fictitious company. Or suppose someone sells you shares in a real company but does not transfer ownership to you. These two situations are examples of investment fraud.
+
+The United States Sentencing Commission reports that the median loss reported in a typical securities fraud case is over $2 million. Further, experts estimate that losses from investment fraud in the United States range from $10 billion to $40 billion a year. You should know that “insurance” for investment fraud does not exist in the United States, but state and federal securities agencies were established to help investors deal with cases of investment fraud. Of course, investors can help protect themselves against fraud by dealing with reputable firms.
+
+THE SECURITIES INVESTOR PROTECTION CORPORATION Even reputable investment firms can go bankrupt or suffer financial difficulties. Fortunately for investors, all reputable brokerage firms belong to the Securities Investor Protection Corporation (SIPC). In fact, almost all brokerage firms operating in the United States are required to be members of the SIPC. The SIPC insures your brokerage account for up to $500,000 in cash and securities, with a $250,000 cash maximum.
+
+Securities Investor Protection Corporation (SIPC)
+
+Insurance fund covering investors’ brokerage accounts with member firms.
+
+If you want to learn more about the SIPC, go to
+www.sipc.org.
+
+Congress chartered the SIPC in 1970, but the SIPC is not a government agency; it is a private insurance fund supported by the securities industry. The SIPC has a narrow, but important, focus: restore funds to investors who have securities in the hands of bankrupt or financially troubled brokerage firms. When a brokerage firm is closed as a result of financial difficulties, sometimes customer assets are missing. In this case, the SIPC works to return customers’ cash, bonds, stock, and other eligible securities. Without the SIPC, investors at financially troubled brokerage firms might lose their securities or money forever.
+
+Not every loss is protected by the SIPC. For example, the SIPC does not guarantee the value of securities held in an SIPC-covered brokerage account. In other words, you can still lose everything in an SIPC-covered account if the value of your securities falls to zero.
+
+The SIPC gained the national spotlight with the Bernard “Bernie” Madoff scandal in 2009. Mr. Madoff ran a hedge fund that was really just a Ponzi scheme. In this system, Mr. Madoff took deposits from investors. Rather than investing the money, however, he created fictitious reports to detail investors’ alleged holdings. If an investor wanted to withdraw funds, Mr. Madoff used deposits by subsequent investors to fund the payout. The Madoff case is one of the largest investment fraud cases in Wall Street history, topping $65 billion.
+
+BROKER-CUSTOMER RELATIONS
+There are several other important things to keep in mind when dealing with a broker or advisor. First, any advice you receive is not guaranteed. Far from it—buy and sell recommendations carry the explicit warning that you rely on them at your own risk. As an example of some common disclosures, check out the Investment Updates box. Your broker does have a duty to exercise reasonable care in formulating recommendations and to not recommend anything grossly unsuitable, but that is essentially the extent of it.
+
+To learn more about dispute resolution, visit
+finra.org.
+
+Second, your broker or advisor works as your agent and has a legal duty to act in your best interest. In this case, your investment representative is referred to as being a fiduciary. Brokerage firms, however, are in the business of generating brokerage commissions. This fact will probably be spelled out in the account agreement that you sign. There is, therefore, the potential for a conflict of interest. On rare occasions, a broker is accused of “churning” an account, which refers to excessive trading for the sole purpose of generating commissions. In general, you are responsible for checking your account statements and notifying your broker in the event of any problems, and you should certainly do so. With an advisory relationship, churning is less likely.
+
+Finally, in the unlikely event of a significant problem, your account agreement will probably specify very clearly that you must waive your right to sue and/or seek a jury trial. Instead, you agree that any disputes will be settled by arbitration and that arbitration is final and binding. Arbitration is not a legal proceeding, and the rules are much less formal. In essence, a panel is appointed by a self-regulatory body of the securities industry to review the case. The panel will be composed of a small number of individuals who are knowledgeable about the securities industry, but a majority of them will not be associated with the industry. The panel makes a finding, and absent extraordinary circumstances, its findings cannot be appealed. The panel does not have to disclose factual findings or legal reasoning.
+
+page 48 
+
+INVESTMENT UPDATES
+
+SOME EXAMPLE DISCLOSURES
+
+1. Regarding Communicating and Sending Trades to Your Broker via E-mail
+
+“Raymond James does not accept private client orders or account instructions by e-mail. This e-mail (a) is not an official transaction confirmation or account statement; (b) is not an offer, solicitation, or recommendation to transact in any security; (c) is intended only for the addressee; and (d) may not be retransmitted to, or used by, any other party. This e-mail may contain confidential or privileged information; please delete immediately if you are not the intended recipient. Raymond James monitors e-mails and may be required by law or regulation to disclose e-mails to third parties.”
+
+2. Regarding Stock Analyst Reports
+
+“This material provides general information only. Neither the information nor any views expressed constitute an offer, or an invitation to make an offer, to buy or sell any securities or other investment or any options, futures, or derivatives related to such securities or investments. It is not intended to provide personal investment advice and it does not take into account the specific investment objectives, the financial situation, and the particular needs of any specific person who may receive this material. Investors should seek financial advice regarding the appropriateness of investing in any securities, other investment, or investment strategies discussed in this report and should understand that statements regarding future prospects may not be realized. Investors should note that income from securities or other investments, if any, may fluctuate and that price or value of such securities and investments may rise or fall. Accordingly, investors may receive back less than originally invested. Past performance is not necessarily a guide to future performance. Any information relating to the tax status of financial instruments discussed herein is not intended to provide tax advice or to be used by anyone to provide tax advice. Investors are urged to seek tax advice based on their particular circumstances from an independent tax professional.”
+
+CHECK THIS
+
+
+
+2.2aWhat are the differences between full-service and deep-discount brokers?
+
+2.2bWhat is the SIPC? How does SIPC coverage differ from FDIC coverage?
+
+2.3 Types of Accounts
+The account agreement that you sign has a number of important provisions and details specifying the types of trades that can be made and who can make them. Another important concern is whether the broker will extend credit and, if so, the terms under which credit will be extended. We discuss these and other issues next.
+
+CASH ACCOUNTS
+A cash account is the simplest arrangement. Securities can be purchased to the extent that sufficient cash is available in the account. If additional purchases are desired, then the needed funds must be promptly supplied.
+
+cash account
+
+A brokerage account in which all transactions are made on a strictly cash basis.
+
+MARGIN ACCOUNTS
+With a margin account, you can, subject to limits, purchase securities on credit using money loaned to you by your broker. Such a purchase is called a margin purchase. The interest rate you pay on the money you borrow is based on the broker’s call money rate, which is, loosely, the rate the broker pays to borrow the money. You pay some amount over the call money rate, called the spread; the exact spread depends on your broker and the size of the loan, as well as your own history with the broker.
+
+margin account
+
+A brokerage account in which, subject to limits, securities can be bought and sold on credit.
+
+call money rate
+
+The interest rate brokers pay to borrow bank funds for lending to customer margin accounts.
+
+page 49 
+
+Suppose the call money rate has been hovering around 4 percent. If a brokerage firm charges a 2.5 percent spread above this rate on loan amounts under $10,000, then you would pay a total of about 6.5 percent. However, this is usually reduced for larger loan amounts. For example, the spread may decline to .75 percent for amounts over $100,000.
+
+Several important concepts and rules are involved in a margin purchase. For concreteness, we focus on stocks in our discussion. The specific margin rules for other investments can be quite different, but the principles and terminology are usually similar.
+
+In general, when you purchase securities on credit, some of the money is yours and the rest is borrowed. The amount that is yours is called the margin. Margin is usually expressed as a percentage. For example, if you take $7,000 of your own money and borrow an additional $3,000 from your broker, your total investment will be $10,000. Of this $10,000, $7,000 is yours, so the margin is $7,000/$10,000 = .70, or 70 percent.
+
+margin
+
+The portion of the value of an investment that is not borrowed.
+
+It is useful to create an account balance sheet when thinking about margin purchases (and some other issues we’ll get to in just a moment). To illustrate, suppose you open a margin account with $5,000. You tell your broker to buy 100 shares of Walgreens Boots Alliance (WBA), or Walgreens for short. Shares in Walgreens are selling for $80 per share, so the total cost will be $8,000. Because you have only $5,000 in the account, you borrow the remaining $3,000. Immediately following the purchase, your account balance sheet would look like this:
+
+Assets		Liabilities and Account Equity
+100 shares of WBA	$ 8,000	Margin loan	$ 3,000
+Account equity	5,000
+Total	$ 8,000	Total	$ 8,000
+On the left-hand side of this balance sheet, we list the account assets, which in this case consist of the $8,000 in WBA stock you purchased. On the right-hand side, we first list the $3,000 loan you took out to help you pay for the stock. This amount is a liability because, at some point, the loan must be repaid. The difference between the value of the assets held in the account and the loan amount is $5,000. This amount is your account equity, that is, the net value of your investment. Notice that your margin is equal to the account equity divided by the value of the stock owned and held in the account: $5,000/$8,000 = .625, or 62.5 percent.
+
+The Account Balance Sheet
+
+EXAMPLE 2.1
+
+You want to buy 1,000 shares of Devon Energy (DVN) at a price of $24 per share. You put up $18,000 and borrow the rest. What does your account balance sheet look like? What is your margin?
+
+The 1,000 shares of DVN cost $24,000. You supply $18,000, so you must borrow $6,000. The account balance sheet looks like this:
+
+Assets		Liabilities and Account Equity
+1000 shares of DVN	$24,000	Margin loan	$ 6,000
+Account equity	18,000
+Total	$ 24,000	Total	$ 24,000
+Your margin is the account equity divided by the value of the stock owned:
+
+
+INITIAL MARGIN When you first purchase securities on credit, there is a minimum margin that you must supply. This percentage is called the initial margin. The minimum percentage (for stock purchases) is set by the Federal Reserve (the “Fed”). However, the exchanges and individual brokerage firms may require higher initial margin amounts.
+
+initial margin
+
+The minimum margin that must be supplied on a securities purchase.
+
+page 50 
+
+The Fed’s power to set initial margin requirements was established in the Securities Exchange Act of 1934. In subsequent years, initial margin requirements ranged from a low of 45 percent to a high of 100 percent. Since 1974, the minimum has been 50 percent (for stock purchases), and the rate is currently specified in Federal Reserve Board Regulation T. In other words, if you have $10,000 of your own cash, you can borrow up to an additional $10,000, but no more.
+
+We emphasize that these initial margin requirements apply to stocks. In contrast, for the most part, there is little initial margin requirement for government bonds. On the other hand, margin is not allowed at all on certain other types of securities.
+
+Calculating Initial Margin
+
+EXAMPLE 2.2
+
+Suppose you have $3,000 in cash in a trading account with a 50 percent initial margin requirement. What is the largest order you can place (ignoring commissions)? If the initial margin were 60 percent, how would your answer change?
+
+When the initial margin is 50 percent, you must supply half of the total (and you borrow the other half). So, $6,000 is the largest order you could place. When the initial margin is 60 percent, your $3,000 must equal 60 percent of the total. In other words, it must be the case that
+
+
+As this example illustrates, the higher the initial margin required, the less you can borrow. When the margin is 50 percent, you can borrow $3,000. When the margin is 60 percent, you can borrow only $2,000.
+
+MAINTENANCE MARGIN In addition to the initial margin requirement set by the Fed, brokerage firms and exchanges generally have a maintenance margin requirement. For example, the New York Stock Exchange (NYSE) requires a minimum of 25 percent maintenance margin. This amount is the minimum margin required at all times after the purchase.
+
+maintenance margin
+
+The minimum margin that must be present at all times in a margin account.
+
+The maintenance margin set by your broker is sometimes called the “house” margin requirement. The level is established by your broker, who may vary it depending on what you are buying. For low-priced and very volatile stocks, the house margin can be as high as 100 percent, meaning no margin at all.
+
+A typical maintenance margin might be around 30 percent. If your margin falls below 30 percent, then you may be subject to a margin call, which is a demand by your broker to add funds to your account, pay off part of the loan, or sell enough securities to bring your margin back up to an acceptable level. In some cases, you will be asked to restore your account to the initial margin level. In other cases, you will be asked to restore your account to the maintenance margin level. If you do not, or cannot, comply, your securities will likely be sold. The loan will be repaid out of the proceeds, and any remaining amounts will be credited to your account.
+
+margin call
+
+A demand for more funds that occurs when the margin in an account drops below the maintenance margin.
+
+To illustrate, suppose your account has a 50 percent initial margin requirement and a 30 percent maintenance margin. Suppose stock in Vandelay Industries is selling for $50 per share. You have $20,000, and you want to buy as much of this stock as you possibly can. With a 50 percent initial margin, you can buy up to $40,000 worth, or 800 shares. The account balance sheet looks like this:
+
+Assets		Liabilities and Account Equity
+800 shares @ $50/share	$40,000	Margin loan	$ 20,000
+Account equity	20,000
+Total	$ 40,000	Total	$ 40,000
+Unfortunately, right after your purchase, Vandelay Industries reveals that it has been artificially inflating earnings for the last three years (this action is not good). Share prices page 51plummet to $35 per share. What does the account balance sheet look like when this happens? Are you subject to a margin call?
+
+To create the new account balance sheet, we recalculate the total value of the stock. The margin loan stays the same, so the account equity is adjusted as needed:
+
+Assets		Liabilities and Account Equity
+800 shares @ $35/share	$28,000	Margin loan	$20,000
+Account equity	8,000
+Total	$ 28,000	Total	$ 28,000
+As shown, the total value of your “position” (i.e., the stock you hold) falls to $28,000, a $12,000 loss. You still owe $20,000 to your broker, so your account equity is $28,000 − $20,000 = $8,000. Your margin is therefore $8,000/$28,000 = .286, or 28.6 percent. You are below the 30 percent minimum, so you are subject to a margin call.
+
+THE EFFECTS OF MARGIN Margin is a form of financial leverage. Any time you borrow money to make an investment, the impact is to magnify both your gains and losses, hence the use of the term “leverage.” The easiest way to see this is through an example. Imagine that you have $30,000 in an account with a 60 percent initial margin. You now know that you can borrow up to an additional $20,000 and buy $50,000 worth of stock (why?). The call money rate is 5.50 percent; you must pay this rate plus a .50 percent spread. Suppose you buy 1,000 shares of Verizon (VZ) at $50 per share. One year later, shares in Verizon are selling for $60 per share. Assuming the call money rate does not change and ignoring dividends, what is your return on this investment?
+
+At the end of the year, your 1,000 shares are worth $60,000. You owe 6 percent interest on the $20,000 you borrowed, or $1,200. If you pay off the loan with interest, you will have $60,000 − $21,200 = $38,800. You started with $30,000 and ended with $38,800, so your net gain is $8,800. In percentage terms, your return was $8,800/$30,000 = .2933, or 29.33 percent.
+
+How would you have done without the financial leverage created from the margin purchase? In this case, you would have invested just $30,000. At $50 per share, you would have purchased 600 shares. At the end of the year, your 600 shares would be worth $60 apiece, or $36,000 total. Your dollar profit is $6,000, so your percentage return would be $6,000/$30,000 = .20, or 20 percent. If we compare this to the 29.33 percent that you made above, it’s clear that you did substantially better by leveraging.
+
+The downside is that you would do much worse if Verizon’s stock price fell (or didn’t rise very much). For example, if Verizon shares had fallen to $40 a share, you would have lost (check these calculations for practice) $11,200, or 37.33 percent, on your margin investment, compared to $6,000, or 20 percent, on the unmargined investment. This example illustrates how leveraging an investment through a margin account can cut both ways.
+
+A Marginal Investment?
+
+EXAMPLE 2.3
+
+A year ago, you bought 300 shares of Coca-Cola Co. (KO) at $55 per share. You put up the 60 percent initial margin. The call money rate plus the spread you paid was 8 percent. What is your return if the price today is $50? Compare this to the return you would have earned if you had not invested on margin.
+
+Your total investment was 300 shares at $55 per share, or $16,500. You supplied 60 percent, or $9,900, and you borrowed the remaining $6,600. At the end of the year, you owe $6,600 plus 8 percent interest, or $7,128. If the stock sells for $50, then your position is worth 300 × $50 = $15,000. Deducting the $7,128 leaves $7,872 for you. Since you originally invested $9,900, your dollar loss is $9,900 − $7,872 = $2,028. Your percentage return is −$2,028/$9,900 = −.2048, or −20.48 percent.
+
+If you had not leveraged your investment, you would have purchased $9,900/$55 = 180 shares. These would have been worth 180 × $50 = $9,000. You therefore would have lost $900; your percentage return would have been −$900/$9,900 = −.0909, or −9.09 percent, compared to the −20.48 percent that you lost on your leveraged position.
+
+page 52 
+
+How Low Can It Go?
+
+EXAMPLE 2.4
+
+In our previous example (Example 2.3), suppose the maintenance margin was 40 percent. At what price per share would you have been subject to a margin call?
+
+To answer, let P * be the critical price. You own 300 shares, so, at that price, your stock is worth 300 × P *. You borrowed $6,600, so your account equity is equal to the value of your stock less the $6,600 you owe, or (300 × P *) − $6,600. We can summarize this information as follows:
+
+
+From our preceding discussion, your percentage margin is your dollar margin (or account equity) divided by the value of the stock:
+
+
+To find the critical price, we will set this margin equal to the maintenance margin and solve for P *:
+
+
+Solving for P * yields:
+
+
+Finally, setting the maintenance margin equal to 40 percent, we obtain this critical price, P *:
+
+
+At any price below $36.67, your margin will be less than 40 percent and you will be subject to a margin call. So, $36.67 is the lowest possible price that could be reached before you are subject to a margin call.
+
+As Example 2.4 shows, you can calculate the critical price (the lowest price before you get a margin call) as follows:
+
+
+For example, suppose you had a margin loan of $40,000, which you used to purchase, in part, 1,000 shares. The maintenance margin is 37.5 percent. What’s the critical stock price, and how do you interpret it?
+
+See if you don’t agree that the critical stock price, P *, is $40/.625 = $64. The interpretation is straightforward: If the stock price falls below $64, you are subject to a margin call.
+
+To help make the concept of margin clear, we focused on a portfolio with only one stock in it. In most cases, however, an investor has a portfolio containing many different securities. So, how does margin work in this case? Well, any time you borrow money, you begin trading on margin. The margin process from that point is similar, except that we focus on the overall value of our portfolio. So, while investors do not get a margin call if the price of one particular stock falls, they do get one if their overall portfolio value falls too much.
+
+ANNUALIZING RETURNS ON A MARGIN PURCHASE
+Things get a little more complicated when we consider holding periods different from a year on a margin purchase. For example, suppose the call money rate is 9 percent and you pay a page 53spread of 2 percent over that. You buy 1,000 shares of Verizon (VZ) at $60 per share, but you put up only half the money. In three months, Verizon is selling for $63 per share and you sell your shares. What is your annualized return assuming no dividends are paid?
+
+In this case, you invested $60,000, half of which ($30,000) is borrowed. How much do you have to repay in three months? Here we have to adjust for the fact that the interest rate is 11 percent per year, but you only borrowed the money for three months. In this case, the amount you repay is equal to:
+
+
+where t is the fraction of a year. In our case, t would be 3 months/12 months, or .25. So, plugging in our numbers, we get:
+
+
+So, when you sell your stock, you get $63,000, of which $30,793 is used to pay off the loan, leaving you with $32,207. You invested $30,000, so your dollar gain is $2,207, and your percentage return for your three-month holding period is $2,207/$30,000 = .0736, or 7.36 percent.
+
+Finally, we have to convert this 7.36 percent to an annualized return. There are four three-month periods in a year, so:
+
+
+Thus, your annualized return is 32.84 percent.
+
+HYPOTHECATION AND STREET NAME REGISTRATION
+As part of your margin account agreement, you must agree to various conditions. We discuss two of the most important next.
+
+HYPOTHECATION Any securities you purchase in your margin account will be held by your broker as collateral against the loan made to you. This practice protects the broker because the securities can be sold by the broker if the customer is unwilling or unable to meet a margin call. Putting securities up as collateral against a loan is called hypothecation. In fact, a margin agreement is sometimes called a hypothecation agreement. In addition, to borrow the money that it loans to you, your broker will often rehypothecate your securities, meaning that your broker will pledge them as collateral with its lender, normally a bank.
+
+hypothecation
+
+Pledging securities as collateral against a loan.
+
+STREET NAME REGISTRATION Securities in a margin account are normally held in street name. This means that the brokerage firm is actually the registered owner. If this were not the case, the brokerage firm could not legally sell the securities should a customer refuse to meet a margin call or otherwise fail to live up to the terms of the margin agreement. With this arrangement, the brokerage firm is the “owner of record,” but the account holder is the “beneficial owner.”
+
+street name
+
+An arrangement under which a broker is the registered owner of a security.
+
+When a security is held in street name, anything mailed to the security owner, such as an annual report or a dividend check, goes to the brokerage firm. The brokerage firm then passes these on to the account holder. Street-name ownership is actually a great convenience to the owner. In fact, because it is usually a free service, even customers with cash accounts generally choose street-name ownership. Some of the benefits are:
+
+Because the broker holds the security, there is no danger of theft or other loss of the security. This is important because a stolen or lost security cannot be easily or cheaply replaced.
+
+Any dividends or interest payments are automatically credited, and they are often credited more quickly (and conveniently) than they would be if the owner received the check in the mail.
+
+The broker provides regular account statements showing the value of securities held in the account and any payments received. Also, for tax purposes, the broker will provide all the needed information on a single form at the end of the year, greatly reducing the owner’s record-keeping requirements.
+
+page 54 
+
+RETIREMENT ACCOUNTS
+COMPANY-SPONSORED PLANS If you are employed by a company, particularly a medium- or large-sized company, you will probably have access to a company-sponsored retirement plan such as a 401(k). In a typical plan, you (as the employee) can decide how much money you contribute to the plan by making deductions from your paychecks. In many cases, your employer also makes contributions to the plan. For example, your company could make dollar-for-dollar matching contributions up to a certain percentage of your salary. Even after your contributions hit the maximum amount your employer will match, you can still contribute additional funds. The amount of your total contribution is limited by the Internal Revenue Service (IRS). As of 2019, the contribution limit is $19,000 for workers under the age of 50 and $25,000 for those 50 and above. These limits are evaluated annually and adjusted for inflation when deemed appropriate.
+
+To see how good your potential employer’s 401(k) is, visit
+brightscope.com.
+
+You decide how your 401(k) contributions are invested. Although some companies have retirement plans that allow employees to choose almost any security, most plans use a “menu” format. That is, the company provides a set, or a menu, of investment choices for its employees. Most likely, these choices are mutual funds. Mutual funds have become so important that we devote an entire chapter to them (see Chapter 4).
+
+The general investing approach described earlier in this chapter applies to your retirement plan. You decide your percentage allocations to asset classes (like stocks, bonds, and T-bills) and then choose particular assets (e.g., mutual funds) in each asset class. For example, you might decide that you want 75 percent of your retirement funds invested in stocks. Then, you have to decide whether you want to invest in U.S. stocks, stocks in other regions of the world, stocks in specific countries, large-company stocks, small-company stocks, or a combination of these categories.
+
+What happens if an employee doesn’t select from the menu? In this case, employers identify a default investment option. Most employers generally select a target date fund, also called a life-cycle fund. This type of investment is designed to fit investors with a particular retirement date. For younger investors, the fund would use more equity, and for those nearer to retirement, more fixed income would be used. We discuss this type of fund, and many others, in another chapter.
+
+The primary benefit of company-sponsored plans is that they are considered “qualified” accounts for tax purposes. In a qualified account, any money that you deposit into the account is deducted from your taxable income. As a result, your yearly tax bill will be lower, and the net out-of-pocket cost of your deposit is lower. For example, if you are in the 15 percent tax bracket and decide to deposit $12,000 next year, your net out-of-pocket cost is only $10,200. Why? You will pay $1,800 (= .15 × $12,000) less in taxes than you would if you had not made this deposit. Of course, nothing is free. You must pay taxes on the withdrawals you make during retirement.
+
+INDIVIDUAL RETIREMENT ACCOUNTS (IRAs) People who do not have access to a company-sponsored plan, or those who want another retirement account, can use individual retirement accounts (IRAs). Because an IRA is set up directly with a broker or a bank, these accounts can contain a wide range of assets. In 2019, the maximum contribution to an IRA was $6,000 for those under the age of 50 and $7,000 for those 50 and above. Annoyingly, the amount you can contribute falls as your income rises above certain levels. As a result, IRA accounts are not available for every investor.
+
+In terms of tax treatment, there are basically two types of IRAs. With the first type, you pay taxes today on money you earn. If you then invest these aftertax dollars in a retirement savings account, you pay no taxes at all when you take the money out later. This means that dividends, interest, and capital gains are not taxed, which is a big break. Currently, this type of account is called a Roth individual retirement account (Roth IRA).
+
+With the second type of account, you do not pay taxes on the money you earn today if you invest it. Such accounts are “tax-deferred” and are similar to the way most employer-sponsored page 55retirement accounts (such as 401(k) plans) are set up. Later, when you retire, you owe income taxes on whatever you take out of the account.
+
+The two types of accounts really come down to this: You either pay taxes today and do not pay taxes later, or vice versa. It would be great if you could invest pretax dollars and never pay taxes. Alas, this is tax avoidance—which is illegal. Therefore, investors must decide whether to pay taxes now or pay taxes later.
+
+Some circumstances make a Roth IRA preferable to a more traditional tax-deferred IRA. For example, younger investors who are currently in a low tax bracket might be well suited for a Roth IRA. The reason is that the benefit of tax-free investment growth outweighs the cost of making contributions with income left after taxes. From a behavioral standpoint, a Roth might also be preferred. When determining the amount to contribute, an investor is prone to pick a dollar amount, say, the maximum $6,000. With the Roth IRA, however, investors are actually “investing” more because they are also paying the tax on that portion up front. In any case, whether you choose a Roth or a traditional IRA will depend on personal characteristics like your age and your tax bracket.
+
+CHECK THIS
+
+
+
+2.3aWhat is the difference between a cash and a margin account?
+
+2.3bWhat is the effect of a margin purchase on gains and losses?
+
+2.3cWhat is a margin call?
+
+2.4 Types of Positions
+Once you have created your investment policy statement and decided which type of investment professional you will employ, your next step is to determine the types of positions you will hold in your account. The two basic positions are long and short.
+
+An investor who buys and owns shares of stock is said to be long in the stock or to have a long position. An investor with a long position will make money if the price of the stock increases and, conversely, lose money if it goes down. In other words, a long investor hopes that the price will increase.
+
+Now consider a different situation. Suppose you thought, for some reason, that the stock in a particular company was likely to decrease in value. You obviously wouldn’t want to buy any of it. If you already owned some, you might choose to sell it.
+
+Beyond this, you might decide to engage in a short sale. In a short sale, you actually sell a security that you do not own. This is referred to as shorting the stock. After the short sale, the investor is said to have a short position in the security.
+
+short sale
+
+A sale in which the seller does not actually own the security that is sold.
+
+Financial assets of all kinds are sold short, not just shares of stock, and the terms “long” and “short” are universal. However, the mechanics of a short sale differ quite a bit across security types. Even so, regardless of how the short sale is executed, the essence is the same. An investor with a long position benefits from price increases, and as we will see, an investor with a short position benefits from price decreases. For the sake of illustration, we focus here on shorting shares of stock. Procedures for shorting other types of securities are discussed in later chapters.
+
+BASICS OF A SHORT SALE
+How can you sell stock you don’t own? It is easier than you might think: You borrow the shares of stock from your broker and then you sell them. At some future date, you will buy the same number of shares that you originally borrowed and return them, thereby eliminating the short position. Eliminating the short position is often called covering the position or, less commonly, curing the short.
+
+You might wonder where your broker will get the stock to loan you. Normally, it will come from other margin accounts. Often, when you open a margin account, you are asked to sign a page 56loan-consent agreement, which gives your broker the right to loan shares held in the account. If shares you own are loaned out, you still receive any dividends or other distributions, and you can sell the stock anytime you wish. In other words, the fact that some of your stock may have been loaned out is of little or no consequence as far as you are concerned.
+
+An investor with a short position will profit if the security declines in value. For example, assume that you short 2,000 shares of General Electric (GE) at a price of $10 per share. You receive $20,000 from the sale (more on this in a moment). A month later, the stock is selling for $8 per share. You buy 2,000 shares for $16,000, and this “round-trip” closes (or covers) your short position. Because you received $20,000 from the sale and it cost you only $16,000 to cover, you made $4,000.
+
+Conventional Wall Street wisdom states that the way to make money is to “buy low, sell high.” With a short sale, we hope to do exactly that, just in the opposite order—“sell high, buy low.” If a short sale strikes you as a little confusing, it might help to think about the everyday use of the terms. Whenever we say that we are “running short” on something, we mean we don’t have enough of it. Similarly, when someone says, “don’t sell me short,” they mean don’t bet on them not to succeed.
+
+The Long and Short of It
+
+EXAMPLE 2.5
+
+Suppose you short 2,000 shares of Under Armour (UA) at $15 per share. Six months later, you cover your short. If Under Armour is selling for $10 per share at that time, did you make money or lose money? How much? What if you covered at $20?
+
+If you shorted at $15 per share and covered at $10, you originally sold 2,000 shares at $15 and later bought them back at $10, so you made $5 per share, or $10,000. If you covered at $20, you lost $10,000.
+
+SHORT SALES: SOME DETAILS
+When you short a stock, you must borrow it from your broker, so you must fulfill various requirements. First, there is an initial margin and a maintenance margin. Second, after you sell the borrowed stock, the proceeds from the sale are credited to your account, but you cannot use them. They are, in effect, frozen until you return the stock. Finally, if any dividends are paid on the stock while you have a short position, you must pay them.
+
+There are many sites devoted to the fine art of short selling. Try
+bearmarketcentral.com.
+
+To illustrate, we will again create an account balance sheet. Suppose you want to short 100 shares of AT&T (T) when the price is $30 per share. This short sale means you will borrow shares of stock worth a total of $30 × 100 = $3,000. Your broker has a 50 percent initial margin and a 40 percent maintenance margin on short sales.
+
+An important thing to keep in mind with a margin purchase of securities is that margin is calculated as the value of your account equity relative to the value of the securities purchased. With a short sale, margin is calculated as the value of your account equity relative to the value of the securities sold short. Thus, in both cases, margin is equal to equity value divided by security value.
+
+In our AT&T example, the initial value of the securities sold short is $3,000 and the initial margin is 50 percent, so you must deposit at least half of $3,000, or $1,500, in your account. With this in mind, after the short sale, your account balance sheet is as follows:
+
+Assets		Liabilities and Account Equity
+Proceeds from sale	$3,000	Short position	$3,000
+Initial margin deposit	  1,500	Account equity	1,500
+Total	$4,500	Total	$4,500
+As shown, four items appear on the account balance sheet:
+
+Proceeds from sale. This is the $3,000 you received when you sold the stock. This amount will remain in your account until you cover your position. Note that you will not earn interest on this amount—it will just sit there as far as you are concerned.
+
+page 57
+
+Margin deposit. This is the 50 percent margin that you had to post. This amount will not change unless there is a margin call. Depending on the circumstances and your particular account agreement, you may earn interest on the initial margin deposit.
+
+Short position. Because you must eventually buy back the stock and return it, you have a liability. The current cost of eliminating that liability is $3,000.
+
+Account equity. As always, the account equity is the difference between the total account value ($4,500) and the total liabilities ($3,000).
+
+We now examine two scenarios: (1) the stock price falls to $20 per share and (2) the stock price rises to $40 per share.
+
+If the stock price falls to $20 per share, then you are still liable for 100 shares, but the cost of those shares is now just $2,000. Your account balance sheet becomes:
+
+Assets		Liabilities and Account Equity
+Proceeds from sale	$3,000	Short position	$2,000
+Initial margin deposit	  1,500	Account equity	2,500
+Total	$4,500	Total	$4,500
+Notice that the left-hand side doesn’t change. The same $3,000 you originally received is still held, and the $1,500 margin you deposited is still there also. On the right-hand side, the short position is now a $2,000 liability, down from $3,000. Finally, the good news is that the account equity rises by $1,000, so this is your gain. Your margin is equal to account equity divided by the security value (the value of the short position), $2,500/$2,000 = 1.25, or 125 percent.
+
+However, if the stock price rises to $40, things are not so rosy. Now, the 100 shares for which you are liable are worth $4,000:
+
+Assets		Liabilities and Account Equity
+Proceeds from sale	$3,000	Short position	$4,000
+Initial margin deposit	  1,500	Account equity	500
+Total	$4,500	Total	$4,500
+Again, the left-hand side doesn’t change. The short liability rises by $1,000, and, unfortunately for you, the account equity declines by $1,000, the amount of your loss.
+
+To make matters worse, when the stock price rises to $40, you are severely undermargined. The account equity is $500, but the value of the stock sold short is $4,000. Your margin is $500/$4,000 = .125, or 12.5 percent. Since this is well below the 40 percent maintenance margin, you are subject to a margin call. You have two options: (1) buy back some or all of the stock and return it or (2) add funds to your account.
+
+A Case of the Shorts
+
+EXAMPLE 2.6
+
+You shorted 5,000 shares of Layton Industries at a price of $30 per share. The initial margin is 50 percent, and the maintenance margin is 40 percent. What does your account balance sheet look like following the short?
+
+Following the short, your account becomes:
+
+Assets		Liabilities and Account Equity
+Proceeds from sale	$150,000	Short position	$150,000
+Initial margin deposit	  75,000	Account equity	75,000
+Total	$225,000	Total	$225,000
+Notice that you shorted $150,000 worth of stock, so, with a 50 percent margin requirement, you deposited $75,000.
+
+page 58 
+
+Margin Calls
+
+EXAMPLE 2.7
+
+In our previous example (Example 2.6), at what price per share would you be subject to a margin call?
+
+To answer this one, let P * be the critical price. The short liability then is 5,000 shares at a price of P *, or 5,000 × P *. The total account value is $225,000, so the account equity is $225,000 − 5,000P *. We can summarize this information as follows:
+
+
+Notice that the total account value, $225,000, is the sum of your initial margin deposit plus the proceeds from the sale, and this amount does not change. Your margin is the account equity relative to the short liability:
+
+
+To find the critical price, we will set this margin equal to the maintenance margin and solve for P *:
+
+
+Solving for P * yields:
+
+
+Finally, setting the maintenance margin equal to 40 percent, we obtain this critical price, P *:
+
+
+At any price above $32.14, your margin will be less than 40 percent, so you will be subject to a margin call. Thus, $32.14 is the highest possible price that could be reached before you are subject to a margin call.
+
+As Example 2.7 shows, you can calculate the critical price on a short sale (the highest price before you get a margin call) as follows:
+
+
+For example, suppose you shorted 1,000 shares at $50. The initial margin is 50 percent and the maintenance margin is 40 percent. What’s the critical stock price, and how do you interpret it?
+
+Noting that the initial margin deposit is $25,000 (50 percent of the short proceeds), see if you don’t agree that the critical stock price, P *, is $75/1.40 = $53.57. So, if the stock price rises above $53.57, you’re subject to a margin call.
+
+We should remind you, however, that while we have focused on individual stock positions, margin works at the portfolio level. So, it is possible for an investor to use margin to go long some stocks and go short others at the same time. Margin calls are triggered by a decline in the overall portfolio equity value and not necessarily by the change in price of any single security.
+
+At this point, you might wonder whether short selling is a common practice among investors. Actually, it is quite common, and a substantial volume of stock sales are initiated by short-sellers. In fact, the amount of stock held short for some companies can be several tens of millions of shares, and the total number of shares held short across all companies can be several billion shares. To measure the extent of short selling in a particular stock, many investors refer to short interest, which is the amount of common stock held in short positions. The Work the Web box shows how to find short interest for a particular company.
+
+short interest
+
+The amount of common stock held in short positions.
+
+page 59 
+
+WORK THE WEB
+
+You can find the short interest for the current month in many financial publications. But what if you want a longer history of the shares sold short for a particular company? At nasdaq.com, you can find the short interest for companies listed on the NASDAQ for the previous year. We went to the site in early 2019 and looked up Tesla (TSLA), and here is what we found:
+
+As you can see, the short interest in Tesla fell from about 35 million shares in July 2018 to about 27 million shares in December 2018. Why would you want a history of short sales? Some investors use short sales as a technical indicator, which we discuss in a later chapter. Here’s a question for you: What do you think “Days to Cover” means? It is the ratio of short interest to average daily share volume. Thus, “Days to Cover” measures how many days of normal trading would be necessary to completely cover all outstanding short interest.
+
+Another commonly used measure of short interest is the percentage of float. This metric measures the percentage of a firm’s outstanding shares that are currently being shorted. Some stocks have large short interest positions because they have a large number of shares outstanding (think about Apple). “Days to Cover” and percentage of float help to standardize the way short interest is presented, which makes the information more meaningful.
+
+
+Source: www.nasdaq.com, accessed January 2019.
+
+SHORT-SALE CONSTRAINTS
+Although short selling stock is relatively easy, you do need to be aware of some constraints related to this type of position. For example, all sell orders marked as short sales were previously subject to the uptick rule. According to the uptick rule, a short sale can be executed only if the last price change was an uptick. For example, suppose the last two trades were executed at 55.50 and then 55.63. The last price change was an uptick of .13, so a short sale can be executed at a price of 55.63 or higher. Alternatively, suppose the last two trades were executed at 55.50 and 55.25, where the last price change was a downtick of .25. In this case, a short sale can be executed only at a price higher than 55.25.
+
+uptick rule
+
+Rule for short sales requiring that before a short sale can be executed, the last price change must be an uptick.
+
+page 60 
+
+INVESTMENT UPDATES
+
+SHACKLING SHORT SELLERS: THE 2008 SHORTING BAN
+
+A paper by Ekkehart Boehmer, Charles Jones, and Xiaoyan Zhang examines the short selling ban imposed by the Securities and Exchange Commission in 2008. Here is the major conclusion the authors draw:
+
+Stocks subject to the ban suffered a severe degradation in market quality, as measured by spreads, price impacts, and intraday volatility. Price effects are a bit harder to assign to the ban, as there is substantial confounding news about TARP and other government programs to assist the financial sector on the day that the ban is announced and implemented. When we look at firms that are added later to the ban list (and which are generally much less affected by the news about TARP, for example), we do not find a price bump at all. In fact, these stocks consistently underperform during the whole period the ban is in effect. This suggests that the shorting ban did not provide much of an artificial boost in prices.
+
+Essentially, market liquidity suffered, which increased both trading costs and volatility. In fact, after controlling for other market forces, the researchers found that the ban had no positive impact on prices, which was a primary goal of the imposed ban. So, it doesn’t appear that the ban really worked.
+
+Source: Ekkehart Boehmer, Charles M. Jones, and Xiaoyan Zhang, “Shackling Short Sellers: The 2008 Shorting Ban,” Review of Financial Studies 26, no. 6 (2013), pp. 1363–1400.
+
+Regulators originally enacted the uptick rule to make it more difficult for speculators to drive down a stock’s price by repeated short sales, often called a “bear raid.” While the uptick rule originated on the NYSE, the NASDAQ adopted a similar rule in 1994. In 2004, the Securities and Exchange Commission (SEC) decided to test whether the uptick rule was still necessary. In particular, the SEC believed that increased market liquidity made this type of speculative trading less feasible. So, the SEC repealed the uptick rule in June 2007—ironically, just in time for one of the worst market crashes in history.
+
+Without an uptick rule in place, in 2008 the SEC resorted to a complete ban on short selling in an original set of 799 financial companies. The SEC’s goal was to limit the downward slide in the market, which the SEC perceived to be strongly related to excessive short selling. Even after the ban, however, financial stocks continued to slide. Combined with other negative effects, many insiders question how effective this ban actually was. Check out our Investment Updates box for some additional insight on the short selling ban.
+
+After the markets began to recover in 2009, the SEC reconsidered its decision to eliminate the uptick rule. After much public discussion and comment, the SEC decided to adopt a modified, or alternative, uptick rule. The new rule, which was approved in 2010, does not apply any short-sale constraints until a stock declines by 10 percent in a single day. If this decline occurs, then any subsequent short sale is subject to the uptick rule.
+
+Besides government intervention, short-sellers face other constraints. For example, there might not be enough shares available to short, whether from your particular broker or across the entire market. Without shares available to borrow, the short sale cannot take place. This constraint can create effects similar to those of the outright ban instituted by the SEC: reduced liquidity, increased volatility, and inefficient pricing.
+
+We conclude our discussion of short sales with a very important observation. With a long position, the most you can ever lose is your total investment. In other words, if you buy $10,000 worth of stock, $10,000 is the most you can lose because the worst that can happen is the stock price drops to zero. However, if you short $10,000 in stock, you can lose much more than $10,000 because the stock price can keep rising without any particular limit. In fact, as our previous chapter showed, stock prices do tend to rise, at least on average. With this in mind, potential short-sellers should remember the following classic bit of Wall Street wisdom: “He that sells what isn’t his’n, must buy it back or go to prison!”1
+
+page 61 
+
+CHECK THIS
+
+
+
+2.4aWhat is a short sale?
+
+2.4bWhy might an investor choose to short a stock?
+
+2.4cWhat is the maximum possible loss on a short sale? Explain.
+
+2.5 Forming an Investment Portfolio
+Let’s review the investment process so far. We began by crafting our investment policy statement, detailing our objectives and constraints. Next, we discussed the type of investment professional that might best fit our situation. Then, once the account was opened, we considered whether we wanted a traditional cash account or if we were interested in increasing financial leverage (i.e., risk) using margin. Last, we had to decide whether we wanted to include long or short positions (or both) in our portfolio. With this basic structure in place, we can now consider actual examples of how we would put this process into practice.
+
+In this section, we give you an example of how to use risk tolerance scores and other investor characteristics to create an asset allocation for an actual portfolio. Of course, many approaches are possible, and we can touch on only a few.
+
+SOME RISK TOLERANCE SCORES
+To start, we gave a risk tolerance quiz to ten students, staff, and faculty at a well-known university. Their ages and risk tolerance scores, as well as some other information, appear in Table 2.1 (their names are changed, but no one is innocent).
+
+Risk Tolerance Test Results
+
+TABLE 2.1
+
+
+As you can see, the risk tolerance scores have a wide range: from 13 to 40. The higher the score, the higher the risk tolerance. If you look closely, you will see that the average score for the males and females in this tiny set of quiz takers is about the same. The average score for those investors with little or no investment experience, however, is 24. Those with at least some investment experience have an average score of 31. What do you think these scores mean?
+
+RISK AND RETURN
+In addition to time horizon, risk tolerance is the first thing to assess in evaluating the suitability of an investment strategy. Let’s look at the test results for Marie and Imelda.
+
+page 62 
+
+Marie and Imelda each have sufficient cash reserves. That is, both Marie and Imelda have at least six months’ living expenses readily available in a money market account. Of course, these amounts are not the same, largely because of housing and transportation cost differences. Having a sufficient cash reserve means that Marie and Imelda can safely proceed with building an investment portfolio.
+
+MARIE Marie is a 21-year-old accounting student with more than average investment experience. According to the Investment Updates quiz, her long time horizon and score of 40 mean Marie should take an aggressive investment approach, which means a heavy allocation to stocks. Okay, but how much of her portfolio should she devote to stocks?
+
+To help determine Marie’s percentage stock allocation, we will use the general rule of thumb we mentioned earlier in the chapter: the “100 minus age rule.” That is, an investor’s percentage allocation to stock should be equal to his or her age subtracted from 100. For Marie, this is 100 − 21 = 79 percent (let’s call it 80 percent). Given Marie’s aggressive nature, she might even want to consider subtracting her age from 110, or even 120, which would result in a higher allocation to equity.
+
+Marie has 30+ years to retirement, so she does not have to worry about short-term market volatility. In addition, she is studying diligently so that she can begin her auditing career and earn a steady and relatively high income. Therefore, for now, having at least 80 percent of her investments devoted to stock seems appropriate.
+
+IMELDA Imelda is a 59-year-old college professor with many advanced degrees. Combined with her short time horizon until retirement, Imelda’s score of 18 means that she should take a conservative or, at the most, moderately conservative approach.
+
+For Imelda, the rule of thumb shows that she should consider having a portfolio with 100 − 59 = 41 percent in stocks (let’s call it 40 percent). Imelda has 5+ years to retirement, but many years left to enjoy life. Therefore, Imelda has to worry about market volatility in the short term. Her worry stems from the fact that her lofty income will not be available to her when she retires. As a result, Imelda will really have to think long and hard about whether 40 is the appropriate percentage to have invested in stock. Further, using margin would be inappropriate because the added risk would not be consistent with her risk tolerance.
+
+INVESTOR CONSTRAINTS
+In our example, both Marie and Imelda have sufficient resources2 to set up the brokerage accounts that they will use for their investment portfolio, but they have different investment horizons. For simplicity, we will assume that both investors prefer highly liquid investments. With respect to taxes, Marie is currently in a low tax bracket. Therefore, she is likely to elect to pay taxes now and invest in a Roth IRA if given the choice. Imelda will most likely defer taxes because she is currently in a high tax bracket. So Imelda will most likely try to invest as many pretax dollars as she can. Marie and Imelda will both have to factor in special circumstances. For example, Marie might very well have some dependents to support beginning in the next five years or so. Imelda has adult children, but her grandchildren will certainly appreciate her financial support in the years ahead.
+
+STRATEGIES AND POLICIES
+With respect to investment management, both Marie and Imelda want to avoid the time-consuming activities associated with managing their own investment portfolios. However, each will monitor her portfolio on a monthly basis. Marie and Imelda are convinced that attempts at market timing will result in investment underperformance. In addition, both think that security selection is a dangerous trap for the unwary. As a result, they both decide to invest in some passively managed mutual funds (but they have not told us which ones).
+
+Learn more about investing as an individual at
+aaii.com.
+
+Both investors have yet to decide on their asset allocation. The asset allocation strategy should provide the highest rate of return given the acceptable level of risk and after accounting for portfolio constraints. Based on their financial resources, financial goals, time horizon, tax status, and risk tolerance, our investors could select their initial asset allocations from those provided in Table 2.2.
+
+page 63 
+
+AAII Asset Allocation Models
+
+TABLE 2.2
+
+Suggested Allocation Breakdowns by Investor Profile
+Aggressive Investor
+• Age 18–35
+• 30+Years Investment Horizon	Moderate Investor
+• Age 35–55
+• 20+ Years Investment Horizon	Conservative Investor
+• Age 55+
+• 10+ Years Investment Horizon
+20% Large-cap stocks	20% Large-cap stocks	25% Large-cap stocks
+20% Mid-cap stocks	20% Mid-cap stocks	10% Mid-cap stocks
+20% Small-cap stocks	10% Small-cap stocks	10% Small-cap stocks
+20% International stocks	15% International stocks	5% International stocks
+10% Emerging markets stocks	5% Emerging markets stocks	0% Emerging markets stocks
+10% Intermediate bonds	30% Intermediate bonds	40% Intermediate bonds
+0% Short-term bonds	0% Short-term bonds	10% Short-term bonds
+Aggressive Portfolio Return	Moderate Portfolio Return	Conservative Portfolio Return
+1 yr: −.8%	1 yr: −.4%	1 yr: 1.1%
+5 yrs: 6.2	5 yrs: 5.5	5 yrs: 5.1
+10 yrs: 11.5	10 yrs: 9.7	10 yrs: 8.1
+Standard Dev. 9.4%	Standard Dev. 7.3%	Standard Dev. 5.2%
+Source: www.aaii.com/asset-allocation, accessed January 2019.
+
+In addition, you can see that our investors have set holding limits on each asset class. That is, they want to make sure that they do not overinvest in any particular asset class. You should know that overinvesting can happen if one asset class performs well in relation to the others.
+
+MORE ON ASSET ALLOCATION
+ALLOCATION BY INVESTOR PROFILE Earlier in this chapter, you learned that asset allocation is more important than security selection. Many factors affect asset allocation decisions. Not all investors will choose the same asset allocation. Consider the asset allocation guidelines given for three types of investors in Table 2.2. How would you classify Marie and Imelda? Which investor profile fits you?
+
+STRATEGIC VERSUS TACTICAL ALLOCATION As objectives or constraints change, investors will modify their asset allocation. Generally, these changes are infrequent. In other words, a properly selected asset allocation will be relatively stable. This targeted allocation is referred to as strategic allocation. Over time, because asset classes have relatively higher or lower returns, the portfolio will be rebalanced to the targeted strategic allocation.
+
+What if you were actively following the financial markets and you thought that stocks were overvalued relative to bonds? Or suppose you thought that international stocks would perform better than U.S. stocks? In cases like these, you might use a tactical asset allocation. With a tactical asset allocation, you attempt to make smaller, short-term changes to your strategic allocation. The purpose? You are trying to capture added return.
+
+After a period of time, you would shift your allocation back to the longer-term strategic allocation. Note well, however, that this tactical asset allocation approach is similar to market timing. You should be aware that considerable debate exists on whether tactical allocation is truly beneficial.
+
+CHECK THIS
+
+
+
+2.5aBesides risk tolerance, what are some other constraints, strategies, and policies that investors use in forming an investment portfolio?
+
+2.5bWhy could two investors of the same age wind up with different investment portfolios?
+
+2.5cWhat is the difference between strategic and tactical asset allocation?
+
+page 64 
+
+2.6 Summary and Conclusions
+In this chapter, we cover many aspects of the investing process—which we summarize by the chapter’s important concepts.
+
+1.  The importance of an investment policy statement.
+
+A.  The investment policy statement (IPS) identifies the objectives (risk and return) of an investor, as well as the constraints the investor faces in achieving these objectives.
+
+B.  The IPS provides an investing “road map” and will influence the strategies, type of account, and holdings an investor chooses.
+
+2.  The various types of securities brokers and brokerage accounts.
+
+A.  Opening a brokerage account is straightforward and really much like opening a bank account. You supply information and sign agreements with your broker. Then you write a check and provide instructions on how you want your money invested.
+
+B.  Brokers are traditionally divided into three groups: full-service brokers, discount brokers, and deep-discount brokers. What distinguishes the three groups is the level of service they provide and the resulting commissions they charge. In recent years, the boundaries among the groups have blurred.
+
+C.  Your broker does not have a duty to provide you with guaranteed purchase and sale recommendations. However, your broker does have a duty to exercise reasonable care in formulating recommendations. Your broker has a legal duty to act in your best interest. However, your broker relies on commissions generated from your account. Therefore, on rare occasions, a broker is accused of “churning” an account (i.e., promoting excessive trading). When you open your brokerage account, you generally agree that disputes will be resolved by binding arbitration.
+
+3.  How to trade on margin, including calculating the initial and maintenance margins.
+
+A.  If you have a “cash account,” you can purchase securities only to the extent that you can pay for them in full. If you want to buy more stock, you must deposit more cash into your account.
+
+B.  If you have a “margin account,” you can purchase securities on credit using money loaned to you by your broker. Generally, you can borrow only half the amount needed to buy the securities.
+
+C.  When you first purchase securities on credit, you must supply a specified minimum amount of money. This minimum amount of money is called the initial margin.
+
+D.  After you have purchased securities on margin, the securities can decline in value. If they do, you must follow established rules concerning the amount of money you must keep in your account. This minimum is called the maintenance margin. If your account balance falls below the maintenance margin level, you will receive a margin call. In this chapter, we show you how to calculate initial and maintenance margin levels and their effects on your returns.
+
+4.  The workings of short sales.
+
+A.  An investor who buys and owns shares of stock is said to be long in the stock, or to have a long position. An investor with a long position makes money only if the price of the stock increases.
+
+B.  If you think, for whatever reason, that shares of stock in a particular company are likely to decline in value, you can engage in a short sale. In a short sale, you actually sell a security that you do not own. This is referred to as shorting the stock. After the short sale, the investor is said to have a short position in the security. An investor with a short position makes money only if the shares decrease in value.
+
+C.  In this chapter we describe in detail the short-sale process for shares of stock. We also stress the potentially unlimited losses that can arise from a short position.
+
+page 65 
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the basics of policy statements, brokerage accounts, some important trade types, and, finally, some big-picture issues regarding investment strategies. How should you, as an investor or investment manager, put this information to work?
+
+The answer is that you need to open a brokerage account! Investing is like many activities: The best way to learn is by making mistakes. Unfortunately, making mistakes with real money is an expensive way to learn, so we don’t recommend trying things like short sales with real money, at least not at first.
+
+Instead, to learn how to trade and gain some experience with making (and losing) money, you should open a Stock-Trak account (or a similar simulated brokerage account). Take it seriously. Try various trade types and strategies and see how they turn out. The important thing to do is to follow your trades and try to understand why you made or lost money and also why you made or lost the amount you did.
+
+In a similar vein, you should carefully review your account statements to make sure you understand exactly what each item means and how your account equity is calculated.
+
+After you have gained some experience trading “on paper,” you should open a real account as soon as you can pull together enough money. Try visiting some online brokers to find out the minimum amount you need to open an account. The amount has been declining. In fact, in 2019, you could open a TD Ameritrade account with no minimum, although you would need $2,000 to open a margin account.
+
+Looking back at Chapter 1, you know that it’s important to get started early. Once you have a real account, however, it’s still a good idea to keep a separate “play money” account to test trading ideas to make sure you really understand them before committing your precious real money.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+asset allocation 43
+
+call money rate 48
+
+cash account 48
+
+hypothecation 53
+
+initial margin 49
+
+maintenance margin 50
+
+margin 49
+
+margin account 48
+
+margin call 50
+
+market timing 43
+
+Securities Investor Protection Corporation (SIPC) 47
+
+security selection 43
+
+short interest 59
+
+short sale 55
+
+street name 53
+
+uptick rule 60
+
+Chapter Review Problems and Self-Test
+
+1.   The Account Balance Sheet (LO2, CFA4) Suppose you want to buy 10,000 shares of American Airlines (AAL) at a price of $30 per share. You put up $200,000 and borrow the rest. What does your account balance sheet look like? What is your margin?
+
+2.   Short Sales (LO4, CFA5) Suppose that in the previous problem you shorted 10,000 shares instead of buying. The initial margin is 60 percent. What does the account balance sheet look like following the short?
+
+3.   Margin Calls (LO3, CFA4) You purchased 500 shares of stock at a price of $56 per share on 50 percent margin. If the maintenance margin is 30 percent, what is the critical stock price?
+
+page 66 
+
+Answers to Self-Test Problems
+
+1.   The 10,000 shares of American Airlines cost $300,000. You supply $200,000, so you must borrow $100,000. The account balance sheet looks like this:
+
+Assets		Liabilities and Account Equity
+10,000 shares of AAL	$300,000	Margin loan	$100,000
+Account equity	200,000
+Total	$300,000	Total	$300,000
+Your margin is the account equity divided by the value of the stock owned:
+
+
+2.   Following the short, your account is as follows:
+
+Assets		Liabilities and Account Equity
+Proceeds from sale	$300,000	Margin loan	$300,000
+Initial margin deposit	180,000	Account equity	180,000
+Total	$480,000	Total	$480,000
+Notice that you shorted $300,000 worth of stock, so, with a 60 percent margin requirement, you deposited $180,000.
+
+3.   The lowest price to which the stock can drop before you receive a margin call is:
+
+
+You borrowed 500 × $56 × .50 = $14,000. Therefore:
+
+
+You will receive a margin call if the stock drops below $40.00.
+
+Test Your Investment Quotient
+
+
+Investment Objectives (LO1, CFA8) An individual investor’s investment objectives should be expressed in terms of:
+
+Risk and return.
+
+Capital market expectations.
+
+Liquidity needs and time horizon.
+
+Tax factors and legal and regulatory constraints.
+
+Asset Allocation (LO1, CFA2) Which of the following best reflects the importance of the asset allocation decision to the investment process? The asset allocation decision:
+
+Helps the investor decide on realistic investment goals.
+
+Identifies the specific securities to include in a portfolio.
+
+Determines most of the portfolio’s returns and volatility over time.
+
+Creates a standard by which to establish an appropriate investment horizon.
+
+Leverage (LO3, CFA4) You deposit $100,000 cash in a brokerage account and purchase $200,000 of stocks on margin by borrowing $100,000 from your broker. Later, the value of your stock holdings falls to $150,000, whereupon you get nervous and close your account. What is the percentage return on your investment (ignore interest paid)?
+
+0 percent
+
+−25 percent
+
+−50 percent
+
+−75 percent
+
+page 67
+
+Leverage (LO4, CFA5) You deposit $100,000 cash in a brokerage account and short sell $200,000 of stocks. Later, the value of the stocks held short rises to $250,000, whereupon you get nervous and close your account. What is the percentage return on your investment?
+
+0 percent
+
+−25 percent
+
+−50 percent
+
+−75 percent
+
+Account Margin (LO3, CFA4) You deposit $100,000 cash in a brokerage account and purchase $200,000 of stocks on margin by borrowing $100,000 from your broker. Later, the value of your stock holdings falls to $175,000. What is your account margin in dollars?
+
+$50,000
+
+$75,000
+
+$100,000
+
+$150,000
+
+Account Margin (LO3, CFA4) You deposit $100,000 cash in a brokerage account and purchase $200,000 of stocks on margin by borrowing $100,000 from your broker. Later, the value of your stock holdings falls to $150,000. What is your account margin in percent?
+
+25 percent
+
+33 percent
+
+50 percent
+
+75 percent
+
+Account Margin (LO4, CFA5) You deposit $100,000 cash in a brokerage account and short sell $200,000 of stocks on margin. Later, the value of the stocks held short rises to $225,000. What is your account margin in dollars?
+
+$50,000
+
+$75,000
+
+$100,000
+
+$150,000
+
+Account Margin (LO4, CFA5) You deposit $100,000 cash in a brokerage account and short sell $200,000 of stocks on margin. Later, the value of the stocks held short rises to $250,000. What is your account margin in percent?
+
+20 percent
+
+25 percent
+
+33 percent
+
+50 percent
+
+Margin Calls (LO3, CFA4) You deposit $100,000 cash in a brokerage account and purchase $200,000 of stocks on margin by borrowing $100,000 from your broker, who requires a maintenance margin of 30 percent. Which of the following is the largest value for your stock holdings for which you will still receive a margin call?
+
+$200,000
+
+$160,000
+
+$140,000
+
+$120,000
+
+Margin Calls (LO4, CFA5) You deposit $100,000 cash in a brokerage account and short sell $200,000 of stocks. Your broker requires a maintenance margin of 30 percent. Which of the following is the lowest value for the stocks you are holding short for which you will still receive a margin call?
+
+$260,000
+
+$240,000
+
+$220,000
+
+$200,000
+
+Investment Decisions (LO1, CFA7) Which of the following investment factors, strategies, or tactics is the least relevant to a passive investment policy?
+
+Market timing
+
+Asset allocation
+
+Political environment
+
+Tax status
+
+page 68
+
+Investment Decisions (LO1, CFA2) Which of the following investment factors, strategies, or tactics is most associated with an active investment policy?
+
+Market timing
+
+Asset allocation
+
+Security selection
+
+Tax status
+
+Investment Decisions (LO1, CFA8) Which of the following investment strategies or tactics will likely consume the greatest amount of resources, time, effort, and so on, when implementing an active investment policy?
+
+Market timing
+
+Asset allocation
+
+Security selection
+
+Tax strategy
+
+Investment Decisions (LO1, CFA2) Which of the following investment strategies or tactics is likely the most relevant in the decision to short sell a particular stock?
+
+Market timing
+
+Asset allocation
+
+Security selection
+
+Tax strategy
+
+Investment Constraints (LO1, CFA5) Which of the following investment constraints is expected to have the most fundamental impact on the investment decision process for a typical investor?
+
+Investor’s tax status
+
+Investor’s term structure
+
+Investor’s need for liquidity
+
+Investor’s time horizon
+
+Concept Questions
+
+Margin (LO3, CFA4) What does it mean to purchase a security on margin? Why might you do it?
+
+Short Sales (LO4, CFA5) What does it mean to sell a security short? Why might you do it?
+
+Margin Requirements (LO3, CFA4) What is the reason margin requirements exist?
+
+Allocation versus Selection (LO1, CFA2) What is the difference between asset allocation and security selection?
+
+Allocation versus Timing (LO1, CFA10) Are market timing and tactical asset allocation similar? Why or why not?
+
+Brokers versus Advisors (LO2, CFA11) To an investor, what is the difference between using an advisor and using a broker?
+
+Broker-Customer Relations (LO2, CFA11) Suppose your broker tips you on a hot stock. You invest heavily, but, to your considerable dismay, the stock plummets in value. What recourse do you have against your broker?
+
+Long vs. Short Profits (LO4, CFA5) An important difference between a long position in stock and a short position concerns the potential gains and losses. Suppose a stock sells for $18 per share and you trade 500 shares. What are your potential gains and losses for each type of position?
+
+Liquidity (LO4, CFA5) The liquidity of an asset directly affects the risk of buying or selling that asset during adverse market conditions. Describe the liquidity risk you face with a short stock position during a market rally and a long stock position during a market decline.
+
+Taxes (LO4, CFA9) How will personal tax rates impact the choice of a traditional IRA versus a Roth IRA?
+
+page 69 
+
+Questions and Problems
+
+Core Questions
+
+Calculating Margin (LO3, CFA4) Carson Corporation stock sells for $17 per share, and you’ve decided to purchase as many shares as you possibly can. You have $31,000 available to invest. What is the maximum number of shares you can buy if the initial margin is 60 percent?
+
+Margin (LO3, CFA4) You purchase 275 shares of 2nd Chance Co. stock on margin at a price of $53. Your broker requires you to deposit $8,000. What is your margin loan amount? What is the initial margin requirement?
+
+Margin Return (LO3, CFA4) In Problem 2, suppose you sell the stock at a price of $62. What is your return? What would your return have been had you purchased the stock without margin? What if the stock price is $46 when you sell the stock?
+
+Margin (LO3, CFA4) Repeat Problems 2 and 3 assuming the initial margin requirement is 70 percent. Does this suggest a relationship between the initial margin and returns?
+
+Margin Purchases (LO3, CFA4) You have $22,000 and decide to invest on margin. If the initial margin requirement is 55 percent, what is the maximum dollar purchase you can make?
+
+Margin Calls (LO3, CFA4) You buy 500 shares of stock at a price of $38 and an initial margin of 60 percent. If the maintenance margin is 30 percent, at what price will you receive a margin call?
+
+Margin Calls (LO3, CFA5) You decide to buy 1,200 shares of stock at a price of $34 and an initial margin of 55 percent. What is the maximum percentage decline in the stock before you will receive a margin call if the maintenance margin is 35 percent?
+
+Margin Calls on Short Sales (LO4, CFA5) The stock of Flop Industries is trading at $48. You feel the stock price will decline, so you short 1,000 shares at an initial margin of 60 percent. If the maintenance margin is 30 percent, at what share price will you receive a margin call?
+
+Margin Calls on Short Sales (LO4, CFA5) You sold short 1,000 shares of stock at a price of $36 and an initial margin of 55 percent. If the maintenance margin is 35 percent, at what share price will you receive a margin call? What is your account equity at this stock price?
+
+Taxes and Returns (LO1, CFA9) You purchased a stock at the end of last year at a price of $73. At the end of this year, the stock pays a dividend of $1.20 and you sell the stock for $78. What is your return for the year? Now suppose that dividends are taxed at 15 percent and long-term capital gains (over 11 months) are taxed at 30 percent. What is your aftertax return for the year?
+
+Intermediate Questions
+
+Calculating Margin (LO3, CFA4) Using the information in Problem 1, construct your equity account balance sheet at the time of your purchase. What does your balance sheet look like if the share price rises to $24? What if it falls to $14 per share? What is your margin in both cases? Round the number of shares down to the nearest number of whole shares.
+
+Calculating Margin (LO3, CFA4) You’ve just opened a margin account with $20,000 at your local brokerage firm. You instruct your broker to purchase 500 shares of Landon Golf stock, which currently sells for $60 per share. What is your initial margin? Construct the equity account balance sheet for this position.
+
+Margin Call (LO3, CFA4) Suppose you purchase 500 shares of stock at $48 per share with an initial cash investment of $8,000. If your broker requires a 30 percent maintenance margin, at what share price will you be subject to a margin call? If you want to keep your position open despite the stock price plunge, what alternatives do you have?
+
+Margin and Leverage (LO3, CFA4) In Problem 13, suppose the call money rate is 5 percent and you are charged a 1.5 percent premium over this rate. Calculate your return on investment for each of the following share prices one year later. Ignore dividends.
+
+$56
+
+$48
+
+$32
+
+Suppose instead you had purchased $8,000 of stock with no margin. What would your rate of return have been now?
+
+Margin and Leverage (LO3, CFA4) Suppose the call money rate is 5.6 percent, and you pay a spread of 1.2 percent over that. You buy 1,000 shares at $40 per share with an initial margin of 50 percent. One year later, the stock is selling for $45 per share and you close out your position. What is your return assuming no dividends are paid?
+
+page 70
+
+Margin and Leverage (LO3, CFA4) Suppose the call money rate is 4.5 percent, and you pay a spread of 2.5 percent over that. You buy 800 shares of stock at $34 per share. You put up $15,000. One year later, the stock is selling for $48 per share and you close out your position. What is your return assuming a dividend of $.64 per share is paid?
+
+Margin Interest (LO3, CFA4) Suppose you take out a margin loan for $50,000. The rate you pay is an 8.4 percent effective rate. If you repay the loan in six months, how much interest will you pay?
+
+Margin Interest (LO3, CFA4) Suppose you take out a margin loan for $75,000. You pay a 6.4 percent effective rate. If you repay the loan in two months, how much interest will you pay?
+
+Annualized Returns (CFA1) Suppose you hold a particular investment for seven months. You calculate that your holding period return is 14 percent. What is your annualized return?
+
+Annualized Returns (CFA1) In Problem 19, suppose your holding period was five months instead of seven. What is your annualized return? What do you conclude in general about the length of your holding period and your annualized return?
+
+Annualized Returns (CFA1) Suppose you buy stock at a price of $57 per share. Five months later, you sell it for $61. You also received a dividend of $.60 per share. What is your annualized return on this investment?
+
+Calculating Returns (CFA1) Looking back at Problem 12, suppose the call money rate is 5 percent and your broker charges you a spread of 1.25 percent over this rate. You hold the stock for six months and sell at a price of $65 per share. The company paid a dividend of $.25 per share the day before you sold your stock. What is your total dollar return from this investment? What is your effective annual rate of return?
+
+Short Sales (LO4, CFA5) You believe that Rose, Inc., stock is going to fall and you’ve decided to sell 800 shares short. If the current share price is $47, construct the equity account balance sheet for this trade. Assume the initial margin is 100 percent.
+
+Short Sales (LO4, CFA5) Repeat Problem 23 assuming you short the 800 shares on 60 percent margin.
+
+Calculating Short Sale Returns (LO4, CFA5) You just sold short 750 shares of Wetscope, Inc., a fledgling software firm, at $96 per share. You cover your short when the price hits $86.50 per share one year later. If the company paid $.75 per share in dividends over this period, what is your rate of return on the investment? Assume an initial margin of 60 percent.
+
+Short Sales (LO4, CFA5) You believe the stock in Freeze Frame Co. is going to fall, so you short 600 shares at a price of $72. The initial margin is 50 percent. Construct the equity balance sheet for the original trade. Now construct equity balance sheets for a stock price of $63 and a stock price of $77. What is your margin at each of these stock prices? What is your effective annual return if you cover your short position at each of these prices in five months?
+
+Spreadsheet Problems
+
+Short Sales (LO4, CFA5) You believe that Thorn Enterprises stock is going to fall, so you have decided to short sell 1,000 shares at a price of $32. Assuming the initial margin requirement is 50 percent, construct the equity account balance sheet for this trade. If the maintenance margin is 30 percent, at what price would a margin call result?
+
+Portfolio Margin (LO3, CFA4) Assume that you have identified three different stocks that you would like to purchase. You decide to buy 100 shares of each stock. Stock A is priced at $30; Stock B is priced at $40; and Stock C is priced at $50. Assuming you deposit $7,200 of your own money and borrow the remainder, construct the equity account balance sheet for this trade. If the maintenance margin is 30 percent, at what portfolio value would a margin call result?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA1, CFA7, CFA10, CFA11]
+
+Barbara Analee, a registered nurse and businesswoman, recently retired at age 50 to pursue a life as a blues singer. She had been running a successful cosmetics and aesthetics business. She is married to Tom, a retired scientist (age 55). They have saved $3 million in their portfolio and now they want to travel the world. Their three children are all grown and out of college and have begun their own families. Barbara now has two grandchildren. Barbara and Tom feel that they have achieved a comfortable portfolio level to support their family’s needs for the foreseeable future.
+
+page 71 
+
+To meet their basic living expenses, Tom and Barbara feel they need $75,000 per year in today’s dollars (before taxes) to live comfortably. As a trained professional, Barbara likes to be actively involved in intensively researching investment opportunities. Barbara and Tom want to be able to provide $10,000 per year (pretax) indexed for inflation to each of their grandchildren over the next 10 years for their college education. They also want to set aside $15,000 each year (pretax) indexed for inflation for traveling for Barbara’s musical performances around the United States. They have no debt. Most of their portfolio is currently in large-cap U.S. stocks and Treasury notes.
+
+They have approached Pamela Jaycoo, CFA, for guidance on how to best achieve their financial goals. Inflation is expected to increase at an annual rate of 3 percent into the foreseeable future.
+
+1.  What is the Analees’ return objective?
+
+a.  6.67 percent
+
+b.  6.17 percent
+
+c.  3.83 percent
+
+2.  What is their tolerance for risk?
+
+a.  Average
+
+b.  Below average
+
+c.  Above average
+
+3.  What are Barbara’s willingness and ability to assume risk?
+
+
+4.  Based on the information in the case, which one of the following portfolios should the Analees choose?
+
+
+a.  Portfolio A
+
+b.  Portfolio B
+
+c.  Portfolio C
+
+What’s on the Web?
+1.   Risk Tolerance As we discussed in the chapter, risk tolerance is based on an individual’s personality and investment goals. There are numerous risk tolerance questionnaires on the web. One, provided by Merrill Lynch, is located at individual.ml.com. Go to the website, locate the questionnaire, and take the quiz. How conservative or aggressive are you?
+
+2.   Short Interest You can find the number of short sales on a particular stock at finance.yahoo.com. Go to the site and find the number of shares short sold for ExxonMobil (XOM) under the “Statistics” link. How many shares are sold short in the current month? What about the previous month? What do “Percent of Float” and “Short Ratio” mean?
+
+page 72 
+
+3.   Broker Call Money Rate What is the current broker call money rate? To find out, go to bankrate.com and look up the call money rate.
+
+4.   Margin Purchases Suppose you have a margin account with TD Ameritrade. You purchase 1,000 shares of IBM stock on 50 percent margin at today’s price. Go to finance.yahoo.com to find your purchase price. Ignoring transaction costs, how much will you borrow? Next, go to bankrate.com to find the current broker call money rate. Finally, go to TDAmeritrade.com to find out how much above the current broker call money rate you will pay. If you keep your investment for one year, how much will you pay in interest assuming the margin rate stays the same? What does the stock price have to be in one year for you to break even on your investment?
+
+
+
+
+1 Of course, the same is true for “she that sells what isn“thers’n”; it just doesn’t rhyme as well.
+
+2 All investor constraints, strategies, and policies appear in italics.

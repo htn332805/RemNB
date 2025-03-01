@@ -1,0 +1,906 @@
+CHAPTER 21
+International Financial Management
+
+LEARNING OBJECTIVES
+
+Discuss how the basic principles of finance apply to international financial transactions.
+Differentiate among the spot rate, the forward rate, and the cross rate in the foreign exchange markets, perform foreign exchange and cross rate calculations, and hedge an asset purchase where payment is made in a foreign currency.
+Identify the major factors that distinguish international from domestic capital budgeting, explain how the capital budgeting process can be adjusted to account for these factors, and compute the NPV for a typical international capital project.
+Discuss the importance of the Euromarkets to large U.S. multinational firms, and calculate the cost of borrowing in the Eurobond market.
+Explain how large U.S. money center banks make and price Eurocredit loans to their customers, and compute the cost of a Eurocredit bank loan.
+Founded in 1964, Nike Incorporated has grown to be one of the most recognizable consumer brands in the world. Many of the company’s products are closely tied to sporting legends, including Tiger Woods, who headlines their golf apparel line, and Michael Jordan and his famed “Air Jordan” basketball shoes. The company, based in Beaverton, Oregon, employs more than 75,000 people and is one of the largest retailers of athletic shoes, apparel, and sports equipment. In 2020, the company recorded over $38 billion in sales, and according to its annual report, $22.8 billion of those sales were to customers outside of the United States. To support its operations, Nike maintains branch offices in over 50 countries.
+
+Managing the financial aspects of such a large and complex multinational organization poses tremendous challenges. In 2020, the company’s footwear was manufactured in 122 different factories in 12 different countries, while its apparel line was produced in 329 factories in 38 countries. Approximately 50 percent of its footwear is made by producers in Vietnam, and much of the manufacturing and labor costs for this production are paid in the Vietnamese currency known as the dong. Most of these shoes, however, are sold outside Vietnam in a variety of different countries and currencies. As a result, the profitability of Nike can vary due to fluctuations in the exchange rates between the dong and various other currencies and also between the dong and the U.S. dollar, the currency in which Nike reports its financial results. If Nike executives don’t take actions that limit the effects of changes in currency exchange rates on the company’s profits, these changes can make financing the business more difficult and can adversely affect the company’s stock price.
+
+Capital budgeting is also more demanding in a multinational firm. Forecasting sales for numerous countries is much more difficult than forecasting only domestic demand for a company’s products. An analyst must understand the key factors that will drive foreign product demand, including demographic, cultural, and regulatory factors as well as general economic conditions. In addition, production location decisions, supply chain considerations, and inventory management can be quite complex for firms with operations across the globe, making costs more difficult to estimate. Countries also have unique political and financial risk factors. For example, Singapore is widely recognized as a country with a very stable political system and a reliable rule of law. This makes it easier for businesses to make long-run investments in the country and to obtain capital from local banks. At the other end of the spectrum, countries with political conflict and economic discord, such as Venezuela and Greece, present extreme challenges for multinational firms.
+
+Financing a multinational company like Nike is also complex. Multinational firms typically raise capital in different regions of the world. This requires that financial managers understand international finance and have a working knowledge of foreign financial markets. Financial managers must also maintain banking relationships in the various countries in which they operate to ensure that their firms have adequate working capital to support their operations. This chapter discusses these and other challenges associated with the financial management of multinational firms.
+
+Chapter Preview
+So far, we have focused on doing business in the United States, yet a large proportion of U.S. companies today engage in international business transactions. This chapter provides an introduction to international financial management.
+
+The goal of financial management is the same abroad as it is at home—to maximize the value of the firm. Thus, the financial manager’s job is to seek out international business opportunities in which the value of the expected cash flows exceeds their cost. If this is done, the firm’s international activities will increase the overall value of the firm.
+
+We start the chapter by providing some background information about the globalization of the world economy, the rise of multinational corporations, and the key factors that distinguish domestic from international business transactions. We emphasize that the basic principles of finance remain valid for international business transactions, even though some of the variables used in financial models change. We also introduce two risks that are not present in domestic business transactions: foreign exchange rate risk and country risk.
+
+We follow this with discussions of markets for foreign currency exchange and how firms protect themselves from fluctuations in exchange rates. We then explain how multinational firms manage their overseas capital investments and compute the NPVs for these projects.
+
+We next turn our attention to global money and capital markets. We pay particular attention to the Euromarket, where large multinational companies adjust their liquidity, borrow short term from banks in the Eurocredit market, and borrow long term in the international bond markets. Finally, we discuss how banks price and structure Eurocredits.
+
+21.1 Introduction to International Financial Management
+LEARNING OBJECTIVE
+
+Discuss how the basic principles of finance apply to international financial transactions.
+Businesses operate in a far different world today than they did only a generation or two ago. Because of the globalization of the world economy, management—including financial management—has changed in many respects. Yet, as you will see, the goals and principles of financial management remain essentially the same.
+
+Globalization of the World Economy
+Over the past 50 years, we have witnessed the globalization of business and financial markets. Globalization refers to the removal of barriers to free trade and the integration of national economies. Large corporations often generate more than half of their sales revenue in countries other than the one in which they are based. For example, almost two-thirds of McDonald’s revenue is generated from countries other than the United States. As you read the Wall Street Journal or the business section of any major newspaper, you will see numerous reminders that we live in a globalized world economy.
+
+globalization the removal of barriers to free trade and the integration of national economies
+
+As consumers, Americans routinely purchase clothing and shoes made in China, oil from Canada, automobiles from Germany, pasta and high-fashion shoes from Italy, wines from France, coffee from Brazil, TV sets from South Korea, and textiles from India. Foreigners, in turn, purchase American-made aircraft, medical technology, software, movies, music, wheat, beef, lumber, and many other products.
+
+The production of goods and services has also become highly globalized. As large multinational companies have emerged, the economies of the world have become increasingly interdependent. Most multinational companies have integrated sales and production operations in a dozen or more countries. These firms seek to purchase components and locate production where costs are lower to generate higher margins. For example, personal computers manufactured by U.S.-based firms such as Dell and HP are sold worldwide and may be assembled in Malaysia or China, with monitors and hard drives made in Vietnam, computer chips made in the Taiwan, keyboards made in Korea, and software produced in India.
+
+Like product markets, the financial system has also become highly integrated. Much of the impetus for financial integration came from the governments of the major Asian and Western nations as they began deregulating their foreign exchange markets, money and capital markets, and banking systems.
+
+The Rise of Multinational Corporations
+A major factor driving globalization of the world economy is direct investment by multinational corporations. A multinational corporation is a business firm that operates in more than one country. These corporations engage in traditional lines of business, such as manufacturing, mining, gas and oil, and agriculture, as well as consulting, accounting, law, telecommunications, and hospitality. They may purchase raw materials from one country, obtain financing from a capital market in another country, produce finished goods with labor and capital equipment from a third country, and sell finished goods in a number of other countries.
+
+multinational corporation a business firm that operates in more than one country
+
+Multinationals are owned by a mixture of domestic and foreign stockholders. In fact, the ownership of some firms is so widely dispersed that they are known as transnational corporations. Transnational corporations, regardless of the location of their headquarters, are managed from a global perspective rather than the perspective of a firm residing in a particular country. This fact has made them politically controversial because they are viewed as stateless corporations with no allegiance or social responsibility to any nation or region of the world. An example of a transnational firm is Royal Dutch Shell.
+
+transnational corporation a multinational firm that has widely dispersed ownership and that is managed from a global perspective
+
+Exhibit 21.1 lists the largest 15 multinational firms ranked by their total worldwide revenues in 2019. Royal Dutch Shell is the fifth largest of this group with $352.1 billion in revenue. As you can see, most of the firms on the list are household names. By country of origin, 7 of the largest 15 firms are headquartered in the United States, with the balance in China, Japan, Europe, and Saudi Arabia.
+
+Factors Affecting International Financial Management
+As we suggested earlier, most of the basic finance principles discussed in this book apply to international financial management. However, six factors can cause international business transactions to differ from domestic transactions. We look at these factors next.
+
+EXHIBIT 21.1 The World’s Largest Multinational Firms Ranked by 2019 Revenue
+
+Many of the world’s 15 largest multinational firms are household names; 7 of the top 15 are based in the United States, with the balance located in China, Japan, Europe, and Saudi Arabia.
+
+Rank	Company	Country	Revenue($ billions)	Profits($ billions)
+1	Walmart Stores	U.S.	$524.0   	$14.9    
+2	Sinopec	China	407.0	  6.8
+3	State Grid	China	383.9	  8.0
+4	China National Petroleum	China	379.1	  4.4
+5	Royal Dutch Shell	Netherlands/U.K.	352.1	15.8
+6	Saudi Aramco	Saudi Arabia	329.8	88.2
+7	Volkswagen	Germany	282.8	15.5
+8	BP	U.K.	282.6	  4.0
+9	Amazon.com	U.S.	280.5	11.6
+10	Toyota Motor	Japan	275.3	19.1
+11	Exxon Mobil	U.S.	264.9	14.3
+12	Apple	U.S.	260.2	55.3
+13	CVS Health	U.S.	256.8	  6.6
+14	Berkshire Hathaway	U.S.	254.6	81.4
+15	UnitedHealth Group	U.S.	242.2	13.8
+Source: www.fortune.com/global500/
+Currency Differences
+
+Most sovereign nations have their own currencies. Thus, businesses that engage in international transactions are likely to deal in two or more currencies. If this is the case, financial managers need to know how unexpected fluctuations in currency exchange rates can affect the firm’s cash flows and, hence, the value of the firm. The uncertainty of future exchange rate movements is called foreign exchange rate risk, or just exchange rate risk, and we discuss it later in this chapter.
+
+foreign exchange rate risk, or exchange rate risk the uncertainty associated with future currency exchange rate movements
+
+Differences in Legal Systems and Tax Codes
+
+Differences in legal systems and tax codes can also impact the way firms operate in foreign countries. Some countries, including the United States, Canada, and India, operate under legal systems derived from British common law, whereas Western European countries such as France, Germany, and Italy have legal systems derived from the French Napoleonic codes. Chinese law and other Asian legal systems evolved over centuries, with an emphasis on moral teaching and legally stipulated punishments.
+
+What emerges from the world’s legal systems and tax codes is a patchwork of different systems that can vary substantially from country to country and can affect how foreign business firms are treated within a particular country’s borders. Legal systems can vary on simple matters, such as the requirements for opening a business, selecting a site location, and hiring employees, as well as more complex matters, such as the taxation of companies and dividends, the rights and legal liabilities of ownership, and the resolution of business conflicts. Thus, legal and tax differences can affect financial decisions concerning what assets to acquire, how to organize the firm, and what capital structure to use.
+
+Language Differences
+
+There are two important levels of communication in international business: business communication and social communication. Most multinational negotiations and legal contracts use English. English is the language of choice for international business throughout much of the world. Thus, reading and speaking fluent English are necessary skills for anyone planning to be a senior manager in a multinational corporation.
+
+English is not, however, the world’s social language—the language spoken when important social relationships that build trust are formed. Local languages are important for social relationships. For example, suppose that you are the CEO of an American food-processing firm and you are negotiating a deal to manufacture food products in Guangzhou, China (about 60 miles from Hong Kong). You are partnering with a Dutch firm that you know well. During the day, business and contract negotiations are conducted in English. Most members of the management team will probably speak English as well as Chinese or Dutch.
+
+At the traditional Chinese business dinner banquets, however, the preferred social language will be Cantonese, a regional Chinese dialect. Needless to say, those who speak only English in this situation will be at a disadvantage. Historically, most U.S. business executives have spoken only English; however, this is changing rapidly as more U.S. executives receive overseas assignments and business students recognize the importance of a second language.
+
+Cultural Differences
+
+Culture is defined as the socially transmitted behavior patterns, beliefs, and attitudes of a group. Cultural views and attitudes are powerful forces that bind people together and define a particular society. The cultures of different countries, and even different regions within the same country, can vary considerably.
+
+Cultural views also shape business practices and people’s attitudes toward business. For example, in Germany business firms are generally expected to have less debt in their capital structure than is typical for comparable firms in the United States. Other areas of business that differ by culture are willingness to assume risk, management style, tolerance for inflation, and attitude toward race, gender, and business failure.
+
+Differences in Economic Systems
+
+An economic system determines how a country mobilizes its resources to produce goods and services needed by society, as well as how the production is distributed. In the twentieth century, two basic economic systems competed for government endorsement: (1) centrally planned economies and (2) market economies.
+
+In a centrally planned economy, resources are allocated, produced, and distributed under the direction of the central government, as in the former Soviet Union. These economies have no financial markets or banking systems to allocate capital flows. The central government sets interest rates and foreign exchange rates, and financial managers need not worry about capital budgeting decisions because capital resources are allocated centrally.
+
+In market economies, resources are allocated, produced, and distributed by market forces rather than by government decree. Market economies have proven to be much more efficient in producing goods and services than centrally planned economies. This fact is borne out by current trends in what once were the two largest centrally planned in the world: the Soviet Union and China. With the breakup of the Soviet Union in 1991, the countries that comprised the union, including Russia, adopted many of the features of market-based economies. China, maintains an economic system frequently referred to as a socialist market economy in which private capitalist enterprises co-exist with state-owned and controlled companies.
+
+Differences in Country Risk
+
+Sovereign nations are usually free to place or remove constraints on businesses.1 At the extreme, a country’s government may even expropriate (take over) a business’s assets within the country. These types of actions clearly can affect a firm’s cash flows and, thus, the value of the firm. Country risk refers to political uncertainty associated with a particular country. We discuss country risk in more detail later in this chapter.
+
+country risk the political uncertainty associated with a particular country
+
+Goals of International Financial Management
+Throughout this book, we have argued that maximization of firm value is the proper goal for management to pursue. Maximizing firm value will generate the greatest amount of wealth for a firm’s stockholders, which is the accepted goal for firms in the United States, as well as in other countries that share a similar heritage, such as the United Kingdom, Australia, India, and Canada. However, it is not a widely embraced goal in other parts of the world. In Continental Europe, for example, countries such as France and Germany focus on maximizing corporate wealth. This means that stockholders are treated no differently from stakeholders, such as management, labor, suppliers, creditors, and even the government. The European manager’s goal is to create as much wealth as possible while considering the overall welfare of both the stockholders and stakeholders. In Japan, companies form tightly knit, interlocking business groups called keiretsu, such as Mitsubishi, Mitsui, and Sumitomo.The goal of the Japanese business manager in these groups is to increase the wealth and growth of the keiretsu. As a result, the manager might focus on maximizing market share rather than stockholder value.
+
+In China there are sharp differences between state-owned companies and emerging private-sector firms. The large state-owned companies have an overall goal that can best be described as maintaining full employment in the economy. In contrast, private-sector firms embrace the standard of stockholder value maximization, but are tightly regulated by the government.
+
+Basic Principles Remain the Same
+Building Intuition
+The Basic Principles of Finance Apply No Matter Where You Do Business
+
+The principles of finance do not stop at international borders. They apply no matter where the firm is headquartered or where it operates. Although basic finance principles do not change, international financial managers must contend with complications stemming from factors such as differences in accounting standards and tax codes, differences in interest rates, the presence of foreign exchange rate risk and country risk, and cultural differences.
+
+In today’s globalized environment, financial managers must be prepared to handle international transactions and all the complexities that those transactions involve. Fortunately, the basic principles of finance remain the same whether a transaction is domestic or international. The time value of money, for example, is not affected by whether a business transaction is domestic or international. Likewise, we use the same models for valuing capital assets, bonds, stocks, and entire firms.
+
+The things that do change are some of the input variables used to make financial calculations. For example, required rates of return often differ between countries, and the appropriate rate must be used. Similarly, cash flows may be stated in terms of home or foreign currency. Tax codes and accounting standards also differ across countries. Exhibit 21.2 lists some of the important finance concepts and procedures discussed in the first 20 chapters of this book and indicates where there are differences between domestic and international operations.
+
+Before You Go On
+What is globalization?
+What are multinational corporations?
+Explain the difference between American and European views on wealth maximization.
+EXHIBIT 21.2 The Basic Principles of Finance Apply in International Finance
+
+Most of the basic finance principles discussed in this book remain unchanged in the international context. Where there are differences, they generally result from differences in accounting standards, tax codes, legal and regulatory systems, monetary systems, interest rates, and cultural norms.
+
+Finance Concepts and Procedures	Differences Between Domestic and International Operations
+Business risk	Foreign exchange rate and country risk must be taken into account
+Form of business organization	Varies with countries’ legal and regulatory systems
+Ethical norms	Differ with countries’ cultural norms
+Nominal rate of interest	Affected by the rate of inflation in a given country
+Accounting standards	Vary by country
+Financial statement analysis	Financial statements must be adjusted for cross-country comparisons
+Tax codes	Vary by country
+Concept of cash flows	Cash is cash, but monetary units are different
+Goal of maximizing shareholders’ wealth	Proper goal for U.S.-based firms, but may vary by country
+Time value of money	No difference
+Bond valuation	Basic valuation concepts are the same, but market conditions differ
+Valuation of equity	Basic valuation concepts are the same, but market conditions differ
+actNet present value analysis	No difference
+Operating and financial leverage	No difference
+Working capital management	Basic concepts are the same, but market conditions differ
+Expected returns and variance	No difference
+Cost of debt and equity	Basic concepts are the same, but market conditions and tax systems differ
+Weighted average cost of capital	Basic concepts are the same, but market conditions and tax systems differ
+Optimal capital structure	Basic concepts are the same, but market conditions and tax systems differ
+Payout policy	Basic concepts are the same, but tax systems differ
+
+Read about current issues in international financial management in the World section of the Wall Street Journal at www.wsj.com/news/world
+
+
+Visit www.citigroup.com for an overview of a multinational banking institution.
+
+
+To learn about the business environment and other information about a country, you can explore the CIA Web site at www.cia.gov/the-world-factbook/
+
+21.2 Foreign Exchange Markets
+Learning Objective
+
+Differentiate among the spot rate, the forward rate, and the cross rate in the foreign exchange markets, perform foreign exchange and cross rate calculations, and hedge an asset purchase where payment is made in a foreign currency.
+The foreign exchange markets are international markets where currencies are bought and sold in wholesale amounts. Foreign exchange markets provide three basic economic benefits:
+
+foreign exchange markets international markets where currencies are bought and sold in wholesale amounts
+
+A mechanism to transfer purchasing power from individuals who deal in one currency to individuals who deal in a different currency, facilitating the import and export of goods and services.
+A way for corporations to pass the risk associated with foreign exchange price fluctuations to professional risk-takers. This hedging function is particularly important to corporations in the present era of floating, or variable, exchange rates.
+A channel for importers and exporters to acquire credit for international business transactions. The time span between the shipment of goods by exporters and their receipt by importers can be considerable. While the goods are in transit, they must be financed. Foreign exchange markets provide a mechanism through which financing and currency conversions can be accomplished efficiently and at low cost.
+The foreign exchange markets are very large, with an average daily volume reaching more than $6.6 trillion in 2020. This is more than the value of all the cars, wheat, oil, and other products sold daily in the real economy. London is by far the largest foreign exchange trading center, with New York City, Hong Kong, and Singapore being other important locations for foreign exchange trade. In this section, we examine how the foreign exchange markets are structured and how they work.
+
+Market Structure and Major Participants
+There is no single formal foreign exchange market. Rather, as suggested earlier, there is a group of informal markets that are closely interlocked through international banking relationships. Participants are linked by electronic networks. The market trades any time of day or night and every day of the year. Virtually every country has some type of active foreign exchange market.
+
+The major participants in the foreign exchange markets are multinational commercial banks, large investment banking firms, and currency boutiques that specialize in foreign exchange transactions. In the United States, the market is dominated by money center banks, including Citigroup, JPMorgan, and Bank of America. The other major participants are the central banks, which intervene in the markets primarily to smooth out fluctuations in the exchange rates for their countries’ currencies.
+
+Foreign Exchange Rates
+When U.S.-based firms buy raw materials or finished goods, they want to get the best possible deal—the quality they need at the lowest price. When suppliers are located in the United States, comparisons of the alternatives are quite easy. Both the supplier and the customer keep their books and pay their bills in the same currency—U.S. dollars.
+
+When the suppliers are not located in the United States, comparisons are more difficult. American buyers prefer to pay for purchases in dollars, but the foreign supplier must pay employees and other local expenses with its domestic currency. Hence, one of the two parties in the transaction will be forced to deal in a foreign currency and incur foreign exchange rate risk (recall that this risk arises because of the uncertainty associated with future exchange rate movements).
+
+Fortunately, we can easily compare prices stated in different currencies by checking the foreign exchange rate quotes in major newspapers or on the Internet. A foreign exchange rate is the price of one monetary unit, such as the British pound, stated in terms of another currency, such as the U.S. dollar.
+
+As an example, assume that you are the CFO of a U.S.-based manufacturing firm and you can buy American steel at $660.00 per ton and British steel for £496 per ton. Furthermore, a Japanese company is willing to sell steel for ¥65,895 per ton. Which supplier should you choose? If the exchange rate between dollars and pounds is $1.35/£, meaning that one British pound will cost $1.35, the British steel will cost £496 × $1.35/£ = $669.60. At this dollar price, the American firm will prefer to buy steel from the American supplier at $660.00 per ton. If the exchange rate between the yen and the dollar is ¥102/$, which means that one dollar costs ¥102, the Japanese steel will cost ¥65,895/¥102/$ = $646.03 per ton. This price is $13.97 per ton ($660.00 − $646.03 = $13.97) less than the American supplier’s price of $660.00 per ton. If the price quotation of ¥65,895 includes all transportation costs and tariffs, or if the sum of those costs is less than $13.97 per ton, the American manufacturer will find it cheaper to purchase steel from the Japanese supplier. The first three rows in Exhibit 21.3 show the calculations used to reach this conclusion.
+
+Now suppose that the exchange rate between the dollar and the pound falls from $1.35/£ to $1.30/£. Because the exchange rates for the world’s major currencies float freely, market forces cause fluctuations to occur continuously. At this point, the British steel can be bought for £496 × $1.30/£ = $644.80 (row 4 in Exhibit 21.3). The British firm has become the low-cost supplier, even though it has done nothing itself to lower its price.
+
+EXHIBIT 21.3 Foreign Exchange Rates and the Price of Steel in International Markets
+
+The exhibit shows the calculations necessary to decide which steel supplier offers the best price: American, British, or Japanese. If the exchange rate between the dollar and the pound is $1.35/£ and the exchange rate between the yen and the dollar is ¥102/$, it makes economic sense to select the Japanese supplier. The situation changes when the exchange rate between pound and dollar falls to $1.30/£.
+
+Supplier	Price in Local Currency	Foreign Exchange Rate	Conversion to Price in U.S. Dollars	Price of Steel in U.S. Dollars
+American	$660	–	–	$660.00
+British	£496	$1.35/£	£496 × $1.35/£ =	$669.60
+Japanese	¥65,895	¥102/$	¥65,895/¥102/$ =	$646.03
+British	£496	$1.30/£	£496 × $1.30/£ =	$644.80
+Notice that it now takes fewer dollars to buy one British pound and, conversely, more pounds to purchase one U.S. dollar. It is correct to say that the value of the pound has fallen against the dollar or that the value of the dollar has risen against the pound. Both statements indicate that goods and services priced in pounds are now cheaper to someone holding dollars and that purchases priced in dollars are now more expensive to someone holding pounds.
+
+Also notice that, other things remaining equal, the demand for a country’s products will be higher when the value of the country’s currency declines relative to the value of other currencies. In our example, the change in the exchange rate led to a reversal of the U.S. company’s purchase decisions; at $1.35/£, British steel was the most expensive, but when the exchange rate fell to $1.30/£, British steel was the cheapest.
+
+Learning by Doing Application 21.1 and Decision Making Example 21.1 present other examples that illustrate exchange rate calculations and the interpretation of exchange rates.
+
+LEARNING BY DOING APPLICATION 21.1
+Exchange Rates and the Blue Sweater
+
+Problem
+
+While in a clothing store on Savile Row in London, you find the blue cashmere sweater of your dreams. The sweater is on sale at £250. You say to yourself, “In the states, a sweater like that costs about $300.” If the current exchange rate is $1.38/£, is the sweater’s sale price a bargain relative to what you would pay for it in the United States?
+
+
+
+
+
+DECISION MAKING EXAMPLE 21.1
+Exchange Rate Movement: Good or Bad News?
+
+Situation
+
+You are the purchasing agent for the U.S.-based firm buying steel in the example just discussed in the text and summarized in Exhibit 21.3. Your assistant runs into the office and breathlessly says, “The pound is stronger against the dollar! The new exchange rate is $1.37/£!” Is your assistant’s report good news or bad news?
+
+
+
+The Equilibrium Exchange Rate
+Exhibit 21.4 shows the supply and demand for British pounds and the equilibrium exchange rate between the U.S. dollar and the pound. As you can see, the supply of and demand for pounds move in opposite directions as the exchange rate changes. The demand for pounds increases as the U.S. dollar appreciates in value against the pound. In other words, as pounds become less expensive in relation to dollars, British products become less expensive for Americans to buy. We import more British goods; therefore, we demand more British pounds to pay for those goods. This is illustrated by the downward-sloping demand curve in Exhibit 21.4.
+
+At the same time, the supply of pounds decreases as the dollar price of pounds declines. From the point of view of a British buyer, the lower the dollar price of pounds, the greater the number of pounds that must be given up to obtain dollars to buy foreign (e.g., U.S.) goods. Thus, the lower the dollar price of pounds, the more likely British residents are to switch from imported to domestic products. When purchases are diverted in this way to domestic goods, British residents will supply fewer pounds to the foreign exchange markets because they no longer want to buy as many imports. This is shown by the upward-sloping supply curve in the exhibit.
+
+Exhibit 21.4 also shows the equilibrium exchange rate ($/£), which is at the point where the supply and demand curves intersect and the quantity of the currency demanded exactly equals the quantity supplied. At that rate of exchange, participants in the foreign exchange market will be neither accumulating nor divesting a currency.
+
+The key to understanding movements in exchange rates, then, is to identify factors that cause shifts in the supply and demand curves for foreign currency. In general, whatever causes U.S. residents to buy more or fewer foreign goods shifts the demand curve for the foreign currency. Similarly, whatever causes foreigners to buy more or fewer U.S. goods shifts the supply curve for the foreign currency.
+
+Major currencies such as the British pound and the U.S. dollar are referred to as “floating” currencies in that their exchange rates are allowed to freely fluctuate with supply and demand on the foreign exchange markets. In some cases, however, a country elects to “peg,” or fix, its exchange rate to another major currency, such as the U.S. dollar or the euro. Around the world, over two dozen countries, including Denmark, Togo, and Bulgaria, have opted to peg their currency exchange rates. For example, Bahrain maintains a fixed exchange rate between its dinar and the U.S. dollar of 0.376 dinar per U.S. dollar. Countries typically peg their currency to maintain stability in the exchange rate and to ensure that their goods and services remain competitively priced in export markets.
+
+EXHIBIT 21.4 The Equilibrium Exchange Rate The supply of and demand for pounds move in opposite directions. The equilibrium exchange rate occurs at the intersection of the supply and demand curves. At this point, the quantity of the currency demanded equals the quantity supplied.
+
+
+Foreign Currency Quotations
+Exhibit 21.5 shows selected exchange rate quotations from the Wall Street Journal. As you can see, there are several types of quotations, which we discuss next.
+
+The Spot Rate
+
+Look first at Panel A of the exhibit. The exchange rate quotations here are spot rates. The spot rate is the cost of buying a foreign currency today “on the spot.” In other words, it is the exchange rate that you would pay for immediate delivery of a currency.
+
+spot rate the exchange rate for immediate delivery of a currency
+
+In Panel A, the first column shows the name of the country and the name of its currency. The second and third columns, labeled “USD Equivalent,” show how many U.S. dollars it takes to buy one unit of the foreign currency. Because this rate is the price in dollars for a foreign currency, it is often called the American or direct quote. For example, using the Thursday quote, it takes $1.3688 to buy one British (UK) pound, 19.24 cents to buy one Brazilian real, and 1.368 cents to buy an Indian rupee.
+
+EXHIBIT 21.5 Spot Foreign Exchange Rates and Cross Rates
+
+Panel A lists spot rates for selected currencies. Columns 2 and 3 in Panel A show how many U.S. dollars it takes to buy one unit of the foreign currency, and columns 4 and 5 show how much foreign currency it takes to purchase one U.S. dollar. Panel B of the exhibit shows the cross rates for seven currencies commonly dealt with in the United States.
+
+Panel A: Foreign Exchange Data for Thursday, January 14, 2021
+
+ 	USD Equivalent		Currency per USD
+ 	THURS	WED		THURS	WED
+Americas	 	 	 	 	 	 
+Argentina peso	0.0117	0.0117	 	85.6525	85.5423
+Brazil real	0.1924	0.1887	 	5.1971	5.2993
+Canada dollar	0.791	0.7876	 	1.2643	1.2698
+Chile peso	0.001376	0.001355	 	726.5	737.8
+Colombia peso	0.00029	0.000288	 	3446.44	3477.29
+Ecuador U.S. dollar	1	1	 	1	1
+Mexico peso	0.0507	0.0504	 	19.714	19.8561
+Uruguay peso	0.02357	0.02353	 	42.435	42.495
+Asia-Pacific	 	 	 	 	 
+Australian dollar	0.778	0.7732	 	1.2853	1.2933
+China yuan	0.1544	0.1546	 	6.4746	6.4681
+Hong Kong dollar	0.129	0.129	 	7.7534	7.7537
+India rupee	0.01368	0.01367	 	73.07675	73.16825
+Indonesia rupiah	0.0000711	0.0000711	 	14055	14060
+Japan yen	0.00963	0.00963	 	103.8	103.87
+Kazakhstan tenge	0.00238	0.00239	 	419.88	418.99
+Macau pataca	0.125156	0.12511	 	7.99	7.993
+Malaysia ringgit	0.2478	0.2472	 	4.036	4.0445
+New Zealand dollar	0.7224	0.7179	 	1.3843	1.393
+Pakistan rupee	0.00625	0.00623	 	160.1	160.48
+Philippines peso	0.0208	0.0208	 	48.046	48.009
+Singapore dollar	0.7551	0.7536	 	1.3243	1.3269
+South Korea won	0.000912	0.000911	 	1096.07	1098.12
+Sri Lanka rupee	0.005194	0.005195	 	192.52	192.5
+Taiwan dollar	0.03573	0.03571	 	27.99	28
+Thailand baht	0.03337	0.03333	 	29.97	30
+Vietnam dong	0.00004336	0.00004336	 	23065	23065
+Europe	 	 	 	 	 
+Bulgaria lev	0.62166	0.62177	 	1.609	1.608
+Croatia kuna	0.1606	0.1604	 	6.2262	6.2358
+Czech Rep. koruna	0.04648	0.04648	 	21.514	21.515
+Denmark krone	0.1634	0.1634	 	6.1201	6.1185
+Euro area euro	1.2157	1.216	 	0.8226	0.8224
+Hungary forint	0.003382	0.003372	 	295.65	296.54
+Iceland krona	0.00776	0.007774	 	128.87	128.63
+Norway krone	0.1182	0.118	 	8.4608	8.4727
+Poland zloty	0.2676	0.2678	 	3.7371	3.7345
+Romania leu	0.2494	0.2496	 	4.0093	4.0065
+Russia ruble	0.01364	0.01354	 	73.292	73.863
+Sweden krona	0.1204	0.1198	 	8.3077	8.3499
+Switzerland franc	1.1263	1.1266	 	0.8879	0.8876
+Turkey lira	0.1357	0.135	 	7.3719	7.408
+Ukraine hryvnia	0.0355	0.0355	 	28.15	28.15
+U.K. pound	1.3688	1.3638	 	0.7306	0.7332
+Middle East/Africa	 	 	 	 	 
+Bahrain dinar	2.6522	2.6525	 	0.3771	0.377
+Egypt pound	0.0638	0.0639	 	15.6622	15.6575
+Israel shekel	0.3138	0.3197	 	3.1865	3.1279
+Kuwait dinar	3.2989	3.2979	 	0.3031	0.3032
+Oman sul rial	2.59717	2.59737	 	0.39	0.39
+Qatar rial	0.2746	0.2747	 	3.6413	3.6407
+Saudi Arabia riyal	0.2666	0.2665	 	3.7515	3.7518
+South Africa rand	0.0662	0.0655	 	15.0946	15.2559
+Panel B: Key Currency Cross Rates	January 14, 2021, 11:45 p.m. Eastern Standard Time
+ 	Dollar	Euro	Pound	SFranc	Peso	Yen	CdnDlr
+Canada	          1.2652	          1.5369	        1.731	          1.4235	0.064016	0.012191	—
+Japan	103.79	126.09	141.99	116.78	5.2514     	—	82.04    
+Mexico	       19.7631	       24.0093	       27.0361	       22.2408	—	0.1904     	15.621  
+Switzerland	          0.8886	          1.0796	          1.2158	      —	0.04496  	0.008562	   0.7025
+U.K.	          0.7309	          0.8879	        —	          0.8225	0.036988	0.007042	   0.5777
+Euro	          0.8231	      —	          1.1263	          0.9262	0.041651	0.007931	   0.6506
+U.S.	    —	          1.2148	          1.3682	          1.1254	0.050599	0.009635	   0.7904
+Sources: Tullett Prebon and the Wall Street Journal Market Data Group as reprinted in Wall Street Journal Online, January 14, 2021.
+The fourth and fifth columns in Panel A, labeled “Currency per USD,” show how much foreign currency exchanges for one U.S. dollar. For example, using the Thursday quote, $1 would get you 73.06 U.K. pence (0.7306 pounds), 5.1971 Brazilian reals, or 73.07675 Indian rupees. This quote is often called the European or indirect quote because it is the amount of foreign currency per U.S. dollar (although the foreign currency may not be European). As you may have noted, the second exchange rate is the reciprocal (1/x) of the first. For example, the American quote for the British pound $1.3688/£; the European quote, which is the reciprocal, is 1/1.3688 = 0.7306, or £0.7306/$ (that is, $1 equals £0.7306).
+
+Bid and Ask Rate Quotations
+
+The foreign exchange rate quotes given in the Wall Street Journal are provided by foreign exchange dealers, most of whom operate in large money center banks. Like all dealers in financial markets, foreign exchange dealers quote two prices: bid and ask quotes. The bid quote represents the rate at which the dealer will buy foreign currency, while the ask quote is the rate at which the dealer will sell foreign currency. The prices quoted in the Wall Street Journal are ask quotes for wholesale transactions ($1 million or more).
+
+The difference between the bid and ask price is the dealer’s spread, which is often calculated in percent form, as follows:
+
+(21.1)
+Suppose a dealer is quoting a bid rate for euros (the currency of the European Union) of $1.2105/€ and an ask rate of $1.2186/€. The bid-ask spread is 0.665 percent [(1.2186 − 1.2105)/1.2186 = 0.00665, or 0.665 percent]. Now assume that ABC Corporation decides to buy €1,000,000 to use in a transaction. The dealer sells the euros to the company at the ask rate of $1.2186/€, and the firm pays the dealer a total of $1,218,600 (€1,000,000 × $1.2186/€ = $1,218,600). Later in the day, ABC Corporation finds it does not need the euros and decides to sell them back. The dealer buys the euros from the firm at the bid rate of $1.2105/€. The firm receives $1,210,500 (€1,000,000 × $1.2105/€ = $1,210,500). This represents a loss of $8,100, or 0.665 percent ($8,100/$1,218,600 = 0.00665, or 0.665 percent), which is exactly equal to the bid-ask spread calculated above.
+
+Cross Rates
+
+People who have to deal with more than one foreign currency often make use of a table of spot exchange rates called cross rates, which are simply exchange rates between two currencies. Panel B of Exhibit 21.5 shows cross rates for seven different currencies. Cross rate tables can be found in the Wall Street Journal and on many financial Web sites.
+
+It is also possible to calculate cross rates, given enough information. Suppose, for example, that a dealer is interested in finding the exchange rate between the Canadian dollar and the pound but only knows the exchange rate between each of these currencies and the U.S. dollar: C$1.2652/$ and £0.7309/$. The dealer can calculate the desired cross rate as follows:
+
+Turning to the cross rate table in Panel B of Exhibit 21.5, you can find exactly the same value—1.7310—by looking down the column for the pound and matching it with the Canadian dollar.
+
+Learning by Doing Application 21.2 illustrates another application of cross exchange rates.
+
+LEARNING BY DOING APPLICATION 21.2
+Cross Exchange Rates
+
+Problem
+
+An American executive is going on a business trip to Japan and England. Before she departs, the executive purchases $10,000 worth of Japanese yen at the prevailing rate of ¥103.79/$. After finishing her business in Japan, she departs for London, where she converts her remaining yen to British pounds. She sells ¥512,375 at a rate of ¥141.99/£. She finally returns to the United States with £567.35, which she would like to convert to U.S. dollars. Based only on the rates given, how many dollars will she receive if she sells the pounds?
+
+
+
+
+
+Forward Rates
+
+For the major world currencies, such as the U.S. dollar, the British pound, and the Japanese yen, financial Web sites such as Bloomberg, also list the forward rates for a number of different time frames. Recall that the spot rate is what you pay to buy money today. The forward rate, as the name implies, is what you agree to pay for money in the future—that is, you sign a contract today to buy the money on a date in the future, such as one month, three months, or six months from now.
+
+forward rate a rate agreed on today for an exchange to take place on a specified date in the future
+
+Forward contracts are important because foreign business transactions can extend over long periods. This means that financial managers must anticipate their future needs for foreign currencies. By contracting now to buy or sell foreign currencies at some future date, managers can lock in the cost of foreign exchange at the beginning of a transaction, and do not have to worry about the possibility of an unfavorable movement in the exchange rate before the transaction is completed. This is one way that forward contracts are used by companies to manage risk.
+
+Note that the forward rate is established at the date on which the agreement is made and defines the exchange rate to be used when the transaction is completed in the future. This characteristic is extremely important for facilitating international business transactions, because it permits the two parties to eliminate all uncertainty about the amount of currency to be delivered or received in the future.
+
+The forward rate quoted on a particular day is seldom the same as the spot rate on the same day. Whether it is a one-month, three-month, or six-month quote, the forward rate is the market’s best estimate of what the spot rate will be at that time in the future. The difference between the forward rate and the spot rate is called the forward premium or forward discount. For example, suppose the spot rate today on the British pound is $1.3584/£, while the three-month forward rate is $1.3594/£. According to the forward quote, the market expects the British pound to cost $1.3594 three months in the future, a value that is greater than today’s spot rate of $1.3584/£. Thus, we say that the British pound is at a forward premium against the U.S. dollar, or that the dollar is at a forward discount against the British pound.
+
+This forward premium or discount can be measured as a percentage on an annualized basis. Equation 21.2 shows this relation:
+
+(21.2)
+where n is the number of days in the forward agreement. Applying this equation to our example, the forward premium on the pound is equal to:
+
+which is a premium on the pound. If the calculation had resulted in a negative number, it would have indicated a forward discount on the pound.
+
+Learning by Doing Application 21.3 illustrates another forward premium (discount) calculation.
+
+LEARNING BY DOING APPLICATION 21.3
+Forward Premium (Discount)
+
+Problem
+
+Ian Chappell is planning a trip from Sydney, Australia, to visit his brother, who works in India. He plans to make the trip in six months. In preparing his budget for the trip, he finds that the spot rate for Indian rupees is Rs54.4811 per Australian dollar (A$). He also finds the six-month forward rate to be Rs50.9001/A$. What is the forward premium or discount on the Indian rupee against the Australian dollar?
+
+
+
+
+
+Hedging a Currency Transaction
+
+In finance, to hedge means to engage in a financial transaction to reduce risk. In the discussion of forward rates, we briefly described how firms can lock in (hedge) the cost of foreign exchange.
+
+hedge a financial transaction intended to reduce risk
+
+Let’s take a look at an example of how a firm might hedge a transaction using a forward contract. Suppose an American exporter sells farm equipment to a British firm for £100,000; the equipment is to be delivered and paid for in 90 days. The English firm will pay for the purchase in pounds. The American exporter wants to hedge the transaction. How will this hedging work?
+
+If, at the time of the sale, the spot rate is $1.30/£, the farm equipment is worth $130,000 (£100,000 × $1.30/£ = $130,000). However, the actual number of dollars to be received for the machinery, which is the relevant price to the American firm, is not really certain. The American firm must wait 90 days to collect the £100,000 and then sell the pounds in the spot market for dollars. There is a risk that the dollar price of the pound might decline during that time. For instance, if in 90 days a pound is worth only $1.22, the American exporter will receive only $122,000 (£100,000 × $1.22/£ = $122,000), a loss of $8,000 ($130,000 − $122,000 = $8,000).
+
+To ensure a certain future price, the American company can hedge its foreign exchange risk by selling the £100,000 forward 90 days. If the forward rate at the time of sale is $1.28/£, the American exporter can enter into a forward contract in which it agrees to deliver the £100,000 to the bank in 90 days and receive $128,000 (£100,000 × $1.28/£ = $128,000) in return. If the spot rate on the day of the delivery actually turns out to be $1.22/£, the “savings” from hedging is $6,000, since the firm will receive $128,000 instead of the $122,000 it would have received if it had not entered into the forward contract.
+
+Notice that, even with hedging, the firm has “lost” $2,000, because at the time of the sale, when the exchange rate was $1.30/£, the machine was worth $130,000. Can this kind of loss be prevented? The answer is unfortunately, no. Forward contracts cannot protect against expected changes in exchange rates, only against unexpected changes. At the time of sale, the 90-day forward rate is $1.28/£, and this is the market’s best estimate of what the rate will be in 90 days. Of course, in 90 days the spot rate for dollars may be actually $1.28/£, but there is a good chance that it will be either more or less.
+
+What would happen in our example if the spot rate in 90 days rose to $1.40/£? The unhedged transaction would yield $140,000. However, the forward contract would again provide exactly the number of dollars anticipated—$128,000. Although the company may have some regrets because the forward contract prevented it from receiving the benefits of the strengthening pound, most businesses would consider leaving the account receivable exposed (that is, unhedged) to be “speculation.” It is generally believed that foreign exchange speculation is not a logical or legitimate function of nonfinancial businesses that import or export goods or services.
+
+As the details of a forward contract are negotiated between the buyer and the seller, firms can customize both the amount of currency that they want to hedge and the payment date. As an alternative to forward contracts, futures contracts can be used for currency hedging. Futures contracts are similar to forwards in many ways but they cannot be customized. Futures contracts have standardized amounts of currency and pre-specified contract-end dates. Additionally, as they are traded on exchanges, any gains (or losses) on the futures contract are calculated and received (or paid) on a daily basis rather than at the contract end-date.
+
+This can make futures contracts cheaper for companies looking for simple hedging needs.
+
+Before You Go On
+What is foreign exchange rate risk?
+How is the equilibrium exchange rate determined?
+What does it mean to hedge a financial transaction?
+
+For foreign exchange rate data, go to www.x-rates.com
+
+
+To learn more about countries with pegged exchange rates, go to www.thebalance.com/fixed-exchange-rate-definition-pros-cons-examples-3306257
+
+
+To look up the current cross rates, go to www.bloomberg.com/markets/currencies/cross-rates
+
+
+To look up current forward rates, go to www.fxempire.com/currencies/eur-usd/forward-rates
+
+21.3 International Capital Budgeting
+LEARNING OBJECTIVE
+
+Identify the major factors that distinguish international from domestic capital budgeting, explain how the capital budgeting process can be adjusted to account for these factors, and compute the NPV for a typical international capital project.
+Multinational firms have operations outside of their home countries that range from simple sales offices to large manufacturing operations. As a legal and practical matter, most multinational firms set up separate foreign subsidiaries for each country in which they operate. When a multinational firm wants to consider overseas capital projects, the financial manager faces the decision of which capital projects should be accepted on a company-wide basis.
+
+Fortunately, the overall decision-making framework and computational methods developed for domestic capital budgeting in Chapters 10 through 13 apply to international capital projects as well. Thus, the financial manager’s goal is to seek out domestic and overseas capital projects whose cash flows yield a positive net present value (NPV). The decision to accept international projects with a positive NPV increases the value of the firm and is consistent with the fundamental goal of financial management, which is to maximize the value of stockholder equity.
+
+Furthermore, when financial managers evaluate a capital project overseas, they must estimate the same inputs to compute the NPV for that project that they would for a domestic project: (1) the project’s incremental after-tax free cash flows and (2) the appropriate discount rate. Although the same basic principles apply to both international and domestic capital budgeting, managers must deal with some important differences. We now focus on those differences.
+
+Determining Cash Flows
+A number of issues complicate the determination of cash flows from overseas capital projects. First, it is often more difficult to estimate the incremental after-tax free cash flows for foreign projects. Some of the problems stem from the lack of firsthand knowledge by the parent company’s financial staff of procedures and systems used at the overseas operations; other problems arise because of differences in the accounting and legal systems, language, and culture.
+
+Second, foreign subsidiaries can remit cash flows to the parent firm in a number of ways, including (1) cash dividends, (2) royalty or license agreement payments for the use of patents or brand names, and (3) management fees for services the parent provides to a subsidiary. Problems with forecasting expected cash flows can arise when foreign governments restrict the amount of cash that can be repatriated, or returned to the parent company, and therefore moved out of the country. These repatriation of earnings restrictions may arise because foreign governments are politically sensitive to charges that large multinational companies are exploiting their countries and draining vital investment capital from their economies.
+
+repatriation of earnings restrictions restrictions placed by a foreign government on the amount of cash that can be repatriated, or returned to a parent company by a subsidiary doing business in the foreign country
+
+Repatriation of earnings restrictions usually take the form of a ceiling on the amount of cash dividends that a foreign subsidiary can pay to its parent. The ceiling is typically some percentage of the firm’s net worth and is intended to force the parent to reinvest in the foreign subsidiary. The repatriation of the project cash flows can be a critical issue if there are significant delays in receiving the funds. From the parent firm’s perspective, the relevant cash flow for analysis of foreign capital investment opportunities is the cash flow that the parent company, and its investors, expect to actually receive from a foreign subsidiary.
+
+Exchange Rate Risk
+The next issue that financial managers must address when evaluating international capital investments is foreign exchange rate risk. The cash flows from an overseas capital project will most likely be in a foreign currency that must eventually be converted to the parent company’s home currency—the U.S. dollar in the case of an American firm. This is not a simple task because most of the cash flows from capital project are future cash flows. Thus, analysts cannot use the current spot rate to convert one currency to another. To convert the project’s future cash flows into another currency, they must forecast exchange rates.
+
+Where can firms secure forecasts for exchange rates? Forecasts for three or four years into the future can be obtained from most money center banks or from currency specialists in financial markets. However, one of the problems with obtaining currency rate forecasts for use in analysis of capital projects is that many projects have lives of 20 years or more. Needless to say, it is difficult to forecast exchange rates far into the future.
+
+Country Risk
+Financial managers must also account for country risk when evaluating foreign business activities. If a firm is located in a country with a relatively unstable political environment, management will require a higher rate of return on capital projects as compensation for the additional risk. At the extreme, a local government could expropriate, or take over, the plant and equipment of an overseas operation. This expropriation of assets is called nationalization. Sometimes, nations will expropriate the assets and offer some form of compensation. In other cases, they will offer no compensation. Other ways that a foreign government can affect the risk of a foreign project include:
+
+Change tax laws in a way that adversely impacts the firm.
+Impose laws related to labor, wages, and prices that are more restrictive than those applicable to domestic firms.
+Disallow any remittance of funds from the subsidiary to the parent firm for either a limited time or the duration of the project.
+Require that the subsidiary be headed by a local citizen or have a local firm as a major equity partner.
+Impose tariffs and quotas on any imports.
+To help firms assess country risk, some private firms and government agencies rate nations for their relative level of country risk. Exhibit 21.6 shows one such ranking for country risk by a private firm for 2019. In addition, U.S. governmental agencies such as the Department of Commerce and the Central Intelligence Agency (CIA) gather information on countries continuously, and are able to provide information on country risk to businesses to help them make decisions regarding investing in, exporting to, or importing from a particular country.
+
+EXHIBIT 21.6 Composite Country Risk Ratings for Selected Countries in 2019
+
+The composite risk for a country is determined by the country’s political, financial, and economic risk. A higher number means lower risk. Are you surprised by the rank of the United States?
+
+Rank	Country	Composite Risk	Rank	Country	Composite Risk
+1	Norway	88.5	20	Hong Kong	79.8
+2	Switzerland	88.5	24	Botswana	78.3
+3	Luxembourg	87.8	26	United Kingdom	77.8
+4	Singapore	86.5	29	Israel	77.5
+5	Denmark	84.8	30	Hungary	77.3
+6	Ireland	84.0	31	United States	77.3
+6	Sweden	84.0	38	Italy	76.0
+6	Taiwan	84.0	55	China, Peoples’ Rep.	72.3
+9	Germany	83.3	67	Brazil	70.8
+9	Netherlands	83.3	78	Mexico	68.8
+11	Iceland	82.8	81	Paraguay	68.3
+11	New Zealand	82.8	87	Guyana	66.3
+13	Brunei	82.5	93	Iraq	65.8
+14	Canada	82.0	95	Bangladesh	65.5
+15	Finland	81.8	96	Egypt	65.3
+16	Japan	81.5	103	Nigeria	64.3
+17	Korea, Republic	81.3	116	Turkey	61.3
+18	Austria	80.8	120	Cameroon	60.5
+19	Malta	80.0	138	Yemen, Rep.	48.5
+20	Australia	79.8	140	Sudan	40.8
+Rankings are provided for 140 countries. Composite scores range from 0 to 100, with countries broken into categories ranging from very low risk (80 to 100) to very high risk (0 to 49.9). Norway and Hungary have slightly higher composite risk scores than Switzerland and the United States, respectively, based on additional (unreported) decimal places.
+
+Source: PRS Group (www.prsgroup.com), August 2019.
+Once management has gauged a capital project’s country risk, that risk must be incorporated into the capital budgeting analysis. One way to do this is to adjust the firm’s discount rate for the additional risk. For example, if the firm’s cost of capital is 8 percent and the financial manager’s staff estimates that investment in a particular country requires a 3 percent expected return to compensate for the additional risk, the appropriate discount rate is 11 percent. Of course, from Chapters 7 and 13, we know that adjustments like this should only be made to the discount rate to reflect country risk that is systematic. Unsystematic risk should be reflected in the expected cash flows.
+
+The Barcelona Example
+Suppose a U.S.-based manufacturing company is considering the possibility of establishing a manufacturing operation overseas in Barcelona, Spain. The U.S. firm wants overseas capital investment decisions to be based on the same criteria as domestic investment decisions. The firm’s overseas financial staff forecasts the expected incremental after-tax free cash flows for the Barcelona project in millions of euros, as shown in the following time line:
+
+
+Assume that the current spot rate between the euro (€) and the U.S. dollar ($) is $1.20/€. The parent company’s finance staff acquires forecasts from an analyst for the expected foreign exchange (EFX) rates between the euro and the dollar. These forecasts and calculations for the analysis of the project are shown in the following table:
+
+Year	Cash Flow (€ millions)	EFX Rate	Calculation	Cash Flow ($ millions)
+(1)	(2)	(3)	(4)	(5)
+0	−€10.00	$1.20/€	−€10.00 × $1.20/€	−$12.00
+1	3.00	1.25	3.00 × 1.25	3.75
+2	3.00	1.30	3.00 × 1.30	3.90
+3	3.00	1.32	3.00 × 1.32	3.96
+4	3.00	1.35	3.00 × 1.35	4.05
+Column (2) shows the project’s cash flows in euros. Column (3) shows the current spot rate (Year 0) and the forecast foreign exchange rates (Years 1 to 4). In Column (4), the euro cash flows are multiplied by the appropriate exchange rate (spot or forecast) to convert to dollar cash flows, and the results are shown in Column (5).
+
+The firm’s cost of capital is 8 percent, and the financial manager estimates that the project in Barcelona carries a 2 percent country risk premium. Thus, the appropriate discount rate for the project is 10 percent.
+
+With this information, the NPV for the project is computed by discounting the cash flows by the country-risk-adjusted discount rate of 10 percent, as follows:
+
+The project should be accepted because its NPV is positive.
+
+Learning by Doing Application 21.4 presents another international capital budgeting example.
+
+LEARNING BY DOING APPLICATION 21.4
+International Capital Budgeting
+
+Problem
+
+A U.S. electronics firm is establishing a manufacturing plant in Taiwan to produce components that will be sold to customers in Taiwan. The cost of the investment is $10 million. The project is expected to last five years and then shut down. The company usually uses a discount rate of 7.5 percent for domestic projects like this, but for this project, the financial manager adds a 2.5 percent country risk premium. The following time line shows the expected cash flows in millions of Taiwanese dollars (TWD) and the forecasted year-end exchange rates between the U.S. dollar and the Taiwanese dollar.
+
+
+What is the NPV of this project?
+
+
+
+
+
+Before You Go On
+What difficulties do firms face in estimating cash flows from an overseas project?
+Why is the repatriation of cash flows from an overseas project considered critical to the project’s value?
+When do companies have to consider country or political risk?
+
+For country risk information, visit www.prsgroup.com
+
+21.4 Global Money and Capital Markets
+Learning Objective
+
+Discuss the importance of the Euromarkets to large U.S. multinational firms, and calculate the cost of borrowing in the Eurobond market.
+Next, we focus on how multinational business firms use global money and capital markets to adjust their liquidity, to finance their domestic and international operations, and to raise equity capital. The global financial markets operate and transact in securities denominated in all of the world’s major currencies. However, the dollar portion of these global markets is the largest. This is because international business contracts all over the world commonly require payment in U.S. dollars.
+
+The dollar has been a preferred medium of exchange because of the strength and size of the U.S. economy and the government’s long history of political stability. As a result of these factors, businesses, governments, and individuals throughout the world often choose to hold and transact in dollars rather than their home currency.
+
+The euro is now the main currency used in the 19 countries that are part of the Eurozone. (The Eurozone consists of 19 of the 27 member states of the European Union.) The euro is second only to the dollar in its popularity as a reserve currency and in its volume as a traded currency. The renminbi is the currency issued by the People’s Republic of China and is denominated in yuan. The yuan is also an increasingly popular currency for worldwide exchange.
+
+The Emergence of the Euromarkets
+Before World War II, dollar-denominated deposits of multinational corporations and governments were held in U.S. money center banks. When the cold war started in the 1950s, the Soviet Union feared that for political reasons the U.S. government might temporarily freeze or expropriate its deposits in the United States. Motivated by profits, a number of London-based banks responded to the Soviets’ concern by offering to hold their dollar-denominated deposits in British banks. The new accounts became quite popular and were soon dubbed Eurodollars. A Eurodollar is defined as a U.S. dollar deposited in a bank outside the United States. The banks accepting these deposits are called Eurobanks.
+
+Eurodollar a U.S. dollar deposited in a bank outside the United State
+
+Over time, other major currencies, such as the Japanese yen and British pound, were deposited offshore, and the Euromarkets emerged. Today, the Euromarkets are vast, largely unregulated money and capital markets. London and New York City are the two most important markets, but Euromarkets also exist in places like Tokyo, Hong Kong, and Singapore. Though many of the market centers are not in Europe, the term Euromarket has become a generic term.
+
+The Eurocurrency Market
+The core of international financial markets is the Eurocurrency market, which is the short-term portion of the Euromarket. A Eurocurrency is a time deposit that is in a bank located in a country different from the country that issued the currency. For example, a Japanese yen or an American dollar account in a British bank is a Eurocurrency account.3
+
+Eurocurrency a time deposit that is in a bank located in a country different from the country that issued the currency
+
+The largest segment of the Eurocurrency market is interbank transactions, in which banks borrow from and lend to one another overnight. Although short-term transactions dominate the market, there is an active market for loans with maturities of up to six months. The importance of the Eurocurrency market lies in its role in allocating funds on a global basis. This means that banks with strong loan demand can borrow Eurocurrencies, such as Eurodollars, and make loans to multinational corporations, sovereign governments, or other large international entities.
+
+The most widely quoted Eurocurrency interest rate is the London Interbank Offer Rate, or LIBOR, which is the short-term interest rate that major banks in London charge one another. This rate is also commonly used as the base rate for Eurodollar loans other than those between two banks. If the lending bank is located in another Euromarket financial center, such as Singapore, the offer rate quoted is SIBOR, which is the Singapore Interbank Offer Rate; if the bank is based in Hong Kong, the offer rate is HKIBOR; and so on. Because the various Euromarkets are closely linked, the interbank rates for a particular Eurocurrency tend to be similar. The LIBOR is also similar to the Fed funds rate, which is the rate that large U.S. banks charge one another.
+
+London Interbank Offer Rate (LIBOR) the interest rate British-based banks charge each other for short-term loans; commonly used as the base rate for Eurodollar loans that are not between two banks
+
+Problems with LIBOR, including the discovery that several major financial institutions manipulated the rate for many years, have led many regulators around the world to develop alternatives. In the United States, the Federal Reserve is recommending that the Secured Overnight Financing Rate (SOFR) be used as a replacement for the U.S. dollar LIBOR by the end of 2023. SOFR is a broad measure of the cost of borrowing cash overnight using U.S. Treasury securities as collateral. Many firms have already adopted SOFR as a lending rate. Whether you are using LIBOR or another rate, the approach to calculations that we have outlined here is the same.
+
+The Eurocredit Market
+The international banking system gathers funds from businesses and governments in the Eurocurrency market and then allocates funds to banks that have the most profitable lending opportunities. These loans are called Eurocredits—short- to medium-term loans of a Eurocurrency to multinational corporations and governments of medium to high credit quality. Eurocredits are denominated in all major Eurocurrencies, although the dollar is the overwhelming favorite. An example of a Eurocredit transaction is an American firm borrowing Eurodollars from a bank in Hong Kong.
+
+Eurocredits short- to medium-term loans of a Eurocurrency to multinational corporations and governments of medium to high credit quality
+
+International Bond Markets
+International bonds fall into two generic categories: foreign bonds and Eurobonds.
+
+Foreign Bonds
+
+Foreign bonds are long-term debt sold by a foreign firm to investors in another country and denominated in that country’s currency. They are called foreign bonds because the issuer is a foreigner in the country where the bonds are sold. Foreign bonds may have colorful nicknames: foreign bonds sold in the United States are called Yankee bonds, and yen-denominated bonds sold in Japanese financial markets by non-Japanese firms are called Samurai bonds.
+
+Firms sell foreign bonds when they need to finance projects in a particular foreign country. For example, the German car manufacturer BMW might decide to sell dollar-denominated bonds in the United States to build an assembly plant in South Carolina. Similarly, Amazon.com might need euros to build a new shipping hub in Germany. To raise the euros, Amazon.com could sell euro-denominated bonds in Germany to German and other European investors.
+
+Eurobonds
+
+Eurobonds are long-term debt instruments sold by firms to investors in countries other than the country in whose currency the bonds are denominated. Multinational firms can use Eurobonds to finance international or domestic projects. For example, suppose Ford Motor Company decides to sell U.S.-dollar denominated bonds in Europe. Investors would call the bonds Eurodollar bonds. What can Ford do with the dollars from the bond sales? It can spend them overseas to finance a project, or it can spend them in the United States—after all, a dollar is a dollar.
+
+The fact that the proceeds from a Eurodollar bond issue can be spent in the United States raises an important point. During the 1980s, multinational firms discovered that they could sell Eurodollar bond issues at interest cost savings as large as 50 to 150 basis points (0.5 to 1.5 percent) annually compared with similar bond issues sold domestically. Needless to say, multinationals that needed to borrow dollars long term flocked to the Eurodollar bond market. Although the large interest cost spreads we have mentioned no longer exist, today any multinational firm that needs to borrow dollars long term routinely evaluates whether it makes more sense to sell the bond issue domestically or in the Eurodollar bond market.
+
+Eurodollar and other Eurocurrency bonds have a number of characteristics that differ from similar U.S corporate bonds. Eurobonds are bearer bonds and do not have to be registered. Because the bonds are not registered, there is no record of who owns them. As a result, some Eurobond investors conveniently “forget” to pay taxes on the coupon income earned. This is no secret, of course, and there is growing pressure to eliminate bearer bonds.
+
+Eurobonds also differ from domestic bonds in that they pay interest, in the form of coupon payments, annually, whereas U.S. corporate bonds make coupon payments twice a year. Thus, the interest rate on Eurodollar bonds is not directly comparable to similar domestic bonds because of the difference in compounding periods.
+
+Finally, historically almost all Eurocurrency bonds were sold without credit ratings. The reason for this practice was that almost all bond issues sold in Europe were purchased by institutional investors who relied on their own credit analyses, so there was no reason for the issuer to purchase a credit rating for the bond issue. However, since the mid-1980s, the retail segment of the equity and bond markets in Western Europe has grown significantly. Individual investors typically prefer to purchase bonds that have credit ratings. Today, more than half of the Eurodollar bonds sold in Europe have credit ratings.
+
+Learning by Doing Application 21.5 illustrates the comparison of returns on Eurodollar versus domestic bonds.
+
+LEARNING BY DOING APPLICATION 21.5
+Eurodollar versus Domestic Bond Issue
+
+Problem
+
+Suppose Hewlett-Packard (HP) needs $350 million to build a new facility. The firm plans to finance the facility by selling bonds domestically or in the Eurodollar bond market. In either case, the bond issue will have a maturity of three years, a par value of $1,000, and coupon interest payments totaling $50 a year. After transaction costs and underwriters’ fees, the domestic bond issue will net $951.90 per bond, and the Eurodollar bonds will net $948.00 per bond. Which bonds—domestic or Eurodollar—should HP issue?
+
+
+
+
+
+Before You Go On
+Which currency is the most widely preferred currency of exchange in global financial markets? Why?
+What is the difference between foreign bonds and Eurobonds?
+21.5 International Banking
+LEARNING OBJECTIVE
+
+Explain how large U.S. money center banks make and price Eurocredit loans to their customers, and compute the cost of a Eurocredit bank loan.
+During the period when the major European countries were establishing their colonial empires, British, Dutch, and Belgian banks developed a worldwide presence, and London emerged as the center of international banking and finance. European governments fostered the growth of large international banks in their countries and viewed them as engines of territorial and economic expansion.
+
+In the United States, it was quite a different story. National banks, which are chartered by the federal government, were not permitted to establish branches or accept bills of exchange outside the United States until passage of the Federal Reserve Act of 1913. However, even after the act was passed, American banks did not rush to do business overseas. Not until after World War II did American banks begin to establish any significant foreign presence. The catalyst for growth was the expansion of American corporations as they established sales offices overseas, imported foreign goods, and acquired foreign manufacturing facilities. To accommodate their customers’ needs, large U.S. banks established networks of foreign branches and affiliates. Today, Chinese financial institutions are expanding rapidly into the world market.
+
+Exhibit 21.7 shows the 15 largest banks in the world in 2020. These banks offer a full range of international and domestic banking services to businesses in their home countries and to multinational firms overseas. The services include providing transaction accounts, commercial loans, foreign exchange, underwriting of debt and equity issues, and letters of credit.
+
+EXHIBIT 21.7 The World’s Largest Banks in 2020
+
+The exhibit lists the 15 largest banks in the world using a ranking based on global sales, profits, assets, and market value. Industrial and Commercial Bank of China is the world’s largest bank, with total assets of $4,322.5 billion. By country, the majority of the top 15 banks are located in China and the United States.
+
+Rank	Bank Name	Country	Total Assets($ billions)	Revenue($ billions)	Profits($ billions)
+1	Industrial and Commercial Bank of China	China	4,322.5	177.2  	45.3
+2	China Construction Bank	China	3,822.0	162.1  	38.9
+3	JPMorgan Chase	U.S.    	3,139.4	142.9  	30.0
+4	Agricultural Bank of China	China	3,697.5	148.7  	30.9
+5	Bank of America	U.S.    	2,620.0	112.1  	24.1
+6	Bank of China	China	3,387.0	135.4  	27.2
+7	Wells Fargo	U.S.    	1,981.3	98.9	14.3
+8	Citigroup	U.S.   	2,219.8	104.4  	17.1
+9	China Merchants Bank	China	1,094.9	58.4	13.7
+10	Postal Savings Bank of China (PSBC)	China	1,522.4	64.4	9.0
+11	Royal Bank of Canada	   Canada	1,116.3	50.9	10.0
+12	BNP Paribas	   France	2,429.9	128.0  	8.7
+13	HSBC Holdings	U.K.   	2,917.8	67.2	3.8
+14	Bank of Communications	China	1,422.1	66.6	11.2
+15	TD Bank	   Canada	1,102.0	44.8	9.3
+Source: “The World’s Biggest Companies,” www.forbes.com/global2000
+Risks Involved in International Bank Lending
+The principles of loan administration and credit analysis are similar for domestic and overseas loans. There are differences, however, including some additional risk exposures for overseas lending.
+
+Credit Risk
+
+Credit risk involves assessing the probability that some part of the interest or principal due to a lender will not be paid, a condition commonly referred to as credit default. The greater the probability of default, the higher the loan rate that the bank must charge the borrower. Credit risk is the same whether a loan is domestic or international. However, it may be more difficult to obtain or evaluate credit information about borrowers abroad. U.S. banks operating abroad are less familiar with local economic conditions and business practices than are domestic banks. It takes time and practice to develop appropriate sources of information and to understand how to evaluate such information. As a result, many U.S. banks tend to restrict their foreign lending to large, well-known companies or financial institutions.
+
+Currency Risk
+
+We have already discussed foreign exchange rate risk. Fluctuations in exchange rates can affect the cash flows associated with a loan or investment, and, hence, can affect their value. Some loans made by U.S. banks are denominated in foreign currency rather than dollars, and if the foreign currency is expected to lose value against the dollar during the course of the loan, the repayment will be worth fewer dollars. Thus, bank loans that have foreign exchange rate risk will carry an additional risk premium; the greater the foreign exchange rate risk, the higher the loan rate the bank must charge the borrower.
+
+Of course, if the foreign currency has a well-developed market and the maturity of the loan is relatively short, the loan may be hedged. However, many world currencies, particularly those in developing nations, do not have well-established foreign currency markets. Consequently, these international loans cannot always be hedged at a reasonable price.
+
+Country Risk
+
+We have also discussed country risk, which is tied to political developments in a country that could affect the cash flows associated with a loan or investment in that country. If an international loan might suffer some loss in value due to political developments, the loan will carry an additional risk premium; the greater the country risk of a loan, the higher the rate the bank must charge the borrower.
+
+Eurocredit Bank Loans
+As noted earlier, Eurocredits are short- to medium-term loans to multinational corporations or governments. The loans are denominated in a currency that is different from the bank’s home currency. Eurocredits can have a high degree of credit risk and may be too large for a single bank to handle. As a result, the lending banks often form a syndicate to spread the risk. Each bank in the lending syndicate participates by taking a portion of the loan. One bank acts as the lead bank and is responsible for negotiating the price of the loan and its terms with the borrower.
+
+The loan pricing for Eurocredits is similar to the loan pricing that U.S. money center banks use for their largest domestic customers. The loan rate (k) is equal to a base rate, such as LIBOR, which represents the bank’s cost of funds, plus a markup, which is the bank’s lending margin:
+
+where X is the lending margin. The lending margin depends on the borrower’s credit risk; international risk factors, such as foreign exchange rate (currency) risk and country risk; and the bank’s gross profit margin. From the gross profit margin, the bank must cover all its expenses in making the loan and earn a profit. The general equation for Eurocredit pricing can thus be expressed as follows:
+
+(21.3)
+where:
+
+k	=	individual firm’s loan rate
+BR	=	Eurocurrency base rate, such as LIBOR
+DRP	=	default risk premium
+FXR	=	foreign exchange rate or currency risk premium
+CR	=	country risk premium
+GPMAR	=	bank’s gross profit margin
+Eurocredits typically are floating-rate loans structured as “rollovers.” Rollover pricing was developed to protect banks against adverse interest rate movements so that lenders do not end up paying more on the Eurocurrency time deposit than they earn from the loan. Banks are vulnerable to taking such losses because the money to fund Eurocredits comes from short-term deposits. As a result, a Eurocredit can be viewed as a series of short-term loans, where at the end of each time period (three or six months), the loan is “rolled over” and repriced at the current market interest rate.
+
+Suppose, for example, that Citibank is considering making a Eurocredit loan to a Mexican manufacturer that needs to borrow $1.5 million for three years. The bank lending officer wants the loan to be structured as a six-month, floating-rate loan. That means the loan is a three-year loan priced as six successive six-month loans. The bank’s credit department believes the credit risk premium is 3 percent, the country risk for Mexico is an additional 1 percent, and the bank’s gross profit margin is 0.125 percent. The bank can buy the funds in the Euromarket: the six-month LIBOR rate is 0.24 percent. Applying the loan pricing model (Equation 21.3), we find that the Eurocredit pricing for this loan is:
+
+Note that the loan involves no foreign exchange rate risk (FXR) for the bank, because the loan is in dollars.
+
+We can also describe the loan rate in terms of the lending margin (X), which is the markup used to reprice the loan when it rolls over. For the Mexican loan, the lending margin is as follows:
+
+When the loan is repriced at the end of six months, if LIBOR at that point is 0.50 percent, the new loan rate will be 4.625 percent (0.50 percent + 4.125 percent = 4.625 percent).
+
+Lending margins are quite small for North American and Western European multinational companies with good credit ratings. The margins are low because the credit risk and country risk for these companies are low.
+
+Learning by Doing Application 21.6 illustrates a calculation of the interest cost on a Eurocredit loan.
+
+LEARNING BY DOING APPLICATION 21.6
+Interest on a Eurocredit Loan
+
+Problem
+
+Siemens International can borrow $5 million from HSBC at LIBOR plus a lending margin of 0.5 percent on a three-month rollover Eurocredit loan. Suppose that the prevailing annualized LIBOR rate is 0.6 percent and that over the next three-month period, the LIBOR rate is expected to increase to 0.75 percent. How much interest will Siemens have to pay HSBC for the Eurocredit loan for the first six months?
+
+
+
+
+
+Before You Go On
+Why is credit risk higher in international markets?
+List the inputs that are used in calculating a Eurocredit price.
+
+A discussion on managing foreign exchange rate risk is available at insights.nordea.com/en/business/5-steps-to-manage-your-currency-risk/
+
+Summary of Learning Objectives
+1 Discuss how the basic principles of finance apply to international financial transactions.
+
+The basic principles of finance remain the same whether a transaction is domestic or international. For example, the time value of money calculations remain the same, as do the models used to calculate asset values. What does change, however, are some of the input variables. These variables may be affected by cultural or procedural differences between countries or differences in tax and accounting standards. Exhibit 21.2 lists some of these changes.
+
+2 Differentiate among the spot rate, the forward rate, and the cross rate in the foreign exchange markets, perform foreign exchange and cross rate calculations, and hedge an asset purchase where payment is made in a foreign currency.
+
+The spot rate is the exchange rate at which one currency can be converted to another immediately, whereas the forward rate is a rate agreed on today for an exchange to take place at a specified point in the future. Forward rates are usually different from spot rates and are the market’s best estimate of what a future spot rate will be. The cross rate is simply the exchange rate between two currencies. Learning by Doing Applications 21.1 through 21.3 illustrate foreign exchange rate problems that you should be able to solve.
+
+3 Identify the major factors that distinguish international from domestic capital budgeting, explain how the capital budgeting process can be adjusted to account for these factors, and compute the NPV for a typical international capital project.
+
+One issue that distinguishes international from domestic capital budgeting is the difficulty in estimating the incremental cash flows from an international project. These difficulties can stem from differences in operating, accounting, and legal practices, as well as from the variety of ways in which a multinational firm can transfer profits and funds from the subsidiary to the parent corporation. Furthermore, firms engaged in international capital budgeting face two risks that domestic firms do not have to deal with: foreign exchange rate risk and country risk. The Barcelona example in Section 21.3 and Learning by Doing Application 21.4 illustrate capital budgeting calculations.
+
+4 Discuss the importance of the Euromarkets to large U.S. multinational firms, and calculate the cost of borrowing in the Eurobond market.
+
+The Eurocurrency markets are important to large multinational corporations. These corporations hold Eurocurrency time deposits as investments and finance much of their business activity by borrowing in the Eurocredit market and selling debt in the Eurobond market. The Euromarkets are popular with large multinational firms because they are largely unregulated; thus, they offer more attractive borrowing and lending rates and greater flexibility in conducting transactions. Learning by Doing Application 21.5 illustrates how to calculate the cost of issuing bonds in the domestic and Eurobond markets.
+
+5 Explain how large U.S. money center banks make and price Eurocredit loans to their customers, and compute the cost of a Eurocredit bank loan.
+
+Eurocredit loans are made by large multinational banks. Eurocredits typically have fixed maturities and variable, or floating, rates of interest. The loan rate is tied to a base interest rate (BR), such as LIBOR. The total rate charged on a Eurocredit is BR + X, where X is the lending margin, which consists of risk premiums (credit, country, and currency risks) and the lender’s profit margin. The Citibank example in Section 21.5 and Learning by Doing Application 21.6 illustrate how loan costs are computed.
+
+Summary of Key Equations
+Equation	Description	Formula
+21.1	Bid-ask spread	
+21.2	Forward premium or discount	
+21.3	Eurocredit bank loan pricing	
+Self-Study Problems
+21.1 If a Volkswagen Passat costs $26,350 in Baltimore and €21,675 in Frankfurt, what is the implied exchange rate between the U.S. dollar and the euro?
+
+
+
+21.2 Calculate the indicated exchange rates given the following information.
+
+Given	Compute
+a. ¥101.3500/$	$/¥
+b. $1.3578/£	£/$
+c. $0.7843/C$	C$/$
+
+
+21.3 Management of Digital, Inc., an electronic games manufacturer, is planning to purchase flash memory from one of two sources. Kyoto, Inc., quotes a price of ¥6,800 per gigabyte. The current exchange rate is ¥102.30/$. Another Japanese manufacturer offers to supply the same flash memory at a price of €58.46 per gigabyte. The spot rate available is ¥126.09/€. Which is the cheaper source of flash memory for Digital?
+
+
+
+21.4 Columbia Corp. has just made a sale to a British customer. The sale was for a total value of £135,000 and is to be paid 60 days from now. Columbia management is concerned that the British pound will depreciate against the U.S. dollar and plans to hedge this risk. The company’s bank informs management that the spot rate is $1.2461/£ and the 60-day forward rate is $1.2283/£. If Columbia sells its pounds receivable at the forward rate, what is the dollar value of its receivables? If it does not enter into a forward contract and the spot rate 60 days later is $1.2107/£, how much would the company lose by not hedging?
+
+
+
+21.5 American Bancorp management is planning to make a $3.5 million loan to a French firm. Currently, LIBOR is at 0.5 percent. American management considers a default risk premium of 1.15 percent, a foreign exchange rate risk premium of 0.35 percent, and a country risk premium of 0.13 percent to be appropriate for this loan. What is the loan rate charged by American Bancorp?
+
+
+
+Discussion Questions
+21.1 Royal Dutch Shell, an oil company, has headquarters in both the Netherlands and the United Kingdom. What type of firm is it?
+
+21.2 International economic integration and technological changes in the last several decades have dramatically increased globalization across many industries. Explain how a biotech firm or a medical firm (for example, a hospital) can take advantage of these changes.
+
+21.3 In the United States, managers are asked to focus on maximizing stockholder value. Is this consistent with the goals of managers in Germany and Japan?
+
+21.4 A Canadian cooperative of wheat farmers sold wheat to a grain company in Russia. Under what circumstances will the Canadian farmers be exposed to foreign exchange rate risk? When will the Russian importer be facing foreign exchange rate risk?
+
+21.5 Stardust, Inc., is an exporter of plumbing fixtures. About 30 percent of its sales are made in Canada. The sales department just found out that the Canadian dollar is at a premium against the U.S. dollar based on the 90-day forward rate, while the 180-day forward rate indicates that the Canadian dollar is at a forward discount. What is the likely impact of these rates on the company’s sales to Canada?
+
+21.6 Mello Wines, a California winery, grows its grapes locally, uses local labor, and sells its wines only in the United States. Can this firm be exposed to foreign exchange rate risk?
+
+21.7 A U.S. firm owns a subsidiary in Belgium. What kind of foreign exchange rate risk does the U.S. firm face?
+
+21.8 Ray Corp. is a U.S. electronics manufacturer with a production plant in Turkey. This morning, the Turkish government introduced a new law prohibiting the repatriation of any funds from the country for two years. What type of risk does Ray Corp. face?
+
+27.9 Suppose GE issues bearer bonds in France denominated in British pounds. What type of bonds are these?
+
+21.10 Give examples of U.S. banks facing different risks in international lending.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+21.1 Spot rate: Ryan wants to buy a pair of leather shoes at Harrods in London that costs £113.60. If the exchange rate is $1.3686/£, what is Ryan’s cost in U.S. dollars?
+
+21.2 Spot rate: Crescent Corporation’s recent sale to a firm in Mexico produced revenues of 19,500,000 Mexican pesos. If the firm sold the pesos to its bank and was credited with $1,077,873.60, what was the spot rate at which the pesos were converted?
+
+21.3 Spot rate: Given the following direct quotes, calculate the equivalent indirect quotes.
+
+$0.0507/Mexican peso
+£0.8513/€
+Indian rupee Rs54.64/C$
+21.3 Spot rate: Convert the following indirect quotes to the appropriate American quotes.
+
+£0.6917/$
+¥104.28/$
+SF 1.0769/$
+21.5 Spot rate: Suppose a BMW 528i is priced at $68,750 in New York and €50,267 in Berlin. In which city is the car more expensive if the spot rate is $1.2150/€?
+
+21.6 Forward rate: Explain the relation between each pair of currencies.
+
+Spot Rate	Forward Rate
+a. $1.3455/£	$1.2801/£
+b. ¥104.45/$	¥102.33/$
+c. C$1.1940/$	C$1.2121/$
+21.7 Forward rate: If the spot rate was $0.7885/C$ and the 90-day forward rate was $0.8003/C$, how much more (in U.S. dollars) would you receive by selling C$1,000,000 at the forward rate than at the spot rate?
+
+21.8 Forward rate: Crane, Inc., sold equipment to an Irish firm and will receive €1,319,405 in 30 days. If the company entered a forward contract to sell at the 30-day forward rate of $1.2183/€, what is the dollar revenue received?
+
+21.9 Forward rate: Brilliant Equipment purchased machinery from a Japanese firm and must make a payment of ¥313.25 million in 45 days. The bank quotes a forward rate of ¥103.01/$ to buy the required yen. What is the cost to Brilliant in U.S. dollars?
+
+21.10 Forward rate: Triumph Autos has contracted with an Indian software firm for design software. The payment of 22,779,750 rupees (Rs) is due in 30 days. What is the cost in dollars if the 30-day forward rate is Rs71.13/$.
+
+21.11 Forward rate: The three-month forward rate on the Swiss Francs is $1.13310/SF and the spot rate $1.12630/SF. The three-month forward rate on the Japanese yen is $0.008754/¥ and the spot rate is $0.008720/¥.
+
+Is the Swiss franc selling for a premium or a discount against the U.S. dollar?
+Is the Japanese yen selling for a premium or a discount against the U.S. dollar?
+Given the information above, what do you think will happen to the value of the Swiss franc and the Japanese yen relative to the U.S. dollar?
+21.12 Bid-ask spread: Nova Scotia Bank offers quotes on the Canadian dollar as shown below. What is the bid-ask spread based on these quotes?
+
+Bid	Ask
+C$1.3081/$	C$1.3087/$
+21.13 Bid-ask spread: A local community bank has requested foreign exchange quotes for the Swiss franc from Citibank. Citibank quotes a bid rate of $1.0934/SF and an ask rate of $1.0997/SF. What is the bid-ask spread?
+
+21.14 Bid-ask spread: A foreign exchange dealer is willing to buy the Danish krone (DKr) at $0.1556/DKr and will sell it at a rate of $0.1563/DKr. What is the bid-ask spread on the Danish krone?
+
+21.15 Cross rate: Given the following quotes, calculate the €/£ cross rate.
+
+Bank of America	$ 1.3862/£
+JPMorgan Chase	$1.2148/€
+21.16 Cross rate: Barclays Bank of London has offered the following exchange rate quotes: ¥134.64/£ and Korean won 13.8374/¥. What is the cross rate between the Korean won and the British pound?
+
+21.17 Cross rate: Bremer Corporation observes that the Swiss franc (SF) is being quoted at €0.9282/SF, while the Swedish krona (SK) is quoted at €0.0991/SK. What is the SK/SF cross rate?
+
+21.18 Country risk: Ford Motor Company maintains production facilities in many different countries, including Brazil, Taiwan, and the United States. Given the data in Exhibit 21.6, which production plant is likely to face the greatest country risk? How does country risk affect a firm’s capital budgeting decisions?
+
+21.19 Foreign exchange rate risk: How is transaction exposure different from operating exposure?
+
+21.20 International debt: What are Yankee bonds?
+
+Intermediate
+21.21 Forward premium: The spot rate on the London market is £0.7531/$, while the 90-day forward rate is £0.7602/$. What is the annualized forward premium or discount on the British pound?
+
+21.22 Forward premium: Bank of America quotes the 180-day forward rate on the Swiss franc at $1.0407/SF. The spot rate is quoted at $1.0268/SF. What is the annualized forward premium or discount on the Swiss franc?
+
+21.23 Forward premium: The foreign exchange department at Tokyo’s Daiwa Bank quotes the spot rate on the euro at €0.007269/¥. The 90-day forward rate is quoted at a premium of 5.42 percent on the euro. What is the 90-day forward rate?
+
+21.24 Forward premium: The spot rate on the Australian dollar (A$) is A$1.1667/$. The Australian dollar is quoted at a 30-day forward premium of 4.90 percent against the U.S. dollar. What is the 30-day forward quote?
+
+21.25 Bid-ask spread: The foreign exchange department of Bank of America has a bid quote on Canadian dollars (C$) of C$1.2350/$. If the bank typically tries to make a bid-ask spread of 0.5 percent on these foreign exchange transactions, what will the ask rate have to be?
+
+21.26 Bid-ask spread: Banco Santiago wants to make a bid-ask spread of 0.65 percent on its foreign exchange transactions. If the ask rate on the Mexican peso (MP) is MP18.3092/$, what does the bid rate have to be?
+
+21.27 Cross rate: Alcor Pharma just received revenues of $3,165,300 in Australian dollars (A$). Management has the following exchange rates: A$1.7110/£ and $1.3675/£. What is the U.S. dollar value of the company’s revenues?
+
+21.28 Cross rate: Flint Corp. recently purchased auto parts worth 17.5 million Mexican pesos (MP) on credit. Management needs to find out the U.S. dollar cost of the purchase. It has access to two quotes for Canadian dollars (C$): C$1.2430/$ and C$0.0620MP. What did it cost Flint to purchase the auto parts in U.S. dollars?
+
+21.29 Hedging: Tricolor Industries has purchased equipment from a Brazilian firm for a total cost of 272,500 Brazilian reals. The firm has to pay in 30 days. Citibank has given the firm a 30-day forward quote of $0.1829/real. Assume that on the day the payment is due, the spot rate is expected to be $0.2103/real. How much would Tricolor have saved by hedging with a forward contract?
+
+21.30 Eurocredit loan: A Swiss sporting goods company borrows in yen in the Eurocredit market at a rate of 4.35 percent from Bank of America using a three-month rollover loan. Bank of America assigns a default risk premium of 2 percent on the loan, the country risk is an additional 0.75 percent, and the foreign exchange rate risk premium is 0.25 percent. The bank can borrow funds in the Euromarket at the three-month LIBOR rate of 0.26 percent. What is Bank of America’s gross profit margin on this loan?
+
+Advanced
+21.31 Covington Industries just sold equipment to a Mexican firm. Payment of 11,315,000 Mexican pesos (MP) will be due to Covington in 30 days. Covington has the option of selling the pesos today at a 30-day forward rate of $0.06139/MP. If it waits 30 days to sell the pesos, the expected spot rate is $0.05881/MP. In dollars, how much better off is Covington by selling the pesos in the forward market?
+
+21.31 Barrington Fertilizers, Inc., exports its specialized lawn care products to Canada. It made a sale worth C$1,150,000, with the payment due in 90 days. Barrington’s banker gave it a forward quote of $0.7963/C$. By using the forward rate, the firm gained an additional $8,433.25 over what it would have received if it had sold the Canadian dollars in the spot market 90 days later. What was the spot rate at the time the payment was received?
+
+21.33 Moon Rhee Auto Supply, a Korean supplier of parts to Kia Motors, is evaluating an opportunity to set up a plant in Alabama, where Kia Motors has an auto assembly plant for its SUVs. The cost of this plant will be $13.5 million. The current spot rate is 1,120.318 Korean won per U.S. dollar. The firm is expected to use this plant for the next five years and is expecting to generate the following cash flows:
+
+The firm uses a discount rate of 9 percent for projects like this in the United States. What is the NPV of this project? Should Moon Rhee Auto Supply take on this project?
+
+ 	Year
+ 	1	2	3	4	5
+Cash flows ($ millions)	$2.3	$4.2	$3.6	$5.8	$7.6
+Expected exchange rate (Korean won/$)	1,105.231	1,115.632	1,146.155	1,120.221	1,110.670
+21.34 The Boeing Company has two different debt issues, both maturing four years from now. The domestic bond issue pays semiannual coupons and has a coupon rate of 4.80 percent. The current price on the bond is $962.75. The Eurobond issue is priced at $964.33 and pays an annual coupon of 4.95 percent. What is the yield to maturity for each bond?
+
+21.35 Caterpillar, Inc., management is trying to decide between selling a new bond issue in the United States or the Eurodollar bond market. In either market, the bonds will be denominated in dollars and will have a three-year maturity. The domestic bonds will have a coupon rate of 4.1 percent and sell at a market price of $1,034.25. The Eurobonds will have a coupon rate of 4 percent, paid annually, and will sell at $1,029.76. Which bond issue will have the lower cost to the firm?
+
+21.36 IBM’s German unit is looking to borrow €7.5 million from Deutsche Bank. Deutsche Bank quotes a rate of three-month LIBOR plus 0.25 percent for the 90-day loan. Currently, the three-month LIBOR is 0.27 percent. What is IBM’s interest cost on the loan in euros? If the exchange rate on the payoff date is €0.8164/$, what is the dollar cost of the loan?
+
+21.37 Toyota is interested in borrowing $5 million for 90 days. Bank of America has quoted a rate that is 1.85 percent under the prime rate of 3.55 percent. Daiwa Bank is offering Toyota a rate that is 0.95 percent over the three-month LIBOR of 0.29 percent. Which is the better deal for Toyota, and what is the lower interest cost in dollars?
+
+Sample Test Problems
+21.1 What are six factors that cause international transactions to differ from domestic transactions?
+
+21.2 If a Dell Studio laptop sells for $999 in Austin, Texas, and £689 in London, what is the implied exchange rate between the U.S. dollar and the euro?
+
+21.3 A bank in India has offered a spot rate quote on Indian rupees (Rs) of Rs72.2905/$. The Indian rupee is quoted at a 30-day forward premium of 5.22 percent against the dollar. What is the 30-day forward quote?
+
+21.4 Technocorp has purchased industrial parts from a German company for a total cost of €1,225,000. The firm has 30 days to pay. A bank has given Technocorp a 30-day forward quote of $1.1278/€. Assume that on the day the payment is due, the spot rate is $1.1468/€. How much would Technocorp have saved by hedging with a forward contract?
+
+21.5 Tass Co., Ltd, a Japanese electrical parts producer, is considering building a plant in the United States. The cost of this plant will be $20 million, and the current spot exchange rate between the yen and the U.S. dollar is ¥101.8/$. Tass management expects to use this plant for the next five years and expects it to generate the following cash flows during this period:
+
+ 	year
+ 	1	2	3	4	5
+Cash flows ($ millions)	$2.0	$3.6	$5.0	$6.8	$8.0
+Expected exchange rate (¥/$)	¥101.5/$	¥100.4/$	¥98.6/$	¥95.9/$	¥92.5/$
+If Tass uses a discount rate of 8 percent for projects in the United States, what is the NPV of this project? Should Tass Co. take on this project?
+
+Notes
+1 Sovereign nations are nations that have the right of self-rule, which includes the right to regulate commerce within their borders.
+2 You may wonder why there was a currency conversion for the initial cash flow in the Barcelona example and no similar conversion for this problem. The reason is that for the current problem, the initial cash flow of −$10 million is already in U.S. dollars, and thus there is no need for a conversion. The remaining cash flows are in TWD.
+3 Note that an American dollar deposited overseas, which is a Eurodollar, is only one of many Eurocurrencies.

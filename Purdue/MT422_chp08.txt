@@ -1,0 +1,1384 @@
+page 246
+
+PART 2
+
+Behavioral Finance and the Psychology of Investing
+
+
+
+“The investor’s chief problem, and even his worst enemy, is likely to be himself.”
+
+–Benjamin Graham
+
+“There are three factors that influence the market: Fear, Greed, and Greed.”
+
+–Market folklore
+
+Learning Objectives
+
+Psych yourself up and get a good understanding of:
+
+Prospect theory.
+
+The implications of investor overconfidence and misperceptions of randomness.
+
+Sentiment-based risk and limits to arbitrage.
+
+The wide array of technical analysis methods used by investors.
+
+Be honest: Do you think of yourself as a better-than-average driver? If you do, you are not alone. About 80 percent of people who are asked this question will say yes. Evidently, we tend to overestimate our abilities behind the wheel. Does the same bias exist when it comes to making investment decisions?
+
+You will probably not be surprised when we say that human beings sometimes make errors in judgment. How these errors, and other aspects of human behavior, affect investors and asset prices falls under the general heading of “behavioral finance.” In the first part of this chapter, our goal is to acquaint you with some common types of mistakes investors make and their financial implications. As you will see, researchers have identified a wide variety of potentially damaging behaviors. In the second part of the chapter, we describe a trading strategy known as “technical analysis.” Some investors use technical analysis as a tool to try to exploit patterns in prices. These patterns are thought to exist (by advocates of technical analysis) because of predictable behavior by investors.
+
+CFATM Exam Topics in This Chapter:
+
+Technical analysis (L1, S3)
+
+Market efficiency (L1, S14)
+
+The behavioral finance perspective (L3, S4)
+
+The behavioral biases of individuals (L3, S4)
+
+Behavioral finance and the investment process (L3, S4)
+
+Managing individual investor portfolios (L3, S5)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 247
+
+8.1 Introduction to Behavioral Finance
+Sooner or later, you are going to make an investment decision that winds up costing you a lot of money. Why is this going to happen? You already know the answer. Sometimes you make sound decisions, but you get unlucky when something happens that you could not have reasonably anticipated. At other times (and painful to admit), you make a bad decision, one that could have (and should have) been avoided. The beginning of investment wisdom is to recognize the circumstances that lead to poor decisions and thereby cut down on the damage done by investment blunders.
+
+As we previously noted, the area of research known as behavioral finance attempts to understand and explain how reasoning errors influence investor decisions and market prices. Much of the research done in the area of behavioral finance stems from work in the area of cognitive psychology, which is the study of how people—including investors—think, reason, and make decisions. Errors in reasoning are often called cognitive errors or cognitive biases.
+
+behavioral finance
+
+The area of finance dealing with the implications of investor reasoning errors on investment decisions and market prices.
+
+Some proponents of behavioral finance believe that cognitive errors by investors will cause market inefficiencies. Recall that in a previous chapter we identified three economic conditions that lead to market efficiency: (1) investor rationality, (2) independent deviations from rationality, and (3) arbitrage. For a market to be inefficient, all three of these conditions must be absent. That is, a substantial portion of investors must make irrational investment decisions, and the collective irrationality of these investors then must lead to an overly optimistic or pessimistic market situation that cannot be corrected via arbitrage by rational, well-capitalized investors. Do irrational investor decisions or investor biases affect financial markets? This question is the subject of a raging debate, and we are not going to take sides. Instead, our goal is to introduce you to the ideas and issues.
+
+CHECK THIS
+
+
+
+8.1aWhat is behavioral finance?
+
+8.1bWhat three conditions must be absent for a market to be inefficient?
+
+8.2 Prospect Theory
+Prospect theory, developed in the late 1970s, is a collection of ideas that provides an alternative to classical, rational economic decision making. The foundation of prospect theory rests on the idea that investors are much more distressed by prospective losses than they are happy about prospective gains. Researchers have found that a typical investor considers the pain of a $1 loss to be about twice as great as the pleasure received from the gain of $1. Also, researchers have found that investors respond in different ways to identical situations. The difference depends on whether the situation is presented in terms of losses or in terms of gains.
+
+prospect theory
+
+An alternative theory to classical, rational economic decision making, which emphasizes, among other things, that investors tend to behave differently when they face prospective gains and losses.
+
+Investors seem to be willing to take more risk to avoid the loss of a dollar than they are to make a dollar profit. Also, if an investor has the choice between a sure gain and a gamble that could increase or decrease the sure gain, the investor is likely to choose the sure gain. Choosing a sure gain over a gamble is called risk-averse behavior. If the same investor is faced with a sure loss and a gamble that could increase or decrease the sure loss, the investor is likely to take the gamble. Choosing the gamble over the sure loss is called risk-taking behavior.
+
+This focus on gains and losses and the tendency of investors to be risk-averse with regard to gains, but risk-taking when it comes to losses, is the essence of prospect theory. In contrast, a fully rational investor (in an economic sense) is presumed to care only about his or her overall wealth, not the gains and losses associated with individual pieces of that wealth.
+
+To give a simple example, suppose you own just two stocks (which is, of course, a bad idea from a diversification standpoint). On a particular day, one stock goes up sharply, but page 248the other goes down so that your total wealth is unchanged. On another day, neither stock changes price at all. In both cases, your total wealth was unaffected, but in the first case you would probably be upset that your big gain was canceled out. If you are, you are focusing on the individual pieces, not the big picture. As we will see in the next few subsections, this kind of thinking can lead to potentially damaging errors in judgment.
+
+A NOTE ON INVESTOR BIASES
+Prospect theory has many parts, and we only present some of the main ones. The predictions of prospect theory help us think about the many psychological biases of investors. Being human, we like to group items together to help us learn more about them. The biases of human investors can be put into two main groups.
+
+One main group of errors is called cognitive errors. Investors can deal with the effects of these errors by learning about how they affect investment decisions. Cognitive errors can be split into two subgroups. One subgroup deals with how stubborn people are when they get new information. The more this news clashes with current beliefs, the less likely it is to influence decisions. This subgroup of cognitive errors is called belief perseverance biases. The other subgroup of cognitive errors looks at whether investors deal with new information in an irrational way. This subgroup of cognitive errors is called information processing biases.
+
+The other main group of errors is called behavioral biases. Importantly, it is much more difficult for investors to deal with the effects of behavioral biases on investment decisions. Why? Behavioral biases are deeply ingrained in the feelings and views of investors. As a result, learning about these biases will likely not reduce their effects.
+
+What biases do you have?
+
+FRAME DEPENDENCE
+An important aspect of prospect theory is the notion that people focus on changes in wealth versus levels of wealth. Frame dependence, a belief perseverance cognitive bias, is a result of this phenomenon.
+
+frame dependence
+
+The theory that how a problem is described—that is, framed—matters to people.
+
+If an investment problem is presented in two different (but really equivalent) ways, investors often make inconsistent choices. That is, how a problem is described, or framed, seems to matter to people. Some people believe that frames are transparent; that is, investors should be able to see through the way the question is asked. Do they? Do you? Try this: Jot down your answers in the following two scenarios.
+
+Scenario One. Suppose we give you $1,000. You have the following choices:
+
+You can receive another $500 for sure.
+
+You can flip a fair coin. If the coin flip comes up heads, you get another $1,000, but if it comes up tails, you get nothing.
+
+Scenario Two. Suppose we give you $2,000. You have the following choices:
+
+You can lose $500 for sure.
+
+You can flip a fair coin. If the coin flip comes up heads, you lose $1,000, but if it comes up tails, you lose nothing.
+
+What were your answers? Did you choose Option A in the first scenario and Option B in the second? If that’s what you did, you are guilty of focusing on gains and losses, and not paying attention to what really matters, namely, the impact on your wealth. However, you are not alone. About 85 percent of the people who are presented with the first scenario choose Option A, and about 70 percent of the people who are presented with the second scenario choose Option B.
+
+If you look closely at the two scenarios, you will see that they are actually identical. You end up with $1,500 for sure if you pick Option A, or else you end up with a 50–50 chance of either $1,000 or $2,000 if you pick Option B. So you should pick the same option in both scenarios. Which option you prefer is up to you, but the point is that you should never pick Option A in one scenario and Option B in the other. But people do so because the phrasing, or framing, of the question leads them to answer the questions differently. This scenario is an example of frame dependence.
+
+page 249
+
+Similar behavior has been documented among participants of company-sponsored retirement plans, such as 401(k) plans. Historically, participants were required to “opt into” the plans—meaning they were required to sign up to participate. Under this approach, less than half of all eligible employees chose to enroll. More recently, however, companies have been allowed to enroll employees automatically, while offering them the option to “opt out” of the plan. Although the choices are identical, the outcomes have been much different. After the “opt out” change, the percentage of workers who participated in the plans significantly increased. After framing the decision differently (opting out versus opting in), the behavior of participants changed.
+
+Our frame dependence examples offer several important investment lessons. First, an investor can always frame a decision problem in broad terms (like wealth) or in narrow terms (like gains and losses). Second, broad and narrow frames often lead the investor to make different choices. Although using a narrow frame (like gains and losses) is human nature, doing so can lead to irrational decisions. Therefore, using broad frames, like overall wealth, generally results in better investment decisions.
+
+MENTAL ACCOUNTING AND HOUSE MONEY
+When people engage in mental accounting, they tend to segment their money into mental “buckets.” Mental accounting is an information processing cognitive bias. Spending regular income differently from bonuses and investing prudently in one’s retirement account while taking wild risks with a separate stock account are two examples of mental accounting.
+
+mental accounting
+
+The tendency to segment money into mental “buckets.”
+
+Casinos in Las Vegas (and elsewhere) know all about a concept called “playing with house money.” The casinos have found that gamblers are far more likely to take big risks with money that they have won from the casino (i.e., “house money”). Also, casinos have found that gamblers are not as upset about losing house money as they are about losing the money they brought with them to gamble. As you can see, the house money effect is a result of mental accounting.
+
+It may seem natural for you to feel that some money is precious because you earned it through hard work, sweat, and sacrifice, whereas other money is less precious because it came to you as a windfall. But these feelings are plainly irrational because any dollar you have buys the same amount of goods and services no matter how you obtained that dollar.
+
+Lesson One. There are no “paper profits.” Your profits are yours.
+
+Lesson Two. All your money is your money. That is, you should not separate your money into bundles labeled “house money” and “my money.”
+
+A year ago, you bought shares in Fama Enterprises for $40 per share, and you bought shares in French Company for $5 per share. Yesterday, Fama Enterprises and French Company shares were both selling for $30 per share. Today, shares in both companies are selling for $15 per share. You might feel very differently about the decline depending on which stock you looked at. With Fama Enterprises, the decline makes a bad situation even worse. Now you are down $25 per share on your investment. On the other hand, with French Company, you only “give back” some of your “paper profit.” You are still way ahead. This kind of thinking is playing with house money. Whether you lose from your original investment or from your investment gains is irrelevant.
+
+Frame dependence, mental accounting, and the house money effect are all consistent with the predictions of prospect theory. Many other types of judgment errors have been documented. One important class of these judgment errors are known as behavioral biases.
+
+LOSS AVERSION
+A phenomenon known as loss aversion is a complex behavioral bias. Loss aversion is a key element of prospect theory. We are all familiar with risk-averse behavior. People buy insurance to reduce the financial risks of a car wreck. Risk-averse investors tend to seek certainty over risk. Risk-averse investors seek to diversify portfolios, thereby reducing portfolio risk. Loss aversion goes beyond merely looking to reduce risk. Loss aversion is a sheer desire to avoid loss. Loss-averse investors shun losses. We do not know the exact cause of loss aversion, but we can describe its effects.
+
+loss aversion
+
+A reluctance to sell investments after they have fallen in value. Also known as the break-even or disposition effect.
+
+page 250
+
+When you add a new stock to your portfolio, it is human nature for you to associate the stock with its purchase price. As the price of the stock changes through time, you will have unrealized gains or losses when you compare the current price to the purchase price. Through time, you will mentally account for these gains and losses, and how you feel about the investment depends on whether you are ahead or behind.
+
+When you add stocks to your portfolio, you unknowingly create a personal relationship with each of your stocks. As a result, selling one of them becomes more difficult. It is as if you have to “break up” with this stock, or “fire” it from your portfolio. As with personal relationships, these “stock relationships” can be complicated and, believe it or not, make selling stocks difficult at times. This is often referred to as the status quo bias, or the endowment effect.
+
+In fact, you might have particular difficulty selling a stock at a price lower than your purchase price. If you sell a stock at a loss, you may have a hard time thinking that purchasing the stock in the first place was correct. You might feel this way even if the decision to buy was actually a very good decision. A further complication is that you will also think that if you can somehow “get even,” you will be able to sell the stock without any hard feelings. Loss aversion leads to the reluctance to sell investments, such as shares of stock, after they have fallen in value. This aspect of loss aversion, often a function of anchoring, is also called the break-even or disposition effect. Those suffering from it are sometimes said to have “get-evenitis.” Legendary investor Warren Buffett offers the following advice: “The stock doesn’t know you own it. You have feelings about it, but it has no feelings about you. The stock doesn’t know what you paid. People shouldn’t get emotionally involved with their stocks.”
+
+anchoring
+
+The tendency to fixate on a reference point.
+
+To see if you are likely to suffer from loss aversion, consider the following two investments:
+
+Investment One. A year ago, you bought shares in Fama Enterprises for $40 per share. Today, these shares are worth $20 each.
+
+Investment Two. A year ago, you bought shares in French Company for $5 per share. Today, these shares are worth $20 each.
+
+What will you do? Will you (1) sell one of these stocks and hold the other, (2) sell both of these stocks, or (3) hold both of these stocks?
+
+Because you are reading about loss aversion, you will undoubtedly recognize that if you choose to keep the shares in Fama Enterprises, you might be suffering from loss aversion. Why do we say might? Suppose you are considering a new investment in Fama Enterprises. Does your rational analysis say that it is reasonable to purchase shares at $20? If the rational answer is no, then you should sell. If the rational answer is yes, then you do not suffer from loss aversion. However, if you blindly argued to yourself that if shares in Fama Enterprises were a good buy at $40, then they must be a steal at $20, you might have a raging case of loss aversion. There are two important lessons from this example:
+
+Lesson One. The market says that shares in Fama Enterprises are worth $20. The market does not care that you paid $40 a year ago.
+
+Lesson Two. You should not care about your purchase price of Fama Enterprises either. You must evaluate your shares at their current price.
+
+How about the shares in French Company? Do you sell them and take the profit? Once again, the lessons are the same. The market says that shares in French Company are worth $20 per share today. The fact that you paid $5 a year ago is not relevant. Note that selling either of these stocks has tax consequences. Your careful analysis should acknowledge the existence of taxes and transaction fees, as well as their impact on the net proceeds available to you after you sell a security.
+
+How destructive is loss aversion? Perhaps the most famous case of loss aversion, or “get-evenitis,” occurred in 1995, when 28-year-old Nicholas Leeson caused the collapse of his employer, the 233-year-old Barings Bank. At the end of 1992, Leeson had lost about £2 million, which he hid in a secret account. By the end of 1993, his losses were about £23 million, and they mushroomed to £208 million at the end of 1994. Instead of admitting to these losses, Leeson gambled more of the bank’s money in an attempt to “double-up and catch-up.” On February 23, 1995, Leeson’s losses were about £827 million ($1.3 billion) and page 251his trading irregularities were uncovered. Although he attempted to flee prosecution, he was caught, arrested, tried, convicted, and imprisoned. Also, his wife divorced him.
+
+It is unlikely that you will suffer from a case of loss aversion as severe as Nicholas Leeson’s, but loss aversion does affect everyday investors. For example, we know that individual investors sell “winners” more frequently than they sell “losers.” If a typical individual investor had 100 stocks with unrealized gains, the investor might sell 15 of them and keep 85. If the same investor had 100 stocks with unrealized losses, the investor would tend to sell 10 of them and keep 90. That is, individual investors are typically about 1.5 times more likely to sell a stock that has gone up in price than they are to sell a stock that has fallen in price.
+
+This effect is worse when investors hold mutual funds. With mutual funds, when investors choose to sell, they are more than 2.5 times as likely to sell a winning fund than a losing fund. How about professional money managers who manage the mutual funds? They also suffer from loss aversion.
+
+Recall that behavioral biases are deeply rooted in the beliefs and views of investors. As a result, behavioral biases are difficult to correct. Loss aversion is a prime example of a behavioral bias. There are many other behavioral biases. For example, here are a few:
+
+Myopic loss aversion. This behavior is the tendency to focus on avoiding short-term losses, even at the expense of long-term gains. For example, you might fail to invest “retirement” money in stocks because you have a fear of loss in the near term.
+
+Regret aversion. This aversion is the tendency to avoid making a decision because you fear that, in hindsight, the decision will have been less than optimal. Regret aversion relates to myopic loss aversion.
+
+Sunk cost fallacy. This mistake is the tendency to “throw good money after bad.” An example is to keep buying a stock or mutual fund in the face of unfavorable developments.
+
+Endowment effect. This effect is the tendency to consider something that you own to be worth more than it would be if you did not own it. Because of the endowment effect, people sometimes demand more money to give up something than they would be willing to pay to acquire it.
+
+CHECK THIS
+
+
+
+8.2aWhat is the basic prediction of prospect theory?
+
+8.2bWhat is frame dependence?
+
+8.2cHow does loss aversion affect investment decisions?
+
+8.3 Overconfidence
+We are all overconfident about our abilities in many areas (recall our question about your driving ability at the beginning of the chapter). Here is another example. Ask yourself: What grade will I receive in this course (in spite of the arbitrary and capricious nature of the professor)? In our experience, almost everyone will either say A or, at worst, B. Sadly, when we ask our students this question, we always feel confident (but not overconfident) that at least some of our students are going to be disappointed.
+
+Being overconfident is a serious problem for you as an investor. Overconfidence is a behavioral bias, meaning it is difficult to change. Like many behavioral biases, investors have to learn to adapt to the effects of these biases.
+
+Concerning investment behavior, overconfidence appears in several ways. The classic example is diversification, or the lack of it. Investors tend to invest too heavily in the company for which they work. When you think about it, this loyalty can be very bad financially page 252because both your earning power (your income) and your retirement nest egg depend on one company.
+
+Other examples of the lack of diversification include investing too heavily in the stocks of local companies. You might do this because you read about them in the local news or you know someone who works there. That is, you might be unduly confident that you have a high degree of knowledge about local companies versus distant companies.
+
+OVERCONFIDENCE AND TRADING FREQUENCY
+If you are overconfident about your investment skill, you are likely to trade too much. You should know that researchers have found that investors who make relatively more trades have lower returns than investors who trade less frequently. Based on brokerage account activity over a particular period, researchers found that the average household earned an annual return of 16.4 percent. However, those households that traded the most earned an annual return of only 11.4 percent. The moral is clear: Excessive trading is hazardous to your wealth.
+
+OVERTRADING AND GENDER: “IT’S (BASICALLY) A GUY THING”
+In a study published in 2001, Professors Brad Barber and Terrance Odean examined the effects of overconfidence. As identified above, two possible effects of overconfidence are that it leads to more trading and more trading leads to lower returns. If investors could be divided into groups that differed in overconfidence, then these effects could be examined in greater detail.
+
+Barber and Odean began with the fact that psychologists have found that men are more overconfident than women in the area of finance. So, do men trade more than women? Do portfolios of men underperform the portfolios of women? Barber and Odean show that the answer to both questions is yes.
+
+Barber and Odean examined the trading accounts of men and women and found that men trade about 50 percent more than women. They found that both men and women reduce their portfolio returns through excessive trading. However, men did so by 94 basis points more per year than women. The difference is even bigger between single men and single women. Single men traded 67 percent more than single women, and single men reduced their return by 144 basis points compared to single women.
+
+Using four risk measures, and accounting for the effects of marital status, age, and income, Barber and Odean also found that men invested in riskier positions than women. Young and single people held portfolios that displayed more return volatility and contained a higher percentage of stocks in small companies. Investors with higher incomes also accepted more market risk. These results are comforting because it seems to make sense that the relatively young and the relatively wealthy should be willing to take more investment risk, particularly if they do not have dependents.
+
+WHAT IS A DIVERSIFIED PORTFOLIO TO THE EVERYDAY INVESTOR?
+It is clear to researchers that most investors have a poor understanding of what constitutes a well-diversified portfolio. Researchers have discovered that the average number of stocks in a household portfolio is about four, and the median is about three.
+
+Ask yourself: What percentage of these households beat the market? If you are like most people, your answer is too low. Researchers have found, however, that even when accounting for trading costs, about 43 percent of the households outperformed the market. Surprised? The lack of diversification is the source of your surprise.
+
+Think about it like this. Suppose all investors held just one stock in their account. If there are many stocks, about half the individual stock returns outperform the market average. Therefore, about half the investors will beat the market. Quickly: Did you think that you would certainly be in that half that would beat the market? If you did, this should show you that you might be prone to overconfidence. To measure your level of overconfidence, see the nearby Work the Web box.
+
+page 253
+
+WORK THE WEB
+
+As we noted, overconfidence is a common behavioral bias. When we compare ourselves to others, we tend to consider ourselves better, whether it be as a driver, an investor, or a leader. While some people are more overconfident than others, it is safe to say that we have probably all exhibited overconfidence at some point.
+
+To see how overconfident you are, take the following test from messymatters.com/calibration/.
+
+Are you overconfident? For each of the 10 questions shown below, you will provide a low and high guess such that you are 90 percent sure the correct answer falls between the two. Your challenge is to be neither too narrow (i.e., overconfident) nor too wide (i.e., underconfident).
+
+In particular, if you have “no idea,” then give a very wide range; and if you happen to be quite certain, then give a narrow range. If your “overconfidence” is perfectly calibrated, then 90 percent of your intervals (no more, no less) should contain the right answers.
+
+
+Once you have completed the quiz, go to www.messymatters.com/calibration and enter your answers. Are you average or above average when it comes to being overconfident?
+
+ 
+
+Source: http://messymatters.com/calibration/. Accessed April 13, 2019.
+
+page 254
+
+ILLUSION OF KNOWLEDGE
+Overconfident investors tend to underestimate the risk of individual stocks and their overall portfolios. This aspect of overconfidence typically stems from a belief that information you hold is superior to information held by other investors. You believe, therefore, that you are able to make better judgments. This belief is referred to as the illusion of knowledge.
+
+A possible example of this behavior was observed in 2009 following the bankruptcy of General Motors. As part of the reorganization process, GM’s management announced that existing shares were worthless (i.e., had a value of $0 per share). Nonetheless, these existing shares continued to trade, albeit at low, but positive, value. If management stated the shares were worthless, why would anyone continue to buy them? No one knows for sure. A possible explanation, however, is that this “noise trading” was driven by investors with an illusion of knowledge. These investors thought that they knew more about the prospects of GM’s common stock than did the managers of GM.
+
+A recent winner of the Spanish lottery exhibited illusion of knowledge (and control). When asked why he chose the number 48, he replied, “Well, I dreamed of the number seven for seven nights in a row, and since seven times seven is 48 . . .”1 While this gentleman probably would not do very well in an investments class, his luck saved him.
+
+SNAKEBITE EFFECT
+Are you an avid skateboarder? If not, maybe you never tried it, or maybe it has never appealed to you. Or you might have tried skateboarding but gave it up because of a bad experience (say, a broken leg, arm, both, or worse). If you fall into the latter category, you could well have experienced the snakebite effect concerning skateboarding.
+
+As it relates to investing, the snakebite effect refers to the unwillingness of investors to take a risk following a loss. This behavioral bias is sometimes considered to have the opposite influence of overconfidence. The snakebite effect, also known as a regret-aversion bias, makes people less confident in the investment process following a loss. This particular phenomenon has been well documented in fund flows to mutual funds. More money tends to be liquidated from mutual funds following some significant market declines. In other market declines, less money than “normal” tends to flow toward mutual funds. Unfortunately, this action is the opposite of what rational investors do—that is, “buy low, sell high.”
+
+CHECK THIS
+
+
+
+8.3aHow does overconfidence appear in investment behavior?
+
+8.3bWhat are the effects of trading frequency on portfolio performance?
+
+8.3cHow does the snakebite effect impact investors?
+
+8.4 Misperceiving Randomness and Overreacting to Chance Events
+Cognitive psychologists have discovered that the human mind is a pattern-seeking device. As a result, we conclude that causal factors or patterns are at work behind sequences of events even when the events are truly random. In behavioral finance, this tendency, known as the representativeness heuristic, can lead to cognitive errors. For example, if something is random, it should look random. But what does random look like?
+
+representativeness heuristic
+
+Concluding that causal factors are at work behind random sequences.
+
+page 255
+
+Suppose we flip a coin 20 times and write down whether we get a head or a tail. Then we do it again. The results of our two sets of 20 flips are:
+
+    First 20: T T T H T T T H T T H H H T H H T H H H
+
+Second 20: T H T H H T T H T H T H T T H T H T H H
+
+Do these sequences of heads and tails both look random to you? Most people would say that the first 20 and the second 20 somehow look “different,” even though both are random sequences and both have 10 heads and 10 tails.
+
+Let’s look at this a bit differently by graphing the results. We’ll start at zero. If a head occurs, we will subtract one; if a tail occurs, we will add one. Table 8.1 lists the results. Suppose we graph the two sets of 20 flips in Figure 8.1. Do the two series look different to you? Do you think the line labeled First 20 has a pattern to it, but the line labeled Second 20 appears to be random? If you do, your mind saw a pattern in a random sequence of coin flips, even though both patterns are the result of random coin flips with 10 heads and 10 tails.
+
+The representativeness heuristic assumes that people tend to ignore base rates. In a well-known research study by Professors Daniel Kahneman and Amos Tversky, subjects were shown personality descriptions and asked to estimate the probability that the person described was a lawyer. One group was told that the description was drawn from a sample of 30 lawyers and 70 engineers. The second group was told that the description was drawn from a sample of 70 lawyers and 30 engineers. Both groups, however, produced a similar probability that the personality sketch was that of a lawyer. You might conclude that people often find what they are looking for in the data.
+
+Although making fun of lawyers is, for some, a happy pastime, representativeness has a major impact on investors. As an example, consider what you would do if someone asked you to choose between investing in Microsoft or Cal-Maine Foods. You might attempt to do some detailed research and choose the “better” company. Most investors, however, are prone to choose Microsoft because it is well known. This example shows the common error of confusing a good company with a good investment.
+
+The Results of Two Sets of 20 Coin Flips
+
+TABLE 8.1
+
+
+page 256
+
+The Pattern of Two Different Sets of 20 Coin Flips
+
+FIGURE 8.1
+
+
+THE “HOT-HAND” FALLACY
+Basketball fans generally believe that success breeds success. Suppose we look at the recent performance of two basketball players named LeBron and Shaquille. Both of these players make half of their shots. But LeBron just made two shots in a row, while Shaquille just missed two shots in a row. Researchers have found that if they ask 100 basketball fans which player has the better chance of making the next shot, 91 of them will say LeBron because he has a “hot hand.” Further, 84 of these fans believe that it is important for teammates to pass the ball to LeBron after he has made two or three shots in a row.
+
+But—and the sports fans among you will have a hard time with this—researchers have found that the hot hand might be an illusion. That is, players really do not deviate much from their long-run shooting averages, although fans, players, announcers, and coaches think they do. Cognitive psychologists actually studied the shooting percentage of one professional basketball team for a season. The findings are presented in Table 8.2. Detailed analysis of shooting data failed to show that players make or miss shots more or less frequently than what would be expected by chance. That is, statistically speaking, all the shooting percentages in Table 8.2 are the “same.”
+
+The shooting percentages in Table 8.2 may suggest that teams tried harder to defend a shooter who had made the last two or three shots. To take this possibility into account, page 257researchers have also studied percentages for undefended shots—free throws. Researchers told fans that a certain player was a 70 percent free-throw shooter and was about to shoot two foul shots. They asked fans to predict what would happen on the second shot if the player:
+
+Made the first free throw.
+
+Missed the first free throw.
+
+Shooting Percentages and the History of Previous Attempts
+
+TABLE 8.2
+
+Shooting Percentage on Next Shot	History of Previous Attempts
+46%	Made 3 in a row
+50	Made 2 in a row
+51	Made 1
+52	First shot of the game
+54	Missed 1
+53	Missed 2 in a row
+56	Missed 3 in a row
+Fans thought that this 70 percent free-throw shooter would make 74 percent of the second free throws after making the first free throw but would only make 66 percent of the second free throws after missing the first free throw. Researchers studied free-throw data from a professional basketball team over two seasons. They found that the result of the first free throw does not matter when it comes to making or missing the second free throw. On average, the shooting percentage on the second free throw was 75 percent when the player made the first free throw. On average, the shooting percentage on the second free throw was also 75 percent when the player missed the first free throw.
+
+It is true that basketball players shoot in streaks. But these streaks are within the bounds of long-run shooting percentages. So it is an illusion that players are either “hot” or “cold.” If you are a believer in the “hot hand,” however, you are likely to reject these facts because you “know better” from watching your favorite teams over the years. You are being fooled by randomness because randomness often appears in clusters.
+
+The clustering illusion is our human belief that random events that occur in clusters are not really random. For example, it strikes most people as very unusual if heads comes up four times in a row during a series of coin flips. However, if a fair coin is flipped 20 times, there is about a 50 percent chance of getting four heads in a row. Ask yourself, if you flip four heads in a row, do you think you have a “hot hand” at coin flipping?
+
+clustering illusion
+
+Human belief that random events that occur in clusters are not really random.
+
+Mutual fund investing is one area where investors seem to fall prey to the clustering illusion. Every year, funds that have had exceptionally good performance receive large inflows of investor money. Despite the universal disclaimer that “past performance is no guarantee of future results,” investors nonetheless clearly chase past returns.
+
+THE GAMBLER’s FALLACY
+Visit
+behaviouralfinance.net
+for many other terms and concepts of behavioral finance.
+
+People commit the gambler’s fallacy when they assume that a departure from what occurs on average, or in the long run, will be corrected in the short run. Another way to think about the gambler’s fallacy is that because an event has not happened recently, it has become “overdue” and is more likely to occur. People sometimes refer (wrongly) to the “law of averages” in such cases.
+
+Roulette is a random game where gamblers can make various bets on the spin of the wheel. There are 38 numbers on an American roulette table: 2 green ones, 18 red ones, and 18 black ones. One possible bet is whether the spin will result in a red number or in a black number. Suppose a red number has appeared five times in a row. Gamblers will often become confident that the next spin will be black, when the true chance remains at about 50 percent (of course, it is exactly 18 in 38).
+
+The misconception arises from the human intuition that the overall odds of the wheel must be reflected in a small number of spins. That is, gamblers often become convinced that the wheel is “due” to hit a black number after a series of red numbers. Gamblers do know that the odds of a black number appearing are always unchanged: 18 in 38. But gamblers cannot help but feel that after a long series of red numbers, a black one must appear to restore the “balance” between red and black numbers over time. Thousands of betting systems exist that claim to be able to generate money by betting opposite to recent outcomes. One simple example in roulette is to wait until four red numbers in a row appear—then bet on black. Internet hucksters sell “guaranteed” betting systems that are essentially based on the gambler’s fallacy. None of them work. Think about it. If these betting systems actually worked, why would they be for sale?
+
+The hot-hand fallacy and the gambler’s fallacy can be thought of as forecasting errors. Professors Kahneman and Tversky discovered that people place too much weight on recent experiences. Overweighting what recently happened can help explain both of these fallacies. The difference between them lies in the belief that future events will resemble past events (hot-hand fallacy) or that a turnaround is due (gambler’s fallacy).
+
+page 258
+
+Of course, there are many other investor errors and biases. Here is a partial list. Which ones do you think are difficult for investors to change?
+
+Law of small numbers. If you believe in the law of small numbers, you believe that a small sample of outcomes always resembles the long-run distribution of outcomes. If your investment guru has been right five out of seven times recently, you might believe that his long-run average of being correct is also five out of seven. The law of small numbers is related to recency bias and to the gambler’s fallacy.
+
+Recency bias. Humans tend to give recent events more importance than less recent events. For example, during the great bull market that occurred from 1995 to 1999, many investors thought the market would continue its big gains for a long time—forgetting that bear markets also occur (which happened from 2000 to 2002 and again in 2008 to 2009). Recency bias is related to the law of small numbers.
+
+Availability bias. You suffer from availability bias when you put too much weight on information that is easily available and place too little weight on information that is hard to obtain. Your financial decisions will suffer if you consider only information that is easy to obtain.
+
+Self-attribution bias. This bias occurs when you attribute good outcomes to your own skill but blame bad outcomes on luck.
+
+Wishful thinking bias. You suffer from wishful thinking bias when you believe what you want to believe. Wishful thinking bias relates to self-attribution bias.
+
+False consensus. This is the tendency to think that other people are thinking the same thing about a stock you own (or are going to buy). False consensus relates to overconfidence.
+
+CHECK THIS
+
+
+
+8.4aWhat is the representativeness heuristic?
+
+8.4bWhat is the hot-hand fallacy? How could it affect investor decisions?
+
+8.4cWhat is the gambler’s fallacy? How could it affect investor decisions?
+
+8.5 More on Behavioral Finance
+HEURISTICS
+You probably have had to evaluate some stocks, and maybe you even had to pick the ones you thought were best. In doing so, you surely found that a large amount of information is available—stock reports, analyst estimates, financial statements, and the list goes on. How can you, or any investor, possibly evaluate all this information correctly? Sadly, the truth is one cannot do so. So, how do most investors make decisions? Most likely, investment decisions are made by using rules of thumb, or heuristics (fancy name).
+
+A heuristic simplifies the decision-making process by identifying a defined set of criteria to evaluate. Unfortunately, investors often choose inappropriate criteria. For example, investors might choose criteria that identify good companies, but not necessarily good investments.
+
+Another example involves 401(k) plans. Researchers have found that most investors allocate among their investment choices equally. This choice presents some serious implications. For retirement plans that offer more bond funds than stock funds, participants will choose a conservative portfolio (i.e., more bonds than stocks). For retirement plans that offer more stock funds than bond funds, participants will choose a more aggressive portfolio (i.e., more stocks than bonds). This behavior is referred to as the “1/n phenomenon,” as investors page 259allocate 1/n percent to each of the n funds available. This heuristic-based allocation simplifies the decision process, but it is definitely not optimal for many investors.
+
+HERDING
+Have you ever watched a nature documentary that shows schools of fish? If you have, recall how the fish move if a danger is detected. Do the fish scatter? No. They tend to move together in a quick and pronounced manner. This behavior is known as herding.
+
+While we are well aware of such behavior among animals, this behavior is also common among investors. For example, many academic studies conclude that stock analysts tend to exhibit herding behavior in their earnings forecasts and stock ratings. Where one analyst goes, others follow—presumably from the fear of being left behind. This might be a preservation behavior similar to that exhibited by fish. For example, if an analyst rates a stock a strong buy, while everyone else is saying sell or hold, the lone analyst faces risk. If he is right, he will be considered a genius. If he is incorrect, however, he will probably lose his job. Does avoiding this “survival of the fittest” outcome motivate analysts to herd? Analysts would probably say no, but the evidence seems to point to herding.
+
+This behavior is also common among individual investors. Among many factors, one prominent trigger seems to be media interaction. After a stock is highlighted in an investment periodical or on a television show, volume tends to increase, as does stock price. Many of you are probably familiar with Jim Cramer, the host of the TV show Mad Money. When Mr. Cramer recommends a stock, it shows a significant uptick on the following day. Why is this? Maybe Mr. Cramer has added new information to the market, or maybe investors are herding by following his recommendation.
+
+Taken together with other biases, herding behavior might represent the most significant challenge to market efficiency. If herding occurs, then we would expect trends in the market to continue and strengthen, at least for a period of time. Thus, if we could identify a trend in prices, then we should be able to earn an abnormal return by trading on this information. Price trends are the focus of our upcoming section on technical analysis. If the market is efficient, however, knowing these trends will not help investors predict future price changes.
+
+What do we find in practice? Well, many researchers have addressed this topic, with most of the evidence pointing in favor of a so-called momentum effect. How would an investor take advantage of a momentum effect? The investor looks at stock returns over the last six months. Then, the investor buys a set of stocks that had the highest returns over the last six months and sells a set of stocks that had the lowest returns. If there is a momentum effect, the investor would, on average, earn a positive abnormal return by holding these positions over the next six months. If this strategy works, we might need to change the golden rule of investing from “buy low, sell high” to “buy high, sell higher.”
+
+HOW DO WE OVERCOME BIAS?
+Proponents of behavioral finance generally contend that most behavioral biases are difficult, if not impossible, to change. By contrast, they argue that, in many cases, cognitive errors can be corrected through learning about them. While these distinctions are likely debatable, we can generally agree on things we can do to help overcome, or at least reduce, the negative impact of any bias on our investment decisions.
+
+The most important thing is to know about potential biases; hence, by reading this chapter, you are better prepared than most investors. By understanding what errors you could make, you might be less likely to make them. To help you even more, take a look at the nearby Investment Updates box, where we provide a few lists of the most common mistakes made by investors. Notice the overlap to the topics we have covered in this chapter.
+
+Other actions you can take to reduce bias include diversifying your portfolio, avoiding situations (or media) that you know will unduly influence you, and creating objective investment criteria. Although these actions are not guaranteed to completely eliminate biases, they should at least give you an advantage over other investors who have not taken such precautions.
+
+
+page 260
+
+INVESTMENT UPDATES
+
+MOST COMMON INVESTMENT MISTAKES ACCORDING TO VARIOUS FINANCIAL SOURCES
+
+A.   According to Forbes (August 26, 2013)
+
+Making emotional decisions
+
+Holding a loser until it breaks even
+
+Impatience
+
+Placing too much importance on past returns
+
+Listening to “watercooler” recommendations
+
+B.   According to Business Insider (October 4, 2015)
+
+Basing investments on whether the market will go up or down
+
+Constantly trading stocks
+
+Misunderstanding performance and financial information
+
+Listening to emotion
+
+Working with the wrong advisor
+
+C.   According to Kiplinger’s Personal Finance (February 2015)
+
+Freaking out in market drops
+
+Getting swept up in market euphoria
+
+Trading too frequently
+
+Putting all your eggs in one basket
+
+Treating your home as an investment
+
+Failing to rebalance your portfolio regularly
+
+Borrowing against stocks
+
+D.   According to CNBC (August 2018)
+
+Overconfidence
+
+Anchoring to purchase price
+
+Learning the wrong lessons
+
+CHECK THIS
+
+
+
+8.5aWhat is the “1/n phenomenon”?
+
+8.5bExplain herding behavior by investors.
+
+8.5cWhat potential biases might affect how you invest?
+
+8.6 Sentiment-Based Risk and Limits to Arbitrage
+It is important to realize that the efficient markets hypothesis does not require every investor to be rational. As we have noted, all that is required for a market to be efficient is that at least some investors are smart and well financed. These investors are prepared to buy and sell to take advantage of any mispricing in the marketplace. This activity is what keeps markets efficient. Sometimes, however, a problem arises in this context.
+
+LIMITS TO ARBITRAGE
+The term limits to arbitrage refers to the notion that under certain circumstances, rational, well-capitalized traders may be unable to correct a mispricing, at least not quickly. The reason is that strategies designed to eliminate mispricings are often risky, costly, or somehow restricted. Three important impediments are:
+
+limits to arbitrage
+
+The notion that the price of an asset may not equal its correct value because of barriers to arbitrage.
+
+Firm-specific risk. This is the most obvious risk facing a would-be arbitrageur. Suppose that you believe that the observed price on Ford stock is too low, so you purchase many, many shares. Then, some unanticipated negative news drives the price of Ford stock even lower. Of course, you could try to hedge some firm-specific risk by shorting shares in another stock, say, Honda. But there is no guarantee that the price of Honda will fall if some firm-specific event triggers a decline in the price of Ford. It might even rise, leaving you even worse off. Furthermore, in many, if not most, cases, there might not even be a stock that could be considered a close substitute.
+
+page 261 
+
+Noise trader risk. A noise trader is someone whose trades are not based on information or financially meaningful analysis. Noise traders could, in principle, act together to worsen a mispricing in the short run. Noise trader risk is important because the worsening of a mispricing could force the arbitrageur to liquidate early and sustain steep losses. As the economist John Maynard Keynes once famously observed, “Markets can remain irrational longer than you can remain solvent.”2
+
+Noise trader risk is also called sentiment-based risk, meaning the risk that an asset’s price is being influenced by sentiment (or irrational belief such as illusion of knowledge) rather than fact-based financial analysis. If sentiment-based risk exists, then it is another source of risk beyond the systematic and unsystematic risks we discussed in an earlier chapter.
+
+noise trader
+
+A trader whose trades are not based on information or meaningful financial analysis.
+
+sentiment-based risk
+
+A source of risk to investors above and beyond firm-specific risk and overall market risk.
+
+Implementation costs. These include transaction costs such as bid-ask spreads, brokerage commissions, and margin interest. In addition, there might be some short-sale constraints. One short-sale constraint arises when there are not enough shares of the security to borrow so that the arbitrageur can take a large short position. Another short-sale constraint stems from legal restrictions. Many money managers, especially pension fund and mutual fund managers, are not allowed to sell short.
+
+When these or other risks and costs are present, a mispricing may persist because arbitrage is too risky or too costly. Collectively, these risks and costs create barriers or limits to arbitrage. How important these limits are is difficult to say, but we do know that mispricings occur, at least on occasion. To illustrate, we consider two well-known examples.
+
+THE 3COM/PALM MISPRICING
+On March 2, 2000, a profitable provider of computer networking products and services, 3Com, sold 5 percent of one of its subsidiaries to the public via an initial public offering (IPO). At the time, the subsidiary was known as Palm (the Palm trademark is now owned by TCL).
+
+3Com planned to distribute the remaining Palm shares to 3Com shareholders at a later date. Under the plan, if you owned 1 share of 3Com, you would receive 1.5 shares of Palm. So, after 3Com sold part of Palm via the IPO, investors could buy Palm shares directly, or they could buy them indirectly by purchasing shares of 3Com.
+
+What makes this case interesting is what happened in the days that followed the Palm IPO. If you owned 1 share of 3Com, you would be entitled, eventually, to 1.5 shares of Palm. Therefore, each 3Com share should be worth at least 1.5 times the value of each Palm share. We say “at least” because the other parts of 3Com were profitable. As a result, each 3Com share should have been worth much more than 1.5 times the value of one Palm share. But, as you might guess, things did not work out this way.
+
+The day before the Palm IPO, shares in 3Com sold for $104.13. After the first day of trading, Palm closed at $95.06 per share. Multiplying $95.06 by 1.5 results in $142.59, which is the minimum value one would expect to pay for 3Com. But the day Palm closed at $95.06, 3Com shares closed at $81.81, more than $60 lower than the price implied by Palm. It gets stranger.
+
+A 3Com price of $81.81 when Palm is selling for $95.06 implies that the market values the rest of 3Com’s businesses (per share) at $81.81 − $142.59 = −$60.78. Given the number of 3Com shares outstanding at the time, this means the market placed a negative value of about −$22 billion for the rest of 3Com’s businesses. Of course, a stock price cannot be negative. This means, then, that the price of Palm relative to 3Com was much too high.
+
+To profit from this mispricing, investors would purchase shares of 3Com and short shares of Palm. In a well-functioning market, this action would quickly force the prices into alignment. What happened?
+
+As you can see in Figure 8.2, the market valued 3Com and Palm shares in such a way that the non-Palm part of 3Com had a negative value for about two months, from March 2, 2000, until May 8, 2000. Even then, it took approval by the IRS for 3Com to proceed with the planned distribution of Palm shares before the non-Palm part of 3Com once again had a positive value.
+
+page 262
+
+The Percentage Difference between 1 Share of 3Com and 1.5 Shares of Palm, March 2, 2000, to July 27, 2000
+
+FIGURE 8.2
+
+
+Royal Dutch and Shell 60–40 Price Ratio Deviations, 1962 to 2005
+
+FIGURE 8.3
+
+
+THE ROYAL DUTCH/SHELL PRICE RATIO
+Another fairly well-known example of a mispricing involves two large oil companies. In 1907, Royal Dutch of the Netherlands and Shell of the United Kingdom agreed to merge their business enterprises and split profits on a 60–40 basis. So, whenever the stock prices of Royal Dutch and Shell are not in a 60–40 ratio, there is a potential opportunity to make an arbitrage profit. If, for example, the ratio were 50–50, you would buy Royal Dutch and short sell Shell.
+
+Figure 8.3 plots the daily deviations from the 60–40 ratio of the Royal Dutch price to the Shell price. If the prices of Royal Dutch and Shell are in a 60–40 ratio, there is a zero percentage deviation. If the price of Royal Dutch is too high compared to the Shell price, there is a positive deviation. If the price of Royal Dutch is too low compared to the price of Shell, there is a negative deviation. As you can see in Figure 8.3, there have been large and persistent page 263deviations from the 60–40 ratio. In fact, the ratio was seldom at 60–40 for most of the time from 1962 through mid-2005 (when the companies merged).
+
+CHECK THIS
+
+
+
+8.6aWhat does the term “limits to arbitrage” mean?
+
+8.6bIf there were no limits to arbitrage, what would have been the relationship between 1 share of 3Com and 1.5 shares of Palm?
+
+8.6cIf there were no limits to arbitrage, what would have been the relationship between the prices of Royal Dutch and Shell?
+
+8.7 Technical Analysis
+Many investors try to predict future stock price movements based on investor sentiment, errors in judgment, and/or historical price movements. These investors are using technical analysis. Unlike fundamental analysis, technical analysis does not rely on traditional valuation techniques like those presented in our earlier chapters.
+
+technical analysis
+
+Using past price data and other nonfinancial data to identify future trading opportunities.
+
+WHY DOES TECHNICAL ANALYSIS CONTINUE TO THRIVE?
+Proponents of the efficient markets hypothesis do not believe that technical analysis can assist investors in predicting future stock price movements. If that is the case, why is technical analysis still used? In fact, in this internet and computer age, technical analysis is actually thriving. Why?
+
+One possible reason that technical analysis still exists is that an investor can derive thousands of potentially successful technical analysis systems by using historical security prices. Past movements of security prices are easy to fit into a wide variety of technical analysis systems. As a result, proponents of technical analysis can continuously tinker with their systems and find methods that fit historical prices. This process is known as “backtesting.” Alas, successful investment is all about future prices.
+
+Another possible reason that technical analysis still exists is that it sometimes works. Again, given a large number of possible technical analysis systems, it is possible that many of them will work (or appear to work) in the short run. It is also possible that the market is not fully efficient and that technical analysis helps to identify these inefficiencies. One such example is the momentum effect we discussed earlier. You should know, however, that evidence of market inefficiency is hotly contested.
+
+To give an example of a technical analysis tool, or a technical “indicator,” consider trying to analyze market sentiment. The term “market sentiment” refers to the prevailing mood among investors about the future outlook of an individual security or the market. Market sentiment is generally classified as optimistic (bullish), neutral (undecided), or pessimistic (bearish).
+
+Market sentiment usually takes time to change. That is, it takes time for, say, 80 percent of the investors to become bullish if only 50 percent of the investors are currently bullish. Investors who rely on market sentiment often believe that once 80 percent of the investors are bullish or bearish, a consensus has been reached. Further, once a consensus is reached, investors take this as a sign of an impending turn in the direction of the market. One way to measure market sentiment is to ask investors whether they think the market is going up or down. Suppose you ask 50 investors whether they are “bullish” or “bearish” on the market over the next month. Twenty say that they are bearish. The market sentiment index (MSI) can then be calculated as:
+
+
+page 264
+
+The MSI has a maximum value of 1.00, which occurs when every investor you ask is bearish on the market. The MSI has a minimum value of 0, which occurs when every investor you ask is bullish on the market. Note that if you are constructing a sentiment index, you will have to decide how many investors to ask, the identity of these investors, and their investment time frame, that is, daily, weekly, monthly, quarterly, or longer. You can construct a sentiment index for any financial asset for any investment time interval you choose.
+
+People who calculate and use sentiment indexes often view them as “contrarian indicators.” This means that if most other investors are bearish, perhaps the market is “oversold” and prices are due to rebound. Or if most other investors are bullish, perhaps the market is “overbought” and prices will be heading down.
+
+The following saying is useful when you are trying to remember how to interpret the MSI: “When the MSI is high, it is time to buy; when the MSI is low, it is time to go.” Note that there is no theory to guide investors as to what level of the MSI is “high” and what level is “low.” This lack of precise guidance is a common problem with a technical indicator like the MSI.
+
+Technical analysis techniques are centuries old, and their number is enormous. Many, many books on the subject have been written. For this reason, we only touch on the subject and introduce some of its key ideas in the next few sections. Although we focus on the use of technical analysis in the stock market, you should be aware that it is very widely used in commodity markets, and most comments herein apply to those markets as well.
+
+Recall that investors with a positive outlook on the market are often called “bulls,” and their outlook is characterized as “bullish.” A rising market is called a “bull market.” In contrast, pessimistic investors are called “bears,” and their dismal outlook is characterized as “bearish.” A falling market is called a “bear market.” Technical analysts essentially search for bullish or bearish signals, meaning positive or negative indicators about stock prices or market direction.
+
+Learn more about Dow theory at
+dowtheory.com
+and
+thedowtheory.com.
+
+DOW THEORY
+Dow theory is a method of analyzing and interpreting stock market movements that dates back to the turn of the twentieth century. The theory is named after Charles Dow, a cofounder of the Dow Jones Company and an editor of the Dow Jones-owned newspaper, The Wall Street Journal.
+
+Dow theory
+
+A method for predicting market direction that relies on the Dow Industrial and the Dow Transportation averages.
+
+The essence of Dow theory is that there are, at all times, three forces at work in the stock market: (1) a primary direction or trend, (2) a secondary reaction or trend, and (3) daily fluctuations. According to the theory, the primary direction is either bullish (up) or bearish (down), and it reflects the long-run direction of the market.
+
+However, the market can, for limited periods of time, depart from its primary direction. These departures are called secondary reactions or trends and may last for several weeks or months. These are eliminated by corrections, which are reversions to the primary direction. Daily fluctuations are essentially noise and are of no real importance.
+
+The basic purpose of the Dow theory is to signal changes in the primary direction. To do this, two stock market averages, the Dow Jones Industrial Average (DJIA) and the Dow Jones Transportation Average (DJTA), are monitored. If one of these departs from the primary trend, the movement is viewed as secondary. However, if a departure in one is followed by a departure in the other, then this is viewed as a confirmation that the primary trend has changed. The Dow theory was, at one time, very well known and widely followed. It is less popular today, but its basic principles underlie more contemporary approaches to technical analysis.
+
+ELLIOTT WAVES
+In the early 1930s, an accountant named Ralph Nelson Elliott developed the Elliott wave theory. While recuperating from life-threatening anemia (as well as his disastrous losses in the Crash of October 1929), Elliott read a book on Dow theory and began to study patterns of market price movements. Elliott discovered what he believed to be a persistent and recurring pattern that operated between market tops and bottoms. His theory was that these patterns, which he called “waves,” collectively expressed investor sentiment. Through use of sophisticated measurements that he called “wave counting,” a wave theorist could forecast market turns with a high degree of accuracy.
+
+Elliott wave theory
+
+A method for predicting market direction that relies on a series of past market price swings (i.e., waves).
+
+page 265
+
+Basic Elliott Wave Pattern
+
+FIGURE 8.4
+
+
+Learn more about the Elliott wave at
+elliottwave.com.
+
+In 1935, Elliott published his theory in his book, The Wave Principle. His main theory was that there was a repeating eight-wave sequence. The first five waves, which he called “impulsive,” were followed by a three-wave “corrective” sequence. Figure 8.4 shows the basic Elliott wave pattern. The impulse waves are labeled numerically, 1 through 5, while the corrective waves are labeled A, B, and C.
+
+The basic Elliott wave theory gets very complicated because, under the theory, each wave can subdivide into finer wave patterns that are classified into a multitude of structures. Notwithstanding the complex nature of the Elliott wave theory, it is still a widely followed indicator.
+
+SUPPORT AND RESISTANCE LEVELS
+A key concept in technical analysis is the identification of support and resistance levels. A support level is a price or level below which a stock or the market as a whole is unlikely to fall. A resistance level is a price or level above which a stock or the market as a whole is unlikely to rise.
+
+support level
+
+Price or level below which a stock or the market as a whole is unlikely to fall.
+
+resistance level
+
+Price or level above which a stock or the market as a whole is unlikely to rise.
+
+The idea behind these levels is straightforward. As a stock’s price (or the market as a whole) falls, it reaches a point where investors increasingly believe that it can fall no further—the point at which it “bottoms out.” Essentially, purchases by bargain-hungry investors (“bottom-feeders”) pick up at that point, thereby “supporting” the price. A resistance level is formed by reverse logic. As a stock’s price (or the market as a whole) rises, it reaches a point where investors increasingly believe that it can go no higher—the point at which it “tops out.” Once it does, sales by profit-hungry investors (“profit takers”) pick up, thereby “resisting” further advances.
+
+Resistance and support areas are usually viewed as psychological barriers. As the DJIA approaches levels with three zeros, such as 15,000, increased talk of “psychologically important” prices appears in the financial press. A “breakout” occurs when a stock (or the market as a whole) closes below a support level or above a resistance level. A breakout is usually interpreted to mean that the price move will continue in that direction.
+
+As this discussion illustrates, much colorful language is used under the heading of technical analysis. We will see many more examples just ahead.
+
+TECHNICAL INDICATORS
+Technical analysts rely on a variety of technical indicators to forecast the direction of the market. Every day, The Wall Street Journal publishes a variety of such indicators. An excerpt of the “Diaries” section (from wsj.com) appears in Figure 8.5.
+
+Much, but not all, of the information presented is self-explanatory. The first item listed in Figure 8.5 is the number of issues, i.e., stocks, traded. This number fluctuates because, on any given day, there may be zero trading volume in some stocks listed on the NYSE. In the rows that follow, we see the number of price advances, the number of price declines, and the number of unchanged prices. The number of stock prices reaching new highs and new lows as of that day is also listed.
+
+page 266
+
+Market Diaries
+
+FIGURE 8.5
+
+
+Source: The Wall Street Journal, 2019. Dow Jones & Company, Inc.
+
+One popular technical indicator is called the advance/decline line. This indicator shows, for some given period, the cumulative difference between advancing stocks and declining stocks. For example, Table 8.3 contains advance and decline information for the NYSE for the April 8, 2019, to April 12, 2019, trading week.
+
+In Table 8.3, notice how we take the difference between the number of stocks advancing and declining on each day and then accumulate the difference through time. For example, on Monday, 71 more stocks declined than advanced. On Tuesday, 1,466 fewer stocks advanced than declined. Over the two days, the cumulative advance/decline is thus 71 − 1,466 = −1,395.
+
+page 267
+
+Advance/Decline Line Calculation
+
+Table 8.3
+
+
+This cumulative advance/decline number, once plotted, is the advance/decline line. A downward-sloping advance/decline line would be considered a bearish signal, whereas an upward-sloping advance/decline line is a bullish signal. The advance/decline line is often used to measure market “breadth.” If the market is going up, for example, then technical analysts view it as a good sign if there is market breadth. That is, the signal is more bullish if the advance is accompanied by a steeply upward-sloping advance/decline line.
+
+The next few rows in Figure 8.5 deal with trading volume. These rows represent trading volume for advancing stocks, declining stocks, and unchanged stocks (which is calculated by subtracting advancing volume and declining volume from volume traded). For a technical analyst, heavy advancing volume is generally viewed as a bullish signal of buyer interest. This is particularly true if more stocks are up than down and if a lot of new highs appear as well.
+
+The last three numbers in Figure 8.5 are also of interest to technicians. The first, labeled “Closing tick,” is the difference between the number of stocks that closed on an uptick and those that closed on a downtick. From our discussion of the NYSE short-sale rule in a previous chapter, you know that an uptick occurs when the last price change was positive; a downtick is just the reverse. The tick gives an indication of where the market was heading as it closed.
+
+The entry labeled “Closing Arms (TRIN)” is the ratio of average trading volume in declining stocks to average trading volume in advancing stocks. It is calculated as follows:
+
+
+The ratio is named after its inventor, Richard Arms; it is often called the “TRIN,” which is an acronym for “TR(ading) IN(dex).” Notice that the numerator in this ratio is the average volume for stocks that declined on that day. The denominator is the average volume for advancing stocks. Values greater than 1.00 are considered bearish because the indication is that declining shares had heavier volume. Using the numbers from Figure 8.5, we can calculate the Arms value as follows:
+
+
+which rounds to the value shown in Figure 8.5. A caveat: Some sources reverse the numerator and the denominator when they calculate this ratio.
+
+The final piece of information in Figure 8.5, “Block trades,” refers to trades in excess of 10,000 shares. At one time, these trades were taken to be indicators of buying or selling by large institutional investors. Today these trades are routine, and it is difficult to see how this information is particularly useful.
+
+RELATIVE STRENGTH CHARTS
+Relative strength charts illustrate the performance of one company, industry, or market relative to another. Very commonly, such plots are created to analyze how a stock has done relative to its industry or the market as a whole.
+
+relative strength
+
+A measure of the performance of one investment relative to another.
+
+To illustrate how such plots are constructed, suppose that on some particular day, we invest equal amounts, say $100, in both Coke and Pepsi (the amount does not matter; what matters is that the original investment is the same for both). On every subsequent day, we take the ratio of the value of our Coke investment to the value of our Pepsi investment, and we plot it. A ratio bigger than 1.0 indicates that, on a relative basis, Coke has outperformed Pepsi, and vice versa. Thus, a value of 1.20 indicates that Coke has done 20 percent better page 268than Pepsi over the period studied. Notice that if both stocks are down, a ratio bigger than 1.0 indicates that Coke is down by less than Pepsi.
+
+Relative Strength
+
+EXAMPLE 8.1
+
+Consider the following series of monthly stock prices for two hypothetical companies:
+
+Month	Susan, Inc.	Carolyn Co.
+1	$25	$50
+2	  24	  48
+3	  22	  45
+4	  22	  40
+5	  20	  39
+6	  19	  38
+On a relative basis, how has Susan, Inc., done compared to Carolyn Co.?
+
+To answer, suppose we had purchased four shares of Susan, Inc., and two shares of Carolyn Co. for an investment of $100 in each. We can calculate the value of our investment in each month and then take the ratio of Susan, Inc., to Carolyn Co. as follows:
+
+Investment Value
+Month	Susan, Inc. (4 shares)	Carolyn Co. (2 shares)	Relative Strength
+1	$100	$100	1.00
+2	    96	    96	1.00
+3	    88	    90	   .98
+4	    88	    80	1.10
+5	    80	    78	1.03
+6	    76	    76	1.00
+What we see is that over the first four months, both stocks were down, but Susan, Inc., outperformed Carolyn Co. by 10 percent. However, after six months the two had done equally well (or equally poorly).
+
+Learn more about charting at
+www.stockcharts.com.
+Select “ChartSchool.”
+
+CHARTING
+Technical analysts rely heavily on charts showing recent market activity in terms of either prices or, less frequently, volume. In fact, technical analysis is sometimes called “charting,” and technical analysts are often called “chartists.” There are many types of charts, but the basic idea is that by studying charts of past market prices (or other information), the chartist identifies particular patterns that signal the direction of a stock or the market as a whole. We briefly describe some charting techniques next.
+
+OPEN-HIGH-LOW-CLOSE CHARTS (OHLC) Perhaps the most popular charting method is the bar chart. The most basic bar chart uses the stock’s opening, high, low, and closing prices for the period covered by each bar. If the technician is constructing a daily bar chart, the technician will use the daily opening, high, low, and closing prices of the stock. The high and low prices are represented by the top and bottom of the vertical bar, and the opening and closing prices are shown by short horizontal lines crossing the vertical bar. The example of a bar chart for Amazon in Figure 8.6 is from stockcharts.com.
+
+An extension of the open-high-low-close chart is the candlestick chart. This chart identifies, by color, whether the daily stock price closed up or down. To capture this movement, the chartist draws a box connecting the opening and closing prices. If the stock trades up on the day, the body of the candlestick is clear. If the price trades down on the day, the candlestick is darkened.
+
+page 269
+
+Bar Chart for Amazon
+
+FIGURE 8.6
+
+
+Source: StockCharts.com.
+
+Price Channel Chart for Starbucks
+
+FIGURE 8.7
+
+
+Source: StockCharts.com.
+
+PRICE CHANNEL A price channel is a chart pattern using OHLC data that can slope upward, downward, or sideways. Price channels belong to the group of price patterns known as continuation patterns. In a continuation pattern, the price of the stock is expected to continue along its main direction. A price channel has two boundaries, an upper trendline and a lower trendline. The upper trendline marks resistance and the lower trendline marks support. If the overall price movement of the stock is downward, the upper trendline is called the main trendline, and the lower trendline is called the channel line. The example of a price channel for Starbucks in Figure 8.7 is from the website stockcharts.com.
+
+HEAD AND SHOULDERS A head and shoulders chart pattern belongs to a group of price charts known as reversal patterns. Reversal pattern charts also use OHLC data. These chart patterns signal that a reversal from the main trendline is possibly going to occur. Because it belongs to the reversal pattern group, a head and shoulders pattern is identified as either a head and shoulders top or a head and shoulders bottom. The example of a head and shoulders top for CNET Networks in Figure 8.8 is also from the website stockcharts.com.
+
+As you can see, the head and shoulders top formation has three components: the left shoulder, the head, and the right shoulder. To qualify as a head and shoulders top pattern, the shoulders must be lower than the head. Then, a neckline support is drawn between the valleys formed by the left and right shoulders. The reversal signal is generated when the neckline is pierced. In the case of CNET, once the stock price fell below $45, the stock plunged to $25. Of course, there are false piercings, which do not result in a sudden downdraft of the stock.
+
+page 270
+
+Head and Shoulders Chart for CNET Networks, Inc.
+
+FIGURE 8.8
+
+
+Source: StockCharts.com.
+
+MOVING AVERAGES Moving averages are used to generate price reversal signals. As the name implies, a moving average is the average closing price of a stock over a fixed length of time, say 20 days. Each day, the new closing price is added to the calculation, and the oldest closing price is dropped from the calculation.
+
+Moving averages are either simple or exponential. In a simple moving average, all days are given equal weighting. In an exponential moving average, more weight is given to the most recently observed price. Market technicians, like many investors, often believe that the latest price observed for a stock is the most important piece of information about the stock. In Example 8.2, we present data for a three-day simple moving average and data for a three-day exponential moving average, where two-thirds of the average weight is placed on the most recent price.
+
+Three-Day Simple Moving Average and Three-Day Exponential Moving Average
+
+EXAMPLE 8.2
+
+Day	Closing Price	Three-Day Simple Moving Average	Three-Day Exponential Moving Average
+1	$89.00	—	—
+2	  88.44	—	$88.72
+3	  87.60	$88.35	  87.97
+4	  86.20	  87.41	  86.79
+5	  85.75	  86.52	  86.10
+6	  84.57	  85.51	  85.08
+7	  83.64	  84.65	  84.12
+8	  76.70	  81.64	  79.17
+9	  76.65	  79.00	  77.49
+10	  75.48	  76.28	  76.15
+page 271
+
+To calculate the first three-day simple moving average, we need three closing prices. The first simple moving average entry is:
+
+
+The second simple moving average entry is:
+
+
+To calculate a three-day exponential moving average, we begin by averaging the first two days:
+
+
+This number appears first in the exponential moving average column. To obtain the next one, you must decide how much weight is placed on the latest price. As noted above, we selected a 2/3, or .667, weight. To calculate the next exponential moving average entry, we multiply the latest closing price by .667 and the average of the first two days by .333:
+
+
+The next exponential moving average entry is:
+
+
+You can see that the simple moving average and the exponential moving average generate different numbers. The exponential moving average responds more quickly to the latest price information than does the simple moving average.
+
+In practice, 50-day moving averages are frequently compared to 200-day moving averages. The 200-day moving average might be thought of as an indicator of the long-run trend, while the 50-day average might be thought of as a short-run trend. If the 200-day average was rising while the 50-day average was falling, the indication might be that price declines are expected in the short term, but the long-term outlook is favorable. Alternatively, the indication might be that there is a danger of a change in the long-term trend.
+
+Most technical analysts focus on points where the moving averages cross. If the shorter-term moving average crosses the longer-term moving average from below, this movement is referred to as a golden cross. Technicians regard the golden cross to be a strong bullish indicator. A death cross occurs when the shorter-term moving average crosses the longer-term average from above. Given its name, you can probably guess that this occurrence is a bearish indicator. Our nearby Work the Web box gives an additional example.
+
+PUTTING IT ALL TOGETHER Quite often, a market technician will use multiple chart indicators to help in making trading decisions. Let’s examine the collection of technical information available from the website bigcharts.marketwatch.com. We set the website controls starting with “Advanced Chart” to give us three months of daily data for Microsoft (MSFT). In addition, we asked the website to provide us with 9-day and 18-day exponential moving averages (EMAs), Bollinger bands, volume, MACD, and money flow. The results appear in Figure 8.9.
+
+BOLLINGER BANDS John Bollinger created Bollinger bands in the early 1980s. The purpose of Bollinger bands is to provide relative levels of high and low prices. Bollinger bands represent a 2-standard-deviation bound calculated from the moving average (this is why Bollinger bands do not remain constant). In Figure 8.9, the Bollinger bands surround a 20-day moving average. The Bollinger bands are the maroon bands that appear in the top chart. Bollinger bands have been interpreted in many ways by their users. For example, when the stock price is relatively quiet, the Bollinger bands are tight, which indicates a possible pent-up tension that must be released by a subsequent price movement.
+
+MACD MACD stands for moving average convergence divergence. The MACD indicator is a trading indicator that uses data from three moving averages to form two lines, a fast line and a slow line. The fast line, called the MACD line, is the 12-day moving average minus the 26-day moving average. The slow line, called the signal line, is a 9-day exponential moving average. The convergence/divergence of these three averages is represented by the solid black bars in the third chart of Figure 8.9. The basic MACD trading rule is to sell when the MACD falls below its signal line and to buy when the MACD rises above its signal line.
+
+page 272
+
+WORK THE WEB
+
+Charts are easy to draw online. Two of the best sites are stockcharts.com and bigcharts.marketwatch.com. Another really good site is finance.yahoo.com. We provide an example using Yahoo!’s basic technical analysis, but the menu presents many technical analysis options.
+
+As illustrated, we have drawn a moving average chart for Home Depot. The jagged line tracks Home Depot’s daily stock price over the past year. The two smoother lines are the 30-day and 100-day moving averages. Notice the 30-day average crosses the 100-day average in mid-February 2019 from below. Such a crossing is sometimes interpreted as a signal to buy. In this case, the signal has been true so far. Notice that the stock price rose from about $180 to about $203 in about two months.
+
+
+Source: Yahoo! Finance.
+
+MONEY FLOW The idea behind money flow is to identify whether buyers are more eager to buy the stock than sellers are to sell it. In its purest form, money flow looks at each trade. To calculate the money flow indicator, the technician multiplies price and volume for the trades that occur at a price higher than the previous trade price. The technician then sums this money flow. From this sum, the technician subtracts another money flow: the accumulated total of price times volume for trades that occur at prices lower than the previous trade. Example 8.3 shows how to calculate money flow using hypothetical data.
+
+Calculating Money Flow
+
+EXAMPLE 8.3
+
+
+page 273
+
+Technical Analysis Data for Microsoft Corp., with Bollinger Bands and Moving Averages.
+
+FIGURE 8.9
+
+
+Source: Yahoo! Finance.
+
+Traders using money flow look for a divergence between money flow and price. If price remains stable but money flow becomes highly positive, this is taken as an indicator that the stock price will soon increase. Similarly, if the stock price remains stable but the money flow becomes quite negative, this is taken as an indicator that the stock price will soon decrease. In Figure 8.9, the negative accumulation of money flow for Microsoft signals to followers of money flow that any further price gains for Microsoft may be limited.
+
+FIBONACCI NUMBERS
+The golden mean also results from a series of numbers known as Fibonacci numbers. The infinite Fibonacci series grows as follows:
+
+Traders using technical analysis are interested in timing their purchase or sale of a stock. As you know by now, these traders look for support or resistance stock price levels. As strange as it may seem, one source that traders use is known as the golden mean. The golden mean is sometimes abbreviated by the Greek letter phi (φ). The golden mean, φ, is approximately equal to 1.618 (it is precisely equal to . The golden mean is mathematically interesting because, among other things, φ2 = φ + 1.
+
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987 . . .
+
+page 274
+
+Note that the series begins with 1,1 and grows by adding the two previous numbers together (for example, 21 + 34 = 55). Let’s look at the ratio of some numbers to their predecessor in the series:
+
+
+The ratio converges to 1.618, or φ. Market technicians are interested in φ because:
+
+
+Market technicians use these numbers to predict support and resistance levels. For example, as a stock increases in value over time, it will occasionally pull back in value. Suppose a stock has increased from $40 to $60 and has recently begun to fall a bit in value. Using the (φ − 1)/φ ratio, market technicians would predict the primary support area would occur at $52.36 ($60 − $40 = $20; $20 × .382 = $7.64; $60 − $7.64 = $52.36). A similar calculation that uses the 1/φ ratio of .618 instead of .382 results in the secondary support area of $47.64. If the stock were to pierce this secondary support level and close below it, the rally would be declared over. Market technicians would then begin to look for opportunities to sell the stock short if it subsequently rallied.
+
+Nature provides many instances involving Fibonacci numbers. The number of petals on a flower is often a Fibonacci number. For example, black-eyed Susans have 13 petals and ordinary daisies have 34. Also, pinecones and pineapples have spirals containing 8 or 13 scales. There are so many other examples that some observers classify Fibonacci numbers as a “law of nature.” Because of this “law,” some market technicians believe that the Fibonacci numbers should also apply to market prices.
+
+OTHER TECHNICAL INDICATORS
+We close our discussion of technical analysis by describing a few additional technical indicators. The “odd-lot” indicator looks at whether odd-lot purchases (purchases of fewer than 100 shares) are up or down. One argument is that odd-lot purchases represent the activities of smaller, unsophisticated investors, so when they start buying, it’s time to sell. This is a good example of a “contrarian” indicator. In contrast, some argue that because short selling is a fairly sophisticated tactic, increases in short selling are a negative signal.
+
+Some indicators can seem (more than) a little silly, but they are a fun diversion. For example, there is the “hemline” indicator, which is also known as the “bull markets and bare knees” indicator. Through much of the nineteenth century, long skirts dominated women’s fashion and the stock market experienced many bear markets. In the 1920s, flappers revealed their knees and the stock market boomed. Even the stock market crash of October 1987 was predicted by hemlines. During the 1980s, miniskirts flourished, but by October 1987, a fashion shift had women wearing longer skirts.
+
+One of the more famous (or fatuous, depending on how you look at it) indicators is the Super Bowl indicator, which forecasts the direction of the market based on whether the National Football Conference or the American Football Conference wins. A Super Bowl win by a National Football Conference team or an American Football Conference team that used to be in the old National Football League (i.e., Pittsburgh Steelers, Baltimore Colts) is bullish. This probably strikes you as absurd, so you might be surprised to learn that through January 2018, the Super Bowl indicator forecast the direction of the stock market with about 80 percent accuracy. The nearby Investment Updates box contains more details about this indicator.
+
+If you want a more recent indicator of stock market performance from the world of sports, consider horse racing’s Triple Crown. In 2015, American Pharoah won the Triple Crown, becoming the first horse to do so since Affirmed did it in 1978. Before American Pharoah, only 11 horses accomplished this feat. Why does this matter for the stock market? Well, in 8 of those 11 years, the Dow finished down for the year. But, as shown in the Investment Updates box, the market was “up by a nose” in 2015. Justify won the Triple Crown in 2018, and the market fell. So, the indicator is 9 for 13, although there might be an inquiry into the effect on the indicator by the “dividend-aided” positive market performance in 2015.
+
+page 275
+
+INVESTMENT UPDATES
+
+A FOOLISH TAKE: WILL THE SUPER BOWL INDICATOR BOUNCE BACK IN 2019?
+
+Folklore says the big game can predict the market, but it’s been wrong four years in a row.
+
+Super Bowl LIII is set for February 3, 2019, and millions of fans will be watching when the Los Angeles Rams and New England Patriots play at Atlanta’s Mercedes-Benz Stadium.
+
+There’s much folklore surrounding investing, and the Super Bowl indicator is one of the most popular. According to the indicator, if a team from the old American Football League— like the New England Patriots—wins the Super Bowl, then the market will fall for the year. If a team from the old National Football League from before its merger with the AFL in the 1960s—such as the Los Angeles Rams—wins, then the market should rise.
+
+The Super Bowl Indicator has had a good track record over more than half a century, posting about an 80% success rate. But as you can see below, the past several years haven’t been good for the market signal.
+
+For four straight years, the Super Bowl indicator has gotten it wrong. A win from the Philadelphia Eagles in 2018 should have led to an up year, because the Eagles play in the National Football Conference. Conversely, wins from the AFL’s Patriots in 2015 and 2017 and the Denver Broncos in 2016 should have pointed to down years, but the S&P 500 climbed in all three. (Some will quibble and say 2015’s positive return shown was “dividend aided.”)
+
+
+[Editor’s note: The AFL’s Patriots won again in 2019, predicting a down year for the market. As of April 2019, the DJIA was up about 13 percent. Are you rooting for the market or for the Super Bowl Indicator?]
+
+Source: Dan Caplinger, “A Foolish Take: Will the Super Bowl Indicator Bounce Back in 2019?” The Motley Fool, January 28, 2019, www.fool.com/investing/2019/01/28/a-foolish-take-will-the-super-bowl-indicator-bounc.aspx.
+
+There are many other technical trading rules. How seriously should you take them? That’s up to you, but our advice is to keep in mind that life is full of odd coincidences. Just because a bizarre stock market predictor seems to have worked well in the past doesn’t mean that it is going to work in the future.
+
+CHECK THIS
+
+
+
+8.7aWhat is technical analysis?
+
+8.7bWhat is the purpose of charting a stock’s past price?
+
+8.7cWhat is the purpose of using technical indicators?
+
+page 276
+
+8.8 Summary and Conclusions
+The topic of this chapter is behavioral finance and technical analysis. In this chapter, we cover many aspects of this evolving area in finance. We summarize these aspects of the chapter’s important concepts.
+
+1.  Prospect theory.
+
+A.  Prospect theory is a collection of ideas that provides an alternative to classical, rational economic decision making. The foundation of prospect theory rests on the idea that investors are much more distressed by prospective losses than they are happy about prospective gains.
+
+B.  Researchers have found that a typical investor considers the pain of a $1 loss to be about twice as great as the pleasure received from the gain of $1. Also, researchers have found that investors respond in different ways to identical situations. The difference depends on whether the situation is presented in terms of losses or in terms of gains.
+
+C.  Researchers have identified other befuddling examples of investor behavior. Three of them are:
+
+Frame dependence. If an investment problem is presented in two seemingly different (but actually equivalent) ways, investors often make inconsistent choices. That is, how a problem is described, or framed, seems to matter to people.
+
+Mental accounting. Through time, you will mentally account for gains and losses in your investments. How you feel about the investment depends on whether you are ahead or behind. This behavior is known as mental accounting.
+
+House money. Casinos in Las Vegas (and elsewhere) know all about a concept called “playing with house money.” The casinos have found that gamblers are far more likely to take big risks with money won from the casino (i.e., the “house money”) than with their “hard-earned cash.” Casinos also know that gamblers are not as upset about losing house money as they are about losing the money they brought with them to gamble. This is puzzling because all your money is your money.
+
+2.  The implications of investor overconfidence and misperceptions of randomness.
+
+A.  One key to becoming a wise investor is to avoid certain types of behavior. By studying behavioral finance, you can see the potential damage to your (or your client’s) portfolio from overconfidence and psychologically induced errors.
+
+B.  The evidence is relatively clear on one point: Investors probably make mistakes. A much more difficult question, and one where the evidence is not at all clear, is whether risks stemming from errors in judgment by investors can influence market prices and lead to market inefficiencies. An important point is that market efficiency does not require that all investors behave in a rational fashion. It just requires that some do.
+
+3.  Sentiment-based risk and limits to arbitrage.
+
+A.  “Limits to arbitrage” is a term that refers to the notion that under certain circumstances, rational, well-capitalized traders may be unable to correct a mispricing, at least not quickly. The reason is that strategies designed to eliminate mispricings are often risky, costly, or somehow restricted. Three important such problems are firm-specific risk, noise trader risk, and implementation costs.
+
+B.  When these or other risks and costs are present, a mispricing may persist because arbitrage is too risky or too costly. Collectively, these risks and costs create barriers or limits to arbitrage. How important these limits are is difficult to say, but we do know that mispricings occur, at least on occasion. Two well-known examples are 3Com/Palm and Royal Dutch/Shell.
+
+page 277
+
+4.  The wide array of technical analysis methods used by investors.
+
+A.  Many investors try to predict future stock price movements based on investor sentiment, errors in judgment, or historical price movements. Such investors rely on the tools of technical analysis, and we present numerous specific methods used by technical analysts.
+
+B.  Whether these tools or methods work is much debated. We close this chapter by noting the possibility that market prices are influenced by factors like errors in judgment by investors, sentiment, emotion, and irrationality. If they are, however, we are unaware of any scientifically proven method investors like you can use to profit from these influences.
+
+GETTING DOWN TO BUSINESS
+
+This chapter deals with various aspects of behavioral finance. How do you go about incorporating these concepts into the management of your portfolio? First, recall that one of the major lessons from this chapter is that, at times, you may be your own worst enemy when you are investing.
+
+But suppose that you are able to harness your own psychological flaws that unduly influence your investment decisions. To profit from insights from behavioral finance, you might try to shift your portfolio to take advantage of situations where you perceive other market participants have incorrectly valued certain stocks, bonds, derivatives, market sectors, or even countries. Shifting portfolio weights to take advantage of these opportunities is called a “dynamic” trading strategy.
+
+Here is one example of using a dynamic trading strategy: Consider a typical value/growth portfolio weight-shifting scheme. When there is a great deal of market overreaction, perhaps signaled by high market volatility, you would increase, or tilt, your relative portfolio weight toward value stocks. When there is a great deal of market underreaction, perhaps signaled by low market volatility, you would increase your relative weighting in growth stocks. The problem, of course, is knowing when and how to tilt your portfolio to take advantage of what you perceive to be market overreactions and underreactions. At times, you can do very well when you tilt your portfolio. Other times, to use an old commodity market saying, “you get your head handed to you.”
+
+A great amount of information is available on the internet about behavioral finance and building portfolios. One interesting place to start is the “Research” section at psychonomics.com. Make sure that the money that you are using to test any trading scheme is only a small portion of your investment portfolio.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+anchoring 250
+
+behavioral finance 247
+
+clustering illusion 257
+
+Dow theory 264
+
+Elliott wave theory 264
+
+frame dependence 248
+
+limits to arbitrage 260
+
+loss aversion 249
+
+mental accounting 249
+
+noise trader 261
+
+prospect theory 247
+
+relative strength 267
+
+representativeness heuristic 254
+
+resistance level 265
+
+sentiment-based risk 261
+
+support level 265
+
+technical analysis 263
+
+page 278
+
+Chapter Review Problems and Self-Test
+
+It’s All Relative (LO4, CFA1)   Consider the following series of weekly stock prices for two companies:
+
+Week	Cats Co.	Dog Power
+1	$10	$80
+2	  12	  82
+3	  16	  80
+4	  15	  84
+5	  14	  85
+6	  12	  88
+On a relative basis, how has Cats Co. done compared to Dog Power?
+
+Simple Moving Averages (LO4, CFA1)   Using the prices from Problem 1, calculate the three-week simple moving average prices for both companies.
+
+Answers to Self-Test Problems
+
+Suppose we had purchased eight shares of Cats Co. and one share of Dog Power. We can calculate the value of our investment in each week and then take the ratio of Cats Co. to Dog Power as follows:
+
+
+Cats Co. has significantly outperformed Dog Power over much of this period; however, after six weeks, the margin has fallen to about 9 percent from as high as 60 percent.
+
+The moving averages must be calculated relative to the share price; also note that results cannot be computed for the first two weeks because of insufficient data.
+
+
+Test Your Investment Quotient
+
+
+Technical Analysis (LO4, CFA1)   Which of the following is a basic assumption of technical analysis in contrast to fundamental analysis?
+
+Financial statements provide information crucial in valuing a stock.
+
+A stock’s market price will approach its intrinsic value over time.
+
+Aggregate supply and demand for goods and services are key determinants of stock value.
+
+Security prices move in patterns, which repeat over long periods.
+
+page 279 
+
+Technical Analysis (LO4, CFA1)   Which of the following is least likely to be of interest to a technical analyst?
+
+A 15-day moving average of trading volume.
+
+A relative strength analysis of stock price momentum.
+
+Company earnings and cash flow growth.
+
+A daily history of the ratio of advancing stocks over declining stocks.
+
+Dow Theory (LO4, CFA1)   Dow theory asserts that three forces are at work in the stock market at any time. Which of the following is not one of these Dow theory forces?
+
+Daily price fluctuations
+
+A secondary reaction or trend
+
+A primary direction or trend
+
+Reversals or overreactions
+
+Technical Indicators (LO4, CFA1)   The advance/decline line is typically used to:
+
+Measure psychological barriers.
+
+Measure market breadth.
+
+Assess bull market sentiment.
+
+Assess bear market sentiment.
+
+Technical Indicators (LO4, CFA1)   The closing Arms (TRIN) ratio is the ratio of:
+
+Average trading volume in declining stocks to advancing stocks.
+
+Average trading volume in NYSE stocks to NASDAQ stocks.
+
+The number of advancing stocks to the number of declining stocks.
+
+The number of declining stocks to the number of advancing stocks.
+
+Technical Indicators (LO4, CFA1)   Resistance and support areas for a stock market index are viewed as technical indicators of:
+
+Economic barriers.
+
+Psychological barriers.
+
+Circuit breakers.
+
+Holding patterns.
+
+Behavioral Finance Concepts (LO1, CFA5)   When companies changed the structure of 401(k) plans to allow employees to opt out rather than in, the participation rates significantly increased. This is an example of:
+
+Representativeness.
+
+The house money effect.
+
+Frame dependence.
+
+A heuristic.
+
+Behavioral Finance Concepts (LO1, CFA4)   When someone who wins money is more willing to lose the gains, this is referred to as:
+
+Representativeness.
+
+The house money effect.
+
+Frame dependence.
+
+A heuristic.
+
+Behavioral Finance Concepts (LO2, CFA2)   Investors are generally more likely to choose a well-known company when faced with a choice between two firms. This is an example of:
+
+Representativeness.
+
+The house money effect.
+
+Frame dependence.
+
+A heuristic.
+
+Behavioral Finance Concepts (LO2, CFA4)   Many investors try to simplify the investment process by using rules of thumb to make decisions. This is an example of:
+
+Representativeness.
+
+The house money effect.
+
+Frame dependence.
+
+A heuristic.
+
+page 280 
+
+Behavioral Finance Concepts (LO2, CFA6)   All of the following are ways to help reduce behavioral biases except:
+
+Learning about the biases.
+
+Diversifying your portfolio.
+
+Watching more financial news programs.
+
+Creating objective investment criteria.
+
+Behavioral Finance Concepts (LO1, CFA2)   Which of the following topics related to behavioral finance deals with the idea that investors experience more pain from a loss than pleasure from a comparable gain?
+
+Frame dependence
+
+Prospect theory
+
+Loss aversion
+
+Mental accounting
+
+Limits to Arbitrage (LO3, CFA2)   Which of the following is not a reason that rational, well-capitalized investors can correct a mispricing, at least not immediately?
+
+Firm-specific risk
+
+Implementation costs
+
+Aversion risk
+
+Noise trader risk
+
+Technical Indicators (LO4, CFA1)   Which of the following techniques deals with the breadth of the market?
+
+Price channels
+
+Advance/decline lines
+
+Bollinger bands
+
+Support and resistance lines
+
+Technical Indicators (LO4, CFA1)   Which of the following techniques does not assume there are psychologically important barriers in stock prices?
+
+Price channels
+
+Advance/decline lines
+
+Bollinger bands
+
+Support and resistance lines
+
+Concept Questions
+
+Dow Theory (LO4, CFA1)   In the context of Dow theory, what are the three forces at work at all times? Which is the most important?
+
+Technical Analysis (LO4, CFA1)   To a technical analyst, what are support and resistance areas?
+
+Mental Accounting (LO1, CFA4)   Briefly explain mental accounting and identify the potential negative effect of this bias.
+
+Heuristics (LO2, CFA2)   Why do 401(k) plans with more bond choices tend to have participants with portfolios more heavily allocated to fixed income?
+
+Overconfidence (LO2, CFA5)   In the context of behavioral finance, why do men tend to underperform women with regard to the returns in their portfolios?
+
+Overconfidence (LO2, CFA4)   What is the “illusion of knowledge” and how does it impact investment performance?
+
+Dow Theory (LO4, CFA1)   Why do you think the industrial and transportation averages are the two that underlie Dow theory?
+
+Limits to Arbitrage (LO3)   In the chapter, we discussed the 3Com/Palm and Royal Dutch/Shell mispricings. Which of the limits to arbitrage would least likely be the main reason for these mispricings? Explain.
+
+Contrarian Investing (LO4, CFA1)   What does it mean to be a contrarian investor? How would a contrarian investor use technical analysis?
+
+Technical Analysis (LO4, CFA1)   A frequent argument against the usefulness of technical analysis is that trading on a pattern has the effect of destroying the pattern. Explain what this means.
+
+page 281 
+
+Gaps (LO4, CFA1)   Gaps are another technical analysis tool used in conjunction with open-high-low-close charts. A gap occurs when either the low price for a particular day is higher than the high price from the previous day or the high price for a day is lower than the low price from the previous day. Do you think gaps are a bullish or bearish signal? Why?
+
+Probabilities (LO2, CFA3)   Suppose you are flipping a fair coin in a coin-flipping contest and have flipped eight heads in a row. What is the probability of flipping a head on your next coin flip? Suppose you flipped a head on your ninth toss. What is the probability of flipping a head on your tenth toss?
+
+Prospect Theory (LO1, CFA2)   How do prospect theory and the concept of a rational investor differ?
+
+Frame Dependence (LO1, CFA4)   How can frame dependence lead to irrational investment decisions?
+
+Noise Trader Risk (LO3, CFA3)   What is noise trader risk? How can noise trader risk lead to market inefficiencies?
+
+Questions and Problems
+
+Core Questions
+
+Advance/Decline Lines (LO4, CFA1)   Use the data below to construct the advance/decline line for the stock market. Volume figures are in thousands of shares.
+
+
+Calculating Arms Ratio (LO4, CFA1)   Using the data in Problem 1, construct the Arms ratio on each of the five trading days.
+
+Simple Moving Averages (LO4, CFA1)   The table below shows the closing monthly stock prices for IBM and Amazon. Calculate the simple three-month moving average for each month for both companies.
+
+IBM		AMZN
+$169.64		$600.36
+  173.29		  613.40
+  180.13		  586.76
+  195.81		  544.10
+  196.69		  529.02
+  204.49		  506.38
+  222.52		  603.69
+  215.23		  540.96
+  216.23		  515.04
+  213.51		  592.64
+  192.29		  599.39
+  173.10		  645.90
+page 282 
+
+Exponential Moving Averages (LO4, CFA1)   Using the stock prices in Problem 3, calculate the exponential three-month moving average for both stocks where two-thirds of the average weight is placed on the most recent price.
+
+Exponential Moving Averages (LO4, CFA1)   Using the stock prices in Problem 3, calculate the exponential three-month moving average for IBM and Amazon. Place 50 percent of the average weight on the most recent price. How does this exponential moving average compare to your result from Problem 4?
+
+Market Sentiment Index (LO4, CFA1)   A group of investors was polled each week for the last five weeks about whether they were bullish or bearish concerning the market. Construct the market sentiment index for each week based on these polls. Assuming the market sentiment index is being used as a contrarian indicator, which direction would you say the market is headed?
+
+Week	Bulls	Bears
+1	58	63
+2	53	68
+3	47	74
+4	50	71
+5	43	78
+Money Flow (LO4, CFA1)   You are given the following information concerning the trades made on a particular stock. Calculate the money flow for the stock based on these trades. Is the money flow a positive or negative signal in this case?
+
+Price	Volume
+$70.12	
+70.14	1,900
+70.13	1,400
+70.09	1,800
+70.05	2,100
+70.07	2,700
+70.03	3,000
+Moving Averages (LO4, CFA1)   Suppose you are given the following information on the S&P 500:
+
+Date	Close
+4/1/2019	2,867.19
+4/2/2019	2,867.24
+4/3/2019	2,873.40
+4/4/2019	2,879.39
+4/5/2019	2,892.74
+4/8/2019	2,895.77
+4/9/2019	2,878.20
+4/10/2019	2,888.21
+4/11/2019	2,888.32
+4/12/2019	2,907.41
+Calculate the simple three-day moving average for the S&P 500 and the exponential three-day moving average where two-thirds of the weight is placed on the most recent close. Why would you want to know the moving average for an index? If the close on April 12, 2019, was below the three-day moving average, would it be a buy or sell signal?
+
+page 283 
+
+Support and Resistance Levels (LO4, CFA1)   Below you will see a stock price chart for Cisco Systems from finance.yahoo.com. Do you see any resistance or support levels? What do support and resistance levels mean for the stock price?
+
+
+Source: Yahoo! Finance.
+
+Advance/Decline Lines and Arms Ratio (LO4, CFA1)   Use the data below to construct the advance/decline line and Arms ratio for the market. Volume is in thousands of shares.
+
+
+Money Flow (LO4, CFA1)   A stock had the following trades during a particular period. What was the money flow for the stock? Is the money flow a positive or negative signal in this case?
+
+
+page 284
+
+Intermediate Questions
+
+12. Fibonacci Numbers (LO4, CFA1)   A stock recently increased in price from $32 to $45. Using φ, what are the primary and secondary support areas for the stock?
+
+13. Simple Moving Averages (LO4, CFA1)   Below you will find the closing stock prices for eBay over a three-week period. Calculate the simple three-day and five-day moving averages for the stock and graph your results. Are there any technical indications of the future direction of the stock price?
+
+Week	Day	Close
+1	Monday	$39.65
+ 	Tuesday	  39.30
+ 	Wednesday	  39.86
+ 	Thursday	  41.05
+ 	Friday	  41.23
+2	Monday	  41.02
+ 	Tuesday	  40.75
+ 	Wednesday	  41.16
+ 	Thursday	  40.38
+ 	Friday	  39.44
+3	Monday	  40.07
+ 	Tuesday	  40.19
+ 	Wednesday	  40.56
+ 	Thursday	  41.21
+ 	Friday	  40.74
+14. Exponential Moving Averages (LO4, CFA1)   Use the information from Problem 13 to calculate the three-day and five-day exponential moving averages for eBay and graph your results. Place two-thirds of the average weight on the most recent stock price. Are there any technical indications of the future direction of the stock price?
+
+15. Put/Call Ratio (LO4, CFA1)   Another technical indicator is the put/call ratio. The put/call ratio is the number of put options traded divided by the number of call options traded. The put/call ratio can be constructed on the market or on an individual stock. Below you will find the number of puts and calls traded over a four-week period for all stocks:
+
+Week	Puts	Calls
+1	1,874,986	1,631,846
+2	1,991,650	1,772,815
+3	2,187,450	1,976,277
+4	2,392,751	2,182,270
+How would you interpret the put/call ratio? Calculate the put/call ratio for each week. From this analysis, does it appear the market is expected to be upward trending or downward trending?
+
+Spreadsheet Problems
+
+16. Moving Averages (LO4, CFA1)   From the data below for the Dow Jones Industrial Average, calculate the three-day simple moving average. Fill in the “Buy/Sell Signal” column for this trading indicator. Then, calculate the three-day exponential moving average and fill in the “Buy/Sell Signal” column for this trading indicator. Assume that the current closing price will receive 4/5 of the weight in the exponential moving average. Finally, fill in the “Signal Comparison” column. On which days do the signals disagree?
+
+page 285 
+
+
+17. Bollinger Bands (LO4, CFA1)   From the data below for Apple (AAPL) stock, calculate the upper and lower Bollinger bands, which represent plus (or minus) two standard deviations of the 20-day simple moving average added (subtracted) from the 20-day simple moving average. If the daily price approaches or exceeds the upper Bollinger band, traders will look for a continued upward movement in the stock price. Graph the 20-day simple moving average, the upper and lower Bollinger bands, and the price of AAPL stock. Does the graph tell you that traders expect continued strength or weakness in the price of AAPL stock?
+
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA2, CFA3, CFA4, CFA5]
+
+Terry Shriver and Mary Trickett are portfolio managers for High End Investment Managers. As part of their annual review of their client portfolios, they consider the appropriateness of their client portfolios given their clients’ investment policies. Their boss, Jill Castillo, is concerned that Shriver and Trickett allow the clients’ behavioral biases to enter into the asset allocation decision, so she has asked them page 286to review their notes from meetings with clients. The information below is excerpted from their notes regarding the clients named.
+
+Tom Higgins: “In the past five years, I have consistently outperformed the market averages in my stock portfolio. It really does not take a genius to beat a market average, but I am proud to say that I have beaten the market averages by at least 2 percent each year and have not once lost money. I would continue managing my portfolio myself, but with a new baby and a promotion, I just don’t have time.”
+
+Joanne McHale: “The last three quarters were bad for my portfolio. I have lost about a third of my value, primarily because I invested heavily in two aggressive growth mutual funds that had bad quarters. I need to get back one-third of my portfolio’s value because I am only 15 years away from retirement and I don’t have a defined-benefit pension plan. Because of this, I am directing Mary Trickett to invest my savings in technology mutual funds. Their potential return is much higher, and I believe I can recover my losses with them.”
+
+Jack Sims: “I enjoy bird-watching and hiking. I am an avid environmental advocate and will only invest in firms that share my concern for the environment. My latest investment was in Washington Materials, which was recently featured in an environmental magazine for its outstanding dedication to environmental protection.”
+
+Which of the following best describes Tom Higgins’s behavioral characteristic in investment decisions?
+
+Tom is overconfident.
+
+Tom uses frame dependence.
+
+Tom uses anchoring.
+
+Which of the following best describes the potential problem with Mr. Higgins’s investment strategy?
+
+He will underestimate the risk of his portfolio and underestimate the impact of an event on stocks.
+
+He will overestimate the risk of his portfolio and overestimate the impact of an event on stocks.
+
+He will underestimate the risk of his portfolio and overestimate the impact of an event on stocks.
+
+Which of the following best describes Joanne McHale’s behavioral characteristic in investment decisions?
+
+Joanne is loss-averse.
+
+Joanne uses the ceteris paribus heuristic.
+
+Joanne is experiencing the snakebite effect.
+
+Which of the following best describes Jack Sims’s behavioral characteristic in investment decisions?
+
+Jack is overconfident.
+
+Jack uses frame dependence.
+
+Jack uses representativeness.
+
+Which of the following would Mr. Higgins, Ms. McHale, and Mr. Sims be least likely to use when making investment decisions?
+
+Heuristics
+
+Their personal experiences
+
+Fundamental analysis
+
+What’s on the Web?
+
+Bollinger Bands You can learn more about Bollinger bands at chartsmart.com. What does the site say about using Bollinger bands in technical analysis? Now go to finance.yahoo.com and enter your favorite stock. Find the technical analysis section and view the Bollinger bands for your stock. What does the chart tell you about this stock?
+
+Relative Strength Relative strength measures the performance of a stock against a “bogey,” which is either another stock or suitable index. Pick your favorite stock and go to the technical analysis area of finance.yahoo.com. Compare the relative strength of your stock against a close competitor and the S&P 500 index. How is this stock performing relative to these bogeys?
+
+Triangles Go back to school! Check out the “ChartSchool” link at stockcharts.com. How many different types of triangles are listed on the site? What does each type of triangle mean to a technical analyst?
+
+Market Volume An important tool for most technical traders is market volume. Go to marketvolume.com to discover the reasons market volume is considered important.
+
+
+
+
+1 Penguin Random House LLC.
+
+2 This remark is generally attributed to Keynes, but whether he actually said it is unknown.

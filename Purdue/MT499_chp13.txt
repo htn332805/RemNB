@@ -1,0 +1,751 @@
+CHAPTER 13
+The Cost of Capital
+
+LEARNING OBJECTIVES
+
+Explain what the weighted average cost of capital for a firm is and why it is often used as a discount rate to evaluate projects.
+Calculate the cost of debt for a firm.
+Calculate the cost of common stock and the cost of preferred stock for a firm.
+Calculate the weighted average cost of capital for a firm, explain the limitations of using a firm’s weighted average cost of capital as the discount rate when evaluating a project, and discuss the alternatives to the firm’s weighted average cost of capital.
+In August 2020, Tesla broke ground on its newest “gigafactory” campus, located just outside of Austin, Texas. The giant, 2,100-acre construction site will be the future home to Tesla’s second vehicle assembly plant in the United States, and its fourth production facility worldwide. The company estimated that the new venture will employ approximately 5,000 employees and be operational by 2021. Production in the new factory will initially focus on Tesla’s Model 3 compact sedan, which has become its top seller, and its Model Y compact sport utility vehicle. The company’s CEO, Elon Musk, also stated that he expects the Texas facility to serve as the launch site for two new Tesla products—the company’s planned Cybertruck pickup and its commercial semi-truck for long-haul shipping. Some analysts expected Tesla to use the Austin plant to manufacture batteries as well.
+
+While groundbreaking on the new gigafactory represented an exciting period of new growth for Tesla, it also constituted a major capital investment for the company, with an initial estimated price tag of $1.1 billion. Before the company announced the decision to build the plant, you can be sure that the managers of Tesla carefully considered the financial aspects of the project. They evaluated the amount of capital needed to complete the project, the revenues the new plant would likely generate, and how much it would cost to operate and maintain. They also estimated what it would cost to finance the project—how much they would pay for the debt and the equity used to finance it, given the associated risks. This “cost of capital” would be incorporated into their NPV analysis of the Texas gigafactory through the discounting process.
+
+Accurately estimating the cost of capital is especially important for a capital-intensive project such a vehicle assembly plant. If corporate managers do not account for this cost, the company can find itself investing in projects that yield cash flows that fail to compensate investors for the risk of their investment, or even have a large negative NPV. In this chapter we discuss the tools and concepts that managers use to estimate the cost of capital when they evaluate a project.
+
+Chapter Preview
+Chapter 7 discussed the general concept of risk and described what financial analysts mean when they talk about the risk associated with a project’s cash flows. It also explained how this risk is related to expected returns. With this background, we are ready to discuss the methods that financial managers use to estimate discount rates, the reasons they use these methods, and the key characteristics of each method.
+
+We begin this chapter by introducing the weighted average cost of capital and explaining how this concept is related to the discount rates that many financial managers use to evaluate projects. Then we describe various methods that are used to estimate the costs of the three general types of financing that firms use to acquire assets—debt, common stock, and preferred stock—as well as the overall weighted average cost of capital for the firm.
+
+We next discuss the circumstances under which it is appropriate to use the weighted average cost of capital for a firm as the discount rate for a project and outline the types of problems that can arise when the weighted average cost of capital is used inappropriately. Finally, we examine alternatives to using the weighted average cost of capital as a discount rate.
+
+13.1 The Firm’s Overall Cost of Capital
+LEARNING OBJECTIVE
+
+Explain what the weighted average cost of capital for a firm is and why it is often used as a discount rate to evaluate projects.
+Our discussions of capital budgeting up to this point have focused on evaluating individual projects. We have assumed that the rate used to discount the cash flows for a project reflects the risks associated with the incremental after-tax free cash flows from that project. In Chapter 7, we saw that unsystematic risk can be eliminated by holding a diversified portfolio. Therefore, systematic risk is the only risk that investors require compensation for bearing. With this insight, we concluded that we can use Equation 7.12 to estimate the expected rate of return for a particular investment:
+
+where E(Ri) is the expected return on project i, Rrf is the risk-free rate of return, βi is the beta for project i, and E(Rm) is the expected return on the market. Recall that the difference between the expected return on the market and the risk-free rate [E(Rm) − Rrf] is known as the market risk premium.
+
+Although these ideas help us better understand the discount rate on a conceptual level, they can be difficult to implement in practice. Firms do not issue publicly traded shares for individual projects. This means that analysts do not have the stock returns necessary to use a regression analysis like that illustrated in Exhibit 7.10 to estimate the beta (β) for an individual project. As a result, they have no way to directly estimate the discount rate that reflects the systematic risk of the incremental after-tax free cash flows from a particular project.
+
+In many firms, senior financial managers deal with this problem by estimating the cost of capital for the firm as a whole and then requiring analysts within the firm to use this cost of capital to discount the free cash flows for all projects.1 A problem with this approach is that it ignores the fact that a firm is really a collection of projects with different levels of risk. A firm’s overall cost of capital is actually a weighted average of the costs of capital for these projects, where the weights reflect the relative values of the projects.
+
+To see why a firm is a collection of projects, consider The Boeing Company. Boeing manufactures a number of different models of civilian and military aircraft. If you have ever flown on a commercial airline, chances are that you have been on a Boeing 737, 747, 757, 767, 777, or 787 aircraft. Boeing manufactures several versions of each of these aircraft models to meet the needs of its customers. These versions have different ranges, seat configurations, numbers of seats, and so on. Some are designed exclusively to haul freight for companies such as UPS and FedEx. Every version of every model of aircraft at Boeing was, at some point in time, a new project. The assets owned by Boeing today and its expected cash flows are just the sum of the assets and cash flows from all of these individual projects plus the other projects at the firm, such as those involving military aircraft.2 This means that the overall systematic risk associated with Boeing’s expected cash flows and the company’s cost of capital are weighted averages of the systematic risks and the costs of capital for its individual projects.
+
+If the risk of an individual project differs from the average risk of the firm, the firm’s overall cost of capital is not the ideal discount rate to use when evaluating that project. Nevertheless, since this is the discount rate that is commonly used, we begin by discussing how a firm’s overall cost of capital is estimated. We then discuss alternatives to using the firm’s cost of capital as the discount rate in evaluating a project.
+
+The Finance Balance Sheet
+To understand how financial analysts estimate their firms’ costs of capital, it is helpful to be familiar with a concept that we call the finance balance sheet. The finance balance sheet was referred to as the market-value balance sheet in Chapter 3. The main difference between the finance balance sheet and the accounting balance sheet is that the finance balance sheet is based on market values rather than book values. Recall that the total book value of the assets reported on an accounting balance sheet does not necessarily reflect the total market value of those assets. This is because the book value is largely based on historical costs, while the total market value of the assets equals the present value of the total cash flows that those assets are expected to generate in the future. The market value can be greater than or less than the book value but is rarely the same.
+
+finance balance sheet a balance sheet that is based on market values of expected cash flows
+
+While the left-hand side of the accounting balance sheet reports the book values of a firm’s assets, the right-hand side reports how those assets were financed. Firms finance the purchase of their assets using debt and equity.3 Since the cost of the assets must equal the total value of the debt and equity that were used to purchase them, the book value of the assets must equal the book value of the liabilities plus the book value of the equity on the accounting balance sheet. In Chapter 3 we called this equality the balance sheet identity.
+
+Just as the total book value of the assets at a firm does not generally equal the total market value of those assets, the book value of total liabilities plus stockholders’ equity does not usually equal the market value of these claims. In fact, the total market value of the debt and equity claims differs from their total book value by exactly the same amount that the total market value of a firm’s assets differs from its total book value. This is because the total market value of the debt and the equity at a firm equals the present value of the cash flows that the debt holders and the stockholders have the right to receive. These cash flows are the cash flows that the assets in the firm are expected to generate. In other words, the people who have lent money to a firm and the people who have purchased the firm’s stock have the right to receive all of the cash flows that the firm is expected to generate in the future. The value of the claims they hold must equal the value of the cash flows that they have a right to receive.
+
+The fact that the market value of the assets must equal the value of the cash flows that these assets are expected to generate, combined with the fact that the value of the expected cash flows also equals the total market value of the firm’s total liabilities and equity, means that we can write the market value (MV) of assets as follows:
+
+(13.1)
+Equation 13.1 is just like the accounting balance sheet identity. The only difference is that Equation 13.1 is based on market values. This relation is illustrated in Exhibit 13.1.
+
+To better understand why the market value of the assets must equal the total market value of the liabilities and equity, consider a firm whose only business is to own and manage an apartment building that was purchased 20 years ago for $1,000,000. Suppose that there is currently a $300,000 mortgage on the building, the firm has no other liabilities, and the current market value of the building, based on the expected free cash flows from future rents, is $4,000,000. What is the market value of all of the equity (stock) in this firm?
+
+The fact that the firm paid $1,000,000 20 years ago is not relevant to this question. What matters in finance is the value of the expected free cash flows from future rents, the $4,000,000. This is the market value of the firm’s assets—the left-hand side of the balance sheet in Exhibit 13.1. Since we know that the firm owes $300,000, we can substitute into Equation 13.1 and solve for the market value of the equity:
+
+If the free cash flows that the apartment building is expected to produce are worth $4,000,000, then investors would be willing to pay $3,700,000 for the equity in the firm. This is the value of the cash flows that they would expect to receive after making the interest and principal payments on the mortgage. Furthermore, since, by definition, the mortgage is worth $300,000, the value of the debt plus the value of the equity is $300,000 + $3,700,000 = $4,000,000—which is exactly equal to the market value of the firm’s assets.
+
+EXHIBIT 13.1 The Finance Balance Sheet The market value of a firm’s assets, which equals the present value of the cash flows those assets are expected to generate in the future, must equal the market value of the claims on those cash flows—the firm’s liabilities and equity.
+
+
+As we noted at the beginning of this discussion, the idea of a balance sheet based on market values was discussed in Chapter 3. In that chapter we pointed out that a market-value balance sheet would be more useful to financial decision makers than would the ordinary accounting balance sheet. Financial managers are much more concerned about the future than the past when they make decisions. You might revisit the discussion of sunk costs in Chapter 11 to remind yourself of why this is true.
+
+Building Intuition
+The Market Value of a Firm’s Assets Equals the Market Value of the Claims on Those Assets
+
+The market value of the debt and equity claims against the cash flows of a firm must equal the present value of the cash flows that the firm’s assets are expected to generate. This is because, between them, the debt holders and the stockholders have the legal right to receive all of those cash flows.
+
+Estimating a Firm’s Cost of Capital
+Now that we have discussed the basic idea of the finance balance sheet, consider the challenge that financial analysts face when they want to estimate the cost of capital for a firm. If analysts at a firm could estimate the betas for each of the firm’s individual projects, they could estimate the beta for the entire firm as a weighted average of the betas for the individual projects. They could do this because, as we discussed earlier, the firm is simply a collection (portfolio) of projects. This calculation would just be an application of Equation 7.13:
+
+where βi is the beta for project i and xi is the fraction of the total firm value represented by project i.
+
+The analysts could then use the beta for the firm in Equation 7.12:
+
+to estimate the expected return on the firm’s assets, which is also the firm’s cost of capital. Unfortunately, because analysts are not typically able to estimate betas for individual projects, they generally cannot use this approach.
+
+Instead, analysts must use their knowledge of the finance balance sheet, along with the concept of market efficiency, which we discussed in Chapter 2, to estimate the cost of capital for the firm. Rather than using Equations 7.13 and 7.12 to perform the calculations for the individual projects represented on the left-hand side of the finance balance sheet, analysts perform a similar set of calculations for the different types of financing (debt and equity) on the right-hand side of the finance balance sheet. They can do this because, as we said earlier, the people who finance the firm have the right to receive all of the cash flows from the assets on the left-hand side. This means that the systematic risk associated with the total assets on the left-hand side is the same as the systematic risk associated with the total financing on the right-hand side. In other words, the weighted average of the betas for the different claims on the assets must equal a weighted average of the betas for the individual assets (projects).
+
+Analysts do not need to estimate betas for each type of financing that the firm has. As long as they can estimate the cost of each type of financing—either directly, by observing that cost in the capital markets, or by using Equation 7.12—they can compute the cost of capital for the firm using the following equation:
+
+(13.2)
+In Equation 13.2, kFirm is the cost of capital for the firm, ki is the cost of financing type i, and xi is the fraction of the total market value of the financing (or of the assets) of the firm represented by financing type i. This formula simply says that the overall cost of capital for the firm is a weighted average of the cost of each different type of financing used by the firm.4 Note that since we are specifically talking about the cost of capital, we use the symbol ki to represent this cost, rather than the more general notation E(Ri) that we used in Chapter 7.
+
+The similarity between Equation 13.2 and Equation 7.13 is not an accident. Both are applications of the basic idea that the systematic risk of a portfolio of assets is a weighted average of the systematic risks of the individual assets. Because Rrf and E(Rm) in Equation 7.12 are the same for all assets, when we substitute Equation 7.12 for each individual asset into Equation 13.2 (remember that E(Ri) in Equation 7.12 is the same as ki in Equation 13.2) and factor out Rrf and [E(Rm)−Rrf], we get Equation 7.13. We will not prove this here, but you might do so to convince yourself that what we are saying is true.
+
+Building Intuition
+A Firm’s Cost of Capital Is a Weighted Average of All of Its Financing Costs
+
+The cost of capital for a firm is a weighted average of the costs of the different types of financing used by the firm. The weights are the proportions of the total firm value represented by the different types of financing. By weighting the costs of the individual financing types in this way, we obtain the overall average opportunity cost of each dollar invested in the firm.
+
+To see how Equation 13.2 is applied, let’s return to the example of the firm whose only business is to manage an apartment building. Recall that the total value of this firm is $4,000,000 and that it has $300,000 in mortgage debt. If the firm has only one mortgage loan and one type of stock, then the fractions of the total value represented by those two types of financing are as follows:
+
+This tells us that the value of the debt claims equals 7.5 percent of the value of the firm and that the value of the equity claims equals the remaining 92.5 percent of the value of the firm. If the cost of the debt for this business is 6 percent and the cost of the equity is 10 percent, the cost of capital for the firm can be calculated as a weighted average of the costs of the debt and equity:5
+
+Notice that we have used Equation 13.2 to calculate a weighted average cost of capital (WACC) for the firm in this example. In fact, this is what people typically call the firm’s cost of capital, kFirm. From this point on, we will use the abbreviation WACC to represent the firm’s overall cost of capital.
+
+weighted average cost of capital (WACC) the weighted average of the costs of the different types of capital (debt and equity) that have been used to finance a firm; the cost of each type of capital is weighted by the proportion of the total capital that it represents
+
+Learning by Doing Application 13.1 illustrates another WACC calculation.
+
+LEARNING BY DOING APPLICATION 13.1
+Calculating the Cost of Capital for a Firm
+
+Problem
+
+You are considering purchasing a rug cleaning company that will cost $2,000,000. You plan to finance the purchase with a $1,500,000 loan from Bank of America (BofA) that has a 6.5 percent interest rate, a $300,000 loan from the seller of the company that has an 8 percent interest rate, and $200,000 of your own money. You will own all of the equity (stock) in the firm. You estimate that the opportunity cost of your $200,000 investment—that is, what you could earn on an investment of similar risk in the capital market—is 12 percent with that much debt. What is the cost of capital for this investment?
+
+
+
+
+
+Before You Go On
+Why does the market value of the claims on the assets of a firm equal the market value of the assets?
+How is the WACC for a firm calculated?
+What does the WACC for a firm tell us?
+13.2 The Cost of Debt
+LEARNING OBJECTIVE
+
+Calculate the cost of debt for a firm.
+In our discussion of how the WACC for a firm is calculated, we assumed that the costs of the different types of financing were known. This assumption allowed us to simply plug those costs into Equation 13.2 once we had calculated the weight for each type of financing. Unfortunately, life is not that simple. In practice, analysts have to estimate each of the individual costs. In other words, the discussion in the preceding section glossed over a number of concepts and issues that you should be familiar with. This section and Section 13.3 discuss those concepts and issues and show how the costs of the different types of financing can be estimated.
+
+Before we move on to the specifics of how to estimate the costs of different types of financing, we must stress an important point: All of these calculations depend in some part on financial markets being efficient. We suggested this in the last section when we mentioned that analysts have to rely on the concept of market efficiency to estimate the WACC. The reason is that analysts often cannot directly observe the rate of return that investors require for a particular type of financing. Instead, analysts must rely on the security prices they can observe in the financial markets to estimate the required rate.
+
+It makes sense to rely on security prices only if you believe that the financial markets are reasonably efficient at incorporating new information into these prices. If the markets were not efficient, estimates of expected returns that were based on market security prices would be unreliable. Of course, if the returns that are plugged into Equation 13.2 are bad, the resulting estimate for WACC will also be bad. With this caveat, we can now discuss how to estimate the costs of the various types of financing.
+
+Key Concepts for Estimating the Cost of Debt
+Virtually all firms use some form of debt financing. The financial managers at firms typically arrange for revolving lines of credit to finance working capital items such as inventories or accounts receivable. These lines of credit are very much like the lines of credit that come with your credit cards. Firms also obtain private fixed-term loans, such as bank loans, or sell bonds to the public to finance ongoing operations or the purchase of long-term assets—just as you would finance your living expenses while you are in school with a student loan or a car with a car loan. For example, an energy firm, such as Next Era Energy Resources in Florida, will sell bonds to finance a new power plant, and a retailer, such as Target, will use debt to finance new stores and distribution centers. As mentioned earlier, we will discuss how firms finance themselves in more detail in Chapters 15 and 16, but for now it is sufficient to recognize that firms use these three general types of debt financing: lines of credit, private fixed-term loans, and bonds that are sold in the public markets.
+
+There is a cost associated with each type of debt that a firm uses. However, when we estimate the cost of capital for a firm, we are particularly interested in the cost of the firm’s long-term debt. Firms generally use long-term debt to finance their long-term assets, and it is the long-term assets that concern us when we think about the value of a firm’s assets. By long-term debt, we usually mean the debt that, when it was borrowed, was set to mature in more than one year. This typically includes fixed-term bank loans used to finance ongoing operations or long-term assets, as well as the bonds that a firm sells in the public debt markets.
+
+Although one year is not an especially long time, debt with a maturity of more than one year is typically viewed as permanent debt. This is because firms often borrow the money to pay off this debt when it matures. Doing this replaces maturing debt with new debt, thereby leaving the amount of debt at the firm unchanged.
+
+We do not normally worry about revolving lines of credit when calculating the cost of debt because the balances on these lines tend to be temporary. Banks typically require that the outstanding balances be periodically paid down to $0 (just as individuals pay their entire credit card balance from time to time).
+
+When analysts estimate the cost of a firm’s long-term debt, they are estimating the cost on a particular date—the date on which they are doing the analysis. This is a very important point to keep in mind because the interest rate that the firm is paying on its outstanding debt does not necessarily reflect its current cost of debt. Interest rates change over time, and so does the cost of debt for a firm. The rate a firm was charged three years ago for a five-year loan is unlikely to be the same rate that it would be charged today for a new five-year loan. For example, suppose that Next Era Energy Resources issued bonds five years ago for 7 percent. Since then, interest rates have fallen, so the same bonds could be sold at par value today for 6 percent. The cost of debt today is 6 percent, not 7 percent, and 6 percent is the cost of debt that management will use in WACC calculations. If you looked in the firm’s financial statements, you would see that the firm is paying an interest rate of 7 percent. This is what the financial managers of the firm agreed to pay five years ago, not what it would cost to sell the same bonds today. The accounting statements reflect the cost of debt that was sold at some time in the past.
+
+Building Intuition
+The Current Cost of Long-Term Debt Is What Matters When Calculating WACC
+
+The current cost of long-term debt is the appropriate cost of debt for WACC calculations. This is because the WACC we use in capital budgeting is the opportunity cost of capital for the firm’s investors as of today. Thus, we must use today’s costs of debt and equity when we calculate the WACC. Historical costs should not be used for WACC calculations.
+
+Estimating the Current Cost of a Bond or an Outstanding Loan
+We have now seen that we should not use historical costs of debt in WACC calculations. Let’s discuss how we can estimate the current costs of bonds and other fixed-term loans by using market information.
+
+The Current Cost of a Bond
+
+You may not realize it, but we have already discussed how to estimate the current cost of debt for a publicly traded bond. This cost is estimated using the yield to maturity calculation. Recall that in Chapter 8 we defined the yield to maturity as the discount rate that makes the present value of the coupon and principal payments equal to the price of the bond.
+
+For example, consider a 10-year bond with a $1,000 face value that was issued five years ago. This bond has five years remaining before it matures. If the bond has an annual coupon rate of 7 percent, pays coupon interest semiannually, and is currently selling for $1,042.65, we can calculate its yield to maturity by using Equation 8.1 and solving for i or by using a financial calculator. Let’s use Equation 8.1 for this example.
+
+To do this, as was discussed in the section on semiannual compounding in Chapter 8, we first convert the bond data to reflect semiannual compounding: (1) the total number of coupon payments is 10 (2 payments per year × 5 years = 10 payments), and (2) the semiannual coupon payment is $35 [($1,000 × 7 percent per year)/2 periods per year = $70/2 = $35]. We can now use Equation 8.1 and solve for i to find the yield to maturity:
+
+By trial and error or with a financial calculator, we solve for i and find:
+
+This semiannual rate would be quoted as an annual rate of 6 percent (2 periods per year × 0.03 per period = 0.06, or 6 percent) in financial markets. However, as explained in Chapter 8, this annual rate fails to account for the effects of compounding. We must therefore use Equation 6.7 to calculate the effective annual interest rate (EAR) in order to obtain the actual current annual cost of this debt:
+
+If this bond was sold at par value, it paid 7 percent when it was issued five years ago. Someone who buys it today will expect to earn only 6.09 percent per year. This is the annual rate of return required by the market on this bond, which is known as the effective annual yield.
+
+Notice that the above calculation takes into account the interest payments, the face value of the debt (the amount that will be repaid in five years), and the current price at which the bond is selling. It is necessary to account for all of these characteristics of the bond. The return received by someone who buys the bond today will be determined by both the interest income and the capital appreciation (or capital depreciation in this case, since the price is higher than the face value).
+
+We must account for one other factor when we calculate the current cost of bond financing to a company—the cost of issuing the bond. In the above example, we calculated the return that someone who buys the bond can expect to receive. Since a company must pay fees to investment bankers, lawyers, and accountants, along with various other costs, to actually issue a bond, the cost to the company is higher than 6.09 percent.6 Therefore, in order to obtain an accurate estimate of the cost of a bond to the issuing firm, analysts must incorporate issuance costs into their calculations. Issuance costs are an example of direct out-of-pocket costs, the actual out-of-pocket costs that a firm incurs when it raises capital.
+
+The way in which issuance costs are incorporated into the calculation of the cost of a bond is straightforward. Analysts use the net proceeds that the company receives from the bond, rather than the price that is paid by the investor, on the left-hand side of Equation 8.1. Suppose the company in our example sold five-year bonds with a 7 percent coupon today and paid issuance costs equal to 2 percent of the total value of the bonds. After paying the issuance costs, the company would receive only 98 percent of the price paid by the investors. Therefore, the company would actually receive only $1,042.65 × (1 − 0.02) = $1,021.80 for each bond it sold, and the semiannual cost to the company would be:
+
+Converting the adjusted semiannual rate to an EAR, we see that the actual annual cost of this debt financing is:
+
+In this example the issuance costs increase the effective cost of the bonds from 6.09 percent to 6.58 percent per year.
+
+The Current Cost of an Outstanding Loan
+
+Conceptually, calculating the current cost of long-term bank or other private debt is not as straightforward as estimating the current cost of a public bond, because financial analysts cannot observe the market price of private debt. Fortunately, analysts do not typically have to do this. Instead, they can simply call their banker and ask what rate the bank would charge if they decided to refinance the debt today. A rate quote provides a good estimate of the current cost of a private loan.
+
+Taxes and the Cost of Debt
+It is very important that you understand one additional concept concerning the cost of debt: In the United States, firms can deduct interest payments for tax purposes. In other words, every dollar a firm pays in interest reduces the firm’s taxable income by one dollar. Thus, if the firm’s marginal tax rate is 25 percent, the firm’s total tax bill will be reduced by 25 cents for every dollar of interest it pays. A dollar of interest would actually cost this firm only 75 cents because the firm would save 25 cents on its taxes.
+
+More generally, the after-tax cost of interest payments equals the pretax cost times 1 minus the tax rate. This means that the after-tax cost of debt is:
+
+(13.3)
+This after-tax cost of debt is the cost that firms actually use to calculate the WACC. The reason is that investors care only about the after-tax cost of capital—just as they care only about after-tax cash flows. Managers are concerned about what they actually have to pay for capital, and the actual cost is reduced if the government subsidizes debt by providing a tax break.
+
+Taxes affect the cost of debt in much the same way that the interest tax deduction on a home mortgage affects the cost of financing a house. For example, assume that you borrow $200,000 at 6 percent to buy a house on January 1 and your interest payments total $12,000 in the first year. Under the tax law, you can deduct this $12,000 from your taxable income when you calculate your taxes for the year.7
+
+Suppose that your taxable income before the interest deduction is $75,000 and, for simplicity, that both your average and marginal tax rates are 20 percent. Without the mortgage interest deduction, you would pay taxes totaling $15,000 ($75,000 × 0.20 = $15,000). However, because the interest payments reduce your taxable income, your taxes with the interest deduction will be only $12,600 [($75,000 − $12,000) × 0.20 = $12,600]. The ability to deduct the interest payments you made saved you $2,400 ($15,000 − $12,600 = $2,400)! This savings is exactly equal to the interest payment you make times your marginal tax rate: $12,000 × 0.20 = $2,400. Since you are saving $2,400, the after-tax cost of your interest payments is $9,600 ($12,000 − $2,400 = $9,600), which means that the after-tax cost of this debt is 4.80 percent ($9,600/$200,000 = 0.0480, or 4.80 percent). This is exactly what Equation 13.3 tells us. With kDebt pretax at 6 percent and t at 20 percent, Equation 13.3 gives us:
+
+Estimating the Cost of Debt for a Firm
+Most firms have several different debt issues outstanding at any particular point in time. Just as you might have both a car loan and a school loan, a firm might have several bank loans and bond issues outstanding. To estimate the firm’s overall cost of debt when it has several debt issues outstanding, we must first estimate the costs of the individual debt issues and then calculate a weighted average of these costs.
+
+To see how this is done, let’s consider an example. Suppose that your pizza parlor business has grown dramatically in the past three years from a single restaurant to 30 restaurants. To finance this growth, two years ago you sold $25 million of five-year bonds. These bonds pay interest annually and have a coupon rate of 8 percent. They are currently selling for $1,026.24 per $1,000 bond. Just today, you also borrowed $5 million from your local bank at an interest rate of 6 percent. Assume that this is all the long-term debt that you have and that there are no issuance costs. What is the overall average after-tax cost of your debt if your business’s marginal tax rate is 25 percent?
+
+The pretax cost of the bonds as of today is the effective annual yield on those bonds. Since the bonds were sold two years ago, they will mature three years from now. Using Equation 8.1, we find that the effective annual yield (which equals the yield to maturity in this example) for these bonds is:
+
+The pretax cost of the bank loan that you took out today is simply the 6 percent rate that the bank is charging you, assuming that the bank is charging you the market rate.
+
+Now that we know the pretax costs of the two types of debt that your business has outstanding, we can calculate the overall average cost of your debt by calculating the weighted average of their two costs. Since the weights for the two types of debt are based on their current market values, we must first determine these values. Because the bonds are currently selling above their par value, we know that their current market value is greater than their $25 million face value. In fact, it equals:
+
+Since the bank loan was just made today, its value simply equals the amount borrowed, or $5 million. The weights for the two types of debt are therefore:
+
+The weighted average pretax cost of debt is:
+
+The after-tax cost of debt is therefore:
+
+Learning by Doing Application 13.2 and Decision Making Example 13.1 provide more examples of cost of debt calculations and their application.
+
+LEARNING BY DOING APPLICATION 13.2
+Calculating the After-Tax Cost of Debt for a Firm
+
+Problem
+
+You have just successfully completed a leveraged buyout of the firm that you have been working for. To finance this $35 million transaction, you and three partners put up a total of $10 million in equity capital, and you borrowed $25 million from banks and other investors. The bank debt consists of $10 million of secured debt borrowed at a rate of 6 percent from Bank of America and $7 million of senior unsecured debt borrowed at a rate of 7 percent from JPMorgan Chase. The remaining $8 million was borrowed from an investment group managed by a private equity firm. The rate on this subordinated (junior) unsecured debt is 9.5 percent. What is the overall after-tax cost of the debt financing used to buy the firm if you expect the firm’s average and marginal tax rates to be 25 percent each?
+
+
+
+
+
+DECISION MAKING EXAMPLE 13.1
+Using the Cost of Debt in Decision Making
+
+Situation
+
+Your pizza parlor business has developed such a strong reputation that you have decided to take advantage of the restaurant’s name recognition by selling frozen pizzas through grocery stores. In order to do this, you will have to build a manufacturing facility. You estimate that this will cost you $10 million. Since your business currently has only $2 million in the bank, you will have to borrow the remaining $8 million. You have spoken with two bankers about possible loan packages. The banker from Easy Money Financial Services offered you a loan for $6 million with a 6 percent rate and $2 million with a 7.5 percent rate. You calculate the pretax cost of debt for this package to be:
+
+Your local banker offered you a single $8 million loan for 6.35 percent. Which financing should you choose if all terms on all of the loans, other than the interest rates, are the same?
+
+
+
+Before You Go On
+Why do analysts care about the current cost of long-term debt when estimating a firm’s cost of capital?
+How do you estimate the cost of debt for a firm with more than one type of debt?
+How do taxes affect the cost of debt?
+13.3 The Cost of Equity
+LEARNING OBJECTIVE
+
+Calculate the cost of common stock and the cost of preferred stock for a firm.
+The cost of equity (stock) for a firm is a weighted average of the costs of the different types of stock that the firm has outstanding at a particular point in time. We saw in Chapter 9 that some firms have both preferred stock and common stock outstanding. In order to calculate the cost of equity for these firms, we have to know how to calculate the cost of both common stock and preferred stock. In this section, we discuss how financial analysts can estimate the costs associated with these two different types of stock.
+
+Common Stock
+Just as information about market rates of return is used to estimate the cost of debt, market information is also used to estimate the cost of equity. There are several ways to do this. The particular approach a financial analyst chooses will depend on what information is available and how reliable the analyst believes it is. In this section we discuss three alternative methods for estimating the cost of common equity (stock). It is important to remember throughout this discussion that the “cost” we are referring to is the rate of return that investors require for investing in the stock at a particular point in time, given its systematic risk.
+
+Method 1: Using the Capital Asset Pricing Model (CAPM)
+
+The first method for estimating the cost of common equity is one that we discussed in Chapter 7. This method uses Equation 7.12:
+
+In this equation, the expected return on an asset is a linear function of the systematic risk associated with that asset as measured by beta.
+
+If we recognize that E(Ri) in Equation 7.12 is the cost of the common stock (equity) used to finance the firm (kcs) when we are calculating the cost of common equity and that [E(Rm) − Rrf] is the market risk premium, we can rewrite Equation 7.12 as follows:
+
+(13.4)
+Equation 13.4 is just another way of writing Equation 7.12. It tells us that the cost of common stock equals the risk-free rate of return plus compensation for the systematic risk associated with the common stock. You already saw some examples of how to use this equation to calculate the cost of equity in the discussion of the Capital Asset Pricing Model (CAPM) in Chapter 7. In those examples you were given the current risk-free rate, the beta for the stock, and the market risk premium and were asked to calculate kcs using the equation. Now we turn our attention to some practical considerations that you must be concerned with when choosing the appropriate risk-free rate, beta, and market risk premium for this calculation.
+
+The Risk-Free Rate
+First, let’s consider the risk-free rate. The current effective annual yield on a risk-free asset should always be used in Equation 13.4.8 This is because the risk-free rate at a particular point in time reflects the rate of inflation that the market expects in the future. Since the expected rate of inflation changes over time, an old risk-free rate might not reflect current inflation expectations.
+
+When analysts select a risk-free rate, they must choose between using a short-term rate, such as that for Treasury bills, or a longer-term rate, such as that for Treasury notes or bonds. Which of these choices is more appropriate? This question has been hotly debated by finance professionals for many years. We recommend that you use the risk-free rate on a long-term Treasury security when you estimate the cost of equity capital because the equity claim is a long-term claim on the firm’s cash flows. As you saw in Chapter 9, the stockholders have a claim on the cash flows of the firm in perpetuity. By using a long-term Treasury security, you are matching a long-term risk-free rate with a long-term claim. A long-term risk-free rate better reflects long-term inflation expectations and the cost of getting investors to part with their money for a long period of time than does a short-term rate.
+
+The Beta
+If the common stock of a company is publicly traded, then you can estimate the beta for that stock using a regression analysis similar to that illustrated in Exhibit 7.10. It is also quite easy to obtain estimated betas from any number of financial Web sites, such as CNBC and Yahoo! Finance. Identifying the appropriate beta is much more complicated if the common stock is not publicly traded. Since most companies in the United States are privately owned and do not have publicly traded stock, this is a problem that arises quite often when someone wants to estimate the cost of common equity for a firm.
+
+Financial analysts often overcome this problem by identifying a “comparable” company with publicly traded stock that is in the same line of business and that has a similar amount of debt. For example, suppose you are trying to estimate the beta for your pizza business. The company has now grown to include more than 2,000 restaurants throughout the world. The frozen-foods business, however, was never successful and had to be shut down. You know that Domino’s Pizza, Inc., one of your major competitors, has publicly traded equity and that the proportion of debt to equity for Domino’s is similar to the proportion for your firm. Since Domino’s overall business is similar to yours, in that it is only in the pizza business and competes in similar geographic areas, it would be reasonable to consider Domino’s a comparable company.
+
+The systematic risk associated with the stock of a comparable company is likely to be similar to the systematic risk for the stock of the private firm because a stock’s systematic risk is determined by the nature of the firm’s business and the amount of debt that it uses. If you are able to identify a good comparable company, such as Domino’s Pizza, you can use its beta in Equation 13.4 to estimate the cost of equity capital for your firm. Even when a good comparable company cannot be identified, it is sometimes possible to use an average of the betas for the public firms in the same industry.
+
+The Market Risk Premium
+It is not possible to directly observe the market risk premium. We just do not know what rate of return investors expect for the market portfolio, E(Rm), at a particular point in time. Therefore, we cannot simply calculate the market risk premium as the difference between the expected return on the market and the risk-free rate, [E(Rm) − Rrf]. For this reason, financial analysts generally use a measure of the average risk premium investors have actually earned in the past as an indication of the risk premium they might require today.
+
+For example, from 1926 through the end of 2019, actual returns on the U.S. stock market exceeded actual returns on long-term U.S. government bonds by an average of 6.11 percent per year (12.09 percent − 5.98 percent = 6.11 percent from Exhibit 7.3). If, on average, investors earned the risk premium that they expected, this figure reflects the average market risk premium over the period from 1926 to 2019. If a financial analyst believes that the market risk premium in the past is a reasonable estimate of the risk premium today, then he or she might use 6.11 percent as the market risk premium in Equation 13.4. Financial analysts’ estimates of the market risk premium can vary over time and with different measures of the market return. In this case we relied on the average return to large company stocks. In practice, we often see estimates of the market risk premium vary from a low of 5 percent up to 8 percent.
+
+With this background, let’s work an example to illustrate how Equation 13.4 is used to estimate the cost of common stock for a firm. Suppose that it is December 29, 2020, and we want to estimate the cost of the common stock for the oil company ConocoPhillips. Using yields reported by the Wall Street Journal on that day, we determine that one-year Treasury bills have an effective annual yield of 0.087 percent and that 30-year Treasury bonds have an effective annual yield of 1.678 percent. From the Yahoo! Finance Web site (www.finance.yahoo.com), we find that the beta for ConocoPhillips stock is 1.87. We know that the market risk premium averaged 6.11 percent from 1926 to 2019. What is the expected rate of return on ConocoPhillips common stock?
+
+Since we are estimating the expected rate of return on common stock, and common stock is a long-term asset, we use the long-term Treasury bond yield of 1.678 percent in the calculation. Notice that the Treasury bill and Treasury bond rates differed by 1.591 percent (1.678 percent − 0.087 percent = 1.591 percent) on December 29, 2020. They often differ by this amount or more, so the choice of which rate to use can make quite a difference in the estimated cost of equity.
+
+Once we have selected the appropriate risk-free rate, we can plug it, along with the beta and market risk premium values, into Equation 13.4 to calculate the cost of common stock for ConocoPhillips:
+
+This example illustrates how Equation 13.4 is used to estimate the cost of common stock for a company. How would the analysis differ for a private company? The only difference is that we would not be able to estimate the beta directly. We would have to estimate the beta using betas for similar public companies.
+
+Learning by Doing Application 13.3 shows another example of the calculation of a firm’s cost of common stock.
+
+Method 2: Using the Constant-Growth Dividend Model
+
+In Chapter 9 we noted that if the dividends received by the owner of a share of common stock are expected to grow at a constant rate in perpetuity, then the value of that share today can be calculated using Equation 9.4:
+
+where D1 is the dividend expected to be paid one period from today, R is the required rate of return, and g is the annual rate at which the dividends are expected to grow in perpetuity.
+
+LEARNING BY DOING APPLICATION 13.3
+Calculating the Cost of Common Stock Using a Stock’s Beta
+
+Problem
+
+You have decided to estimate the cost of the common stock in your pizza business on December 29, 2020. As noted earlier, the risk-free rate and the market risk premium on that day were 1.678 percent and 6.11 percent, respectively. Since you have already decided that Domino’s Pizza is a reasonably comparable company, you obtain Domino’s beta from the Yahoo! Finance Web site (www.finance.yahoo.com). This beta is 0.39. What do you estimate the cost of common stock in your pizza business to be?
+
+
+
+
+
+We can replace the R in Equation 9.4 with kcs since we are specifically estimating the expected rate of return for investing in common stock (also the cost of equity if the firm has no other types of stock outstanding). We can then rearrange this equation to solve for kcs:
+
+(13.5)
+While Equation 13.5 is just a variation of Equation 9.4, it is important enough to identify as a separate equation because it provides a direct way of estimating the cost of equity under certain circumstances. If we can estimate the dividend that stockholders will receive next period, D1, and we can estimate the rate at which the market expects dividends to grow over the long run, g, then we can use today’s market price, P0, in Equation 13.5 to tell us what rate of return investors in the firm’s common stock are expecting to earn.
+
+Consider an example. Suppose that the current price for the common stock at Sprigg Lane Company is $20, that the firm is expected to pay a dividend of $2 per share to its common stockholders next year, and that the dividend is expected to grow at a rate of 3 percent in perpetuity after next year. Equation 13.5 tells us that the required rate of return for Sprigg Lane’s stock is:
+
+This approach can be useful for a firm that pays dividends when it is reasonable to assume dividends will grow at a constant rate and when the analyst has a good idea what that growth rate will be. An electric utility firm is an example of this type of firm. Some electric utility firms pay relatively high and predictable dividends that increase at a fairly consistent rate. In contrast, this approach would not be appropriate for use by a high-tech firm that pays no dividends or that pays a small dividend that is likely to increase at a high rate in the short run. Equation 13.5, like any other equation, should be used only if it is appropriate for the particular stock.
+
+You might be asking yourself at this point where you would get P0, D1, and g in order to use Equation 13.5 for a particular stock. You can get the current price of a share of stock as well as the dividend that a firm is expected to pay next year quite easily from many different Web sites—for example, CNBC and Yahoo! Finance. The financial information includes the dollar value of dividends paid in the past year and the dividend that the firm is expected to pay in the next year.
+
+Estimating the long-term rate of growth in dividends is more difficult, but there are some guidelines that can help. As we discussed in Chapter 9, the first rule is that dividends cannot grow faster than the long-term growth rate of the economy in a perpetuity model such as Equation 9.4 or 13.5. Assuming dividends will grow faster than the economy is the same as assuming that dividends will eventually become larger than the economy itself! We know this is impossible.
+
+What is the long-term growth rate of the economy? Well, historically it has been the rate of inflation plus about 3 percent. This means that if inflation is expected to be 3 percent in the long run, then a reasonable estimate for the long-term growth rate in the economy is 6 percent (3 percent inflation + 3 percent real growth = 6 percent). This tells us that g in Equation 13.5 will not be greater than 6 percent. What exactly it will be depends on the nature of the business and the industry it is in. If it is a declining industry, then g might be negative. If the industry is expected to grow with the economy and the particular firm you are evaluating is expected to retain its market share, then a reasonable estimate for g might be 5 or 6 percent.
+
+Method 3: Using a Multistage-Growth Dividend Model
+
+Using a multistage-growth dividend model to estimate the cost of equity for a firm is very similar to using a constant-growth dividend model. The difference is that a multistage-growth dividend model allows for faster dividend growth rates in the near term, followed by a constant long-term growth rate. If this concept sounds familiar, that is because it is the idea behind the mixed (supernormal) growth dividend model discussed in Chapter 9. In Equation 9.6, this model was written as:
+
+multistage-growth dividend model a model that allows for varying dividend growth rates in the near term, followed by a constant long-term growth rate; another term used to describe the mixed (supernormal) growth dividend model discussed in Chapter 9
+
+where Di is the dividend in period i, Pt is the value of constant-growth dividend payments in period t, and R is the required rate of return.
+
+To refresh your memory of how this model works, let’s consider a three-stage example. Suppose that a firm will pay a dividend one year from today (D1) and that this dividend will increase at a rate of g1 the following year, g2 the year after that, and g3 per year thereafter. The value of a share of this stock today thus equals:
+
+In this equation, we have replaced the R in Equation 9.6 with kcs since we are specifically estimating the expected rate of return for common stock. We have also written all of the dividends in terms of D1 to illustrate how the different growth rates will affect the dividends in each year. Finally, we have written Pt in terms of the constant-growth model. If we substitute D1, D2, D3, and D4 where appropriate, you can see that this is really just Equation 9.6, where we have replaced R with kcs and written Pt in terms of the constant-growth model:
+
+All this equation does is add the present values of the dividends that are expected in each of the next three years and the present value of a growing perpetuity that begins in the fourth year. Exhibit 13.2 illustrates how cash flows relate to the four terms in the equation.
+
+Note that the fourth term in Exhibit 13.2 is discounted only three years because, as we saw in Chapters 6 and 9, the constant-growth model gives you the present value of a growing perpetuity as of the year before the first cash flow. In this case, since the first cash flow is D4, the model gives you the value of the growing perpetuity as of Year 3.
+
+A multistage-growth dividend model is much more flexible than the constant-growth dividend model because we do not have to assume that dividends grow at the same rate forever. We can use a model such as this to estimate the cost of common stock, kcs, by plugging P0, D1, and the appropriate growth rates into the model and solving for kcs using trial and error—just as we solved for the yield to maturity of bonds in Chapter 8 and earlier in this chapter. Alternatively, we can solve these problems using a spreadsheet. The major issues we have to be concerned about when we use a multistage-growth dividend model are (1) that we have chosen the right model, meaning that we have included enough stages or growth rates, and (2) that our estimates of the growth rates are reasonable.
+
+EXHIBIT 13.2 The Three-Stage Dividend Growth Equation In the three-stage dividend growth equation shown here, the price of a share of stock is equal to the present value of dividends expected to be received at the end of Years 1, 2, and 3, plus the present value of a growing perpetuity that begins in Year 4 and whose dividends are assumed to grow at a constant rate g3 forever.
+
+
+Let’s work an example to illustrate how this model is used to calculate the cost of common stock. Suppose that we want to estimate the cost of common stock for a firm that is expected to pay a dividend of $1.50 per share next year. This dividend is expected to increase 15 percent the following year, 10 percent the year after that, 7 percent the year after that, and 5 percent annually thereafter. If the firm’s common stock is currently selling for $24 per share, what is the rate of return that investors require for investing in this stock?
+
+Because there are four different growth rates in this example, we have to solve a formula with five terms:
+
+From the information given in the problem statement, we know the following:
+
+Substituting these values into the above equation gives us the following, which we solve for kcs:
+
+Using Excel
+Solving for kcs Using a Multistage-Growth Dividend Model
+
+Because trial-and-error calculations can be somewhat tedious when you perform them by hand, you may find it helpful to use a spreadsheet. If you would like to use a spreadsheet to solve the preceding problem yourself, the output from the spreadsheet below shows you how to do it using trial and error.
+
+Once you input the indicated numbers and formulas into cells B3 through B14, you can then vary the number in cell B2 until the number in cell B8 equals $24. Once you have built the model, you can also use the “goal seek” or “solver” functions in Excel to avoid having to manually solve the problem by trial and error. See the “Help” feature in Excel for information on how to use these functions.
+
+
+As mentioned earlier, we can solve this equation for kcs using trial and error. When we do this, we find that kcs is 12.20 percent. This is the rate of return at which the present value of the cash flows equals $24. Therefore, it is the rate that investors currently require for investing in this stock.
+
+The Using Excel Example illustrates how an Excel spreadsheet can make it easier to solve trial-and-error problems.
+
+Which Method Should We Use?
+
+We now have discussed three methods of estimating the cost of common equity for a firm. You might be asking yourself how you are supposed to know which method to use. The short answer is that, in practice, most people use the CAPM (Method 1) to estimate the cost of common equity if the result is going to be used in the discount rate for evaluating a project. One reason is that, assuming the theory is valid, CAPM tells managers what rate of return investors should require for equity having the same level of systematic risk that the firm’s equity has. This is the appropriate opportunity cost of equity capital for an NPV analysis if the project has the same risk as the firm and will have similar leverage. Furthermore, CAPM does not require financial analysts to make assumptions about future growth rates in dividends, as Methods 2 and 3 do.
+
+Used properly, Methods 2 and 3 provide an estimate of the rate of return that is implied by the current price of a firm’s stock at a particular point in time. If the stock markets are efficient, then this should be the same as the number that we would estimate using CAPM. However, to the extent that the firm’s stock is mispriced—for example, because investors are not informed or have misinterpreted the future prospects for the firm—deriving the cost of equity from the price at one point in time can yield a bad estimate of the true cost of equity.
+
+Preferred Stock
+As we discussed in Chapter 9, preferred stock is a form of equity that has a stated value and specified dividend rate. For example, a share of preferred stock might have a stated value of $100 and a 5 percent dividend rate. The owner of such a share would be entitled to receive a dividend of $5 ($100 × 0.05 = $5) each year. Another key feature of preferred stock is that it does not have an expiration date. In other words, preferred stock continues to pay the specified dividend in perpetuity, unless the firm repurchases it or goes out of business.
+
+These characteristics of preferred stock allow us to use the perpetuity model, Equation 6.4, to estimate the cost of preferred equity. For example, suppose that investors would pay $85 for a share of the preferred stock mentioned above. We can rewrite Equation 6.4:
+
+as:
+
+where Pps is the present value of the expected dividends (the current preferred stock price), Dps is the annual preferred stock dividend, and kps is the cost of the preferred stock. Rearranging the formula to solve for kps yields:
+
+(13.6)
+Plugging the information from our example into Equation 13.6, we see that kps for the preferred stock in our example is:
+
+This is the rate of return at which the present value of the annual $5 cash flows equals the market price of $85. Therefore, 5.88 percent is the rate that investors currently require for investing in this preferred stock.
+
+It is easy to incorporate issuance costs into the above calculation to obtain the cost of the preferred stock to the firm that issues it. As in the earlier bond calculations, we use the net proceeds from the sale rather than the price that is paid by the investor in the calculation. For example, suppose that in order for a firm to sell the above preferred stock, it must pay an investment banker 5 percent of the amount of money raised. If there are no other issuance costs, the company would receive $85 × (1 − 0.05) = $80.75 for each share sold, and the total cost of this financing to the firm would be:
+
+You may recall from the discussion in Chapter 9 that certain characteristics of preferred stock look a lot like those of debt. The equation Pps = Dps/kps shows that the value of preferred stock also varies with market rates of return in the same way as debt. Because kps is in the denominator of the fraction on the right-hand side of the equation, whenever kps increases, Pps decreases, and whenever kps decreases, Pps increases. That is, the value of preferred stock is negatively related to market rates.
+
+It is also important to recognize that the CAPM can be used to estimate the cost of preferred equity, just as it can be used to estimate the cost of common equity. A financial analyst can simply substitute kps for kcs and βps for βcs in Equation 13.4 and use it to estimate the cost of preferred stock. Remember from Chapter 7 that the CAPM does not apply only to common stock; rather, it applies to any asset. Therefore, we can use it to calculate the rate of return on any asset if we can estimate the beta for that asset.
+
+Learning by Doing Application 13.4 illustrates another calculation of the cost of preferred stock.
+
+LEARNING BY DOING APPLICATION 13.4
+Estimating the Cost of Preferred Stock
+
+Problem
+
+You work in the treasury department at Wells Fargo & Company, and your manager has asked you to estimate the cost of each of the different types of stock that Wells Fargo has outstanding. One of these issues is an 8 percent noncumulative preferred stock that has a stated value of $1,000 and is currently selling for $927.90. Although this preferred stock is publicly traded, it does not trade very often. This means that you cannot use the CAPM to estimate kps because you cannot get a good estimate of the beta using regression analysis. How else can you estimate the cost of this preferred stock, and what is this cost?
+
+
+
+
+
+Before You Go On
+What information is needed to use the CAPM to estimate kcs or kps?
+Under what circumstances can you use the constant-growth dividend formula to estimate kcs?
+What is the advantage of using a multistage-growth dividend model, rather than the constant-growth dividend model, to estimate kcs?
+
+You can find current yields on Treasury bills, notes, and bonds at the Web site of the U.S. Federal Reserve Bank at www.federalreserve.gov/releases/H15/update
+
+
+Companies with publicly traded stock usually provide a lot of information about their businesses and financial performance on their Web sites. The Domino’s Pizza Web site is a good example. Go to phx.corporate-ir.net/phoenix.zhtml?c=135383&p=irol-irhome
+
+
+You can obtain recent stock prices and financial information for a large number of firms from CNBC at www.cnbc.com or from Yahoo! Finance at www.finance.yahoo.com
+
+13.4 Using the WACC in Practice
+LEARNING OBJECTIVE
+
+Calculate the weighted average cost of capital for a firm, explain the limitations of using a firm’s weighted average cost of capital as the discount rate when evaluating a project, and discuss the alternatives to the firm’s weighted average cost of capital.
+We have now covered the basic concepts and computational tools that are used to estimate the WACC. At this point, we are ready to talk about some of the practical issues that arise when financial analysts calculate the WACC for their firms.
+
+When financial analysts think about calculating the WACC, they usually think of it as a weighted average of the firm’s after-tax cost of debt, cost of preferred stock, and cost of common equity. Equation 13.2 is usually written as:
+
+(13.7)
+where xDebt + xps + xcs = 1. If the firm has more than one type of debt outstanding or more than one type of preferred or common stock, analysts will calculate a weighted average for each of those types of securities and then plug those averages into Equation 13.7. Financial analysts will also use the market values, rather than the accounting book values, of the debt, preferred stock, and common stock to calculate the weights (the x’s) in Equation 13.7. This is because, as we have already seen, the theory underlying the discounting process requires that the costs of the different types of financing be weighted by their relative market values. Accounting book values should not be used in these calculations.
+
+Calculating WACC: An Example
+An example provides a useful way of illustrating how the theories and tools that we have discussed are used in practice. Assume that you are a financial analyst at a manufacturing company that has used three types of debt, preferred stock, and common stock to finance its investments.
+
+Debt The debt includes a $4 million bank loan that is secured by machinery and equipment. This loan has an interest rate of 6 percent, and your firm could expect to pay the same rate if the loan were refinanced today. Your firm also has a second bank loan (a $3 million mortgage on your manufacturing plant) with an interest rate of 5.5 percent. The rate would also be 5.5 percent today if you refinanced this loan. The third type of debt is a bond issue that the firm sold two years ago for $11 million. The market value of these bonds today is $10 million. Using the approach we discussed earlier, you have estimated that the effective annual yield on the bonds is 7 percent.
+Preferred Stock The preferred stock pays an annual dividend of 4.5 percent on a stated value of $100. A share of this stock is currently selling for $60, and there are 100,000 shares outstanding.
+Common Stock There are 1 million shares of common stock outstanding, and they are currently selling for $21 each. Using a regression analysis, you have estimated that the beta of these shares is 1.1.
+The 30-year Treasury bond rate is currently 1.678 percent, and you have estimated the market risk premium to be 6.11 percent using the returns on stocks and Treasury bonds from the 1926 to 2019 period. Your firm’s marginal tax rate is 26 percent. What is the WACC for your firm?
+
+The first step in computing the WACC is to calculate the pretax cost of debt. Since the market value of the firm’s debt is $17 million ($4 million + $3 million + $10 million = $17 million), we can calculate the pretax cost of debt as follows:
+
+Note that because the $4 million and $3 million loans have rates that equal what it would cost to refinance them today, their market values equal the amount that is owed. Since the $10 million market value of the bond issue is below the $11 million face value, the rate that firm is actually paying must be lower than the 7 percent rate you estimated to reflect the current cost of this debt. Recall that as interest rates increase, the market value of a bond decreases. This is the negative relation that we referred to earlier in this chapter.
+
+We next calculate the cost of the preferred stock using Equation 13.6, as follows:
+
+From Equation 13.4, we calculate the cost of the common equity to be:
+
+We are now ready to use Equation 13.7 to calculate the firm’s WACC. Since the firm has $17 million of debt, $6 million of preferred stock ($60 per share × 100,000 shares = $6 million), and $21 million of common equity ($21 per share × 1,000,000 shares = $21 million), the total market value of its capital is $44 million ($17 million + $6 million + $21 million = $44 million). The firm’s WACC is therefore:
+
+Learning by Doing Application 13.5 and Decision Making Example 13.2 provide more examples of WACC calculations and their application.
+
+LEARNING BY DOING APPLICATION 13.5
+Calculating the WACC with Equation 13.7
+
+Problem
+
+After calculating the cost of the common equity in your pizza business to be 4.06 percent (see Learning by Doing Application 13.3), you have decided to estimate the WACC. You recently hired a business appraiser to estimate the value of your stock, which includes all of the outstanding common equity. His report indicates that it is worth $500 million.
+
+In order to finance the 2,000 restaurants that are now part of your company, you have sold three different bond issues. Based on the current prices of the bonds from these issues and the issue characteristics (face values and coupon rates), you have estimated the market values and effective annual yields to be:
+
+Bond Issue	Value ($ millions)	Effective Annual Yield
+1	$100	   3.50%
+2	  187	3.00
+3	  154	4.40
+Total	$441	 
+Your company has no other long-term debt or any preferred stock outstanding. Both the marginal and average tax rates for your company are 20 percent. What is the WACC for your pizza business?
+
+
+
+
+
+DECISION MAKING EXAMPLE 13.2
+Interpreting the WACC
+
+Situation
+
+You are a financial analyst for the company whose WACC of 6.89 percent we just calculated in the main text. One day, your manager walks into your office and tells you that she is thinking about selling $23 million of common stock and using the proceeds from the sale to pay back both of the firm’s loans and to repurchase all of the outstanding bonds and preferred stock. She tells you that this is a smart move because if she does this, the beta of the firm’s common stock will decline to 0.90 and the overall kcs will decline from 8.40 percent to 7.18 percent:
+
+What do you tell your manager?
+
+
+
+Limitations of WACC as a Discount Rate for Evaluating Projects
+At the beginning of this chapter, we told you that financial managers often require analysts within the firm to use the firm’s current cost of capital to discount the cash flows for individual projects. They do so because it is very difficult to directly estimate the discount rate for individual projects. You should recognize by now that the WACC is the discount rate that analysts are often required to use. Using the WACC to discount the cash flows for a project can make sense under certain circumstances. However, in other circumstances, it can lead to making the wrong decision. The rest of this section discusses when it makes sense to use the WACC as a discount rate and the problems that can occur when the WACC is used incorrectly.
+
+Chapter 11 discussed how an analyst forecasting the cash flows for a project is forecasting the incremental after-tax free cash flows at the firm level. These cash flows represent the difference between the cash flows that the firm will generate if the project is adopted and the cash flows that the firm will generate if the project is not adopted.
+
+Financial theory tells us that the rate that should be used to discount these incremental cash flows is the rate that reflects their systematic risk. This means that the WACC is going to be the appropriate discount rate for evaluating a project only when the project has cash flows with systematic risks that are exactly the same as those for the firm as a whole. Unfortunately, this is not true for most projects. The firm itself is a portfolio of projects with varying degrees of risk.
+
+When a single rate, such as the WACC, is used to discount cash flows for projects with varying levels of risk, the discount rate will be too low in some cases and too high in others. When the discount rate is too low, the firm runs the risk of accepting a negative NPV project. To see how this might happen, assume that you work at a company that manufactures soft drinks and that the managers at your company are concerned about the competition in the core soft drink business. They are thinking about expanding into the manufacture and sale of exotic tropical beverages. The managers believe that entering this market would allow the firm to better differentiate its products and earn higher profits. Suppose also that the appropriate beta for soft drink projects is 1.2, while the appropriate beta for tropical beverage projects is 1.5. Since your firm is only in the soft drink business right now, the beta for its overall cash flows is 1.2. Exhibit 13.3 illustrates the problem that could arise if your firm’s WACC is used to evaluate a tropical beverage project.
+
+In Exhibit 13.3, you can see that since the beta of the tropical beverage project is larger than the beta of the firm as a whole, the expected return (or discount rate) for the tropical beverage project should be higher than the firm’s WACC. The Security Market Line indicates what this expected return should be. Now, if the firm’s WACC is used to discount the expected cash flows for this project, and the expected return on the project is above the firm’s WACC, then the estimated NPV will be positive. So far, so good. However, as illustrated in Exhibit 13.3, some projects may have an expected return that is above the WACC but below the SML. For projects such as those, using the WACC as the discount rate may actually cause the firm to accept a negative NPV project! The estimated NPV will be positive even though the true NPV is negative. The negative NPV projects that would be accepted in those situations have returns that fall in the red shaded area below the SML, above the WACC line, and to the right of the firm’s beta.
+
+In Exhibit 13.3 you can also see that using the WACC to discount expected cash flows for low-risk projects can result in managers at the firm rejecting projects that have positive NPVs. This problem is, in some sense, the mirror image of the case where the WACC is lower than the correct discount rate. Financial managers run the risk of turning down positive NPV projects whenever the WACC is higher than the correct discount rate. The positive NPV projects that would be rejected are those that fall into the green shaded area that is below the WACC but above the SML and to the left of the firm’s beta.
+
+EXHIBIT 13.3 Potential Errors When Using the WACC to Evaluate Projects Two types of problems can arise when the WACC for a firm is used to evaluate individual projects: positive NPV projects may, be rejected, or negative NPV projects may be accepted. For the tropical beverage example, if the expected return on that project was below the level indicated by the SML, but above the firm’s WACC, the project might be accepted even though it would have a negative NPV.
+
+
+To see how these types of problems arise, consider a project that requires an initial investment of $100 million and that is expected to produce cash inflows of $40 million per year for three years. If the correct discount rate for this project is 8 percent, its NPV will be:
+
+This is an attractive project because it returns more than the investors’ opportunity cost of capital.
+
+Suppose, however, that the financial managers of the firm considering this project require that all projects be evaluated using the firm’s WACC of 11 percent. When the cash flows are discounted using a rate of 11 percent, the NPV is:
+
+As you can see, when the WACC is used to discount the cash flows, the firm will end up rejecting a positive NPV project. The firm will be passing up an opportunity to create value for its stockholders. As an exercise, you might try constructing a numerical example in which a firm accepts a negative NPV project.
+
+It is also important to recognize that when a firm uses a single rate to evaluate all of its projects, there will be a bias toward accepting more risky projects. The average risk of the firm’s assets will tend to increase over time. Furthermore, because some positive NPV projects are likely to be rejected and some negative NPV projects are likely to be accepted, new projects on the whole will probably create less value for stockholders than if the appropriate discount rate had been used to evaluate all projects. This, in turn, can put the firm at a disadvantage when compared with its competitors and adversely affect the value of its existing projects.
+
+The key point to take away from this discussion is that it is only correct to use a firm’s WACC to discount the cash flows for a project if the expected cash flows from that project have the same systematic risk as the expected cash flows from the firm as a whole. You might be wondering how you can tell when this condition exists. The answer is that we never know for sure. Nevertheless, there are some guidelines that you can use when assessing whether the systematic risk for a particular project is similar to that for the firm as a whole.
+
+The systematic risk of the cash flows from a project depend on the nature of the business. Revenues and expenses in some businesses are affected more by changes in general economic conditions than revenues and expenses in other businesses. For example, consider the differences between a company that makes bread and a company that makes recreational vehicles. The demand for bread will be relatively constant in good economic conditions and in bad. The demand for recreational vehicles will be more volatile. People buy fewer recreational vehicles during recessions than when the economy is doing well.
+
+While total volatility is not the same as systematic volatility, businesses with more total volatility (uncertainty or risk) typically have more systematic volatility. Since beta is a measure of systematic risk, and systematic risk is a key factor in determining a firm’s WACC, this suggests that the firm’s WACC should be used only for projects with business risks similar to those for the firm as a whole. Since financial managers usually think of systematic risk when they think of underlying business risks, we can restate this condition as follows:
+
+Condition 1 A firm’s WACC should be used to evaluate the cash flows for a new project only if the level of systematic risk for the project is the same as that for the portfolio of projects that currently comprise the firm.
+You have to consider one other factor when you decide whether it is appropriate to use a firm’s WACC to discount the cash flows for a project. That is the way in which the project will be financed and how this financing compares with the way the firm’s assets are financed. To better understand why this is important, consider Equation 13.7:
+
+This equation provides a measure of the firm’s cost of capital that reflects both how the firm’s assets have been financed—that is, the mix of debt and preferred and common stock that was used to acquire those assets—and the current cost of each type of financing. In other words, the WACC reflects both the x’s and the k’s associated with the firm’s financing. Why is this important? Because the costs of the different types of capital depend on the fraction of the total firm financing that each represents. If the firm uses more or less debt, the cost of debt will be higher or lower. In turn, the cost of both preferred stock and common stock will be affected. This means that even if the underlying business risk of the project is the same as that for the firm as a whole, if the project is financed differently than the firm as a whole the appropriate discount rate for the project analysis will be different from that for the firm as a whole.
+
+Condition 2 A firm’s WACC should be used to evaluate a project only if that project uses the same financing mix—the same proportions of debt, preferred shares, and common shares—used to finance the firm as a whole.
+In summary, WACC is a measure of the current cost of the capital that the firm is using to finance its projects. It is an appropriate discount rate for evaluating projects only if (1) the project’s systematic risk is the same as that of the firm’s current portfolio of projects and (2) the project will be financed with the same mix of debt and equity as the firm’s current portfolio of projects. If either of these two conditions does not hold, then managers should be careful in using the firm’s current WACC to evaluate a project.
+
+Alternatives to Using WACC for Evaluating Projects
+Financial managers understand the limitations of using a firm’s WACC to evaluate projects, but they also know that there are no perfect alternatives. As we noted earlier in this chapter, there is no publicly traded common stock for most individual projects within a firm. It is, therefore, not possible to directly estimate the beta for the common stock used to finance an individual project.9 Although it might be possible to obtain an estimate of the cost of debt from the firm’s bankers, without an estimate of the common stock beta—and, therefore, the cost of common stock—it is not possible to obtain a direct estimate of the appropriate discount rate for a project using Equation 13.7.
+
+If the discount rate for a project cannot be estimated directly, a financial analyst might try to find a public firm that is in a business that is similar to that of the project. For example, in our exotic tropical beverage example, an analyst at the soft drink company might look for a company that produces only exotic tropical beverages and that also has publicly traded stock. This public company would be what financial analysts call a pure-play comparable because it is exactly like the project. The returns on the pure-play comparable company’s stock could be used to estimate the expected return on the equity that is used to finance the project. Unfortunately, this approach is generally not feasible due to the difficulty of finding a public firm that is only in the business represented by the project. If the public firm is in other businesses as well, then we run into the same sorts of problems that we face when we use the firm’s WACC.
+
+pure-play comparable a comparable company that is in exactly the same business as the project or business being analyzed
+
+From a practical standpoint, financial managers, such as company treasurers and chief financial officers, do not like letting analysts estimate the discount rates for their projects. Different analysts tend to make different assumptions or use different approaches, which can lead to inconsistencies that make it difficult to compare projects. In addition, analysts may be tempted to manipulate discount rates in order to make pet projects look more attractive.
+
+In an effort to use discount rates that reflect project risks better than the firm’s WACC, while retaining control of the process through which discount rates are set, financial managers sometimes classify projects into categories based on their systematic risks. They then specify a discount rate that is to be used to discount the cash flows for all projects within each category. The idea is that each category of projects has a different level of systematic risk and therefore a different discount rate should be used for each. Exhibit 13.4 illustrates such a classification scheme.
+
+EXHIBIT 13.4 Potential Errors When Using Multiple Discount Rates to Evaluate Projects The potential for errors—either rejecting a positive NPV project or accepting a negative NPV project—is smaller when discount rates better reflect the risk of the projects that they are used to evaluate. You can see this by noting that the total size of the shaded areas in this figure is smaller than the size of the shaded areas in Exhibit 13.3. In the ideal situation, where the correct discount rate is used for each project, there would be no shaded area at all in a figure like this.
+
+
+The scheme illustrated in Exhibit 13.4 includes four project categories:
+
+Efficiency projects, such as the implementation of a new production technology that reduces manufacturing costs for an existing product.
+Product extension projects, such as those in which Boeing created variations of its aircraft, such as the Boeing 737, to help meet customer needs.
+Market extension projects, in which existing products are sold in new markets, such as when Texas Instruments considers selling a new version of a computer chip that has been used in digital phones to digital camera manufacturers.
+New product projects, in which entirely new products are being considered.
+When using the scheme illustrated in Exhibit 13.4, the financial manager would assign a discount rate for each category that reflects the typical beta in the indicated range of betas. Such an approach is attractive because it is not generally difficult for analysts to figure out in which of the four categories particular projects belong, and it limits their discretion in choosing discount rates. Most important, it can reduce the possibility of accepting negative NPV projects or rejecting positive NPV projects. We can see the latter benefit by comparing the shaded areas in the figures in Exhibits 13.3 and 13.4. The total size of the shaded areas, which represents the possibility of making an error, is much smaller in Exhibit 13.4.
+
+Before You Go On
+Do analysts use book values or market values to calculate the weights when they use Equation 13.7? Why?
+What kinds of errors can be made when the WACC for a firm is used as the discount rate for evaluating all projects in the firm?
+Under what conditions is the WACC the appropriate discount rate for a project?
+
+Visit WallStreetMojo for a discussion of the use of WACC, Excel tips, and a WACC calculator at www.wallstreetmojo.com/wacc-formula/
+
+Summary of Learning Objectives
+1 Explain what the weighted average cost of capital for a firm is and why it is often used as a discount rate to evaluate projects.
+
+The weighted average cost of capital (WACC) for a firm is a weighted average of the current costs of the different types of financing that a firm has used to finance the purchase of its assets. When the WACC is calculated, the cost of each type of financing is weighted according to the fraction of the total firm value represented by that type of financing. The WACC is often used as a discount rate in evaluating projects because it is not possible to directly estimate the appropriate discount rate for many projects. As we also discuss in Section 13.4, having a single discount rate reduces inconsistencies that can arise when different analysts in the firm use different methods to estimate the discount rate and can also limit the ability of analysts to manipulate discount rates to favor pet projects.
+
+2 Calculate the cost of debt for a firm.
+
+The cost of debt can be calculated by solving for the yield to maturity of the debt using the bond pricing model (Equation 8.1), computing the effective annual yield, and adjusting for taxes using Equation 13.3.
+
+3 Calculate the cost of common stock and the cost of preferred stock for a firm.
+
+The cost of common stock can be estimated using the CAPM, the constant-growth dividend model, or a multistage-growth dividend model. The cost of preferred stock can be calculated using the perpetuity model for the present value of cash flows.
+
+4 Calculate the weighted average cost of capital for a firm, explain the limitations of using a firm’s weighted average cost of capital as the discount rate when evaluating a project, and discuss the alternatives to the firm’s weighted average cost of capital.
+
+The weighted average cost of capital is estimated using either Equation 13.2 or Equation 13.7, with the cost of each individual type of financing estimated using the appropriate method.
+
+When a firm uses a single rate to discount the cash flows for all of its projects, some project cash flows will be discounted using a rate that is too high and other project cash flows will be discounted using a rate that is too low. This can result in the firm rejecting some positive NPV projects and accepting some negative NPV projects. It will bias the firm toward accepting more risky projects and can cause the firm to create less value for stockholders than it would have if the appropriate discount rates had been used.
+
+One alternative to using the WACC as a discount rate is to identify a firm that engages in business activities that are similar to those associated with the project under consideration and that has publicly traded stock. The returns from this pure-play comparable firm’s stock can then be used to estimate the common stock beta for the project. In instances where pure-play comparable firms are not available, another alternative is for the financial manager to classify projects according to their systematic risks and use a different discount rate for each class of project. This is the type of classification scheme illustrated in Exhibit 13.4.
+
+Summary of Key Equations
+Equation	Description	Formula
+13.1	Finance balance sheet identity	MV of assets = MV of liabilities + MV of equity
+13.2	General formula for weighted average cost of capital (WACC) for a firm	
+13.3	After-tax cost of debt	kDebt after‐tax = kDebt pretax × (1 − t)
+13.4	CAPM formula for the cost of common stock	kcs = Rrf + (βcs × Market risk premium)
+13.5	Constant-growth dividend formula for the cost of common stock	
+13.6	Perpetuity formula for the cost of preferred stock	
+13.7	Traditional WACC formula	WACC = xDebtkDebt pretax(1 − t) + xpskps + xcskcs
+Self-Study Problems
+13.1 The market value of a firm’s assets is $3 billion. If the market value of the firm’s liabilities is $2 billion, what is the market value of the stockholders’ investment, and why?
+
+
+
+13.2 Berron Comics, Inc., has borrowed $100 million and is required to pay its lenders $8 million in interest this year. If Berron has a 28 percent marginal tax rate, then what is the after-tax cost of debt (in dollars as well as in annual interest percentage) to Berron?
+
+
+
+13.3 Explain why the after-tax cost of equity (common or preferred) does not have to be adjusted by the marginal income tax rate for the firm.
+
+
+
+13.4 Mike’s T-Shirts, Inc., has debt claims of $400 (market value) and equity claims of $600 (market value). If the after-tax cost of debt financing is 11 percent and the cost of equity is 17 percent, what is Mike’s weighted average cost of capital?
+
+
+
+13.5 You are analyzing a firm that is financed with 60 percent debt and 40 percent equity. The current cost of debt financing is 10 percent, but due to a recent downgrade by the rating agencies, the firm’s cost of debt is expected to increase to 12 percent immediately. How will this increase change the firm’s weighted average cost of capital if you ignore taxes? How will it change the cost of capital if you consider taxes and the firm is subject to a 25 percent marginal tax rate?
+
+
+
+Discussion Questions
+13.1 Explain why the required rate of return on a firm’s assets must be equal to the weighted average cost of capital associated with its liabilities and equity.
+
+13.2 Which is easier to calculate directly, the expected rate of return on the assets of a firm or the expected rate of return on the firm’s debt and equity? Assume that you are an outsider to the firm.
+
+13.3 With respect to the level of risk and the required return for a firm’s portfolio of projects, discuss how the market and a firm’s management can have inconsistent information and expectations.
+
+13.4 Your friend has recently told you that the federal government effectively subsidizes the use of debt financing (vs. equity financing) for corporations. Do you agree with that statement? Explain.
+
+13.5 Your firm will have a fixed interest expense for the next 10 years. You recently found out that the marginal income tax rate for the firm will change from 30 percent to 40 percent next year. Describe how the change will affect the cash flow available to investors.
+
+13.6 Describe why it is not usually appropriate to use the coupon rate on a firm’s bonds to estimate the pretax cost of debt for the firm.
+
+13.7 Maltese Falcone, Inc., has not checked its weighted average cost of capital for four years. The firm’s top managers claim that since Maltese has not had to raise capital for new projects in four years, they should not have to worry about their current weighted average cost of capital. They argue that they have essentially locked in their cost of capital. Critique management’s statements.
+
+13.8 Ten years ago, the Edson Water Company issued preferred stock at a price equal to the par value of $100. If the dividend yield on that issue was 12 percent, explain why the firm’s current cost of preferred capital is not likely to equal 12 percent.
+
+13.9 Discuss under what circumstances you might be able to use a model that assumes constant growth in dividends to calculate the current cost of equity capital for a firm.
+
+13.10 Your boss just finished computing your firm’s weighted average cost of capital. He is relieved because he says that he can now use that cost of capital to evaluate all projects that the firm is considering for the next four years. Evaluate that statement.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+13.1 Finance balance sheet: KneeMan Markup Company has total debt obligations with book and market values equal to $30 million and $28 million, respectively. It also has total equity with book and market values equal to $20 million and $70 million, respectively. If you were going to buy all of the assets of KneeMan Markup today, how much should you be willing to pay?
+
+13.2 WACC: What is the weighted average cost of capital for a firm?
+
+13.3 Taxes and the cost of debt: How are taxes accounted for when we calculate the cost of debt?
+
+13.4 Cost of common stock: List and describe each of the three methods used to calculate the cost of common stock.
+
+13.5 Cost of common stock: Whitewall Tire Co. just paid an annual dividend of $1.60 on its common shares. If Whitewall is expected to increase its annual dividend by 2 percent per year into the foreseeable future and the current price of Whitewall’s common shares is $11.66, what is the cost of common stock for Whitewall?
+
+13.6 Cost of common stock: Seerex Wok Co. is expected to pay a dividend of $1.10 one year from today on its common shares. That dividend is expected to increase by 5 percent every year thereafter. If the price of Seerex common stock is $13.75, what is the cost of its common equity capital?
+
+13.7 Cost of common stock: Two-Stage Rocket paid an annual dividend of $1.25 yesterday, and it is commonly known that the firm’s management expects to increase its dividend by 8 percent for the next two years and by 2 percent thereafter. If the current price of Two-Stage’s common stock is $17.80, what is the cost of common equity capital for the firm?
+
+13.8 Cost of preferred stock: Fjord Luxury Liners has preferred shares outstanding that pay an annual dividend equal to $15 per year. If the current price of Fjord preferred shares is $107.14, what is the cost of preferred stock for Fjord?
+
+13.9 Cost of preferred stock: Kresler Autos has preferred shares outstanding that pay annual dividends of $12, and the current price of the shares is $80. What is the after-tax cost of new preferred shares for Kresler if the flotation (issuance) costs for preferred shares are 5 percent?
+
+13.10 WACC: Describe the alternatives to using a firm’s WACC as a discount rate when evaluating a project.
+
+13.11 WACC: Capital Co. has a capital structure, based on current market values, that consists of 50 percent debt, 10 percent preferred stock, and 40 percent common stock. If the returns required by investors are 8 percent, 10 percent, and 15 percent for the debt, preferred stock, and common stock, respectively, what is Capital’s after-tax WACC? Assume that the firm’s marginal tax rate is 28 percent.
+
+13.12 WACC: What are direct out-of-pocket costs?
+
+Intermediate
+13.13 Finance balance sheet: Explain why the total value of all of the securities used to finance a firm must be equal to the value of the firm.
+
+13.14 Finance balance sheet: Explain why the cost of capital for a firm is equal to the expected rate of return to the investors in the firm.
+
+13.15 Current cost of a bond: You know that the after-tax cost of debt capital for Bubbles Champagne Company is 7 percent. If the firm has only one issue of five-year bonds outstanding, what is the current price of the bonds if the coupon rate on those bonds is 10 percent? Assume the bonds make semiannual coupon payments and the marginal tax rate is 30 percent.
+
+13.16 Current cost of a bond: Perpetual Ltd. has issued bonds that never require the principal amount to be repaid to investors. Correspondingly, Perpetual must make interest payments into the infinite future. If the bondholders receive annual payments of $75 and the current price of the bonds is $882.35, what is the after-tax cost of this debt for Perpetual if the firm is subject to a 40 percent marginal tax rate?
+
+13.17 Current cost of a bond: You are analyzing the cost of debt for a firm. You know that the firm’s 14-year maturity, 8.5 percent coupon bonds are selling at a price of $823.48. The bonds pay interest semiannually. If these bonds are the only debt outstanding, what is the after-tax cost of debt for this firm if it is subject to 30 percent marginal and average tax rates?
+
+13.18 Taxes and the cost of debt: Holding all other things constant, does a decrease in the marginal tax rate for a firm provide incentive for the managers of a firm to increase or decrease its use of debt?
+
+13.19 Cost of debt for a firm: You are analyzing the after-tax cost of debt for a firm. You know that the firm’s 12-year maturity, 9.5 percent semiannual coupon bonds are selling at a price of $1,200. Assuming that these bonds are the only debt outstanding for the firm, what is the after-tax cost of debt for this firm if it has a marginal tax rate of 34 percent? What if the bonds are selling at par?
+
+13.20 Cost of common stock: Underestimated Inc.’s common shares currently sell for $36 each. The firm’s management believes that its shares should really sell for $54 each. If the firm just paid an annual dividend of $2 per share and management expects those dividends to increase by 8 percent per year forever (and this is common knowledge to the market), what is the current cost of common equity for the firm, and what does management believe is the correct cost of common equity for the firm?
+
+13.21 Cost of common stock: Write out the general equation for the price of the stock for a firm that will grow dividends very rapidly at a constant rate for the four years after the next dividend is paid and will grow dividends thereafter at a constant, but lower rate. Discuss the problems in estimating the cost of equity capital for such a stock.
+
+13.22 Cost of common stock: You have calculated the cost of common stock using all three methods described in this chapter. Unfortunately, all three methods have yielded different answers. Describe which answer (if any) is most appropriate.
+
+13.23 WACC: The managers of a firm financed entirely with common stock are evaluating two distinct projects. The first project has a large amount of unsystematic risk and a small amount of systematic risk. The second project has a small amount of unsystematic risk and a large amount of systematic risk. Which project, if taken, is more likely to increase the firm’s cost of capital?
+
+13.24 WACC: The Imaginary Products Co. currently has debt with a market value of $300 million outstanding. The debt consists of 9 percent coupon bonds (semiannual coupon payments) that have a maturity of 15 years and are currently priced at $1,440.03 per bond. The firm also has an issue of 2 million preferred shares outstanding with a market price of $12.00 per share. The preferred shares pay an annual dividend of $1.20. Imaginary also has 14 million shares of common stock outstanding with a price of $20.00 per share. The firm is expected to pay a $2.20 common dividend one year from today, and that dividend is expected to increase by 5 percent per year forever. If Imaginary is subject to a 28 percent marginal tax rate, then what is the firm’s weighted average cost of capital?
+
+13.25 Choosing a discount rate: For the Imaginary Products firm in Problem 13.24, calculate the appropriate cost of capital for a new project that is financed with the same proportion of debt, preferred shares, and common shares as the firm’s current capital structure. Assume that the project has the same degree of systematic risk as the average project that the firm is currently undertaking. Also assume that the project is in the same general industry as the firm’s current line of business.
+
+13.26 Choosing a discount rate: If a firm’s management anticipates financing a project with a capital mix that is different from its current capital structure, describe how the firm is subjecting itself to a calculation error if its historical WACC is used to evaluate the project.
+
+Advanced
+13.27 You are analyzing the cost of capital for MacroSwift Corporation, which develops software operating systems for computers. The firm’s dividend growth rate has been a constant 3 percent per year for the past 15 years. Competition for the firm’s current products is expected to develop in the next year, and MacroSwift is currently expanding its revenue stream into the multimedia industry. Evaluate the appropriateness of continuing to use a 3 percent growth rate in dividends for MacroSwift in your cost of capital model.
+
+13.28 You are an external financial analyst evaluating the merits of a stock. Since you are using a dividend discount model approach to evaluate a cost of equity capital, you need to estimate the dividend growth rate for the firm in the future. Describe how you might go about doing this.
+
+13.29 You know that the return of Momentum Cyclicals’ common shares is 1.6 times as sensitive to macroeconomic information as the return of the market. If the risk-free rate of return is 3.50 percent today and market risk premium is 6.00 percent, what is Momentum Cyclicals’ cost of common equity capital?
+
+13.30 In your analysis of the cost of capital for a common stock, you calculate a cost of capital using a dividend discount model that is much lower than the calculation for the cost of capital using the CAPM model. Explain a possible source for the discrepancy.
+
+13.31 RetRyder Hand Trucks has a preferred share issue outstanding that pays a dividend of $1.30 per year. The current cost of preferred equity for RetRyder is 9 percent. If RetRyder issues additional preferred shares that pay exactly the same dividend and the investment banker retains 8 percent of the sale price, what is the cost of the new preferred shares for RetRyder?
+
+13.32 Enigma Corporation’s management believes that the firm’s cost of capital (WACC) is too high because the firm has been too secretive with the market concerning its operations. Evaluate that statement.
+
+13.33 Discuss what valuable information would be lost if you decided to use book values in order to calculate the cost of each of the capital components within a firm’s capital structure.
+
+13.34 Hurricane Corporation is financed with debt, preferred equity, and common equity with market values of $20 million, $10 million, and $30 million, respectively. The betas for the debt, preferred stock, and common stock are 0.2, 0.5, and 1.1, respectively. If the risk-free rate is 3 percent today, the market risk premium is 6 percent, and Hurricane’s average and marginal tax rates are both 30 percent, what is the company’s weighted average cost of capital?
+
+13.35 You are working as an intern at Coral Gables Products, a privately owned manufacturing company. Shortly after you read Chapter 13 in this book, you got into a discussion with the chief financial officer (CFO) at Coral Gables about weighted average cost of capital calculations. She pointed out that, just as the beta of the assets of a firm equals a weighted average of the betas for the individual assets, as shown in Equation 7.13:
+
+the beta of the assets of a firm also equals a weighted average of the betas for the debt, preferred stock, and common stock of a firm:
+
+Why must this be true?
+
+13.36 The CFO described in Problem 13.35 asks you to estimate the beta for Coral Gables’ common stock. Since the common stock is not publicly traded, you do not have the data necessary to estimate the beta using regression analysis. However, you have found a company with publicly traded stock that has operations exactly like those at Coral Gables. Using stock returns for this pure-play comparable firm, you estimate the beta for the comparable company’s stock to be 1.06. The market value of that company’s common equity is $45 million, and it has one debt issue outstanding with a market value of $15 million and an annual pretax cost of 4.85 percent. The comparable company has no preferred stock.
+
+If the risk-free rate today is 4.25 percent and the market risk premium is 6.00 percent, what is the beta of the assets of the comparable company?
+If the total market value of Coral Gables’ financing consists of 35 percent debt and 65 percent equity (this is what the CFO estimates the market values to be) and the pretax cost of its debt is 5.45 percent, what is the beta for Coral Gables’ common stock?
+13.37 Estimate the weighted average cost of capital for Coral Gables using your estimated beta and the information in the problem statement in Problem 13.36. Assume that the average and marginal tax rates for Coral Gables are both 25 percent.
+
+CFA Problems
+13.38 The cost of equity is equal to the:
+
+Expected market return.
+Rate of return required by stockholders.
+Cost of retained earnings plus dividends.
+Risk the company incurs when financing.
+13.39 Dot.Com has determined that it could issue $1,000 face value bonds with an 8 percent coupon paid semiannually and a five-year maturity at $900 per bond. If Dot.Com’s marginal tax rate is 30 percent, its after-tax cost of debt is closest to:
+
+7.2 percent.
+7.4 percent.
+7.6 percent.
+7.8 percent.
+13.40 Morgan Insurance Ltd. issued a fixed-rate perpetual preferred stock three years ago and placed it privately with institutional investors. The stock was issued at $25.00 per share with a $1.75 dividend. If the company were to issue preferred stock today, the yield would be 6.5 percent. The stock’s current value is:
+
+$25.00.
+$26.92.
+$37.31.
+$40.18.
+13.41 The Gearing Company has an after-tax cost of debt capital of 4 percent, a cost of preferred stock of 8 percent, a cost of equity capital of 10 percent, and a weighted average cost of capital of 7 percent. Gearing intends to maintain its current capital structure as it raises additional capital. In making its capital-budgeting decisions for the average-risk project, the relevant cost of capital is:
+
+4 percent.
+7 percent.
+8 percent.
+10 percent.
+13.42 Suppose the weighted average cost of capital for the Gadget company is 10 percent. If Gadget has a capital structure that is 50 percent debt and 50 percent equity, its before-tax cost of debt is 5 percent, and its marginal tax rate is 20 percent, then its cost of equity capital is closest to:
+
+10 percent.
+12 percent.
+14 percent.
+16 percent.
+Sample Test Problems
+13.1 Howard Power and Telecommunications Corporation has three divisions. The names of these divisions, along with the after-tax cost of capital for each division and the market value of the assets in each division, are as follows:
+
+Division Name	Cost of Capital	MV of Assets
+Infrastructure development	8.75	$250,000,000
+Power	7.50	$325,000,000
+Telecommunications	8.25	$675,000,000
+What is the overall after-tax cost of capital for Howard Power and Telecommunications?
+
+13.2 Quarri Industries has 8 percent coupon bonds outstanding. These bonds have a market price of $954.41, pay interest semiannually, and will mature in six years. If the tax rate is 35 percent, what are the pretax cost and after-tax cost of this debt?
+
+13.3 Quarri Industries, common stock has a beta of 1.6. If the current risk-free rate is 4 percent and the market risk premium is 5 percent, what is Quarri’s cost of common stock?
+
+13.4 Miron’s Copper Corp. management expects its common stock dividends to grow 1.5 percent per year for the indefinite future. The firm’s shares are currently selling for $18.45, and the firm just paid a dividend of $3.00 yesterday. What is the cost of common stock for Miron?
+
+13.5 Use the information in Questions 13.2 and 13.3 as well as the following information to compute the WACC for Quarri Industries. In addition to common stock, Quarri has 500,000 preferred shares outstanding that pay a quarterly dividend of $0.50 per share and are currently trading for $20.00 a share. The company’s outstanding bonds have a face value of $209,553,546. There are 2 million shares of common stock outstanding with a current market price of $98.00 per share.
+
+13.6 Staunton Energy Corporation managers are considering a capital budgeting project to replace some machinery used in one of the company’s oil refineries. Is the company’s WACC the appropriate discount rate to use in the NPV analysis of this project? Explain.
+
+Notes
+1 Surveys of capital budgeting practices at major public firms in the United States indicate that a large percentage (possibly as high as 80 percent) of firms use the cost of capital for a firm or a division in capital budgeting calculations. For a discussion of this evidence, see the article titled “Best Practices in Estimating the Cost of Capital: Survey and Synthesis,” by R. F. Bruner, K. M. Eades, R. S. Harris, and R. C. Higgins, which was published in the Spring/Summer 1998 issue of Financial Practice and Education.
+2 The total expected cash flows at Boeing also include cash flows from projects that the firm is expected to undertake in the future, or what are often referred to as growth opportunities.
+3 We will discuss how firms finance their assets in more detail in Chapters 15 and 16. For the time being, we will simply assume that a firm uses some combination of debt and equity. Here we use the term debt in the broadest sense to refer to all liabilities, including liabilities on which the firm does not pay interest, such as accounts payable. As is common practice, we focus only on long-term interest-bearing debt, such as bank loans and bonds, in the cost of capital calculations. The reason for this is discussed in the next section.
+4 As we will discuss in Section 13.2, if markets are efficient, the prices we observe in the markets will reflect the true costs of the different securities that the firm has outstanding.
+5 We are ignoring the effect of taxes on the cost of debt financing for the time being. This effect is discussed in detail in Section 13.2 and explicitly incorporated into subsequent calculations.
+6 These types of costs are incurred by firms whenever they raise capital. We only show how to include them in the cost of bond financing and, later, in estimating the cost of preferred stock, but they should also be included in calculations of the costs of capital from other sources, such as bank loans and common equity.
+7 There is a limit on the total amount of home loan interest payments that you can deduct when you calculate your taxable income. For instance, in 2020 you could deduct interest payments on loans with a total face value of $750,000 for mortgages taken out after December 16, 2017. In 2017 a new federal law H.R. 1, also known as the Tax Cuts and Jobs Act, introduced major changes to the federal tax code, including a limit to the tax deductibility of interest for corporations. For more information on the implications of this limit for the after-tax cost of debt and WACC, please refer to the appendix in your Wiley Course Resources.
+8 We use the term risk-free here to refer to assets that have no default risk. Investors in such assets can still face interest rate risk, as described in Chapter 8.
+9 A few U.S. firms have issued a type of stock that has an equity claim on only part of their business. If a project is similar to the part of the business for which “tracking stock” like this has been sold, the returns on the tracking stock can be used to estimate the beta for the common stock used to finance the project.

@@ -1,0 +1,1244 @@
+page 522
+
+PART 5
+
+Option Valuation
+
+
+
+“I have compared the results of observation with those of theory . . . to show that the market, unwittingly, obeys a law which governs it, the law of probability.”
+
+–Louis Bachelier
+
+Learning Objectives
+
+Make sure the price is right by making sure that you have a good understanding of:
+
+How to price options using the one-period and two-period binomial models.
+
+How to price options using the Black-Scholes model.
+
+How to hedge a stock portfolio using options.
+
+The workings of employee stock options.
+
+What is an option worth? Actually, this is one of the more difficult questions in finance. Option valuation is an esoteric area of finance because it often involves complex mathematics. Fortunately, just like most options professionals, you can learn quite a bit about option valuation with only modest mathematical tools. But no matter how far you might wish to delve into this topic, you must begin with the Black-Scholes option pricing model. This model is the core from which most other option pricing models trace their ancestry.
+
+The previous chapter introduced the basics of stock options. From an economic standpoint, perhaps the most important subject was the expiration date payoffs of stock options. Bear in mind that when investors buy options today, they are buying risky future payoffs. Likewise, when investors write options today, they become obligated to make risky future payments. In a competitive financial marketplace, option prices observed each day are collectively agreed on by buyers and writers assessing the likelihood of all possible future payoffs and payments. Option prices are set accordingly.
+
+In this chapter, we spend a lot of time showing you how to calculate stock option prices. We begin with a simple way to calculate stock option prices and then discuss the binomial option pricing model. The discussion ends with the Black-Scholes option pricing model, which is widely regarded by finance professionals as the premier model of stock option valuation.
+
+CFATM Exam Topics in This Chapter:
+
+Basics of derivatives pricing and valuation (L1, S18)
+
+Valuation of contingent claims (L2, S14)
+
+Risk management applications of option strategies (L3, S17)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 523
+
+16.1 A Simple Model to Value Options Before Expiration
+Calculating the value of an option before it expires can be complex. However, we can illustrate many of the key insights to this problem using a simple example. Suppose we are looking at a call option with one year to maturity and a $110 exercise price. The current stock price is $108 and the one-year risk-free rate, r, is 10 percent.
+
+We know that an option is worth its intrinsic value at expiration. To calculate the intrinsic value, we need the strike price and the stock price at option expiration. We know the strike price today and at option expiration. We know the stock price today, but we do not know what the stock price will be in one year. A method frequently used to forge on and calculate option prices today is to assume that today we “know” the range of possible values for the underlying asset at option expiration.
+
+We start with an uncomplicated example. Assume we know (somehow) that the stock price will be either $130 or $115 in one year. Keep in mind, though, that the stock price in one year is still uncertain. We do know that the stock price is going to be either $130 or $115 (but no other values). We do not know the odds associated with these two prices. In other words, we know the possible values of the stock, but not the probabilities associated with these two values.1
+
+Because the strike price is $110, we know the call option value at expiration will be either $130 − $110 = $20 or $115 − $110 = $5. Once again, we do not know which one. We do know one very important thing: The call option is certain to finish in the money.
+
+What about puts with a strike price of $110? In both cases, the put will finish out of the money. That is, the value of this put at expiration is zero regardless of the stock price. What is this put worth today? Think about it by answering this question: How much are you willing to pay today for a riskless asset that will have a zero value in one year? You are right, zero.
+
+If you know the price of a put with the same strike, you can use put-call parity to price a call option before it expires. An expiration day stock price of either $130 or $115 means that a put option with a $110 strike price has a value of zero today and at expiration. Therefore, in this case, we can use put-call parity to calculate the value of a call with a strike price of $110:
+
+
+Many other pairs of stock prices also result in a zero value for the put. Therefore, the fact that we selected these two particular stock prices is not what allowed us to calculate the call option price. What allowed us to calculate the call option price were these two facts: (1) the chosen pair of stock prices guarantees that the call option will finish in the money and (2) the chosen pair of stock prices also guarantees that a put option with the same strike price will finish out of the money.2
+
+We conclude that pricing a call option when we are certain that the call option will finish somewhere in the money is easy. We use a put option value of zero and the put-call parity equation to obtain the value of the call option before it expires.
+
+page 524
+
+CHECK THIS
+
+
+
+16.1aRework the example in this section to price a call option today that expires in one year if K = $105, S = $100, r = 10%, and the stock price will be either $120 or $110 in one year.
+
+16.2 The One-Period Binomial Option Pricing Model
+In the previous section, we made good use of the fact that the call option would always expire in the money. Suppose we want to allow the call option to expire in the money or out of the money.3 How do we proceed in this case? Well, we need a different option pricing model. We will start our tour of option pricing models by looking at the one-period binomial option pricing model (BOPM).
+
+THE ONE-PERIOD BINOMIAL OPTION PRICING MODEL—THE ASSUMPTIONS
+Suppose the stock price today is S and the stock pays no dividends. We will assume that the stock price in one period is either S × u or S × d, where u (for “up” factor) is bigger than 1 and d (for “down” factor) is less than 1.4 For example, suppose the stock price today is $100 and u and d are 1.10 and .95, respectively. With these numbers, the stock price in one period will be either $100 × 1.10 = $110 or $100 × .95 = $95.
+
+THE ONE-PERIOD BINOMIAL OPTION PRICING MODEL—THE SETUP
+Suppose we start with the values given in Table 16.1. To begin to calculate the call price today, suppose an investor:
+
+Buys one share of stock; and
+
+Sells one call option.
+
+A key question to ask is “What is the value of this portfolio today and in one period when the option expires?” To answer this question, we first write down all the prices that we know today and all the prices we know at expiration. We show these prices on two “trees” in Figure 16.1. In the world of option pricing models, a collection of stock or option prices is known as a tree.
+
+As shown in Figure 16.1, we know the stock price today ($100), but we do not know the call price today (we are trying to calculate this). In one period when the option expires, we know that the stock price will either increase to $110 (which is S × u = $100 × 1.10) or decrease to $95 (which is S × d = $100 × .95).
+
+Stock Price Tree and Option Priced Tree
+
+FIGURE 16.1
+
+
+Inputs for the One-Period BOPM
+
+TABLE 16.1
+
+S	=	$100	Current stock price
+u	=	1.10	Up factor
+d	=	.95	Down factor
+r	=	3%	Risk-free interest rate
+K	=	$100	Strike price
+T	=	1 period	Periods to option expiration
+At expiration, we know that the call option is worth its intrinsic value. If the stock price increases to $110, the intrinsic value of the call option, Cu, is MAX[110 − 100, 0], or $10. Similarly, if the stock price decreases to $95, the call option intrinsic value, Cd, is MAX[95 − 100, 0], or $0.
+
+page 525
+
+What is the value of the portfolio of one share of stock and short one call option? If the stock price increases to $110, the call finishes in the money—with an intrinsic value equal to $10. Because the investor sold the call option, the investor owes the intrinsic value. Therefore, the portfolio value is $110 − $10, or $100. If the stock price decreases to $95, the call finishes out of the money, so it has an intrinsic value equal to $0. Therefore, the portfolio value is $95 + $0 = $95.
+
+THE ONE-PERIOD BINOMIAL OPTION PRICING MODEL—THE FORMULA
+Is there a way to form a portfolio of stock and options that is worth the same amount regardless of the price of the stock in one period? It turns out that there is, and this way is a truly brilliant insight. Instead of buying one share, suppose the investor buys a “fractional” share of stock (which we will represent by the Greek letter delta, Δ). What happens in this case?
+
+In Figure 16.2, we know all values at expiration except Δ. The key to the solution hinges on the fact that the investor can choose the size of the fractional share, Δ. That is, the investor can choose a value for Δ where the portfolio has the same value at expiration for both stock prices. In other words, the investor can choose Δ so that ΔS × u − Cu = ΔS × d − Cd.
+
+Introducing a Fractional Share, Δ, into the Portfolio Tree
+
+FIGURE 16.2
+
+
+page 526
+
+For simplicity, we will drop the multiplication sign when we calculate Δ as follows:
+
+
+Using the numbers in our example:
+
+
+Have we succeeded in making the portfolio riskless? Yes:
+
+
+We now have what we need to calculate the call price today, C. We choose Δ so that the portfolio has the same value for both possible stock prices. That is, the portfolio of long Δ shares and short one call option is riskless (for the right value of Δ). Therefore, a riskless portfolio today should be worth (ΔS − C)(1 + r) in one period. So:
+
+
+The only unknown value in Equation 16.1 is C. Rearranging the values in Equation 16.1 results in:
+
+
+We can calculate the call price today using Equation 16.2:
+
+
+Equation 16.2 is one way to write the formula for the one-period binomial option pricing model. Now that we know the price of the call, we can use put-call parity to calculate the price of a put with a strike of $100:
+
+
+Using the One-Period BOPM
+
+EXAMPLE 16.1
+
+A stock is currently selling for $25 per share. In one period, it will be worth either $20 or $30. The riskless interest rate is 5 percent per period. There are no dividends. What is today’s price of a call option with a strike price of $27?
+
+To answer this question, we can use the one-period binomial option pricing model:
+
+
+To calculate Δ:
+
+
+page 527
+
+We also have to calculate u, which is $30/$25 = 1.20. We can now calculate the price of the call option:
+
+
+WHAT IS DELTA?
+Delta, Δ, is an important proportion. We will use delta later in the chapter when we are talking about hedging the risk of adverse stock price movements using options.
+
+An easy way to think about delta is to recall that delta is a proportion of shares to calls that is needed to form a risk-free portfolio, that is, a portfolio of shares and calls that does not change in value when the stock price changes. Remember, the investor can choose many values for delta. However, there is only one delta that helps the investor form a risk-free portfolio.
+
+Therefore, a delta of 2/3 means that we need two shares and three calls to form a risk-free portfolio. The portfolio is risk-free because losses (gains) in the call options are offset by gains (losses) in the stock. So you can think of delta as the fractional share amount needed to offset, or hedge, changes in the price of one call.
+
+In our detailed example, we calculated a delta of 2/3, or .67. This means that the number of shares to hedge one call is .67. Similarly, the number of calls to hedge one share is 1/Δ, or 3/2. That is, we need three call options to hedge two shares.
+
+CHECK THIS
+
+
+
+16.2a  Suppose the stock price today is $95, not $100 as shown in Figure 16.1. Nothing else changes in the detailed example that follows Figure 16.1. Does delta still equal .67? What is the call price?
+
+16.2b  You calculate a delta of .8. How many shares and calls are needed to form a risk-free portfolio? What positions (i.e., long or short) does the investor have in shares and calls?
+
+16.3 The Two-Period Binomial Option Pricing Model
+In the previous section, we could price an option one period before it expires. Suppose there are two periods to expiration. What do we do in this case? It turns out that we repeat much of the process we used in the previous section.
+
+In this section, we calculate the price of a European call option. However, we can use this method to calculate the price of a European put option, too. Using a slight modification to allow for early exercise, this technique can also be used to calculate prices for American calls and puts. In fact, this basic technique is so powerful that, with the right modifications, it can be used to price an exotic array of options.
+
+Inputs for the Two-Period BOPM
+
+TABLE 16.2
+
+S	=	$50	Stock price today
+u	=	1.20	Up factor (u > 1) per period
+d	=	.85	Down factor (d < 1) per period
+rf	=	8%	Risk-free interest rate per period
+K	=	$55	Strike price
+T	=	2	Periods to option expiration
+page 528
+
+The best way to learn this technique is to work a detailed example. Suppose we have the set of inputs given in Table 16.2.
+
+We need to point out one more important assumption. That is, in our detailed example, we assume that u, d, and rf do not change in the two periods until option expiration. With this additional assumption and the inputs in Table 16.2, we will show that the call option is worth $6.29 today.
+
+STEP 1: BUILD A PRICE TREE FOR STOCK PRICES THROUGH TIME
+The upper part of Figure 16.3 shows the stock prices through time. Because there are more than two dates, we denote the stock price today as S0. Starting at S0 = $50, S1 (the stock price at Time 1) is:
+
+
+Next, if the stock price in one period is $60, then the price in two periods will be either $60 × 1.20 = $72 or $60 × .85 = $51. Similarly, if the price in one period is $42.50, then the price in two periods will be either $42.50 × 1.20 = $51 or $42.50 × .85 = $36.13.
+
+Thus, there are three stock prices in two periods, corresponding to a sequence of (1) two up moves, (2) two down moves, or (3) one up move and one down move. Notice that it doesn’t matter if we go up, then down or down, then up. We end up at $51 either way. In symbols, the three possible S2 stock prices are:
+
+
+STEP 2: USE THE INTRINSIC VALUE FORMULA TO CALCULATE THE POSSIBLE OPTION PRICES AT EXPIRATION
+As we calculated, the three possible stock prices at expiration are $72, $51, and $36.13. We plug each of these stock prices into the intrinsic value formula. Because the strike price is K = $55, the possible values for the call option at expiration are:
+
+
+Notice that in two of the possible cases, the call has zero value at expiration.
+
+STEP 3: CALCULATE THE FRACTIONAL SHARE NEEDED TO FORM EACH RISK-FREE PORTFOLIO AT THE NEXT-TO-LAST DATE
+To form the risk-free portfolio, we need to calculate the possible values for Δ in the next-to-last period. Recall that the portfolio is risk-free when the investor sells one call and buys a fraction, Δ, of one share.
+
+page 529
+
+Stock Price Tree, Call Price Tree, and Delta Values—Two-Period BOPM
+
+FIGURE 16.3
+
+
+Let us begin by looking at the point where the stock price is $60. You can see that the two possible stock prices from that point are $72 and $51. In addition, because the strike price is $55, two call option values, $17 and $0, are possible. You can see that it is as if we have an option with one period to expiration. Therefore, we can use the notation from the one-period binomial option pricing model to calculate Δ:
+
+
+page 530
+
+Likewise, from the point where the stock price is $42.50, the two possible stock prices are $51 and $36.13. Note, however, that because the strike price is $55, the option is worth $0 regardless of the stock price in one period. In this case, the Δ is:
+
+
+STEP 4: CALCULATE ALL POSSIBLE OPTION PRICES AT THE NEXT-TO-LAST DATE
+We can now use these values for Δ to calculate the call prices when the stock price is $60 or when it is $42.50. When the stock price is $60, we use Δ = .8095, Cu = $17, r = 8%, and u = 1.20 to calculate the call price:
+
+
+When the stock price is $42.50, we use Δ = 0, Cu = $0, r = 8%, and u = 1.20 to calculate the call price:
+
+
+The intuition for a call with zero value is simple. Ask yourself: What price am I willing to pay today for a call option that will always have a value of zero in one period? Or think of it like this: This call option gives you the right to buy shares for $55 next period. However, the stock price will always be lower than $55 next period. How much are you willing to pay today for this call option? We are sure that you said zero (aren’t we?).
+
+STEP 5: REPEAT THIS PROCESS BY WORKING BACK TO TODAY
+From the point where the stock price is $50, there are two possible stock prices, $60 and $42.50. If the stock price is $60, we know the call option is worth $10.34. When the stock price is $42.50, we know that the call option is worth $0. In this case, Δ is:
+
+
+Using Δ = .5909, Cu = $10.34, r = 8%, and u = 1.20, we calculate the call price as:
+
+
+Using put-call parity, the price of the put with a $55 strike is:
+
+
+We summarize these calculations in Figure 16.3. Note that, over time, as S increases, so do Δ and C.
+
+CHECK THIS
+
+
+
+16.3a  Look at Table 16.2. Suppose that K = $45 and all other inputs remain the same. What is the price of a call option? What is the price of a put option?
+
+16.3b  Look at Table 16.2. Suppose that u = 1.30 and all other inputs remain the same. What is the price of a call option? What is the price of a put option?
+
+16.4 The Binomial Option Pricing Model with Many Periods
+page 531
+
+When we have more than two periods, nothing really changes. We still work backwards one period at a time. Figure 16.4 shows a binomial tree with five periods to option expiration. Now there are six option values at expiration. To calculate today’s option price, you would have to calculate 14 intermediate option prices, which would be fairly tedious and explains why computers come in handy to calculate option prices.
+
+A Five-Period Stock Price Tree
+
+FIGURE 16.4
+
+
+Looking at Figure 16.4, note the various paths that the stock can follow after the stock has increased or decreased in price. There are five ways that the stock could wind up at the black dot. For example, from the diamond marked U, the stock could follow the blue or red path to the black dot at the end of the tree. The collection of possible stock price paths is also called the “lattice.”
+
+As another example, from the diamond marked D, the stock could follow the orange or turquoise path to the yellow dot at the end of the tree. The stock price today can wind up at the yellow dot following 10 paths. In Figure 16.4, we show the number of ways that the stock can follow to the end points of the tree. As you can see, the stock can follow only one path to reach the highest and lowest possible prices. Also, you will notice that the way the numbers increase from 1 to 10 and then decrease back to 1 is symmetric.
+
+Let’s get crazy. Figure 16.5 shows a lattice with 18 periods to expiration. We have superimposed a two-period binomial option pricing lattice over it. In this way, you can see that two periods can be subdivided into many periods.
+
+An 18-Period Stock Price Tree
+
+FIGURE 16.5
+
+
+page 532
+
+There are many possible stock paths in Figure 16.5. In fact, there are 218 (or 262,144) of them. Yikes! We have written down the possible ways that the stock price can wander to its ending prices at the option expiration date. As before, there is only one way to get to the highest possible stock price. However, there are 18 paths to the next highest stock price. You can see a symmetry to the way the paths increase in number from 1 to 48,620 and then decrease back to 1.
+
+If you wanted to calculate today’s option price, you don’t have to worry about the number of paths. However, you do have to worry about the number of intersections at which the stock price can increase or decrease. With 18 periods to expiration, you would need to calculate 19 expiration day stock prices and 170 intermediate option prices (that should seem like a lot to you).
+
+What happens when the number of periods gets really big? The answer is that we could always use a computer to handle the calculations, but we can use a more elegant method. As it happens, when the number of periods gets huge, the price calculated using our binomial approach converges to the price from the famous Black-Scholes option pricing model, which we study in the next section.
+
+CHECK THIS
+
+
+
+16.4aWhy is it that nothing really changes when there are more than two periods to expiration?
+
+16.4bWhy don’t you have to worry about the number of paths the stock price can take before expiration? What do you have to worry about?
+
+page 533
+
+16.5 The Black-Scholes Option Pricing Model
+Option pricing theory made a great leap forward in the early 1970s with the development of the Black-Scholes option pricing model by Fischer Black and Myron Scholes. Recognizing the important theoretical contributions by Robert Merton, many finance professionals knowledgeable in the history of option pricing theory refer to an extended version of the Black-Scholes model as the Black-Scholes-Merton option pricing model. In 1997, Myron Scholes and Robert Merton were awarded the Nobel Prize in Economics for their pioneering work in option pricing theory. Unfortunately, Fischer Black had died two years earlier and thus did not share the Nobel Prize, which cannot be awarded posthumously.
+
+Our focus is on the basic Black-Scholes model. The Black-Scholes option pricing model states the value of a European option on a non–dividend-paying stock as a function of these five input factors:
+
+The current price of the underlying stock.
+
+The strike price specified in the option contract.
+
+The risk-free interest rate over the life of the option contract.
+
+The time remaining until the option contract expires, sometimes called expiry.
+
+The price volatility of the underlying stock (i.e., the distribution of possible stock prices at expiration).
+
+expiry
+
+A shortened way of saying “time to maturity.”
+
+In the model, the five inputs are defined as follows:
+
+S = Current stock price
+
+K = Option strike price
+
+r = Risk-free interest rate
+
+T = Time remaining until option expiration
+
+σ = Sigma, representing stock price volatility
+
+The CBOE has a free options calculator that will do most of the calculations in this chapter at
+cboe.com.
+
+In terms of these five inputs, the Black-Scholes formula for the price of a European call option on a single share of common stock is:
+
+
+The Black-Scholes formula for the price of a European put option on a share of common stock is:
+
+
+In these call and put option formulas, the numbers d1 and d2 are calculated as:
+
+
+For many links to option-related topics, see
+theocc.com.
+
+page 534
+
+In the formulas above, call and put option prices are algebraically represented by C and P, respectively. In addition to the five input factors S, K, r, T, and σ, the following three mathematical functions are used in the call and put option pricing formulas:
+
+ex, or exp(x), denoting the natural exponent of the value of x.
+
+ln(x), denoting the natural logarithm of the value of x.
+
+N(x), denoting the standard normal probability of the value of x.
+
+Computing Black-Scholes Option Prices
+
+EXAMPLE 16.2
+
+Calculate call and put option prices, given the following inputs to the Black-Scholes option pricing formula:
+
+
+Referring to Equations 16.3 and 16.4, first we compute values for d1 and d2:
+
+
+The following standard normal probabilities are provided:
+
+
+We can now calculate the price of the call option as:
+
+
+and the price of the put option as:
+
+
+Exact standard normal probabilities provided in this example are obtained from Excel using the function NORMSDIST(x). A detailed example of how to use an Excel spreadsheet to calculate Black-Scholes option prices is shown in a Spreadsheet Analysis box later in this chapter.
+
+Using a Web-Based Option Calculator
+
+EXAMPLE 16.3
+
+The purpose of Example 16.2 was to show you that the Black-Scholes formula is not hard to use—even if at first it looks imposing. If you are in a hurry to price an option or if you want to verify the price of an option that you have calculated, a number of option calculators are available on the web. Let’s check our previous answers by using the option calculator we found at option-price.com.
+
+
+page 535
+
+CHECK THIS
+
+
+
+16.5aConsider the following inputs to the Black-Scholes option pricing model.
+
+
+These input values yield a call option price of $6.78 and a put option price of $1.03. Verify these prices from your own calculations.
+
+16.6 Varying the Option Price Input Values
+An important goal of this chapter is to provide an understanding of how option prices change as a result of varying each of the five input values. Table 16.3 summarizes the sign effects of the five inputs on call and put option prices. A plus sign indicates a positive effect and a minus sign indicates a negative effect on the price of the option. For example, if the stock price increases, the call option price increases and the put option price decreases.
+
+Five Inputs Affecting Option Prices
+
+TABLE 16.3
+
+Sign of Input Effect
+Input	Call	Put
+Underlying stock price (S)	+	-
+Strike price of the option contract (K)	-	+
+Time remaining until option expiration (T)	+	+
+Volatility of the underlying stock price (σ)	+	+
+Risk-free interest rate (r)	+	-
+The two most important inputs determining stock option prices are the stock price and the strike price. However, the other input factors are also important determinants of option value. We next discuss each input factor separately.
+
+page 536
+
+VARYING THE UNDERLYING STOCK PRICE
+Certainly, the price of the underlying stock is one of the most important determinants of the price of a stock option. As the stock price increases, the call option price increases and the put option price decreases. This is not surprising because a call option grants the right to buy stock shares and a put option grants the right to sell stock shares at a fixed strike price. Consequently, a higher stock price at option expiration increases the payoff of a call option. Likewise, a lower stock price at option expiration increases the payoff of a put option.
+
+For a given set of input values, the relationship between call and put option prices and an underlying stock price is illustrated in Figure 16.6. In Figure 16.6, stock prices are measured on the horizontal axis and option prices are measured on the vertical axis. Notice that the curves describing the relationships between call and put option prices and the underlying stock price have a convex (bowed) shape. Convexity is a fundamental characteristic of the relationship between option prices and stock prices.
+
+Put and Call Option Prices
+
+FIGURE 16.6
+
+
+VARYING THE OPTION’S STRIKE PRICE
+As the strike price increases, the call price decreases and the put price increases. This is reasonable because a higher strike price means that we must pay a higher price when we exercise a call option to buy the underlying stock, thereby reducing the call option’s value. Similarly, a higher strike price means that we will receive a higher price when we exercise a put option to sell the underlying stock, thereby increasing the put option’s value. Of course, this logic works in reverse also; as the strike price decreases, the call price increases and the put price decreases.
+
+VARYING THE TIME REMAINING UNTIL OPTION EXPIRATION
+Time remaining until option expiration is an important determinant of option value. As time remaining until option expiration lengthens, both call and put option prices normally increase. This is expected because a longer time remaining until option expiration allows more time for the stock price to move away from a strike price and increase the option’s payoff, thereby making the option more valuable. The relationship between call and put option prices and time remaining until option expiration is illustrated in Figure 16.7, where time remaining until option expiration is measured on the horizontal axis and option prices are measured on the vertical axis.
+
+Option Prices and Time to Expiration
+
+FIGURE 16.7
+
+
+VARYING THE VOLATILITY OF THE STOCK PRICE
+Stock price volatility (sigma, σ) plays an important role in determining option value. As stock price volatility increases, both call and put option prices increase. This is as expected because page 537the more volatile the stock price, the greater is the likelihood that the stock price will move farther away from a strike price and increase the option’s payoff, thereby making the option more valuable. Remember, option payoffs are asymmetric. That is, the downside is limited to a value of zero. So, any increase in volatility can only make the range of possible payoffs bigger (and better). The relationship between call and put option prices and stock price volatility is graphed in Figure 16.8, where volatility is measured on the horizontal axis and option prices are measured on the vertical axis.
+
+Option Prices and Sigma
+
+FIGURE 16.8
+
+
+VARYING THE INTEREST RATE
+Although seemingly not as important as the other inputs, the interest rate still noticeably affects option values. As the interest rate increases, the call price increases and the put price decreases. This is explained by the time value of money. A higher interest rate implies a greater discount, which lowers the present value of the strike price that we pay when we exercise a call option or receive when we exercise a put option. Figure 16.9 graphs the relationship between call and put option prices and interest rates, where the interest rate is measured on the horizontal axis and option prices are measured on the vertical axis.
+
+Option Prices and Interest Rates
+
+FIGURE 16.9
+
+
+page 538
+
+CHECK THIS
+
+
+
+16.6aUsing put-call parity and the data in Figure 16.6, at what stock price will the call and the put have the same value?
+
+16.6bIn Figure 16.7, why do the call and the put both have a value of zero at expiration?
+
+16.7 Measuring the Impact of Stock Price Changes on Option Prices
+Investment professionals using options in their investment strategies have standard methods to state the impact of changes in input values on option prices. The two inputs that most affect stock option prices over a short period, say a few days, are the stock price and the stock price volatility. The approximate impact of a stock price change on an option price is stated by the option’s delta.
+
+delta
+
+Measure of the dollar impact of a change in the underlying stock price on the value of a stock option. Delta is positive for a call option and negative for a put option.
+
+We introduced the concept of delta, Δ, when we discussed the binomial model earlier in this chapter. The difference between deltas in the binomial model and the Black-Scholes model is simple. Delta in the binomial model is calculated over discrete time periods, which can be very short. In the Black-Scholes model, time periods are infinitesimally short. In the Black-Scholes model, therefore, we measure delta as an instantaneous change in the option price when the stock price changes. In the Black-Scholes option pricing model, expressions for call and put option deltas are stated as follows, where the mathematical function and N(x) were previously defined:
+
+
+As shown above, a call option delta is always positive and a put option delta is always negative. This can be seen in Table 16.3, where the “+” indicates a positive change for a call option price and the “−” indicates a negative change for a put option price resulting from an increase in the underlying stock price.
+
+page 539
+
+Computing Call and Put Option Deltas
+
+EXAMPLE 16.4
+
+Given the inputs to the Black-Scholes option pricing formula provided in Example 16.2, calculate call and put option deltas. The necessary values for d1, N(d1), and N(−d1) were provided in Example 16.2.
+
+
+Therefore:
+
+
+Notice that N (d1) − 1 = .84741 − 1 = −.15259 = −N (−d1).
+
+Refer to the nearby Spreadsheet Analysis box for examples of using a spreadsheet to calculate Black-Scholes call and put option prices, as well as deltas.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft
+
+INTERPRETING OPTION DELTAS
+Interpreting the meaning of an option delta is relatively straightforward. Delta measures the impact of a change in the stock price on an option price, where a $1 change in the stock price causes an option price to change by approximately delta dollars. For example, using the input values stated immediately below, we obtain a call option price (rounded) of $6.20 and a put page 540option price (rounded) of $.52. These input values yield a call option delta of +.85 and a put option delta of −.15.
+
+S = $50
+
+r = 6%
+
+K = $45
+
+σ = 25%
+
+T = .25
+
+If we change the stock price from $50 to $51, we get a call option price of $7.06 and a put option price of $.39. Thus, a +$1 stock price change increased the call option price by $.86 and decreased the put option price by $.13. These price changes are close to, but not exactly equal to, the call option delta value of +.85 and put option delta value of −.15.
+
+CHECK THIS
+
+
+
+16.7aWhy do investors care about option deltas?
+
+16.7bWhy do you think deltas for call options are positive but deltas for put options are negative?
+
+16.8 Hedging Stock with Stock Options
+Now that we know how to calculate option prices and option deltas, we turn our attention to an important way investors use options. Options provide investors with the opportunity to protect themselves against losses. Taking advantage of this opportunity is known as hedging.
+
+Suppose you own 1,000 shares of XYZ stock, the stock we analyzed in the Spreadsheet Analysis earlier in the chapter. From the assumptions used in the Spreadsheet Analysis, we calculated prices and deltas for call and put options. If we had used all the same assumptions but used a stock price of $49 instead of $50, we would get a different set of prices and deltas for call and put options. Table 16.4 provides a convenient summary (notice we have rounded the change in option prices to two decimal places). In Table 16.4, all option prices use these inputs: a strike of $45, volatility of 25 percent, a risk-free rate of 6 percent, and three months to maturity.
+
+Using the Black-Scholes Option Model for Hedging
+
+TABLE 16.4
+
+
+Further, suppose that you want to protect yourself against declines in the XYZ stock price. That is, you want to hedge: You want a portfolio that does not change in value if the stock price changes. To form this portfolio, you must add some options to your portfolio. How many options to add and whether you should be buying or selling options are two important questions that we answer. To begin, let us write down our goal:
+
+
+The change in the value of the stock portfolio equals the change in the stock price times the number of shares. Similarly, the change in the value of options held is the change in the option price times the number of options. The one point to remember, however, is that the change in the option price depends on the change in the price of the stock.
+
+From earlier in the chapter, we know that the delta of an option is a prediction of how the option price will change when the stock price changes by one dollar. If a call option has a delta of .58, the option price will change $.58 when the stock price changes by one dollar. If page 541the stock price increases by only $.50, then the option delta predicts that the call option price will increase by $.29. We generally assume that the stock price changes by one dollar when we are talking about hedging, but the stock price can change by other amounts. The lesson is that the change in the option price is equal to the option delta times the change in the stock price, which we denote as ΔS. So, if we multiply the change in the option price by the number of options held, we have the change in the value of options held. Knowing how to calculate these changes in value, we can write:
+
+
+You can see that the change in the stock price, ΔS, can be eliminated from the equation. We know the number of shares we have, and we can calculate an option delta using our favorite option pricing model. All we need to do is calculate the number of options that we need to add, which is:
+
+
+Equation 16.7 offers two important lessons. First, recall that an option delta tells us how many shares you need to hedge one call. The number of options that you need to hedge one share, therefore, is one divided by the option delta. Second, notice the minus sign out front. You can figure out whether to buy options depending on whether you get a positive number or a negative number in Equation 16.7. We saw that deltas for call options are positive (but between zero and one) and deltas for put options are negative (but between minus one and zero). So, if we are hedging shares using call options, we need to sell call options. If we are hedging shares using put options, we need to purchase put options. An example will help you use these formulas.
+
+HEDGING USING CALL OPTIONS—THE PREDICTION
+As shown in Table 16.3, stock prices and call option prices are directly related. When the stock price increases, so do prices of call options on these shares. From Table 16.4, the call option delta is .8474 when the XYZ stock price is $50. The call option delta is a prediction that the call option price will increase (decrease) by about $.85 if the stock price increases (decreases) by $1.00.
+
+So, to hedge declines in XYZ share prices using call options, you need to write, or sell, call options to protect against a price decline. But notice that if the price of XYZ stock fell by $1.00 and you had 1,000 options, you would gain only $847.40. This would partially, but not fully, offset your loss of $1,000. You can do better by writing more options. Fortunately, you can use Equation 16.7 to tell you how many call options to write:
+
+
+The minus sign confirms that you should write, or sell, call options. Because traded call options have 100 options per contract, you would need to write:
+
+
+call option contracts to create a hedge using call options with a strike of $45.
+
+HEDGING USING CALL OPTIONS—THE RESULTS
+Suppose you write 12 call option contracts at a price of $6.20 (rounded) per option, or $620 per contract. Further, just as you feared, XYZ stock fell in value by $1.00, so you suffered a $1,000 loss in the value of your shares. But what happened to the value of the call options you wrote? At the new XYZ stock price of $49, each call option is now worth $5.37 (rounded), a decrease of $.83 for each call, or $83 per contract. Because you wrote 12 call option contracts, your call option gain was $996.
+
+Your gain in the call options nearly offsets your loss of $1,000 in XYZ shares. Why isn’t it exact? You can see from Table 16.4 that delta also fell when the stock price fell. This means that you did not sell quite enough options. But because option contracts consist of 100 shares, you really did about as well as you could with this simple hedge.
+
+page 542
+
+HEDGING USING PUT OPTIONS—THE PREDICTION
+As shown in Table 16.3, stock prices and put option prices are inversely related. When the stock price increases, put option prices on these shares decrease. From Table 16.4, the put option delta is −.1526 when the stock price is $50. The put option delta is a prediction that the put option price will decrease (increase) by about $.15 if the stock price increases (decreases) by $1.00.
+
+Therefore, you want to purchase put options to profit from their price increase if the stock price decreases. But notice that if the price of XYZ stock fell by $1.00 and you had 1,000 put options, you would gain only $152.60. This is insignificant when compared to your $1,000 loss in XYZ shares. You will have to purchase more put options if you are going to have a better hedge. Fortunately, Equation 16.7 also tells you how many put options to purchase:
+
+
+Because this number is positive, this confirms that you want to purchase put options. Because traded put options have 100 options per contract, you would need to purchase:
+
+
+put option contracts to create a hedge using put options with a strike of $45.
+
+HEDGING USING PUT OPTIONS—THE RESULTS
+Suppose you purchase 66 put option contracts at a price of $.53 (rounded) per option, or $53 per contract. Again, as you feared, XYZ stock fell in value by $1.00, so you suffered a $1,000 loss in the value of your shares. But what happened to the value of the put options? At the new XYZ stock price of $49, each put option is now worth $.70, an increase of $.17 for each put option, or $17 per contract. Because you purchased 66 put option contracts, your put option gain was $1,122.
+
+Your gain in the put options more than offsets your loss of $1,000 in XYZ shares. Why isn’t it exact? You can see from Table 16.4 that the put delta also fell when the stock price fell (but it increased in absolute value). This means that you purchased too many put options. If you had purchased 59 put option contracts, you would have offset your share loss more closely.
+
+How would you have known that 59 put options make a better hedge than 66 options? By constructing a table similar to Table 16.4 in advance, you would know that these put options increase in value by $.17 when the stock falls in value by $1. Therefore, each put option contract increases by about $17. Dividing $1,000 by $17 yields 58.82, telling us that 59 put contracts will provide a good hedge.
+
+CHECK THIS
+
+
+
+16.8aWhat happens to call and put prices when the price of the underlying stock changes?
+
+16.8bWhat is the goal of a hedger who uses options?
+
+16.9 Hedging a Stock Portfolio with Stock Index Options
+Portfolio managers can hedge their entire equity portfolio by using stock index options. In this section, we examine how an equity portfolio manager might hedge a diversified stock portfolio using stock index options.
+
+To begin, suppose that you manage a $10 million diversified portfolio of large-company stocks and that you maintain a portfolio beta of 1.00 for this portfolio. With a beta of 1.00, changes in the value of your portfolio closely follow changes in the Standard & Poor’s 500 index. Therefore, you decide to use options on the S&P 500 index as a hedging vehicle. S&P 500 index page 543options trade on the Chicago Board Options Exchange (CBOE) under the ticker symbol SPX. Each SPX option has a contract value of 100 times the current level of the S&P 500 index.
+
+SPX options are a convenient hedging vehicle for an equity portfolio manager because they are European style and because they settle in cash at expiration. For example, suppose you hold one SPX call option with a strike price of 2,100 and at option expiration, the S&P 500 index stands at 2,107. In this case, your cash payoff is $100 times the difference between the index level and the strike price, or $100 × (2,107 − 2,100) = $700. Of course, if the expiration date index level falls below the strike price, your SPX call option expires worthless.
+
+Hedging a stock portfolio with index options requires first calculating the number of option contracts needed to form an effective hedge. While you can use either put options or call options to construct an effective hedge, we assume that you decide to use call options to hedge your $10 million equity portfolio. Using stock index call options to hedge an equity portfolio involves writing a certain number of option contracts. In general, the number of stock index option contracts needed to hedge an equity portfolio is stated by the equation:
+
+
+In your case, you have a portfolio beta of 1.00 and a portfolio value of $10 million. You now need to calculate an option delta and option contract value.
+
+The option contract value for an SPX option is 100 times the current level of the S&P 500 index. Checking the CBOE website, you see that the S&P 500 index has a value of 2,046, which means that each SPX option has a current contract value of $204,600.
+
+To calculate an option delta, you must decide which particular contract to use. You decide to use options with a March expiration and a strike price of 2,050, that is, the March 2050 SPX contract. From the internet you find that the price for these options is $69.60 and their delta is .579.
+
+You now have sufficient information to calculate the number of option contracts needed to construct an effective hedge for your equity portfolio. By using Equation 16.8, we can calculate the number of March 2050 SPX options that you should write to form an effective hedge:
+
+
+Furthermore, by writing 84 March 2050 call options, you receive 84 × 100 × $69.60 = $584,640.
+
+To assess the effectiveness of this hedge, suppose the S&P 500 index and your stock portfolio both immediately fall in value by 1 percent. This is a loss of $100,000 on your stock portfolio. After the S&P 500 index falls by 1 percent, its level is 2,025.54. Suppose the call option price is now C = $57.75. If you were to buy back the 84 contracts, you would pay 84 × 100 × $57.75 = $485,100. Because you originally received $584,640 for the options, this represents a gain of $584,640 − $485,100 = $99,540, which cancels most of the $100,000 loss on your equity portfolio. In fact, your final net loss is only $460, which is a small fraction of the loss that would have been realized with an unhedged portfolio.
+
+To maintain an effective hedge over time, you will need to rebalance your options hedge on, say, a weekly basis. Rebalancing requires calculating anew the number of option contracts needed to hedge your equity portfolio, and then buying or selling options in the amount necessary to maintain an effective hedge. The nearby Investment Updates box contains a brief comparison of various index option products used to hedge equity portfolios.
+
+The Option Hedge Ratio for a Stock Portfolio
+
+EXAMPLE 16.5
+
+You are managing a $15 million stock portfolio with a beta of 1.1, which you decide to hedge by buying index put options with a contract value of $125,000 per contract and a delta of −.40. How many option contracts are required?
+
+Plugging our information into Equation 16.8 yields this calculation:
+
+
+Thus, you would need to buy 330 put option contracts.
+
+page 544
+
+INVESTMENT UPDATES
+
+WHAT’S A BETTER HEDGE—VIX OR SPX?
+
+Equity investors who want a broad-based hedge have essentially three vehicles from which to choose: equity index options (SPY, SPX, ES, etc.), CBOE Volatility Index (VIX) futures (or their ETF permutations), and VIX options. Which is best?
+
+One argument in favor of using VIX-linked products is that they are independent of any price level in the underlying equity index. If you enter a one-year at-the-money SPX hedge today using the at-the-money strike price, the puts you bought won’t do you much good if the market rallies sharply for six months and then slips dramatically thereafter. Using a strike-dependent price-based hedge, it is entirely possible to lose money on both the hedge and the core portfolio if the hedged asset(s) don’t follow a favorable path over the life of the hedge.
+
+The big advantage of volatility-based products is that they are linked not to some absolute price level, but to an absolute volatility level. In my experience, many equity investors are more concerned about hedging against volatility than about protecting against declines below some specific price level. Gradual, orderly bear markets can be managed as easily as steady bull markets; it’s the sudden shocks that concern people.
+
+I’m not as favorably inclined toward VIX options, though. For one thing, outright VIX option buyers seem to be paying for their optionality two times over: VIX futures already have option-like properties in that they tend to carry a premium to current IV levels, especially in further months. That premium “decays” as a given contract nears expiration, such that a “buy and hold” VIX futures trader isn’t gaining long exposure to volatility explosions for free: most of the time, she is paying each month for the privilege of watching volatility not explode. That volatility risk premium is not so large that hedging becomes prohibitive—not at all—but in my opinion the added costs of VIX options are only worthwhile if those option hedges are actively and carefully managed.
+
+That last point suggests the rejoinder available to any proponent of conventional equity index hedges: strike dependence is only a major problem for investors who insist on passive, long-dated hedges. An investor who is willing to roll their option hedges more frequently can avoid the problem of strike dependence and therefore can trade the more easily understood S&P 500 products. So my own order of preference for hedging an equity portfolio runs: VIX futures, SPX options, and then VIX options.
+
+_____________
+
+Source: Jared Woodard, “What’s a Better Hedge—VIX or SPX?,” The Street, August 7, 2013. Copyright © 2013 by The Street. All rights reserved. Used with permission.
+
+CHECK THIS
+
+
+
+16.9a  In the hedging example in the text, suppose that your equity portfolio had a beta of 1.50 instead of 1.00. What number of SPX call options would be required to form an effective hedge?
+
+16.9b  Alternatively, suppose that your equity portfolio had a beta of .50. What number of SPX call options would then be required to form an effective hedge?
+
+16.10 Implied Standard Deviations
+The Black-Scholes option pricing model is based on five inputs: a stock price, a strike price, an interest rate, the time remaining until option expiration, and the stock price volatility. Of these five factors, only the stock price volatility is not directly observable and must be estimated somehow. A popular method to estimate stock price volatility is to use an implied value from an option price. A stock price volatility estimated from an option price is called an implied standard deviation or implied volatility, often abbreviated as ISD or IVOL, respectively. Implied volatility and implied standard deviation are two terms for the same thing.
+
+implied standard deviation (ISD)
+
+An estimate of stock price volatility obtained from an option price.
+
+implied volatility (IVOL)
+
+Another term for implied standard deviation.
+
+Calculating an implied volatility requires that all input factors have known values, except sigma, and that a call or put option price be known. For example, consider the following option price input values, absent a value for sigma:
+
+S = $50
+
+K = $45
+
+T = .25
+
+r = 6%
+
+page 54
+
+WORK THE WEB
+
+Solving for an ISD using the other option price inputs (and the option price) can be tedious. Fortunately, many option calculators will do the work for you. Suppose you have a call option with a strike price of $45 that expires in three months. The stock currently sells for $50, the option sells for $7, and the interest rate is 6 percent per year. What is the ISD? To find out, we went to the “Implied Volatility” tab of the options calculator at option-price.com. After entering this information, here is what we got.
+
+Notice the calculator uses time to maturity in days, so we input 91 (which is about 3 months, or .25 of a year). Based on the input data, the underlying stock has an ISD of 36.82 percent per year.
+
+
+Source: option-price.com.
+
+Suppose we also have a call price of C = $6.195. Based on this call price, what is the implied volatility? In other words, in combination with the input values stated above, what sigma value yields a call price of C = $6.195? The answer comes from Example 16.2, which shows that a sigma value of .25, or 25 percent, yields a call option price of $6.195.
+
+Now suppose we wish to know what volatility value is implied by a call price of C = $7. To obtain this implied volatility value, we must find the value for sigma that yields this call price. By trial and error, you can try various sigma values until a call option price of $7 is obtained. This occurs with a sigma value of 36.77 percent, which is the ISD corresponding to a call option price of $7. Our nearby Work the Web box shows how to get ISDs the easy way.
+
+CBOE IMPLIED VOLATILITIES FOR STOCK INDEXES
+The Chicago Board Options Exchange (CBOE) publishes three implied volatility indexes: the S&P 500 Volatility Index (VIX), the S&P 100 Volatility Index (VXO), and the NASDAQ 100 Volatility Index (VXN). VIX is an implied volatility calculated from options on the S&P 500 Index. VXO is an implied volatility calculated from options on the S&P 100 index. VXN is an implied volatility calculated from options on the NASDAQ 100 index. These indexes are three of the most popular measures of investor expectations of future stock market volatility. They are based on options traded on three major stock market indexes: the S&P 500, the S&P 100, and the NASDAQ 100. The ticker symbols for these three volatility indexes and the underlying stock indexes are summarized as follows:
+
+VIX
+
+An implied volatility calculated from options on the S&P 500 Index.
+
+VXO
+
+An implied volatility calculated from options on the S&P 100 index.
+
+VXN
+
+An implied volatility calculated from options on the NASDAQ 100 index.
+
+Volatility Index Ticker	Stock Index	Stock Index Ticker
+VIX	S&P 500	SPX
+VXO	S&P 100	OEX
+VXN	NASDAQ 100	NDX
+Current levels for these volatility indexes are available at the CBOE website (cboe.com). You can also check them at Yahoo! Finance (finance.yahoo.com), along with the levels of their underlying stock indexes, using their ticker symbols. Note that the ticker symbols for these indexes do not correspond to traded securities and so must be preceded by a caret sign, that is, ^VIX, ^VXO, and ^VXN.
+
+page 546
+
+The VIX, VXO, and VXN implied volatility indexes are reported as annualized standard deviations. These volatility indexes provide investors with current estimates of expected market volatility in the month ahead. In fact, another name for the VIX is the “investor fear gauge.” This name stems from the belief that the VIX reflects investors’ collective prediction of near-term market volatility, or risk. Generally, the VIX increases during times of high financial stress and decreases during times of low financial stress.
+
+Some investors use the VIX as a buy-sell indicator. This is because low levels of the VIX have, in many instances, preceded market sell-offs. The market saying is: “When the VIX is high, it’s time to buy; when the VIX is low, it’s time to go!”
+
+CHECK THIS
+
+
+
+16.10a  Using the option calculator and the data in the nearby Work the Web, what is the implied standard deviation when the call option market price is $8 instead of $7? $6 instead of $7? What do you observe?
+
+16.10b  Using the option calculator and the data in the nearby Work the Web, what is the implied standard deviation of a similar put option?
+
+16.11 Employee Stock Options
+In this section, we take a brief look at employee stock options (ESOs). An ESO is, in essence, a call option that a firm gives to employees giving them the right to buy shares of stock in the company. The practice of granting options to employees has become widespread. It is almost universal for upper management, but some companies, like The Gap and Starbucks, have granted options to almost every employee. Thus, an understanding of ESOs is important. Why? Because you may very soon be an ESO holder!
+
+employee stock option (ESO)
+
+An option granted to an employee by a company that gives the employee the right to buy shares of stock in the company at a fixed price for a fixed time.
+
+ESO FEATURES
+Because ESOs are basically call options, we have already covered most of the important aspects. However, ESOs have a few features that make them different from regular stock options. The details differ from company to company, but a typical ESO has a 10-year life, which is much longer than most ordinary options. Unlike traded options, ESOs cannot be sold. They also have what is known as a “vesting” period. Often, for up to three years or so, an ESO cannot be exercised and also must be forfeited if an employee leaves the company. After this period, the options “vest,” which means they can be exercised. Sometimes employees who resign with vested options are given a limited time to exercise their options.
+
+Why are ESOs granted? There are basically two reasons. First, the owners of a corporation (the shareholders) face the basic problem of aligning shareholder and management interests and also of providing incentives for employees to focus on corporate goals. ESOs are a powerful motivator because, as we have seen, the payoffs on options can be very large. High-level executives in particular stand to gain enormous wealth if they are successful in creating value for stockholders.
+
+The second reason some companies rely heavily on ESOs is that an ESO has no immediate, up-front, out-of-pocket cost to the corporation. In smaller, possibly cash-strapped, companies, ESOs are a substitute for ordinary wages. Employees are willing to accept them instead of cash, hoping for big payoffs in the future. In fact, ESOs are a major recruiting tool, allowing businesses to attract talent that they otherwise could not afford.
+
+ESO REPRICING
+ESOs are almost always “at the money” when they are issued, meaning that the stock price is equal to the strike price. Notice that, in this case, the intrinsic value is zero, so there is no value from immediate exercise. Of course, even though the intrinsic value is zero, an ESO is still quite valuable because of, among other things, its very long life.
+
+If the stock falls significantly after an ESO is granted, then the option is said to be “underwater.” On occasion, a company will decide to lower the strike price on underwater options. Such options are said to be “restruck” or “repriced.”
+
+page 547
+
+The practice of repricing ESOs is very controversial. Companies that do it argue that once an ESO becomes deeply out of the money, it loses its incentive value because employees recognize there is only a small chance that the option will finish in the money. In fact, employees may leave and join other companies where they receive a fresh options grant.
+
+Critics of repricing point out that a lowered strike price is, in essence, a reward for failing. They also point out that if employees know that options will be repriced, then much of the incentive effect is lost. Today, many companies award options on a regular basis, perhaps annually or even quarterly. That way, an employee will always have at least some options that are near the money even if others are underwater. Also, regular grants ensure that employees always have unvested options, which gives them an added incentive to stay with their current employer rather than forfeit the potentially valuable options.
+
+ESOs AT THE GAP, INC.
+The Gap, Inc., is a large, well-known company whose stock trades under the ticker symbol GPS (GAP is the ticker symbol for Great Atlantic & Pacific Tea Co., which you probably know as A&P). The Gap grants employee stock options that are fairly standard. This description of The Gap’s ESOs is taken from its annual report:
+
+Under our stock option plans, options to purchase common stock are granted to officers, directors, eligible employees and consultants at exercise prices equal to the fair market value of the stock at the date of grant. Stock options generally expire 10 years from the grant date, three months after termination, or one year after the date of retirement or death, if earlier. Stock options generally vest over a four-year period, with shares becoming exercisable in equal annual installments of 25 percent.5
+
+The Gap’s ESOs are not European-style options because they vest in equal increments over a four-year period. By “vest,” we mean the holders can exercise these options. If you were granted options on 500 shares of GPS stock, you could exercise options on 125 shares one year after the grant date, another 125 shares two years after the grant date, another 125 shares three years after the grant date, and the last 125 shares four years after the grant date. Of course, you wouldn’t have to exercise your options this quickly. As long as you stay with the company, you could wait 10 years to exercise your options just before they expire.
+
+VALUING EMPLOYEE STOCK OPTIONS
+The Financial Accounting Standards Board issued FASB 123 to tell companies how to calculate the fair value of employee stock options. Basically, FASB 123 states that the fair value of ESOs should be determined using an option pricing model that takes into account the:
+
+Stock price at the grant date.
+
+Exercise price.
+
+Expected life of the option.
+
+Volatility of the underlying stock.
+
+Risk-free interest rate over the expected life of the option.
+
+Expected dividends.
+
+As a practical matter, many companies calculate ESO prices using the Black-Scholes-Merton option pricing model. The Black-Scholes-Merton model is very similar to the Black-Scholes model. The difference between the two models is that expected dividends are an input for the Black-Scholes-Merton model.
+
+In terms of its six inputs, the Black-Scholes-Merton call option formula is:6
+
+
+page 548
+
+One piece of Equation 16.9 that is different from the Black-Scholes formula is that the stock price is discounted by the term e−yT. In this discounting term, y represents the stock’s dividend yield. In addition, the numbers d1 and d2 are calculated as:
+
+
+How do companies use the Black-Scholes-Merton formula to calculate ESO values? As an example, in December 2002, The Coca-Cola Company granted to several executives employee stock options representing more than half a million shares of Coke stock. The options had a stated term of 15 years, but to allow for the fact that employee stock options are often exercised before maturity, Coca-Cola used two time horizon assumptions to value the options: the longest possible term of 15 years and an expected term of 6 years. The company then adjusted the interest rate, dividend yield, and volatility assumptions to each of these terms.
+
+The different input values assumed and the resulting Black-Scholes option values are summarized in Table 16.5. Notice that Coca-Cola assumed a higher volatility and dividend yield but a lower riskless interest rate for the six-year time horizon assumption. These assumptions seem reasonable because stock market volatility was relatively high and interest rates were relatively low in 2002.
+
+Coca-Cola Employee Stock Options
+
+TABLE 16.5
+
+Inputs	Input Value Assumptions
+Stock price	$44.55	$44.55
+Exercise price	$44.655	$44.655
+Time horizon	15 years	6 years
+Volatility	25.53%	30.20%
+Risk-free interest rate	5.65%	3.40%
+Dividend yield	1.59%	1.70%
+Black-Scholes-Merton option value	$19.92	$13.06
+CHECK THIS
+
+
+
+16.11a  What are the key differences between a traded stock option and an ESO?
+
+16.11b  What is ESO repricing? Why is it controversial?
+
+16.11c  If you terminate your employment at The Gap, Inc., how long do you have to decide whether you will exercise your employee stock options?
+
+16.12 Summary and Conclusions
+In this chapter, we examined stock option prices. Many important concepts and details of option pricing were covered. We summarize some of these aspects below. However, be warned: The following summary does not include important details of how to calculate option prices. You will need to study the body of the chapter to become proficient in these important details.
+
+How to price options using the one-period and two-period binomial models.
+
+A.  We show the details for a method to price European call options using the one-period and two-period binomial models. With a slight modification to allow for early exercise, this technique can also be used to calculate prices for American calls and puts. In fact, this basic technique is so powerful that, with the right modifications, it can be used to price an exotic array of options.
+
+B.  The details of this method are:
+
+Step 1: Build a price tree for stock prices through time.
+
+page 549
+
+Step 2: Use the intrinsic value formula to calculate the possible option prices at expiration.
+
+Step 3: Calculate the fractional share needed to form each risk-free portfolio at the next-to-last date.
+
+Step 4: Calculate all the possible option prices at the next-to-last date.
+
+Step 5: Repeat this process by working back to today.
+
+How to price options using the Black-Scholes model.
+
+A.  The Black-Scholes option pricing formula states that the value of a stock option is a function of the current stock price, option strike price, risk-free interest rate, time remaining until option expiration, and the stock price volatility.
+
+B.  The two most important determinants of the price of a stock option are the price of the underlying stock and the strike price of the option. As the stock price increases, call prices increase and put prices decrease. Conversely, as the strike price increases, call prices decrease and put prices increase.
+
+C.  Time remaining until option expiration is an important determinant of option value. As time remaining until option expiration lengthens, both call and put option prices normally increase. Stock price volatility also plays an important role in determining option value. As stock price volatility increases, both call and put option prices increase.
+
+D.  Of the five input factors to the Black-Scholes option pricing model, only the stock price volatility is not directly observable and must be estimated somehow. A stock price volatility estimated from an option price is called an implied volatility or an implied standard deviation, which are two terms for the same thing.
+
+E.  The two input factors that most affect stock option prices over a short period, say, a few days, are the stock price and the stock price volatility. The impact of a stock price change on an option price is measured by the option’s delta.
+
+How to hedge a stock portfolio using options.
+
+A.  Call option deltas are always positive and put option deltas are always negative. Delta measures the impact of a stock price change on an option price, where a one-dollar change in the stock price causes an option price to change by approximately delta dollars.
+
+B.  Options on the underlying stock can be used by investors to protect themselves from price declines in shares that they own. Option deltas can be used to calculate the number of options needed to hedge shares that are owned. Investors can write call options or purchase put options to provide protection from decreases in share prices.
+
+C.  Options on the S&P 500 index are a convenient hedging vehicle for an equity portfolio because they are European style and because they settle for cash at option expiration. Hedging a stock portfolio with index options requires calculating the number of option contracts needed to form an effective hedge.
+
+D.  To maintain an effective hedge over time, hedgers should rebalance their hedge on a regular basis. Rebalancing requires (1) recalculating the number of option contracts needed to hedge an equity portfolio and then (2) buying or selling options in the amount necessary to maintain an effective hedge.
+
+The workings of employee stock options.
+
+A.  An employee stock option (ESO) is, in essence, a call option that a firm gives to employees giving them the right to buy shares of stock in the company. The practice of granting options to employees has become widespread. ESOs provide an incentive for employees to work to increase the firm’s stock price.
+
+B.  ESOs have a few features that make them different from regular stock options. The details differ from company to company, but a typical ESO has a 10-year life, which is much longer than most ordinary options. Unlike traded options, ESOs cannot be sold. They also have what is known as a “vesting” period. Often, for up to three years or so, an ESO cannot be exercised and also must be forfeited if an employee leaves the company. After this period, the options vest, which means they can be exercised.
+
+page 550
+
+C.  The Financial Accounting Standards Board issued FASB 123 to tell companies how to calculate the fair value of employee stock options. As a practical matter, many companies calculate ESO prices using the Black-Scholes-Merton option pricing model. The Black-Scholes-Merton model is very similar to the Black-Scholes model. The difference between the two models is that expected dividends are an input for the Black-Scholes-Merton model.
+
+GETTING DOWN TO BUSINESS
+
+In this chapter we introduced you to the Nobel Prize–winning Black-Scholes option pricing formula. We saw that the formula and its associated concepts are fairly complex, but, despite that complexity, the formula is widely used by traders and money managers. You can find out more about the Black-Scholes option pricing model on the internet. Enter “Black-Scholes” into an internet search engine for links to hundreds of websites.
+
+To put into practice some real-world uses for the concepts we discussed, you should gather options trading information from the web and then use the information to trade options through Stock-Trak. Some suggested websites are the Web Center for Futures and Options (ino.com), option-price.com, and PMpublishing (pmpublishing.com). Of course, don’t forget the most extensive website for options, the Chicago Board Options Exchange (cboe.com).
+
+Another important use for option pricing theory is to gain some insight into stock market volatility. Recall that in Chapter 1 we discussed the probabilities associated with returns equal to the average plus or minus a particular number of standard deviations. Implied standard deviations (ISDs) provide a means of broadening this analysis to anything with traded options. You can learn a lot about implied volatilities and how they are used by options professionals on the internet. Enter the search phrase “implied volatility” or “implied standard deviation” into your favorite internet search engine for links to dozens of websites, like IVolatility (ivolatility.com).
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+delta 538
+
+employee stock option (ESO) 546
+
+expiry 533
+
+implied standard deviation (ISD) 544
+
+implied volatility (IVOL) 544
+
+VIX 545
+
+VXN 545
+
+VXO 545
+
+Chapter Review Problems and Self-Test
+
+Black-Scholes Formula (LO2, CFA2) What is the value of a call option if the underlying stock price is $100, the strike price is $90, the underlying stock volatility is 40 percent, and the risk-free rate is 4 percent? Assume the option has 60 days to expiration.
+
+Black-Scholes Formula (LO2, CFA2) What is the value of a put option using the assumptions from Problem 1?
+
+Answers to Self-Test Problems
+
+We will use these input values to calculate the price of the call option:
+
+S = current stock price = $100
+
+K = option strike price = $90
+
+page 551
+
+r = risk-free interest rate = .04
+
+σ = stock volatility = .40
+
+T = time to expiration = 60 days
+
+We first compute values for d1 and d2:
+
+
+The following standard normal probabilities are given:
+
+
+We can now calculate the price of the call option as:
+
+
+Since we already know the values for d1 and d2, we can solve for N(−d1) and N(−d2) as follows:
+
+
+We can now calculate the price of the put option as:
+
+
+Alternatively, using put-call parity (from the previous chapter):
+
+
+Test Your Investment Quotient
+
+
+Black-Scholes Model (LO2, CFA2) The only variable in the Black-Scholes option pricing model that cannot be directly observed is the:
+
+Stock price volatility.
+
+Time to expiration.
+
+Stock price.
+
+Risk-free rate.
+
+Delta (LO2, CFA2) You purchase a call option with a delta of .34. If the stock price decreases by $2.00, the price of the option will approximately:
+
+Increase by $.34.
+
+Decrease by $.34.
+
+Increase by $.68.
+
+Decrease by $.68.
+
+Black-Scholes Model (LO2, CFA2) In the Black-Scholes option pricing model, the value of an option contract is a function of five inputs. Which of the following is not one of these inputs?
+
+The price of the underlying stock
+
+The strike price of the option contract
+
+The expected return on the underlying stock
+
+The time remaining until option expiration
+
+page 552
+
+Black-Scholes Formula (LO2, CFA2) In the Black-Scholes option valuation formula, an increase in a stock’s volatility:
+
+Increases the associated call option value.
+
+Decreases the associated put option value.
+
+Increases or decreases the option value, depending on the level of interest rates.
+
+Does not change either the put or call option value because put-call parity holds.
+
+Option Prices (LO2, CFA2) Which one of the following will increase the value of a call option?
+
+An increase in interest rates
+
+A decrease in time to expiration of the call
+
+A decrease in the volatility of the underlying stock
+
+A decrease in the price of the underlying stock
+
+Option Prices (LO2, CFA2) Which one of the following would tend to result in a high value of a call option?
+
+Interest rates are low.
+
+The variability of the underlying stock is high.
+
+There is little time remaining until the option expires.
+
+The exercise price is high relative to the stock price.
+
+Option Price Factors (LO2, CFA2) Which of the following incorrectly states the signs of the impact of an increase in the indicated input factor on call and put option prices?
+
+Call	Put
++	-
++	+
++	-
++	+
+Strike price of the option contract
+
+Time remaining until option expiration
+
+Underlying stock price
+
+Volatility of the underlying stock price
+
+Option Prices (LO2, CFA2) Increasing the time to maturity of a call option will the price of the option at a(n) rate.
+
+Increase; increasing
+
+Decrease; decreasing
+
+Increase; decreasing
+
+Decrease; decreasing
+
+Option Prices (LO2, CFA2) All else the same, an increase in which of the following will decrease the price of a call option?
+
+The strike price
+
+The price of the underlying stock
+
+The standard deviation of the underlying stock
+
+The risk-free rate
+
+Hedging with Options (LO3, CFA3) All else the same, as the value of an option used to hedge an equity portfolio increases, the number of options needed to hedge the portfolio:
+
+Increases.
+
+Decreases.
+
+Will not change.
+
+Increases only if the beta of the portfolio is less than 1.
+
+Hedging with Options (LO3, CFA3) You wish to hedge a $5 million stock portfolio with a portfolio beta equal to 1. The hedging index call option has a delta equal to .5 and a contract value equal to $100,000. Which of the following hedging transactions is required to hedge the stock portfolio?
+
+Write 200 index call option contracts.
+
+Write 100 index call option contracts.
+
+Buy 200 index call option contracts.
+
+Buy 100 index call option contracts.
+
+Hedging with Options (LO3, CFA3) You wish to hedge a $10 million stock portfolio with a portfolio beta equal to 1. The hedging index put option has a delta equal to −.5 and a contract value of $200,000. Which of the following hedging transactions is required to hedge the stock portfolio?
+
+Write 200 put option contracts.
+
+Write 100 put option contracts.
+
+page 553
+
+Buy 200 put option contracts.
+
+Buy 100 put option contracts.
+
+Implied Volatility (LO4, CFA2) Which of the following provides the best economic interpretation of implied volatility for an underlying stock?
+
+Implied volatility predicts the stock’s future volatility.
+
+Implied volatility states the stock’s historical volatility.
+
+Implied volatility is unrelated to the underlying stock.
+
+Implied volatility is an accurate measure of interest rate risk.
+
+Employee Stock Options (LO4, CFA3) You are an employee at L3 Corporation and have just been awarded stock options. The options have a vesting period of five years and an exercise price of $50. L3 stock has an implied volatility of 22 percent and does not pay a dividend. If the current stock price is $48 and the risk-free rate is 4 percent, the per share value of your options is closest to:
+
+$5.85
+
+$9.62
+
+$12.61
+
+$15.27
+
+Implied Volatility (LO4, CFA2) The implied volatility for an at-the-money call option suddenly jumps from 25 percent to 50 percent. This most likely means that:
+
+The underlying stock has just paid a dividend.
+
+The volatility jump is temporary.
+
+The option has a short time to expiration.
+
+An unforeseen event has increased the risk of the underlying stock.
+
+Concept Questions
+
+Option Prices (LO2, CFA1) What are the six factors that determine an option’s price?
+
+Options and Expiration Dates (LO2, CFA2) What is the impact of lengthening the time to expiration on an option’s value? Explain.
+
+Options and Stock Price Volatility (LO2, CFA2) What is the impact of an increase in the volatility of the underlying stock on an option’s value? Explain.
+
+Options and Dividend Yields (LO2, CFA2) What happens to the stock price when the stock pays a dividend? What impact does a dividend have on the prices of call and put options?
+
+Options and Interest Rates (LO2, CFA2) How do interest rates affect option prices? Explain.
+
+Time Value (LO2, CFA2) What is the time value of a call option? Of a put option? What happens to the time value of a call option as the maturity increases? What about a put option?
+
+Delta (LO2, CFA2) What does an option’s delta tell us? Suppose a call option with a delta of .60 sells for $5.00. If the stock price rises by $1, what will happen to the call’s value?
+
+Employee Stock Options (LO4) What is vesting in regard to employee stock options? Why would a company use a vesting schedule with employee stock options?
+
+Employee Stock Options (LO4) You own stock in a company that has just initiated employee stock options. How do the employee stock options benefit you as a shareholder?
+
+Employee Stock Options (LO4) In general, employee stock options cannot be sold to another party. How do you think this affects the value of an employee stock option compared to a market-traded option?
+
+Questions and Problems
+
+Core Questions
+
+Black-Scholes Model (LO2, CFA2) What is the value of a call option if the underlying stock price is $84, the strike price is $80, the underlying stock volatility is 42 percent, and the risk-free rate is 4 percent? Assume the option has 135 days to expiration.
+
+Black-Scholes Model (LO2, CFA2) What is the value of a call option if the underlying stock price is $81, the strike price is $90, the underlying stock volatility is 50 percent, and the risk-free rate is 3 percent? Assume the option has 60 days to expiration.
+
+page 554
+
+Black-Scholes Model (LO2, CFA2) What is the value of a call option if the underlying stock price is $73, the strike price is $75, the underlying stock volatility is 37 percent, and the risk-free rate is 5 percent? Assume the option has 100 days to expiration.
+
+Black-Scholes-Merton Model (LO2, CFA2) A stock is currently priced at $63 and has an annual standard deviation of 43 percent. The dividend yield of the stock is 2 percent and the risk-free rate is 4 percent. What is the value of a call option on the stock with a strike price of $60 and 45 days to expiration?
+
+Black-Scholes-Merton Model (LO2, CFA2) The stock of Nugents Nougats currently sells for $44 and has an annual standard deviation of 45 percent. The stock has a dividend yield of 2.5 percent and the risk-free rate is 4.1 percent. What is the value of a call option on the stock with a strike price of $40 and 65 days to expiration?
+
+Black-Scholes Model (LO2, CFA2) The stock of Lead Zeppelin, a metal manufacturer, currently sells for $68 and has an annual standard deviation of 41 percent. The risk-free rate is 6 percent. What is the value of a put option with a strike price of $70 and 45 days to expiration?
+
+Black-Scholes Model (LO2, CFA2) What is the value of a put option if the underlying stock price is $42, the strike price is $35, the underlying stock volatility is 47 percent, and the risk-free rate is 5 percent? Assume the option has 140 days to expiration.
+
+Black-Scholes Model (LO2, CFA2) A stock with an annual standard deviation of 30 percent currently sells for $67. The risk-free rate is 3 percent. What is the value of a put option with a strike price of $80 and 60 days to expiration?
+
+Hedging with Options (LO3, CFA3) You are managing a pension fund with a value of $300 million and a beta of 1.07. You are concerned about a market decline and wish to hedge the portfolio. You have decided to use SPX calls. How many contracts do you need if the delta of the call option is .62 and the S&P index is currently at 2,030?
+
+Hedging with Options (LO3, CFA3) Suppose you have a stock market portfolio with a beta of 1.15 that is currently worth $300 million. You wish to hedge against a decline using index options. Describe how you might do so with puts and calls. Suppose you decide to use SPX calls. Calculate the number of contracts needed if the call option you pick has a delta of .50 and the S&P 500 index is at 2,050.
+
+One-Period Binomial Option Pricing (LO1, CFA2) A stock is currently selling for $45. In one period, the stock will move up by a factor of 1.15 or down by a factor of .87. A call option with a strike price of $50 is available. If the risk-free rate of interest is 2.5 percent for this period, what is the value of the call option?
+
+One-Period Binomial Option Pricing (LO1, CFA2) A stock is currently priced at $74 and will move up by a factor of 1.20 or down by a factor of .80 over the next period. The risk-free rate of interest is 4.2 percent. What is the value of a call option with a strike price of $75?
+
+One-Period Binomial Option Pricing (LO1, CFA2) A stock with a current price of $58 has a put option available with a strike price of $55. The stock will move up by a factor of 1.13 or down by a factor of .88 over the next period and the risk-free rate is 3 percent. What is the price of the put option?
+
+Black-Scholes Model (LO2, CFA2) A call option matures in six months. The underlying stock price is $70 and the stock’s return has a standard deviation of 20 percent per year. The risk-free rate is 4 percent per year, compounded continuously. If the exercise price is $0, what is the price of the call option?
+
+Black-Scholes Model (LO2, CFA2) A call option has an exercise price of $60 and matures in six months. The current stock price is $68 and the risk-free rate is 5 percent per year, compounded continuously. What is the price of the call if the standard deviation of the stock is 0 percent per year?
+
+Black-Scholes Model (LO2, CFA2) A stock is currently priced at $55. A call option with an expiration of one year has an exercise price of $60. The risk-free rate is 12 percent per year, compounded continuously, and the standard deviation of the stock’s return is infinitely large. What is the price of the call option?
+
+Employee Stock Options (LO4, CFA2) In its 10Q dated February 4, 2016, LLL, Inc., had outstanding employee stock options representing over 272 million shares of its stock. LLL accountants estimated the value of these options using the Black-Scholes-Merton formula and the following assumptions:
+
+S = current stock price = $20.72
+
+K = option strike price = $23.15
+
+page 555
+
+r = risk-free interest rate = .043
+
+σ = stock volatility = .29
+
+T = time to expiration = 3.5 years
+
+What was the estimated value of these employee stock options per share of stock? (Note: LLL pays no dividends.)
+
+Hedging Employee Stock Options (LO4, CFA3) Suppose you hold LLL employee stock options representing options to buy 10,000 shares of LLL stock. You wish to hedge your position by buying put options with three-month expirations and a $22.50 strike price. How many put option contracts are required? Use the same assumptions specified in Problem 17. (Note that such a trade may not be permitted by the covenants of many ESO plans. Even if the trade were permitted, it could be considered unethical.)
+
+Employee Stock Options (LO4, CFA3) Immediately after establishing your put options hedge, volatility for LLL stock suddenly jumps to 45 percent. This changes the number of put options required to hedge your employee stock options. How many put option contracts are now required? (Except for the new volatility, use the same assumptions specified in Problem 18.)
+
+Two-Period Binomial Option Pricing (CFA2) A stock is currently selling for $60. Over the next two periods, the stock will move up by a factor of 1.15 or down by a factor of .87 each period. A call option with a strike price of $60 is available. If the risk-free rate of interest is 3.2 percent per period, what is the value of the call option?
+
+Two-Period Binomial Option Pricing (CFA2) A stock is currently priced at $35 and will move up by a factor of 1.18 or down by a factor of .85 each period over each of the next two periods. The risk-free rate of interest is 3 percent. What is the value of a put option with a strike price of $40?
+
+Two-Period Binomial Option Pricing (CFA2) A stock with a current price of $78 has a call option available with a strike price of $80. The stock will move up by a factor of .95 or down by a factor of .80 each period for the next two periods and the risk-free rate is 3.5 percent. What is the price of the call option today?
+
+Black-Scholes Model (LO2, CFA2) A stock has a price of $32 and an annual return volatility of 45 percent. The risk-free rate is 3.0 percent. Using a computer spreadsheet program, calculate the call and put option prices with a strike price of $31.50 and a 90-day expiration. Also calculate the deltas of the call and put.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA1, CFA2]
+
+Ronald Franklin, CFA, is responsible for developing a new investment strategy for his firm. Given recent poor performance, the firm wants all of its equity portfolio managers to overlay options on all positions.
+
+Mr. Franklin gained experience with basic option strategies at his previous job. As an exercise, he decides to review the fundamentals of option valuation using a simple example. Mr. Franklin recognizes that the behavior of an option’s value is dependent on many variables and decides to spend some time closely analyzing this behavior, particularly in the context of the Black-Scholes option pricing model (and assuming continuous compounding). His analysis resulted in the information shown below:
+
+Exhibit 1: Input for Option Pricing
+Stock price	$100
+Strike price	$100
+Interest rate	7%
+Dividend yield	0%
+Time to maturity (years)	1.0
+Standard deviation of stock	.20
+Exhibit 2: Option Sensitivities
+Call	Put
+Delta	.6736	−.3264
+page 556
+
+Mr. Franklin wants to compute the value of the call option using the information in Exhibit 1. Which of the following is closest to his answer?
+
+$4.78
+
+$5.55
+
+$11.54
+
+Mr. Franklin wants to compute the value of the put option that corresponds to the call value calculated in the previous question. Which of the following is the closest to his answer?
+
+$4.78
+
+$5.55
+
+$11.54
+
+Mr. Franklin is interested in the sensitivity of the put option to changes in the volatility of the underlying equity’s returns. If the volatility of the underlying equity’s returns increases, the value of the put option:
+
+Decreases.
+
+Increases.
+
+Does not change.
+
+Mr. Franklin wants to know how the put option in Exhibit 1 behaves when all the parameters are held constant except delta. Which of the following is the best estimate of the change in the put option’s price when the underlying equity increases by $1?
+
+$.33
+
+−$.33
+
+−$3.61
+
+What’s on the Web?
+
+Black-Scholes Model Go to option-price.com and find the option pricing calculator. There are a call and a put option on a stock that expire in 30 days. The strike price is $55 and the current stock price is $58.70. The standard deviation of the stock is 45 percent per year and the risk-free rate is 4.8 percent per year, compounded continuously. What are the prices of the call and the put? What are the deltas for the call and the put?
+
+Black-Scholes Model Go to cboe.com and find the option pricing calculator. A stock is currently priced at $98 per share and has a standard deviation of 58 percent per year. Options are available with an exercise price of $95 and the risk-free rate of interest is 5.2 percent per year, compounded continuously. What are the prices of the call and the put that expire next month? What are the deltas of the call and the put? How do you interpret these numbers? How do your answers change for an exercise price of $100?
+
+Implied Standard Deviation Go to option-price.com and find the option pricing calculator. You purchased a call option for $11.50 that matures in 55 days. The strike price is $95 and the underlying stock has a price of $99.50. If the risk-free rate is 5.4 percent, compounded continuously, what is the implied standard deviation of the stock? Using this implied standard deviation, what is the price of a put option with the same characteristics?
+
+Black-Scholes-Merton Model Recalculate Problems 1 and 2 assuming a dividend yield of 2 percent per year. How does this change your answers?
+
+
+
+
+1 If we knew these probabilities, we could calculate the expected value of the stock price at expiration.
+
+2 You might be wondering what would happen if the stock price were less than the present value of the exercise price. In this event, the call price would be negative. But this cannot happen in this example because we are certain that the stock price will be at least K in one year because we know the call option will finish in the money. If the current price of the stock is less than K/(1 + r)T, then the return on the stock is certain to be greater than the risk-free rate—which creates an arbitrage opportunity. For example, if the stock is currently selling for $80, then the minimum return will be ($115 − $80)/$80 = .4375, or 43.75%. Because we can borrow at 10 percent, we can earn a certain minimum return of 33.75 percent per dollar borrowed. This, of course, is an arbitrage opportunity.
+
+3 We limit our discussion here to call options. Of course, we can make parallel statements for put options.
+
+4 Note that we are assuming that d is less than 1.0, but d does not necessarily have to be less than 1.0, as was the case in Section 16.1.
+
+5 The Gap, Inc.
+
+6 Strictly speaking, the Black-Scholes-Merton formula is used for European options. ESOs are a hybrid between European options and American options. Before vesting, ESO holders cannot exercise these options, so ESOs are like European options in the vesting period. After vesting, ESO holders can exercise their ESOs before the ESO expires, so ESOs are like American options after the vesting period.

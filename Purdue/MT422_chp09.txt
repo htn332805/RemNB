@@ -1,0 +1,1387 @@
+page 287 
+
+PART 3
+
+Interest Rates
+
+
+
+“We reckon hours and minutes to be dollars and cents.”
+
+–Thomas Chandler Haliburton (from The Clockmaker)
+
+Learning Objectives
+
+It will be worth your time to increase your rate of interest in these topics:
+
+Money market prices and rates.
+
+Rates and yields on fixed-income securities.
+
+Treasury STRIPS and the term structure of interest rates.
+
+Nominal versus real interest rates.
+
+Benjamin Franklin stated a fundamental truth of commerce when he sagely advised young tradesmen to “remember that time is money.” In finance, we call this opportunity cost, which is the foundation of the time value of money. But how much time corresponds to how much money? Interest constitutes a rental payment for money, and an interest rate tells us how much money for how much time. But there are many interest rates, each corresponding to a particular money market. Interest rates state money prices in each of these markets.
+
+CFATM Exam Topics in This Chapter:
+
+The time value of money (L1, S2)
+
+Discounted cash flow applications (L1, S2)
+
+Aggregate output, prices, and economic growth (L1, S4)
+
+Understanding business cycles (L1, S4)
+
+Fixed-income securities: Defining elements (L1, S16)
+
+Introduction to fixed-income valuation (L1, S16)
+
+Understanding fixed-income risk and return (L1, S17)
+
+Fundamentals of credit analysis (L1, S17)
+
+Economics and investment markets (L2, S17)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 288 
+
+This chapter is the first dealing specifically with interest-bearing assets. As we discussed in a previous chapter, there are two basic types of interest-bearing assets: money market instruments and fixed-income securities. For both types of asset, interest rates are a key determinant of asset values. Furthermore, because trillions of dollars in interest-bearing assets are outstanding, interest rates play a pivotal role in financial markets and the economy.
+
+Because interest rates are one of the most closely watched financial market indicators, we devote this entire chapter to them. We first discuss the many different interest rates that are commonly reported in the financial press, along with some of the different ways interest rates are calculated and quoted. We then go on to describe the basic determinants and separable components of interest rates.
+
+9.1 Interest Rate History and Money Market Rates
+Recall from Chapter 3 that money market instruments are debt obligations that have a maturity of less than one year at the time they are originally issued. Each business day, The Wall Street Journal publishes a list of current interest rates for several categories of money market securities in its “Money Rates” report. We will discuss these interest rates and the securities they represent following a quick look at the history of interest rates.
+
+INTEREST RATE HISTORY
+In Chapter 1, we saw how looking back at the history of returns on various types of investments gave us a useful perspective on rates of return. Similar insights are available from interest rate history. For example, in January 2019, interest rates on short-term government securities were about 2.4 percent and long-term rates were about 3.0 percent. We might ask, “Are these rates unusually high or low?” To find out, we examine Figure 9.1, which graphically illustrates 218 years of interest rates in the United States.
+
+Two interest rates are plotted in Figure 9.1, one for bills and one for bonds. Both rates are based on U.S. Treasury securities, or close substitutes. We discuss bills and bonds in detail in this chapter and the next chapter. For now, it is enough to know that bills are short term and bonds are long term, so what is plotted in Figure 9.1 are short- and long-term interest rates.
+
+Interest Rate History (U.S. Interest Rates, 1800–2018)
+
+FIGURE 9.1
+
+
+Source: Adapted from Jeremy J. Siegel, Stocks for the Long Run, 3rd ed., © McGraw-Hill, 2002; and the Federal Reserve Bank of St. Louis.
+
+page 289 
+
+A Quick Review of the Time Value of Money
+
+EXAMPLE 9.1
+
+Undoubtedly, your instincts tell you that $1,000 received in three years is not the same as $1,000 received today. But if you are going to receive $1,000 today, what is an equivalent amount of money received in three years?
+
+Fortunately, an equation tells us exactly what this is:
+
+
+In this equation, the r represents a periodic interest rate (expressed as a decimal) and the N represents the number of periods (expressed as an integer). Although the periods could be weeks, months, or years, the important thing to remember is that the interest rate must be expressed as an interest rate per period.
+
+Suppose you have $1,000 to invest and you can invest at an annual rate of 3.5 percent per year. In Equation 9.1, the per-period interest rate is .035. If you invest for three years (N = 3), the amount you will have in three years is:
+
+
+which would be rounded to $1,108.72.
+
+You can also use Equation 9.1 to tell you how much a future amount is worth today. If we divide both sides of Equation 9.1 by (1 + r)N and rearrange terms, we get:
+
+
+which, by the rules of exponents, can be written as:
+
+
+That is, (1 + r)−N is just another way to write 1/(1 + r)N.
+
+If you remember the relationship between Equations 9.1 and 9.3, you will soon become very comfortable with compounding, which is Equation 9.1, and discounting, which is Equation 9.3.
+
+To continue with our numerical example, first note that (1 + .035)3 = 1.108718. Therefore, using Equation 9.2:
+
+
+Suppose you invest $500 at 4 percent for six years. How much money will you have at the end of six years?
+
+
+Now suppose you will be getting $800 in four years. What is an equivalent amount today if you discount at 3.7 percent?
+
+
+Probably the most striking feature in Figure 9.1 is the fact that the highest interest rates in U.S. history occurred in the not-too-distant past. Rates began rising sharply in the 1970s and then peaked at extraordinary levels in the early 1980s. They have generally declined since then. The other striking aspect of U.S. interest rate history is the low short-term interest rate levels that prevailed from the 1930s to the 1960s, as well as in recent years. These rate levels have been the result, in large part, of deliberate actions by the Federal Reserve Board to keep short-term rates low—a policy that ultimately proved unsustainable and even disastrous in the years following the 1960s. Much was learned by the experience, and now the Federal Reserve is generally more concerned with controlling inflation.
+
+page 290 
+
+INVESTMENT UPDATES
+
+THE FLIGHT TO QUALITY
+
+Attentive bond investors may have noticed that bad news regarding current events, like the exit of Britain from the European Union or Russia invading Crimea, is almost always positive for U.S. Treasuries. They may also wonder why this is—wouldn’t it make sense for geopolitical instability to also be harmful to financial market performance?
+
+Sometimes it is; stocks and other high-risk assets typically exhibit more volatility and declines when headlines are unfavorable. However, U.S. Treasuries, due to their status as one of the lowest-risk investments in the world (if held until maturity), actually benefit when the investment backdrop becomes unstable. This phenomenon is known as the “flight to quality” or “flight to safety.”
+
+This dynamic unfolds in the markets when investors are more concerned about protecting themselves from potential losses than they are with making gains. During turbulent times in the market, investors often move toward investments where they are not likely to experience a loss of principal. These “safe havens” typically include the government bonds of the largest industrialized countries, especially the United States.
+
+As Thomas Kenny at thebalance.com puts it, “At the simplest level, the flight to quality is an investor saying to him- or herself, “Do I feel comfortable taking risk, or am I better keeping my money safe right now?” If enough people opt for the latter, the result is typically a rally in U.S. Treasuries.”
+
+The Flight to Quality in Action
+
+Back in mid-2011, the European debt crisis took center stage as the key driver of financial market performance. It seemed increasingly likely that Greece or one of the smaller members of the bloc might default, or even that the euro’s value might collapse. Investors were understandably worried.
+
+As a result, investors sold stocks, commodities, and high-risk bonds, moving cash out of the assets most likely to suffer losses on account of the crisis situation. As this happened, U.S. Treasury prices surged and yields fell to record low levels. For example, one-year U.S. Treasuries spent much of the last six months of 2011 trading with a yield below 0.20%. This yield even fell as low as 0.09%.
+
+What does this tell us? This shows that investors were willing to hold a one-year investment that paid almost nothing—and was far below the rate of inflation—just for the privilege of keeping their principal investments safe from turmoil in the global economy. This is the flight to quality as it happens in practice.
+
+ 
+
+Source: Thomas Kenny, “What Is the Flight to Quality?,” The Balance.
+
+With long-term rates around 3 percent as this chapter was written, many market observers have commented that these interest rate levels are extraordinarily low. Based on the history of interest rates illustrated in Figure 9.1, however, 3 percent may be low relative to the last 30 years, but it is not at all low compared to rates during the 170-year period from 1800 to 1970. Indeed, long-term rates would have to fall well below 3 percent to be considered low by historical standards. Example 9.1 shows how investors use interest rates.
+
+Why have interest rates been at such low levels over the last few years? We noted that the low rates may be attributable to the actions of the Federal Reserve, but other factors are at play as well. With the Crash of 2008, many investors undertook a “flight to quality,” selling risky assets and moving into safe ones. See our Investment Updates box for more on this issue.
+
+This flight to quality increases the demand for Treasury securities, particularly short-term bills. Based on the formulas in Example 9.1, you will see that as prices rise due to increased demand, the interest rates will fall. So, the reduction in rates could really be primarily a result of the crash. After the crash, market participants increased their purchases of extremely safe assets like U.S. Treasury bills.
+
+MONEY MARKET RATES
+Figure 9.2 reproduces a Wall Street Journal “Money Rates” report of interest rates for the most important money market instruments. A commonly quoted interest rate is the prime rate. The prime rate is a key short-term interest rate because it is the basis for interest rates that large commercial banks charge on short-term loans (rates are quoted as prime plus or minus a spread). The prime rate is well known as a bellwether rate of bank lending to business. Besides a prime rate for the United States, the “Money Rates” report also lists foreign prime rates for Canada, the European Central Bank, Japan, Switzerland, Great Britain, Australia, and Hong Kong.
+
+prime rate
+
+The basic interest rate on short-term loans that the largest commercial banks charge their most creditworthy corporate customers.
+
+bellwether rate
+
+Interest rate that serves as a leader or as a leading indicator of future trends, e.g., interest rates as a bellwether of inflation.
+
+The federal funds rate (or just “Fed funds”) is a fundamental interest rate for commercial bank activity. The Fed funds rate is the interest rate that banks charge each other for overnight loans of $1 million or more. This interbank rate is set by continuous bidding among banks, where banks wishing to lend funds quote “offer rates” (rates at which they are willing to lend), and banks wishing to borrow funds quote “bid rates” (rates they are willing to pay).
+
+federal funds rate
+
+Interest rate that banks charge each other for overnight loans of $1 million or more.
+
+page 291 
+
+Money Market Interest Rates
+
+FIGURE 9.2
+
+
+Source: The Wall Street Journal, 2019, Dow Jones & Company, Inc.
+
+The Federal Reserve’s discount rate is another pivotal interest rate for commercial banks. The discount rate is the interest rate that the Fed offers to commercial banks for overnight reserve loans. You might recall from your Money and Banking class that banks are required to maintain reserves equal to some fraction of their deposit liabilities. When a bank cannot supply sufficient reserves from internal sources, it must borrow reserves from other banks through the federal funds market. Therefore, the Fed discount rate and the Fed funds rate are usually closely linked.
+
+discount rate
+
+The interest rate the Fed charges its member banks on loans.
+
+For the latest on money market rates, visit
+money-rates.com.
+
+The Federal Reserve Bank is the central bank of the United States. As we discuss in more detail in a later chapter, the “Fed” has the responsibility to manage interest rates and the money supply to control inflation and promote stable economic growth. The discount rate is a basic tool of monetary policy for the Federal Reserve Bank. An announced change in the discount rate is often interpreted as a signal of the Federal Reserve’s intentions regarding future monetary policy.
+
+For example, by increasing the discount rate, the Federal Reserve may be signaling that it intends to pursue a tight-money policy, most likely to control budding inflationary pressures. page 292Similarly, by decreasing the discount rate, the Federal Reserve may be signaling an intent to pursue a loose-money policy to stimulate economic activity. Of course, many times a discount rate change is simply a case of the Federal Reserve catching up to financial market conditions rather than leading them. Indeed, the Federal Reserve often acts like the lead goose, who, upon looking back and seeing the flock heading in another direction, quickly flies over to resume its position as “leader” of the flock.
+
+Another important interest rate reported is the call money rate, or the call rate. “Call money” refers to loans from banks to security brokerage firms, and the call rate is the interest rate that brokerage firms pay on call money loans. As we discussed in Chapter 2, brokers use funds raised through call money loans to make margin loans to customers to finance leveraged stock and bond purchases. The call money rate is the basic rate that brokers use to set interest rates on customer call money loans. Brokers typically charge their customers the call money rate plus a premium (or spread), where the broker and the customer may negotiate the premium. For example, a broker may charge a customer the basic call money rate plus 1 percent for a margin loan to purchase common stock.
+
+call money rate
+
+The interest rate brokers pay to borrow bank funds for lending to customer margin accounts.
+
+Commercial paper is short-term, unsecured debt issued by large corporations. The commercial paper market is dominated by financial corporations, such as banks and insurance companies, or financial subsidiaries of large corporations. A leading commercial paper rate is the rate that JP Morgan pays on short-term debt issues. This commercial paper rate is a benchmark for this market because JP Morgan is one of the largest single issuers of commercial paper. Most other corporations issuing commercial paper will pay a slightly higher interest rate than this benchmark rate. Commercial paper is a popular investment vehicle for portfolio managers and corporate treasurers with excess funds on hand that they wish to invest on a short-term basis. Euro commercial paper refers to commercial paper denominated in euros rather than dollars.
+
+commercial paper
+
+Short-term, unsecured debt issued by large corporations.
+
+Visit JP Morgan at
+jpmorgan.print.com
+
+The London Interbank Offered Rate (LIBOR) is the interest rate offered by London commercial banks for dollar deposits from other banks. The LIBOR rate is perhaps the most frequently cited rate used to represent the London money market. Bank lending rates are often stated as LIBOR plus a premium, where the premium is negotiated between the bank and its customer. For example, a corporation may be quoted a loan rate from a London bank at LIBOR plus 2 percent. Euro LIBOR refers to deposits denominated in euros—the common currency of 19 European Union countries. Like LIBOR, the Euro LIBOR rate is calculated by the British Bankers’ Association (BBA) from quotes provided by London banks. The EURIBOR is an interest rate that also refers to deposits denominated in euros. However, the EURIBOR is based largely on interest rates from banks in the European Union interbank market. HIBOR is an interest rate based on Hong Kong dollars. HIBOR is the interest rate between banks in the Hong Kong interbank market.
+
+London Interbank Offered Rate (LIBOR)
+
+Interest rate that international banks charge one another for overnight Eurodollar loans.
+
+Eurodollars are U.S. dollar–denominated deposits at foreign banks or foreign branches of U.S. banks. Eurodollar rates are interest rates paid for large-denomination Eurodollar certificates of deposit. Eurodollar CDs are negotiable and are traded in a large, very active Eurodollar money market. The “Money Rates” report lists Eurodollar rates for various maturities obtained from transactions occurring late in the day.
+
+For more on LIBOR, visit
+bba.org.uk.
+
+Eurodollars
+
+U.S. dollar–denominated deposits at foreign banks or foreign branches of U.S. banks.
+
+U.S. Treasury bills, or just T-bills, represent short-term U.S. government debt issued through the U.S. Treasury. The Treasury bill market is the world’s largest market for new debt securities with one year or less to maturity. As such, the Treasury bill market leads all other credit markets in determining the general level of short-term interest rates. “Money Rates” reports Treasury bill interest rates set during the most recent weekly Treasury bill auction. Interest rates determined at each Treasury bill auction are closely watched by professional money managers throughout the world. The overnight repurchase, or “repo,” rate is essentially the rate charged on overnight loans that are collateralized by U.S. Treasury securities.
+
+U.S. Treasury bill (T-bill)
+
+A short-term U.S. government debt instrument issued by the U.S. Treasury.
+
+The Federal Home Loan Mortgage Corporation (FHLMC), commonly called “Freddie Mac,” and the Federal National Mortgage Association (FNMA), commonly called “Fannie Mae,” are government-sponsored agencies that purchase large blocks of home mortgages and combine them into mortgage pools, where each pool may represent several tens of millions of dollars of home mortgages. The interest rates reported in “Money Rates” are an indicator of rates on newly created home mortgages. Because home mortgages are long-term obligations, page 293these are not actually money market rates. However, with several trillion dollars of mortgages outstanding, the mortgage market has a considerable influence on money market activity.
+
+There are other important money rates that are not reported in Figure 9.2. One key rate is that which is paid on certificates of deposit, or CDs. Certificates of deposit represent large-denomination deposits of $100,000 or more at commercial banks for a specified length of time. The interest rate paid on CDs usually varies according to the time length of the deposit. For example, a six-month CD might pay a higher interest rate than a three-month CD, which in turn might pay a higher interest rate than a one-month CD.
+
+certificates of deposit (CDs)
+
+Large-denomination deposits of $100,000 or more at commercial banks for a specified term.
+
+Large-denomination certificates of deposit are generally negotiable instruments, meaning that they can be bought and sold among investors through a broker. This fact means that they are often called negotiable certificates of deposit, or negotiable CDs. The large-denomination CDs described here should not be confused with the small-denomination CDs that banks offer retail customers. These small-denomination CDs are bank time deposits. They normally pay a lower interest rate than large-denomination CDs and are not negotiable instruments.
+
+Another important rate is called a banker’s acceptance, which is essentially a postdated check upon which a commercial bank has guaranteed payment. Banker’s acceptances are normally used to finance international trade transactions. For example, as an importer, you wish to purchase computer components from a company in Singapore and pay for the goods three months after delivery. You write the exporter a postdated check. You and the exporter agree, however, that once the goods are shipped, your bank will guarantee payment on the date specified on the check. After your goods are shipped, the exporter presents the relevant documentation, and if all is in order, your bank stamps the word “ACCEPTED” on your check. At this point, your bank has created an acceptance, which means it has promised to pay the acceptance’s face value (the amount of the check) at maturity (the date on the check). The exporter can then keep the acceptance or sell it in the money market. The banker’s acceptance rate published in “Money Rates” is the interest rate for acceptances issued by the largest commercial banks.
+
+banker’s acceptance
+
+A postdated check on which a bank has guaranteed payment; commonly used to finance international trade transactions.
+
+CHECK THIS
+
+
+
+9.1aWhich money market interest rates are most important to commercial banks?
+
+9.1bWhich money market interest rates are most important to nonbank corporations?
+
+9.2 Money Market Prices and Rates
+Money market securities typically make a single payment of face value at maturity and make no payments before maturity. Such securities are called pure discount securities because they sell at a discount relative to their face value. In this section, we discuss the relationship between the price of a money market instrument and the interest rate quoted on it.
+
+pure discount security
+
+An interest-bearing asset that makes a single payment of face value at maturity with no payments before maturity.
+
+One of the things you will notice in this section is that market participants quote interest rates in several different ways. This inconsistent treatment presents a problem when we wish to compare rates on different investments. Therefore, we must put rates on a common footing before we can compare them.
+
+After going through the various interest rate conventions and conversions needed to compare them, you might wonder why everybody doesn’t just agree to compute interest rates and prices in some uniform way. Well, perhaps they should, but they definitely do not. As a result, we must review some of the various procedures actually used in money markets. We hope you come to recognize that the calculations are neither mysterious nor even especially difficult, although they are rooted in centuries-old procedures and may sometimes be tedious. However, given the billions of dollars of securities traded every day based on these numbers, it is important to understand them.
+
+page 294 
+
+One other thing to notice is that the word “yield” appears frequently. For now, you can take it as given that the yield on an interest-bearing asset is a measure of the interest rate being offered by the asset. We will discuss the topic of yields in greater detail in the next chapter.
+
+Bond yields and many interest rates are quoted as a percentage with two decimal places, such as 5.82 percent. With this quote, the smallest possible change would be .01 percent, or .0001. This amount, which is 1 percent of 1 percent, is called a basis point. So, if an interest rate of 5.82 percent rose to 5.94 percent, we would say this rate rose by 94 − 82 = 12 basis points. The quantity to the left of the decimal point (i.e., the “5”) is called the “handle.” Traders frequently omit the handle when quoting or discussing rates since, presumably, anyone actively trading would already know it.
+
+basis point
+
+Regarding interest rates or bond yields, one basis point is 1 percent of 1 percent.
+
+BANK DISCOUNT RATE QUOTES
+Interest rates for some key money market securities, including Treasury bills and banker’s acceptances, are quoted on a bank discount basis, or simply discount basis. An interest rate quoted on a discount basis is often called a discount yield. If we are given an interest rate quoted on a bank discount basis for a particular money market instrument, then we calculate the price of that instrument as follows:
+
+bank discount basis
+
+A method for quoting interest rates on money market instruments.
+
+
+The term “discount yield” here refers to the quoted interest rate. It should not be confused with the Federal Reserve’s discount rate discussed earlier.
+
+To give an example, suppose a banker’s acceptance has a face value of $1 million that will be paid in 90 days. If the interest rate, quoted on a discount basis, is 5 percent, what is the current price of the acceptance?
+
+As the following calculation shows, a discount yield of 5 percent and maturity of 90 days gives a current price of $987,500.
+
+
+The difference between the face value of $1 million and the price of $987,500 is $12,500 and is called the “discount.” This discount is the interest earned over the 90-day period until the acceptance matures.
+
+Notice that the formula used to calculate the acceptance price assumes a 360-day business year. This practice dates back to a time when calculations were performed manually. Assuming a 360-day business year, with exactly four 90-day quarters, rather than a true 365-day calendar year, made manual discount calculations simpler and less subject to error. Consequently, if $1 million is discounted over a full calendar year of 365 days using a bank discount yield of 5 percent and an assumed 360-day business year, the resulting price of $949,305.56 is calculated as follows:
+
+
+Money Market Prices
+
+EXAMPLE 9.2
+
+The rate on a particular money market instrument, quoted on a discount basis, is 4 percent. The instrument has a face value of $100,000 and will mature in 71 days. What is its price? What if it has 51 days to maturity?
+
+Using the bank discount basis formula, we have:
+
+
+Check for yourself that the price in the second case of a 51-day maturity is $99,433.33.
+
+page 295 
+
+TREASURY BILL QUOTES
+In its online version, The Wall Street Journal reports current interest rates on U.S. Treasury bills each business day. Figure 9.3 reproduces a “Treasury Bills” interest rate report. The maturity of each bill issue is stated in month-day-year format. The two columns following the maturity give the discount yield on a bid and ask basis for each bill. The bid discount is used by Treasury bill dealers to state what they are willing to pay for a Treasury bill, and the ask discount is used to state what price a dealer will accept to sell a Treasury bill. The next column shows the change in the ask discount from the previous day.
+
+For price and yield data on U.S. Treasury securities, visit
+cnbc.com
+and select the “Bonds” link under the “Markets” tab.
+
+U.S. Treasury Bills
+
+FIGURE 9.3
+
+
+Source: The Wall Street Journal, 2019, Dow Jones & Company, Inc.
+
+page 296 
+
+For example, consider the bill that matures on April 4, 2019, with a bid discount rate of 2.373 percent and an ask discount rate of 2.363 percent. This bill matures in 86 days. For a $1 million face value Treasury bill, the corresponding bid and ask prices can be calculated by using the discount yields shown, along with our bank discount basis pricing formula. For example, the bid price would be:
+
+
+Check that the ask price would be $994,355.06. As we would expect, the ask price is greater than the bid price. This difference, or spread, is the compensation dealers make for a “round-trip” transaction. Dealers sell at the ask price and buy at the bid price.
+
+T-Bill Prices
+
+EXAMPLE 9.3
+
+Suppose you wanted to buy a T-bill with 85 days to maturity and a face value of $5,000,000. How much would you have to pay if the ask discount is 3.41 percent?
+
+Because you are buying, you must pay the ask price. To calculate the ask price, we use the ask discount in the bank discount basis formula:
+
+
+Treasury bill prices may be calculated using a built-in spreadsheet function. An example of how to use an Excel™ spreadsheet to calculate a Treasury bill price is shown in the nearby Spreadsheet Analysis box.
+
+The last column in Figure 9.3 lists the ask yield for each Treasury bill issue. It is important to realize that the ask yield is not quoted on a discount basis. Instead, it is a “bond equivalent yield.” Unlike a discount rate, a bond equivalent yield assumes a 365-day calendar year. page 297Bond equivalent yields are principally used to compare yields on Treasury bills with yields on other money market instruments as well as Treasury bonds and other bonds (we discuss these long-term yields in the next chapter).
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft
+
+BANK DISCOUNT YIELDS VERSUS BOND EQUIVALENT YIELDS
+A bank discount yield is converted to a bond equivalent yield using the following formula:
+
+
+This conversion formula is correct for maturities of six months or less. Calculation of bond equivalent yields for maturities greater than six months is a little more complicated, and we will not discuss it here, particularly because T-bills with maturities greater than six months are less common.
+
+For example, suppose the ask discount rate on a T-bill with 170 days to maturity is 3.22 percent. What is the bond equivalent yield? Plugging into the conversion formula, a 3.22 percent discount is converted into a bond equivalent yield as follows:
+
+
+The bond equivalent yield is thus 3.315 percent.
+
+Bond Equivalent Yields
+
+EXAMPLE 9.4
+
+Suppose a T-bill has 45 days to maturity and an ask discount of 5 percent. What is the bond equivalent yield?
+
+Using the bond equivalent yield conversion formula, we have:
+
+
+The bond equivalent yield is thus 5.101 percent.
+
+Bond equivalent yields may be calculated using a built-in spreadsheet function. An example of how to use an Excel™ spreadsheet to calculate a bond equivalent yield is shown in the nearby Spreadsheet Analysis box.
+
+One common cause of confusion about bond equivalent yield calculations is the way that leap years are handled. The rule is that we must use 366 days if February 29 occurs within the next 12 months. For example, 2020 is a leap year. So, beginning on March 1, 2019, we must use 366 days in the numerator of Equation 9.6. Then, beginning on March 1, 2020, we must revert to using 365 days.
+
+Back to the Future: Leap Year Bond Equivalent Yields
+
+EXAMPLE 9.5
+
+Calculate the ask yield (bond equivalent yield) for a T-bill price quoted in December 2019 with 119 days to maturity and an ask discount of 5.41 percent.
+
+Because the 12-month period following the date of the price quote includes February 29, we must use 366 days. Plugging this into the conversion formula, we get:
+
+
+Therefore, 5.60 percent is the ask yield stated as a bond equivalent yield.
+
+We can calculate a Treasury bill ask price using the ask(ed) yield, which is a bond equivalent yield, as follows:
+
+
+page 298 
+
+For example, we have calculated the 3.315 percent bond equivalent yield on a T-bill with 170 days to maturity and a 3.22 percent ask discount rate. If we calculate its price using this bond equivalent yield, we get:
+
+
+Check that, ignoring a small rounding error, you get the same price using the bank discount formula.
+
+BOND EQUIVALENT YIELDS, APRs, AND EARs
+Money market rates not quoted on a discount basis are generally quoted on a “simple” interest basis. Simple interest rates are calculated just like the annual percentage rate (APR) on a consumer loan. So, for the most part, money market rates are either bank discount rates or APRs. For example, CD rates are APRs.
+
+In fact, the bond equivalent yield on a T-bill with less than six months to maturity is also an APR. As a result, like any APR, it understates the true interest rate, which is usually called the effective annual rate, or EAR. In the context of the money market, EARs are sometimes referred to as effective annual yields, effective yields, or annualized yields. Whatever it is called, to find out what a T-bill, or any other money market instrument, is really going to pay you, yet another conversion is needed. We will get to the needed conversion in a moment.
+
+First, however, recall that an APR is equal to the interest rate per period multiplied by the number of periods in a year. For example, if the rate on a car loan is 1 percent per month, then the APR is 1 percent × 12 = 12 percent. In general, if we let m be the number of periods in a year, an APR is converted to an EAR as follows:
+
+
+For example, on our 12 percent APR car loan, the EAR can be determined by:
+
+
+Thus, the rate on the car loan is really 12.6825 percent per year.
+
+APRs and EARs
+
+EXAMPLE 9.6
+
+A typical credit card may quote an APR of 18 percent. On closer inspection, you will find that the rate is actually 1.5 percent per month. What annual interest rate are you really paying on such a credit card?
+
+With 12 periods in a year, an APR of 18 percent is converted to an EAR as follows:
+
+
+Thus, the rate on this credit card is really 19.56 percent per year.
+
+Effective annual rates may be calculated using a built-in spreadsheet function. An example of how to use an Excel™ spreadsheet to calculate an effective annual rate is shown in the previous Spreadsheet Analysis box.
+
+page 299 
+
+Now, to see that the bond equivalent yield on a T-bill is just an APR, we can first calculate the price on the bill we considered earlier (3.22 percent ask discount, 170 days to maturity). Using the bank discount formula, the ask price for $1 million in face value is:
+
+
+The discount is $15,206. Thus, on this 170-day investment, you earn $15,206 in interest on an investment of $984,794. On a percentage basis, you earned:
+
+
+In a 365-day year, there are 365/170 = 2.147 periods of 170-day length. So, if we multiply what you earned over the 170-day period by the number of 170-day periods in a year, we get:
+
+
+This is the bond equivalent yield we calculated earlier.
+
+Finally, for this T-bill, we can calculate the EAR using this 3.315 percent:
+
+
+In the end, we have three different rates for this simple T-bill. The last one, the EAR, finally tells us what we really want to know: What rate are we actually going to earn on a compounded basis?
+
+Discounts, APRs, and EARs
+
+EXAMPLE 9.7
+
+A money market instrument with 60 days to maturity has a quoted ask price of 99, meaning $99 per $100 face value. What are the banker’s discount yield, the bond equivalent yield, and the effective annual return?
+
+First, to get the discount yield, we have to use the bank discount formula and solve for the discount yield:
+
+
+With a little algebra, we see that the discount yield is 6 percent.
+
+We convert this to a bond equivalent yield as follows:
+
+
+The bond equivalent yield is thus 6.145 percent.
+
+Finally, to get the EAR, note that there are 365/60 = 6.0833 sixty-day periods in a year, so:
+
+
+This example illustrates the general result that the discount yield is lower than the bond equivalent yield, which in turn is less than the EAR.
+
+page 300 
+
+CHECK THIS
+
+
+
+9.2aWhat are the three different types of interest rate quotes that are important for money market instruments?
+
+9.2bHow are T-bill rates quoted? How are CD rates quoted?
+
+9.2cOf the three different types of interest rate quotes, which is the largest? Which is the smallest? Which is the most relevant?
+
+9.3 Rates and Yields on Fixed-Income Securities
+Thus far, we have focused on short-term interest rates, where “short term” means one year or less. Of course, these are not the only interest rates we are interested in, so we now begin to discuss longer-term rates by looking at fixed-income securities. To keep this discussion to a manageable length, we defer the details of how some longer-term rates are computed to another chapter.
+
+Fixed-income securities include long-term debt contracts from a wide variety of issuers. The largest single category of fixed-income securities is debt issued by the U.S. government. The second largest category of fixed-income securities is mortgage debt issued to finance real estate purchases. The two other large categories of fixed-income securities are debt issued by corporations and debt issued by municipal governments. Each of these categories represents several trillion dollars of outstanding debt. Corporate bonds and municipal government bonds are covered in a later chapter.
+
+For more information on fixed-income securities, visit
+sifma.org.
+
+For the latest U.S. Treasury rates, check
+bloomberg.com.
+
+Because of its sheer size, the leading world market for debt securities is the market for U.S. Treasury securities. Interest rates for U.S. Treasury debt are closely watched throughout the world, and daily reports can be found in most major newspapers.
+
+THE TREASURY YIELD CURVE
+The Treasury yield curve is a plot of Treasury yields against maturities. Yields are measured along the vertical axis, and maturities are measured along the horizontal axis. The Treasury yield curve is fundamental to bond market analysis because it represents the interest rates that financial markets are charging to the world’s largest debtor with the world’s highest credit rating—the U.S. government. In essence, the Treasury yield curve represents interest rates for default-free lending across the maturity spectrum. As such, almost all other domestic interest rates are determined with respect to U.S. Treasury interest rates. A Work the Web box in this section shows how to get yield curves online.
+
+Treasury yield curve
+
+A graph of Treasury yields plotted against maturities.
+
+The yield curve is also considered by some to have predictive power. In particular, if the yield curve is upward sloping, the expectation is that yields will be higher in the future. If the yield curve is downward sloping, the expectation is that yields will be lower in the future. A downward-sloping yield curve is also called an inverted yield curve. Because lower interest rates are generally associated with recessionary conditions, some market watchers view an inverted curve as a negative signal. The nearby Investment Updates box provides some historical examples of various yield curve shapes.
+
+The difference in yields across various maturities is also important for investors in certain industries. For example, the 2-10 spread, which is the difference in yield between 2-year and 10-year notes, is critically important for investors in banking firms. Banks typically borrow money at shorter-term rates and lend at longer-term rates. So, a larger spread is generally good for bank profit margins and, therefore, good for the prices of banking stocks.
+
+RATES ON OTHER FIXED-INCOME INVESTMENTS
+Figure 9.4 displays interest rates based on bond market indexes that are constructed by various financial firms. Current interest rates and the highest and lowest interest rates over the page 301previous 52-week period are reported for a number of bond indexes. These bond market “tracking benchmark” indexes provide yield information on many different types of bonds. Because we will be discussing these in much more detail in several subsequent chapters, we touch on them only briefly here.
+
+WORK THE WEB
+
+What does the current Treasury yield curve look like? You can find the answer on the web in many different places. We went to treasury.gov, and here is what we found regarding the January 2, 2019, trading day. This yield curve would be considered relatively flat compared to the normal, upward-sloping yield curve. The shortest-term rates are close to 2.4 percent, and the six-month rate is 2.51 percent. Here’s a question for you: What is the yield premium for the 10-year over the 5-year?
+
+
+Source: www.treasury.gov, accessed January 9, 2019.
+
+Two important indexes represent U.S. Treasury securities with 1- to 10-year maturities (“Intermediate”) and 10- to 30-year maturities (“Long-Term”). Another index represents U.S. government agency debt with 10- to 20-year maturities and debt with more than 20 years to maturity. A variety of government agencies borrow money in financial markets. The Tennessee Valley Authority (TVA) is an example of such an agency.
+
+In recent years, U.S. government agencies have issued debt with maturities as long as 50 years. U.S. government agency debt does not carry the same credit guarantee as U.S. Treasury debt, and therefore interest rates on agency debt reflect a premium over interest rates on Treasury debt. Also, agency securities are often subject to state taxes, whereas Treasury securities are not.
+
+In the “U.S. Corporate Indexes” section, you can see rates on debt issued by domestic corporations according to their maturities. Notice that corporate debt with a low credit quality (“High Yield”) pays a higher interest rate than U.S. government agency debt. As you can see in Figure 9.4, medium credit quality corporate debt (“Triple-B-rated”) pays a higher interest rate than high credit quality corporate debt (“Double-A-rated”). “High Yield Bonds” refers to corporate bonds with above-average default risk. These bonds are usually avoided by conservative investors, but they may be attractive to investors who understand and are willing to page 302accept the risks involved. Because of their much higher credit risk, the interest rates for these bonds are significantly higher than those for even medium-quality corporate bonds.
+
+
+INVESTMENT UPDATES
+
+YIELD CURVES 101
+
+
+Source: Ben Levisohn, The Wall Street Journal, November 27, 2010, Dow Jones & Company, Inc.
+
+“Yankee Bonds” are issued by foreign corporations for sale in the United States. These bonds are denominated in U.S. dollars so investors do not have to worry that changing foreign exchange rates will affect debt values.
+
+As we discussed earlier in the chapter, the Federal Home Loan Mortgage Corporation (FHLMC), or Freddie Mac, and the Federal National Mortgage Association (FNMA), or Fannie Mae, are government-sponsored agencies that repackage home mortgages into mortgage pools, where each pool represents several tens of millions of dollars of home mortgages. A third agency, the Government National Mortgage Association (GNMA), better known as “Ginnie Mae,” is also an active mortgage repackager. The interest rates reported for these agencies correspond to indexes constructed from many mortgage pools.
+
+Visit these mortgage security websites:
+fanniemae.com.
+ginniemae.gov.
+and
+freddiemac.com.
+
+“Tax-Exempts” are bonds issued by municipal governments. Coupon interest payments on most municipal bonds are exempt from federal income taxes, and they are often exempt from state income taxes as well. The interest rates reported in the “Tax-Exempt” table are based on indexes for high-quality municipal bonds corresponding to various maturities.
+
+Municipal bonds are generally classified as either general obligation bonds or revenue bonds. General obligation bonds are secured by the general taxing power of the issuing municipality. Revenue bonds are secured by revenues generated from specific projects, such as toll roads, airports, or user fees for services. Because of their tax-exempt status, interest rates on high-quality municipal bonds are generally lower than interest rates on comparable U.S. Treasury securities. Exceptions, however, can occur. Municipal governments can declare bankruptcy. So, in cases of distress, the yields on municipals will likely exceed the yields of comparable U.S. Treasury securities.
+
+page 303 
+
+Tracking Bond Benchmarks
+
+FIGURE 9.4
+
+
+Source: The Wall Street Journal, 2019, Dow Jones & Company, Inc.
+
+page 304 
+
+CHECK THIS
+
+
+
+9.3aWhat is the yield curve? Why is it important?
+
+9.3bWhy are corporate bond yields higher than Treasury bond yields?
+
+9.3cWhy are municipal bond yields lower than Treasury bond yields?
+
+9.3dWhat are Yankee bonds?
+
+9.4 The Term Structure of Interest Rates
+The yield curve tells us the relationship between Treasury bond yields and time to maturity. The term structure of interest rates (or just “term structure”) is a similar, but not identical, relationship. Recall that a pure discount instrument has a single payment of face value at maturity with no other payments until then. Treasury bonds are not pure discount instruments because they pay coupons every six months. Pure discount instruments with more than a year to maturity are often called “zero coupon bonds,” or just “zeroes,” because they are, in effect, bonds with a zero coupon rate.
+
+term structure of interest rates
+
+Relationship between time to maturity and interest rates for default-free, pure discount instruments.
+
+The term structure of interest rates is the relationship between time to maturity and interest rates for default-free, pure discount instruments. So, the difference between the yield curve and the term structure is that the yield curve is based on coupon bonds, whereas the term structure is based on pure discount instruments. The term structure is sometimes called the “zero coupon yield curve” to distinguish it from the Treasury yield curve.
+
+TREASURY STRIPS
+Until about 1987, the term structure of interest rates was not directly observable because default-free, pure discount instruments with maturities greater than one year did not exist or reliable data on them were not available. Today, however, the term structure of interest rates can be easily seen by examining yields on U.S. Treasury STRIPS.
+
+U.S. Treasury STRIPS
+
+Pure discount securities created by stripping coupons and principal payments of Treasury notes and bonds. STRIPS stands for Separate Trading of Registered Interest and Principal of Securities.
+
+STRIPS are pure discount instruments created by “stripping” the coupons and principal payments of U.S. Treasury notes and bonds into separate parts and then selling the parts separately. The term STRIPS stands for Separate Trading of Registered Interest and Principal of Securities. For example, a Treasury note with 10 years to maturity will make 20 semiannual coupon payments during its life and will also make a principal payment at maturity. This note can therefore be separated, or stripped, into 21 separate parts, and each part can be bought and sold separately. The Treasury originally allowed notes and bonds with 10 years or more to maturity (at the time they were issued) to be stripped. Today, any note or bond is strippable.
+
+Read more about STRIPS at
+treasurydirect.gov
+by selecting “Financial Institutions,” then “Treasury Marketable Securities.”
+
+Figure 9.5 is a sample U.S. Treasury STRIPS daily report of individual STRIPS prices and yields from The Wall Street Journal’s website, wsj.com. STRIPS can be created from a coupon payment, a Treasury bond principal payment, or a Treasury note principal payment. Figure 9.5 shows some STRIPS from each of these possible sources. Of course, Figure 9.5 contains only a partial list of all available STRIPS.
+
+The first column of Figure 9.5 gives the maturity of each STRIPS listed. The next two columns contain bid and ask prices for each STRIPS. As always, the bid price is a quote of what dealers were willing to pay to buy the STRIPS, and the ask price is a quote of what dealers were willing to accept to sell the STRIPS. The next-to-last column in Figure 9.5 reports the change in the ask price quote from the previous day.
+
+The last column in Figure 9.5 lists ask yields, which are yields on the STRIPS based on their ask price quotes. Notice that each maturity has a different ask yield, or interest rate. This shows us that interest rates determined in financial markets generally differ according to the maturity of a security.
+
+STRIPS prices are stated as a price per $100 of face value. In the very recent past, STRIPS prices were quoted in dollars and thirty-seconds of a dollar. That is, a quote of, say, 84:08 page 305stood for 84 and 8/32 of a dollar, or $84.25. Today, however, STRIPS prices are quoted to three decimal points. For example, suppose a coupon interest STRIPS has an ask price quote of 93.668. This means that the price per $100 face value is $93.668. Thus, the skill of being able to divide by 32 is no longer highly valued, at least in STRIPS trading.
+
+Treasury STRIPS
+
+FIGURE 9.5
+
+
+Source: The Wall Street Journal, 2019, Dow Jones & Company, Inc.
+
+page 306 
+
+YIELDS FOR U.S. TREASURY STRIPS
+An ask yield for a U.S. Treasury STRIPS is an APR (APRs were discussed earlier in this chapter). It is calculated as two times the true semiannual rate. Calculation of the yield on a STRIPS is a standard time value of money calculation. The price today of the STRIPS is the present value; the face value received at maturity is the future value. As shown in Example 9.1, the relationship between present value and future value is:
+
+
+In this equation, r is the rate per period and N is the number of periods. Notice that a period is not necessarily one year long. For Treasury STRIPS, the number of periods is two times the number of years to maturity, here denoted by 2M, and the interest rate is the “yield to maturity” (YTM) divided by 2:
+
+
+Consider a STRIPS with an ask price of 55.568, a reported yield of 4.40, and 13.5 years to maturity. The actual semiannual rate is 4.40%/2 = 2.20%. Also, 13.5 years to maturity converts to 2 × 13.5 = 27 semiannual periods. To check that the reported price is correct given the reported yield, we plug in future value, rate per period, and number of periods:
+
+
+If we need to go the other way and calculate the ask yield on a STRIPS given its price, we can rearrange the basic present value equation to solve it for r:
+
+
+For STRIPS, N = 2M is the number of semiannual periods and r = YTM/2 is the semiannual interest rate, so the formula is:
+
+
+Consider a STRIPS maturing in six years with an ask price of 73.031. Its yield to maturity of 5.3072 percent as calculated immediately below would be reported as 5.31 percent.
+
+
+As another example, consider a STRIPS maturing in 20 years with an ask price of 26.188. As calculated immediately below, its yield to maturity of 6.8128 percent would be reported as 6.81 percent.
+
+
+Of course, if you know how to use a financial calculator, finding the price or yield for a STRIPS bond is much easier than doing all these calculations by hand. Make sure you remember to set the payment to zero.
+
+page 307 
+
+CHECK THIS
+
+
+
+9.4aWhat is the yield to maturity (YTM) on a STRIPS maturing in five years if its ask price quote is 77.75?
+
+9.4bWhat is the YTM of a STRIPS maturing in 15 years if its ask price quote is 36.813?
+
+9.4cWhat is the YTM of a STRIPS maturing in 25 years if its ask price quote is 18.656?
+
+9.5 Nominal versus Real Interest Rates
+There is a fundamental distinction between nominal and real interest rates. Nominal interest rates are interest rates as we ordinarily observe them; for example, as they are reported in The Wall Street Journal. All the money market rates we discussed earlier in this chapter, as well as the STRIPS yields, are nominal rates.
+
+nominal interest rates
+
+Interest rates as they are normally observed and quoted, with no adjustment for inflation.
+
+REAL INTEREST RATES
+Real interest rates are nominal rates adjusted for the effects of price inflation. To obtain a real interest rate, subtract an inflation rate from a nominal interest rate:
+
+real interest rates
+
+Interest rates adjusted for the effect of inflation, calculated as the nominal rate less the rate of inflation.
+
+
+The real interest rate is thus named because it measures the real change in the purchasing power of an investment. For example, if the nominal interest rate for a one-year certificate of deposit is 7 percent, then a one-year deposit of $100,000 will grow to $107,000. But if the inflation rate over the same year is 4 percent, you would need $104,000 after one year passes to buy what costs $100,000 today. Thus, the real increase in purchasing power for your investment is only $3,000, and, therefore, the real interest rate is only 3 percent.
+
+Figure 9.6 displays real interest rates based on annual rates of return on U.S. Treasury bills and inflation rates over the 68-year period 1950 through 2018. As shown in Figure 9.6, following a negative spike at the beginning of the Korean War in 1950, real interest rates for Treasury bills were generally positive until the oil embargo by the Organization of the Petroleum Exporting Countries (OPEC) in 1973. After this, real rates were generally negative until the Federal Reserve Board initiated a tight-money policy to fight an inflationary spiral in the late 1970s. The tight-money policy caused the 1980s to begin with historically high real interest rates. Throughout the 1980s, real Treasury bill rates were falling as inflation subsided. Real rates most recently went negative following the Crash of 2008 and the “flight to quality” that followed. Real rates have, however, begun to recover somewhat. During this 68-year period, the average real Treasury bill interest rate was slightly less than 1 percent.
+
+THE FISHER HYPOTHESIS
+The relationship between nominal interest rates and the rate of inflation is often couched in terms of the Fisher hypothesis, which is named for economist Irving Fisher, who formally proposed it in 1930. The Fisher hypothesis asserts that the general level of nominal interest rates follows the general level of inflation.
+
+Fisher hypothesis
+
+Assertion that the general level of nominal interest rates follows the general level of inflation.
+
+According to the Fisher hypothesis, interest rates are on average higher than the rate of inflation. Therefore, it logically follows that short-term interest rates reflect current inflation, whereas long-term interest rates reflect investor expectations of future inflation. Figure 9.7 graphs nominal interest rates and inflation rates used to create Figure 9.6. Notice that when inflation rates were high, Treasury bill returns tended to be high also, as predicted by the Fisher hypothesis.
+
+page 308 
+
+Real T-Bill Rates, 1950 through 2018
+
+FIGURE 9.6
+
+
+Source: Federal Reserve Bank of St. Louis and author calculations.
+
+Inflation Rates and T-Bill Rates, 1950 through 2018
+
+FIGURE 9.7
+
+
+Source: Federal Reserve Bank of St. Louis.
+
+INFLATION-INDEXED TREASURY SECURITIES
+In recent years, the U.S. Treasury has issued securities that guarantee a fixed rate of return in excess of realized inflation rates. These inflation-indexed Treasury securities (TIPS) pay a fixed coupon rate on their current principal and adjust their principal semiannually according to the most recent inflation rate. For investors wanting long-term protection against inflation along with the safety of U.S. Treasury bonds, inflation-indexed Treasury securities are perhaps the perfect investment.
+
+For example, suppose an inflation-indexed note is issued with a coupon rate of 2 percent and an initial principal of $1,000. Six months later, the note will make a coupon payment based on the annual coupon rate of 2 percent. Before the coupon payment is determined, however, the principal is adjusted for inflation. Suppose the six-month inflation rate was 1.5 percent. To page 309account for inflation, the note’s principal is increased to $1,000 × 1.015 = $1,015. Thus, the coupon payment is $1,015 × 2%/2 = $10.15. Notice the inflation-adjusted coupon payment is $.15 higher than the coupon payment without an inflation adjustment. This inflation adjustment process continues throughout the note’s life. At maturity, the investor receives the final adjusted (or accrued) principal amount. The investor, therefore, receives inflation-adjusted coupon payments throughout the life of the note and also receives an inflation-adjusted principal at maturity.
+
+Inflation-Indexed Treasury Securities
+
+FIGURE 9.8
+
+
+Source: The Wall Street Journal, 2019, Dow Jones & Company, Inc.
+
+Price and yield information for inflation-indexed Treasury securities is reported online at wsj.com in the same section with other Treasury securities, as shown in Figure 9.8. Locating the listing for inflation-indexed Treasury securities in Figure 9.8, we see that the first and second columns report the maturity and the fixed coupon rate, respectively. The third, fourth, and fifth columns report current bid prices, current ask prices, and the price change from the previous trading day. Prices for inflation-indexed securities are reported as a percentage of current accrued principal. The sixth and seventh columns list an inflation-adjusted yield to maturity and current accrued principal reflecting all cumulative inflation adjustments.
+
+page 310 
+
+INVESTMENT UPDATES
+
+BEST PRACTICES FOR INVESTING IN TIPS (TREASURY INFLATION PROTECTED SECURITIES)
+
+TIPS—also known as Treasury Inflation-Protected Securities—offer investors a safe investment alternative. These bonds have the full backing of the U.S. government and provide investors with returns that will keep pace with future rates of inflation, as measured by the U.S. Consumer Price Index. While you can buy them directly from the government at treasurydirect.gov (or from a banker, broker, or other dealer), it may be a better investment decision in many cases to invest indirectly in TIPS by purchasing low-fee investment funds that hold a basket of these securities. As an example, ETFs—exchange traded funds—are an increasingly popular way to invest in a variety of TIPS. There are also low-cost mutual funds that are invested in TIPS.
+
+Taxes on TIPS can get a bit complicated. Income from these securities comes in the form of interest payments, as well as any annual inflationary increase in the principal value. These gains are exempt from state and local taxes, but not exempt from federal taxes. To maximize the value of these investments, TIPS should probably be held in a tax-advantaged retirement account.
+
+You should consider the fee structures affiliated with the different ways of buying and holding TIPS. If you use a broker to buy TIPS, you’ll pay a purchase commission but not an ongoing management fee. A mutual fund will charge management fees, and even if these are small (as small as two-tenths of 1 percent), you should be aware of them. ETFs, which charge commissions whenever you buy or sell holdings, could become costly if you like to buy and sell your holdings frequently.
+
+There are also differences in the ease of buying and investing in additional TIPS across different types of ownership. Investors in TIPS mutual funds have the option of automatically buying more shares with their earnings, and it is thus easier to keep TIPS earnings fully invested. With direct TIPS ownership, investors would have to actively reinvest their interest payments in other TIPS to enjoy similar benefits.
+
+You should also consider your investment goals and your beliefs about the market in making an investment in TIPS. If you’re worried about deflation and want to take advantage of TIPS’ original principal guarantee, you should buy new TIPS directly from the Treasury; funds that hold TIPS hold a variety of maturities, and those earlier TIPS have already experienced a boost in their principal values due to inflation. If deflation does occur, investors in these funds will lose a lot of principal before hitting their original principal guarantees.
+
+ 
+
+Source: Philip Moeller, “5 Tips For Investing in TIPS: Treasury Inflation Protected Securities,” US News & World Report, April 24, 2009.
+
+CHECK THIS
+
+
+
+9.5aWhat is the difference between a nominal interest rate and a real interest rate?
+
+9.5bWhat does the Fisher hypothesis assert?
+
+9.5cWhat is the distinguishing feature of inflation-indexed Treasury securities?
+
+9.6 Traditional Theories of the Term Structure
+Yield curves have been studied by financial economists for well over a century. During this period, a number of different theories have been proposed to explain why yield curves may be upward sloping at one point in time and then downward sloping or flat at another. We discuss three of the most popular traditional theories of the term structure in this section. We then present a modern perspective on the term structure in the following section.
+
+EXPECTATIONS THEORY
+According to the expectations theory of the term structure of interest rates, the shape of a yield curve expresses financial market expectations regarding future interest rates. Essentially, an upward-sloping yield curve predicts an increase in interest rates, and a downward-sloping yield curve predicts a decrease in interest rates. A flat yield curve expresses the sentiment that interest rates are not expected to change in the near future.
+
+expectations theory
+
+The term structure of interest rates is a reflection of financial market beliefs regarding future interest rates.
+
+page 311 
+
+EXPECTATIONS AND FORWARD RATES The basic principles of the expectations theory can be explained with a two-period example. Let r1 stand for the current market interest rate on a one-year investment and let r2 be the current market interest rate on a two-year investment. Also, let r1,1 be the market interest rate on a one-year investment that will be available in one year. Of course, this rate is not known today.
+
+For a two-year investment, you have two strategies available. First, you can invest for two years at the rate r2. In this case, $1 invested today will become $(1 + r2)2 in two years. For example, if r2 = 10 percent, you would have $1 × (1 + .10)2 = $1.21 in two years for every dollar you invest.
+
+Alternatively, you can invest for one year at the rate r1, and at the end of one year, you can reinvest the proceeds at the rate r1,1. In this case, $1 invested today will become $(1 + r1)(1 + r1,1) in two years. For example, suppose r1 = 10 percent, and after a year passes, it turns out that r1,1 = 8 percent. Then you would end up with $1 × 1.10 × 1.08 = $1.19. Alternatively, suppose that after a year passes, it turns out that r1,1 = 12 percent; then you would have $1 × 1.10 × 1.12 = $1.23. Notice that this second strategy entails some uncertainty since the next year’s interest rate, r1,1, is not known when you originally select your investment strategy.
+
+The expectations theory of the term structure of interest rates asserts that, on average, the two-year investment proceeds, $(1 + r2)2 and $(1 + r1)(1 + r1,1), will be equal. In fact, we can obtain what is known as the implied forward rate, f1,1, by setting the two total proceeds equal to each other:
+
+forward rate
+
+An expected future interest rate implied by current interest rates.
+
+
+Solving for the forward rate, f1,1, we see that:
+
+
+Notice that this forward interest rate is a future interest rate implied by current interest rates.
+
+According to expectations theory, the forward rate f1,1 is an accurate predictor of the rate r1,1 to be realized one year in the future. Thus, if r2 = 10 percent and r1 = 8 percent, then f1,1 = 12 percent, approximately. This forward rate predicts that the one-year interest rate one year from now will increase (from the current one-year rate of 8 percent to a higher one-year rate of 12 percent). Alternatively, if r2 = 10 percent and r1 = 12 percent, then f1,1 = 8 percent, approximately. This forward rate predicts that the one-year interest rate one year from now will decrease.
+
+In general, if r2 > r1, such that the term structure is upward sloping, then expectations theory predicts an interest rate increase. Similarly, if r2 < r1, indicating a downward-sloping term structure, then expectations theory predicts an interest rate decrease. Thus, the slope of the term structure points in the predicted direction of future interest rate changes.
+
+Looking Forward
+
+EXAMPLE 9.8
+
+Suppose the yield on a two-year STRIPS is 7 percent and the yield on a one-year STRIPS is 6 percent. Based on the expectations theory, what will the yield on a one-year STRIPS be one year from now?
+
+According to the expectations theory, the implied forward rate is an accurate predictor of what the interest rate will be. Thus, solving for the forward rate, we have:
+
+
+and the forward rate is:
+
+
+Based on the expectations theory, the rate next year will be about 8 percent. Notice that this is higher than the current rate, as we would predict since the term structure is upward sloping.
+
+page 312 
+
+EXPECTATIONS THEORY AND THE FISHER HYPOTHESIS The expectations theory is closely related to the Fisher hypothesis we discussed earlier. The relationship between the expectations theory of interest rates and the Fisher hypothesis is stated as follows: If expected future inflation is higher than current inflation, then we are likely to see an upward-sloping term structure where long-term interest rates are higher than short-term interest rates. Similarly, if future inflation is expected to be lower than its current level, we would then be likely to see a downward-sloping term structure where long-term interest rates are lower than short-term interest rates.
+
+In other words, taken together, the expectations theory and the Fisher hypothesis assert that an upward-sloping term structure tells us that the market expects that nominal interest rates and inflation are likely to be higher in the future.
+
+MATURITY PREFERENCE THEORY
+Another traditional theory of the term structure asserts that lenders prefer to lend short term to avoid tying up funds for long periods of time. In other words, they have a preference for shorter maturities. At the same time, borrowers prefer to borrow long term to lock in secure financing for long periods of time.
+
+According to the maturity preference theory, then, borrowers have to pay a higher rate to borrow long term rather than short term to essentially bribe lenders into loaning funds for longer maturities. The extra interest is called a maturity premium.1
+
+maturity preference theory
+
+Long-term interest rates contain a maturity premium necessary to induce lenders into making longer-term loans.
+
+The Fisher hypothesis, maturity preference theory, and expectations theory can coexist without problem. For example, suppose the shape of a yield curve is basically determined by expected future interest rates according to expectations theory. But where do expected future interest rates come from? According to the Fisher hypothesis, expectations regarding future interest rates are based on expected future rates of inflation. Thus, expectations theory and the Fisher hypothesis mesh quite nicely.
+
+Furthermore, a basic yield curve determined by inflationary expectations could also accommodate maturity preference theory. All we need to do is add a maturity premium to longer-term interest rates. In this view, long-term, default-free interest rates have three components: a real rate, an anticipated future inflation rate, and a maturity premium.
+
+MARKET SEGMENTATION THEORY
+An alternative theory of the term structure of interest rates is the market segmentation theory, which asserts that debt markets are segmented according to the various maturities of debt instruments available for investment. By this theory, each maturity represents a separate, distinct market. For example, one group of lenders and borrowers may prefer to lend and borrow using securities with a maturity of 10 years, while another group may prefer to lend and borrow using securities with a maturity of 5 years. Segmentation theory states that interest rates corresponding to each maturity are determined separately by supply and demand conditions in each market segment.
+
+market segmentation theory
+
+Debt markets are segmented by maturity, with the result that interest rates for various maturities are determined separately in each segment.
+
+Another theory of the term structure, known as the preferred habitat theory, is essentially a compromise between market segmentation and maturity preference. In the preferred habitat theory, as in the market segmentation theory, different investors have different preferred maturities. The difference is that they can be induced to move to less preferred maturities by a higher interest rate. In the maturity preference theory, the preferred habitat is always toward shorter maturities rather than longer maturities.
+
+page 313 
+
+CHECK THIS
+
+
+
+9.6aAccording to the expectations theory, what does an upward-sloping term structure indicate?
+
+9.6bWhat basic assertion does maturity preference theory make about investor preferences? If this assertion is correct, how does it affect the term structure of interest rates?
+
+9.6cWhat is a maturity premium?
+
+9.7 Determinants of Nominal Interest Rates: A Modern Perspective
+Our understanding of the term structure of interest rates has increased significantly in the last few decades. Also, the evolution of fixed-income markets has shown us that, at least to some extent, traditional theories discussed in our previous section may be inadequate to explain the term structure. We discuss some problems with these theories next and then move on to a modern perspective.
+
+PROBLEMS WITH TRADITIONAL THEORIES
+To illustrate some problems with traditional theories, we could examine the behavior of the term structure in the last two decades. What we would find is that the term structure is almost always upward sloping. But contrary to the expectations hypothesis, interest rates have not always risen. Furthermore, as we saw with the STRIPS term structure, it is often the case that the term structure turns down at very long maturities. According to the expectations hypothesis, market participants apparently expect rates to rise for 20 or so years and then decline. This seems to be stretching things a bit.
+
+In terms of maturity preference, the world’s biggest borrower, the U.S. government, borrows much more heavily in the short term than the long term. Furthermore, many of the biggest buyers of fixed-income securities, such as pension funds, have a strong preference for long maturities. It is hard to square these facts with the behavioral assumptions underlying the maturity preference theory.
+
+Finally, in terms of market segmentation, the U.S. government borrows at all maturities. Many institutional investors, such as mutual funds, are more than willing to move among maturities to obtain more favorable rates. At the same time, some bond trading operations do nothing other than buy and sell various maturity issues to exploit even very small perceived premiums. In short, in the modern fixed-income market, market segmentation does not seem to be a powerful force.
+
+MODERN TERM STRUCTURE THEORY
+Going back to Chapter 1, we saw that long-term government bonds had higher returns, on average, than short-term T-bills. They had substantially more risk as well. In other words, there appears to be a risk-return trade-off for default-free bonds as well, and long-term bonds appear to have a risk premium.
+
+Notice that this risk premium doesn’t result from the possibility of default since the premium exists on default-free U.S. government debt. Instead, it exists because longer-term bond prices are more volatile than shorter-term prices. As we discuss in detail in the next chapter, the reason is that, for a given change in interest rates, long-term bond prices change more than short-term bonds. Put differently, long-term bond prices are much more sensitive to interest rate changes than short-term bonds. This is called interest rate risk, and the risk premium on longer-term bonds is called the interest rate risk premium.
+
+The interest rate risk premium carried by long-term bonds leads us to a modern reinterpretation of the maturity preference hypothesis. All else equal, investors do prefer short-term page 314bonds to long-term bonds. The reason is that short-term bonds are less risky. As a result, long-term bonds have to offer higher yields to compensate investors for the extra interest rate risk.
+
+Putting it together, the modern view of the term structure suggests that nominal interest rates on default-free securities can be stated as follows:
+
+
+where:
+
+NI = Nominal interest rate
+
+RI = Real interest rate
+
+IP = Inflation premium
+
+RP = Interest rate risk premium
+
+In Equation 9.11, the real rate of interest is assumed to be the same for all securities, and on average, the real interest rate (RI) is positive, as predicted by the Fisher hypothesis.
+
+As we discussed above, the inflation premium (IP) reflects investor expectations of future price inflation. The inflation premium may be different for securities with different maturities because expected inflation may be different over different future horizons. For example, the expected average rate of inflation over the next two years may be different from the expected average rate of inflation over the next five years.
+
+In addition to the real rate and the inflation premium, nominal rates reflect an interest rate risk premium (RP) that increases with the maturity of the security being considered. As a result, if interest rates are expected to remain constant through time, the term structure would have a positive slope. This is consistent with maturity preference theory. Indeed, for zero coupon bonds, the interest rate risk premium and the maturity premium are the same thing.
+
+The separate effects of the inflation premium and the interest rate risk premium are difficult to distinguish. For example, the yields for U.S. Treasury STRIPS in Figure 9.5 reveal a substantial yield premium for long-maturity STRIPS over short-term STRIPS. This yield premium for long-maturity STRIPS reflects the combined effects of the inflation premium and the risk premium. However, it is unclear how much of the total premium is caused by an inflation premium and how much is caused by a risk premium. Figure 9.9 shows how nominal interest rates can be separated into the real interest rate, the inflation premium, and the interest rate risk premium.
+
+LIQUIDITY AND DEFAULT RISK
+Thus far we have examined the components of interest rates on default-free, highly liquid securities such as Treasury STRIPS. We now expand our coverage to securities that are less liquid, not default-free, or both, to present a more detailed decomposition of nominal interest rates. When we are finished, what we will see is that nominal interest rates for individual securities can be decomposed into five basic components as follows:
+
+
+where:
+
+NI = Nominal interest rate
+
+RI = Real interest rate
+
+IP = Inflation premium
+
+RP = Interest rate risk premium
+
+LP = Liquidity premium
+
+DP = Default premium
+
+We have already discussed the first three components of the nominal interest rate. We now consider the two new ones on our list, the default and liquidity premiums.
+
+The liquidity premium (LP) is a reflection of the fact that two otherwise identical securities may have very different degrees of liquidity. All else the same, the one with less liquidity would page 315have to offer a higher yield as compensation. For Treasury securities, “on-the-run issues” are the most actively traded (i.e., liquid) bonds. The on-the-run issue is the most recently issued Treasury note or bond of a given maturity.
+
+The Term Structure of Interest Rates
+
+FIGURE 9.9
+
+
+The fifth, and final, component of a nominal interest rate is a default premium (DP). Investors demand a default premium to assume the risk of holding a security that might default on its promised payments. Naturally, the greater the risk of default for a particular bond issue, the larger the default premium required by investors. The topic of default risk is discussed in detail for corporate bonds and municipal bonds in another chapter.
+
+In addition to the five basic components we have discussed, another important determinant of nominal interest rates is tax status. As we briefly discussed in an earlier chapter, municipal bonds are not taxed at the federal level, but all other bonds are (including Treasury bonds). All else the same, taxable bonds must pay higher rates than nontaxable bonds. As a result, the rate on a high-quality municipal issue will normally be less than the rate on a Treasury issue, even though the Treasury is more liquid and has no default risk.
+
+CHECK THIS
+
+
+
+9.7aWhat are the major risk premiums that impact the nominal interest rate?
+
+page 316 
+
+9.8 Summary and Conclusions
+The time value of money is arguably the most important principle of finance. Interest rates are a convenient way to measure and state the time value of money. Furthermore, understanding interest rates is essential for understanding money market and fixed-income securities. This chapter covers many topics relating to interest rates. They are grouped here by the learning objectives of the chapter.
+
+1.  Money market prices and rates.
+
+A.  Money market is the name of the financial market for short-term borrowing and lending. In the money market, the borrowing and lending period is generally less than a year.
+
+B.  Important short-term money market rates include the prime rate, the federal funds rate, and the Federal Reserve’s discount rate. The prime rate is a bellwether of bank lending to business, while the federal funds rate and the Federal Reserve’s discount rate are indicators of the availability of money and credit within the banking system.
+
+2.  Rates and yields on fixed-income securities.
+
+A.  Fixed-income securities promise a regular payment during the life of the security. In addition, most fixed-income securities also promise a lump-sum payment at the end of the life of the security. Generally, when they are issued, fixed-income securities have a life ranging from 2 to 30 years.
+
+B.  The Treasury yield curve plots the relationship between yields on U.S. Treasury securities and their maturities. The Treasury yield curve is fundamental to bond market analysis because it represents the interest rates that financial markets are charging to the world’s largest debtor with the world’s highest credit rating—the U.S. government.
+
+3.  Treasury STRIPS and the term structure of interest rates.
+
+A.  The term structure of interest rates is the fundamental relationship between time to maturity and interest rates for default-free, pure discount instruments such as U.S. Treasury STRIPS.
+
+B.  A number of different theories—including the expectations theory, the maturity preference theory, and the market segmentation theory—have been proposed to explain why the term structure of interest rates and yield curves may be upward sloping at one point in time and then downward sloping or flat at another time. In a modern view of the term structure, yields on default-free, pure discount bonds are determined by the real rate of interest, expectations of future inflation, and an interest rate risk premium.
+
+4.  Nominal versus real interest rates.
+
+A.  Nominal interest rates are interest rates that we ordinarily observe. Nominal interest rates have five basic components: the real rate, an inflation premium, an interest rate risk premium, a liquidity premium, and a default premium. The real interest rate is the nominal interest rate adjusted for the effects of inflation.
+
+B.  U.S. Treasury securities are free of default risk and are generally free from liquidity risk. For other debt issues, however, these two nominal interest rate components are very important.
+
+C.  When nominal interest rates change, long-term bond prices change more than short-term bonds. Put differently, long-term bond prices are much more sensitive to interest rate changes than are short-term bonds. This difference in price changes is called interest rate risk.
+
+D.  The liquidity premium reflects the fact that two otherwise identical securities could have starkly different degrees of liquidity. All else the same, the one with less liquidity would have to offer a higher yield as compensation. The fifth component of a nominal interest rate, the default premium, reflects the extra yield that investors demand to assume the risk of holding a security that might default on its promised payments.
+
+page 317 
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the essentials of interest rates. How should you, as an investor or investment manager, put this information to work?
+
+The best thing to do is to buy, perhaps in a simulated brokerage account, a variety of instruments discussed in this chapter. STRIPS, in particular, are an important investment vehicle for both institutional and individual investors. To gain some practical experience with the risks and rewards of STRIPS investing, you should invest equal dollar amounts in several different STRIPS with different maturities. Pick short-term (a few years), intermediate-term (10 or so years), and long-term (25 years or longer) STRIPS, for example. Once you make these investments, monitor their yields and prices.
+
+A good place to start with a study of interest rates is to visit some federal government websites. Try the U.S. Treasury (treasury.gov), the Bureau of the Fiscal Service (fiscal.treasury.gov), the Federal Reserve Board of Governors (federalreserve.gov), and the New York (newyorkfed.org) and St. Louis (stlouisfed.org) Federal Reserve banks. For the latest money market rates, see Money Rates (money-rates.com); for bank lending rates, check out Bankrate (bankrate.com). Price and yield data for U.S. Treasury securities can be found at CNN (money.cnn.com).
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+bank discount basis 294
+
+banker’s acceptance 293
+
+basis point 294
+
+bellwether rate 290
+
+call money rate 292
+
+certificates of deposit (CDs) 293
+
+commercial paper 292
+
+discount rate 291
+
+Eurodollars 292
+
+expectations theory 310
+
+federal funds rate 290
+
+Fisher hypothesis 307
+
+forward rate 311
+
+London Interbank Offered Rate (LIBOR) 292
+
+market segmentation theory 312
+
+maturity preference theory 312
+
+nominal interest rates 307
+
+prime rate 290
+
+pure discount security 293
+
+real interest rates 307
+
+term structure of interest rates 304
+
+Treasury yield curve 300
+
+U.S. Treasury bill (T-bill) 292
+
+U.S. Treasury STRIPS 304
+
+Chapter Review Problems and Self-Test
+
+Money Market Prices (LO1, CFA2)   The rate on a particular money market instrument, quoted on a discount basis, is 5 percent. The instrument has a face value of $100,000 and will mature in 40 days. What is its price?
+
+Bond Equivalent Yields (LO1, CFA1)   Suppose a T-bill has 75 days to maturity and an ask discount of 4 percent. What is the bond equivalent yield?
+
+page 318 
+
+Answers to Self-Test Problems
+
+Using the bank discount basis formula, we have:
+
+
+You would pay $99,444.44.
+
+Using the bond equivalent yield conversion formula, we have:
+
+
+The bond equivalent yield is thus 4.09 percent.
+
+Test Your Investment Quotient
+
+
+Interest Rates (LO2, CFA2)   Which of the following interest rates is a bellwether (leading indicator) rate of bank lending to business?
+
+Unsecured business loan rate
+
+Prime rate
+
+Commercial paper rate
+
+Banker’s acceptance rate
+
+Interest Rates (LO2, CFA2)   Among the following interest rates, which is normally the highest rate?
+
+Commercial paper rate
+
+U.S. Treasury bill rate
+
+Federal funds rate
+
+Federal Reserve discount rate
+
+T-Bill Yields (LO1, CFA2)   A U.S. Treasury bill with 180 days to maturity has a discount yield of 5 percent and a face value of $100,000. What is its current price?
+
+$97,500
+
+$95,000
+
+$92,500
+
+$90,000
+
+T-Bill Yields (LO1, CFA2)   A U.S. Treasury bill with 90 days to maturity has a price of $95,000. What is its discount yield?
+
+5 percent
+
+10 percent
+
+15 percent
+
+20 percent
+
+T-Bill Yields (LO1, CFA2)   A 30-day U.S. Treasury bill is selling at a 12 percent yield on a discount basis. Which of the following is the approximate bond equivalent yield?
+
+6.0 percent
+
+11.7 percent
+
+12.0 percent
+
+12.3 percent
+
+Effective Annual Rates (LO2, CFA1)   A credit card company states an annual percentage rate (APR) of 12 percent, which is actually a rate of 1 percent per month. What is the EAR?
+
+12 percent
+
+12.68 percent
+
+13.08 percent
+
+13.76 percent
+
+page 319 
+
+STRIPS Yields (LO3, CFA6)   A U.S. Treasury STRIPS maturing in 10 years has a current price of $502.57 for $1,000 of face value. What is the yield to maturity of this STRIPS?
+
+7.0 percent
+
+7.12 percent
+
+8.0 percent
+
+8.12 percent
+
+STRIPS Yields (LO3, CFA6)   A U.S. Treasury STRIPS with a $1,000 face value maturing in five years has a yield to maturity of 7 percent. What is the current price of this STRIPS?
+
+$930
+
+$712.99
+
+$708.92
+
+$650
+
+Bond Yields (LO2, CFA1)  An analyst finds that the semiannual interest rate that equates the present value of the bond’s cash flow to its current market price is 3.85 percent. Consider the following possible alternatives:
+
+  I. The bond equivalent yield on this security is 7.70 percent.
+
+ II. The effective annual yield on the bond is 7.85 percent.
+
+III. The bond’s yield to maturity is 7.70 percent.
+
+IV. The bond’s horizon return is 8.35 percent.
+
+Which of these alternatives are true?
+
+I and II only
+
+II, III, and IV only
+
+I, II, and III only
+
+III only
+
+Forward Rates (LO3, CFA8)   An analyst gathered the following spot rates:
+
+Time (years)	Annual Spot Rate
+1	15.0%
+2	12.5
+3	10.0
+4	7.5
+The one-year forward rate two years from now is closest to:
+
+−4.91 percent
+
+5.17 percent
+
+10.05 percent
+
+7.5 percent
+
+Zeroes (LO2, CFA6)   If an investor’s required return is 12 percent, the value of a 10-year maturity zero coupon bond with a maturity value of $1,000 is closest to:
+
+$312
+
+$688
+
+$1,000
+
+$1,312
+
+Fisher Hypothesis (LO4, CFA4)   The Fisher hypothesis essentially asserts which of the following?
+
+Nominal interest rates follow inflation.
+
+Real interest rates follow inflation.
+
+Inflation follows real interest rates.
+
+Inflation follows nominal interest rates.
+
+Term Structure Theory (LO3, CFA9)   Which one of the following statements about the term structure of interest rates is true?
+
+The expectations hypothesis indicates a flat yield curve if anticipated future short-term rates exceed current short-term rates.
+
+The expectations hypothesis contends that the long-term rate is equal to the anticipated short-term rate.
+
+page 320 
+
+The liquidity premium theory indicates that, all else being equal, longer maturities will have lower yields.
+
+The market segmentation theory contends that borrowers and lenders prefer particular segments of the yield curve.
+
+Term Structure Theory (LO3, CFA9)   Which one of the following is not an explanation of the relationship between a bond’s interest rate and its term to maturity?
+
+Default (credit) risk hypothesis
+
+Expectations hypothesis
+
+Liquidity preference hypothesis
+
+Segmentation hypothesis
+
+Term Structure Theory (LO3, CFA3)   Which theory explains the shape of the yield curve by considering the relative demands for various maturities?
+
+Relative strength theory
+
+Segmentation theory
+
+Unbiased expectations theory
+
+Liquidity premium theory
+
+Term Structure Theory (LO3, CFA3)   The concepts of spot and forward rates are most closely associated with which one of the following explanations of the term structure of interest rates?
+
+Expectations hypothesis
+
+Liquidity premium theory
+
+Preferred habitat hypothesis
+
+Segmented market theory
+
+Forward Rates (LO3, CFA8)   The current one-year interest rate is 6 percent and the current two-year interest rate is 7 percent. What is the implied forward rate for next year’s one-year rate?
+
+9 percent
+
+8 percent
+
+7 percent
+
+6 percent
+
+Forward Rates (LO3, CFA8)   The current one-year interest rate is 7 percent and the current two-year interest rate is 6 percent. What is the implied forward rate for next year’s one-year rate?
+
+7 percent
+
+6 percent
+
+5 percent
+
+4 percent
+
+Forward Rates (LO3, CFA8)   The six-month Treasury bill spot rate is 4 percent, and the one-year Treasury bill spot rate is 5 percent. The implied six-month forward rate six months from now is which of the following?
+
+3.0 percent
+
+4.5 percent
+
+5.5 percent
+
+5.9 percent
+
+Forward Rates (LO3, CFA8)   An analyst gathers the following information:
+
+Years to Maturity	Spot Rate
+1	5.00%
+2	6.00
+3	6.50
+Based on the data above, the one-year implied forward rate two years from now is closest to:
+
+6.25 percent
+
+7.01 percent
+
+7.26 percent
+
+7.51 percent
+
+page 321 
+
+Concept Questions
+
+Interest Rate History (LO2, CFA6)   Based on the history of interest rates, what is the range of short-term rates that has occurred in the United States? The range of long-term rates? What is a typical value for each?
+
+Discount Securities (LO1, CFA2)   What are pure discount securities? Give two examples.
+
+Fed Funds versus the Discount Rate (LO1, CFA5)   Compare and contrast the Fed funds rate and the discount rate. Which do you think is more volatile? Which market do you think is more active? Why?
+
+Commercial Paper (LO1, CFA2)   Compare and contrast commercial paper and Treasury bills. Which would typically offer a higher interest rate? Why?
+
+LIBOR (LO1, CFA6)   What is LIBOR? Why is it important?
+
+Bank Discount Rates (LO1, CFA2)   Why do you suppose rates on some money market instruments are quoted on a bank discount basis? (Hint: Why use a 360-day year?)
+
+STRIPS (LO3, CFA6)   What are the three different types of Treasury STRIPS that are publicly traded?
+
+Nominal and Real Rates (LO4, CFA4)   When we observe interest rates in the financial press, do we see nominal or real rates? Which are more relevant to investors?
+
+TIPS (LO4, CFA3)   Evaluate the following statement: “Treasury inflation protected securities (TIPS) pay a fixed coupon.”
+
+Term Structure (LO4, CFA5)   Discuss how each of the following theories for the term structure of interest rates could account for a downward-sloping term structure of interest rates:
+
+Pure expectations
+
+Maturity preference
+
+Market segmentation
+
+Questions and Problems
+
+Core Questions
+
+STRIPS (LO3, CFA7)   What is the price of a Treasury STRIPS with a face value of $100 that matures in 10 years and has a yield to maturity of 3.5 percent?
+
+STRIPS (LO3, CFA7)   A Treasury STRIPS matures in 7 years and has a yield to maturity of 4.4 percent. If the par value is $100,000, what is the price of the STRIPS? What is the quoted price?
+
+STRIPS (LO3, CFA7)   A Treasury STRIPS is quoted at 90.875 and has 5 years until maturity. What is the yield to maturity?
+
+STRIPS (LO3, CFA2)   What is the yield to maturity on a Treasury STRIPS with 4 years to maturity and a quoted price of 70.485?
+
+Fisher Effect (LO4, CFA4)   A stock had a return of 8.9 percent last year. If the inflation rate was 2.1 percent, what was the approximate real return?
+
+Fisher Effect (LO4, CFA4)   Your investments increased in value by 11.6 percent last year, but your purchasing power increased by only 7.6 percent. What was the approximate inflation rate?
+
+Treasury Bill Prices (LO1, CFA2)   What is the price of a U.S. Treasury bill with 56 days to maturity quoted at a discount yield of 1.15 percent? Assume a $1 million face value.
+
+Treasury Bill Prices (LO1, CFA1)   In Problem 7, what is the bond equivalent yield?
+
+Treasury Bill Prices (LO1, CFA2)   How much would you pay for a U.S. Treasury bill with 112 days to maturity quoted at a discount yield of 2.18 percent? Assume a $1 million face value.
+
+Treasury Bill Prices (LO1, CFA1)   In Problem 9, what is the bond equivalent yield?
+
+Intermediate Questions
+
+11. Treasury Bills (LO1, CFA2)   A Treasury bill with 64 days to maturity is quoted at 99.012. What are the bank discount yield, the bond equivalent yield, and the effective annual return?
+
+12. Treasury Bills (LO1, CFA2)   A Treasury bill purchased in December 2020 has 55 days until maturity and a bank discount yield of 2.48 percent. What is the price of the bill as a percentage of face value? What is the bond equivalent yield?
+
+page 322 
+
+13. Money Market Prices (LO1, CFA2)   The treasurer of a large corporation wants to invest $20 million in excess short-term cash in a particular money market investment. The prospectus quotes the instrument at a true yield of 3.15 percent; that is, the EAR for this investment is 3.15 percent. However, the treasurer wants to know the money market yield on this instrument to make it comparable to the T-bills and CDs she has already bought. If the term of the instrument is 90 days, what are the bond equivalent and discount yields on this investment?
+
+Use the following information to answer Problems 14–18:
+
+U.S. Treasury STRIPS, close of business February 15, 2019:
+
+Maturity	Price	Maturity	Price
+Feb 2020	97.123	Feb 2023	90.066
+Feb 2021	94.770	Feb 2024	87.528
+Feb 2022	92.424	Feb 2025	85.410
+14. Treasury STRIPS (LO3, CFA1)   Calculate the quoted yield for each of the STRIPS given in the table above. Does the market expect interest rates to go up or down in the future?
+
+15. Treasury STRIPS (LO3, CFA1)   What is the yield of the February 2021 STRIPS expressed as an EAR?
+
+16. Forward Interest Rates (LO3, CFA3)   According to the pure expectations theory of interest rates, how much do you expect to pay for a one-year STRIPS on February 15, 2020? What is the corresponding implied forward rate? How does your answer compare to the current yield on a one-year STRIPS? What does this tell you about the relationship between implied forward rates, the shape of the zero coupon yield curve, and market expectations about future spot interest rates?
+
+17. Forward Interest Rates (LO3, CFA8)   According to the pure expectations theory of interest rates, how much do you expect to pay for a five-year STRIPS on February 15, 2020? How much do you expect to pay for a two-year STRIPS on February 15, 2022?
+
+18. Bond Price Changes (LO3, CFA7)   Suppose the (quoted) yield on each of the six STRIPS increases by .05 percent. Calculate the percentage change in price for the one-year, three-year, and six-year STRIPS. Which one has the largest price change? Now suppose that the quoted price on each STRIPS decreases by .500. Calculate the percentage change in (quoted) yield for the one-year, three-year, and six-year STRIPS. Which one has the largest yield change? What do your answers tell you about the relationship between prices, yields, and maturities for discount bonds?
+
+19. TIPS (LO4, CFA3)   Suppose you purchase a $1,000 TIPS on January 1, 2021. The bond carries a fixed coupon of 1 percent. Over the first two years, semiannual inflation is 2 percent, 3 percent, 1 percent, and 2 percent, respectively. For each six-month period, calculate the accrued principal and coupon payment.
+
+20. Inflation and Returns (LO3, CFA1)   You observe that the current interest rate on short-term U.S. Treasury bills is 1.64 percent. You also read in the newspaper that the GDP deflator, which is a common macroeconomic indicator used by market analysts to gauge the inflation rate, currently implies that inflation is .7 percent. Given this information, what is the approximate real rate of interest on short-term Treasury bills? Is it likely that your answer would change if you used some alternative measure for the inflation rate, such as the CPI? What does this tell you about the observability and accuracy of real interest rates compared to nominal interest rates?
+
+21. Forward Interest Rates (LO3, CFA8)   Consider the following spot interest rates for maturities of one, two, three, and four years.
+
+
+What are the following forward rates, where f1,k refers to a forward rate for the period beginning in one year and extending for k years?
+
+
+Hint: Use the equation (1 + r1)(1 + f1, k)k = (1 + rk+1)k+1 to solve for f1, k.
+
+page 323 
+
+22. Forward Interest Rates (LO3, CFA9)   Based on the spot interest rates in the previous question, what are the following forward rates, where fk,1 refers to a forward rate beginning in k years and extending for 1 year?
+
+
+Hint: Use the equation (1 + rk)k(1 + fk,1) = (1 + rk+1)k+1 to solve for fk,1.
+
+23. Expected Inflation Rates (LO4, CFA4)   Based on the spot rates in Problem 21, and assuming a constant real interest rate of 2 percent, what are the expected inflation rates for the next four years?
+
+Hint: Use the Fisher hypothesis and the unbiased expectations theory.
+
+Spreadsheet Problems
+
+24. Treasury Bills (LO1, CFA2)   A Treasury bill that settles on May 18, 2019, pays $100,000 on August 21, 2019. Assuming a discount rate of .44 percent, what are the price and bond equivalent yield?
+
+25. Effective Annual Rate (LO2, CFA1)   You have a car loan with a nominal rate of 5.99 percent. With interest charged monthly, what is the effective annual rate (EAR) on this loan?
+
+26. STRIPS (LO3, CFA7)   What is the price of a Treasury STRIPS with a face value of $100 that matures in five years and has a yield to maturity of 3.3 percent?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA3, CFA8, CFA9]
+
+James Wallace, CFA, is a fixed-income fund manager at a large investment firm. Each year the firm recruits a group of new college graduates. Recently, Mr. Wallace was asked to teach the fixed-income portion of the firm’s training program. Mr. Wallace wants to start by teaching the various theories of the term structure of interest rates and the implications of each theory for the shape of the Treasury yield curve. To evaluate the trainees’ understanding of the subject, he creates a series of questions.
+
+The following interest rate scenario is used to derive examples on the different theories used to explain the shape of the term structure and for all computational problems in Mr. Wallace’s lecture. He assumes a rounded day count of .5 year for each semiannual period.
+
+To read the Period column, let’s look at the 12 × 18 line. The “12” stands for 12 months from now and the “18” stands for 18 months from now. So, the 12 × 18 forward rate is a 6-month rate that begins 12 months from now.
+
+Period (months)	LIBOR Forward Rates	Implied Spot Rates
+0 × 6	5.00%	5.00%
+6 × 12	5.50	5.25
+12 × 18	6.00	5.50
+18 × 24	6.50	5.75
+24 × 30	6.75	5.95
+30 × 36	7.00	6.12
+Mr. Wallace asks the trainees which of the following explains an upward-sloping yield curve according to the pure expectations theory.
+
+The market expects short-term rates to rise through the relevant future.
+
+There is greater demand for short-term securities than for long-term securities.
+
+There is a risk premium associated with more distant maturities.
+
+Mr. Wallace asks the trainees which of the following explains an upward-sloping yield curve according to the market segmentation theory.
+
+The market expects short-term rates to rise through the relevant future.
+
+There is greater demand for short-term securities than for long-term securities.
+
+There is a risk premium associated with more distant maturities.
+
+page 324 
+
+According to the expectations theory, which of the following is closest to the one-year implied forward rate one year from now?
+
+6.58 percent
+
+5.75 percent
+
+6.25 percent
+
+Mr. Wallace is particularly interested in the effects of a steepening yield curve. Which of the following is most accurate for a steepening curve?
+
+The price of short-term Treasuries increases relative to long-term Treasuries.
+
+The price of long-term Treasuries increases relative to short-term Treasuries.
+
+The price of short-term Treasury securities increases.
+
+What’s on the Web?
+
+Yield Curve What is the shape of the Treasury yield curve today? Go to bloomberg.com and find out. Is the yield curve upward sloping or downward sloping? According to the expectations theory, are interest rates in the future expected to be higher or lower than they are today?
+
+STRIPS Go to treasurydirect.gov and search the site to find information on Treasury STRIPS. Answer the following questions: Which Treasury securities are eligible to be stripped? What are minimum par amounts for stripping? How do I buy STRIPS? Why do investors hold STRIPS?
+
+
+
+
+1 Traditionally, maturity preference theory has been known as “liquidity” preference theory, and the maturity premium was termed a “liquidity” premium. However, as we discussed in a previous chapter, the term “liquidity” is universally used to indicate the relative ease with which an asset can be sold. Also, the term “liquidity premium” now has a different meaning. To avoid confusion and to make this theory more consistent with modern views of liquidity, interest rates, and the term structure, we have adopted the more descriptive name of maturity premium.

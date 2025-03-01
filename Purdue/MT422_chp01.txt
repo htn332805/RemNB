@@ -1,0 +1,1273 @@
+page 1
+
+PART 1
+
+A Brief History of Risk and Return
+
+
+
+“All I ask is for the chance to prove that money can’t make me happy.”
+
+–Spike Milligan
+
+Learning Objectives
+
+To become a wise investor (maybe even one with too much money), you need to know:
+
+How to calculate the return on an investment using different methods.
+
+The historical returns on various important types of investments.
+
+The historical risks on various important types of investments.
+
+The relationship between risk and return.
+
+Who wants to be a millionaire? Actually, anyone can retire as a millionaire. How? Consider this: Suppose you invest $3,000 on your 25th birthday. You have the discipline to invest $3,000 on each of your next 39 birthdays until you retire on your 65th birthday. How much will you have? The answer might surprise you. If you earn 10 percent per year, you will have about $1.46 million. Are these numbers realistic? Based on the history of financial markets, the answer appears to be yes. For example, over the last 90 or so years, the widely followed Standard & Poor’s index of large-company common stocks has actually yielded about 12 percent per year.
+
+CFATM Exam Topics in This Chapter:
+
+Discounted cash flow applications (L1, S2)
+
+Statistical concepts and market returns (L1, S2)
+
+Common probability distributions (L1, S3)
+
+Sampling and estimation (L1, S3)
+
+Dividend and share repurchases: Analysis (L2, S7)
+
+Evaluating portfolio performance (L3, S19)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 2
+
+The study of investments could begin in many places. After thinking it over, we decided that a brief history lesson is in order, so we start our discussion of risk and return by looking back at what has happened to investors in U.S. financial markets since 1925. In 1931, for example, the stock market lost 43 percent of its value. Just two years later, the market reversed itself and gained 54 percent. In more recent times, the stock market lost about 25 percent of its value on October 19, 1987, alone, and it gained almost 40 percent in 1995. From 2003 through 2007, the market gained about 80 percent. In 2008, the market fell almost 40 percent. In 2009, the market reversed course again, and through 2018 the market recovered from its large losses (and more), as the return over this nine-year period was over 200 percent.
+
+So what should you, as a stock market investor, expect when you invest your own money? In this chapter, we study close to a century of market history to find out. We pay particular attention to the historical relation between risk and return. As you will see, this chapter has a lot of very practical information for anyone thinking of investing in financial assets such as stocks and bonds. For example, suppose you were to start investing in stocks today. Do you think your money would grow at an average rate of 5 percent per year? Or 10 percent? Or 20 percent? This chapter gives you an idea of what to expect (the answer may surprise you). The chapter also shows how risky certain investments can be, and it gives you the tools to think about risk in an objective way.
+
+Our primary goal in this chapter is to see what financial market history can tell us about risk and return. Specifically, we want to give you a perspective on the numbers. What is a high return? What is a low return? More generally, what returns should we expect from financial assets such as stocks and bonds, and what are the risks from such investments? Beyond this, we hope that by studying what did happen in the past, we will at least gain some insight into what can happen in the future.
+
+Not everyone agrees on the value of studying history. On the one hand, there is philosopher George Santayana’s famous comment, “Those who do not remember the past are condemned to repeat it.” On the other hand, there is industrialist Henry Ford’s equally famous comment, “History is more or less bunk.” These extremes aside, perhaps everyone would agree with Mark Twain, who observed, with remarkable foresight (and poor grammar), that “October. This is one of the peculiarly dangerous months to speculate in stocks in. The others are July, January, September, April, November, May, March, June, December, August, and February.”
+
+Two key observations emerge from a study of financial market history. First, there is a reward for bearing risk, and, at least on average, that reward has been substantial. That’s the good news. The bad news is that greater rewards are accompanied by greater risks. The fact that risk and return go together is probably the single most important fact to understand about investments, and it is a point to which we will return many times.
+
+1.1 Returns
+We wish to discuss historical returns on different types of financial assets. First, we need to know how to compute the return from an investment. We will consider buying shares of stock in this section, but the basic calculations are the same for any investment.
+
+DOLLAR RETURNS
+If you buy an asset of any type, your gain (or loss) from that investment is called the return on your investment. This return will usually have two components. First, you may receive some cash directly while you own the investment. Second, the value of the asset you purchase may change. In this case, you have a capital gain or capital loss on your investment.1
+
+page 3
+
+To illustrate, suppose you purchased 200 shares of stock in Harley-Davidson (ticker symbol: HOG) on January 1. At that time, Harley was selling for $50 per share, so your 200 shares cost you $10,000. At the end of the year, you want to see how you did with your investment.
+
+The first thing to consider is that over the year, a company may pay cash dividends to its shareholders. As a stockholder in Harley, you are a part owner of the company, and you are entitled to a portion of any money distributed. If Harley chooses to pay a dividend, you will receive some cash for every share you own.
+
+In addition to the dividend, the other part of your return is the capital gain or loss on the stock. This part arises from changes in the value of your investment. For example, consider these two cases:
+
+ 	Case 1	Case 2
+Ending Stock Price	$ 55.60	$ 39.80
+January 1 value	10,000	10,000
+December 31 value	11,120	7,960
+Dividend income	80	80
+Capital gain or loss	1,120	−2,040
+At the beginning of the year, on January 1, the stock was selling for $50 per share. As we calculated above, your total outlay for 200 shares is $10,000. Over the year, Harley paid dividends of $.40 per share, which means that by the end of the year you received dividend income of:
+
+
+In Case 1, suppose that as of December 31, a HOG share was selling for $55.60, meaning that the value of your stock increased by $5.60 per share. Your 200 shares would be worth $11,120, so you have a capital gain of:
+
+
+On the other hand, if the price had dropped to, say, $39.80 (Case 2), you would have a capital loss of:
+
+
+Notice that a capital loss is the same thing as a negative capital gain.
+
+The total dollar return on your investment is the sum of the dividend income and the capital gain (or loss):
+
+
+total dollar return
+
+The return on an investment measured in dollars that accounts for all cash flows and capital gains or losses.
+
+In Case 1, the total dollar return is thus given by:
+
+
+Overall, between the dividends you received and the increase in the price of the stock, the value of your investment increased from $10,000 to $10,000 + $1,200 = $11,200.
+
+A common misconception often arises in this context. Suppose you hold on to your Harley-Davidson stock and don’t sell it at the end of the year. Should you still consider the capital gain as part of your return? Isn’t this only a “paper” gain and not really a cash gain if you don’t sell it?
+
+The answer to the first question is a strong yes, and the answer to the second is an equally strong no. The capital gain is every bit as much a part of your return as the dividend, and you should certainly count it as part of your return. The fact that you decide to keep the stock and don’t sell (you don’t “realize” the gain) is irrelevant because you could have converted it to cash if you had wanted to. Whether you choose to do so is up to you.
+
+page 4
+
+After all, if you insist on converting your gain to cash, you could always sell the stock and immediately reinvest by buying the stock back. There is no difference between doing this and just not selling (assuming, of course, that there are no transaction costs or tax consequences from selling the stock). Again, the point is that whether you actually cash out and buy pizzas (or whatever) or continue to hold the investment doesn’t affect the return you actually earn.
+
+PERCENTAGE RETURNS
+It is usually more convenient to summarize information about returns in percentage terms than in dollar terms because that way your return doesn’t depend on how much you actually invested. With percentage returns, the question we want to answer is: How much do we get for each dollar we invest?
+
+To answer this question, let Pt be the price of the stock at the beginning of the year. Let Dt + 1 be the dividend paid on the stock during the year. The following cash flows are the same as those shown earlier, except that we have now expressed everything on a per-share basis:
+
+Case 1	Case 2
+January 1 stock price, Pt	$50.00	$ 50.00
+December 31 stock price, Pt + 1	55.60	39.80
+Dividend income, Dt + 1	.40	.40
+Capital gain or loss	5.60	−10.20
+Our favorite investments website is Yahoo! Finance at
+finance.yahoo.com.
+Visit this site and look around!
+
+In our example, the price at the beginning of the year was $50 per share and the dividend paid during the year on each share was $.40. If we divide the dividend by the beginning stock price, the result is the dividend yield:
+
+
+dividend yield
+
+The annual stock dividend as a percentage of the initial stock price.
+
+This calculation says that for each dollar we invested, we received 0.80 cents in dividends.
+
+The second component of our percentage return is the capital gains yield. This yield is calculated as the change in the price during the year (the capital gain) divided by the beginning price. With the Case 1 ending price, we get:
+
+
+capital gains yield
+
+The change in stock price as a percentage of the initial stock price.
+
+This 11.20 percent yield means that for each dollar invested, we got about 11 cents in capital gains (HOG heaven).
+
+Putting it all together, per dollar invested, we get .80 cent in dividends and 11.20 cents in capital gains for a total of 12.00 cents. Our total percent return is 12 cents on the dollar, or 12.00 percent. When a return is expressed on a percentage basis, we often refer to it as the rate of return, or just “return,” on the investment. Notice that if we combine the formulas for the dividend yield and capital gains yield, we get a single formula for the total percentage return:
+
+
+total percent return
+
+The return on an investment measured as a percentage that accounts for all cash flows and capital gains or losses.
+
+To check our calculations, notice that we invested $10,000 and ended up with $11,200. By what percentage did our $10,000 increase? As we saw, our gain was $11,200 − $10,000 = $1,200. This is an increase of $1,200/$10,000, or 12.00 percent.
+
+page 5
+
+WORK THE WEB
+
+To look up information on common stocks using the web, you need to know the “ticker” symbol for the stocks in which you are interested. Look up ticker symbols in many places, including one of our favorite sites, finance.yahoo.com. Here we have looked up (using the “Quote Lookup” link) and entered ticker symbols for some well-known “tech” stocks: Apple, Microsoft, Amazon, and Facebook. Our results are shown below.
+
+As you can see, we get the price for each stock, along with information about the change in price and volume (number of shares traded). You will find a lot of links to hit and learn more, so have at it!
+
+
+Source: finance.yahoo.com.
+
+Calculating Percentage Returns
+
+EXAMPLE 1.1
+
+Suppose you buy some stock in Concannon Plastics for $35 per share. After one year, the price is $49 per share. During the year, you received a $1.40 dividend per share. What is the dividend yield? The capital gains yield? The percentage return? If your total investment was $1,400, how much do you have at the end of the year?
+
+Your $1.40 dividend per share works out to a dividend yield of:
+
+
+The per-share capital gain is $14, so the capital gains yield is:
+
+
+The total percentage return is thus 4% + 40% = 44%.
+
+If you had invested $1,400, you would have $2,016 at the end of the year. To check this, note that your $1,400 would have bought you $1,400/$35 = 40 shares. Your 40 shares would then have paid you a total of 40 × $1.40 = $56 in cash dividends. Your $14 per share gain would give you a total capital gain of $14 × 40 = $560. Add these together and you get $616, which is a 44 percent total return on your $1,400 investment.
+
+A NOTE ON ANNUALIZING RETURNS
+So far, we have only considered annual returns. Of course, the actual length of time you own an investment will almost never be exactly a year. To compare investments, however, we will usually need to express returns on a per-year or “annualized” basis, so we need to do a little bit more work.
+
+For example, suppose you bought 200 shares of Cisco Systems (CSCO) at a price of $30 per share. In three months, you sell your stock for $31.50. You didn’t receive any dividends. What is your return for the three months? What is your annualized return?
+
+page 6
+
+In this case, we say that your holding period, which is the length of time you own the stock, is three months. With a zero dividend, you know that the percentage return can be calculated as:
+
+
+This 5.00 percent is your return for the three-month holding period, but what does this return amount to on a per-year basis? To find out, we need to convert this to an annualized return, meaning a return expressed on a per-year basis. Such a return is often called an effective annual return, or EAR for short. The general formula is:
+
+
+effective annual return (EAR)
+
+The return on an investment expressed on a per-year, or “annualized,” basis.
+
+where m is the number of holding periods in a year.
+
+In our example, the holding period percentage return is 5.00 percent, or .0500. The holding period is three months, so there are four (12 months/3 months) periods in a year. We calculate the annualized return, or EAR, as follows:
+
+
+Thus, your annualized return is 21.55 percent.
+
+A “QWEST” for Returns
+
+EXAMPLE 1.2
+
+Suppose you buy stock in Qwest at a price of $28 per share. Four months later, you sell for $29.40 per share. No dividend is paid. What is your annualized return on this investment?
+
+For the four-month holding period, your return is:
+
+
+There are three four-month periods in a year, so the annualized return is:
+
+
+Subtracting the one, we get an annualized return of .1576, or 15.76 percent.
+
+More Annualized Returns
+
+EXAMPLE 1.3
+
+Suppose you buy stock in Johnson & Johnson (JNJ) at a price of $60 per share. Three years later, you sell it for $64.50. No dividends were paid. What is your annualized return on this investment?
+
+The situation here is a bit different because your holding period is now longer than a year, but the calculation is basically the same. For the three-year holding period, your return is:
+
+
+How many three-year holding periods are there in a single year? The answer is one-third, so m in this case is 1/3. The annualized return is:
+
+
+Subtracting the one, we get an annualized return of .0244, or 2.44 percent.
+
+page 7
+
+Now that you know how to calculate returns on a hypothetical stock, you should calculate returns for real stocks. The nearby Work the Web box using finance.yahoo.com describes how to begin. Meanwhile, in the next several sections, we will take a look at the returns that some common types of investments have earned over the last 93 years.
+
+CHECK THIS
+
+
+
+1.1aWhat are the two parts of total return?
+
+1.1bWhat is the difference between a dollar return and a percentage return? Why are percentage returns usually more convenient?
+
+1.1cWhat is an effective annual return (EAR)?
+
+1.2 The Historical Record
+We now examine year-to-year historical rates of return on five important categories of financial investments. These returns represent what you would have earned if you had invested in portfolios of the following asset categories:
+
+Annual historical financial market data can be downloaded (but not for free) at
+globalfinancialdata.com.
+
+Large-company stocks. The large-company stock portfolio is based on the Standard & Poor’s (S&P’s) 500 index, which contains 500 of the largest companies (in terms of total market value of outstanding stock) in the United States.
+
+Small-company stocks. This is a portfolio composed of stock of smaller companies, where “small” corresponds to the smallest 20 percent of the companies listed on the New York Stock Exchange, again as measured by market value of outstanding stock.
+
+Long-term corporate bonds. This is a portfolio of high-quality bonds with 20 years to maturity.
+
+Long-term U.S. government bonds. This is a portfolio of U.S. government bonds with 20 years to maturity.
+
+U.S. Treasury bills. This is a portfolio of Treasury bills (T-bills for short) with a three-month maturity.
+
+If you are not entirely certain what these investments are, don’t be overly concerned. We will have much more to say about each in later chapters. For now, just accept that these are some important investment categories. In addition to the year-to-year returns on these financial instruments, the year-to-year percentage changes in the Consumer Price Index (CPI) are also computed. The CPI is a standard measure of consumer goods price inflation. We discuss the CPI in more detail in a later chapter.
+
+Here is a bit of market jargon for you. A company’s total market capitalization (or market “cap” for short) is equal to its stock price multiplied by the number of shares of stock. In other words, it’s the total value of the company’s stock. Large companies are often called “large-cap” stocks, and small companies are called “small-cap” stocks. We’ll use these terms frequently.
+
+A FIRST LOOK
+Before examining the different portfolio returns, we first take a look at the “big picture.” Figure 1.1 shows what happened to $1 invested in these different portfolios at the beginning of 1926 and held over the 93-year period ending in 2018 (for clarity, the long-term corporate bonds are omitted). To fit all the information on a single graph, some modification in scaling is used. As is commonly done with financial time series, the vertical axis is scaled so that equal distances measure equal percentage (as opposed to dollar) changes in value. Thus, the distance between $10 and $100 is the same as that between $100 and $1,000 because both distances represent the same 900 percent increases.
+
+A $1 Investment in Different Types of Portfolios: 1926–2018 (Year-end 1925 = $1)
+
+FIGURE 1.1
+
+
+Source: SBBI Yearbook. 2019. Duff & Phelps.
+
+Looking at Figure 1.1, we see that the small-company investment did the best overall. Every dollar invested grew to a remarkable $29,871.01 over the 93 years. The larger common stock portfolio did less well; a dollar invested in it grew to $6,462.39.
+
+page 8
+
+At the other end, the T-bill portfolio grew to only $23.05. This is even less impressive when we consider the inflation over this period. As illustrated, the increase in the price level was such that $14.03 is needed just to replace the original $1.
+
+Given the historical record, why would anybody buy anything other than small-company stocks? If you look closely at Figure 1.1, you will probably see the answer—risk. The T-bill portfolio and the long-term government bond portfolio grew more slowly than did the stock portfolios, but they also grew much more steadily. The small stocks ended up on top, but, as you can see, they grew quite erratically at times. For example, the small stocks were the worst performers for about the first 10 years and had a smaller return than long-term government bonds for almost 15 years.
+
+A LONGER-RANGE LOOK
+The data available on the stock returns before 1925 are not comprehensive, but it is nonetheless possible to trace reasonably accurate returns in U.S. financial markets as far back as 1801. Figure 1.2 shows the values, at the end of 2018, of $1 invested since 1801 in stocks, long-term bonds, short-term bills, and gold. The CPI is also included for reference.
+
+page 9
+
+Financial Market History
+
+FIGURE 1.2
+
+
+Sources: Jeremy J. Siegel, Stocks for the Long Run, 3rd ed. (New York: McGraw-Hill, 2003); update through 2009 provided by Jeremy J. Siegel; update through 2015 from Global Financial Data (www.globalfinancialdata.com) and Professor Kenneth R. French, Dartmouth College. Update through 2018 from SBBI Yearbook. 2019. Duff & Phelps, other sources.
+
+Inspecting Figure 1.2, we see that $1 invested in stocks grew to an astounding $28.56 million over this 218-year period. During this time, the returns from investing in stocks dwarf those earned on other investments. Notice also in Figure 1.2 that, after 170 years, gold managed to outpace inflation beginning in the 1970s.
+
+What we see thus far is that there has been a powerful financial incentive for long-term investing. The real moral of the story is this: Get an early start!
+
+A CLOSER LOOK
+To illustrate the variability of the different investments and inflation, Figures 1.3 through 1.6 plot the year-to-year percentage returns in the form of vertical bars drawn from the horizontal axis. The height of a bar tells us the return for the particular year. For example, looking at the long-term government bonds (Figure 1.5), we see that the largest historical return (47.14 percent) occurred in 1982. This year was a good year for bonds. In comparing these charts, notice the differences in the vertical axis scales. With these differences in mind, you can see how predictably the Treasury bills (bottom of Figure 1.5) behaved compared to the small-company stocks (Figure 1.4).
+
+The returns shown in these bar graphs are sometimes very large. Looking at the graphs, we see, for example, that the largest single-year return was a remarkable 153 percent for small-company stocks in 1933. In the same year, the large-company stocks returned “only” 53 percent. In contrast, the largest Treasury bill return was 14.6 percent in 1981. The Treasury bill return was near zero in a number of recent years. For future reference, the actual year-to-year returns for the S&P 500, long-term U.S. government bonds, U.S. Treasury bills, and the CPI are shown in Table 1.1.
+
+page 10
+
+Year-to-Year Total Returns on Large-Company Stocks: 1926–2018
+
+FIGURE 1.3
+
+
+Source: Professor Kenneth R. French, Dartmouth College through 2015. Update through 2018, SBBI Yearbook. 2019. Duff & Phelps.
+
+Year-to-Year Total Returns on Small-Company Stocks: 1926–2018
+
+FIGURE 1.4
+
+
+Source: Professor Kenneth R. French, Dartmouth College through 2015. Update through 2018, SBBI Yearbook. 2019. Duff & Phelps.
+
+page 11
+
+Year-to-Year Total Returns on Bonds and Bills: 1926–2018
+
+FIGURE 1.5
+
+
+Source: Global Financial Data (www.globalfinancialdata.com) through 2015. Update through 2018, SBBI Yearbook. 2019. Duff & Phelps.
+
+Year-to-Year Inflation: 1926–2018
+
+FIGURE 1.6
+
+
+Source: Global Financial Data (www.globalfinancialdata.com) through 2015. Update through 2018, SBBI Yearbook. 2019. Duff & Phelps.
+
+page 12
+
+2008: THE BEAR GROWLED AND INVESTORS HOWLED
+As we mentioned in our chapter introduction, 2008 entered the record books as one of the worst years for stock market investors in U.S. history. Over the extended period beginning in October 2007 (when the decline began) through March 2009, the S&P 500 index declined from 1,576 to 677, a drop of about 57 percent. Stock investors fared much better during the rest of 2009. The S&P 500 stood at 1,115 at year’s end—a rebound of 65 percent from the March low.
+
+Figure 1.7 shows the month-by-month performance of the S&P 500 during 2008. As indicated, returns were negative in 8 of the 12 months. Most of the damage occurred in the fall, with investors losing almost 17 percent in October alone. Small stocks fared no better. They fell 37 percent for the year (with a 21 percent drop in October), their worst performance since losing 58 percent in 1937.
+
+S&P 500 Monthly Returns: 2008
+
+FIGURE 1.7
+
+
+Source: Author calculations.
+
+As Figure 1.7 suggests, stock prices were highly volatile during 2008. Oddly, the S&P had 126 up days and 126 down days (remember the markets are closed weekends and holidays). Of course, the down days were much worse on average. To see how extraordinary volatility was in 2008, consider that there were 18 days during which the value of the S&P changed by more than 5 percent. There were only 17 such moves between 1956 and 2007!
+
+The drop in stock prices in 2008 was a global phenomenon, and many of the world’s major markets were off by much more than the S&P. China, India, and Russia, for example, all experienced declines of more than 50 percent. Tiny Iceland saw share prices drop by more than 90 percent for the year. Trading on the Icelandic exchange was temporarily suspended on October 9. In what has to be a modern record for a single day, stocks fell by 76 percent when trading resumed on October 14.
+
+Did U.S. investors encounter any bright spots? The answer is yes: As stocks plummeted, bonds soared, particularly U.S. Treasury bonds. In fact, long-term Treasuries gained over 40 percent in 2008, while shorter-term Treasury bonds were up 13 percent. Long-term corporate bonds did not fare as well but still managed to finish in positive territory, up 9 percent. page 13These returns were especially impressive considering that the rate of inflation, as measured by the CPI, was essentially zero.
+
+Year-to-Year Total Returns: 1926–2018
+
+TABLE 1.1
+
+
+Source: Author calculations based on data obtained from Global Financial Data (www.globalfinancialdata.com) and Professor Kenneth R. French, Dartmouth College through 2015. Update through 2018, SBBI Yearbook. 2019. Duff & Phelps.
+
+page 14
+
+What lessons should investors take away from this very recent bit of capital market history? First, and most obviously, stocks have significant risk! But note a second, equally important lesson: Depending on the mix, a diversified portfolio of stocks and bonds probably would have suffered in 2008, but the losses would have been much smaller than those experienced by an all-stock portfolio. In other words, diversification matters, a point we will examine in detail in our next chapter.
+
+CHECK THIS
+
+
+
+1.2aWith 20/20 hindsight, which investment category performed best for the period 1926–1935?
+
+1.2bWhy doesn’t everyone just buy small-company stocks as investments?
+
+1.2cWhat was the smallest return observed over the 93 years for each category of investments? Approximately when did it occur?
+
+1.2dAbout how many times did large-company stocks (common stocks) return more than 30 percent? How many times did they return less than −20 percent?
+
+1.2eWhat was the longest “winning streak” (years without a negative return) for large-company stocks? For long-term government bonds?
+
+1.2fHow often did the T-bill portfolio have a negative return?
+
+1.3 Average Returns: The First Lesson
+As you’ve probably begun to notice, the history of financial market returns in an undigested form is complicated. What we need are simple measures to accurately summarize and describe all these numbers. Accordingly, we discuss how to go about condensing detailed numerical data. We start by calculating average returns.
+
+page 15
+
+CALCULATING AVERAGE RETURNS
+The obvious way to calculate average returns on the different investments in Figures 1.3 to 1.5 is to add up the yearly returns and divide by 93. The result is the historical average of the individual values. For example, if you add the returns for large-company common stocks for the 93 years, you will get about 1,107 percent. The average annual return is thus 1,107/93 = 11.9. You can interpret this 11.9 percent just like any other average. If you picked a year at random from the 93-year history and you had to guess the return in that year, the best guess would be 11.9 percent.
+
+AVERAGE RETURNS: THE HISTORICAL RECORD
+Table 1.2 shows the average returns for the investments we have discussed. Because these averages do not reflect the impact of inflation, we include an average inflation rate. Notice that over this 93-year period, the average inflation rate was 3 percent per year while the average return on U.S. Treasury bills was 3.4 percent per year. Thus, the average return on Treasury bills exceeded the average rate of inflation by only .4 percent per year. At the other extreme, the return on small-company common stocks exceeded the rate of inflation by about 16.2% − 3% = 13.2%. The real return of the large-company common stocks averaged 11.9% − 3% = 8.9% per year.
+
+Average Annual Returns: 1926–2018
+
+TABLE 1.2
+
+Investment	Average Return
+Large-company stocks	   11.9%
+Small-company stocks	16.2
+Long-term corporate bonds	6.3
+Long-term government bonds	5.9
+U.S. Treasury bills	3.4
+Inflation	3.0
+Source: SBBI Yearbook. 2019. Duff & Phelps.
+
+RISK PREMIUMS
+Now that we have computed some average returns, it seems logical to see how they compare with each other. Based on our discussion above, one such comparison involves government-issued securities. These are free of much of the variability we see in, for example, the stock market.
+
+The government borrows money by issuing debt, that is, bonds. Bonds come in different forms, but we will focus on Treasury bills. Treasury bills have the shortest time to maturity of the different types of government debt. Because the government can always raise taxes or print money to pay its expenses, Treasury bills are virtually free of any default risk. Thus, we will call the rate of return on such debt the risk-free rate, and we will use it as a kind of investing benchmark.
+
+risk-free rate
+
+The rate of return on a riskless investment.
+
+A particularly interesting comparison involves the virtually risk-free return on T-bills and the risky return on common stocks. The difference between these two returns can be interpreted as a measure of the excess return on the average risky asset (assuming that the stock of a large U.S. corporation has about average risk compared to all risky assets).
+
+We call this the “excess” return because it is the additional return we earn by moving from a virtually risk-free investment to a risky one. Because this excess return can be interpreted as a reward for bearing risk, we will call it a risk premium.
+
+risk premium
+
+The extra return on a risky asset over the risk-free rate; the reward for bearing risk.
+
+THE U.S. EQUITY RISK PREMIUM: HISTORICAL AND INTERNATIONAL PERSPECTIVES So far in this chapter, we have studied returns in U.S. stock and bond markets in the period 1926–2018. As we have discussed, the historical U.S. stock market risk premium has been substantial. Of course, whenever we use the past to predict the future, page 16there is a danger that the past period isn’t representative of what the future will hold. Perhaps U.S. investors got lucky over this period and earned particularly large returns. As we have noted, data from earlier years are available, although not of the same quality. The U.S. equity risk premium in the pre-1926 era was smaller than it was in the post-1926 era. Using U.S. return data from 1801 to 2006, the historical equity risk premium was 5.4 percent.
+
+Thanks to Professors Elroy Dimson, Paul Marsh, and Michael Staunton, data from earlier periods and other countries are now available to help us take a closer look at equity risk premiums. Over the period 1900–2005, the U.S. historical equity risk premium is the eighth highest at 7.4 percent (which differs from our estimate below because of the different time periods examined). The overall world average risk premium is 7.1 percent. It seems clear that U.S. investors did well, but not exceptionally so relative to many other countries. The top performing countries were the United States, Australia, and France; the worst performers were Denmark and Norway. Germany, Japan, and Italy might make an interesting case study because they had the highest stock returns over this period (despite World Wars I and II), but they also had the highest risk.
+
+What is a good estimate of the U.S. equity risk premium going forward? Unfortunately, nobody can know for sure what investors expect in the future. If history is a guide, the expected U.S. equity risk premium could be 7.4 percent based on estimates from 1900–2005. We should also be mindful that the average world equity risk premium was 7.1 percent over this same period. On the other hand, the earlier period (1801–1925) suggests lower estimates. Taking a slightly different approach, Professor Ivo Welch asked the opinions of 226 financial economists regarding the future U.S. equity risk premium. The median response was 7 percent.
+
+Estimates of the future U.S. equity risk premium that are somewhat higher or lower could be reasonable, especially if we have good reason to believe the past is not representative of the future. The bottom line is that any estimate of the future equity risk premium will involve assumptions about the future risk environment as well as the amount of risk aversion of future investors.
+
+THE FIRST LESSON
+From the data in Table 1.2, we can calculate risk premiums for the five different categories of investments. The results are shown in Table 1.3. Notice that the risk premium on T-bills is shown as zero in the table because they are our riskless benchmark. Looking at Table 1.3, we see that the average risk premium earned by the large-company common stock portfolio is 11.9% − 3.6% = 8.3%. This difference is a significant reward. The fact that it exists historically is an important observation, and it is the basis for our first lesson: Risky assets, on average, earn a risk premium. Put another way, there is a reward, on average, for bearing risk.
+
+Why is this so? Why, for example, is the risk premium for small stocks so much larger than the risk premium for large stocks? More generally, what determines the relative sizes of the risk premiums for the different assets? These questions are at the heart of the modern theory of investments. We will discuss the issues involved many times in the chapters ahead. For now, part of the answer can be found by looking at the historical variability of the returns of these different investments. To get started, we now turn our attention to measuring variability in returns.
+
+Average Annual Returns and Risk Premiums: 1926–2018
+
+TABLE 1.3
+
+Investment	Average Return	Risk Premium
+Large-company stocks	11.9%	8.5%
+Small-company stocks	16.2	12.8
+Long-term corporate bonds	6.3	2.9
+Long-term government bonds	5.9	2.5
+U.S. Treasury bills	3.4	—
+Source: SBBI Yearbook. 2019. Duff & Phelps. Author calculations.
+
+page 17
+
+CHECK THIS
+
+
+
+1.3aWhat do we mean by excess return and risk premium?
+
+1.3bWhat is the historical risk premium on small-company stocks? On U.S. Treasury bonds?
+
+1.3cWhat is the first lesson from financial market history?
+
+1.4 Return Variability: The Second Lesson
+We have already seen that the year-to-year returns on common stocks tend to be more volatile than returns on, say, long-term government bonds. We now discuss measuring this variability so we can begin examining the subject of risk.
+
+FREQUENCY DISTRIBUTIONS AND VARIABILITY
+To get started, we can draw a frequency distribution for large-company stock returns like the one in Figure 1.8. What we have done here is to count the number of times that an annual return on the large-company stock portfolio falls within each 10 percent range. For example, in Figure 1.8, the height of 19 for the bar within the interval 10 percent to 20 percent means that 19 of the 93 annual returns are in that range. Notice also that most of the returns are in the −10 to 40 percent range.
+
+Frequency Distribution of Returns on Large-Company Common Stocks: 1926–2018
+
+FIGURE 1.8
+
+
+Source: Professor Kenneth R. French, Dartmouth College through 2015. Update through 2018, SBBI Yearbook. 2019. Duff &Phelps.
+
+Now we need to measure the spread in these returns. We know, for example, that the return on large-company stocks in a typical year was 11.9 percent. We now want to know by how much the actual return differs from this average in a typical year. In other words, we need page 18a measure of the volatility of returns. The variance and its square root, the standard deviation, are the most commonly used measures of volatility. We describe how to calculate them next. If you’ve already studied basic statistics, you should notice that we are calculating an ordinary sample variance and standard deviation, just as you may have done many times before.
+
+variance
+
+A common measure of volatility.
+
+standard deviation
+
+The square root of the variance.
+
+THE HISTORICAL VARIANCE AND STANDARD DEVIATION
+The variance essentially measures the average squared difference between the actual returns and the average return. The bigger this number is, the more the actual returns tend to differ from the average return. Also, the larger the variance or standard deviation is, the more spread out the returns will be.
+
+For an easy-to-read review of basic statistics, see
+robertniles.com/stats/.
+
+The way we calculate the variance and standard deviation depends on the specific situation. In this chapter, we are looking at historical returns. Therefore, the procedure we describe here is the correct one for calculating the historical variance and standard deviation. If we were examining projected future returns, then the procedure would be different. We describe this procedure in a later chapter.
+
+To illustrate how we calculate the historical variance, suppose a particular investment had returns of 10 percent, 12 percent, 3 percent, and –9 percent over the last four years. The average return is (.10 + .12 + .03 – .09)/4 = .04, or 4 percent.
+
+Notice that the return is never actually equal to .04, or 4 percent. Instead, the first return deviates from the average by .10 – .04 = .06, the second return deviates from the average by .12 – .04 = .08, and so on. To compute the variance, we square each of these deviations, add them up, and divide the result by the number of returns less 1, or 3 in this case. These calculations are summarized in the following table:
+
+
+In the first column, we write down the four actual returns. In the third column, we calculate the difference between the actual returns and the average by subtracting out 4 percent. Finally, in the fourth column, we square the numbers in Column 3 to get the squared deviations from the average.
+
+The variance can now be calculated by dividing .0270, the sum of the squared deviations, by the number of returns less 1. Let Var(R) or σ2 (read this as “sigma squared”) stand for the variance of the return:
+
+
+The standard deviation is the square root of the variance. So, if SD(R) or σ stands for the standard deviation of the return:
+
+
+The square root of the variance is used because the variance is measured in “squared” percentages and thus is hard to interpret. The standard deviation is an ordinary percentage, so the answer here could be written as 9.487 percent.
+
+In the table above, notice that the sum of the deviations is equal to zero. This will always be the case, and it provides a good way to check your work. In general, if we have N historical returns, where N is some number, we can write the historical variance as:
+
+
+page 19
+
+This formula tells us to do what we did above: Take each of the N individual returns (R1, R2, . . . , RN) and subtract the average return, ; square the results and add up all these squares; and, finally, divide this total by the number of returns minus 1 (i.e., N – 1).2 The standard deviation is the square root of Var(R). In many areas, including finance, standard deviations are used to measure variability.
+
+Calculating the Variance and Standard Deviation
+
+EXAMPLE 1.4
+
+From Table 1.1, we see that the large-company stocks and long-term government bonds had these returns for the years 2012–2015:
+
+Year	Large-Company Stocks	Long-Term Government Bonds
+2012	.1600	.0180
+2013	.3239	–.1469
+2014	.1369	.2976
+2015	.0138	–.0261
+What are the average returns? The variances? The standard deviations?
+
+To calculate the average returns, we add up the returns and divide by four. The results are:
+
+
+To calculate the variance for large-company stocks, we can summarize the relevant calculations (with rounding) as follows:
+
+
+Because there are four years of returns, we calculate the variance by dividing .0488 (rounded from .048765 above, to keep everything at 4 decimal places) by (4 – 1) = 3:
+
+
+For practice, verify that you get the same answers that we do for long-term government bonds. Notice that the standard deviation for long-term government bonds, 18.80 percent, is actually higher than the standard deviation for large-company stocks, 12.75 percent, over this short period. Why is this relationship unusual?
+
+THE HISTORICAL RECORD
+Figure 1.9 summarizes much of our discussion of capital market history so far. It displays average returns, standard deviations, and frequency page 20distributions of annual returns on a common scale. For example, in Figure 1.9, notice that the standard deviation for the small-stock portfolio (31.6 percent per year) is more than 10 times larger than the T-bill portfolio’s standard deviation (3.1 percent per year). We will return to discuss these facts momentarily.
+
+Historical Returns, Standard Deviations, and Frequency Distributions: 1926–2018
+
+FIGURE 1.9
+
+
+* The 1933 small-company stocks total return was 152.9 percent and is not shown here.
+
+Source: SBBI Yearbook. 2019. Duff & Phelps.
+
+NORMAL DISTRIBUTION
+For many different random events in nature, a particular frequency distribution, the normal distribution (or bell curve) is useful for describing the probability of ending up in a given range. For example, the idea behind “grading on a curve” is based on the fact that exam scores often resemble a bell curve.
+
+normal distribution
+
+A symmetric, bell-shaped frequency distribution that is completely defined by its average and standard deviation.
+
+Figure 1.10 illustrates a normal distribution and its distinctive bell shape. As you can see, this distribution has a much cleaner appearance than the actual return distributions illustrated in Figure 1.8. Even so, like the normal distribution, the actual distributions do appear to be at least roughly mound shaped and symmetric. When this shape is observed, the normal distribution is often a very good approximation.
+
+The Normal Distribution: Illustrated Returns Based on the Historical Return and Standard Deviation for a Portfolio of Large-Company Common Stocks
+
+FIGURE 1.10
+
+
+Also, keep in mind that the distributions in Figure 1.9 are based on only 93 yearly observations, while Figure 1.10 is, in principle, based on an infinite number. So, if we had been able to observe returns for, say, 1,000 years, we might have filled in a lot of the irregularities and page 21ended up with a much smoother picture. For our purposes, it is enough to observe that the returns are at least roughly normally distributed.
+
+The usefulness of the normal distribution stems from the fact that it is completely described by the average and the standard deviation. If you have these two numbers, then there is nothing else you need to know. For example, with a normal distribution, the probability that we end up within one standard deviation of the average is 68 percent, or about 2/3. The probability that we end up within two standard deviations is about 95 percent. Finally, the probability of being more than three standard deviations away from the average is less than 1 percent. These ranges and the probabilities are illustrated in Figure 1.10.
+
+To see why this range is useful, recall from Figure 1.9 that the standard deviation of returns on the large-company common stocks is 19.8 percent. The average return is 11.9 percent. So, assuming that the frequency distribution is at least approximately normal, the probability that the return in a given year is in the range of –7.9 percent to 31.7 percent (11.9 percent plus or minus one standard deviation, 19.8 percent) is about 2/3. This range is illustrated in Figure 1.10. In other words, there is about one chance in three that the return will be outside this range. Therefore, if you buy stocks in large companies, you should expect to be outside this range in one year out of every three. This reinforces our earlier observations about stock market volatility. However, there is only a 5 percent chance (approximately) that we would end up outside the range of –27.7 percent to 50.7 percent (11.9 percent plus or minus 2 × 19.8 percent). These points are also shown in Figure 1.10.
+
+THE SECOND LESSON
+Our observations concerning the year-to-year variability in returns are the basis for our second lesson from capital market history. On average, bearing risk is handsomely rewarded, but, in a given year, there is a significant chance of a dramatic change in value. Thus, our second lesson is this: The greater the potential reward, the greater the risk.
+
+Thus far in this chapter, we have emphasized the year-to-year variability in returns. We should note that even day-to-day movements can exhibit considerable volatility. For example, on September 29, 2008, the Dow Jones Industrial Average (DJIA) plummeted 777.68 points, or 6.98 percent. By historical standards, it was one of the worst days ever for the 30 stocks that comprise the DJIA (as well as for a majority of stocks in the market). Still, while the drop was the largest one-day decrease in the DJIA ever in terms of points, it was not in the top 10 largest one-day percentage decreases in history, as shown in Table 1.4.
+
+page 22
+
+Good Times, Bad Times (You Know I’ve Had My Share): The Best and Worst Days for the DJIA: May 1896 to March 2018
+
+TABLE 1.4
+
+
+Source: Author calculations and FRED, the database maintained by the Federal Reserve Bank of St. Louis.
+
+This discussion highlights the importance of looking at returns in terms of percentages rather than dollar amounts or index points. For example, before 2008, the biggest one-day loss in terms of points was on September 17, 2001, when the DJIA declined by about 685 points. The second worst was the 618-point drop of April 14, 2000. By contrast, the 5.79-point drop in the DJIA on August 12, 1932, marked the eighth worst percentage drop in the history of the index. A 5.79-point loss in the DJIA in today’s market, however, would hardly be noticed. This is precisely why we relied on percentage returns when we examined market history in this chapter.3
+
+Now that you know how to calculate and, more important, interpret average returns and standard deviations, the nearby Spreadsheet Analysis box shows how to do the calculations using Excel, which can really speed up things when we have a lot of data.
+
+page 23
+
+SPREADSHEET ANALYSIS
+
+Using a Spreadsheet to Calculate Average Returns and Volatilities
+
+Here is an Excel spreadsheet summarizing the formulas and analysis needed to calculate average returns and standard deviations using the 1990s as an example:
+
+
+Investing in Growth Stocks
+
+EXAMPLE 1.5
+
+The term growth stock is frequently a euphemism for small-company stock. Are such investments suitable for “widows and orphans”? Before answering, you should consider the historical volatility. For example, from the historical record, what is the approximate probability that you will actually lose 16 percent or more of your money in a single year if you buy a portfolio of such companies?
+
+Looking back at Figure 1.9, we see that the average return on small stocks is 16.2 percent and the standard deviation is 31.6 percent. Assuming that the returns are approximately normal, there is about a 1/3 probability that you will experience a return outside the range of –15.4 percent to 47.8 percent (16.2% ± 31.6%).
+
+Because the normal distribution is symmetric, the odds of being above or below this range are equal. There is thus a 1/6 chance (half of 1/3) that you will lose more than 15.4 percent, so you should expect this to happen once in every six years, on average. Such investments can thus be very volatile, and they are not well suited for those who cannot afford the risk.
+
+page 24
+
+CHECK THIS
+
+
+
+1.4aIn words, how do we calculate a variance? A standard deviation?
+
+1.4bWhat is the second lesson from financial market history?
+
+1.5 More on Average Returns
+Thus far in this chapter, we have looked closely at simple average returns. But there is another way of computing an average return. The fact that average returns are calculated two different ways leads to some confusion, so our goal in this section is to explain the two approaches and also explain the circumstances under which each is appropriate. In addition, we include a measure of return that accounts for investor decisions to add funds to or remove funds from an investment.
+
+ARITHMETIC VERSUS GEOMETRIC AVERAGES
+Let’s start with a simple example. Suppose you buy a particular stock for $100. Unfortunately, the first year you own it, it falls to $50. The second year you own the stock, its price increases to $100, leaving you where you started (no dividends were paid).
+
+What was your average return on this investment? Common sense seems to say that your average return must be exactly zero since you started with $100 and ended with $100. But if we calculate the year-by-year returns, we see that you lost 50 percent the first year (you lost half of your money). The second year, you made 100 percent (you doubled your money). Your average return over the two years was thus (−50% + 100%)/2 = 25%! So which is correct, 0 percent or 25 percent?
+
+The answer is that both are correct; they just answer different questions. The 0 percent is called the geometric average return. The geometric average return answers the question “What was your average compound return per year over a particular period?”
+
+geometric average return
+
+The average compound return earned per year over a multiyear period.
+
+The 25 percent is called the arithmetic average return. The arithmetic average return answers the question “What was your return in an average year over a particular period?”
+
+arithmetic average return
+
+The return earned in an average year over a multiyear period.
+
+Notice that, in previous sections, the average returns we calculated were all arithmetic averages, so you already know how to calculate them. What we need to do now is (1) learn how to calculate geometric averages and (2) learn the circumstances under which one average is more meaningful than the other.
+
+Finally, the order and size of losses and gains matter to your portfolio. The nearby Investment Updates box provides an important example.
+
+CALCULATING GEOMETRIC AVERAGE RETURNS
+If we have N years of returns, the geometric average return over these N years is calculated using this formula:
+
+
+This formula tells us that four steps are required:
+
+Take each of the N annual returns R1, R2, . . . , RN and add a 1 to each (after converting them to decimals!).
+
+Multiply all the numbers from Step 1 together.
+
+Take the result from Step 2 and raise it to the power of 1/N.
+
+Finally, subtract 1 from the result of Step 3. The result is the geometric average return.
+
+To illustrate how we calculate a geometric average return, suppose a particular investment had annual returns of 10 percent, 12 percent, 3 percent, and –9 percent over the last four years. The geometric average return over this four-year period is calculated as (1.10 × 1.12 × 1.03 × .91)1/4 – 1 = .0366 = 3.66%. In contrast, the average arithmetic return is (.10 + .12 + .03 – .09)/4 = 4.0%.
+
+page 25
+
+INVESTMENT UPDATES
+
+INVESTMENT RETURNS: CRUEL MATH?
+
+If your portfolio experiences a 20 percent loss, what return is necessary to bring your portfolio back to “even”? Many investors might simply say 20 percent, but they would be very much incorrect. In fact, you would need to earn 25 percent just to overcome the 20 percent loss and break even. This is the reality (or cruelty) of math, and it is a function of the key principle of finance: compounding.
+
+This issue became particularly relevant in the wake of the 2008 financial crisis. For example, as Table 1.1 reports, large-cap U.S. stocks lost 37 percent in 2008. In 2009 and 2010, the market recovered, earning 26.46 percent and 15.06 percent, respectively. While these two returns add up to 41.52 percent, thereby “exceeding” the loss of 2008, investor portfolios where still underwater. In fact, $1 held at the beginning of 2008 would only be worth $.92 at the end of 2010.
+
+This example illustrates that to offset losses, you need even bigger gains to get back to where you started. And, as the table below illustrates, this effect is more pronounced for higher levels of loss.
+
+Loss	Gain Needed to Break Even
+  –5%	  5.26%
+−10%	11.11%
+−15%	17.65%
+−20%	25.00%
+−25%	33.33%
+−30%	42.86%
+−35%	53.85%
+−40%	66.67%
+−45%	81.82%
+−50%	100.00%  
+One thing you may have noticed in our examples thus far is that the geometric average returns seem to be smaller. It turns out that this will always be true (as long as the returns are not all identical, in which case the two “averages” would be the same). To illustrate, Table 1.5 shows the arithmetic averages and standard deviations from Figure 1.9, along with the geometric average returns.
+
+Geometric versus Arithmetic Average Returns: 1926–2018
+
+TABLE 1.5
+
+Series	Geometric Mean	Arithmetic Mean	Standard Deviation
+Large-company stocks	10.0%  	11.9%  	19.8%  
+Small-company stocks	11.8	16.2	31.6
+Long-term corporate bonds	5.9	6.3	8.4
+Long-term government bonds	5.5	5.9	9.8
+Intermediate-term government bonds	5.1	5.2	5.6
+U.S. Treasury bills	3.3	3.4	3.1
+Inflation	2.9	3.0	4.0
+Source: SBBI Yearbook. 2019. Duff & Phelps.
+
+As shown in Table 1.5, the geometric averages are all smaller, but the magnitude of the difference varies quite a bit. The reason is that the difference is greater for more volatile investments. In fact, there is a useful approximation. Assuming all the numbers are expressed in decimals (as opposed to percentages), the geometric average return is approximately equal to the arithmetic average return minus half the variance. For example, looking at the large-company stocks, the arithmetic average is .119 and the standard deviation is .198, implying that the variance is .0392. The approximate geometric average is thus .119 – .0392/2 = .0994, which is very close to the actual value of .10.
+
+page 26
+
+Calculating the Geometric Average Return
+
+EXAMPLE 1.6
+
+Calculate the geometric average return for the large-company stocks for the years 2012–2015 in Table 1.1.
+
+First, convert percentages to decimal returns, add one, and then calculate their product.
+
+Year	Large-Company Stocks	Product
+2012	16.00	  1.1600
+2013	32.39	× 1.3239
+2014	13.69	× 1.1369
+2015	   1.38	 ×1.0138
+   1.7701
+Notice that the number 1.7701 is what our investment is worth after five years if we started with a $1 investment. The geometric average return is then calculated as:
+
+
+Thus, the geometric average return is about 15.34 percent in this example. In contrast, in Example 1.4, the average arithmetic return was calculated as 15.87 percent. Here is a tip: If you are using a financial calculator, you can put $1 in as the present value, $1.7701 as the future value, and 4 as the number of periods. Then, solve for the unknown rate. You should get the same answer for the geometric average as we did here.
+
+More Geometric Averages
+
+EXAMPLE 1.7
+
+Take a look back at Figure 1.1, which showed the value of a $1 investment after 93 years. Use the value for the small-company stock investment to check the geometric average in Table 1.5.
+
+In Figure 1.1, the small-company investment grew to $29,781.01 over 93 years. The geometric average return is thus:
+
+
+This 11.7% is quite close to the value shown in Table 1.5 (it differs slightly due to rounding).
+
+ARITHMETIC AVERAGE RETURN OR GEOMETRIC AVERAGE RETURN?
+When we look at historical returns, the difference between the geometric and arithmetic average returns isn’t too hard to understand. To put it slightly differently, the geometric average tells you what you actually earned per year on average, compounded annually. The arithmetic average tells you what you earned in a typical year. You should use whichever one answers the question you want answered.
+
+A somewhat trickier question concerns forecasting the future, and there is a lot of confusion about this point among analysts and financial planners. The problem is as follows: If we have estimates of both the arithmetic and geometric average returns, then the arithmetic average is probably too high for longer periods and the geometric average is probably too low for shorter periods.
+
+The good news is that there is a simple way of combining the two averages, which we will call Blume’s formula.4 Suppose we calculated geometric and arithmetic return averages from page 27N years of data and we wish to use these averages to form a T-year average return forecast, R(T), where T is less than N. Here’s how we do it:
+
+
+For example, suppose that, from 25 years of annual returns data, we calculate an arithmetic average return of 12 percent and a geometric average return of 9 percent. From these averages, we wish to make 1-year, 5-year, and 10-year average return forecasts. These three average return forecasts are calculated as follows:
+
+
+Thus, we see that 1-year, 5-year, and 10-year forecasts are 12 percent, 11.5 percent, and 10.875 percent, respectively.
+
+This concludes our discussion of geometric versus arithmetic averages. One last note: In the future, when we say “average return,” we mean arithmetic average unless we explicitly say otherwise.
+
+Forecasting Average Returns
+
+EXAMPLE 1.8
+
+Over the 93-year period 1926–2018, the geometric average return for large-company stocks was 10 percent and the arithmetic average return was 11.9 percent. Calculate average return forecasts for 1, 5, 10, and 25 years into the future.
+
+In this case, we would use Blume’s formula with values of T = 1, 5, 10, and 25 and N = 93:
+
+
+T	R(T)
+1	11.9%
+5	11.8
+10	11.7
+25	11.4
+Notice that short-term forecasts are closer to the arithmetic average return and long-term forecasts are closer to the geometric average return.
+
+DOLLAR-WEIGHTED AVERAGE RETURNS
+Suppose an investment had returns of 10 percent and –5 percent over the last two years. You know how to compute the arithmetic average (2.50 percent) and the geometric average (2.23 percent). You might not know that these average returns are accurate only if the investor made a single deposit at the start of the two-year period.
+
+Many investors, however, make deposits or withdrawals through time. For example, some people add money to their investments over time as they save for retirement. Some people might be forced to withdraw funds to meet unexpected needs. Other investors attempt to “time the market” by adding funds because they believe their investments will soon increase in value. These “market timers” also sell part (or all) of their investments before an anticipated decline.
+
+Whether investors can be successful at market timing is a topic of much debate, and one that we address in later chapters. Still, it is important to know how to calculate the page 28return of an investment when an investor makes deposits and withdrawals. The relevant return measure in this case is called the dollar-weighted average return.
+
+dollar-weighted average return
+
+Average compound rate of return earned per year over a multiyear period accounting for investment inflows and outflows.
+
+SPREADSHEET ANALYSIS
+
+
+As an example, assume that you invest $1,000. After earning 10 percent the first year, you decide to invest another $4,000 (perhaps hoping the investment repeats its performance). Unfortunately for you, the return in Year 2 was –5 percent. What was your net return?
+
+To begin to answer this question, you need to know the ending value of your investment. At the end of the first year, your account had a value of $1,100, which is the initial investment plus the 10 percent return. You then deposited another $4,000, bringing the account value to $5,100 at the beginning of Year 2. After losing 5 percent in Year 2, your final value is $4,845.
+
+Before we set out to calculate your exact return, you know that your return is negative. After all, you deposited $5,000 out of your own pocket, but at the end of two years the investment is worth only $4,845. So, the arithmetic and geometric averages, which were both positive, do not account for this case.
+
+To calculate the dollar-weighted average return, we need to find the average rate of return that equates our cash outflows to our cash inflows. In other words, what is the rate that makes the net present value of the investment equal zero? Here is a summary of your cash flows for this investment:
+
+Time:	0	1	2
+Cash flow:	−$1,000	−$4,000	+$4,845
+In this summary, the negative cash flows are the deposits you made. The positive cash flow is the amount you have in the investment at the end of Year 2.
+
+In a corporate finance class, this calculation is known as the internal rate of return, or IRR. Finding the IRR requires trial and error unless you use a financial calculator or spreadsheet. To see how to do this in Excel, you can look at the nearby Spreadsheet Analysis box. page 29The dollar-weighted rate of return for this investment is –2.6 percent. This makes sense because you had the greatest amount invested during the period when the return was the lowest, and you had the least amount invested when the return was the highest.
+
+You know that the geometric average is always less than or equal to the arithmetic average. How about the relationship between the geometric average and the dollar-weighted average return? As you might guess, the relationship depends on when deposits and withdrawals were made. The geometric average return could be greater than, less than, or equal to the dollar-weighted average return. In fact, the geometric average is a special case of the dollar-weighted return, where the additional inflows and outflows happen to be zero.
+
+CHECK THIS
+
+
+
+1.5aOver a 5-year period, an investment in a broad market index yielded annual returns of 10, 16, –5, –8, and 7 percent. What were the arithmetic and geometric average annual returns for this index?
+
+1.5bOver a 25-year period, an investment in a broad market index yielded an arithmetic average return of 4 percent and a geometric average return of 3.6 percent. Using Blume’s formula, what would be the 5-year and 10-year average return forecasts?
+
+1.5cWhy is it important to control for the flow of funds into and out of an investment when calculating returns?
+
+1.6 Risk and Return
+In previous sections, we explored financial market history to see what we could learn about risk and return. In this section, we summarize our findings and then conclude our discussion by looking ahead at the subjects we will be examining in later chapters.
+
+THE RISK-RETURN TRADE-OFF
+Figure 1.11 shows our findings on risk and return from Figure 1.9. What Figure 1.11 shows is that there is a risk-return trade-off. At one extreme, if we are unwilling to bear any risk at all, page 30but we are willing to forgo the use of our money for a while, then we can earn the risk-free rate. Because the risk-free rate represents compensation for waiting, it is often called the time value of money.
+
+Risk-Return Trade-Off
+
+FIGURE 1.11
+
+
+If we are willing to bear risk, then we can expect to earn a risk premium, at least on average. Further, the more risk we are willing to bear, the greater is the risk premium. Investment advisors like to say that an investment has a “wait” component and a “worry” component. In our figure, the time value of money is the compensation for waiting and the risk premium is the compensation for worrying.
+
+There are two important caveats to this discussion. First, risky investments do not always pay more than risk-free investments. Indeed, that is precisely what makes them risky. In other words, there is a risk premium on average, but over any particular time interval, there is no guarantee. Second, we have intentionally been a little imprecise about what we mean exactly by risk. As we will discuss in the chapters ahead, investors are not compensated for all risks. Some risks are cheaply and easily avoidable, and no reward is expected for bearing them. It is only those risks that cannot be easily avoided that are compensated (on average).
+
+A LOOK AHEAD
+In the remainder of this text, we focus almost exclusively on financial assets. An advantage of this approach is that it is limited to four major types: stocks, bonds, futures, and options, in the order that we cover them. This means that we will not be discussing collectibles such as classic automobiles, baseball cards, coins, fine art, or stamps. It’s not that these are unimportant; rather, they are very specialized. Instead of treating them superficially, we leave a discussion of them for another day (and another book).
+
+As we’ve indicated, to understand the potential reward from an investment, it is critical to first understand the risk involved. There is an old saying that goes like this: It’s easy to make a small fortune investing in _____ (put your favorite investment here)—just start with a large fortune! The moral is that the key to successful investing is to make informed, intelligent decisions about risk. For this reason, we are going to pay particular attention to the factors that determine the value of the different assets we discuss and the nature of the associated risks.
+
+One common characteristic that these assets have is that they are bought and sold around the clock and around the world in vast quantities. The way they are traded can be very different, however. We think it is important and interesting to understand exactly what happens when you buy or sell one of these assets, so we will be discussing the different trading mechanisms and the way the different markets function.
+
+1.7 Summary and Conclusions
+This chapter presents some important concepts for investors, including the following items—grouped by the chapter’s important concepts.
+
+1.  How to calculate the return on an investment using different methods.
+
+A.  We show how to calculate dollar returns and percentage returns over a time period. Returns have two parts: a capital gain (or loss) and dividend income. We also show how to convert returns over a period different from a year into annualized returns.
+
+B.  We demonstrate the two ways to calculate average returns over time: the arithmetic method and the geometric method. The arithmetic average return answers the question “What was your return in an average year over a particular period?” The geometric average return answers the question “What was your average compound return per year over a particular period?” Generally, when investors say “average return,” they are referring to arithmetic average unless they explicitly say otherwise.
+
+C.  We also examine the effect of fund flows into and out of an investment. This case calls for calculating the dollar-weighted average return.
+
+page 31
+
+GETTING DOWN TO BUSINESS
+
+This chapter took you through some basic, but important, investment-related calculations. We then walked through the modern history of risk and return. How should you, as an investor or investment manager, put this information to work?
+
+The answer is that you now have a rational, objective basis for thinking about what you stand to make from investing in some important broad asset classes. For the stock market as a whole, as measured by the performance of large-company stocks, you know that, on average, you might realistically expect to make about 12 percent or so per year.
+
+Equally important, you know that you won’t make 12 percent in any one year; instead, you’ll make more or less. You know that the standard deviation is about 20 percent per year, and you should know what that means in terms of risk. In particular, you need to understand that in one year out of every six, you should expect to lose more than 8 percent (12 percent minus one standard deviation), so this will be a relatively common event. The good news is that in one year out of six, you can realistically expect to earn more than 32 percent (12 percent plus one standard deviation).
+
+The other important, practical thing to understand from this chapter is that a strategy of investing in very-low-risk assets (such as T-bills) has historically barely kept up with inflation. This might be sufficient for some investors, but if your goal is to do better than that, then you will have to bear some amount of risk to achieve it.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+2.  The historical returns on various important types of investments.
+
+A.  In order of their historical return from highest to lowest, we discuss returns on some important portfolios, including:
+
+Small-company stocks. This is a portfolio composed of the smallest (in terms of total market value of outstanding stock) of the companies listed on major U.S. exchanges.
+
+Large-company stocks. This portfolio is based on the Standard & Poor’s 500 index. This index contains 500 of the largest companies (in terms of total market value of outstanding stock) in the United States.
+
+Long-term U.S. government bonds. This is a portfolio of U.S. government bonds with 20 years to maturity.
+
+U.S. Treasury bills. This is a portfolio of Treasury bills (T-bills for short) with a three-month maturity.
+
+B.  One important historical return fact is that U.S. T-bill returns have barely outpaced inflation. Therefore, an investor must invest in stocks or bonds to earn a return higher than the inflation rate.
+
+3.  The historical risks on various important types of investments.
+
+A.  Historically, the risk (as measured by standard deviation of returns) of the portfolios described above is highest for small-company stocks. The next highest risk is for large-company stocks, followed by long-term government bonds and Treasury bills.
+
+B.  We draw two key lessons from historical risk:
+
+Risky assets, on average, earn a risk premium. That is, there is a reward for bearing risk. However, this expected reward is not realized each year.
+
+The greater the potential reward from a risky investment is, the greater the risk is.
+
+4.  The relationship between risk and return.
+
+A.  When we put these two key lessons together, we concluded that there is a risk-return trade-off.
+
+B.  The only way to earn a higher return is to take on greater risk.
+
+page 32
+
+Key Terms
+
+arithmetic average return 24
+
+capital gains yield 4
+
+dividend yield 4
+
+dollar-weighted average return 28
+
+effective annual return (EAR) 6
+
+geometric average return 24
+
+normal distribution 20
+
+risk-free rate 15
+
+risk premium 15
+
+standard deviation 18
+
+total dollar return 3
+
+total percent return 4
+
+variance 18
+
+Chapter Review Problems and Self-Test
+
+Calculating Returns (CFA1) You bought 400 shares of Metallica Heavy Metal, Inc., at $30 per share. Over the year, you received $.75 per share in dividends. If the stock sold for $33 at the end of the year, what was your dollar return? Your percentage return?
+
+Calculating Returns and Variability (CFA2) Using the following returns, calculate the arithmetic average returns, the variances, the standard deviations, and the geometric returns for the following stocks:
+
+Year	Michele, Inc.	Janicek Co.
+   1	12%	5%
+   2	–4	–15
+   3	0	10
+   4	20	38
+   5	2	17
+Forecasting Returns Over a 30-year period, an asset had an arithmetic return of 12.8 percent and a geometric return of 10.7 percent. Using Blume’s formula, what is your best estimate of the future annual returns over the next 5 years? 10 years? 20 years?
+
+Answers to Self-Test Problems
+
+Your dollar return is your gain or loss in dollars. Here, we receive $.75 in dividends on each of our 400 shares, for a total of $300. In addition, each share rose from $30 to $33, so we make $3 × 400 shares = $1,200. Our total dollar return is thus $300 + $1,200 = $1,500.
+
+Our percentage return (or just “return” for short) is equal to the $1,500 we made divided by our initial outlay of $30 × 400 shares = $12,000; so $1,500/$12,000 = .125, or 12.5%. Equivalently, we could have just noted that each share paid a $.75 dividend and each share gained $3, so the total dollar gain per share was $3.75. As a percentage of the cost of one share ($30), we get $3.75/$30 = .125, or 12.5%.
+
+First, calculate arithmetic averages as follows:
+
+Michele, Inc.	Janicek Co.
+12%	5%
+–4	−15
+0	10
+20	38
+2	17
+30%	55%
+Average return: 30%/5 = 6%	55%/5 = 11%
+page 33
+
+Using the arithmetic averages above, calculate the squared deviations from the arithmetic average returns and sum the squared deviations as follows:
+
+
+Calculate return variances by dividing the sums of squared deviations by four, which is the number of returns less one.
+
+
+Standard deviations are then calculated as the square root of the variance.
+
+
+Geometric returns are then calculated as:
+
+
+To find the best forecast, we apply Blume’s formula as follows:
+
+
+Test Your Investment Quotient
+
+
+Prices and Returns (LO1, CFA1)   You plan to buy a common stock and hold it for one year. You expect to receive both $1.50 from dividends and $26 from the sale of the stock at the end of the year. If you wanted to earn a 15 percent rate of return, what is the maximum price you would pay for the stock today?
+
+$22.61
+
+$23.91
+
+$24.50
+
+$27.50
+
+Returns (LO1, CFA1)   A portfolio of non–dividend-paying stocks earned a geometric mean return of 5 percent between January 1, 2010, and December 31, 2016. The arithmetic mean return for the same period was 6 percent. If the market value of the portfolio at the beginning of 2010 was $100,000, the market value of the portfolio at the end of 2016 was closest to:
+
+$135,000
+
+$140,710
+
+$142,000
+
+$150,363
+
+Standard Deviation (LO4, CFA2)   Which of the following statements about standard deviation is true? Standard deviation:
+
+Is the square of the variance.
+
+Can be a positive or negative number.
+
+Is denominated in the same units as the original data.
+
+Is the arithmetic mean of the squared deviations from the mean.
+
+page 34 
+
+Normal Distribution (LO4, CFA3)   An investment strategy has an expected return of 12 percent and a standard deviation of 10 percent. If the investment returns are normally distributed, the probability of earning a return less than 2 percent is closest to:
+
+10 percent
+
+16 percent
+
+32 percent
+
+34 percent
+
+Normal Distribution (LO4, CFA3)   What are the mean and standard deviation of a standard normal distribution?
+
+  
+Normal Distribution (LO4, CFA3)   Given a data series that is normally distributed with a mean of 100 and a standard deviation of 10, about 95 percent of the numbers in the series will fall within which of the following ranges?
+
+60 to 140
+
+70 to 130
+
+80 to 120
+
+90 to 110
+
+Asset Types (LO3)   Stocks, bonds, options, and futures are the four major types of:
+
+Debt.
+
+Real assets.
+
+Equity.
+
+Financial assets.
+
+Investment Returns (LO1, CFA1)   Suppose the value of an investment doubles in a one-year period. In this case, the rate of return on this investment over that one-year period is what amount?
+
+100 percent even if the gain is not actually realized.
+
+200 percent even if the gain is not actually realized.
+
+100 percent only if the gain is actually realized.
+
+200 percent only if the gain is actually realized.
+
+Historical Returns (LO2)   Which of the following asset categories has an annual returns history most closely linked to historical annual rates of inflation?
+
+U.S. Treasury bills
+
+Corporate bonds
+
+Large-company stocks
+
+Small-company stocks
+
+Historical Returns (LO2)   Based on the annual returns history since 1926, which asset category, on average, has yielded the highest risk premium?
+
+U.S. government bonds
+
+Corporate bonds
+
+Large-company stocks
+
+Small-company stocks
+
+Stat 101 (LO1, CFA1)   Over a four-year period, an investment in Outa’synch common stock yields returns of –10, 40, 0, and 20. What is the arithmetic return over this period?
+
+5 percent
+
+7.5 percent
+
+10 percent
+
+12.5 percent
+
+Stat 101 (LO4, CFA3)   You calculate an average historical return of 20 percent and a standard deviation of return of 10 percent for an investment in Stonehenge Construction Co. You believe these values well represent the future distribution of returns. Assuming that returns are normally distributed, what is the probability that Stonehenge Construction will yield a negative return?
+
+page 35 
+
+17 percent
+
+33 percent
+
+5 percent
+
+2.5 percent
+
+Stat 101 (LO4, CFA3)   Which of the following statements about a normal distribution is incorrect?
+
+A normal distribution is symmetrically centered on its mean.
+
+The probability of being within one standard deviation from the mean is about 68 percent.
+
+The probability of being within two standard deviations from the mean is about 95 percent.
+
+The probability of a negative value is always one-half.
+
+Normal Distribution (LO4, CFA3)   Based on a normal distribution with a mean of 500 and a standard deviation of 150, the z-value for an observation of 200 is closest to:
+
+–2.00
+
+–1.75
+
+1.75
+
+2.00
+
+Normal Distribution (LO4, CFA2)   A normal distribution would least likely be described as:
+
+Asymptotic.
+
+A discrete probability distribution.
+
+A symmetrical or bell-shaped distribution.
+
+A curve that theoretically extends from negative infinity to positive infinity.
+
+Concept Questions
+
+Risk versus Return (LO3, CFA2)   Based on the historical record, rank the following investments in increasing order of risk. Rank the investments in increasing order of average returns. What do you conclude about the relationship between the risk of an investment and the return you expect to earn on it?
+
+Large stocks
+
+Treasury bills
+
+Long-term government bonds
+
+Small stocks
+
+Return Calculations (LO1, CFA1)   A particular stock had a return last year of 4 percent. However, you look at the stock price and notice that it actually didn’t change at all last year. How is this possible?
+
+Returns Distributions (LO4, CFA2)   What is the probability that the return on small stocks will be less than –100 percent in a single year (think about it)? What are the implications for the distribution of returns?
+
+Arithmetic versus Geometric Returns (LO1, CFA1)   What is the difference between arithmetic and geometric returns? Suppose you have invested in a stock for the last 10 years. Which number is more important to you, the arithmetic or geometric return?
+
+Blume’s Formula (LO1) What is Blume’s formula?   When would you want to use it in practice?
+
+Inflation and Returns (LO1, CFA2)   Look at Table 1.1 and Figures 1.5 and 1.6. When were T-bill rates at their highest? Why do you think they were so high during this period?
+
+Inflation and Returns (LO1, CFA2)   The returns we have examined are not adjusted for inflation. What do you suppose would happen to our estimated risk premiums if we did account for inflation?
+
+Taxes and Returns (LO1)   The returns we have examined are not adjusted for taxes. What do you suppose would happen to our estimated returns and risk premiums if we did account for taxes? What would happen to our volatility measures?
+
+Taxes and Treasury Bills (LO1)   As a practical matter, most of the return you earn from investing in Treasury bills is taxed right away as ordinary income. Thus, if you are in a 40 percent tax bracket and you earn 5 percent on a Treasury bill, your aftertax return is only .05 × (1 − .40) = .03, or 3 percent. In other words, 40 percent of your return goes to pay taxes, leaving you with just 3 percent. Once you consider inflation and taxes, how does the long-term return from Treasury bills look?
+
+page 36 
+
+The Long Run (LO4, CFA2)   Given your answer to the last question and the discussion in the chapter, why would any rational person do anything other than load up on 100 percent small stocks?
+
+Questions and Problems
+
+Core Questions
+
+Calculating Returns (LO1, CFA1)   Suppose you bought 100 shares of stock at an initial price of $37 per share. The stock paid a dividend of $.28 per share during the following year, and the share price at the end of the year was $41. Compute your total dollar return on this investment. Does your answer change if you keep the stock instead of selling it? Why or why not?
+
+Calculating Yields (LO1, CFA1)   In Problem 1, what is the capital gains yield? The dividend yield? What is the total rate of return on the investment?
+
+Calculating Returns (LO1, CFA1)   Rework Problems 1 and 2 assuming that you buy 500 shares of the stock and the ending share price is $34.
+
+Historical Returns (LO3)   What is the historical rate of return on each of the following investments? What is the historical risk premium on these investments?
+
+Long-term government bonds
+
+Treasury bills
+
+Large stocks
+
+Small stocks
+
+Calculating Average Returns (LO1, CFA1)   The rates of return on Cherry Jalopies, Inc., stock over the last five years were 17 percent, 11 percent, –2 percent, 3 percent, and 14 percent. Over the same period, the returns on Straw Construction Company’s stock were 16 percent, 18 percent, –6 percent, 1 percent, and 22 percent. What was the arithmetic average return on each stock over this period?
+
+Calculating Variability (LO4, CFA2)   Using the information from Problem 5, calculate the variances and the standard deviations for Cherry and Straw.
+
+Return Calculations (LO1, CFA1)   A particular stock has a dividend yield of 1.2 percent. Last year, the stock price fell from $65 to $59. What was the return for the year?
+
+Geometric Returns (LO1, CFA1)   Using the information from Problem 5, what is the geometric return for Cherry Jalopies, Inc.?
+
+Arithmetic and Geometric Returns (LO1, CFA1)   A stock has had returns of 21 percent, 12 percent, 7 percent, –13 percent, –4 percent, and 26 percent over the last six years. What are the arithmetic and geometric returns for the stock?
+
+Intermediate Questions
+
+Returns and the Bell Curve (LO4, CFA3)   An investment has an expected return of 11 percent per year with a standard deviation of 24 percent. Assuming that the returns on this investment are at least roughly normally distributed, how frequently do you expect to earn between –13 percent and 35 percent? How often do you expect to earn less than –13 percent?
+
+Returns and the Bell Curve (LO4, CFA3)   An investment has an expected return of 12 percent per year with a standard deviation of 6 percent. Assuming that the returns on this investment are at least roughly normally distributed, how frequently do you expect to lose money?
+
+Using Returns Distributions (LO4, CFA2)   Based on the historical record, if you invest in long-term U.S. Treasury bonds, what is the approximate probability that your return will be below –3.9 percent in a given year? What range of returns would you expect to see 95 percent of the time? 99 percent of the time?
+
+Using Returns Distributions (LO2, CFA2)   Based on the historical record, what is the approximate probability that an investment in small stocks will double in value in a single year? How about triple in a single year?
+
+Risk Premiums (LO2) Refer to Table 1.1 for large-company stock and T-bill returns for the period 1973–1977:
+
+Calculate the observed risk premium in each year for the common stocks.
+
+Calculate the average returns and the average risk premium over this period.
+
+Calculate the standard deviation of returns and the standard deviation of the risk premium.
+
+Is it possible that the observed risk premium can be negative? Explain how this can happen and what it means.
+
+page 37 
+
+Geometric Return (LO1, CFA1)   Your grandfather invested $1,000 in a stock 50 years ago. Currently the value of his account is $324,000. What is his geometric return over this period?
+
+Forecasting Returns (LO1)   You have found an asset with a 12.60 percent arithmetic average return and a 10.24 percent geometric return. Your observation period is 40 years. What is your best estimate of the return of the asset over the next 5 years? 10 years? 20 years?
+
+Geometric Averages (LO2)   Look back to Figure 1.1 and find the value of $1 invested in each asset class over this 93-year period. Calculate the geometric return for small-company stocks, large-company stocks, long-term government bonds, Treasury bills, and inflation.
+
+Arithmetic and Geometric Returns (LO1, CFA1)   A stock has returns of –9 percent, 17 percent, 9 percent, 14 percent, and –4 percent. What are the arithmetic and geometric returns?
+
+Arithmetic and Geometric Returns (LO1, CFA1)   A stock has had the following year-end prices and dividends:
+
+Year	Price	Dividend
+0	$13.25	—
+1	15.61	$.15
+2	16.72	.18
+3	15.18	.20
+4	17.12	.24
+5	20.43	.28
+What are the arithmetic and geometric returns for the stock?
+
+Arithmetic versus Geometric Returns (LO1, CFA1)   You are given the returns for the following three stocks:
+
+Year	Stock A	Stock B	Stock C
+1	  8%	3%	‒24%
+2	8	13  	37
+3	8	7	14
+4	8	5	  9
+5	8	12  	  4
+Calculate the arithmetic return, geometric return, and standard deviation for each stock. Do you notice anything about the relationship between an asset’s arithmetic return, standard deviation, and geometric return? Do you think this relationship will always hold?
+
+Spreadsheet Problems
+
+21. Return and Standard Deviation (LO4, CFA2)   The 1980s were a good decade for investors in S&P 500 stocks. To find out how good, construct a spreadsheet that calculates the arithmetic average return, variance, and standard deviation for the S&P 500 returns during the 1980s using spreadsheet functions.
+
+22. Dollar-Weighted Average Return (LO3, CFA6)   Suppose that an investor opens an account by investing $1,000. At the beginning of each of the next four years, he deposits an additional $1,000 each year, and he then liquidates the account at the end of the total five-year period. Suppose that the yearly returns in this account, beginning in Year 1, are as follows: –9 percent, 17 percent, 9 percent, 14 percent, and –4 percent. Calculate the arithmetic and geometric average returns for this investment, and determine what the investor’s actual dollar-weighted average return was for this five-year period. Why is the dollar-weighted average return higher or lower than the geometric average return?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA1, CFA6]
+
+Mega Marketing, an advertising firm specializing in the financial services industry, has just hired Kinara Yamisaka. Ms. Yamisaka was a finance major in college and is a candidate for the CFA program. She was hired to provide the firm with more depth in the area of investment performance analysis.
+
+page 38
+
+Mega is preparing advertising information for Vega Funds Limited. Vega has provided the following five-year annual return data, where Year 5 is the most recent period:
+
+Vega Funds Limited
+Year	Return
+1	−10%
+2	25
+3	−5
+4	30
+5	5
+To assess her understanding of returns, Ms. Yamisaka’s supervisor asks her to calculate a number of different returns, including arithmetic, geometric, annualized, and money- (or dollar-)weighted returns. He also asks her to determine the impact of the following cash flow scenarios on Vega’s returns:
+
+Cash Flows	Scenario 1	Scenario 2	Scenario 3
+Beginning market value	$100	$100	$100
+End of Year 2 deposit (withdrawal)	$0	 $20	 ($10)
+What is Vega’s geometric average return over the five-year period?
+
+7.85 percent
+
+9.00 percent
+
+15.14 percent
+
+What are Vega’s money- (or dollar-)weighted average returns over the five-year period for Scenarios 2 and 3?
+
+  
+Ms. Yamisaka has determined that the average monthly return of another Mega client was 1.63 percent during the past year. What is the annualized rate of return?
+
+5.13 percent
+
+19.56 percent
+
+21.41 percent
+
+The return calculation method most appropriate for evaluating the performance of a portfolio manager is:
+
+Holding period.
+
+Geometric.
+
+Money-weighted (or dollar-weighted).
+
+What’s on the Web?
+
+Ticker Symbols Go to finance.yahoo.com and look up the ticker symbols for the following companies: 3M Company, International Business Machines, Dell Computer, Advanced Micro Devices, American Standard Company, and Bed Bath & Beyond.
+
+Average Return and Standard Deviation Go to finance.yahoo.com and enter the ticker symbol for your favorite stock. Now look for the historical prices and find the monthly closing stock price for the last six years. Calculate the annual arithmetic average return, the standard deviation, and the geometric return for this period.

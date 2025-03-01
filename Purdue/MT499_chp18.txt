@@ -1,0 +1,897 @@
+CHAPTER 18
+Business Formation, Growth, and Valuation
+
+LEARNING OBJECTIVES
+
+Explain why the choice of organizational form is important, and describe two financial considerations that are especially important in starting a business.
+Describe the key components of a business plan, and explain what a business plan is used for.
+Explain the three general approaches to valuation, and value a business using common business valuation approaches.
+Explain how valuations can differ between public and private companies and between young and mature companies, and discuss the importance of control and key person considerations in valuation.
+In October of 2020, Fintech startup Possible Finance announced that it had received an $11 million round of venture capital financing from Union Square Ventures. Obtaining venture capital for an early-stage startup like Possible Finance was a challenge in 2020 given restrictions on travel and face-to-face meetings due to the COVID 19 outbreak. Forced to make the company’s pitch to investors via video conference, Tony Huang, CEO and co-founder of the company, noted, “It immediately made fundraising much more difficult than anticipated.” With additional funding secured, the management team at Possible could continue to expand the company’s operations.
+
+Founded in 2017, Possible Finance is a high-tech small-loan service, providing individuals with cash advances of up to $500. Similar to payday lenders, Possible’s business model focuses on short-term loans; however, borrowers are able to arrange for repayment of the loans in installments, and the repayment of the debt is reported to credit agencies, helping some individuals rebuild tarnished credit scores. The technology behind the business model of Possible Finance provides some advantages over a more traditional assessment of the creditworthiness of prospective borrowers. The company links to customers’ bank accounts and uses machine learning to analyze financial transaction data to make credit risk decisions, rather than relying solely on FICO credit scores.
+
+Raising venture capital financing required a great deal of careful management by Possible Finance’s founders and management team, not only of the business, but also in their approach to fundraising. They had to prove the viability of their artificial intelligence (AI) driven business model in a highly technical and very competitive market for Fintech investment. The founders of the company had to put together a compelling story that would convince investors that their product would stand out in a crowded marketplace. They also had to prove that they could overcome various obstacles, including acquiring new customers, enhancing their models for consumer credit risk, and building the company with a fully remote workforce. Most importantly, the Possible team had to persuade investors that key company managers would be able to execute the business plan and earn them attractive returns.
+
+This chapter discusses some financial aspects of forming, growing, and financing a new business. It also discusses, in detail, the methods used to value both small and large businesses. Business valuation concepts were certainly on the minds of Possible Finance founders when they were raising capital, as they had to decide exactly how much of the company’s equity they would have to sell to obtain the funds they needed to grow the business. These concepts are important for managers of every growing company, because they make business decisions that create value for the company’s investors.
+
+Chapter Preview
+In earlier chapters, we discussed how businesses are organized and how financial managers make long-term investment decisions, manage working capital, and finance the investments and activities of their businesses. In this chapter, we reexamine these concepts in the context of business formation, growth, and valuation. The chapter provides an integrated perspective on how the decisions that financial managers make affect firm value.
+
+We begin by considering the decision by an entrepreneur to start a business and the choice of how the business should be organized. The organizational form of a business affects many important financial decisions through its impact on the availability and cost of capital, the control of the business, the ability to attract and retain high-quality managers, the taxes that must be paid, and the agency problems that might arise in the business, among other factors. We then discuss financial considerations that are important to managers of young, rapidly growing firms.
+
+Next we focus on the role that a carefully prepared business plan plays in raising capital for a young, rapidly growing business and in providing a road map of where the business is going for use in managerial decision making. The importance of a business plan cannot be understated. The act of preparing a business plan forces an entrepreneur to think carefully about the aspects of the business that are crucial to its success. This helps him or her to better communicate what the prospects for the business are and to manage the business more effectively.
+
+The last two sections of the chapter address business valuation concepts. These sections provide a broad overview of the business valuation approaches used by financial managers and describe how differences in the characteristics of companies affect valuation analyses. The impact of control considerations and key people on business valuations are also discussed.
+
+18.1 Starting a Business
+LEARNING OBJECTIVE
+
+Explain why the choice of organizational form is important, and describe two financial considerations that are especially important in starting a business.
+People start their own businesses for a wide variety of reasons. Some have an idea for a new product or service that they think will revolutionize an industry and make them rich. Others live in an area where there are no attractive employment opportunities for them, and starting a business is the only way to earn a living. Others simply want to be their own boss.
+
+Regardless of their motives, all of these people face the decision of whether to start their own business or purchase an already established business. Starting your own business can provide greater potential rewards but is inherently more risky than buying and growing a business that someone else has already built. The founder of a company must start from scratch by choosing the products to sell, the markets to sell them in, and the best strategy for selling them. He or she must then raise the money necessary to develop the products, acquire the necessary assets, and hire the right people. Of course, as the business is being built, the founder must also manage day-to-day operations to ensure that his or her overall plan is being implemented as well as possible.
+
+In this section, we discuss factors that entrepreneurs consider when deciding to launch a new business, factors that affect the form of organization that they choose, and financial considerations associated with starting a business.
+
+Making the Decision to Proceed
+Hundreds of thousands of new businesses are started in the United States each year, but many do not succeed. The U.S. Department of Labor Bureau of Labor Statistics estimates that 804,398 new firms were formed between March 2019 and March 2020. However, statistical analyses of earlier business formations suggest that only about 50 percent of these firms will still be in business in 2025 (see www.bls.gov/bdm/bdmage.htm#Total). Among those that do survive, only a few will provide high returns to their founders and early investors.
+
+Businesses fail for many reasons. Some fail because consumers do not accept their products. Others fail because the founder pursues a poorly thought-out strategy or does not have the management skills to properly execute a good strategy. Another common reason for new business failures is that founders underestimate how much money it will take to get their businesses up and running. For example, they underestimate the amount of money that will be needed to cover cash outflows until cash inflows from sales are large enough to do so. These founders fail to ensure that they have enough money to give the business a fighting chance.
+
+The fact that many new businesses fail does not mean that you should not start a business if you believe that you have a good idea. It just means that you should carefully think through your new business idea before you make the decision to proceed. Not thinking carefully about your idea can lead you to pursue a poor strategy, fail to realize that you might need help in executing your strategy, or underestimate how much money you will need.
+
+It is beyond the scope of this book to tell you how to properly evaluate a business idea, a strategy for pursuing it, or your management abilities. Fortunately, a lot has been written on these topics by others. For example, you can find useful readings on these topics on the U.S. Small Business Administration Web site (see the earlier margin reference).
+
+The only advice that we can give you in these areas is to be careful and realistic in assessing your opportunities. Don’t jump into a business without careful thought, but also don’t overanalyze opportunities to the point where you are just convincing yourself not to proceed. Taking calculated risks is part of business. Also, don’t think that failure will ruin your chances of ultimately achieving business success. Many successful entrepreneurs and executives have failed more than once in their careers. Successful people learn from both their failures and their successes.
+
+Choosing the Right Organizational Form
+Once you have made the decision to start a business, you must decide what form of organization will work best. Chapter 1 discussed some of the more common basic forms of business organization—sole proprietorships, partnerships, and corporations—and some of their advantages and disadvantages. In that discussion, you saw that there are variations in the basic forms of business organization. For example, Chapter 1 describes general, limited, and limited liability partnerships. There are also a number of different types of corporations, as well as hybrids between partnerships and corporations. The reason that so many different forms of organization exist is that the needs of businesses vary considerably. The wide range of choices has made the decision of how to organize a business so complex that many people don’t even try to make this decision without the advice of an attorney. In this section, we extend the discussion begun in Chapter 1 by focusing, from a financial perspective, on factors that affect the choice of the appropriate organizational form for a new business.
+
+As you can see in Exhibit 18.1, which is the same as Exhibit 1.3, a sole proprietorship is the least expensive type of business to start. To start a sole proprietorship, all you have to do is obtain the business licenses required by your local and state governments. Partnerships are more costly to form because the partners must hire an attorney to draw up and maintain the partnership agreement, which specifies the nature of the relationships between the partners. Forming a corporation also requires hiring an attorney to draft a document that spells out things such as how many shares can be issued, what voting rights the stockholders will have, and who the board members are. Over the life of a successful business, these out-of-pocket costs are not very important. However, to a cash-strapped entrepreneur, they can seem substantial.
+
+EXHIBIT 18.1 Characteristics of Different Forms of Business Organization
+
+Choosing the appropriate form of business organization is an important step in starting a business. This exhibit compares key characteristics of the most popular forms of business organization in the United States.
+
+ 	Sole Proprietorship	Partnership		Corporation	Limited Liability Partnership (LLP) or Company (LLC)
+General	Limited		S-Corp.	C-Corp.
+Cost to establish	Inexpensive	More costly	More costly	 	More costly	More costly	More costly
+Life of entity	Limited	Flexible	Flexible	 	Indefinite	Indefinite	Flexible      
+Control by founder over business decisions	Complete	Shared	Shared	 	Depends on ownership	Depends on ownership	Shared       
+Access to capital	Very limited	Limited	Less limited	 	Less limited	Excellent	Less limited
+Cost to transfer ownership	High	High	High	 	High	Can be low	High            
+Separation of management and investment	No	No	Yes	 	Yes	Yes	Yes              
+Potential owner/manager conflicts	No	No	Some	 	Potentially high	Potentially high	Some          
+Ability to provide incentives to attract and retain high-quality employees	Limited	Good	Good	 	Good	Good	Good          
+Liability of owners	Unlimited	Unlimited	Unlimited for general partner	 	Limited	Limited	Limited       
+Tax treatment of income	Flow-through	Flow-through	Flow-through	 	Flow-through	Double tax	As elected   
+Tax deductibility of owner benefits	Limited	Limited	Limited	 	Limited	Limited	Limited       
+Because the life of a sole proprietorship is limited to the life of the proprietor, it ceases to exist when the proprietor gets out of the business. In contrast, the lives of all other forms of organization can be made independent of the life of the founder. Partnership agreements, including the corresponding agreement in an LLC, can be amended to allow for the business to continue when the founders leave. Corporations, which are legal persons under state law, automatically have an indefinite life. You will notice that Exhibit 18.1 indicates that the lives of partnerships and LLCs are flexible. This is because, while partnership and LLC agreements can be written so that their lives are indefinite, they can also be written with a fixed life in mind. For example, private equity and venture capital limited partnerships and LLCs are typically structured so that they last only 10 years.
+
+The ability to make the life of a business independent of that of the founder increases the liquidity of the ownership interests, making it easier for the business to raise capital and for investors to sell their interests at an attractive price. Since a sole proprietorship has no ownership interest that can be sold directly, the proprietor can sell only the assets of the business. There is no way to sell a partial ownership interest.
+
+Even with partnerships and corporations, it can be quite expensive to raise capital for the business or for an investor to sell an ownership interest. Common restrictions in partnership and LLC agreements and the need to amend the partnership and LLC documents to reflect a change in ownership can make transferring ownership time consuming and costly. Selling shares in a corporation can be costly if that corporation is not publicly traded.
+
+Making sure that a new business has access to enough capital is always an important concern for an entrepreneur. By their nature, sole proprietorships must rely on equity contributions from the proprietor and debt or lease financing. In contrast, partnerships can turn to all of the partners for additional capital, and corporations can sell shares to both insiders and outsiders. Limited partnerships and LLCs are less constrained than general partnerships because they can raise money from limited partners or from “members,” as outside investors in LLCs are called, who are not directly involved in running the business. C-corporations can have a virtually unlimited number of potential stockholders.
+
+The downside of being able to raise equity capital from other people is the need to share control. An entrepreneur who chooses a form of organization other than a sole proprietorship, and who does not retain 100 percent ownership, must give up some control. Of course, the entrepreneur may have little choice in this trade-off if the business requires more equity capital than he or she can personally provide.
+
+It is important to recognize that investors, such as angel investors and venture capitalists, who are especially important sources of capital for young, rapidly growing firms, tend to prefer to invest only in C-corporations. Since venture capitalists do not typically want to become full operating partners in the businesses in which they invest and because the cost of transferring ownership interests can be much lower for C-corporations, they will generally invest only in businesses that are organized this way.
+
+Chapter 1 discussed the concept of separation of ownership and control and how it is related to agency problems. This separation has benefits as well as costs. While it is true that agency problems can arise when owners delegate decision-making authority to professional managers, these costs may be smaller than the benefits. Specifically, the ability to separate ownership from management control enables a firm to raise capital from investors who have no interest in being directly involved in the business. This can greatly increase the number of potential investors. Another benefit is that an entrepreneur can turn over day-to-day control of a business to a more capable manager, become less involved in the business, and yet continue to benefit from its successes as an investor.
+
+Another key concern of all entrepreneurs is being able to attract and retain high-quality employees. Being able to offer a current or potential employee an ownership interest in the business can help greatly in retention and recruiting. The inability to offer ownership interests is a major disadvantage of sole proprietorships.
+
+Financial liabilities associated with a business are also an important consideration when choosing the form for a business. On this dimension, sole proprietorships, general partnerships, and limited partnerships are at a disadvantage. Sole proprietors and general partners face the possibility that their personal assets can be taken from them to satisfy claims on their businesses. In contrast, the liabilities of investors in corporations (both S-corporations and C-corporations) and LLPs and LLCs are limited to the money that they have invested in the business.
+
+The choice of organizational form also affects how the business’s operating profits will be taxed. More taxes mean that the owners get less. In each of the organizational forms in Exhibit 18.1, with the exception of C-corporations, all profits normally flow through to the owners in proportion to their ownership interests.1 These owners pay taxes on the business profits when they file their personal tax returns. Profits earned in C-corporations are taxed at the corporate tax rate, and the after-tax profits are taxed a second time when they are distributed to stockholders in the form of dividends. On the bright side, because profits are taxed in the corporation, certain benefits, such as health insurance, that are paid to stockholders who work in a C-corporation are tax deductible. These benefits are not generally deductible with the other forms of organization.
+
+Financial Considerations
+The most important financial concern of any entrepreneur is making sure that the business has access to enough money to be successful. Unlike a successful mature company, which can rely on cash flows from sales of other products to fund new product introductions, an entrepreneur must obtain funding from outside the firm. This makes it especially important for the entrepreneur to understand the cash requirements of the business.
+
+The margin for error is small. If the entrepreneur miscalculates how much money is necessary, it may be too late to raise more money by the time this error is recognized. Raising external capital can be a time-consuming process and becomes increasingly difficult as a firm becomes more and more cash constrained. Outside investors are especially careful about investing in businesses that have run short of cash. The fact that the business has gotten into such a position can suggest that the business idea may not be viable or that the entrepreneur may not be the right person to build it, or both.
+
+Two tools are particularly useful in understanding the cash requirements of a business and in estimating how much financing a new business will require: (1) the cash flow break-even analysis discussed in Chapter 12 and (2) the cash budget.
+
+Cash Flow Break-Even
+
+Recall that pretax operating cash flow (EBITDA) break-even analysis is used to compute the level of unit sales that is necessary to break even on operations from a pretax operating cash flow perspective. It is calculated using Equation 12.4:
+
+where FC is the fixed costs associated with the business and Price − Unit VC is the per-unit contribution.
+
+It is important for an entrepreneur to understand the concept of EBITDA break-even and how to calculate this point for each product a business produces. This calculation focuses the entrepreneur’s attention on the importance of maximizing a product’s per-unit contribution and minimizing overhead costs. It also provides a means of estimating how long it will take for a product to reach the break-even point and, therefore, how much money will be needed to launch a new product or business.
+
+Although it might seem obvious that an entrepreneur should want to maximize the per-unit contribution of each product and minimize total fixed costs, entrepreneurs often lose sight of these objectives. An entrepreneur can get so caught up in developing the best possible product that he or she does not adequately consider how much customers are willing to pay for that product. For example, adding another feature to a word-processing program can be expensive, and consumers might not be willing to pay the additional cost if they are unlikely to use that feature. Of course, being too sensitive to the possibility of overinvesting in new product development can harm a business by causing it to lose its competitive advantage. An entrepreneur should always be looking for ways to maximize the per-unit contribution of the firm’s products while maintaining the firm’s competitive position.
+
+Many entrepreneurs also lose sight of the importance of controlling fixed costs. For example, several firms with virtually no sales have spent millions of dollars for a single short advertisement during Super Bowl games. Many such firms also spend a great deal of money on extravagant fringe benefits or things like team-building activities in which they take their entire product development staffs on week-long trips to vacation resorts. Although expenses such as these might help to increase employee productivity or encourage more creativity and hard work among the development staff, they also increase the number of units that a business must sell to break even. Unfortunately, some companies run out of money before they ever break even.
+
+Cash Inflows and Outflows
+
+The cash budget is also a very useful planning tool for entrepreneurs. It summarizes the cash flows into and out of a firm over a period of time. Cash budgets often present the inflows and outflows on a monthly basis but can be prepared for any period, including daily or weekly. Preparing a cash budget helps an entrepreneur better understand where money is coming from, where it is going, how much external financing is likely to be needed, and when the need is likely to arise. Understanding where the money is coming from and where it is going helps an entrepreneur maintain control of the company’s finances. Knowing how much external financing is likely to be needed and when helps the entrepreneur plan fundraising efforts before it is too late.
+
+To better understand how a cash budget can help an entrepreneur, let’s consider an example. Suppose that it is March 1, 2022, and that you are planning to open a new restaurant called the Pizza Palace. You have saved $25,000, which you intend to invest in the business, and you have obtained a five-year loan for $50,000 at an APR of 8 percent (8 percent/12 months per year = 0.667 percent per month). The loan principal will be repaid in five equal installments of $10,000 at the end of each of the next five years. Exhibit 18.2 presents a monthly cash budget for your restaurant investment.
+
+EXHIBIT 18.2 Pizza Palace Monthly Cash Budget for the Period March 2022 through February 2023a
+
+A monthly cash budget summarizes the cash that management expects to flow into and out of a business each month. At a minimum, it presents the cash inflows and outflows for each of the next 12 months and for the entire 12-month period. Monthly cash budgets can extend beyond 12 months.
+
+Row	Mar.	Apr.	May	June	July	Aug.	Sept.	Oct.	Nov.	Dec.	Jan.	Feb.	Total
+1. Beginning cash balance	$75,000	$ 6,097	$ 5,000	$ 5,000	$ 5,000	$ 5,000	$ 5,000	$ 6,497	$ 7,993	$ 9,490	$10,987	$12,483	
+2. Cash receipts:													
+3. Cash sales	     3,000	   12,000	   15,000	   20,000	   25,000	   30,000	   35,000	   35,000	   35,000	   35,000	   35,000	   35,000	$315,000
+4. Collections from credit accounts	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	               –
+5. Investments by owner	              –	     9,457	     9,103	     6,553	     4,004	     1,253	              –	              –	              –	              –	              –	     1,020	    31,390
+6. Total cash receipts	 $  3,000	 $21,457	 $24,103	 $26,553	 $29,004	 $31,253	 $35,000	 $35,000	 $35,000	 $35,000	 $35,000	 $35,353	$346,390
+7. Total cash available Cash payments:	 $78,000	 $27,554	 $29,103	 $31,553	 $34,004	 $36,253	 $40,000	 $41,497	 $42,993	 $44,490	 $45,987	 $48,503	
+8. Operations													
+9. Food purchases	   $ 1,200	   $ 4,800	   $ 6,000	   $ 8,000	   $10,000	   $12,000	   $14,000	   $14,000	   $14,000	   $14,000	   $14,000	   $14,000	   $126,000
+10. Gross wages	    10,800	    10,800	    10,800	    10,800	     10,800	     10,800	     10,800	     10,800	     10,800	     10,800	     10,800	     10,800	     129,600
+11. Payroll expenses	      1,620	      1,620	      1,620	      1,620	       1,620	       1,620	       1,620	       1,620	       1,620	       1,620	       1,620	       1,620	       19,440
+12. Misc. supplies	         500	         500	         500	         500	          500	          500	          500	          500	          500	          500	          500	          500	          6,000
+13. Repairs and maintenance	         150	         600	         750	       1,000	       1,250	       1,500	       1,750	       1,750	       1,750	       1,750	       1,750	       1,750	       15,750
+14. Advertising	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       1,000	       12,000
+15. Accounting and legal	       3,000	          200	          200	          200	          200	          200	          200	          200	          200	          200	          200	          200	          5,200
+16. Rent	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       1,500	       18,000
+17. Telephone and utilities	       1,000	       1,200	       1,400	       1,600	       1,800	       1,800	       1,800	       1,800	       1,800	       1,800	       1,800	       1,800	       19,600
+18. Other expenses	               –	               –	               –	               –	               –	               –	               –	               –	               –	               –	               –	               –	                –
+19. Operations total	 $20,770	 $22,220	 $23,770	 $26,220	 $28,670	 $30,920	 $33,170	 $33,170	 $33,170	 $33,170	 $33,170	 $33,170	 $351,590
+Financing and investments:													
+20. Interest payments	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	      $ 333	     $ 4,000
+21. Principal payments on loans	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	   10,000	     10,000
+22. Capital expenditures	   50,000	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	     50,000
+23. Start–up costs	         800	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	          800
+24. Withdrawals by owner	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	              –	               –
+25. Total cash payments	$71,903	$22,553	$24,103	$26,553	$29,003	$31,253	$33,503	$33,503	$33,503	$33,503	$33,503	$43,503	$416,390
+26. Ending cash balance	 $ 6,097	 $ 5,000	 $ 5,000	 $ 5,000	 $ 5,000	 $ 5,000	 $ 6,497	 $ 7,993	 $ 9,490	 $10,987	 $12,483	 $ 5,000	
+a Some totals do not appear to add up precisely because the actual values computed in the model are rounded to the nearest whole number for presentation in this exhibit.
+The initial cash balance in row 1 of the March column of your budget equals the $75,000 that you have raised to finance the project. You estimate that it will take two weeks to actually open the restaurant and, knowing that you will have to build a customer base from scratch, you expect to have only $3,000 in sales during the first month. You do not anticipate providing any credit to your customers, so all of the proceeds from the sales will be received in cash. As shown in rows 8 through 25 of Exhibit 18.2, you expect cash operating expenses to total $20,770 and interest expense, capital expenditures, and start-up costs to be $333, $50,000, and $800, respectively, during March. With only $3,000 in cash inflows, these expenditures will reduce the cash balance by the end of March to only:
+
+While the restaurant is expected to have a positive cash balance at the end of March, the cash balance will be negative by the end of April if no additional financing is obtained. You can see this by noting that the beginning cash balance of $6,097 plus the cash sales of $12,000 would provide a total of only $18,097 with which to pay $22,220 in operating expenses and $333 of interest. This would result in an ending cash balance of:2
+
+Since a restaurant cannot operate without at least some cash for the cash register, you will have to invest more than $4,457 in the business during the month of April. For example, if you decide that you want to maintain a cash balance of at least $5,000, you will have to invest an additional $4,457 + $5,000 = $9,457. This investment is shown in row 5 of the April column in Exhibit 18.2. In this example, the investment is treated as an equity investment by the owner rather than as additional debt. You can tell this by the fact that there is no change in the interest payments in row 20. However, we could easily have treated this amount as a loan instead.
+
+Notice that the cash budget tells you that if the cash forecasts in your budget are correct, you will have to raise, and invest, a total of:
+
+by the end of August to ensure that your restaurant’s cash balance does not fall below $5,000. Knowing this at the beginning of March will be very helpful in planning your fundraising activities for the year.
+
+You might also note that the cash budget indicates that $1,020 will have to be invested in February 2023. This is because the first principal payment on the debt is due at the end of that month, and the investment is needed to maintain a minimum cash balance of $5,000. If you plan to maintain total debt of $50,000 in this business, you could also cover this requirement by obtaining a new $10,000 loan, which you would use to make the debt principal payment.
+
+We can also calculate the pretax operating cash flow break-even point for the Pizza Palace restaurant. If, for simplicity, we assume that the average customer spends $10 for pizza and a drink and that the only unit variable costs are those associated with the food, then we can calculate that the unit contribution will be $6 per customer when the business is up and running in September 2022. We know that the unit contribution is $6 because food purchases represent $14,000/$35,000 = 0.40, or 40 percent of cash sales. This leaves 60 percent of cash sales, or $6 per customer, to cover fixed costs. Knowing the unit contribution and assuming all costs other than those associated with food purchases are fixed, we can calculate the pretax operating cash flow break-even point as follows:
+
+In other words, your restaurant will have to serve at least 3,195 customers per month (approximately 107 per day) in order to break even on a cash flow basis once it is up and running.
+
+We have simplified our example by assuming that the restaurant does not provide credit to customers or hold any material inventories of food, supplies, and so forth. However, we could have incorporated these characteristics into our cash budget using the working capital management concepts discussed in Chapter 14.
+
+Decision Making Example 18.1 illustrates the use of a cash budget.
+
+DECISION MAKING EXAMPLE 18.1
+Using a Cash Budget
+
+Situation
+
+It is January 1, and you have prepared the following cash budget for the next four months for your new business venture:
+
+Monthly Cash Budget
+Jan.	Feb.	Mar.	Apr.	Total
+Beginning cash balance	         $ 0	($ 18,510)	($ 25,270)	($ 28,530)	
+Cash receipts:					
+ Cash sales	        2,500	        5,000	        12,000	        20,000	      $39,500
+ Investments by owner	                 –	                –	                  –	                  –	                 –
+ Total cash receipts	     $ 2,500	     $ 5,000	     $ 12,000	     $ 20,000	     $39,500
+Total cash available	     $ 2,500	($ 13,510)	 ($ 13,270)	   ($ 8,530)	
+Cash payments:					
+ Operations					
+  Merchandise purchases	    $ 1,250	    $ 2,500	    $ 6,000	    $ 10,000	    $19,750
+  Gross wages and payroll	       5,760	       5,760	       5,760	         5,760	      23,040
+  Advertising	       1,000	       1,000	       1,000	         1,000	       4,000
+  Rent	      1,500	      1,500	       1,500	         1,500	       6,000
+   Other expenses	       1,000	       1,000	       1,000	         1,000	       4,000
+  Operations total	 $ 10,510	 $ 11,760	 $ 15,260	  $ 19,260	  $56,790
+Financing and investments					
+ Capital expenditures	$ 10,000	                –	                –	                –	  $10,000
+ Start-up costs	          500	                –	                –	                –	          500
+ Withdrawals by owner	                –	                –	                –	                –	                –
+Total cash payments	  $ 21,010	  $ 11,760	  $ 15,260	  $ 19,260	  $67,290
+Ending cash balance	($ 18,510)	($ 25,270)	($ 28,530)	($ 27,790)	
+If you plan to finance the business entirely with equity, how much money should you invest now to ensure that there is at least $1,000 cash in the business at the end of April? How much will you have to invest each month after April to maintain a $1,000 cash balance if the cash inflows and outflows in the following months look like those for April?
+
+
+
+Before You Go On
+What are three general reasons that new businesses fail?
+How do financing considerations affect the choice of organizational form?
+How does a cash budget help an entrepreneur?
+
+To learn more about starting a business, see the U.S. Small Business Administration Web site at www.sba.gov/sites/default/files/2020-05/The_Facts_About_Starting_a_Small_Business.pdf
+
+
+The Cash Flow Template, Excel spreadsheet #58 on the Web site maintained by Matt H. Evans, is an example of a comprehensive Excel model for forecasting monthly cash flows. See the spreadsheet at www.exinfm.com/free_spreadsheets.html
+
+18.2 The Role of the Business Plan
+LEARNING OBJECTIVE
+
+Describe the key components of a business plan, and explain what a business plan is used for.
+In our discussion of the cash budget, we assumed that any cash required by the business would come from the owner or from a loan. Unfortunately, financing a business is not always so simple. An important tool in financing and managing a young, rapidly growing business is the business plan.
+
+Why Business Plans Are Important
+Recall from Chapter 15 that the equity capital used by entrepreneurs includes their own money, money from friends and family, investments by venture capitalists, equity raised by selling shares in the stock market, and so on. Debt financing can also come from a wide variety of sources, including the entrepreneur, a bank, a local individual investor, another business, and the sale of debt in the public debt markets, among others.
+
+Ensuring that a young, rapidly growing business has enough cash is a simple matter if the money comes from the entrepreneur. The entrepreneur only has to decide to make the investment. Things are more complicated when the money comes from elsewhere. The entrepreneur must convince potential investors that purchasing debt or equity in the firm will yield attractive returns. In other words, they must be persuaded that they will be adequately compensated for the risks they bear.
+
+Convincing outsiders to invest in a company can be difficult enough if the business has a well-established track record. Raising money from outsiders can be immensely difficult for a young company. The entrepreneur often begins the process with little more than an idea of where the business is headed and some limited operating results in the form of unaudited and often incomplete financial statements. To overcome the skepticism of outside investors, many entrepreneurs prepare a business plan.
+
+A business plan is like a road map for a business. It presents the results from a strategic planning process that focuses on how the business will be developed over time. It describes where the company is going and what steps the company will follow to get there. A well-prepared business plan makes it easier for an entrepreneur to communicate to potential investors precisely what he or she expects the business to look like in the future, how he or she expects to get it to that point, and what returns an investor might expect to receive. The fact that an entrepreneur has prepared such a document also demonstrates to investors that the entrepreneur has carefully thought through the business idea. This is especially important when the business is in a very early stage of development and the entrepreneur must convince investors that he or she is capable of building it.
+
+business plan a document that describes the details of how a business will be developed over time
+
+In addition to its usefulness in raising capital, a business plan can help an entrepreneur set the goals and objectives for the company, serve as a benchmark for evaluating and controlling the company’s performance, and communicate the entrepreneur’s ideas to managers, outside directors, customers, suppliers, and others. A thoroughly thought-out plan can help a business owner avoid problems and better deal with those that arise. In short, business planning is extremely important to the survival of a small and growing company.
+
+The Key Elements of a Business Plan
+The depth and scope of business plans vary widely, but most well-developed business plans include the following:
+
+An executive summary, which summarizes the key points made in the plan.
+A company overview, which describes what the company does and what its competitive advantages are.
+A detailed description of the products and services the company sells or plans to sell, their current state of development or market penetration, competitive advantages, product life cycle, and any patents or legal protections that might provide a competitive advantage.
+A market analysis, which discusses the markets for the firm’s products and highlights the important characteristics of these markets as they relate to the company.
+A discussion of the marketing and sales activities that will enable the company to achieve the sales and profits reflected in the financial forecasts.
+A discussion of the operations of the business—how the product is (or will be) produced and distributed, who the suppliers are, and any competitive advantages the business has in this area.
+A discussion of the management team, which includes the company’s organizational structure and describes the talents and skills of the managers. The discussion of the managers should explain why they are qualified to manage and grow this particular business. This is an especially important part of the business plan when it comes to raising capital. Investors in young businesses invest in the key people as much as in the business idea itself.
+A description of the ownership structure, including the types of securities the firm has issued and who owns them. Potential investors use this information when they value the securities they are considering purchasing and to help them understand the incentives that managers and other owners have to make the business a success.
+A discussion of capital requirements and uses. This section covers the current capital requirements of the business as well as capital requirements over the next five years and provides a detailed account of how the money will be used.
+Historical financial results, when they are available, along with financial forecasts. If sufficient historical results are available, this section will also include an analysis of those results using the financial statement analysis tools discussed in Chapter 4. The forecasts include a month-by-month cash budget for the next two or three years as well as yearly forecasts of operating results. The cash budget helps the reader understand what the cash inflows and outflows will be and their timing. The yearly results provide an indication of what types of returns might be expected from the business.
+Appendixes that contain detailed supporting information for the above discussions and analyses.
+Before You Go On
+Why is a business plan important in raising capital for a young company?
+What else can a business plan be used for?
+Why is it important to discuss the qualifications of the management team in a business plan?
+
+To learn more about business plans and to see sample plans, visit the PlanWare Web site at www.planware.org or the Bplans Web site at www.bplans.com
+
+18.3 Valuing a Business
+LEARNING OBJECTIVE
+
+Explain the three general approaches to valuation, and value a business using common business valuation approaches.
+Successful decision makers in both small and large firms must understand what determines the value of a business. It is not possible to consistently make investment and operating decisions that create value without knowing how to identify positive NPV projects or how operating decisions affect the value of a firm. This knowledge is also crucial when making financing decisions. In Chapters 16 and 17, we also saw how a firm’s value is affected by capital structure and payout policies. Decision makers must understand business valuation concepts in order to be able to identify the optimal capital structure and payout policy.
+
+In this section, we discuss fundamental business valuation concepts. You will see that financial analysts apply many of the concepts that have already been discussed in this book when they value a business. The reason is that a business is really just a bundle of related projects, and the value of the business equals the total value of this bundle. In other words, the value of a business is determined by the magnitude of the cash flows that it is expected to produce, the timing of those cash flows, and the likelihood that the cash flows will be realized.
+
+Fundamental Business Valuation Principles
+Before we discuss the specific ways in which businesses are valued, you should be aware of two important valuation principles.
+
+The First Valuation Principle: The first valuation principle is that the value of a business changes over time. Changes in general economic and industry conditions, and decisions made by managers, all affect the value of the cash flows that a business is expected to generate in the future. For example, changes in interest rates affect the firm’s cost of capital and, therefore, the present value of future cash flows. A change in interest rates can also affect the demand for a firm’s products if customers typically finance the purchases of those products with loans, as they often do for big-ticket items such as automobiles and houses. Similarly, competitors enter and exit industries, introduce new products, change prices, and so forth. These actions also affect the value of a business by altering its cash flows or risk. Finally, the value of a business is affected by managers’ investment, operating, and financing decisions.
+
+Because the value of a business changes over time, it is important to specify a valuation date when valuing a business. Normally, this date is the date on which you do the analysis, but it can be an earlier date in some situations. For example, when companies are sued or when stockholders are involved in a dispute with the Internal Revenue Service, the value of the business or its stock as of some date in the past must often be estimated. A stockholder may claim that managers sold stock for less than it was worth at some time in the past, or the IRS may claim that the value of shares passed to an heir was greater than claimed when the taxes were filed by the estate of the deceased stockholder. By specifying the valuation date, the person who values a business makes it clear to anyone who uses the value estimate precisely what economic, industry, and firm conditions are reflected in that estimate.
+
+valuation date the date on which a value estimate applies
+
+Building Intuition
+The Value of a Business Is Specific to a Point in Time
+
+The value of a business is affected by general economic and industry conditions as well as the decisions made by managers. All of these factors affect the cash flows that a business is expected to produce in the future and the rate at which those cash flows should be discounted. Since all of these factors change over time, so will the value of the business.
+
+The Second Valuation Principle: A second very important valuation principle is that there is no such thing as the value of a business. The value of a business can be different to different investors. To understand why, consider two different investors who are interested in purchasing a business that is for sale. Suppose that one investor is a competitor of the business that is for sale and the other is an individual who just wants to invest some money and plans to let the same management continue to operate the business independently. The competitor, who is what we call a strategic investor, might be willing to pay a higher price for the business than the other investor, who is what we call a financial investor, because the strategic investor might be able to combine the business with his or her current business in a way that reduces costs or increases revenues. The financial investor does not have the potential to benefit from these synergies.
+
+Building Intuition
+The Value of a Business Is Not the Same to All Investors
+
+The value of a business is not the same to all investors because different investors will obtain different cash flows from owning a business. For example, the cash flows to passive investors will differ from the cash flows to investors who are active in the management of the business. Cash flows will also differ among active investors because they will have different skill levels, operating preferences, and abilities to benefit from synergies.
+
+The key implication of the idea that the value of a business can differ among investors is that the purpose of a valuation affects the way we do the analysis. If a valuation is being performed to determine what price a particular investor would be willing to pay for a business, the analysis must consider how that investor will operate the business. In the business valuation terminology, we would refer to this as an estimate of the investment value of the business to that investor.
+
+investment value the value of a business to a specific investor
+
+If, instead of estimating the value of a business to a particular investor, an analyst is trying to estimate the price that a typical investor would pay for a business, he or she would be estimating the fair market value of the business. The fair market value of a business is the value of that business to a hypothetical person who is knowledgeable about the business. It does not include the value of synergies or the effects of any investor-specific management style. For this reason, the fair market value can differ considerably from the investment value of a business.
+
+fair market value the value of a business to a typical investor
+
+Business Valuation Approaches
+There are many business valuation methods, but most can be classified into one of three general categories: (1) cost approaches, (2) market approaches, and (3) income approaches. Cost, market, and income valuation approaches can be used to value a wide range of assets. They do not apply only to business valuation.
+
+For example, the house or apartment building you live in has at some point been valued using a cost, market, or income approach—possibly even all three. When the building was insured, the insurance company probably used a cost approach to estimate its replacement cost. The appraiser for the local taxing authority is likely to have used a market approach, in which the estimated value was based on recent prices paid for similar properties in the local real estate market. Finally, if your house or apartment building was ever evaluated as a potential rental property by an investor, the investor probably used an income approach. In this analysis, the investor estimated the present value of the cash flows that the property would produce if it were rented.
+
+While the ways in which the cost, market, and income approaches are used to value a business differ from the ways in which they are used to value real estate, the basic principles are the same. We next describe how these approaches are used to value businesses.
+
+Cost Approaches
+
+Two cost approaches that are commonly used to value businesses or their individual assets are the replacement cost and adjusted book value approaches.
+
+Replacement Cost
+The replacement cost of a business is the cost of duplicating the business’s assets in their present form as of the valuation date. It thus reflects both the nature and condition of the assets. For example, the replacement cost of a 15-year-old electric wood saw that is in relatively good condition equals what it would cost to purchase an identical used saw in the same condition.
+
+replacement cost the cost of duplicating the assets of a business in their present form as of the valuation date
+
+The replacement cost valuation approach is generally used to value individual assets within a business when they are being insured, but it is rarely used to value an entire business. Since investors are concerned with the value of the cash flows that the business can be expected to generate in the future, they use valuation approaches that reflect the value of these expected cash flows when deciding how much to pay for firms.
+
+Although the replacement cost approach tends to be more useful for insurance purposes, it can be helpful in conducting a buy-versus-build analysis when managers are thinking about making a business acquisition. Before purchasing a business, it usually makes sense to ask if you could build the same business in a way that would result in a greater NPV—in other words, whether it is cheaper to build the business yourself or to buy one that already exists. Answering this question can serve as a useful common-sense check on whether you might be paying too much for the business.
+
+When using the replacement cost approach in a buy-versus-build analysis, you must be sure to include the cost of all tangible assets, such as property, plant, and equipment, and all intangible assets, such as brand names and customer lists. You must also include the cost of hiring the people necessary to run the business and account for the cash flows that you would not receive during the time that it would take to build the business. It can take a long time to build a business, and until the business is up and running it will produce smaller cash flows than a business you might acquire.
+
+Adjusted Book Value
+The adjusted book value approach involves estimating the market values of the individual assets in a business and adding them up. When this approach is used, the fair market value of each asset is estimated separately and the values are summed to arrive at the total value of the business. As with the replacement cost approach, an adjusted book value analysis should include all tangible and intangible assets, whether they are actually included on the accounting balance sheet or not.
+
+adjusted book value the sum of the fair market values of the individual assets in a business
+
+The adjusted book value approach is useful in valuing holding companies whose main assets are publicly traded or other investment securities, but it is generally less applicable to operating businesses. The value of an operating business is usually greater than the sum of the values of its individual assets because the present value of the cash flows expected from the company is greater. The difference between the value of the expected cash flows and that of the assets is referred to as going-concern value.
+
+going-concern value the difference between the value of a business as a going concern (the present value of the expected cash flows) and the adjusted book value
+
+Going-concern value reflects the value associated with additional cash flows the business is expected to produce because of the way in which the individual assets are managed together. A lot of different factors determine the going-concern value of a business. For example, one business can have a larger going-concern value than another business because it has a stronger management team that is able to invest in and utilize the business’s assets more efficiently. The going-concern value might also be larger because the employees of the company are more skilled or work better together or because the government provides some special benefit to a particular business.
+
+To see how going-concern value might be created, suppose that you just obtained the exclusive right to produce and sell a patented type of specialty brick in the United States that has been very popular among homebuilders in Canada. Also suppose that you expect to be able to satisfy demand for this brick with a single manufacturing plant. No matter where you build this plant, its adjusted book value will be the same, assuming that the assets in the plant, such as kilns, forklifts, conveyer belts, and so forth, are commonly available and used all over the country. However, the actual value of the plant (business) will depend in part on where you decide to build it if transportation costs are an important component of the overall costs (bricks are heavy and cost a lot to transport). If you build the plant in Oklahoma (the middle of the country), it will be worth more than if you build it in one corner of the country, such as in Miami, because average transportation costs to builders around the country will be lower from Oklahoma. As a result, the going-concern value will be greater if you build it in Oklahoma.
+
+Although the adjusted book value approach does not capture the going-concern value associated with a business, it is useful under certain circumstances. We might use this approach (1) when it is especially difficult to forecast a business’s likely cash flows; (2) when we suspect that the going-concern value of the business is negative—in other words, the owners of the business would be better off if the business were simply shut down and its assets were sold off; or (3) if we are explicitly considering liquidation. The adjusted book value approach might also be used as a common-sense check when using one of the other valuation approaches. If your value estimate is lower than the adjusted book value when you use another approach, it might indicate that there is an error in your analysis. Of course, if you find no errors, this might also be an indication that you would be better off shutting down the business and liquidating it.
+
+When using the adjusted book value approach to estimate the liquidation value of a business, we must make sure to subtract liquidation-related expenses such as sales commissions, legal and accounting fees, and the cost of dismantling and hauling away the assets. To see how the adjusted book value approach might be used to estimate the liquidation value of a business, consider the following situation. Last year you started a business that prints custom logos on T-shirts for business clients. Unfortunately, the economy went into a recession shortly after you started your business, and it never got off the ground. You have virtually run out of cash and have decided to shut down the business rather than invest any more money. The current balance sheet of this business is as follows:
+
+What is the liquidation value of your ownership interest in this business?
+
+The first step in estimating the liquidation value of the business is to estimate how much value will be realized from the individual assets after accounting for liquidation costs. Let’s begin with the cash. Since the objective of the liquidation process is to convert all assets into cash, the liquidation value of any cash on the balance sheet, $78 in this example, simply equals its face value. Assuming that your customers are reputable businesspeople, you expect to collect all of the receivables with little effort. However, since you will incur some expenses in the collection process, you estimate that you will actually receive a net amount that equals 95 percent of the face value of the receivables. A call to your T-shirt supplier reveals that you can return unused inventory to the supplier and receive an 80 percent refund. You do not believe that anyone else will pay you more for the T-shirts. Finally, a supplier of T-shirt printing equipment has offered to pay you $600, or 75 percent of the book value, for your printing press.
+
+Assets:		Liabilities and Equity:	
+Cash	$ 78	Accounts payable	$ 480
+Accounts receivable	2,368	Loan balance	2,000
+T-shirt inventory	1,600	Stockholders’ equity	 2,366
+Printing press	 800		
+Total assets	$4,846	Total liab. & equity	$4,846
+With this information, you estimate that the liquidation value of the assets is $4,208:
+
+Cash	$ 078	×	100%	=	$ 78
+Accounts receivable	$2,368	×	95%	=	$2,250
+T-shirt inventory	$1,600	×	80%	=	$1,280
+Printing press	$ 800	×	75%	=	$ 600
+Total assets	$4,846				$4,208
+Therefore, after paying your accounts payable and the loan, your equity ownership interest has a liquidation value of $4,208 − $480 − $2,000 = $1,728.
+
+Learning by Doing Application 18.1 illustrates use of the adjusted book value approach.
+
+LEARNING BY DOING APPLICATION 18.1
+Using the Adjusted Book Value Approach
+
+Problem
+
+You are considering purchasing a company that manufactures specialized components for recreational vehicles. These components are sold to the companies that manufacture the vehicles. As part of your analysis of this opportunity, you decide to estimate the liquidation value of the company. Management has provided you with the following information about its assets. All values are in thousands of dollars.
+
+Cash	  $ 444
+Accounts receivable	      739
+Inventory	   1,436
+Net PP&E	 8,463
+Total assets	$11,082
+Management has also told you that you can reasonably expect to collect 93 percent of the receivables (accounting for collection expenses), that the inventory can be sold to realize 85 percent of its book value, and that sale of the property, plant, and equipment would yield $6,100. What is the liquidation value of this company?
+
+
+
+
+
+Market Approaches
+
+Two market approaches are commonly used in business valuation. The first approach, which is often called multiples analysis, uses stock price or other value multiples that are observed for similar public companies to estimate the value of a company or its equity. The second approach, often called transactions analysis, uses information from transactions involving the sale of similar companies to estimate the value of a company or its stock.
+
+multiples analysis a valuation approach that uses stock price or other value multiples for public companies to estimate the value of another company’s stock or its entire business
+
+transactions analysis a valuation approach that uses transactions data from the sale of similar companies to estimate the value of another company’s stock or its entire business
+
+Market approaches reflect prices that have actually been paid for a company’s stock or for the entire company. While it is not always obvious why people pay a particular price, the information on what they pay can yield useful insights into how those people view the prospects for similar businesses. Market approaches can also provide useful benchmarks against which valuations based on other methodologies can be compared.
+
+Multiples Analysis
+Multiples analysis is widely used in business valuation. This approach involves: (1) identifying publicly traded companies engaged in business activities that are similar to those of the company being analyzed and (2) using the prices at which shares of those comparables are trading, along with accounting data, to estimate the value of the equity of a company of interest or its entire value. Multiples analysis can be especially useful in estimating the price at which the stock of a private company can be sold. For example, this approach is often used to help identify the price at which shares can be sold when a company does its initial public offering (IPO) or when some or all of its shares are being sold privately to investors.
+
+Price/earnings (P/E) and price/revenue multiples (ratios) are commonly used to directly estimate the value of the stock in a company. These ratios divide a measure of stock price by an accounting measure of profits and revenue, respectively. Analysts typically estimate one of these multiples using data from comparable public companies, and then they use an average or, if one comparable is clearly better than the others, a multiple from a single comparable company to estimate the value of the company of interest.
+
+Suppose, for example, that we want to estimate the value of the equity of a private department store chain that we are considering purchasing. The chain earned net income of $3.65 million last year. We have identified a publicly traded company that is very similar to the company we are valuing and notice on the financial Web site CNBC.com that the P/E ratio for its common stock is 17.63. From this information, we can estimate that the market value of the equity (VE) of the company that we are considering purchasing is:
+
+It is important to recognize that because the stock of the comparable companies is publicly traded and shares that are bought and sold in public markets are more liquid than shares that are not publicly traded, we must be careful when using multiples analysis to value a private company. The prices paid for shares that are not publicly traded can be considerably less than the prices paid for public shares. While the size of this marketability discount depends on many factors, such as the fraction of the total shares being bought or sold, it can amount to more than 30 percent in some instances.3
+
+A multiples analysis is conceptually straightforward but can be difficult use in practice. One complicating factor is that truly comparable public companies are difficult to find. The ideal comparable company would match the company being valued on many dimensions. It would sell the same products, compete in the same markets, be of similar size, have similar revenue growth prospects, have similar profit margins, and have similar management quality, among other characteristics. In addition, if an equity ratio (such as price/earnings or price/revenue) is being used, the comparable should have a similar capital structure because, all else being equal, capital structure can have a dramatic impact on those ratios.
+
+The importance of identifying comparable companies that are similar to the company being analyzed can be illustrated by considering the characteristics that determine a company’s price/earnings multiple. Recall from Chapters 9 and 13 that the constant-growth dividend model, Equation 9.4, can be used to estimate the value of a share of stock. Using the notation from Chapter 13, this model can be written as:
+
+where P0 is the current stock price, D1 is the dividend that is expected next year, kcs is the required return on common stock, and g is the expected growth rate in dividends. If we recognize that dividends equal the fraction of earnings distributed to the stockholders times the earnings of the firm, we can rewrite Equation 9.4 as:
+
+where E1 is the earnings per share expected next year and b is the fraction of the firm’s earnings that is paid out as dividends. (b, which is known as the dividend payout ratio, is referred to in the summary of the Lintner study in Section 17.5 of Chapter 17 and is discussed in more detail in Chapter 19). Finally, we can rearrange this equation to obtain the price/earnings multiple:
+
+(18.1)
+This equation tells us that the P/E multiple can be thought of as equal to the dividend payout ratio over kcs minus g.4
+
+By focusing on the variables that drive the P/E multiple in this simple framework, we can see the importance of identifying comparable companies that are as similar to the company of interest as possible. For example, consider what company characteristics determine kcs. The Capital Asset Pricing Model (CAPM) tells us that kcs depends on beta, which is a measure of the systematic risk associated with a company’s stock price. Since this systematic risk is closely related to the volatility of the earnings of the company, our discussion of total risk in Chapter 16 (see the discussion of Exhibit 16.3) suggests that the cost of equity depends on both business and financial risk. In other words, it depends on things such as the products the company sells, the markets it sells them in, its profit margins, and its operating and financial leverage. The growth rate of dividends, g, is determined by the same factors that affect kcs. This means that if we cannot identify a comparable company that is similar to the company of interest in both its business and financial characteristics, the P/E multiple we obtain for the comparable company will not be a good measure for our analysis.
+
+Because P/E ratios are sensitive to leverage, many analysts use ratios that divide the total value of a company’s equity plus its debt by an accounting measure of cash flows available to all providers of capital (debt and equity). These ratios provide a direct measure of the total value of a company’s equity plus its debt, which is known as its enterprise value.5 The total value of the firm was written in Equation 16.1 as VFirm = VDebt + VEquity. In the interest of brevity, we will write it in this chapter as:
+
+enterprise value the value of a company’s equity plus the value of its debt; also, the present value of the total free cash flows the company’s assets are expected to generate in the future
+
+where VF is the value of the firm, VD is the value of the debt, and VE is the value of the equity. Multiples that are based on the total value of the firm are known as enterprise multiples. Examples include Enterprise value/revenue and Enterprise value/EBITDA.
+
+To see how an enterprise multiple can be used to estimate the total value of a firm, let’s return to the example in which we were valuing the department store chain. Assume that, in addition to the P/E ratio analysis, we want to estimate the enterprise value of the business using an Enterprise value/EBITDA ratio. We have estimated that EBITDA last year was $8.67 million for the department store chain we are valuing. On CNBC.com, we find that the current price of the comparable company’s stock is $31.25, and, from the balance sheet in the annual report, we observe that the comparable company has 3.67 million shares outstanding. We also estimate that the value of the comparable company’s outstanding debt is $19.46 million, and we note that EBITDA for this company was $14.35 million last year. Using this information, we can calculate the Enterprise value/EBITDA ratio for the comparable company as follows:
+
+and we can estimate the enterprise value for the company we are valuing as:
+
+Learning by Doing Application 18.2 presents another example of a Multiples Analysis.
+
+LEARNING BY DOING APPLICATION 18.2
+Using Multiples Analysis
+
+Problem
+
+In addition to performing the liquidation analysis in Learning by Doing Application 18.1, you have decided to estimate the enterprise value of the company that manufactures specialized components for recreational vehicles. You have collected the following information for a comparable company and for the company you are valuing:
+
+Comparable company:	Company you are valuing:
+ Stock price = $10.62	 Value of debt = $1.25 million
+ Number of shares outstanding = 9.55 million	 EBITDA last year = $2.37 million
+ Value of debt = $11.67 million	 Net income last year = $0.45 million
+ EBITDA last year = $10.85 million	
+ Net income last year = $2.67 million	
+Estimate the enterprise value of the company you are valuing using the P/E and Enterprise value/EBITDA multiples.
+
+
+
+
+
+Whenever we use multiples analysis, we must remember that we are estimating the fair market value of a company’s equity or its enterprise value, and that this value is based on transactions involving small ownership interests. The transaction prices that we observe in the stock market are typically based on trades that involve unknown investors buying small numbers of shares that do not give them the ability to control the business. In other words, a multiples analysis does not provide an estimate of investment value because the identities of the buyers are not known and the transactions for shares do not convey control over the company to the new owner. This means that value estimates based on a multiples analysis do not reflect the synergies that might be realized by combining the company with another business. These estimates also do not include the value associated with being able to control a business, an important consideration that we discuss in more detail later.
+
+When performing a multiples analysis, it is also important to make sure that the numerator and the denominator of the ratio we are using are consistent with each other. In other words, if stock price is in the numerator, some measure of cash flow to equity must be in the denominator. If enterprise value is in the numerator, a measure of total cash flows from the entire business must be in the denominator.
+
+The exception to this rule is the price/revenue ratio. This ratio can be useful in valuing the stock of a relatively young company that is not yet generating profits. Shares in very young companies are often bought and sold based on multiples of their revenue. Implicit in those multiples are expectations about future margins, as well as growth in revenue. By using price to revenue, the analyst is effectively assuming that the company being analyzed will, over time, have profit margins similar to those that are anticipated by the market in pricing the publicly traded comparables.
+
+Another important point to keep in mind when doing multiples analysis is that the data used to compute the multiple for the comparable company should include the stock price as of the valuation date and that accounting data for the two companies should be from the same period. Since any value estimate is specific to a particular date, we must be sure to use multiples for the appropriate point in time. Furthermore, if we use accounting data from the past 12 months to estimate the ratio for a comparable company, we must use accounting data from the same 12-month period to calculate the value of the company of interest.
+
+Transactions Analysis
+The information used in a transactions analysis is typically obtained from Securities and Exchange Commission (SEC) filings of public companies that have acquired other companies or from commercial services that collect and sell this information. This information is used to compute the same types of multiples that are used in a multiples analysis, and these multiples are used in the same way to value a company. Transaction data reflect the price that a particular investor paid for an entire company. For this reason, it provides an estimate of the investment value to that investor.
+
+Like multiples analysis, transactions analysis can be difficult to use in practice, although the reasons for the difficulty are different. One problem is that transactions data are not typically as reliable as the data available for multiples analysis, especially when the transactions involve private companies. For example, the available data on transactions might include revenues of the private company, but not data on its profitability. The data might include the net income but not enough information to estimate EBITDA. This can make it difficult to compute some multiples.
+
+In addition, unlike stock market transactions, transactions involving the purchase or sale of an entire business occur relatively infrequently. This means that the data available for a transactions analysis often include only transactions that occurred months or even years earlier. Since the value of a business is specific to a particular point in time, the price that was paid for a business becomes less useful as an indicator of what the business is worth as time passes after the sale.
+
+Finally, the terms of the transactions can be difficult to assess. While the P/E multiple for a publicly traded company is an indication of the price that might be obtained in a cash transaction, transactions involving the sale of an entire company often involve some combination of cash, debt, and equity payments. A whole package of such securities, some of which can be difficult to value, could be included in the reported transaction price, and this may not be apparent to the analyst. The value estimates for those securities and claims can also be distorted if the buyer or seller has a reason to prefer reporting a higher or lower price.
+
+Income Approaches
+
+At the beginning of this section, we said that the value of a business is determined by the magnitude of the cash flows that it is expected to produce, the timing of those cash flows, and the likelihood that the cash flows will be realized. The cost and market approaches are useful for estimating this value in certain situations—such as in doing a buy-versus-build analysis or estimating the liquidation value of a firm or when good comparable firms or transactions are available. The most direct approaches for estimating the value of the cash flows a business is expected to produce, however, are the income approaches. Like NPV analysis, these approaches directly estimate the value of those cash flows.
+
+Before we discuss specific income valuation approaches, we should note that the market and income approaches differ in one very important way. Because the market approaches rely on prices that have been paid for companies or their securities, the value estimates that they yield are estimates of what people are willing to pay. In contrast, the income approaches provide estimates of the intrinsic, or true, value of a company or its securities.
+
+While the market value can equal the intrinsic value, the two values are not necessarily the same. For example, if you are valuing the company you work for, you might have better information about its prospects than do stock market investors. By using an income approach, you would be able to incorporate your superior information directly into the valuation analysis in a way that you would not be able to do with a market approach.
+
+Using Income Approaches
+The life of a business is not usually known when it is valued. Whereas a project might be expected to last a specific number of years, a business can have an indefinite life. This makes it more difficult to use an income approach to value a business than a project. It is difficult enough to forecast cash flows for a relatively short period, such as three or five years, let alone for the indefinite future.
+
+Another complication in business valuation is that businesses often have cash or other assets that are not necessary for operations. These can include cash that was earned in the past but has not been distributed to stockholders and assets that are left over from old projects. We call these nonoperating assets (NOA). When we estimate the value of an individual project, we do not have to worry about NOA because there are none. However, when we value a business, NOA are an additional source of value. NOA can be distributed directly to stockholders or sold and the proceeds distributed to stockholders without affecting the cash flows that the operations of the business are expected to generate.
+
+nonoperating assets (NOA) cash or other assets that are not required to support the operations of a business
+
+In practice, we account for the indefinite life associated with a business and the possibility that it has NOA by estimating the value of the business as the sum of three numbers. This calculation can be represented as follows:
+
+(18.2)
+where VF is the value of the firm, PV(FCFT) is the present value of the free cash flows (FCF) that the business is expected to produce over the next T years, PV(TVT) is the present value of all free cash flows after year T, and NOA is the value of all of the nonoperating assets in the firm. Note that the present value of all free cash flows after year T is generally known as the terminal value. Note also that if we only want to calculate the value of the equity, we can do this by first calculating the value of the firm using Equation 18.2 and then subtracting the value of the debt.
+
+terminal value the value of the expected free cash flows beyond the period over which they are explicitly forecast
+
+Free Cash Flow from the Firm Approach
+When using the free cash flow from the firm (FCFF) approach, an analyst values the free cash flows that the assets of the firm are expected to produce in the future. The present value of these free cash flows equals the total value of the firm, or its enterprise value.
+
+free cash flow from the firm (FCFF) approach an income approach to valuation in which all free cash flows the assets are expected to generate in the future are discounted to estimate the enterprise value
+
+The free cash flows used in a FCFF analysis are almost identical to the free cash flows from the left-hand side of the finance balance sheet that was illustrated in Exhibit 13.1. The only difference is that when we value a business, we do not include cash flows necessary to pay short-term liabilities that do not have interest charges associated with them, such as accounts payable and accrued expenses. The costs associated with these noninterest-bearing current liabilities, which are included in the firm’s cost of sales and other operating expenses, are subtracted in the calculation of FCFF. Exhibit 18.3 shows precisely what we are referring to when we refer to the value of FCFF.
+
+The most common FCFF approach involves using the weighted-average cost of capital (WACC), which we discussed in Chapter 13, to discount the FCFF. This is often referred to as the WACC valuation method. In this approach, the total value of the firm (VF) is computed as the present value of the FCFF, discounted by the firm’s WACC:
+
+(18.3)
+In this equation, t equals the period when the cash flow is produced.
+
+We compute the FCFF using the same calculation that we used for the free cash flows for a project in Chapter 11. The only differences are that (1) since business valuation involves valuing all of the projects in the firm, we compute the total after-tax free cash flows the firm’s assets are expected to produce rather than the incremental after-tax free cash flows from a project and (2) we use the average tax rate instead of the marginal tax rate. The FCFF calculation is shown in Exhibit 18.4. Notice that this calculation is just like the calculation in Exhibit 11.1.
+
+EXHIBIT 18.3 The Finance Balance Sheet and Firm Value The value of a firm (enterprise value) equals the present value of the future free cash flows from the firm (FCFF). Since the owners of the interest-bearing debt and other long-term liabilities and the stockholders, collectively, have the right to receive all of the FCFF, the total value of those claims equals the value of the firm.
+
+
+Analysts typically estimate future FCFF by forecasting each of the individual components and then performing the calculation shown in Exhibit 18.4. Next, the resulting FCFF values are discounted back to the present using the WACC, as already mentioned. Recall that the WACC is calculated using Equation 13.7:
+
+EXHIBIT 18.4 The FCFF Calculation
+
+Free cash flows from the firm (FCFF) are calculated in the same way as the incremental after-tax free cash flows (FCF) that are expected from a project. The only differences between the FCFF calculation and the FCF calculation, which is illustrated in Exhibit 11.1, are that in the FCFF calculation (1) we use total cash flows rather than incremental cash flows, and (2) we use the average tax rate instead of the marginal tax rate when we are valuing a company that is operating independent of any other company.
+
+Explanation	Calculation	Formula
+The firm’s cash income excluding interest expense		
+Adjustments for the impact of depreciation and amortization and investments on FCFF
+where xDebt pretax + xps + xcs = 1 and where kDebt pretax, kps, and kcs are the pretax cost of debt and the after-tax costs of preferred stock and common stock, respectively. Also, t is the tax rate that applies to interest deductions, and xDebt, xps, xcs are the proportions of the value of the firm that are represented by debt, preferred stock, and common stock.
+
+When analysts use the WACC approach to value a business, they must make an assumption about how the firm’s operations will be financed in the future. For example, the financing might be 80 percent equity and 20 percent debt. Or it might be 30 percent equity and 70 percent debt. These are very important assumptions because, as we saw in Chapter 16 (see Exhibit 16.8), the capital structure choice affects the value of the firm. The FCFF calculation is not affected by the firm’s capital structure, but from Equation 18.3 we know that capital structure affects firm value by affecting the discount rate—the WACC. In fact, as we discussed in Chapter 16, the optimal capital structure for a business is the one that minimizes the WACC.
+
+To see how the FCFF approach is used to value a business, consider an example involving Bell Mountain Manufacturing Company. Assume that we have forecast Bell Mountain’s FCFF for each of the next five years to be as shown in Exhibit 18.5. Also assume that we have estimated that the WACC for Bell Mountain will be 11 percent and that the cash flows after Year 5 will grow at an annual rate of 3 percent. Finally, we observe that Bell Mountain has excess cash of $14.68 million but no other NOA.
+
+With this information, we can calculate the enterprise value of Bell Mountain Manufacturing Company using Equation 18.2:
+
+We begin by calculating the present value of the forecasted free cash flows in Exhibit 18.5. The present value of these cash flows is
+
+In this example, we prepared cash flow forecasts for five years. The length of the period for which detailed projections are produced depends on the level of uncertainty surrounding the future of the business. In general, we want to forecast the cash flows out to a point in time where we expect the business to reach a steady-state growth rate. We can then estimate the cash flows for the remainder of the business’s life (the terminal value) by (1) calculating the present value of all cash flows after the final year of the detailed forecast using the formula for a growing perpetuity and (2) discounting this value to the present. For Bell Mountain, these calculations are as follows:
+
+EXHIBIT 18.5 FCFF Forecasts for Bell Mountain Manufacturing Company ($ millions)
+
+This exhibit presents forecasts of free cash flow from the firm (FCFF) for Bell Mountain for each of the next five years.
+
+Year
+1	2	3	4	5
+ Revenue	$100.0	$106.0	$112.4	$119.1	$126.3
+− Cash operating expenses	    70.0	    74.2	    78.7	    83.4	    88.4
+ Earnings before interest, taxes, depreciation and amortization	$ 30.0	$ 31.8	$ 33.7	$ 35.7	$ 37.9
+− Depreciation and amortization	     8.0	     8.3	     8.5	     8.8	     9.0
+ Operating profit	$ 22.0	$ 23.5	$ 25.2	$ 26.9	$ 28.9
+− Taxes	     7.7	     8.2	     8.8	     9.4	     10.1
+ Net operating profits after tax	$ 14.3	$ 15.3	$ 16.4	$ 17.5	$ 18.8
++ Depreciation and amortization	     8.0	     8.3	     8.5	     8.8	     9.0
+ Cash flow from operations	$ 22.3	$ 23.6	$ 24.9	$ 26.3	$ 27.8
+− Capital expenditures	    10.0	    10.0	    11.0	    12.0	    13.0
+− Additions to working capital	       0.5	       0.5	       0.5	       0.6	       0.7
+= Free cash flow from the firm	 $ 11.8	 $ 13.1	 $ 13.4	 $ 13.7	 $ 14.1
+and
+
+Finally, we can use Equation 18.2 to calculate the total value of Bell Mountain Manufacturing Company:
+
+Learning by Doing Application 18.3 presents another example of the application of the FCFF Income Approach.
+
+LEARNING BY DOING APPLICATION 18.3
+Using the FCFF Income Approach
+
+Problem
+
+You have decided to use the FCFF income approach to estimate the intrinsic value of the company that manufactures components for recreational vehicles. You expect the company’s cash flows to grow very rapidly during the next five years and to level off after that. Based on this, you forecast the cash flows for each of the next five years to be:
+
+FCFF ($ millions)	Year
+    1    	    2    	    3    	    4    	    5    
+−$0.284	$0.108	$0.998	$2.110	$2.857
+You expect cash flows to be constant after Year 5. There are no NOA in this firm. If the appropriate WACC is 9 percent, what is the enterprise value of this business? What is the value of the equity if the value of the company’s debt equals $1.25 million?
+
+
+
+
+
+Free Cash Flow to Equity Approach
+The free cash flow to equity (FCFE) approach is very similar to the FCFF approach. However, instead of valuing the total cash flows the assets of the business are expected to generate, we value only the portion of the cash flows that are available for distribution to stockholders. To see how the FCFF and FCFE approaches are related, ask yourself the following question: If you wanted to value only the equity claims, how would you adjust the cash flows that are used in the FCFF approach? The answer is that you would simply strip out the cash flows to or from the people who lend money to the firm. Since the value of the firm equals the value of the debt plus the value of the equity, stripping out the cash flows to or from the lenders leaves the cash flows available to stockholders.
+
+free cash flow to equity (FCFE) approach an income approach to valuation in which all cash flows that are expected to be available for distribution to stockholders in the future are discounted to estimate the value of the equity
+
+Exhibit 18.6 shows how the cash flows in the FCFE approach are calculated. Notice that this calculation includes three cash flows that are not in the FCFF calculation. One is the interest expense, which is a cash flow to the lenders. The others are the cash flows associated with the repayment of debt principal and the proceeds from new debt issues. The FCFE approach takes the total after-tax free cash flows from the business and removes any cash flows to or from lenders, leaving the after-tax free cash flows available to the stockholders.
+
+EXHIBIT 18.6 The FCFE Calculation
+
+Free cash flow to equity (FCFE) equals free cash flow from the firm (FCFF) less any net cash outflows to debt holders. In the FCFE calculation, we subtract the interest and principal payments to the debt holders and add any proceeds from the sale of new debt.
+
+Explanation	Calculation	Formula
+The firm’s cash income		
+Adjustments for the impact of depreciation and amortization, investments on FCFF, and debt repayments and new issues
+Because cash flows available to stockholders are residual cash flows, they are riskier than the total cash flows from the firm (assuming the firm has some debt). In addition, unlike the cash flows in the FCFF approach, the cash flows here only go to the stockholders. Consequently, in using the FCFE valuation approach, the cost of equity (kE) is used to discount the cash flows:
+
+(18.4)
+Note that kE equals kcs if the firm has no preferred stock outstanding. Otherwise kE is a weighted average of kcs and kps. Other than the difference in the way that the cash flows are calculated, the procedure for estimating the value of a firm’s equity using the FCFE approach is the same as that used to estimate the total value of the firm using the FCFF approach.
+
+Dividend Discount Model Approach
+The dividend discount model (DDM) approach is very similar to the FCFE approach. In this approach, we estimate the value of equity directly by discounting cash flows to stockholders. However, there is a subtle difference. The DDM approach values the stream of cash flows that stockholders expect to receive through dividend payments. In contrast, the FCFE approach values cash flows that are available for distribution to stockholders. The firm may or may not be expected to distribute all available cash flows in any particular year.
+
+dividend discount model (DDM) approach an income approach to valuation in which all dividends that are expected to be distributed to stockholders in the future are discounted to estimate the value of the equity
+
+The constant-growth dividend model, Equation 9.4, is an example of a DDM:
+
+Notice that in this model the price of a share of common stock is computed by discounting future dividends.
+
+Since the constant-growth model assumes that the firm pays dividends and that these dividends will increase at a constant rate forever, this approach is really useful for only a limited number of mature firms that pay dividends. More often, use of the DDM approach involves discounting dividends that either will not begin until some point in the future or that are currently growing at a high rate that is not sustainable in the long run. In these cases, an approach such as that illustrated for the FCFF approach above must be used. The expected dividends must be individually discounted for some period, and then a terminal value must be estimated once the growth rate in dividends stabilizes at some level that is sustainable over the long run. This is the mixed (supernormal) growth dividend model from Chapter 9.
+
+Decision Making Example 18.2 illustrates the choice of an appropriate valuation approach or approaches.
+
+DECISION MAKING EXAMPLE 18.2
+Choosing an Appropriate Valuation Approach
+
+Situation
+
+You have decided to make an offer for the recreational vehicle manufacturing business that you evaluated in Learning by Doing Applications 18.1, 18.2, and 18.3. Your analysis yielded the following enterprise value estimates:
+
+Liquidation value	$8.45 million
+Value from multiples analysis	
+ P/E multiple	$18.35 million
+ Enterprise/EBITDA multiple	$24.70 million
+FCFF value	$24.58 million
+The seller of the company is asking for $18 million. Is this price reasonable?
+
+
+
+Before You Go On
+Why is it important to specify a valuation date when you value a business?
+What is the difference between investment value and fair market value?
+What are the two market approaches that can be used to value a business, and how do they differ?
+What is a nonoperating asset, and how are such assets accounted for in business valuation?
+What are three income approaches used to value a business?
+What is the difference between FCFE and dividends?
+
+You can learn more about business valuation and find a wide range of Excel templates that can be used to value businesses and their securities on the Web site maintained by Aswath Damodaran at pages.stern.nyu.edu/~adamodar
+
+18.4 Important Issues in Valuation
+LEARNING OBJECTIVE
+
+Explain how valuations can differ between public and private companies and between young and mature companies, and discuss the importance of control and key person considerations in valuation.
+We conclude the chapter by discussing some important issues in valuing businesses. Whether a business is public or private, whether it is young or old, and whether a minority interest or a controlling interest is involved can make a difference in valuation. In addition, we may have to take account of the role of key employees.
+
+Public versus Private Companies
+The same valuation approaches are used to value both public and private companies. However, there are some important differences, which we consider next.
+
+Financial Statements
+
+While financial statements of public companies must be audited and filed with the Securities and Exchange Commission, there is no requirement that the financial statements of private companies be audited. As a result, the completeness and reliability of financial statements for private companies vary considerably. Some private companies have complete, audited financial statements, whereas others have incomplete financial statements that are not prepared in accordance with the generally accepted accounting principles (GAAP) discussed in Chapter 3. Incomplete and unreliable financial statements can complicate the process of valuing a private business, making it more difficult to accurately assess its value.
+
+Financial statements of private companies also differ from those of public companies in some of the expense accounts. Owners of private businesses have incentives to pass some of their personal expenses through the business because this enables them to deduct the expenses from their taxes. Examples might include the owner’s car, “business” trips to Hawaii or Europe, the company condominium in New York, or the sky box at the local football stadium. While there may be legitimate reasons for a business to incur expenses such as these—for example, entertaining important customers in the sky box—there are often more such expenses in private companies.
+
+Owners of private companies can also have incentives to pay themselves more than it would cost to hire someone to do their job. If the income from the company is taxed before it is distributed to the owners (such as in a C-corporation), this excess compensation reduces the taxes that the company must pay. Compensation payments are deductible for the corporation and are therefore only taxed as income to the owner. If instead of paying themselves excess compensation, owners distributed the money as dividends, it would be taxed twice—once as income to the corporation and a second time as income to the owner. In addition to having incentives to pay themselves excess compensation, owners of private companies often put family members on the payroll at wages that are above what would ordinarily be paid for the services they provide. When valuing a private company, analysts typically adjust for excess compensation to the owner and family members by estimating what it would cost to hire other people to perform the services and, using this, change the actual expense reported in the income statement accordingly.
+
+Marketability
+
+In the discussion of multiples analysis, we mentioned that the prices paid for shares in a company whose stock is not publicly traded can be considerably less than the prices paid for publicly traded shares of a similar company. One reason is that stockholders of a public firm can generally sell their shares at close to their true value by simply going online or calling a broker and paying a small fee. In contrast, a stockholder in a private firm may have to spend considerable resources (both money and time) to sell his or her shares. An investor who is offered the opportunity to buy identical equity claims to the cash flows of a public and a private firm (that is, the cash flows have the same size, timing, and risk) will require different rates of return for the two investments. Because of the higher transaction costs associated with the stock of the private firm, the investor will not be willing to pay as much for that stock as for the publicly traded shares and will therefore expect a higher return. This must be taken into account in estimating the value of any claim to the cash flows of a firm. As we mentioned earlier, differences in marketability can result in discounts of 30 percent or more for shares of private companies. Where analysts are able to estimate the appropriate size of such a discount, they deduct the discount directly from the final value estimate that is obtained using the methods described in the preceding section.
+
+Young (Rapidly Growing) versus Mature Companies
+Another important issue that arises in business valuation concerns the fact that young, rapidly growing companies tend to be more difficult to value than mature, stable companies. Both entrepreneurs and investors in new businesses, such as venture capitalists, must deal with these difficulties when young companies seek financing. One factor that makes it more difficult to value a young company is that less reliable historical information is available. A company may have only two or three years of historical financial records, and those records may reflect the company at a different stage in its development.
+
+In addition, the future of a young, rapidly growing company is often less certain than that of a mature company because much of the young company’s future growth depends on investment, operating, and financing decisions that have not yet been made. This makes it much more complicated to identify appropriate comparable companies for a multiples or transactions analysis and more difficult to estimate expected cash flows for an income analysis.
+
+Furthermore, many young, rapidly growing companies are not yet profitable. With no profits, it is difficult to use earnings multiples to value the business, leaving price/revenue or Enterprise value/revenue multiples as the only viable alternatives for a multiples analysis. When analysts use these multiples, they are implicitly assuming that the business they are valuing will become as profitable (specifically, have the same profit margins) as the public companies that were used to estimate the multiples and that the risks of the business will also be similar. These can be very heroic assumptions when the company being valued is only a couple of years old.
+
+Finally, many young companies invest a considerable amount of money in order to grow. This can make it very difficult to use an income valuation approach. The cash flows will be negative until the business becomes profitable and its profits exceed its investment expenditures. Since it can take several years for this to happen, expected cash flows are typically negative for several years. This means that positive cash flows, which represent the value that the business is expected to produce for its owners, are further in the future and are therefore less certain. The bottom line is that this increases the overall level of uncertainty associated with an income-based valuation.
+
+Controlling Interest versus Minority Interest
+Another important issue that we must consider when we value a business is whether we are valuing a controlling ownership interest or a minority interest. The amount of stock required for an investor to exercise control varies depending on the ownership structure of the company. For example, a stockholder with just 20 percent, or possibly even less, of the total votes in a public company can effectively control that company if there are no other large stockholders. Even if there are other large stockholders, that investor can control the public company if friendly stockholders provide enough additional votes. In private companies, which tend to have relatively few stockholders, a stockholder must generally control 50 percent of the shares, either directly or indirectly through friendly stockholders, to control the firm. A stockholder who has such control can run the business as he or she wants. This stockholder can select the board of directors, choose the business strategy, hire and fire managers, and approve or disapprove any investment, operating, or financing decisions.
+
+Whether a controlling ownership interest is being valued has important implications for a valuation analysis. Recall that in the discussion of multiples analysis we noted that a multiples analysis does not reflect the value associated with being able to control a business. Thus, when we are using multiples computed using public stock market prices to estimate the value of a controlling interest, we must make adjustments to reflect the benefits of control. Similarly, when we use an income approach to value a business, the cash flow forecasts and discount rate assumptions we use will differ depending on whether we are valuing a minority or a controlling ownership interest.
+
+Let’s consider an example of how these differences arise when the income approach is used. Suppose we are valuing 100 shares of Hewlett-Packard (HP) stock. Since owning 100 shares of HP stock will not enable us to exercise any control, the expected cash flows that we should discount simply reflect the cash flows that we can expect HP to generate under its current management (assuming we know of no imminent management change). In contrast, if we are valuing a controlling interest in HP stock for a potential buyer, we would discount the cash flows that HP would be expected to generate if it were under the control of that buyer.
+
+It is also important to note that the market rates of return that we use to calculate the cost of equity with the Capital Asset Pricing Model (CAPM) discussed in Chapter 7 are based on small stock transactions. If having control would enable an investor to better manage the systematic risk associated with a business, a discount rate based on small transactions would be higher than a discount rate estimated from a transaction that involves a controlling position. Therefore, a discount rate estimated using public stock market information and CAPM might be too high for a valuation that involves a controlling position.
+
+Unfortunately, while the discount rate we estimate using CAPM might be too high when we value a controlling interest, the CAPM theory provides us with no insights concerning how we might adjust that rate. As a result, analysts typically adjust for the effects of an incorrect discount rate (as well as for any possible cash flows that are not reflected in an income-based valuation) by adding a control premium. For instance, if the value of a firm’s equity is estimated to be $100 million using an income approach, a 20 percent premium might be added to arrive at a final value of $120 million. Of course, the magnitude of the adjustment depends on the situation.
+
+control premium an adjustment that is made to a business value estimate to reflect value associated with control that is not already reflected in the analysis
+
+Key People
+If the cash flows that a business is expected to generate depend heavily on the retention of a particular individual or group of individuals, then the analyst must also consider whether it is appropriate to adjust the estimated value of the business for the likelihood that these “key people” may not remain with the firm as long as expected. An example of a key person might be the CEO of a service firm who has strong personal ties with the major customers. If an analyst believes that those customers might transfer their business to a competitor if the CEO departs, then a key person discount may be appropriate. The issue is similar to the one that arises when a firm receives a significant portion of its business from a small number of customers. In either case, it is difficult to forecast the cash flows for the firm.
+
+key person discount an adjustment to a business value estimate that is made to reflect the potential loss of value associated with the unexpected departure of a key person
+
+Before You Go On
+How might financial statements for private companies differ from those for public companies?
+Why is marketability an important issue in business valuation?
+What is a key person?
+Summary of Learning Objectives
+1 Explain why the choice of organizational form is important, and describe two financial considerations that are especially important in starting a business.
+
+The choice of organizational form is important because it affects the returns from a business in a number of ways. For example, it affects the cost of getting started, the life of the business, management’s ability to raise capital and grow the business, the control of the business, the ability to attract and retain good managers, the exposure of the investors to liability, and the taxes that are paid on the earnings of the business.
+
+Two especially important financial considerations are the pretax operating cash flow break-even point for the business and its overall cash inflows and outflows. The pretax operating cash flow break-even point represents the level of unit sales that must be achieved in order for the business to break even on a cash flow basis. Entrepreneurs must also understand where money is coming from, where it is going, and how much external financing is likely to be needed and when. The cash budget helps them address all of these issues.
+
+2 Describe the key components of a business plan, and explain what a business plan is used for.
+
+The key components of a business plan include the executive summary, a company overview, a description of the company’s products and services, a market analysis, a discussion of marketing and sales activities, a discussion of the business’s operations, a discussion of the management team, the ownership structure of the firm, capital requirements and uses, and financial forecasts.
+
+A business plan helps an entrepreneur set the goals and objectives for a company, serves as a benchmark for evaluating and controlling the company’s performance, and helps communicate the entrepreneur’s ideas to managers and others (including investors) outside the firm.
+
+3 Explain the three general approaches to valuation, and value a business using common business valuation approaches.
+
+The three general valuation approaches are (1) cost approaches, (2) market approaches, and (3) income approaches. Cost approaches commonly used in business valuation are the replacement cost and adjusted book value approaches. The market approaches are multiples analysis and transactions analysis. Three key income approaches are the free cash flow from the firm, free cash flow to equity, and dividend discount approaches. The application of these approaches is discussed in Section 18.3.
+
+4 Explain how valuations can differ between public and private companies and between young and mature companies, and discuss the importance of control and key person considerations in valuation.
+
+Valuations differ between public and private companies for a number of reasons, including (1) the quality of the financial statements and (2) the marketability of the securities being valued. Young, rapidly growing companies are more difficult to value than mature companies because there is less reliable historical information about them, and their futures tend to be less certain. Marketability is important because it affects the price that investors are willing to pay for a security. The less marketable a security, the lower the price investors are willing to pay.
+
+Control is an important consideration in business valuation because having control of a business provides an investor with more flexibility in managing the business. Investors value this flexibility and will therefore pay more for a controlling interest in a company.
+
+If the cash flows that a business is expected to generate depend heavily on certain employees, those employees are key people. When valuing a business, an analyst must account for the possibility that the key people will unexpectedly leave the company and must consider the associated impact on the company’s cash flows.
+
+Summary of Key Equations
+Equation	Description	Formula
+18.1	Price/earnings multiple based on constant-growth model	
+18.2	Implementing the income approach to business valuation	VF = PV (FCFT) + PV (TVT) + NOA
+18.3	FCFF approach	
+18.4	FCFE approach	
+Self-Study Problems
+18.1 Your sister wants to open a store that sells antique-style jewelry and accessories. She has $15,000 of savings to invest, but opening the store will require an initial investment of $20,000. Net cash inflows are expected to be −$2,000, −$1,000, and $0 in the first three months. It is expected that, as the store becomes better known, net cash inflows will become +$500 in the fourth month and grow at a constant rate of 5 percent in the following months. You want to help your sister by providing the additional money that she needs. How much money will you have to invest each month to start the store and keep it operating with a minimum cash balance of $1,000?
+
+
+
+18.2 You have the following information for a company you are valuing and for a comparable company:
+
+Comparable company	Company you are valuing
+Stock price = $23.45	Value of debt = $3.68 million
+Number of shares outstanding = 6.23 million	Est. EBITDA next year = $4.4 million
+Value of debt = $18.45 million	Est. income next year =
+Est. EBITDA next year = $17.0 million	$1.5 million
+Est. income next year = $5.3 million	
+Estimate the enterprise value of the company you are evaluating using the P/E and Enterprise value/EBITDA multiples.
+
+ 
+
+18.3 How do the cash flows that are discounted when the WACC approach (FCFF approach) is used to value a business differ from those that are discounted when the free cash flow to equity (FCFE) approach is used to value the equity in a business?
+
+
+
+18.4 You are valuing a company using the WACC approach and have estimated that the free cash flows from the firm (FCFF) in the next five years will be $36.7, $42.6, $45.1, $46.3, and $46.6 million, respectively. Beginning in Year 6, you expect the cash flows to decrease at a rate of 3 percent per year for the indefinite future. You estimate that the appropriate WACC to use in discounting these cash flows is 10 percent. What is the value of this company?
+
+
+
+18.5 You want to estimate the value of a local advertising firm. The earnings of the firm are expected to be $2 million next year. Based on expected earnings next year, the average price-to-earnings ratio of similar firms in the same industry is 48. Therefore, you estimate the value of the firm you are valuing to be $96 million.
+
+Further investigation shows that a large portion of the firm’s business is obtained through connections that John Smith, a senior partner of the firm, has with various advertising executives at customer firms. Smith only recently started working with his junior partners to establish similar relationships with these customers.
+
+Smith is approaching 65 years of age and might announce his retirement at the next board meeting. If he does retire, revenues will drop significantly, and earnings are estimated to shrink by 30 percent. You estimate that the probability that Smith will retire this year is 50 percent. If he does not retire this year, you expect that he will have sufficient time to work with his junior partners so that his departure will not affect earnings when he departs. How does this information affect your estimate of the value of the firm?
+
+ 
+
+Discussion Questions
+18.1 Given that many new businesses fail in the first few years after they are established, how should an entrepreneur think about the risk of failure associated with a new business? From what you have learned in this chapter, what can an entrepreneur do to increase the chance of success?
+
+18.2 Explain how the taxation of a C-corporation differs from the taxation of the other forms of business organization discussed in this chapter.
+
+18.3 What is a business plan? Explain how a business plan can help an entrepreneur succeed in building a business.
+
+18.4 You are entering negotiations to purchase a business and are trying to formulate a negotiating strategy. You want to determine the minimum price you should offer and the maximum you should be willing to pay. Explain how the concepts of fair market value and investment value can help you do this.
+
+18.5 You have just received a business valuation report that is dated six months ago. Describe the factors that might have changed during the past six months and thereby caused the value of the business today to be different from the value six months ago. Which of these changes affect the expected cash flows, and which affect the discount rate that you would use in a discounted cash flow valuation of this company?
+
+18.6 Is the replacement cost of a business generally related to the value of the cash flows that the business is expected to produce in the future? Why or why not? Illustrate your answer with an example.
+
+18.7 You want to estimate the value of a company that has three very different lines of business. It manufactures aircraft, is in the data processing business, and manufactures automobiles. How could you use an income approach to value a company such as this—one with three very distinct businesses that will have different revenue growth rates, profit margins, investment requirements, discount rates, and so forth?
+
+18.8 Your boss has asked you to estimate the intrinsic value of the equity for Netflix, which does not currently pay any dividends. You are going to use an income approach and are trying to choose between the free cash flow to equity (FCFE) approach and the dividend discount model (DDM) approach. Which would be more appropriate in this instance? Why? What concerns would you have in applying either of these valuation approaches to a company such as this?
+
+18.9 Explain how the financial statements of a private company might differ from those of a public company. What does this imply for valuing a private company?
+
+18.10 Explain why it is difficult to value a young, rapidly growing company.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+18.1 Organizational form: List some common forms of business organization, and discuss how access to capital differs across these forms of organization.
+
+18.2 Starting a business: What are some of the things that the founder of a company must do to launch a new business?
+
+18.3 Organizational form: Explain how financial liabilities differ among different forms of business organization.
+
+18.4 Cash requirements: List two useful tools to help an entrepreneur to understand the cash requirements of a business and to estimate the financing needs of that business.
+
+18.5 Cash requirements: You believe you have a great business idea and want to start your own company. However, you do not have enough savings to finance it. Where can you get the additional funds you need?
+
+18.6 Raising capital: Why is it especially difficult for an entrepreneur with a new business to raise capital? What tool can help him or her to raise external capital?
+
+18.7 Replacement cost: What is the replacement cost of a business?
+
+18.8 Multiples analysis: It is April 7, 2021, and your company is considering the possibility of purchasing the Chrysler automobile manufacturing business. Managers of Fiat Chrysler Automobiles N.V., the automobile manufacturer that owns Chrysler, have hinted that they might be interested in selling Chrysler. Since Chrysler does not have publicly traded shares of its own, you have decided to use Ford Motor Company as a comparable company to help you determine the market value of Chrysler.
+
+This morning, Ford’s common stock was trading at $11.75 per share, and the company had 3.9 billion shares outstanding. You estimated that the market value of all of the company’s other outstanding securities (excluding the common stock but including special shares owned by the Ford family) is $35 billion and that its revenues from auto sales were $155 billion last year. Chrysler’s revenue in 2020 was $50 billion. Based on the Enterprise value/revenue ratio, what is the total value of Chrysler that is implied by the Ford market values?
+
+18.9 Nonoperating assets: Why is excess cash a nonoperating asset (NOA)? Why does it make sense to add the value of excess cash to the value of the discounted cash flows when we use the WACC (FCFF) or FCFE approach to value a business?
+
+18.10 Dividend discount approach: You want to estimate the total intrinsic value of a large gas and electric utility company. This company has publicly traded stock and has been paying a regular dividend for many years. You decide that, due to the predictability of the dividend that this company pays, you can use the dividend discount valuation approach. The company is expected to pay a dividend of $1.25 per share next year, and the dividend is expected to grow at a rate of 3 percent per year thereafter. You estimate that the appropriate rate for discounting future dividends is 12 percent. In addition, you know that the company has 46 million shares outstanding and that the market value of its debt is $350 million. What is the total enterprise value of the company?
+
+18.11 Public versus private company valuation: You are considering investing in a private company that is owned by a friend of yours. You have read through the company’s financial statements and believe that they are reliable. Multiples of similar publicly traded companies in the same industry suggest that the value of a share of stock in your friend’s company is $12. Should you be willing to pay $12 per share?
+
+18.12 Control: Does the expected rate of return that is calculated using CAPM, with a beta estimated from stock returns in the public market, reflect a minority or a controlling ownership position? How is it likely to differ between a minority and a controlling position?
+
+Intermediate
+18.13 Organizational form: Compare the characteristics of an LLC with those of a partnership and a C-corporation.
+
+18.14 Organizational form: Discuss the pros and cons of an S-corporation compared with a C-corporation.
+
+18.15 Break-even point: You have started a business that sells a home gardening system that allows people to grow vegetables on their kitchen countertop. You are considering two options for marketing your product. The first is to advertise on local TV. The second is to distribute flyers in the local community. The TV option, which costs $50,000 annually, will promote the product more effectively and create a demand for 1,200 units per year. The flyer advertisement option costs only $6,000 annually, but will create a demand for only 250 units per year. The price per unit of the indoor gardening system is $100, and the variable cost is $60 per unit. Assume that the production capacity is not limited and that the marketing cost is the only fixed cost involved in your business. What are the break-even points for both marketing options? Which one should you choose?
+
+18.16 Going-concern value: Aggie Motors is a chain of used car dealerships that has publicly traded stock. Using the adjusted book value approach, you have estimated the value of Aggie Motors to be $45,646,000. The company has $40.5 million of debt outstanding. Its stock price is $5.50 per share, and there are 1,378,000 shares outstanding. What is the going-concern value of Aggie Motors?
+
+Use the following information concerning Johnson Machine Tool Company in Problems 18.17, 18.18, and 18.19.
+
+Johnson’s income statement from the fiscal year that ended this past December is:
+
+Revenue	$995
+Cost of goods sold	  652
+Gross profit	$343
+Selling, general, and administrative expenses	  135
+Operating profit (EBIT)	$208
+Interest expense	    48
+Earnings before taxes	$160
+Taxes	    64
+Net income	$ 96
+All dollar values are in millions. Depreciation and amortization expenses last year were $42 million, and the company has $533 million of debt outstanding.
+
+18.17 Multiples analysis: You are an analyst at a private equity firm that buys private companies, improves their operating performance, and sells them for a profit. Your boss has asked you to estimate the fair market value of the Johnson Machine Tool Company. Billy’s Tools is a public company with business operations that are virtually identical to those at Johnson. The most recent income statement for Billy’s Tools is as follows:
+
+Revenue	$1,764
+Cost of goods sold	 1,168
+Gross profit	$ 596
+Selling, general, and administrative expenses	    211
+Operating profit (EBIT)	$ 385
+Interest expense	    12
+Earnings before taxes	$ 373
+Taxes	    147
+Net income	$ 226
+All dollar values are in millions. Billy’s had depreciation and amortization expenses of $71 million last year and had 200 million shares and $600 million of debt outstanding as of the end of the year. Its stock is currently trading at $12.25 per share.
+
+Using the P/E multiple, what is the per share value of Johnson’s stock? What is the total value of Johnson Machine Tool Company?
+
+18.18 Multiples analysis: Using the Enterprise value/EBITDA multiple, what is the total value of Johnson Machine Tool Company? What is the per share value of Johnson’s stock?
+
+18.19 Multiples analysis: Which of the above multiples analyses do you believe is more accurate for valuing the firm and its stock?
+
+18.20 Income approaches: You are using the FCFF approach to value a business. You have estimated that the FCFF for next year will be $123.65 million and that it will increase at a rate of 8 percent for each of the following four years. After that point, the FCFF will increase at a rate of 3 percent forever. If the WACC for this firm is 10 percent and it has no NOA, what is it worth?
+
+18.21 Valuing a private business: You want to estimate the value of a privately owned restaurant that is financed entirely with equity. Its most recent income statement is as follows:
+
+Revenue	$ 3,000,000
+Cost of goods sold	      600,000
+Gross profit	$ 2,400,000
+Salaries and wages	    1,400,000
+Selling expenses	       100,000
+Operating profit (EBIT)	$  900,000
+Taxes	       315,000
+Net income	$   585,000
+You note that the profitability of this restaurant is significantly lower than that of comparable restaurants, primarily due to high salary and wage expenses. Further investigation reveals that the annual salaries for the owner and his wife, the firm’s accountant, are $900,000 and $300,000, respectively. These salaries are much higher than the industry median salaries for these two positions of $100,000 and $50,000, respectively. Compensation for other employees ($200,000 in total) appears to be consistent with the market rates. The median P/E ratio of comparable restaurants with no debt is 10. What is the total value of this restaurant?
+
+18.22 Valuing a private business: A few years ago, a friend of yours started a small business that develops gaming software. The company is doing well and is valued at $1.5 million based on multiples for comparable public companies after adjustments for their lack of marketability. With 300,000 shares outstanding, each share is estimated to be worth $5. Your friend, who has been serving as CEO and CTO (chief technology officer), has decided that he lacks sufficient managerial skills to continue to build the company. He wants to sell his 160,000 shares and invest the money in an MBA education. You believe you have the appropriate managerial skills to run the company. Would you pay $5 each for these shares? What are some of the factors you should consider in making this decision?
+
+Advanced
+18.23 You plan to start a business that sells waterproof sun block with a unique formula that reduces the damage of UVA radiation 30 percent more effectively than similar products on the market.
+
+You expect to invest $50,000 in plant and equipment to begin the business. The targeted price of the sun block is $15 per bottle. You forecast that unit sales will total 1,500 bottles in the first month and will increase by 20 percent in each of the following months during the first year. You expect the cost of raw materials to be $3 per bottle. In addition, monthly gross wages and payroll are expected to be $13,000, rent is expected to be $3,000, and other expenses are expected to total $1,000. Advertising costs are estimated to be $35,000 in the first month, but to remain constant at $5,000 per month during the following eleven months.
+
+You have decided to finance the entire business at one time using your own savings. Is an initial investment of $75,000 adequate to avoid a negative cash balance in any given month? If not, how much more do you need to invest up front? How much do you need to invest up front to keep a minimum cash balance of $5,000? What is the break-even point for the business?
+
+18.24 For the previous question, assume that you do not have sufficient savings to cover the entire amount required to start your sun-block business. You are going to have to get external financing. A local banker whom you know has offered you a six-month loan of $20,000 at an APR of 12 percent. You will pay interest each month and repay the entire principal at the end of six months.
+
+Assume that instead of making a single up-front investment, you are going to finance the business by making monthly investments as cash is needed in the business. If the proceeds from the loan go directly into the business on the first day and are therefore available to pay for some of the capital expenditures, how much money will you need to take from your savings account every month to run the business and keep the cash balances positive?
+
+18.25 Your friend is starting a new company. He wants to write a business plan to clarify the company’s business outlook and raise venture capital. Knowing that you have taken this course, he has asked you, as a favor, to help him prepare a template for a business plan. Prepare a template that includes the key elements of a business plan.
+
+18.26 A friend of yours is trying to value the equity of a company and, knowing that you have read this book, has asked for your help. So far she has tried to use the FCFE approach. She estimated the cash flows to equity to be as follows:
+
+Sales	$ 800.0
+− CGS	−450.0
+− Depreciation	  −80.0
+− Interest	  −24.0
+Earning before taxes (EBT)	$ 246.0
+− Taxes (0.35 × EBT)	  −86.1
+= Cash flow to equity	$ 159.9
+She also computed the cost of equity using CAPM as follows:
+
+where the beta is estimated for a comparable publicly traded company.
+
+Using this cost of equity, she estimates the discount rate as
+
+Based on this analysis, she concludes that the value of the equity is $159.9 million/0.14 = $1,142 million.
+
+Assuming that the numbers used in this analysis are all correct, what advice would you give your friend regarding her analysis?
+
+18.27 Forever Youth Technology is a biochemical company that is two years old. Its main product, an antioxidant drink that is supposed to energize the consumer and delay aging, is still under development. The company’s equity consists of $5 million invested by its founders and $5 million from a venture capitalist. The company has spent $3 million in each of the past two years, mostly on lab equipment and R&D costs. The company has had no sales so far. What are the challenges associated with valuing such a young and uncertain company?
+
+18.28 Mad Rock Inc. is a company that sells music online. It is expected to generate earnings of $1 per share this year after its Web site is upgraded and online marketing is stepped up. The stock price of Mad Rock has rocketed from $8 to $95 per share in the past 12 months. The cost of capital for the company is 18 percent.
+
+Of course, the future of a young Internet company such as Mad Rock is highly uncertain. Nevertheless, using the very limited information provided in this problem, do you think $95 per share could be a fair price for its stock? Support your argument with a simple analysis.
+
+18.29 At the end of 2020, the value of the S&P 500 Index divided by the estimated 2020 earnings for S&P 500 firms (the S&P 500 P/E multiple) was 36.80. Assume that the long-term Treasury bond yield was 1.88 percent, the market risk premium was 6 percent, and firms in the S&P 500 were expected to pay out an average of 40.2 percent of their earnings as dividends in the future. At what rate were dividends paid by S&P 500 firms expected to grow in the future?
+
+18.30 The S&P 500 P/E multiple of 36.80 at the end of 2020 was higher than its historical average of approximately 16. Some financial commentators argued that this meant that the firms in the S&P 500 were, on average, overvalued at the end of 2020. Based on your analysis in Problem 18.29 and the concepts covered in this book, do you think that these commentators are right or wrong? Explain your answer?
+
+18.31 You own a company that produces and distributes online course packets for classes at local universities. You have asked a friend to invest $35,000 in the business. Your friend wants to know what the business is worth so that he can determine how much of the equity (e.g., what percentage) he should expect to receive for his investment. You offer to help him value the business.
+
+The business is expected to generate revenue of $110,000 and incur cash operating expenses of $70,000 next year. Over the following three years, revenue and cash operating expenses are expected to increase 15 percent, 10 percent, and 7 percent. After Year 4, they are expected to grow 2 percent per year forever. Depreciation and amortization, capital expenditures, and additions to working capital are expected to equal 5 percent, 6 percent, and 1 percent of revenue, respectively, in the future. You have determined that a target capital structure of 10 percent debt and 90 percent equity is reasonable for this business. With this capital structure, the pretax cost of debt will be 6 percent and the beta for the equity will be 1.30. The average tax rate for the business is 10 percent, and the marginal rate is 20 percent. The risk-free rate is 4.25 percent, and the market risk premium is 6.01 percent. What is a 100 percent equity interest in the business worth? What percentage of the equity should your friend get for his investment?
+
+Sample Test Problems
+18.1 You plan to start a business to produce and sell custom kitchen cabinets. The targeted price for each order of cabinets is $10,000. You estimate that you will receive orders for cabinets for eight kitchens in each of the first two months, nine kitchens in the third month, and ten kitchens in the fourth month. The cost of the equipment necessary to produce the cabinets is $105,000. You expect the cost of raw materials to be $3,000 per order. In addition, you expect monthly gross wages and payroll to be $27,000, rent to be $8,000, and other expenses to total $4,000. You also expect advertising costs to be $10,000 in the first month but to remain constant at $1,000 per month during the following three months. How much will you have to initially invest to ensure that you have a cash balance of $10,000 at the beginning of the second month? If you invest this amount, what will be your cash balance at the end of the fourth month?
+
+18.2 Which of the following is/are usually included in an entrepreneur’s business plan?
+
+Detailed description of the company’s products and services.
+Discussion of the management team, including organizational structure.
+A listing of the types of securities that have been issued and who owns them.
+A market analysis.
+All of the above are typically included in a business plan.
+18.3 Sessler Corporation is a private company that had EBIT of $186 million and depreciation and amortization of $22 million in the most recent fiscal year. At the end of that year, a similar, public firm has an Enterprise value/EBITDA multiple of 4.3. What is the implied enterprise value of Sessler?
+
+18.4 Winters Inc. management estimates that the company will generate after-tax free cash flows from the firm (FCFF) of $12.5 million, $16.8 million, and $19.7 million, respectively, over the next three years. After that, FCFF are expected to grow at a constant 5 percent per year forever. The company has $5 million in nonoperating assets. If the appropriate WACC is 8 percent, what is the enterprise value of this business?
+
+18.5 Do private companies have audited financial statements prepared in accordance with GAAP?
+
+Notes
+1 The owners of an LLC can elect for the LLC to be taxed as a C-corporation.
+2 The actual result of the calculation shown here is −$4,456, rather than −$4,457. The $1 difference is due to rounding. The interest expense is actually $333.33 [(0.08/12) × $50,000 = $333.33], and the beginning cash balance is $6,096.67, which yields −$4,456.66.
+3 Marketability discounts are also sometimes called discounts for lack of marketability or liquidity discounts.
+4 This is not strictly true for most firms because it assumes that the stock price can be estimated using a constant-growth perpetuity model, and most firms either do not pay dividends at all or do not increase dividends at a constant rate. Nevertheless, this model does provide a useful way of thinking about P/E multiples.
+5 Enterprise value is typically defined as: Market value of common stock + Market value of preferred stock + Market value of debt − Excess cash and cash equivalents (also referred to as short-term investments or marketable securities).

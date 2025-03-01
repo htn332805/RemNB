@@ -1,0 +1,1029 @@
+page 21-1
+
+PART 6
+
+Mortgage-Backed Securities
+
+
+
+“Our houses are such unwieldy property that we are often imprisoned rather than housed in them.”
+
+–Henry David Thoreau
+
+Learning Objectives
+
+Before you mortgage your future, you should know:
+
+The workings of a fixed-rate mortgage.
+
+The government’s role in the secondary market for home mortgages.
+
+The impact of mortgage prepayments.
+
+How collateralized mortgage obligations are created and divided.
+
+Will Rogers wryly advised buying real estate because “they wasn’t making any more.” Almost all real estate purchases are financed by mortgages. Indeed, most of us become familiar with mortgages by financing the purchase of a home. But did you ever stop to think about what happens to a mortgage after it is originated? Today, mortgages are usually pooled to create mortgage-backed securities. The basic concept is simple. Collect a portfolio of mortgages into a mortgage pool. Then issue securities with pro rata claims on mortgage pool cash flows. These mortgage-backed securities are attractive to investors because they represent a claim on a diversified portfolio of mortgages and, therefore, are considerably less risky than individual mortgage contracts.
+
+Mortgage financing makes home ownership possible for almost everyone. With mortgage financing, a home buyer makes only a down payment and borrows the remaining cost of a home with a mortgage loan. The mortgage loan is obtained from a mortgage originator, usually a local bank or a mortgage broker. Describing this financial transaction, we can say that a home buyer issues a mortgage and an originator writes a mortgage. A mortgage loan distinguishes itself from other loan contracts by a pledge of real estate as collateral for the loan. In this chapter, we carefully examine the investment characteristics of mortgage pools.
+
+CFATM Exam Topics in This Chapter:
+
+The time value of money (L1, S2)
+
+Introduction to asset-backed securities (L1, S15)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 21-2
+
+21.1 A Brief History of Mortgage-Backed Securities
+Traditionally, savings banks and savings and loans (S&Ls) wrote most home mortgages and then held the mortgages in their portfolios of interest-earning assets. This changed radically during the 1970s and 1980s when market interest rates ascended to their highest levels in American history. Entering this financially turbulent period, savings banks and S&Ls held large portfolios of mortgages written at low pre-1970s interest rates. These portfolios were financed from customers’ savings deposits. When market interest rates climbed to near 20 percent levels in the early 1980s, customers flocked to withdraw funds from their savings deposits to invest in money market funds that paid higher interest rates. As a result, savings institutions were often forced to sell mortgages at depressed prices to satisfy the onslaught of deposit withdrawals. For this, and other reasons, the ultimate result was the collapse of many savings institutions.
+
+Visit
+investinginbonds.com
+for more information on mortgage-backed securities.
+
+Today, home buyers generally turn to local banks for mortgage financing, but few mortgages are actually held by the banks that originate them. After writing a mortgage, an originator usually sells the mortgage to a mortgage repackager, who accumulates them into mortgage pools. To finance the creation of a mortgage pool, the mortgage repackager issues mortgage-backed bonds, where each bond claims a pro rata share of all cash flows derived from mortgages in the pool. A pro rata share allocation pays cash flows in proportion to a bond’s face value. Essentially, each mortgage pool is set up as a trust fund, and a servicing agent for the pool collects all mortgage payments. The servicing agent then passes these cash flows through to bondholders. For this reason, mortgage-backed bonds are often called mortgage passthroughs, or passthroughs. However, all securities representing claims on mortgage pools are generically called mortgage-backed securities (MBSs). The primary collateral for all mortgage-backed securities is the underlying pool of mortgages.
+
+mortgage passthroughs
+
+Bonds representing a claim on the cash flows of an underlying mortgage pool passed through to bondholders.
+
+mortgage-backed securities (MBSs)
+
+Securities whose investment returns are based on a pool of mortgages.
+
+The transformation from mortgages to mortgage-backed securities is called mortgage securitization. As of March 2019, there were almost $9.8 trillion of outstanding mortgages securitized in mortgage pools. This amount represents tremendous growth in the mortgage securitization business. In the early 1980s, less than $1 billion of home mortgages were securitized in pools. Yet despite the multitrillion-dollar size of the mortgage-backed securities market, the risks involved with these investments are often misunderstood even by experienced investors.
+
+mortgage securitization
+
+The creation of mortgage-backed securities from a pool of mortgages.
+
+21.2 Fixed-Rate Mortgages
+Understanding mortgage-backed securities begins with an understanding of the mortgages from which they are created. Most home mortgages are 15-year- or 30-year-maturity fixed-rate mortgages requiring constant monthly payments. Even though the monthly payment amount is constant, the principal and interest division of these payments changes each month.
+
+fixed-rate mortgage
+
+Loan that specifies constant monthly payments at a fixed interest rate over the life of the mortgage.
+
+As an example of a fixed-rate mortgage, consider a 30-year mortgage representing a loan of $100,000 financed at an annual interest rate of 8 percent. This annual interest rate translates into a monthly interest rate of 8 percent/12 months = .67% per month. The 30-year mortgage requires 360 monthly payments. The size of the monthly payment is determined by the requirement that the present value of all monthly payments, based on the financing rate specified in the mortgage contract, be equal to the original loan amount of $100,000. The monthly payment for a fixed-rate mortgage is calculated using the following formula:
+
+
+
+page 21-3
+
+In the example of a $100,000, 30-year mortgage financed at 8 percent, the monthly payment is $733.76. That is, using Equation 21.1:
+
+
+Monthly payments for fixed-rate mortgages are very sensitive to interest rates and number of years in the loan. Table 21.1 provides monthly payments required for 5-year, 10-year, 15-year, 20-year, and 30-year mortgages based on annual interest rates ranging from 5 percent to 15 percent in increments of .5 percent. Notice that monthly payments required for a $100,000, 30-year mortgage financed at 5 percent are only $536.82, while monthly payments for the same mortgage financed at 12 percent are $1,028.61.
+
+$100,000 Mortgage Loan Monthly Payments
+
+TABLE 21.1
+
+
+Source: Author calculations.
+
+Calculating Monthly Mortgage Payments
+
+EXAMPLE 21.1
+
+What is the monthly payment for a 15-year, $100,000 mortgage loan financed at 8 percent interest?
+
+A 15-year mortgage specifies 180 monthly payments. Using the monthly payment formula, we get a monthly payment of about $955.65, as follows:
+
+
+If you wish to calculate mortgage payments for other interest rates, maturities, and loan amounts, we suggest using a built-in spreadsheet function. For example, the Spreadsheet Analysis box contains an example mortgage payment calculation using an Excel spreadsheet.
+
+CHECK THIS
+
+
+
+21.2aThe most popular fixed-rate mortgages among home buyers are those with 15-year and 30-year maturities. What might be some of the comparative advantages and disadvantages of these two mortgage maturities?
+
+21.2bSuppose you were to finance a home purchase using a fixed-rate mortgage. Would you prefer a 15-year- or 30-year-maturity mortgage? Why?
+
+FIXED-RATE MORTGAGE AMORTIZATION
+Each monthly mortgage payment has two parts. The first part is the interest payment on the outstanding mortgage principal. Outstanding mortgage principal is also called a mortgage’s remaining balance or remaining principal. It is the amount required to pay off a mortgage before it matures. The second part is the pay-down, or amortization, of mortgage principal. The relative amounts of each part change throughout the life of a mortgage. For example, a 30-year, $100,000 mortgage financed at 8 percent requires 360 monthly payments of $733.76 (rounded). The first monthly payment consists of a $666.67 payment of interest and a $67.09 pay-down of principal. The first month’s interest payment, representing one month’s interest on a mortgage balance of $100,000, is calculated as:
+
+
+mortgage principal
+
+The amount of a mortgage loan outstanding, which is the amount required to pay off the mortgage.
+
+After rounding this payment of interest, the remainder of the first monthly payment, that is, $733.76 – $666.67 = $67.09, is used to amortize outstanding mortgage principal. Thus, after the first monthly payment, outstanding principal is reduced to $100,000 – $67.09 = $99,932.91.
+
+page 21-4
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+page 21-5
+
+The second monthly payment includes a $666.22 payment of interest, calculated as:
+
+
+The remainder of the second monthly payment, that is, $733.76 − $666.22 = $67.54, is used to reduce mortgage principal to $99,932.91 − $67.54 = $99,865.37.
+
+This process continues throughout the life of the mortgage. The interest payment component gradually declines, and the payment of principal component gradually increases. Finally, the last monthly payment is divided into a $4.86 payment of interest and a final $728.91 pay-down of mortgage principal. The process of paying down mortgage principal over the life of a mortgage is called mortgage amortization.
+
+mortgage amortization
+
+The process of paying down mortgage principal over the life of the mortgage.
+
+Mortgage amortization is described by an amortization schedule. An amortization schedule states the remaining principal owed on a mortgage at any time and also states the scheduled principal payment and interest payment in any month. Amortization schedules for 15-year and 30-year, $100,000 mortgages financed at a fixed rate of 8 percent are listed in Table 21.2. The payment month is given in the left-hand column. Then, for each maturity, the second column reports remaining mortgage principal immediately after a monthly payment is made. The third and fourth columns for each maturity list the principal payment and the interest payment scheduled for each monthly payment. Notice that immediately after the 180th monthly payment for a 30-year, $100,000 mortgage, $76,781.56 of mortgage principal is still outstanding. Notice also that as late as the 252nd monthly payment, the interest payment component of $378.12 still exceeds the principal payment component of $355.65.
+
+$100,000 Mortgage Loan Amortization Schedules for 15-Year and 30-Year Mortgages
+
+TABLE 21.2
+
+
+Source: Author calculations.
+
+The amortization process for a 30-year, $100,000 mortgage financed at 8 percent interest is illustrated graphically in Figure 21.1. Figure 21.1A graphs the outstanding mortgage principal over the life of the mortgage. Figure 21.1B graphs the rising principal payment component and the falling interest payment component of the mortgage.
+
+Mortgage Principal and Payment Components for a $100,000, 30-Year Mortgage with an 8 Percent Interest Rate
+
+FIGURE 21.1
+
+
+Mortgage Amortization
+
+EXAMPLE 21.2
+
+After five years of payments on a mortgage loan financed at 8 percent, what are the remaining balance and interest and principal reduction components of the monthly payment?
+
+For the 30-year mortgage, referring to Table 21.1, we see that the monthly payment is $733.76. Referring to the 60th monthly payment in Table 21.2, we find that the remaining balance on the mortgage is $95,069.86. Principal reduction for this payment is $99.30, and the interest payment is $634.46.
+
+For the 15-year mortgage, the monthly payment is $955.65, and after the 60th monthly payment, the remaining balance is $78,766.26, with a principal reduction of $427.69 and interest payment of $527.96. One of our Spreadsheet Analysis boxes shows how to use Excel to calculate monthly payments for a 30-year and a 15-year mortgage.
+
+If you wish to calculate interest and principal reduction components for other interest rates, maturities, and loan amounts, we suggest using built-in spreadsheet functions. Another Spreadsheet Analysis box shows how to obtain the interest and principal reduction components for any given month in a mortgage. This Spreadsheet Analysis box also shows how to obtain the remaining balance for a mortgage.
+
+FIXED-RATE MORTGAGE PREPAYMENT AND REFINANCING
+A mortgage borrower has the right to pay off an outstanding mortgage at any time. This right is similar to the call feature on corporate bonds, whereby the issuer can buy back outstanding bonds at a prespecified call price. Paying off a mortgage ahead of its amortization schedule is called mortgage prepayment.
+
+mortgage prepayment
+
+Paying off all or part of outstanding mortgage principal ahead of its amortization schedule.
+
+Prepayment can be motivated by a variety of factors. A homeowner may pay off a mortgage in order to sell the property when a family moves because of, say, new employment or retirement. After the death of a spouse, a surviving family member may pay off a mortgage with an insurance benefit. These are examples of mortgage prepayment for personal reasons. However, mortgage prepayments often occur for a purely financial reason: an existing mortgage loan may be refinanced at a lower interest rate when a lower rate becomes available.
+
+page 21-6
+
+Consider a 30-year, $100,000 fixed-rate 8 percent mortgage with a monthly payment of $733.76. Suppose that, 10 years into the mortgage, market interest rates have fallen, and the financing rate on new 20-year mortgages is 6.5 percent. After 10 years (120 months), the remaining balance for the original $100,000 mortgage is $87,724.70. The monthly payment on a new 20-year, $90,000 fixed-rate 6.5 percent mortgage is $671.02, which is $62.74 less than the $733.76 monthly payment on the existing 8 percent mortgage with 20 years of payments remaining. Thus, a homeowner could profit by prepaying the original 8 percent mortgage and refinancing with a new 20-year, 6.5 percent mortgage. Monthly payments would be lower by $62.74, and the $2,275.30 difference between the new $90,000 mortgage balance and the old $87,724.70 mortgage balance would defray any refinancing costs. As this example suggests, during periods of falling interest rates, mortgage refinancings are an important reason for mortgage prepayments.
+
+The possibility of prepayment and refinancing is an advantage to mortgage borrowers but a disadvantage to mortgage investors. For example, consider investors who supply funds to write mortgages at a financing rate of 8 percent. Suppose that mortgage interest rates later page 21-7fall to 6.5 percent and, consequently, homeowners rush to prepay their 8 percent mortgages so as to refinance at 6.5 percent. Mortgage investors recover their outstanding investment principal from the prepayments, but the rate of return that they can realize on a new investment is reduced because mortgages can now be written only at the new 6.5 percent financing rate. The possibility that falling interest rates will set off a wave of mortgage refinancings is an ever-present risk that mortgage investors must face.
+
+Learn more about reverse mortgages by searching
+aarp.org/money/.
+
+REVERSE MORTGAGES In a standard mortgage deal, lenders provide a lump sum of money to borrowers. Borrowers then use this money to purchase a home. To repay the loan, borrowers make monthly mortgage payments. In a “reverse” mortgage deal, borrowers (with home equity) receive monthly payments from a lender.
+
+Borrowers generally do not have to repay money received from a reverse mortgage as long as they live in their homes. But the loan becomes due if the borrowers die, sell their home, or move to another principal residence. Borrowers qualify for most reverse mortgages if they are at least 62 years old and live in their home.
+
+The amount of money borrowed in a reverse mortgage depends on factors such as:
+
+The age of the borrowers.
+
+The type of reverse mortgage.
+
+The appraised value and location of the home.
+
+In general, the older the borrower, the more valuable the home, and the less that is owed on the home, the more that can be borrowed. The proceeds from a reverse mortgage are typically tax-free.
+
+page 21-8
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+Reverse mortgages appeal to “house rich but cash poor” homeowners who want to stay in their homes. However, the terms of reverse mortgages are sometimes highly complicated. Therefore, potential borrowers should fully understand the details of a reverse mortgage deal (including fees). AARP has an excellent website devoted to reverse mortgages.
+
+CHECK THIS
+
+
+
+21.2cSuppose a 30-year, $100,000 mortgage is financed at an annual interest rate of 4 percent. What is the interest and principal payments for the 120th payment? The 240th payment?
+
+21.2dWhat is the remaining balance on this mortgage after 100 payments (i.e., after 8 years and 4 months)? After 200 payments?
+
+page 21-9
+
+21.3 Government National Mortgage Association
+In 1968, Congress established the Government National Mortgage Association (GNMA), colloquially called “Ginnie Mae,” as a government agency within the Department of Housing and Urban Development (HUD). GNMA was charged with the mission of promoting liquidity in the secondary market for home mortgages. Liquidity is the ability of investors to buy and sell securities quickly at competitive market prices. Essentially, mortgages repackaged into mortgage pools are a more liquid investment product than the original unpooled mortgages. GNMA has successfully sponsored the repackaging of several trillion dollars of mortgages into hundreds of thousands of mortgage-backed securities pools.
+
+Government National Mortgage Association (GNMA)
+
+Government agency charged with promoting liquidity in the home mortgage market.
+
+Visit the GNMA and HUD websites at
+ginniemae.gov
+and
+hud.gov.
+
+GNMA mortgage pools are based on mortgages issued under programs administered by the Federal Housing Administration (FHA), the Veterans Administration (VA), and the Farmers Home Administration (FmHA). Mortgages in GNMA pools are said to be fully modified because GNMA guarantees bondholders full and timely payment of both principal and interest even in the event of default of the underlying mortgages. The GNMA guarantee augments guarantees already provided by the FHA, VA, and FmHA. Because GNMA, FHA, VA, and FmHA are all agencies of the federal government, GNMA mortgage passthroughs are thought to be free of default risk. But while investors in GNMA passthroughs face limited default risk, they still face prepayment risk.
+
+fully modified mortgage pool
+
+Mortgage pool that guarantees timely payment of interest and principal.
+
+prepayment risk
+
+Uncertainty faced by mortgage investors regarding early payment of mortgage principal and interest.
+
+GNMA operates in cooperation with private underwriters certified by GNMA to create mortgage pools. The underwriters originate or otherwise acquire the mortgages to form a pool. After verifying that the mortgages comply with GNMA requirements, GNMA authorizes the underwriter to issue mortgage-backed securities with a GNMA guarantee.
+
+As a simplified example of how a GNMA pool operates, consider a hypothetical GNMA fully modified mortgage pool containing only a single mortgage. After obtaining approval from GNMA, the pool has a GNMA guarantee and is called a GNMA bond. The underwriter then sells the bond, and the buyer is entitled to receive all mortgage payments, less servicing and guarantee fees. If a mortgage payment occurs ahead of schedule, the early payment is passed through to the GNMA bondholder. If a payment is late, GNMA makes a timely payment to the bondholder. If any mortgage principal is prepaid, the early payment is passed through to the bondholder. If a default occurs, GNMA settles with the bondholder by making full payment of remaining mortgage principal. In effect, to a GNMA bondholder, mortgage default is the same thing as a prepayment.
+
+Check out the FNMA and FHLMC websites at
+fanniemae.com
+and
+freddiemac.com.
+
+When originally issued, the minimum denomination of a GNMA mortgage-backed bond is $25,000. The minimum size for a GNMA mortgage pool is $1 million, although it could be much larger. Thus, for example, a GNMA mortgage pool might conceivably represent only 40 bonds with an initial bond principal of $25,000 par value per bond. However, initial bond principal only specifies a bond’s share of mortgage pool principal. Over time, mortgage-backed bond principal declines because of scheduled mortgage amortization and mortgage prepayments.
+
+GNMA CLONES
+Two government-sponsored enterprises (GSEs) are also significant mortgage repackaging sponsors. These are the Federal Home Loan Mortgage Corporation (FHLMC), colloquially called “Freddie Mac,” and the Federal National Mortgage Association (FNMA), called “Fannie Mae.” FHLMC was chartered by Congress in 1970 to increase mortgage credit availability for residential housing. It was originally owned by the Federal Home Loan Banks operated under direction of the U.S. Treasury. But in 1989, FHLMC was allowed to become a private corporation with an issue of common stock. Freddie Mac stock traded on the New York Stock Exchange under the ticker symbol FRE until 2010. Freddie Mac now trades OTC under the ticker FMCC.
+
+Federal Home Loan Mortgage Corporation (FHLMC)
+
+Government-sponsored enterprise charged with promoting liquidity in the home mortgage market.
+
+Federal National Mortgage Association (FNMA)
+
+Government-sponsored enterprise charged with promoting liquidity in the home mortgage market.
+
+The Federal National Mortgage Association was originally created in 1938 as a government-owned corporation of the United States. Thirty years later, FNMA was split into two government corporations: GNMA and FNMA. Soon after, in 1970, FNMA was allowed to become a private corporation and has since grown to become one of the major financial corporations in the United States. Fannie Mae stock traded on the New York Stock page 21-10Exchange under the ticker symbol FNM until 2010. Fannie Mae now trades OTC under the ticker FNMA.
+
+Like GNMA, both FHLMC and FNMA operate with qualified underwriters who accumulate mortgages into pools financed by an issue of bonds that entitle bondholders to cash flows generated by mortgages in the pools, less the standard servicing and guarantee fees. However, the guarantees on FHLMC and FNMA passthroughs are not exactly the same as for GNMA passthroughs. Essentially, FHLMC and FNMA are only government-sponsored enterprises (GSEs), whereas GNMA is a government agency.
+
+FHLMC and FNMA both performed poorly during the financial crisis of 2008. The combined GSE losses were $14.9 billion. In the past, it was widely thought that Congress would be unwilling to rescue a financially strapped GSE. In September 2008, however, the two GSEs were placed into a conservatorship run by the Federal Housing Finance Agency (FHFA).
+
+The FHFA conservatorship is designed to preserve and conserve the assets and property of the GSEs and restore them to a sound financial condition. The GSEs have a statutory mission to promote liquidity and efficiency in the housing finance markets.
+
+The U.S. Treasury committed to invest as much as $200 billion in preferred stock and extend credit through 2009 to keep the GSEs solvent and operating. This bailout was likely the biggest and costliest government bailout ever of private companies.
+
+As of May 2019, the Federal Housing Finance Agency and the U.S. Treasury are working together to figure out how to get the GSEs out of conservatorship and to operate independently. To do so, however, the GSEs have to raise capital.
+
+A 2012 amendment under the 2008 bailout directed that the GSEs sweep capital to the Treasury Department. As a result, the GSEs hold a slim level of capital, about $3 billion each. Most likely, the GSEs would need $150 to $200 billion in capital. The question is, how will the GSEs raise this capital? In addition, will the federal government provide a guarantee for securities issued by Fannie and Freddie? If so, they will no longer be GSEs. But, if they are to operate independently, will they be a government agency, like GNMA, or will they be a private/public hybrid? Time will tell.
+
+CHECK THIS
+
+
+
+21.3aLook up prices for Freddie Mac and Fannie Mae common stock under their ticker symbols FMCC and FNMA online at finance.yahoo.com.
+
+21.4 Public Securities Association Mortgage Prepayment Model
+Mortgage prepayments are typically described by stating a prepayment rate, which is the probability that a mortgage will be prepaid in a given year. The greater the prepayment rate for a mortgage pool, the faster the mortgage pool principal is paid off, and the more rapid is the decline of bond principal for bonds supported by the underlying mortgage pool. Historical experience shows that prepayment rates can vary substantially from year to year depending on mortgage type and various economic and demographic factors.
+
+prepayment rate
+
+The probability that a mortgage will be prepaid during a given year.
+
+Visit the Securities Industry and Financial Markets Association at
+sifma.org.
+
+Conventional industry practice states prepayment rates using a prepayment model specified by what was the Public Securities Association (PSA). In 2006, the PSA was renamed the Bond Market Association. The Bond Market Association merged with the Securities Industry Association and became the Securities Industry and Financial Markets Association.
+
+According to this model, prepayment rates are stated as a percentage of a PSA benchmark. The PSA benchmark specifies an annual prepayment rate of .2 percent in month 1 of a mortgage, .4 percent in month 2, .6 percent in month 3, and so on. The annual prepayment rate continues to rise by .2 percent per month until reaching an annual prepayment rate of 6 percent in month 30 of a mortgage. Thereafter, the benchmark prepayment rate remains constant at 6 percent per year. This PSA benchmark represents a mortgage prepayment schedule called 100 PSA, which means 100 percent of the PSA benchmark. Deviations from the 100 PSA benchmark are stated as a percentage of the benchmark. For example, 200 PSA means 200 percent of the 100 PSA benchmark, and it doubles all prepayment rates relative to the benchmark. Similarly, 50 PSA means 50 percent of the 100 PSA benchmark, halving all prepayment rates relative to the benchmark. Prepayment rate schedules illustrating 50 PSA, 100 PSA, and 200 PSA are graphically presented in Figure 21.2.
+
+PSA Prepayment Model Showing Conditional Prepayment Rates (CPRs)
+
+FIGURE 21.2
+
+
+page 21-11
+
+Based on historical experience, the PSA prepayment model makes an important distinction between seasoned mortgages and unseasoned mortgages. In the PSA model, unseasoned mortgages are those less than 30 months old with rising prepayment rates. Seasoned mortgages are those over 30 months old with constant prepayment rates.
+
+seasoned mortgages
+
+Mortgages over 30 months old.
+
+unseasoned mortgages
+
+Mortgages less than 30 months old.
+
+Prepayment rates in the PSA model are stated as conditional prepayment rates (CPRs) because they are conditional on the age of mortgages in a pool. For example, the CPR for a seasoned 100 PSA mortgage is 6 percent, which represents a 6 percent probability of mortgage prepayment in a given year. By convention, the probability of prepayment in a given month is stated as a single monthly mortality (SMM). SMM is calculated using a CPR as follows:
+
+conditional prepayment rate (CPR)
+
+The prepayment rate for a mortgage pool conditional on the age of the mortgages in the pool.
+
+
+For example, the SMM corresponding to a seasoned 100 PSA mortgage with a 6 percent CPR is .5143 percent, which is calculated as:
+
+
+As another example, the SMM corresponding to an unseasoned 100 PSA mortgage in month 20 of the mortgage with a 4 percent CPR is .3396 percent, which is calculated as:
+
+
+Some mortgages in a pool are prepaid earlier than average, some are prepaid later than average, and some are not prepaid at all. The average life of a mortgage in a pool is the average time for a single mortgage in a pool to be paid off, either by prepayment or by making scheduled payments until maturity. Because prepayment shortens the life of a mortgage, the average life of a mortgage is usually much less than a mortgage’s stated maturity. We can calculate a mortgage’s projected average life by assuming a particular prepayment schedule. page 21-12For example, the average life of a mortgage in a pool of 30-year mortgages, assuming several PSA prepayment schedules, is stated immediately below.
+
+average life
+
+Average time for a mortgage in a pool to be paid off.
+
+Prepayment Schedule	Average Mortgage Life (years)
+50 PSA	20.40
+100 PSA	14.68
+200 PSA	8.87
+400 PSA	4.88
+Notice that an average life ranges from slightly less than 5 years for 400 PSA prepayments to slightly more than 20 years for 50 PSA prepayments.1
+
+Bear in mind that these are expected averages given a particular prepayment schedule. Because prepayments are somewhat unpredictable, the average life of a mortgage in any specific pool is likely to deviate somewhat from an expected average.
+
+CHECK THIS
+
+
+
+21.4aReferring to Figure 21.2, what are the CPRs for seasoned 50 PSA, 100 PSA, and 200 PSA mortgages?
+
+21.4bReferring to Figure 21.2, what is the CPR for an unseasoned 100 PSA mortgage in month 20 of the mortgage?
+
+21.4cReferring to Figure 21.2, what is the CPR for an unseasoned 200 PSA mortgage in month 20 of the mortgage?
+
+21.5 Cash Flow Analysis of GNMA Fully Modified Mortgage Pools
+Each month, GNMA mortgage-backed bond investors receive pro rata shares of cash flows derived from fully modified mortgage pools. Each monthly cash flow has three distinct components:
+
+Payment of interest on outstanding mortgage principal.
+
+Scheduled amortization of mortgage principal.
+
+Mortgage principal prepayments.
+
+As a sample GNMA mortgage pool, consider a $10 million pool of 30-year, 8 percent mortgages financed by the sale of 100 bonds at a par value price of $100,000 per bond. For simplicity, we ignore servicing and guarantee fees. The decline in bond principal for these GNMA bonds is graphed in Figure 21.3A for the cases of prepayment rates following 50 PSA, 100 PSA, 200 PSA, and 400 PSA schedules. In Figure 21.3A, notice that 50 PSA prepayments yield a nearly straight-line amortization of bond principal. Also notice that for the extreme case of 400 PSA prepayments, over 90 percent of bond principal is amortized within 10 years of mortgage pool origination.
+
+Principal and Cash Flows for $100,000 Par Value 30-Year, 8 Percent GNMA Bonds
+
+FIGURE 21.3
+
+
+Monthly cash flows for these GNMA bonds are graphed in Figure 21.3B for the cases of 50 PSA, 100 PSA, 200 PSA, and 400 PSA prepayment schedules. In Figure 21.3B, notice the sharp spike in monthly cash flows associated with 400 PSA prepayments at about month 30. Lesser PSA prepayment rates blunt the spike and level the cash flows.
+
+As shown in Figures 21.3A and 21.3B, prepayments significantly affect the cash flow characteristics of GNMA bonds. However, these illustrations assume that prepayment schedules remain unchanged over the life of a mortgage pool. This can be unrealistic because prepayment rates often change from those originally forecast. For example, sharply falling interest rates could easily cause a jump in prepayment rates from 100 PSA to 400 PSA. Because large interest rate movements are unpredictable, future prepayment rates can also be unpredictable. Consequently, GNMA mortgage-backed bond investors face substantial cash flow uncertainty. This makes GNMA bonds an unsuitable investment for many investors, especially relatively unsophisticated investors unaware of the risks involved. Nevertheless, GNMA bonds offer higher yields than U.S. Treasury bonds, which makes them attractive to professional fixed-income portfolio managers.
+
+page 21-13
+
+CHECK THIS
+
+
+
+21.5aGNMA bond investors face significant cash flow uncertainty. Why might cash flow uncertainty be a problem for many portfolio managers?
+
+21.5bWhy might cash flow uncertainty be less of a problem for investors with a very long-term investment horizon?
+
+MACAULAY DURATIONS FOR GNMA MORTGAGE-BACKED BONDS
+For mortgage pool investors, prepayment risk is important because it complicates the effects of interest rate risk. With falling interest rates, prepayments speed up and the average life of mortgages in a pool shortens. Similarly, with rising interest rates, prepayments slow down and page 21-14average mortgage life lengthens. Recall from a previous chapter that interest rate risk for a bond is often measured by Macaulay duration. Macaulay duration assumes a fixed schedule of cash flow payments. However, the schedule of cash flow payments for mortgage-backed bonds is not fixed because it is affected by mortgage prepayments, which in turn are affected by interest rates. For this reason, Macaulay duration is a deficient measure of interest rate risk for mortgage-backed bonds. The following examples illustrate the deficiency of Macaulay duration when it is unrealistically assumed that interest rates do not affect mortgage prepayment rates:2
+
+Macaulay duration
+
+A measure of interest rate risk for fixed-income securities.
+
+Macaulay duration for a GNMA bond with zero prepayments. Suppose a GNMA bond is based on a pool of 30-year, 8 percent fixed-rate mortgages. Assuming an 8 percent interest rate, their price is equal to their initial par value of $100,000. The Macaulay duration for these bonds is 9.56 years.
+
+Macaulay duration for a GNMA bond with a constant 100 PSA prepayment schedule. Suppose a GNMA bond based on a pool of 30-year, 8 percent fixed-rate mortgages follows a constant 100 PSA prepayment schedule. Accounting for this prepayment schedule when calculating Macaulay duration, we obtain a Macaulay duration of 6.77 years.
+
+Examples 1 and 2 illustrate how Macaulay duration can be affected by mortgage prepayments. Essentially, faster prepayments cause earlier cash flows and shorten Macaulay durations.
+
+However, Macaulay durations are still misleading because they assume that prepayment schedules are unaffected by changes in interest rates. When falling interest rates speed up prepayments, or rising interest rates slow down prepayments, Macaulay durations yield inaccurate price-change predictions for mortgage-backed securities. The following examples illustrate the inaccuracy:
+
+3.   Macaulay duration for a GNMA bond with changing PSA prepayment schedules. Suppose that a GNMA bond based on a pool of 30-year, 8 percent fixed-rate mortgages has a par value price of $100,000 and that, with no change in interest rates, the pool follows a 100 PSA prepayment schedule. Further suppose that when the market interest rate for these bonds rises to 9 percent, prepayments fall to a 50 PSA schedule. In this case, the price of the bond falls to $92,644, representing a 7.36 percent price drop, which is more than .5 percent larger than the drop predicted by the bond’s Macaulay duration of 6.77.
+
+4.   Macaulay duration for a GNMA bond with changing PSA prepayment schedules. Suppose that a GNMA bond based on a pool of 30-year, 8 percent fixed-rate mortgages has a par value price of $100,000 and that, with no change in interest rates, the pool follows a 100 PSA prepayment schedule. Further suppose that when the market interest rate for these bonds falls to 7 percent, prepayments rise to a 200 PSA schedule. In this case, the bond price rises to $105,486, which is over 1.2 percent less than the price increase predicted by the bond’s Macaulay duration of 6.77.
+
+Examples 3 and 4 illustrate that simple Macaulay durations overpredict price increases and underpredict price decreases for changes in mortgage-backed bond prices caused by changing interest rates. These errors are caused by the fact that Macaulay duration does not account for prepayment rates changing in response to interest rate changes. The severity of these errors depends on how strongly interest rates affect prepayment rates. Historical experience indicates that interest rates significantly affect prepayment rates and that Macaulay duration is a very conservative measure of interest rate risk for mortgage-backed securities.
+
+To correct the deficiencies of Macaulay duration, a method often used in practice to assess interest rate risk for mortgage-backed securities is to first develop projections regarding mortgage prepayments. Projecting prepayments for mortgages requires analyzing both economic and demographic variables. In particular, it is necessary to estimate how prepayment rates will respond to changes in interest rates. A duration model that accounts for these factors is called effective duration. In practice, effective duration is used to calculate predicted prices for mortgage-backed securities based on hypothetical interest rate and prepayment scenarios. The Investment Updates box summarizes the basic structure and some of the risks of asset-backed and mortgage-backed securities.
+
+effective duration for MBS
+
+Duration measure that accounts for how mortgage prepayments are affected by changes in interest rates.
+
+page 21-15
+
+INVESTMENT UPDATES
+
+DEFINING ASSET-BACKED (ABS) AND MORTGAGE-BACKED SECURITIES (MBS)
+
+Asset-backed securities (ABS) and mortgage-backed securities (MBS) are two of the most important types of asset classes within the fixed-income sector. MBS are created from the pooling of mortgages that are sold to interested investors. ABS are created from the pooling of non-mortgage assets.
+
+The Structures of ABS and MBS
+
+Three parties make up the structure of these types of securities: the seller, the issuer, and the investor. Sellers are the companies that generate loans for sale to issuers and act as the servicer, collecting principal and interest payments from borrowers. ABS and MBS benefit sellers because they can be removed from the balance sheet, allowing sellers to acquire additional funding.
+
+Issuers buy loans from sellers and pool them together to release ABS or MBS to investors, and can be a third-party company or special-purpose vehicle (SPV). Investors of ABS and MBS are typically institutional investors that use ABS and MBS in an attempt to obtain higher yields than government bonds and provide diversification.
+
+Examples of Asset-Backed Securities
+
+There are many types of ABS, each with different characteristics, cash flows and valuations. For example:
+
+Home Equity ABS: Home equity loans are very similar to mortgages, which in turn makes home equity ABS similar to MBS. The major difference between home equity loans and mortgages is that the borrowers of a home equity loan typically do not have good credit ratings.
+
+Auto Loan ABS: Auto loans are types of amortizing assets, and so the cash flows of an auto loan ABS include monthly interest, principal payment, and prepayment. Prepayment risk for an auto loan ABS is much lower when compared to a home equity loan ABS or MBS. Refinancing is rare when the interest rate falls because borrowers won’t be able to save significant amounts from refinancing at a lower interest rate.
+
+Credit Card Receivable ABS: Credit card receivables are a type of non-amortizing asset ABS. They don’t have scheduled payment amounts, while new loans and changes can be added to the composition of the pool. The cash flows of credit card receivables include interest, principal payments, and annual fees.
+
+Examples of Mortgage-Backed Securities
+
+Most mortgage-backed securities are issued by Ginnie Mae (the Government National Mortgage Association), Fannie Mae (the Federal National Mortgage Association) or Freddie Mac (the Federal Home Loan Mortgage Corporation), which are all U.S. government-sponsored enterprises.
+
+MBS from Ginnie Mae are backed by the full faith and credit of the U.S. government, which guarantees that investors receive full and timely payments of principal and interest. In contrast, Fannie Mae and Freddie Mac MBS are not backed by the full faith and credit of the U.S. government, but both have special authority to borrow from the U.S. Treasury if necessary.
+
+Associated Risks
+
+Both ABS and MBS have prepayment risks, though these are especially pronounced for MBS. Prepayment risk means borrowers are paying more than their required monthly payments, thereby reducing the interest of the loan. To deal with prepayment risk, ABS and MBS have tranching structures to help distribute prepayment risk. Investors can choose a tranche based on their own preferences and risk tolerance. An additional type of risk involved in ABS is credit risk, which is also transferred to investors who want higher returns associated with this risk through tranching.
+
+The Bottom Line
+
+Asset-backed and mortgage-backed securities can be quite complicated in terms of their structures, characteristics, and valuations. Investors have access to these securities through indexes such as the U.S. ABS index. For those who want to invest in ABS or MBS directly, it’s imperative to conduct a thorough amount of research and weigh your risk tolerance prior to making any investments.
+
+
+
+Source: Mitchell Grant and Alexandra Yan, “Defining Asset-Backed (ABS) and Mortgage-Backed Securities,” Investopedia, May 9, 2019.
+
+CHECK THIS
+
+
+
+21.5aWhy is it important for portfolio managers to know by how much a change in interest rates will affect mortgage prepayments?
+
+21.5bWhy is it important for portfolio managers to know by how much a change in interest rates will affect mortgage-backed bond prices?
+
+page 21-16
+
+21.6 Collateralized Mortgage Obligations
+When a mortgage pool is created, cash flows from the pool are often carved up and distributed according to various allocation rules. Mortgage-backed securities representing specific rules for allocating mortgage cash flows are called collateralized mortgage obligations (CMOs). Indeed, a CMO is defined by the rule that created it. Like all mortgage passthroughs, primary collateral for CMOs is the mortgages in the underlying pool. This is true no matter how the rules for cash flow distribution are actually specified.
+
+collateralized mortgage obligations (CMOs)
+
+Securities created by splitting mortgage pool cash flows according to specific allocation rules.
+
+The three best-known types of CMO structures using specific rules to carve up mortgage pool cash flows are (1) interest-only strips (IOs) and principal-only strips (POs), (2) sequential CMOs, and (3) protected amortization class (PAC) securities. Each of these CMO structures is discussed immediately below. Before beginning, however, we retell an old Wall Street joke that pertains to CMOs: Question: “How many investment bankers does it take to sell a lightbulb?” Answer: “401; one to hit it with a hammer, and 400 to sell off the pieces.”
+
+The moral of the story is that mortgage-backed securities can be repackaged in many ways, and the resulting products are often quite complex. Even the basic types we consider here are significantly more complicated than the basic fixed-income instruments we considered in earlier chapters. Consequently, we do not go into great detail regarding the underlying calculations for CMOs. Instead, we examine only the basic properties of the most commonly encountered CMOs.
+
+INTEREST-ONLY AND PRINCIPAL-ONLY MORTGAGE STRIPS
+Perhaps the simplest rule for carving up mortgage pool cash flows is to separate payments of principal from payments of interest. Mortgage-backed securities that pay only the interest component of mortgage pool cash flows are called interest-only strips, or IOs. Mortgage-backed securities that pay only the principal component of mortgage pool cash flows are called principal-only strips, or POs. Mortgage strips are more complicated than straight mortgage passthroughs. In particular, IO strips and PO strips behave quite differently in response to changes in prepayment rates and interest rates.
+
+interest-only strips (IOs)
+
+Securities that pay only the interest cash flows to investors.
+
+principal-only strips (POs)
+
+Securities that pay only the principal cash flows to investors.
+
+Let us begin an examination of mortgage strips by considering a $100,000 par value GNMA bond that has been stripped into a separate IO bond and a PO bond. The whole GNMA bond receives a pro rata share of all cash flows from a pool of 30-year, 8 percent mortgages. From the whole bond cash flow, the IO bond receives the interest component and the PO bond receives the principal component. The sum of IO and PO cash flows reproduces the whole bond cash flow.
+
+Assuming various PSA prepayment schedules, cash flows to IO strips are illustrated in Figure 21.4A, and cash flows to PO strips are illustrated in Figure 21.4B. Holding the interest rate constant at 8 percent, IO and PO strip values for various PSA prepayment schedules are listed immediately below:
+
+page 21-17
+
+Cash Flows for $100,000 Par Value 30-Year, 8 Percent Bonds
+
+FIGURE 21.4
+
+
+Prepayment Schedule	IO Strip Value	PO Strip Value
+50 PSA	$63,102.80	$36,897.20
+100 PSA	53,726.50	46,273.50
+200 PSA	41,366.24	58,633.76
+400 PSA	28,764.16	71,235.84
+Notice that total bond value is $100,000 for all prepayment schedules because the interest rate is unchanged from its original 8 percent value. Nevertheless, even with no change in interest rates, faster prepayments imply lower IO strip values and higher PO strip values, and vice versa.
+
+There is a simple reason why PO strip value rises with faster prepayment rates. Essentially, the only cash flow uncertainty facing PO strip holders is the timing of PO cash flows, not the total amount of cash flows. No matter what prepayment schedule applies, total cash flows paid to PO strip holders over the life of the pool will be equal to the initial principal of $100,000. Therefore, PO strip value increases as principal is paid earlier to PO strip holders because of the time value of money.
+
+In contrast, IO strip holders face considerable uncertainty regarding the total amount of IO cash flows that they will receive. Faster prepayments reduce principal more rapidly, thereby reducing interest payments because interest is paid only on outstanding principal. The best that IO strip holders could hope for is that no mortgages are prepaid, which would maximize total interest payments. Prepayments reduce total interest payments. Indeed, in the extreme case, where all mortgages in a pool are prepaid, IO cash flows stop completely.
+
+The effects of changing interest rates compounded by changing prepayment rates are illustrated by considering IO and PO strips from a $100,000 par value GNMA bond based on a pool of 30-year, 8 percent mortgages. First, suppose that an interest rate of 8 percent yields a 100 PSA prepayment schedule. Also suppose that a lower interest rate of 7 percent yields 200 PSA prepayments and a higher interest rate of 9 percent yields 50 PSA prepayments. page 21-18The resulting whole bond values and separate IO and PO strip values for these combinations of interest rates and prepayment rates are listed immediately below:
+
+
+When the interest rate increases from 8 percent to 9 percent, total bond value falls by $5,355.74. This results from the PO strip price falling by $10,754.03 and the IO strip price increasing by $5,398.29. When the interest rate decreases from 8 percent to 7 percent, total bond value rises by $5,486.40. This results from the PO strip price increasing by $15,893.28 and the IO strip price falling by $10,406.88. Thus, PO strip values change in the same direction as the whole bond value, but the PO price change is larger. Notice that the IO strip price changes in the opposite direction of the whole bond and PO strip price change.
+
+CHECK THIS
+
+
+
+21.6aSuppose a $100,000 mortgage financed at 9 percent (.75 percent monthly) is paid off in the first month after issuance. In this case, what are the cash flows to an IO strip and a PO strip from this mortgage?
+
+SEQUENTIAL COLLATERALIZED MORTGAGE OBLIGATIONS
+One problem with investing in mortgage-backed bonds is the limited range of maturities available. An early method developed to deal with this problem is the creation of sequential CMOs. Sequential CMOs carve a mortgage pool into a number of tranches. Tranche, the French word for slice, is a commonly used financial term to describe the division of a whole into various parts. Sequential CMOs are defined by rules that distribute mortgage pool cash flows to sequential tranches. While almost any number of tranches are possible, a basic sequential CMO structure might have four tranches: A-tranche, B-tranche, C-tranche, and Z-tranche. Each tranche is entitled to a share of mortgage pool principal and interest on that share of principal. Sequential CMOs are often called collateralized debt obligations, or CDOs.
+
+sequential CMOs
+
+Securities created by splitting a mortgage pool into a number of slices called tranches.
+
+As a hypothetical sequential CMO structure, suppose a 30-year, 8 percent GNMA bond initially represents $100,000 of mortgage principal. Cash flows to this whole bond are then carved up according to a sequential CMO structure with A-, B-, C-, and Z-tranches. The A-, B-, and C-tranches initially represent $30,000 of mortgage principal each. The Z-tranche initially represents $10,000 of principal. The sum of all four tranches reproduces the original whole bond principal of $100,000. The cash flows from the whole bond are passed through to each tranche according to the following rules:
+
+Rule 1: Mortgage principal payments. All payments of mortgage principal, including scheduled amortization and prepayments, are first paid to the A-tranche. When all A-tranche principal is paid off, subsequent payments of mortgage principal are then paid to the B-tranche. After all B-tranche principal is paid off, all principal payments are then paid to the C-tranche. Finally, when all C-tranche principal is paid off, all principal payments go to the Z-tranche.
+
+Rule 2: Interest payments. All tranches receive interest payments in proportion to the amount of outstanding principal in each tranche. Interest on A-, B-, and C-tranche principal is passed through immediately to the A-, B-, and C-tranches. Interest on Z-tranche principal is paid to the A-tranche as cash in exchange for the transfer of an equal amount of principal from the A-tranche to the Z-tranche. After A-tranche principal is fully paid, interest on Z-tranche principal is paid to the B-tranche in exchange for an equal amount of principal from the B-tranche to the Z-tranche. This process continues sequentially through each tranche.
+
+For example, the first month’s cash flows from a single whole bond are allocated as follows: Scheduled mortgage payments yield a whole bond cash flow of $733.76, which is divided between $67.09 principal amortization and $666.67 payment of interest. All scheduled principal amortization is paid to the A-tranche, and A-tranche principal is reduced by a like amount. Because outstanding principal was initially equal to $30,000 for the A-, B-, and C-tranche bonds, each of page 21-19these tranches receives an interest payment of $30,000 × .08/12 = $200. In addition, the Z-tranche interest payment of $10,000 × .08/12 = $66.67 is paid to the A-tranche in cash in exchange for transferring $66.67 of principal to the Z-tranche. In summary, A-tranche principal is reduced by $67.09 + $66.67 = $133.76 plus any prepayments, and Z-tranche principal is increased by $66.67.
+
+Remaining principal amounts for the A-, B-, C-, and Z-tranches, assuming 100 PSA prepayments, are graphed in Figure 21.5A. Corresponding cash flows for the A-, B-, C-, and Z-tranches, assuming 100 PSA prepayments, are graphed in Figure 21.5B.
+
+Sequential CMO Principal and Cash Flows for a $100,000 Par Value GNMA Bond
+
+FIGURE 21.5
+
+
+Two questions arise from this structure. First, why would investors, such as the holders of the Z-tranche, be willing to forgo all cash flow early on? As with any investment, the added risk this deferral creates is rewarded with a higher expected return relative to the other tranches.
+
+Second, is there any way for the holders of the Z-tranche to reduce their risk? In a previous chapter, we discussed credit default swaps (CDSs), which are essentially put options that enable the holder to insure a bond. Before the financial crisis of 2008, there was an extremely active CDS market for CMOs. Unfortunately, most CDSs were bought and sold directly between individual investors, meaning that there was significant counterparty risk.
+
+When the real estate market collapsed, default rates on mortgages soared. Because many sellers of CDSs did not have enough capital to make good on their obligations, many of these sellers were financially ruined. For example, one of the most active players in the CDS market was Lehman Brothers. Lehman Brothers, a pillar of Wall Street since the 1850s, filed for bankruptcy in September 2008.
+
+Fortunately, an active public market has developed for CDS trading, so you can now buy and sell contracts as you would a traditional derivative contract. This has reduced the risk in these securities, as standard margin trading rules would apply.
+
+page 21-20
+
+CHECK THIS
+
+
+
+21.6bFigures 21.5A and 21.5B assume a 100 PSA prepayment schedule. How would these figures change for a 200 PSA prepayment schedule or a 50 PSA prepayment schedule?
+
+21.6cWhile A-, B-, and C-tranche principal is being paid down, Z-tranche interest is used to acquire principal for the Z-tranche. What is the growth rate of Z-tranche principal during this period?
+
+PROTECTED AMORTIZATION CLASS BONDS
+Another popular security used to alleviate the problem of cash flow uncertainty when investing in mortgage-backed bonds is a protected amortization class (PAC) bond, or PAC. Like all CMOs, PAC bonds are defined by specific rules that carve up cash flows from a mortgage pool. Essentially, a PAC bond carves out a slice of a mortgage pool’s cash flows according to a rule that gives PAC bondholders first-priority entitlement to promised PAC cash flows. Consequently, PAC cash flows are predictable so long as mortgage pool prepayments remain within a predetermined band. PAC bonds are attractive to investors who require a high degree of cash flow certainty from their investments.
+
+protected amortization class (PAC) bond
+
+Mortgage-backed security that takes priority for scheduled payments of principal.
+
+After PAC bondholders receive their promised cash flows, residual cash flows from the mortgage pool are paid to non-PAC bonds, often referred to as PAC support bonds or PAC companion bonds. In effect, almost all cash flow uncertainty is concentrated in the non-PAC bonds. The non-PAC bond supports the PAC bond and serves the same purpose as a Z-tranche bond in a sequential CMO structure. For this reason, a non-PAC bond is sometimes called a PAC Z-tranche.
+
+PAC support bond
+
+Mortgage-backed security that has subordinate priority for scheduled payments of principal. Also called PAC companion bond.
+
+Creation of a PAC bond entails three steps. First, we must specify two PSA prepayment schedules that form the upper and lower prepayment bounds of a PAC bond. These bounds define a PAC collar. For example, suppose we create a single PAC bond from a new $100,000 par value GNMA bond based on a pool of 30-year fixed-rate mortgages. The PAC collar specifies a 100 PSA prepayment schedule as a lower bound and a 300 PSA prepayment schedule as an upper bound. Cash flows to the PAC bond are said to enjoy protected amortization so long as mortgage pool prepayments remain within this 100–300 PSA collar.
+
+PAC collar
+
+Range defined by upper and lower prepayment schedules of a PAC bond.
+
+Our second step in creating a PAC bond is to calculate principal-only (PO) cash flows from our 30-year, $100,000 par value GNMA bond, assuming 100 PSA and 300 PSA prepayment schedules. These PO cash flows, which include both scheduled amortization and prepayments, are plotted in Figure 21.6A. In Figure 21.6A, notice that principal-only cash flows for 100 PSA and 300 PSA prepayment schedules intersect in month 103. Before the 103rd month, 300 PSA PO cash flows are greater. After that month, 100 PSA PO cash flows are greater. PAC bond cash flows are specified by the 100 PSA schedule before month 103 and the 300 PSA schedule after month 103. Because the PAC bond is specified by 100 PSA and 300 PSA prepayment schedules, it is called a PAC 100/300 bond.
+
+Our third step is to specify the cash flows to be paid to PAC bondholders on a priority basis. PAC bondholders receive payments of principal according to the PAC collar’s lower PSA prepayment schedule. For the PAC 100/300 bond in this example, principal payments are made according to the 100 PSA prepayment schedule until month 103, when the schedule switches to the 300 PSA prepayment schedule. The sum of all scheduled principal to be paid to PAC 100/300 bondholders represents total initial PAC bond principal. In addition to payment of principal, a PAC bondholder also receives payment of interest on outstanding PAC principal. For example, if the mortgage pool financing rate is 9 percent, the PAC bondholder receives an interest payment of .75 percent per month of outstanding PAC principal.
+
+Total monthly cash flows paid to the PAC bond, including payments of principal and interest, are graphed in Figure 21.6B. As shown, total cash flow reaches a maximum in month 30, thereafter gradually declining. So long as mortgage pool prepayments remain within the 100/300 PSA prepayment collar, PAC bondholders will receive these cash flows exactly as originally specified.
+
+PAC collars are usually sufficiently wide so that actual prepayments move outside the collar only infrequently. In the event that prepayments move outside a collar far enough to interfere with promised PAC cash flows, PAC bonds normally specify the following two contingency rules:
+
+page 21-21 
+
+GNMA PAC 100/300 Cash Flows for $100,000 Par Value 30-Year, 8 Percent Bond
+
+FIGURE 21.6
+
+
+PAC contingency rule 1. When actual prepayments fall below a PAC collar’s lower bound, there could be insufficient cash flow to satisfy a PAC bond’s promised cash flow schedule. In this case, the PAC bond receives all available cash flow, and any shortfall is carried forward and paid on a first-priority basis from future cash flows. Non-PAC bonds receive no cash flows until all cumulative shortfalls to PAC bonds are paid off.
+
+PAC contingency rule 2. When actual prepayments rise above a PAC collar’s upper bound, it is possible that all outstanding principal for the non-PAC support bonds is paid off before the PAC bond. When all non-PAC principal is paid off, the PAC cash flow schedule is abandoned and all mortgage pool cash flows are paid to PAC bondholders.
+
+CHECK THIS
+
+
+
+21.6dA PAC 100/300 bond based on a pool of fully modified 30-year fixed-rate mortgages switches payment schedules after 103 months. Would switching occur earlier or later for a PAC 50/300 bond? For a PAC 100/500 bond?
+
+21.6eFigures 21.6A and 21.6B assume a PAC 100/300 bond based on a pool of fully modified 30-year fixed-rate mortgages. What would these figures look like for a PAC 50/300 and a PAC 100/500 bond?
+
+21.6fHow might a large change in market interest rates cause mortgage pool prepayments to move outside a PAC collar far enough and long enough to interfere with an originally stated PAC bond cash flow schedule?
+
+page 21-22
+
+21.7 Yields for Mortgage-Backed Securities
+Yields for and indices of mortgage-backed securities (MBSs) for GNMA, FHLMC, and FNMA mortgage pools appear online daily at wsj.com. Figure 21.7 is a sample listing. The first column lists the mortgage pool index. For example, the Ginnie Mae (GNMA) index closed at 2,028.90, a percentage change increase of .15. The YTD total return, 2.55 percent, appears in the next column, and the 52-week return is 5.33 percent. The latest yield on this index is 3.03 percent, which is at the low end of the 52-week range. The spread column gives the spread (in basis points) between the yield to maturity on the MBS and the yield on a U.S. Treasury note or bond with a maturity similar to the average life of the MBS.
+
+MBS Yields
+
+FIGURE 21.7
+
+
+Source: www.wsj.com, May 14, 2019. The Wall Street Journal, 2019. Dow Jones & Company, Inc.
+
+21.8 Summary and Conclusions
+This chapter discusses the large and growing market for mortgage-backed securities. The chapter covers many aspects of this market, including the following items—grouped by the chapter’s important concepts.
+
+1.  The workings of a fixed-rate mortgage.
+
+A.  Most Americans finance their homes with a down payment and a loan for the remaining amount—known as a mortgage. Mortgages are often repackaged into mortgage-backed securities through a process called mortgage securitization. Currently, about half of all mortgages in the United States have been securitized, yet the risks involved in these investments are often misunderstood.
+
+B.  Most home mortgages are 15- or 30-year fixed-rate mortgages with fixed monthly payments. The present value of all monthly payments is equal to the original amount of the mortgage loan. Each monthly payment has two parts: interest on the page 21-23remaining principal and a scheduled pay-down of the principal. Through time, the interest payment gradually declines, and the pay-down of the principal gradually increases.
+
+C.  A mortgage borrower has the right to pay off a mortgage early—known as mortgage prepayment. Borrowers frequently prepay to refinance an existing mortgage at a lower interest rate. Prepayment and refinancing, which are advantages to mortgage borrowers, are disadvantages to mortgage investors. Therefore, mortgage investors face prepayment risk.
+
+D.  In a reverse mortgage, borrowers (with home equity) receive monthly payments from a lender. Borrowers generally do not have to repay money received from a reverse mortgage as long as they live in their homes. However, the loan becomes due if the borrowers die, sell their home, or move to another principal residence.
+
+2.  The government’s role in the secondary market for home mortgages.
+
+A.  In 1968, Congress established the Government National Mortgage Association (GNMA) as a government agency charged with promoting liquidity in the secondary market for home mortgages. GNMA is the largest single guarantor of mortgage-backed securities. Two government-sponsored enterprises (GSEs) are also significant mortgage repackaging sponsors: the Federal Home Loan Mortgage Corporation (FHLMC) and the Federal National Mortgage Association (FNMA).
+
+B.  Each month, GNMA, FHLMC, and FNMA mortgage-backed bond investors receive cash flows derived from fully modified mortgage pools. Each monthly cash flow has three distinct components: payment of interest on outstanding mortgage principal, scheduled amortization of mortgage principal, and mortgage principal prepayments.
+
+3.  The impact of mortgage prepayments.
+
+A.  Mortgage prepayments are stated as a prepayment rate. The greater the prepayment rate, the faster mortgage pool principal is paid off. Because they depend on prevailing interest rates, prepayment rates vary substantially from year to year. In practice, the industry states prepayment rates using the Public Securities Association (PSA) prepayment model. This model states prepayment rates as a percentage of a PSA benchmark. This benchmark, called 100 PSA, represents an annual prepayment rate of 6 percent for seasoned mortgages. Deviations from the 100 PSA benchmark are stated as a percentage of the benchmark.
+
+B.  Prepayment risk complicates the effects of interest rate risk. Interest rate risk for a bond is related to its effective maturity, as measured by Macaulay duration. Macaulay duration assumes a fixed schedule of cash flow payments. However, the schedule of cash flow payments for mortgage-backed bonds varies because of mortgage prepayments (which, in turn, are affected by interest rates). For this reason, Macaulay duration is a deficient measure of interest rate risk for mortgage-backed bonds.
+
+4.  How collateralized mortgage obligations are created and divided.
+
+A.  Cash flows from mortgage pools are often carved up and distributed according to various rules. Mortgage-backed securities representing specific rules for allocating mortgage cash flows are called collateralized mortgage obligations (CMOs). The three best-known types of CMO structures are interest-only (IO) and principal-only (PO) strips, sequential CMOs, and protected amortization class securities (PACs).
+
+B.  Cash flow yields for mortgage-backed securities (MBSs) and collateralized mortgage obligations (CMOs) for GNMA, FHLMC, and FNMA mortgage pools appear online daily at www.wsj.com. Cash flow yield for a mortgage-backed security corresponds to the yield to maturity for an ordinary bond. Essentially, cash flow yield is the interest rate that discounts all future expected cash flows from a mortgage pool to be equal to the price of the mortgage pool.
+
+page 21-24
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered one of the more complex investments available, mortgage-backed securities (MBSs). These investments are fairly complicated, but unlike most exotic instruments, the basic types of MBSs are very suitable for ordinary individual investors. In fact, GNMAs and similar investments are frequently recommended, and rightly so, for even very conservative investors.
+
+However, directly buying into mortgage pools is not practical for most individual investors. It is also probably unwise because not all pools are equally risky in terms of prepayments, and analysis of individual pools is best left to experts. Instead, most investors in MBSs end up in mutual funds specializing in these instruments, and most of the major mutual fund families have such funds.
+
+If you are interested in learning more about these investments, the internet contains a large amount of information. Some of the first places to visit are the websites for GNMA (ginniemae.gov), FNMA (fanniemae.com), and FHLMC (freddiemac.com). For much information on the home mortgage business, along with current mortgage rates across the country, try Mortgage News Daily (mortgagenewsdaily.com). An informative site with good-to-excellent coverage of mortgage-backed securities is Investing in Bonds (investinginbonds.com).
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+average life 21-11
+
+collateralized mortgage obligations (CMOs) 21-16
+
+conditional prepayment rate (CPR) 21-11
+
+effective duration for MBS 21-14
+
+Federal Home Loan Mortgage Corporation (FHLMC) 21-9
+
+Federal National Mortgage Association (FNMA) 21-9
+
+fixed-rate mortgage 21-2
+
+fully modified mortgage pool 21-9
+
+Government National Mortgage Association (GNMA) 21-9
+
+interest-only strips (IOs) 21-16
+
+Macaulay duration 21-14
+
+mortgage amortization 21-5
+
+mortgage-backed securities (MBSs) 21-2
+
+mortgage passthroughs 21-2
+
+mortgage prepayment 21-5
+
+mortgage principal 21-3
+
+mortgage securitization 21-2
+
+PAC collar 21-20
+
+PAC support bond 21-20
+
+prepayment rate 21-10
+
+prepayment risk 21-9
+
+principal-only strips (POs) 21-16
+
+protected amortization class (PAC) bond 21-20
+
+seasoned mortgages 21-11
+
+sequential CMOs 21-18
+
+unseasoned mortgages 21-11
+
+Chapter Review Problems and Self-Test
+
+Mortgage Payments (LO1, CFA1) What are the monthly payments on a 30-year, $150,000 mortgage if the mortgage rate is 6 percent? What portion of the first payment is interest? Principal?
+
+Mortgage Prepayments (LO3, CFA1) Consider a 15-year, $210,000 mortgage with a 7 percent interest rate. After 10 years, the borrower (the mortgage issuer) pays it off. How much will the lender receive?
+
+page 21-25
+
+Answers to Self-Test Problems
+
+This is a standard time value of money calculation in which we need to find an annuity-type payment. The present value is $150,000. The interest rate is .06/12 = .005, or .5 percent, per month. There are a total of 360 payments. Using the formula from the text, we have:
+
+
+Plugging in r = .06 and T = 30, we get a payment of $899.33. The interest portion for a month is equal to the mortgage balance at the beginning of the month ($150,000 in this case) multiplied by the interest rate per month (.5 percent), or $150,000 × .005 = $750. The remaining portion of the payment, $899.33 – $750 = $149.33, goes to reduce the principal balance.
+
+We first need to know the monthly payment. Here, the original balance is $210,000, the rate is 7 percent, and the original life is 15 years. Plugging in the numbers using the formula above, check that we get a monthly payment of $1,887.54. From here, there are two ways to go. One is relatively easy; the other is relatively tedious. The tedious way would be to construct an amortization table for the mortgage and then locate the balance in the table. However, we need only a single balance, so there is a much faster way. After 10 years, we can treat this mortgage as though it were a five-year mortgage with payments of $1,887.54 and an interest rate of 7 percent. We can then solve for the mortgage balance using the same formula:
+
+
+Solving for the mortgage balance gets us $95,324.50.
+
+Test Your Investment Quotient
+
+
+Fixed-Rate Mortgages (LO1, CFA2) Which of the following statements about fixed-rate mortgages is false?
+
+Fifteen-year mortgages have higher monthly payments than 30-year mortgages.
+
+Scheduled monthly payments are constant over the life of the mortgage.
+
+Actual monthly payments may vary over the life of the mortgage.
+
+Actual monthly payments are never more than scheduled monthly payments.
+
+Fixed-Rate Mortgages (LO1, CFA2) The interest component of a monthly payment for a fixed-rate mortgage is:
+
+Highest during the first year of the mortgage.
+
+Highest during the middle year of the mortgage.
+
+Highest during the last year of the mortgage.
+
+Constant throughout the life of the mortgage.
+
+Fixed-Rate Mortgages (LO1, CFA2) The principal reduction component of a monthly payment for a fixed-rate mortgage is:
+
+Highest during the first year of the mortgage.
+
+Highest during the middle year of the mortgage.
+
+Highest during the last year of the mortgage.
+
+Constant throughout the life of the mortgage.
+
+Fixed-Rate Mortgages (LO1, CFA2) The remaining balance on a 30-year, $100,000 mortgage loan financed at 8 percent after the 180th payment is (no calculation necessary):
+
+$100,000
+
+$50,000
+
+$76,782
+
+$23,219
+
+Fixed-Rate Mortgages (LO1, CFA2) page 21-26Which of the following mortgages has the lowest monthly payment (no calculation necessary)?
+
+30-year, 8 percent
+
+30-year, 10 percent
+
+15-year, 8 percent
+
+15-year, 10 percent
+
+Fixed-Rate Mortgages (LO1, CFA2) Which of the following mortgages will pay the smallest total interest over the life of the mortgage (no calculation necessary)?
+
+30-year, 8 percent
+
+30-year, 10 percent
+
+15-year, 8 percent
+
+15-year, 10 percent
+
+Fixed-Rate Mortgages (LO1, CFA2) Which of the following mortgages will have the largest remaining balance after 180 monthly payments (no calculation necessary)?
+
+30-year, 8 percent
+
+30-year, 10 percent
+
+15-year, 8 percent
+
+15-year, 10 percent
+
+GNMA Bonds (LO2, CFA2) Mortgages in GNMA pools are said to be fully modified because GNMA guarantees bondholders which of the following?
+
+A minimum rate of return on their investment
+
+A modified schedule of cash flows over the life of the pool.
+
+Full and timely payment of both principal and interest in the event of default
+
+Eventual payment of both principal and interest in the event of default
+
+GNMA Bonds (LO2, CFA2) Which of the following is not a source of risk for GNMA mortgage pool investors?
+
+Prepayment risk
+
+Default risk
+
+Interest rate risk
+
+Reinvestment risk
+
+GNMA Bonds (LO2, CFA2) Which of the following should a bond portfolio manager purchase if the manager is looking for mortgage-backed securities that would perform best during a period of rising interest rates?
+
+A 12 percent GNMA with an average life of 5.6 years
+
+An 8 percent GNMA with an average life of 6.0 years
+
+A 10 percent GNMA with an average life of 8.5 years
+
+A 6 percent GNMA with an average life of 9.0 years
+
+Prepayments (LO3, CFA2) A bond analyst at Omnipotent Bank (OB) notices that the prepayment experience on his holdings of high-coupon GNMA issues has been moving sharply higher. What does this indicate?
+
+Interest rates are falling.
+
+The loans comprising OB’s pools have been experiencing lower default rates.
+
+The pools held by OB are older issues.
+
+All of the above.
+
+Collateralized Mortgage Obligations (LO4, CFA2) For a given mortgage pool, which of the following CMOs based on that pool is most likely to increase in price when market interest rates increase?
+
+100/300 PAC bond
+
+A-tranche sequential CMO
+
+Interest-only (IO) strip
+
+Principal-only (PO) strip
+
+MBS Duration (LO4, CFA2) Higher prepayments have what impact on the effective duration of a mortgage passthrough security?
+
+They decrease effective duration for all maturity mortgages.
+
+They increase effective duration for all maturity mortgages.
+
+They increase (decrease) effective duration for short (long) maturity mortgages.
+
+They increase (decrease) effective duration for long (short) maturity mortgages.
+
+MBS Duration (LO4, CFA3) Which of the following most accurately measures interest rate sensitivity for mortgage passthrough securities with prepayment risk?
+
+Static duration
+
+Effective duration
+
+Modified duration
+
+Macaulay duration
+
+MBS Duration (LO4, CFA2) page 21-27The most important difference between effective duration and Macaulay duration for a mortgage passthrough security is that:
+
+Macaulay duration is easier to calculate.
+
+Effective duration is easier to calculate.
+
+Macaulay duration accounts for prepayment sensitivity.
+
+Effective duration accounts for prepayment sensitivity.
+
+Concept Questions
+
+Mortgage Securitization (LO4, CFA2) How does mortgage securitization benefit borrowers?
+
+Mortgage Securitization (LO4, CFA2) How does mortgage securitization benefit mortgage originators?
+
+Mortgage Payments (LO1, CFA2) All else the same, will the payments be higher on a 15-year mortgage or a 30-year mortgage? Why?
+
+Ginnie, Fannie, and Freddie (LO2, CFA2) From an investor’s point of view, what is the difference between mortgage pools backed by GNMA, FNMA, and FHLMC?
+
+Mortgage Pools (LO4, CFA2) What does it mean for a mortgage pool to be fully modified?
+
+Prepayments (LO3, CFA2) What are some of the reasons that mortgages are paid off early? Under what circumstances are mortgage prepayments likely to rise sharply? Explain.
+
+Prepayments (LO3, CFA2) Explain why the right to prepay a mortgage is similar to the call feature contained in most corporate bonds.
+
+Prepayments (LO3, CFA2) Evaluate the following argument: “Prepayment is not a risk to mortgage investors because prepayment actually means that the investor is paid both in full and ahead of schedule.” Is the statement always true or false?
+
+Prepayments (LO3, CFA2) Mortgage pools also suffer from defaults. Explain how defaults are handled in a fully modified mortgage pool. In the case of a fully modified mortgage pool, explain why defaults appear as prepayments to the mortgage pool investor.
+
+CMOs (LO4, CFA2) What is a collateralized mortgage obligation? Why do they exist? What are three popular types?
+
+IO and PO Strips (LO4, CFA4) What are IO and PO strips? Assuming interest rates never change, which is riskier?
+
+IO and PO Strips (LO4, CFA2) Which has greater interest rate risk, an IO or a PO strip?
+
+Sequential CMOs (LO4, CFA2) Consider a single whole bond sequential CMO. It has two tranches, an A-tranche and a Z-tranche. Explain how the payments are allocated to the two tranches. Which tranche is riskier?
+
+PACs (LO4, CFA2) Explain in general terms how a protected amortization class (or PAC) CMO works.
+
+Duration and MBSs (LO4, CFA2) Why is Macaulay duration an inadequate measure of interest rate risk for an MBS? Why is effective duration a better measure of interest rate risk for an MBS?
+
+Questions and Problems
+
+Core Questions
+
+Mortgage Payments (LO1, CFA1) What is the monthly payment on a 30-year fixed-rate mortgage if the original balance is $315,000 and the rate is 4.9 percent?
+
+Mortgage Balances (LO1, CFA1) If a mortgage has monthly payments of $1,240, a life of 30 years, and a rate of 4.5 percent per year, what is the mortgage amount?
+
+Mortgage Payments (LO1, CFA1) A homeowner takes out a $417,000, 30-year fixed-rate mortgage at a rate of 5.2 percent. What are the monthly mortgage payments?
+
+Mortgage Balances (LO1, CFA1) You have decided to buy a house. You can get a mortgage rate of 5.25 percent, and you want your payments to be $1,500 or less. How much can you borrow on a 30-year fixed-rate mortgage?
+
+SMM (LO4, CFA2) What is the single monthly mortality assuming the conditional prepayment rate is 7 percent?
+
+CPR (LO4, CFA2) page 21-28What is the conditional prepayment rate if the single monthly mortality is .426 percent?
+
+IO and PO Values (LO4, CFA2) A $100,000 GNMA passthrough bond issue has a value of $107,680. The value of the interest-only payments is $52,973. What is the value of the principal-only payment?
+
+Mortgage Interest (LO1, CFA1) A 30-year, $250,000 mortgage has a rate of 5.4 percent. What are the interest and principal portions in the first payment? In the second?
+
+Mortgage Balances (LO1, CFA1) A homeowner takes a 15-year fixed-rate mortgage for $140,000 at 7.6 percent. After seven years, the homeowner sells the house and pays off the remaining principal. How much is the principal payment?
+
+Mortgage Balances (LO1, CFA1) Consider a 30-year, $145,000 mortgage with a 6.1 percent interest rate. After eight years, the borrower (the mortgage issuer) pays it off. How much will the lender receive?
+
+Intermediate Questions
+
+11. Prepayments (LO3, CFA1) Consider a 30-year, $160,000 mortgage with a rate of 6 percent. Five years into the mortgage, rates have fallen to 5 percent. What would be the monthly saving to a homeowner from refinancing the outstanding mortgage balance at the lower rate?
+
+12. Prepayments (LO3, CFA1) Consider a 25-year, $350,000 mortgage with a rate of 7.25 percent. Ten years into the mortgage, rates have fallen to 5.4 percent. What would be the monthly saving to a homeowner from refinancing the outstanding mortgage balance at the lower rate?
+
+13. Prepayments (LO3, CFA1) Consider a 30-year, $230,000 mortgage with a rate of 6.90 percent. Five years into the mortgage, rates have fallen to 5.70 percent. Suppose the transaction cost of obtaining a new mortgage is $2,500. Should the homeowner refinance at the lower rate?
+
+14. Mortgage Prepayments (LO2, CFA2) A homeowner took out a 30-year fixed-rate mortgage of $220,000. The mortgage was taken out 10 years ago at a rate of 7.20 percent. If the homeowner refinances, the charges will be $3,500. What is the highest interest rate at which it would be beneficial to refinance the mortgage?
+
+15. Mortgage Prepayments (LO2, CFA2) A homeowner took out a 30-year fixed-rate mortgage of $120,000. The mortgage was taken out 15 years ago at a rate of 7.95 percent. If the homeowner refinances, the charges will be $2,000. What is the highest interest rate at which it would be beneficial to refinance the mortgage?
+
+16. CPRs (LO3, CFA2) What are the conditional prepayment rates for seasoned 50 PSA, 200 PSA, and 400 PSA mortgages if the 100 PSA benchmark is 3 percent per year? How do you interpret these numbers?
+
+17. SMMs (LO3, CFA2) In Problem 16, what is the single monthly mortality for seasoned 50 PSA, 200 PSA, and 400 PSA mortgages? How do you interpret these numbers?
+
+Spreadsheet Problems
+
+18. Mortgage Payments (LO1, CFA1) A 30-year mortgage has an annual interest rate of 5.6 percent and a loan amount of $210,000. What are the monthly mortgage payments?
+
+19. Mortgage Amortization (LO1, CFA1) A 20-year mortgage has an annual interest rate of 4.9 percent and a loan amount of $250,000. What are the interest and principal for the 120th payment?
+
+20. Mortgage Balances (LO1, CFA1) A 30-year mortgage has an annual interest rate of 6.1 percent and a loan amount of $270,000. What is the remaining balance at the 180th payment?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA2]
+
+Mark Houston, a Level I CFA candidate, has just been hired as a junior analyst in the mortgage management department of Fixed Income Strategies. Mr. Houston is asked to perform some analysis on the mortgage pool shown below. All mortgages are conforming 30-year fixed-rate loans.
+
+
+page 21-29
+
+Before tackling the job, Mr. Houston does some research on mortgage loans. First, he assembles some facts about the difference between fixed-rate mortgage loans and traditional fixed-income corporate bonds:
+
+Mortgage loan payments consist of both principal and interest.
+
+The final payment on a mortgage does not include the par amount of the loan.
+
+Servicing fees on mortgage pools decline as the loan matures.
+
+Straight corporate bonds do not include call options.
+
+Marvin Blanda, CFA, CEO of Fixed Income Strategies, tells Mr. Houston to calculate the expected prepayments for the first 12 months for all of the loans in the portfolio. He warns Mr. Houston not to forget about the relationship between conditional prepayment rates (CPRs) and single monthly mortality (SMM) rates.
+
+Regarding conditional prepayment rates (CPRs) and single monthly mortality (SMM) rates, which of the following is most accurate?
+
+SMM is computed from the CPR to compute monthly prepayments.
+
+SMM is computed from the CPR to compute changes in loan maturity.
+
+CPR is computed from the SMM to compute monthly prepayments.
+
+Mr. Houston made a mistake in his research about the nature of mortgage loans. Which of the following statements regarding mortgage loans as compared to straight bonds is least accurate?
+
+Servicing fees on mortgage pools decline as the loan matures.
+
+The final mortgage payment does not include the par amount of the loan.
+
+Mortgage borrowers do not get call options.
+
+Mr. Blanda instructs Mr. Houston to calculate the weighted average coupon rate (WAC) for the mortgage pools. Which of the following is closest to the WAC?
+
+7.28 percent
+
+7.78 percent
+
+8.01 percent
+
+Mr. Blanda tells Mr. Houston to recalculate the SMM for Pool 3 based on 200 PSA rather than the current 100 PSA. The revised SMM is closest to:
+
+.36 percent.
+
+.55 percent.
+
+.97 percent.
+
+What’s on the Web?
+
+Depository Trust and Clearing Corporation (DTCC) Go to dtcc.com. What is the role of the DTCC? What par value of mortgage-backed securities was cleared in each of the last three months?
+
+Fannie Mae Go to the mortgage-backed security section at fanniemae.com. What were the longest-term bonds recently issued by Fannie Mae? What are the coupon rates? What are the coupon rates on the shortest-term bonds issued?
+
+SMBS Go to the mortgage-backed security section at fanniemae.com. Find the SMBS section. What is an SMBS? How do they work? Is an SMBS a suitable investment for most investors?
+
+
+
+
+1 Formulas used to calculate average mortgage life are complicated and depend on the assumed prepayment model. For this reason, average life formulas are omitted here.
+
+2 The Macaulay duration formula for a mortgage is not presented here because, as our discussion suggests, its use is not recommended.

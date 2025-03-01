@@ -1,0 +1,1428 @@
+page 325
+
+PART 3
+
+Bond Prices and Yields
+
+
+
+“More money has been lost reaching for yield than at the point of a gun.”
+
+–Raymond DeVoe
+
+Learning Objectives
+
+Bonds can be an important part of portfolios. You will learn:
+
+How to calculate bond prices and yields.
+
+The importance of yield to maturity.
+
+Interest rate risk and Malkiel’s theorems.
+
+How to measure the impact of interest rate changes on bond prices.
+
+Interest rates go up and bond prices go down. But which bonds go down the most and which go down the least? Interest rates go down and bond prices go up. But which bonds go up the most and which go up the least? For bond portfolio managers, these are important questions about interest rate risk. For anyone managing a bond portfolio, an understanding of interest rate risk rests on an understanding of the relationship between bond prices and yields.
+
+In the preceding chapter on interest rates, we introduced the subject of bond yields. As we promised there, we now return to this subject and discuss bond prices and yields in greater detail. We first describe how bond yields are determined and how they are interpreted. We then go on to examine what happens to bond prices as yields change. Finally, once we have a good understanding of the relation between bond prices and yields, we examine some of the fundamental tools of bond risk analysis used by fixed-income portfolio managers.
+
+CFATM Exam Topics in This Chapter:
+
+Noncurrent (long-term) liabilities (L1, S8)
+
+Fixed-income securities: Defining elements (L1, S16)
+
+Fixed-income markets: Issuance, trading, and funding (L1, S16)
+
+Introduction to fixed-income valuation (L1, S16)
+
+Understanding fixed-income risk and return (L1, S17)
+
+Fundamentals of credit analysis (L1, S17)
+
+Introduction to fixed-income portfolio management (L3, S11)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 326
+
+10.1 Bond Basics
+A bond is essentially a security that offers the investor a series of fixed interest payments during its life, along with a fixed payment of principal when it matures. So long as the bond issuer does not default, the schedule of payments does not change. When originally issued, bonds normally have maturities ranging from 2 years to 30 years, but bonds with maturities of 50 or 100 years also exist. Bonds issued with maturities of less than 10 years are usually called notes. A very small number of bond issues with no stated maturity are referred to as perpetuities or consols.
+
+STRAIGHT BONDS
+The most common type of bond is the so-called straight bond. By definition, a straight bond is an IOU that obligates the issuer to pay the bondholder a fixed sum of money at the bond’s maturity along with constant, periodic interest payments during the life of the bond. The fixed sum paid at maturity is referred to as bond principal, par value, stated value, or face value. The periodic interest payments are called coupons. Perhaps the best example of straight bonds is U.S. Treasury bonds issued by the federal government to finance the national debt. However, corporations and municipal governments also routinely issue debt in the form of straight bonds.
+
+Check out the fixed-income section at
+sifma.org.
+
+In addition to a straight bond component, many bonds have special features. These features are sometimes designed to enhance a bond’s appeal to investors. For example, convertible bonds have a conversion feature that grants bondholders the right to convert their bonds into shares of common stock of the issuing corporation. As another example, “putable” bonds have a put feature that grants bondholders the right to sell their bonds back to the issuer at a predetermined price.
+
+These and other special features are attached to many bond issues, but we defer discussion of special bond features until a later chapter. For now, it is only important to know that when a bond is issued with one or more special features, strictly speaking, it is no longer a straight bond. However, bonds with attached special features will normally have a straight bond component, namely, the periodic coupon payments and fixed principal payment at maturity. For this reason, straight bonds are important as the basic unit of bond analysis.
+
+The prototypical example of a straight bond pays a series of constant semiannual coupons, along with a face value of $1,000 payable at maturity. This example is used in this chapter because it is common and realistic. For example, most corporate bonds are sold with a face value of $1,000 per bond, and most bonds (in the United States at least) pay constant semiannual coupons.
+
+COUPON RATE AND CURRENT YIELD
+A familiarity with bond yield measures is important for understanding the financial characteristics of bonds. As we briefly discussed in a previous chapter, two basic yield measures for a bond are its coupon rate and current yield.
+
+A bond’s coupon rate is defined as its annual coupon amount divided by its par value, or, in other words, its annual coupon expressed as a percentage of face value:
+
+
+coupon rate
+
+A bond’s annual coupon divided by its par value. Also called coupon yield or nominal yield.
+
+For example, suppose a $1,000 par value bond pays semiannual coupons of $40. The annual coupon is then $80; stated as a percentage of par value, the bond’s coupon rate is $80/$1,000 = .08, or 8%. A coupon rate is often referred to as the coupon yield or the nominal yield. Notice that the word “nominal” here has nothing to do with inflation.
+
+A bond’s current yield is its annual coupon payment divided by its current market price:
+
+
+current yield
+
+A bond’s annual coupon divided by its market price.
+
+For example, suppose a $1,000 par value bond paying an $80 annual coupon has a price of $1,032.25. The current yield is $80/$1,032.25 = .0775, or 7.75%. Similarly, a price of $969.75 page 327implies a current yield of $80/$969.75 = .0825, or 8.25%. Notice that whenever there is a change in the bond’s price, the coupon rate remains constant. However, a bond’s current yield is inversely related to its price, and it changes whenever the bond’s price changes.
+
+CHECK THIS
+
+
+
+10.1aWhat is a straight bond?
+
+10.1bWhat is a bond’s coupon rate? Its current yield?
+
+10.2 Straight Bond Prices and Yield to Maturity
+The single most important yield measure for a bond is its yield to maturity, commonly abbreviated as YTM. By definition, a bond’s yield to maturity is the discount rate that equates the bond’s price with the computed present value of its future cash flows. A bond’s yield to maturity is sometimes called its promised yield, but more commonly the yield to maturity of a bond is referred to as its yield. In general, if the term “yield” is being used with no qualification, it means yield to maturity.
+
+yield to maturity (YTM)
+
+The discount rate that equates a bond’s price with the present value of its future cash flows. Also called promised yield or just yield.
+
+STRAIGHT BOND PRICES
+For straight bonds, the following standard formula is used to calculate a bond’s price given its yield:
+
+
+This formula can be simplified just a bit as follows:
+
+
+where: C = Annual coupon, the sum of two semiannual coupons
+
+FV = Face value
+
+M = Maturity in years
+
+YTM = Yield to maturity
+
+In this formula, the coupon used is the annual coupon, which is the sum of the two semiannual coupons. As discussed in our previous chapter for U.S. Treasury STRIPS, the yield on a bond is an annual percentage rate (APR), calculated as twice the true semiannual yield. As a result, the yield on a bond somewhat understates its effective annual rate (EAR).
+
+The straight bond pricing formula has two separate components. The first component is the present value of all the coupon payments. Since the coupons are fixed and paid on a regular basis, you may recognize that they form an ordinary annuity, and the first piece of the bond pricing formula is a standard calculation for the present value of an annuity. The other component represents the present value of the principal payment at maturity, and it is a standard calculation for the present value of a single lump sum.
+
+Calculating bond prices is mostly “plug and chug” with a calculator. In fact, a good financial calculator or spreadsheet should have this formula built into it. In any case, we will work through a few examples the long way to illustrate the calculations.
+
+Suppose a bond has a $1,000 face value, 20 years to maturity, an 8 percent coupon rate, and a yield of 9 percent. What’s the price? Using the straight bond pricing formula, the price of this bond is calculated as follows:
+
+Present value of semiannual coupons:
+
+
+page 328Present value of $1,000 principal:
+
+
+The price of the bond is the sum of the present values of coupons and principal:
+
+
+So, this bond sells for $907.99.
+
+Calculating Straight Bond Prices
+
+EXAMPLE 10.1
+
+Suppose a bond has 20 years to maturity and a coupon rate of 8 percent. The bond’s yield to maturity is 7 percent. What’s the price?
+
+In this case, the coupon rate is 8 percent and the face value is $1,000, so the annual coupon is $80. The bond’s price is calculated as follows:
+
+Present value of semiannual coupons:
+
+
+Present value of $1,000 principal:
+
+
+The bond’s price is the sum of coupon and principal present values:
+
+
+This bond sells for $1,106.78.
+
+Straight bond prices may be calculated using a built-in spreadsheet function. An example of how to use an Excel™ spreadsheet to calculate a bond price is shown in the nearby Spreadsheet Analysis box.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+page 329
+
+PREMIUM AND DISCOUNT BONDS
+Bonds are commonly distinguished according to whether they are selling at par value or at a discount or premium relative to par value. These three relative price descriptions—premium, discount, and par bonds—are defined as follows:
+
+Premium bonds. Bonds with a price greater than par value are said to be selling at a premium. The yield to maturity of a premium bond is less than its coupon rate.
+
+Discount bonds. Bonds with a price less than par value are said to be selling at a discount. The yield to maturity of a discount bond is greater than its coupon rate.
+
+Par bonds. Bonds with a price equal to par value are said to be selling at par. The yield to maturity of a par bond is equal to its coupon rate.
+
+The important thing to notice is that whether a bond sells at a premium or at a discount depends on the relation between its coupon rate and its yield. If the coupon rate exceeds the yield, the bond will sell at a premium. If the coupon is less than the yield, the bond will sell at a discount.
+
+Premium and Discount Bonds
+
+EXAMPLE 10.2
+
+Consider two bonds, both with eight years to maturity and a 7 percent coupon. One bond has a yield to maturity of 5 percent, while the other has a yield to maturity of 9 percent. Which of these bonds is selling at a premium and which is selling at a discount? Verify your answer by calculating each bond’s price.
+
+For the bond with a 9 percent yield to maturity, the coupon rate of 7 percent is less than the yield, indicating a discount bond. The bond’s price is calculated as follows:
+
+
+For the bond with a 5 percent yield to maturity, the coupon rate of 7 percent is greater than the yield, indicating a premium bond. The bond’s price is calculated as follows:
+
+
+The relationship between bond prices and bond maturities for premium and discount bonds is graphically illustrated in Figure 10.1 for bonds with an 8 percent coupon rate. The vertical axis measures bond prices, and the horizontal axis measures bond maturities.
+
+Premium, Par, and Discount Bond Prices
+
+FIGURE 10.1
+
+
+page 330
+
+Figure 10.1 also describes the paths of premium and discount bond prices as their maturities shorten with the passage of time, assuming no changes in yield to maturity. As shown, the time paths of premium and discount bond prices follow smooth curves. Over time, the price of a premium bond declines and the price of a discount bond rises. At maturity, the price of each bond converges to its par value.
+
+Figure 10.1 illustrates the general expectation that, for discount bonds, holding the coupon rate and yield to maturity constant, the longer the term to maturity of the bond, the greater is the discount from par value. For premium bonds, holding the coupon rate and yield to maturity constant, the longer the term to maturity of the bond, the greater is the premium over par value.
+
+Even though bond prices change (almost constantly) with interest rates, most bonds are actually issued at par. When a company issues a bond at par, the company is picking a coupon rate that matches the required return on the bond when the bond is issued. The company could change the number of bonds it issues to generate a desired level of proceeds. Therefore, why would it matter whether bonds are issued at par? The answer relates to accounting rules that require companies to amortize premiums and discounts to par over the life of the bonds. So, pricing at par allows companies to avoid the unnecessary burden associated with accounting for these rules.
+
+Premium Bonds
+
+EXAMPLE 10.3
+
+Consider two bonds, both with a 9 percent coupon rate and the same yield to maturity of 7 percent, but with different maturities of 5 and 10 years. Which has the higher price? Verify your answer by calculating the prices.
+
+First, because both bonds have a 9 percent coupon and a 7 percent yield, both bonds sell at a premium. Based on what we know, the one with the longer maturity will have a higher price. We can check these conclusions by calculating the prices as follows:
+
+5-year maturity, premium bond price:
+
+
+10-year maturity, premium bond price:
+
+
+Notice that the longer-maturity premium bond has a higher price, as we predicted.
+
+Discount Bonds
+
+EXAMPLE 10.4
+
+Now consider two bonds, both with a 9 percent coupon rate and the same yield to maturity of 11 percent, but with different maturities of 5 and 10 years. Which has the higher price? Verify your answer by calculating the prices.
+
+These are both discount bonds. (Why?) The one with the shorter maturity will have a higher price. To check, the prices can be calculated as follows:
+
+5-year maturity, discount bond price:
+
+
+10-year maturity, discount bond price:
+
+
+In this case, the shorter-maturity discount bond has the higher price.
+
+page 331
+
+RELATIONSHIPS AMONG YIELD MEASURES
+We have discussed three different bond rates or yields in this chapter: the coupon rate, the current yield, and the yield to maturity. We’ve seen the relationship between coupon rates and yields for discount and premium bonds. We can extend this to include current yields by noting that the current yield is between the coupon rate and the yield to maturity (unless the bond is selling at par, in which case all three are equal).
+
+Putting together our observations about yield measures, we have the following:
+
+Premium bonds (Price > Par): Coupon rate > Current yield > Yield to maturity
+
+Discount bonds (Price < Par): Coupon rate < Current yield < Yield to maturity
+
+Par value bonds (Price = Par): Coupon rate = Current yield = Yield to maturity
+
+Thus, when a premium bond and a discount bond both have the same yield to maturity, the premium bond has a higher current yield than the discount bond. However, as shown in Figure 10.1, the advantage of a high current yield for a premium bond is offset by the fact that the price of a premium bond must ultimately fall to its face value when the bond matures. Similarly, the disadvantage of a low current yield for a discount bond is offset by the fact that the price of a discount bond must ultimately rise to its face value at maturity. For these reasons, current yield is not a reliable guide to what an actual yield (i.e., YTM) will be.
+
+If you wish to get current price and yield information for Treasury note and bond issues, try the internet. The nearby Work the Web box displays a typical search query and the search results from a popular website.
+
+A NOTE ON BOND PRICE QUOTES
+If you buy a bond between coupon payment dates, the price you pay will usually be more than the price you are quoted. The reason is that standard convention in the bond market is to quote prices net of “accrued interest,” meaning that accrued interest is deducted to arrive at the quoted price. This quoted price is called the clean price. The price you actually pay, however, includes the accrued interest. This price is the dirty price, also known as the full or invoice price. See the previous Work the Web box for a quote that identifies accrued interest.
+
+clean price
+
+The price of a bond net of accrued interest; this is the price that is typically quoted.
+
+dirty price
+
+The price of a bond including accrued interest, also known as the full or invoice price. This is the price the buyer actually pays.
+
+An example is the easiest way to understand these issues. Suppose you buy a bond with a 12 percent annual coupon, payable semiannually. You actually pay $1,080 for this bond, so $1,080 is the dirty, or invoice, price. Further, on the day you buy it, the next coupon is due in four months, so you are between coupon dates. Notice that the next coupon will be $60.
+
+The accrued interest on a bond is calculated by taking the fraction of the coupon period that has passed, in this case two months out of six, and multiplying this fraction by the next coupon, $60. So, the accrued interest in this example is 2/6 × $60 = $20. The bond’s quoted price (i.e., its clean price) would be $1,080 − $20 = $1,060.1
+
+Keep in mind that clean prices and accrued interest are purely quoting conventions. The price that matters to you is the invoice price because that is what you will actually pay for the bond. The only thing that’s important about accrued interest on a bond is that it may impact the taxes you owe on the first coupon you receive.
+
+CHECK THIS
+
+
+
+10.2aA straight bond’s price has two components. What are they?
+
+10.2bWhat do you call a bond that sells for more than its face value?
+
+10.2cWhat is the relationship between a bond’s price and its term to maturity when the bond’s coupon rate is equal to its yield to maturity?
+
+10.2dDoes current yield more strongly overstate yield to maturity for long-maturity or short-maturity premium bonds?
+
+page 332
+
+WORK THE WEB
+
+Current information on Treasury bond prices and yields is available from most major investment brokerage websites. As an example, we accessed the “Research” link at schwab.com. In this area of the site, you can search for municipal bonds, investment-grade corporate bonds, high-yield corporate bonds, agency bonds, U.S. Treasury bonds, and other bonds. We wanted to look at some U.S. Treasury bonds that mature in 2020 with a yield more than 2.7 percent. If you actually want to buy any of these bonds, you will need to be a Schwab client.
+
+
+Source: www.schwab.com, accessed January 2019.
+
+10.3 More on Yields
+In the previous section, we focused on finding a straight bond’s price given its yield. In this section, we reverse direction to find a bond’s yield given its price. We then discuss the relationship among the various yield measures we have seen. We finish the section with some additional yield calculations.
+
+Before we begin the process of calculating yields, you should be aware of an important assumption made when yield is calculated. This assumption is that an investor will be able to reinvest the coupon interest payments at a rate equal to the yield to maturity of the bond. Therefore, an investor will earn the bond’s yield to maturity only if the investor holds the bond to maturity and if all the coupon interest payments received are reinvested at a rate equal to the bond’s yield to maturity.
+
+The actual, or realized, rate earned on the bond can be lower or higher than the yield to maturity—it depends on how long the investor holds the bond and the rate at which the coupon payments are reinvested. Think about the difference like this: The yield to maturity is an expectation (or a forecast) of what the return would be from holding the bond if interest rates do not change, if the investor reinvests the coupons, and if the investor holds the bond to maturity. Because interest rates do change and because investors might not hold the bond to maturity, the actual return could be quite different.
+
+For example, suppose interest rates change but the investor reinvests the coupons and holds the bond to maturity. In this case, the actual return differs from the yield to maturity because the bondholder reinvests the coupons at different interest rates. Suppose interest rates change, the investor reinvests the coupons, but the bondholder sells the bond before maturity. In this case, the actual return differs from the yield to maturity because the bondholder reinvests the coupons at different interest rates and because the selling price of the bond might be different from the face value of the bond. We revisit this issue in more detail in a later section.
+
+page 333
+
+CALCULATING YIELDS
+To calculate a bond’s yield given its price, we use the same straight bond formula used previously. The only way to find the yield is by trial and error. Financial calculators and spreadsheets do it this way at very high speed (and likely with more accuracy).
+
+To illustrate, suppose we have a 6 percent bond with 10 years to maturity. Its price is 90, meaning 90 percent of face value. Assuming a $1,000 face value, the price is $900 and the coupon is $60 per year. What’s the yield?
+
+To find out, all we can do is try different yields until we come across the one that produces a price of $900. However, we can speed things up quite a bit by making an educated guess using what we know about bond prices and yields. We know the yield on this bond is greater than its 6 percent coupon rate because it is a discount bond. So let’s first try 8 percent in the straight bond pricing formula:
+
+
+The price with an 8 percent yield is $864.10, which is somewhat less than the $900 price, but not too far off.
+
+To finish, we need to ask whether the 8 percent we used was too high or too low. We know that the higher the yield, the lower is the price. Thus, 8 percent is a little too high, so let’s try 7.5 percent:
+
+
+Now we’re very close. We’re still a little too high on the yield (since the price is a little low). If you try 7.4 percent, you’ll see that the resulting price is $902.29, so the yield is between 7.4 and 7.5 percent (it’s actually 7.435 percent). You should be thinking that a financial calculator is definitely a more efficient way to solve these problems!
+
+Calculating YTM
+
+EXAMPLE 10.5
+
+Suppose a bond has eight years to maturity, a price of 110, and a coupon rate of 8 percent. What is its yield?
+
+This is a premium bond, so its yield is less than the 8 percent coupon. If we try 6 percent, we get (check this) $1,125.61. The yield is therefore a little bigger than 6 percent. If we try 6.5 percent, we get (check this) $1,092.43, so the answer is slightly less than 6.5 percent. Check that 6.4 percent is almost exact (the exact yield is 6.3843 percent).
+
+Yields to maturity may be calculated using a built-in spreadsheet function. An example of how to use an Excel™ spreadsheet to calculate the yield to maturity of a coupon bond is shown in the nearby Spreadsheet Analysis box.
+
+YIELD TO CALL
+The discussion in this chapter so far has assumed that a bond will have an actual maturity equal to its originally stated maturity. However, this is not always so because most bonds are callable bonds. When a bond issue is callable, the issuer can buy back outstanding bonds before the bonds mature. In exchange, bondholders receive a special call price, which is often equal to face value, although it may be slightly higher. When a call price is equal to face value, the bond is said to be callable at par.
+
+callable bond
+
+A bond is callable if the issuer can buy it back before it matures.
+
+call price
+
+The price the issuer of a callable bond must pay to buy it back.
+
+When a bond is called, the bondholder does not receive any more coupon payments. Therefore, some callable bonds are issued with a provision known as a make-whole call price. The make-whole call price is calculated as the present value of the bond’s remaining cash flows. The discount rate used to calculate the present value is often the yield of a comparable-maturity Treasury bond plus a prespecified premium. The first bonds issued to the investment public with a make-whole call provision were the Quaker State Corporation bonds issued in 1995. Since then, callable bond issues with make-whole call provisions have become common.
+
+page 334
+
+make-whole call price
+
+The present value of the bond’s remaining cash flows.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+Bonds are called at the convenience of the issuer, and a call usually occurs after a fall in market interest rates allows issuers to refinance outstanding debt with new bonds paying lower coupons, a process known as bond refunding. However, an issuer’s call privilege is often restricted so that outstanding bonds cannot be called until the end of a specified call protection period, also termed a call deferment period. As a typical example, a bond issued with a 20-year maturity may be sold to investors subject to the restriction that it is callable anytime after an initial 5-year call protection period.
+
+call protection period
+
+The period during which a callable bond cannot be called. Also called a call deferment period.
+
+If a bond is callable, its yield to maturity may no longer be a useful number. Instead, the yield to call, commonly abbreviated YTC, may be more meaningful. Yield to call is a yield measure that assumes a bond issue will be called at its earliest possible call date.
+
+yield to call (YTC)
+
+Measure of return that assumes a bond will be redeemed at the earliest call date.
+
+We calculate a bond’s yield to call using the straight bond pricing formula we have been using with two changes. First, instead of time to maturity, we use time to the first possible call date. Second, instead of face value, we use the call price. The resulting formula is thus:
+
+
+where: C = Constant annual coupon
+
+CP = Call price of the bond
+
+T = Time in years until earliest possible call date
+
+YTC = Yield to call assuming semiannual coupons
+
+Calculating a yield to call requires the same trial-and-error procedure as calculating a yield to maturity. Most financial calculators either will handle the calculation directly or can be tricked into it by just changing the face value to the call price and the time to maturity to time to call.
+
+To give a trial-and-error example, suppose a 20-year bond has a coupon of 8 percent, has a price of 98, and is callable in 10 years. The call price is 105. What are its yield to maturity and yield to call?
+
+page 335
+
+Based on our earlier discussion, we know the yield to maturity is slightly bigger than the coupon rate. (Why?) After some calculation, we find it to be 8.2 percent.
+
+To find the bond’s yield to call, we pretend it has a face value of 105 instead of 100 ($1,050 versus $1,000) and will mature in 10 years. With these two changes, the procedure is exactly the same. We can try 8.5 percent, for example:
+
+
+Because $988.51 is a little too high, the yield to call is slightly bigger than 8.5 percent. If we try 8.6, we find that the price is $981.83, so the yield to call is about 8.6 percent (it’s 8.6276 percent).
+
+A natural question comes up in this context. Which is bigger, the yield to maturity or the yield to call? The answer depends on the call price. If the bond is callable at par (as many are), then for a premium bond, the yield to maturity is greater. For a discount bond, the reverse is true.
+
+Many financial data sources will provide both the yield to maturity and the yield to call. What if, however, the data source gives you only a single yield value? Which one does it give you? Well, the answer is: It depends. Generally speaking, the lower of the two yields is reported, and the data provider will often refer to this yield as the yield to worst. If so, this fact implies that the yield to maturity is typically reported for discount bonds, while the yield to call is given for premium bonds.
+
+Yield to Call
+
+EXAMPLE 10.6
+
+An 8.5 percent coupon bond maturing in 15 years is callable at 105 in 5 years. If the price is 100, which is bigger, the yield to call or the yield to maturity?
+
+Since this is a par bond callable at a premium, the yield to call is bigger. We can verify this by calculating both yields. Check that the yield to maturity is 8.50 percent, whereas the yield to call is 9.308 percent.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+page 336
+
+Yield to call can be calculated using a built-in spreadsheet function. An example of how to use an Excel™ spreadsheet to calculate a yield to call is shown in the nearby Spreadsheet Analysis box.
+
+USING A FINANCIAL CALCULATOR
+Calculating a bond price is relatively easy using the formulas you have seen. But you are probably thinking (and rightfully so) that you will never use the formulas to calculate a bond price if you have a financial calculator or spreadsheet available. This thinking is even more true for calculating yield because the trial-and-error process requires using formulas and is both long and frustrating.
+
+Our Spreadsheet Analysis boxes have illustrated how to use spreadsheets. When you take your next finance test, however, you might not have access to a spreadsheet. Or, if you plan to take a professional exam such as the one sponsored by the CFA™ Institute, you are only allowed to use a financial calculator. Moreover, these test providers limit which calculators you can use. One calculator approved for the CFA™ Exam is the Texas Instruments BAII Plus. Many of you will already have one of these calculators because it is often required for finance courses.
+
+You might have learned how to use your financial calculator in a prerequisite corporate finance class. If so, great! But, just in case you did not, or if you need a refresher, we will provide a few basic instructions on how to calculate a bond price and a bond yield. Figure 10.2 shows a replica of the TI BAII Plus financial calculator.
+
+Texas Instruments BAII Plus Financial Calculator
+
+FIGURE 10.2
+
+
+Let’s rework Example 10.1, where we calculated a bond price. In that example, we have a bond with 20 years to maturity, a coupon rate of 8 percent, and a yield to maturity of 7 percent. We need to enter this information into the calculator and then ask it to compute page 337the bond price. We have highlighted the row of time value buttons that we use for data entry and calculations.
+
+Fortunately, the button labels closely match what we have already talked about. For example, N is the number of periods. In our example, N = 40 since we have 20 years of semiannual payments. To enter this number, we type in 40, then hit the N button. You should notice that when you do so, the “=” sign pops on the screen. This indicates the calculator has accepted your input. We then move on to the remaining values.
+
+We have a coupon rate of 8 percent, which means there is an annual coupon payment of $80 (assuming a $1,000 face value bond). Because the bond pays its coupon semiannually, we type in $40, then hit the PMT button. Again, the “=” sign should pop up. Let’s enter the yield to maturity next, which is the button labeled “I/Y”. The calculator already assumes that the yield is in percentage terms. So, we would enter 3.5 for the coupon (why not 7?). Finally, we input the face value (button labeled “FV”) of $1,000.
+
+With these values input into the calculator, we then ask it to calculate the bond price. We do so by tapping the CPT button in the upper left corner, then tapping the PV key. This should provide a price of $1,106.78, which matches our calculation (with a 1 cent rounding error) in Example 10.1.
+
+Suppose we want to calculate the yield to maturity instead. The process is about the same. We enter the number of periods, the coupon payment, the current price of the bond, and the face value of the bond. Tap the CPT button, and solve for the yield to maturity by tapping the I/Y key.
+
+CAUTION! When you input the bond price, you need to enter it as a negative number. In this way, you tell the calculator that the value is the price you are paying (i.e., a cash outflow). Because you are receiving the coupon payment and the face value as cash inflows, you enter them as positive numbers. If you do not keep track of the cash outflows and inflows correctly, your calculator will display the dreaded ERROR 5 message. You will think there is something wrong with your calculator. Sadly, however, it is simply pilot error.
+
+Finally, remember that we have entered semiannual data. Thus, when we compute the yield, the calculator gives us a semiannual interest rate. To find the commonly reported annual yield to maturity, we need to multiply this semiannual interest rate by two.2
+
+CHECK THIS
+
+
+
+10.3aWhat does it mean for a bond to be callable?
+
+10.3bWhat is the difference between yield to maturity and yield to call?
+
+10.3cYield to call is calculated just like yield to maturity except for two changes. What are the changes?
+
+10.4 Interest Rate Risk and Malkiel’s Theorems
+Bond yields are essentially interest rates, and, like interest rates, they fluctuate over time. When interest rates change, bond prices change. This is called interest rate risk. The term interest rate risk refers to the possibility of losses on a bond from changes in interest rates.
+
+interest rate risk
+
+The possibility that changes in interest rates will result in losses in a bond’s value.
+
+PROMISED YIELD AND REALIZED YIELD
+The terms yield to maturity and promised yield both seem to imply that the yield originally stated when a bond is purchased is what you will actually earn if you hold the bond until it matures. Actually, this is not generally correct. The return or yield you actually earn on a bond is called the realized yield, and an originally stated yield to maturity is almost never exactly equal to the realized yield.
+
+realized yield
+
+The yield actually earned or “realized” on a bond.
+
+page 338
+
+As we discussed in a previous section, the reason a realized yield will almost always differ from a promised yield is that interest rates fluctuate. This fact means that coupons are reinvested at different rates and, maybe more importantly, bond prices also rise or fall as a result. One consequence is that if a bond is sold before maturity, its price might be higher or lower than originally anticipated. As a result, the realized yield will be different from the promised yield.
+
+In an earlier section, we concluded that the realized and promised yields would be equal if you reinvested coupons at the yield to maturity and if you held the bond to maturity. That is, a bond’s realized yield will equal its promised yield, for the most part, only if its yield doesn’t change at all over the life of the bond—an unlikely event. As we will find over the next few sections, we can make more precise conclusions on the ways a bond price changes.
+
+INTEREST RATE RISK AND MATURITY
+While changing interest rates systematically affect all bond prices, it is important to realize that the impact of changing interest rates is not the same for all bonds. Some bonds are more sensitive to interest rate changes than others. To illustrate, Figure 10.3 shows how two bonds with different maturities can have different price sensitivities to changes in bond yields.
+
+Bond Prices and Yields
+
+FIGURE 10.3
+
+
+In Figure 10.3, bond prices are measured on the vertical axis and bond yields are measured on the horizontal axis. Both bonds have the same 8 percent coupon rate, but one bond has a 5-year maturity while the other bond has a 20-year maturity. Both bonds display the inverse relationship between bond prices and bond yields. Since both bonds have the same 8 percent coupon rate and both sell for par, their yields are 8 percent.
+
+However, when bond yields are greater than 8 percent, the 20-year-maturity bond has a lower price than the 5-year-maturity bond. In contrast, when bond yields are less than 8 percent, the 20-year-maturity bond has a higher price than the 5-year-maturity bond. Essentially, falling yields cause both bond prices to rise, but the longer-maturity bond experiences a larger price increase than the shorter-maturity bond. Similarly, rising yields cause both bond prices to fall, but the price of the longer-maturity bond falls by more than the price of the shorter-maturity bond.
+
+MALKIEL’S THEOREMS
+The effect illustrated in Figure 10.3, along with some other important relationships among bond prices, maturities, coupon rates, and yields, is succinctly described by Burton Malkiel’s five bond price theorems.3 These five theorems are:
+
+Bond prices and bond yields move in opposite directions. As a bond’s yield increases, its price decreases. Conversely, as a bond’s yield decreases, its price increases.
+
+page 339For a given change in a bond’s yield to maturity, the longer the term to maturity of the bond, the greater will be the magnitude of the change in the bond’s price.
+
+For a given change in a bond’s yield to maturity, the size of the change in the bond’s price increases at a diminishing rate as the bond’s term to maturity lengthens.
+
+For a given change in a bond’s yield to maturity, the resulting percentage change in the bond’s price is inversely related to the bond’s coupon rate.
+
+For a given absolute change in a bond’s yield to maturity, the magnitude of the price increase caused by a decrease in yield is greater than the price decrease caused by an increase in yield.
+
+The first, second, and fourth of these theorems are the simplest and most important. The first one says that bond prices and yields move in opposite directions. The second one says that longer-term bonds are more sensitive to changes in yields than shorter-term bonds. The fourth one says that lower-coupon bonds are more sensitive to changes in yields than higher-coupon bonds.
+
+The other two theorems require more calculations. The third theorem says that a bond’s sensitivity to interest rate changes increases as its maturity grows, but at a diminishing rate. In other words, a 10-year bond is much more sensitive to changes in yield than a 1-year bond. However, a 30-year bond is only slightly more sensitive than a 20-year bond. Finally, the fifth theorem says essentially that the loss you would suffer from, say, a 1 percent increase in yields is less than the gain you would enjoy from a 1 percent decrease in yields.
+
+Table 10.1 illustrates the first three of these theorems by providing prices for 8 percent coupon bonds with maturities of 5, 10, and 20 years and yields to maturity of 7 percent and 9 percent. Be sure to check these for practice. As the first theorem says, bond prices are lower when yields are higher (9 percent versus 7 percent). As the second theorem indicates, the differences in bond prices between yields of 7 percent and 9 percent are greater for bonds with a longer term to maturity. However, as the third theorem states, the effect increases at a diminishing rate as the maturity lengthens. To see this, notice that $136.10 is 67.7 percent larger than $81.14, while $198.79 is only 46.1 percent larger than $136.10.
+
+Bond Prices and Yields
+
+TABLE 10.1
+
+Time to Maturity		
+Yields	5 Years	10 Years	20 Years
+7%	$1,041.58	$1,071.06	$1,106.78
+9%	     960.44	     934.96	     907.99
+Price difference	$     81.14	$    136.10	$    198.79
+Twenty-Year Bond Prices and Yields
+
+TABLE 10.2
+
+Coupon Rates	
+Yields	      6%	      8%	     10%
+ 6%	$1,000.00	$1,231.15	$1,462.30
+ 8%	     802.07	  1,000.00	  1,197.93
+10%	     656.82	     828.41	  1,000.00
+To illustrate the last two theorems, we present prices for 20-year-maturity bonds with coupon rates and yields to maturity of 6 percent, 8 percent, and 10 percent (again, calculate these for practice) in Table 10.2. To illustrate the fourth theorem, compare the loss on the 6 percent and the 8 percent bonds as yields move from 8 percent to 10 percent. The 6 percent bond loses ($656.82 − $802.07)/$802.07 = −18.1%. The 8 percent bond loses ($828.41 − $1,000)/$1,000 = −17.2%, showing that the bond with the lower coupon is more sensitive to a change in yields. You can (and should) verify that the same is true for a yield increase.
+
+page 340
+
+Finally, to illustrate the fifth theorem, take a look at the 8 percent coupon bond in Table 10.2. As yields decrease by 2 percent from 8 percent to 6 percent, the bond’s price climbs by $231.15. As yields rise by 2 percent, the bond’s price falls by $171.59.
+
+As we have discussed, bond maturity is an important factor determining the sensitivity of a bond’s price to changes in interest rates. However, bond maturity is an incomplete measure of bond price sensitivity to yield changes. For example, we have seen that a bond’s coupon rate is also important. An improved measure of interest rate risk for bonds that accounts for both differences in maturity and differences in coupon rates is our next subject.
+
+CHECK THIS
+
+
+
+10.4aTrue or false: A bond price’s sensitivity to interest rate changes increases at an increasing rate as maturity lengthens.
+
+10.4bWhich is more sensitive to an interest rate shift: a low-coupon bond or a high-coupon bond?
+
+10.5 Duration
+To account for differences in interest rate risk across bonds with different coupon rates and maturities, the concept of duration is widely applied. As we will explore in some detail, duration measures a bond’s sensitivity to interest rate changes. The idea behind duration was first presented by Frederick Macaulay in an early study of U.S. financial markets.4 Today, duration is a very widely used measure of a bond’s price sensitivity to changes in bond yields.
+
+duration
+
+A widely used measure of a bond’s sensitivity to changes in bond yields.
+
+MACAULAY DURATION
+There are several duration measures. The original version is called Macaulay duration. The usefulness of Macaulay duration stems from the fact that it satisfies the following approximate relationship between percentage changes in bond prices and changes in bond yields:
+
+
+As a consequence, two bonds with the same duration, but not necessarily the same maturity, have approximately the same price sensitivity to a change in bond yields. This approximation is quite accurate for relatively small changes in yields, but it becomes less accurate when large changes are considered.
+
+To see how we use this result, suppose a bond has a Macaulay duration of six years and its yield decreases from 10 percent to 9.5 percent. The resulting percentage change in the price of the bond is calculated as follows:
+
+
+Thus, the bond’s price rises by 2.86 percent in response to a yield decrease of 50 basis points.
+
+MODIFIED DURATION
+Some analysts prefer to use a variation of Macaulay duration called modified duration. The relationship between Macaulay duration and modified duration for bonds paying semiannual coupons is:
+
+
+page 341
+
+Macaulay Duration
+
+EXAMPLE 10.7
+
+A bond has a Macaulay duration of 11 years and its yield increases from 8 percent to 8.5 percent. What will happen to the price of the bond?
+
+The resulting percentage change in the price of the bond can be calculated as follows:
+
+
+The bond’s price declines by approximately 5.29 percent in response to a 50 basis point increase in yield.
+
+As a result, based on modified duration, the approximate relationship between percentage changes in bond prices and changes in bond yields is:
+
+
+In other words, to calculate the percentage change in the bond’s price, we multiply the modified duration by the change in yields.
+
+Modified Duration
+
+EXAMPLE 10.8
+
+A bond has a Macaulay duration of 8.5 years and a yield to maturity of 9 percent. What is its modified duration?
+
+The bond’s modified duration is calculated as follows:
+
+
+Notice that we divided the yield by 2 to get the semiannual yield.
+
+Modified Duration
+
+EXAMPLE 10.9
+
+A bond has a modified duration of seven years. Suppose its yield increases from 8 percent to 8.5 percent. What happens to its price?
+
+We can very easily determine the resulting percentage change in the price of the bond using its modified duration:
+
+
+The bond’s price declines by about 3.5 percent.
+
+CALCULATING MACAULAY DURATION
+Macaulay duration is often described as a bond’s effective maturity. For this reason, duration values are conventionally stated in years. The first fundamental principle for calculating the duration of a bond concerns the duration of a zero coupon bond. Specifically, the duration of a zero coupon bond is equal to its maturity. Thus, on a pure discount instrument, such as the U.S. Treasury STRIPS, no calculation is necessary to come up with Macaulay duration.
+
+The second fundamental principle for calculating duration concerns the duration of a coupon bond with multiple cash flows. The duration of a coupon bond is a weighted average of individual maturities of all the bond’s separate cash flows. The weights attached to the maturity of each cash flow are proportionate to the present values of each cash flow.
+
+A sample duration calculation for a bond with three years until maturity is illustrated in Table 10.3. The bond sells at par value. It has an 8 percent coupon rate and an 8 percent yield to maturity.
+
+page 342
+
+Calculating Bond Duration
+
+TABLE 10.3
+
+
+As shown in Table 10.3, calculating a bond’s duration can be laborious—especially if the bond has a large number of separate cash flows. Fortunately, relatively simple formulas are available for many of the important cases. For example, if a bond is selling for par value, its duration can be calculated easily using the following formula:
+
+
+where:  M = Bond maturity in years
+
+YTM = Yield to maturity assuming semiannual coupons
+
+For example, using YTM = 8% and M = 3 years, we obtain the same duration value (2.7259 years) computed in Table 10.3.
+
+Duration for a Par Value Bond
+
+EXAMPLE 10.10
+
+Suppose a par value bond has a 6 percent coupon and 10 years to maturity. What is its duration?
+
+Since the bond sells for par, its yield is equal to its coupon rate, 6 percent. Plugging this into the par value bond duration formula, we have:
+
+
+After a little work on a calculator, we find that the duration is 7.66 years.
+
+The par value bond duration formula (Equation 10.8) is useful for calculating the duration of a bond that is actually selling at par value. Unfortunately, the general formula for bonds not necessarily selling at par value is somewhat more complicated. The general duration formula for a bond paying constant semiannual coupons is:
+
+
+where:  CPR = Constant annual coupon rate
+
+  M = Bond maturity in years
+
+ YTM = Yield to maturity assuming semiannual coupons
+
+Although somewhat tedious for manual calculations, this formula is used in many computer programs that calculate bond duration. Some popular personal computer spreadsheet packages and financial calculators have built-in functions to help you perform this calculation. An example of how to use an Excel™ spreadsheet to calculate a Macaulay duration and modified duration is shown in the nearby Spreadsheet Analysis box.
+
+page 343
+
+Duration for a Discount Bond
+
+EXAMPLE 10.11
+
+A bond has a yield to maturity of 7 percent. It matures in 12 years, and its coupon rate is 6 percent. What is its modified duration?
+
+We first must calculate the Macaulay duration using the unpleasant-looking formula just above. We finish by converting the Macaulay duration to modified duration. Plugging into the duration formula, we have:
+
+
+After a little button pushing, we find that the duration is 8.56 years. Finally, converting to modified duration, we find that the modified duration is equal to 8.56/1.035 = 8.27 years.
+
+PROPERTIES OF DURATION
+Macaulay duration has a number of important properties. For straight bonds, the basic properties of Macaulay duration can be summarized as follows:
+
+All else the same, the longer a bond’s maturity, the longer is its duration.
+
+All else the same, a bond’s duration increases at a decreasing rate as maturity lengthens.
+
+All else the same, the higher a bond’s coupon, the shorter is its duration.
+
+All else the same, a higher yield to maturity implies a shorter duration.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+As we saw earlier, a zero coupon bond has a duration equal to its maturity. The duration on a bond with coupons is always less than its maturity. Because of the second principle, durations much longer than 10 or 15 years are rarely seen. An exception to some of these principles involves very long maturity bonds selling at a very steep discount. This exception rarely occurs in practice, so these principles are generally correct.
+
+A graphical illustration of the relationship between duration and maturity is presented in Figure 10.4, where duration is measured on the vertical axis and maturity is measured on the horizontal axis. In Figure 10.4, the yield to maturity for all bonds is 10 percent. Bonds with coupon rates of 0 percent, 5 percent, 10 percent, and 15 percent are presented. As the figure shows, the duration of a zero coupon bond rises step for step with maturity. For the coupon bonds, however, the duration initially moves closely with maturity, as our first duration principle suggests, but, consistent with the second principle, the lines begin to flatten out after four or five years. Also, consistent with our third principle, the lower-coupon bonds have higher durations.
+
+page 344
+
+Bond Duration and Maturity
+
+FIGURE 10.4
+
+
+CHECK THIS
+
+
+
+10.5aWhat does duration measure?
+
+10.5bWhat is the duration of a zero coupon bond?
+
+10.5cWhat happens to a bond’s duration as its maturity grows?
+
+10.6 Bond Risk Measures Based on Duration
+In this section, we examine some risk measures that are either based on duration or closely related to it. These measures are commonly used by bond traders and other fixed-income professionals.
+
+DOLLAR VALUE OF AN 01
+A popular measure of interest rate risk among bond professionals is the dollar value of an 01 (say “dollar value of an oh-one”), which measures the change in bond price resulting from a one basis point change in yield to maturity, where one basis point is 1 percent of 1 percent, that is, .01 percent, or .0001. The dollar value of an 01 is also known as the value of a basis point. The dollar value of an 01 can be stated through the modified duration of a bond as follows:
+
+dollar value of an 01
+
+Change in bond price resulting from a change in yield to maturity of one basis point.
+
+
+page 345
+
+YIELD VALUE OF A 32nd
+When bond prices are quoted in 1/32’s of a point, as is the historical convention, for example, with U.S. Treasury notes and bonds, the yield value of a 32nd is often used by bond professionals as an additional or alternative measure of interest rate risk. The yield value of a 32nd is the change in yield to maturity that would lead to a 1/32 change in bond price. A simple way to obtain the yield value of a 32nd is to multiply the dollar value of an 01 by 32 and then invert the result:
+
+yield value of a 32nd
+
+Change in yield to maturity that would lead to a 1/32 change in bond price.
+
+
+Bond Risk Measures Based on Duration
+
+EXAMPLE 10.12
+
+The bond in Example 10.11 has a modified duration of 8.27 years. What is its dollar value of an 01? What is its yield value of a 32nd?
+
+We must first calculate the price of this bond using the bond pricing formula provided earlier in this chapter (or with your financial calculator):
+
+
+Then, plugging the modified duration of 8.27 years and the bond price as a percentage of par value, 91.971, into Equation 10.10, we obtain the dollar value of an 01:
+
+
+Thus, a one basis point change in yield will change the bond price by about $.076, or 7.6 cents per $100 of face value (in the opposite direction). For a $1,000 face value bond, this would be 76 cents.
+
+Next, we multiply by 32 and invert to obtain the yield value of a 32nd:
+
+
+Now we see that a change in yield of .41 basis point, or .0041 percent, would lead to a change in bond price of about 1/32. As a check, we calculate a bond price obtained by changing the yield from 7 percent to 7.0041 percent:
+
+
+The resulting price change is $.03 ≈ $91.97 − $91.94. Because 1/32 of a point corresponds to $.03125, we see that our computed yield value of a 32nd is quite accurate.
+
+CHECK THIS
+
+
+
+10.6aWhat is the relationship between modified duration and the dollar value of an 01?
+
+10.6bWhat is the relationship between the dollar value of an 01 and the yield value of a 32nd?
+
+10.7 Dedicated Portfolios and Reinvestment Risk
+Duration has another property that makes it a vital tool in bond portfolio management. To explore this subject, we first need to introduce two important concepts: dedicated portfolios and reinvestment risk.
+
+page 346
+
+DEDICATED PORTFOLIOS
+A firm can invest in coupon bonds when it is preparing to meet a future liability or other cash outlay. A bond portfolio formed for such a specific purpose is called a dedicated portfolio. When the future liability payment of a dedicated portfolio is due on a known date, this date is commonly called the portfolio’s target date.
+
+dedicated portfolio
+
+A bond portfolio created to prepare for a future cash outlay.
+
+For a practical view of bond portfolio management, visit
+gobaker.com.
+
+Pension funds provide a good example of dedicated portfolio management. A pension fund normally knows years in advance the amount of benefit payments it must make to its beneficiaries. The fund can then purchase coupon bonds today to prepare for these future payments.
+
+Let’s work through an example. Suppose the Safety First pension fund estimates that it must pay benefits of about $100 million in five years. Safety First then decides to buy coupon bonds yielding 8 percent. These coupon bonds pay semiannual coupons, mature in five years, and are currently selling at par. If interest rates do not change over the next five years, how much money does Safety First need to invest today in these coupon bonds to have $100 million in five years?
+
+Fortunately, we can use Equation 10.3—and some ingenuity—to answer this question. Recall that Equation 10.3 says that today’s bond price, P, is the present value of the coupons plus the present value of the promised face value. However, in the case of Safety First, we want to solve for a future value. So let’s make Equation 10.3 into an equation for future value by multiplying by the amount (1 + YTM/2)2M:
+
+
+Equation 10.12 shows us that the future value of all the payments made on a bond over its life is the current value, P, multiplied by (1 + YTM/2)2M. In the case of Safety First, we know the future value is $100,000,000, so we have:
+
+
+We can rearrange this equation to solve for the present value:
+
+
+The bonds being considered by Safety First have a yield to maturity of 8 percent and mature in five years, so:
+
+
+Thus, Safety First needs to invest about $67.5 million today. Because the bonds in question sell for par, this $67.5 million is also the total face value of the bonds.
+
+With this face value, the coupon payment every six months is $67,556,417 × .08/2 = $2,702,257. When Safety First invests each of these coupons at 8 percent (i.e., the YTM), the total future value of the coupons is $32,443,583. Safety First will also receive the face value of the coupon bonds in five years, or $67,556,417. In five years, Safety First will have $32,443,583 + $67,556,417 = $100,000,000.
+
+Therefore, Safety First needs about $67.5 million to construct a dedicated bond portfolio to fund a future liability of $100 million. However, consider another important fact: We calculated this amount assuming that Safety First can invest each coupon amount at 8 percent over the next five years. If the assumption is true (i.e., interest rates do not change over the next five years), Safety First’s bond fund will grow to the amount needed.
+
+REINVESTMENT RISK
+As we have seen, the bond investment strategy of the Safety First pension fund will be successful if all coupons received during the life of the investment can be reinvested at a constant 8 percent YTM. However, in reality, yields at which coupons can be reinvested are uncertain, and a target date surplus or shortfall is therefore likely to occur.
+
+page 347
+
+Reinvestment Rate Risk
+
+TABLE 10.4
+
+
+The uncertainty about the future or target date portfolio value that results from the need to reinvest bond coupons at yields that cannot be predicted in advance is called reinvestment rate risk. Thus, the uncertain portfolio value on the target date represents reinvestment risk. In general, more distant target dates entail greater uncertainty and reinvestment risk.
+
+reinvestment rate risk
+
+The uncertainty about the future or target date portfolio value that results from the need to reinvest bond coupons at yields not known in advance.
+
+To examine the impact of reinvestment risk, we continue with the example of the Safety First pension fund’s dedicated bond portfolio. We will add one small wrinkle. We assume that Safety First buys 8 percent coupon bonds that are selling at par. However, we will not assume that interest rates stay constant at 8 percent.
+
+Instead, consider two cases, one in which all bond coupons are reinvested at a 7 percent YTM and one in which all coupons are reinvested at a 9 percent YTM. The value of the portfolio on the target date will be the payment of the fixed $67.5 million principal plus the future value of the 10 semiannual coupons compounded at either 7 percent or 9 percent. Note that the coupon rate is 8 percent in both cases.
+
+As shown in Table 10.4, a value of $99.258 million is realized by a 7 percent reinvestment YTM, and a target date portfolio value of $100.762 million is realized through a 9 percent reinvestment YTM. The difference between these two amounts, about $1.5 million, illustrates reinvestment risk.
+
+As this example illustrates, a maturity matching strategy for a dedicated bond portfolio has reinvestment risk. Further, we changed interest rates by only 1 percent. Reinvestment risk can be much greater than what we have shown. Our example also understates a pension fund’s total reinvestment risk because it considers only a single target date. In reality, pension funds have a series of target dates, and a shortfall at one target date typically coincides with shortfalls at other target dates, too.
+
+A simple solution for reinvestment risk is to purchase zero coupon bonds that pay a fixed principal at a maturity chosen to match a dedicated portfolio’s target date. Because there are no coupons to reinvest, there is no reinvestment risk. However, a zero coupon bond strategy has its drawbacks, too. As a practical matter, U.S. Treasury STRIPS are the only zero coupon bonds issued in sufficient quantity to even begin to satisfy the dedicated portfolio needs of pension funds, insurance companies, and other institutional investors.
+
+However, U.S. Treasury securities have lower yields than even the highest-quality corporate bonds. A yield difference of only .25 percent between Treasury securities and corporate bonds can make a substantial difference in the initial cost of a dedicated bond portfolio.
+
+page 348
+
+For example, suppose that Treasury STRIPS have a yield of 7.75 percent. Using semiannual compounding, the present value of these zero coupon bonds providing a principal payment of $100 million at a five-year maturity is calculated as follows:
+
+
+This cost of $68.374 million based on a 7.75 percent yield is significantly higher than the previously stated cost of $67.556 million based on an 8 percent yield. From the perspective of the Safety First pension fund, this represents a hefty premium to pay to eliminate reinvestment risk. Fortunately, as we discuss in the next section, other methods are available at lower cost.
+
+CHECK THIS
+
+
+
+10.7aWhat is a dedicated portfolio?
+
+10.7bWhat is reinvestment rate risk?
+
+10.8 Immunization
+Constructing a dedicated portfolio to minimize the uncertainty in its target date value is called immunization. In this section, we show how duration can be used to immunize a bond portfolio against reinvestment risk.
+
+immunization
+
+Constructing a portfolio to minimize the uncertainty surrounding its target date value.
+
+PRICE RISK VERSUS REINVESTMENT RATE RISK
+To understand how immunization is accomplished, suppose you own a bond with eight years to maturity. However, your target date is actually just six years from now. If interest rates rise, are you happy or unhappy?
+
+Your initial reaction is probably “unhappy” because you know that as interest rates rise, bond values fall. However, things are not so simple. Clearly, if interest rates rise, then, in six years, your bond will be worth less than it would have been at a lower rate. This is called price risk. However, it is also true that you will be able to reinvest the coupons you receive at a higher interest rate. As a result, your reinvested coupons will be worth more. In fact, the net effect of an interest rate increase might be to make you better off.
+
+price risk
+
+The risk that bond prices will decrease, which arises in dedicated portfolios when the target date value of a bond or bond portfolio is not known with certainty.
+
+As our simple example illustrates, for a dedicated portfolio, interest rate changes have two effects. Interest rate increases act to decrease bond prices (price risk) but increase the future value of reinvested coupons (reinvestment rate risk). In the other direction, interest rate decreases act to increase bond values but decrease the future value of reinvested coupons. The key observation is that these two effects—price risk and reinvestment rate risk—tend to offset each other.
+
+You might wonder if it is possible to engineer a portfolio in which these two effects offset each other more or less precisely. As we illustrate next, the answer is most definitely yes.
+
+IMMUNIZATION BY DURATION MATCHING
+The key to immunizing a dedicated portfolio is to match its duration to its target date. If this is done, then the impacts of price and reinvestment rate risk will almost exactly offset, and interest rate changes will have a minimal impact on the target date value of the portfolio. In fact, immunization is often referred to as duration matching.
+
+To see how a duration matching strategy can be applied to reduce target date uncertainty, suppose the Safety First pension fund initially purchases $67.5 million of par value bonds paying 8 percent coupons with a maturity of 6.2 years instead of 5 years. Why 6.2 years? From the par value duration formula, Equation 10.8, a maturity of 6.2 years corresponds to page 349a duration of 5 years. Thus, the duration of Safety First’s dedicated bond portfolio is now matched to its five-year portfolio target date.
+
+Suppose that immediately after the bonds are purchased, a one-time shock causes bond yields to either jump up to 10 percent or jump down to 6 percent. As a result, all coupons are reinvested at either a 10 percent yield or a 6 percent yield, depending on which way rates jump.
+
+This example is illustrated in Figure 10.5, where the left vertical axis measures initial bond portfolio values and the right vertical axis measures bond portfolio values realized by holding the portfolio until the bonds mature in 6.2 years. The horizontal axis measures the passage of time from initial investment to bond maturity. The positively sloped lines plot bond portfolio values through time for bond yields that have jumped to either 10 percent or 6 percent immediately after the initial investment of $67.5 million in par value 8 percent coupon bonds. This example assumes that after their initial jump, bond yields remain unchanged.
+
+Bond Price and Reinvestment Rate Risk
+
+FIGURE 10.5
+
+
+As shown in Figure 10.5, the initial jump in yields causes the value of Safety First’s bond portfolio to jump in the opposite direction. If yields increase, bond prices fall, but coupons are reinvested at a higher interest rate, thereby leading to a higher portfolio value at maturity. In contrast, if yields decrease, bond prices rise, but a lower reinvestment rate reduces the value of the portfolio at maturity.
+
+However, what is remarkable is that regardless of whether yields rise or fall, there is almost no difference in Safety First’s portfolio value at the duration-matched five-year target date. Thus, the immunization strategy of matching the duration of Safety First’s dedicated portfolio to its portfolio target date has almost entirely eliminated reinvestment risk.
+
+DYNAMIC IMMUNIZATION
+The example of the Safety First pension fund immunizing a dedicated bond portfolio using a duration matching strategy assumed that the bond portfolio was subject to a single yield shock. In reality, bond yields change constantly. Therefore, successful immunization requires that a dedicated portfolio be rebalanced frequently to maintain a portfolio duration equal to the portfolio’s target date.
+
+For example, by purchasing bonds with a maturity of 6.2 years, the Safety First pension fund had matched the duration of the dedicated portfolio to the fund’s 5-year target date. One year later, however, the target date is four years away, and bonds with a duration of four years are required to maintain a duration matching strategy. Assuming interest rates haven’t changed, the par value duration formula shows that a maturity of 4.7 years corresponds to a duration of 4 years. Thus, to maintain a duration-matched target date, the Safety First fund must sell its originally purchased bonds now with a maturity of 5.2 years and replace them with bonds having a maturity of 4.7 years.
+
+The strategy of periodically rebalancing a dedicated bond portfolio to maintain a portfolio duration matched to a specific target date is called dynamic immunization. The advantage of page 350dynamic immunization is that reinvestment risk caused by continually changing bond yields is greatly reduced. The drawback of dynamic immunization is that each portfolio rebalancing incurs management and transaction costs. Therefore, portfolios should not be rebalanced too frequently. In practice, rebalancing on an intermittent basis, say, each quarter, is a reasonable compromise between the costs of rebalancing and the benefits of dynamic immunization.
+
+dynamic immunization
+
+Periodic rebalancing of a dedicated bond portfolio to maintain a duration that matches the target maturity date.
+
+CHECK THIS
+
+
+
+10.8aWhat are the two effects on the target date value of a dedicated portfolio of a shift in yields? Explain why they tend to offset.
+
+10.8bHow can a dedicated portfolio be immunized against shifts in yields?
+
+10.8cWhy is rebalancing necessary to maintain immunization?
+
+10.9 Summary and Conclusions
+This chapter covers the basics of bonds, bond yields, duration, and immunization. Among other items, we covered the following topics—grouped by the chapter’s important concepts.
+
+1.  How to calculate bond prices and yields.
+
+A.  The straight bond pricing formula has two separate components. The first component is the present value of all the coupon payments. Because the coupons are fixed and paid on a regular basis, you may recognize that they form an ordinary annuity, and the first piece of the bond pricing formula is a standard calculation for the present value of an annuity. The other component represents the present value of the principal payment at maturity, and it is a standard calculation for the present value of a single lump sum.
+
+B.  Calculating bond prices is mostly “plug and chug” with a calculator. In fact, a good financial calculator or spreadsheet should have this formula built into it. However, it is important to be able to work bond calculations the “long way” so that you know how the formulas work.
+
+C.  Coupon bonds are generally distinguished according to whether they are selling at par value or at a discount or premium relative to par value. Bonds with a price greater than par value are said to be selling at a premium, which occurs when the coupon rate is greater than the yield to maturity. Bonds with a price less than par value are said to be selling at a discount, which occurs when the coupon rate is less than the yield to maturity.
+
+2.  The importance of yield to maturity.
+
+A.  There are three different yield measures: coupon yield or rate, current yield, and yield to maturity. Each is calculated using a specific equation, and which is the biggest or smallest depends on whether the bond is selling at a discount or a premium.
+
+B.  Important relationships among bond prices, maturities, coupon rates, and yields are described by Malkiel’s five bond price theorems.
+
+C.  A stated yield to maturity is almost never equal to an actually realized yield because yields are subject to bond price risk and coupon reinvestment rate risk.
+
+3.  Interest rate risk and Malkiel’s theorems.
+
+A.  Bond prices and bond yields move in opposite directions. As a bond’s yield increases, its price decreases. Conversely, as a bond’s yield decreases, its price increases.
+
+B.  For a given change in a bond’s yield to maturity, the longer the term to maturity of the bond, the greater will be the magnitude of the change in the bond’s price.
+
+C.  For a given change in a bond’s yield to maturity, the size of the change in the bond’s price increases at a diminishing rate as the bond’s term to maturity lengthens.
+
+D.  For a given change in a bond’s yield to maturity, the absolute magnitude of the resulting change in the bond’s price is inversely related to the bond’s coupon rate.
+
+page 351
+
+E.  For a given absolute change in a bond’s yield to maturity, the magnitude of the price increase caused by a decrease in yield is greater than the price decrease caused by an increase in yield.
+
+4.  How to measure the impact of interest rate changes on bond prices.
+
+A.  Bond price risk is the risk that a bond sold before maturity must be sold at a price different from the price predicted by an originally stated yield to maturity. Coupon reinvestment risk is the risk that bond coupons must be reinvested at yields different from an originally stated yield to maturity.
+
+B.  To account for differences in interest rate risk across bonds with different coupon rates and maturities, the concept of duration is widely applied. Duration is a direct measure of a bond’s price sensitivity to changes in bond yields.
+
+C.  Bond portfolios are often created for the purpose of preparing for a future liability payment. Portfolios formed for such a specific purpose are called dedicated portfolios. When the future liability payment of a dedicated portfolio is due on a known date, that date is called the portfolio’s target date.
+
+D.  Minimizing the uncertainty of the value of a dedicated portfolio’s future target date value is called immunization. A strategy of matching a bond portfolio’s duration to the target maturity date accomplishes this goal.
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered bond basics. How should you, as an investor or investment manager, put this information to work?
+
+Now that you’ve been exposed to basic facts about bonds, their prices, and their yields, you might try applying the various principles we have discussed. Do this by buying some bonds, perhaps in a simulated brokerage account, and then observing the behavior of their prices and yields. Buying Treasury bonds is the best place to start.
+
+With a simulated brokerage account, buy two Treasury bonds with the same maturity but different coupons. This will let you see the impact of coupon rates on price volatility. Similarly, buy two bonds with very different maturities but similar coupon rates. You’ll see firsthand how maturity determines the risk of a bond.
+
+While you’re at it, calculate the durations of the bonds you buy. As their yields fluctuate, check that the percentage change in price is very close to what your calculated duration suggests it should be.
+
+To learn more about bond prices and yields, visit some interesting websites such as Investing in Bonds (investinginbonds.com) and The Baker Group (gobaker.com).
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+call price 333
+
+call protection period 334
+
+callable bond 333
+
+clean price 331
+
+coupon rate 326
+
+current yield 326
+
+dedicated portfolio 346
+
+dirty price 331
+
+dollar value of an 01 344
+
+duration 340
+
+dynamic immunization 349
+
+immunization 348
+
+interest rate risk 337
+
+make-whole call price 333
+
+price risk 348
+
+realized yield 337
+
+reinvestment rate risk 347
+
+yield to call (YTC) 334
+
+yield to maturity (YTM) 327
+
+yield value of a 32nd 345
+
+page 352
+
+Chapter Review Problems and Self-Test
+
+Straight Bond Prices (LO1, CFA5)   Suppose a bond has 10 years to maturity and a coupon rate of 6 percent. The bond’s yield to maturity is 8 percent. What’s the price?
+
+Premium Bonds (LO1, CFA3)   Suppose we have two bonds, both with a 6 percent coupon rate and the same yield to maturity of 4 percent, but with different maturities of 5 and 15 years. Which has the higher price? Verify your answer by calculating the prices.
+
+Macaulay Duration (LO4, CFA6)   A bond has a Macaulay duration of nine years, and its yield increases from 6 percent to 6.25 percent. What will happen to the price of the bond?
+
+Answers to Self-Test Problems
+
+Here, the coupon rate is 6 percent and the face value is $1,000, so the annual coupon is $60. The bond’s price is calculated as follows:
+
+Present value of semiannual coupons:
+
+
+Present value of $1,000 principal:
+
+
+The bond’s price is the sum of coupon and principal present values:
+
+
+Because both bonds have a 6 percent coupon and a 4 percent yield, both bonds sell at a premium, and the one with the longer maturity will have a higher price. We can verify these conclusions by calculating the prices as follows:
+
+5-year-maturity premium bond price:
+
+
+15-year-maturity premium bond price:
+
+
+Notice that the longer-maturity premium bond has a higher price, just as we thought.
+
+The resulting percentage change in the price of the bond can be calculated as follows:
+
+
+The bond’s price declines by approximately 2.18 percent in response to a 25 basis point increase in yields.
+
+Test Your Investment Quotient
+
+
+Yield to Maturity (LO2, CFA3)   The yield to maturity on a bond is:
+
+Below the coupon rate when the bond sells at a discount and above the coupon rate when the bond sells at a premium.
+
+The interest rate that makes the present value of the payments equal to the bond price.
+
+Based on the assumption that all future payments received are reinvested at the coupon rate.
+
+Based on the assumption that all future payments received are reinvested at future market rates.
+
+page 353Bond Yields (LO1, CFA5)   In which one of the following cases is the bond selling at a discount?
+
+Coupon rate is greater than current yield, which is greater than yield to maturity.
+
+Coupon rate, current yield, and yield to maturity are all the same.
+
+Coupon rate is less than current yield, which is less than yield to maturity.
+
+Coupon rate is less than current yield, which is greater than yield to maturity.
+
+Bond Yields (LO1, CFA3)   When are yield to maturity and current yield on a bond equal?
+
+When market interest rates begin to level off
+
+If the bond sells at a price in excess of its par value
+
+When the expected holding period is greater than one year
+
+If the coupon and market interest rate are equal
+
+Bond Yields (LO1, CFA5)   Which of the following states the correct relationship among yield measures for discount bonds?
+
+Coupon rate < Current yield < Yield to maturity
+
+Current yield < Coupon rate < Yield to maturity
+
+Coupon rate < Yield to maturity < Current yield
+
+Yield to maturity < Coupon rate < Current yield
+
+Bond Yields (LO1, CFA5)   Which of the following states the correct relationship among yield measures for premium bonds?
+
+Coupon rate > Current yield > Yield to maturity
+
+Current yield > Coupon rate > Yield to maturity
+
+Coupon rate > Yield to maturity > Current yield
+
+Yield to maturity > Coupon rate > Current yield
+
+Bond Prices (LO1, CFA3)   Consider a five-year bond with a 10 percent coupon that is presently trading at a yield to maturity of 8 percent. If market interest rates do not change, one year from now the price of this bond:
+
+Will be higher.
+
+Will be lower.
+
+Will be the same.
+
+Cannot be determined.
+
+Bond Prices (LO1, CFA2)   Using semiannual compounding, what would be the price of a 15-year, zero coupon bond that has a par value of $1,000 and a required return of 8 percent?
+
+$308
+
+$315
+
+$464
+
+$555
+
+Bond Prices (LO1, CFA2)   If an investor’s required return is 12 percent, the value of a 10-year-maturity zero coupon bond with a maturity value of $1,000 is closest to:
+
+$312
+
+$688
+
+$1,000
+
+$1,312
+
+Duration (LO4, CFA3)   Another term for bond duration is:
+
+Actual maturity.
+
+Effective maturity.
+
+Calculated maturity.
+
+Near-term maturity.
+
+Duration (LO4, CFA6)   Which of the following is not a property of duration?
+
+A longer maturity generally yields a longer duration.
+
+Duration generally increases at a decreasing rate as maturity lengthens.
+
+A bigger coupon generally yields a longer duration.
+
+A higher yield to maturity generally yields a shorter duration.
+
+Duration (LO4, CFA4)   Which statement is true for the Macaulay duration of a zero coupon bond?
+
+It is equal to the bond’s maturity in years.
+
+It is equal to one-half the bond’s maturity in years.
+
+page 354It is equal to the bond’s maturity in years divided by its yield to maturity.
+
+It cannot be calculated because of the lack of coupons.
+
+Duration (LO4, CFA6)   Which of the following states the correct relationship between Macaulay duration and modified duration?
+
+Modified duration = Macaulay duration/(1 + YTM/2)
+
+Modified duration = Macaulay duration × (1 + YTM/2)
+
+Modified duration = Macaulay duration/YTM
+
+Modified duration = Macaulay duration × YTM
+
+Duration (LO4, CFA6)   Which one of the following bonds has the shortest duration?
+
+Zero coupon, 10-year maturity
+
+Zero coupon, 13-year maturity
+
+8 percent coupon, 10-year maturity
+
+8 percent coupon, 13-year maturity
+
+Duration (LO4, CFA6)   Identify the bond that has the longest duration (no calculations necessary).
+
+20-year maturity with an 8 percent coupon
+
+20-year maturity with a 12 percent coupon
+
+15-year maturity with a 0 percent coupon
+
+10-year maturity with a 15 percent coupon
+
+Duration (LO4, CFA3)   Which bond has the longest duration?
+
+8-year maturity, 6 percent coupon
+
+8-year maturity, 11 percent coupon
+
+15-year maturity, 6 percent coupon
+
+15-year maturity, 11 percent coupon
+
+Duration (LO4, CFA3)   The duration of a bond normally increases with an increase in:
+
+Term to maturity.
+
+Yield to maturity.
+
+Coupon rate.
+
+All of the above.
+
+Duration (LO4, CFA6)   When interest rates decline, what happens to the duration of a 30-year bond selling at a premium?
+
+It increases.
+
+It decreases.
+
+It remains the same.
+
+It increases at first, then declines.
+
+Duration (LO4, CFA6)   An 8 percent, 20-year corporate bond is priced to yield 9 percent. The Macaulay duration for this bond is 8.85 years. Given this information, how many years is the bond’s modified duration?
+
+8.12
+
+8.47
+
+8.51
+
+9.25
+
+Using Duration (LO4, CFA2)   A 9-year bond has a yield to maturity of 10 percent and a modified duration of 6.54 years. If the market yield changes by 50 basis points, what is the change in the bond’s price?
+
+3.27 percent
+
+3.66 percent
+
+6.54 percent
+
+7.21 percent
+
+Using Duration (LO4, CFA3)   A 6 percent coupon bond paying interest semiannually has a modified duration of 10 years, sells for $800, and is priced at a yield to maturity (YTM) of 8 percent. If the YTM increases to 9 percent, the predicted change in price, using the duration concept, is which of the following amounts?
+
+$76.56
+
+$76.92
+
+$77.67
+
+$80.00
+
+page 355Immunization (LO4, CFA7)   Which of the following strategies is most likely to yield the best interest rate risk immunization results for a bond portfolio?
+
+Maturity matching
+
+Duration matching
+
+Buy and hold
+
+Investing in interest rate-sensitive stocks
+
+Immunization (LO4, CFA7)   Consider two dedicated bond portfolios, both with the same 10-year target dates. One is managed using a buy-and-hold strategy with reinvested coupons. The other is managed using a dynamic immunization strategy. The buy-and-hold portfolio is most likely to outperform the immunized portfolio under what kind of interest rate environment?
+
+Steadily rising interest rates.
+
+Steadily falling interest rates.
+
+Constant interest rates.
+
+Performance will be the same under any environment.
+
+Bond Yields (LO1, CFA5)   A zero coupon bond paying $100 at maturity 10 years from now has a current price of $50. Its yield to maturity is closest to which of the following?
+
+5 percent
+
+6 percent
+
+7 percent
+
+8 percent
+
+Bond Price (LO1, CFA5)   A newly issued 10-year option-free bond is valued at par on June 1, 2017. The bond has an annual coupon of 8.0 percent. On June 1, 2020, the bond has a yield to maturity of 7.1 percent. The price of the bond on June 1, 2022, is closest to:
+
+100.0 percent of par.
+
+102.5 percent of par.
+
+104.3 percent of par.
+
+105.4 percent of par.
+
+Interest Rate Risk (LO3, CFA6)   The interest rate risk of a noncallable bond is most likely to be positively related to the:
+
+Risk-free rate.
+
+Bond’s coupon rate.
+
+Bond’s time to maturity.
+
+Bond’s yield to maturity.
+
+Concept Questions
+
+Bond Prices (LO1, CFA3)   What are premium, discount, and par bonds?
+
+Bond Features (LO1, CFA2)   In the United States, what is the normal face value for corporate and U.S. government bonds? How are coupons calculated? How often are coupons paid?
+
+Coupon Rates and Current Yields (LO1, CFA3)   What are the coupon rate and current yield on a bond? What happens to these if a bond’s price rises?
+
+Interest Rate Risk (LO3, CFA4)   What is interest rate risk? What are the roles of a bond’s coupon and maturity in determining its level of interest rate risk?
+
+Bond Yields (LO1, CFA2)   For a premium bond, which is greater: the coupon rate or the yield to maturity? Why? For a discount bond? Why?
+
+Bond Yields (LO2, CFA4)   What is the difference between a bond’s promised yield and its realized yield? Which is more relevant? When we calculate a bond’s yield to maturity, which of these are we calculating?
+
+Interpreting Bond Yields (LO2, CFA3)   Is the yield to maturity (YTM) on a bond the same thing as the required return? Is YTM the same thing as the coupon rate? Suppose that today a 10 percent coupon bond sells at par. Two years from now, the required return on the same bond is 8 percent. What is the coupon rate on the bond now? The YTM?
+
+Interpreting Bond Yields (LO2, CFA3)   Suppose you buy a 9 percent coupon, 15-year bond today when it is first issued. If interest rates suddenly rise to 15 percent, what happens to the value of your bond? Why?
+
+page 356Bond Prices versus Yields (LO1, CFA3)   (a) What is the relationship between the price of a bond and its YTM? (b) Explain why some bonds sell at a premium to par value and other bonds sell at a discount. What do you know about the relationship between the coupon rate and the YTM for premium bonds? What about discount bonds? For bonds selling at par value? (c) What is the relationship between the current yield and YTM for premium bonds? For discount bonds? For bonds selling at par value?
+
+Yield to Call (LO1, CFA5)   For callable bonds, the financial press generally reports either the yield to maturity or the yield to call. Often yield to call is reported for premium bonds, and yield to maturity is reported for discount bonds. What is the reasoning behind this convention?
+
+Questions and Problems
+
+Core Questions
+
+Bond Prices (LO1, CFA5)   Aloha, Inc., has 7 percent coupon bonds on the market that have 12 years left to maturity. If the YTM on these bonds is 9.1 percent, what is the current bond price?
+
+Bond Yields (LO1, CFA2)   Rolling Company bonds have a coupon rate of 4 percent, 14 years to maturity, and a current price of $1,086. What is the YTM? The current yield?
+
+Bond Prices (LO1, CFA3)   A bond has a coupon rate of 8.2 percent and 9 years until maturity. If the yield to maturity is 7.4 percent, what is the price of the bond?
+
+Bond Prices (LO1, CFA3)   A bond with 25 years until maturity has a coupon rate of 7.2 percent and a yield to maturity of 6 percent. What is the price of the bond?
+
+Yield to Maturity (LO1, CFA5)   A bond sells for $902.30 and has a coupon rate of 6 percent. If the bond has 12 years until maturity, what is the yield to maturity of the bond?
+
+Yield to Maturity (LO1, CFA5)   A bond with a maturity of 12 years sells for $1,047. If the coupon rate is 8.2 percent, what is the yield to maturity of the bond?
+
+Yield to Maturity (LO1, CFA5)   May Industries has a bond outstanding that sells for $928. The bond has a coupon rate of 7.5 percent and nine years until maturity. What is the yield to maturity of the bond?
+
+Yield to Maturity (LO1, CFA5)   Atlantis Fisheries issues zero coupon bonds on the market at a price of $417 per bond. Each bond has a face value of $1,000 payable at maturity in 20 years. What is the yield to maturity for these bonds?
+
+Yield to Call (LO1, CFA5)   The Atlantis Fisheries zero coupon bonds referred to in Problem 8 are callable in 10 years at a call price of $500. Using semiannual compounding, what is the yield to call for these bonds?
+
+Yield to Call (LO1, CFA5)   If, instead, the Atlantis Fisheries zero coupon bonds referred to in Problems 8 and 9 are callable in 10 years at a call price of $550, what is their yield to call?
+
+Intermediate Questions
+
+11. Coupon Rates (LO1, CFA2)   Ghost Rider Corporation has bonds on the market with 10 years to maturity, a YTM of 7.5 percent, and a current price of $938. What must the coupon rate be on the company’s bonds?
+
+12. Bond Prices (LO1, CFA5)   Great Wall Pizzeria issued 10-year bonds one year ago at a coupon rate of 6.20 percent. If the YTM on these bonds is 7.4 percent, what is the current bond price?
+
+13. Bond Yields (LO1, CFA3)   Soprano’s Spaghetti Factory issued 25-year bonds two years ago at a coupon rate of 7.5 percent. If these bonds currently sell for 108 percent of par value, what is the YTM?
+
+14. Bond Price Movements (LO1, CFA3)   A zero coupon bond with a 6 percent YTM has 20 years to maturity. Two years later, the price of the bond remains the same. What’s going on here?
+
+15. Realized Yield (LO2, CFA6)   For the bond referred to in Problem 14, what would be the realized yield if it were held to maturity?
+
+16. Bond Price Movements (LO1, CFA5)   Bond P is a premium bond with an 8 percent coupon, a YTM of 6 percent, and 15 years to maturity. Bond D is a discount bond with an 8 percent coupon, a YTM of 10 percent, and also has 15 years to maturity. If interest rates remain unchanged, what do you expect the price of these bonds to be 1 year from now? In 5 years? In 10 years? In 14 years? In 15 years? What’s going on here?
+
+17. Interest Rate Risk (LO3, CFA4)   Both Bond A and Bond B have 6 percent coupons and are priced at par value. Bond A has 5 years to maturity, while Bond B has 15 years to maturity. page 357If interest rates suddenly rise by 2 percent, what is the percentage change in price of Bond A? Of Bond B? If rates were to suddenly fall by 2 percent instead, what would the percentage change in price of Bond A be now? Of Bond B? Illustrate your answers by graphing bond prices versus YTM. What does this problem tell you about the interest rate risk of longer-term bonds?
+
+18. Interest Rate Risk (LO3, CFA4)   Bond J is a 4 percent coupon bond. Bond K is an 8 percent coupon bond. Both bonds have 10 years to maturity and have a YTM of 7 percent. If interest rates suddenly rise by 2 percent, what is the percentage price change of these bonds? What if rates suddenly fall by 2 percent instead? What does this problem tell you about the interest rate risk of lower-coupon bonds?
+
+19. Finding the Bond Maturity (LO1, CFA2)   LKD Co. has 8 percent coupon bonds with a YTM of 6.8 percent. The current yield on these bonds is 7.4 percent. How many years do these bonds have left until they mature?
+
+20. Finding the Bond Maturity (LO1, CFA2)   You’ve just found a 10 percent coupon bond on the market that sells for par value. What is the maturity on this bond?
+
+21. Realized Yields (LO2, CFA6)   Suppose you buy a 6 percent coupon bond today for $1,080. The bond has 10 years to maturity. What rate of return do you expect to earn on your investment? Two years from now, the YTM on your bond has increased by 2 percent, and you decide to sell. What price will your bond sell for? What is the realized yield on your investment? Compare this yield to the YTM when you first bought the bond. Why are they different? Assume interest payments are reinvested at the original YTM.
+
+22. Yield to Call (LO1, CFA3)   Fooling Company has a 10 percent callable bond outstanding on the market with 25 years to maturity, call protection for the next 10 years, and a call premium of $100. What is the yield to call (YTC) for this bond if the current price is 108 percent of par value?
+
+23. Calculating Duration (LO4, CFA6)   What is the Macaulay duration of a 7 percent coupon bond with five years to maturity and a current price of $1,025.30? What is the modified duration?
+
+24. Using Duration (LO4, CFA6)   In Problem 23, suppose the yield on the bond suddenly increases by 2 percent. Use duration to estimate the new price of the bond. Compare your answer to the new bond price calculated from the usual bond pricing formula. What do your results tell you about the accuracy of duration?
+
+25. Dollar Value of an 01 (LO4, CFA2)   What is the dollar value of an 01 for the bond in Problem 23?
+
+26. Yield Value of a 32nd (LO4, CFA2)   A Treasury bond with 8 years to maturity is currently quoted at 106:16. The bond has a coupon rate of 7.5 percent. What is the yield value of a 32nd for this bond?
+
+27. Calculating Duration (LO4, CFA6)   A bond with a coupon rate of 8 percent sells at a yield to maturity of 9 percent. If the bond matures in 10 years, what is the Macaulay duration of the bond? What is the modified duration?
+
+28. Calculating Duration (LO4, CFA6)   Assume the bond in Problem 27 has a yield to maturity of 7 percent. What is the Macaulay duration now? What does this tell you about the relationship between duration and yield to maturity?
+
+29. Calculating Duration (LO4, CFA6)   You find a bond with 19 years until maturity that has a coupon rate of 8 percent and a yield to maturity of 7 percent. What is the Macaulay duration? The modified duration?
+
+30. Using Duration (LO4, CFA3)   Suppose the yield to maturity on the bond in Problem 29 increases by .25 percent. What is the new price of the bond using duration? What is the new price of the bond using the bond pricing formula? What if the yield to maturity increases by 1 percent? By 2 percent? By 5 percent? What does this tell you about using duration to estimate bond price changes for large interest rate changes?
+
+31. Bootstrapping (LO1)   One method used to obtain an estimate of the term structure of interest rates is called bootstrapping. Suppose you have a one-year zero coupon bond with a rate of r1 and a two-year bond with an annual coupon payment of C. To bootstrap the two-year rate, you can set up the following equation for the price (P) of the coupon bond:
+
+
+Because you can observe all of the variables except r2, the spot rate for two years, you can solve for this interest rate. Suppose there is a zero coupon bond with one year to maturity that sells for $949 and a two-year bond with a 7.5 percent coupon paid annually that sells for $1,020. What is page 358the interest rate for two years? Suppose a bond with three years until maturity and an 8.5 percent annual coupon sells for $1,029. What is the interest rate for three years?
+
+32. Bootstrapping (LO1)   You find that the one-, two-, three-, and four-year interest rates are 4.2 percent, 4.5 percent, 4.9 percent, and 5.1 percent, respectively. What is the yield to maturity of a four-year bond with an annual coupon rate of 6.5 percent? Hint: Use the bootstrapping technique in Problem 31 to find the price of the bond.
+
+Spreadsheet Problems
+
+33. Yield to Maturity (LO1, CFA3)   A Treasury bond that settles on August 10, 2019, matures on April 15, 2024. The coupon rate is 4.5 percent and the quoted price is 106:17. What is the bond’s yield to maturity?
+
+34. Bond Yields (LO1, CFA3)   A bond that settles on June 7, 2019, matures on July 1, 2039, and may be called at any time after July 1, 2029, at a price of 105. The coupon rate on the bond is 6 percent and the price is 115.00. What are the yield to maturity and yield to call on this bond?
+
+35. Duration (LO4, CFA6)   A Treasury bond that settles on October 18, 2019, matures on March 30, 2038. The coupon rate is 5.30 percent, and the bond has a 4.45 percent yield to maturity. What are the Macaulay duration and modified duration?
+
+36. Realized Yields (LO2, CFA6)   Assume you purchase (at par) a 10-year bond with a 6 percent coupon and a $1,000 face value. Suppose you are only able to reinvest the coupons at a rate of 4 percent. If you sell the bond after five years when the yield to maturity is 7 percent, what is your realized yield?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA3, CFA6, CFA7]
+
+Frank Myers, CFA, is a fixed-income portfolio manager for a large pension fund. A member of the Investment Committee, Fred Spice, is very interested in learning about the management of fixed-income portfolios. Mr. Spice has approached Mr. Myers with several questions.
+
+Mr. Myers has decided to illustrate fixed-income trading strategies using a fixed-rate bond and note. Both bonds have semiannual coupons. Unless otherwise stated, all interest rate changes are parallel. The characteristics of these securities are shown in the table below.
+
+Fixed-Rate Bond	Fixed-Rate Note
+Price	107.18	100.00
+Yield to maturity	5.00%	5.00%
+Periods to maturity	18	8
+Modified duration	6.9848	3.5851
+Mr. Spice asks Mr. Myers how a fixed-income manager would position his portfolio to capitalize on his expectations of increasing interest rates. Which of the following would be the most appropriate strategy?
+
+Lengthen the portfolio duration.
+
+Buy fixed-rate bonds.
+
+Shorten the portfolio duration.
+
+Mr. Spice asks Mr. Myers to quantify the value changes from changes in interest rates. To illustrate, Mr. Myers computes the value change for the fixed-rate note. He assumes an increase in interest rates of 100 basis points. Which of the following is the best estimate of the change in value for the fixed-rate note?
+
+−$7.17
+
+−$3.59
+
+$3.59
+
+For an increase of 100 basis points in the yield to maturity, by what amount would the fixed-rate bond’s price change?
+
+−$7.49
+
+−$5.73
+
+−$4.63
+
+page 359Mr. Spice wonders how a fixed-income manager would position his portfolio to capitalize on the expectation of an upward-shifting and twisting term structure. For the twist, interest rates on long-term bonds increase by more than those on shorter-term notes.
+
+Sell bonds and buy notes.
+
+Buy bonds and sell notes.
+
+Buy both bonds and notes.
+
+What’s on the Web?
+
+Bond Markets Go to the Market Data tab at finra-markets.morningstar.com and find the section for Bonds. What is the outlook for the bond market today? What are the major news items today that are expected to influence the bond market?
+
+Government Bonds Go to bloomberg.com and look up the yields for U.S. government bonds using the “Rates & Bonds” link. You should also find a listing for foreign government bonds. Are the yields on all government bonds the same? Why or why not?
+
+
+
+
+1 The way accrued interest is calculated actually depends on the type of bond being quoted, for example, Treasury or corporate. The difference has to do with exactly how the fractional coupon period is calculated. In our example just above, we implicitly treated the months as having exactly the same length (i.e., 30 days each, 360 days in a year), which is consistent with the way corporate bonds are quoted. In contrast, for Treasury bonds, actual day counts are used. If you look back at our Spreadsheet Analysis exhibit, you’ll see that we had to specify this treatment to value our Treasury bond.
+
+2 There is an alternative way to find the yield to maturity such that you do not need to make the final adjustment of multiplying by two. However, it requires you to change the payments per year (P/Y) in the calculator. We find that doing this leads to more errors, as students forget to change this assumption when moving from one problem to another.
+
+3 Burton G. Malkiel, “Expectations, Bond Prices, and the Term Structure of Interest Rates,”Quarterly Journal of Economics (May 1962), pp. 197–218.
+
+4 Frederick Macaulay, Some Theoretical Problems Suggested by the Movements of Interest Rates, Bond Yields, and Stock Prices in the United States since 1856 (New York: National Bureau of Economic Research, 1938).

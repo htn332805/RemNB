@@ -1,0 +1,807 @@
+CHAPTER 15
+How Firms Raise Capital
+
+LEARNING OBJECTIVES
+
+Explain what is meant by bootstrapping when raising seed financing and why bootstrapping is important.
+Describe the role of venture capitalists in the economy and discuss how they reduce their risk when investing in start-up businesses.
+Discuss the advantages and disadvantages of going public and compute the net proceeds from an IPO.
+Explain why, when underwriting new security offerings, investment bankers prefer that the securities be underpriced. Compute the total cost of an IPO.
+Discuss the costs of bringing a general cash offer to market.
+Explain why a firm that has access to the public markets might elect to raise money through a private placement.
+Review the common types of commercial bank loans, their terms, and how they are priced.
+By any measure, the 2020 market for initial public offerings (IPOs) of stock on U.S. markets was record breaking. With over $61 billion in capital raised, IPO activity for the year was the highest on record. Perhaps the most well-known new stock issue during the year was the IPO debut of Fintech unicorn Airbnb, Inc., late in the year. Startups worth over $1 billion are referred to as unicorns because their remarkable success lends these firms an almost mythical status among investors. On December 9, 2020, the home-sharing giant listed 51.5 million of its shares for the first time on the NASDAQ exchange. While the company’s offering price to IPO investors was $68 per share, the stock price immediately shot up at the start of trade and finished the day with a closing price of $144.71—a one-day return of nearly 113 percent! With a market capitalization of well over $100 billion, Airbnb was suddenly worth more than twice as much as market leaders in the hotel industry, including Marriott International and Hilton Worldwide.
+
+Airbnb was founded in 2008 when its co-founders decided to rent out room in their San Francisco apartment to help pay their rent. At the time of the IPO, Airbnb had grown into a giant in the multi-billion-dollar worldwide hospitality market. While Airbnb’s primary line of business featured over 7 million home rental listings, the company expanded its business model by entering the marketplace for remote work, as well as offering both in-person and remote “experiences” to its customers.
+
+Airbnb had experienced a roller-coaster year in 2020, and its IPO almost didn’t happen. The company saw its revenue plummet nearly 80 percent at the onset of the public health crisis earlier in the year, and it borrowed $2 billion to secure its near-term liquidity. As the year ended, however, Airbnb saw an improvement in the demand for local rentals and stronger demand in the market for remote experiences. With the implementation of cost-cutting measures, the company managed to earn a profit in the third quarter. Given the stabilization of its business model, company management, along with investment banking advisors, decided that the time was right to raise capital with an equity IPO. The sale of IPO shares provided Airbnb with approximately $3.5 billion in new capital.
+
+Founders of companies such as Airbnb are constantly thinking about how to fund their businesses. Initial financing often comes from the founders themselves and from family members and friends. However, these sources often cannot provide all of the capital that a growing company needs. As startup firms continue to grow, founders will eventually begin to sell shares of stock through private offerings to outside investors, such as angel investors and venture capitalists. Prior to its 2020 IPO, Airbnb had raised over $6 billion from private stock investors, including well-known venture capital firms such as Sequoia Capital and Founders Fund. This chapter discusses how firms such as Airbnb raise capital to finance their business activities, as well as the costs and benefits associated with various public and private financing alternatives.
+
+Chapter Preview
+This chapter is about how firms raise capital so that they can acquire the productive assets needed to grow and remain profitable. To raise money, a firm can borrow, sell stock, or both. How a firm actually raises capital depends on factors such as where the firm is in its life cycle, its expected cash flows, and its risk characteristics. Management’s goal is to raise the amount of money necessary to finance the business at the lowest possible cost.
+
+We start the chapter by examining how many new businesses acquire their first equity funding through “bootstrapping” and the role venture capitalists play in providing equity to help firms get started. Once a firm is successfully launched, management has a number of other funding options, and we discuss those options in the remainder of this chapter.
+
+We explain how firms sell their first issue of common stock in the public markets and the work of investment banks in completing these sales. First-time equity sales are known as initial public offerings, or IPOs. We then discuss the role that private markets play in funding businesses and describe factors that managers consider when deciding between a public and a private market sale. We close the chapter with a discussion of the importance of commercial banks in providing short-term and intermediate-term financing.
+
+15.1 Bootstrapping
+LEARNING OBJECTIVE
+
+Explain what is meant by bootstrapping when raising seed financing and why bootstrapping is important.
+New business start-ups are an important factor in determining and sustaining long-term economic growth. This fact explains why state and local governments invest heavily in industrial parks, new business incubators, and technology and entrepreneurial programs at state universities and two-year colleges. Although governments can do a lot to foster new business development, they generally can do little to provide the equity capital and the initial support that new businesses need during their start-up phase.
+
+How New Businesses Get Started
+Most businesses are started by an entrepreneur who has a vision for a new business or product and a passionate belief in the concept’s viability. New businesses are seldom started in large corporations. In fact, entrepreneurs regularly leave large companies to start businesses, often using technology developed by these firms. Large companies are efficient at producing goods and services and bringing them to market, but they generally do not excel at incubating new businesses.
+
+The entrepreneur often fleshes out his or her ideas and makes them operational through informal discussions with people whom the entrepreneur respects and trusts, such as friends and early investors. These discussions may involve issues related to technology, manufacturing, personnel, marketing, and finance. The discussions are far from glamorous. They are usually low-budget affairs that take place around a kitchen table with lots of coffee. The founder and his or her advisers often have a common bond that has drawn them together. They may have graduated from the same college, have worked for the same company, or have some fraternal or family ties.
+
+Initial Funding of the Firm
+The process by which many entrepreneurs raise seed money and obtain other resources necessary to start their businesses is often called bootstrapping. The term bootstrapping comes from the old expression “pull yourself up by your bootstraps,” which means to accomplish something on your own.
+
+bootstrapping the process by which many entrepreneurs raise seed money and obtain other resources necessary to start their businesses
+
+The ways in which entrepreneurs bootstrap their businesses vary greatly. The initial seed money usually comes from the entrepreneur or other founders. Until the business gets started, entrepreneurs often work regular full-time jobs. The job provides some of the cash flow needed to launch the business and to support the entrepreneur’s family (although not always in that order of priority). Other cash may come from personal savings, the sale of assets such as cars and boats, borrowing against the family home, loans from family members and friends, and loans obtained through credit cards. At this stage of business development, venture capitalists or banks are not normally willing to fund the business.
+
+Where does the seed money go? In most cases, it is spent on developing a prototype of the product or service and a business plan. The deliverables at this stage are whatever it takes to satisfy investors that the new business concept can become a viable business and deserves their financial support.
+
+The movie producer Spike Lee offers a classic example of bootstrapping. After graduating from New York University’s Tisch School of the Arts with a master’s degree, he launched his film production company with money earned from his first feature movie, She’s Gotta Have It. The film was shot in four days to hold costs down, and most of the cast and crew were former classmates of Lee’s who worked for little or no wages. The film’s out-of-pocket cost of $125,000 was financed by credit card loans and money from family and friends. The film went on to gross $8.5 million.
+
+Before You Go On
+Explain bootstrapping, and list common sources of seed money.
+
+Founder Institute provides useful advice for budding entrepreneurs looking to raise money from friends and family at fi.co/insight/how-to-raise-a-friends-and-family-round
+
+15.2 Venture Capital
+LEARNING OBJECTIVE
+
+Describe the role of venture capitalists in the economy and discuss how they reduce their risk when investing in start-up businesses.
+The bootstrapping period usually lasts no more than one or two years. At some point, the founders will have developed a prototype of the product and a business plan, which they use to obtain venture capital funding to grow the business.1 For most entrepreneurs, this is a critical time that determines whether they have a viable business concept that will be funded or will disband because of the lack of investor interest.
+
+Venture capitalists are individuals or firms that help new businesses get started and provide much of their early-stage financing. Individual venture capitalists, so-called angels (or angel investors), are typically wealthy individuals who invest their own money in emerging businesses at the very early stages. In contrast, venture capital firms typically pool money from various sources to invest in new businesses. The primary sources of funds for venture capital firms include financial and insurance firms, private and public pension funds, wealthy individuals and families, corporate investments not associated with employee pensions, and endowments and foundations.
+
+venture capitalists individuals or firms that invest by purchasing equity in new businesses and often provide entrepreneurs with business advice
+
+angels (angel investors) wealthy individuals who invest their own money in new ventures
+
+The Venture Capital Industry
+Venture capitalists have always operated in the United States in one form or another. The venture capital industry, as we know it today, emerged after venture capital firms began raising capital through venture capital limited partnerships (funds) in the late 1960s. These funds revolutionized the industry, and the annual flow of capital into venture capital firms increased greatly after they first appeared. Exhibit 15.1 shows that at the end of 2019, there were 1,328 venture capital firms and 2,211 separate venture capital funds in the United States—many firms are managing more than one fund at a given time. The funds had access to an average of $189.3 million of capital. Venture capital firms invested a total of $133.4 billion in 11,359 deals during 2019, for an average of $11.7 million per deal ($133.4 billion/11,359 deals = $11.7 million).
+
+Today, the venture capital industry employs several thousand professionals, with the biggest concentrations of firms in California, New York, Illinois, and Massachusetts. Other areas of concentration are the Research Triangle in North Carolina; Austin, Texas; and the Dulles Airport corridor near Washington, D.C. Modern venture capital firms tend to specialize in a specific line of business, such as clean energy, business software, hospitality (lodging, restaurants, and related services), or medical devices. A significant number of these firms focus on high-technology investments.
+
+Why Venture Capital Funding Is Different
+Venture capital is important because entrepreneurs have only limited access to traditional sources of funding. In general, there are three reasons why traditional sources of funding do not work for new or emerging businesses:
+
+The high degree of risk involved. Starting a new business is a risky proposition. The fact is that most new businesses fail, and it is difficult to identify which firms will be successful. Many suppliers of capital, such as banks, pension funds, and insurance companies, are averse to undertaking high-risk investments, and much of their risk-averse behavior is mandated in regulations that restrict their conduct.
+EXHIBIT 15.1 Venture Capital Industry Characteristics, 2012–2019
+
+At the end of 2019, there were 1,328 venture capital firms and 2,211 separate venture capital funds in the United States. The funds had an average of $189.3 million of investable capital. Venture capital firms invested a total of $133.4 billion in 11,359 deals during 2019. The number of firms and funds, and the level of investment activity, increased substantially over the 2012–2019 period.
+
+ 	Venture Capital Firms and Funds		Investments by Venture Capital Firms
+Year	Number of firmsa	Total Number of Existing Funds	Average Fund Size ($ millions)		Number of Deals	Total Dollar Value ($ billions)
+2012	   872	1,378	$130.6	 	7,958	$41.3
+2013	   917	1,422	  102.4	 	9,413	  47.7
+2014	   981	1,520	  129.7	 	10,720	  72.3
+2015	1,041	1,647	  126.7	 	11,073	  83.5
+2016	1,094	1,781	  142.1	 	  9,694	  78.1
+2017	1,200	1,939	  137.9	 	10,392	  87.1
+2018	1,284	2,093	  203.3	 	10,648	141.8
+2019	1,328	2,211	   189.3	 	11,359	133.4
+Average	1,090	1,749	$145.3	 	10,157	$85.7
+aNumber of firms that raised funds in the previous eight years.
+
+Source: National Venture Capital Association 2020 Yearbook.
+Types of productive assets. Most commercial loans are made to firms that have tangible assets, such as machinery, equipment, and physical inventory. Lenders understand the operations of these firms and their inherent risks; thus, they are comfortable making loans to them. New firms whose primary assets are often intangibles, such as patents or trade secrets, find it difficult to secure financing from traditional lending sources.
+Information asymmetry problems. Recall from Chapter 1 that information asymmetry arises when one party to a transaction has knowledge that the other party does not. An entrepreneur knows more about his or her company’s prospects than a lender does. Also, when dealing with highly specialized technologies, or companies emerging in new business areas, most investors do not have the expertise to distinguish between competent and incompetent entrepreneurs. As a result, they are reluctant to invest in these firms.
+For these reasons, investors such as financial and insurance firms, pension funds, endowment funds, and university foundations find it difficult to participate directly in the venture capital market. Instead, they invest in venture capital funds that specialize in identifying attractive investments in new businesses, managing those investments, and selling (exiting) them at the appropriate time.
+
+The Venture Capital Funding Cycle
+To illustrate how venture capitalists help launch new business firms, we next examine the venture capital funding cycle, which is summarized in Exhibit 15.2. You may want to refer to the exhibit from time to time as we discuss the funding cycle.
+
+Starting a New Business—The Tuscan Pizzeria
+
+Suppose you have been in the pizza business for several years and have developed a concept for a high-end pizzeria that you believe has the potential to grow into a national chain. The shops will have an Italian ambiance: a Tuscan facade with an Old World Italian interior decor. They will feature pizzas with all-natural ingredients that will be baked in wood-burning ovens. The interior will be designed so that customers can watch their pizzas being prepared and baked. The dough is slow rising and, after baking, is good enough to eat by itself. In addition, the pizzerias will feature panzanella salads of diced raw vegetables and Italian cold cuts, modestly priced wines, and sandwiches made from crackly loaves of bread baked in the wood-burning oven. You are planning to name your firm “The Tuscan Pizzeria.”
+
+EXHIBIT 15.2 The Venture Capital Funding Cycle The typical venture capital funding cycle begins when the entrepreneur runs low on bootstrap financing. Venture capitalists then provide equity financing. They will later exit through a private or public sale of their equity. The duration of the cycle is typically three to seven years, and only a small percentage of new ventures make it all the way to the end.
+
+
+The Business Plan
+
+You have spent nearly six months of evenings and weekends developing a business plan. You received help from an attorney and consultants at a regional business incubator. In addition, several people who have started successful restaurants have read and commented on your plan. As a result of your efforts, your business plan is well thought out and well executed. The business plan describes what you want the business to become, why consumers will find your pizzerias attractive (the value proposition), how you are going to accomplish your objectives, and what resources you will need. You presented your finished business plan to a venture capitalist at a regional venture capital firm, and she expressed an interest in it. This is a serious inquiry, because venture capital firms receive many unsolicited business plans, but respond to very few.
+
+First-Stage Financing
+
+After a number of meetings with you and your management team, the venture capitalist agrees to fund the project, but only in stages, and for less than the full amount you requested. At this time, the venture capital firm is willing to fund $1.6 million of the $6 million you estimate is necessary to build a successful business. In addition, you will have to come up with $400,000 on your own. You plan to do this by using $200,000 of your own money and obtaining the remaining $200,000 from family members and key employees. Financially, you will be stretched to the limit.
+
+How Venture Capitalists Reduce Their Risk
+
+Venture capitalists know that only a handful of new companies will survive to become successful firms. To reduce their risk, they use a number of tactics when they invest in new ventures, including funding the ventures in stages, requiring entrepreneurs to make personal investments, syndicating investments, and maintaining in-depth knowledge about the industry in which they specialize.
+
+Staged Funding
+The key idea behind staged funding is that each stage gives the venture capitalist an opportunity to reassess the management team and the firm’s financial performance. If the performance does not meet expectations, the venture capitalists can bail out and cut their losses, or, if they still have confidence in the project, they can help management make some midcourse corrections so that the project can proceed. Companies typically go through three to seven funding stages, and each stage passed is a vote of confidence for that project. For example, each of the 19 stock offerings that Airbnb completed in the years before its IPO was one of these stages. (As you can see in Exhibit 15.2, the later stages of financing are sometimes called mezzanine financing because these investors did not get in on the ground floor.)
+
+In our example, the $2 million ($1.6 million + $0.4 million = $2 million) with which you are starting your business makes up the first, or seed-stage, financing. It will be enough to build the prototype pizzeria, make it operational, and test the concept’s viability in the marketplace. Based on the prototype’s success, additional financing (such as the other $4 million you need) may be allocated to build two additional pizzerias and develop the operating and financial systems needed to operate a chain of Tuscan pizzerias. Later stages of financing will fund more new restaurants.
+
+The venture capitalists’ investments give them an equity interest in the company. Typically, this is in the form of preferred stock that is convertible into common stock at the discretion of the venture capitalist. Preferred stock ensures that the venture capitalists have the most senior claim among the stockholders if the firm fails, while the conversion feature enables the venture capitalists to share in the gains if the business is successful.
+
+Personal Investment
+Venture capitalists often require the entrepreneur to make a substantial personal investment in the business. In our example, by investing $400,000 of your money and money from friends and employees, you confirm that you are confident in the business and highly motivated to make it succeed. Note that it is unlikely that the venture capitalists will allow you to pay yourself a large salary as manager of the business. They want your financial rewards to come from building a successful business, not from your salary.
+
+Syndication
+It is a common practice to syndicate seed- and early-stage venture capital investments. Syndication occurs when the originating venture capitalist sells a percentage of a deal to other venture capitalists. Syndication reduces risk in two ways. First, it increases the diversification of the originating venture capitalist’s investment portfolio, since other venture capitalists now own a portion of the deal and the originating venture capitalist has less money invested. Second, the willingness of other venture capitalists to share in the investment provides independent corroboration that the investment is a reasonable decision.
+
+In-Depth Knowledge
+Another factor that reduces risk is the typical venture capitalist’s in-depth knowledge of the industry and technology. The specialization we mentioned earlier gives the venture capitalist a comparative advantage over other investors or lenders who are generalists.
+
+The Exit Strategy
+
+Venture capitalists are not long-term investors in the companies they back. Typically, they stay with a new firm until it is a successful going concern, which usually takes three to seven years; then they exit by selling their equity position. Every venture capital agreement includes provisions identifying who has the authority to make critical decisions concerning the exit process. Those provisions usually include the following: (1) timing (when to exit), (2) the method of exit, and (3) what price is acceptable. Exit strategies can be controversial, because the venture capitalist and the other owners may not agree on these important details.
+
+There are three principal ways in which venture capital firms exit venture-backed companies: selling to a strategic buyer, selling to a financial buyer, and offering stock to the public.
+
+Strategic Buyer
+A common way for venture capitalists to exit is to sell the firm’s equity to a strategic buyer in the private market. An example of a strategic buyer for The Tuscan Pizzeria would be a restaurant firm such as McDonald’s Corporation. McDonald’s might view the purchase as a strategic acquisition because one of the company’s goals is to move into the nonhamburger food market with new brands, as it did when it acquired Chipotle Mexican Grill in 2005. The strategic buyer is looking to create value through synergies between the acquisition and the firm’s existing productive assets.
+
+Financial Buyer
+Sales to financial buyers are another way for venture capitalists to exit a firm. This type of sale occurs when a financial group—often a private equity (leveraged buyout) firm—buys the new firm with the intention of holding it for a period of time, usually three to five years, and then selling it for a higher price. (Private equity firms are discussed in more detail in Section 15.6.) The difference between a strategic and a financial buyout is that a financial buyer does not expect to gain from operating or marketing synergies. In a financial sale, the firm operates independently, and the buyer focuses on creating value by improving operations as much as possible. If the firm is performing poorly, the buyer will likely bring in a new management team.
+
+Initial Public Offering
+A venture capitalist may also exit an investment by taking the company public through an initial public offering (IPO). To obtain the highest price possible in the IPO, a venture capitalist will not sell all of the shares he or she holds at the time of the IPO. Selling everything would send a bad signal to investors. Once the firm’s shares are publicly traded, however, he or she can sell the remaining shares in the public market. Exhibit 15.3 shows the number of strategic and financial sales and ventured backed IPOs of new businesses in the United States between 2006 and 2019. As you can see, the majority of venture capitalists exit through strategic and financial sales rather than IPOs.
+
+Venture Capitalists Provide More Than Financing
+A common misconception about venture capitalists is that their sole function is to provide financing for new firms. One of their most important roles is to provide advice to entrepreneurs. Because of their industry knowledge and their general knowledge about what it takes for a business to succeed, they are able to provide counsel to entrepreneurs when a business is being started and during the early period of the business’s operation. At these points in the development of a business, the people managing it (including the entrepreneur) often are long on technical skills, but short on the skills necessary to successfully manage growth.
+
+EXHIBIT 15.3 Strategic and Financial Sales and Venture-Backed IPO Exits in the United States, 2006–2019 Comparing the number of strategic and financial (M&A) sales of new businesses with the number of venture-backed IPOs from 2006 through 2019 shows that strategic and financial sales were far more common than IPOs during this period.
+
+Source: National Venture Capital Association 2020 Yearbook.
+
+The extent of the venture capitalists’ involvement in the management of a startup company depends on the experience and depth of the management team. Venture capital investors may want a seat on the board of directors. At a minimum, they will want an agreement that gives them unrestricted access to information about the firm’s operations and financial performance and the right to attend and observe any board meeting. Finally, venture capitalists will insist on a mechanism giving them the authority to assume control of the firm if its performance is poor, as well as the authority to install a new management team if necessary.
+
+The Cost of Venture Capital Funding
+The cost of venture capital funding is very high, but the high rates of return earned by venture capitalists are not unreasonable. First, venture capitalists bear a substantial amount of risk when they fund a new business. On average, for every ten businesses backed by venture capitalists, only one or two will prove successful. The winners have to cover the losses on businesses that fail. Second, venture capitalists spend a considerable amount of their time monitoring the progress of businesses they fund and intervening when a business’s management team needs help. If a venture capital–financed new business is successful, more than likely the venture capitalists will have made a substantial contribution to creating value for the other owners.
+
+Just what returns do venture capitalists earn on their investments in new businesses? As you might expect, the annual rate of return varies substantially from year to year, and the returns earned by different venture capitalists can differ considerably. It is difficult to generalize; however, a typical venture capital fund may generate annual returns of 15 to 25 percent on the money that it invests, compared with an average annual return for the S&P 500 of 12.09 percent over the 1926 to 2019 period (see Exhibit 7.3). The bottom line is that venture capital investing involves very high risk and is not for the faint of heart.
+
+Before You Go On
+Who are venture capitalists, and what do they do?
+How is venture capital financing different from traditional sources of financing?
+How do venture capitalists reduce the risk of their investments?
+Explain the venture capital funding cycle.
+
+Visit the National Venture Capital Association’s Web site at www.nvca.org for information on venture capital funding.
+
+15.3 Initial Public Offering
+LEARNING OBJECTIVE
+
+Discuss the advantages and disadvantages of going public and compute the net proceeds from an IPO.
+If a business is very successful, at some point it will outgrow the ability of private sources of equity, such as family and friends and venture capitalists, to fund its growth. More money will be needed for investments in plant and equipment, working capital, and research and development (R&D) than these sources of capital will provide. One way to raise larger sums of cash or to facilitate the exit of a venture capitalist is through an initial public offering, or IPO, of the company’s common stock.
+
+As the name implies, an IPO is a company’s first sale of common stock in the public market. First-time stock issues are given a special name because the marketing and pricing of these issues are distinctly different from those of seasoned offerings. A seasoned public offering is a sale of securities (either stock or bonds) by a firm that already has similar publicly traded securities. The term public offering means that the securities being sold are registered with the Securities and Exchange Commission and, thus, can legally be sold to the public at large. Only registered securities can be sold to the public. Alternatively, securities can be sold directly to institutional investors in the private market, which we discuss in Section 15.6.
+
+seasoned public offering the sale of securities to the public by a firm that already has publicly traded securities outstanding
+
+Advantages and Disadvantages of Going Public
+When large sums of capital are necessary to fund a business or when the entrepreneur or venture capitalists are ready to sell some or all of their investment in a business, the entrepreneur and the venture capitalists may decide that an IPO, rather than the sale of the business to a strategic or financial buyer, is the appropriate way to achieve their goals. The decision to go public depends on an assessment of whether the advantages outweigh the disadvantages.
+
+Advantages of Going Public
+
+Going public has a number of potential advantages. First, the amount of equity capital that can be raised in the public equity markets is typically larger than the amount that can be raised through private sources. There are millions of investors in public stock markets, and it is easier for firms to reach these investors through public markets. Second, after a firm has completed an IPO, additional equity capital can usually be raised through follow-on seasoned public offerings at a low cost. This is because the public markets are highly liquid and investors are willing to pay higher prices for more liquid shares of public firms than for the relatively illiquid shares of private firms. Third, going public can enable an entrepreneur to fund a growing business without giving up control. The entrepreneur does not have to sell the entire business but only what is needed to raise the necessary funds. Fourth, once a company has gone public, there is an active secondary market in which stockholders can buy and sell its shares. This enables the entrepreneur and other managers to more easily diversify their personal portfolios or to just sell shares in order to enjoy some of the rewards of having built a successful business. Of course, it also provides a way for venture capitalists to sell their shares.
+
+Another potential advantage of having an active market for a firm’s shares is that it can make it easier for the firm to attract top management talent and to better motivate current managers. This is true because senior managers generally own equity in the firm, and some part of their compensation is tied to the firm’s stock performance. Recall that this aligns management’s behavior with the objective of maximizing stockholder value. For publicly traded companies, it is easy to offer incentives tied to stock performance because market information about the value of a share of stock is readily available. For privately held companies, market transactions are infrequent, and thus the market value of a firm’s equity must be estimated.
+
+Disadvantages of Going Public
+
+One disadvantage of going public is the high cost of the IPO itself. This cost is partly due to the fact that the stock is not seasoned. A seasoned stock, which is traded in a public secondary market, has an established record. Investors can observe how many shares trade on a regular basis (a measure of the liquidity for the shares) and the prices at which the trades take place. In contrast, the likely liquidity of a stock that is sold in an IPO is less well known and its value is more uncertain. For this reason, investors are less comfortable buying a stock sold in an IPO and thus will not pay as high a price for it as for a similar seasoned stock. In addition, out-of-pocket costs such as legal fees, accounting expenses, printing costs, travel expenses, SEC filing fees, consultant fees, and taxes can add substantially to the cost of an IPO.
+
+The costs of complying with ongoing SEC disclosure requirements also represent a disadvantage of going public. Once a firm goes public, it must meet a myriad of filing and other requirements imposed by the SEC. For larger firms, these regulatory costs are not terribly important because they represent a relatively small fraction of the total equity value. However, regulatory costs can be significant for small firms.
+
+In addition to the out-of-pocket costs of complying with SEC requirements, the transparency that results from this compliance can be costly for some firms. The requirement that firms provide the public with detailed financial statements, data on executive compensation, information about the firm’s strategic initiatives, and so forth can put the firm at a competitive disadvantage relative to private firms that are not required to disclose such information.
+
+Finally, some investors argue that the SEC’s requirement of quarterly earnings estimates and quarterly financial statements encourages managers to focus on short-term profits rather than long-term value maximization. Managers who fail to meet their quarterly earnings projections often see their firm’s stock price drop significantly.
+
+Building Intuition
+Investors View Seasoned Securities as Less Risky Than Unseasoned Securities
+
+Investors will pay higher prices (or accept lower yields) for seasoned stock than for otherwise similar stock from an IPO. This is true because the liquidity and value of a seasoned stock are better known. The same is true for other types of securities, such as bonds.
+
+Investment Banking Services
+To complete an IPO, a firm will need the services of investment bankers, who are experts in bringing new securities to market. From Chapter 2, recall that investment bankers provide three basic services when bringing securities to market: (1) origination, which includes giving the firm financial advice and getting the issue ready to sell; (2) underwriting, which is the risk-bearing part of investment banking; and (3) distribution, which involves reselling the securities to the public.
+
+Smaller firms such as The Tuscan Pizzeria will probably use the full range of services provided by the investment banker because they have little or no experience in issuing new securities. In contrast, larger firms that go to the seasoned public markets on a regular basis have experienced financial staff and may complete some or all of the origination services themselves.
+
+Identifying the investment banking firm that will manage the IPO process is an important task for the management of a firm because not all investment banks are equal. Top investment banking firms do not want to tarnish their reputation by bringing bad deals to market. Their willingness to underwrite a firm’s IPO is an implicit seal of approval. Thus, securing the services of an investment banking firm with a reputation for quality and honesty will improve the market’s receptivity and help ensure a successful IPO. Let’s walk through the steps that a business takes in bringing a common-stock IPO to market. Note that the steps are nearly the same for debt issues.
+
+Origination
+During the origination phase, the investment banker helps management determine whether the firm is ready for an IPO. That requires determining whether the management team, the firm’s historical financial performance, and the firm’s expected future performance are strong enough to merit serious consideration by sophisticated investors. If the answer to any of these questions is no, the investment banker might help the firm find private capital to see it through until all of the answers are yes. Other issues that must be decided are how much money the firm needs to raise and how many shares must be sold.
+
+Once the decision to sell stock is made, the firm’s management must obtain a number of approvals. The firm’s board of directors must approve all security sales, and stockholder approval is required if the number of shares of stock is to be increased.
+
+Since securities sold to the public must be registered in advance with the SEC, the first step in this process is to file a registration statement with the SEC.2 A portion of this statement, called the preliminary prospectus, contains detailed information about the type of business activities in which the firm is engaged and its financial condition, a description of the management team and their experience, a competitive analysis of the industry, a range within which the issuer expects the initial offering price for the stock to fall, the number of shares that the firm plans to sell, an explanation of how the proceeds from the IPO will be used, and a detailed discussion of the risks associated with the investment opportunity. While the SEC is reviewing the preliminary prospectus, the firm may distribute copies of it to potential investors, but by law no sales can be made from this document.
+
+preliminary prospectus the initial registration statement filed with the SEC by a company preparing to issue securities in the public market; it contains detailed information about the issuer and the proposed issue
+
+The information in a prospectus is designed to allow investors to make intelligent decisions about investing in a security issue and the risks associated with it. SEC approval is not an endorsement of the wisdom or desirability of making a particular investment. Approval means only that the firm has followed various rules and regulations required to issue securities and that the information is complete and accurate.
+
+Underwriting
+Once the origination work is complete, the security issue can be sold to investors. The securities can be underwritten in two ways: (1) on a firm-commitment basis or (2) on a best-effort basis.
+
+Firm-Commitment Underwriting
+
+In the typical underwriting arrangement, called firm-commitment underwriting, the investment banker guarantees the issuer a fixed amount of money from the stock sale. The investment banker actually buys the stock from the firm at a fixed price and then resells it to the public. The underwriter bears the risk that the resale price might be lower than the price the underwriter pays—this is called price risk. The resale price can be lower if the underwriter overestimates the value of the stock when determining how much to pay the firm or if the value of the stock declines before it is resold to the public.
+
+firm-commitment underwriting underwriting agreement in which the underwriter purchases securities for a specified price and resells them
+
+The investment banker’s compensation is called the underwriter’s spread. In a firm-commitment offering, the spread is the difference between the investment banker’s purchase price and the offer price. The underwriter’s spread in the vast majority of initial public stock offerings in the United States is 7 percent. However, underwriters will occasionally agree to a lower spread to compete for IPO business by high-profile issuers. For example, the spread paid in the Airbnb IPO was just over 2 percent. The spread covers the investment banker’s expenses, compensation for bearing risk, and profit. To illustrate, suppose an investment banker buys a firm’s stock for $46.50 per share and the offer price is $50.00. The gross underwriter’s spread is $3.50 per share ($50.00 − $46.50 = $3.50), or 7 percent of the offer price. If the underwriter’s total expenses for the offering are $1.50 per share, the underwriter’s net profit is $2.00 per share ($3.50 − $1.50 = $2.00).
+
+Best-Effort Underwriting
+
+With best-effort underwriting, the investment banking firm makes no guarantee to sell the securities at a particular price. It promises only to make its “best effort” to sell as much of the issue as possible at a certain price. In best-effort offerings, the investment banker does not bear the price risk associated with underwriting the issue, and compensation is based on the number of shares sold. Not surprisingly, most corporations issuing stock prefer firm-commitment arrangements to best-effort contracts. In fact, more than 95 percent of all underwritten offerings involve firm-commitment contracts. Best-effort offerings arise when underwriters do not want to accept the risk of guaranteeing the offering price.
+
+best-effort underwriting underwriting agreement in which the underwriter does not agree to purchase the securities at a particular price but promises only to make its “best effort” to sell as much of the issue as possible above a certain price
+
+Underwriting Syndicates
+
+To share the underwriting risk and to sell a new security issue more efficiently, underwriters may combine to form a group called an underwriting syndicate. Each member of the syndicate is responsible for selling some of the securities being issued. Participating in the syndicate entitles each underwriter to receive a portion of the underwriting fee as well as a proportionate allocation of the securities to sell to its own customers.
+
+underwriting syndicate a group of underwriters that join forces to reduce underwriting risk
+
+To broaden the search for potential investors, underwriting syndicates may enlist other investment banking firms in a syndicate known as a selling group, which assists in the sale of the securities. These firms receive a commission for each security they sell and bear none of the risk of underwriting the issue.
+
+Determining the Offer Price
+
+One of the most difficult tasks faced by investment bankers is to determine the highest price at which they will be able to quickly sell all of the shares being offered and that will result in a stable secondary market for the shares. One step in determining this price is to consider the value of the firm’s expected future cash flows; the analysis and formulas used are like those presented in Chapter 9. In addition, the investment bankers will consider the stock price implied by multiples of total firm value to EBITDA or stock price to earnings per share for similar firms that are already public. Finally, the investment banker will conduct a road show in which management makes presentations about the firm and its prospects to potential investors. The road show is the key marketing and information-gathering event for an IPO. It generates interest in the offering and helps the investment banker determine the number of shares that investors are likely to purchase at different prices.
+
+Due Diligence Meeting
+
+Before the shares are sold, representatives from the underwriting syndicate hold a due diligence meeting with representatives of the issuer. The purpose of the meeting is to list, gather, and authenticate matters such as articles of incorporation, by-laws, patents, important contracts, and corporate minutes. In addition, the investment bankers have a final opportunity to ask management questions about the firm’s financial integrity, intended use of the proceeds, and any other issues deemed relevant to the pending security sale.
+
+Investment bankers hold due diligence meetings to protect their reputations and to reduce the risk of investor lawsuits in the event the investment goes sour later on. The due diligence meetings are serious in that they ensure that all material issues about the firm and the offering are discovered and, subsequently, fully disclosed to investors.
+
+Distribution
+Once the due diligence process is complete, the underwriters and the issuer determine the final offer price in a pricing call. The pricing call typically takes place after the market has closed for the day. During this call, the lead underwriter (also known as the book runner because this underwriter assembles the book of orders for the offering) makes its recommendation concerning the appropriate price, and the firm’s management decides whether that price is acceptable. By either accepting or rejecting the investment banker’s recommendation, management ultimately makes the pricing decision. If management finds the price acceptable, the issuer files an amendment to the registration statement with the SEC, which contains the terms of the offering and the final prospectus. Once the securities are registered with the SEC, they can be sold to investors.
+
+The First Day of Trading
+
+The underwriter then typically sells the shares to investors when the market opens on the next day. The syndicate’s primary concern is to sell the securities as quickly as possible at the offer price. Speed of sale is important because the offer price reflects market conditions at the end of the previous day and these conditions can change quickly. In successful offerings, most of the securities will have been presold to investors prior to delivery, and if the issue is not entirely presold, it will be sold out within a few hours. If the securities are not sold within a few days, the underwriting syndicate disbands, and members sell the securities at whatever price they can get.
+
+The Closing
+
+At the closing of a firm-commitment offering, the issuing firm delivers the security certificates to the underwriter and the underwriter delivers the payment for the securities, net of the underwriting fee, to the issuer. The closing usually takes place on the third business day after trading has started.
+
+The Proceeds
+We now arrive at the bottom line: How much money do the firm and the underwriter make from the sale of the new stock? Let’s look at an example to see how to answer this question. Suppose a small manufacturing firm is doing a stock IPO with an investment banking firm on a firm-commitment basis. The firm plans to issue 2 million shares of common stock, and the gross underwriting spread is 7 percent. Following the road show, the CFO agrees to a $20-per-share offering price that has been proposed by the underwriter. Based on this information, consider the following questions:
+
+What are the total expected proceeds from the common-stock sale?
+How much money does the issuer expect to get from the offering?
+What is the investment bank’s expected compensation from the offering?
+The best approach to calculating these amounts is to first work through the funding allocations on a per-share basis and then compute the total dollar amounts. We know that the IPO’s offer price is $20 per share and the underwriter’s spread is 7 percent; thus, the issuer’s expected net proceeds are $18.60 per share [$20 per share − ($20 per share × 0.07) = $18.60 per share]. The total proceeds from the sale of the stock are expected to equal $40 million ($20 per share × 2 million shares = $40 million). The total proceeds will be shared by (1) the firm, with $37.2 million ($18.60 per share × 2 million shares = $37.2 million) and (2) the underwriter, with $2.8 million ($1.40 per share × 2 million shares = $2.8 million). If the syndicate sells the stock at the offering price of $20, the sale will be deemed successful, and both the underwriter and the issuer will receive their expected proceeds.
+
+Learning by Doing Applications 15.1 and 15.2 illustrate additional IPO calculations.
+
+LEARNING BY DOING APPLICATION 15.1
+An Unsuccessful IPO
+
+Problem
+
+Let’s continue with our firm-commitment IPO example from the text. Suppose that the stock sale is not successful and the underwriter is able to sell the stock, on average, for only $19 per share. If the underwriter buys the stock from the issuer for $18.60, what will be the proceeds for each party from the sale?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 15.2
+A Best-Effort IPO
+
+Problem
+
+Now let’s assume that the stock in our IPO is sold on a best-effort basis and that the underwriter agrees to a spread of 7 percent of the selling price. The average selling price remains at $19 per share. What are the net proceeds for the issuer and the underwriter in this best-effort offering?
+
+
+
+
+
+Before You Go On
+What is a seasoned offering, and why are seasoned securities valued more highly than securities sold in an IPO?
+Explain the two ways in which a security issue can be underwritten.
+List the steps in the IPO process.
+
+For information on recent and forthcoming initial public offerings, go to www.ipoboutique.com
+
+15.4 IPO Pricing and Cost
+LEARNING OBJECTIVE
+
+Explain why, when underwriting new security offerings, investment bankers prefer that the securities be underpriced. Compute the total cost of an IPO.
+In the preceding section, we mentioned that pricing an IPO is one of the underwriter’s most difficult tasks. In this section, we discuss an important pricing issue, underpricing, and then turn once again to the costs of issuing an IPO.
+
+The Underpricing Debate
+As you might expect, tension arises between the issuer and the underwriters when the final offer price for the stock is being determined. Clearly, the issuer prefers the stock price to be as high as realistically possible. In contrast, the underwriters prefer some degree of underpricing. Underpricing is defined as offering new securities for sale at a price below their true value. The lower the offering price, the more likely the securities will sell out quickly—and the less likely the underwriters will end up with unsold inventory. Investment bankers will also argue that some underpricing helps attract long-term institutional investors who help provide stability for the stock price once the secondary market for the shares is established. Because these investors will not sell, or flip, the shares as quickly, their presence reduces price volatility.
+
+underpricing offering new securities for sale at a price below their true value
+
+Although the issuer and the underwriters may disagree on pricing, in reality both face potential costs if the stock price is too high or too low. On the one hand, if the stock is priced too high, the entire issue will not sell at the proposed offer price. Furthermore, there can be considerable uncertainty about what the true value of the shares is, since they have not yet traded in the public market. This uncertainty also contributes to the pressure to set a lower price. In a firm-commitment offering, the underwriters will suffer a financial loss if the offer price is set too high; under a best-effort agreement, the issuing firm will raise less money than expected.
+
+On the other hand, if the stock is priced below its true value, the firm’s existing stockholders will experience an opportunity loss; that is, the firm will receive less money for the stock than it is worth. For this reason, underpricing is commonly referred to as “money left on the table.” In addition, if the underpricing is significant, the investment banking firm will suffer a loss of reputation for failing to price the new issue correctly and raising less money for its client than it could have. In practice, most market participants agree that some underpricing is good for both the issuer and the underwriter. However, the question of how much underpricing is appropriate is open for debate.
+
+IPOs Are Consistently Underpriced
+Data from the marketplace show that the shares sold in an IPO are typically priced between 10 and 15 percent below the price at which they close at the end of the first day of trading. This implies that underwriters tend to sell shares of stock in IPOs to investors for between 90 and 85 percent of their true market value.
+
+The real costs of underpricing can be staggering. For example, when Airbnb went public on December 9, 2020, the company and its early investors sold 51.5 million shares of stock at a price of $68.00 per share, raising $3.5 billion in total. At the end of the first day of trading, the stock closed at $144.71 per share. This means that Airbnb stock was underpriced by $76.71 per share ($144.71 – $68.00 = $76.71). Thus, the Airbnb stock might have sold for $3.95 billion ($76.71 per share × 51.5 million shares = $3.95 billion) more. Who received this $3.95 billion of value? It went into the pockets of the new investors who bought the shares allocated by the underwriters of the IPO.
+
+Exhibit 15.4 shows data for the number of IPOs per year and the average first-day return to investors for the years 2001–2020. The average first-day return is a measure of the amount of underpricing. The weighted average first-day return over the 2001–2020 period is about 17.2 percent, although there is considerable variation on a year-by-year basis. Notice that 2020 was the busiest year for IPOs during the last two decades. During this year, there were 163 IPO issues raising a total of $61.7 billion. This year also coincides with the highest level of underpricing, with an average first day return of 48.1 percent. Because of the underpricing, about $29.7 billion was left on the table (not received by the companies making the offerings or their selling shareholders) during 2020.
+
+EXHIBIT 15.4 Initial Public Offerings, Gross Proceeds, and Returns, 2001–2020
+
+This exhibit summarizes the number of IPOs per year, the gross proceeds, and the average first-day returns to investors from all IPOs for the period 2001–2020. The average first-day return represents the amount of underpricing. The exhibit illustrates the substantial variation in IPO activity and underpricing in the U.S. public equity markets during this period.
+
+Year	Number of IPOs	Gross Proceeds ($ billions)	Avg First Day Return (%)a
+2001	  80	$35.3	8.4%
+2002	  66	  22.0	  5.1
+2003	  63	    9.5	10.4
+2004	173	31.2	12.4
+2005	159	28.2	  9.3
+2006	157	30.5	13.0
+2007	159	35.7	13.9
+2008	  21	22.8	24.7
+2009	  41	13.2	11.1
+2010	  91	29.8	  6.2
+2011	  81	27.0	13.0
+2012	  93	31.1	  8.9
+2013	158	41.6	19.0
+2014	206	42.2	12.8
+2015	118	22.0	18.9
+2016	  75	12.5	14.2
+2017	106	23.0	16.0
+2018	134	33.5	19.1
+2019	112	39.2	17.7
+2020	 163	 61.7	 48.1
+Average	113	$29.6	17.2%
+aAverage returns are calculated as a weighted average where the dollar amount of each issue is the weight.
+
+Source: Jay R. Ritter, Table 1 in unpublished note titled “Initial Public Offerings: Updated Statistics,” dated December 21, 2020.
+The Cost of an IPO
+As we have already mentioned, the cost of going public is high. Bringing our previous discussions together, we can identify three basic costs associated with issuing stock in an IPO:
+
+Underwriting spread. The underwriting spread is the difference between the proceeds the issuer receives and the total amount raised in the offering.
+Out-of-pocket expenses. Out-of-pocket expenses include other investment banking fees, legal fees, accounting expenses, printing costs, travel expenses, SEC filing fees, consultant fees, and taxes. All of these expenses are reported in the prospectus.
+Underpricing. Underpricing is typically defined as the difference between the offering price and the closing price at the end of the first day of trading in the public market. It is the opportunity loss, or money left on the table, that the issuer’s stockholders incur from selling the security below its true market value.
+Exhibit 15.5 presents some market data on the cost of issuing an IPO. The first two columns show the size (value of shares sold) and number of IPOs issued during the period from 2006 to 2020. The third and fourth columns present the average underwriter’s spread and out-of-pocket expenses, respectively. These are direct costs of an IPO for an issuing firm. The last column shows the average first-day returns to investors, which represent the amount by which the issue was underpriced.
+
+For a smaller IPO (less than $80 million), the costs associated with underpricing are relatively small; however, direct costs associated with out-of-pocket expenses and underwriter spreads comprise a much larger fraction of the total value of the issue. In deals valued at less than $10 million, for example, average underwriting spreads are 7.49 percent, and expenses are substantial at 13.51 percent of the value of the issue. In contrast, underpricing of IPOs is more pronounced for larger issues, but there are significant economies of scale in underwriting spreads and expenses.
+
+EXHIBIT 15.5 Cost of Issuing an IPO, 2006–2020
+
+This exhibit summarizes the costs of issuing an IPO in the United States for the period from 2006 to 2020, by the total value of the shares issued. The direct costs of an IPO for an issuing firm include the underwriting spread and out-of-pocket expenses. An additional cost for issuing firms is underpricing, represented by the average first-day return. As you can see, underwriting spreads and out-of-pocket expenses are lower for larger IPOs. Underpricing varies substantially with the value of the issuance.
+
+Value of Issue ($ millions)	Number of IPOs	Underwriting Spread (%)	Out-of-Pocket Expensesa (%)	Average First-Day Returnb (%)
+$2–9.99	  44	 7.49%	13.51%	13.23%
+$10–19.99	  66	 7.37	6.37	  –2.11
+$20–39.99	  96	 7.19	6.52	   2.89
+$40–59.99	160	 6.98	5.14	   6.76
+$60–79.99	189	 6.97	3.76	   8.64
+$80–99.99	172	 6.93	3.16	22.81
+$100–199.99	428	 6.90	2.27	25.57
+$200–499.99	308	 6.38	1.47	27.24
+$500 and over	 162	 5.03	 0.72	 14.68
+All issues	1,625	6.68%	3.22%	17.57%
+aOut-of-pocket expenses include legal, accounting, and SEC filing fees associated with the IPO.
+
+bAverage first-day returns are reported as a percent of the offer price.
+
+Source: Refinitiv and author calculations.
+Decision Making Example 15.1 and Learning by Doing Application 15.3 illustrate additional IPO calculations and analyses.
+
+DECISION MAKING EXAMPLE 15.1
+Pricing an IPO
+
+Situation
+
+You are the CFO of a small firm that is planning an IPO. You are meeting with your investment banker to discuss the offer price for your common-stock issue. The investment banker tells you that an IPO pricing model indicates that the current value of your stock is $20 per share. Furthermore, a firm with similar risk characteristics completed an IPO two months ago, and its stock price suggests a current market price of $21 per share. The investment banker says that the offer price should be set at $15 per share. What decision should you make with regard to the investment bank’s offer price?
+
+
+
+LEARNING BY DOING APPLICATION 15.3
+The Cost of an IPO
+
+Problem
+Suppose that Madrid Electronics of Madrid, New Mexico, sells $70 million of stock at $50 per share in an IPO. The underwriter’s spread is 7 percent, and the firm’s legal fees, SEC registration fees, and other out-of-pocket costs are $200,000. The firm’s stock price increases 15 percent on the first day of trading. In dollars, what is the total cost to the firm of issuing the stock?
+
+
+
+
+
+Before You Go On
+What is underpricing, and why is it a cost to the stockholders?
+What are the components of the cost associated with an IPO?
+15.5 General Cash Offer by a Public Company
+LEARNING OBJECTIVE
+
+Discuss the costs of bringing a general cash offer to market.
+The need for funding does not end when a company goes public. Most companies continually make new investments in real assets and working capital. If they do not generate enough cash from operations to fund these investments, their managers must raise capital from outside the firm.
+
+Managers of every business want to fund the business at the lowest possible cost. If a public firm is financially sound, the lowest-cost source of external funds is often a general cash offer, also referred to as a registered public offering. A general cash offer is a sale of debt or equity, open to all investors, by a registered public company that has previously sold stock to the public. The procedures involved in a general cash offer are summarized here. You will see that there are some similarities between these procedures and those involved in an IPO.
+
+general cash offer a sale of debt or equity, open to all investors, by a company that has previously sold stock to the public
+
+Type of Security and Amount to Be Raised. Management decides how much money the firm needs to raise and what type of security to issue, such as debt, common stock, or preferred stock.
+Approvals. Approval is obtained from the board of directors to issue securities. If the size of a stock issue exceeds the previously authorized number of shares of common or preferred stock, approval from stockholders is required as well.
+Registration Statement. The issuer files a registration statement and satisfies all of the securities laws enforced by the SEC. For a debt issue, the registration statement must contain a bond indenture that specifies the details of the issue.
+Offer Price. After assessing demand, the underwriter and the issuer agree on an offer price.
+Closing. At the closing of a firm-commitment offering, the issuer delivers the securities to the underwriter, and the underwriter pays for them, net of its fees. The securities are then sold to investors.
+The issuer has flexibility in the method of sale and the way the securities are registered. Both of these factors can affect the issuer’s funding cost. Next we consider methods of sale and registration and discuss the costs of general cash offers.
+
+Competitive versus Negotiated Sale
+In a general cash offer, management must decide whether to sell the securities on a competitive or a negotiated basis. In a competitive sale, the issuer specifies the type and number of securities it wants to sell and hires an investment banking firm to do the origination work. Once the origination work is completed, the issuer invites underwriters to bid competitively to buy the issue.3 The investment banking firm that offers the highest price for the securities wins the bid. The winning underwriter then pays for the securities and makes them available to investors at the offer price.
+
+In a negotiated sale, the issuer selects the underwriter at the beginning of the origination process. At that time, the scope of the work is defined, and the issuer negotiates the origination and underwriter’s fees to be charged. The issuer and underwriter then work closely together to design the issue and determine the most favorable time to take the securities to market. Following an assessment of demand, the offer price is set, and the underwriter pays the issuer for the securities and sells them to individual investors.
+
+Comparative Costs of Funding
+
+Which method of sale—competitive or negotiated—results in the lower funding cost for the issuing firm? This question has been hotly debated, and the results from empirical studies are mixed.
+
+The argument for competitive bidding is straightforward: competition keeps everyone honest. That is, the greater the number of bidders, the greater the competition for the security issue, and the lower the cost to the issuer. Negotiated sales lack competition and therefore should be the more costly method of sale.
+
+Not everyone agrees with this argument, however. Proponents of negotiated sales argue that in a negotiated sale the investment banker works closely with the issuer and thus has intimate knowledge of the firm and its problems. As a result, the investment banker is in a better position to reduce uncertainty surrounding the issue and tell the firm’s story to potential investors, resulting in a lower issue cost. Proponents also argue that negotiated sales involve potential competition. The potential competitors are the other investment banks that were not chosen to underwrite the current issue but would like to underwrite the firm’s next issue. These investment bankers will not hesitate to drop by and tell the issuer’s CFO how much better they could have done than the underwriter that was chosen. Thus, the threat of potential competition provides many of the same benefits as direct competition.
+
+Selecting the Better Method
+
+In the end, the better method of sale depends on the complexity of the sale and the market conditions at the time of sale. It also depends on the type of securities being offered.
+
+For debt issues, most experts believe that competitive sales are the less costly method of selling so-called vanilla bonds when market conditions are stable. Recall from Chapter 8 that vanilla bonds are bonds with no unusual features. Their terms and conditions are standardized and well-known to market participants, and they lack complex features. These securities are like commodities because market participants understand the risks of investing in them and are comfortable buying them. In contrast, when there are complex circumstances to explain or when market conditions are unstable, negotiated sales provide the less costly method of sale for debt issues. In these situations, a negotiated sale allows the underwriter to better manage uncertainty and explain the firm’s situation, which results in the lower funding cost.
+
+For equity securities, negotiated sales generally provide the lower-cost method of sale. Equity issues by their very nature tend to be complex, and for the reasons just mentioned, complexities are better handled when sales are negotiated. Thus, it is no surprise that virtually all equity issues, including IPOs, involve negotiated sales.
+
+Decision Making Example 15.2 illustrates choices between competitive and negotiated sales of securities.
+
+Shelf Registration
+
+As mentioned earlier, the preparation of an SEC registration statement is a costly undertaking. Shelf registration allows a firm to register an inventory of securities for a two-year period. During that time, the firm can take the securities “off the shelf” and sell them as needed. Costs associated with selling the securities are reduced because only an initial registration statement is required. A shelf registration statement can cover multiple securities, and there is no penalty if authorized securities are not issued.
+
+shelf registration a type of SEC registration that allows firms to register to sell securities over a two-year period and, during that time, take the securities “off the shelf” and sell them as needed
+
+In addition to reducing issuance costs, corporations gain two important benefits from shelf registration. First is the greater flexibility in bringing securities to market. Securities can be taken off the shelf and sold within minutes. Thus, firms can sell their securities when market conditions are more favorable. Second, shelf registration allows firms to periodically sell small amounts of securities, raising money as it is actually needed, rather than banking a large amount of money from a single security sale and spending it over time.
+
+DECISION MAKING EXAMPLE 15.2
+Method of Sale
+
+Situation
+
+You are the CFO of a firm that plans to issue a number of securities during the upcoming year. You expect market conditions to remain stable during this period. To obtain lower funding costs, which method of sale—competitive or negotiated—will you choose for the issues listed?
+
+An issue of common stock.
+A 20-year bond with a fixed-rate coupon.
+A 20-year revenue bond to fund a manufacturing facility in Brazil; payment of interest and principal is tied to revenues earned by the new facility.
+A 10-year fixed-rate bond sold from a shelf registration issue.
+
+
+The Cost of a General Cash Offer
+Even though a general cash offer is a wholesale market transaction, the cost of raising money through such an offer is not trivial. Exhibit 15.6 shows the average underwriting spread, out-of-pocket expenses, and total cost for common stock, preferred stock, and corporate bond issues of various sizes. Note that this exhibit does not include data on underpricing; total cost includes only the underwriting spread and out-of-pocket expenses.
+
+As you can see from the exhibit, issuing common stock is the most costly alternative, and issuing corporate bonds (nonconvertible) is the least costly. For example, for a large security issue ($500 million and over), the total cost of issuing common stock is 3.63 percent of the amount raised, whereas the total cost for a corporate bond issue is 0.65 percent of the amount raised. The higher cost for the equity issues reflects the greater underwriting risk, the higher sales commissions for those involved in selling the issue, and the higher administrative expenses required to bring equity securities to market.
+
+EXHIBIT 15.6 Average Gross Underwriting Spread and Out-of-Pocket Expenses as a Percentage of Amount Raised for Public Offerings, 1977–2001
+
+You can see from this exhibit that issuing common stock is the most expensive method of obtaining funds, while issuing corporate bonds (debt) is the least expensive. The higher cost for the stock issues reflects the greater underwriting risk (higher sales commissions) and the higher out-of-pocket expenses required to bring equity securities to market. For all three types of securities shown—common stock, preferred stock, and bonds—there are economies of scale; as issue size increases, total issue cost, as a percent of the amount raised, declines.
+
+ 	Common Stock		Preferred Stock		Bonds
+Principal Amount ($ millions)	Under-writing Spread (%)	Out-of-Pocket Expenses (%)	Total (%)		Under-writing Spread (%)	Out-of-Pocket Expenses (%)	Total (%)		Under-writing Spread (%)	Out-of-Pocket Expenses (%)	Total (%)
+$0.0–$9.9	   7.69%	   5.94%	13.63%	 	   4.69%	   3.65%	   8.34%	 	    2.04%	    1.91%	   3.95%
+$10.0–$24.9	5.99	2.70	8.69	 	3.05	1.24	4.29	 	1.29	1.11	2.40
+$25.0–$49.9	5.52	1.57	7.09	 	2.33	0.57	2.90	 	0.95	0.68	1.63
+$50.0–$99.9	5.13	0.89	6.02	 	2.06	0.28	2.34	 	0.96	0.43	1.39
+$100.0–$199.9	4.68	0.59	5.27	 	2.76	0.28	3.04	 	0.90	0.30	1.20
+$200.0–$499.9	4.16	0.41	4.57	 	2.63	0.17	2.80	 	0.84	0.16	1.00
+$500.0 and over	3.49	0.14	3.63	 	2.62	0.10	2.72	 	0.57	0.08	0.65
+Excludes rights issues, issues callable or putable in under one year, and issues that are not underwritten.
+
+Source: Refinitiv.
+Exhibit 15.6 also reveals significant economies of scale in both underwriting spreads and out-of-pocket expenses. Look at the “Total” column for common stock, for example. The cost for a small equity issue (with a principal amount of less than $10 million) is 13.63 percent of the amount raised, whereas the cost for a large equity issue ($500 million and over) is only 3.63 percent.
+
+Finally, let’s compare this exhibit with Exhibit 15.5, which gives the costs associated with issuing an IPO. In comparing the exhibits, we need to compare the underwriting spread and out-of-pocket expenses from Exhibit 15.5 with the total costs from Exhibit 15.6, since Exhibit 15.6 includes no underpricing costs. As you can see, the direct cost of an IPO is significantly higher than the direct cost of a general cash offer of equity—even when the cost of underpricing for the IPO is not included in the total. The average total direct cost of selling a large ($500 million and over) equity IPO is 5.75 percent (5.03 + 0.72 = 5.75 percent), while the total cost for a general cash offer of the same size is 3.63 percent. This reflects the greater risk involved in underwriting an IPO and the higher cost of distributing the shares in an IPO.
+
+Before You Go On
+Explain why firms generally sell their equity and complicated debt issues through negotiated sales.
+Explain the importance of shelf registration.
+15.6 Private Markets
+LEARNING OBJECTIVE
+
+Explain why a firm that has access to the public markets might elect to raise money through a private placement.
+As we have noted, the public markets for debt and equity are wholesale markets where firms can often sell securities at the lowest possible cost. For various reasons, however, firms may sometimes need—or prefer—to sell their securities in private markets. In this section, we first consider various aspects of the private securities markets and then briefly discuss private placements of equity and debt.
+
+Private versus Public Markets
+Firms that sell securities in the public markets are typically large, well-known firms with high credit quality and sustainable profits. Of course, not every firm reaches these levels of achievement. As a result, many smaller firms and firms of lower credit standing have limited access, or no access, to the public markets. Their cheapest source of external funding is often the private markets.
+
+Market conditions also affect whether a firm can sell its securities in the public markets. When market conditions are unstable, some smaller firms that were previously able to sell securities in the public markets no longer can do so at a reasonable price. The reason is that during periods of market instability, investors seek to hold high-quality securities, and they are reluctant to purchase or hold high-risk securities in their portfolios. On Wall Street, this phenomenon is called flight to quality and refers to moving capital to the safest possible investments to protect oneself during unsettled periods in the market.
+
+A number of large companies with high credit quality prefer to sell their securities in the private markets even though they can access public markets. Many of these private companies are owned by entrepreneurs, families, or family foundations. Two examples of large “family” businesses that avoid public markets and fund themselves privately are the Cargill Company and the Carlson Companies, both located in Minneapolis, Minnesota. Such firms avoid the public markets for different reasons. Some wish to avoid the regulatory costs and transparency requirements that come with public sales of securities, as discussed in Section 15.3. Others believe that their firms have intricate business structures or complex legal or financial structures that can best be explained to a small group of sophisticated investors rather than to the public at large.
+
+We should mention that bootstrapping and venture capital financing are part of the private market as well. We discussed these two processes at the beginning of the chapter because they are primary sources of funding for new businesses.
+
+Private Placements
+As you may recall from Chapter 2, a private placement occurs when a firm sells unregistered securities directly to investors such as insurance companies, commercial banks, or wealthy individuals. Most private placements involve the sale of debt issues, but equity issues can also be privately placed. About half of all corporate debt is sold through the private placement market.
+
+Investment banks and money center banks often assist firms with private placements. They help the issuer locate potential buyers for their securities, put the deal together, and do the necessary origination work. They may also help negotiate the terms and price of the sale, but they do not underwrite the issue. In a traditional private placement, the issuer sells the securities directly to investors.
+
+Private placements have a number of advantages, relative to public offerings, for certain issuers. The cost of funds, net of transaction costs, may be lower, especially for smaller firms and those with low credit ratings. Also, private lenders, because of their intimate knowledge of the firm and its management, are more willing to negotiate changes to a bond contract, if changes are needed. Furthermore, if a firm suffers financial distress, the problems are more likely to be resolved without going to a bankruptcy court. Other advantages include the speed at which private placements can be completed and flexibility in issue size. If the issuer and the investor already have a relationship, a sale can be completed in a few days, and small issues of a few million dollars are not uncommon.
+
+The biggest drawback of private placements involves restrictions on the resale of the securities. Private placements do not have to be registered with the SEC as long as the securities are purchased for investment and not for resale. In practice, securities laws in the United States limit the sale of private placements to investors who have the capacity to evaluate the securities’ investment potential and risk. These are generally high-income investors or investors with large investment portfolios. Thus, private placement securities have limited marketability unless the firm subsequently registers the issue. To address their concern about the lack of marketability, investors in private placements require a higher yield relative to a comparable public offering or require that the firm agree to register the securities shortly after the transaction is completed.
+
+In April 1990, the SEC adopted Rule 144A, which allows large financial institutions to trade unregistered securities among themselves. This rule dramatically improved the marketability of privately placed securities. The rule also allows issuers to sell unregistered securities to investment banking firms, which can then resell the securities to qualified institutional buyers (QIBs). Since 1995, about half of all private placement deals have been conducted under Rule 144A.
+
+Private Equity Firms
+Like venture capitalists, discussed earlier, private equity firms pool money from financial and insurance firms, pension funds, individuals and families, corporations, foundations and endowments, and other sources to make investments. Unlike venture capitalists, private equity firms invest in more mature companies, and they often purchase 100 percent of a business. Private equity managers look to increase the value of the firms they acquire by closely monitoring their performance and providing better management. Once value is increased, they sell the firms for a profit. Private equity firms generally hold investments for three to five years.
+
+While private equity firms often purchase 100 percent of a business, they also represent a potential source of capital for large public firms that have businesses—such as divisions or individual plants—that they are interested in selling. Large public firms often sell businesses when they no longer fit the firms’ strategies or when they are offered a price they cannot refuse. Selling such businesses is an alternative to selling equity or debt as a means of raising new capital.
+
+Private equity firms establish private equity funds to make investments. These funds are usually organized as limited partnerships (or companies), which consist of (1) general partners who manage the firm’s investments and (2) limited partners who invest money in the firm, but have limited liability and are not involved in the day-to-day activities of the firm.4 As owners, the limited partners share in the income, capital gains, and tax benefits from the private equity funds. The general partners, who also invest in the funds, receive income, capital gains, and tax benefits that are proportionate to their investments. In addition, as compensation for managing the funds, general partners collect management fees and receive a percentage of the income and capital gains that are earned with the limited partners’ money.
+
+Private equity funds have historically focused on investments in small and medium-sized firms that have stable cash flows and the potential to improve cash flows substantially. Over the last two decades, however, private equity firms have been able to raise so much capital that they have started doing larger deals. The largest private equity transaction in history involved the acquisition of a Texas utility company, TXU. The transaction had a price tag of $44 billion in 2007. In 2019, the worldwide market for private equity deals totaled about $850 billion.
+
+Private equity investors focus on firms that have stable cash flows because the investors may use a lot of debt to finance their acquisitions. A firm must have stable positive cash flows in order to make the interest and principal payments. A private equity firm may borrow as much as $3 or $4 for every dollar it invests. By adding more debt, the private equity firm frees up its own cash, allowing it to make additional investments and increase the return on its equity investments. When a large amount of leverage is used to take over a company, the transaction is called a leveraged buyout. 5 Leveraged buyouts can add a substantial amount of financial risk to the assets acquired. For example, the 2007 acquisition of TXU was a leveraged buyout that ultimately led to the firm filing for bankruptcy protection in 2014.
+
+How do private equity firms improve the performance of firms in which they invest? First, they make sure that the firms have the best possible management teams. Since a private equity firm typically owns 100 percent of the equity in a firm it invests in, its general it has the ability to replace the management team when necessary. Second, private equity investors closely monitor each firm’s performance and provide advice and counsel to the firm’s management team. Many of these investors have in-depth knowledge of the industries in which they invest, and some have been CEOs of similar firms. Third, private equity investors often facilitate mergers and acquisitions that help improve the competitive positions of the companies in which they invest.
+
+Agency problems tend to be smaller in firms owned by private equity investors than in public firms. In public firms, stockholders are the owners. However, we know that it is not practical for dispersed stockholders to be actively engaged in managing the firm. Day-to-day decision-making responsibilities are delegated to the firm’s managers. Managers are stockholders’ agents and are supposed to act in the best interest of stockholders. Yet, as we discussed in Chapter 1, managers tend to pursue their own self-interest instead of the interests of stockholders. The misalignment between the owners’ best interests and the manager’s self-interest results in agency costs. Private equity funds have much lower agency costs than the average publicly held firm. Since the general partners in a private equity fund are owners and benefit greatly from the value they create, they have every incentive to act in a manner consistent with maximizing the value of limited partners’ investments.
+
+Finally, we should note that private equity firms carry a much smaller regulatory burden and fewer financial reporting requirements than do public firms. Specifically, private equity firms are able to avoid most of the SEC’s registration and compliance costs and other regulatory burdens, such as compliance with the Sarbanes-Oxley Act.
+
+Private Investments in Public Equity
+As we have already noted, small and medium-sized companies can find it difficult and costly to raise money in the public markets. In these circumstances, it can be more efficient or cost effective to sell stock privately, even if the company’s stock is already publicly traded. Private investment in public equity, or PIPE, transactions are transactions in which a public company sells unregistered stock to an investor—often a hedge fund or some other institutional investor. PIPE transactions have been around for a long time, but the number of these transactions has increased greatly since the late 1990s.
+
+In a PIPE transaction, investors purchase securities (equity or debt) directly from a publicly traded company in a private placement. The securities are virtually always sold to the investors at a discount to the price at which they would sell in the public markets. This discount compensates the buyer for limits on the marketability of these securities and, often, for being able to provide capital quickly.
+
+Because the securities sold in a PIPE transaction are not registered with the SEC, they are restricted securities in the sense that, under federal securities law, they cannot be resold to investors in the public markets for one year unless the company registers them. As a result, as part of the PIPE contract, the company often agrees to register the restricted securities with the SEC, usually within 90 days of the PIPE closing. Once the securities are registered, they can be resold freely in the secondary markets. In the event that the issuer is unable to register the securities or the registration is delayed past a deadline date, the issuer might be required to pay the investor liquidity damages, usually 1 or 1.5 percent per month, as compensation for the loss of liquidity.
+
+The major advantages of a PIPE transaction to issuers are that it gives them faster access to capital and a lower funding cost than a registered public offering. A PIPE transaction can be completed in a few days, whereas a typical public offering underwritten by an investment bank takes much longer. PIPE transactions involving a healthy firm can also be executed without the use of an investment bank, resulting in a cost saving of as much as 7 or 8 percent of the proceeds raised. Finally, a PIPE transaction can be the only way for a small financially distressed company to raise equity capital.
+
+15.7 Commercial Bank Loans
+LEARNING OBJECTIVE
+
+Review the common types of commercial bank loans, their terms, and how they are priced.
+The previous sections have discussed long-term debt and equity funding that is obtained in private and public financial markets. Commercial banks are another important source of funds for businesses. Almost every company has a working relationship with at least one bank, and smaller companies depend on them for funding and for financial advice. A relationship with a bank can be important for a company as it can make bank loans a low-cost source of funding. In addition, relationship lenders are often more willing to renegotiate loan terms when a firm faces financial difficulties. Next, we review some of the most common types of bank loans used by businesses. Most small and medium-sized firms borrow from commercial banks on a regular basis.
+
+Prime-Rate Loans
+
+The most common type of business loan is a prime-rate loan. These are loans in which the borrowing rate is based on the prime rate of interest, which is historically the loan rate that banks charge their most creditworthy customers. In practice, some customers are able to borrow below the prime rate. Prime-rate loans are often used to finance working capital needs such as inventory purchases. To ensure that prime-rate borrowing is not used as long-term financing, banks often require that the loan balance be brought to zero for a short time each year.
+
+The prime rate charged by a bank might be higher than other market borrowing rates. This is because banks provide a range of services with these loans, much as venture capitalists provide services to start-up businesses. For example, small and medium-sized firms often rely on the bank’s lending officer to serve as the firm’s financial adviser and to keep the CFO abreast of current developments and trends in financing. Thus, the cost of a prime-rate loan can include the cost of the advisory services as well as the cost of the financing.
+
+Bank Term Loans
+
+Term loans are defined as business loans with maturities greater than one year. Term loans are the most common form of intermediate-term financing provided by commercial banks, and there is wide variation in how these loans are structured. In general, they have maturities between one and fifteen years, but most are in the one-to-five-year range. Bank term loans may be secured or unsecured, and the funds can be used to buy inventory or to finance plant and equipment. As in all bank commercial lending, banks maintain close relationships with borrowers, and bank officers closely monitor borrower performance.
+
+term loan a business loan with a maturity greater than one year
+
+The Loan Pricing Model
+
+We have mentioned that the prime rate is the rate banks historically charge their most credit worthy customers. The prime rate is not a market-determined interest rate, since bank management sets it. However, the prime rate is subject to market forces that affect the bank’s cost of funds and the rate the bank’s customers are willing to accept. Thus, as the general level of interest rates in the economy increases or decreases, bank management raises or lowers the prime rate to adjust for the bank’s cost of funds and to respond to competitive conditions.
+
+In determining the interest rate to charge on a loan, the bank takes the prime rate plus two other factors into account. The calculation, called the bank loan pricing model, is as follows:
+
+(15.1)
+where:
+
+      kl = the loan rate (%)
+
+    PR = the prime rate (%)
+
+ DRP = adjustment for default risk above the prime rate (%)
+
+MAT = adjustment for the yield curve for term loans (%)
+
+Before making a loan, the bank conducts a credit analysis of the customer. The first step is to determine the customer’s credit category. Banks usually have five to seven credit risk categories, which look very much like bond ratings. If the customer is of the highest credit standing, it is classified as a prime-rate customer and, thus, borrows at the prime rate (or below if it does not require substantial services). For all other customers, there is some markup above the prime rate, which is a default risk premium (DRP). For example, if a bank customer is “prime + 2,” the customer borrows at the prevailing prime rate plus 2 percent.
+
+The second step, if the customer wants a term loan, is to adjust for the term to maturity (MAT). MAT is defined as the difference between the yield on a Treasury security with the same maturity as the term loan and the yield on a three-month Treasury bill. Mathematically, that can be expressed as follows:
+
+MAT = yn − y3-mo
+
+where yn is the yield on a Treasury security with n years to maturity and y3-mo is the yield on a three-month Treasury security. (As a practical matter, most financial analysts treat the prime rate as a three-month interest rate.) Suppose, for example, that a customer wants a two-year term loan. If the yield on a two-year Treasury security is 4.00 percent and the yield on a three-month Treasury is 3.70 percent, then the appropriate MAT is 0.30 percent (4.00 percent − 3.70 percent = 0.30 percent).
+
+Let’s consider an example of credit analysis for a short-term loan, which requires consideration of only the prime rate and the DRP. Suppose a bank has two customers that are medium-sized business firms. Firm A has the bank’s highest credit standing, and Firm B’s credit standing is prime + 3. The bank prime rate is 4.25 percent. What is the appropriate loan rate for each customer, assuming the loan is not a term loan?
+
+Firm A, with its high credit standing, is clearly a prime customer, so its borrowing rate is the prime rate, 4.25 percent. Firm B’s credit rating is prime + 3, or prime plus 3 percent, so its borrowing cost is 7.25 percent (4.25 percent + 3.00 percent = 7.25 percent). Note that the prime rate is a floating rate. Thus, if the bank raises its prime rate by 25 basis points, both firms’ borrowing costs increase by 25 basis points, firm A’s to 4.5 percent and firm B’s to 7.5 percent.
+
+Learning by Doing Application 15.4 illustrates the pricing of a term loan.
+
+LEARNING BY DOING APPLICATION 15.4
+Pricing a Term Loan
+
+Problem
+
+In our text example, Firm B’s borrowing cost for a short-term loan is 7.25 percent. Suppose, however, that Firm B’s CFO would like to lock in the borrowing cost for five years and asks for a quote on a five-year term loan. The lending officer has access to the following information: a three-month Treasury bill yields 1.00 percent, and five-year Treasury notes yield 2.80 percent. What loan rate should the bank quote?
+
+
+
+
+
+Concluding Comments on Funding the Firm
+This chapter has focused on how firms raise capital to fund their current operations and growth. How a firm raises capital depends on the firm’s stage in its life cycle, its expected cash flows, and its risk characteristics. For new businesses, funding comes from friends, family, credit cards, and venture capitalists. More mature firms rely heavily on (1) public markets, (2) private markets, and (3) bank loans. Each market has particular characteristics, and firms select the method of financing that provides the best combination of low-cost borrowing and favorable terms and conditions. There are no simple rules or formulas on how to fund the enterprise. Chapter 16 tackles a number of important questions regarding a firm’s capital structure and the use of financial leverage.
+
+Before You Go On
+What are the disadvantages of a private placement sale compared with a public sale?
+Why do companies engage in PIPE transactions?
+What are the primary determinants of bank loan pricing?
+
+You can read an article on bank loan pricing at the Web site of the Minneapolis Fed at www.minneapolisfed.org/article/2000/how-do-lenders-set-interest-rates-on-loans
+
+
+Visit this small-business information Web site for more about private placements and other topics: sbinformation.about.com/cs/creditloans/a/prplacemt.htm
+
+Summary of Learning Objectives
+1 Explain what is meant by bootstrapping when raising seed financing and why bootstrapping is important.
+
+Bootstrapping is the process by which many entrepreneurs raise seed money and obtain other resources necessary to start new businesses. Seed money often comes from the entrepreneur’s savings and credit cards, and from family and friends. Bootstrapping is important because business start-ups are a significant factor in determining and sustaining long-term economic growth in an economy. Many state and local governments have invested heavily in business incubators, hoping to foster new business formation.
+
+2 Describe the role of venture capitalists in the economy and discuss how they reduce their risk when investing in start-up businesses.
+
+Venture capitalists specialize in helping businesses get started by providing early-stage financing and management advice. Because of the high risk of investing in start-up businesses, venture capitalists finance projects in stages and often require the owners to make a significant personal investment in the firm. The owners’ equity stake signals their belief in the viability of the business and ensures that management actions are focused on building a successful business. Risk is also reduced through syndication and because of the venture capitalist’s in-depth knowledge of the industry and technology.
+
+3 Discuss the advantages and disadvantages of going public and compute the net proceeds from an IPO.
+
+The major advantages of entering public markets are that they provide firms with access to large quantities of money at relatively low cost, enable firms to attract and motivate good managers, and provide liquidity for existing stockholders, such as entrepreneurs, other managers, and venture capitalists. Disadvantages include the high cost of the IPO, the cost of ongoing SEC disclosure requirements, the need to disclose sensitive information, and possible incentives that focus on short-term profits rather than on long-term value maximization. Section 15.3 and Learning by Doing Applications 15.1 and 15.2 provide practice in computing net IPO proceeds.
+
+4 Explain why, when underwriting new security offerings, investment bankers prefer that the securities be underpriced. Compute the total cost of an IPO.
+
+When underwriting new securities, investment bankers prefer that the issue be underpriced because it increases the likelihood of a successful offering. The lower the offering price, the more likely that the securities will sell out quickly—and the less likely that the underwriters will end up with unsold inventory. Furthermore, many investment bankers will argue that some underpricing helps attract long-term institutional investors who help provide stability for the stock price.
+
+The total cost of issuing an IPO includes three elements: (1) the underwriter’s spread; (2) out-of-pocket expenses, which include legal fees, SEC filing fees, and other expenses; and (3) the cost of underpricing. For calculations of these costs, see Section 15.4, including Learning by Doing Application 15.3. Exhibit 15.5 shows average costs for IPOs in recent years.
+
+5 Discuss the costs of bringing a general cash offer to market.
+
+The total cost of bringing a general cash offer to market is lower than the cost of issuing an IPO because these seasoned offerings do not include a large underpricing cost and underwriting spreads are smaller. Section 15.5 explains how to compute the total cost of a general cash offer. Some average costs are listed in Exhibit 15.6.
+
+6 Explain why a firm that has access to the public markets might elect to raise money through a private placement.
+
+There are a number of advantages to private placement, even for companies with access to the public markets. A private placement may be more cost-effective and can be accomplished much more quickly. In addition, some larger companies, especially those owned by entrepreneurs or families, may not wish to be exposed to the public scrutiny that comes with public sales of securities.
+
+7 Review the common types of commercial bank loans, their terms, and how they are priced.
+
+Most small and medium-sized firms borrow from commercial banks on a regular basis. Small and medium-sized firms may have limited access to the financial markets. For these firms, banks provide not only funds but also other services, including financial advice. For many companies, borrowing from a bank that they have a relationship with may be the lowest-cost source of funds. Furthermore, if a firm’s financial circumstances change it can be easier for the firm to borrow or renegotiate the debt with a bank than with other lenders.
+
+Bank term loans are business loans with maturities greater than one year. Most bank term loans have maturities from one to five years, though the maturity may be as long as fifteen years. The cost of the loans depends on three factors: the prime rate, an adjustment for default risk, and an adjustment for the term to maturity.
+
+Summary of Key Equations
+Equation	Description	Formula
+15.1	Bank Loan Pricing Model	kl = PR + DRP + MAT
+Self-Study Problems
+15.1 Management of Oakley, Inc., is planning to raise $1 million in new equity through a private placement. If the sale price is $18 per share, how many shares does the company have to issue?
+
+
+
+15.2 Suppose a firm is doing an IPO and the investment bank offers to buy the securities for $39 per share with an offering price of $42. What is the underwriter’s spread? Assume that the underwriter’s cost of bringing the security to the market is $1 per share. What is its net profit per share?
+
+
+
+15.3 Management of Stride Rite Corporation, designer and marketer of athletic apparel, is planning an expansion into foreign markets and needs to raise $10 million to finance this move. Management anticipates raising the money through a general cash offering for $13 a share. If the underwriters charge a 5 percent spread, how many shares will the company have to sell to achieve its goal?
+
+
+
+15.4 Dean Foods Co. needs to borrow $23 million for a factory equipment upgrade. Management decides to sell 10-year bonds. Managers determine that a 3-month Treasury bill yields 4.32 percent, the firm’s credit rating is AA, and the yield on 10-year Treasury bonds is 1.06 percent higher than that for 3-month bills. Right now, AA bond rates are 1.35 percent above the 10-year Treasury bond rate. What is the borrowing cost for this transaction?
+
+
+
+15.5 You are considering starting a new online dating service, but you lack the initial capital. What are your options for obtaining the necessary financing?
+
+
+
+Discussion Questions
+15.1 Assume you work for a venture capital firm and have been approached by a couple of recent college graduates with a request to fund their new business. If you are interested in the idea, what process will you follow?
+
+15.2 Identify the three basic services investment bankers provide to help firms bring new security issues to the market. During which stage of the typical IPO does the investment banker take on the risk of the offering? Is there an alternative in which the risk remains with the company going public?
+
+15.3 Define underpricing, and explain why the majority of IPOs are underpriced. What role do investment banks play in the price-setting process?
+
+15.4 Explain why the owners of a company might choose to keep it private.
+
+15.5 Identify the three cost components that make up the total cost of issuing securities for a company. Briefly describe each.
+
+15.6 What are the characteristics of a public bond? (Think in terms of comparing it to private placement and bank term loans.)
+
+15.7 Discuss the advantages of shelf registration. What kinds of securities are most likely to be registered this way?
+
+15.8 Identify whether each of the following factors implies a lower or higher price for a bond.
+
+Low marketability of the security.
+Short term to maturity.
+Low credit rating of the issuer.
+No call provision.
+15.9 Explain why time might play a significant role during low-interest periods in a decision of whether to choose a private placement or public sale.
+
+15.10 Managers at a large firm are looking for a medium-sized loan with a long term to maturity and low liquidity. Which of the following types of debt would be the most appropriate?
+
+Public bond.
+Private placement.
+Bank term loan.
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+15.1 Venture capital: What items in a business plan does a venture capitalist look for in deciding whether to provide initial financing?
+
+15.2 Venture capital: You finally decide to act on your brilliant idea and start an online textbook rental company. You develop a detailed business plan and calculate that you will need about $350,000 of initial funding to get the business going. Luckily for you, you have lined up two venture capital firms offering to supply the funding. What criteria should guide your decision to select one firm over the other?
+
+15.3 Venture capital: What are some viable exit strategies for investors in a start-up company?
+
+15.4 IPO: Briefly describe the IPO process.
+
+15.5 IPO: Based on your knowledge from this and previous chapters, what are some methods an investment banker uses to determine an IPO price? What factors will play a significant role in the calculation?
+
+15.6 IPO: A majority of firms choose a firm-commitment underwriting arrangement rather than a best-effort arrangement for their IPO. Explain why.
+
+15.7 Competitive versus negotiated sale: Why might a negotiated sale be the lowest-cost means of issuing a complex debt security?
+
+15.8 IPO pricing: Trajax, Inc., a high-technology firm in Portland, raised a total of $90 million in an IPO. The company received $27 of the $30 per share offering price. The firm’s legal fees, SEC registration fees, and other out-of-pocket costs were $450,000. The firm’s stock price increased 17 percent on the first day of trading. What was the total cost to the firm of issuing the securities?
+
+15.9 IPO pricing: Myriad Biotech management plans a $114 million IPO in which the offering price to the public will be $51 per share. The company will receive $47.50 per share. The firm’s legal fees, SEC registration fees, and other out-of-pocket costs will total $525,000. If the stock price increases 14 percent on the first day of trading, what will be the total cost of issuing the securities?
+
+15.10 Shelf registration: Are the following statements true or false?
+
+Shelf registration allows firms to register an inventory of securities for an unlimited time.
+The securities can be taken off the shelf at any time and sold to the public.
+Shelf registration reduces flotation and other expenses associated with registration.
+There is a large penalty if the authorized securities are not issued.
+A shelf registration can cover multiple securities.
+15.11 General cash offer: What are the steps in a general cash offering? Explain each of them.
+
+15.12 General cash offer: Explain the difference between a competitive and negotiated cash sale. Which method of sale is likely to yield the lower funding cost for firms selling plain vanilla bonds in stable markets?
+
+15.13 Issuing securities: Explain what is meant by economies of scale in issuing securities.
+
+15.14 Bank term lending: Explain how term to maturity affects the price of a bank loan.
+
+15.15 Private placement versus public debt offering: Nalco Holding is an international company that operates in 130 countries, has a market capitalization (market value of equity) of $2.3 billion, and reported net income of $45 million on $3.3 billion in revenues last year. The company needs to raise $200 million in debt, and management is deciding between private placement and public offering. What are the advantages and disadvantages of the two alternatives, and which is likely to be the better choice?
+
+15.16 Prime-rate lending: Suppose two firms want to borrow money from a bank for a period of one year. Firm A has excellent credit, whereas Firm B’s credit standing is such that it would pay prime + 2 percent. The current prime rate is 6.75 percent, the 30-year Treasury bond yield is 4.35 percent, the 3-month Treasury bill yield is 3.54 percent, and the 10-year Treasury note yield is 4.22 percent. What are the appropriate loan rates for each firm?
+
+15.17 Prime-rate lending: Now suppose that Firm B from Problem 15.16 decides to get a term loan for 10 years. How does this affect the company’s borrowing cost?
+
+15.18 Prime-rate lending: Cartco needs to borrow $5 million for an upgrade to its headquarters and manufacturing facility. Management has decided to borrow using a five-year term loan from its existing commercial bank. The prime rate is 3.25 percent, and Cartco’s current rating is prime + 2.48 percent. The yield on a five-year U.S. Treasury note is 2.01 percent, and the three-month U.S. Treasury bill rate is 0.09 percent. What is the estimated loan rate for the five-year bank loan?
+
+Intermediate
+15.19 Venture capital: You work for a venture capital firm and are approached to finance a new high-tech start-up. While you believe in the business idea, you also believe it is very risky. What strategies can help to mitigate the risk of the invsetment to your firm? Explain how these measures would work.
+
+15.20 IPO: On December 9, 2020, DoorDash completed its IPO of 33 million shares to the initial investors at $102.00 per share. The closing price of the stock that same day was $189.51 What was the dollar value of the underpricing associated with the DoorDash IPO?
+
+15.21 IPO: Deere and Bros. is a broker that brings new issues of small firms to the public market. Its most recent deal for Dextra, Inc., had the following characteristics:
+
+Number of shares: 1,000,000 Price to public: $15 per share
+
+Proceeds to Dextra: $13,500,000
+
+The legal fees were $150,000, printing costs were $56,000, and all the other expenses were $72,000. What is the profit or loss for Deere and Bros.?
+
+15.22 IPO: When Global Partners went public in September 2016, the offer price was $22.00 per share and the closing price at the end of the first day was $23.90. The firm issued 4.9 million shares. What was the loss to the company due to underpricing?
+
+15.23 IPO: Bellex Technologies agreed to complete its IPO on a best-effort basis. The company’s investment bank demanded a spread of 17 percent of the offer price, which was set at $30 per share. Three million shares were issued; however, the bank’s management was overly optimistic and eventually was able to sell all of the stock for only $28 per share. What were the proceeds for the issuer and the underwriter?
+
+15.24 IPO: Suppose a biotech company in Boston, Massachusetts, completes an $85 million IPO priced to the public at $75 per share. The firm receives $72 per share, and the out-of-pocket expenses are $340,000. The stock’s closing price at the end of the first day is $84. What is the total cost to the firm of issuing the securities?
+
+15.25 IPO: An online medical advice company just completed an IPO with an investment bank on a firm-commitment basis. The firm issued 5 million shares of common stock, and the underwriting fees were $1.90 per share. The offering price was $26 per share.
+
+What were the total proceeds from the common-stock sale?
+How much money did the company receive?
+How much money did the investment bank receive in fees?
+15.26 IPO underpricing: Suppose that a biotech firm in Pittsburgh raised $120 million in an IPO. The firm received $23 per share, and the stock sold to the public for $25 per share. The firm’s legal fees, SEC registration fees, and other out-of-pocket costs were $270,000. The firm’s stock price increased 17.5 percent on the first day. What was the total cost to the firm of issuing the securities?
+
+15.27 Long-term corporate debt: The 20-year Treasury rate is 4.67 percent, and a firm’s credit rating is BB. Suppose management of the firm decides to raise $20 million by selling 20-year bonds. Management determines that since it has plenty of experience, it will not need to hire an investment banker. At present, 20-year BB bonds are selling for 185 basis points above the 20-year Treasury rate, and it is forecast that interest rates will not stay this low for long. What is the cost of borrowing? What role does timing play in this situation?
+
+Sample Test Problems
+15.1 Why are traditional sources of funding not usually available for new or emerging businesses?
+
+15.2 A firm is making an initial public offering. The investment bankers agree to a firm-commitment underwriting for 500,000 shares that would be priced to the public at $36 per share. The underwriter’s spread is 7 percent. What will be the proceeds for the issuer and the underwriter?
+
+15.3 Hilton Worldwide Holdings Inc. completed an initial public offering on December 12, 2013. The offer price was $20.00 per share, and the closing price at the end of the first day was $21.50. The firm issued 117.6 million shares. What was the loss to Hilton stockholders due to underpricing? Who received this value?
+
+15.4 SMA Inc. is considering issuing the following securities. For which security would a competitive sale be less costly than a negotiated sale under stable market conditions? Why?
+
+Plain vanilla bonds.
+IPO of common stock.
+Secondary offering of common stock.
+Convertible bonds.
+15.5 Management of Southern Parts Company has decided to sell 10-year bonds to finance expansion into the Pacific Northwest. The market rate on these bonds is 8 percent, and the 3-month Treasury bill rate is 2.1 percent. The firm’s credit rating is B, and the yield on 10-year Treasury bonds is 2.5 percent higher than that on 3-month Treasury bills. How much of a premium over the 10-year Treasury bond will these Southern Parts bonds sell for?
+
+Notes
+1 A business plan is like a road map for a business. It presents the results from a strategic planning process that focuses on how the business will be developed over time. Business plans are discussed in more detail in Chapter 18.
+2 There are two notable exemptions from this requirement: (1) an exemption for commercial paper with maturities up to 270 days and (2) a small-issue exemption for security issues of less than $5 million.
+3 The investment banking firm that does the origination work is excluded from bidding on the issue because its intimate knowledge of the deal would be considered an unfair advantage by other bidders and thus would discourage them from bidding.
+4 Limited liability companies are discussed in Chapter 1. The same forms of organization are used by venture capital funds.
+5 In a leveraged buyout, a private equity firm takes over a company by using a high proportion of borrowed funds. The target company’s assets provide security for the loans taken out by the acquiring firm.

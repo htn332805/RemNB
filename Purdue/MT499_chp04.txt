@@ -1,0 +1,1398 @@
+CHAPTER 4
+Analyzing Financial Statements
+
+LEARNING OBJECTIVES
+
+Explain the four perspectives from which financial statements can be viewed.
+Describe common-size financial statements, explain why they are used, and be able to prepare and use them to analyze the historical performance of a firm.
+Discuss how financial ratios facilitate financial analysis and be able to compute and use them to analyze a firm’s performance.
+Describe the DuPont system of analysis and be able to use it to evaluate a firm’s performance and identify corrective actions that may be necessary.
+Explain what benchmarks are, describe how they are prepared, and discuss why they are important in financial statement analysis.
+Identify the major limitations in using financial statement analysis.
+The last three decades witnessed a major shift in the U.S. retailing marketplace. By taking advantage of logistic and purchasing advantages, large-scale discount chains have been able to reduce their costs and lower prices for consumers, fueling the explosive expansion of retailers such as the Target and Walmart Stores. Competition for customers between these two firms is intense, with Target pursuing a strategy reliant on consumer discretionary purchases, and Walmart focused on very low prices for consumer basics.
+
+Just how do analysts compare the performance of companies like Target and Walmart? One approach is to compare accounting data from the financial statements that companies file with the U.S. Securities and Exchange Commission (SEC). Below are data for total sales and net income for Target and Walmart for their fiscal years ending early 2020.
+
+Target ($ millions)	Walmart ($ millions)
+Total sales	$77,130	$523,964
+Net income	$  3,281	$  14,881
+The accounting numbers by themselves are not very revealing. Walmart is a much larger firm than Target, with greater sales and net income. This difference in size makes it difficult to assess the actual performance differences between the two firms. However, if we compute the net profit margin, one of the profitability ratios discussed in this chapter, we can identify more clearly the performance difference between the two retailers. The net profit margins (net income/total sales) for Target and Walmart are 4.25 percent and 2.84 percent, respectively. This means that for every $100 in revenues, Target is able to generate $4.25 in profit, whereas Walmart generates only $2.84. As this example illustrates, one advantage of using ratios is that they make direct comparisons of companies possible by adjusting for size differences.
+
+This chapter discusses financial ratio analysis (or financial statement analysis), which involves the calculation and comparison of ratios derived from financial statements. These ratios can be used to draw useful conclusions about a company’s financial condition, its operating efficiency, and the attractiveness of its securities as investments.
+
+Chapter Preview
+In Chapter 3 we reviewed the basic structure of financial statements. This chapter explains how financial statements are used to evaluate a company’s overall performance and assess its strengths and shortcomings. The basic tool used to do this is financial ratio analysis. Financial ratios are computed by dividing one number from a firm’s financial statements by another such number in order to allow for meaningful comparisons between firms or areas within a firm.
+
+Management can use the information from this type of analysis to help maximize the firm’s value by identifying areas where performance improvements are needed. For example, the analysis of data from financial statements can help determine why a firm’s cash flows are increasing or decreasing, why a firm’s profitability is changing, and whether a firm will be able to pay its bills next month.
+
+We begin the chapter by discussing some general guidelines for financial statement analysis, along with four different perspectives on financial analysis: those of the stockholder, manager, creditor, and other stakeholders. Next, we describe how to prepare common-size financial statements, which allow us to compare firms that differ in size and to analyze a firm’s financial performance over time. We then explain how to calculate and interpret key financial ratios and discuss the DuPont system, a diagnostic tool that uses financial ratios. After a discussion of benchmarks, we conclude with a description of the limitations of financial statement analysis.
+
+4.1 Background for Financial Statement Analysis
+LEARNING OBJECTIVE
+
+Explain the four perspectives from which financial statements can be viewed.
+This chapter will guide you through a typical financial statement analysis, which involves the use of financial statements to analyze a company’s performance and assess its strengths and weaknesses. First, we look at the different perspectives we can take when analyzing financial statements; then we present some helpful guidelines for financial statement analysis.
+
+financial statement analysis the use of financial statements to analyze a company’s performance and assess its strengths and weaknesses
+
+Perspectives on Financial Statement Analysis
+Stockholders and stakeholders may differ in the information they want to gain when analyzing financial statements. In this section, we discuss four perspectives from which we can view financial statement analysis: those of (1) stockholders, (2) managers, (3) creditors, and (4) other stakeholders.
+
+Stockholders’ Perspective
+
+Stockholders are primarily concerned with the value of their stock and with how much cash they can expect to receive from dividends and capital appreciation over time. Therefore, stockholders want financial statements to tell them how profitable the firm is, what the return on their investment is, and how much cash is available for stockholders, both in total and on a per-share basis. Ultimately, stockholders are interested in how much a share of stock is worth. We address pricing issues in detail in Chapter 9, but financial analysis is a key step in valuing a company’s stock.
+
+Managers’ Perspective
+
+Broadly speaking, management’s perspective of financial statement analysis is similar to that of stockholders. The reason is that stockholders own the firm and managers have a fiduciary responsibility to make decisions that are in the owners’ best interests. Thus, managers are interested in the same performance measures as stockholders: profitability, how much cash is available for stockholders, capital appreciation, return on investment, and the like.
+
+Managers, however, are also responsible for running the business on a daily basis and must make decisions that will maximize the value of the stockholders’ shares in the long run. Maximizing the value of the stockholders’ shares does not involve a single big decision, but rather a series of smaller day-to-day decisions. Thus, managers need feedback on the short-term impact these day-to-day decisions have on the firm’s financial statements and its current stock price. For example, managers can track trends in sales and can determine how well they are controlling expenses and how much of each sales dollar goes to the bottom line. In addition, managers can see the impact of their capital budgeting, financing, and working capital decisions reflected in the financial statements. Keep in mind that managers, as insiders, have access to much more detailed financial information than those outside the firm. Generally, outsiders only have access to published financial statements for publicly traded firms.
+
+Creditors’ Perspective
+
+The primary concern of creditors is whether and when they will receive the interest payments they are entitled to and when they will be repaid the money they loaned to the firm. Thus, a firm’s creditors, including long-term bondholders, closely monitor how much debt the firm is currently using, whether the firm is generating enough cash to pay its day-to-day bills, and whether the firm will have sufficient cash in the future to make interest and principal payments on long-term debt after satisfying obligations that have a higher legal priority, such as paying employees’ wages. Of course, the firm’s ability to pay interest and principal ultimately depends on cash flows and profitability; hence, creditors—like stockholders and managers—are interested in those aspects of the firm’s financial performance.
+
+Other Stakeholders’ Perspective
+
+In Chapter 1 we noted that other stakeholders, including suppliers and employees, have claims on the firm’s cash flows. The specific interest of stakeholders in the firm’s financial statements will depend on who those stakeholders are. However, like stockholders, managers, and creditors, stakeholders are generally interested in the firm’s cash flows, profitability, and overall financial performance. For example, suppliers are interested in learning the firm’s ability to pay for current and future purchases. Employees might want to know if the firm is likely to lay people off. Stakeholders and the broader community are also increasingly interested in the ability of firms to make environmental, social, and governance (ESG) investments, which include sustainability and corporate social responsibility initiatives.
+
+Guidelines for Financial Statement Analysis
+We turn now to some general guidelines that will help you when analyzing a firm’s financial statements. First, make sure you understand which perspective you are adopting to conduct your analysis: stockholder, manager, creditor, or other stakeholder. The perspective will dictate the type of information you need for the analysis and may affect the actions you take based on the results.
+
+Second, always use audited financial statements if they are available. As we discussed in Chapter 1, an audit means that an independent accountant has attested that the financial statements present fairly, in all material respects, the firm’s financial condition at a point in time. If the statements are unaudited, your analysis will require extra effort. For example, if you are a creditor considering making a loan, you will need to undertake an especially diligent examination of the company’s books before closing the deal. It would also be a good idea to make sure you know the company’s management team and accountant very well. This will provide additional insight into the creditworthiness of the firm.
+
+Third, use financial statements that cover three to five years, or more, to conduct your analysis. This enables you to perform a trend analysis, which involves looking at historical financial statements to see how various ratios are increasing, decreasing, or staying constant over time.
+
+trend analysis analysis of trends in financial data over time
+
+Fourth, when possible, it is always best to compare a firm’s financial statements with those of competitors that are roughly the same size and that offer similar products and services. If you compare firms of disparate size, the results may be meaningless because the two firms may have very different infrastructures, sources of financing, production capabilities, product mixes, and distribution channels. For example, comparing The Boeing Company’s financial statements with those of Piper Aircraft, a firm that manufactures small aircraft, makes no sense whatsoever, although both firms manufacture aircraft. You will have to use your judgment as to whether relevant comparisons can be made between firms with large size differences.
+
+In business it is common to benchmark a firm’s performance, as discussed in the previous paragraph. The most common type of benchmarking involves comparing a firm’s performance with the performance of similar firms that are relevant competitors. For example, Ford Motor Company management may want to benchmark the firm’s performance against General Motors and Toyota, a broader group of Ford’s competitors in the world market, or the industry as a whole. Firms can also be benchmarked against themselves. For example, they can compare this year’s performance with last year’s performance or with a specific goal, such as a 10 percent growth in sales. We discuss benchmarking in more detail later in this chapter.
+
+benchmark a standard against which performance is measured
+
+Before You Go On
+Why is it important to look at a firm’s historical financial statements?
+What is the primary concern of a firm’s creditors?
+4.2 Common-Size Financial Statements
+LEARNING OBJECTIVE
+
+Describe common-size financial statements, explain why they are used, and be able to prepare and use them to analyze the historical performance of a firm.
+A common-size financial statement is one in which each number is expressed as a percentage of some base number, such as total assets or net revenues (net sales). For example, each number on a balance sheet may be divided by total assets. Dividing numbers by a common base to form a ratio is called scaling. Scaling is an important concept, and you will read more about it later in this chapter in the discussion of financial ratios. Financial statements scaled in this manner are also called standardized financial statements.
+
+common-size financial statement a financial statement in which each number is expressed as a percentage of a base number, such as total assets or net revenues (net sales)
+
+Common-size financial statements make it easier to evaluate changes in a firm’s performance and financial condition over time. They also allow you to make more meaningful comparisons between the financial statements of two firms that are different in size. For example, in the oil and gas field equipment market, Schlumberger Limited is the major competitor of Diaz Manufacturing, the illustrative firm introduced in Chapter 3. However, Schlumberger has over $55 billion in total assets, while Diaz Manufacturing’s assets total only $1.9 billion. Without common-size financial statements, comparisons of these two firms would be difficult to interpret. Common-size financial statements are also useful for analyzing trends within a single firm over time, as you will see.
+
+Common-Size Balance Sheets
+To create a common-size balance sheet, we divide each of the asset accounts by total assets. We also divide each of the liability and equity accounts by total assets since Total assets = Total liabilities + Total equity. You can see the common-size balance sheet for Diaz Manufacturing in Exhibit 4.1. Assets are shown in the top portion of the exhibit, and liabilities and stockholders’ equity in the lower portion. The calculations are simple. For example, on the asset side in 2020, cash and marketable securities were 15.3 percent of total assets ($288.5/$1,889.2 = 0.153, or 15.3 percent), and inventory was 22.4 percent of total assets ($423.8/$1,889.2 = 0.224, or 22.4 percent). Notice that the percentages of total assets add up to 100 percent. On the liability side, accounts payable and accruals are 18.5 percent of total assets ($349.3/$1,889.2 = 0.185, or 18.5 percent), and long-term debt is 30.4 percent ($574.0/$1,889.2 = 0.304, or 30.4 percent). To test yourself, see if you can re-create the percentages in Exhibit 4.1 using your calculator. Make sure the percentages add up to 100, but realize that you may obtain slight variations from 100 because of rounding.
+
+What kind of information can Exhibit 4.1 tell us about Diaz Manufacturing’s operations? Here are some examples. Notice that in 2020, inventories accounted for 22.4 percent of total assets, down from 24.9 percent in 2019 and 28.6 percent in 2018. In other words, Diaz Manufacturing has been steadily reducing the proportion of its money tied up in inventory. This is probably good news because it is usually a sign of more efficient inventory management.
+
+Now look at liabilities and equity, and notice that in 2020 total liabilities represent 50.4 percent of Diaz Manufacturing’s total liabilities and equity. This means that common stockholders have provided 49.6 percent of the firm’s total financing and that creditors have provided 50.4 percent of the financing. In addition, you can see that from 2018 to 2020. Diaz Manufacturing substantially increased the proportion of financing from long-term debt holders. Long-term debt provided 21.1 percent ($295.6/$1.398.0 = 0.211, or 21.1 percent) of the financing in 2018 and 30.4 percent ($574.0/$1,889.2 = 0.304, or 30.4 percent) in 2020.
+
+EXHIBIT 4.1 Common-Size Balance Sheets for Diaz Manufacturing on December 31 ($ millions)
+
+In common-size balance sheets, such as those in this exhibit, each asset account and each liability and equity account are expressed as a percentage of total assets. Common-size statements allow financial analysts to compare firms that are different in size and to identify trends within a single firm over time.
+
+ 	2020	2019	2018
+ 	 	% of Assets	 	% of Assets	 	% of Assets
+Assets						
+  Cash and marketable securities	     $ 288.5	  15.3	  $    16.6	       1.1	 $     8.2	     0.6
+  Accounts receivable	       306.2	  16.2	      268.8	     18.0	    271.5	  19.4
+  Inventories	       423.8	  22.4	      372.7	     24.9	    400.0	  28.6
+  Other current assets	         21.3	   1.1	       29.9	       2.0	      24.8	    1.8
+    Total current assets	$1,039.8	  55.0	$   688.0	    46.1	 $  704.5	  50.4
+  Plant and equipment (net)	      399.4	  21.1	     394.2	    26.4	     419.6	  30.0
+  Goodwill and other assets	     450.0	  23.8	     411.6	    27.6	    273.9	  19.6
+  Total assets	$1,889.2	100.0	$1,493.8	 100.0	$1,398.0	100.0
+Liabilities and Stockholders’ Equity:						
+  Accounts payable and accruals	$ 349.3	  18.5	$ 325.0	  21.8	$ 395.0	28.3
+  Notes payable	      10.5	   0.6	        4.2	     0.3	     14.5	   1.0
+  Accrued income taxes	      18.0	   1.0	      16.8	     1.1	     12.4	   0.9
+    Total current liabilities	$ 377.8	  20.0	$ 346.0	  23.2	$ 421.9	30.2
+  Long-term debt	   574.0	  30.4	   305.6	   20.5	   295.6	 21.1
+    Total liabilities	$ 951.8	  50.4	$ 651.6	  43.6	$ 717.5	51.3
+  Common stock (54,566,054 shares)	     50.0	   2.6	     50.0	     2.6	     50.0	   2.6
+  Additional paid-in capital	  842.9	  44.6	   842.9	  56.4	  842.9	  60.3
+  Retained earnings	    67.8	   3.6	  (50.7)	  (3.4)	(155.8)	(11.1)
+  Less: Treasury stock	 (23.3)	 (1.2)	        —	     —	   (56.6)	  (4.0)
+    Total stockholders’ equity	$ 937.4	  49.6	 $ 842.2	  56.4	 $ 680.5	   48.7
+  Total liabilities and equity	$1,889.2	100.0	$1,493.8	100.0	$1,398.0	100.0
+Overall, we can identify the following trends in Diaz Manufacturing’s common-size balance sheet. First, Diaz Manufacturing is a growing company. Its assets increased from $1,398.0 million in 2018 to $1,889.2 million in 2020. Second, the percentage of total assets held in current assets grew from 2018 to 2020, a sign of increasing liquidity. Recall from Chapter 2 that assets are liquid if they can be sold easily and quickly for cash without a loss of value. Third, the percentage of total assets in plant and equipment declined from 2018 to 2020, a sign that Diaz Manufacturing is becoming more efficient because it is using fewer long-term assets in producing sales (below you will see that net sales have increased over the same period). Finally, as mentioned, Diaz Manufacturing has significantly increased the percentage of its financing from long-term debt. Generally, these are considered signs of a solidly performing company, but we have a long way to go before we can confidently reach that conclusion. We will now turn to Diaz Manufacturing’s common-size income statement.
+
+Common-Size Income Statements
+The most useful way to prepare a common-size income statement is to express each account as a percentage of net sales, as shown for Diaz Manufacturing in Exhibit 4.2. Net sales are defined as total sales less all sales discounts and sales returns and allowances. You should note that when looking at accounting information and sales numbers as reported, they almost always mean net sales, unless otherwise stated. We will follow this convention in the book. Again, the percent calculations are simple. For example, in 2020 selling and administrative expenses are 14.8 percent of sales ($231.1/$1,563.7 = 0.148, or 14.8 percent), and net income is 7.6 percent of sales ($118.5/$1,563.7 = 0.076, or 7.6 percent). Before proceeding, make sure that you can verify each percentage in Exhibit 4.2 with your calculator.
+
+Interpreting the common-size income statement is also straightforward. As you move down the income statement, you will find out exactly what happens to each dollar of sales that the firm generates. For example, in 2020 it cost Diaz Manufacturing 69.1 cents in cost of goods sold to generate one dollar of sales. Similarly, it cost 14.8 cents in selling and administrative expenses to generate a dollar of sales. The government took 2.8 percent of sales in the form of taxes.
+
+EXHIBIT 4.2 Common-Size Income Statements for Diaz Manufacturing for Fiscal Years Ending December 31 ($ millions)
+
+Common-size income statements express each account as a percentage of net sales. These statements allow financial analysts to better compare firms of different sizes and to analyze trends in a single firm’s income statement accounts over time.
+
+ 	2020	2019	2018
+ 	 	% of Net Sales	 	% of Net Sales	 	% of Net Sales
+Net sales	$1,563.7	100.0	$1,386.7	100.0	$1,475.1	100.0
+Cost of goods sold	  1,081.1	  69.1	     974.8	   70.3	 1,076.3	   73.0
+Selling and administrative expenses	     231.1	  14.8	     197.4	   14.2	    205.7	   13.9
+Earnings before interest, taxes, depreciation, and amortization (EBITDA)	$ 251.5	  16.1	$ 214.5	  15.5	$ 193.1	  13.1
+Depreciation	     83.1	    5.3	      75.3	   5.4	     71.2	   4.8
+Earnings before interest and taxes (EBIT)	$ 168.4	  10.8	$ 139.2	10.0	$ 121.9	   8.3
+Interest expense	        5.6	     0.4	      18.0	   1.3	     27.8	   1.9
+Earnings before taxes (EBT)	$ 162.8	  10.4	$ 121.2	   8.7	$   94.1	   6.4
+Taxes	     44.3	    2.8	      16.1	   1.2	     27.9	   1.9
+Net income	$ 118.5	    7.6	$ 105.1	   7.6	$  66.2	   4.5
+Dividends	—		—		—	
+Addition to retained earnings	$  118.5		$ 105.1		$  66.2	
+The common-size income statement can tell us a lot about a firm’s efficiency and profitability. For example, in 2018, Diaz Manufacturing’s cost of goods sold and selling and administrative expenses totaled 86.9 percent of sales (73.0 percent + 13.9 percent = 86.9 percent). By 2020, these expenses had declined to 83.9 percent of sales (69.1 percent + 14.8 percent = 83.9 percent). This might mean that Diaz Manufacturing is negotiating lower prices from its suppliers or is more efficient in its use of materials and labor. It could also mean that the company is getting higher prices for its products, perhaps by offering fewer discounts or rebates. The important point, however, is that more of each dollar of sales is contributing to net income.
+
+The trends in the income statement and balance sheet suggest that Diaz Manufacturing is improving along a number of dimensions. The real question, however, is whether Diaz Manufacturing is performing as well as other firms in the same industry. For example, the fact that 7.6 cents of every dollar of sales reaches the bottom line may not be a good sign if we find out that Diaz Manufacturing’s competitors average 10 cents of net income for every dollar of sales.
+
+Before You Go On
+Why does it make sense to standardize financial statements?
+What are common-size, or standardized, financial statements, and how are they prepared?
+
+A good source for financial statements is www.finance.yahoo.com
+
+
+This MSN Web site offers lots of financial information, including accounting ratios, for public companies: www.money.msn.com/investing/
+
+4.3 Financial Ratios and Firm Performance
+LEARNING OBJECTIVE
+
+Discuss how financial ratios facilitate financial analysis and be able to compute and use them to analyze a firm’s performance.
+In addition to the common-size ratios we have just discussed, other specialized financial ratios help analysts interpret the myriad of numbers in financial statements. In this section we examine financial ratios that measure a firm’s liquidity, efficiency, leverage, profitability, and market value, using Diaz Manufacturing as an example. Keep in mind that for ratio analysis to be most useful, it should also include trend and benchmark analyses, which we discuss in more detail later in this chapter.
+
+Why Ratios Are Better Measures
+A financial ratio is simply one number from a financial statement that has been divided by another financial number. Like the percentages in common-size financial statements, ratios eliminate problems arising from differences in size because the denominator of the ratio adjusts, or scales, the numerator to a common base.
+
+financial ratio a number from a financial statement that has been scaled by dividing by another financial number
+
+Here’s an example. Suppose you want to assess the profitability of two firms. Firm A’s net income is $5, and firm B’s is $50. Which firm had the best performance? You really cannot tell because you have no idea what asset base was used to generate the income. In this case, a relevant measure of financial performance for a stockholder might be net income scaled by the firm’s stockholders’ equity—that is, the return on equity (ROE):
+
+ 
+
+If firm A’s total stockholders’ equity is $25 and firm B’s stockholders’ equity is $5,000, the ROE for each firm is as follows:
+
+Firm	ROE Calculation	        ROE        
+A	$5/$25	0.20, or 20%
+B	$50/$5,000	0.01, or 1%
+As you can see, the ROE for firm A is 20 percent—much larger than the ROE for firm B at 1 percent. Even though firm B had the higher net income in absolute terms ($50 versus $5), its stockholders had invested more money in the firm ($5,000 versus $25), and it generated less income per dollar of invested equity than firm A. Clearly, firm A’s performance is better than firm B’s, given its smaller equity investment. The bottom line is that accounting numbers are more easily compared and interpreted when they are scaled.
+
+Choice of Scale Is Important
+
+An important decision is your choice of the “size factor” for scaling. The size factor you select must be relevant and make economic sense. For example, suppose you want a measure that will enable you to compare the productivity of employees at a particular plant with the productivity of employees at other plants that make similar products. Your assistant makes a suggestion: divide net income by the number of parking spaces available at the plant. Will this ratio tell you how productive labor is at a plant? Clearly, the answer is no.
+
+Your assistant comes up with another idea: divide net income by the number of employees. This ratio makes sense as a measure of employee productivity. A higher ratio indicates that employees are more productive because, on average, each employee is generating more income. In business, the type of variable most commonly used for scaling is a measure of size, such as total assets or total net sales. Other scaling variables are used in specific industries where they are especially informative. For example, in the airline industry, a key measure of performance is revenue per available seat mile; in the steel industry, it is sales or cost per ton; and in the automobile industry, it is cost per car produced.
+
+Other Comments on Ratios
+
+The ratios we present in this chapter are widely accepted and are almost always included in any financial workup. However, you will find that different analysts will compute many of these standard ratios slightly differently. Modest variation in how ratios are computed is not a problem as long as the analyst carefully documents the work done and discloses the ratio formula. These differences are particularly important when you are comparing data from different sources.
+
+Short-Term Liquidity Ratios
+Liquid assets have active secondary markets and can be sold quickly for cash without a loss of value. Some assets are more liquid than others. For example, short-term marketable securities are very liquid because they can be easily sold in the secondary market at or near the original purchase price. In contrast, plant and equipment can take months or years to sell and often must be sold substantially below the cost of building or acquiring them.
+
+When we examine a company’s liquidity position, we want to know whether the firm can pay its bills when cash flow from operations is insufficient to pay short-term obligations, such as payroll, invoices from vendors, and maturing bank loans. As the name implies, short-term liquidity ratios focus on whether the firm has the ability to convert current assets into cash quickly without loss of value. As we have noted before, even a profitable business can fail if it cannot pay its current bills on time. The inability to pay debts when they are due is known as insolvency. Thus, liquidity ratios are also known as short-term solvency ratios. The two most important liquidity ratios are the current ratio and the quick ratio.
+
+insolvency the inability to pay debts when they are due
+
+The Current Ratio
+
+To calculate the current ratio, we divide current assets by current liabilities.1 The formula is presented below, along with a calculation of the current ratio for Diaz Manufacturing for 2020 based on balance sheet account data from Exhibit 4.1:
+
+(4.1)
+ 
+ 
+ 
+Diaz Manufacturing’s current ratio is 2.75, which should be read as “2.75 times.” What does this number mean? If Diaz Manufacturing were to take its current supply of cash and add to it the proceeds of liquidating its other current assets—such as marketable securities, accounts receivable, and inventory—it would have $1,039.8 million. This $1,039.8 million would cover the firm’s short-term obligations of $377.8 million approximately 2.75 times, leaving a cushion of $662.0 million ($1,039.8 million − $377.8 million = $662.0 million).
+
+Now turn to Exhibit 4.3, which shows the ratios discussed in this chapter for Diaz Manufacturing for the three-year period 2018 to 2020. The exhibit will allow us to identify important trends in the company’s financial statements. Note that Diaz Manufacturing’s current ratio has been steadily increasing over time. What does this trend mean? From the perspective of a potential creditor, it is a positive sign. To a potential creditor, more liquidity is better because it means that the firm has a greater ability, at least in the short term, to make payments. From a stockholder’s perspective, however, too much liquidity is not necessarily a good thing. If we were to discover that Diaz Manufacturing has a much higher current ratio than its competitors, it could mean that management is being too conservative by keeping too much money tied up in current assets, leaving less cash flow for investors. Generally, more liquidity is better and is a sign of a healthy firm. Only a benchmark analysis can tell us the complete story, however.
+
+EXHIBIT 4.3 Ratios for Time-Trend Analysis for Diaz Manufacturing for Fiscal Years Ending December 31
+
+Comparing how financial ratios, such as these ratios for Diaz Manufacturing, change over time enables financial analysts to identify trends in company performance.
+
+Financial Ratio	2020	2019	2018
+Liquidity Ratios:			
+Current ratio	      2.75	      1.99	      1.67
+Quick ratio	      1.63	      0.91	      0.72
+Efficiency Ratios:			
+Inventory turnover	      2.55	      2.62	      2.69
+  Days’ sales in inventory	143.14	139.31	135.69
+Accounts receivable turnover	     5.11	      5.16	      5.43
+  Days’ sales outstanding	   71.43	   70.74	   67.22
+Total asset turnover	      0.83	      0.93	      1.06
+Fixed asset turnover	      3.92	      3.52	      3.52
+Leverage Ratios:			
+Total debt ratio	      0.50	      0.44	      0.51
+Debt-to-equity ratio	      1.02	      0.77	      1.05
+Equity multiplier	      2.02	      1.77	      2.05
+Times interest earned	   30.07	      7.73	      4.38
+Cash coverage	   44.91	   11.92	      6.95
+Profitability Ratios:			
+Gross profit margin	30.86%	29.70%	27.04%
+Operating profit margin	10.77%	10.04%	  8.26%
+Net profit margin	   7.58%	   7.58%	   4.49%
+EBIT return on assets	   8.91%	   9.32%	   8.72%
+Return on assets	   6.27%	   7.04%	   4.74%
+Return on equity	12.64%	12.48%	  9.73%
+Market-Value Indicators:			
+Price-earnings ratio	    22.40	  18.43	   14.29
+Earnings per share	    $2.17	   $1.93	   $1.21
+Market-to-book ratio	      2.83	     2.31	     1.39
+Note: Numbers may not add up because of rounding.
+The Quick Ratio
+
+The quick ratio is similar to the current ratio except that inventory is subtracted from current assets in the numerator. The quick ratio accounts for the fact that inventory is often much less liquid than other current assets. Inventory is the most difficult current asset to convert to cash without loss of value. Of course, the liquidity of inventory varies with the industry. For example, inventory of a raw material commodity, such as gold or crude oil, is more likely to be sold with little loss in value than inventory consisting of perishables, such as fruit, or fashion items, such as this season’s designer jacket. Another reason for excluding inventory in the quick ratio calculation is that the book value of inventory may be significantly more than its market value because it may be obsolete, partially completed, spoiled, out of fashion, or out of season.
+
+To calculate the quick ratio—or acid-test ratio, as it is sometimes called—we divide current assets, less inventory, by current liabilities. The calculation for Diaz Manufacturing for 2020 is as follows, based on balance sheet data from Exhibit 4.1:
+
+(4.2)
+ 
+ 
+ 
+The quick ratio of 1.63 times means that if we exclude inventory, Diaz Manufacturing had $1.63 of current assets for each dollar of current liabilities. You can see from Exhibit 4.3 that Diaz Manufacturing’s liquidity position, as measured by its quick ratio, has been increasing over time.
+
+Note that the quick ratio is usually less than the current ratio, as it was for Diaz Manufacturing in 2020.2 The quick ratio is a very conservative measure of liquidity because the calculation assumes that the inventory is valued at zero, which in most cases is not a realistic assumption. Even in a bankruptcy “fire sale,” the inventory can be sold for some small percentage of its book value, generating at least some cash.
+
+Decision Making Example 4.1 illustrates how short-term liquidity ratios vary across different types of businesses.
+
+DECISION MAKING EXAMPLE 4.1
+The Liquidity Paradox
+
+Situation
+
+You are asked by your boss whether Walmart or Intuit is more liquid. You have the following information:
+
+Walmart	Intuit
+Current ratio	0.79	2.26
+Quick ratio	0.19	2.26
+You also know that Walmart carries a large inventory and that Intuit is a service firm that specializes in accounting and income-tax preparation services and software. Which firm is more liquid? Your boss asks you to explain the reasons for your answer and also to explain why Intuit’s current and quick ratios are the same.
+
+
+
+Efficiency Ratios
+We now turn to a group of ratios called efficiency ratios or asset turnover ratios, which measure how efficiently a firm uses it assets. These ratios are quite useful for managers and financial analysts in identifying the inefficient use of current and long-term assets. They are also valuable for a firm’s investors who use the ratios to find out how quickly a firm is selling its inventory and converting receivables into cash flow for investors.
+
+Inventory Turnover and Days’ Sales in Inventory
+
+We measure inventory turnover by dividing the cost of goods sold from the income statement by inventory from the balance sheet (see Exhibits 4.1 and 4.2). The cost of goods sold is used because it reflects the book value of the inventory that is sold by a firm. The formula for inventory turnover and its value for Diaz Manufacturing in 2020 are:
+
+(4.3)
+ 
+ 
+ 
+The firm “turned over” its inventory 2.55 times during the year. Looking back at Exhibit 4.3, you can see that this ratio remained about the same over the period covered.
+
+What exactly does “turning over” inventory mean? Consider a simple example. Assume that a firm starts the year with inventory worth $100 and replaces the inventory when it is all sold — that is, when the inventory goes to zero. If, over the course of the year, the firm sells the inventory and replaces it three times, the firm is said to have an inventory turnover of three times.
+
+As a general rule, turning over inventory faster is a good thing because it means that the firm is doing a good job of minimizing its investment in inventory. Nevertheless, like all ratios, inventory turnover can be either too high or too low. Too high an inventory turnover ratio may signal that the firm has too little inventory for its customers and could be losing sales as a result. If the firm’s inventory turnover level is too low, it could mean that management is not managing the firm’s inventory efficiently or that an unusually large portion of the inventory is obsolete or out of date. In sum, inventory turnover that is significantly lower or significantly higher than that of competitors calls for further investigation.
+
+Based on the inventory turnover figure, and using a 365-day year, we can also calculate the days’ sales in inventory, which tells us how long it takes a firm to turn over its inventory on average. The formula for days’ sales in inventory, along with the 2020 calculation for Diaz Manufacturing, is as follows:
+
+(4.4)
+ 
+ 
+ 
+Note that inventory turnover in the formula is computed using Equation 4.3. On average, Diaz Manufacturing takes about 143 days to turn over its inventory. Generally speaking, the smaller the number, the more efficient the firm is at moving its inventory.
+
+Alternative Calculation for Inventory Turnover
+
+Normally, we determine inventory turnover by dividing cost of goods sold by the inventory level at the end of the period. However, if a firm’s inventory fluctuates widely or is growing (or decreasing) over time, some analysts prefer to compute inventory turnover using the average inventory value for the time period. In this case, the inventory turnover is calculated in two steps:
+
+We first calculate average inventory by adding beginning and ending inventory and dividing by 2:
+ 
+
+We then divide the cost of goods sold by average inventory to find inventory turnover:
+ 
+
+Note that all six efficiency ratios presented in the chapter (Equations 4.3 through 4.8) can be computed using an average asset value. For simplicity, we will generally use the end-of-period asset value in our calculations.
+
+Learning by Doing Application 4.1 illustrates the alternative calculation for efficiency ratios using financial data for Diaz Manufacturing.
+
+Accounts Receivable Turnover and Days’ Sales Outstanding
+
+Many firms make sales to their customers on credit, which creates an account receivable on the balance sheet. It does not do the firm much good to ship products or provide the services on credit if it cannot ultimately collect the cash from its customers. A firm that collects its receivables faster is generating cash faster. We can measure the speed at which a firm converts its receivables into cash with a ratio called accounts receivable turnover; the formula and calculated values for Diaz Manufacturing in 2020 are as follows:
+
+(4.5)
+ 
+ 
+ 
+The data to compute this ratio is from Diaz’s balance sheet and income statement (Exhibits 4.1 and 4.2). Roughly, this ratio means that Diaz Manufacturing loans out and collects an amount equal to its outstanding accounts receivable 5.11 times over the course of a year.
+
+In most circumstances, higher accounts receivable turnover is a good thing—it means that the firm is making fewer sales on credit and collecting cash payments from its credit customers faster. Such credit is a customer incentive that is used to promote sales, but it can be expensive. As shown in Exhibit 4.3, Diaz’s collection speed slowed down slightly from 2018 to 2020. This may be a cause for management concern for at least three reasons. First, Diaz’s system for collecting accounts receivable may be inefficient. Second, the firm’s customers may not be paying on time because their businesses are slowing down due to industry or general economic conditions. Finally, Diaz may be extending credit to customers that are poor credit risks. Making a determination of the cause would require us to compare Diaz’s accounts receivable turnover with corresponding figures from its competitors.
+
+LEARNING BY DOING APPLICATION 4.1
+Alternative Calculations for Efficiency Ratios
+
+Problem
+
+For Diaz Manufacturing, compute inventory turnover during 2020 using the average inventory. Then compare that value with 2.55, the turnover ratio computed using Equation 4.3. Why do the two values differ?
+
+
+
+
+
+You may find it easier to evaluate a firm’s credit and collection policies by using days’ sales outstanding, often referred to as DSO, which is calculated as follows:
+
+(4.6)
+ 
+ 
+ 
+Note that accounts receivable turnover is computed using Equation 4.5. The DSO for Diaz Manufacturing means that, on average, the company converts its credit sales into cash in 71.43 days. DSO is commonly called the average collection period.
+
+Generally, faster collection is better. Whether 71.43 days is fast enough really depends on industry norms and on the credit terms Diaz Manufacturing extends to its customers. For example, if the industry average DSO is 77 days and Diaz Manufacturing gives customers up to 90 days to pay, then a DSO of 71.43 days is an indication of good management. If, in contrast, Diaz gives customers 60 days to pay, the company has a problem, and management needs to determine why customers are not paying on time.
+
+Asset Turnover Ratios
+
+We turn next to a discussion of some broader efficiency ratios. In this section we discuss two ratios that measure how efficiently management is using the firm’s assets to generate sales.
+
+Total asset turnover measures the dollar amount of sales generated with each dollar of total assets. Generally, the higher the total asset turnover, the more efficiently management is using total assets. Thus, if a firm increases its asset turnover, management is squeezing more sales out of a constant asset base. When a firm’s asset turnover ratio is high for its industry, the firm may be approaching full capacity. In such a situation, if management wants to increase sales, it will need to make an investment in additional fixed assets. Total asset turnover should be interpreted with care when examining trends for a given firm or when benchmarking against competitors. Younger firms and firms with more recent purchases of fixed assets will have a higher book value of assets and therefore lower total asset turnover for a given level of net sales.
+
+The formula for total asset turnover and the calculation for Diaz Manufacturing’s turnover value in 2020 (based on data from Exhibits 4.1 and 4.2) are as follows:
+
+(4.7)
+ 
+ 
+ 
+Total asset turnover for Diaz Manufacturing is 0.83 times. In other words, in 2020, Diaz Manufacturing generated $0.83 in sales for every dollar in assets. In Exhibit 4.3 you can see that Diaz Manufacturing’s total asset turnover has declined since 2018. This does not necessarily mean that the company’s management team is performing poorly. The decline could be part of a typical industry sales cycle, or it could be due to a slowdown in the business of Diaz Manufacturing’s customers. As always, getting a better fix on potential problems requires comparing Diaz Manufacturing’s total asset turnover with comparable figures for its close competitors.
+
+The turnover of total assets is a “big picture” measure. In addition, management may want to see how particular types of assets are being put to use. A common asset turnover ratio measures sales per dollar invested in fixed assets (plant and equipment). The fixed asset turnover formula and the 2020 calculation for Diaz are:
+
+(4.8)
+ 
+ 
+ 
+Diaz Manufacturing generated $3.92 of sales for each dollar of net fixed assets in 2020, which is an increase over the 2019 value of $3.52. This means that the firm is generating more sales for every dollar in fixed assets. In a manufacturing firm that relies heavily on plant and equipment to generate output, the fixed asset turnover number is an important ratio. In contrast, in a service-industry firm with little plant and equipment, total asset turnover is more relevant.
+
+Decision Making Example 4.2 illustrates how fixed asset turnover ratios vary across firms from different industries.
+
+Leverage Ratios
+Leverage ratios measure the extent to which a firm uses debt rather than equity financing and indicate the firm’s ability to meet its long-term financial obligations, such as interest payments on debt and lease payments. The ratios are also called long-term solvency ratios. They are of interest to the firm’s creditors, stockholders, managers, and other stakeholders. Many different leverage ratios are used in industry; in this chapter we present some of the most widely used.
+
+Financial Leverage
+
+The term financial leverage refers to the use of debt in a firm’s capital structure. When a firm uses debt financing, rather than only equity financing, the returns to stockholders may be magnified. This so-called leveraging effect occurs because the interest payments associated with much long-term debt and some short-term debt are fixed, regardless of the level of the firm’s operating profits. On the one hand, if the firm’s operating profits increase from one year to the next, fixed debt holders continue to receive only their fixed-interest payments, and all of the increase goes to the stockholders. On the other hand, if the firm falls on hard times and suffers an operating loss, these debt holders receive the same fixed-interest payment (assuming that the firm does not become insolvent and default on its obligations to debt holders), and the loss is charged against the stockholders’ equity. Thus, debt increases the returns to stockholders during good times and reduces the returns during bad times. In Chapter 16 we discuss financial leverage in greater depth and present a detailed example of how debt financing creates the leveraging effect.
+
+financial leverage the use of debt in a firm’s capital structure; the more debt, the higher the financial leverage
+
+The use of debt in a company’s capital structure increases the firm’s default (insolvency) risk—the risk that it will not be able to pay its debt as it comes due. The explanation is, of course, that debt payments are a fixed obligation and debt holders must be paid the interest and principal payments they are owed, regardless of whether the company earns a profit or suffers a loss. If a company fails to make an interest payment on the prescribed date, the company defaults on its debt and could be forced into bankruptcy by creditors.
+
+default (insolvency) risk the risk that a firm will not be able to pay its debt obligations as they come due
+
+DECISION MAKING EXAMPLE 4.2
+Ranking Firms by Fixed Asset Turnover
+
+Situation
+
+Different industries use different amounts of fixed assets to generate their revenues. For example, the airline industry is capital intensive, with large investments in airplanes, whereas firms in software and service industries use more human capital (people) and have very little invested in fixed assets. As a financial analyst, you are given the following fixed asset turnover ratios: 0.71, 4.36, and 8.83. You must decide which ratios match up with three firms: Delta Air Lines, Intuit, and Walmart. Make this decision, and explain your reasoning.
+
+
+
+Debt Ratios
+
+We next look at three leverage ratios that focus on how much debt, rather than equity, the firm uses in its capital structure. The more debt a firm uses, the higher its financial leverage, the more volatile its earnings, and the greater its risk of default.
+
+Total Debt Ratio
+The total debt ratio measures the extent to which the firm finances its assets from sources other than the stockholders. The higher the total debt ratio, the more debt the firm has in its capital structure. The total debt ratio and a calculation for Diaz Manufacturing for 2020 based on data from Exhibit 4.1 appear as follows:
+
+(4.9)
+ 
+ 
+ 
+How do we determine the figure to use for total debt? Many variations are used, but perhaps the easiest is to subtract total equity from total assets. In other words, total debt is equal to total liabilities. A common alternative measure of debt is the sum of all the firm’s interest-bearing liabilities, such as notes payable and long-term debt. Using data from Exhibit 4.1, we can calculate total debt for Diaz Manufacturing in 2020 as follows:
+
+
+As you can see from Equation 4.9, the total debt ratio for Diaz Manufacturing is 0.50, which means that 50 percent of the company’s assets are financed with debt. Looking back at Exhibit 4.3, we find that Diaz Manufacturing increased its use of debt from 2019 to 2020. The 2020 total debt ratio of 50 percent appears high, raising questions about the company’s financing strategy. Whether a high or low value for the total debt ratio is good or bad, however, depends on how the firm’s capital structure affects the value of the firm. We explore this topic in greater detail in Chapter 16.
+
+We turn next to two common variations of the total debt ratio: the debt-to-equity ratio and the equity multiplier.
+
+Debt-to-Equity Ratio
+The total debt ratio tells us the amount of debt for each dollar of total assets. The debt-to-equity ratio tells us the amount of debt for each dollar of equity. Based on data from Exhibit 4.1, Diaz Manufacturing’s debt-to-equity ratio for 2020 is 1.02:
+
+(4.10)
+ 
+ 
+ 
+The total debt ratio and the debt-to-equity ratio are directly related by the following formula, shown with a calculation for Diaz Manufacturing:
+
+ 
+ 
+ 
+
+As you can see, once you know one of these ratios, you can compute the other. Which of the two ratios you use is really a matter of personal preference.
+
+Learning by Doing Application 4.2 and Learning by Doing Application 4.3 illustrate additional debt ratio calculations.
+
+LEARNING BY DOING APPLICATION 4.2
+Finding a Total Debt Ratio
+
+Problem
+
+A firm’s debt-to-equity ratio is 0.5. What is the firm’s total debt ratio?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 4.3
+Solving for an Unknown Using the Debt-to-Equity Ratio
+
+Problem
+
+You are given the following information about Intuit’s year-end balance sheet for 2020. The firm’s debt-to-equity ratio is 1.14, and its total equity is $5.11 billion. Determine the book (accounting) values for Intuit’s total debt and total assets.
+
+
+
+
+
+Equity Multiplier
+The equity multiplier tells us the amount of assets that the firm has for every dollar of equity. Diaz Manufacturing’s equity multiplier ratio in 2020 was 2.02, as shown here:
+
+(4.11)
+ 
+ 
+ 
+Notice that the equity multiplier is directly related to the debt-to-equity ratio:
+
+
+This is no accident. Recall the balance sheet identity: Total assets = Total liabilities (debt) + Total stockholders’ equity. This identity can be substituted into the numerator of the equity multiplier formula (Equation 4.11):
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Therefore, all three of these leverage ratios (Equations 4.9–4.11) are related by the balance sheet identity, and once you know one of the three ratios, you can compute the other two ratios.
+
+Coverage Ratios
+
+A second type of leverage ratio measures the firm’s ability to service its debt, or how easily the firm can “cover” its debt payments out of earnings or cash flow. We assess this using coverage ratios. For example, if your monthly take-home pay from your part-time job is $400 and the rent on your apartment is $450, your monthly coverage ratio with respect to rent is $400/$450 = 0.89 times. Because this ratio is less than 1, you will be in some financial distress. Your income does not cover your $450 fixed obligation to pay the rent. If, on the other hand, your take-home pay is $900, your monthly coverage ratio with respect to rent is $900/$450 = 2 times. This means that for every dollar of rent you must pay, you earn two dollars of revenue. The higher your coverage ratio, the less likely you are to default on your rent payments.
+
+Times Interest Earned
+Our first coverage ratio is times interest earned, which measures the extent to which operating profits (earnings before interest and taxes, or EBIT) cover the firm’s interest expenses. Creditors prefer to lend to firms whose EBIT is far in excess of their interest payments. The equation for the times-interest-earned ratio and a calculation for Diaz Manufacturing from its income statement (Exhibit 4.2) for 2020 are:
+
+(4.12)
+ 
+ 
+ 
+Diaz Manufacturing can cover its interest charges about 30 times with its operating income. This figure appears to point to a good margin of safety for creditors. In general, the larger the times interest earned, the more likely the firm is to make its interest payments.
+
+Cash Coverage
+As we have discussed before, depreciation is a noncash expense, and as a result, no cash goes out the door when depreciation is deducted on the income statement. Thus, rather than asking whether operating profits (EBIT) are sufficient to cover interest payments, we might ask how much cash is available to cover interest payments. The cash a firm has available from operations to meet interest payments is better measured by EBIT plus depreciation and amortization (EBITDA).3 Thus, the cash coverage ratio for Diaz Manufacturing in 2020 is:
+
+(4.13)
+ 
+ 
+ 
+For firms with depreciation or amortization expenses, which include virtually all firms, EBITDA coverage will be larger than times interest earned coverage.
+
+Profitability Ratios
+Profitability ratios measure management’s ability to efficiently use the firm’s assets to generate sales and manage the firm’s operations. These measurements are of interest to stockholders, creditors, managers, and other stakeholders because they focus on the firm’s earnings. The profitability ratios presented in this chapter are among a handful of such ratios commonly used by stockholders, managers, and creditors when analyzing a firm’s performance. In general, the higher the profitability ratios, the better the firm is performing.
+
+Gross Profit Margin
+
+The gross profit margin measures the percentage of net sales remaining after the cost of goods sold is paid. It captures the firm’s ability to manage the expenses directly associated with producing the firm’s products or services. Using data from Exhibit 4.2, the gross profit margin formula, along with a calculation for Diaz Manufacturing in 2020, is:
+
+(4.14)
+ 
+ 
+ 
+Thus, after paying the cost of goods sold, Diaz Manufacturing has 30.86 percent of the sales amount remaining to pay other expenses. From Exhibit 4.3, you can see that Diaz Manufacturing’s gross profit margin has been increasing over the past several years, which is good news.
+
+Operating Profit Margin and EBITDA Margin
+
+Moving farther down the income statement, you can measure the percentage of sales that remains after payment of cost of goods sold and all other expenses, except for interest and taxes. Operating profit is typically measured as EBIT. The operating profit margin, therefore, gives an indication of the profitability of the firm’s operations, independent of its financing policies or tax management strategies. The operating profit margin formula, along with Diaz Manufacturing’s 2020 operating profit margin, calculated using data from Exhibit 4.2, is as follows:
+
+(4.15)
+ 
+ 
+ 
+Many analysts and investors are concerned with cash flows generated by operations rather than operating earnings and will use EBITDA in the numerator instead of EBIT. Calculated in this way, the operating profit margin is referred to as the EBITDA margin.
+
+Net Profit Margin
+
+The net profit margin is the percentage of sales remaining after all of the firm’s expenses, including interest and taxes, have been paid. The net profit margin formula is shown here, along with the calculated value for Diaz Manufacturing in 2020, using data from the firm’s income statement (Exhibit 4.2):
+
+(4.16)
+ 
+ 
+ 
+As you can see from Exhibit 4.3, Diaz Manufacturing’s net profit margin improved dramatically from 4.49 percent in 2018 to 7.58 percent in 2020. This is good news. The question remains, however, whether 7.58 percent is a good profit margin. Answering this question requires that we compare Diaz Manufacturing’s performance to the performance of its competitors, which we will do later in this chapter. What qualifies as a good profit margin varies significantly across industries. Generally speaking, the higher a company’s profit margin, the better the company’s performance.
+
+Return on Assets
+
+So far, we have examined profitability as a percentage of sales. It is also important that we analyze profitability as a percentage of investment, either in assets or in equity. First, let’s look at return on assets. In practice, return on assets is calculated in two different ways.
+
+One approach provides a measure of operating profit (EBIT) per dollar of assets. This is a powerful measure of return because it tells us how efficiently management utilized the assets under their command, independent of financing decisions and taxes. It can be thought of as a measure of the pre-tax return on the total net investment in the firm from operations. The formula for this version of return on assets, which we call EBIT return on assets (EROA), is shown next, together with the calculated value for Diaz Manufacturing in 2020, using data from Exhibits 4.1 and 4.2:
+
+(4.17)
+ 
+ 
+ 
+Exhibit 4.3 shows us that, unlike the other profitability ratios, Diaz Manufacturing’s EROA did not really improve from 2018 to 2020. The very similar EROA values for 2018 and 2020 indicate that assets increased at approximately the same rate as operating profits.
+
+Some analysts calculate return on assets (ROA) as:
+
+(4.18)
+ 
+ 
+ 
+Although it is a common calculation, we advise against using the calculation in Equation 4.18 unless you are using the DuPont system, which we discuss shortly. The ROA calculation divides a measure of earnings available to stockholders (net income) by total assets (debt plus equity), which is a measure of the investment in the firm by both stockholders and creditors. Constructing a ratio of those two numbers is like mixing apples and oranges. The information that this ratio provides about the efficiency of asset utilization is obscured by the financing decisions the firm has made and the taxes it pays. You can see this in Exhibit 4.3, which shows that, in contrast to the very small change in EROA, ROA increases substantially from 2018 to 2020. This increase in ROA is not due to improved efficiency, but rather to a large decrease in interest expense (see Exhibit 4.2).
+
+The key point is that EROA surpasses ROA as a measure of how efficiently assets are utilized in operations. Dividing a measure of earnings to both debt holders and stockholders by a measure of how much both debt holders and stockholders have invested gives us a clearer view of what we are trying to measure.
+
+In general, when you calculate a financial ratio, if you have a measure of income to stockholders in the numerator, you want to make sure that you have only investments by stockholders in the denominator. Similarly, if you have a measure of total profits from operations in the numerator, you want to divide it by a measure of total investments by both debt holders and stockholders.
+
+Return on Equity
+
+Return on equity (ROE) measures net income as a percentage of the stockholders’ investment in the firm. The return on equity formula and the calculation for Diaz Manufacturing in 2020, based on data from Exhibits 4.1 and 4.2, are as follows:
+
+(4.19)
+ 
+ 
+ 
+Alternative Calculation of ROA and ROE
+
+As with efficiency ratios, the calculation of ROA and ROE involves dividing an income statement value, which relates to a period of time, by a balance sheet value from the end of the time period. Some analysts prefer to calculate ROA and ROE using the average asset value or equity value, where the average value is determined as follows:
+
+ 
+
+Using the average asset or equity value makes sense because the earnings over a period are generated with the average value of assets or equity.
+
+Learning by Doing Application 4.4 illustrates the alternative calculations for EROA and ROE using financial data for Diaz Manufacturing.
+
+LEARNING BY DOING APPLICATION 4.4
+Alternative Calculations for EROA and ROE Ratios
+
+Problem
+
+Calculate the EROA and ROE for Diaz Manufacturing in 2020 using average balance sheet values and compare the results with the calculations based on Equations 4.17 and 4.19.
+
+
+
+
+
+Market-Value Indicators
+The ratios we have discussed so far rely solely on the firm’s financial statements, and we know that much of the data in those statements are historical and do not represent current market values. Also, as we discussed in Chapter 1, the appropriate objective for the firm’s management is to maximize stockholder value, and the market value of the stockholders’ claims is the value of the cash flows that they are entitled to receive, which is not necessarily the same as accounting income. To find out how the stock market evaluates a firm’s liquidity, efficiency, leverage, and profitability, we need ratios based on market values.
+
+Over the years, financial analysts have developed a number of ratios, called market-value ratios, which combine market-value data with data from a firm’s financial statements. Here we examine the most commonly used market-value ratios: earnings per share, the price-earnings ratio, and the market-to-book ratio.
+
+Earnings per Share
+
+Dividing a firm’s net income by the number of shares outstanding yields earnings per share (EPS). At the end of 2020, Diaz Manufacturing had 54,566,054 shares outstanding (see Exhibit 3.1 in Chapter 3) and net income of $118.5 million (Exhibit 4.2). Its EPS at that point is calculated as follows:
+
+(4.20)
+ 
+ 
+ 
+Price-Earnings Ratio
+
+The price-earnings (P/E) ratio relates earnings per share to price per share. The formula, with a calculation for Diaz Manufacturing for the end of 2020, is as follows:
+
+(4.21)
+ 
+ 
+ 
+Price per share on a given date can be obtained from listings in the Wall Street Journal or from an online source, such as Yahoo! Finance.
+
+What does it mean for a firm to have a price-earnings ratio of 22.4? It means that the stock market places a value of $22.40 on every $1 of net income. Why are investors willing to pay $22.40 for a claim on $1 of earnings? The answer is that the stock price does not reflect only the earnings this year. It reflects all future cash flows from earnings. An especially high P/E ratio can indicate that investors expect the firm’s earnings to grow rapidly in the future. Alternatively, a high P/E ratio might be due to unusually low earnings in a particular year, and investors might expect earnings to recover to a normal level soon. We will discuss how expected growth affects P/E ratios in detail in later chapters. As with other measures, to understand whether the P/E ratio is too high or too low, we must compare the firm’s P/E ratio with those of competitors and also look at movements in the firm’s P/E ratio relative to market trends.
+
+Market-to-Book Ratio
+
+The market-to-book ratio compares the market value of the firm’s investments to its book value. The formula, with a calculation for Diaz at the end of 2020, is:
+
+(4.22)
+ 
+ 
+ 
+ 
+Book value per share is an accounting number that reflects the cumulative historical investment into the firm’s equity account on a per share basis. Market value of equity per share is simply the price per share. A higher market-to-book ratio suggests that the firm has been more effective at investing in projects that add value for its stockholders. A value of less than one could mean that the firm has not created any value for its stockholders.
+
+Concluding Comments on Ratios
+We could have covered many more ratios. However, the group of ratios presented in this chapter is a fair representation of the ratios needed to analyze the performance of a business. When using ratios, it is important that you ask yourself, “What does this ratio mean, and what is it measuring?” rather than trying to memorize a definition. Good ratios should make good economic sense when you look at them.
+
+Before You Go On
+What are the efficiency ratios, and what do they measure? Why, for some firms, is the total asset turnover more important than the fixed asset turnover?
+List the leverage ratios discussed in this section, and explain how they are related.
+List the profitability ratios discussed in this section, and explain how they differ from each other.
+4.4 The Dupont System: A Diagnostic Tool
+LEARNING OBJECTIVE
+
+Describe the DuPont system of analysis and be able to use it to evaluate a firm’s performance and identify corrective actions that may be necessary.
+By now, your mind may be swimming with ratios. Fortunately, some enterprising financial managers at the DuPont Company developed a system that ties together some of the most important financial ratios and provides a systematic approach to financial ratio analysis.
+
+An Overview of the DuPont System
+The DuPont system of analysis is a diagnostic tool that uses financial ratios to evaluate a company’s financial health. The process has three steps. First, management assesses the company’s financial health using the DuPont ratios. Second, if any problems are identified, management corrects them. Finally, management monitors the firm’s financial performance over time, looking for differences from ratios established as benchmarks by management.
+
+Under the DuPont system, management is charged with making decisions that maximize the firm’s return on equity as opposed to maximizing the value of the stockholders’ shares. The system is primarily designed to be used by management as a diagnostic and corrective tool, though investors and other stakeholders have found its diagnostic powers of interest.
+
+The DuPont system is derived from two equations that link the firm’s return on assets (ROA) and return on equity (ROE). The system identifies three areas where management should focus its efforts in order to maximize the firm’s ROE: (1) how much profit management can earn on sales, (2) how efficient management is in using the firm’s assets, and (3) how much financial leverage management is using. Each of these areas is monitored by a single ratio, and together the ratios comprise the DuPont equation.
+
+The ROA Equation
+The ROA equation links the firm’s return on assets with its total asset turnover and net profit margin. We derive this relation from the ROA equation as follows:
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+As you can see, we start with the ROA formula presented earlier as Equation 4.18. Then we multiply ROA by net sales divided by net sales. In the third line, we rearrange the terms, coming up with the expression ROA = (Net income/Net sales) × (Net sales/Total assets). You may recognize the first ratio in the third line as the firm’s net profit margin (Equation 4.16) and the second ratio as the firm’s total asset turnover (Equation 4.7). Thus, we end up with the final equation for ROA, which is restated as Equation 4.23:
+
+(4.23)
+Equation 4.23 says that a firm’s ROA is determined by two factors: (1) the firm’s net profit margin and (2) the firm’s total asset turnover. Let’s look at the managerial implications of each of these terms.
+
+Net Profit Margin
+The net profit margin ratio can be written as follows:
+
+ 
+ 
+ 
+ 
+
+As you can see, the net profit margin can be viewed as the product of three ratios: (1) the operating profit margin (EBIT/Net sales), which is Equation 4.15, (2) a ratio that measures the impact of interest expenses on profits (EBT/EBIT), and (3) a ratio that measures the impact of taxes on profits (Net income/EBT). Thus, the net profit margin focuses on management’s ability to generate profits from sales by efficiently managing the firm’s (1) operating expenses, (2) interest expenses, and (3) tax expenses.
+
+Total Asset Turnover
+Total asset turnover, which is defined as Net sales/Total assets, measures how efficiently management uses the assets under its command—that is, how much output management can generate with a given asset base.
+
+Net Profit Margin versus Total Asset Turnover
+
+The ROA equation provides some very interesting managerial insights. It says that if management wants to increase the firm’s ROA, it can increase the net profit margin, total asset turnover, or both. Of course, every firm would like to make both terms as large as possible so as to earn the highest possible ROA. Though every industry is different, competition, marketing considerations, technology, and manufacturing capabilities, to name a few, place upper limits on asset turnover and net profit margins and, thus, ROA. Equation 4.23 suggests that management can follow two distinct strategies to maximize ROA. Deciding between the strategies involves a trade-off between total asset turnover and net profit margin.
+
+The first management strategy emphasizes high profit margin and low asset turnover. Examples of companies that use this strategy are luxury stores, such as jewelry stores, high-end department stores, and specialty apparel stores. Such stores carry relatively expensive merchandise that has a high profit margin but tends to sell slowly. The second management strategy depends on low profit margins and high turnover. Examples of firms that use this strategy are discount stores and grocery stores, which have very low profit margins but make up for it by turning over their inventory very quickly. A typical chain grocery store, for example, turns over its inventory more than 12 times per year.
+
+Exhibit 4.4 illustrates both strategies. The exhibit shows asset turnover, profit margin, and ROA for four retailing firms for the fiscal year ending closest to January 2020. Deckers Outdoor Corporation sells specialty footwear, including Teva and UGG. LVMH is a European seller of upscale products ranging from Krug champagne to Christian Dior clothing. At the other end of the spectrum are Target Corporation, the “Expect more, pay less” chain, and Walmart, which is famous for its low-price, high-volume strategy.
+
+EXHIBIT 4.4 Two Basic Strategies to Earn a Higher ROAa
+
+To maximize a firm’s ROA, management can focus more on achieving high profit margins or on achieving high asset turnover. High-end retailers like Deckers Outdoor Corporation and LVMH focus more on achieving high profit margins. In contrast, grocery and discount stores like Target and Walmart tend to focus more on achieving high asset turnover because competition limits their ability to achieve very high profit margins.
+
+Company	Asset Turnover	×	Profit Margin (%)	=	ROA (%)
+High Profit Margin:					
+  Deckers Outdoor Corporation	1.21		12.95		15.67
+  LVMH	0.56		14.50		  8.12
+High Turnover:					
+  Target	1.80		  4.25		  7.65
+  Walmart Stores	2.22		  2.84		  6.30
+aRatios are calculated using financial results for the fiscal year ending closest to January 2020.
+Notice that the two specialty or luxury-item retailers (Deckers Outdoor Corporation and LVMH) have lower asset turnover and higher profit margins, while the grocery and discount stores have lower profit margins and much higher asset turnover. LVMH’s ROA is lower than Deckers Outdoor Corporation’s due to its low asset turnover. Target and Walmart are strong financial performers in their industry sectors. Their relatively low ROAs of 7.65 and 6.30 percent, respectively, reflect the high degree of competition in the grocery and discount store businesses.
+
+The ROE Equation
+To derive the ROE equation, we start with the formula from Equation 4.19:
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Next, we multiply by total assets divided by total assets, and then we rearrange the terms so that ROE = (Net income/Total assets) × (Total assets/Total equity), as shown in the third line. By this definition, ROE is the product of two ratios already familiar to us: ROA (Equation 4.18) and the equity multiplier (Equation 4.11). The equation for ROE is shown as Equation 4.24:
+
+(4.24)
+Interesting here is the fact that ROE is determined by the firm’s ROA and its use of leverage. The greater the use of debt in the firm’s capital structure, the greater the ROE. Thus, increasing the use of leverage is one way management can increase the firm’s ROE—but at a price. That is, the greater the use of financial leverage, the more risky the firm. How aggressively a company uses this strategy depends on management’s preference for risk and the willingness of creditors to lend money and bear the risk.
+
+The DuPont Equation
+Now we can combine our two equations into a single equation. From Equation 4.24, we know that ROE = ROA × Equity multiplier; and from Equation 4.23, we know that ROA = Net profit margin × Total asset turnover. Substituting Equation 4.23 into Equation 4.24 yields an expression formally called the DuPont equation, as follows:
+
+(4.25)
+We can also express the DuPont equation in ratio form:
+
+(4.26)
+ 
+ 
+ 
+To check the DuPont relation, we will use some values from Exhibit 4.3, which lists financial ratios for Diaz Manufacturing. For 2020, Diaz’s net profit margin is 7.58 percent, total asset turnover is 0.83, and the equity multiplier is 2.02. Substituting these values into Equation 4.25 yields:
+
+ 
+
+With rounding error, this agrees with the value computed for ROE using Equation 4.19.
+
+Applying the DuPont System
+In summary, the DuPont equation tells us that a firm’s ROE is determined by three factors: (1) net profit margin, which measures the firm’s operating efficiency and how it manages its interest expense and taxes; (2) total asset turnover, which measures the efficiency with which the firm’s assets are utilized; and (3) the equity multiplier, which measures the firm’s use of financial leverage. The schematic diagram in Exhibit 4.5 shows how the three key DuPont ratios are linked together and how they relate to the balance sheet and income statement for Diaz Manufacturing.
+
+The DuPont system of analysis is a useful tool to help identify problem areas within a firm. For example, suppose that North Sails Group, a sailboat manufacturer located in San Diego, California, is having financial difficulty. Management hires you to find out why the ship is financially sinking. You calculate the DuPont ratio values for the firm and obtain some industry averages to use as benchmarks, as shown.
+
+DuPont Ratios	Firm	Industry
+ROE	      8%	      16%
+ROA	      4%	      8%
+Equity multiplier	  2	  2
+Net profit margin	      8%	      16%
+Asset turnover	0.5	0.5
+EXHIBIT 4.5 Relations in the DuPont System of Analysis for Diaz Manufacturing in 2020 ($ millions) The diagram shows how the three key DuPont ratios are linked together and to the firm’s balance sheet and income statement. Numbers in the exhibit are in millions of dollars and represent 2020 data from Diaz Manufacturing. The ROE of 12.67 percent differs from the 12.64 percent in Exhibit 4.3 due to rounding.
+
+
+Clearly, the firm’s ROE is quite low compared to its industry (8 percent versus 16 percent), so without question the firm has problems. Next, you examine the values for the firm’s ROA and equity multiplier. The firm’s use of financial leverage is equal to the industry standard of 2 times, but its ROA is half that of the industry (4 percent versus 8 percent). Because ROA is the product of net profit margin and total asset turnover, you next examine these two ratios. Asset turnover does not appear to be a problem because the firm’s ratio is equal to the industry standard of 0.5 times. However, the firm’s net profit margin is substantially below the benchmark standard (8 percent versus 16 percent). Thus, the firm’s performance problem stems from a low profit margin.
+
+Identifying the low profit margin as an area of concern is only a first step. Further investigation is necessary to determine the underlying problem and its causes. The point to remember is that financial analysis identifies areas of concern within the firm, but rarely does it tell us all we need to know.
+
+Is Maximizing ROE an Appropriate Goal?
+Throughout this book we have stressed the notion that management should make decisions that maximize the current value of the company stock. An important question is whether maximizing the value of ROE, as suggested by the DuPont system, is equivalent to maximizing share price. The short answer is that the two goals are not equivalent, but some discussion is warranted.
+
+A major shortcoming of ROE is that it does not directly consider cash flow. ROE considers earnings, but earnings are not the same as future cash flows. A second concern is that, ROE does not consider risk. As discussed in Chapter 1, management and stockholders are very concerned about the degree of risk they face. Finally, ROE does not consider the size of the initial investment or the size of future cash payments. As we stressed in Chapter 1, the essence of any business or investment decision is this: What is the size of the cash flows to be received, when do you expect to receive the cash flows, and how likely are you to receive them?
+
+Despite these shortcomings, ROE analysis is widely used in business as a measure of operating performance. Proponents of ROE analysis argue that it provides a systematic way for management to work through the income statement and balance sheet and to identify problem areas within the firm. Furthermore, they note that ROE and stockholder value are often highly correlated.
+
+Before You Go On
+What is the purpose of the DuPont system of analysis?
+What is the equation for ROA in the DuPont system, and how do the factors in that equation influence the ratio?
+What are the three major shortcomings of ROE?
+4.5 Selecting a Benchmark
+LEARNING OBJECTIVE
+
+Explain what benchmarks are, describe how they are prepared, and discuss why they are important in financial statement analysis.
+How do you judge whether a ratio value is too high or too low? Is the value good or bad? We touched on these questions several times earlier in this chapter. As we suggested, the starting point for making these judgments is selecting an appropriate benchmark—a standard that will be the basis for meaningful comparisons. Financial managers can gather appropriate benchmark data in three ways: through trend, industry, and peer group analysis.
+
+Trend Analysis
+Trend analysis uses history as its standard by evaluating a single firm’s performance over time. This sort of analysis allows management to determine whether a given ratio value has increased or decreased over time and whether there has been an abrupt shift in a ratio value. An increase or decrease in a ratio value is in itself neither good nor bad. However, a ratio value that is changing typically prompts the financial manager to sort out the issues surrounding the change and to take any action that is warranted. Exhibit 4.3 shows the trends in Diaz Manufacturing’s ratios. For example, the increase in Diaz’s current ratio indicates that the company’s liquidity has improved.
+
+Industry Analysis
+A second way to establish a benchmark is to conduct an industry group analysis. To do that, we identify a group of firms that have the same product line, compete in the same market, and are about the same size. The average ratio values for these firms will be our benchmarks. Since no two firms are identical, deciding which firms to include in the analysis is always a judgment call. If we can construct a sample of reasonable size, however, the average values provide defensible benchmarks.
+
+Financial ratios and other financial data for industry groups are published by a number of sources—the U.S. Department of Commerce, Dun & Bradstreet, the Risk Management Association, and Standard & Poor’s (S&P), to name a few. One widely used system for identifying industry groups is the Standard Industrial Classification (SIC) System. The SIC codes are four-digit numbers established by the federal government for statistical reporting purposes. The first two digits describe the type of business in a broad sense (for example, firms engaged in building construction, mining of metals, manufacturing of machinery, food stores, or banking). Diaz’s two-digit code is 35: “Industrial and commercial machinery and computer equipment manufacturing.”
+
+Standard Industrial Classification (SIC) System a numerical system developed by the U.S. government to classify businesses according to the type of activity they perform
+
+More than 350 U.S. public companies fall into the “Industrial and commercial machinery and computer equipment manufacturing” code category. To narrow the group, we use more digits. Diaz Manufacturing’s four-digit code is 3533 (“oil and gas field machinery and equipment manufacturing”), and there are only 31 firms in this category. Among firms within an SIC code, financial ratio data can be further categorized by asset size or by sales, which allows for more meaningful comparisons.
+
+In 1977, the North American Industry Classification System (NAICS) was introduced as a new classification system. It was intended to refine and replace the older SIC codes, but it has been slow to catch on. Industry databases still allow you to sort data by either SIC or NAICS classifications.
+
+North American Industry Classification System (NAICS) a classification system for businesses introduced to refine and replace the older SIC system
+
+Although industry databases are readily available and easy to use, they are far from perfect. When trying to find a sample of firms that are similar to your company, you may find the classifications too broad. For example, Walmart and Nordstrom have the same four-digit SIC code (5311), but they are very different retailing firms. Another problem is that different databases may compute ratios differently. Thus, when making benchmark comparisons, you must be careful that your calculations match those in the database, or there could be some distortions in your findings.
+
+Peer Group Analysis
+The third way to establish benchmark information is to identify a group of firms that compete with the company we are analyzing. Ideally, the firms are in similar lines of business, are about the same size, and are direct competitors of the target firm. These firms form a peer group. Once a peer group has been identified, management can obtain the associated financial information and compute average ratio values against which the firm can compare its performance.
+
+How do we determine which firms should be in the peer group? The senior management team within a company will know its competitors. If you’re working outside the firm, you can look at the firm’s annual report and at financial analysts’ reports. Both of these sources usually identify key competitors. Exhibit 4.6 shows ratios for a five-firm peer group constructed for Diaz Manufacturing for 2018 through 2020.
+
+EXHIBIT 4.6 Peer Group Ratios for Diaz Manufacturing
+
+Peer group analysis is one way to establish benchmarks for a firm. Ideally, a firm’s peer group is made up of firms that are direct competitors and are about the same size. The exhibit shows the average financial ratios for public companies that make up the peer group for Diaz Manufacturing for 2018, 2019, and 2020.
+
+ 	2020	2019	2018
+  Liquidity Ratios:			
+  Current ratio	    2.10	    2.20	    2.10
+  Quick ratio	    1.50	    1.60	    1.50
+  Efficiency Ratios:			
+  Inventory turnover	    5.40	    5.30	    5.20
+    Days’ sales in inventory	  67.59	  68.87	  70.19
+  Accounts receivable turnover	    4.90	    4.20	    4.10
+    Days’ sales outstanding	  76.70	  89.80	  90.00
+  Total asset turnover	    0.87	    0.90	    0.80
+  Fixed asset turnover	    3.50	    3.30	    2.40
+  Leverage Ratios:			
+  Total debt ratio	  0.18	  0.11	  0.21
+  Debt-to-equity ratio	  0.40	  0.20	  0.50
+  Equity multiplier	  2.02	  1.77	  2.05
+  Times interest earned	  7.00	  5.60	  1.60
+  Cash coverage	  7.50	  8.20	  1.30
+  Profitability Ratios:			
+  Gross profit margin	26.80%	24.10%	19.20%
+  Operating profit margin	12.00%	  6.90%	  2.70%
+  Net profit margin	10.74%	  3.30%	  0.10%
+  Return on assets	  9.34%	  3.30%	  0.80%
+  Return on equity	13.07%	  7.00%	  1.00%
+  Market-Value Indicators:			
+  Price-earnings ratio	18.10	38.40	44.60
+  Earnings per share	$1.65	$3.85	$3.78
+  Market-to-book ratio	  2.84	  1.82	  1.64
+We consider the peer group methodology the best way to establish a benchmark if financial data for peer firms are publicly available. We should note, however, that comparison against a single firm is acceptable when there is a clear market leader and we want to compare a firm’s performance and other characteristics against those of a firm considered the best. For example, Ford Motor Company may want to compare itself directly against the automobile manufacturer that is the most productive. It is worthwhile to compare a firm with the market leader to identify areas of relative strength and weakness.
+
+Before You Go On
+In what three ways can a financial manager choose a benchmark?
+Explain what the SIC codes are, and discuss the pros and cons of using them in financial analysis.
+
+Visit the Web site of the Risk Management Association for a variety of ratio definitions and sample financial ratio benchmarks for a variety of different industries. Go to www.rmahq.org/annual-statement-studies/
+
+
+You can find information about the SIC and NAICS systems at www.census.gov/eos/www/naics/
+
+4.6 Using Financial Ratios
+LEARNING OBJECTIVE
+
+Identify the major limitations in using financial statement analysis.
+So far, our focus has been on the calculation of financial ratios. As you may already have concluded, however, the most important tasks are to correctly interpret the ratio values and to make appropriate decisions based on this interpretation. In this section we discuss using financial ratios in performance analysis.
+
+Performance Analysis of Diaz Manufacturing
+Let’s examine Diaz Manufacturing’s performance during 2020, using the DuPont system of analysis as our diagnostic tool and the peer group sample in Exhibit 4.6 as our benchmark. For ease of discussion, Diaz’s financial ratios and the peer group data are assembled in Exhibit 4.7.
+
+We start our analysis by looking at the big picture—the three key DuPont ratios for the firm and a peer group of firms (see Exhibit 4.7). We see that Diaz Manufacturing’s ROE of 12.64 percent is below the benchmark value of 13.07 percent, a difference of 0.43 percent, which is not good news. More dramatically, Diaz’s ROA is 3.07 percent below the peer group benchmark, which is a serious difference. Clearly, Diaz Manufacturing has some performance problems that need to be investigated.
+
+To determine the problems, we examine the firm’s equity multiplier and ROA results in more detail. The equity multiplier value of 2.02, versus the benchmark value of 1.40, suggests that Diaz Manufacturing is using more leverage than the average firm in the benchmark sample. Management is comfortable with the higher-than-average leverage. Conversations with the firm’s investment banker, however, indicate that the company’s debt could become a problem if the economy deteriorated and went into a recession.
+
+EXHIBIT 4.7 Peer Group Analysis for Diaz Manufacturing in 2020
+
+Examining the differences between the ratios of a firm and its peer group is a good way to spot areas that require further analysis.
+
+ 	(1)	(2)	(3)
+ 	Diaz Ratio	Peer Group Ratio	Difference (Column 1 – Column 2)
+DuPont Ratios:			
+  Return on equity (%)	12.64	13.07	(0.43)
+  Return on assets (%)	  6.27	  9.34	(3.07)
+  Equity multiplier (%)	  2.02	  1.40	0.62
+  Net profit margin (%)	  7.58	10.74	(3.16)
+  Total asset turnover	  0.83	  0.87	(0.04)
+  Asset Ratios:			
+  Current ratio	  2.75	  2.10	0.65
+  Fixed asset turnover	  3.92	  3.50	0.42
+  Inventory turnover	  2.55	  5.40	(2.85)
+  Accounts receivable turnover	  5.11	  4.90	0.21
+  Profit Margins:			
+  Gross profit margin (%)	30.86	26.80	4.06
+  Operating margin (%)	10.77	12.00	(1.23)
+  Net profit margin (%)	  7.58	10.74	(3.16)
+Without the higher equity multiplier and management’s willingness to bear additional risk, Diaz Manufacturing’s ROE would be much lower. To illustrate this point, suppose management reduced the company’s leverage to the peer group average equity multiplier of 1.40 (see Exhibit 4.7). With an equity multiplier of 1.40, the firm’s ROE would be only 8.78 percent (0.0627 × 1.40 = 0.0878, or 8.78 percent); this is 3.86 percent below the firm’s current ROE of 12.64 percent and 4.29 percent below the peer group benchmark. Thus, the use of higher leverage has, to some extent, masked the severity of the firm’s problem with ROA.
+
+Recall that ROA equals the product of the net profit margin and total asset turnover. Diaz’s net profit margin is 3.16 percentage points lower than the benchmark value (7.58 percent − 10.74 percent = −3.16 percent), and its total asset turnover ratio is slightly below the benchmark value (0.83 versus 0.87). Thus, both ratios that comprise ROA are below the peer group benchmark standard, but the net profit margin appears to be the larger problem.
+
+Turning to the asset turnover ratios shown in Exhibit 4.7, we find that the ratios for Diaz are generally similar to the corresponding peer group ratios. An exception is the inventory turnover ratio, which is substantially below the benchmark: 2.55 for Diaz versus 5.40 for the benchmark. Diaz’s management needs to investigate why the inventory turnover ratio is off the mark.
+
+Because Diaz Manufacturing’s net profit margin is low, we next look at the various profit margins shown in Exhibit 4.7 to gain insight into this situation. Diaz Manufacturing’s gross profit margin is 4.06 percentage points above the benchmark value (30.86 percent − 26.80 percent = 4.06 percent), which is good news. Since gross profit margin is a factor of sales and the cost of goods sold, we can conclude that there is no problem with the price the firm is charging for its products or with its cost of goods sold.
+
+Diaz’s problems begin with its operating margin of 10.77 percent, which is 1.23 percentage points below the peer group benchmark of 12.00 percent (10.77 percent − 12.00 percent = −1.23 percent). The major controllable expense here is selling and administrative costs, and management needs to investigate why these expenses appear to be out of line.
+
+In sum, the DuPont analysis of Diaz Manufacturing has identified two areas that warrant detailed investigation by management: (1) the larger-than-average inventory (slow inventory turnover) and (2) the above-average selling and administrative expenses. Management must now investigate each of these areas and come up with a course of action. Management may also want to give careful consideration to the firm’s high degree of financial leverage and whether it represents a prudent degree of risk.
+
+Financial ratio analysis is an excellent diagnostic tool. It helps management identify the problem areas in the firm—the symptoms. However, it does not tell management what the causes of the problems are or what course of action should be taken. Management must drill down into the accounting data, talk with managers in the field, and if appropriate, talk with people outside the firm, such as suppliers, to understand what is causing the problems and how best to fix them.
+
+Learning by Doing Application 4.5 and Decision Making Example 4.3 illustrate more calculations from a DuPont analysis and their interpretation.
+
+LEARNING BY DOING APPLICATION 4.5
+Ron’s Jewelry Store and the Missing Data
+
+Problem
+
+Ron Roberts has owned and managed a profitable jewelry business in San Diego County for the past five years. He believes his jewelry store is one of the best managed in the county, and he is considering opening several new stores.
+
+When Ron started the store, he supplied all the equity financing himself and financed the rest with personal loans from friends and family members. To open more stores, Ron needs a bank loan. The bank will want to examine his financial statements and know something about the competition he faces.
+
+Ron has asked his brother-in-law, Dennis O’Neil, a CPA, to analyze the financials. Ron has also gathered some financial information about a company he considers the chief competition in the San Diego County market. The competitor has been in business for 25 years, has a number of stores, and is widely admired for its owners’ management skills. Dennis organizes the available information in the following table:
+
+  Financial Ratio/Data	Ron’s Store	Competitor
+  Net sales ($ thousands)	  $240	    $300
+  Net income ($ thousands)	      $6	—
+  ROE	    13.13%	—
+  Net profit margin	—	       5.84%
+  Asset turnover	1.5	1.5
+  Equity multiplier	—	1.5
+  Debt-to-equity ratio	2.5	—
+Calculate the missing values for the financial data above.
+
+
+
+
+
+DECISION MAKING EXAMPLE 4.3
+Ron’s Jewelry Store and the DuPont Analysis
+
+Situation
+
+Let’s continue with our analysis of Ron’s jewelry store, introduced in Learning by Doing Application 4.5. Brother-in-law Dennis has been asked to analyze the company’s financials. He decides to use the DuPont system of analysis as a framework. He arranges the critical information as follows:
+
+  Financial Ratios	      Ron’s Store	            Competitor
+  ROE	           13.13%	                13.14%
+  ROA	             3.75%	                  8.76%
+  Net profit margin	             2.50%	                  5.84%
+  Asset turnover	       1.5	           1.5
+  Equity multiplier	       3.5	           1.5
+  Debt-to-equity ratio	       2.5	           0.5
+  Net sales ($ thousands)	$240	$300
+  Net income ($ thousands)	    $6.0	      $17.5
+Given the above financial ratios, what recommendations should Dennis make regarding Ron’s jewelry store and its management?
+
+ 
+
+Limitations of Financial Statement Analysis
+Financial statement and ratio analysis as discussed in this chapter presents two major problems. First, it depends on accounting data based on historical costs. As we discussed in Chapter 3, knowledgeable financial managers would prefer to use financial statements in which all of the firm’s assets and liabilities are valued at market. Financial statements based on current market values more closely reflect a firm’s true economic condition than do statements based on historical cost.
+
+Second, there is little theory to guide us in making judgments based on financial statement and ratio analysis. That is why it is difficult to say a current ratio of 2.0 is good or bad or to say whether ROE or ROA is a more important ratio. The lack of theory explains, in part, why rules of thumb are often used as decision rules in financial statement analysis. The problem with decision rules based on experience rather than theory is that they may work fine in a stable economic environment, but may fail when a significant shift takes place. For example, if you developed a set of decision rules to help manage your business in an economic environment with low inflation, those decision rules might fail if the economy became inflationary.
+
+Despite the limitations, we know that financial managers and analysts routinely use financial statements and ratio analysis to evaluate a firm’s performance and to make a variety of decisions about the firm. These financial statements and the resulting analysis are the primary means by which financial information is communicated both inside and outside of firms. The availability of market-value data is limited for public corporations, and such data are not available for privately held firms and other entities such as government units.
+
+Thus, practically speaking, historical accounting information often represents the best available information. However, times are changing. As the accounting profession becomes more comfortable with the use of market-value data and as technology increases its availability and reliability and lowers its cost, we expect to see an increase in the use of market-based financial statements.
+
+Before You Go On
+Explain how the DuPont system allows us to evaluate a firm’s performance.
+What are the limitations of traditional financial statement analysis?
+List some of the problems that financial analysts confront when analyzing financial statements.
+Summary of Learning Objectives
+1 Explain the four perspectives from which financial statements can be viewed.
+
+Financial statements can be viewed from the owners’, managers’, creditors’, or other stakeholders’ perspective. All four groups are ultimately interested in a firm’s profitability, but each group takes a different view. Stockholders want to know how much cash they can expect to receive, what their return on investment will be, and how much their stock is worth in the market. Managers are concerned with maximizing the firm’s long-term value through a series of day-to-day management decisions; thus, they need to see the impact of their decisions on the financial statements to confirm that things are going as planned. Creditors are concerned with how much debt the firm is using and whether the firm will have enough cash to meet its debt obligations. As to other stakeholders, suppliers are concerned about firm’s ability to pay for current and future purchases, while employees might want to know if the firm is able to pay wages or avoid layoffs.
+
+2 Describe common-size financial statements, explain why they are used, and be able to prepare and use them to analyze the historical performance of a firm.
+
+Common-size financial statements are financial statements in which each number has been scaled by a common measure of firm size: Balance sheets are expressed as a percentage of total assets, and income statements are expressed as a percentage of net sales. Common-size financial statements make it easier to evaluate changes in a firm’s performance and financial condition over time. They are also useful when comparing firms that are significantly different in size. The preparation of common-size financial statements and their use are illustrated for Diaz Manufacturing in Section 4.2.
+
+3 Discuss how financial ratios facilitate financial analysis and be able to compute and use them to analyze a firm’s performance.
+
+Financial ratios are used in financial analysis because they eliminate problems caused by comparing two or more companies of different size, or when looking at the same company over time as the size changes. Financial ratios can be divided into five categories: (1) Liquidity ratios measure the ability of a company to cover its current bills. (2) Efficiency ratios tell how efficiently the firm uses its assets. (3) Leverage ratios tell how much debt a firm has in its capital structure and whether the firm can meet its long-term financial obligations. (4) Profitability ratios focus on the firm’s earnings. (5) Market value indicators look at a company based on market data as opposed to historical data used in financial statements. The computation and analysis of major financial ratios are presented in Section 4.3 (also see the Summary of Key Equations that follows).
+
+4 Describe the DuPont system of analysis and be able to use it to evaluate a firm’s performance and identify corrective actions that may be necessary.
+
+The DuPont system of analysis is a diagnostic tool that uses financial ratios to assess a firm’s financial condition. Once the financial ratios are calculated and the assessment is complete, management can focus on correcting the problems within the context of maximizing the firm’s ROE. For analysis, the DuPont system breaks ROE into three components: net profit margin, which measures operating efficiency; total asset turnover, which measures how efficiently the firm’s assets are being used; and the equity multiplier, which measures financial leverage. A diagnostic analysis of a firm’s performance using the DuPont system is illustrated in Section 4.4.
+
+5 Explain what benchmarks are, describe how they are prepared, and discuss why they are important in financial statement analysis.
+
+Benchmarks are used to provide a standard for evaluating the financial performance of a firm. In financial statement analysis, a number of benchmarks are used. Most often, benchmark comparisons involve competitors that are roughly the same size and that offer a similar range of products. Another form of benchmarking is time-trend analysis, which compares a firm’s current financial ratios against the same ratios from past years. Time-trend analysis tells us whether a ratio has increased, decreased, or remained the same over time. The preparation and use of peer group benchmark data are illustrated in Section 4.6.
+
+6 Identify the major limitations in using financial statement analysis.
+
+The major limitations to financial statement and ratio analysis are the use of historical accounting data and the lack of theory to guide the decision maker. The lack of theory explains, in part, why there are so many rules of thumb. Rules of thumb are useful in that they may work under certain conditions. However, they may also lead to poor decisions if circumstances change.
+
+Summary of Key Equations
+Equation		Description		Formula
+4.1	 	Liquidity Ratio	 	
+ 
+4.2	 	Liquidity Ratio	 	
+ 
+4.3	 	Efficiency Ratio	 	
+ 
+4.4	 	Efficiency Ratio	 	
+ 
+4.5	 	Efficiency Ratio	 	
+ 
+4.6	 	Efficiency Ratio	 	
+ 
+4.7	 	Efficiency Ratio	 	
+ 
+4.8	 	Efficiency Ratio	 	
+ 
+4.9	 	Leverage Ratio	 	
+ 
+4.10	 	Leverage Ratio	 	
+ 
+4.11	 	Leverage Ratio	 	
+ 
+4.12	 	Leverage Ratio	 	
+ 
+4.13	 	Leverage Ratio	 	
+ 
+4.14	 	Profitability Ratio	 	
+ 
+4.15	 	Profitability Ratio	 	
+ 
+4.16	 	Profitability Ratio	 	
+ 
+4.17	 	Profitability Ratio	 	
+ 
+4.18	 	Profitability Ratio	 	
+ 
+4.19	 	Profitability Ratio	 	
+ 
+4.20	 	Market-Value Indicator	 	
+ 
+4.21	 	Market-Value Indicator	 	
+ 
+4.22	 	Market-Value Indicator	 	
+ 
+4.23	 	ROA Breakdown	 	
+4.24	 	ROE Breakdown	 	
+4.25	 	DuPont Equation	 	
+4.26	 	DuPont Equation	 	
+ 
+ 
+ 
+Self-Study Problems
+4.1 The Abercrombie Supply Company reported the following information for its latest fiscal year. Prepare the firm’s common-size income statement.
+
+Abercrombie Supply Company Income Statement ($ thousands)
+Net sales	$2,110,965
+Cost of goods sold	  1,459,455
+Selling and administrative expenses	    312,044
+Nonrecurring expenses	       27,215
+Earnings before interest, taxes, depreciation, and amortization (EBITDA)	$  312,251
+Depreciation	     112,178
+Earnings before interest and taxes (EBIT)	$  200,073
+Interest expense	     117,587
+Earnings before taxes (EBT)	$     82,486
+Taxes (35%)	       28,870
+Net income	$     53,616
+
+
+4.2 Prepare a common-size balance sheet from the following information for Abercrombie Supply Company.
+
+Abercrombie Supply Company Balance Sheet ($ thousands)
+Assets:		Liabilities and Equity:	
+Cash and marketable securities	$    396,494	Accounts payable	$   817,845
+Accounts receivable	      708,275	Notes payable	     101,229
+Inventory	 1,152,398	Accrued income taxes	       41,322
+Other current assets	        42,115	  Total current liabilities	$   960,396
+  Total current assets	$2,299,282	Long-term debt	  1,149,520
+Net plant and equipment	  1,978,455	  Total liabilities	$2,109,916
+Common stock	  1,312,137
+Retained earnings	     855,684
+  Total common equity	$2,167,821
+Total assets	$4,277,737	Total liabilities and equity	$4,277,737
+
+
+4.3 Using the data for the Abercrombie Supply Company, calculate the firm’s current ratio and quick ratio.
+
+
+
+4.4 Refer to the balance sheet and income statement for Abercrombie Supply Company and calculate the following ratios: inventory turnover, days’ sales outstanding, total asset turnover, fixed asset turnover, total debt ratio, debt-to-equity ratio, times interest earned, cash coverage.
+
+
+
+4.5 Refer again to the balance sheet and income statement for Abercrombie Supply Company. Use the DuPont equation to calculate the return on equity (ROE). In the process, calculate the following ratios: profit margin, EBIT return on assets, return on assets, equity multiplier, and total asset turnover.
+
+
+
+4.6 Last year ABC companies had accounts receivable turnover of 15, total asset turnover of 4.5, and total assets of $1,000,000. What was the value of ABC’s accounts receivable? What was the value of its net sales?
+
+
+
+4.7 The equity multiplier for Spiffy Corporation is 1.75, its EBIT return on assets (EROA) is 0.07, and the value of its equity is $850,000. What is the value of Spiffy’s total assets? What is the value of its EBIT?
+
+ 
+
+Discussion Questions
+4.1 What does it mean when a company’s return on assets (ROA) is equal to its return on equity (ROE)?
+
+4.2 Why is too much liquidity not a good thing?
+
+4.3 Inventory is excluded when the quick ratio or acid-test ratio is calculated because inventory is the most difficult current asset to convert to cash without loss of value. What types of inventory are likely to be most easily converted to cash without loss of value?
+
+4.4 What does a very high inventory turnover ratio signify?
+
+4.5 How would one explain a low receivables turnover ratio?
+
+4.6 What additional information does the fixed asset turnover ratio provide over the total asset turnover ratio? For which industries does it carry greater significance?
+
+4.7 How does financial leverage help stockholders?
+
+4.8 Why is ROE generally much higher than ROA for banks relative to other industries?
+
+4.9 Why is the ROE a more appropriate proxy for stockholder value maximization for some firms than for other firms?
+
+4.10 Why is it not enough for an analyst to look at just the short-term and long-term debt on a firm’s balance sheet when assessing the firm’s fixed obligations?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+4.1 Liquidity ratios: Explain why the quick ratio or acid-test ratio is a better measure of a firm’s liquidity than the current ratio.
+
+4.2 Liquidity ratios: Flying Penguins Corp. has total current assets of $11,845,175, current liabilities of $5,311,020, and a quick ratio of 0.89. How much inventory does it have?
+
+4.3 Efficiency ratio: If Newton Manufacturers has an accounts receivable turnover of 4.8 times and net sales of $7,812,379, what are its receivables?
+
+4.4 Efficiency ratio: Bummel and Strand Corp. has a gross profit margin of 33.7 percent, sales of $47,112,365, and inventory of $14,595,435. What is its inventory turnover ratio?
+
+4.5 Efficiency ratio: Sorenson Inc. has sales of $3,112,489, a gross profit margin of 23.1 percent, and inventory of $833,145. What are the company’s inventory turnover ratio and days’ sales in inventory?
+
+4.6 Leverage ratios: Breckenridge Ski Company has total assets of $422,235,811 and a debt ratio of 29.5 percent. Calculate the company’s debt-to-equity ratio and equity multiplier.
+
+4.7 Leverage ratios: Norton Company has a debt-to-equity ratio of 1.65, ROA of 11.3 percent, and total equity of $1,322,796. What are the company’s equity multiplier, debt ratio, and ROE?
+
+4.8 DuPont equation: The Rangoon Timber Company has the following ratios:
+
+Net sales/Total assets = 2.23 ROA = 9.69% ROE = 16.4%
+
+What are Rangoon’s profit margin and debt ratios?
+
+4.9 DuPont equation: Lemmon Enterprises has a total asset turnover of 2.1 and a net profit margin of 7.5%. If its equity multiplier is 1.90, what is the ROE for Lemmon Enterprises?
+
+4.10 Benchmark analysis: List the ways a company’s financial manager can benchmark the company’s own performance.
+
+4.11 Benchmark analysis: Trademark Corp.’s financial manager collected the following information to compare its performance against that of its peers.
+
+Ratios	        Trademark	        Peer Group
+DSO	          33.5 days	          27.9 days
+Total asset turnover	2.3	3.7
+Inventory turnover	1.8	2.8
+Quick ratio	0.6	1.3
+Explain how Trademark is performing relative to its peers.
+How do the industry ratios help Trademark’s management?
+4.12 Market-value ratios: Rockwell Jewelers management announced that the company had net earnings of $6,481,778 for this year. The company has 2,543,800 shares outstanding, and the year-end stock price is $54.21. What are Rockwell’s earnings per share and P/E ratio?
+
+4.13 Market-value ratios: Chisel Corporation has 3 million shares outstanding at a price per share of $3.25. If the debt-to-equity ratio is 1.7 and total book value of debt equals $12,400,000, what is the market-to-book ratio for Chisel Corporation?
+
+Intermediate
+4.14 Liquidity ratios: Laurel Electronics has a quick ratio of 1.15, current liabilities of $5,311,020, and inventories of $7,121,599. What is the firm’s current ratio?
+
+4.15 Efficiency ratio: Lambda Corporation has current liabilities of $450,000, a quick ratio of 1.8, inventory turnover of 5.0, and a current ratio of 3.5. What is the cost of goods sold for Lambda Corporation?
+
+4.16 Efficiency ratio: Norwood Corp. currently has accounts receivable of $1,223,675 on net sales of $6,216,900. What are its accounts receivable turnover and days’ sales outstanding (DSO)?
+
+4.17 Efficiency ratio: If Norwood Corp.’s management wants to reduce the DSO from that calculated in Problem 4.16 to an industry average of 56.3 days and its net sales are expected to decline by about 12 percent, what would the new level of receivables be?
+
+4.18 Coverage ratios: Nimitz Rental Company had depreciation expenses of $108,905, interest expenses of $78,112, and an EBIT of $1,254,338 for the last fiscal year. What are the times-interest-earned and cash coverage ratios for this company?
+
+4.19 Leverage ratios: Conseco, Inc., has a debt ratio of 0.56. What are the company’s debt-to-equity ratio and equity multiplier?
+
+4.20 Profitability ratios: Cisco Systems has total assets of $35.594 billion, total debt of $9.678 billion, and net sales of $22.045 billion. Its net profit margin for the year is 20 percent, while the operating profit margin is 30 percent. What are Cisco’s net income, EROA, ROA, and ROE?
+
+4.21 Profitability ratios: Procter & Gamble reported the following information for its fiscal year end: On net sales of $51.407 billion, the company earned net income after taxes of $6.481 billion. It had cost of goods sold of $25.076 billion and EBIT of $9.827 billion. What are the company’s gross profit margin, operating profit margin, and net profit margin?
+
+4.22 Profitability ratios: Walmart, Inc., has net income of $9,054,000 on net sales of $256,329,812. The company has total assets of $104,912,112 and stockholders’ equity of $43,623,445. Use the extended DuPont identity to find the return on assets and return on equity for the firm.
+
+4.23 Profitability ratios: Xtreme Sports Innovations has disclosed the following information:
+
+EBIT = $25,664,300	Net income = $13,054,000
+Net sales = $83,125,336	Total debt = $20,885,753
+Total assets = $71,244,863	
+Compute the following ratios for this firm using the DuPont identity: debt-to-equity ratio, EROA, ROA, and ROE.
+
+4.24 Market-value ratios: Cisco Systems had net income of $4.401 billion and, at year end, 6.735 billion shares outstanding. Calculate the earnings per share for the company.
+
+4.25 Market-value ratios: Use the information for Cisco Systems in Problem 4.24. In addition, the company’s EBITDA was $6.834 billion and its share price was $22.36. Compute the firm’s price-earnings ratio.
+
+4.26 DuPont equation: Carter, Inc., a manufacturer of electrical supplies, has an ROE of 23.1 percent, a profit margin of 4.9 percent, and a total asset turnover ratio of 2.6 times. Its peer group also has an ROE of 23.1 percent, but has outperformed Carter with a net profit margin of 5.3 percent and a total asset turnover ratio of 3.0 times. Explain how Carter managed to achieve the same level of profitability as reflected by the ROE.
+
+4.27 DuPont equation: Grossman Enterprises has an equity multiplier of 2.6 times, total assets of $2,312,000, an ROE of 14.8 percent, and a total asset turnover ratio of 2.8 times. Calculate the firm’s sales and ROA.
+
+Advanced
+4.28 Complete the balance sheet of Flying Roos Corporation.
+
+Flying Roos Corporation Balance Sheet
+Assets:		Liabilities and Equity:	
+Cash and marketable securities		Accounts payable and accruals	
+Accounts receivable		Notes payable	$   300,000
+Inventory	      	  Total current liabilities	
+  Total current assets			
+Long-term debt	$2,000,000
+Net plant and equipment		Common stock	
+Retained earnings	 $1,250,000
+Total assets	$8,000,000	Total liabilities and equity	      
+You have the following information:
+
+Debt ratio = 40%	DSO = 39 days
+Current ratio = 1.5	Inventory turnover ratio = 3.375
+Net sales = $2.25 million	Cost of goods sold = $1.6875 million
+4.29 The Northern Clothing Company has total assets of $87,631,181, ROA of 11.67 percent, ROE of 21.19 percent, and a net profit margin of 11.59 percent. What are the company’s net income and net sales? Calculate the firm’s debt-to-equity ratio.
+
+4.30 Blackwell Automotive’s balance sheet at the end of its most recent fiscal year shows the following information:
+
+Blackwell Automotive Balance Sheet
+Assets:		Liabilities and Equity:	
+Cash and marketable securities	$       23,015	Accounts payable and accruals	$      163,257
+Accounts receivable	      141,258	Notes payable	           21,115
+Inventory	      212,444	Total current liabilities	$     184,372
+Total current assets	$    376,717	Long-term debt	       168,022
+Net plant and equipment	      711,256	Total liabilities	$     352,394
+Goodwill and other assets	        89,879	Common stock	      313,299
+Retained earnings	      512,159
+Total assets	$1,177,852	Total liabilities and equity	$1,177,852
+In addition, it was reported that the firm had a net income of $156,042 on net sales of $4,063,589.
+
+What are the firm’s current ratio and quick ratio?
+Calculate the firm’s days’ sales outstanding, total asset turnover ratio, and fixed asset turnover ratio.
+4.31 The following are the financial statements for Nederland Consumer Products Company for the fiscal year.
+
+Nederland Consumer Products Company Income Statement
+Net sales	$51,407
+Cost of products sold	 25,076
+Gross profit	$26,331
+Marketing, research, administrative expense	  15,746
+Depreciation	        758
+Operating income (loss)	$   9,827
+Interest expense	        477
+Earnings (loss) before income taxes	$   9,350
+Income taxes	     2,869
+Net earnings (loss)	 $ 6,481
+Nederland Consumer Products Company Balance Sheet
+Assets:		Liabilities and Equity:	
+Cash and marketable securities	$  5,469	Accounts payable	$   3,617
+Investment securities	        423	Accrued and other liabilities	     7,689
+Accounts receivable	     4,062	Taxes payable	     2,554
+Inventory	     4,400	Debt due within one year	     8,287
+Deferred income taxes	        958	  Total current liabilities	$22,147
+Prepaid expenses and other		Long-term debt	  12,554
+  receivables	    1,803	Deferred income taxes	     2,261
+  Total current assets	$17,115	Other noncurrent liabilities	     2,808
+Property, plant, and equipment, at cost	 25,304	  Total liabilities	$39,770
+Less: Accumulated depreciation	  11,196	Convertible class A preferred stock	     1,526
+Net property, plant, and equipment	$14,108	Common stock	     2,141
+Net goodwill and other intangible		Retained earnings	   13,611
+assets	  23,900	Total stockholders’ equity	 $17,278
+Other noncurrent assets	     1,925		
+Total assets	$57,048	Total liabilities and equity	$57,048
+Calculate all the ratios listed below for Nederland and compare the firm’s ratios with the industry ratios listed below.
+
+Ratio	Industry Average
+Current ratio	   2.05
+Quick ratio	   0.78
+Gross margin	23.9%
+Net profit margin	12.3%
+Debt ratio	   0.23
+Long-term debt to equity	   0.98
+Interest coverage	   5.62
+ROA	   5.3%
+ROE	18.8%
+4.32 Refer to the preceding information for Nederland Consumer Products Company. Compute the firm’s ratios for the following categories and briefly evaluate the company’s performance using these numbers.
+
+Efficiency ratios.
+Asset turnover ratios.
+Leverage ratios.
+Coverage ratios.
+4.33 Refer to the earlier information for Nederland Consumer Products Company. Using the DuPont identity, calculate the return on equity for Nederland, after calculating the ratios that make up the DuPont identity.
+
+4.34 Nugent, Inc., has a gross profit margin of 31.7 percent on net sales of $9,865,214 and total assets of $7,125,852. The company has a current ratio of 2.7 times, accounts receivable of $1,715,363, cash and marketable securities of $315,488, and current liabilities of $870,938.
+
+What are Nugent’s total current assets?
+How much inventory does the firm have? What is the inventory turnover ratio?
+What is Nugent’s days’ sales outstanding?
+If management sets a target DSO of 30 days, what should Nugent’s accounts receivable be?
+4.35 Recreational Supplies Co. has net sales of $11,655,000, an ROE of 17.64 percent, and a total asset turnover of 2.89 times. If the firm has a debt-to-equity ratio of 1.43, what is the company’s net income?
+
+4.36 Nutmeg Houseware Inc. has an operating profit margin of 10.3 percent on revenues of $24,547,125 and total assets of $8,652,352.
+
+Calculate the company’s total asset turnover ratio and its operating profit (EBIT).
+The company’s management has set a target for the total asset turnover ratio of 3.25 for next year. If there is no change in the total assets of the company, what will the new net sales level have to be next year? Calculate the dollar change in sales necessary and the percentage change in sales necessary.
+If the operating profit margin declines to 10 percent, what will be the EBIT at the new level of net sales?
+4.37 Modern Appliances Corporation has reported its financial results for the latest fiscal year.
+
+Modern Appliances Corporation Income Statement
+Net sales	$5,398,412,000
+Cost of goods sold	   3,432,925,255
+Gross profit	$1,965,486,745
+Selling, general, and administrative expenses	   1,036,311,231
+Depreciation	      299,928,155
+Operating income	$   629,247,359
+Interest expense	       35,826,000
+EBT	$   593,421,359
+Income taxes	     163,104,554
+Net earnings	$   430,316,805
+Modern Appliances Corporation Balance Sheet
+Assets:		Liabilities and Equity:	
+Cash and cash equivalents	$     514,412,159	Short-term borrowings	$   117,109,865
+Accounts receivable	    1,046,612,233	Trade accounts payable	     466,937,985
+Inventory	       981,870,990	Other current liabilities	     994,289,383
+Other current assets	       313,621,610	  Total current liabilities	$1,578,337,233
+Total current assets	$ 2,856,516,992	Long-term debt	  1,200,691,565
+Net fixed assets	      754,660,275	Common stock	     397,407,352
+Goodwill	      118,407,710	Retained earnings	 1,218,207,588
+Other assets	      665,058,761		
+Total assets	$4,394,643,738	Total liabilities and equity	$4,394,643,738
+Using the information from the financial statements, complete a comprehensive ratio analysis for Modern Appliances Corporation.
+
+Calculate these liquidity ratios: current and quick ratios.
+Calculate these efficiency ratios: inventory turnover, accounts receivable turnover, DSO.
+Calculate these asset turnover ratios: total asset turnover, fixed asset turnover.
+Calculate these leverage ratios: total debt ratio, debt-to-equity ratio, equity multiplier.
+Calculate these coverage ratios: times interest earned, cash coverage.
+Calculate these profitability ratios: gross profit margin, net profit margin, ROA, ROE.
+Use the DuPont identity, after calculating the component ratios, to compute ROE.
+CFA Problems
+4.38 Common-size analysis is used in financial analysis to:
+
+evaluate changes in a company’s operating cycle over time.
+predict changes in a company’s capital structure using regression analysis.
+compare companies of different sizes or compare a company with itself over time.
+restate each element in a company’s financial statement as a proportion of the similar account for another company in the same industry.
+4.39 The TBI Company has days’ sales in inventory of 50. Therefore, the TBI Company’s inventory turnover is closest to:
+
+4.8 times.
+7.3 times.
+8.4 times.
+9.6 times.
+4.40 DuPont analysis involves breaking return-on-assets ratios into their:
+
+profit components.
+marginal and average components.
+operating and financing components.
+profit margin and turnover components.
+4.41 If a company’s net profit margin is −5 percent, its total asset turnover is 1.5 times, and its financial leverage ratio is 1.2 times, its return on equity is closest to:
+
+−9.0 percent.
+−7.5 percent.
+−3.2 percent.
+1.8 percent.
+Sample Test Problems
+Greenfern Corporation recently filed the following financial statements with the SEC.
+
+Greenfern Corporation Income Statement
+Net sales	$ 73,236
+Cost of products sold	   52,092
+Gross profit	$ 21,144
+Selling, general, and administrative expenses	      9,333
+Depreciation	      1,060
+Operating income (loss)	$ 10,751
+Interest expense	         649
+Earning (loss) before income taxes	   10,102
+Income taxes	      3,536
+Net earnings (loss)	$   6,566
+Greenfern Corporation Balance Sheet
+Assets:		Liabilities and Equity:	
+Cash and marketable securities	$ 9,118	Accounts payable	$     6,379
+Accounts receivable	    7,844	Accrued and other liabilities	       5,663
+Inventory	    8,900	Taxes payable	       4,821
+Deferred income taxes	        878	Debt due within one year	     10,778
+Prepaid expenses and other	    2,803	  Total current liabilities	$  27,641
+  Total current assets	$29,543		
+Property, plant, and equipment,		Long-term debt	     24,280
+  at cost	   62,467	Deferred income taxes	       6,903
+Less: Accumulated depreciation	   22,196	  Other noncurrent liabilities	       5,608
+  Net property, plant, and		  Total liabilities	$ 64,432
+  equipment	$40,271	Common stock	      3,667
+Net goodwill and other		Retained earnings	   17,985
+  intangible assets	   16,270	  Total stockholders’ equity	 $21,652
+Total assets	$86,084	Total liabilities and stockholders’ equity	$86,084
+4.1 Refer to the preceding balance sheet and income statement for Greenfern Corporation. What are the company’s current ratio and quick ratio? What do these ratios tell us about Greenfern?
+
+4.2 Refer to the preceding balance sheet and income statement for Greenfern Corporation. Calculate the following ratios:
+
+Inventory turnover.
+Days’ sales outstanding.
+Total asset turnover.
+Fixed asset turnover.
+Total debt ratio.
+Debt-to-equity ratio.
+Times interest earned ratio.
+Cash coverage ratio.
+4.3 Refer to the preceding balance sheet and income statement for Greenfern Corporation. Use the DuPont identity to calculate the return on equity (ROE). In the process, calculate the following ratios: net profit margin, total asset turnover, equity multiplier, EBIT return on assets (EROA), and return on assets.
+
+4.4 Last year Pontiff Enterprises reported net sales of $13,144,680, a gross profit $4,127,429, EBIT of $2,586,150, and net income of $867,555. Compute Pontiff’s cost of goods sold, gross profit margin, operating profit margin, and net profit margin.
+
+4.5 National City Bank has 646,749,650 shares of common stock outstanding that are currently selling for $37.55 per share on the New York Stock Exchange. If National City’s net income was $2,780,955,000 in the year that just ended, what was its earnings per share and what is its current price-earnings ratio? If the typical price-earnings ratio for a bank is currently 15, what does the price-earnings ratio for National City tell you about its prospects?
+
+Ethics Case
+A Sad Tale: The Demise of Arthur Andersen
+In January 2002, there were five major public accounting firms: Arthur Andersen, Deloitte Touche, KPMG, PricewaterhouseCoopers, and Ernst & Young. By late fall of that year, the number had been reduced to four. Arthur Andersen became the first major public accounting firm to be found guilty of a felony (a conviction later overturned), and as a result it virtually ceased to exist.
+
+
+That such a fate could befall Andersen is especially sad given its early history. When Andersen and Company was established in 1918, it was led by Arthur Andersen, an acknowledged man of principle, and the company had a credo that became firmly embedded in the culture: “Think Straight and Talk Straight.” Andersen became an industry leader partly on the basis of high ethical principles and integrity.
+
+How did a one-time industry leader find itself in a position where it received a corporate death penalty over ethical issues? First, the market changed. During the 1980s, a boom in mergers and acquisitions and the emergence of information technology fueled the growth of an extremely profitable consulting practice at Andersen. The profits from consulting contracts soon exceeded the profits from auditing, Andersen’s core business. Many of the consulting clients were also audit clients, and the firm found that the audit relationship was an ideal bridge for selling consulting services. Soon the audit fees became “loss leaders” to win audits, which allowed the consultants to sell more lucrative consulting contracts.
+
+Tension between Audit and Consulting
+
+At Andersen, tension between audit and consulting partners broke into open and sometimes public warfare. At the heart of the problem was how to divide the earnings from the consulting practice between the two groups. The resulting conflict ended in divorce, with the consultants leaving to form their own firm. The firm, Accenture, continues to thrive today.
+
+Once the firm split in two, Andersen began to rebuild a consulting practice as part of the accounting practice. Consulting continued to be a highly profitable business, and audit partners were now asked to sell consulting services to other clients, a role that many auditors found uncomfortable.
+
+Although the accountants were firmly in charge, the role of partners as salespersons compounded an already existing ethical issue—that of conflict of interest. It is legally well established that the fiduciary responsibility of a certified public accounting (CPA) firm is to the investors and creditors of the firm being audited. CPA firms are supposed to render an opinion as to whether a firm’s financial statements are reasonably accurate and whether the firm has applied generally accepted accounting principles in a consistent manner over time so as not to distort the financial statements. To meet their fiduciary responsibilities, auditors must maintain independence from the firms they audit.
+
+What might interfere with the objective judgment of the public accounting firms? One problem arises because it is the audited companies themselves that pay the auditors’ fees. Auditors might not be completely objective when auditing a firm because they fear losing consulting business. This is an issue that regulators and auditors have not yet solved. But another problem arises in situations where accounting firms provide consulting services to the companies they audit. Although all of the major accounting firms were involved in this practice to some extent, Andersen had developed an aggressive culture for engaging partners to sell consulting services to audit clients.
+
+Andersen’s Problems Mount
+
+The unraveling of Andersen began in the 1990s with a series of accounting scandals at Sunbeam, Waste Management, and Colonial Realty—all firms that Andersen had audited. But scandals involving the energy giant Enron proved to be the firm’s undoing. The account was huge. In 2000 alone, Andersen received $52 million in fees from Enron, approximately 50 percent for auditing and 50 percent for other consulting services, especially tax services. The partner in charge of the account and his entire 100-person team worked out of Enron’s Houston office. Approximately 300 of Enron’s senior and middle managers had been Andersen employees.
+
+Enron went bankrupt in December 2001 after large-scale accounting irregularities came to light, prompting an investigation by the Securities and Exchange Commission (SEC). It soon became clear that Enron’s financial statements for some time had been largely the products of accounting fraud, showing the company to be in far better financial condition than was actually the case. The inevitable question was asked: Why hadn’t the auditors called attention to Enron’s questionable accounting practices? The answer was a simple one. Andersen had major conflicts of interest. Indeed, when one member of Andersen’s Professional Standards Group objected to some of Enron’s accounting practices, Andersen removed him from auditing responsibilities at Enron—in response to a request from Enron management.
+
+Playing Hardball and Losing
+
+The SEC was determined to make an example of Andersen. The U.S. Justice Department began a criminal investigation, but investigators were willing to explore some “settlement options” in return for Andersen’s cooperation. However, Andersen’s senior management appeared arrogant and failed to grasp the political mood in Congress and in the country after a series of business scandals that had brought more than one large company to bankruptcy.
+
+After several months of sparring with the Andersen senior management team, the Justice Department charged Andersen with a felony offense—obstruction of justice. Andersen was found guilty in 2002 of illegally instructing its employees to destroy documents relating to Enron, even as the government was conducting inquiries into Enron’s finances. During the trial, government lawyers argued that by instructing its staff to “undertake an unprecedented campaign of document destruction,” Andersen had obstructed the government’s investigation.
+
+Since a firm convicted of a felony cannot audit a publicly held company, the conviction spelled the end for Andersen. But even before the guilty verdict, there had been a massive defection of Andersen clients to other accounting firms. The evidence presented at trial showed a breakdown in Andersen’s internal controls, a lack of leadership, and an environment in Andersen’s Houston office that fostered recklessness and unethical behavior by some partners.
+
+In 2005, the United States Supreme Court unanimously overturned the Andersen conviction on the grounds that the jury was given overly broad instructions by the federal judge who presided over the case. But by then it was too late. Most of the Andersen partners had either retired or gone to work for former competitors, and the company had all but ceased to exist.
+
+Discussion Questions
+To what extent do market pressures encourage unethical behavior? Can the demise of Andersen be blamed on the fact that the market began rewarding consulting services of the kind Andersen could provide?
+How serious are the kinds of conflicts of interest discussed in this case? Did Sarbanes-Oxley eliminate the most serious conflicts?
+Was it fair for the government to destroy an entire company because of the misdeeds of some of its members, or had Andersen become such a serious offender that such an action on the part of the government was justified?
+Notes
+1 This calculation involves dividing total current assets by total current liabilities. We drop the word total in the interest of brevity.
+2 The quick ratio will always be less than the current ratio for any firm that has inventory.
+3 EBITDA can differ from actual cash flows because of the accounting accruals and the investment in net working capital and fixed assets that we discussed in Chapter 3.

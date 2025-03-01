@@ -1,0 +1,1286 @@
+PART 1
+
+Mutual Funds and Other Investment Companies
+
+
+
+“Take calculated risks. That is quite different from being rash.”
+
+–General George S. Patton
+
+Learning Objectives
+
+You’re probably going to be a mutual fund investor very soon, so you should definitely know the following:
+
+The different types of mutual funds.
+
+How mutual funds operate.
+
+How to find information about mutual fund performance.
+
+The workings of exchange-traded funds (ETFs) and hedge funds.
+
+With only $2,000 to invest, you can easily own shares in Microsoft, GM, McDonald’s, IBM, Coke, and many more stocks through a mutual fund. Or you can invest in a portfolio of government bonds or other investments. Indeed, many thousands of different mutual funds are available to investors. In fact, there are about as many, if not more, mutual funds as there are different stocks traded on the NASDAQ and the New York Stock Exchange combined. There are funds for aggressive investors, conservative investors, short-term investors, and long-term investors. There are bond funds, stock funds, international funds, and you-name-it funds. Is there a right fund for you? This chapter will help you find out.
+
+CFATM Exam Topics in This Chapter:
+
+Guidance for standards I–VII (L1, S1)
+
+Discounted cash flow applications (L1, S2)
+
+Introduction to alternative investments (L1, S19)
+
+Passive equity investing (L3, S13)
+
+Alternative investments portfolio management (L3, S15)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 98
+
+As we discussed in an earlier chapter, if you do not wish to actively buy and sell individual securities on your own, you can invest in stocks, bonds, or other financial assets through a mutual fund. Mutual funds are a means of combining or pooling the funds of a large group of investors. The buy and sell decisions for the resulting pool are then made by a fund manager, who is compensated for the service provided.
+
+For mutual fund facts and figures, visit
+ici.org.
+
+Mutual funds have become so important that we devote this entire chapter to them and other investment companies. The number of funds and the different fund types available have grown tremendously in recent years. As of January 2019, an estimated 99.5 million Americans in 56 million households owned mutual funds, up from just 5 million households in 1980. Investors withdrew $191 billion from mutual funds during 2018, but by the end of the year, mutual fund assets still totaled almost $18 trillion.
+
+One of the reasons for the proliferation of mutual funds is that they have become, on a basic level, consumer products. They are created and marketed to the public in ways that are intended to promote buyer appeal. As every business student knows, product differentiation is a basic marketing tactic, and in recent years mutual funds have become increasingly adept at practicing this common marketing technique.
+
+In fact, if you are not already a mutual fund investor, you very likely will be in the near future. The reason has to do with a fundamental change in the way businesses of all types provide retirement benefits for employees. It used to be that most large employers offered so-called defined benefit pensions. With such a plan, when you retire, your employer pays you a pension, typically based on years of service and salary. The key is that the pension benefit you receive is based on a predefined formula, hence the name.
+
+Defined benefit plans are rapidly being replaced by “defined contribution” plans. Defined contribution plans are often called 401(k) plans after the section of the tax code that governs them. With a defined contribution plan, your employer will contribute money each pay period to a retirement account on your behalf, but you have to select where the funds go. With this arrangement, the benefit you ultimately receive depends entirely on how your investments do; your employer only makes contributions. Most commonly, you must choose from a group of mutual funds for your investments, so it is important that you understand the different types of mutual funds, as well as their risk and return characteristics.
+
+4.1 Advantages and Drawbacks of Mutual Fund Investing
+ADVANTAGES
+Investing in mutual funds offers many advantages. Three of these are diversification, professional management, and the size of the initial investment.
+
+DIVERSIFICATION When you invest in a mutual fund, you are investing in a portfolio, or basket, of securities. As you will learn in detail in later chapters, holding a diversified portfolio helps you reduce risk. How? A mutual fund might invest in hundreds (or thousands) of securities. If the value of one of them falls to zero, this decline will have a small impact on the mutual fund value. Diversification helps you reduce risk, but diversification does not eliminate risk. It is still possible for you to lose money when you invest in a mutual fund. Also note that not all mutual funds are diversified. For example, some intentionally specialize in specific industries or countries.
+
+PROFESSIONAL MANAGEMENT Professional money managers make investment decisions for mutual funds. That is, the mutual fund manager makes the decision of when to add or remove particular securities from the mutual fund. This means that you, as the investor holding the mutual fund, do not have to make these crucial decisions.
+
+MINIMUM INITIAL INVESTMENT Most mutual funds have a minimum initial purchase of $2,500, but some are as low as $1,000 or even $250 in some cases. After your initial purchase, page 99subsequent purchases are sometimes as low as $50. Of course, these amounts vary from fund to fund.
+
+DRAWBACKS
+As with any type of investment, some drawbacks are associated with mutual funds. In particular, three of them are risk, costs, and taxes.
+
+RISK Let us start with a point that should be obvious. The value of your mutual fund investment, unlike a bank deposit, could fall and be worth less than your initial investment. You should also realize that no government or private agency guarantees the value of a mutual fund.
+
+A not-so-obvious point is that some investors think that there is a cost to diversification. Diversification greatly reduces the risk of loss from holding one (or a few) securities. However, by spreading your investments over many securities, you limit your chances for large returns if one of these securities increases dramatically in value. We happen to think that this is a cost worth bearing.
+
+COSTS Investing in mutual funds entails fees and expenses that do not usually accrue when purchasing individual securities directly. We detail most of these costs later in the chapter.
+
+TAXES When you invest in a mutual fund, you will pay federal income tax (and state and local taxes, if applicable) on:
+
+Distributions (dividends and capital gains) made by the mutual fund.
+
+Profits you make when you sell mutual fund shares.
+
+There are some exceptions. A notable one is the receipt of distributions in tax-deferred retirement accounts such as individual retirement accounts (IRAs).
+
+CHECK THIS
+
+
+
+4.1aWhat are some advantages of investing in mutual funds?
+
+4.1bWhat are some drawbacks of investing in mutual funds?
+
+4.2 Investment Companies and Fund Types
+At the most basic level, a company that pools funds obtained from individual investors and invests them is called an investment company. In other words, an investment company is a business that specializes in managing financial assets for individual investors. All mutual funds are investment companies, but not all investment companies are mutual funds.
+
+investment company
+
+A business that specializes in pooling funds from individual investors and investing them.
+
+In the sections that follow, we will be discussing various aspects of mutual funds and related entities. Figure 4.1 is a big-picture overview of some of the different types of funds and how they are classified. It will serve as a guide for the next several sections. We will define the various terms that appear as we go along.
+
+Fund Types
+
+FIGURE 4.1
+
+
+OPEN-END VERSUS CLOSED-END FUNDS
+As Figure 4.1 shows, there are two fundamental types of investment companies: open-end funds and closed-end funds. The difference is important. Whenever you invest in a mutual fund, you do so by buying shares in the fund. However, how shares are bought and sold depends on which type of fund you are considering.
+
+open-end fund
+
+An investment company that stands ready to buy and sell shares at any time.
+
+With an open-end fund, the fund itself will sell new shares to anyone wishing to buy and will redeem (i.e., buy back) shares from anyone wishing to sell. When an investor wishes to buy open-end fund shares, the fund issues them and then invests the money received. When someone wishes to sell open-end fund shares, the fund sells some of its assets and uses the cash to redeem the shares. As a result, with an open-end fund, the number of shares outstanding fluctuates over time.
+
+page 100
+
+With a closed-end fund, the number of shares is fixed and never changes. If you want to buy shares, you must buy them from another investor. Similarly, if you wish to sell shares that you own, you must sell them to another investor.
+
+closed-end fund
+
+An investment company with a fixed number of shares that are bought and sold only in the open stock market.
+
+Thus, the key difference between an open-end fund and a closed-end fund is that, with a closed-end fund, the fund itself does not buy or sell shares. In fact, as we discuss below, shares in closed-end funds are listed on stock exchanges just like ordinary shares of stock, where their shares are bought and sold in the same way. Open-end funds are much more popular among individual investors than closed-end funds.
+
+The distinction between open-end funds and closed-end funds is not always as clear-cut as one would think. For example, some open-end funds “close their doors” to new investors. The typical reason for this decision is fund size. If the fund gets too large, exercising effective control over the fund’s investments will be difficult for the fund managers. When an open-end fund no longer accepts new investors, existing investors generally can continue to add money to the fund. Of course, existing investors also can withdraw money from the fund.
+
+Strictly speaking, the term “mutual fund” actually refers only to an open-end investment company. Thus, the phrase “closed-end fund” is a bit of an oxymoron, kind of like jumbo shrimp, and the phrase “open-end mutual fund” is a redundancy, an unnecessary repetition, or restatement. Nonetheless, particularly in recent years, the term “investment company” has all but disappeared from common use, and investment companies are now generically called mutual funds. We will stick with this common terminology to avoid confusion.
+
+NET ASSET VALUE
+A mutual fund’s net asset value is an important consideration. Net asset value is calculated by taking the total value of the assets held by the fund less any liabilities and then dividing by the number of outstanding shares. For example, suppose a mutual fund has $105 million in assets and $5 million in liabilities based on current market values and a total of 5 million shares outstanding. Based on the value of net assets held by the fund, $100 million, each share has a value of $100 million/5 million = $20. This $20 is the fund’s net asset value, often abbreviated as NAV.
+
+net asset value
+
+The value of assets less liabilities held by a mutual fund, divided by the number of shares outstanding. Abbreviated NAV.
+
+With one important exception, the net asset value of a mutual fund will change essentially every day because the value of the assets held by the fund fluctuates. The one exception concerns money market mutual funds, which we discuss in a later section.
+
+page 101
+
+Net Asset Value
+
+EXAMPLE 4.1
+
+As of mid-2019, the Fidelity Contrafund had just under $100 billion in invested assets, making it one of the largest funds in the world. If the fund had 8 billion shares outstanding, what is its net asset value?
+
+The net asset value is the asset value per share, or $100 billion/8 billion = $12.50.
+
+As we noted, an open-end fund will generally redeem or buy back shares at any time. The price you will receive for shares you sell is the net asset value. Thus, in our example above, you could sell your shares back to the fund and receive $12.50 each. Because the fund stands ready to redeem shares at any time, shares in an open-end fund are always worth their net asset value.
+
+In contrast, because the shares of closed-end funds are bought and sold in the stock markets, their share prices at any point in time may or may not be equal to their net asset values. We examine this issue in more detail in a later section.
+
+CHECK THIS
+
+
+
+4.2aWhat is an investment company?
+
+4.2bWhat is the difference between an open-end fund and a closed-end fund?
+
+4.3 Mutual Fund Operations
+In this section, we discuss some essentials of mutual fund operations. We focus on how mutual funds are created, marketed, regulated, and taxed. Our discussion here deals primarily with open-end funds, but much of it applies to closed-end funds as well. Further details on closed-end funds are provided in a later section.
+
+MUTUAL FUND ORGANIZATION AND CREATION
+A mutual fund is a corporation. Like a corporation, a mutual fund is owned by its shareholders. The shareholders elect a board of directors; the board of directors is responsible for hiring a manager to oversee the fund’s operations. Although mutual funds often belong to a larger “family” of funds, every fund is a separate company owned by its shareholders.
+
+Most mutual funds are created by investment advisory firms, which are businesses that specialize in managing mutual funds. Investment advisory firms are also called mutual fund companies. Increasingly, such firms have additional operations such as discount brokerages and other financial services.
+
+There are hundreds of investment advisory firms in the United States. The largest, and probably best known, is Vanguard, with more than 190 mutual funds in the United States, about $5.3 trillion in assets under management, and more than 20 million investors (all figures from 2018). Dreyfus, American Funds, and Fidelity Investments are some other well-known examples. Many brokerage firms, such as Merrill Lynch and Charles Schwab, also have large investment advisory operations.
+
+Investment advisory firms create mutual funds because they wish to manage them to earn fees. A typical management fee might be .5 percent of the total assets in the fund per year. A fund with $200 million in assets would not be especially large, but it could nonetheless generate management fees of about $1 million per year. Thus, there is a significant economic incentive to create funds and attract investors to them.
+
+For example, a company like Fidelity might one day decide that there is a demand for a fund that buys stock in companies that grow and process citrus fruits. Fidelity could form a mutual fund that specializes in such companies and call it something like the Fidelity Lemon Fund.1 page 102A fund manager would be appointed, and shares in the fund would be offered to the public. As shares were sold, the money received would be invested. If the fund was a success, a large amount of money would be attracted and Fidelity would benefit from the fees it earned. If the fund was not a success, the board could vote to liquidate it and return shareholders’ money or merge it with another fund.
+
+As our hypothetical example illustrates, an investment advisory firm such as Fidelity can (and often will) create new funds from time to time. Through time, this process leads to a family of funds all managed by the same advisory firm. Each fund in the family will have its own fund manager, but the advisory firm will generally handle the record keeping, marketing, and much of the research that underlies the fund’s investment decisions.
+
+In principle, the directors of a mutual fund in a particular family, acting on behalf of the fund shareholders, could vote to fire the investment advisory firm and hire a different one. As a practical matter, this rarely, if ever, occurs. At least part of the reason is that the directors are originally appointed by the fund’s founder, and they are routinely reelected. Unhappy shareholders generally “vote with their feet”—that is, they sell their shares and invest elsewhere.
+
+All the major fund families have websites. For example, try
+vanguard.com.
+
+TAXATION OF INVESTMENT COMPANIES
+As long as an investment company meets certain rules set by the Internal Revenue Service, it is treated as a “regulated investment company” for tax purposes. This is important because a regulated investment company does not pay taxes on its investment income. Instead, the fund passes through all realized investment income to fund shareholders, who then pay taxes on these distributions as though they owned the securities directly. Essentially, the fund acts as a conduit, funneling gains and losses to fund owners.
+
+To qualify as a regulated investment company, the fund must follow three basic rules: The first rule is that it must in fact be an investment company holding almost all of its assets as investments in stocks, bonds, and other securities. The second rule limits the fund to using no more than 5 percent of its assets when acquiring a particular security. This is a diversification rule. The third rule is that the fund must pass through all realized investment income to fund shareholders.
+
+THE FUND PROSPECTUS AND ANNUAL REPORT
+Mutual funds are required by law to produce a document known as a prospectus. The prospectus must be supplied to any investor wishing to purchase shares. Mutual funds must also provide an annual report to their shareholders. The annual report and the prospectus, which are sometimes combined, contain financial statements along with specific information concerning the fund’s expenses, gains and losses, holdings, objectives, and management. We discuss many of these items in the next few sections.
+
+MUTUAL FUND TRANSACTIONS
+Fund companies have thousands of individual investors. For closed-end funds, this fact is of little consequence because investor transactions take place in the secondary market. For an open-end fund, however, on any given day, the fund company could receive hundreds of buy and sell orders for each of its mutual funds.
+
+To reduce the cost and complexity of dealing with so many transactions, fund companies accrue all transactions until the end of the day. That way, they can net out fund inflows and outflows and thereby reduce the number of transactions they have to make in the market on a given day. That is why orders that are entered by an investor at, say, 10:30 A.M. are still open at the end of the trading day. This clearing process is one reason why mutual funds are not attractive to active investors such as day traders. As we discuss in a later section, this is also one reason why exchange-traded funds (ETFs) have grown in popularity.
+
+Another unique feature of mutual fund investing is how an investor would specify the amount he or she wishes to purchase. When you buy and sell stocks, you generally enter the number of shares you wish to purchase or sell, which in turn determines the amount you will page 103pay or receive. With mutual funds, however, investors enter the dollar amount that they wish to purchase. Based on the NAV at the time, this in turn determines the number of shares the investor will receive. Because investor amounts and fund NAVs are not always nice round numbers, investors often end up holding fractional shares.
+
+CHECK THIS
+
+
+
+4.3aHow do mutual funds usually get started?
+
+4.3bHow are mutual funds taxed?
+
+4.3cHow does mutual fund trading differ from stock trading?
+
+4.4 Mutual Fund Costs and Fees
+All mutual funds have various expenses that are paid by the fund’s shareholders. These expenses can vary considerably from fund to fund, and one of the most important considerations in evaluating a fund is its expense structure. All else the same, lower expenses are preferred, of course, but, as we discuss, matters are not quite that cut-and-dried.
+
+TYPES OF EXPENSES AND FEES
+Basically, there are four types of expenses or fees associated with buying and owning mutual fund shares:
+
+Sales charges or “loads.”
+
+12b-1 fees.
+
+Management fees.
+
+Trading costs.
+
+We discuss each of these in turn.
+
+SALES CHARGES Many mutual funds charge a fee whenever shares are purchased. These fees are generally called front-end loads. Funds that charge loads are called load funds. Funds that have no such charges are called no-load funds.
+
+front-end load
+
+A sales charge levied on purchases of shares in some mutual funds.
+
+When you purchase shares in a load fund, you pay a price in excess of the net asset value, called the offering price. The difference between the offering price and the net asset value is the load. Shares in no-load funds are sold at net asset value.
+
+Front-end loads can range as high as 8.5 percent, but 5 percent or so would be more typical. Some funds with front-end loads in the 2 percent to 3 percent range are described as low-load funds.
+
+Front-end loads are expressed as a percentage of the offering price, not the net asset value. For example, suppose a load fund has an offering price of $100 and a net asset value of $98. The front-end load is $2, which, as a percentage of the $100 offering price, is $2/$100 = .02, or 2 percent. The way front-end loads are calculated understates the load slightly. In our example here, you are paying $100 for something worth only $98, so the load is really $2/$98 = .0204, or 2.04 percent.
+
+Front-End Loads
+
+EXAMPLE 4.2
+
+On a particular day, the Common Sense Growth Fund had a net asset value of $13.91. The offering price was $15.20. Is this a load fund? What is the front-end load?
+
+Because the offering price, which is the price you must pay to purchase shares, exceeds the net asset value, this is definitely a load fund. The load can be calculated by taking the difference between the offering price and the net asset value, $1.29, and dividing by the $15.20 offering price. The result is a hefty front-end load of 8.5 percent.
+
+page 104
+
+Some funds have “back-end” loads, which are charges levied on redemptions. These loads are often called contingent deferred sales charges and abbreviated CDSC. The CDSC usually declines through time. It might start out at 6 percent for shares held less than one year, then drop to 3 percent for shares held for two years, and disappear altogether on shares held for three or more years. Some funds offer “level” loads. That is, investors pay an added fee, typically 1 percent, every year they are in the fund.
+
+CDSC
+
+A sales charge levied when investors redeem shares (also called a “back-end” load).
+
+Different loads are typically designated with letters. For example, front-end loads are often known as A-shares. Back-end loads are designated B-shares, and level loads are called C-shares. You might think that B-shares would be preferred to A-shares because the back-end load would decline over time. You must look at all the fees involved, however. With the back-end and level loads, the fund companies often increase other fees associated with the fund (such as the 12b-1 fee, discussed next). As it happens, B-shares appear to be a dying breed and have mostly disappeared as of 2019. So, two factors that influence your preference for share type are their relative expense structures and your anticipated holding period. But the best choice might be a fund that does not have any load.
+
+12B-1 FEES So-called 12b-1 fees are named after the Securities and Exchange Commission (SEC) rule that permits them. Mutual funds are allowed to use a portion of the fund’s assets to cover distribution and shareholder service costs. Funds that market directly to the public may use 12b-1 fees to pay for advertising and direct mailing costs. Funds that rely on brokers and other sales force personnel often use 12b-1 fees to provide compensation for their services. The total amount of these fees could be 0 percent to 1 percent of the fund’s assets per year. For funds that charge a 12b-1 fee, .25 percent is most common.
+
+12b-1 fees
+
+Named for SEC Rule 12b-1, which allows funds to spend up to 1 percent of fund assets annually to cover distribution and shareholder service costs.
+
+Frequently, 12b-1 fees are used in conjunction with a CDSC. Such funds will often have no front-end load, but they effectively make it up through these other costs. Such funds may look like no-load funds, but they are really load funds in disguise. Mutual funds with no front-end or back-end loads and no or minimal 12b-1 fees are often called “pure” no-load funds to distinguish them from the “not-so-pure” funds that may have no loads but still charge hefty 12b-1 fees.
+
+MANAGEMENT FEES As compensation for managing a fund, the fund company receives a management fee. The management fee is generally charged as a percentage of assets held. Management fees typically range from .25 percent to 1.5 percent of total fund assets every year. Often, however, an incentive provision increases the fee if the fund outperforms some benchmark, like the S&P 500 index.
+
+Rather than reporting all the fees separately, fund companies often report their expense ratio. The expense ratio is an all-inclusive fee percent that includes both 12b-1 fees and management fees, as well as any other administrative or operating costs.
+
+For passively managed funds, management fees can be quite low. For example, the current expense ratio for the Vanguard 500 Index Fund (VFINX) is .14 percent for its “investor” class. Because VFINX does not have a 12b-1 fee, the expense ratio primarily reflects its management fee. In contrast, actively managed funds, particularly small-cap or international funds, generally have higher management fees. For example, the American Funds EuroPacific Growth Fund (AEPGX) has an expense ratio of .82 percent, and it also charges a load of 5.75 percent. Obviously, funds have quite different approaches in charging fees.
+
+Fidelity created a stir in the industry in late 2018 when it announced two funds (and later expanded to four funds) with very low fees. How low? Zero!
+
+TRADING COSTS Mutual funds have brokerage expenses from trading just like individuals do. As a result, mutual funds that do a lot of trading will have relatively high trading costs.
+
+Trading costs can be difficult to get a handle on because they are not reported directly. However, in the prospectus, funds are required to report something known as turnover. A fund’s turnover is a measure of how much trading a fund does. It is calculated as the lesser of a fund’s total purchases or sales during a year, divided by average daily assets.2
+
+turnover
+
+A measure of how much trading a fund does, calculated as the lesser of total purchases or sales during a year divided by average daily assets.
+
+page 105
+
+Turnover
+
+EXAMPLE 4.3
+
+Suppose a fund had average daily assets of $50 million during a particular year. It bought $80 million worth of stock and sold $70 million during the year. What is its turnover?
+
+The lesser of purchases or sales is $70 million, and average daily assets are $50 million. Turnover is thus $70/$50 = 1.4 times.
+
+A fund with a turnover of 1.0 has, in effect, sold off its entire portfolio and replaced it once during the year. Similarly, a turnover of .50 indicates that, loosely speaking, the fund replaced half of its holdings during the year. All else the same, a higher turnover indicates more frequent trading and higher trading costs. You can estimate the average holding period of fund investments using the inverse of the turnover. That is, divide the number one by turnover. For example, if a fund has a turnover of .50, we estimate the fund is holding its investments an average of 2 (=1/.50) years. Because gains and losses are passed through to investors, these average holding periods can have implications for an investor’s tax liability.
+
+While increased trading obviously adds to the amount of commissions paid, it also has some related costs. For example, increased trading will result in gains (and potentially losses) being recognized in the fund. As these gains occur, capital gains will be passed through to the underlying investors. Potentially, these capital gains will increase taxes for the investors.
+
+Another aspect of increased trading relates to the commissions themselves. Typically, an investment manager will have either an in-house or third-party broker who fulfills the trades. This relationship, however, is not always determined by who is the lowest-cost provider. In fact, some fund managers purposefully choose higher-cost providers. Why? The higher cost might provide added research or other materials that the fund manager considers beneficial in managing the fund. This added commission is referred to as soft dollars.
+
+Other trading costs result from investor decisions. In particular, mutual funds might charge a redemption fee on shares held for less than some minimum time period (also called a “short-term trading fee”). When an investor decides to sell shares, the fund manager must come up with enough cash to buy them (assuming this fund is an open-end fund). If the fund manager does not have enough cash, actual stock shares might have to be sold, and the manager might not want to do that. The redemption fee is designed to encourage investors to remain invested in the mutual fund. Redemption fees are common in small-cap and international funds, where the market in shares of the underlying investments is less liquid. We consider a redemption fee a type of trading cost and not a sales charge, or load. It is possible, therefore, for a “no-load” fund to still have a redemption fee.
+
+EXPENSE REPORTING
+Mutual funds are required to report expenses in a fairly standardized way in the prospectus. The exact format varies, but the information reported is generally the same. There are three parts to an expense statement. Figure 4.2 shows this information as it was reported for the Fidelity Low-Priced Stock Fund.
+
+Mutual Fund Expenses
+
+FIGURE 4.2
+
+
+Prospectuses are available online. Visit
+fidelity.com
+to see some examples.
+
+The first part of the statement shows shareholder transaction expenses, which are generally loads, deferred sales charges, and redemption fees, if any. As indicated, for this fund, there are none, so this is a no-load fund.
+
+The second part of the statement, “Annual operating expenses,” includes the management and 12b-1 fees. This fund’s management fee was .47 percent of assets. There was no 12b-1 fee. The other expenses include things like legal, accounting, and reporting costs along with director fees. At .15 percent of assets, these costs are not trivial. The sum of these three items is the fund’s total operating expense expressed as a percentage of assets, .62 percent in this case. To put the fees in perspective, this fund has about $31.5 billion in assets, so operating costs were about $195 million, of which about $148 million was paid for fund management.
+
+The third part of the expense report gives a hypothetical example showing the total expense you would incur over time per $10,000 invested. The example is strictly hypothetical, however, and is only a rough guide. As shown in Figure 4.2, your costs would amount to page 106$774 after 10 years per $10,000 invested, assuming a return of 5 percent per year. This third part of the expense statement is not all that useful, really. What matters for this fund is that expenses appear to run about .62 percent per year, so that is what you pay (in addition to loads, if applicable).
+
+One thing to watch out for is that funds may have 12b-1 fees but may choose not to incur any distribution or shareholder service costs. Similarly, the fund manager can choose to rebate some of the management fee in a particular year (especially if the fund has done poorly). These actions create a low expense figure for a given year, but this does not mean that expenses won’t be higher in the future.
+
+WHY PAY LOADS AND FEES?
+Because pure no-load funds exist, you might wonder why anyone would buy load funds or funds with substantial CDSC or 12b-1 fees. Finding a good answer to this question is becoming increasingly difficult. At one time, there weren’t many no-load funds, and those that existed weren’t widely known. Today, there are many good no-load funds, and competition among funds is forcing many funds to lower or do away with loads and other fees.
+
+Having said this, there are basically two reasons that you might want to consider a load fund or a fund with above-average fees. First, you may want a fund run by a particular manager. A good example of this is the Fidelity Magellan Fund. For many years, it was run by Peter Lynch, who is widely regarded as one of the most successful managers in the history of the business. The Magellan Fund was a load fund, leaving you no choice but to pay the load to obtain Lynch’s expertise. As we discuss in a later chapter, however, the historical performance of managers might not be a good reason to select a fund.
+
+The other reason to consider paying a load is that you want a specialized type of fund. For example, you might be interested in a fund that invests only in a particular foreign country, such as Brazil. We’ll discuss such specialty funds in a later section, but for now we note that there is less (but increasing) competition among specialty funds. As a result, loads and fees tend to be higher.
+
+page 107
+
+THE IMPACT OF FEES ON PORTFOLIO VALUES
+To this point, we have discussed the various fees that investors pay to fund managers in exchange for the service they provide. In most cases, the percentages seem quite small. For example, it doesn’t seem like paying a 1 percent fee would have much of an impact on our long-term performance. Remember, however, that this fee is paid every year, so the compounded effect can be quite large.
+
+As an example, take a look at Table 4.1. In this table, we assume that you, a new investor, start saving for retirement right out of college. Assume that you invest $400 each month in a mutual fund for the 40 years that you are in the workforce. Your ending portfolio value obviously depends on the return that you earn over this period.
+
+The Impact of Fees
+
+TABLE 4.1
+
+Annual Fee Paid	
+$400 monthly investment	0%	1%	2%
+40 years, 10% annual return	$2,529,632	$1,872,528	$1,396,403
+Assume that you take a moderately aggressive approach that nets you an average return consistent with large-cap stocks. From Chapter 1, we know that the average geometric (compounded) return on this type of investment has been in the range of 10 percent. If this is what you actually earn, then your portfolio would have an ending balance at retirement in the range of $2.5 million—not bad!
+
+This return, however, does not account for any fees that you may have had to pay. So, we also consider what your ending portfolio value would look like if you had to pay average fees of 1 or 2 percent each year. If you pay an average of 1 percent in fees, your final portfolio value drops by over 25 percent, to $1.9 million.
+
+What do we learn? Fees matter! Fees are one reason why passive funds often outperform active funds. Active managers might be able to provide a higher return than passive managers. They might not, however, be able to generate a return high enough to cover the added fees they charge. Wise investors pay attention to the fees that they are being charged.
+
+CHECK THIS
+
+
+
+4.4aWhat is the difference between a load fund and a no-load fund?
+
+4.4bWhat are 12b-1 fees?
+
+4.5 Short-Term Funds
+Mutual funds are usually divided into two major groups: short-term funds and long-term funds. Short-term funds are collectively known as money market mutual funds. Long-term funds essentially include everything that is not a money market fund. We discuss long-term funds in our next section; here we focus on money market funds.
+
+MONEY MARKET MUTUAL FUNDS
+As the name suggests, money market mutual funds, or MMMFs, specialize in money market instruments. As we describe elsewhere, these are short-term debt obligations issued by governments and corporations. Money market funds were introduced in the early 1970s and have grown tremendously. As of 2019, there were 369 money market funds in the United States, with about $3.3 trillion in assets combined. All money market funds are open-end funds.
+
+money market mutual fund
+
+A mutual fund specializing in money market instruments.
+
+page 108
+
+Most money market funds invest in high-quality, low-risk instruments with maturities of less than 90 days. As a result, they have relatively little risk. However, some buy riskier assets or have longer maturities than others. For example, Government and Treasury funds buy only very-short-term U.S. government securities and are therefore essentially risk-free. Prime funds buy a variety of government and non-government securities, which may entail some risk. We discuss the different types of money market instruments and their relative risks elsewhere in the book.
+
+MONEY MARKET FUND ACCOUNTING A unique feature of money market funds is that their net asset values are always $1 per share. This is purely an accounting gimmick, however. A money market fund sets the number of shares equal to the fund’s assets. In other words, if the fund has $100 million in assets, then it has 100 million shares. As the fund earns interest on its investments, the fund owners are just given more shares.
+
+The reason money market mutual funds always maintain a $1 net asset value is to make them resemble bank accounts. As long as a money market fund invests in very safe, interest-bearing, short-maturity assets, its net asset value will not drop below $1 per share. The phrase “breaking the buck” is used to describe the very rare occasion when a fund experiences a drop below $1 in net asset value. As part of the Crash of 2008, a few money market funds, beginning with the Reserve Primary Fund (on September 16, 2008), experienced substantial losses in their underlying holdings, causing them to break the buck. Further, some funds were unable to maintain the $1 mark because returns on short-term securities fell to the point where they were insufficient to cover fund costs. Rather than breaking the buck, many of these money market funds shut down.
+
+TAXES AND MONEY MARKET FUNDS Money market funds are either taxable or tax-exempt. Taxable funds are more common; of the $3.3 trillion in total money market fund assets as of 2019, taxable funds accounted for almost 96 percent. As the name suggests, the two fund types have different tax treatments. As a general rule, interest earned on state and local government (or “municipal”) securities is exempt from federal income tax. Nontaxable money market funds, therefore, buy only these types of tax-exempt securities, and such funds are often referred to as municipal funds.
+
+Some municipal funds go even further. Interest paid by one state is often subject to state taxes in another. Some tax-exempt funds therefore buy only securities issued by a single state. For residents of that state, the interest earned is free of both federal and state taxes. For beleaguered New York City residents, there are even “triple-tax-free” funds that invest only in New York City obligations, thereby allowing residents to escape federal, state, and local income taxes on the interest received.
+
+Visit
+mfea.com
+for info on thousands of funds, including MMMFs.
+
+Because of their favorable tax treatment, tax-exempt money market instruments have much lower interest rates, or yields.3 Which type you choose depends on your individual tax bracket. For example, consider a taxable money market fund that offers a 2.4 percent interest rate versus a similar tax-exempt fund offering 1.6 percent interest. If you’re in a 30 percent tax bracket, then the taxable fund is paying only 2.4 × (1 − .30) = 1.68 percent on an aftertax basis, so you are slightly better off with the taxable fund.
+
+Taxes and Money Market Fund Yields
+
+EXAMPLE 4.4
+
+In our discussion above, suppose you were in a 37 percent tax bracket. Which type of fund is more attractive?
+
+On an aftertax basis, the taxable fund is offering 2.4 × (1 − .37) = 1.512 percent, so the tax-exempt fund is more attractive.
+
+page 109
+
+MONEY MARKET DEPOSIT ACCOUNTS
+Most banks offer what are called money market deposit accounts, or MMDAs, which are much like money market mutual funds. For example, both money market funds and money market deposit accounts generally have limited check-writing privileges.
+
+There is a very important distinction between such a bank-offered money market account and a money market fund, however. A bank money market account is a bank deposit and offers FDIC protection, whereas a money market fund does not. A money market fund will generally offer SIPC protection, but this is not a perfect substitute. Confusingly, some banks offer both money market accounts and, through a separate, affiliated entity, money market funds.
+
+CHECK THIS
+
+
+
+4.5aWhat is a money market mutual fund? What are the two types?
+
+4.5bHow do money market mutual funds maintain a constant net asset value?
+
+4.6 Long-Term Funds
+There are many different types of long-term funds. Historically, mutual funds were classified as stock, bond, or balanced funds. As part of the rapid growth in mutual funds, however, placing all funds into these three categories is becoming increasingly difficult. Also, providers of mutual fund information do not use the same classification schemes.
+
+Mutual funds have different goals, and a fund’s objective is the major determinant of the fund type. All mutual funds must state the fund’s objective in the prospectus. For example, the Fidelity Independence Fund states:
+
+The investment seeks capital appreciation. The fund invests primarily in common stocks. It invests in domestic and foreign issuers. The fund invests in either “growth” stocks or “value” stocks or both. It uses fundamental analysis of factors such as each issuer’s financial condition and industry position, as well as market and economic conditions to select investments.
+
+Thus, this fund invests in different types of stocks with the goal of capital appreciation. This fund is clearly a stock fund, and it might further be classified as a “capital appreciation” fund or “aggressive growth” fund, depending on whose classification scheme is used.
+
+One of the best mutual fund sites is
+morningstar.com.
+
+Mutual fund objectives are an important consideration; unfortunately, the truth is they frequently are too vague to provide useful information. For example, a very common objective reads like this: “The Big Bucks Fund seeks capital appreciation, income, and capital preservation.” Translation: The fund seeks to (1) increase the value of its shares, (2) generate income for its shareholders, and (3) not lose money. Well, don’t we all! More to the point, funds with very similar-sounding objectives can have very different portfolios and, consequently, very different risks. As a result, it is a mistake to look only at a fund’s stated objective: Actual portfolio holdings speak louder than prospectus promises.
+
+STOCK FUNDS
+Stock funds exist in great variety. We consider nine separate general types and some subtypes. We also consider some new varieties that don’t fit in any category.
+
+CAPITAL APPRECIATION VERSUS INCOME The first four types of stock funds trade off capital appreciation and dividend income.
+
+Capital appreciation. As in our example just above, these funds seek maximum capital appreciation. They generally invest in companies that have, in the opinion of the fund page 110manager, the best prospects for share price appreciation without regard to dividends, company size, or, for some funds, country. Often this means investing in unproven companies or companies perceived to be out of favor.
+
+Growth. These funds also seek capital appreciation, but they tend to invest in larger, more established companies. Such funds may be somewhat less volatile as a result. Dividends are not an important consideration.
+
+Growth and income. Capital appreciation is still the main goal, but at least part of the focus is on dividend-paying companies.
+
+Equity income. These funds focus almost exclusively on stocks with relatively high dividend yields, thereby maximizing the current income of the portfolio.
+
+Among these four fund types, the greater the emphasis on growth, the greater the risk, at least as a general matter. Again, however, these are only rough classifications. Equity income funds, for example, frequently invest heavily in public utility stocks; such stocks had heavy losses in the first part of the 1990s.
+
+COMPANY SIZE–BASED FUNDS These next three fund types focus on companies in a particular size range.
+
+Small company. As the name suggests, these funds focus on stocks in small companies, where “small” refers to the total market value of the stock. Such funds are often called “small-cap” funds, where “cap” is short for total market value or capitalization. In Chapter 1, we saw that small stocks have traditionally performed very well, at least over the long run, hence the demand for funds that specialize in such stocks. With small-company mutual funds, what constitutes small is variable, ranging from perhaps $10 million up to $1 billion or so in total market value, and some funds specialize in smaller companies than others. Since most small companies don’t pay dividends, these funds necessarily emphasize capital appreciation.
+
+Mid-cap. These funds usually specialize in stocks that are too small to be in the S&P 500 index but too large to be considered small-cap stocks. We now see funds that invest in both small- and mid-cap stocks; such funds are unavoidably called “smid-caps.”
+
+Large company. Large-capitalization, or “large-cap,” funds invest in companies with large market values. Most large-cap firms have a market value in excess of $10 billion.
+
+INTERNATIONAL FUNDS Research has shown that diversifying internationally can significantly improve the risk-return trade-off for investors. The number of international funds grew rapidly during the 1980s and early 1990s. However, that growth slowed sharply in the late 1990s. Their numbers shrank in the early 2000s, but they have increased since then. The two fund groups that invest outside the United States are:
+
+Global. These funds have substantial international holdings but also maintain significant investments in U.S. stocks.
+
+International. These funds are like global funds, except they focus on non-U.S. equities only.
+
+Among international funds, some specialize in specific regions of the world, such as Europe, the Pacific Rim, or South America. Others specialize in individual countries. Today, there is at least one mutual fund specializing in essentially every country in the world that has a stock market, however small.
+
+International funds that specialize in countries with small or recently established stock markets are often called emerging markets funds. Almost all single-country funds, and especially emerging markets funds, are not well diversified and have historically been extremely volatile. Frontier market funds specialize in the smallest, and potentially most risky, of emerging countries.
+
+page 111
+
+Many funds that are not classified as international funds may actually have substantial overseas investments, so this is one thing to watch out for. It is not unusual for a fund to call itself a “growth” fund and actually invest heavily outside the United States.
+
+SECTOR FUNDS Sector funds specialize in specific sectors of the economy and often focus on particular industries or particular commodities. There are far too many different types to list here. There are funds that only buy software companies, and funds that only buy hardware companies. There are funds that specialize in natural gas producers, oil producers, and precious metals producers. In fact, essentially every major industry in the U.S. economy is covered by at least one fund.
+
+One thing to notice about sector funds is that, like single-country funds, they are obviously not well diversified. Every year, many of the best-performing mutual funds (in terms of total return) are sector funds because whatever sector of the economy is hottest will generally have the largest stock price increases. Funds specializing in that sector will do well. In the same vein, and for the same reason, the worst-performing funds are also almost always some type of sector fund. When it comes to mutual funds, past performance is almost always an unreliable guide to future performance; nowhere is this more true than with sector funds.
+
+OTHER FUND TYPES AND ISSUES Three other types of stock funds that don’t fit easily into one of the above categories bear discussing: index funds, social conscience funds, and tax-managed funds.
+
+Index funds. Index funds hold the stocks that make up a particular index in the same relative proportions as the index. The most important index funds are S&P 500 funds, which are intended to track the performance of the S&P 500, the large-stock index we discussed in Chapter 1. By their nature, index funds are passively managed, meaning that the fund manager trades only as necessary to match the index. Such funds are appealing in part because they are generally characterized by low turnover and low operating expenses. Another reason index funds have grown rapidly is that there is considerable debate over whether mutual fund managers can consistently beat the averages. If they can’t, the argument runs, why pay loads and management fees when it’s cheaper to buy the averages by indexing? To put the importance of index funds into perspective, as of 2019, the largest stock mutual fund in the United States was the Vanguard 500 Index Fund, with over $430 billion in assets. This fund, as the name suggests, is an S&P 500 index fund. In fact, again in 2019, the 10 largest stock funds in the United States were all index funds.
+
+To learn more about social conscience funds, visit
+ussif.org
+and
+domini.com.
+
+Social conscience funds. These funds are a relatively new creation. They invest only in companies whose products, policies, or politics are viewed as socially desirable according to some criteria. The specific social objectives range from environmental issues to personnel policies. Such funds are also called social responsibility funds or ESG funds, where “ESG” stands for environmental, social, and governance. Of course, consensus on what is socially undesirable or irresponsible is hard to find. In fact, there are so-called sin funds (and sector funds) that specialize in these very industries! See the nearby Investment Updates box for more information on ESG funds.
+
+Is vice nice? Visit
+usamutuals.com
+to find out about the Vice Fund.
+
+Tax-managed funds. Taxable mutual funds are generally managed without regard for the tax liabilities of fund owners. Fund managers focus on (and are frequently rewarded based on) total pretax returns. However, recent research has shown that some fairly simple strategies can greatly improve the aftertax returns to shareholders and that focusing just on pretax returns is not a good idea for taxable investors. Tax-managed funds try to hold down turnover to minimize realized capital gains, and they try to match realized gains with realized losses. Such strategies work particularly well for index funds. We predict that funds promoting such strategies will become increasingly common as investors become more aware of the tax consequences of fund ownership.
+
+page 112
+
+INVESTMENT UPDATES
+
+SOCIALLY RESPONSIBLE INVESTING: DOING WELL BY DOING GOOD?
+
+Particularly among millennials, there is a growing focus on so-called socially responsible investing (SRI) as younger investors seek out ways to do good while also doing well financially. In fact, the U.S. Forum for Sustainable and Responsible Investing reports that assets invested in socially focused funds have grown from about $1.4 trillion in 2012 to over $11.6 trillion at the beginning of 2019. This increase represents a growth rate of over 30 percent per year during this time.
+
+With regard to these socially conscious funds, there are two key questions: First, what defines social consciousness? Second, how well do these funds perform?
+
+In answer to the first question, there has been a relative lack of consistency. In modern times, the start of this investment approach can be traced back to the 1970s, as investors looked for ways to boycott the Vietnam War. Today, broad definitions of SRI funds range from those that invest in renewable energy to those that focus on improving rights for women or other specific groups. As the interest level has grown, Morningstar has tried to create more objective tools for evaluating the level of social consciousness that a mutual fund exhibits. Beginning in March 2016, Morningstar began reporting environmental, social, and governance (ESG) scores, which are based on ESG ranks of a fund’s holdings (such rankings are widely available; see, as an example, msci.com/esg-ratings). Now investors can screen for funds using these metrics just like they would any other performance metric or fund characteristic.
+
+With regard to performance, there is a strong debate on whether social investing helps or hurts returns. Proponents of SRI suggest that high-SRI companies should generate higher returns and/or lower risk, which should improve investment performance. In contrast, opponents suggest that limiting the universe of investments that can be included in a portfolio will result in suboptimal returns. The general consensus is that SRI funds earn about the same risk-adjusted return as other funds. So, the good news is that investors with a passion for social causes might be able to invest without seeing a loss in returns.
+
+TAXABLE AND MUNICIPAL BOND FUNDS
+Most bond funds invest in domestic corporate and government securities, although some invest in foreign government and non-U.S. corporate bonds as well. As we will see, there are a relatively small number of bond fund types. Basically, five characteristics distinguish bond funds:
+
+Maturity range. Different funds hold bonds of different maturities, ranging from quite short (2 years) to quite long (25–30 years).
+
+Credit quality. Some bonds are much safer than others in terms of the possibility of default. U.S. government bonds have no default risk, while so-called high-yield, or “junk,” bonds have significant default risk.
+
+Taxability. Municipal bond funds buy only bonds that are free from federal income tax. Taxable funds buy only taxable issues.
+
+Type of bond. Some funds specialize in particular types of fixed-income instruments such as mortgages.
+
+Country. Most bond funds buy only domestic issues, but some buy foreign company and government issues.
+
+SHORT-TERM AND INTERMEDIATE-TERM FUNDS As the names suggest, these two fund types focus on bonds in a specific maturity range. Short-term maturities are generally considered to be less than five years. Intermediate-term would be less than 7–10 years. There are both taxable and municipal bond funds with these maturity targets.
+
+One thing to be careful of with these types of funds is that the credit quality of the issues can vary from fund to fund. One fund could hold very risky intermediate-term bonds, while another might hold only U.S. government issues with similar maturities.
+
+GENERAL FUNDS For both taxable and municipal bonds, this fund category is kind of a catch-all. Funds in this category don’t specialize in any particular way. Our warning above concerning varied credit quality applies here. Maturities can differ substantially as well.
+
+page 113
+
+HIGH-YIELD FUNDS High-yield, or “junk,” municipal and taxable funds specialize in low-credit-quality issues. Such issues have higher promised yields because of their greater risks. As a result, high-yield bond funds can be quite volatile.
+
+MORTGAGE FUNDS A number of funds specialize in so-called mortgage-backed securities such as GNMA (Government National Mortgage Association, referred to as “Ginnie Mae”) issues. We discuss this important type of security in detail in a later chapter. There are no municipal mortgage-backed securities (yet), so these are all taxable bond funds.
+
+WORLD FUNDS A relatively limited number of taxable funds invest worldwide. Some specialize in only government issues; others buy a variety of non-U.S. issues. These are all taxable funds.
+
+INSURED FUNDS This is a type of municipal bond fund. Municipal bond issuers frequently purchase insurance that guarantees the bond’s payments will be made. Such bonds have very little possibility of default, so some funds specialize in them.
+
+SINGLE-STATE MUNICIPAL FUNDS Earlier we discussed how some money market funds specialize in issues from a single state. The same is true for some bond funds. Such funds are especially important in large states such as California and other high-tax states. Confusingly, this classification refers only to long-term funds. Short-term and intermediate single-state funds are classified with other maturity-based municipal funds.
+
+STOCK AND BOND FUNDS
+This last major fund group includes a variety of funds. The only common feature is that these funds don’t invest exclusively in either stocks or bonds. For this reason, they are often called “blended” or “hybrid” funds. We discuss a few of the main types.
+
+BALANCED FUNDS Balanced funds maintain a relatively fixed split between stocks and bonds. They emphasize relatively safe, high-quality investments. Such funds provide a kind of “one-stop” shopping for fund investors, particularly smaller investors, because they diversify into both stocks and bonds.
+
+ASSET ALLOCATION FUNDS Two types of funds carry this label. The first is an extended version of a balanced fund. Such a fund holds relatively fixed proportional investments in stocks, bonds, money market instruments, and perhaps real estate or some other investment class. The target proportions may be updated or modified periodically.
+
+The other type of asset allocation fund is often called a flexible portfolio fund. Here, the fund manager may hold up to 100 percent in stocks, bonds, or money market instruments, depending on the fund manager’s views about the likely performance of these investments. These funds essentially try to time the market, guessing which general type of investment will do well (or least poorly) over the months ahead.
+
+CONVERTIBLE FUNDS Some bonds are convertible, meaning they can be swapped for a fixed number of shares of stock at the option of the bondholder. Some mutual funds specialize in these bonds.
+
+INCOME FUNDS An income fund emphasizes generating dividend and coupon income on its investments, so it would hold a variety of dividend-paying common stocks, as well as preferred stocks and bonds of various maturities.
+
+TARGET DATE FUNDS Also known as life-cycle funds, the asset allocation chosen by target date funds is based on the anticipated retirement date of the investors holding the fund. For example, if a fund company offers a Target Date 2040 fund, the fund is for people planning to retire in or around the year 2040. Because of its long-term investment horizon, this fund will probably hold a portfolio that is heavily allocated to stocks—both domestic and international. As the years pass, the fund manager will increase the asset allocation to fixed income and decrease the equity holdings of the portfolio. This approach is like the equity allocation page 114guideline we discuss elsewhere. Using this guideline, your percentage equity allocation should be 100 minus your age (or 120 if you are more aggressive). Target date funds appeal to investors who want a hands-off approach to investing. A potential downside to target date funds is that they sometimes add a layer of management fees—but these extra fees have become less common in recent years.
+
+MUTUAL FUND OBJECTIVES: RECENT DEVELOPMENTS
+As we mentioned earlier, a mutual fund’s stated objective may not be all that informative. In recent years, there has been a trend toward classifying a mutual fund’s objective based on its actual holdings. For example, Figure 4.3 illustrates the classifications used by The Wall Street Journal.
+
+Mutual Fund Objectives
+
+FIGURE 4.3
+
+
+Source: The Wall Street Journal, 2019, Dow Jones & Company, Inc.
+
+page 115
+
+A key thing to notice in Figure 4.3 is that most general-purpose funds (as opposed to specialized types such as sector funds) are classified based on the market “cap” of the stocks they hold (small, midsize, or large) and also on whether the fund tends to invest in either “growth” or “value” stocks (or both). We will discuss growth versus value stocks in a later chapter; for now, it is enough to know that “growth” stocks are those considered more likely to grow rapidly. “Value” stocks are those that look to be relatively undervalued and thus may be attractive for that reason. Notice that, in this scheme, all stocks are growth, value, or a blend of the two, a classic example of the Lake Wobegon effect.4
+
+The mutual fund “style” box is an increasingly common sight. A style box is a way of visually representing a fund’s investment focus by placing the fund into one of nine boxes like this:
+
+
+As shown, this particular fund focuses on large-cap, value stocks.
+
+These newer mutual fund objectives are also useful for screening mutual funds. As our nearby Work the Web box shows, many websites have mutual fund selectors that allow you to find funds with particular characteristics.
+
+CHECK THIS
+
+
+
+4.6aWhat are the three major types of long-term funds? Give several examples of each and describe their investment policies.
+
+4.6bWhat do single-state municipal funds, single-country stock funds, and sector stock funds have in common?
+
+4.6cWhat are the distinguishing characteristics of a bond fund?
+
+4.7 Mutual Fund Performance
+We close our discussion of open-end mutual funds by looking at some of the performance information reported in the financial press. We then discuss the usefulness of such information for selecting mutual funds.
+
+MUTUAL FUND PERFORMANCE INFORMATION
+Mutual fund performance is very closely tracked by a number of organizations. Financial publications of all types periodically provide mutual fund data, and many provide lists of recommended funds. We examine The Wall Street Journal information in this section, but by no means is this the only source or the most comprehensive.5 However, The Wall Street Journal (and its online version) is a particularly timely source because it reports mutual fund year-to-date returns on a daily basis, and it provides a summary of average investment performance by fund category on a regular basis. The information we consider here applies only to open-end funds.
+
+page 116
+
+WORK THE WEB
+
+As we have discussed in this chapter, there are thousands of mutual funds. So how do you pick one? One answer is to visit one of the many mutual fund sites on the web and use a fund selector. Here is an example of how they are used. We went to morningstar.com and clicked on “Fund Screener.” Note that you might have to register for a free account to have access to this feature. There are many other fund selectors on the web. For example, wsj.com offers one for subscribers to The Wall Street Journal.
+
+Using the Morningstar fund screener, we indicated that we were interested in a domestic stock fund that invests in small-cap growth stocks with relatively low expenses, no loads, and several other features. Out of a database of thousands of funds, here is what was returned:
+
+
+This search narrowed things down in a hurry! Now we have a list of 29 funds. Clicking on the name of a fund takes you to the Morningstar website, where you can learn more about the fund.
+
+
+
+Source: Morningstar.
+
+Figure 4.4 reproduces “Mutual Fund Yardsticks,” a feature that appears at www.wsj.com. This table compares the recent investment performance of the major fund categories, ranked by performance. Figure 4.4 includes yardsticks for categories of equity funds, bond funds, and balanced stock and bond funds.
+
+Mutual Fund Yardsticks
+
+FIGURE 4.4
+
+
+Source: www.wsj.com, March 19, 2019. The Wall Street Journal, Dow Jones & Company, Inc.
+
+page 117
+
+Figure 4.5 is a small section of the mutual fund price quotations regularly reported by The Wall Street Journal online. All of the funds listed in Figure 4.5 belong to the large family of funds managed by Fidelity Investments. We highlighted the Blue Chip Growth Fund (abbreviated BluCh). As its name suggests, the Blue Chip Fund has a large-cap focus.6
+
+Mutual Funds: Closing Quotes
+
+FIGURE 4.5
+
+
+Source: www.wsj.com, March 19, 2019. The Wall Street Journal, Dow Jones & Company, Inc.
+
+The first piece of information given is the fund’s symbol, FBGRX. Following the symbol is the latest net asset value, NAV, for the fund. Following the NAV are three performance measures. The first number is the daily change in the fund’s NAV (in dollars). In this case, the NAV of the Blue Chip Growth Fund rose $.58 from the previous day’s level. Next we have the year-to-date (YTD) page 118return, 15.5 percent. The last column is the three-year annualized return for this fund, 20.1 percent. If you click on “BluCh” on the website, a screen will appear with more detailed performance measures.
+
+HOW USEFUL ARE FUND PERFORMANCE RATINGS?
+If you look at performance ratings, you might wonder why anyone would buy a fund in a category other than those with the highest returns. Well, the lessons learned in Chapter 1 suggest that these historical returns do not consider the riskiness of the various fund categories. For example, if the market has done well, the best-ranked funds may be the riskiest funds since the riskiest funds normally perform the best in a rising market. In a market downturn, however, these best-ranked funds are most likely to become the worst-ranked funds because the riskiest funds normally perform the worst in a falling market.
+
+These problems with performance measures deal with the evaluation of historical performance. However, there is an even more fundamental criterion. Ultimately, we don’t care about historical performance; we care about future performance. Whether historical performance is useful in predicting future performance is the subject of ongoing debate. One thing we can say, however, is that some of the poorest-performing funds are those with very high costs. These costs act as a constant drag on performance, and such funds tend to have persistently poorer returns than otherwise similar funds. In a later chapter, we present more detailed performance measurements.
+
+page 119
+
+CHECK THIS
+
+
+
+4.7aWhich mutual fund in Figure 4.5 had the best year-to-date return? The worst?
+
+4.7bWhat are some of the problems with comparing historical performance numbers?
+
+4.8 Closed-End Funds, Exchange-Traded Funds, and Hedge Funds
+It is probably fitting that we close our mutual fund chapter with a discussion of closed-end funds, exchange-traded funds, and hedge funds. As we will see, such funds have some unusual aspects.
+
+CLOSED-END FUNDS PERFORMANCE INFORMATION
+As we described earlier, the major difference between a closed-end fund and an open-end fund is that closed-end funds don’t buy and sell shares. Instead, there are a fixed number of shares in the fund, and these shares are bought and sold on the open market. Over 500 closed-end funds have their shares traded on U.S. stock exchanges, which is far fewer than the roughly 9,000 long-term, open-end mutual funds available to investors.
+
+Figure 4.6 shows some quotes for a particular type of closed-end fund, “Global Income” funds. As the name suggests, these funds generally invest outside the United States, and they are a relatively common type (single-state municipal funds are the most common). The entry for the Aberdeen Global Income Fund is highlighted.
+
+Closed-End Funds
+
+FIGURE 4.6
+
+
+Source: www.wsj.com, March 19, 2019. The Wall Street Journal, Dow Jones & Company, Inc.
+
+Examining the entry for the Aberdeen Global Income Fund, the first entry after the name is the ticker symbol. Next, we have the NAV, the market price per share, and the fund’s premium or discount. The final column is the one-year return based on the fund’s NAV.
+
+page 120
+
+An important thing to notice is that the fund’s NAV as of March 15, 2019, $8.05, does not equal its market price, $8.13. The percentage difference is ($8.13 − $8.05)/$8.05 = .0099, or .99 percent, which is the number shown in the fourth column. We will say more about this premium in a moment, but notice that (1) essentially all the closed-end funds have either premiums or discounts, (2) the premiums and discounts can be relatively large, and (3) the premiums and discounts fluctuate.
+
+THE CLOSED-END FUND DISCOUNT MYSTERY
+Wall Street has many unsolved puzzles, and one of the most famous and enduring has to do with prices of shares in closed-end funds. As we noted earlier, shares in closed-end funds trade in the marketplace. Furthermore, as the Aberdeen Global Income Fund shows, share prices can differ from net asset values. In fact, most closed-end funds sell at a discount or premium relative to their net asset values, and this difference is sometimes substantial.
+
+For example, suppose a closed-end fund owns $100 million worth of stock. It has 10 million shares outstanding, so the NAV is clearly $10. It would not be at all unusual, however, for the share price to be only $9, indicating a 10 percent discount. What is puzzling about this discount is that you can apparently buy $10 worth of stock for only $9!
+
+To make matters even more perplexing, as we have noted, the typical discount fluctuates over time. Sometimes, the discount is very wide; at other times, it almost disappears. Despite a great deal of research, the closed-end fund discount phenomenon remains largely unexplained.
+
+Because of the discount available on closed-end funds, it is often argued that funds with the largest discounts are attractive investments. The problem with this argument is that it assumes that the discount will narrow or disappear. Unfortunately, this may or may not happen; the discount might get even wider.
+
+Sometimes, certain closed-end funds sell at a premium, implying that investors are willing to pay more than the NAV for shares. This case is not quite as perplexing; after all, investors in load funds do the same thing. The reasons for paying loads that we discussed earlier might also apply to these cases. Premiums, however, can become quite exaggerated. For example, when well-known bond investor Bill Gross managed the PIMCO High Income Fund, investors were often willing to pay a premium of over 40 percent. He might have been a good manager, but a 40 percent premium is both excessive and risky.
+
+We close our discussion with a cautionary note. When a closed-end fund is first created, its shares are offered for sale to the public. For example, a closed-end fund might raise $50 million by selling 5 million shares to the public at $10 per share (the original offer price is almost always $10), which is the fund’s NAV.
+
+But there is a catch. If you pay $10, then you are likely to discover two unpleasant facts quite soon. First, the fund promoter will be paid, say, 7 percent of the proceeds right off the top, or about $3.5 million (this will be disclosed in the prospectus). This fee will come out of the fund, leaving a total value of $46.5 million and an NAV of $9.30. Further, as we have seen, the shares could trade at a discount relative to NAV in the market, so you would lose another piece of your investment almost immediately. In short, newly offered closed-end funds are generally very poor investments.
+
+EXCHANGE-TRADED FUNDS
+Exchange-traded funds, or ETFs, are a relatively recent innovation. Although they have been around since 1993, they really began to grow in the late 1990s. As of 2019, more than 1,700 ETFs were being traded. Over 1,000 ETFs have been created since 2007, and more are in the works. An ETF is basically an index fund that seeks to achieve the same return as a particular market index. Therefore, when you buy an ETF, it is as if you are buying the basket of stocks that make up the index.
+
+The most popular ETFs represent well-known indexes like the S&P 500, the NASDAQ 100, and the Dow Jones Industrial Average. The best-known ETF is a “Standard & Poor’s Depositary Receipt,” or SPDR (pronounced “spider”). This ETF (ticker symbol SPY) is just the S&P 500 index. Two other popular ETFs have catchy nicknames, too. The “Cubes” (QQQ) page 121is the NASDAQ 100 Index. “Diamonds” (DIA) is the ETF that tracks the Dow Jones Industrial Average.
+
+If you decide to invest in these three ETFs, you will have plenty of trading partners. In 2019, average daily trading volume for Diamonds was about 5 million shares. For the Cubes, traders exchange more than 44 million shares on a daily basis. However, daily trading volume in Spiders routinely tops 100 million shares (that’s a lot of spiders).
+
+Because there are so many ETFs, there is quite a bit of overlap. For example, there are multiple S&P 500 ETFs, but the two most popular are the “spider” (SPY) and the iShares S&P 500 Index (IVV). So, one might wonder if there is really any difference between them.
+
+When comparing ETFs, the key difference to keep in mind is the fee structure. Just like mutual funds, ETFs charge a management fee. Because most ETFs are passively managed, there is little management savvy required. Thus, all else equal, the lower the fee, the better. SPY and IVV are both low-cost funds, charging .09 and .04 percent management fees, respectively.
+
+There are other, small differences between these two ETFs. For example, SPY and IVV have slightly different legal structures. SPY is technically a unit investment trust. While this structure generally has little implication for investors, it does prevent the fund from reinvesting dividends. As a result, there will be a slight performance difference between SPY and IVV. SPY will outperform IVV in down markets; IVV will outperform SPY in up markets.
+
+More specialized ETFs also exist. For example, suppose, for some reason, you hold mostly large-cap stocks. You can get a small piece of many small-cap stocks with the Vanguard Small-Cap ETF (VB). Are you a maven of the Medici? If so, the Italy Index (EWI) might be for you. Have you played enough Monopoly to convince yourself that you are a real estate whiz? Then perhaps you will land on the Vanguard REIT ETF (VNQ). You just cannot decide whether to invest in Europe, Australasia, or the Far East? Why decide, when you can have a portfolio of over 20 country indexes by purchasing shares of the EAFE Index (EFA). Many other ETFs are available.
+
+For more on ETFs, visit
+morningstar.com.
+
+CREATING AN ETF How are ETFs created? The process begins when a potential ETF sponsor files a plan with the SEC to create an ETF. Normally, the sponsors are investment companies, like Fidelity Investments or the Vanguard Group, that control billions of shares in a wide variety of securities. To get the shares necessary to create an ETF, the sponsor arranges to set aside the shares representing the basket of securities that forms the ETF index. These few million (or so) shares are placed into a trust.
+
+To complete the process, “creation units” are formed. Creation units are claims (like a claim check) on the bundles of shares held in the trust. Because these creation units are legal claims backed by the shares in the trust, traders will gladly trade them. Creation units are generally for 50,000 shares of the ETF. Therefore, the creation units are split up into the individual ETF shares that are traded on the market. The ability of investors to redeem these units keeps the ETF from trading at a significant premium or discount to NAV.
+
+Investigate other ETFs at
+nasdaq.com
+or
+nyse.com.
+
+ETFs AND INDEX FUNDS Earlier, we said that an ETF is basically an index fund. But an ETF is not exactly like an index fund. What makes an ETF different from an index fund is that, as the name suggests, an ETF actually trades like a closed-end fund. ETFs can be bought and sold during the day, they can be sold short, and you can buy options on them. ETFs generally have very low expenses—lower even than index funds—but you must pay a commission when you buy and sell shares. The nearby Investment Updates box details these differences.
+
+Figure 4.7 reproduces an end-of-trading-day listing of ETFs by gainers, decliners, and most actives. When you surf over to this list, you can click on any ETF and get a detailed description.
+
+Exchange-Traded Funds
+
+FIGURE 4.7
+
+
+Source: www.wsj.com, March 19, 2019. The Wall Street Journal, Dow Jones & Company, Inc.
+
+LEVERAGED ETFs The recent growth in the number of types of ETFs has been explosive. A particularly interesting, but potentially dangerous, ETF growth area is in leveraged ETFs. The fund managers of a leveraged ETF create a portfolio designed to provide a return that tracks the underlying index. But by also using derivative contracts, the managers can magnify, or leverage, the return on the underlying index.
+
+page 122
+
+Direxion Investments, for example, offers many of these leveraged funds. A couple of examples would be the Daily S&P 500 Bull 3X Shares (symbol SPXL) and the Daily S&P 500 Bear 3X Shares (symbol SPXS). The first fund (SPXL) is designed to provide three times the return of the S&P 500. In other words, if the S&P 500 return on a given day is 1 percent, the SPXL should provide a return of 3 percent. Terrific! What’s the danger? Well, leverage works both ways. Losses are also magnified by a factor of 3. The second fund (SPXS) is designed to move in three times the direction opposite the return of the S&P 500 index. If the S&P 500 gains 1 percent, then SPXS should lose 3 percent. You can see that SPXS provides a way for investors to go (triple) short on the S&P 500.
+
+page 123
+
+INVESTMENT UPDATES
+
+MUTUAL FUNDS VS. ETFs
+
+Across a crowded room, index funds and exchange-traded funds (ETFs) are pretty good lookers. Both have low costs, diversification, and approval from Mom and Dad. But it’s what’s on the inside that counts.
+
+So let’s take a deeper look at these two worthy contenders for our investment dollars.
+
+How They Work
+
+Mutual Funds
+
+Traditional, actively managed mutual funds usually begin with a load of cash and a fund management team. Investors send their C-notes to the fund, are issued shares, and the Porsche piloting team of investment managers figures out what to buy. Some of these stock pickers are very good at this. The other 80% of them, not so much.
+
+Index mutual funds work similarly to traditional ones except that the managers ride the bus and eat sack lunches. (Actually, there are rarely human managers. Most index funds are computer-driven.) More importantly, index mutual funds put money into stocks that as a whole track a chosen benchmark. Because there’s less “research” to pay for—like trips to California to visit that refinery’s headquarters (and a little wine tasting . . . I mean, we’re in the neighborhood . . .)—index mutual funds generally have lower expenses.
+
+If the fund is popular or its salesmen make it so (yes, funds often have a sales force), it attracts gobs of money. The more money that comes in, the more shares must be created, and the more stocks investment managers (or Hal, the index robot) must go out and buy for the fund.
+
+ETFs
+
+ETFs work almost in reverse. They begin with an idea—tracking an index—and are born of stocks instead of money.
+
+What does that mean? Major investing institutions like Fidelity Investments or the Vanguard Group already control billions of shares. To create an ETF, they simply peel a few million shares off the top of the pile, putting together a basket of stocks to represent the appropriate index. They deposit the shares with a holder and receive a number of creation units in return. (In effect they’re trading stocks for creation units, or buying their way into the fund using equities instead of money.)
+
+A creation unit is a large block, perhaps 50,000 shares, of the ETF. These creation units are then split up by the recipients into the individual shares that are traded on the market. More creation units (and more market shares) can be made if institutional investors deposit more shares into the underlying hopper. Similarly, the pool of outstanding ETF shares can be dried up if one of the fat cats swaps back creation units for underlying shares in the basket.
+
+The variation in the fund structures means subtle but important differences at the end of the chain for individual investors.
+
+The Business of Buying
+
+That’s the birds and the bees of ETFs and mutual funds. Now let’s take ’em for a spin and see how they handle our money.
+
+Timing Trades
+
+With traditional mutual funds, you order your shares and buy them for the NAV (net asset value) at the end of the day. Period. (Unless you’re a favored client engaged in illegal, after-hours trading, but that’s another story. . . .)
+
+Since ETFs trade like stocks, you can buy and sell them all day long. Though doing that, like any day trading, will likely land you in the gutter searching for loose change, it does have some advantage for the Foolish investor. Limit orders are one. You can tell your broker (or the computerized lackey) to purchase your ETF shares only at a certain price. If the market jumps 3% with excitement over some major world event—like a peace pact between Britney and Christina—you can use a limit order to make sure you don’t pick up your shares at the top of the soon-to-be-crashing wave of misguided enthusiasm.
+
+Shorting is another possibility. Yes, you black-turtleneck-wearing, world-weary pessimists out there can bet against the index with ETFs, and profit if and when it falls in value.
+
+Making the Minimum
+
+If you’ve ever visited our table of no-load index funds, you might have sprinted away from the computer shrieking. Under the column titled “account minimum,” you see numbers as high as $50,000. That’s the price of entry for some index mutual funds. Got less than that? Take your money elsewhere. Or rifle the couch cushions for loose change. Or open an IRA, where minimums are generally much lower.
+
+ETFs, on the other hand, have no minimums. You can purchase as few shares as you like. Want one lonely little share? You can get it. Just make sure that you choose your broker wisely so that you don’t shell out too much in commissions for your purchases.
+
+Averaging, Joe?
+
+A few years back, it might not have made sense to dollar cost-average into ETFs. If you were trying to buy a few hundred dollars’ worth of a fund once a month, the brokerage fees would have taken a big bite of your nest egg and made a no-load index mutual fund a much better bet because mutual funds do not generally charge transaction fees.
+
+But with the advent of ultra low-cost, or even no-cost brokerages, it’s now cost-efficient to make small, frequent purchases of ETF shares. Of course, you’ll have to put in the buy orders yourself, as you would to purchase a regular stock.
+
+page 124
+
+Options for Experts
+
+Though we don’t recommend them for beginning Fools, ETFs offer advanced trading possibilities. Options are one. These complex little investments give you the right to “call” or “put” (buy or sell) shares of the ETF at some point in the future for some specific price. There’s no calling and putting when it comes to mutual funds.
+
+Dividend Differences
+
+Most mutual fund investors take advantage of their fund’s automatic dividend reinvestment feature. That saves them the hassle of deciding what to do with the cash that comes their way periodically. If and when the mutual fund pays out a cash dividend, your cut of the dough is automatically reinvested in shares, or partial shares, of the fund.
+
+With dividend-paying ETFs, that moolah winds up in your brokerage account instead, just like the dividend on a regular stock. If you want to reinvest that cash, you have to make another purchase—and you’ll get smacked with your usual trading fee unless your broker allows you to reinvest dividends for no extra cost. Many do.
+
+Tax Tales
+
+You hear a lot about tax advantages with ETFs. Treat it like barroom gossip: exciting to hear, but probably an exaggeration.
+
+Inevitable, like death: Don’t be fooled by vague talk of ETFs’ freedom from Uncle Sam. You still need to pay taxes on your own capital gains—should you be fortunate enough to buy low and sell high—as well as any dividends you receive. Of course, if your funds are in an IRA or employer-sponsored retirement plan, your gains are tax-free until you start collecting. (If they’re in a muy Foolish Roth IRA, everything is tax-free.)
+
+Uncle Sam and the Fund: Beginning investors often do not realize that funds themselves incur capital gains taxes, the cost of which is borne (big shocker) by you, the fund holder, even if you don’t sell a single share. The topic is complex and boring enough to spawn entire books, so here are the Cliffs Notes:
+
+In general, the structure of ETFs tends to avoid the kind of outright selling that would trigger undistributed capital gains and other IRS nightmares. To understand why, think back to the ETF structure. For every ETF seller, there’s a buyer.
+
+On the other hand, if a flood of investors decide to dump a mutual fund, the fund may need to sell the underlying holdings in order to raise the cash to pay out, and that would bring Uncle Sam with hat in hand. ETFs may also have to drop a few schillings into the taxman’s cap, for instance, when the underlying index is changed.
+
+Keep in mind that the traditional fund industry and the ETF industry disagree on the extent of the ETF’s advantage. Of course, they’re competing for your investment dollar, so you should expect squabbles. Still, according to published reports, the Barclays iShares S&P 500 ETF made capital gains distributions while the Vanguard 500 mutual fund did not.
+
+There you have it: Funds v. ETFs. Which one are you going to put in your little black book? If you think ETFs could put a kick in your portfolio, read on for some investing strategies.
+
+
+
+Source: The Motley Fool, October 21, 2015. Copyright ©2015 by The Motley Fool. All rights reserved. Used with permission.
+
+These leveraged ETFs seem to track their underlying indexes on a short-term basis, that is, day by day. Over longer periods of time, however, their performance is probably not what you would expect. The Direxion Bull fund, for example, began trading in November 2008. Over the next two years, the S&P 500 gained about 33 percent. Given its objective, the SPXL fund should have gained 99 percent, which is three times the return of the S&P 500. Over this two-year period, however, the long fund (SPXL) gained only 50 percent. How is this possible?
+
+The answer does not lie with Direxion Investments. Instead, the answer depends on arithmetic versus geometric averages that we discuss elsewhere. Recall that geometric (or compounded) returns are lower than arithmetic returns, with volatility fueling the difference. In the Direxion example, the leveraged fund adds extra volatility to the series of S&P 500 index returns. As a result, returns from any leveraged funds will be less than expected.
+
+page 125
+
+As an example, consider a week during which the S&P 500 earns the following daily returns: 1, −2, 2, 1, and 3 percent, respectively. You can check that the arithmetic average is 1 percent, while the geometric average is just slightly less, .986 percent. This difference seems trivial. Consider the returns for a twice-leveraged fund. The arithmetic average is exactly double, 2 percent. The geometric average, however, is only [(1.02)(.96)(1.04)(1.02)(1.06)](1/5) − 1 = .0194, or 1.94 percent.
+
+What is the lesson? The longer we hold these investments and/or the more volatile the underlying index, the less accurate a leveraged fund will be in tracking its stated objective. In fact, in periods of high volatility, it is possible for a leveraged ETF to have a negative return even when the index it is tracking is positive. With this in mind, should you use leveraged ETFs? Maybe, but you should not hold them for long.
+
+EXCHANGE-TRADED NOTES In mid-2006, Barclays Bank introduced exchange-traded notes (ETNs). To investors, exchange-traded notes (ETNs) look very similar to exchange-traded funds. Like most ETFs, ETNs are designed to allow investors to achieve the same return as a particular index. Also like ETFs, investors can go long or short on an ETN.
+
+Originally, ETNs were created to provide investors with exposure to the risks and returns of commodities, a traditionally volatile arena. However, ETNs now exist for currencies and for at least one emerging market—India.
+
+As of 2019, one of the largest ETNs is the JPMorgan Alerian MLP ETN (AMJ), with net assets of almost $3 billion. This ETN tracks the performance of midstream energy Master Limited Partnerships, which are companies that primarily transport oil and related products. Want different exposure to oil? The iPath S&P GSCI Crude Oil Total Return ETN (OIL), sponsored by Barclays, provides investors with 100 percent exposure to returns on crude oil futures contracts.
+
+ETNs are actually debt securities issued by the respective sponsors—JPMorgan and Barclays in our above examples. Essentially, these ETNs promise to pay investors the return on a commodity index, less a management fee. Deutsche Bank and Goldman Sachs also have ETNs.
+
+Extensive information about hedge funds is available on the internet. Try CNBC at
+cnbc.com/hedge-funds.
+
+There is an important difference between ETFs and ETNs. Essentially, the holder of an ETF holds a fractional ownership of the shares placed in trust to create the ETF. With ETNs, however, this is not the case. ETNs are unsecured debt securities. Holders of ETNs are relying on the solvency of the issuing bank when they hold ETNs. Therefore, ETN holders face the risk that the issuing bank might default on the promised payments of the ETN. In addition, ETNs are taxed differently, which complicates matters.
+
+HEDGE FUNDS
+Hedge funds are a special type of investment company. They are like mutual funds in that a fund manager invests a pool of money obtained from investors. Hedge funds are generally free to pursue almost any investment style they wish. In contrast, as we have discussed, mutual funds are relatively limited in their permitted investment strategies. For example, mutual funds are usually not allowed to do things like sell short or use large degrees of leverage.
+
+hedge fund
+
+An investment company not accessible by the general public.
+
+When you hear the words “hedge fund,” you might think that these funds are low-risk investments (as in the saying “hedging your bets”). Some hedge funds do try to exploit arbitrage opportunities on a low-risk basis. Most hedge funds, however, undertake aggressive, risk-enhancing strategies. We discuss hedge fund investment styles below. First, we compare hedge funds and mutual funds.
+
+Hedge funds are generally not subject to the same disclosure requirements as mutual funds. Further, hedge funds are not required to maintain any particular degree of diversification or liquidity. Unlike mutual funds, for example, hedge funds do not redeem shares on demand. Instead, hedge funds typically designate particular liquidation dates, possibly only once every quarter. Even then, investors need to provide advance notice that they plan to withdraw funds. One reason for such a policy is that the fund might have investments in illiquid assets. As a result, quick redemptions by some investors could damage the investment value for the other investors.
+
+Obviously, investing in hedge funds is not suitable for all investors. To prevent unsophisticated investors from getting involved, hedge funds accept only “qualified” (or accredited) investors. page 126To be considered an accredited investor (as an individual), you must be an institution or an individual investor with a net worth of about $1 million or a recurring annual income of more than $200,000 (i.e., you need to be “rich”).
+
+Accepting only qualified investors is one factor that allows hedge funds to avoid many of the restrictions and regulations placed on mutual funds. Two other factors are (1) hedge funds do not offer their securities for sale to the public and (2) hedge funds can limit the number of investors in any particular fund to no more than 100 institutions or individuals.
+
+HEDGE FUND REGULATION Traditionally, hedge funds were only lightly regulated. There have been attempts to change that in recent years, but hedge funds still face limited disclosure and other regulatory requirements. Very large funds are required to file certain information with the SEC, but much of that information is not available to the public. Smaller funds face very limited regulation.
+
+HEDGE FUND FEES Hedge funds typically have a special fee structure, where, in addition to a general management fee of 1 to 2 percent of fund assets, the manager is paid a special performance fee. This special performance fee is often in the range of 20 to 40 percent of profits realized by the fund’s investment strategy. The most common fee structure historically has been 2/20, which is a short way to say that the manager charges an annual 2 percent management fee and also retains 20 percent of the profit earned in the fund. This relatively pricey scheme has been in decline in recent years because investors have become more fee conscious.
+
+One positive aspect of the performance fee is that the hedge fund manager has an incentive to earn as much profit as possible. There are, however, some potentially negative consequences, too. Suppose, for example, the performance bonus is awarded each year. What might the hedge fund manager do if the fund appeared to be certain to lose money this year? One possible strategy is for the manager to have the fund absorb as much loss as possible this year. As a result, the manager would be in a better position to make a large percentage profit for the fund next year (and a healthy performance fee for the manager).
+
+Hedge fund investors are savvy. To prevent the fund from being manipulated by its managers, many fee structures also include constraints (or hurdles) for the manager to meet. A common example is called a high-water mark. When a hedge fund fee structure includes a high-water mark, the manager will receive performance fees only when the fund value is higher than its previous highest value. Suppose a manager makes the fund absorb large losses this year. Under this fee structure, the annual 2 percent management fee is still paid. To receive performance fees, however, the manager must bring the hedge fund value to a level above the previous high-water mark. Then, the manager receives a 20 percent bonus of these “new” profits.
+
+Why do hedge fund investors willingly pay high fees? The obvious answer is that the returns earned are high enough to be considered reasonable. Significant debate exists about the issue of hedge fund fees. Many experts opine that when fees are subtracted from hedge fund returns, hedge fund investors are not much better off than investors holding a portfolio that represents the overall stock market.
+
+If these experts are correct, why would anyone invest in a hedge fund instead of a market index fund? The answer relates to the principle of diversification. As you will read elsewhere in this book, investments that appear to have a high level of risk, or those that offer only a nominal return, might turn out to be good additions to a portfolio. In other words, these investments might bring significant diversification benefits to an investment portfolio.
+
+HEDGE FUND STYLES Worldwide there are thousands of hedge funds, and the number keeps growing. Big hedge funds may require a minimum investment of $1 million or more. Small hedge funds may require a minimum investment of $50,000 or less. Whether large or small, each fund develops its own investment style or niche. For example, a hedge fund may focus on a particular sector, like technology, or a particular global region, like Asia or Eastern Europe.
+
+page 127
+
+Alternatively, a hedge fund may pursue a particular investment strategy. We highlight some common investment styles below. At the end of each investment style description, we identify its level of expected return volatility.
+
+Market neutral. The goal of this strategy is to offset risk by holding opposite positions in pairs of securities. These hedge funds are also called long-short funds. The managers of these funds take long positions in a set of securities that the managers believe are underpriced. Then, the manager matches these investments with corresponding short positions in overpriced, or even fairly priced, securities. Properly constructed, the resulting portfolio makes money regardless of how the overall market performs, hence the name “market neutral.” Be aware that some funds offset all long positions, whereas other funds match only a portion. Expected volatility: Low.
+
+Arbitrage. The goal of the managers of these funds is to identify a mispricing in relationships between securities that theoretically should not exist. Arbitrage fund managers look at pricing relationships for securities offered by the same company, or for investments across time or countries. For example, a hedge fund manager might buy convertible bonds of a company and short sell the common stock of the same company. Expected volatility: Low.
+
+Distressed securities. The managers of these hedge funds concentrate their investments in securities that are being offered at deep discounts resulting from company-specific or sectorwide distress. For example, a manager of a distressed securities fund might buy securities of firms facing bankruptcy. Expected volatility: Low to moderate.
+
+Macro. These hedge fund managers attempt to profit from changes in global economies brought about by governmental policies that affect interest rates, currencies, or commodity prices. Macro fund managers often use leverage and derivative securities to increase the impact of market moves. Expected volatility: High.
+
+Short selling. In contrast to a long-short fund, a manager of a pure short hedge fund only short sells. In addition, these managers use leverage through the use of margin. Expected volatility: High.
+
+Market timing. Managers of these hedge funds attempt to identify trends in particular sectors or overall global markets. These managers often take concentrated positions and generally use leverage to increase the fund’s exposure to predicted movements. Expected volatility: High.
+
+Information about starting your own hedge fund is available at Turn Key Hedge Funds,
+turnkeyhedgefunds.com.
+
+As you can see from this list, many approaches are possible, and each has its own risk level. What is the lesson? Even after you make your millions and become a qualified investor, you still have your work cut out trying to identify the best hedge fund for your portfolio. What if you just cannot decide? Well, you might want to use a “fund of funds,” which we discuss in the next section.
+
+FUNDS OF FUNDS A significant portion of the money invested in hedge funds is funneled through “funds of funds.” A fund of funds is just what the name suggests: an investment company that invests in hedge funds. For an investor, a fund of funds has the advantage that the fund manager may have expertise in selecting hedge funds; moreover, having multiple hedge funds offers a diversification benefit. However, a fund of funds charges fees of its own, on top of the already hefty hedge fund fees, so these advantages come with a cost.
+
+STARTING YOUR OWN HEDGE FUND Ever dream about becoming an investment portfolio manager? You can by starting your own hedge fund. It may be easier than you think. A hedge fund is typically structured as a limited partnership in which the manager is a general partner and the investors are limited partners. Rather than stumble through the legal details, we advise that you will need the services of a lawyer familiar with investment companies, but the bottom line is that it’s not difficult to do. Actually, the hardest part about setting up your own hedge fund is finding willing investors. Essentially, you need to find well-to-do individuals who have faith in your investment ideas. Make sure you know all the regulatory requirements that might be imposed on your hedge fund.
+
+page 128
+
+CHECK THIS
+
+
+
+4.8aWhat is a closed-end fund and how does it differ from a mutual fund?
+
+4.8bWhat is meant by the net asset value (NAV) of a closed-end fund?
+
+4.8cWhat is a hedge fund? What are the important differences between a hedge fund and a mutual fund?
+
+4.8dWhat is a market-neutral investment strategy? Why is this strategy available to hedge funds but not to mutual funds?
+
+4.9 Summary and Conclusions
+We covered many aspects of mutual fund investing in this chapter. We saw that there are thousands of mutual funds and dozens of types. We summarize a few of the more important distinctions grouped by the chapter’s important concepts.
+
+1.  The different types of mutual funds.
+
+A.  At the most basic level, a company that pools funds obtained from individual investors and invests them is called an investment company. In other words, an investment company is a business that specializes in managing financial assets for individual investors. All mutual funds are investment companies.
+
+B.  There are two fundamental types of investment companies: open-end funds and closed-end funds. When an investor wishes to buy open-end fund shares, the fund issues them and then invests the money received. In a closed-end fund, the number of shares is fixed and never changes. If you want to buy shares, you must buy them from another investor.
+
+C.  Mutual funds have different investment horizons. Money market mutual funds are an example of funds with a short-term investment horizon. Examples of funds with longer-term investment horizons include:
+
+Stock funds that may specialize in things such as capital appreciation, income, company size, international stocks, sector-specific stocks, or indexes.
+
+Bond funds that may specialize in short-term bonds, intermediate-term bonds, high-yield bonds, mortgages, or international bonds.
+
+Stock and bond funds that may keep a fixed balance among stocks, bonds, and cash or try to outguess the market by moving portfolio weights among stocks, bonds, and cash balances.
+
+2.  How mutual funds operate.
+
+A.  Mutual funds are corporations. Like other corporations, a mutual fund is owned by its shareholders. The shareholders elect a board of directors; the board of directors is responsible for hiring a manager to oversee the fund’s operations.
+
+B.  Although mutual funds often belong to a larger “family” of funds, every fund is a separate company owned by its shareholders. Most mutual funds are created by investment advisory firms, which are businesses that specialize in managing mutual funds. Investment advisory firms are also called mutual fund companies. Increasingly, such firms have additional operations such as discount brokerages and other financial services.
+
+C.  There are hundreds of investment advisory firms in the United States. The largest, and probably best known, is Vanguard, with more than 190 mutual funds, about $5.3 trillion in assets under management, and more than 20 million customers. American Funds, Dreyfus, and Fidelity are some other well-known examples. Many brokerage firms, such as Merrill Lynch and Charles Schwab, also have large investment advisory operations.
+
+page 129
+
+D.  Investment advisory firms create mutual funds because they wish to manage them to earn fees. A typical management fee might be .5 percent of the total assets in the fund per year. A fund with $200 million in assets would not be especially large but could nonetheless generate management fees of about $1 million per year.
+
+3.  How to find information about mutual fund performance.
+
+A.  Funds have very different objectives and, as a result, very different risk and return potentials. Furthermore, funds with similar-sounding objectives can, in fact, be quite different. It is important to consider a fund’s actual holdings and investment policies, not just read its stated objective.
+
+B.  Mutual fund information is widely available, but performance information should be used with caution. The best-performing funds are often those with the greatest risks or those that happened to be in the right investment at the right time.
+
+4.  The workings of exchange-traded funds (ETFs) and hedge funds.
+
+A.  An ETF is basically an index fund that seeks to achieve the same return as a particular market index. Therefore, when you buy an ETF, it is as if you are buying the basket of stocks that make up the index.
+
+B.  The most popular ETFs represent well-known indexes like the S&P 500, the NASDAQ 100, or the Dow Jones Industrial Average.
+
+C.  Many more specialized ETFs exist. For example, with an ETF, you can get a small piece of many small-cap stocks or mid-cap stocks, or you can invest in country-specific funds or in real estate.
+
+D.  Hedge funds are also investment companies, but they face fewer regulations than a typical mutual fund because they take only a limited number of qualified investors.
+
+E.  Hedge fund strategies vary from low risk (e.g., market neutral, arbitrage) to high risk (e.g., short selling, market timing). No matter the approach, though, the fee structure tends to be similar, with about a 2 percent management fee and a 20 percent share of profits.
+
+page 31
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the essentials of mutual funds. How should you, as an investor or investment manager, put this information to work?
+
+The first thing to do is to start looking at mutual fund prospectuses. These are written to be accessible to novice investors (or, at least, they are supposed to be written that way). The best way to begin exploring is to visit websites. Almost any large mutual fund company will have extensive online information available. Links to some of the better-known families are available at our web page. It is important to look at different funds within a given family and also to look across families. Compare growth funds to growth funds, for example. This adventure will give you some of the real-life background you need to select the types of funds most suitable for you or someone else.
+
+Once you have examined prospectuses on different funds, it’s time to invest. Beginning with your simulated account, pick a few funds, invest, and observe the outcomes. Open-end mutual funds are probably the place most of you will begin investing real dollars. An initial purchase can be made with a relatively small amount, perhaps $250, and subsequent purchases can be made in amounts of $50 or less.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Most important of all, the majority of employers now provide employees with retirement plans. The way these work is that, typically, your employer will make a contribution to a mutual fund you select (often from a fairly limited set). Your employer may even match, or more than match, a contribution you make. Such plans may be the only retirement benefit offered, but they can be an extraordinary opportunity for those who take full advantage of them by getting the largest possible match and then investing in a suitable fund. It’s an important choice, so the more knowledge you have regarding mutual funds, the better your outcome is likely to be.
+
+page 130
+
+Key Terms
+
+12b-1 fees 104
+
+CDSC 104
+
+closed-end fund 100
+
+front-end load 103
+
+hedge fund 125
+
+investment company 99
+
+money market mutual fund 107
+
+net asset value 100
+
+open-end fund 99
+
+turnover 104
+
+Chapter Review Problems and Self-Test
+
+Front-End Loads (LO2, CFA3)   The Madura HiGro Fund has a net asset value of $50 per share. It charges a 3 percent load. How much will you pay for 100 shares?
+
+Turnover (LO2, CFA3)   The Starks Income Fund’s average daily total assets were $100 million for the year just completed. Its stock purchases for the year were $20 million, while its sales were $12.5 million. What was its turnover?
+
+Answers to Self-Test Problems
+
+You will pay 100 times the offering price. Since the load is computed as a percentage of the offering price, we can compute the offering price as follows:
+
+Net asset value = (1 − Front-end load) × Offering price
+
+In other words, the NAV is 97 percent of the offering price. Since the NAV is $50, the offering price is $50/.97 = $51.55. You will pay $5,155 in all, of which $155 is a load.
+
+Turnover is the lesser of purchases or sales divided by average daily assets. In this case, sales are smaller at $12.5, so turnover is $12.5/$100 = .125 times.
+
+Test Your Investment Quotient
+
+
+Investment Companies (LO2, CFA3)   Which of the following statements typically does not characterize the structure of an investment company?
+
+An investment company adopts a corporate form of organization.
+
+An investment company invests a pool of funds belonging to many investors in a portfolio of individual investments.
+
+An investment company receives an annual management fee ranging from 3 to 5 percent of the total value of the fund.
+
+The board of directors of an investment company hires a separate investment management company to manage the portfolio of securities and handle other administrative duties.
+
+Expense Statement (LO3) Which of the following is not part of the expense statement?
+
+Shareholder transaction expenses
+
+Shareholder demographic profile
+
+Annual operating expenses
+
+A hypothetical example of expenses
+
+Mutual Fund Investing (LO2, CFA3) Which of the following is the least likely advantage of mutual fund investing?
+
+Diversification
+
+Professional management
+
+Convenience
+
+Mutual fund returns are normally higher than market average returns
+
+Open-End Funds (LO2, CFA3) An open-end mutual fund is owned by which of the following?
+
+An investment company
+
+An investment advisory firm
+
+A “family of funds” mutual fund company
+
+Its shareholders
+
+Closed-End Funds page 131(LO2, CFA3) Which of the following is most true of a closed-end investment company?
+
+The fund’s share price is usually greater than net asset value.
+
+The fund’s share price is set equal to net asset value.
+
+Fund shares outstanding vary with purchases and redemptions by shareholders.
+
+Fund shares outstanding are fixed at the issue date.
+
+Closed-End Funds (LO2, CFA3) A closed-end fund is owned by which of the following?
+
+An investment company
+
+An investment advisory firm
+
+A “family of funds” mutual fund company
+
+Its shareholders
+
+Exchange-Traded Funds (LO4, CFA4) Which of the following statements regarding ETFs is false?
+
+ETFs are funds that can be traded on a stock market.
+
+ETF investors own shares of the underlying fund sponsor.
+
+ETF shares can be sold short.
+
+ETF shares can be bought on margin.
+
+Closed-End Funds (LO1, CFA3) Closed-end funds and ETFs have which of the following characteristics in common?
+
+Shares of both closed-end funds and ETFs trade in the secondary market.
+
+Both closed-end funds and ETFs stand ready to redeem shares.
+
+The structures of closed-end funds and ETFs prevent shares from trading at a significant premium or discount to NAV.
+
+Neither ETF nor closed-end fund managers receive a management fee.
+
+Mutual Fund Investing (LO1, CFA3) Growth, value, large-cap, and small-cap investing are all examples of:
+
+Style investment strategies.
+
+Sector investment strategies.
+
+Index investment strategies.
+
+Lifestyle investment strategies.
+
+Mutual Fund Investing (LO1, CFA5) One of the main advantages to investing in a fund of funds (FOF) is that FOFs provide:
+
+Improved diversification of assets.
+
+Higher expected returns.
+
+Lower management fees.
+
+Higher volatility of returns.
+
+Fund Types (LO1, CFA4) Which mutual fund type will most likely incur the smallest tax liability for its investors?
+
+Index fund
+
+Municipal bond fund
+
+Income fund
+
+Growth fund
+
+Fund Types (LO1) Which mutual fund type will most likely incur the greatest overall risk levels for its investors?
+
+Large-cap index fund
+
+Insured municipal bond fund
+
+Money market mutual fund
+
+Small-cap growth fund
+
+Mutual Fund Fees (LO2, CFA3) page 132Which of the following mutual fund fees is assessed on an annual basis?
+
+12b-1 fees
+
+Front-end load
+
+Back-end load
+
+Contingent deferred sales charge (CDSC)
+
+Mutual Fund Fees (LO2, CFA3) Which of the following mutual fund fees will most likely be the biggest expense for a long-term fund investor?
+
+12b-1 fees
+
+Front-end load
+
+Back-end load
+
+Contingent deferred sales charge (CDSC)
+
+Mutual Fund Fees (LO2, CFA3)   Which of the following mutual fund fees and expenses is the most difficult for investors to assess?
+
+Sales charges or “loads”
+
+12b-1 fees
+
+Management fees
+
+Trading costs
+
+Concept Questions
+
+Fund Ownership (LO2)   Who actually owns a mutual fund? Who runs it?
+
+Loads (LO2, CFA4)   Given that no-load funds are widely available, why would a rational investor pay a front-end load? More generally, why don’t fund investors always seek out funds with the lowest loads, management fees, and other fees?
+
+Money Market Funds page 133(LO2, CFA2)   Is it true that the NAV of a money market mutual fund never changes? How is this possible?
+
+Money Market Deposit Accounts (LO2, CFA2)   What is the difference between a money market deposit account and a money market mutual fund? Which is riskier?
+
+ETFs versus Index Mutual Funds (LO4, CFA4)   ETFs and index mutual funds hold similar underlying assets. Why might an investor prefer one over the other?
+
+Open-End versus Closed-End Funds (LO2, CFA3)   An open-end mutual fund typically keeps a percentage, often around 5 percent, of its assets in cash or liquid money market assets. How does this affect the fund’s return in a year in which the market increases in value? How about during a bad year? Closed-end funds do not typically hold cash. What is it about the structure of open-end and closed-end funds that would influence this difference?
+
+12b-1 Fees (LO2, CFA3)   What are 12b-1 fees? What expenses are 12b-1 fees intended to cover? Many closed-end mutual funds charge a 12b-1 fee. Does this make sense to you? Why or why not?
+
+Open-End versus Closed-End Funds (LO2, CFA3)   If you were concerned about the liquidity of mutual fund shares that you held, would you rather hold shares in a closed-end fund or an open-end fund? Why?
+
+Mutual Fund Performance (LO3, CFA4)   Refer to Figure 4.5. Look at the three-year performance for the funds listed. Why do you suppose there are so few poor performers? Hint: Think about the hit TV show Survivor.
+
+Hedge Fund Fees (LO4, CFA5)   How does a high-water mark constrain hedge fund managers from earning excess performance management fees?
+
+Questions and Problems
+
+Core Questions
+
+Net Asset Value (LO2, CFA3)   The World Income Appreciation Fund has current assets with a market value of $8.5 billion and has 410 million shares outstanding. What is the net asset value (NAV) for this mutual fund?
+
+Front-End Loads (LO2)   Suppose the mutual fund in Problem 1 has a current market price quotation of $21.89. Is this a load fund? If so, calculate the front-end load.
+
+Calculating NAV (LO2, CFA3)   The Emerging Growth and Equity Fund is a “low-load” fund. The current offer price quotation for this mutual fund is $15.95, and the front-end load is 2.0 percent. What is the NAV? If there are 19.2 million shares outstanding, what is the current market value of assets owned by the fund?
+
+Money Market Funds (LO2, CFA2)   The Aqua Liquid Assets Money Market Mutual Fund has a NAV of $1 per share. During the year, the assets held by this fund appreciated by 1.7 percent. If you had invested $25,000 in this fund at the start of the year, how many shares would you own at the end of the year? What will the NAV of this fund be at the end of the year? Why?
+
+NAV (LO2, CFA3)   An open-end mutual fund has the following stocks:
+
+Stock	Shares	Stock Price
+A	6,000	$98
+B	33,000	19
+C	4,600	89
+D	82,500	12
+If there are 50,000 shares of the mutual fund, what is the NAV?
+
+NAV (LO2, CFA3)   Suppose the fund in Problem 5 has liabilities of $110,000. What is the NAV of the fund now?
+
+Front-End Load (LO2)   In Problem 6, assume the fund is sold with a 6.25 percent front-end load. What is the offering price of the fund?
+
+Turnover (LO2, CFA1)   A mutual fund sold $36 million of assets during the year and purchased $32 million in assets. If the average daily assets of the fund were $96 million, what was the fund turnover?
+
+Closed-End Funds (LO2, CFA3)   A closed-end fund has total assets of $240 million and liabilities of $110,000. Currently, 11 million shares are outstanding. What is the NAV of the fund? If the shares currently sell for $19.25, what is the premium or discount on the fund?
+
+Mutual Fund Returns (LO2, CFA2)   You invested $10,000 in a mutual fund at the beginning of the year when the NAV was $32.24. At the end of the year, the fund paid $.24 in short-term distributions and $.41 in long-term distributions. If the NAV of the fund at the end of the year was $35.23, what was your return for the year?
+
+Intermediate Questions
+
+11. Calculating Turnover (LO2, CFA1)   A sector fund specializing in commercial bank stocks had average daily assets of $3.4 billion during the year. This fund sold $1.25 billion worth of stock during the year, and its turnover ratio was .42. How much stock did this mutual fund purchase during the year? What other costs are associated with higher turnover?
+
+12. Calculating Fees (LO2, CFA2)   In Problem 11, suppose the annual operating expense ratio for the mutual fund is .75 percent and the management fee is .45 percent. How much money did the fund’s management earn during the year? If the fund doesn’t charge any 12b-1 fees, how much were miscellaneous and administrative expenses during the year?
+
+13. Calculating Fees (LO2, CFA2)   You purchased 2,000 shares in the New Pacific Growth Fund on January 2, 2019, at an offering price of $47.10 per share. The front-end load for this fund is 5 percent, and the back-end load for redemptions within one year is 2 percent. The underlying assets in this mutual fund appreciate (including reinvested dividends) by 8 percent during 2019, and you sell back your shares at the end of the year. If the operating expense ratio for the New Pacific Growth Fund is 1.95 percent, what is your total return from this investment? (Assume that the operating expense is netted against the fund’s return.) What do you conclude about the impact of fees in evaluating mutual fund performance?
+
+14. Hedge Funds (LO4, CFA5)   You invested $1,250,000 with a market-neutral hedge fund manager. The fee structure is 2/20, and the fund has a high-water mark provision. Suppose the first year the fund manager loses 10 percent and the second year she gains 20 percent. What are the management and performance fees paid each year? Assume management fees are paid at the beginning of each year and performance fees are taken at the end of each year.
+
+15. ETFs versus Mutual Funds (LO4, CFA4)   Suppose you just inherited $25,000 from your Aunt Louise. You have decided to invest in an S&P index fund, but you haven’t decided yet whether to use an ETF or a mutual fund. Suppose the ETF has an annual expense ratio of .09 percent, while the mutual fund charges .21 percent. The mutual fund has no load, but the ETF purchase would carry a $25 commission. Assuming this is a long-term holding and you are not concerned about being able to margin or short sell, which is the better approach?
+
+16. Expenses and Returns (LO2, CFA2)   The Bruin Stock Fund sells Class A shares that have a front-end load of 5.75 percent, a 12b-1 fee of .23 percent, and other fees of .73 percent. There are also Class B shares with a 5 percent CDSC that declines 1 percent per year, a 12b-1 fee of page 1341.00 percent, and other fees of .73 percent. If the portfolio return is 10 percent per year and you plan to sell after the third year, should you invest in Class A or Class B shares? What if your investment horizon is 20 years?
+
+17. Expenses and Returns (LO2, CFA2)   You are going to invest in a stock mutual fund with a 6 percent front-end load and a 1.75 percent expense ratio. You also can invest in a money market mutual fund with a 3.30 percent return and an expense ratio of .10 percent. If you plan to keep your investment for two years, what annual return must the stock mutual fund earn to exceed an investment in the money market fund? What if your investment horizon is 10 years?
+
+18. Taxes and MMMFs (LO2, CFA2)   Suppose you’re evaluating three alternative MMMF investments. The first fund buys a diversified portfolio of municipal securities from across the country and yields 3.2 percent. The second fund buys only taxable, short-term commercial paper and yields 4.9 percent. The third fund specializes in the municipal debt from the state of New Jersey and yields 3.0 percent. If you are a New Jersey resident, your federal tax bracket is 35 percent, and your state tax bracket is 8 percent, which of these three MMMFs offers you the highest aftertax yield?
+
+19. Taxes and MMMFs (LO2, CFA2)   In Problem 18, which MMMF offers you the highest yield if you are a resident of Texas, which has no state income tax?
+
+20. Closed-End Funds (LO2, CFA3)   The Argentina Fund has $560 million in assets and sells at a 6.9 percent discount to NAV. If the quoted share price for this closed-end fund is $14.29, how many shares are outstanding? If you purchase 1,000 shares of this fund, what will the total shares outstanding be now?
+
+Spreadsheet Problems
+
+21. Closed-End Fund Discounts (LO2, CFA3)   Suppose you purchase 5,000 shares of a closed-end mutual fund at its initial public offering; the offer price is $10 per share. The offering prospectus discloses that the fund promoter gets an 8 percent fee from the offering. If this fund sells at a 7 percent discount to NAV the day after the initial public offering, what is the value of your investment?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA3, CFA5]
+
+Suzanne Harlan has a large, well-diversified stock and bond portfolio. She wants to try some alternative investments, such as hedge funds, and has contacted Lawrence Phillips, CFA, to help assemble a new portfolio.
+
+Before agreeing to make recommendations for Ms. Harlan, Mr. Phillips wants to determine if she is a good candidate for alternative investments. He gives her a standard questionnaire. Here are some of her comments:
+
+I’m interested in high returns. I’m not afraid of risk, and I’m investing money for the benefit of my heirs.
+
+I pay a lot of attention to expense and return data from my investments and track their performance closely.
+
+Investors have told me that assessing the quality of hedge funds is difficult, so I’m interested in purchasing a fund of funds where I can diversify my risk while potentially sharing in some outsized returns.
+
+I pay several million dollars in taxes every year, and I want any additional investments to be tax-friendly.
+
+My neighbors founded Kelly Tool and Die 20 years ago. They are declaring bankruptcy, and I am interested in obtaining a partial interest in the business.
+
+Ms. Harlan then tells Mr. Phillips that it is imperative that the returns of any investments he recommends must be in some way comparable to a benchmark.
+
+Mr. Phillips is not excited about the business idea or the fund of funds. However, he does know of several managers of individual hedge funds. He talks her out of a fund of funds and suggests she put her money in the Stillman Fund, which concentrates on spin-offs, generally buying the spun-off company and shorting the parent company.
+
+page 135
+
+In an attempt to talk Ms. Harlan out of investing in a fund of funds, Mr. Phillips addressed the advantages of investing in individual funds. Which of the following would be his most compelling argument?
+
+The lower expenses of individual funds
+
+The likelihood of style drift in a fund of funds
+
+The lack of a benchmark for a fund of funds
+
+What investment approach would be consistent with Ms. Harlan’s tolerance for risk?
+
+Distressed security
+
+Arbitrage
+
+Market neutral
+
+Which of Ms. Harlan’s responses is most likely to make Mr. Phillips consider her a bad candidate for investing in hedge funds?
+
+I pay a lot of attention to expense and return data from my investments and track their performance closely.
+
+I pay several million dollars in taxes every year, and I want any additional investments to be tax-friendly.
+
+I’m interested in high returns. I’m not afraid of risk, and I’m investing money for the benefit of my heirs.
+
+If Ms. Harlan is truly concerned about benchmarks, she should avoid which of her suggested investments?
+
+None of them
+
+Kelly Tool and Die
+
+Hedge funds
+
+What’s on the Web?
+
+Bond Funds   One of the best internet sites for information on mutual funds is morningstar.com. Go to the website and find the ticker symbol for the Harbor Bond Fund. Find all of the following information on the website for this fund: loads, expense ratio, top five holdings, bond quality ratings, the fund’s rank in its category for the last seven years, and the Morningstar rating. Next, find out how the Morningstar star ranking system works.
+
+Stock Funds   Go to morningstar.com and find the ticker symbol for a domestic stock fund. Enter the ticker symbol and find the following information for the fund: manager and manager start date, year-to-date return, three-year return, five-year return, front-end or back-end loads, actual and maximum 12b-l fees, management fees, expense ratio, the top 25 holdings, and the fund address and phone number.
+
+Morningstar Fund Selector   Find the mutual fund screener on the Morningstar website. How many funds fit the following criteria: domestic stock fund, minimum initial purchase equal to or less than $500, expense ratio less than or equal to category average, and turnover less than 75 percent?
+
+
+
+
+1 Fidelity would probably come up with a better name.
+
+2 Purchases and sales for a fund are usually different because of purchases and redemptions of fund shares by shareholders. For example, if a fund is growing, purchases will exceed sales.
+
+3 We discuss how yields on money market instruments are calculated in another chapter.
+
+4 In case you aren’t familiar with it, Lake Wobegon is Garrison Keillor’s creation from A Prairie Home Companion. It is a little town in Minnesota where “all the women are strong, all the men are good-looking, and all the children are above average.” The “Lake Wobegon effect” is a phrase used to describe the natural tendency of humans to overestimate their abilities and/or attributes.
+
+5 For more detailed information, publications from companies such as Morningstar, Weisenberger, and Value Line are often available in the library or online. Of course, a mutual fund’s prospectus and annual report contain a great deal of information as well.
+
+6 A blue-chip stock is a well-established, profitable, highly regarded company. A good example might be Microsoft. The term “blue chip” refers to the game of poker, in which chips are used for betting. Traditionally, the blue chips are the most valuable.

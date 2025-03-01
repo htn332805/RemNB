@@ -1,0 +1,935 @@
+CHAPTER 19
+Financial Planning and Managing Growth
+
+LEARNING OBJECTIVES
+
+Explain what a financial plan is and why financial planning is important.
+Discuss how management uses financial planning models in the planning process, and explain the importance of sales forecasts in the construction of financial planning models.
+Discuss how the relation between projected sales and the income statement and balance sheet accounts can be determined, and analyze a strategic investment decision using a percent of sales model.
+Describe the conditions under which fixed assets vary directly with sales, and discuss the impact of so-called lumpy assets on this relation.
+Explain what factors determine a firm’s sustainable growth rate, discuss why it is of interest to management, and compute the sustainable growth rate for a firm.
+Many executives tout the virtue of rapid corporate growth. After all, what could be more indicative of a successful business plan than the rapid expansion of sales and market share. Unfortunately, measuring success simply by a company’s growth ignores the careful planning that managers must undertake in order to continue to expand over the long term. Consider, for example, the meteoric rise and fall of Crumbs Bake Shop Inc., a bakery chain made famous by its one-of-a-kind cupcakes.
+
+Crumbs opened its first store in the Upper West Side of Manhattan in 2003. Its expensive confections quickly became a big hit, with long lines of customers stretching outside the store, and it frequently sold out of its most popular variations. In response to the demand, Crumbs quickly started opening more shops in New York City and expanded to Philadelphia, Washington D.C., and Beverly Hills, among other cities. Just two years later, Crumbs was named as one of Inc. Magazine’s 500 fastest-growing companies in America. By 2010, Crumbs Bake Shop was generating sales of over $30 million annually, and planning was in the works for a 2011 initial public offering (IPO) of the company’s stock.
+
+Once a baking novelty, cupcakes became hugely popular as Crumbs continued its growth. According to Newsweek, there were only three bakeries in the United States focused on cupcakes in 2003, but by 2011 there were hundreds. The increase in competition began to eat into Crumbs’ bottom line, and its stock price plunged over 70 percent just months after its 2011 IPO. Despite this setback, management pushed ahead with plans for growth. According to then CEO and co-founder Jason Bauer, the company would focus on remaining competitive through expansion, with plans to open as many as 200 stores by 2014. In addition, the company attempted to diversify its product offerings to include a wide range of beverage options, as well as a line of gourmet sandwiches.
+
+Unfortunately, Crumbs’ business plan failed to pan out. With declining sales and margins, and a heavy debt and lease burden tied to its real estate obligations, the company found itself increasingly under financial pressure. In June of 2014, the cupcake bubble burst, and Crumbs’ management declared that without a significant influx of new capital the company would likely run out of funds for its operations. Just one month later, the company closed all of its stores and filed for bankruptcy. The rise and fall of Crumbs Bake Shop is just one example of how complicated it can be to manage a growing business. This chapter explains how managers plan for the future and carefully manage growth to create value for their stockholders and other stakeholders.
+
+Chapter Preview
+It is often said that a company that fails to plan for the future may have no future. In the short run, a firm may do well being opportunistic—reacting quickly to events as they unfold. To succeed over the long term, however, a firm must be innovative and must plan and employ a strategy that generates sustainable profits. Top executives spend a lot of time thinking about the types of investments the firm needs to make and how to finance them. The process that executives go through is called financial planning, and the result is called a financial plan.
+
+This chapter focuses on long-term financial planning. We begin with a discussion of the firm’s strategic plan and its components. We then discuss the preparation of a financial plan. Next, we turn our attention to financial planning models used in the preparation of financial plans. These models generate projected financial statements that estimate the amount of external funding needed and identify other financial consequences of proposed strategic investments. We end the chapter by examining the relation between a firm’s growth and its need for external funding. Managing growth is an important topic, because growth without sufficient profits can lead to cash flow shortages and bankruptcy.
+
+19.1 Financial Planning
+LEARNING OBJECTIVE
+
+Explain what a financial plan is and why financial planning is important.
+Top management engages in long-term financial planning because experience has shown that having a well-articulated financial plan helps create value for stockholders. Planning is important for established businesses because it forces management to systematically think through the firm’s strategies, much as preparing a business plan helps an entreprenuer. Not surprisingly, lack of planning is a common reason for poor performance and bankruptcy. For example, the bankruptcy filing of Sur La Table in 2020 was attributed to a failure to plan and recognize changes in retail trends and consumer preferences. The kitchenware seller struggled to stay afloat as it lost market share to online retailers and consumers shifted away from at-home cooking.
+
+financial planning the process by which management decides what types of investments the firm needs to make and how to finance those investments
+
+financial plan a plan outlining the investments a firm intends to make and how it will finance them
+
+The Planning Documents
+When top management begins to prepare a company’s financial plan, it must answer four basic questions. First, where is the company headed? Second, what assets does it need to get there? Third, how is the firm going to pay for these assets? And, finally, does the firm have enough cash to pay its day-to-day bills as they come due?
+
+These questions are answered in four important planning documents: (1) the strategic plan, which describes where the firm is headed and articulates the strategies that will be used to get it there; (2) the investment plan, which identifies the capital assets needed to execute the strategies; (3) the financing plan, which explains how the firm will raise the money to buy the assets; and (4) the cash budget, which determines whether the firm will have sufficient cash to pay its bills. These four planning documents provide the foundation for the firm’s financial plan, which consolidates the documents into a single scheme. Thus, the financial plan is a blueprint for the firm’s future.
+
+Exhibit 19.1 shows the relations among the various plans and budgets. Notice that information from the strategic plan flows down to the financial plan, and information from the other plans and the cash budget flows up to the financial plan.
+
+The Strategic Plan
+
+Strategic planning is the most crucial planning step. The strategic plan sets out the vision for the firm—what management wants the firm to become—and establishes the strategies that managers will use to achieve their vision. Overall, the strategic plan provides high-level direction to management for making business decisions and guidance about what the firm will and will not do.
+
+strategic planning the process by which management establishes the firm’s long-term goals, the strategies that will be used to achieve those goals, and the capabilities that are needed to sustain the firm’s competitive position
+
+Preparing the strategic plan is the responsibility of top management, with the financial manager as a key participant and the board of directors as approver of the plan. The strategic plan covers all areas in the firm, such as operations, marketing, finance, information systems, and human resource management. The plan determines the lines of business in which the firm will compete and the relative emphasis placed on each business activity. It also identifies major areas for investments in productive assets: capital expenditures, the acquisition of another firm, or the launch of a new line of business. When deemed necessary, the plan also identifies mergers, alliances, and divestitures that management may seek to strengthen the firm’s business portfolio.
+
+Building Intuition
+A Firm’s Strategy Drives Its Business Decisions
+
+The firm’s business strategy drives all of its decisions. It determines the firm’s lines of business, the products it will sell, its method of producing them, and the geographic markets in which it will compete. Thus, a company’s strategy defines its competitive position within its industry. To be successful, a firm must have a good strategy and a management team that can implement it. Management is always searching for a strategy that gives the firm a sustainable competitive edge.
+
+EXHIBIT 19.1 The Financial Planning Process Various planning and budget documents flow into a financial plan and form its foundation. The completed financial plan articulates the firm’s strategic goals and identifies what types of investments the firm should make to achieve its goals, as well as how to finance those investments.
+
+
+The Investment Plan
+
+The investment plan, also known as the capital budget, lays out the firm’s proposed spending on capital assets for the year.1 The capital expenditures support the firm’s business strategy. Some capital expenditures pay for significant new additions, such as a new building, a new plant, or a new production line. Other capital expenditures are for more routine items, such as the replacement of old equipment and machinery. Once made, capital expenditures define a firm’s line of business for years to come. For example, Ford Motor Company could not suddenly start making tennis shoes instead of cars because Ford’s long-term assets hardly lend themselves to manufacturing shoes and the cost of conversion would be prohibitive. The preparation of the capital budget and the decision criteria for selecting capital projects are discussed in Chapters 10 through 13.
+
+The Financing Plan
+
+Once the capital budget is set, management must decide how to finance the assets. The simplest financing environment is one in which all capital projects are financed using internally generated funds. This means that the firm’s earnings, less cash used to pay dividends or repurchase stock, provide the necessary capital. However, only rarely does a firm finance all its projects in this way, as most firms have more capital projects than they can fund internally. Thus, management must seek external funding from a variety of sources, such as bank borrowing, selling of long-term debt, and issuance of additional equity. Overall, the goal of the financing plan is to determine how much external funding the firm needs.
+
+The financing plan has three components. First, a financing plan states the dollar amount of external funding needed and identifies the sources of funds available to the firm. Second, the plan states management’s desired capital structure for the firm. This is important because it determines the relative amounts of debt and equity funds to be raised externally. Finally, the financing plan establishes the firm’s payout policy, which is relevant because it directly affects the amount of funds available for new investment projects. That is, the more funds the firm pays out as cash dividends or uses to repurchase stock, the more external capital the firm must raise if its internally generated funds are not sufficient to fund its investments. Capital structure policy is discussed in Chapter 16, and payout policy in Chapter 17.
+
+An important point to note here is that the investment (capital budgeting) and financing decisions cannot be made independently—they must be considered together. The reason is that when management makes an investment decision, it must already have identified a source of funds to pay for the investment. This is no different from what you would do in your personal life. For example, you would not walk into a BMW dealership to buy a high-priced new car without having lined up a source of financing. Nor, for that matter, would the dealer sell you the car without having the financing already arranged. The investment decision (buy the car) and the financing decision (get an auto loan) are made simultaneously and hence are not independent.
+
+Operating Unit (Divisional) Business Plans
+
+Another component of the financial plan is made up of the business plans prepared by the various operating units or divisions within the firm. Each operating unit business plan describes what the unit will do to achieve the firm’s strategic goals. It also identifies the resources the unit needs and includes a detailed budget. It is here at the operating unit level that much of the firm’s budget work is done.
+
+For example, assume that one of Ford Motor Company’s strategic goals is to manufacture and sell jet-skis through its marine division. The division has some idle capacity in one of its manufacturing plants. Thus, as part of the division’s business plan, it submits a capital budgeting request to enter the jet-ski market. (Of course, to be included in Ford’s capital budget, the jet-ski project must have an NPV greater than $0.)
+
+Cash Budget
+
+The cash budget for the firm is the aggregation (adding up) of the cash budgets from all of the operating units plus the cash budget for the corporate offices. The cash budget focuses exclusively on when the firm actually receives and pays out cash. The firm’s cash needs may vary weekly, monthly, and seasonally, as well as with predictable events such as payroll payments, payment of cash dividends, and debt retirements. If a shortfall of cash develops, the cash budget indicates the amount of money the firm needs to borrow and the anticipated borrowing cost.
+
+As Exhibit 19.1 shows, the planning process drills down deep into the firm and gathers cash budget information on the myriad of activities that take place. If cash budgets are not well managed and monitored, serious cash shortages can occur. Tools used in cash management are discussed in Chapter 14, and the preparation of cash budgets is covered in Chapter 18.
+
+Concluding Comments on Financial Planning
+The principal benefit of financial planning is that it establishes financial and operating goals for the firm and communicates them throughout the organization. The financial plan also helps to align the actions of managers and their operating units with the firm’s strategic goals. Thus, the plan acts as a catalyst to get everyone in the firm moving in the same direction. To build support for the financial plan and energize people’s actions, top management should involve managers and other leaders in the firm at all levels in the planning process. An old axiom in management says that people support plans when they have had meaningful involvement in the plans’ preparation.
+
+Before You Go On
+What are the four planning documents on which the financial plan is based?
+What is the strategic plan?
+How are the investment decision and financing decision related?
+
+Inc., provides a comprehensive guide to writing a business plan at www.inc.com/jeff-haden/how-to-write-perfect-business-plan-a-comprehensive-guide.html
+
+19.2 Financial Planning Models
+LEARNING OBJECTIVE
+
+Discuss how management uses financial planning models in the planning process, and explain the importance of sales forecasts in the construction of financial planning models.
+Financial planning models are used to analyze how proposed investments and financing alternatives affect a firm’s financial statements. The models are usually run using spreadsheets, which helps trace investment, financing, and operating decisions through a company’s accounting system. While commercial planning models can be quite complex, most are built around the same basic concepts presented in this chapter.
+
+In this section, we build a simple financial planning model to show how such models are constructed, how they work, and how their output is generated. Once you understand this model, you can easily step up to more advanced models.
+
+The Sales Forecast
+The sales forecast is the most important input for developing a financial planning model. Most firms generate their own sales forecasts. However, forecasting techniques vary widely, ranging from “seat-of-the-pants” forecasts—wherein the sales manager and key sales staff members talk it over and give their best estimate—to forecasts generated by complex statistical models. In addition, because the performance of the national and international economies have an effect on a company’s sales volume, most companies use economic forecasts as part of their sales forecasting process. Large companies often hire consulting firms that specialize in forecasting to help prepare sales forecasts under different scenarios. As you would expect, their services are quite expensive; economic forecasts can also be obtained from many regional banks at modest prices.
+
+Building a Financial Planning Model
+A financial planning model is no more than a series of equations that is used to generate projected financial statements for a company, such as an income statement or a balance sheet. The three basic components of a financial planning model, shown in Exhibit 19.2, are (1) inputs to the model, (2) the model itself, and (3) outputs from the model—the projected financial statements. Let’s discuss each component in turn.
+
+Inputs to the Model
+
+As shown in the exhibit, important inputs to the financial planning model include current financial statements, sales forecasts, and investment and financial policy decisions.
+
+Current Financial Statements
+The starting point for constructing a financial planning model is the firm’s current income statement and balance sheet. These statements serve as a baseline for forecasts.
+
+Sales Forecasts
+For most financial planning models, the principal input variable is a forecast of the firm’s sales or sales growth rate. The sales forecast is the key driver in financial models because so many items on the income statement and balance sheet vary with changes in the level of sales. For example, if sales increase, it stands to reason that the firm will use more labor and raw materials. Higher sales may also require additional investments in capital assets.
+
+Sales forecasts are given for some time period, such as a quarter or a year, and are often expressed as a percent change in sales:
+
+(19.1)
+where:
+
+%ΔS = percent change in net sales
+
+     St = level of net sales in period t
+
+St+1 = level of net sales in period t + 1
+
+Sales are calculated as the number of units sold multiplied by the price at which they are sold. For an example of how Equation 19.1 is used, if the current year’s sales (St) are $100 million and the forecasted sales for next year (St+1) are $120 million, applying Equation 19.1 yields the percent growth in sales over the coming year:
+
+EXHIBIT 19.2 The Components of a Financial Planning Model We can categorize the parts of a financial planning model as inputs, the model itself, and outputs. Models allow management to generate projected financial statements that enable them to see the financial impact of strategic initiatives.
+
+
+Investment and Financial Policy Decisions
+Preparing a financial planning model requires top management to make a number of investment and financial policy decisions. These decisions impose constraints on the financial model’s outputs and so they must be considered carefully. Some important investment and financial policy decisions are:
+
+Investment policy decisions: Identify the investment decisions to be evaluated as part of the financial planning process. Typically, these are large capital expenditures such as building a new manufacturing facility, entering a new line of business, or acquiring another firm.
+Financial policy decisions:
+- Capital structure decision: Determines management’s targeted capital structure—its willingness to use financial leverage.
+- Financing decision: Determines the acceptable type of financing—retained earnings, equity, preferred stock, and/or long-term debt.
+- Payout decision: Identifies the firm’s dividend and stock repurchase policies for the sales period.
+The Financial Planning Model
+
+A financial planning model is a set of equations that generate projected financial statements. Along with the sales forecast and the investment and financial policy decisions, management must specify key assumptions regarding how the income statement and the balance sheet accounts vary with sales. For example, suppose that, based on historical data, a company finds that cost of goods sold is 80 percent of sales and inventory and accounts receivables are each 15 percent of sales. In such a case, it might be reasonable to assume that these relations will hold for the projected income statement and balance sheet. Thus, if sales are projected to be $100 million next year, the projected cost of goods sold will be $80 million ($100 million × 0.80 = $80 million), and inventory and accounts receivable will both be $15 million ($100 million × 0.15 = $15 million). This model, along with the other planning models presented in this chapter, is a percent of sales model, in which most of the variables vary directly with the level of sales.
+
+percent of sales model a financial planning model that assumes that most income statement and balance sheet accounts vary proportionally with sales
+
+Learning by Doing Application 19.1, at the top of the next page, illustrates how next year’s accounts receivable and inventory can be calculated as a percent of sales.
+
+Outputs from the Model: Projected Financial Statements
+
+The outputs from the financial planning model are projected financial statements called pro forma financial statements. In finance and accounting, the term pro forma means forecasted or projected.2 The statements produced by a financial planning model are forecasted based on the inputs and assumptions entered into the model. In addition to pro forma financial statements, planning models usually generate a set of financial ratios similar to those discussed in Chapter 4 and include features that enable management to prepare a cash budget.
+
+pro forma financial statements projected financial statements that reflect a set of assumptions concerning investment, financing, and operating decisions
+
+A Simple Planning Model
+Let’s work through a simple percent of sales example to see how a financial planning model generates pro forma financial statements and is used to analyze a strategic investment.3 Keep in mind that more sophisticated planning models are built around the same basic concepts—there are just more assumptions to deal with. The important point here is to make sure you understand how the model is built around a set of assumptions and how it generates the pro forma financial statements.
+
+LEARNING BY DOING APPLICATION 19.1
+Financial Statement Items Often Vary with Sales
+
+Problem
+
+You have the following information: (1) sales this year are $50 million; (2) sales are expected to grow by 20 percent next year; and (3) for the current year, accounts receivable are 7 percent of sales and inventory is 10 percent of sales. Your boss has asked you to estimate next year’s sales, accounts receivable, and inventory.
+
+
+
+
+
+Generating Pro Forma Statements
+
+Sleepy Hollow Corporation’s financial statements for the year that just ended are shown in simplified form in the following table:
+
+Sleepy Hollow Corporation Current Financial Statements ($ millions)
+Income Statement	Balance Sheet
+Net sales	$1,000	  Assets	$600	Debt	$400
+Costs	     700		         	   Equity	  200
+Net income	$   300	Total	$600	Total	$600
+Sleepy Hollow’s management expects sales to increase by 15 percent for the coming year. Assume that the financial statement accounts vary directly with changes in sales and that management has no financing plan at this time. Given this information, we can make the following calculations:
+
+We now have the sales and cost figures for the firm’s pro forma income statement:
+
+Sleepy Hollow Corporation Pro Forma Income Statement ($ millions)
+Net sales	$1,150
+Costs	    805
+Net income	$  345
+Thus, the firm’s projected net income is $345 million.
+
+Turning to the balance sheet, since we are assuming that all financial statement items vary with the change in sales, the projected values for the balance sheet accounts are:
+
+and the resulting pro forma balance sheet is:
+
+Sleepy Hollow Corporation Pro Forma Balance Sheet ($ millions)
+Assets	$690  ($90)	Debt	$460  ($60)
+   Equity	230   ( 30)
+Total	$690  ($90)	Total	$690  ($90)
+The numbers in parentheses are the changes between the current and projected dollar amounts. Notice that all the balance sheet figures have increased by 15 percent and that the balance sheet balances. This is because both the sources and the use of funds have increased by 15 percent. The $90 million in new assets is being financed by $30 million from retained earnings (internal financing) and $60 million from new long-term debt (external funding).
+
+The balance sheet balances, but if you look back at the income statement, you may notice that the equity account does not look right. Recall that Sleepy Hollow’s projected net income was $345 million. Adding this amount to the initial equity account balance of $200 million would result in a final equity balance of $545 million ($345 million + $200 million = $545 million). As you can see, the equity balance in the pro forma balance sheet is $230 million. Why the apparent conflict?
+
+As a general rule, whenever account balances differ or there is some confusion about an account, the easiest way to determine what is going on is to reconcile the account. For the equity account, if the firm is not expected to sell new stock, there are two basic things that could take place during the year: (1) the firm could generate income that is added to retained earnings and (2) management could distribute value to stockholders by paying a cash dividend, repurchasing stock, or doing a combination of both. Dividends will be subtracted from retained earnings, and stock repurchases will be reflected in the treasury share account. Since the pro forma equity balance is lower than the sum of the initial equity account balance plus Sleepy Hollow’s net income, the forecasts assume the firm will pay a dividend, repurchase stock, or do a combination of both. We can calculate how large this dividend or repurchase will be as follows:
+
+Beginning equity balance	=	$200 million
++ Net income	=	345 million
+− Dividend/repurchase	=	    X
+Ending equity balance	=	$230 million
+Solving for X, we find that:
+
+The reconciliation makes the dividend or repurchase transaction transparent. It is clear that with a net income of $345 million and the constraint that the ending equity balance is $230 million, the firm must pay a $315 million cash dividend, repurchase $315 million of shares, or distribute $315 million through a combination of a dividend and a stock repurchase.
+
+Evaluating an Investment Opportunity
+
+Now let’s suppose that, as part of its investment policy, Sleepy Hollow is considering building a new manufacturing plant. The project is estimated to cost $200 million and is to be financed entirely with debt. As in the prior example, sales are expected to increase by 15 percent for the year, and the plant will be placed in service the following year. Finally, assume that all financial statement accounts vary directly with changes in sales and that the current payout policy is to pay a $315 million cash dividend.
+
+To determine whether the project is feasible as planned, management needs to prepare a set of pro forma financial statements that includes the cost of the new facility. Sleepy Hollow’s pro forma income statement will not change because of the building project. Thus, we can use Sleepy Hollow’s income statement shown earlier. The preliminary pro forma balance sheet for the project, which excludes external funding, is as follows:
+
+Sleepy Hollow’s Building Project Preliminary Pro Forma Balance Sheet ($ millions)
+Assets	$690  ($90)	Debt	$400
+New facility	  200  (200)	Equity	  230  (30)
+Total	$890          	Total	$630          
+We can see that total assets are $890 million, composed of the $690 million ($600 million × 1.15 = $690 million) we calculated earlier plus $200 million for the new facility. The value of the equity account remains unchanged at $230 million ($200 million × 1.15 = $230 million), because it is subject to the 15 percent growth limit, and management must pay the $315 million cash dividend. Since we do not know the amount of debt needed, we enter debt at the current balance sheet amount of $400 million.
+
+Now, comparing the totals, we see that the balance sheet does not balance: total assets are $890 million, while total debt and equity equals $630 million. The difference between the two numbers is $260 million ($890 million − $630 million = $260 million). This “plug value” is the amount of external funding needed (EFN) by the firm. EFN is the additional debt or equity a firm needs to issue so that it can meet its total funding requirements. In this analysis, we refer to EFN as the plug value because it is the number we have to plug into the balance sheet to get it to balance. In our example, the firm must issue $260 million of debt because, as you recall, management made a decision to finance the new project entirely with debt.
+
+external funding needed (EFN) the additional debt or equity a firm must raise from external sources to meet its total funding requirements
+
+The final balance sheet, which includes the building project, is shown in the following table. Overall, the firm is financing $290 million of new assets: $200 million for the new facility and $90 million for new assets to support the increase in sales expected next year. The funding is a combination of internal and external funding, which totals $290 million: $260 million in debt (external) and $30 million in addition to retained earnings (internal). The firm is also able to pay the required $315 million of cash dividends. If the firm can borrow the $260 million at a reasonable rate, it will be able to generate sufficient funds to finance the $200 million capital project and pay the required cash dividend of $315 million. The choice between future debt and equity financing is an important element of the financial policy decisions needed as inputs into a financial planning model.
+
+Sleepy Hollow’s Building Project Final Pro Forma Balance Sheet ($ millions)
+
+Assets	$690 ($90)	Debt	$660 ($260)
+New facility	  200  (200)	   Equity	  230      (30)
+Total	$890  ($290)	Total	$890 ($290)
+Decision Making Example 19.1 illustrates how pro forma financial information can be helpful in decision-making.
+
+DECISION MAKING EXAMPLE 19.1
+Informed Judgment about Risk
+
+Situation
+
+You are given the following additional information about Sleepy Hollow Corporation’s use of financial leverage:
+
+What should management do in light of this information?
+
+
+
+Before You Go On
+Why is the sales forecast the key component of a financial model?
+What are pro forma financial statements, and why are they an important part of the financial planning process?
+What is the plug value in a financial model?
+
+You can find financial statements for publicly held firms online in the EDGAR database of the Securities and Exchange Commission at www.sec.gov
+
+19.3 A Better Financial Planning Model
+LEARNING OBJECTIVE
+
+Discuss how the relation between projected sales and the income statement and balance sheet accounts can be determined, and analyze a strategic investment decision using a percent of sales model.
+The preceding section presented a simple financial planning model that assumes all income and balance sheet accounts vary directly with sales. Although that assumption is helpful to simplify calculations, it does not reflect what happens in the real world. We now relax our assumptions so that our model is more realistic and generates more accurate forecasts. We assume that all working capital accounts—current assets and liabilities—vary directly with sales. For other accounts in the financial statements, independent forecasts may be required, or values may be set by management based on other criteria. To illustrate the process, we will work through an example.
+
+The Blackwell Sales Company
+The Blackwell Sales Company is a small, privately owned company located in College Station, Texas. The firm serves the oil and gas exploration industry in Texas and the adjoining states. It sells and does light manufacturing of rigging equipment for oil and gas exploration. The firm’s management owns 75 percent of the stock, with the balance owned by friends and outside investors. Blackwell’s management is projecting a banner year, as sales are expected to increase 30 percent with an improvement in the overall economy. Because of the high-risk nature of the business, management is very conservative with respect to any action that might materially increase the firm’s risk. Some of the management team is concerned about the risk associated with increasing sales by 30 percent in a one-year period.
+
+The financial manager looks at the firm’s financial statements and provides the following information:
+
+Net sales during the fiscal year that just ended were $2 million.
+Historical financial data indicate that the total cost of producing the firm’s services and products averages 85 percent of sales.
+The firm’s average tax rate is 34.1 percent and is not expected to change.
+The firm’s payout policy is to pay 33.5 percent of earnings as cash dividends.
+EXHIBIT 19.3 Blackwell Sales: Current and Pro Forma Income Statements ($ thousands)
+
+The pro forma income statement for Blackwell Sales assumes that the income statement items vary directly with sales.
+Current	Pro Forma	Assumptions
+Net sales	$2,000	$2,600	Sales increase: 30%
+Costs	  1,700	  2,210	Total costs = 85% of sales
+Taxable income	$   300	$   390	
+Taxes (34.1%)	     102	     133	
+Net income	$   198	$   257	
+    Dividends	$      66	$      86	Dividend policy: 33.5% of net income
+    Addition to retained earnings	$   132	$   171	
+The Income Statement
+Exhibit 19.3 shows the firm’s current (most recent) and pro forma income statements. Let’s look at the calculations used to arrive at the pro forma income statement. Management expects sales to increase by 30 percent next year, and so projected sales are $2 million × 1.30 = $2.6 million. Since total costs have averaged 85 percent of sales, projected total costs are $2.6 million × 0.85 = $2.21 million. Projected taxes, which are 34.1 percent of taxable income, are 0.341 × $390,000 = $132,990, which we will round to $133,000 for simplicity. Subtracting taxes from taxable income, we arrive at the firm’s projected net income of $257,000.
+
+Blackwell’s cash dividend is $86,000 (0.335 × $257,000 = $86,095, which we will round to $86,000), and the remaining $171,000 of net income (0.665 × $257,000 = $170,905) is retained in the firm as an addition to retained earnings.
+
+These amounts relate to two ratios we will use in this chapter: the dividend payout ratio and the retention ratio, or plowback ratio. The formulas and calculations for Blackwell are as follows:
+
+(19.2)
+(19.3)
+dividend payout ratio the proportion of net income paid out (distributed) as dividends
+
+retention (plowback) ratio the proportion of net income retained in the firm
+
+The dividend payout ratio shows the percentage of the firm’s earnings paid out as cash dividends to stockholders. Similarly, the retention ratio tells what percentage of the firm’s earnings is retained in the firm. Generally speaking, smaller, fast-growing companies plow back all or most of their earnings into the business, whereas more established firms with slower growth rates and larger cash flows distribute more of their profits to stockholders. Notice that the sum of the retention ratio and the dividend payout ratio equals 1.000 (0.335 + 0.665 = 1.000). This is because every dollar of net income is either paid out as a cash dividend or retained in the firm.
+
+The Balance Sheet
+To generate a pro forma balance sheet, we start with the current balance sheet, as shown in Exhibit 19.4. For each account that varies directly with sales, the exhibit gives the relation as a percent of sales for the current year. Notice that these percentages differ among the accounts. How do we determine which accounts vary with sales, and how do we know the relevant percentages? Fortunately, the process is straightforward.
+
+EXHIBIT 19.4 Blackwell Sales: Current Balance Sheet ($ thousands)
+
+In this balance sheet for Blackwell Sales, many accounts vary directly with sales. The projected percent of sales is shown for each of these accounts. The accounts labeled “n/a” do not change proportionately with sales.
+
+Assets		Liabilities and Stockholders’ Equity
+Current	Projected % of Sales			Current	Projected % of Sales
+Current assets				Current liabilities		
+    Cash	$  100	  5%		Accounts payable	$    60	4%
+    Accounts receivable	    120	6		Notes payable	    140	n/a
+    Inventory	    140	7		Total	  $  200	n/a
+        Total	$  360	18%		Long-term debt	  $  200	n/a
+Owner’s equity		
+    Common stock	  $    10	n/a
+    Retained earnings	        590	n/a
+          Total equity	  $    600	n/a
+Net fixed assets	    640	32  		Total liabilities and		
+Total assets	$1,000	  50%		stockholders’ equity	$1,000	50%
+Historical Trends
+
+We begin by looking at balance sheet accounts that might vary with sales. To do this, we gather four or five years of historical accounting data and express those data as a percent of sales. A trend may be self-evident, or some simple trend lines can be fit to the data to identify trends. In either case, this process allows the financial manager to decide which financial accounts can safely be estimated as a percent of sales and which must be forecast using other information.
+
+The following table shows several years of historical data from Blackwell’s balance sheet accounts, and the far-right column contains the final forecast values for 2022. We now discuss the rationale for assigning a percent of sales figure to each balance sheet account. We look first at the working capital accounts: cash, accounts receivable, inventory, and accounts payable.
+
+Percent of Sales
+2018	2019	2020	2021	Forecast 2022
+Cash	    5%	    5%	    4%	    5%	    5%
+Accounts receivable	10	9	9	9	6
+Inventory	7	8	7	6	7
+Accounts payable	4	4	4	3	4
+Net fixed assets	30	32	34	32	32
+Working Capital Accounts
+
+The key working capital accounts tend to vary directly with sales. Take inventory as an example. As sales increase, the firm needs to increase the level of inventory proportionately to support the higher sales level. The historical data in the table support this view. Inventory levels have been a relatively constant percentage of sales, varying from 6 to 8 percent. In selecting the appropriate percentage for the planning process, management must consider what the firm’s optimal inventory ratio is. On the one hand, as discussed in Chapter 14, management would like to minimize inventory levels, because inventory is expensive to finance. On the other hand, if inventory levels become too low, the firm may lose sales because of stockouts, which occur when an order comes in and there is no product to sell. Let’s assume that Blackwell’s management determines that 7 percent of projected sales is the right inventory-to-sales ratio for the firm.
+
+The ratio of accounts receivable to sales has been 9 percent for the last several years. However, firms with similar credit policies operate with a receivables-to-sales ratio of 6 percent. As sales have increased, Blackwell has provided proportionately more credit to its customers. To improve the firm’s performance to industry standards, management decides to collect receivables more aggressively and targets a ratio of 6 percent. Management has also targeted cash accounts totaling 5 percent of sales. Management believes that a 5 percent cash ratio provides adequate liquidity to fund ongoing operations and pay for unexpected emergencies yet does not tie up an excessive amount of cash in low-yielding assets.
+
+On the liability side, the firm’s historical data show that accounts payable vary with sales. This seems reasonable, since the greater a firm’s sales, the more orders the firm will have to place with its suppliers. Management is satisfied with the firm’s vendor relationships and the payment schedule for vendors. Hence, accounts payable are forecast to be 4 percent of sales.
+
+Fixed Assets
+
+We assume that the company’s net fixed assets vary with the level of sales. An examination of historical data confirms that this is a reasonable assumption. Blackwell’s management decides to use the firm’s four-year historical average—32 percent—for the projected ratio of fixed assets to sales. Thus, for every $100 in sales, the firm needs $32 of fixed assets to support the sales.
+
+We should note that such a relation between fixed assets and sales may not always hold. The reason is that fixed assets may vary directly with sales only when a firm is operating at full capacity and fixed assets can be added in small increments. For example, if a firm has a large amount of unused capacity, its sales could increase by 20 percent without adding any new fixed assets. We will come back to this issue in more detail later in the chapter. For Blackwell, the data support the proportional fixed assets-to-sales ratio, so we can proceed on that basis.
+
+As a final comment, notice in Exhibit 19.4 on the asset side of the balance sheet that the total percent of sales for asset items adds up to 50 percent. This means that total assets are 50 percent of sales. The ratio of total assets to sales is called the capital intensity ratio and is calculated for Blackwell Sales as follows:
+
+(19.4)
+The capital intensity ratio, which is the inverse of the total asset turnover ratio discussed in Chapter 4 (Equation 4.7), tells us something about the amount of assets the firm needs to generate $1 in sales. The higher the ratio, the more capital the firm needs to generate sales—that is, the more capital intensive the firm. Firms that are capital intensive tend to be more risky than similar firms that use less fixed assets. High capital intensity is generally associated with high fixed assets and correspondingly high fixed costs. If there is a downturn in sales, profits decrease sharply for firms with high fixed costs because fixed costs cannot be reduced in the short term. This is the operating leverage concept that is illustrated in Exhibit 16.3 in Chapter 16. With a 50 percent capital intensity ratio, Blackwell Sales is not a highly capital-intensive firm. Examples of capital-intensive industries are the airline and the automobile industries; for example, both United Airlines and Ford Motor Company have capital intensity ratios greater than 100 percent.
+
+Liabilities and Equity
+
+For most firms, the remaining liability accounts on the balance sheet do not vary with sales. Their values typically change because of management decisions, such as the decision to pay off a loan or issue debt. Thus, each liability and equity account must be evaluated separately.
+
+Turning to individual accounts, notes payable typically represent short-term borrowing. This account value will only change with some decision by Blackwell’s management, such as making a payment on a note or borrowing more money from a bank. Thus, the account’s value does not vary with sales, as indicated by the “n/a,” or “not applicable,” in Exhibit 19.4. Similarly, the account value for long-term debt changes only when management decides to issue or retire debt. The same argument holds for the common stock account, which changes only when management decides to sell or repurchase common shares. The last account is retained earnings. Retained earnings may or may not vary directly with sales. The reason for the ambiguity is that the amount of funds in retained earnings depends not only on the firm’s earnings but also on the firm’s payout policy, which is set by management. Thus, for now, both the common stock and the retained earnings accounts are entered as n/a in Exhibit 19.4.
+
+The Preliminary Pro Forma Balance Sheet
+We are now in a position to construct a preliminary pro forma balance sheet, as shown in Exhibit 19.5. The preliminary pro forma balance sheet is a first approximation in deciding how the firm should fund the assets it needs to support an increase in sales of 30 percent. Once it is constructed, management can develop a suitable financing plan.
+
+To construct the preliminary pro forma balance sheet, we follow these steps:
+
+We first calculate the projected values for all the accounts that vary with sales, and we enter these values into the preliminary pro forma balance sheet.
+We then compute and enter the projected value of any other balance sheet accounts for which an end-of-period value can be forecast or otherwise determined.
+For all the accounts for which end-of-period values cannot be forecast or otherwise determined, we enter the current year’s value.
+Typically, the balance sheet will not balance at this point. We thus compute the plug value, which balances the balance sheet. The plug value will involve the accounts marked “n/a” in the initial balance sheet (Exhibit 19.4). We must analyze these accounts in light of the firm’s capital structure and dividend policies. The plug value is usually the amount of external funding needed (EFN), because we are usually adding new assets to the balance sheet to support growth; thus, total assets exceed total liabilities plus equity.
+
+Let’s work through each step using numbers from the Blackwell case.
+
+Step One. We calculate the projected balance sheet values for the accounts that vary with sales as follows (projected sales are $2.6 million):
+
+Cash is projected to be 5 percent of sales: $2.6 million × 0.05 = $130,000.
+Accounts receivable is projected to be 6 percent of sales: $2.6 million × 0.06 = $156,000.
+EXHIBIT 19.5 Blackwell Sales: Preliminary Pro Forma Balance Sheet ($ thousands)
+
+This preliminary pro forma balance sheet for Blackwell Sales is a first approximation in deciding how to fund anticipated growth. At this stage of the analysis, the balance sheet will not balance (Total Assets will not equal Liabilities and Stockholders’ Equity), and the difference will be the plug value, which is usually the amount of external funding the firm will need in order to fund investments and operations.
+
+Assets		Liabilities and Stockholders’ Equity
+Projected	Change			Projected	Change
+Current assets				Current liabilities		
+    Cash	$ 130	$ 30		    Accounts payable	$ 104	$ 44
+    Accounts receivable	    156	    36		    Notes payable	 140	  0
+    Inventory	 182	 42		        Total	$ 244	$ 44
+        Total	$ 468	$ 108		Long-term debt	$ 200	$ 0
+Owner’s equity		
+    Common stock	$ 10	$ 0
+    Retained earnings	 761	 171
+        Total equity	$ 771	$171
+Net fixed assets	 832	 192		Total liabilities and		
+Total assets	$1,300	$300		    stockholders’ equity	$1,215	$215
+External funding needed (EFN)	$ 85	
+Inventory is projected to be 7 percent of sales: $2.6 million × 0.07 = $182,000.
+Net fixed assets are projected to be 32 percent of sales: $2.6 million × 0.32 = $832,000.
+Accounts payable are projected to be 4 percent of sales: $2.6 million × 0.04 = $104,000.
+These values, along with the differences between the current and forecast amounts, are shown in Exhibit 19.5.
+
+Step Two. We now consider the balance sheet accounts that do not vary with sales. We can determine the value of retained earnings, since the firm has a policy of paying out 33.5 percent of earnings as dividends. Recall from our earlier discussion that projected net income is $257,000 and the proportion of that amount going to retained earnings is $171,000 (0.665 × $257,000 = $171,000). Thus, the end-of-year account balance is $761,000 ($590,000 + $171,000 = $761,000), where $590,000 is the current retained earnings balance.
+
+Step Three. The remaining accounts that do not vary with sales represent sources of financing for the firm: notes payable, long-term debt, and common stock. These accounts are entered into the preliminary pro forma balance sheet at their current values, as shown in Exhibit 19.5.
+
+Step Four. As predicted, the preliminary pro forma balance sheet does not balance at this point: projected assets total $1.3 million, and projected sources of funding (debt and equity) total $1.215 million. The difference between these two values is our plug value. The plug value represents EFN, which is $85,000 ($1.3 million − $1.215 million = $85,000). Since we are dealing with a financing decision, all accounts with the n/a designation in Exhibit 19.4 represent possible financing options. Management must use its judgment and its knowledge of Blackwell Sales to select the appropriate financing for the firm.
+
+What the Findings Mean
+
+What does all the information in Exhibit 19.5 tell management? First, if sales increase as projected, the firm’s total assets will expand by $300,000. Of that $300,000 increase, $108,000 will go to increase current assets and $192,000 will go to increase the firm’s fixed assets.
+
+Second, the $300,000 in additional assets could be financed as follows: $171,000 from internally generated funds (the addition to retained earnings), $44,000 from expanded trade credit (the increase in accounts payable), and $85,000 of external funding from the sale of debt or equity or both.
+
+Management’s Decision
+
+How should Blackwell Sales fund the $300,000 to support the 30 percent increase in sales? The firm could issue debt or equity, or it could reduce dividends. Alternatively, the firm could rethink its strategy and scale back the 30 percent targeted growth figure. Suppose Blackwell’s management team meets to discuss the findings from Exhibit 19.5. After much discussion, the team reaches a consensus on the following points:
+
+The firm has a unique opportunity to ride a strong market for oil and gas development and wants to pursue the 30 percent sales growth targeted.
+Management would like to avoid issuing more debt because of the volatility of the oil and gas exploration business.
+Management prefers not to issue more common stock for fear of diluting earnings.
+Management would like to pay an annual dividend but only if the first three points are adequately addressed.
+What does management do? In the end, management decides to pay no cash dividend to stockholders for the coming year. Thus, the $300,000 increase in assets is funded entirely from earnings. This decision is made to avoid the risks associated with additional debt and the dilution of earnings that would result from issuing additional common stock.
+
+EXHIBIT 19.6 Blackwell Sales: Final Pro Forma Balance Sheet ($ thousands)
+
+The final pro forma balance sheet reflects Blackwell management’s decision to temporarily suspend dividends and fund its growth with internal funds (retained earnings). Although financial models can determine the amount of EFN needed, management must make the final decision about how to fund the firm’s capital requirements.
+
+Assets	Liabilities and Stockholders’ Equity
+Projected	Change		Projected	Change
+Current assets			Current liabilities		
+Cash	$ 130	$ 30	Accounts payable	$ 104	$ 44
+Accounts receivable	156	36	Notes payable	 139	 −1
+Inventory	 182	 42	Total	$ 243	$ 43
+Total	$ 468	$108	Long-term debt	$ 200	$ 0
+Owner’s equity		
+Common stock	$ 10	$ 0
+Retained earnings	 847	 257
+Total equity	$ 857	$ 257
+Net fixed assets	 832	 192	Total liabilities and		
+Total assets	$1,300	$300	stockholders’ equity	$1,300	$300
+External funding needed (EFN)	$ 0	    
+The Final Pro Forma Balance Sheet
+Exhibit 19.6 shows the final pro forma balance sheet reflecting the decision to temporarily suspend dividends and fund the expansion with internal funds (retained earnings). As you recall, Blackwell’s net income is $257,000; and thus, the retained earnings account is increased by $257,000, making the final balance $847,000 ($590,000 + $257,000 = $847,000). Since the proposed dividend of $86,000 now goes entirely into retained earnings, a source of funds, and the firm’s additional financing needs are $85,000, there is $1,000 ($86,000 − $85,000 = $1,000) available to reduce debt. The most likely course of action is to reduce notes payable by $1,000, making notes payable $139,000 rather than $140,000.4
+
+Finally, it is important to note that financial models do not make decisions; only the firm’s management can do that. Financial models can only generate numbers given the inputs and assumption made when constructing the model. Once constructed, financial models can help management evaluate strategic alternatives, assess their financial impact on the firm, and determine whether they are consistent with the firm’s financial policies. In the Blackwell case, management suspended its dividend policy.
+
+Learning by Doing Application 19.2 illustrates how restoring the dividend, but paying a smaller amount, would affect the Blackwell retained earnings account.
+
+LEARNING BY DOING APPLICATION 19.2
+Blackwell’s Alternative Plan
+
+Problem
+
+Let’s continue the Blackwell Sales example. Suppose that Blackwell’s management now decides to pay a cash dividend, but to reduce the payout to 10 percent of net income. Reconcile Blackwell’s retained earnings account.
+
+
+
+
+
+Before You Go On
+How are historical financial data used to determine the forecast values of balance sheet accounts?
+Why might you expect accounts receivable to vary with sales?
+19.4 Beyond the Basic Planning Models
+LEARNING OBJECTIVE
+
+Describe the conditions under which fixed assets vary directly with sales, and discuss the impact of so-called lumpy assets on this relation.
+In this section, we tie up some important loose ends concerning financial planning models. We first consider some shortcomings of the simple models we have been discussing and describe how more sophisticated models address those shortcomings. We then discuss additional benefits of financial planning.
+
+Improving Financial Planning Models
+Much of the discussion concerning the planning models developed in this chapter focuses on the underlying process for generating pro forma statements. Our goal is to have you understand how planning models work so that when you move to more complex spreadsheet models, you will be an informed user capable of understanding their limitations and strengths. We now discuss some of the improvements you will find incorporated in more sophisticated models.
+
+Interest Expense
+
+One omission from the models presented in this chapter is that they fail to account for interest expense in the financial statements. A problem we face in modeling is that interest expense cannot be estimated accurately until the cost and amount of borrowing have been determined, and the cost of borrowing depends in part on the amount of borrowing. Since interest expense is a pre-tax expense, the use of additional debt will result in lower net income and retained earnings, and reduce the forecast value of owner’s equity. This in turn will create a need for additional incremental pro forma financing. Thus, we cannot accurately estimate the level of debt financing without knowing the interest expense. More sophisticated financial models estimate interest payments and borrowings simultaneously.
+
+EXHIBIT 19.7 Relation between Inventory Levels and Changes in Sales This graph shows inventory-to-sales ratios for two situations: one in which inventory varies directly with sales (black line) and one in which it does not (red line). Financial managers know from experience that most working capital accounts, such as inventory, do not increase directly with sales. Instead, they increase at a decreasing rate as sales increase.
+
+
+Working Capital Accounts
+
+Another weakness in our percent of sales model is the assumption that working capital increases proportionally with sales. Seasoned financial managers know that increases in some working capital accounts are not proportional to sales; this is particularly true for cash balances and inventory. Exhibit 19.7, for example, shows the inventory-to-sales ratios for two situations: one where inventory varies directly with sales and one where it does not. The black line illustrates the assumption that changes in inventory vary in proportion to changes in sales. Notice that inventory gets very small as sales approach zero. When inventory varies in proportion to sales, the inventory/sales ratio is 50 percent, regardless of the level of sales. The red line illustrates a different relation. Here, at sales of $300,000, the inventory/sales ratio is 70 percent ($210,000/$300,000 = 0.70, or 70 percent), and at sales of $500,000, it declines to 50 percent ($250,000/$500,000 = 0.50, or 50 percent). The important point here is not the ratio calculations but the fact that working capital does not increase directly with sales. Instead, it increases at a decreasing rate as sales increase. This is a common relation between inventory and sales and between cash and sales.
+
+Fixed Assets
+
+Another issue concerns the way we handled fixed assets. Specifically, we assumed that when sales increase, fixed assets are added in small increments, which implies that production facilities are always operating near or at full capacity. This is not typically the case. In most instances, fixed assets are added as large discrete units, and much of a firm’s capacity may not be utilized for some period of time. These types of assets are often called lumpy assets. Let’s look at an example.
+
+lumpy assets fixed assets added as large, discrete units; these assets may not be used to full capacity for some time, leaving the company with excess capacity
+
+Suppose you and a group of investors decide to enter the market for frozen Mexican snack foods, which you believe is a growing market. You buy a small food-manufacturing facility for $100,000 that can easily be converted to manufacture the snack foods. Exhibit 19.8 illustrates your initial situation. After you make the purchase, your sales are zero, and you have $100,000 in fixed assets, which will support sales of up to $150,000. Thus, the facility has $150,000 in excess capacity.
+
+Over time, sales expand to $75,000. At this level, no additional assets are needed (Point A in the exhibit) because the firm still has excess capacity of $75,000 ($150,000 − $75,000 = $75,000). When the firm’s sales expand to $150,000 (Point B), however, the firm no longer has idle capacity. You determine that a $200,000 addition to fixed assets is the most economical way to gain additional capacity. If you make this investment, the firm will have $300,000 ($100,000 + $200,000 = $300,000) in fixed assets, which will support sales up to $400,000. Notice that when your firm is at Point B, the threshold point, even a small increase in sales results in more than doubling the firm’s fixed assets.
+
+EXHIBIT 19.8 Fixed Assets Are Usually Acquired in Large, Discrete Units In real-world situations, fixed assets usually do not vary directly with sales, as we assumed with our simplified financial models. Management often adds fixed assets in very large increments in order to add capacity in the most economical way.
+
+
+In financial planning, management must account for the fact that investments in fixed assets often come in very large increments, or lumps. Furthermore, a significant amount of lead time is often required to bring them on line. Thus, as a firm nears full manufacturing capacity, management should begin planning to acquire additional fixed assets in the future. In contrast, if a firm has considerable excess capacity, sales growth will not require additional fixed assets.
+
+Before You Go On
+Why is it that some working capital accounts may not vary proportionately with sales?
+What are lumpy assets, and how do these assets vary with sales?
+19.5 Managing and Financing Growth
+LEARNING OBJECTIVE
+
+Explain what factors determine a firm’s sustainable growth rate, discuss why it is of interest to management, and compute the sustainable growth rate for a firm.
+We close the chapter with a discussion of how a business can grow and the need to manage growth. When companies add assets through acquisition or the capital budgeting process, they grow in size. If the rate of growth is rapid, much of the asset expansion will likely require external funding. Rapid growth is often a goal of management because it helps a company gain market share quickly and strengthens its competitive position in the marketplace. In addition, managers of companies with high growth rates often receive accolades and recognition from investors and their peers for their business acumen. Overall, rapid growth is considered a desirable achievement.
+
+Rapid growth can have a dark side, however. As a firm grows rapidly, management might finance the growth with long-term debt in a way that increases the firm’s overall financial leverage. Higher financial leverage increases the probability that a firm will face financial distress if business conditions deteriorate. If management is using a lot of debt financing and sales then unexpectedly plunge, causing cash flows to decline, the firm may not have enough cash to pay long-term debt holders and other creditors.
+
+How does rapid growth cause businesses to fail? The introduction to this chapter, which features Crumbs Bake Shop, provides a great example of what can go wrong. The classic formula for business failure is rapid expansion, a lack of solid long-term planning, and an insufficient equity base or, put another way, the use of too much financial leverage.
+
+External Funding Needed
+When a firm expands rapidly, its operations might not be able to generate sufficient cash flows to meet all of its financial obligations. If this happens, management must look for outside funding—debt or equity. We now explore the factors affecting management’s decision to seek external funding. We do so by developing some relations between a firm’s growth rate and the amount of external funding needed (EFN).
+
+Growth and External Funding
+
+The best way to understand the relation between growth and external funding is in the context of a rapidly growing firm and its financial statements. The firm we use is called Empire Enterprises, which is a hypothetical real estate investment firm located in New York City that engages in real estate development and property management. Empire is a public company whose stock is listed on the NYSE.
+
+Exhibit 19.9 shows the current income statement and balance sheet for Empire Enterprises. Last year, Empire had total assets of $50 million and book equity of $30 million, and it generated $10 million of earnings on $100 million in sales. Empire’s management team believes the firm can increase sales by 20 percent for the coming year. All costs and assets are assumed to grow at the same rate as sales, 60 percent of earnings are paid as cash dividends, and the board of directors is reluctant to issue additional common stock.
+
+EXHIBIT 19.9 Empire Enterprises: Income Statement and Balance Sheet ($ millions)
+
+The exhibit shows the current income statement and balance sheet for Empire Enterprises. Management believes that the firm can increase sales by 20 percent for the coming year. All costs and assets are assumed to grow at the same rate as sales, 60 percent of earnings are paid out as dividends, and the directors do not want to issue additional common stock.
+
+Income Statement
+Net sales	$100.0
+Costs	 90.0
+Net income	$ 10.0
+Dividends	$ 6.0
+Addition to retained earnings	$ 4.0
+Balance Sheet
+Assets	Liabilities and Stockholders’ Equity
+Projected % of Sales			Projected % of Sales
+Assets	$50.0	50.0%	Total debt	$20.0	n/a
+Equity	 30.0	n/a
+Total assets	$50.0		Total liabilities and stockholders’ equity	$50.0	
+EXHIBIT 19.10 Empire Enterprises: Pro Forma Income Statement and Balance Sheet ($ millions)
+
+The pro forma balance sheet for Empire Enterprises does not balance, and the difference is the amount of EFN. Because the company’s board does not wish to issue common stock, the funding will have to take the form of long-term debt.
+
+Income Statement (Pro Forma)
+Net sales	$120.0
+Costs	 180.0
+Net income	$ 12.0
+Dividends	$ 7.2
+Addition to retained earnings	$ 4.8
+Balance Sheet (Pro Forma)
+Assets	Liabilities and Stockholders’ Equity
+Projected	Change		Projected	Change
+Assets	$60.0	$10.0	Total debt	$20.0	$0.0
+Equity	 34.8	4.8
+Total assets	$60.0	$10.0	Total liabilities and stockholders’ equity	$54.8	$4.8
+External funding needed (EFN)	$ 5.2	
+Given this information, we can prepare the pro forma income statement and balance sheet for Empire Enterprises, which appear in Exhibit 19.10. The income statement shows both sales and costs increasing by 20 percent for the year: projected sales are $120 million ($100 million × 1.20 = $120 million), projected costs are $108 million ($90 million × 1.20 = $108 million), and thus, the firm’s projected net income is $12 million ($120 million − $108 million = $12 million).
+
+Turning to the pro forma balance sheet, we see that the projected total assets for the firm are $60 million ($50 million × 1.20 = $60 million) indicating an investment in assets of $10 million. For the moment, we hold total debt constant at $20 million so that we can compute the EFN needed to support the 20 percent increase in sales. The firm’s payout policy calls for 40 percent of earnings to be retained in the firm, since 60 percent will be paid to stockholders as a dividend. Thus, given net income of $12 million, the addition to retained earnings is $4.8 million (0.40 × $12 million = $4.8 million). The equity account is increased to $34.8 million ($30.0 million + $4.8 million = $34.8 million).
+
+After these changes have been made, the pro forma balance sheet does not balance. Total assets equal $60.0 million, and total liabilities and equity equal $54.8 million. The difference, $5.2 million ($60.0 million − $54.8 million = $5.2 million), is the EFN. The $10 million investment in assets is being financed from two sources: $4.8 million from the addition to retained earnings and $5.2 million from external funding ($4.8 million + $5.2 million = $10 million). The EFN could be either debt or equity, but in Empire’s case it will be long-term debt, since Empire’s board is reluctant to issue equity.
+
+So far, we have calculated EFN exactly as we did in the previous sections. However, we are now going to build a mathematical model to calculate EFN. The model will allow us to better understand the relation between a firm’s growth ambitions and the amount of EFN.
+
+A Mathematical Model
+
+Looking at the pro forma balance sheet calculations for Empire Enterprises (Exhibit 19.10), we can see that new investments are determined by the firm’s total assets and projected growth in sales:
+
+For Empire, the calculation is $10 million = 0.20 × $50 million. Note that to calculate new investments, we multiply the firm’s initial total assets by the expected growth rate in sales forecasted by management. The new investments are the capital expenditures and the increase in working capital necessary to sustain the increase in sales.
+
+Conceptually, the new investments are funded first by internally generated funds, which come from earnings retained in the firm. Once those funds are exhausted, the remainder of new investments must be financed externally by the sale of debt or equity, or some combination of both. Thus, the amount of EFN can be expressed as:
+
+(19.5)EFN = New investments − Addition to retained earnings
+Substituting “Growth rate × Initial total assets” for “New investments” in Equation 19.5 yields the following:
+
+(19.6)EFN = (Growth rate × Initial total assets) − Addition to retained earnings
+Applying Equation 19.6 to our Empire Enterprise situation, we get the following result:
+
+The result, $5.2 million, agrees with the financial planning model calculation for Empire Enterprises presented earlier.
+
+Equation 19.6 highlights two important points. First, holding dividend policy constant, the amount of EFN depends on the firm’s projected growth rate. The faster management expects the firm to grow, the more the firm needs to invest in new assets, and the more capital it has to raise. The potential sources of external capital are the sale of new stock and the sale of long-term debt. Second, the firm’s payout policy also affects EFN. Holding the growth rate constant, the higher the firm’s dividend payout ratio, the larger the amount of external debt or equity financing needed. Also, since EFN is the net amount of external funding needed, the more stock a firm repurchases, the more new capital it must raise to satisfy its EFN requirements if EFN is positive.
+
+A Graphical View of Growth
+Exhibit 19.11 illustrates Equation 19.6—the relation between sales growth rate and EFN—for Empire Enterprises. The horizontal axis plots the firm’s projected growth rate, and the vertical axis plots EFN. The slope of the line illustrates how EFN increases with the growth rate, assuming that dividend policy is held constant. As you can see, the line is upward sloping. This means that as the growth rate increases, the amount of EFN increases.
+
+As a reference point in the exhibit, we plotted Empire’s EFN value of $5.2 million when the firm’s sales are growing at a 20 percent rate. If you want to generate the line yourself, all you need to do is make another calculation of EFN at a different growth rate, plot the points, and connect them with a straight line. However, the important point here is not the mechanics of generating the graph in Exhibit 19.11, but the interpretation of the line.
+
+Turning to the exhibit, you can see that at low growth rates Empire Enterprises will generate more funds from earnings than it will spend on new investments. In these situations, the calculated value for EFN is negative (EFN < 0), and the firm has a surplus of funds. In other words, the internally generated funds exceed the firm’s planned investments. With the surplus funds, management may elect to retire some debt or repurchase some common stock. For example, at a 0 percent rate of growth, no funds are needed for expansion, and all the retained earnings are surplus, as we can see by using Equation 19.6:
+
+With a higher growth rate, the surplus becomes smaller and smaller as more and more funds are used to finance the new investments. At a growth rate of 9.6 percent, the surplus equals zero, as does the calculated value of EFN. Next we explain how to calculate the growth rate at which the surplus equals zero. The key point here is that the higher the rate at which a firm grows, the more external funding it requires.
+
+EXHIBIT 19.11 External Funding Needed (EFN) and Growth for Empire Enterprises The exhibit graphically illustrates Equation 19.6, showing the connection between growth rate in sales and EFN. The horizontal axis plots the firm’s projected growth rate, and the vertical axis plots EFN. The upward slope of the line illustrates how external funding increases with the growth rate, assuming that the dividend policy is held constant.
+
+
+The Internal Growth Rate
+
+Management often has an interest in knowing the rate at which the firm can grow using just internally generated funds. This rate is called the internal growth rate (IGR). The IGR is the maximum growth rate that a firm can achieve without external funding. To determine this rate, we set Equation 19.6 equal to zero (EFN = 0) and solve for the growth rate. Thus,
+
+internal growth rate (IGR) the maximum growth rate that a firm can achieve without external funding
+
+Rearranging terms yields the internal growth rate:
+
+(19.7)
+The managerial implications of the formula are straightforward. Firms that can generate a higher volume of retained earnings and/or use fewer assets can sustain a higher growth rate without raising more capital. For the Empire Enterprises example, the internal growth rate is calculated as:
+
+To gain more insight into what factors determine a firm’s internal growth rate, we can manipulate Equation 19.7 by multiplying both the numerator and the denominator by net income and total equity, as follows:
+
+If we then rearrange terms, we arrive at the following expression:
+
+From the discussions in Chapter 4 and in this chapter, we know the following: (1) Plowback ratio = Addition to retained earnings/Net income; (2) Return on equity = Net income/Total equity; and (3) Equity multiplier = Total assets/Total equity.5 This means that we can write the above equation as:
+
+(19.8)
+Equation 19.8 tells us that firms that achieve higher growth rates without seeking external funding tend to have one or more of the following characteristics:
+
+They have payout policies that retain a high proportion of earnings inside the firm—that is, they have a high plowback ratio.
+They are able to generate a high net income with a smaller amount of equity than other firms and hence have a high return on equity (ROE).
+They use low amounts of leverage; thus, their debt-to-equity ratios are low.
+The Sustainable Growth Rate
+Another growth rate helpful in long-term planning is the sustainable growth rate (SGR), which is the rate of growth that the firm can sustain without selling additional equity while maintaining the same capital structure. You may wonder why management is interested in the sustainable growth rate. The sustainable growth rate is important to managers of firms that are likely to generate excess funds internally and that want to determine the payout ratio that enables them to fund their firms’ growth while maintaining their current capital structures.
+
+sustainable growth rate (SGR) the rate of growth that a firm can sustain without selling additional equity while maintaining the same capital structure
+
+The sustainable growth rate is the rate at which a firm can grow using only (1) internally generated funds from earnings and (2) external funds from the sale of new debt while maintaining a constant debt equity ratio. As it turns out, SGR is a function of the firm’s plowback ratio and return on equity (ROE). SGR can be expressed as follows:
+
+(19.9)SGR = Plowback ratio × ROE
+For Empire Enterprises, the sustainable growth rate is:
+
+The 13.3 percent rate is a fairly high SGR that is driven by the company’s rather hefty 33.3 percent return on equity.
+
+An analysis of a company’s SGR relative to the company’s actual growth rate can provide management with some insights into problems the firm may face in the future. For example, if a firm’s actual growth rate consistently exceeds its SGR, managers know that unless they sell new equity, the firm will have a cash shortage problem in the future because of the need to purchase new assets to generate the growth. The SGR model does not, however, tell management how fast the firm should grow. That decision requires informed judgment about the attractiveness of the investment opportunities available to the firm.
+
+Decision Making Example 19.2 and Learning by Doing Application 19.3 illustrate applications of the EFN, IGR, and SGR concepts.
+
+DECISION MAKING EXAMPLE 19.2
+Empire’s Ambitious Growth Plan
+
+Situation
+
+You are part of the Empire Enterprises finance team. The firm’s strategic plan calls for revenues to grow at 20 percent next year. As mentioned, the board of directors is not interested in using any external equity funding. Some members of the team question whether these goals are realistic.
+
+You have just been asked to comment on the proposed growth plan at a meeting. You have a little over an hour to prepare. During the time available, you completed the following calculations using data from the most recent and the pro forma income statements and balance sheets (Exhibits 19.9 and 19.10):
+
+EFN = (Growth rate × Initial total assets) − Addition to retained earnings = (0.20 × $50 million) − $4.8 million = $5.2 million
+IGR = Addition to retained earnings/Initial assets = $4.8 million/$50 million = 0.096, or 9.6%
+SGR = Plowback ratio × ROE = 0.40 × 0.333 = 0.133, or 13.3%
+Given the above information, what can you say about this ambitious growth plan?
+
+
+
+LEARNING BY DOING APPLICATION 19.3
+Sustainable Growth and Financial Statements
+
+Problem
+
+Because of your presentation (see Decision Making Example 19.2), Empire’s top management team has had second thoughts about its goal of growing the firm by 20 percent during the next year. As a result, you must prepare pro forma financial statements at a sales growth rate equal to the firm’s SGR of 13.3 percent.
+
+
+
+
+
+Growth Rates and Profits
+So far, we have focused on a firm’s rate of growth. In the final analysis, however, the critical question in business is not how fast the firm can grow, but whether the firm can sustain rapid growth and maintain a satisfactory level of profits. In reality, it is very difficult to achieve and sustain rapid growth in a competitive market and remain profitable. The business arena is littered with failed growth firms like Crumbs Bake Shop.
+
+To provide a reality check, only 7 percent of publicly traded U.S. companies increase both revenues and operating profits by an average of 10 percent a year. Experts generally agree that growth rates at or above 10 percent are very difficult to sustain for established companies.
+
+Growth as a Planning Goal
+The final question we address is whether growth by itself is an acceptable strategic goal. We pose this question because it is common for top management to set growth rates as goals for the firm or operating divisions. In fact, there is nothing a CEO likes to do better at the annual meeting than point out that “last year, under my leadership, Sleepy Hollow exceeded its goal of 10 percent growth,” and have it followed by a hearty round of applause. Growth rate goals are popular because they are easy to communicate and understand. But are they appropriate goals for financial planning? The short answer is “no.” Let’s consider why this is the case.
+
+As we discussed in Chapter 1, an appropriate goal for management is maximizing the market value of stockholders’ equity. If management invests in productive assets with positive NPVs, finances them at the lowest possible cost, and skillfully manages these assets, the company should be profitable and grow in size. This growth results from making sound business decisions and executing strategies that create sustainable competitive advantages over the long term. Thus, growth is an acceptable goal as long as it is anchored to a sound business strategy that will generate an increase in stockholder value.
+
+Before You Go On
+What two factors determine the amount of EFN?
+What is IGR, and why is it of interest to management?
+If a firm continually exceeds its SGR, what problems may it face in the future?
+
+Visit the website of Forbes for a list of the 100 fastest-growing companies: fortune.com/100-fastest-growing-companies/
+
+Summary of Learning Objectives
+1 Explain what a financial plan is and why financial planning is important.
+
+A financial plan is a set of actionable goals derived from the firm’s strategic plan and other planning documents, such as the investment and financing plans. The financial plan focuses on selecting the best investment opportunities and determining how they will be financed. The financial plan is a blueprint for the firm’s future. Financial planning is important to management because the plan communicates the firm’s strategic goals throughout the organization, builds support for the firm’s strategies, and helps align operating unit goals with the firm’s strategic goals.
+
+2 Discuss how management uses financial planning models in the planning process, and explain the importance of sales forecasts in the construction of financial planning models.
+
+Financial models are the analytical part of the financial planning process. A planning model is simply a series of equations that model a firm’s financial statements, such as the income statement and balance sheet. Once the model is constructed, management can generate projected (pro forma) financial statements to determine the financial impact of proposed strategic initiatives on the firm.
+
+For most financial planning models, a forecast of the firm’s sales is the most important input variable. The sales forecast is the key driver in financial planning models because many items on the income statement and balance sheet vary directly with sales. Thus, once sales are forecasted, it is easy to generate projected financial statements using the historical relation between a particular account and sales.
+
+3 Discuss how the relation between projected sales and the income statement and balance sheet accounts can be determined, and analyze a strategic investment decision using a percent of sales model.
+
+Historical financial data can be examined to determine whether and how a variable changes with sales. One way to do this is to prepare a table that shows four or five years of historical financial statement account data as a percent of sales. You can then fit trend lines to the data to see what type of relation exists between that variable and sales. Many income statement and balance sheet items vary directly with sales, but others may vary in a more discrete manner. The analysis in the Blackwell Sales Company example illustrates how to analyze a strategic investment decision.
+
+4 Describe the conditions under which fixed assets vary directly with sales, and discuss the impact of so-called lumpy assets on this relation.
+
+Fixed assets vary directly with sales only when assets can be added in small increments and production facilities are operating near full capacity. This is typically not the case. In most situations, fixed assets are added in large, discrete units, and as a result, much of the new capacity may go unused for a period of time. These types of assets are often called lumpy assets. After lumpy assets are added, sales can increase for a period of time with no corresponding change in the level of fixed assets.
+
+5 Explain what factors determine a firm’s sustainable growth rate, discuss why it is of interest to management, and compute the sustainable growth rate for a firm.
+
+A firm’s sustainable growth rate (SGR) is the maximum rate at which the firm can grow without external equity funding and with leverage held constant. The determinants of a firm’s SGR are (1) profit margins (the greater a firm’s profit margin, the greater the firm’s SGR); (2) asset utilization (the more efficiently a firm uses its assets, the higher its SGR); (3) financial leverage (as a firm increases its use of leverage, its SGR increases); (4) payout policy (as a firm decreases its payout ratio, its SGR increases); and (5) economic conditions (the more favorable the economic environment, the higher the firm’s SGR). Management may be interested in knowing the SGR for two reasons. First, the SGR is the rate of growth at which a firm’s capital structure (debt to equity) will remain constant without the firm selling or repurchasing stock. Second, if a firm’s actual growth rate exceeds its SGR, the firm could face cash shortage problems in the future unless it can sell new equity. Learning by Doing Application 19.3 uses the SGR formula.
+
+Summary of Key Equations
+Equation	Description	Formula
+19.1	Percent change in sales	
+19.2	Percent of net income paid out as dividends	
+19.3	Percent of net income retained (plowed back into the firm)	
+19.4	Amount of assets needed to generate $1 of sales	
+19.5 & 19.6	External funding needed to support growth in sales	EFN = New investments − Addition to retained earnings = (Growth rate × Initial total assets) − Addition to retained earnings
+19.7&19.8	Internal growth rate (level of growth that can be supported without raising external funds)	
+19.9	Sustainable growth rate (level of growth that can be supported without raising external equity or increasing current leverage)	SGR = Plowback ratio × ROE
+Self-Study Problems
+19.1 The Starlight, Inc., financial statements for the fiscal year ended June 30, 2021, are presented below. The firm’s sales are projected to grow at a rate of 20 percent next year, and all financial statement accounts will vary directly with sales. Based on that projection, develop a pro forma balance sheet and income statement for the fiscal year ending June 30, 2022.
+
+Starlight, Inc., Balance Sheet as of June 30, 2021
+Assets	 	Liabilities and Stockholders’ Equity
+Cash	$ 25,135	 	Accounts payable	$ 67,855
+Accounts receivable	43,758	 	Notes payable	36,454
+Inventories	 167,112	 		
+Total current assets	$236,005	 	Total current liabilities	$104,309
+Net fixed assets	325,422	 	Long-term debt	223,125
+Other assets	13,125	 	Common stock	150,000
+ 	Retained earnings	 97,118
+ Total assets	$574,552	 	 Total liabilities and equity	$574,552
+Starlight, Inc., Income Statement for the Fiscal Year Ended June 30, 2021
+Net sales	$1,450,000
+Costs	 812,500
+EBITDA	$ 637,500
+Depreciation	  175,000
+EBIT	$ 462,500
+Interest	   89,575
+EBT	$ 372,925
+Taxes (35%)	 130,524
+Net income	$ 242,401
+
+
+19.2 Use the financial information for Starlight from Self-Study Problem 19.1. Assume now that equity accounts do not vary directly with sales but change when retained earnings change or new equity is issued. The company pays 45 percent of its income as dividends every year. In addition, the company plans to expand production capacity by building a new facility that will cost $225,000. The firm has no plans to issue new equity this year, and any funds that need to be raised will be raised through the sale of long-term debt. Prepare a pro forma balance sheet using this information.
+
+
+
+19.3 Use the financial statements from Self-Study Problem 19.1 and the information from Self-Study Problem 19.2 to calculate Starlight’s retention (plowback) ratio, external funds needed (EFN), internal growth rate (IGR), and sustainable growth rate (SGR).
+
+
+
+19.4 Northwood Corp. has a dividend payout ratio of 60 percent, return on equity of 14.5 percent, total assets of $11,500,450, and equity of $4,652,125. Calculate the firm’s internal rate of growth (IGR).
+
+
+
+19.5 Renewal Company has net income of $1.25 million and a dividend payout ratio of 35 percent. It currently has equity of $2,875,223. What is the firm’s sustainable growth rate (SGR)?
+
+
+
+Discussion Questions
+19.1 What is financial planning? What four types of plans/budgets are involved in financial planning?
+
+19.2 Why is the capital budget an important part of a firm’s financial planning?
+
+19.3 Why do financing and investment decisions have to be made concurrently?
+
+19.4 Explain how sales can be used to develop pro forma financial statements.
+
+19.5 Why is sales not always a good measure to use in forecasting fixed assets?
+
+19.6 List all the accounts that can be affected by the “plug” value. How does this value help managers?
+
+19.7 Explain why the fixed asset account may or may not vary with sales.
+
+19.8 How does the dividend payout ratio affect the amount of funds needed to finance growth?
+
+19.9 Define internal growth rate (IGR). Identify the characteristics of a high-growth firm that has no external funds needed.
+
+19.10 What is the sustainable growth rate (SGR)? Why is it important?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+19.1 Strategic plan: Explain the importance of the strategic plan.
+
+19.2 Capital budget: What are the various steps in preparing a capital budget?
+
+19.3 Financing plan: What are the elements of a financing plan?
+
+19.4 Financial planning: Identify the steps in the financial planning process.
+
+19.5 Financial modeling: List the various elements of financial modeling.
+
+19.6 Payout ratio: Define the retention (plowback) ratio and the dividend payout ratio.
+
+19.7 Addition to retained earnings: Northwood, Inc., has revenue of $455,316, costs of $316,487, and a tax rate of 31 percent. If the firm pays out 45 percent of its earnings as dividends every year, how much earnings are retained, and what is the firm’s retention ratio?
+
+19.8 Payout and retention ratio: Goodwin Corp. has revenues of $12,112,659, costs of $9,080,545, interest payments of $412,375, and a tax rate of 27 percent. It paid dividends of $1,025,000 to its stockholders. What are the firm’s dividend payout ratio and retention ratio?
+
+19.9 Percent of sales: Cattail Corporation’s financial statements for the fiscal year just ended are shown below:
+
+Cattail Corporation Financial Statements for Fiscal Year Just Ended ($ thousands)
+Income Statement	 	Balance Sheet
+Net sales	$1,500	 	Assets	$700	Debt	$600
+Costs	  350	 			Equity	 100
+Net income	$1,150	 	Total	$700	Total	$700
+Cattail management expects sales to increase by 14 percent next year. Assume that the financial statement accounts vary directly with changes in sales and that management has no financing plan at this time. Given this information, develop a pro forma income statement for Cattail for the next fiscal year.
+
+19.10 Percent of sales: Given the data for Cattail Corporation in Problem 19.9, and assuming that all balance sheet items also vary with the change in sales, develop a pro forma balance sheet for Cattail for the next fiscal year. Assuming that the firm did not sell or repurchase stock, what is the cash dividend implied by the pro forma income statement and balance sheet?
+
+19.11 Capital intensity ratio: Define capital intensity ratio, and explain its significance.
+
+19.12 Capital intensity ratio: Tantrix Confectioners has total assets of $3,257,845 and net sales of $5,123,951. What is the firm’s capital intensity ratio?
+
+19.13 Capital intensity ratio: McDonald Metal Works has been able to generate net sales of $13,445,196 on assets of $9,145,633. What is the firm’s capital intensity ratio?
+
+19.14 Capital intensity ratio: For McDonald Metal Works in Problem 19.13, how much must net sales grow if the capital intensity ratio has to drop to 60 percent? State your answer as both a percent of sales and a dollar sales increase.
+
+19.15 Internal growth rate: Swan Supply Company has net income of $1,212,335 and assets of $12,522,788, and it retains 70 percent of its income every year. What is the company’s internal growth rate?
+
+19.16 Sustainable growth rate: If Newell Corp. has a ROE of 13.7 percent and a dividend payout ratio of 32 percent, what is its sustainable growth rate?
+
+19.17 EFN and growth: Refer to Exhibits 19.10 and 19.11 in the text. The EFNs for several growth rates for Empire Enterprises are as follows:
+
+Growth Rate (%)	EFN ($ millions)
+0%	−$4.8
+5	−2.3
+9.6	0.0
+10	0.2
+15	2.7
+20	5.2
+Check the calculations and plot the line to replicate the graph in Exhibit 19.11.
+
+Intermediate
+19.18 Retention ratio: Refer to Problem 19.7. Northwood expects to increase its sales by 15 percent next year. All costs vary directly with sales. If Northwood wants to retain $65,000 of earnings next year, will it have to change its dividend payout ratio? If so, what will be the new dividend payout and retention ratios for the firm?
+
+19.19 Capital intensity: Identify two industries (other than airlines) that are capital intensive. Using online or other data sources, compute the capital intensity ratio for the largest firm in each of the chosen industries.
+
+19.20 Percent of sales: Tomey Supply Company’s financial statements for the most recent fiscal year are shown here. Management projects that sales will increase by 20 percent next year. Assume that all costs and assets increase directly with sales. The company has a constant 33 percent dividend payout ratio and has no plans to issue new equity. Any financing needed will be raised through the sale of long-term debt. Prepare pro forma financial statements for the coming year based on this information, and calculate the EFN for Tomey.
+
+Tomey Supply Company Income Statement and Balance Sheet
+Income Statement	 	Balance Sheet
+Net sales	$1,768,121	 	Assets:	
+Costs	 1,116,487	 	Current assets	$280,754
+EBT	$ 651,634	 	Net fixed assets	713,655
+Taxes (28%)	  182,458	 	 Total assets	$994,409
+Net income	$ 469,176	 		
+ 	Liabilities and equity:	
+ 	Current liabilities	$167,326
+ 	Long-term debt	319,456
+ 	Common stock	200,000
+ 	Retained earnings	307,627
+ 	 Total liabilities and equity	$994,409
+19.21 Internal growth rate: Using the pro forma financial statements for Tomey Supply Company developed in Problem 19.20, find the internal growth rate for Tomey.
+
+19.22 Sustainable growth rate: Use the following pro forma information for Tomey Supply Company for next year: net income = $563,012; addition to retained earnings = $377,218; common equity = $884,845; net sales = $2,121,745. Assume that management does not want the ratio of long-term debt to equity to exceed the current long-term debt-to-equity ratio of 63 percent and also does not want to issue new equity. What level of sales growth can Tomey Supply Company sustain? Calculate the new sales at this level of sustainable growth.
+
+19.23 Sustainable growth rate: Rowan Company has a net profit margin of 8.3 percent, debt ratio of 45 percent, total assets of $4,157,550, and sales of $6,852,654. If the company has a dividend payout ratio of 67 percent, what is its sustainable growth rate?
+
+19.24 Sustainable growth rate: Refer to the information for Rowan Company in Problem 19.23. The firm’s management desires a sustainable growth rate of 10 percent but does not wish to change the company’s level of debt or its payout ratio. What will the firm’s new net profit margin have to be in order to achieve the desired growth rate?
+
+19.25 Sustainable growth rate: Rocky Sales, Inc., has current sales of $1,215,326 and net income of $211,253. It also has a debt ratio of 25 percent and a dividend payout ratio of 75 percent. The company’s total assets are $712,455. What is its sustainable growth rate?
+
+19.26 Sustainable growth rate: Ellicott Textile Mills management has reported the following financial information for the year ended September 30, 2021. The company generated a net income of $915,366 on a net profit margin of 6.4 percent. It has a dividend payout ratio of 50 percent, a capital intensity ratio of 62 percent, and a debt ratio of 45 percent. What is the company’s sustainable growth rate?
+
+19.27 Internal growth rate: Given the information in Problem 19.26, what is the internal growth rate of Ellicott Textile Mills?
+
+19.28 Internal growth rate: Fantasy Travel Company has a return on equity of 17.5 percent, a total equity/total assets ratio of 65 percent, and a dividend payout ratio of 75 percent. What is the company’s internal growth rate?
+
+19.29 EFN: Maryland Micro Brewers generated revenues of $12,125,800 with a 72 percent capital intensity ratio during the year ended September 30, 2021. Its net income was $873,058. With the introduction of a half dozen new specialty beers, management expects to grow sales by 15 percent next year. Assume that all costs vary directly with sales and that the firm maintains a dividend payout ratio of 70 percent. What will be the EFN needed by this firm? If the company wants to raise no more than $750,000 externally and is not averse to adjusting its dividend payout policy, what will be the new dividend payout ratio?
+
+19.30 EFN: Ritchie Marble Company has total assets of $12,899,450, sales of $18,174,652, and net income of $4,589,774. Management expects sales to grow by 25 percent next year. All assets and costs (including taxes) vary directly with sales, and management expects to maintain a payout ratio of 65 percent. Calculate Ritchie’s EFN.
+
+19.31 EFN: Norton Group, Inc., expects to add $1,213,777 to retained earnings and currently has total assets of $23,159,852. If the company has the ability to borrow up to $1 million, how much growth can the firm support if it is willing to borrow to its maximum capacity?
+
+19.32 EFN: Capstone Marketing Group has total assets of $5,568,000, sales of $3,008,725, and net income of $822,000. The company expects its sales to grow by 12 percent next year. All assets and costs (including taxes) vary directly with sales, and the firm expects to maintain a payout ratio of 55 percent. Calculate Capstone’s EFN.
+
+19.33 Maximum sales growth: Given the data for Capstone Marketing Group in Problem 19.32, what would Capstone’s payout ratio have to be for the firm’s EFN to be zero?
+
+19.34 Maximum sales growth: Rockville Consulting Group expects to add $271,898 to retained earnings this year. The company has total assets of $3,425,693 and wishes to add no new external funds for the coming year. If assets and costs vary directly with sales, how much sales growth can the company support while retaining an EFN of zero? What is the firm’s internal growth rate?
+
+Advanced
+19.35 The financial statements for the year ended June 30, 2021, are given below for Morgan Construction Company. The firm’s sales are projected to grow at a rate of 25 percent next year, and all financial statement accounts will vary directly with sales. Based on that projection, develop a pro forma balance sheet and a pro forma income statement for the 2022 fiscal year.
+
+Morgan Construction Company Balance Sheet as of June 30, 2021
+Assets	 	Liabilities and Stockholders’ Equity
+Cash	$ 3,349,239	 	Accounts payable	$ 9,041,679
+Accounts receivable	5,830,754	 	Notes payable	4,857,496
+ 		  
+Inventories	22,267,674	 	Total current liabilities	$13,899,175
+ 		
+Total current assets	$31,447,667	 	Long-term debt	29,731,406
+Net fixed assets	43,362,482	 	Common stock	19,987,500
+Other assets	 1,748,906	 	Retained earnings	12,940,974
+ Total assets	$76,559,055	 	 Total liabilities and equity	$76,559,055
+Morgan Construction Company Income Statement for the Fiscal Year Ended June 30, 2021
+Net sales	$193,212,500
+Costs	45,265,625
+EBITDA	$ 47,946,875
+Depreciation	 23,318,750
+EBIT	$ 24,628,125
+Interest	11,935,869
+EBT	$ 12,692,256
+Taxes (28%)	  4,442,290
+Net income	$ 8,249,966
+19.36 Use the financial information for Morgan Construction Company from Problem 19.35. Assume now that equity accounts do not vary directly with sales but change when retained earnings change or new equity is issued. The company pays 75 percent of its income as dividends every year. In addition, the company plans to expand production capacity by expanding the current facility and acquiring additional equipment. This will cost the firm $10 million. The firm has no plans to issue new equity this year. Prepare a pro forma balance sheet using this information. Any funds that need to be raised (in addition to changes in current liabilities) will be in the form of long-term debt. What is the external funding needed in this case?
+
+19.37 Using the information for Morgan Construction Company in the preceding problem, calculate the firm’s internal growth rate and sustainable growth rate.
+
+19.38 Use the information for Morgan Construction Company from Problems 19.35 and 19.36. Assume that equity accounts do not vary directly with sales, but change when retained earnings change or new equity is issued. The company’s long-term debt-to-equity ratio is approximately 90 percent, and its equity-to-total-assets ratio is about 43 percent. The company management wishes to increase its equity-to-total-assets ratio to at least 50 percent. Management is willing to reduce the company’s payout ratio but will retain no more than 40 percent of earnings. The company will raise any additional funds needed, including funds for expansion, by selling new equity. No new long-term debt will be issued. Prepare pro forma statements to reflect this new scenario.
+
+What is the external funding needed to accommodate the expected growth?
+What is the firm’s internal growth rate?
+What is the firm’s sustainable growth rate?
+How much new equity will the firm have to issue?
+What is the firm’s new equity ratio and debt-to-equity ratio?
+19.39 Munson Communications Company management has just reported earnings for the year ended June 30, 2021. Following are the firm’s income statement and balance sheet. The company has had a 55 percent dividend payout ratio for the last 10 years, and management does not plan to change this policy. Based on internal forecasts, management expects sales growth in 2022 to be 20 percent. Assume that equity accounts and long-term debt do not vary directly with sales but change when retained earnings change or additional capital is issued.
+
+Munson Communications Company Balance Sheet as of June 30, 2021
+Assets	 	Liabilities and Stockholders’ Equity
+Cash	$ 1,728,639	 	Accounts payable	$ 4,666,673
+Accounts receivable	3,009,421	 	Notes payable	2,507,094
+ 		
+Inventories	11,492,993	 	Total current liabilities	$ 7,173,767
+ 		
+Total current assets	$16,231,054	 	Long-term debt	13,345,242
+Net fixed assets	22,380,636	 	Common stock	10,165,235
+Other assets	 1,748,906	 	Retained earnings	 9,676,351
+ Total assets	$40,360,595	 	 Total liabilities and equity	$40,360,595
+Munson Communications Company Income Statement for the Fiscal Year Ended June 30, 2021
+Net sales	$79,722,581
+Costs	59,358,499
+EBITDA	$20,364,082
+Depreciation	 7,318,750
+EBIT	$13,045,332
+Interest	 3,658,477
+EBT	$ 9,386,855
+Taxes (35%)	3,285,399
+Net income	$ 6,101,456
+What is the firm’s internal growth rate (IGR)?
+What is the firm’s sustainable growth rate (SGR)?
+What is the external funding needed (EFN) to accommodate the expected growth?
+Construct the firm’s 2022 pro forma financial statements under the assumption that long-term debt will provide all external funding.
+Sample Test Problems
+19.1 Mars Company had net sales of $18 million in the year that just ended. Next year, the company’s management expects a 15 percent increase in sales. If cost of goods sold is 60 percent of sales and inventory is 25 percent of sales, what would you estimate sales, inventory, and cost of goods sold to be next year?
+
+19.2 Lavaca Inc. management expects net sales to be $855,000, total costs to be $647,000, and average tax rate to be 24 percent this year. If Lavaca pays out 38 percent of its earnings as dividends, what is its retention ratio? How much will Lavaca’s retained earnings increase?
+
+19.3 Spurlock Inc. had net income of $266,778 in its most recent fiscal year and total assets of $1,833,400 at the end of the year. The company’s total debt ratio (total debt to total assets) is 35 percent, and Spurlock retains 60 percent of its income every year. What is Spurlock’s internal growth rate? What is its sustainable growth rate?
+
+19.4 Using the information in Sample Test Problem 19.3, what is Spurlock’s capital intensity ratio if the company has net sales of $3,557,100? What does this ratio tell us?
+
+19.5 Edgefield Excavation Company has total assets of $4,976,456, sales of $1,225,700, and net income of $587,000. The company’s management expects sales to grow by 9 percent next year. All costs (including taxes) and assets vary directly with sales, and the firm expects to maintain a payout ratio of 35 percent. Calculate the external funds needed (EFN) by Edgefield. What would Edgefield’s payout ratio have to be in order for the company’s EFN to equal zero?
+
+Notes
+1 The investment plan consists of the capital budget plus any acquisitions or divestitures management plans to make. To simplify our discussion in this chapter, we treat the investment plan and capital budget as one and the same because, for most firms, acquisitions and divestitures are not regular events.
+2 The phrase pro forma is a Latin term that literally means “as a matter of form.” In its modern context in finance and accounting, pro forma refers to data that are hypothetical.
+3 Note that to simplify the analysis, some of the income statement and balance sheet accounts used in the planning model are aggregated. For example, in our initial planning model, the balance sheet lists only total assets, debt, and equity.
+4 Alternatively, we could have redone the preliminary pro forma balance sheet and found: total assets = $1.3 million and total liabilities and stockholders’ equity = $1.301 million ($244,000 + $200,000 + $857,000 = $1,301,000). Since total liabilities and stockholders’ equity is greater than total assets, we have more funds than we need. To make the balance sheet balance, we can reduce the notes payable by $1,000.
+5 Note that the measure of leverage in Equation 19.8, Total equity/Total assets, is the inverse of the equity multiplier, Equation 4.11.

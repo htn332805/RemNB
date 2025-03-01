@@ -1,0 +1,1500 @@
+√page 585
+
+PART 6
+
+Corporate and Government Bonds
+
+
+
+“Creditors have better memories than debtors.”
+
+–Benjamin Franklin
+
+Learning Objectives
+
+Conform to your fixed-income knowledge covenants by learning:
+
+The basic types of corporate bonds.
+
+How callable and convertible bonds function.
+
+The different types of government bonds.
+
+The basics of bond ratings.
+
+Corporations and governments issue bonds intending to meet all obligations of interest and repayment of principal. Investors buy bonds believing that the corporation or government intends to fulfill its debt obligation in a timely manner. Although defaults can and do occur, the market for bonds exists only because borrowers are able to convince investors of their original intent to avoid default. Reaching this state of trust is not easy—it normally requires elaborate contractual arrangements.
+
+Almost all corporations issue notes and bonds to raise money to finance investment projects. Indeed, for many corporations, the value of notes and bonds outstanding can exceed the value of common stock shares outstanding. Nevertheless, many investors do not think of corporate bonds when they think about investing. Most investors, however, are well aware that sovereign governments, particularly the U.S. federal government, issue substantial amounts of debt. Investors might not immediately think about the corporate bond market because the largest and most important debt market is that for debt issued by the U.S. government. This market is truly global because a large share of federal debt is sold to foreign investors. As a result, the U.S. government debt market sets the tone for debt markets around the world. In this chapter, we examine securities issued by corporations, as well as by federal, state, and local governments. These securities represent a combined value of many trillions of dollars.
+
+CFATM Exam Topics in This Chapter:
+
+Fixed-income securities: Defining elements (L1, S16)
+
+Fixed-income markets: Issuance, trading, and funding (L1, S16)
+
+Understanding fixed-income risk and return (L1, S17)
+
+Fundamentals of credit analysis (L1, S17)
+
+Valuation and analysis: Bonds with embedded options (L2, S13)
+
+Introduction to fixed-income portfolio management (L3, S11)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 586
+
+18.1 Corporate Bond Basics
+Corporate bonds represent the debt of a corporation owed to its bondholders. More specifically, a corporate bond is a security issued by a corporation that represents a promise to pay to its bondholders a fixed sum of money at a future maturity date, along with periodic payments of interest. The fixed sum paid at maturity is the bond’s principal, also called its par or face value. The periodic interest payments are called coupons.
+
+For more information on corporate bonds, visit
+investinginbonds.com.
+
+From an investor’s point of view, corporate bonds represent an investment distinct from common stock. The three most fundamental differences are:
+
+Common stock represents an ownership claim on the corporation, whereas bonds represent a creditor’s claim on the corporation.
+
+Promised cash flows—that is, coupons and principal—to be paid to bondholders are stated in advance when the bond is issued. By contrast, the amount and timing of dividends paid to common stockholders may change at any time.
+
+Most corporate bonds are issued as callable bonds, which means that the bond issuer has the right to buy back outstanding bonds before the maturity date of the bond issue. When a bond issue is called, coupon payments stop and the bondholders are forced to surrender their bonds to the issuer in exchange for the cash payment of a specified call price. By contrast, common stock is almost never callable.
+
+The corporate bond market is large, with several trillion dollars of corporate bonds outstanding in the United States. The sheer size of the corporate bond market prompts an important inquiry: Who owns corporate bonds and why? The answer is that most corporate bond investors belong to only a few distinct categories. The single largest group of corporate bond investors is life insurance companies, which hold about 20 percent of all outstanding corporate bonds. Remaining ownership is spread among individual investors, pension funds, banks, and foreign investors.
+
+The pattern of corporate bond ownership is largely explained by the fact that corporate bonds provide a source of predictable cash flows. While individual bonds occasionally default on their promised cash payments, large institutional investors can diversify away most default risk by including a large number of different bond issues in their portfolios. Thus, life insurance companies and pension funds find that corporate bonds are a natural investment vehicle to provide for future payments of retirement and death benefits because both the timing and amount of these benefit payments can be matched with bond cash flows. These institutions can eliminate much of their financial risk by matching the timing of cash flows received from a bond portfolio to the timing of cash flows needed to make benefit payments—a strategy called cash flow matching. For this reason, life insurance companies and pension funds together own more than half of all outstanding corporate bonds. For similar reasons, individual investors might own corporate bonds as a source of steady cash income. However, since individual investors cannot easily diversify default risk, they should normally invest only in bonds with higher credit quality or in a bond mutual fund.
+
+Every corporate bond issue has a specific set of issue terms associated with it. The issue terms associated with any particular bond can range from a relatively simple arrangement, where the bond is little more than an IOU of the corporation, to a complex contract specifying in great detail what the issuer can and cannot do with respect to its obligations to bondholders. Bonds issued with a standard, relatively simple set of features are popularly called plain vanilla bonds or “bullet” bonds.
+
+plain vanilla bonds
+
+Bonds issued with a relatively standard set of features. Also known as bullet bonds.
+
+As an illustration of a plain vanilla corporate debt issue, Table 18.1 summarizes the issue terms for a note issue by Jack Russell Corp. Referring to Table 18.1, we see that the Jack Russell Corp. notes were issued in December 2019 and mature five years later in December 2024. Each individual note has a face value denomination of $1,000. Because the total issue amount is $20 million, the entire issue contains 20,000 notes. Each note pays a $100 annual coupon, which is equal to 10 percent of its face value. The annual coupon is split between two semiannual $50 payments made each June and December. Based on the original offer price of 100, which means 100 percent of the $1,000 face value, the notes have a yield to maturity of 10 percent. The notes are not callable, which means that the debt may not be paid off before maturity.
+
+page 587
+
+Jack Russell Corp. Five-Year Note Issue
+
+TABLE 18.1
+
+Issue amount	$20 million	Note issue total face value is $20 million
+Issue date	12/15/2019	Notes offered to the public in December 2019
+Maturity date	12/31/2024	Remaining principal due December 31, 2024
+Face value	$1,000	Face value denomination is $1,000 per note
+Coupon interest	$100 per annum	Annual coupons are $100 per note
+Coupon dates	6/30, 12/31	Coupons are paid semiannually
+Offering price	100	Offer price is 100 percent of face value
+Yield to maturity	10%	Based on stated offer price
+Call provision	Not callable	Notes may not be paid off before maturity
+Security	None	Notes are unsecured
+Rating	Not rated	Privately placed note issue
+The Jack Russell Corp. notes are unsecured debt, which means that no specific collateral has been pledged as security for the notes. Unsecured debt is often referred to as debentures. In the event that the issuer defaults on its promised payments, the note holders may take legal action to acquire sufficient assets of the company to settle their claims as creditors. They might, however, have to share this claim with other creditors who have an equal legal claim or yield to creditors with a higher legal claim.
+
+unsecured debt
+
+Bonds, notes, or other debt issued with no specific collateral pledged as security for the bond issue. Also called debentures.
+
+When issued, the Jack Russell Corp. notes were not reviewed by a rating agency like Moody’s or Standard & Poor’s. Thus, the notes are unrated. If the notes were to be assigned a credit rating, they would probably be rated as “junk grade.” The term “junk,” commonly used for high-risk debt issues, is unduly pejorative. After all, the company must repay the debt. If the company is in a high-risk industry, however, the probability is high that the company might have difficulty paying off the debt in a timely manner.
+
+Reflecting their below-average credit quality, the Jack Russell Corp. notes were not issued to the general public. Instead, the notes were privately placed with two insurance companies. Such private placements are common among relatively small debt issues. Private placements will be discussed in greater detail later in this chapter.
+
+CHECK THIS
+
+
+
+18.1aWhat are the fundamental differences between corporate bonds and stock?
+
+18.1bWhy do corporate bonds represent an attractive investment for insurance companies?
+
+18.2 Corporate Bond Indentures
+A bond indenture is a formal written agreement between the corporation and the bondholders. It is an important legal document that spells out in detail the mutual rights and obligations of the corporation and the bondholders with respect to the bond issue. Indenture contracts are often quite long, sometimes several hundred pages, and make for very tedious reading. In fact, very few bond investors ever read the original indenture, but instead might refer to an indenture summary provided in the prospectus that was circulated when the bond issue was originally sold to the public. Alternatively, a summary of the most important features of an indenture is published by debt rating agencies.
+
+prospectus
+
+Document prepared as part of a security offering detailing information about a company’s financial position, its operations, and its investment plans.
+
+indenture summary
+
+Description of the contractual terms of a new bond issue included in a bond’s prospectus.
+
+The Trust Indenture Act of 1939 requires that any bond issue subject to regulation by the Securities and Exchange Commission (SEC), which includes most corporate bond and note issues sold to the general public, must have a trustee appointed to represent the page 588interests of the bondholders. Also, all responsibilities of a duly appointed trustee must be specified in detail in the indenture. Some corporations maintain a blanket or open-ended indenture that applies to all currently outstanding bonds and any new bonds that are issued, while other corporations write a new indenture contract for each new bond issue sold to the public.
+
+The Trust Indenture Act of 1939 is available at the SEC website,
+sec.gov.
+
+The Trust Indenture Act of 1939 does not require an indenture when a bond issue is not sold to the general public. For example, the bonds might be sold only to one or more financial institutions in what is called a private placement. Private placements are exempt from registration requirements with the SEC. Nevertheless, even privately placed debt issues often have a formal indenture contract. Next, we present some of the most important provisions frequently specified in a bond indenture agreement.
+
+private placement
+
+A new bond issue sold to one or more parties in private transactions not available to the public.
+
+BOND SENIORITY PROVISIONS
+A corporation may have several different bond issues outstanding; these issues normally can be differentiated according to the seniority of their claims on the firm’s assets. Seniority usually is specified in the indenture contract.
+
+Consider a corporation with two outstanding bond issues: (1) a mortgage bond issue with certain real estate assets pledged as security and (2) a debenture bond issue with no specific assets pledged as security. In this case, the mortgage bond issue has a senior claim on the pledged assets but no specific claim on other corporate assets. The debenture bond has a claim on all corporate assets not specifically pledged as security for the mortgage bond, but it would have only a residual claim on assets pledged as security for the mortgage bond issue. This residual claim would apply only after all obligations to the mortgage bondholders have been satisfied.
+
+As another example, suppose a corporation has two outstanding debenture issues. In this case, seniority is normally assigned to the bonds first issued by the corporation. The bonds issued earliest have a senior claim on the pledged assets and are called senior debentures. The bonds issued later have a junior or subordinate claim and are called subordinated debentures.
+
+senior debentures
+
+Bonds that have a higher claim on the firm’s assets than other bonds.
+
+subordinated debentures
+
+Bonds that have a claim on the firm’s assets after those with a higher claim have been satisfied.
+
+The seniority of an existing debt issue is usually protected by a negative pledge clause in the bond indenture. A negative pledge clause prohibits a new issue of debt with seniority over a currently outstanding issue. However, it may allow a new debt issue to share equally in the seniority of an existing issue. A negative pledge clause is part of the indenture agreement of most senior debenture bonds.
+
+negative pledge clause
+
+Bond indenture provision that prohibits new debt from being issued with seniority over an existing issue.
+
+CALL PROVISIONS
+Most corporate bond issues have a call provision allowing the issuer to buy back all or part of its outstanding bonds at a specified call price sometime before the bonds mature. The most frequent motive for a corporation to call outstanding bonds is to take advantage of a general fall in market interest rates. Lower interest rates allow the corporation to replace currently outstanding high-coupon bonds with a new issue of bonds paying lower coupons. Replacing existing bonds with new bonds is called bond refunding.
+
+bond refunding
+
+Process of calling an outstanding bond issue and refinancing it with a new bond issue.
+
+TRADITIONAL FIXED-PRICE CALL PROVISIONS There are two major types of call provisions, traditional fixed-price and make-whole. From an investor’s point of view, a fixed-price call provision has a distinct disadvantage. For example, suppose an investor is currently holding bonds paying 10 percent coupons. Further suppose that, after a fall in market interest rates, the corporation is able to issue new bonds that only pay 8 percent coupons. By calling existing 10 percent coupon bonds, the issuer forces bondholders to surrender their bonds in exchange for the fixed call price, which happens at a time when the bondholders can reinvest funds only at lower interest rates. If instead the bonds were noncallable, the bondholders would continue to receive the original 10 percent coupons.
+
+For this reason, callable bonds are less attractive to investors than noncallable bonds. Consequently, a callable bond will sell at a lower price (or, equivalently, a higher yield) than a comparable noncallable bond. Despite their lower prices, corporations generally prefer to issue fixed-price callable bonds. However, to reduce the price gap between callable and noncallable bonds, issuers typically allow the indenture contract to specify certain restrictions on page 589their ability to call an outstanding bond issue. Three features are commonly used to restrict an issuer’s call privilege:
+
+Callable bonds usually have a deferred call provision that provides a call protection period during which a bond issue cannot be called. For example, a bond may be call-protected for a period of five years after its issue date.
+
+A call price often includes a call premium over par value. A standard arrangement stipulates a call premium equal to one year’s coupon payments for a call occurring at the earliest possible call date. Over time, the call premium is gradually reduced until it is eliminated entirely. After some future date, the bonds become callable at par value.
+
+Some indentures specifically prohibit an issuer from calling outstanding bonds for the purpose of refunding at a lower coupon rate but still allow a call for other reasons. This refunding provision prevents the corporation from calling an outstanding bond issue solely as a response to falling market interest rates. However, the corporation can still pay off its bond debt ahead of schedule by using funds acquired from, say, earnings, or funds obtained from the sale of newly issued common stock.
+
+After a bond’s call protection period has elapsed, a rational investor would be unwilling to pay much more than the call price for the bond because the issuer might call the bond at any time and pay only the call price for the bond. Consequently, a bond’s call price serves as an effective ceiling on its market price. It is important for bond investors to understand how the existence of a price ceiling for callable bonds alters the standard price-yield relationship for bonds. Recall our discussion of yield to call versus yield to maturity in a previous chapter.
+
+The relationship between interest rates and prices for comparable callable and noncallable bonds is illustrated in Figure 18.1. In this example, the vertical axis measures bond prices and the horizontal axis measures bond yields. In this two-bond example, both bonds pay the same coupon and are alike in all respects except that one of the bonds is callable any time at par value.
+
+As shown in Figure 18.1, the noncallable bond has the standard convex price-yield relationship, where the price-yield curve is bowed toward the origin. When the price-yield curve is bowed to the origin, this is called positive convexity. In contrast, the fixed-price callable bond has a convex or bowed price-yield relationship in the region of high yields, but it is bowed away from the origin in the region of low yields. This is called negative convexity. The important lesson here is that no matter how low market interest rates might fall, the maximum price of an unprotected fixed-price callable bond is generally bounded above by its call price.
+
+Noncallable Bonds and Fixed-Price Callable Bonds
+
+FIGURE 18.1
+
+
+page 590
+
+CHECK THIS
+
+
+
+18.2a  What is the purpose of bond seniority provisions?
+
+18.2b  After a call protection period has elapsed, why is the call price an effective ceiling on the market price of a callable bond with a fixed-price call provision?
+
+MAKE-WHOLE CALL PROVISION In just the last few years, a new type of call provision, a “make-whole” call, has become common in the corporate bond market. If a callable bond has a make-whole call provision, bondholders receive approximately what the bond is worth if the bond is called. This call provision gets its name because the bondholder does not suffer a loss in the event of a call; that is, the bondholder is “made whole” when the bond is called.
+
+Like a fixed-price call provision, a make-whole call provision allows the borrower to pay off the remaining debt early. Unlike a fixed-price call provision, however, a make-whole call provision requires the borrower to make a lump-sum payment representing the present value of all payments that will not be made because of the call. The discount rate used to calculate the present value is usually equal to the yield on a comparable-maturity U.S. Treasury security plus a fixed, predetermined make-whole premium.
+
+Because the yield of a comparable U.S. Treasury security changes over time, the call price paid to bondholders changes over time. As interest rates decrease, the make-whole call price increases because the discount rate used to calculate the present value decreases. As interest rates increase, the make-whole call price decreases. In addition, make-whole call provisions typically specify that the minimum amount received by a bondholder is the par value of the bond.
+
+As interest rates decline, even in the region of low yields, the price of bonds with a make-whole call provision will increase. That is, these bonds exhibit the standard convex price-yield relationship in all yield regions. In contrast, recall that bond prices with a fixed-price call provision exhibit negative convexity in the region of low yields.
+
+CALLABLE BONDS AND DURATION In an earlier chapter, we discussed the concept of the duration of a bond. Recall that duration is a weighted average measure of when cash flows are received. We use duration to estimate how sensitive bond prices are to changes in interest rates.
+
+To determine the duration of plain vanilla bonds, either the Macaulay or the modified duration measure we discussed in another chapter is appropriate. For bonds with embedded options, such as callable bonds, these standard duration measures will not correctly estimate the price and interest rate relationship. For callable bonds, we must calculate the effective duration of the bond. We can also use effective duration to estimate how sensitive bond prices are to changes in interest rates. When we calculate effective duration, however, we use option pricing methods to account for the embedded option to call the bond.
+
+CHECK THIS
+
+
+
+18.2c  Suppose you hold a bond with a make-whole call provision. The coupon rate on this bond is 5.90 percent. At what yield to maturity will this bond sell for par?
+
+PUT PROVISIONS
+A bond issue with a put provision grants bondholders the right to sell their bonds back to the issuer at a special put price, normally set at par value. These so-called put bonds are “putable” on each of a series of designated put dates. These are often scheduled to occur annually, but they sometimes occur at more frequent intervals. At each put date, the bondholder decides whether to sell the bond back to the issuer or continue to hold the bond until the next put date. For this reason, put bonds are often called extendible bonds because the bondholder has the option of extending the maturity of the bond at each put date.
+
+put bonds
+
+Bonds that can be sold back to the issuer at a prespecified price on any of a sequence of prespecified dates. Also called extendible bonds.
+
+Notice that by granting bondholders an option to sell their bonds back to the corporation at par value, the put feature provides an effective floor on the market price of the bond. page 591Thus, the put feature offers protection to bondholders from rising interest rates and the associated fall in bond prices.
+
+Calculating the Make-Whole Call Premium
+
+EXAMPLE 18.1
+
+Assume that LKD Energy, Inc., sold a total of $1.25 billion worth of notes and bonds, and the first tranche issue of $300 million in notes has the following terms:
+
+Settlement date:	7/16/2019
+First payment:	2/1/2020
+Maturity:	8/1/2024
+Coupon:	5.90%
+Price:	99.864
+Yield:	5.931%
+Spread:	90 basis points above U.S. Treasury notes
+Make-whole call:	15 basis points above U.S. Treasury notes
+Ratings:	Baa2 (Moody’s); BBB (S&P)
+If these notes were called immediately, what price would LKD Energy have to pay to these note holders? To calculate the make-whole call premium of these notes, we need to add 15 basis points to the yield of comparable-maturity U.S. Treasury notes.
+
+We find the yield of comparable-maturity U.S. Treasury notes by subtracting the 90 basis point spread from the yield of the LKD notes, 5.931% − .90% = 5.031%. Then we add the 15 basis point make-whole premium: 5.031% + .15% = 5.181%. Discounting the remaining cash flows of the note at 5.181 percent, we get a make-whole call price of about $103.13—which is about $3.27 more than the current price of the notes ($99.864). You must remember to use the standard bond pricing formula to discount these cash flows.
+
+You can verify this price using Excel. Using the information above, enter =PRICE(“7/16/2019”, “8/1/2024”, .059, .05181, 100, 2) into an Excel cell and you will get a price of $103.15.
+
+A put feature also helps protect bondholders from acts of the corporation that might cause a deterioration of the bond’s credit quality. However, this protection is not granted without a cost to bond investors because a putable bond will command a higher market price (and thus a lower yield) than a comparable nonputable bond.
+
+CHECK THIS
+
+
+
+18.2d  Using Figure 18.1 as a guide, what would the price-yield relationship look like for a noncallable bond putable at par value?
+
+18.2e  Under what conditions would a put feature not yield an effective floor for the market price of a put bond? (Hint: Think about default risk.)
+
+BOND-TO-STOCK CONVERSION PROVISIONS
+Some bonds have a valuable bond-to-stock conversion feature. These bonds are called convertible bonds. Convertible bonds grant bondholders the right to exchange each bond for a designated number of common stock shares of the issuing firm. To avoid confusion in a discussion of convertible bonds, it is important to understand some basic terminology.
+
+convertible bonds
+
+Bonds that holders can exchange for common stock according to a prespecified conversion ratio.
+
+The number of common stock shares acquired in exchange for each converted bond is called the conversion ratio:
+
+
+The par value of a convertible bond divided by its conversion ratio is called the bond’s conversion price:
+
+
+page 592
+
+The market price per share of common stock acquired by conversion times the bond’s conversion ratio is called the bond’s conversion value:
+
+
+For example, suppose a convertible bond with a par value of $1,000 can be converted into 20 shares of the issuing firm’s common stock. In this case, the conversion price is $1,000/20 = $50. Continuing this example, suppose the firm’s common stock has a market price of $40 per share; then the conversion value of a single bond is 20 × $40 = $800.
+
+From an investor’s perspective, the conversion privilege of convertible bonds has the distinct advantage that bondholders can receive a share of any increase in common stock value. However, the conversion option has a price. A corporation can sell par value convertible bonds with a coupon rate substantially less than the coupon rate of comparable nonconvertible bonds. This forgone coupon interest represents the price of the bond’s conversion option.
+
+When convertible bonds are originally issued, their conversion ratio is customarily set to yield a conversion value of 10 percent to 20 percent less than par value. For example, suppose the common stock of a company has a price of $30 per share and the company issues convertible bonds with a par value of $1,000 per bond. To set the original conversion value at $900 per bond, the company would set a conversion ratio of 30 stock shares per bond. Thereafter, the conversion ratio is fixed, but each bond’s conversion value becomes linked to the firm’s stock price, which may rise or fall in value. The price of a convertible bond reflects the conversion value of the bond. In general, the higher the conversion value, the higher the bond price, and vice versa.
+
+Investing in convertible bonds is more complicated than owning nonconvertible bonds because the conversion privilege presents convertible bondholders with an important timing decision. When is the best time to exercise a bond’s conversion option and exchange the bond for shares of common stock? The answer is that investors should normally postpone conversion as long as possible because while they hold the bonds, they continue to receive coupon payments. After converting to common stock, they lose all subsequent coupons. In general, unless the total dividend payments on stock acquired by conversion are somewhat greater than the forgone bond coupon payments, investors should hold on to their convertible bonds to continue to receive coupon payments.
+
+The rational decision of convertible bondholders to postpone conversion as long as possible is limited, however, because convertible bonds are almost always callable. Firms customarily call outstanding convertible bonds when their conversion value has risen by 10 percent to 15 percent above bond par value, although there are many exceptions to this rule. When a convertible bond issue is called by the issuer, bondholders are forced to make an immediate decision whether to convert to common stock shares or accept a cash payment of the call price. Fortunately, the decision is simple—convertible bondholders should choose whichever is more valuable, the call price or the conversion value.
+
+CHECK THIS
+
+
+
+18.2fDescribe the conversion decision that convertible bondholders must make when the bonds mature.
+
+GRAPHICAL ANALYSIS OF CONVERTIBLE BOND PRICES
+The price of a convertible bond is closely linked to the value of the underlying common stock shares that can be acquired by conversion. A higher stock price implies a higher bond price, and, conversely, a lower stock price yields a lower bond price.
+
+The relationship between the price of a convertible bond and the price of the firm’s common stock is depicted in Figure 18.2. In this example, the convertible bond’s price is measured on the vertical axis and the stock price is measured along the horizontal axis. The straight, upward-sloping line is the bond’s conversion value; the slope of the line is the conversion ratio. The horizontal line represents the price of a comparable nonconvertible bond with the same coupon rate, maturity, and credit quality.
+
+A convertible bond is said to be an in-the-money bond when its conversion value is greater than its call price. If an in-the-money convertible bond is called, rational bondholders will page 593convert their bonds into common stock. When the conversion value is less than the call price, a convertible bond is said to be out of the money. If an out-of-the-money bond is called, rational bondholders will accept the call price and forgo the conversion option. In practice, however, convertible bonds are seldom called when they are out of the money.
+
+in-the-money bond
+
+A convertible bond whose conversion value is greater than its call price.
+
+Convertible Bond Prices
+
+FIGURE 18.2
+
+
+The curved line in Figure 18.2 shows the relationship between a convertible bond’s price and the underlying stock price. As shown, there are two lower bounds on the value of a convertible bond. First, a convertible bond’s price can never fall below its intrinsic bond value, also commonly called its investment value or straight bond value. This value is what the bond would be worth if it were not convertible, but otherwise identical in terms of coupon, maturity, and credit quality. Second, a convertible bond can never sell for less than its conversion value because, if it did, investors could buy the bond and convert, thereby realizing an immediate, riskless profit.
+
+intrinsic bond value
+
+The price below which a convertible bond cannot fall, equal to the value of a comparable nonconvertible bond. Also called investment value or straight bond value.
+
+Thus, the floor value of a convertible bond is its intrinsic bond value or its conversion value, whichever is larger. As shown in Figure 18.2, however, a convertible bond will generally sell for more than this floor value. This extra is the amount that investors are willing to pay for the right, but not the obligation, to convert the bond at a future date at a potentially much higher stock price. We refer to this extra amount as the option value of the bond.
+
+An interesting variation of a bond-to-stock conversion feature occurs when the company issuing the bonds is different from the company whose stock is acquired by the conversion. In this case, the bonds are called exchangeable bonds. While not unusual, exchangeable bonds are less common than convertible bonds.
+
+exchangeable bonds
+
+Bonds that can be converted into common stock shares of a company other than the issuer.
+
+CHECK THIS
+
+
+
+18.2g  For nonconvertible bonds, the call price is a ceiling on the market price of the bond. Why might the call price not be an effective ceiling on the price of a convertible bond?
+
+BOND MATURITY AND PRINCIPAL PAYMENT PROVISIONS
+Term bonds represent the most common corporate bond maturity structure. A term bond issue has a single maturity date. On this date, all outstanding bond principal must be paid off. The indenture contract for a term bond issue normally stipulates the creation of a sinking fund. As we discuss below, a sinking fund is an account established to repay bondholders through a page 594series of fractional redemptions before the bond reaches maturity. Thus, at maturity, only a fraction of the original bond issue will still be outstanding.
+
+term bonds
+
+Bonds issued with a single maturity date.
+
+An alternative maturity structure is provided by serial bonds, where a fraction of an entire bond issue is scheduled to mature in each year over a specified period. Essentially, a serial bond issue represents a collection of sub-issues with sequential maturities. As an example, a serial bond issue may stipulate that one-tenth of an entire bond issue must be redeemed in each year over a 10-year period, with the last fraction redeemed at maturity. Serial bonds generally do not have a call provision, whereas term bonds usually do have a call provision.
+
+serial bonds
+
+Bonds issued with a regular sequence of maturity dates.
+
+When originally issued, most corporate bonds have maturities of 30 years or less. However, in recent years some companies have issued bonds with 40- and 50-year maturities. In 1993, The Walt Disney Company made headlines in the financial press when it sold 100-year-maturity bonds, sometimes referred to as century bonds. This bond issue became popularly known as the “Sleeping Beauty” bonds, after the classic Disney movie. However, the prince might arrive early for these bonds because they are callable after 30 years. Nevertheless, this was the first time since 1954 that 100-year bonds were sold by any borrower in the United States. Only days later, however, Coca-Cola issued $150 million of 100-year-maturity bonds.
+
+Both the Disney and Coke bond issues locked in the unusually low interest rates prevailing in 1993. You may be wondering if the low interest rates that have existed in recent years have enticed more borrowers to issue century bonds. The answer is yes. The governments of Argentina, Austria, and Mexico have recently issued 100-year bonds.
+
+SINKING FUND PROVISIONS
+The indentures of many term bonds include a sinking fund provision that requires the corporation to make periodic payments into a trustee-managed account. Account reserves are then used to provide for scheduled redemptions of outstanding bonds. The existence of a sinking fund is an important consideration for bond investors mainly for two reasons:
+
+sinking fund
+
+An account used to provide for scheduled redemptions of outstanding bonds.
+
+A sinking fund provides a degree of security to bondholders because payments into the sinking fund can be used only to pay outstanding obligations to bondholders.
+
+A sinking fund provision requires fractional bond issue redemptions according to a preset schedule. Therefore, some bondholders will be repaid their invested principal before the stated maturity for their bonds whether they want repayment or not.
+
+As part of a scheduled sinking fund redemption, some bondholders may be forced to surrender their bonds in exchange for cash payment of a special sinking fund call price. For this reason, not all bondholders may be able to hold their bonds until maturity, even though the entire bond issue has not been called according to a general call provision. For example, the indenture for a 25-year-maturity bond issue may require that one-twentieth of the bond issue be retired annually, beginning immediately after an initial five-year call protection period.
+
+Typically, when a redemption is due, the sinking fund trustee will select bonds by lottery. Selected bonds are then called, and the affected bondholders receive the call price, which for sinking fund redemptions is usually par value. However, the issuer normally has a valuable option to buy back the required number of bonds in the open market and deliver them to the sinking fund trustee instead of delivering the cash required for a par value redemption. Issuers naturally prefer to exercise this option when bonds can be repurchased in the open market at less than par value.
+
+CHECK THIS
+
+
+
+18.2hFor bond investors, what are some of the advantages and disadvantages of a sinking fund provision?
+
+COUPON PAYMENT PROVISIONS
+Coupon rates are stated on an annual basis. For example, an 8 percent coupon rate indicates that the issuer promises to pay 8 percent of a bond’s face value to the bondholder each year. However, splitting an annual coupon into two semiannual payments is an almost universal practice in the United States. An exact schedule of coupon payment dates is specified in the bond indenture when the bonds are originally issued.
+
+page 595
+
+If a company suspends payment of coupon interest, it is said to be in default. Default is a serious matter. In general, bondholders have an unconditional right to the timely payment of interest and principal. They also have a right to bring legal action to enforce such payments. Upon suspension of coupon payments, the bondholders could, for example, demand an acceleration of principal repayment along with all past-due interest. However, a corporation in financial distress has a right to seek protection in bankruptcy court from inflexible demands by bondholders. As a practical matter, it is often in the best interests of both the bondholders and the corporation to negotiate a new debt contract. Indeed, bankruptcy courts normally encourage a settlement that minimizes any intervention on their part.
+
+PROTECTIVE COVENANTS
+In addition to the provisions already discussed, a bond indenture is likely to contain a number of protective covenants. These agreements are designed to protect bondholders by restricting the actions of a corporation that might cause a deterioration in the credit quality of a bond issue. Protective covenants can be classified into two types: negative covenants and positive, or affirmative, covenants.
+
+protective covenants
+
+Restrictions in a bond indenture designed to protect bondholders.
+
+A negative covenant is a “thou shalt not” for the corporation. Here are some examples of negative covenants that might be found in an indenture agreement:
+
+The firm cannot pay dividends to stockholders in excess of what is allowed by a formula based on the firm’s earnings.
+
+The firm cannot issue new bonds that are senior to currently outstanding bonds. Also, the amount of a new bond issue cannot exceed an amount specified by a formula based on the firm’s net worth.
+
+The firm cannot refund an existing bond issue with new bonds paying a lower coupon rate than the currently outstanding bond issue it would replace.
+
+The firm cannot buy bonds issued by other companies, nor can it guarantee the debt of any other company.
+
+A positive covenant is a “thou shalt.” It specifies things that a corporation must do, or conditions that it must abide by. Here are some common examples of positive covenants:
+
+Proceeds from the sale of assets must be used either to acquire other assets of equal value or to redeem outstanding bonds.
+
+In the event of a merger, acquisition, or spin-off, the firm must give bondholders the right to redeem their bonds at par value.
+
+The firm must maintain the good condition of all assets pledged as security for an outstanding bond issue.
+
+The firm must periodically supply audited financial information to bondholders.
+
+CHECK THIS
+
+
+
+18.2iWhy would a corporation voluntarily include protective covenants in its bond indenture contract?
+
+ADJUSTABLE-RATE BONDS
+Many bond, note, and preferred stock issues allow the issuer to adjust the annual coupon according to a rule or formula based on current market interest rates. These securities are called adjustable-rate bonds; they are also sometimes called floating-rate bonds or floaters.
+
+adjustable-rate bonds
+
+Securities that pay coupons that change according to a prespecified rule. Also called floating-rate bonds, or floaters.
+
+For example, a typical adjustment rule might specify that the coupon rate be reset annually to be equal to the current rate on 180-day-maturity U.S. Treasury bills plus 2 percent. Alternatively, a more flexible rule might specify that the coupon rate on a bond issue cannot be set below 105 percent of the yield to maturity of newly issued five-year Treasury notes. Thus, if five-year Treasury notes have recently been sold to yield 2 percent, the minimum allowable coupon rate is 1.05 × 2% = 2.1%.
+
+page 596
+
+Adjustable-rate bonds and notes are often putable at par value. For this reason, an issuer may set a coupon rate above an allowable minimum to discourage bondholders from selling their bonds back to the corporation.
+
+Most adjustable-rate bonds have coupon rates that rise and fall with market interest rates. The coupon rates of some adjustable-rate bonds, however, move opposite to market interest rates. These bonds are called inverse floaters. A fall in the benchmark interest rate results in an increase in the coupon rate of an inverse floater. This relationship magnifies bond price fluctuations. For example, if interest rates fall, bond prices rise. Further, the higher coupon rate that results will cause the inverse floater bond price to rise even more. The opposite is true if rates rise. Thus, prices of inverse floaters can be extremely volatile.
+
+CHECK THIS
+
+
+
+18.2jHow does an adjustable coupon rate feature affect the interest rate risk of a bond?
+
+18.2kHow might bondholders respond if the coupon rate on an adjustable-rate putable bond was set below market interest rates?
+
+18.3 Government Bond Basics
+The U.S. federal government is the largest single borrower in the world. As of January 2019, the national debt of the U.S. government exceeded $21 trillion. Responsibility for managing outstanding government debt belongs to the U.S. Treasury, which acts as the financial agent of the federal government.
+
+The value of the outstanding U.S. federal government debt can be found at
+treasurydirect.gov.
+
+The U.S. Treasury finances government debt by issuing marketable securities and nonmarketable securities. Most of the gross public debt is financed by the sale of marketable securities at regularly scheduled Treasury auctions. Marketable securities include Treasury bills, Treasury notes, and Treasury bonds, often called T-bills, T-notes, and T-bonds, respectively. Outstanding marketable securities trade among investors in a large, active financial market called the Treasury market. Nonmarketable securities include U.S. Savings Bonds, Government Account Series, and State and Local Government Series. Many individuals are familiar with U.S. Savings Bonds because they are sold only to individual investors. Government Account Series are issued to federal government agencies and trust funds, in particular, the Social Security Administration trust fund. State and Local Government Series are purchased by municipal governments.
+
+Visit
+investinginbonds.com.for more information on U.S. Treasury securities.
+
+Treasury security ownership is registered with the U.S. Treasury. When an investor sells a U.S. Treasury security to another investor, registered ownership is officially transferred by notifying the U.S. Treasury of the transaction. However, only marketable securities allow registered ownership to be transferred. Nonmarketable securities do not allow a change of registered ownership and therefore cannot be traded among investors. For example, a U.S. Savings Bond is a nonmarketable security. If an investor wishes to sell a U.S. Savings Bond, it must be redeemed by the U.S. Treasury. This is normally a simple procedure.
+
+Another large market for government debt is the market for municipal government debt. There are more than 89,000 state and local governments in the United States, most of which have issued outstanding debt obligations. In a typical year, well over 10,000 new municipal debt issues are brought to market. Total municipal debt outstanding in the United States is estimated to be over $3.9 trillion. Of this total, individual investors hold over half, either through direct purchase or indirectly through mutual funds. The remainder is split between holdings of property and casualty insurance companies and commercial banks.
+
+18.4 U.S. Treasury Bills, Notes, Bonds, and STRIPS
+Treasury bills are short-term obligations that mature in six months or less. They are originally issued with maturities of 4, 13, or 26 weeks. A T-bill entitles its owner to receive a single payment at the bill’s maturity, called the bill’s face value or redemption value. page 597The smallest-denomination T-bill has a face value of $1,000. T-bills are sold on a discount basis, where a price is set at a discount from face value. For example, if a $10,000 bill is sold for $9,500, then it is sold at a discount of $500, or 5 percent. The discount represents the imputed interest on the bill.
+
+face value
+
+The value of a bill, note, or bond at its maturity when a payment of principal is made. Also called redemption value.
+
+discount basis
+
+Method of selling a Treasury bill at a discount from face value.
+
+imputed interest
+
+The interest paid on a Treasury bill determined by the size of its discount from face value.
+
+Treasury notes are medium-term obligations with original maturities of 10 years or less, but more than 1 year. They are normally issued with original maturities of 2, 5, or 10 years, and they have face value denominations as small as $1,000. Besides a payment of face value at maturity, T-notes also pay semiannual coupons.
+
+Treasury bonds are long-term obligations with much longer original-issue maturities. Since 1985, the Treasury has only issued T-bonds with a maturity of 30 years in its regular bond offerings. Like T-notes, T-bonds pay their face value at maturity, pay semiannual coupons, and have face value denominations as small as $1,000.
+
+The coupon rate for T-notes and T-bonds is set according to interest rates prevailing at the time of issuance. For example, if the prevailing interest rate for a Treasury note of a certain maturity is 4 percent, then the coupon rate—that is, the annual coupon as a percentage of par value—for a new issue with that maturity is set at or near 4 percent. Thus, a $10,000 par value T-note paying a 4 percent coupon would pay two $200 coupons each year. Coupon payments normally begin six months after issuance and continue to be paid every six months until the last coupon is paid along with the face value at maturity. Once set, the coupon rate remains constant throughout the life of a U.S. Treasury note or bond.
+
+Treasury STRIPS are derived from Treasury notes originally issued with maturities of 10 years, as well as from Treasury bonds. Since 1985, the U.S. Treasury has sponsored the STRIPS program, an acronym for Separate Trading of Registered Interest and Principal of Securities. This program allows brokers to divide Treasury bonds and notes into coupon strips and principal strips, thereby allowing investors to buy and sell the strips of their choice. Principal strips represent face value payments, and coupon strips represent coupon payments. For example, a 30-year-maturity T-bond can be separated into 61 strips, representing 60 semiannual coupon payments and a single face value payment. Under the Treasury STRIPS program, each of these strips can be separately registered to different owners.
+
+STRIPS
+
+Treasury program allowing investors to buy individual coupon and principal payments from a whole Treasury note or bond. Acronym for Separate Trading of Registered Interest and Principal of Securities.
+
+The terms “STRIPS” and “strips” can sometimes cause confusion. The acronym STRIPS is used when speaking specifically about the Treasury STRIPS program. The term strips, however, now popularly refers to any note or bond issue broken down into its component parts. In this generic form, the term strips is acceptable.
+
+Because each strip created under the STRIPS program represents a single future payment, STRIPS securities effectively become zero coupon bonds and are commonly called zeroes. The unique characteristics of Treasury zeroes make them an interesting investment choice.
+
+zero coupon bond
+
+A note or bond paying a single cash flow at maturity. Also called zeroes.
+
+The yield to maturity of a zero coupon bond is the interest rate that an investor will receive if the bond is held until it matures. Table 18.2 lists bond prices for zero coupon bonds with a face value of $10,000; maturities of 5, 10, 20, and 30 years; and yields from 3 percent to 15 percent. As shown, a $10,000 face-value zero coupon bond with a term to maturity of 20 years and an 8 percent yield has a price of $2,082.89.
+
+Zero Coupon Bond Prices, $10,000 Face Value
+
+TABLE 18.2
+
+
+Visit the U.S. Treasury at
+treasury.gov.
+
+Figure 18.3 graphs prices of zero coupon bonds with a face value of $10,000. The vertical axis measures bond prices, and the horizontal axis measures bond maturities. Bond prices for yields of 4, 8, and 12 percent are illustrated.
+
+Zero Coupon Bond Prices ($10,000 Face Value)
+
+FIGURE 18.3
+
+
+CHECK THIS
+
+
+
+18.4a  What are some possible reasons why individual investors might prefer to buy Treasury STRIPS rather than common stocks?
+
+18.4b  What are some possible reasons why individual investors might prefer to buy individual Treasury STRIPS rather than whole T-notes or T-bonds?
+
+18.4c  For zero coupon bonds with the same face value and yield to maturity, is the price of a zero with a 15-year maturity larger or smaller than the average price of two zeroes with maturities of 10 years and 20 years? Why?
+
+page 598
+
+Calculating a STRIPS Price
+
+EXAMPLE 18.2
+
+What is the price of a STRIPS maturing in 20 years with a face value of $10,000 and a yield to maturity of 7.5 percent?
+
+The STRIPS price is calculated as the present value of a single cash flow as follows:
+
+
+You can also calculate a STRIPS price using a built-in spreadsheet function. For example, the nearby Spreadsheet Analysis box contains this STRIPS price calculation using an Excel spreadsheet.
+
+Calculating a STRIPS Yield
+
+EXAMPLE 18.3
+
+What is the yield to maturity of a STRIPS maturing in 10 years with a face value of $10,000 and a price of $5,200?
+
+The STRIPS yield is calculated as a yield to maturity of a single cash flow as follows:
+
+
+The nearby Spreadsheet Analysis box contains an example of this STRIPS yield calculation using an Excel spreadsheet.
+
+page 599
+
+TREASURY BOND AND NOTE PRICES
+Figure 18.4 displays a partial Wall Street Journal online (wsj.com) listing of prices and other relevant information for Treasury notes and bonds. Treasury bond and note price quotes are stated on a percentage of par basis. For example, a price of 101.0625 equals par value plus 1.0625 percent. For a typical $1,000 par value, this quote would be a price of $1,010.625.
+
+To illustrate, the first column in Figure 18.4 is the maturity, reported in a month-day-year format. The next column states the annual coupon rate. Dealer bid and ask price quotes come next, followed by changes in ask quotes from the previous day. The last column gives the yield to maturity implied by an asked price quote.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+page 600
+
+U.S. Treasury Quotes
+
+FIGURE 18.4
+
+
+Source: www.wsj.com, January 9, 2019. The Wall Street Journal, 2019. Dow Jones & Company, Inc.
+
+Because Treasury bonds and notes pay semiannual coupons, bond yields are stated on a semiannual basis. The relationship between the price of a note or bond and its yield to maturity was discussed in an earlier chapter. For convenience, the bond price formula from that chapter is restated here:
+
+
+Figure 18.5 illustrates the relationship between the price of a bond and its yield to maturity for 2-year, 7-year, and 30-year terms to maturity. Notice that each bond has a price of 100 when its yield is 8 percent. This price indicates that each bond has an 8 percent coupon rate because when a bond’s coupon rate is equal to its yield to maturity, its price is equal to its par value.
+
+The difference between a dealer’s ask and bid prices is called the bid-ask spread. The bid-ask spread measures the dealer’s gross profit from a single round-trip transaction of buying a security at the bid price and then selling it at the ask price.
+
+bid-ask spread
+
+The difference between a dealer’s ask price and bid price.
+
+page 601
+
+Bond Prices ($100 Face Value)
+
+FIGURE 18.5
+
+
+CHECK THIS
+
+
+
+18.4dWhat would Figure 18.5 look like if the three bonds all had coupon rates of 6 percent? What about 10 percent?
+
+18.4eIn Figure 18.4, which Treasury issues have the narrowest spreads? Why do you think this is so?
+
+18.4fExamine the spreads between bid and ask prices for Treasury notes and bonds listed online at wsj.com.
+
+18.5 U.S. Treasury Auctions
+For recent information on Treasury auctions, visit
+treasurydirect.gov.
+
+The Federal Reserve Bank conducts regularly scheduled auctions for Treasury securities. At each Treasury auction, the Federal Reserve accepts sealed bids of two types: competitive bids and noncompetitive bids. Competitive bids for T-bills specify a bid price and a bid quantity. The bid price is what the bidder is willing to pay, and the bid quantity is the face value amount that the bidder will purchase if the bid is accepted. Noncompetitive bids specify only a bid quantity because the price charged to noncompetitive bidders will be determined by the results of the competitive auction process. Individual investors can submit noncompetitive bids, but only Treasury securities dealers can submit competitive bids.
+
+At the close of bidding, all sealed bids are forwarded to the U.S. Treasury for processing. As a first step, all noncompetitive bids are accepted automatically and are subtracted from the total issue amount. Then a stop-out bid is determined; this is the price at which all competitive bids are sufficient to finance the remaining issue amount. Competitive bids at or above the stop-out bid are accepted, and bids below the stop-out bid are rejected.
+
+stop-out bid
+
+The lowest competitive bid in a U.S. Treasury auction that is accepted.
+
+Since 1998, all U.S. Treasury auctions have been single-price auctions in which all accepted competitive bids pay the stop-out bid. The stop-out bid is also the price paid by noncompetitive bidders. For example, suppose an auction for T-bills with $20 billion of face value receives $28 billion of competitive bids and $4 billion of noncompetitive bids. Noncompetitive bids are automatically accepted, leaving $16 billion for competitive bidders. Now suppose the stop-out bid for this $16 billion amount is $9,700 for a $10,000 face-value T-bill. Accepted competitive bidders and all noncompetitive bidders pay this price of $9,700.
+
+page 602
+
+The process is similar for T-bond and T-note issues, except that bids are made on a yield basis, where competitive bids state yields instead of prices. A coupon rate for the entire issue is then set according to the average competitive-bid yield.
+
+CHECK THIS
+
+
+
+18.5a  The Federal Reserve announces an offering of Treasury bills with a face value amount of $25 billion. The response is $5 billion of noncompetitive bids, along with the following competitive bids:
+
+Bidder	Price Bid	Quantity Bid
+A	$9,500	$5 billion
+B	  9,550	  5 billion
+C	  9,600	  5 billion
+D	  9,650	  5 billion
+E	  9,700	  5 billion
+In a single-price auction, which bids are accepted and what prices are paid by each bidder? How much money is raised by the entire offering?
+
+18.5a  What is a stop-out bid?
+
+18.6 Federal Government Agency Securities
+Most U.S. government agencies consolidate their borrowing through the Federal Financing Bank, which obtains funds directly from the U.S. Treasury. However, several federal agencies are authorized to issue securities directly to the public. For example, the World Bank and the Tennessee Valley Authority issue notes and bonds directly to investors.
+
+Visit
+investinginbonds.com
+for more information on agency securities.
+
+Bonds issued by U.S. government agencies share an almost equal credit quality with U.S. Treasury issues. Most agency debt does not carry an explicit guarantee of the U.S. government. A federal agency on the verge of default, however, would probably receive government support to ensure timely payment of interest and principal on outstanding debt. This perception is supported by historical experience and the political reality that Congress would likely feel compelled to rescue an agency that it created if it became financially distressed.
+
+This conjecture was confirmed in September 2008. The Federal Housing Finance Agency (FHFA) placed two government-sponsored enterprises (GSEs), Fannie Mae and Freddie Mac, into conservatorship. This decision was supported by the U.S. Treasury and the Federal Reserve Bank. The U.S. Treasury pledged taxpayer money to keep these GSEs solvent. Thus, government agency notes and bonds are attractive to many investors because they offer higher yields than comparable U.S. Treasury securities, but carry the implied backing of the government.
+
+If you compare bid and ask dealer price quotes for agency bonds, you will find that agency bonds have a higher bid-ask spread than Treasury bonds. The reason for the higher bid-ask spread is that agency bond trading volume is much lower than Treasury bond trading volume. To compensate for the lower volume, dealers charge higher spreads. Thus, trading agency bonds is costlier than trading Treasury bonds. Consequently, agency bonds are usually purchased by institutional investors planning to hold the bonds until they mature. As a result, price quotes are not as readily available—an inherent risk of holding less liquid securities and an additional reason for higher yields. Another reason for the higher yields on agency bonds compared to Treasury bonds is that interest income from agency bonds is subject to federal, state, and local taxation, whereas Treasury interest payments are subject only to federal taxation.
+
+CHECK THIS
+
+
+
+18.6aWhy do agency bonds carry a higher yield than comparable U.S. Treasury bonds?
+
+page 603
+
+18.7 Municipal Bonds
+Visit
+investinginbonds.com
+for more about municipal bonds.
+
+Municipal notes and bonds are intermediate- to long-term interest-bearing obligations of state and local governments or agencies of those governments. The defining characteristic of municipal notes and bonds, often called “munis,” is that coupon interest is usually exempt from federal income tax. Consequently, the market for municipal debt is commonly called the tax-exempt market. Most of the 50 states also have an income tax, but their tax treatment of municipal debt interest varies. Only a few states exempt coupon interest on out-of-state municipal bonds from in-state income tax, but most states do allow in-state municipal debt interest to be an exemption from in-state income tax. In any case, state income tax rates are normally much lower than federal income tax rates, and state taxes can be used as an itemized deduction from federal taxable income. Consequently, state taxes are usually a secondary consideration for municipal bond investors.
+
+The federal income tax exemption makes municipal bonds attractive to investors in the highest income tax brackets. This includes many individual investors, commercial banks, and property and casualty insurance companies—precisely those investors who actually hold almost all municipal debt. However, yields on municipal debt are less than on corporate debt with similar features and credit quality. This eliminates much, but not all, of the advantage of the tax exemption. Therefore, tax-exempt investors, including pension funds and retirement accounts of individuals, nonprofit institutions, and some life insurance companies, normally do not invest in municipal bonds. Instead, they prefer to invest in higher-yielding corporate bonds.
+
+Municipal bonds are typically less complicated investments than corporate bonds. However, while municipal debt often carries a high credit rating, default risk does exist. Thus, investing in municipal debt requires more care than investing in U.S. Treasury securities.
+
+default risk
+
+The risk that a bond issuer will cease making scheduled payments of coupons or principal, or both.
+
+To illustrate some standard features of a municipal bond issue, Table 18.3 summarizes the issue terms for a hypothetical bond issued by the city of Bedford Falls. We see that the bonds were issued in December 2019 and mature 30 years later in December 2049. Each bond has a face value denomination of $5,000 (typical for municipal bonds) and pays an annual coupon equal to 6 percent of face value. The annual coupon is split between two semiannual payments each June and December. Based on the original offer price of 100, or 100 percent of par value, the bonds have a yield to maturity of 6 percent. The Bedford Falls bonds are call-protected for 10 years, until January 2030. Thereafter, the bonds are callable any time at par value.
+
+City of Bedford Falls General Obligation Bonds
+
+TABLE 18.3
+
+Issue amount	$50 million	Bond issue represents a total face value amount of $50 million
+Issue date	12/15/19	Bonds were offered to the public on December 15, 2019
+Maturity date	12/31/49	All remaining principal must be paid at maturity on December 31, 2049
+Par value	$5,000	Each bond has a face value of $5,000
+Coupon rate	6%	Annual coupons of $300 per bond
+Coupon dates	12/31, 6/30	Semiannual coupons of $150
+Offering price	100	Offer price is 100% of par value
+Yield to maturity	6%	Based on stated offer price
+Call provision	Callable after 12/31/29	Bonds are call-protected for 10 years
+Trustee	Potters Bank of Bedford Falls	The trustee is appointed to represent the bondholders and administer the sinking fund
+Sinking fund	$2.5 million annual par redemptions after 12/31/29	City must redeem at par value $2.5 million of the bond issue each year beginning in 2030
+The Bedford Falls bonds are general obligation bonds (GOs), which means that the bonds are secured by the full faith and credit of the city of Bedford Falls. “Full faith and credit” means the power of the municipality to collect taxes. The trustee for the bond issue is Potters page 604Bank of Bedford Falls. A trustee is appointed to represent the financial interests of bondholders and administer the sinking fund for the bond issue. A sinking fund requires a bond issuer to redeem for cash a fraction of an outstanding bond issue on a periodic basis. The sinking fund in this example requires that, beginning 10 years after issuance, the city must redeem at par value $2.5 million of the bond issue each year. At each annual redemption, a fraction of the bond issue is called and the affected bondholders receive the par value call price.
+
+general obligation bonds (GOs)
+
+Bonds issued by a municipality that are secured by the full faith and credit of the issuer.
+
+MUNICIPAL BOND FEATURES
+Municipal bonds are typically callable, pay semiannual coupons, and often have a par value denomination of $5,000. Municipal bond prices are stated as a percentage of par value. Thus, a price of 102 indicates that a bond with a par value of $5,000 has a price of $5,100. By convention, however, municipal bond dealers commonly use yield quotes rather than price quotes in their trading procedures. For example, a dealer might quote a bid yield of 6.25 percent for a 5 percent coupon bond with seven years to maturity, indicating a willingness to buy at a price determined by that yield. The actual dollar bid price in this example is $4,649.99, as shown in the following bond price calculation:
+
+Check out municipal bonds at
+municipalbonds.com.
+
+
+Because many thousands of different municipal bond issues are outstanding, only a few large issues trade with sufficient frequency to justify having their prices reported in the financial press.
+
+Municipal bonds are commonly issued with a serial maturity structure. In a serial bond issue, a fraction of the total issue amount is scheduled to mature in each year over a multiple-year period. A call provision is another standard feature of most municipal bond issues. You should remember that a call provision allows an issuer to retire outstanding bonds before they mature, usually to refund with new bonds after a fall in market interest rates. When the bond is called, each bondholder receives the bond’s call price in exchange for the bond.
+
+Some municipal bonds are putable, and these are called put bonds. The holder of a put bond, also called a tender offer bond, has the option of selling the bond back to the issuer, normally at par value. Some put bonds can be tendered at any time, whereas others can be tendered only on regularly scheduled dates.
+
+TYPES OF MUNICIPAL BONDS
+There are two basic types of municipal bonds: general obligation bonds, often referred to as GOs, and revenue bonds. General obligation bonds are issued by all levels of municipal governments, including states, counties, cities, towns, school districts, and water districts. They are secured by the general taxing powers of the municipalities issuing the bonds. For state governments and large city governments, tax revenue is collected from a diverse base of income taxes on corporations and individuals, sales taxes, and property taxes. In contrast, tax revenues for smaller municipalities are largely derived from property taxes, although sales taxes have become increasingly important. Because of their large, diverse tax bases, general obligation bonds issued by states and large cities are often called unlimited tax bonds or full faith and credit bonds.
+
+However, some general obligation bonds are called limited tax bonds. The distinction between limited and unlimited tax bonds arises when a constitutional limit or other statutory limit is placed on the power of a municipality to assess taxes. For example, an amendment to the California state constitution, popularly known as Proposition 13 when it was enacted, placed rigid limits on the ability of California municipalities to assess taxes on real estate.
+
+Revenue bonds constitute the bulk of all outstanding municipal bonds. Revenue bonds are bonds secured by proceeds collected from the projects they finance. Thus, the credit quality of a revenue bond issue is largely determined by the ability of a project to generate revenue. A few examples of the many different kinds of projects financed by revenue bonds are listed below.
+
+revenue bonds
+
+Municipal bonds secured by revenues collected from a specific project or projects.
+
+Airport and seaport bonds. Used to finance development of airport and seaport facilities. Secured by user fees and lease revenues.
+
+College dormitory bonds. Used to finance construction and renovation of dormitory facilities. Secured by rental fees.
+
+page 605
+
+Industrial development bonds. Used to finance development of projects ranging from factories to shopping centers. Secured by rental and leasing fees.
+
+Multifamily housing bonds. Used to finance construction of housing projects for senior citizens or low-income families. Secured by rental fees.
+
+Highway and road gas tax bonds. Used to finance highway construction. May be secured by specific toll revenues or general gas tax revenues.
+
+Student loan bonds. Used to purchase higher education student loans. Secured by loan repayments and federal guarantees.
+
+Many municipal bonds possess aspects of both general obligation and revenue bonds; these are called hybrid bonds. Typically, a hybrid is a revenue bond secured by project-specific cash flows, but with additional credit guarantees. A common form of hybrid is the moral obligation bond. This is a state-issued revenue bond with provisions for obtaining general revenues when project-specific resources are inadequate. Usually, extra funds can be obtained only with approval of a state legislature, which is said to be “morally obligated” to assist a financially distressed state-sponsored project. However, a moral obligation is not a guarantee, and the likelihood of state assistance varies. Municipal bond credit analysts consider each state’s history of assistance, as well as current state financial conditions, when evaluating the credit-quality enhancement of the moral obligation. In general, experienced municipal bond investors agree that a state will first service its own general obligation debt before providing service assistance to moral obligation debt. This is typically evidenced by the higher yields on moral obligation debt compared to general obligation debt.
+
+hybrid bonds
+
+Municipal bonds secured by project revenues with some form of general obligation credit guarantees.
+
+Since 1983, all newly issued municipal bonds have had to be registered—that is, the identity of all bondholders must be registered with the issuer. With registered bonds, the issuer sends coupon interest and principal payments only to the registered owner of a bond. Additionally, it is now standard practice for registered bonds to be issued in book entry form; bondholders are not issued printed bond certificates, but instead receive notification that their ownership is officially registered. The actual registration record is maintained by the issuer in computer files. This contrasts with the now defunct practice (in the United States) of issuing bearer bonds, where coupon interest and principal were paid to anyone who presented the bond certificates.
+
+MUNICIPAL BOND INSURANCE
+In the last few decades, it has become increasingly common for municipalities to obtain bond insurance for new bond issues. Insured municipal bonds, besides being secured by the issuer’s resources, are also backed by an insurance policy written by a commercial insurance company. The policy provides for prompt payment of coupon interest and principal to municipal bondholders in the event of a default by the issuer. The cost of the insurance policy is paid by the issuer at the time of issuance. The policy cannot be canceled while any bonds are outstanding. With bond insurance, the credit quality of the bond issue is determined by the financial strength of the insurance company, not the municipality alone. Credit rating agencies are certainly aware of this fact. Consequently, a bond issue with insurance can obtain a higher credit rating than would be possible without insurance, and therefore sells at a higher price.
+
+insured municipal bonds
+
+Bonds secured by an insurance policy that guarantees bond interest and principal payments should the issuer default.
+
+Visit the websites of these municipal bond insurers:
+mbia.com and ambac.com.
+
+Municipal bond insurance companies manage default risk in three ways. First, they insure bond issues only from municipalities that have a good credit rating on their own. Second, municipal bond insurers diversify default risk by writing insurance policies for municipalities spread across a wide geographic area. Third, and perhaps most important, to compete in the municipal bond insurance business, insurers must maintain substantial investment portfolios as a source of financial reserves. Without sizable reserves, a company’s insurance policies are not credible and municipalities will avoid purchasing insurance from them.
+
+EQUIVALENT TAXABLE YIELD
+Consider an individual investor who must decide whether to invest in a corporate bond paying annual coupon interest of 8 percent or a municipal bond paying annual coupon interest of 5 percent. Both bonds are new issues with a triple-A credit rating, both bonds sell at par value, and the investor plans to hold the bonds until they mature. Since both bonds are purchased page 606at par value, their coupon rates are equal to their originally stated yields to maturity. For the municipal bond, this is a tax-exempt yield; for the corporate bond, this is a taxable yield.
+
+Clearly, if the investment is for a tax-exempt retirement account, corporate debt is preferred because the coupon interest is higher and tax effects are not a consideration. But if the investment is not tax-exempt, the decision should be made on an aftertax basis. Essentially, the investor must decide which investment provides the highest return after accounting for income tax on corporate debt interest. This is done by comparing the tax-exempt yield of 5 percent on municipal bonds with an equivalent taxable yield. An equivalent taxable yield depends on the investor’s marginal tax rate and is computed as follows:
+
+
+For example, suppose the investor is in a 35 percent marginal tax bracket. Then a tax-exempt yield of 5 percent is shown to correspond to an equivalent taxable yield of 7.69 percent as follows:
+
+
+In this case, the investor would prefer the taxable yield of 8 percent on the corporate bond to the equivalent taxable yield of 7.69 percent on the municipal bond.
+
+Alternatively, the investor could compare the aftertax yield on the corporate bond with the tax-exempt yield on the municipal bond. An aftertax yield is computed as follows:
+
+
+To change the example, suppose that the investor is in a 40 percent marginal tax bracket. This results in an aftertax yield of 4.8 percent, as shown below:
+
+
+In this case, the tax-exempt yield of 5 percent on the municipal bond is preferred to the aftertax yield of 4.8 percent on the corporate bond.
+
+Another approach is to compute the critical marginal tax rate that would leave an investor indifferent between a given tax-exempt yield on a municipal bond and a given taxable yield on a corporate bond. A critical marginal tax rate is found as follows:
+
+
+For the example considered here, the critical marginal tax rate is 37.5 percent, determined as follows:
+
+
+Investors with a marginal tax rate higher than the critical marginal rate would prefer the municipal bond, whereas investors in a lower tax bracket would prefer the corporate bond.
+
+TAXABLE MUNICIPAL BONDS
+The Tax Reform Act of 1986 imposed notable restrictions on the types of municipal bonds that qualify for federal tax exemption of interest payments. In particular, the 1986 act expanded the definitionof private activity bonds. Private activity bonds include any municipal security where 10 percent or more of the issue finances facilities used by private entities and is secured by payments from private entities.
+
+private activity bonds
+
+Taxable municipal bonds used to finance facilities used by private businesses.
+
+Interest on private activity bonds is tax-exempt only if the bond issue falls into a so-called qualified category. Qualified private activity bonds that still enjoy a tax-exempt interest privilege include public airport bonds, multifamily housing bonds, nonvehicular mass commuting bonds, and various other project bonds. The major types of private activity bonds that do not qualify for tax-exempt interest are those used to finance sports stadiums, convention facilities, parking facilities, and industrial parks. However, these taxable private activity bonds may still enjoy exemption from state and local income tax.
+
+In any case, as a result of the 1986 act and the continuing need to finance private activity projects, new issues of taxable municipal revenue bonds are frequently sold with yields similar to corporate bond yields. In addition, the Tax Cuts and Jobs Act of 2017 reduced both individual and corporate income tax rates, making municipal bonds generally less attractive.
+
+page 607
+
+CHECK THIS
+
+
+
+18.7a  An investor with a marginal tax rate of 30 percent is interested in a tax-exempt bond with a yield of 6 percent. What is the equivalent taxable yield of this bond?
+
+18.7b  A taxable bond has a yield of 10 percent, and a tax-exempt bond has a yield of 7 percent. What is the critical marginal tax rate for these two bonds?
+
+18.8 Bond Credit Ratings
+When a corporation or municipality sells a new bond issue to investors, it usually subscribes to several bond rating agencies for a credit evaluation of the bond issue. Each contracted rating agency then provides a credit rating—an assessment of the credit quality of the bond issue based on the issuer’s financial condition. Rating agencies charge a fee for this service. As part of the contractual arrangement between the bond issuer and the rating agency, the issuer agrees to allow a continuing review of its credit rating even if the rating deteriorates. Without a credit rating, a new bond issue would be quite difficult to sell to the public, which is why almost all non-Treasury bond issues originally sold to the general public have a credit rating assigned at the time of issuance. Also, most of those bond issues have ratings assigned by several rating agencies.
+
+credit rating
+
+An assessment of the credit quality of a bond issue based on the issuer’s financial condition.
+
+Established rating agencies in the United States include Duff & Phelps, Inc. (D&P); Fitch Ratings (Fitch); Moody’s Investors Service (Moody’s); and Standard & Poor’s Corporation (S&P). Of these, the two best-known rating agencies are Moody’s and Standard & Poor’s. These companies publish regularly updated credit ratings for thousands of domestic and international bond issues.
+
+Visit these rating agency websites: Duff & Phelps at
+duffandphelps.com,
+Fitch at
+fitchratings.com,
+Moody’s at
+moodys.com,
+and S&P at
+standardandpoors.com
+
+It is important to realize that bond ratings are assigned to particular bond issues and not to the issuer of those bonds. For example, a senior corporate bond issue is likely to have a higher credit rating than a subordinated corporate issue even if both are issued by the same corporation. Similarly, a corporation with two bond issues outstanding may have a higher credit rating assigned to one issue because that issue has stronger covenant protection specified in the bond’s indenture contract.
+
+Seniority and covenant protection are not the only things that affect bond ratings. Bond rating agencies consider a number of factors before assigning a credit rating, including an appraisal of the financial strength of the issuer, the caliber of the issuer’s management, the issuer’s position in an industry, and the industry’s position in the economy.
+
+Table 18.4 summarizes corporate bond rating symbols and definitions used by Moody’s (first column) and Standard & Poor’s (second column). Fitch and Duff & Phelps use a similar scale to Standard & Poor’s. As shown, bond credit ratings fall into three broad categories: investment-grade, speculative-grade, and extremely speculative-grade.
+
+Corporate Bond Credit Rating Symbols
+
+TABLE 18.4
+
+Rating Agency		
+Moody’s	Standard & Poor’s	Credit Rating Description
+Investment-Grade Bond Ratings
+Aaa	AAA	Highest credit rating, maximum safety
+Aa1	AA1
+Aa2	AA	High credit quality, investment-grade bonds
+Aa3	AA−
+A1	A1	
+A2	A	Upper-medium quality, investment-grade bonds
+A3	A−	
+Baa1	BBB1
+Baa2	BBB	Lower-medium quality, investment-grade bonds
+Baa3	BBB−
+Speculative-Grade Bond Ratings
+Ba1	BB1	Low credit quality, speculative-grade bonds
+Ba2	BB	
+Ba3	BB−
+B1	B1	Very low credit quality, speculative-grade bonds	
+B2	B
+B3	B−	
+Extremely Speculative-Grade Bond Ratings
+Caa	CCC1	Extremely low credit standing, high-risk bonds
+CCC
+CCC−		
+Ca	CC	Extremely speculative
+C	C	
+ 	D	Bonds in default
+In general, a bond rating is intended to be a comparative indicator of overall credit quality for a particular bond issue. The rating in itself, however, is not a recommendation to buy or sell a bond. In fact, few investors realize that the ratings themselves are not guaranteed by the rating agencies. Moreover, the ratings are subject to an upgrade or a downgrade at any time. The rating agencies design their rating systems to provide an independent review of the bond. Bond ratings, like any analyst recommendation, are subject to error.
+
+The system to rate bonds attracted considerable attention during the Crash of 2008. Many real estate loans had been packaged together and sold as a type of fixed-income investment known as mortgage-backed securities (MBS), which we discuss in detail in a later chapter. The rating agencies provided ratings on many of these investments, and most were rated as “triple A,” the highest investment grade possible. After the underlying mortgages began to default, however, many of these securities lost significant value. The rating agencies subsequently received considerable criticism for being inaccurate in their assessment and rating of these securities.
+
+WHY BOND RATINGS ARE IMPORTANT
+Even with the errors discussed above, bond credit ratings assigned by independent rating agencies remain quite important to bond market participants. Only a few institutional investors have the resources and expertise necessary to properly evaluate a bond’s credit quality on their own. Bond ratings provide investors with reliable, professional evaluations of bond issues at a reasonable cost. This information is indispensable for assessing the economic value of a bond.
+
+page 608
+
+Furthermore, many financial institutions have prudent investment guidelines stipulating that only securities with a certain level of investment safety may be included in their portfolios. For example, bond investments for many pension funds are limited to investment-grade bonds rated at least Baa by Moody’s or at least BBB by Standard & Poor’s. Bond ratings provide a convenient measure to monitor implementation of these guidelines.
+
+prudent investment guidelines
+
+Restrictions on investment portfolios stipulating that securities purchased must meet a certain level of safety.
+
+Individuals who invest in bonds also find published bond ratings useful. Individual investors generally do not have the ability to diversify as extensively as do large institutions. With limited diversification opportunities, an individual should invest only in bonds with higher credit ratings.
+
+AN ALTERNATIVE TO BOND RATINGS
+Bond ratings are not the only way to evaluate the credit quality of a bond. One particularly important measure is a bond’s credit spread. The credit spread is an estimate of the difference in yield between the bond in question and a comparable-maturity Treasury security. The higher the credit spread, the higher the level of perceived default risk.
+
+Credit spreads and credit ratings should show a strong correlation. High-grade bonds should have a lower spread than low-grade bonds. The potential benefit of using credit spreads instead of bond ratings, however, is that credit spreads are updated nearly continuously through the trading activities of many bond market participants. By way of contrast, credit ratings tend to be more stable and therefore could be a lagging indicator of the bond’s quality.
+
+For more insight on this issue, check out Figure 18.6, which provides a graph of corporate yield spreads over time. Note that average credit spreads are not constant through time. These spreads clearly widen during recessions, such as the one associated with the Crash of 2008.
+
+page 609
+
+Corporate Yield Spreads through Time
+
+FIGURE 18.6
+
+
+Shaded areas indicate U.S. recessions. Source: ICE Benchmark Administration Limited (IBA). fred.stlouisfed.org.
+
+CHECK THIS
+
+
+
+18.8aDoes a low credit rating necessarily imply that a bond is a bad investment?
+
+18.8bWhat factors besides the credit rating might be important in deciding whether a particular bond is a worthwhile investment?
+
+JUNK BONDS
+Bonds with a speculative or lower grade rating—that is, those rated Ba or lower by Moody’s or BB or lower by Standard & Poor’s—are commonly called high-yield bonds, or, more colorfully, junk bonds. The designation “junk” is somewhat misleading and often unduly pejorative because junk bonds have economic value. Junk bonds represent debt with a higher-than-average credit risk. To put the term in perspective, one should realize that most consumer debt and small-business debt represent higher-than-average credit risk. Yet it is generally considered desirable from an economic and social perspective that credit be available to consumers and small businesses.
+
+high-yield bonds
+
+Bonds with a speculative credit rating that is offset by a yield premium offered to compensate for higher credit risk. Also called junk bonds.
+
+Junk bonds that were originally issued with an investment-grade credit rating that subsequently fell to speculative grade because of unforeseen economic events are called fallen angels. Another type, original-issue junk, is defined as bonds originally issued with a speculative-grade rating.
+
+Junk bonds are attractive investments for many institutional investors with well-diversified portfolios. The logic of junk bond investing revolves around the possibility that the yield premium for junk bonds might be high enough to justify accepting the higher default rates of junk bonds. As an example of this logic, consider the following back-of-the-envelope calculations.
+
+Suppose that the average yield on junk bonds is 10 percent when U.S. Treasury bonds yield 7 percent. In this case, the yield premium of junk bonds over default-free Treasury bonds is 3 percent. Further suppose that an investor expects about 4 percent of all outstanding junk bonds to default each year, and experience suggests that when junk bonds default, bondholders on average receive 50 cents for each dollar of bond face value. Based on these rough assumptions, diversified junk bond investors expect to lose 2 percent (=.04 × .50) of their portfolio value each year through defaults. But with a junk bond yield premium of 3 percent, the junk bond portfolio is expected to outperform U.S. Treasury bonds by 1 percent per year.
+
+It is true that a junk bond portfolio is much more expensive to manage than a Treasury bond portfolio. For a $1 billion bond portfolio, however, a junk bond yield premium of 1 percent represents $10 million of additional interest income per year.
+
+Of course, actual default rates could turn out to be much different than expected. History suggests that the major determinant of aggregate bond default rates is the state of economic activity. During an expansionary economic period, bond default rates are usually low. But in a recession, default rates can rise dramatically. For this reason, the investment performance of corporate bond portfolios, including junk bond portfolios, largely depends on the health of the economy. In fact, many investors believe that yield spreads and defaults (particularly on junk bonds) are a leading indicator of economic activity, and not just a response to it. As you can see in the nearby Work the Web box, yield spreads also exist for higher-rated corporate bonds.
+
+page 610
+
+WORK THE WEB
+
+The yield, or credit, spread is the extra return, in the form of an increased yield to maturity, that investors receive for buying a bond with a lower credit rating. Because of the credit risk, investors demand a risk premium for investing in lower-rated bonds. Stock investors might also be interested in credit spreads, because changes in spreads are often considered to be a leading indicator of stock price. We went to wsj.com to find information on issues with the biggest changes in their credit spreads. Here is what we found:
+
+
+Source: www.wsj.com, January 10, 2019. The Wall Street Journal, 2019. Dow Jones & Company, Inc.
+
+Prices and yields of selected junk bonds are published online at wsj.com in its “Most Active High-Yield Bonds” report. A sample report is displayed in Figure 18.7.
+
+CHECK THIS
+
+
+
+18.8cCan junk bond default risk be completely diversified away by large institutional bond investors?
+
+18.8dFrom an investor’s perspective, is there any importance in distinguishing between fallen angels and original-issue junk?
+
+page 611
+
+High-Yield Bond Trading
+
+FIGURE 18.7
+
+
+Source: www.wsj.com, January 10, 2019. The Wall Street Journal, 2019. Dow Jones & Company, Inc.
+
+18.9 Summary and Conclusions
+Bonds are a major source of capital used by corporations and governments. This chapter covers many aspects of this market, including the following items—grouped by the chapter’s important concepts.
+
+1.   The basic types of corporate bonds.
+
+A.  A corporate bond represents a corporation’s promise to pay bondholders a fixed sum of money at maturity, along with periodic payments of interest. The sum paid at maturity is the bond’s principal, and the periodic interest payments are coupons. Most bonds pay fixed coupons, but some pay floating coupon rates adjusted regularly according to prevailing market interest rates.
+
+B.  The largest category of corporate bond investors is life insurance companies, which own about a third of all outstanding corporate bonds. Remaining ownership shares are roughly equally distributed among individual investors, pension funds, banks, and foreign investors.
+
+2.   How callable and convertible bonds function.
+
+A.  Corporate bonds are usually callable, which means that the issuer has the right to buy back outstanding bonds before maturity. When a bond issue is called, bondholders surrender their bonds in exchange for a prespecified call price.
+
+page 612
+
+B.  Make-whole call provisions have become common in the corporate bond market. If a callable bond is called and has a make-whole call provision, bondholders receive the approximate value of what the bond is worth. This call provision gets its name because the bondholder does not suffer a loss if the bond is called.
+
+C.  Convertible bonds give the holder the right to convert the bond into a specified number of shares of common stock, usually that of the issuing firm.
+
+3.   The different types of government bonds.
+
+A.  The U.S. Treasury sponsors the STRIPS program, where Treasury bonds and notes are broken down into principal strips, which represent face value payments, and coupon strips, which represent individual coupon payments. Because each strip created under the STRIPS program represents a single future payment, strips effectively become zero coupon bonds.
+
+B.  Municipal notes and bonds are intermediate- to long-term interest-bearing obligations of state and local governments or agencies of those governments. Municipal debt is commonly called the tax-exempt market because the coupon interest is usually exempt from federal income tax, which makes municipal bonds attractive to investors in the highest income tax brackets. However, yields on municipal debt are less than yields on corporate debt with similar features and credit quality, thus eliminating much of the advantage of the tax exemption.
+
+4.   The basics of bond ratings.
+
+A.  When an issuer sells a new bond issue to the public, it usually has a credit rating assigned by several independent bond rating agencies. Without a credit rating, a new bond issue would be difficult to sell, which is why almost all bond issues sold to the public have credit ratings assigned.
+
+B.  Bonds with a speculative or lower grade rating, commonly called high-yield bonds, or junk bonds, represent corporate debt with higher-than-average credit risk. Credit ratings for junk bonds are frequently revised to reflect changing financial conditions.
+
+GETTING DOWN TO BUSINESS
+
+This chapter explored the world of bonds, an important category of investments for institutions, such as pension funds and life insurance companies, and also for individuals. How should you put this information to work?
+
+Now that you understand the most important features of corporate bonds, you need to buy several different issues to experience the real-world gains and losses that come with managing a bond portfolio. With a simulated brokerage account (such as Stock-Trak), try putting roughly equal dollar amounts into three or four different corporate bond issues. Be sure to include some junk bonds in your selections.
+
+You can find out more information about corporate bonds at the many websites now specializing in bonds, including Investing in Bonds (investinginbonds.com). The websites of bond rating agencies such as Moody’s (moodys.com), Standard & Poor’s (standardandpoors.com), Duff & Phelps (duffandphelps.com), and Fitch (fitchratings.com) are also quite informative.
+
+As you monitor the prices of your bonds, notice how interest rates influence their prices. You may also notice that for bonds with lower credit ratings, the stock price of the issuing company is an important influence. Why do you think this is so?
+
+Of course, with the convertible issues, the bond price will definitely be influenced by the underlying stock value, but the impact depends on the specific conversion features of the bond, including whether the bond is in the money or not.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+page 613
+
+Key Terms
+
+adjustable-rate bonds 595
+
+bid-ask spread 600
+
+bond refunding 588
+
+convertible bonds 591
+
+credit rating 607
+
+default risk 603
+
+discount basis 597
+
+exchangeable bonds 593
+
+face value 596
+
+general obligation bonds (GOs) 603
+
+high-yield bonds 609
+
+hybrid bonds 605
+
+imputed interest 597
+
+indenture summary 587
+
+insured municipal bonds 605
+
+in-the-money bond 592
+
+intrinsic bond value 593
+
+negative pledge clause 588
+
+plain vanilla bonds 586
+
+private activity bonds 606
+
+private placement 588
+
+prospectus 587
+
+protective covenants 595
+
+prudent investment guidelines 608
+
+put bonds 590
+
+revenue bonds 604
+
+senior debentures 588
+
+serial bonds 594
+
+sinking fund 594
+
+stop-out bid 601
+
+STRIPS 597
+
+subordinated debentures 588
+
+term bonds 593
+
+unsecured debt 587
+
+zero coupon bond 597
+
+Chapter Review Problems and Self-Test
+
+Callable Bonds (LO2, CFA3) A particular bond matures in 30 years. It is callable in 10 years at 110. The call price is then cut by 1 percent of par each year until the call price reaches par. If the bond is called in 12 years, how much will you receive? Assume a $1,000 face value.
+
+Convertible Bonds (LO2, CFA5) A convertible bond has an 8 percent coupon, paid semiannually, and will mature in 15 years. If the bond were not convertible, it would be priced to yield 9 percent. The conversion ratio on the bond is 40, and the stock is currently selling for $24 per share. What is the minimum value of this bond?
+
+Equivalent Yields (LO3, CFA2) A particular investor faces a 40 percent tax rate. If an AA-rated municipal bond yields 4 percent, what must a similar taxable issue yield for the investor to be impartial to them?
+
+Answers to Self-Test Problems
+
+The call price will be 110% − 2 × 1% = 108% of face value, or $1,080.
+
+The minimum value is the larger of the conversion value and the intrinsic bond value. The conversion value is 40 × $24 = $960. To calculate the intrinsic bond value, note that we have a face value of $1,000 (by assumption), a semiannual coupon of $40, an annual yield of 9 percent (4.5 percent per half-year), and 15 years to maturity (30 half-years). Using the standard bond pricing formula from an earlier chapter (or a financial calculator), the bond’s price (be sure to verify this) if it were not convertible is $918.56. This convertible bond thus will sell for more than $960.
+
+The equivalent taxable yield is the municipal yield “grossed up” by one minus the tax rate:
+
+
+Test Your Investment Quotient
+
+
+Callable Bonds (LO2, CFA3) What does the call feature of a bond mean?
+
+An investor can call for payment on demand.
+
+An investor can only call if the firm defaults on an interest payment.
+
+The issuer can call the bond issue prior to the maturity date.
+
+The issuer can call the issue during the first three years.
+
+page 614
+
+Callable Bonds (LO2, CFA3) Who primarily benefits from a call provision on a corporate bond?
+
+The issuer
+
+The bondholders
+
+The trustee
+
+The government regulators
+
+Callable Bonds (LO2, CFA3) Which of the following describes a bond with a call feature?
+
+It is attractive because the immediate receipt of principal plus premium produces a high return.
+
+It is more likely to be called when interest rates are high because the interest savings will be greater.
+
+It would usually have a higher yield than a similar noncallable bond.
+
+It generally has a higher credit rating than a similar noncallable bond.
+
+Callable Bonds (LO2, CFA3) Two bonds are identical, except one is callable and the other is noncallable. Compared to the noncallable bond, the callable bond has:
+
+Negative convexity and a lower price.
+
+Negative convexity and a higher price.
+
+Positive convexity and a lower price.
+
+Positive convexity and a higher price.
+
+Convexity (LO1, CFA3) What does positive convexity on a bond imply?
+
+The direction of change in yield is directly related to the change in price.
+
+Prices increase at a faster rate as yields drop than they decrease as yields rise.
+
+Price changes are the same for both increases and decreases in yields.
+
+Prices increase and decrease at a faster rate than the change in yield.
+
+Convexity (LO1, CFA3) A bond with negative convexity is best described as having a price-yield relationship displaying:
+
+Positive convexity at high yields and negative convexity at low yields.
+
+Negative convexity at high yields and positive convexity at low yields.
+
+Negative convexity at low and high yields and positive convexity at medium yields.
+
+Positive convexity at low and high yields and negative convexity at medium yields.
+
+Duration (LO1, CFA3) Which of the following most accurately measures interest rate sensitivity for bonds with embedded options?
+
+Convexity
+
+Effective duration
+
+Modified duration
+
+Macaulay duration
+
+Refundings (LO1, CFA3) The refunding provision of an indenture allows bonds to be retired unless:
+
+They are replaced with a new issue having a lower interest cost.
+
+The remaining time to maturity is less than five years.
+
+The stated time period in the indenture has not passed.
+
+The stated time period in the indenture has passed.
+
+Credit Risk (LO4, CFA4) A fallen angel bond is best described as a bond issued:
+
+Below investment grade.
+
+At an original-issue discount.
+
+As investment grade, but it has declined to speculative grade.
+
+As a secured bond, but the collateral value has declined below par value.
+
+Convertible Bonds (LO2, CFA5) Which one of the following statements about convertible bonds is false?
+
+The yield on the convertible bond will typically be higher than the yield on the underlying common stock.
+
+The convertible bond will likely participate in a major upward movement in the price of the underlying common stock.
+
+Convertible bonds are typically secured by specific assets of the issuing company.
+
+A convertible bond can be valued as a straight bond with an attached option.
+
+page 615
+
+Convertible Bonds (LO2, CFA5) A convertible bond sells at $1,000 par with a conversion ratio of 40 and an accompanying stock price of $20 per share. The conversion price and conversion value are, respectively:
+
+$20 and $1,000
+
+$20 and $800
+
+$25 and $1,000
+
+$25 and $800
+
+Convertible Bonds (LO2, CFA5) A convertible bond has a par value of $1,000 and a conversion ratio of 20. The price of the underlying stock is $40. What is the conversion value?
+
+$20
+
+$800
+
+$1,000
+
+$25
+
+Agency Bonds (LO1, CFA2) The following are quotes for an agency bond:
+
+Bid	Ask
+102:02	102:05
+If the face value of the bond is $1,000, the price an investor should pay for the bond is closest to:
+
+$1,020.63
+
+$1,021.56
+
+$1,025.00
+
+$1,026.25
+
+Treasury STRIPS (LO3, CFA2) When originally issued, a 10-year-maturity Treasury note can be stripped into how many separate components?
+
+10
+
+11
+
+20
+
+21
+
+Treasury Bills (LO1, CFA2) Treasury bills are sold on a discount basis, meaning that the difference between their issue price and their redemption value is:
+
+The same for all T-bill issues.
+
+The imputed interest on the T-bill.
+
+Never less than the issue price.
+
+The bond equivalent yield for the T-bill.
+
+Treasury Auctions (LO1, CFA2) Which of the following statements about single-price Treasury auctions is true?
+
+Competitive bidders pay their bid prices.
+
+Noncompetitive bidders pay the stop-out bid plus a 10 percent premium.
+
+Noncompetitive bidders pay the stop-out bid.
+
+All of the above are true.
+
+Treasury Dealers (LO1, CFA2) When trading U.S. Treasury securities, Treasury dealers:
+
+Buy at the bid price and sell at the ask price.
+
+Sell at the bid price and buy at the ask price.
+
+Buy at the stop-out bid price and sell at the market price.
+
+Sell at the stop-out bid price and buy at the market price.
+
+Agency Bonds (LO3, CFA2) Which statement applies to a bond issued by an agency of the U.S. government?
+
+It is exempt from the federal income tax on interest.
+
+It becomes a direct obligation of the U.S. Treasury in case of default.
+
+It is secured by assets held by the agency.
+
+None of the above.
+
+Agency Bonds (LO3, CFA2) Which is true for bonds issued by all agencies of the U.S. government?
+
+They become direct obligations of the U.S. Treasury.
+
+They are secured bonds backed by government holdings.
+
+They are exempt from federal income tax.
+
+None of the above.
+
+page 616
+
+Municipal Bonds (LO3, CFA2) Which of the following investors is most likely to invest in locally issued municipal bonds?
+
+High-income individual with a need for liquidity
+
+High-income individual living in a triple income tax municipality
+
+Commercial bank
+
+Life insurance company
+
+Revenue Bonds (LO3, CFA2) A revenue bond is distinguished from a general obligation bond in that revenue bonds have which of the following characteristics?
+
+They are issued by counties, special districts, cities, towns, and state-controlled authorities, whereas general obligation bonds are issued only by the states themselves.
+
+They are typically secured by limited taxing power, whereas general obligation bonds are secured by unlimited taxing power.
+
+They are issued to finance specific projects and are secured by the revenues of the project being financed.
+
+They have first claim to any revenue increase of the issuing tax authority.
+
+Insured Municipal Bonds (LO3, CFA2) Which one of the following generally is not true of an insured municipal bond?
+
+The price on an insured bond is higher than that on an otherwise identical uninsured bond.
+
+The insurance can be canceled in the event the issuer fails to maintain predetermined quality standards.
+
+The insurance premium is a one-time payment made at the time of issuance.
+
+The insurance company is obligated to make all defaulted principal and/or interest payments in a prompt and timely fashion.
+
+Taxable Equivalent Yield (LO3, CFA2) A municipal bond carries a coupon of 6 ¾ percent and is trading at par. To a taxpayer in the 34 percent tax bracket, what would the taxable equivalent yield of this bond be?
+
+4.5 percent
+
+10.2 percent
+
+13.4 percent
+
+19.9 percent
+
+Taxable Equivalent Yield (LO3, CFA2) A 20-year municipal bond is currently priced at par to yield 5.53 percent. For a taxpayer in the 33 percent tax bracket, what equivalent taxable yield would this bond offer?
+
+8.25 percent
+
+10.75 percent
+
+11.40 percent
+
+None of the above
+
+Taxable Equivalent Yield (LO3, CFA2) The coupon rate on a tax-exempt bond is 5.6 percent and the coupon rate on a taxable bond is 8 percent. Both bonds sell at par. At what tax bracket (marginal tax rate) would an investor show no preference between the two bonds?
+
+30.0 percent
+
+39.6 percent
+
+41.7 percent
+
+42.9 percent
+
+Concept Questions
+
+Bond Features (LO2, CFA3) What is a bond refunding? Is it the same thing as a call?
+
+Callable Bonds (LO2, CFA3) With regard to the call feature, what are call protection and the call premium? What typically happens to the call premium through time?
+
+Put Bonds (LO1, CFA5) What is a put bond? Is the put feature desirable from the investor’s perspective? From the issuer’s?
+
+Bond Yields (LO1, CFA4) What is the impact on a bond’s coupon rate from:
+
+A call feature?
+
+A put feature?
+
+page 617
+
+Floaters (LO1, CFA4) From the bondholder’s perspective, what are the potential advantages and disadvantages of floating coupons?
+
+Embedded Options (LO2, CFA5) What are some examples of embedded options in bonds? How do they affect the price of a bond?
+
+Junk Bonds (LO1, CFA3) Explain the difference between an original-issue junk bond and a fallen angel bond.
+
+Callable Bonds (LO2, CFA5) All else the same, callable bonds have less interest rate sensitivity than noncallable bonds. Why? Is this a good thing?
+
+Callable Bonds (LO2, CFA5) Two callable bonds are essentially identical, except that one has a refunding provision while the other has no refunding provision. Which bond is more likely to be called by the issuer? Why?
+
+Bills versus Bonds (LO1, CFA2) What are the key differences between T-bills and T-bonds?
+
+Agencies versus Treasuries (LO3, CFA2) From an investor’s standpoint, what are the key differences between Treasury and agency issues?
+
+Municipals versus Treasuries (LO3, CFA2) From an investor’s standpoint, what are the main differences between Treasury and municipal issues?
+
+Revenues versus General Obligation Munis (LO3, CFA2) What is the difference between a revenue bond and a general obligation bond?
+
+Treasury versus Municipal Bonds (LO3, CFA2) Treasury and municipal bond yields are often compared to calculate critical tax rates. What concerns might you have about such a comparison? What do you think is true about the calculated tax rate?
+
+Callable Bonds (LO2, CFA2) For a callable bond selling above par, is it necessarily true that the yield to call will be less than the yield to maturity? Why or why not?
+
+Questions and Problems
+
+Core Questions
+
+Conversion Price (LO2, CFA5) A convertible bond has a $1,000 face value and a conversion ratio of 45. What is the conversion price?
+
+Conversion Ratio (LO2, CFA5) A company just sold a convertible bond at a par value of $1,000. If the conversion price is $58, what is the conversion ratio?
+
+Conversion Value (LO2, CFA5) A convertible bond has a $1,000 face value and a conversion ratio of 36. If the stock price is $42, what is the conversion value?
+
+Callable Bonds (LO2, CFA5) A bond matures in 25 years but is callable in 10 years at 120. The call premium decreases by 2 percent of par per year. If the bond is called in 14 years, how much will you receive?
+
+Call Premium (LO2, CFA5) You own a bond with a 6 percent coupon rate and a yield to call of 6.90 percent. The bond currently sells for $1,070. If the bond is callable in five years, what is the call premium of the bond?
+
+Convertible Bonds (LO2, CFA5) A convertible bond has a 5 percent coupon, paid semiannually, and will mature in 10 years. If the bond were not convertible, it would be priced to yield 4 percent. The conversion ratio on the bond is 25 and the stock is currently selling for $49 per share. What is the minimum value of this bond?
+
+Convertible Bonds (LO2, CFA5) You own a convertible bond with a conversion ratio of 20. The stock is currently selling for $72 per share. The issuer of the bond has announced a call with a call price of 108. What are your options here? What should you do?
+
+STRIPS Price (LO1, CFA2) What is the price of a STRIPS with a maturity of 12 years, a face value of $10,000, and a yield to maturity of 5.2 percent?
+
+STRIPS YTM (LO1, CFA2) A STRIPS with nine years until maturity and a face value of $10,000 is trading for $7,693. What is the yield to maturity?
+
+Treasury Auctions (LO1, CFA2) The Federal Reserve announces an offering of Treasury bills with a face value of $60 billion. Noncompetitive bids are made for $8 billion, along with the following competitive bids:
+
+page 618
+
+Bidder	Price Bid	Quantity Bid
+A	$9,400   	$15 billion  
+B	9,405	14 billion
+C	9,410	11 billion
+D	9,415	8 billion
+E	9,425	10 billion
+F	9,430	9 billion
+In a single-price auction, which bids are accepted and what prices are paid by each bidder? How much money is raised by the entire offering?
+
+Municipal Bonds (LO3, CFA2) A municipal bond with a coupon rate of 2.7 percent has a yield to maturity of 3.9 percent. If the bond has 10 years to maturity, what is the price of the bond? Remember, most municipal bonds have a face value of $5,000.
+
+Yield to Maturity (LO3, CFA1) A municipal bond with a coupon rate of 6.2 percent sells for $4,920 and has seven years until maturity. What is the yield to maturity of the bond?
+
+Yield to Call (LO2, CFA5) Assume a municipal bond has 18 years until maturity and sells for $5,640. It has a coupon rate of 5.70 percent and it can be called in 10 years. What is the yield to call if the call price is 110 percent of par?
+
+Tax Equivalent Yields (LO3, CFA2) A taxable corporate issue yields 6.5 percent. For an investor in a 35 percent tax bracket, what is the equivalent aftertax yield?
+
+Tax Rates (LO3, CFA2) A taxable issue yields 6.4 percent, and a similar municipal issue yields 4.7 percent. What is the critical marginal tax rate?
+
+Intermediate Questions
+
+16. Treasury Prices (LO1, CFA2) A Treasury bill has a bid yield of 2.75 and an ask yield of 2.73. The bill matures in 152 days. What is the least you could pay to acquire a bill? (Note: You may need to review material from an earlier chapter for the relevant formula.)
+
+17. Treasury Prices (LO1, CFA2) At what price could you sell the Treasury bill referred to in Problem 16? What is the dollar spread for this bill? (Note: You may need to review material from an earlier chapter for the relevant formula.)
+
+18. Treasury Prices (LO1, CFA2) A Treasury issue is quoted at 102.28125 bid and 102.375 ask. What is the least you could pay to acquire a bond?
+
+19. Treasury Yields (LO1, CFA2) A Treasury bond with the longest maturity (30 years) has an ask price quoted at 99.4375. The coupon rate is 4.6 percent, paid semiannually. What is the yield to maturity of this bond?
+
+20. Convertible Bonds (LO2, CFA5) Ashton Long, a bond analyst, is analyzing a convertible bond. The characteristics of the bond are given below.
+
+Convertible Bond Characteristics
+Par value	$1,000
+Annual coupon rate (annual pay)	7.2%
+Conversion ratio	25
+Market price	105% of par
+Straight value	99% of par
+Underlying Stock Characteristics
+Current market price	$32 per share
+Compute the bond’s conversion value and conversion price.
+
+21. Convertible Bonds (LO2, CFA5) Determine whether the value of a callable convertible bond will increase, decrease, or remain unchanged if there is an increase in stock price volatility. What if there is an increase in interest rate volatility? Justify each of your responses.
+
+page 619
+
+Use the following information to answer Problems 22 and 23: Stephanie Poden is evaluating her investment alternatives in Sands Incorporated by analyzing a Sands convertible bond and Sands common equity. Characteristics of the two securities are as follows:
+
+Characteristic	Convertible Bond	Common Equity
+Par value	$1,000	
+Coupon (annual payment)	6%	
+Current market price	$960	$42 per share
+Straight bond value	$940	
+Conversion ratio	25	
+Conversion option	At any time	
+Dividend		$0
+Expected market price in one year	$1,080	$54 per share
+22. Convertible Bonds (LO2, CFA5) Calculate the following:
+
+The current market conversion price for the Sands convertible bond.
+
+The expected one-year rate of return for the Sands convertible bond.
+
+The expected one-year rate of return for the Sands common equity.
+
+23. Convertible Bonds (LO2, CFA5) One year has passed and Sands’s common equity price has increased to $58 per share. Name the two components of the convertible bond’s value. Indicate whether the value of each component should increase, stay the same, or decrease in response to the increase in Sands’s common equity.
+
+Spreadsheet Problems
+
+24. STRIPS Price (LO1, CFA2) A STRIPS traded on May 1, 2019, matures in 18 years on May 1, 2037. Assuming a 4.1 percent yield to maturity, what is the STRIPS price?
+
+25. STRIPS YTM (LO1, CFA2) A STRIPS traded on November 1, 2019, matures in 12 years on November 1, 2031. The quoted STRIPS price is 62.75. What is its yield to maturity?
+
+26. Make-Whole Call Premium (LO2, CFA5) Assume that Kendal Corp. has an outstanding bond issue with a par value of $1,000 and a current market price of $1,022.70 per bond. The bond has seven years remaining and a coupon rate of 6 percent.
+
+Find the current yield to maturity for the Kendal Corp. bond.
+
+If the bond trades at a yield spread of 1.5 percent above comparable U.S. Treasury notes, what must the current yield on Treasury notes be?
+
+If the Kendal bond has a make-whole call premium of 130 basis points above the U.S. Treasury rate, what is the make-whole call premium?
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA1, CFA5]
+
+Patrick Wall is a new associate at a large international financial institution. Mr. Wall recently completed his finance degree and is currently a CFA Level I candidate. Mr. Wall has a new position as the assistant to the firm’s fixed-income portfolio manager. His boss, Charles Johnson, is responsible for familiarizing Mr. Wall with the basics of fixed-income investing. Mr. Johnson asks Mr. Wall to evaluate the bonds shown below. The bonds are otherwise identical except for the call feature present in one of the bonds. The callable bond is callable at par and exercisable on the coupon dates only.
+
+Noncallable	Callable
+Price	$100.83	$98.79
+Time to maturity (years)	5	5
+Time to first call date	—	0
+Annual coupon	$6.25	$6.25
+Interest payment	Semiannual	Semiannual
+Yield to maturity	6.0547%	6.5366%
+Price value per basis point	428.0360	—
+page 620
+
+Mr. Johnson asks Mr. Wall to compute the value of the call option. Using the given information, what is the value of the embedded call option?
+
+$0.00
+
+$1.21
+
+$2.04
+
+Mr. Wall is a little confused over the relationship between the embedded option and the callable bond. How does the value of the embedded call option change when interest rate volatility increases?
+
+It increases.
+
+It may increase or decrease.
+
+It decreases.
+
+Mr. Wall believes he understands the relationship between interest rates and straight bonds but is unclear how callable bonds change as interest rates increase. How do prices of callable bonds react to an increase in interest rates? The price:
+
+Increases.
+
+May increase or decrease.
+
+Decreases.
+
+What’s on the Web?
+
+Bond Quotes Go to http://finra-markets.morningstar.com/BondCenter/Default.jsp and find the corporate bond search. Enter “Ford” for Ford Motor Company in the “Issuer Name” box and search for Ford bonds. How many bonds are listed for sale? What are the different credit ratings for these bonds? What is the yield to maturity for the longest-maturity bond? What is its price?
+
+Historical Credit Spreads The Federal Reserve Bank of St. Louis has files with historical interest rates on its website at stlouisfed.org. Go to the site and find the monthly Moody’s Seasoned Aaa Corporate Bond Yield and the monthly Moody’s Seasoned Baa Corporate Bond Yield. You can calculate a credit spread as the difference between these two returns. When was the largest credit spread? The smallest? What factors do you think led to the large credit spreads and the small credit spreads?
+
+Treasury Auctions Go to treasurydirect.gov and find the next Treasury auctions scheduled. When are the auctions scheduled? What instruments will be offered at these auctions?
+
+Municipal Bond Prices Go to municipalbonds.com and find the municipal bonds traded yesterday for your state. What was the most active bond in terms of the number of trades? Which bond traded the highest dollar amount? How many bonds had a spread of more than one point in trading yesterday?

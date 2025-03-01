@@ -1,0 +1,1239 @@
+page 393
+
+PART 4
+
+Return, Risk, and the Security Market Line
+
+
+
+“To win, you have to risk loss.”
+
+–Franz Klammer
+
+Learning Objectives
+
+Studying some topics will yield an expected reward. For example, make sure you know:
+
+The difference between expected and unexpected returns.
+
+The difference between systematic risk and unsystematic risk.
+
+The security market line and the capital asset pricing model.
+
+The importance of beta.
+
+An important insight of modern financial theory is that some investment risks yield an expected reward, while other risks do not. Essentially, risks that can be eliminated by diversification do not yield an expected reward, and risks that cannot be eliminated by diversification do yield an expected reward. Thus, financial markets are somewhat fussy regarding which risks are rewarded and which risks are not.
+
+Chapter 1 presented some important lessons from capital market history. The most noteworthy, perhaps, is that there is a reward, on average, for bearing risk. We called this reward a risk premium. The second lesson is that this risk premium is positively correlated with an investment’s risk.
+
+In this chapter, we return to an examination of the reward for bearing risk. Specifically, we have two tasks to accomplish. First, we have to define risk more precisely and then discuss how to measure it. Second, once we have a better understanding of what we mean by “risk,” we will go on to quantify the relation between risk and return in financial markets.
+
+When we examine the risks associated with individual assets, we find two types of risk: systematic and unsystematic. This distinction is crucial because, as we will see, systematic risk affects almost all assets in the economy, at least to some degree, whereas unsystematic risk affects at most only a small number of assets. This observation allows us to say a great deal about the risks and returns on individual assets. In particular, it is the basis for a famous relationship between risk and return called the security market line, or SML. To develop the SML, we introduce the equally famous beta coefficient, one of the centerpieces of modern finance. Beta and the SML are key concepts because they supply us with at least part of the answer to the question of how to go about determining the expected return on a risky investment.
+
+CFATM Exam Topics in This Chapter:
+
+Cost of capital (L1, S10)
+
+Portfolio risk and return: Part II (L1, S12)
+
+Introduction to industry and company analysis (L1, S15)
+
+Return concepts (L2, S9)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 394
+
+12.1 Announcements, Surprises, and Expected Returns
+In our previous chapter, we discussed how to construct portfolios and evaluate their returns. We now begin to describe more carefully the risks and returns associated with individual securities. Thus far, we have measured volatility by looking at the difference between the actual return on an asset or portfolio, R, and the expected return, E(R). We now look at why those deviations exist.
+
+EXPECTED AND UNEXPECTED RETURNS
+To begin, consider the return on the stock of a hypothetical company called Flyers. What will determine this stock’s return in, say, the coming year?
+
+The return on any stock traded in a financial market is composed of two parts. First, the normal, or expected, return from the stock is the part of the return that investors predict or expect. This return depends on the information investors have about the stock, and it is based on the market’s understanding today of the important factors that will influence the stock in the coming year.
+
+The second part of the return on the stock is the uncertain, or risky, part. This is the portion that comes from unexpected information revealed during the year. A list of all possible sources of such information would be endless, but here are a few basic examples:
+
+News about Flyers’s product research
+
+Government figures released on gross domestic product
+
+The latest news about exchange rates
+
+The news that Flyers’s sales figures are higher than expected
+
+A sudden, unexpected drop in interest rates
+
+Based on this discussion, one way to express the return on Flyers stock in the coming year would be:
+
+
+or
+
+
+where R stands for the actual total return in the year, E(R) stands for the expected part of the return, and U stands for the unexpected part of the return. What this says is that the actual return, R, differs from the expected return, E(R), because of surprises that occur during the year. In any given year, the unexpected return will be positive or negative, but, through time, the average value of U will be zero. This means that, on average, the actual return equals the expected return.
+
+ANNOUNCEMENTS AND NEWS
+We need to be careful when we talk about the effect of news items on stock returns. For example, suppose Flyers’s business is such that the company prospers when gross domestic product (GDP) grows at a relatively high rate and suffers when GDP is relatively stagnant. In this case, in deciding what return to expect this year from owning stock in Flyers, investors either implicitly or explicitly must think about what GDP is likely to be for the coming year.
+
+Visit the earnings calendar in the free services section at
+earningswhispers.com.
+
+When the government actually announces GDP figures for the year, what will happen to the value of Flyers stock? Obviously, the answer depends on what figure is released. More to the point, however, the impact depends on how much of that figure actually represents new information.
+
+At the beginning of the year, market participants will have some idea or forecast of what the yearly GDP figure will be. To the extent that shareholders have predicted GDP, that page 395prediction will already be factored into the expected part of the return on the stock, E(R). On the other hand, if the announced GDP is a surprise, then the effect will be part of U, the unanticipated portion of the return.
+
+As an example, suppose shareholders in the market had forecast that the GDP increase this year would be .5 percent. If the actual announcement this year is exactly .5 percent, the same as the forecast, then the shareholders don’t really learn anything, and the announcement isn’t news. There should be no impact on the stock price as a result. This is like receiving redundant confirmation about something that you suspected all along; it reveals nothing new.
+
+To give a more concrete example, Nabisco once announced it was taking a massive $300 million charge against earnings for the second quarter in a sweeping restructuring plan. The company also announced plans to cut its workforce sharply by 7.8 percent, eliminate some package sizes and small brands, and relocate some of its operations. This all seems like bad news, but the stock price didn’t even budge. Why? Because it was already fully expected that Nabisco would take such actions, and the stock price already reflected the bad news.
+
+A common way of saying that an announcement isn’t news is to say that the market has already discounted the announcement. The use of the word “discount” here is different from the use of the term in computing present values, but the spirit is the same. When we discount a dollar to be received in the future, we say it is worth less to us today because of the time value of money. When an announcement or a news item is discounted into a stock price, we say that its impact is already a part of the stock price because the market already knew about it.
+
+Going back to Flyers, suppose the government announces that the actual GDP increase during the year has been 1.5 percent. Now shareholders have learned something, namely, that the increase is one percentage point higher than they had forecast. This difference between the actual result and the forecast—one percentage point in this example—is sometimes called the innovation or the surprise.
+
+This distinction explains why what seems to be bad news can actually be good news. For example, Gymboree, a retailer of children’s apparel, had a 3 percent decline in same-store sales for a particular month, yet its stock price shot up 13 percent on the news. In the retail business, same-store sales, which are sales by existing stores in operation at least a year, are a crucial barometer, so why was this decline good news? Analysts had been expecting significantly sharper declines, so the situation was not as bad as previously thought.
+
+A key fact to keep in mind about news and price changes is that news about the future is what matters. For example, Crocs, Inc. (CROX), once announced quarterly earnings that grew more than 25 percent year-over-year. That seems like good news, but Crocs’s stock price promptly dropped because the market was expecting a much higher growth rate. Similarly, Microsoft once reported a 50 percent jump in profits, exceeding projections. That seems like really good news, but Microsoft’s stock price proceeded to decline sharply. Why? Because Microsoft warned that its phenomenal growth could not be sustained indefinitely, its 50 percent increase in current earnings was not a good predictor of future earnings growth.
+
+To summarize, an announcement can be broken into two parts, the anticipated, or expected, part plus the surprise, or innovation:
+
+
+The expected part of any announcement is the part of the information that the market uses to form the expectation, E(R), of the return on the stock. The surprise is the news that influences the unanticipated return on the stock, U.
+
+See recent earnings surprises at
+finance.yahoo.com/calendar.
+
+Our discussion of market efficiency in a previous chapter bears on this discussion. We are assuming that relevant information known today is already reflected in the expected return. This assumption is identical to saying that the current price reflects relevant publicly available information. We are thus implicitly assuming that markets are at least reasonably efficient in the semistrong form sense. Henceforth, when we speak of news, we will mean the surprise part of an announcement and not the portion that the market had expected and therefore already discounted.
+
+page 396
+
+In the News
+
+EXAMPLE 12.1
+
+Suppose Intel were to announce that earnings for the quarter just ending were up by 20 percent relative to a year ago. Do you expect that the stock price would rise or fall on the announcement?
+
+The answer is that you can’t really tell. Suppose the market was expecting a 40 percent increase. In this case, the 20 percent increase would be a negative surprise, and we would expect the stock price to fall. On the other hand, if the market was expecting only a 10 percent increase, there would be a positive surprise, and we would expect the stock to rise on the news.
+
+CHECK THIS
+
+
+
+12.1aWhat are the two basic parts of a return on common stock?
+
+12.1bUnder what conditions will an announcement have no effect on common stock prices?
+
+12.2 Risk: Systematic and Unsystematic
+It is important to distinguish between expected and unexpected returns because the unanticipated part of the return, that portion resulting from surprises, is the significant risk of any investment. After all, if we always receive exactly what we expect, then the investment is perfectly predictable and, by definition, risk-free. In other words, the risk of owning an asset comes from surprises—unanticipated events.
+
+There are important differences, though, among various sources of risk. Look back at our previous list of news stories. Some of these stories are directed specifically at Flyers, and some are more general. Which of the news items are of specific importance to Flyers?
+
+Announcements about interest rates or GDP are clearly important for nearly all companies, whereas the news about Flyers’s product research or its sales is of specific interest to Flyers investors only. We distinguish between these two types of events because, as we will see, they have very different implications.
+
+SYSTEMATIC AND UNSYSTEMATIC RISK
+The first type of surprise, the one that affects most assets, we label systematic risk. A systematic risk is one that influences a large number of assets, each to a greater or lesser extent. Because systematic risks have marketwide effects, they are sometimes called market risks.
+
+systematic risk
+
+Risk that influences a large number of assets. Also called market risk.
+
+The second type of surprise we call unsystematic risk. An unsystematic risk is one that affects a single asset, or possibly a small group of assets. Because these risks are unique to individual companies or assets, they are sometimes called unique or asset-specific risks. We use these terms interchangeably.
+
+unsystematic risk
+
+Risk that influences a single company or a small group of companies. Also called unique or asset-specific risk.
+
+As we have seen, uncertainties about general economic conditions (such as GDP, interest rates, or inflation) are examples of systematic risks. These conditions affect nearly all companies to some degree. An unanticipated increase, or surprise, in inflation, for example, affects wages and the costs of supplies that companies buy. This surprise affects the value of the assets that companies own, and it affects the prices at which companies sell their products. Forces such as uncertainties about general economic conditions are the essence of systematic risk because all companies are susceptible to these forces.
+
+In contrast, the announcement of a labor strike by a particular company will primarily affect that company and, perhaps, a few others (such as primary competitors and suppliers). It is unlikely to have much of an effect on the broad market, however, or on the affairs of companies not in the same business, so this is an unsystematic event.
+
+page 397
+
+SYSTEMATIC AND UNSYSTEMATIC COMPONENTS OF RETURN
+The distinction between a systematic risk and an unsystematic risk is never really as exact as we would like it to be. Even the most narrow and peculiar bit of news about a company ripples through the economy. This ripple effect happens because every enterprise, no matter how tiny, is a part of the economy. It’s like the proverb about a kingdom that was lost because one horse lost a horseshoe nail. However, not all ripple effects are equal—some risks have much broader effects than others.
+
+Analyze risk at
+portfolioscience.com.
+
+The distinction between the two types of risk allows us to break down the surprise portion, U, of the return on the Flyers stock into two parts. Earlier, we broke down the actual return into its expected and surprise components: R − E(R) = U. We now recognize that the total surprise component for Flyers, U, has a systematic and an unsystematic component, so:
+
+
+Because it is traditional, we will use the Greek letter epsilon, ε, to stand for the unsystematic portion. Because systematic risks are often called “market” risks, we use the letter m to stand for the systematic part of the surprise. With these symbols, we can rewrite the formula for the total return:
+
+
+The important thing about the way we have broken down the total surprise, U, is that the unsystematic portion, ε, is unique to Flyers. For this reason, it is unrelated to the unsystematic portion of return on most other assets. To see why this is important, we need to return to the subject of portfolio risk.
+
+Systematic versus Unsystematic Events
+
+EXAMPLE 12.2
+
+Suppose Intel were to unexpectedly announce that its latest computer chip contains a significant flaw in its floating point unit that makes it unable to handle numbers bigger than a couple of gigatrillion (meaning that, among other things, the chip cannot calculate Intel’s quarterly profits). Is this a systematic or unsystematic event?
+
+Obviously, this event is for the most part unsystematic. However, it would also benefit Intel’s competitors to some degree and, at least potentially, harm some users of Intel products such as personal computer makers. Thus, as with most unsystematic events, there is some spillover, but the effect is mostly confined to a relatively small number of companies.
+
+CHECK THIS
+
+
+
+12.2aWhat are the two basic types of risk?
+
+12.2bWhat is the distinction between the two types of risk?
+
+12.3 Diversification, Systematic Risk, and Unsystematic Risk
+In the previous chapter, we introduced the principle of diversification. What we saw was that some of the risk associated with individual assets can be diversified away and some cannot. We are left with an obvious question: Why is this so? The answer hinges on the distinction between systematic and unsystematic risk.
+
+DIVERSIFICATION AND UNSYSTEMATIC RISK
+By definition, an unsystematic risk is one that is particular to a single asset or, at most, a small group of assets. For example, if the asset under consideration is stock in a single company, such things as successful new products and innovative cost savings will tend to increase page 398the value of the stock. Unanticipated lawsuits, industrial accidents, strikes, and similar events will tend to decrease future cash flows and thereby reduce share value.
+
+Here is the important observation: If we hold only a single stock, then the value of our investment will fluctuate because of company-specific events. If we hold a large portfolio, on the other hand, some of the stocks in the portfolio will go up in value because of positive company-specific events and some will go down in value because of negative events. The net effect on the overall value of the portfolio will be relatively small, however, because these effects will tend to cancel each other out.
+
+Now we see why some of the variability associated with individual assets is eliminated by diversification. When we combine assets into portfolios, the unique, or unsystematic, events—both positive and negative—tend to “wash out” once we have more than just a few assets. This is an important point that bears repeating:
+
+
+In fact, the terms diversifiable risk and unsystematic risk are often used interchangeably.
+
+DIVERSIFICATION AND SYSTEMATIC RISK
+We’ve seen that unsystematic risk can be eliminated by diversification. What about systematic risk? Can it also be eliminated by diversification? The answer is no because, by definition, a systematic risk affects almost all assets. As a result, no matter how many assets we put into a portfolio, systematic risk doesn’t go away. Thus, for obvious reasons, the terms systematic risk and nondiversifiable risk are used interchangeably.
+
+Because we have introduced so many different terms, it is useful to summarize our discussion before moving on. What we have seen is that the total risk of an investment can be written as:
+
+
+Systematic risk is also called nondiversifiable risk or market risk. Unsystematic risk is also called diversifiable risk, unique risk, or asset-specific risk. Most important, for a well-diversified portfolio, unsystematic risk is negligible. For such a portfolio, essentially all risk is systematic.
+
+From our discussion in other chapters, you should remember that we defined risk as variability, and we used standard deviation (or variance) to estimate the level of risk. Now that you know about different types of risk, you must know that standard deviation is a measure of total risk. An asset that has a high standard deviation might not compensate investors with high returns. Why? Suppose most of the asset’s total risk comes from unsystematic risk. Investors are not compensated for bearing unsystematic risk. Assets with high systematic risk, however, do (in theory) compensate investors with high returns. What we need, therefore, is a measure that captures systematic risk. Enter beta.
+
+CHECK THIS
+
+
+
+12.3aWhy is some risk diversifiable? Why is some risk not diversifiable?
+
+12.3bWhy can’t systematic risk be diversified away?
+
+12.4 Systematic Risk and Beta
+We now begin to address another question: What determines the size of the risk premium on a risky asset? Put another way, why do some assets have a larger risk premium than others? The answer, as we discuss next, is also based on the distinction between systematic and unsystematic risk.
+
+THE SYSTEMATIC RISK PRINCIPLE
+Thus far, we’ve seen that the total risk associated with an asset can be decomposed into two components: systematic and unsystematic risk. We have also seen that unsystematic risk can page 399be essentially eliminated by diversification. The systematic risk present in an asset, on the other hand, cannot be eliminated by diversification.
+
+Based on our study of capital market history in Chapter 1, we know that there is a reward, on average, for bearing risk. However, we now need to be more precise about what we mean by risk. The systematic risk principle states that the reward for bearing risk depends only on the systematic risk of an investment.
+
+systematic risk principle
+
+The reward for bearing risk depends only on the systematic risk of an investment.
+
+The underlying rationale for this principle is straightforward: Because unsystematic risk can be eliminated at virtually no cost (by diversifying), there is no reward for bearing it. In other words, the market does not reward risks that are borne unnecessarily.
+
+The systematic risk principle has a remarkable and very important implication:
+
+
+This principle has an obvious corollary: No matter how much total risk an asset has (i.e., no matter how high its standard deviation), only the systematic portion is relevant in determining the expected return (and the risk premium) on that asset. This observation is consistent with our previous discussion on portfolio diversification. For example, recall that we noted that purchasing a security with high volatility could actually reduce total portfolio risk. How is this possible? Well, in the current context, if this high volatility is primarily a result of unsystematic risk, then much of the volatility is diversified away. In other words, this stock, although highly volatile, had low systematic, or market, risk.
+
+Find betas at
+finance.yahoo.com
+and
+marketwatch.com.
+
+MEASURING SYSTEMATIC RISK
+Because systematic risk is the crucial determinant of an asset’s expected return, we need some way of measuring the level of systematic risk for different investments. The specific measure we will use is called the beta coefficient, designated by the Greek letter β. A beta coefficient, or just beta for short, tells us how much systematic risk a particular asset has relative to an average asset. By definition, an average asset has a beta of 1.0. An asset with a beta of .50, therefore, has half as much systematic risk as an average asset. Likewise, an asset with a beta of 2.0 has twice as much systematic risk.
+
+beta coefficient (β)
+
+Measure of the relative systematic risk of an asset. Assets with betas larger (smaller) than 1 have more (less) systematic risk than average.
+
+Table 12.1 presents the estimated beta coefficients for the stocks of some well-known companies. These estimates come from two sources: MarketWatch and Yahoo! Finance. The range of betas in Table 12.1 is typical for stocks of large U.S. corporations. You should realize, however, that betas outside this range occur.
+
+Beta Coefficients
+
+TABLE 12.1
+
+Beta, β
+Company	MarketWatch	Yahoo!
+ExxonMobil	.91	  .68
+IBM	  .93	1.87
+Starbucks	  .86	  .30
+Walmart	  .62	  .46
+Microsoft	1.26	1.09
+Harley-Davidson	1.04	1.47
+eBay	1.00	1.44
+Tesla	1.32	  .55
+Southwest Airlines	1.06	1.66
+Nike	  .97	  .96
+Source: finance.yahoo.com and www.marketwatch.com. Accessed January 2019.
+
+The important thing to remember is that the expected return, and thus the risk premium, on an asset depends only on its systematic risk. Because assets with larger betas have greater systematic risks, they will have greater expected returns. Thus, from Table 12.1, an investor who buys stock in Walmart, with a beta of .62, should expect to earn less and lose less, on average, than an investor who buys stock in Microsoft, with a beta of about 1.26.
+
+page 400
+
+WORK THE WEB
+
+Suppose you want to find the beta for a company like Southwest Airlines. One way is to go to the web. We went to finance.yahoo.com, looked up Southwest Airlines Co. (LUV), and followed the “Statistics” link. This is part of what we found:
+
+
+Source: Yahoo! Finance.
+
+The reported beta for Southwest Airlines is 1.66, which means that Southwest Airlines has about 1.66 times the systematic risk of a typical stock. Thus, it is well above average.
+
+One cautionary note is in order: Not all betas are created equal. For example, in Table 12.1, MarketWatch reports a beta for Tesla of 1.32. At the same time, however, Yahoo! Finance puts Tesla’s beta substantially lower at .55. The difference results from the different assumptions used to calculate beta coefficients. We will have more to say on this subject when we explain how betas are calculated in a later section, but for now we point out that it is due to a couple of possible issues.
+
+First, betas are calculated relative to a chosen index or benchmark, such as the S&P 500. Second, betas are calculated over a defined time period. Thus, the differences in the beta coefficients in Table 12.1 likely stem from differences in the benchmark index and/or differences in the defined time period. Our nearby Work the Web box shows one way to find betas online.
+
+Total Risk versus Beta
+
+EXAMPLE 12.3
+
+Consider the following information on two securities. Which has greater total risk? Which has greater systematic risk? Greater unsystematic risk? Which asset will have a higher risk premium?
+
+Standard Deviation	Beta
+Security A	40%	  .50
+Security B	20	1.50
+From our discussion, recall that standard deviation measures total risk and beta measures systematic risk. Therefore, Security A has greater total risk, but it has substantially less systematic risk. Because total risk is the sum of systematic and unsystematic risk, Security A must have greater unsystematic risk. Finally, from the systematic risk principle, Security B will have a higher risk premium and a greater expected return, despite the fact that it has less total risk.
+
+page 401
+
+PORTFOLIO BETAS
+Earlier, we saw that the riskiness of a portfolio has no simple relation to the risks of the assets in the portfolio. By contrast, a portfolio beta can be calculated just like a portfolio expected return. For example, looking again at Table 12.1, suppose you put half of your money in Starbucks and half in Nike. Using MarketWatch betas, what would the beta of this combination be? Because Starbucks has a beta of .86 and Nike has a beta of .97, the portfolio’s beta, βp, would be
+
+
+In general, if we had a large number of assets in a portfolio, we would multiply each asset’s beta by its portfolio weight and then add the results to get the portfolio’s beta.1
+
+Portfolio Betas
+
+EXAMPLE 12.4
+
+Suppose we have the following information:
+
+Security	Amount Invested	Expected Return	Beta
+Stock A	$1,000	  8%	  .80
+Stock B	  2,000	12	  .95
+Stock C	  3,000	15	1.10
+Stock D	  4,000	18	1.40
+What is the expected return on this portfolio? What is the beta of this portfolio? Does this portfolio have more or less systematic risk than an average asset?
+
+To answer, we first have to calculate the portfolio weights. Notice that the total amount invested is $10,000. Of this, $1,000/$10,000 = .10, or 10%, is invested in Stock A. Similarly, 20 percent is invested in Stock B, 30 percent is invested in Stock C, and 40 percent is invested in Stock D. The expected return, E (Rp), is thus:
+
+
+Similarly, the portfolio beta, βp, is:
+
+
+This portfolio thus has an expected return of 14.9 percent and a beta of 1.16. Because the beta is larger than 1, this portfolio has greater systematic risk than an average asset.
+
+CHECK THIS
+
+
+
+12.4aWhat is the systematic risk principle?
+
+12.4bWhat does a beta coefficient measure?
+
+12.4cHow do you calculate a portfolio beta?
+
+12.4dTrue or false: The expected return on a risky asset depends on that asset’s total risk. Explain.
+
+page 402
+
+12.5 The Security Market Line
+We’re now in a position to see how risk is rewarded in the marketplace. To begin, suppose that Asset A has an expected return of E(RA) = 16% and a beta of βA = 1.6. Further suppose that the risk-free rate is Rf = 4%. Notice that a risk-free asset, by definition, has no systematic risk (or unsystematic risk), so a risk-free asset has a beta of zero.
+
+BETA AND THE RISK PREMIUM
+Consider a portfolio made up of Asset A and a risk-free asset. We can calculate some different possible portfolio expected returns and betas by varying the percentages invested in these two assets. For example, if 25 percent of the portfolio is invested in Asset A, then the expected return is:
+
+For more information on risk management, visit
+fenews.co.uk.
+
+
+Similarly, the beta on the portfolio, βp, would be:
+
+
+Notice that, because the weights must add up to 1, the percentage invested in the risk-free asset is equal to 1 minus the percentage invested in Asset A.
+
+One thing that you might wonder is whether the percentage invested in Asset A can exceed 100 percent. The answer is yes. This can happen if the investor borrows at the risk-free rate and invests the proceeds in stocks. For example, suppose an investor has $100 and borrows an additional $50 at 4 percent, the risk-free rate. The total investment in Asset A would be $150, or 150 percent of the investor’s wealth. This process would be similar to buying on margin, which we discussed in an earlier chapter. The expected return in this case would be:
+
+
+The beta on the portfolio would be:
+
+
+We can calculate some other possibilities as follows:
+
+Percentage of Portfolio in Asset B	Portfolio Expected Return	Portfolio Beta
+    0%	    4%	  .0
+  25	  6	  .3
+  50	  8	  .6
+  75	10	  .9
+100	12	1.2
+125	14	1.5
+150	16	1.8
+page 403
+
+In Figure 12.1A, we plot these portfolio expected returns against portfolio betas. Notice that all the combinations fall on a straight line.
+
+THE REWARD-TO-RISK RATIO
+What is the slope of the straight line in Figure 12.1A? As always, the slope of a straight line is equal to the rise over the run. In this case, as we move out of the risk-free asset into Asset A, the expected return goes from 4 percent to 16 percent, a rise of 12 percent. At the same time, the beta increases from zero to 1.6, a run of 1.6. The slope of the line is thus 12%/1.6 = 7.5%.
+
+Notice that the slope of our line is the risk premium on Asset A, E(RA) − Rf, divided by Asset A’s beta, βA:
+
+
+What this tells us is that Asset A offers a reward-to-risk ratio of 7.5 percent.2 In other words, Asset A has a risk premium of 7.50 percent per “unit” of systematic risk.
+
+THE BASIC ARGUMENT
+Now suppose we consider a second asset, Asset B. This asset has a beta of 1.2 and an expected return of 12 percent. Which investment is better, Asset A or Asset B? You might think that we really cannot say—some investors might prefer A and some investors might prefer B. Actually, however, we can say: A is better because, as we will demonstrate, B offers inadequate compensation for its level of systematic risk, at least relative to A.
+
+To begin, we calculate different combinations of expected returns and betas for portfolios of Asset B and a risk-free asset, just as we did for Asset A. For example, if we put 25 percent in Asset B and the remaining 75 percent in the risk-free asset, the portfolio’s expected return will be:
+
+
+Similarly, the beta on the portfolio, βp, would be:
+
+
+Some other possibilities are as follows:
+
+Percentage of Portfolio in Asset B	Portfolio Expected Return	Portfolio Beta
+    0%	  4%	 .0
+ 25	 6	 .3
+ 50	 8	 .6
+ 75	10	 .9
+100	12	1.2
+125	14	1.5
+150	16	1.8
+page 404
+
+Betas and Portfolio Returns
+
+FIGURE 12.1
+
+
+When we plot these combinations of portfolio expected returns and portfolio betas in Figure 12.1B, we get a straight line, just as we did for Asset A.
+
+The key thing to notice is that when we compare the results for Assets A and B, as in Figure 12.1C, the line describing the combinations of expected returns and betas for Asset A is higher than the one for Asset B. What this result tells us is that for any given level of systematic page 405risk (as measured by beta), some combination of Asset A and the risk-free asset always offers a larger return. Therefore, we can state that Asset A is a better investment than Asset B.
+
+Another way of seeing that Asset A offers a superior return for its level of risk is to note that the slope of our line for Asset B is:
+
+
+Thus, Asset B has a reward-to-risk ratio of 6.67 percent, which is less than the 7.5 percent offered by Asset A.
+
+THE FUNDAMENTAL RESULT
+The situation we described for Assets A and B could not persist in a well-organized, active market because investors would be attracted to Asset A and away from Asset B. As a result, Asset A’s price would rise and Asset B’s price would fall. Because prices and expected returns move in opposite directions, A’s expected return would decline and B’s would rise.
+
+This buying and selling would continue until the two assets plot on exactly the same line, which means they would offer the same reward for bearing risk. In other words, in an active, competitive market, it must be true that:
+
+
+This is the fundamental relation between risk and return.
+
+Our basic argument can be extended to more than just two assets. In fact, no matter how many assets we had, we would always reach the same conclusion:
+
+
+This result is really not too surprising. What it says is that, for example, if one asset has twice as much systematic risk as another asset, its risk premium will be twice as large.
+
+Using Reward-to-Risk Ratios
+
+EXAMPLE 12.5
+
+Suppose we see that the reward-to-risk ratio for all assets equals 7.2. If the risk-free rate is 4 percent, what is the required return for an arbitrary Asset i with (1) a beta of 1? (2) a beta of 0?
+
+To answer Question (1), write down the reward-to-risk equation and set it equal to 7.2. Because we know the risk-free rate and the beta of the asset, we can easily solve for the expected return of the asset:
+
+
+Therefore, E (Ri) = 11.2 percent.
+
+Question (2) is a bit trickier. We cannot use the same approach used in Question (1) directly because we would have to divide by zero. But let’s think. Beta is the measure of risk in the reward-to-risk equation. If the portfolio has zero risk, its expected return should not reflect a premium for carrying risk. Therefore, the answer is 4 percent, the rate of return on the risk-free asset.
+
+Because all assets in the market must have the same reward-to-risk ratio, they all must plot on the same line. This argument is illustrated in Figure 12.2. As shown, Assets A and B plot directly on the line and thus have the same reward-to-risk ratio.
+
+Expected Returns and Systematic Risk
+
+FIGURE 12.2
+
+
+If an asset is plotted above the line, such as C in Figure 12.2, its reward-to-risk ratio is too high because its expected return is too high. An expected return has two inputs: the expected page 406price and the price today. The expected return is calculated as E(R) = [E(P) − Ptoday]/Ptoday, or [E(P)/Ptoday] − 1. To lower the expected return for Asset C, its price today must increase until the reward-to-risk ratio for Asset C plots exactly on the line. Similarly, if an asset is plotted below the line, such as D in Figure 12.2, its reward-to-risk ratio is too low because its expected return is too low. To increase the expected return for Asset D, its price today must fall until the reward-to-risk ratio for Asset D also plots exactly on the line.
+
+The arguments we have presented apply to active, competitive, well-functioning markets. Active financial markets, such as the NYSE, best meet these criteria. Other markets, such as real asset markets, may or may not. For this reason, these concepts are most useful in examining active, and largely efficient, financial markets.
+
+Buy Low, Sell High
+
+EXAMPLE 12.6
+
+A security is said to be overvalued relative to another security if its price today is too high given its expected return and risk. Suppose you observe the following:
+
+Security	Beta	Expected Return
+Melan Co.	1.3	14.0%
+Choly Co.	 .8	10.0
+Baby Co.	1.0	11.5
+The risk-free rate is currently 6 percent. Is one of the securities overvalued relative to the others?
+
+To answer, we compute the reward-to-risk ratios. For Melan, this ratio is (14% − 6%)/1.3 = 6.15%; for Choly, this ratio is 5 percent; and for Baby, it is 5.5 percent. What we conclude is that Choly offers an insufficient expected return for its level of risk, at least relative to Melan and Baby. Because its expected return is too low, its price is too high. In other words, Choly is overvalued relative to Melan and Baby, and we would expect to see its price fall relative to Melan and Baby. Notice that we could also say Melan and Baby are undervalued relative to Choly. What can you say about the relative pricing of Melan and Baby?
+
+THE SECURITY MARKET LINE
+The line that results when we plot expected returns and beta coefficients is obviously of some importance, so it’s time we gave it a name. This line, which we use to describe the relationship between systematic risk and expected return in financial markets, is usually called the security market line (SML), and it is one of the most important concepts in modern finance.
+
+security market line (SML)
+
+Graphical representation of the linear relationship between systematic risk and expected return in financial markets.
+
+page 407
+
+MARKET PORTFOLIOS We will find it very useful to know the equation of the SML. Although there are many different ways we could write it, we will discuss the most frequently seen version. Suppose we consider a portfolio made up of all of the assets in the market. Such a portfolio is called a market portfolio, and we express the expected return on this market portfolio as E(RM).
+
+Because all the assets in the market must plot on the SML, so must a market portfolio made up of those assets. To determine where it plots on the SML, we need to know the beta of the market portfolio, βM. Because this portfolio is representative of all of the assets in the market, it must have average systematic risk. In other words, it has a beta of 1. We could therefore express the slope of the SML as:
+
+
+The term E(RM) − Rf is often called the market risk premium because it is the risk premium on a market portfolio.
+
+market risk premium
+
+The risk premium on a market portfolio, i.e., a portfolio made of all assets in the market.
+
+THE CAPITAL ASSET PRICING MODEL To finish up, if we let E(Ri) and βi stand for the expected return and beta, respectively, on any asset in the market, then we know that the asset must plot on the SML. As a result, we know that its reward-to-risk ratio is the same as that of the overall market:
+
+
+If we rearrange this, we can write the equation for the SML as:
+
+
+Equation 12.7 is the famous capital asset pricing model (CAPM).3 What the CAPM shows is that the expected return for an asset depends on three things:
+
+capital asset pricing model (CAPM)
+
+A theory of risk and return for securities in a competitive capital market.
+
+The pure time value of money. As measured by the risk-free rate, Rf, this is the reward for merely waiting for your money, without taking any risk.
+
+The reward for bearing systematic risk. As measured by the market risk premium, E(RM) − Rf, this component is the reward the market offers for bearing an average amount of systematic risk.
+
+The amount of systematic risk. As measured by βi, this is the amount of systematic risk present in a particular asset relative to that in an average asset.
+
+There’s a CAPM calculator (if you really need it!) at
+moneychimp.com.
+
+Risk and Return
+
+EXAMPLE 12.7
+
+Suppose the risk-free rate is 4 percent, the market risk premium is 8.6 percent, and a particular stock has a beta of 1.3. Based on the CAPM, what is the expected return on this stock? What would the expected return be if the beta were to double?
+
+With a beta of 1.3, the risk premium for the stock is 1.3 × 8.6%, or 11.18 percent. The risk-free rate is 4 percent, so the expected return is 15.18 percent. If the beta were to double to 2.6, the risk premium would double to 22.36 percent, so the expected return would be 26.36 percent.
+
+By the way, the CAPM works for portfolios of assets just as it does for individual assets. In an earlier section, we saw how to calculate a portfolio’s beta in the CAPM equation.
+
+Figure 12.3 summarizes our discussion of the SML and the CAPM. As before, we plot expected return against beta. Now we recognize that, based on the CAPM, the slope of the SML is equal to the market risk premium, E(RM) − Rf.
+
+page 408
+
+Security Market Line (SML)
+
+FIGURE 12.3
+
+
+The concepts presented so far in this chapter are important, and it is worth repeating some of the major points. Table 12.2 summarizes these concepts in the order in which they appear in this chapter.
+
+Risk and Return Summary
+
+TABLE 12.2
+
+1.	Total risk. The total risk of an investment is measured by the variance or, more commonly, the standard deviation of its return.
+2.	Total return. The total return on an investment has two components: the expected return and the unexpected return. The unexpected return comes about because of unanticipated events. The risk from investing stems from the possibility of an unanticipated event.
+3.	Systematic and unsystematic risks. Systematic risks (also called market risks) are unanticipated events that affect almost all assets to some degree because the effects are economywide. Unsystematic risks are unanticipated events that affect single assets or small groups of assets. Unsystematic risks are also called unique or asset-specific risks.
+4.	The effect of diversification. Some, but not all, of the risk associated with a risky investment can be eliminated by diversification. The reason is that unsystematic risks, which are unique to individual assets, tend to wash out in a large portfolio, but systematic risks, which affect all of the assets in a portfolio to some extent, do not.
+5.	The systematic risk principle and beta. Because unsystematic risk can be freely eliminated by diversification, the systematic risk principle states that the reward for bearing risk depends only on the level of systematic risk. The level of systematic risk in a particular asset, relative to the average, is given by the beta of that asset.
+6.	The reward-to-risk ratio and the security market line. The reward-to-risk ratio for Asset i is the ratio of its risk premium, E(Ri) – Rf, to its beta, βi:
+
+In a well-functioning market, this ratio is the same for every asset. As a result, when asset expected returns are plotted against asset betas, all assets plot on the same straight line, called the security market line (SML).
+7.	The capital asset pricing model. From the SML, the expected return on Asset i can be written:
+
+This is the capital asset pricing model (CAPM). The expected return on a risky asset thus has three components: The first is the pure time value of money (Rf); the second is the market risk premium, E(RM) – Rf; and the third is the beta for the asset (βi).
+page 409
+
+CHECK THIS
+
+
+
+12.5aWhat is the fundamental relationship between risk and return in active markets?
+
+12.5bWhat is the security market line (SML)? Why must all assets plot directly on it in a well-functioning market?
+
+12.5cWhat is the capital asset pricing model (CAPM)? What does it tell us about the required return on a risky investment?
+
+12.6 More on Beta
+In our last several sections, we discussed the basic economic principles of risk and return. We found that the expected return on a security depends on its systematic risk, which is measured using the security’s beta coefficient, β. In this section, we examine beta in more detail. We first illustrate more closely what it is that beta measures. We then show how betas can be estimated for individual securities, and we discuss why different sources report different betas for the same security.
+
+A CLOSER LOOK AT BETA
+Going back to the beginning of the chapter, we discussed how the actual return on a security, R, could be written as follows:
+
+
+Recall that in Equation 12.8, m stands for the systematic or marketwide portion of the unexpected return. Based on our discussion of the CAPM, we can now be a little more precise about this component.
+
+Specifically, the systematic portion of an unexpected return depends on two things. First, it depends on the size of the systematic effect. We will measure this as RM − E(RM), which is the difference between the actual return on the overall market and the expected return. Second, as we have discussed, some securities have greater systematic risk than others, and we measure this risk using beta. Putting it together, we have:
+
+
+In other words, the marketwide, or systematic, portion of the return on a security depends on both the size of the marketwide surprise, RM − E(RM), and the sensitivity of the security to such surprises, β.
+
+Now, if we combine Equations 12.8 and 12.9, we have:
+
+
+Equation 12.10 gives us some additional insight into beta by telling us why some securities have higher betas than others. A high-beta security is one that is relatively sensitive to overall market movements, whereas a low-beta security is one that is relatively insensitive. In other words, the systematic risk of a security is just a reflection of its sensitivity to overall market movements.
+
+A hypothetical example is useful for illustrating the main point of Equation 12.10. Suppose a particular security has a beta of 1.2, the risk-free rate is 5 percent, and the expected return on the market is 12 percent. From the CAPM, we know that the expected return on the security is:
+
+
+page 410
+
+Thus, the expected return on this security is 13.4 percent. However, we know that in any year the actual return on this security will be more or less than 13.4 percent because of unanticipated systematic and unsystematic events.
+
+Columns 1 and 2 of Table 12.3 list the actual returns on our security, R, for a five-year period along with the actual returns for the market as a whole, RM, for the same period. Given these actual returns and the expected returns on the security (13.4 percent) and the market as a whole (12 percent), we can calculate the unexpected returns on the security, R − E(R), along with the unexpected return on the market as a whole, RM − E(RM). The results are shown in columns 3 and 4 of Table 12.3.
+
+Decomposing Total Returns
+
+TABLE 12.3
+
+
+Next we decompose the unexpected returns on the security—that is, we break them down into their systematic and unsystematic components in columns 5 and 6. From Equation 12.9, we calculate the systematic portion of the unexpected return by taking the security’s beta, 1.2, and multiplying it by the market’s unexpected return:
+
+
+Finally, we calculate the unsystematic portion by subtracting the systematic portion from the total unexpected return:
+
+
+Notice that the unsystematic portion is essentially whatever is left over after we account for the systematic portion. For this reason, it is sometimes called the “residual” portion of the unexpected return.
+
+Figure 12.4 illustrates the main points of this discussion by plotting the unexpected returns on the security in Table 12.3 against the unexpected return on the market as a whole. These are the individual points in the graph, each labeled by year. We also plot the systematic portions of the unexpected returns in Table 12.3 and connect them with a straight line. Notice that the slope of the straight line is equal to 1.2, the beta of the security. As indicated, the distance from the straight line to an individual point is the unsystematic portion of the return, ε, for a particular year.
+
+Unexpected Returns and Beta
+
+FIGURE 12.4
+
+
+WHERE DO BETAS COME FROM?
+As our discussion to this point shows, beta is a useful concept. It allows us to estimate the expected return on a security, it tells how sensitive a security’s return is to unexpected market events, and it lets us separate out the systematic and unsystematic portions of a security’s return. In our example above, we were given that the beta was 1.2, so the required calculations were all pretty straightforward. Suppose, however, that we didn’t have the beta ahead of time. In that case, we would have to estimate it.
+
+A security’s beta is a measure of how sensitive the security’s return is to overall market movements. That sensitivity depends on two things: (1) how closely correlated the security’s return is with the overall market’s return and (2) how volatile the security is relative to the market. Specifically, going back to our previous chapter, let Corr(Ri, RM) stand for the correlation between the return on a particular Security i page 411and the overall market. As in prior chapters, let σi and σM be the standard deviations on the security and the market, respectively. Given these numbers, the beta for the security, βi, is:
+
+
+In other words, the beta is equal to the correlation multiplied by the ratio of the standard deviations.
+
+From previous chapters, we know how to calculate the standard deviations in Equation 12.11. However, we have not yet discussed how to calculate correlations. While the simplest way is to use a spreadsheet or calculator, a straightforward way to proceed is to construct a worksheet like Table 12.4.
+
+Calculating Beta
+
+TABLE 12.4
+
+
+The first six columns of Table 12.4 are familiar from Chapter 1. The first two contain five years of returns on a particular security and the overall market. We add these up and divide page 412by 5 to get the average returns of 10 percent and 12 percent for the security and the market, respectively, as shown in the table. In the third and fourth columns, we calculate the return deviations by taking each individual return and subtracting out the average return. In columns 5 and 6, we square these return deviations. To calculate the variances, we total these squared deviations and divide by 5 − 1 = 4. We calculate the standard deviations by taking the square root of the variances, and we find that the standard deviations for the security and the market are 18.87 percent and 15.03 percent, respectively.
+
+Now we come to the part that’s new. In the last column of Table 12.4, we have calculated the product of the return deviations by multiplying columns 3 and 4. When we total these products and divide by 5 − 1 = 4, the result is called the covariance.
+
+covariance
+
+A measure of the tendency of two things to move or vary together.
+
+Covariance, as the name suggests, is a measure of the tendency of two things to vary together. If the covariance is positive, then the tendency is to move in the same direction, and vice versa for a negative covariance. A zero covariance means there is no particular relation. For our security in Table 12.4, the covariance is +.0204, so the security tends to move in the same direction as the market.
+
+A problem with covariances is that, like variances, the actual numbers are hard to interpret (the sign, of course, is not). For example, our covariance is .0204, but just from this number, we can’t really say if the security has a strong or weak tendency to move with the market. To fix this problem, we divide the covariance by the product of the two standard deviations. The result is the correlation coefficient, introduced in the previous chapter.
+
+From Table 12.4, the correlation between our security and the overall market is .72. Recalling that correlations range from −1 to +1, this .72 tells us that the security has a fairly strong tendency to move with the overall market, but that tendency is not perfect.
+
+Now we have reached our goal of calculating the beta coefficient. As shown in the last row of Table 12.4, from Equation 12.11 we have:
+
+
+We find that this security has a beta of .9, so it has slightly less than average systematic risk. As our nearby Spreadsheet Analysis box shows, these calculations can be done easily with a spreadsheet.
+
+ANOTHER WAY TO CALCULATE BETA
+At the bottom of the previous Spreadsheet Analysis box, you will notice Question 2, which suggests using the built-in slope function in Excel. If you use this function, be sure to select the market returns as the “x data” and the security returns as the “y data.” When you do, you will find that the result is the security’s beta of .90.
+
+To understand why the slope function gives us the beta, consider Figure 12.5A, which is a simple scatter plot of the market and security returns. Notice that we plotted the market returns on the x axis and the security returns on the y axis. Looking at the plot, we see that the security has a positive relationship with the market.
+
+To capture the nature of this relationship, consider Figure 12.5B, which adds a simple trend line to the data. We refer to this as the characteristic line. Notice that the line almost crosses at the origin.
+
+Recall that beta measures relative movement. For example, a security with a beta of 1 is expected to move, on average, with the market. In this case, what would the characteristic line look like? It would be a line with a 45-degree angle, or a slope of 1. This slope indicates that as the market goes up 1 percent, we would expect the stock to do the same. In mathematical terms, the measure of rise over run is slope. So, if we define the market as the x data and the stock as the y data, the slope is effectively the beta of the security.
+
+Applying this method to Figure 12.5B, what do you think the beta is? Notice that when the market has a return of 10 percent, the security is expected to have a return slightly less than 10 percent. The characteristic line thus suggests that the beta for this security is less than 1 because the stock return is less than a corresponding market return. Because comovements in returns seem to be rather close, however, our answer of .90 seems appropriate.
+
+page 413
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+You might recall from your statistics class an alternative method for estimating a “line of best fit.” Hopefully you remember this as a simple linear regression. In this case, we are going to “regress” the returns of the security (y data) on the returns of the market (x data). Fortunately, Excel also has a built-in regression function. If you look at the next Spreadsheet Analysis box, you can see a portion of the output from this process.
+
+You will notice that the output provides an estimate of the intercept, as well as a coefficient (or slope) on the x data (i.e., the market returns). You should see that the estimated value is .90, which is consistent with our earlier calculations.
+
+You might wonder why this approach is necessary if we can go to the internet and look up the data. Well, the ability to calculate your own beta is important for several reasons. For example, as we showed earlier in this chapter, internet sites will report different betas for a stock. Being able to understand which is the best estimate can be helpful. In addition, what if you are trying to evaluate a fund manager or an investment that is not publicly traded? In that case, you would have to “build” a beta yourself.
+
+WHY DO BETAS DIFFER?
+Based on what we’ve studied so far, you can see that beta is a pretty important topic. You might wonder, then, are all published betas created equal? Read on for a partial answer to this question.
+
+We did some checking on betas and found some interesting results. Morningstar (morningstar.com) is one of the best-known online sources for information on publicly traded companies. However, the explosion of online investing has engendered a corresponding increase in the amount of investment information available online. We decided to compare the betas presented by Morningstar to those reported by other online sources: MarketWatch (marketwatch.com) and CNN Money (money.cnn.com). What we found leads to an important note of caution.
+
+page 414
+
+Graphical Representation of Calculating Beta
+
+FIGURE 12.5
+
+
+Consider Amazon, the big online retailer. The beta reported for it on MarketWatch was about 1.32. This estimate was smaller than Morningstar’s beta for Amazon of 1.96. Amazon wasn’t the only stock that showed such different betas. In fact, for many of the technology companies we looked at, MarketWatch reported betas that were lower than the other sources. For example, the online beta for Nvidia was approximately 1.55, while Morningstar reported a beta of 2.65.
+
+There are a few lessons to be learned from these examples. The important thing to remember is that betas are estimated from actual data. Different sources estimate differently, possibly using different data. We discuss some of the key differences next.
+
+First, there are two issues concerning data. Betas can be calculated using daily, weekly, monthly, quarterly, or annual returns. In principle, it does not matter which is chosen, but with real data, different estimates will result. Second, betas can be estimated over relatively short periods, such as a few weeks, or over long periods of 5 to 10 years (or even more).
+
+The trade-off here is not hard to understand. Betas obtained from high-frequency returns, such as daily returns, are less stable than those obtained from less frequent returns, such as monthly returns. This argues for using monthly or longer returns. On the other hand, any time we estimate something, we would like to have a large number of recent observations. This argues for using weekly or daily returns. There is no ideal balance; the most common page 415choices are three to five years of monthly data or a single year of weekly data. The betas we get from a year of weekly data are more current in the sense that they reflect only the previous year, but they tend to be less stable than those obtained from longer periods.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+Another issue has to do with choice of a market index. All along, we have discussed the return on the “overall market,” but we have not been very precise about how to measure this. By far the most common choice is to use the S&P 500 stock market index to measure the overall market, but this is not the only alternative. Different sources use different indexes to capture the overall market, and different indexes will lead to different beta estimates.
+
+You might wonder whether some index is the “correct” one. The answer is yes, but a problem comes up. In principle, when we speak of the overall market in the CAPM, what we really mean is the market for every risky asset of every type. In other words, what we would need is an index that included all the stocks, bonds, real estate, precious metals, and everything else in the entire world (not just the United States). Obviously, no such index exists, so instead we must choose some smaller index to proxy for this much larger one.
+
+A few sources calculate betas the way we described in Table 12.4, but then they go on to adjust them for statistical reasons. One common adjustment is for “reversion to the mean,” which you may remember from your statistics class. Under such an adjustment, betas above 1 are adjusted downward and betas below 1 are adjusted upward. A more detailed discussion of the possible adjustments goes beyond our discussion, but such proprietary adjustments are another reason why betas differ across sources.
+
+The bottom line is that we are interested in knowing what the beta of the stock will be in the future, but betas have to be estimated using historical data. Anytime we use the past to predict the future, there is the danger of a poor estimate. As with any financial tool, beta is not a black box that should be believed without question.
+
+CHECK THIS
+
+
+
+12.6aHow is beta similar to a slope coefficient?
+
+12.6bWithin the context of correlation, how is it possible for a stock to have a high variance, but still have a low beta?
+
+page 416
+
+12.7 Extending CAPM
+The previous two sections introduced you to the famous capital asset pricing model, or CAPM for short. For investors, the CAPM has a stunning implication: What you earn on your portfolio over time depends only on the level of systematic risk you bear. The corollary is equally striking: As a diversified investor, you do not need to be concerned with the total risk or volatility of any individual asset in your portfolio—it is irrelevant.
+
+Of course, we should note that the CAPM is a theory, and, as with any theory, whether it is correct is a question for the data. So, does the CAPM work or not? Put more directly, does expected return depend on beta, and beta alone, or do other factors come into play? There are few more hotly debated questions in all of finance.
+
+In this section, we first present a short history of attempts to test the CAPM. Then we discuss one of the most important extensions of the CAPM, the so-called Fama-French three-factor model. We conclude with a more general discussion of factor analysis.
+
+A (VERY) BRIEF HISTORY OF TESTING CAPM
+The CAPM was introduced in the mid-1960s (but, perhaps surprisingly, tests of this model began to appear only in the early 1970s). When researchers test the CAPM, they essentially look to see whether average returns are linearly related to beta. That is, they want to know if asset returns and beta line up as shown in Figure 12.3. The earliest tests of the CAPM suggested that return and risk (as measured by beta) showed a reasonable relationship. However, the relationship was not so strong that financial researchers were content to move on and test other theories.
+
+To summarize years of testing, the relationship between returns and beta appeared to vary depending on the time period that was studied. Over some periods, the relationship was strong. In others, it was apparent but not strong. In still others, it was seemingly nonexistent, or even negative.
+
+Over the years, researchers refined their techniques to measure betas. In addition, the question was raised whether researchers could calculate betas at all. The basic argument was that betas could not be calculated relative to the overall market portfolio because we cannot observe the true market portfolio. Nonetheless, despite this insightful critique, researchers continue to test the CAPM and debate the findings of CAPM research to this day.
+
+Despite the debate between CAPM critics and CAPM champions, some important ideas have emerged. Few researchers question these general principles:
+
+Investing has two dimensions: risk and return.
+
+It is inappropriate to look at the risk of an individual security. What is appropriate is how the individual security contributes to the risk of a diversified portfolio.
+
+Risk can be decomposed into systematic risk and unsystematic risk.
+
+Investors will be compensated only for taking systematic risk.
+
+THE FAMA-FRENCH THREE-FACTOR MODEL
+To illustrate some aspects of the debate surrounding CAPM, we now briefly explore the Fama-French three-factor model, which gets its name from its creators, Professors Eugene Fama and Kenneth French. Table 12.5 illustrates an important finding from years of research into stock market returns. As shown, two groups of stocks have tended to do noticeably better than the market as a whole: (1) stocks with a small market capitalization (small-cap stocks) and (2) stocks that have a higher-than-average ratio of book (or accounting) value to market value of equity (so-called value stocks).
+
+You can download lots of data behind the Fama-French model at
+mba.tuck.dartmouth.edu/pages/faculty/ken.french/.
+
+Average Annual Value-Weighted Percentage Returns from 25 Portfolios Formed on Size (Cap) and Book-to-Market, 1927–2018
+
+TABLE 12.5
+
+
+Source: Author calculations using data from the website of Ken French.
+
+Table 12.5 is formed as follows. First, for each year of historical data, each of a large number of stocks is ranked on the basis of its market cap, or size. The smallest 20 percent of the stocks are placed into the market cap Quintile 1, the next smallest 20 percent are placed into market cap Quintile 2, and so on. Then, the same stocks are ranked on the basis of their book-to-market (B/M) ratio. The smallest 20 percent are placed into B/M Quintile 1, the next smallest 20 percent are placed into B/M Quintile 2, and so on.
+
+page 417
+
+Let’s look at the cell with an average annual return of 9.23 percent. This number is calculated as follows: After the sorting described above, we put stocks into portfolios according to both of their quintile scores, for a total of 25 (= 5 × 5) portfolios. So, for example, the stocks with both the smallest cap and the lowest B/M end up in the Quintile 1–1 portfolio. As shown in Table 12.5, over the time period 1927 to 2018, the average annual return for stocks in the Quintile 1–1 portfolio is 9.23 percent.
+
+Three things should jump out at you in Table 12.5. Notice that the cell 1–5, which contains stocks with the smallest cap and highest B/M, has had the highest returns (21.53 percent). Looking down each column, you can see that in three columns, the highest return belongs to the smallest cap quintile (we see this pattern in columns 3, 4, and 5). Looking across each row, you can see that in every row, the highest return belongs to the highest B/M quintile.
+
+Based on further analysis of these data, Professors Fama and French concluded that differences in beta were not sufficient to explain the differences in returns in Table 12.5. Consequently, they argue that two additional factors beyond beta must be considered to understand differences in expected returns on stocks, namely, market cap and B/M. Thus, their model of stock returns has a total of three factors.
+
+At this point, you probably understand two of the factors—beta and market cap. But what does the B/M (or book-to-market) ratio represent? When a stock has a low B/M ratio, the market is paying a higher price per share relative to the firm’s book value per share. Companies with low B/M ratios, therefore, are typically referred to as growth companies. Thus, the interpretation of this ratio is similar to that of a company with a high PE ratio. Firms with high B/M ratios would generally be considered value companies.
+
+Using this description of the B/M ratio, it is clear from the data in Table 12.5 that value companies, all else equal, generally outperform growth companies. This result stands in stark contrast to what most investors think. But the data in Table 12.5 are quite clear.
+
+FACTOR ANALYSIS AND STYLE PORTFOLIOS
+Investors are always looking for ways to increase their returns. Because of Fama and French’s findings, researchers have increased their search for other potential factors that underlie asset returns. The process of modeling the relationship between asset returns and their potential systematic drivers, or factors, is called factor analysis.
+
+While there is no limit on the type of factors chosen, potential factors generally fall into two categories. Macroeconomic factors include items such as inflation or GDP growth, which we discuss in another chapter. Fundamental factors would be such things as a stock’s dividend yield or earnings growth rate, which we also discuss in other chapters.
+
+Investors use statistical models (such as a linear regression) to try to estimate how sensitive an asset’s return is to a set of factors. This sensitivity is referred to as the factor beta, or factor loading. If the sensitivity to a factor is high, there is an important implication: potentially, investors could form portfolios using this factor to generate higher returns. For example, the Fama-French three-factor model identifies two important factors, size and value, that drive asset returns. Portfolios created based on factors are often referred to as factor portfolios, or style portfolios.
+
+page 418
+
+Factor analysis has given rise to many different investment approaches. For example, a growing number of funds focus on allocating capital based on fundamental factors, such as growth in cash flow. Other funds focus on allocating capital based on market factors, such as a stock’s price momentum. There are even a growing number of passively managed index funds that follow a fundamental indexing approach. In this approach, asset weights are determined according to the asset’s sensitivity to a prespecified factor rather than to a security’s market value.
+
+There are a large number of factors that could be considered. Of course, investors want to identify opportunities to generate excess returns. As a result, we think it is safe to say that factor analysis is here to stay.
+
+CHECK THIS
+
+
+
+12.7aWhat are the three factors in the basic Fama-French model?
+
+12.7bExplain how factor analysis is used to create style portfolios.
+
+12.8 Summary and Conclusions
+This chapter covers the essentials of risk and return. Along the way, we introduced a number of definitions and concepts. The most important of these is the security market line, or SML. The SML is important because it tells us the reward offered in financial markets for bearing risk. Because we covered quite a bit of ground, it’s useful to summarize the basic economic logic underlying the SML as follows.
+
+1.  The difference between expected and unexpected returns.
+
+A.  The return on any stock traded in a financial market is composed of two parts. The expected return from the stock is the part of the return that investors predict or expect. This return depends on the information investors have about the stock, and it is based on the market’s understanding today of the important factors that will influence the stock in the coming year.
+
+B.  The second part of the return on the stock is the uncertain, or risky, part. This is the portion that comes from unexpected information revealed during the year.
+
+2.  The difference between systematic risk and unsystematic risk.
+
+A.  Based on capital market history, there is a reward for bearing risk. This reward is the risk premium on an asset.
+
+B.  The total risk associated with an asset has two parts: systematic risk and unsystematic risk. Unsystematic risk can be freely eliminated by diversification (this is the principle of diversification), so only systematic risk is rewarded. As a result, the risk premium on an asset is determined by its systematic risk. This is the systematic risk principle.
+
+3.  The security market line and the capital asset pricing model.
+
+A.  An asset’s systematic risk, relative to the average, can be measured by its beta coefficient, βi. The risk premium on an asset is then given by the market risk premium multiplied by the asset’s beta coefficient, [E(RM) − Rf] × βi.
+
+B.  The expected return on an asset, E(Ri), is equal to the risk-free rate, Rf, plus the asset’s risk premium: E(Ri) = Rf + [E(RM) − Rf] × βi. This is the equation of the SML, and it is often called the capital asset pricing model (CAPM).
+
+4.  The importance of beta.
+
+A.  Systematic risk is the crucial determinant of an asset’s expected return. Therefore, we need some way to measure the level of systematic risk for different investments.
+
+B.  The specific measure we use is called the beta coefficient, designated by the Greek letter β. A beta coefficient, or beta for short, tells us how much systematic risk a particular asset has relative to an average asset.
+
+page 419 
+
+C.  By definition, an average asset has a beta of 1.0 relative to itself. An asset with a beta of .50, therefore, has half as much systematic risk as an average asset.
+
+D.  Toward the end of the chapter, we showed how betas are calculated and we discussed some of the main reasons different sources report different beta coefficients. We closed the chapter by presenting a discussion of factor models, an important extension to the basic CAPM.
+
+GETTING DOWN TO BUSINESS
+
+An immediate implication of the CAPM is that you, as an investor, need to be aware of the level of systematic risk you are carrying. Look up the betas of the stocks you hold in your simulated brokerage account and compute your portfolio’s systematic risk. Is it bigger or smaller than 1.0? More important, is the portfolio’s beta consistent with your desired level of portfolio risk?
+
+Betas are particularly useful for understanding mutual fund risk and return. Because most mutual funds are at least somewhat diversified (the exceptions being sector funds and other specialized funds), they have relatively little unsystematic risk, and their betas can be measured with some precision. Look at the funds you own and learn their betas (morningstar.com is a good source). Are the risk levels what you intended? As you study mutual fund risk, you will find some other measures exist, most of which are closely related to the measures discussed in this chapter. Take a few minutes to understand these as well.
+
+Does expected return depend on beta, and beta alone, or do other factors come into play? There is no more hotly debated question in all of finance, and the research that exists to date is inconclusive. (Some researchers would dispute this!) At a minimum, beta appears to be a useful measure of market-related volatility, that is, risk. Whether beta is a useful measure of expected return (much less a comprehensive one) awaits more research. Lots more research.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+beta coefficient (β) 399
+
+capital asset pricing model (CAPM) 407
+
+covariance 412
+
+market risk premium 407
+
+security market line (SML) 406
+
+systematic risk 396
+
+systematic risk principle 399
+
+unsystematic risk 396
+
+Chapter Review Problems and Self-Test
+
+Risk and Return (LO3, CFA2)   Suppose you observe the following situation:
+
+Security	Beta	Expected Return
+Sanders	1.8	22.00%
+Janicek	1.6	20.44
+If the risk-free rate is 7 percent, are these two stocks correctly priced relative to each other? What must the risk-free rate be if they are correctly priced?
+
+CAPM (LO3, CFA1)   Suppose the risk-free rate is 8 percent. The expected return on the market is 16 percent. If a particular stock has a beta of .7, what is its expected return based on the CAPM? If another stock has an expected return of 24 percent, what must its beta be?
+
+page 420
+
+Answers to Self-Test Problems
+
+If we compute the reward-to-risk ratios, we get (22% − 7%)/1.8 = 8.33% for Sanders versus 8.4% for Janicek. Relative to Sanders, Janicek’s expected return is too high, so its price is too low.
+
+If they are correctly priced, then they must offer the same reward-to-risk ratio. The risk-free rate would be:
+
+
+With a little algebra, we find that the risk-free rate must be 8 percent:
+
+
+Because the expected return on the market is 16 percent, the market risk premium is 16% − 8% = 8% (the risk-free rate is also 8 percent). The first stock has a beta of .7, so its expected return is 8% + 8% × .7 = 13.6%.
+
+For the second stock, notice that the risk premium is 24% − 8% = 16%. Because this is twice as large as the market risk premium, the beta must be exactly equal to 2. We can verify this using the CAPM:
+
+
+Test Your Investment Quotient
+
+
+Portfolio Return (LO3, CFA1)   According to the CAPM, what is the rate of return of a portfolio with a beta of 1?
+
+Between RM and Rf
+
+The risk-free rate, Rf
+
+Beta × (RM − Rf)
+
+The return on the market, RM
+
+Stock Return (LO1, CFA4)   The return on a stock is said to have which two of the following basic parts?
+
+An expected return and an unexpected return
+
+A measurable return and an unmeasurable return
+
+A predicted return and a forecast return
+
+A total return and a partial return
+
+News Components (LO1, CFA4)   A news announcement about a stock is said to have which two of the following parts?
+
+An expected part and a surprise
+
+Public information and private information
+
+Financial information and product information
+
+A good part and a bad part
+
+News Effects (LO1, CFA4)   A company announces that its earnings have increased 50 percent over the previous year, which matches analysts’ expectations. What is the likely effect on the stock price?
+
+The stock price will increase.
+
+The stock price will decrease.
+
+page 421 
+
+The stock price will rise and then fall after an overreaction.
+
+The stock price will not be affected.
+
+News Effects (LO1, CFA4)   A company announces that its earnings have decreased 25 percent from the previous year, but analysts expected a small increase. What is the likely effect on the stock price?
+
+The stock price will increase.
+
+The stock price will decrease.
+
+The stock price will rise and then fall after an overreaction.
+
+The stock price will not be affected.
+
+News Effects (LO1, CFA4)   A company announces that its earnings have increased 25 percent from the previous year, but analysts actually expected a 50 percent increase. What is the likely effect on the stock price?
+
+The stock price will increase.
+
+The stock price will decrease.
+
+The stock price will rise and then fall after an overreaction.
+
+The stock price will not be affected.
+
+Factor Analysis (LO1, CFA4)   An investor completed a factor analysis to evaluate the impact of earnings growth and cash flow yield on stock price performance. The factor analysis model provides estimates of the impacts of these factors. We refer to these estimated impacts as:
+
+Relational boundaries.
+
+Factor loadings.
+
+Factor efficiencies.
+
+Contradictory anomalies.
+
+Security Risk (LO2, CFA2)   The systematic risk of a security is also called its:
+
+Perceived risk.
+
+Unique or asset-specific risk.
+
+Market risk.
+
+Fundamental risk.
+
+Security Risk (LO2, CFA2)   Which type of risk is essentially eliminated by diversification?
+
+Perceived risk
+
+Market risk
+
+Systematic risk
+
+Unsystematic risk
+
+Security Risk (LO2, CFA2)   The systematic risk principle states that:
+
+Systematic risk doesn’t matter to investors.
+
+Systematic risk can be essentially eliminated by diversification.
+
+The reward for bearing risk is independent of the systematic risk of an investment.
+
+The reward for bearing risk depends only on the systematic risk of an investment.
+
+Security Risk (LO2, CFA2)   The systematic risk principle has an important implication, which is:
+
+Systematic risk is preferred to unsystematic risk.
+
+Systematic risk is the only risk that can be reduced by diversification.
+
+The expected return on an asset is independent of its systematic risk.
+
+The expected return on an asset depends only on its systematic risk.
+
+CAPM (LO3, CFA1)   A financial market’s security market line (SML) describes:
+
+The relationship between systematic risk and expected returns.
+
+The relationship between unsystematic risk and expected returns.
+
+The relationship between systematic risk and unexpected returns.
+
+The relationship between unsystematic risk and unexpected returns.
+
+Risk Aversion (LO3, CFA2)   Which of the following is not an implication of risk aversion for the investment process?
+
+The security market line is upward sloping.
+
+The promised yield on AAA-rated bonds is higher than on A-rated bonds.
+
+Investors expect a positive relationship between expected return and risk.
+
+Investors prefer portfolios that lie on the efficient frontier to other portfolios with equal rates of return.
+
+Unsystematic Risk (LO2, CFA2)   In the context of capital market theory, unsystematic risk:
+
+Is described as unique risk.
+
+Refers to nondiversifiable risk.
+
+Remains in the market portfolio.
+
+Refers to the variability in all risky assets caused by macroeconomic factors and other aggregate market-related variables.
+
+page 422 
+
+Security Market Line (LO3, CFA1)   Which of the following statements about the security market line (SML) is false?
+
+Properly valued assets plot exactly on the SML.
+
+The SML leads all investors to invest in the same portfolio of risky assets.
+
+The SML provides a benchmark for evaluating expected investment performance.
+
+The SML is a graphic representation of the relationship between expected return and beta.
+
+Concept Questions
+
+Diversifiable Risk (LO2, CFA2)   In broad terms, why is some risk diversifiable? Why are some risks nondiversifiable? Does it follow that an investor can control the level of unsystematic risk in a portfolio but not the level of systematic risk?
+
+Announcements and Prices (LO1, CFA4)   Suppose the government announces that, based on a just-completed survey, the growth rate in the economy is likely to be 2 percent in the coming year, compared to 5 percent for the year just completed. Will security prices increase, decrease, or stay the same following this announcement? Does it make any difference whether the 2 percent figure was anticipated by the market? Explain.
+
+Announcements and Risk (LO2, CFA4)   Classify the following events as mostly systematic or mostly unsystematic. Is the distinction clear in every case?
+
+Short-term interest rates increase unexpectedly.
+
+The interest rate a company pays on its short-term debt borrowing is increased by its bank.
+
+Oil prices unexpectedly decline.
+
+An oil tanker ruptures, creating a large oil spill.
+
+A manufacturer loses a multimillion-dollar product liability suit.
+
+A Supreme Court decision substantially broadens producer liability for injuries suffered by product users.
+
+Announcements and Risk (LO2, CFA4)   Indicate whether the following events might cause stocks in general to change price, and whether they might cause Big Widget Corp.’s stock to change price.
+
+The government announces that inflation unexpectedly jumped by 2 percent last month.
+
+Big Widget’s quarterly earnings report, just issued, generally fell in line with analysts’ expectations.
+
+The government reports that economic growth last year was at 3 percent, which generally agreed with most economists’ forecasts.
+
+The directors of Big Widget die in a plane crash.
+
+Congress approves changes to the tax code that will increase the top marginal corporate tax rate. The legislation had been debated for the previous six months.
+
+Diversification and Risk (LO2, CFA2)   True or false: The most important characteristic in determining the expected return of a well-diversified portfolio is the standard deviations of the individual assets in the portfolio. Explain.
+
+Announcements (LO1, CFA4)   As indicated by examples in this chapter, earnings announcements by companies are closely followed by, and frequently result in, share price revisions. Two issues should come to mind. First, earnings announcements concern past periods. If the market values stocks based on expectations of the future, why are numbers summarizing past performance relevant? Second, these announcements concern accounting earnings. Such earnings may have little to do with cash flow, so, again, why are they relevant?
+
+Beta (LO4, CFA2)   Is it possible that a risky asset could have a beta of zero? Explain. Based on the CAPM, what is the expected return on such an asset? Is it possible that a risky asset could have a negative beta? What does the CAPM predict about the expected return on such an asset? Can you give an explanation for your answer?
+
+Relative Valuation (LO3, CFA2)   Suppose you identify a situation in which one security is overvalued relative to another. How would you go about exploiting this opportunity? Does it matter if the two securities are both overvalued relative to some third security? Are your profits certain in this case?
+
+Reward-to-Risk Ratio (LO3, CFA2)   Explain what it means for all assets to have the same reward-to-risk ratio. How can you increase your return if this holds true? Why would we expect that all assets have the same reward-to-risk ratio in liquid, well-functioning markets?
+
+page 423 
+
+Systematic versus Firm-Specific Risk (LO2, CFA2)   Dudley Trudy, CFA, recently met with one of his clients. Trudy typically invests in a master list of 30 securities drawn from several industries. After the meeting concluded, the client made the following statement: “I trust your stock-picking ability and believe that you should invest my funds in your five best ideas. Why invest in 30 companies when you obviously have stronger opinions on a few of them?” Trudy plans to respond to his client within the context of modern portfolio theory.
+
+Contrast the concepts of systematic and firm-specific risk and give one example of each.
+
+Critique the client’s suggestion. Discuss the impact of systematic risk and firm-specific risk on portfolio risk as the number of securities in a portfolio is increased.
+
+Questions and Problems
+
+Core Questions
+
+Stock Betas (LO3, CFA2)   A stock has an expected return of 13.2 percent, the risk-free rate is 3.5 percent, and the market risk premium is 7.5 percent. What must the beta of this stock be?
+
+Market Returns (LO3, CFA1)   A stock has an expected return of 8.0 percent, its beta is .60, and the risk-free rate is 3 percent. What must the expected return on the market be?
+
+Risk-Free Rates (LO3, CFA1)   A stock has an expected return of 12 percent and a beta of 1.4, and the expected return on the market is 10 percent. What must the risk-free rate be?
+
+Market Risk Premium (LO3, CFA1)   A stock has a beta of .8 and an expected return of 11 percent. If the risk-free rate is 4.5 percent, what is the market risk premium?
+
+Portfolio Betas (LO4, CFA2)   You own a stock portfolio invested 10 percent in Stock Q, 25 percent in Stock R, 50 percent in Stock S, and 15 percent in Stock T. The betas for these four stocks are 1.4, .6, 1.5, and .9, respectively. What is the portfolio beta?
+
+Portfolio Betas (LO4, CFA1)   You own 400 shares of Stock A at a price of $60 per share, 500 shares of Stock B at $85 per share, and 900 shares of Stock C at $25 per share. The betas for the stocks are .8, 1.2, and .7, respectively. What is the beta of your portfolio?
+
+Stock Betas (LO4, CFA1)   You own a portfolio equally invested in a risk-free asset and two stocks. If one of the stocks has a beta of 1.20 and the total portfolio is exactly as risky as the market, what must the beta be for the other stock in your portfolio?
+
+Expected Returns (LO3, CFA2)   A stock has a beta of .85, the expected return on the market is 11 percent, and the risk-free rate is 3 percent. What must the expected return on this stock be?
+
+CAPM and Stock Price (LO3, CFA4)   A share of stock sells for $35 today. The beta of the stock is 1.2 and the expected return on the market is 12 percent. The stock is expected to pay a dividend of $.80 in one year. If the risk-free rate is 5.5 percent, what should the share price be in one year?
+
+Portfolio Weights (LO4, CFA2)   A stock has a beta of .9 and an expected return of 9 percent. A risk-free asset currently earns 4 percent.
+
+What is the expected return on a portfolio that is equally invested in the two assets?
+
+If a portfolio of the two assets has a beta of .5, what are the portfolio weights?
+
+If a portfolio of the two assets has an expected return of 8 percent, what is its beta?
+
+If a portfolio of the two assets has a beta of 1.80, what are the portfolio weights? How do you interpret the weights for the two assets in this case? Explain.
+
+Intermediate Questions
+
+11. Portfolio Risk and Return (LO3, CFA1)   Asset W has an expected return of 12.0 percent and a beta of 1.1. If the risk-free rate is 4 percent, complete the following table for portfolios of Asset W and a risk-free asset. Illustrate the relationship between portfolio expected return and portfolio beta by plotting the expected returns against the betas. What is the slope of the line that results?
+
+Percentage of Portfolio in Asset W	Portfolio Expected Return	Portfolio Beta
+  0%		
+25		
+50		
+75		
+100		
+125		
+150		
+page 424 
+
+12. Relative Valuation (LO3, CFA2)   Stock Y has a beta of 1.05 and an expected return of 13 percent. Stock Z has a beta of .70 and an expected return of 9 percent. If the risk-free rate is 5 percent and the market risk premium is 7 percent, are these stocks correctly priced?
+
+13. Relative Valuation (LO3, CFA2)   In Problem 12, what would the risk-free rate have to be for the two stocks to be correctly priced relative to each other?
+
+14. CAPM (LO3, CFA1)   Using the CAPM, show that the ratio of the risk premiums on two assets is equal to the ratio of their betas.
+
+15. Relative Valuation (LO3, CFA2)   Suppose you observe the following situation:
+
+Security	Beta	Expected Return
+Peat Co.	1.05	12.3
+Re-Peat Co.	  .90	11.8
+Assume these securities are correctly priced. Based on the CAPM, what is the expected return on the market? What is the risk-free rate?
+
+16. Calculating Beta (LO3, CFA2)   Show that another way to calculate beta is to take the covariance between the security and the market and divide by the variance of the market’s return.
+
+17. Calculating Beta (LO4, CFA2)   Fill in the following table, supplying all the missing information. Use this information to calculate the security’s beta.
+
+
+18. Analyzing a Portfolio (LO4, CFA2)   You have $100,000 to invest in a portfolio containing Stock X, Stock Y, and a risk-free asset. You must invest all of your money. Your goal is to create a portfolio that has an expected return of 13 percent and that has only 70 percent of the risk of the overall market. If X has an expected return of 31 percent and a beta of 1.8, Y has an expected return of 20 percent and a beta of 1.3, and the risk-free rate is 7 percent, how much money will you invest in Stock Y? How do you explain your answer?
+
+19. Systematic versus Unsystematic Risk (LO2, CFA4)   Consider the following information on Stocks I and II:
+
+Rate of Return if State Occurs
+State of Economy	Probability of State of Economy	Stock I	Stock II
+Recession	.30	.05	  –.18
+Normal	.40	.19	   .14
+Irrational exuberance	.30	.13	   .29
+The market risk premium is 8 percent and the risk-free rate is 5 percent. Which stock has the most systematic risk? Which one has the most unsystematic risk? Which stock is “riskier”? Explain.
+
+20. Systematic and Unsystematic Risk (LO2, CFA4)   The beta for a certain stock is 1.15, the risk-free rate is 5 percent, and the expected return on the market is 13 percent. Complete the following table to decompose the stock’s return into the systematic return and the unsystematic return.
+
+page 425
+
+
+21. CAPM (LO3, CFA2)   Landon Stevens is evaluating the expected performance of two common stocks, Furhman Labs, Inc., and Garten Testing, Inc. The risk-free rate is 4 percent, the expected return on the market is 11.5 percent, and the betas of the two stocks are 1.2 and .9, respectively. Landon’s own forecasts of the returns on the two stocks are 13.75 percent for Furhman Labs and 10.50 percent for Garten. Calculate the required return for each stock. Is each stock undervalued, fairly valued, or overvalued?
+
+Spreadsheet Problems
+
+22. Calculating Beta (LO4, CFA1)   You are given the following information concerning a stock and the market:
+
+Returns
+Year	Market	Stock
+2014	18%	34%
+2015	11	27
+2016	12	3
+2017	−14	−21
+2018	37	16
+2019	15	22
+Calculate the average return and standard deviation for the market and the stock. Next, calculate the correlation between the stock and the market, as well as the stock’s beta. Use a spreadsheet to calculate your answers.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA1, CFA2]
+
+Janet Bellows, a portfolio manager, is attempting to explain asset valuation to a junior colleague, Bill Clay. Ms. Bellows’s explanation focuses on the capital asset pricing model (CAPM). Of particular interest is her discussion of the security market line (SML) and its use in security selection. After a short review of the CAPM and SML, Ms. Bellows decides to test Mr. Clay’s knowledge of valuation using the CAPM. Ms. Bellows provides the following information for Mr. Clay:
+
+The risk-free rate is 7 percent.
+
+The market risk premium during the previous year was 5.5 percent.
+
+The standard deviation of market returns is 35 percent.
+
+This year, the market risk premium is estimated to be 7 percent.
+
+Stock A has a beta of 1.30 and is expected to generate a 15.5 percent return.
+
+The correlation of Stock B with the market is .88.
+
+The standard deviation of Stock B’s returns is 58 percent.
+
+Then Ms. Bellows provides Mr. Clay with the following information about Ohio Manufacturing, Texas Energy, and Montana Mining:
+
+Ohio	Texas	Montana
+Beta	.50		1.50
+Required return	10.5%	11.0%	
+Expected return	12.0%	10.0%	15.0%
+S&P 500 expected return		14.0%	
+page 426
+
+Based on the stock and market data provided above, which of the following data regarding Stock A is most accurate?
+
+
+The beta of Stock B is closest to:
+
+.51
+
+1.07
+
+1.46
+
+Which of the following represents the best investment advice?
+
+Avoid Texas because its expected return is lower than its required return.
+
+Buy Montana and Texas because their required returns are lower than their expected returns.
+
+Buy Montana because it is expected to return more than Texas, Ohio, and the market.
+
+If the market risk premium decreases by 1 percent while the risk-free rate remains the same, the security market line:
+
+Becomes steeper.
+
+Becomes flatter.
+
+Parallel shifts downward.
+
+What’s on the Web?
+
+Expected Return You want to find the expected return for The Home Depot using CAPM. First you need the risk-free rate. Go to bloomberg.com and find the current interest rate for three-month Treasury bills. Use the average large-company stock risk premium from Chapter 1 as the market risk premium. Next, go to finance.yahoo.com, enter the ticker symbol HD for The Home Depot, and find the beta for The Home Depot. What is the expected return for The Home Depot using CAPM? What assumptions have you made to arrive at this number?
+
+Portfolio Beta You have decided to invest in an equally weighted portfolio consisting of American Express, Procter & Gamble, Johnson & Johnson, and United Technologies and need to find the beta of your portfolio. Go to finance.yahoo.com and find the beta for each of the companies. What is the beta for your portfolio?
+
+Beta Which stocks have the highest and lowest betas? Go to finance.yahoo.com and find the stock screener. Enter 0 as the maximum beta. How many stocks currently have a beta less than 0? Which stock has the lowest beta? Go back to the stock screener and enter 3 as the minimum value. How many stocks have a beta greater than 3? What about 4? Which stock has the highest beta?
+
+Security Market Line Go to finance.yahoo.com and enter the ticker symbol GE for General Electric. Find the beta for this company and the target stock price in one year. Using the current share price and the target stock price, compute the expected return for this stock. Don’t forget to include the expected dividend payments over the next year. Now go to bloomberg.com and find the current interest rate for three-month Treasury bills. Using this information, calculate the expected return of the market using the reward-to-risk ratio. Does this number make sense? Why or why not?
+
+
+
+
+1 When combining individual asset betas into a portfolio beta, each beta must be calculated relative to the same index. For example, you could not calculate a weighted average portfolio beta from a bond beta calculated relative to the Barclay’s Aggregate Bond Index and a stock beta calculated relative to the S&P 500 index.
+
+2 This ratio is sometimes called the Treynor index, after one of its originators. We discuss the Treynor index and other risk-adjusted portfolio performance measures in another chapter.
+
+3 Our discussion of the CAPM is actually closely related to the more recent development, arbitrage pricing theory (APT). The theory underlying the CAPM is more complex than we have indicated here, and it has implications beyond the scope of this discussion. As we present it here, the CAPM has essentially identical implications to those of the APT, so we don’t distinguish between them.

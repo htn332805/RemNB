@@ -1,0 +1,995 @@
+page 427
+
+PART 4
+
+Performance Evaluation and Risk Management
+
+
+
+“It is not the return on my investment that I am concerned about; it is the return of my investment!”
+
+–Will Rogers
+
+“The stock market will fluctuate!”
+
+–J. P. Morgan
+
+Learning Objectives
+
+To get a high evaluation of your investments’ performance, make sure you know:
+
+How to calculate the best-known portfolio evaluation measures.
+
+The strengths and weaknesses of these portfolio evaluation measures.
+
+How to calculate a Sharpe-optimal portfolio.
+
+How to calculate and interpret Value-at-Risk.
+
+Humorist Will Rogers expressed concern about “the return of [his] investment.” Famed financier J. P. Morgan, when asked by a reporter what he thought the stock market would do, replied with his well-known quote. Both Will Rogers and J. P. Morgan understood a basic fact of investing—investors holding risky assets ask worrisome questions like: How well are my investments doing? How much money am I making (or losing)? and What are my chances of incurring a significant loss?
+
+This chapter examines methods to deal with two related problems faced by investors in risky assets. These are (1) evaluating risk-adjusted investment performance and (2) assessing and managing the risks involved with specific investment strategies. Both subjects have come up previously in our text, but we have deferred a detailed discussion of them until now.
+
+CFATM Exam Topics in This Chapter:
+
+Introduction to the Global Investment Performance Standards (GIPS) (L1, S1)
+
+Global Investment Performance Standards (GIPS) (L1, S1)
+
+Statistical concepts and market returns (L1, S2)
+
+Correlation and regression (L2, S3)
+
+Analysis of active portfolio management (L2, S17)
+
+Risk management (L3, S16)
+
+Evaluating portfolio performance (L3, S19)
+
+Overview of the Global Investment Performance Standards (L3, S19)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 428
+
+We first consider the problem of performance evaluation. Specifically, suppose we have investment returns data for several portfolios covering a recent period, and we wish to evaluate how well these portfolios have performed relative to other portfolios or some investment benchmark. The need for this form of scrutiny arises in a number of situations, including:
+
+An investor wants to compare the investment performance of several dozen candidate funds before choosing a mutual fund.
+
+A pension fund administrator wants to select a money manager and thus needs to compare the investment performance of a group of money managers.
+
+An employer wants to compare the performance of several investment companies before selecting one for inclusion in her company-sponsored 401(k) retirement plan.
+
+In the first section of this chapter, we examine several useful evaluation measures of portfolio performance and discuss how they might be applied to these and similar situations.
+
+In the second part of the chapter, we discuss the important problem of risk management from the perspective of an investor or money manager concerned with the possibility of a large loss. Specifically, we examine methods to assess the probabilities and magnitudes of losses we might expect to experience during a set future time period. These risk assessment techniques are commonly employed in a number of situations, including:
+
+A New York Stock Exchange designated market maker (DMM) wants to know how much of a loss is possible with a 5 percent probability during the coming day’s trading from the DMM firm’s inventory.
+
+The foreign currency manager of a commercial bank wants to know how much of a loss is possible with a 2 percent probability on the bank’s foreign currency portfolio during the coming week.
+
+A futures exchange clearinghouse wants to know what amount of margin funds should be deposited by exchange members to cover extreme losses that might occur with a “once in a century” probability.
+
+Methods used to assess risk in these and similar scenarios fall into the category commonly referred to as “Value-at-Risk.” Value-at-Risk techniques are widely applied by commercial banks, securities firms, and other financial institutions to assess and understand the risk exposure of portfolios under their management.
+
+13.1 Performance Evaluation
+Investors have a natural (and very rational) interest in how well particular investments have done. This is true whether the investor manages his or her own portfolio or has money managed by a professional. Concern with investment performance motivates the topic of performance evaluation. In general terms, performance evaluation focuses on assessing how well a money manager achieves high returns balanced with acceptable risks.
+
+performance evaluation
+
+The assessment of how well a money manager achieves a balance between high returns and acceptable risks.
+
+Going back to our discussion of efficient markets in an earlier chapter, we raised the question of risk-adjusted performance and whether anyone can consistently earn an “abnormal” return, thereby “beating the market.” The standard example is an evaluation of investment performance achieved by the manager of a mutual fund. Such a performance evaluation is more than an academic exercise because its purpose is to help investors decide whether they should entrust investment funds to the fund manager. Our goal here is to introduce you to the primary tools used to make this assessment.
+
+PERFORMANCE EVALUATION MEASURES
+A variety of measures are used to evaluate investment performance. Here, we examine some of the best-known and most popular measures: the Sharpe ratio, the Treynor ratio, Jensen’s alpha, the information ratio, and R-squared. But before we do so, let us first briefly discuss a naive measure of performance evaluation—the raw return on a portfolio.
+
+raw return
+
+States the total percentage return on an investment with no adjustment for risk or comparison to any benchmark.
+
+page 429
+
+The raw return on an investment portfolio, here denoted by Rp, is the total percentage return on the portfolio with no adjustment for risk or comparison to any benchmark. Calculating percentage returns was discussed in Chapter 1. The fact that a raw portfolio return does not reflect any consideration of risk suggests that its usefulness is limited when making investment decisions. After all, risk is important to almost every investor.
+
+Visit Professor Sharpe at
+stanford.edu/~wfsharpe.
+
+THE SHARPE RATIO
+A basic measure of investment performance that includes an adjustment for risk is the Sharpe ratio, originally proposed by Nobel laureate William F. Sharpe. The Sharpe ratio is computed as a portfolio’s risk premium divided by the standard deviation of the portfolio’s return:
+
+Sharpe ratio
+
+Measures investment performance as the ratio of portfolio risk premium over portfolio return standard deviation.
+
+
+In this case, the portfolio risk premium is the raw portfolio return less a risk-free return, that is, Rp − Rf , which we know is the basic reward for bearing risk. In Chapter 1, we also referred to the risk premium as the excess return. Do not confuse the term excess return with the term abnormal return. Abnormal return is a measure of returns earned compared to other investments having similar risk. In this chapter, we explain how analysts attempt to convert excess return (or the risk premium) into measures of (risk-adjusted) abnormal return. Abnormal returns allow for a better comparison between investment choices.
+
+The return standard deviation, σp, is a measure of risk, which we have discussed in previous chapters. More precisely, return standard deviation is a measure of the total risk (as opposed to systematic risk) for a security or a portfolio. Thus, the Sharpe ratio is a reward-to-risk ratio that focuses on total risk. Because total risk is used to make the adjustment, the Sharpe ratio is probably most appropriate for evaluating relatively diversified portfolios or for evaluating investments that will be purchased on a stand-alone basis.
+
+Look Sharpe
+
+EXAMPLE 13.1
+
+Over a recent three-year period, the average annual return on a portfolio was 20 percent and the annual return standard deviation for the portfolio was 25 percent. During the same period, the average return on 90-day Treasury bills was 5 percent. What is the Sharpe ratio for this portfolio during this three-year period?
+
+Referring to Equation 13.1, we calculate:
+
+
+This indicates that the Sharpe ratio of portfolio excess return to total risk is .6.
+
+Recall that standard deviation measures the movement away from an investment’s average, or mean, return. As you might suspect, investors might not really be concerned with positive deviations from the mean. After all, who would fret over a higher-than-expected return on an investment? Investors are, however, greatly concerned with lower-than-expected returns. That is, investors are troubled by negative deviations from the mean.
+
+Using the Sharpe ratio to measure performance could unduly penalize an investment manager that has generated positive abnormal returns. Positive abnormal returns generate volatility, but it is “good” volatility. Thus, many investors have turned to the Sortino ratio as another measure of performance.
+
+The purpose of the Sortino ratio is to penalize the investment manager for having undesirable volatility caused by negative abnormal returns, i.e., downside risk. You calculate the Sortino ratio the same way you calculate the Sharpe ratio—with one important exception. In the Sortino ratio, you calculate the standard deviation using only returns that lie below the mean.
+
+page 430
+
+Sort It Out
+
+EXAMPLE 13.2
+
+Assume an investment fund had the following returns (in percent) over the last six years: 6, 12, −3, 8, 2, and 5. What is the Sortino ratio for this investment fund? How does it compare to the Sharpe ratio?
+
+The first step is to calculate the mean return and deviations. The mean return is the arithmetic average, which is 5 percent (check this). To calculate the variance, recall that it is the sum of the squared differences divided by (N − 1). Remember, to get the standard deviation we take the square root of the variance. However, for the Sortino ratio, we only include differences for returns below the mean, which in this case would be Year 3 and Year 5.
+
+Squared Differences
+Sharpe	Sortino
+Year 1	  1	  0
+Year 2	49	  0
+Year 3	64	64
+Year 4	   9	   0
+Year 5	   9	   9
+Year 6	   0	   0
+Sum	132	  73
+For example, in Year 2, the return difference is 12 − 5 = 7, so the squared difference is 49. Because the return is higher than average, however, it is not included in the Sortino ratio.
+
+The variance used in the Sharpe ratio is 132/(6 − 1) = 26.4, and the standard deviation is the square root, which is 5.14 percent. For the Sortino ratio, the variance is 73/(6 − 1) = 14.60, and the standard deviation is 3.82. With these values, we can then calculate the Sharpe and Sortino ratios (assuming a risk-free rate of 3 percent):
+
+
+THE TREYNOR RATIO
+Another standard measure of investment performance that includes an adjustment for systematic risk is the Treynor ratio (or index), originally suggested by Jack L. Treynor. The Treynor ratio is computed as a portfolio’s risk premium divided by the portfolio’s beta coefficient:
+
+Treynor ratio
+
+Measures investment performance as the ratio of portfolio risk premium over portfolio beta.
+
+
+As with the Sharpe ratio, the Treynor ratio is a reward-to-risk ratio. The key difference is that the Treynor ratio looks at systematic risk only, not total risk.
+
+The Treynor Ratio
+
+EXAMPLE 13.3
+
+Over a three-year period, the average return on a portfolio was 20 percent and the beta for the portfolio was 1.25. During the same period, the average return on 90-day Treasury bills was 5 percent. What is the Treynor ratio for this portfolio during this period?
+
+Referring to the Treynor ratio equation, we calculate:
+
+
+This reveals that the Treynor ratio of portfolio excess return to portfolio beta is .12.
+
+page 431
+
+You may recall that we saw the Treynor ratio in a previous chapter. There we said that in an active, competitive market, a strong argument can be made that all assets (and portfolios of those assets) should have the same Treynor ratio, that is, the same reward-to-risk ratio, where “risk” refers to systematic risk. To the extent that they don’t, there is evidence that at least some portfolios have earned positive abnormal returns.
+
+Both the Sharpe and Treynor ratios are relative measures. A relative measure means that no absolute number represents a “good” or “bad” performance. Rather, to evaluate the performance, the ratios must be compared to those of other managers—or to a benchmark index. So, it is possible for a manager to have negative Sharpe and Treynor ratios and still be considered “good.” This odd result occurs if the benchmark also experiences a negative return for the period under review. In relative terms, the negative ratios of the manager still outperform the benchmark. In evaluating these ratios, higher is better. We can compare funds relative to one another, as well as relative to the ratio for the fund’s benchmark index.
+
+JENSEN’S ALPHA
+Another common measure of investment performance that draws on capital asset pricing theory for its formulation is Jensen’s alpha, proposed by Professor Michael C. Jensen. Jensen’s alpha is computed as the raw portfolio return less the expected portfolio return predicted by the capital asset pricing model (CAPM).
+
+Jensen’s alpha
+
+Measures investment performance as the raw portfolio return less the return predicted by the capital asset pricing model.
+
+Recall from a previous chapter that, according to the CAPM, a portfolio expected return, E(Rp), can be written as:
+
+
+To compute Jensen’s alpha, we compare the actual return, Rp , to the predicted return. The difference is the alpha, denoted αp:
+
+
+Jensen’s alpha is easy to understand. It is the return above or below the security market line, and, in this sense, it can be interpreted as a measure of the amount by which the portfolio “beat the market.” Alpha is therefore a measure of abnormal return. This interpretation is illustrated in Figure 13.1, which shows a portfolio with a positive (A), zero (B), and negative (C) alpha, respectively. As shown, a positive alpha is a good thing because the portfolio has a relatively high return given its level of systematic risk. Unlike the Sharpe and Treynor ratios, page 432alphas can be compared in an absolute (as opposed to relative) sense. A Jensen’s alpha of zero means the portfolio earned no abnormal return.
+
+Jensen’s Alpha
+
+FIGURE 13.1
+
+
+Jensen’s Alpha
+
+EXAMPLE 13.4
+
+Over a three-year period, the average annual return on a portfolio was 20 percent and the beta for the portfolio was 1.25. During the same period, the average annual return on 90-day Treasury bills was 5 percent and the average return on the market portfolio was 15 percent. What is Jensen’s alpha for this portfolio during this period?
+
+Referring to the Jensen’s alpha equation above, we calculate:
+
+
+This shows that the portfolio had an alpha measure of portfolio abnormal return of 2.5 percent.
+
+ANOTHER METHOD TO CALCULATE ALPHA
+In an earlier chapter where we examine beta, we discussed the characteristic line, which graphs the relationship between the return of an investment (on the y-axis) and the return of the market or benchmark (on the x-axis). Recall that the slope of this line represents the investment’s beta. Beta gives us the predicted movement in the return of the stock for a given movement in the market or benchmark. With only a slight modification, we can extend this approach to calculate an investment’s alpha.
+
+Consider the following equation, which rearranges Equation 13.3:
+
+
+If you compare this equation to the equation for the characteristic line, the only difference is that a risk-free rate appears. In fact, we could define the returns of the portfolio and the market as excess returns—meaning we subtract the risk-free rate from the returns of the portfolio. Doing so provides the following equation, which is similar to that of the characteristic line:
+
+
+As an example, consider the outcome when we evaluate an S&P 500 index fund. We expect that the returns on the fund (excluding any expenses) will match the returns of the market. In this case, the resulting graph of the returns of the fund versus the market would look something like Figure 13.2. The slope of this line is 1. This slope makes sense because page 433the fund is exactly tracking the market (i.e., its beta is 1). Further, the alpha would be zero because the fund is earning no positive (or negative) abnormal return. Instead, it is returning exactly what the market does (and at the same level of risk).
+
+Index Fund Excess Returns versus Market Excess Returns
+
+FIGURE 13.2
+
+
+What would happen, though, if an actively managed fund took on the same amount of risk as the market (i.e., a beta of 1), but the fund earned exactly 2 percent more than the market every period? Well, if we graphed this hypothetical situation, it would look something like Figure 13.3. Notice that the slope (i.e., beta) is still 1, but the x-intercept is now 2. This is actually the fund’s alpha, which we could verify using Equation 13.4.
+
+Security Returns versus Market Returns
+
+FIGURE 13.3
+
+
+Suppose that we have a fund whose returns are not consistently higher (or lower) than the market by a fixed amount. How could we estimate this fund’s alpha? Well, similar to our previous beta calculation, we can apply a simple linear regression. In this case, we would regress the excess return of the investment on the excess return of the market. The intercept of this estimated equation is the fund’s alpha. As an example of this approach, consider the nearby Spreadsheet Analysis box.
+
+In the spreadsheet example, the intercept estimate is −.0167. This estimate is given in the same units as the original data, so the alpha is estimated to be −1.67 percent per year. We can verify this number using Equation 13.4. The average return of the security over the five-year period was 10 percent, while the average market return was 12 percent and the average risk-free rate was 2.6 percent. The beta of this security is .96, which is the coefficient estimate on the x variable. With these numbers:
+
+
+You will notice that the regression method and Equation 13.4 produce similar, but not exact, alphas and betas. Part of the difference stems from using an average risk-free rate (as in Equation 13.4) versus using each year’s risk-free rate (as in the regression technique). For example, if you use a risk-free rate of 2.6 percent for each year and run a new regression, the beta is .90. Inserting this beta into the equation above results in an alpha of −1.06 percent, which is about equal to the alpha estimate from this new regression, −1.08 percent.
+
+Although Equation 13.4 is easy to use, the regression approach has some potential advantages over Equation 13.4. For example, the output of the regression will include a significance level for the alpha estimate. Having a significance level allows us to decide whether the page 434alpha is statistically significantly different from zero. Using the t-statistic and p-value from our Spreadsheet Analysis box, we conclude that we are only 15 percent confident (1 minus the p-value) that this estimated alpha value is different from zero. The information ratio we discuss below provides a similar analysis.
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+Another advantage of the regression approach is that you can pick the most relevant benchmark for the comparison. Data providers such as Morningstar report an alpha for most mutual funds, but they decide which index to use for comparison. For example, consider evaluating a value-oriented mutual fund. Most sources will quote alphas relative to the S&P 500 index. To be more specific, however, you might want to evaluate the fund versus a subset of the S&P 500, such as the S&P 500 Value index. Knowing how to calculate your own alpha is helpful in this case.
+
+INFORMATION RATIO
+Consider a mutual fund that reports a positive alpha. How do we know whether this alpha is statistically significantly different from zero or simply represents a result of random chance? We have discussed evaluating the significance level of the alpha estimate that comes from the regression. An alternative is to calculate the fund’s information ratio.
+
+information ratio
+
+Alpha divided by tracking error.
+
+The information ratio is calculated as a fund’s alpha divided by its tracking error. The tracking error measures the volatility of the fund’s returns relative to its benchmark. As an example, consider the fund we evaluated in the Spreadsheet Analysis box in the previous page 435section. In the first year, the fund earned an excess return (return above the risk-free rate) of 7 percent and the market had an excess return of 5 percent. The difference between these two values is 2 percent. Over the five years, the differences between the excess returns are 2 percent, 4 percent, −20 percent, 14 percent, and −10 percent, respectively. The tracking error is the standard deviation of these return differences, which in this case is 13.2 percent (check this number for practice).
+
+tracking error
+
+A measure of how volatile a portfolio is relative to its benchmark.
+
+So, this fund’s information ratio is −1.67 percent divided by 13.2 percent, which is −.13. Because the standard deviation is always positive, the information ratio will always have the same sign as the alpha. The information ratio allows us to compare investments that have the same alpha, or to compare investments with different alphas and tracking errors. For example, if two funds both have alphas of 1.5 percent, we would prefer the one with the higher information ratio because less risk (or volatility) is associated with this fund. For this fund, it would be more likely that the ability to generate a positive alpha is repeatable, and not a result of random volatility.
+
+Information Ratio
+
+EXAMPLE 13.5
+
+A fund has an alpha of .8 percent and a tracking error of 5.9 percent. What is the fund’s information ratio?
+
+
+R-SQUARED
+Elsewhere, we discussed the importance of an investment’s correlation to other securities. Recall that correlation measures how returns for a particular security move relative to returns for another security. Correlation also plays a key role in performance measurement.
+
+Suppose a particular fund has had a large alpha over the past three years. All else equal, we might say that this fund is a good choice. However, what if the fund is a sector-based fund that invests only in gold? Well, it is possible that the large alpha is due to a run-up in gold prices over the period and is not reflective of good management or future potential.
+
+To evaluate this type of risk, we can calculate R-squared, which is the squared correlation of the fund to the market. For example, if this fund’s correlation with the market is .6, then the R-squared value is .62 = .36. R-squared represents the percentage of the fund’s movement that can be explained by movements in the market. Because correlation ranges only from −1 to +1, R-squared values will range from 0 to 100 percent. An R-squared of 100 indicates that all movements in the security are driven by the market, indicating a correlation of −1 or +1. A high R-squared value (say greater than .80) might suggest that the performance measures (such as alpha) are more representative of potential longer-term performance. The same is true for interpreting a security’s beta.
+
+R-squared
+
+A portfolio’s or security’s squared correlation to the market or benchmark.
+
+R-Squared
+
+EXAMPLE 13.6
+
+A portfolio has a correlation to the market of .9. What is the R-squared? What percentage of the portfolio’s return is driven by the market? What percentage comes from asset-specific risk?
+
+
+This value implies that 81 percent of the portfolio’s return is driven by the market. Thus, 19 percent (i.e., 100 − 81 percent) is driven by risk specific to the portfolio’s individual holdings.
+
+page 436
+
+CHECK THIS
+
+
+
+13.1aWhat is the Sharpe ratio of portfolio performance?
+
+13.1bWhat is the difference between the Sharpe and Sortino ratios?
+
+13.1cWhat is the Treynor ratio of portfolio performance?
+
+13.1dWhat is Jensen’s alpha?
+
+13.1eWhy can Jensen’s alpha be interpreted as measuring by how much an investment portfolio beat the market?
+
+13.1fWhat is the information ratio?
+
+13.1gWhat is R-squared?
+
+13.2 Comparing Performance Measures
+Table 13.1 presents investment performance data for three risky portfolios, A, B, and C, along with return data for the market portfolio and a risk-free portfolio, denoted by M and F, respectively. Based on the performance data in Table 13.1, Table 13.2 provides computed performance measures for Portfolios A, B, and C and the market portfolio, M. The market portfolio is a benchmark of investment performance. Often the familiar S&P 500 index is the adopted proxy for the market portfolio.
+
+Investment Performance Data
+
+TABLE 13.1
+
+Portfolio	Rp	σp	βp
+A	12%	40%	.5
+B	15 	30 	.75
+C	20 	22 	1.4
+M	15 	15 	1.0
+F	5	0	.0
+As shown in Table 13.2, the Sharpe ratio ranks the three risky portfolios in ascending order of performance: A, B, and C. By contrast, the Treynor ratio ranks these three risky portfolios in reverse order of performance: C, B, and A. Jensen’s alpha yields another portfolio ranking altogether, with the ascending order of performance: C, A, and B.
+
+Portfolio Performance Measurement
+
+TABLE 13.2
+
+Portfolio	Sharpe Ratio	Treynor Ratio	Jensen’s Alpha
+A	.175	.14	2%
+B	.333	.133	2.5
+C	.682	.107	1
+M	.667	.10	0
+The example above illustrates that the three performance measures can yield substantially different performance rankings. The fact that each of the three performance measures can produce such different results leaves us with the burning question: “Which performance measure should we use to evaluate portfolio performance?”
+
+Well, the simple answer is: “It depends.” If you wish to select a performance measure to evaluate an entire portfolio held by an investor, then the Sharpe ratio is appropriate. But if you wish to choose a performance measure to individually evaluate securities or portfolios for possible inclusion in a broader (or “master”) portfolio, then either the Treynor ratio or Jensen’s alpha is appropriate.
+
+page 437
+
+WORK THE WEB
+
+The various performance measures we have discussed are frequently used to evaluate mutual funds or, more accurately, mutual fund managers. For example, the information below concerns the Fidelity Low-Priced Stock Fund, which is a small-cap value fund. We obtained the numbers from morningstar.com by entering the fund’s ticker symbol (FLPSX) and following the “Ratings & Risk” link. By the way, you will see the abbreviation “MPT” in this context quite a bit. MPT is an acronym for “modern portfolio theory,” which is the general label for things related to Markowitz-type portfolio analysis and the CAPM, which we discussed in another chapter.
+
+For this fund, the beta is .83, so the degree of market risk is below average. The fund’s alpha is −2.39 percent, which could indicate lagging past performance. The fund’s standard deviation is 10.23 percent. The Sharpe ratio for the fund is .46, and the Sortino ratio is .61. Of course, we cannot judge these values in isolation.
+
+The fund’s R-squared is 85.24, which means that about 85 percent of its returns are driven by the market’s return. This example illustrates the importance of being able to understand how to compute all these measures.
+
+
+Source: Morningstar, accessed January 2019.
+
+In broader terms, all three measures have strengths and weaknesses. As we have seen, Jensen’s alpha is easy to interpret. Comparing Jensen’s alpha and the Treynor ratio, we see that they are really very similar. The only difference is that the Treynor ratio standardizes everything, including any excess return, relative to beta. If you were to take Jensen’s alpha and divide it by beta, then you would have a Jensen-Treynor alpha, which measures excess return relative to beta. The result would be similar to the information ratio.
+
+A common weakness of the Jensen and Treynor measures is that both require a beta estimate. As we discussed in our last chapter, betas from different sources can differ substantially; as a result, what appears to be a positive alpha might just be due to a mismeasured beta.
+
+The Sharpe ratio has the advantage that no beta is necessary, and standard deviations can be calculated unambiguously. The drawback is that total risk is frequently not what really matters. However, for a relatively well-diversified portfolio, most of the risk is systematic, so there’s not much difference between total risk and systematic risk. For this reason, when we evaluate mutual funds, the Sharpe ratio is probably the most frequently used. Furthermore, if a mutual fund is not very diversified, then its standard deviation would be larger, resulting in a smaller Sharpe ratio. Thus, in effect, the Sharpe ratio penalizes a portfolio for being undiversified.
+
+To see how these performance measures are used in practice, have a look at our nearby Work the Web box, which shows some actual numbers for a mutual fund.
+
+Picking Portfolios
+
+EXAMPLE 13.7
+
+Suppose you must invest all of your money in only one portfolio from choices A, B, or C as presented in Table 13.1. Which portfolio should you choose?
+
+Because you can select only one portfolio, the Sharpe ratio measure of portfolio performance should be used. Referring to Table 13.2, we see that Portfolio C has the highest Sharpe ratio of excess return per unit of total risk. Therefore, Portfolio C should be chosen.
+
+page 438
+
+Picking Portfolios Again
+
+EXAMPLE 13.8
+
+Suppose you are considering whether Portfolios A, B, and C presented in Table 13.1 should be included in a broader master portfolio. Should you select one, two, or all three of these portfolios to include in your master portfolio?
+
+Because you are selecting portfolios for inclusion in a master portfolio, either the Treynor ratio or Jensen’s alpha should be used. Suppose you decide to consider any portfolio that outperforms the market portfolio, M, based on either the Treynor ratio or Jensen’s alpha. Referring to Table 13.2, we see that all three portfolios have Treynor ratios and Jensen’s alphas greater than the market portfolio. Therefore, you should decide to include all three portfolios in your master portfolio.
+
+For some specifics on the actual standards, check out
+gipsstandards.org.
+
+GLOBAL INVESTMENT PERFORMANCE STANDARDS
+As the previous example illustrates, comparing investments is sometimes difficult because the various performance metrics can provide different rankings. In the previous example, this difference was caused purely by the nature of the returns. However, even if the various metrics provided a similar ranking, we could still make an incorrect choice in selecting an investment manager.
+
+How is this possible? Well, remember the adage “garbage in, garbage out.” Sadly, this principle applies to the performance measurement process. In particular, our metrics are often based on returns (and other inputs) that are self-reported by the firms we are evaluating. This is particularly true for managers who do not offer a publicly traded portfolio.
+
+To provide a measure of consistency in reported performance, the CFA™ Institute developed the Global Investment Performance Standards (GIPS). These standards provide investment firms with guidance for calculating and reporting their performance results to prospective (and current) clients. By standardizing the process, GIPS provide investors with the ability to make comparisons across managers.
+
+Firms are not required by law to comply with GIPS. Rather, compliance with these standards is voluntary. Firms that do comply, however, are recognized by the CFA Institute, which might give these firms more credibility among potential investors.
+
+SHARPE-OPTIMAL PORTFOLIOS
+In this section, we show how to obtain a funds allocation with the highest possible Sharpe ratio. Such a portfolio is said to be “Sharpe optimal.” The method is closely related to the procedure of obtaining a Markowitz efficient frontier discussed in a previous chapter. This comes as no surprise because both methods are used to achieve an optimal balance of risk and return for investment portfolios.
+
+To illustrate the connection, have a look at Figure 13.4, which shows the investment opportunity set of risk-return possibilities for a portfolio of two assets, a stock fund and a bond fund. Now the question is: “Of all of these possible portfolios, which one is Sharpe optimal?” To find out, consider the portfolio labeled A in the figure. Notice that we have drawn a straight line from the risk-free rate running through this point.
+
+The Sharpe-Optimal Portfolio
+
+FIGURE 13.4
+
+
+Portfolio T has the highest Sharpe ratio of any possible combination of these two assets, so it is Sharpe optimal.
+
+What is the slope of this straight line? As always, the slope of a straight line is the “rise over the run.” In this case, the return rises from the risk-free rate, Rf , to the expected return on Portfolio A, so the rise is E(RA) − Rf . At the same time, risk moves from zero for a risk-free asset up to the standard deviation on Portfolio A, so the run is σA − 0 = σA. Thus, the slope is [E(RA) − Rf]/σA, which is just the Sharpe ratio for Portfolio A.
+
+So, the slope of a straight line drawn from the risk-free rate to a portfolio in Figure 13.4 tells us the Sharpe ratio for that portfolio. This is always the case, even if there are many assets, not just two. Finding the Sharpe-optimal portfolio thus boils down to finding the line with the steepest slope. Looking again at Figure 13.4, we quickly figure out that the line with the steepest slope is always going to be the one that just touches (i.e., is tangent to) the investment opportunity set. We have labeled this Portfolio T (for tangent).
+
+We now have an interesting and important result. The Markowitz efficient frontier tells us which portfolios are efficient, but it does not tell us which of the efficient portfolios is the best. page 439What Figure 13.4 shows is that, of those efficient portfolios, one is the very best, at least in the sense of being Sharpe optimal.
+
+To illustrate how to find the Sharpe-optimal portfolio, consider stock and bond funds with returns of 12 percent and 6 percent, respectively. The standard deviations are 15 percent and 10 percent, respectively, and the correlation is .10. From our discussion in another chapter, we know that the expected return on a portfolio of two assets is given by:
+
+
+where xS and xB are the percentages invested in the stock and bond funds, respectively. Also from another chapter, the variance on a portfolio of these two assets is:
+
+
+Putting it all together, the Sharpe ratio for our two-asset portfolio looks like this:
+
+
+Our task is to find the values of xS and xB that make this ratio as large as possible. This looks like a tough job, but, as our nearby Spreadsheet Analysis box shows, it can be done relatively easily. As shown there, assuming a risk-free interest rate of 4 percent, the highest possible Sharpe ratio is .553 based on a 70–30 mix between stocks and bonds.
+
+Once the formulas are entered for the portfolio return, standard deviation, and Sharpe ratio, we can solve for the portfolio weights that give us the highest possible Sharpe ratio. We do not have to worry about the weight in bonds because the weight in bonds is equal to 1 minus the weight in stocks. You can use the Solver tool for this task.
+
+You can see in the Spreadsheet Analysis box that we ask Solver to change the portfolio weight in stocks so that the maximum Sharpe ratio is obtained. Note that we also required that the weights in stocks and bonds both be equal to or greater than zero, although this requirement isn’t needed if we are able to go short. If any of the returns, standard deviations, or correlations are changed, the Solver tool must be rerun. Build this spreadsheet yourself and see if you get the same answer we did. Then, change the correlation between stocks and bonds to .20. Does the Sharpe ratio increase or decrease? What happens to the weights? For those of you who are “old school,” Example 13.9 shows the formula that can be used to calculate the Sharpe-optimal weights.
+
+page 440
+
+SPREADSHEET ANALYSIS
+
+
+Source: Microsoft.
+
+Sharpe-Optimal Portfolio Calculations
+
+EXAMPLE 13.9
+
+Suppose you have the following expected return and risk information for stocks and bonds that will be used to form a Sharpe-optimal portfolio.
+
+
+page 441
+
+In the case of just two risky assets (stocks and bonds), the formulas for the portfolio weights for the optimal Sharpe portfolio are:
+
+
+and:
+
+
+Calculate the Sharpe-optimal portfolio weights and the expected return and standard deviation for the Sharpe-optimal portfolio.
+
+Inserting the expected return and risk information into these formulas yields the following optimal Sharpe portfolio weights for stocks and bonds:
+
+
+and:
+
+
+With these results, we now have all the information needed to calculate the expected return and standard deviation for the Sharpe-optimal portfolio:
+
+
+CHECK THIS
+
+
+
+13.2aExplain the difference between systematic risk measured by beta and total risk measured by standard deviation. When are they essentially the same?
+
+13.2bWhat is a Sharpe-optimal portfolio?
+
+13.2cAmong the many Markowitz efficient portfolios, which one is Sharpe optimal?
+
+13.3 Investment Risk Management
+In the first part of this chapter, we discussed performance evaluation within a framework of optimizing the trade-off between risk and return for an investment portfolio. In the remainder of this chapter, we examine investment risk management within the framework of a money manager’s concern over potential losses for an investment portfolio within a specific time horizon. We focus on what is known as the Value-at-Risk approach.
+
+investment risk management
+
+Concerns a money manager’s control over investment risks, usually with respect to potential short-run losses.
+
+VALUE-AT-RISK
+An important goal of this chapter is to learn how to assess portfolio risk using Value-at-Risk. In essence, the Value-at-Risk (usually abbreviated VaR) method involves evaluating the probability of a significant loss. The basic approach we describe here is widely used by many different financial institutions.
+
+Value-at-Risk (VaR)
+
+Assesses risk by stating the probability of a loss a portfolio might experience within a fixed time horizon with a specified probability.
+
+The VaR measure of investment risk is closely related to something we discussed way back in Chapter 1. There we said that if the returns on an investment follow a normal distribution, page 442then we can state the probability that a portfolio’s return will be within a certain range. Because a normal distribution is completely specified by its mean and standard deviation, these are all that we need to state this probability.
+
+For example, suppose you own an S&P 500 index fund. What is the probability of a return of −8 percent or worse in a particular year? As we saw in Chapter 1, since 1926, the return on the S&P 500 index has averaged about 12 percent per year with a standard deviation of about 20 percent per year. A return of −8 percent is approximately one standard deviation below the average (.12 − .20 = −.08). We know from Chapter 1 (and basic statistics) that the odds of being within one standard deviation are about 2/3, or .67. Being within one standard deviation of the mean of .12 means being between .12 plus .20 and .12 minus .20, i.e., between −.08 and +.32.
+
+If the odds of being within this range are 2/3, then the odds of being outside this range are about 1/3. Finally, if we are outside this range, then half of the time we’ll be above this range and half of the time we’ll be below. Half of 1/3 is 1/6, so we’ll experience a return of −.08 or worse 1/6, or about 17 percent, of the time.
+
+Putting it together, if you own an S&P 500 index fund, this risk assessment can be stated:
+
+
+Your VaR statistic is thus a return of −.08 or worse with a probability of 17 percent. By the way, here is an important note: When we say a loss of −.08 or worse, we mean that one year from now your portfolio value is down by 8 percent or more.
+
+VaR Risk Statistic
+
+EXAMPLE 13.10
+
+You agree with J. P. Morgan that the stock market will fluctuate and have become concerned with how these fluctuations might affect your stock portfolio. Having read about the VaR method for measuring investment risk, you decide to apply it to your portfolio.
+
+Suppose you believe that there is a 5 percent chance of a return of −18 percent or worse in the coming week. Mathematically, this risk assessment can be stated as:
+
+
+Taken together, this −18 percent (or worse) expected loss and 5 percent probability form a VaR “statistic” for your stock portfolio.
+
+CHECK THIS
+
+
+
+13.3aWhat is the probability of realizing a portfolio return one or more standard deviations below the expected mean return?
+
+13.3bWhat is the probability of realizing a portfolio return two or more standard deviations below the expected mean return?
+
+13.3cYour portfolio has a mean return of 15 percent and a return standard deviation of 25 percent. What portfolio return is two standard deviations below the mean?
+
+13.4 More on Computing Value-at-Risk
+In this section we extend our discussion of computing VaR. Our main goal is to examine how to evaluate horizons that are shorter or longer than one year. The easiest way to do this is to take our earlier example concerning the S&P 500 and extend it a bit.
+
+Learn about the risk management profession at
+garp.org.
+
+Once again, suppose you own an S&P 500 index fund. What is the probability of a loss of 30 percent or more over the next two years? To answer, we need to know the average two-year page 443return and the average two-year return standard deviation. Getting the average two-year return is easy enough; we double the one-year average, so the two-year average return is 2 × .12 = .24, or 24 percent.
+
+The two-year standard deviation is a little trickier. The two-year variance is double the one-year variance. In our case, the one-year variance is .202 = .04, and the two-year variance is thus .08. As always, to get the two-year standard deviation, we take the square root of this, which is .28, or 28 percent. The main thing to notice is that the two-year standard deviation is not double the one-year number. In fact, if you look at it, the two-year number is equal to the one-year number multiplied by the square root of 2, or 1.414.
+
+Now we can answer our question. A two-year loss of 30 percent is roughly equal to the two-year average return of 24 percent less two standard deviations: .24 − 2 × .28 = −.32. From Chapter 1, we know that the odds of being within two standard deviations are 95 percent, so the odds of being outside this range are 5 percent. The odds of being on the bad side (the loss side) are half that, namely, 2.5 percent.
+
+In general, if we let T stand for the number of years, then the expected return on a portfolio over T years, E(Rp, T), can be written as:
+
+
+Similarly, the standard deviation can be written as:
+
+
+If the time period is less than one year, T is a fraction of a year.
+
+When you do a VaR analysis, you have to pick the time horizon and loss level probability. You can pick any probability you want, of course, but the most common are 1, 2.5, and 5 percent. We know that 2.5 percent, which is half of 5 percent, corresponds to two standard deviations (actually 1.96 to be more precise) below the expected return. To get the 1 percent and 5 percent numbers, you would need to find an ordinary z table to tell you the number of standard deviations. We’ll save you the trouble. The 1 percent level is 2.326 standard deviations below the average and the 5 percent level is 1.645 “sigmas” below.
+
+Wrapping up our discussion, the VaR statistics for these three levels can be summarized as follows:
+
+
+Notice that if T, the number of years, is equal to 1, the 1 percent level corresponds to once in a century. Similarly, 5 percent is once every 20 years and 2.5 percent is once every 40 years. Examples 13.11 through 13.14 show you how to use VaR statistics.
+
+VaR Risk Statistic
+
+EXAMPLE 13.11
+
+The Ned Kelley Hedge Fund focuses on investing in bank and transportation companies in Australia with above-average risk. The average annual return is 15 percent with an annual return standard deviation of 50 percent. What loss level can we expect over a two-year investment horizon with a probability of .17?
+
+We assume a two-year expected return of 30 percent. The one-year variance is .502 = .25, so the two-year variance is .50. Taking the square root, we get a two-year standard deviation of .7071, or 70.71 percent. A loss probability of .17 corresponds to one standard deviation below the mean, so the answer to our question is .30 − .7071 = −.4071, a substantial loss. We can write this succinctly as:
+
+
+Notice that there is a 17 percent chance of a 40.71 percent loss or worse over the next two years.
+
+page 444
+
+VaR Risk Statistic
+
+EXAMPLE 13.12
+
+Going back to the Ned Kelley Hedge Fund in our previous example, what loss level might we expect over six months with a probability of .17?
+
+The six-month expected return is half of 15 percent, or 7.5 percent. The six-month standard deviation is . So the answer to our question is .075 − .3536 = −.2786. Again, we can write this succinctly as:
+
+
+Thus, there is a 17 percent chance of a 27.86 percent loss or worse over the next six months.
+
+A One-in-Twenty Loss
+
+EXAMPLE 13.13
+
+For the Ned Kelley Hedge Fund specified in our previous examples, what is the expected loss for the coming year with a probability of 5 percent?
+
+In this case, with an annual return mean of 15 percent and an annual return standard deviation of 50 percent, set T = 1 for a one-year time horizon and calculate this VaR statistic:
+
+
+Thus, we can expect a loss of 67.25 percent or worse over the next year with a 5 percent probability.
+
+A One-in-a-Hundred Loss
+
+EXAMPLE 13.14
+
+For the Ned Kelley Hedge Fund specified in our previous examples, what is the expected loss for the coming month with a 1 percent probability?
+
+Setting T = 1/12 for a one-month time horizon, we calculate this VaR statistic:
+
+
+Thus, we can expect a loss of 32.32 percent or more with a 1 percent probability over the next month.
+
+As an application of Value-at-Risk, consider the problem of determining VaR statistics for a Sharpe-optimal stock and bond portfolio. As with any VaR problem for a portfolio, remember that the key to the problem is to first determine the expected return and standard deviation for the portfolio. From our discussion in Chapter 11 and earlier in this chapter, we know that the expected return and standard deviation of a stock and bond portfolio are specified by these two equations:
+
+
+Thus, the problem of calculating VaR statistics for a Sharpe-optimal portfolio is the same for any portfolio once the appropriate portfolio weights are determined.
+
+page 445
+
+CHECK THIS
+
+
+
+13.4aYour portfolio allocates 40 percent of funds to ABC stock and 60 percent to XYZ stock. ABC has a return mean and standard deviation of 15 percent and 20 percent, respectively. XYZ stock has a return mean and standard deviation of 25 percent and 30 percent, respectively. What is the portfolio return standard deviation if the return correlation between ABC and XYZ is zero?
+
+13.4bBased on your answer to the previous question, what is the smallest expected loss for your portfolio in the coming year with a probability of 1 percent? What is the smallest expected loss for your portfolio in the coming month with a probability of 5 percent?
+
+13.5 Summary and Conclusions
+In this chapter, we covered the related topics of performance measurement and risk management.
+
+1.  How to calculate the best-known portfolio evaluation measures.
+
+A.  Our goal with performance measurement is essentially to rank investments based on their risk-adjusted, or abnormal, returns. We introduced and discussed the most frequently used tools to do this: the Sharpe ratio (and the related Sortino ratio), the Treynor ratio, Jensen’s alpha, the information ratio, and R-squared.
+
+B.  As we saw, each has a somewhat different interpretation. Also, which one is the most suitable depends on the specific question to be answered.
+
+2.  The strengths and weaknesses of these portfolio evaluation measures.
+
+A.  Sharpe ratio. Strength: No beta estimate is necessary, and standard deviations can be calculated unambiguously. Weakness: Total risk is frequently not what really matters. However, for a relatively well-diversified portfolio, most of the risk is systematic, so there’s not much difference between total risk and systematic risk.
+
+B.  Treynor ratio. Strength: The Treynor ratio standardizes everything, including any excess return, relative to beta. Weakness: The Treynor measure requires a beta estimate.
+
+C.  Jensen’s alpha. Strength: Jensen’s alpha is easy to interpret. Weakness: The Jensen measure requires a beta estimate. Betas from different sources can differ substantially, and, as a result, what appears to be a positive alpha might just be due to a mismeasured beta.
+
+D.  The information ratio and R-squared help to determine the accuracy of the other metrics, particularly alpha.
+
+3.  How to calculate a Sharpe-optimal portfolio.
+
+A.  The slope of a straight line drawn from the risk-free rate to a portfolio on a return–standard deviation graph tells us the Sharpe ratio for that portfolio. This is always the case, even with many assets, not just two. The portfolio with the highest slope is called Sharpe optimal.
+
+B.  Finding the Sharpe-optimal portfolio boils down to finding the portfolio with the steepest slope. The line with the steepest slope is always going to be the one that just touches (i.e., is tangent to) the investment opportunity set. That portfolio is sometimes labeled Portfolio T (for tangent).
+
+C.  The Markowitz efficient frontier tells us which portfolios are efficient; it does not tell us which one of the efficient portfolios is the best. Given a risk-free rate, the Sharpe-optimal portfolio is the best portfolio, at least as measured by the Sharpe ratio.
+
+4.  page 446How to calculate and interpret Value-at-Risk.
+
+A.  We introduce the popular and widely used method to assess portfolio risk called “Value-at-Risk,” or VaR. Here the goal is usually to assess the probability of a large loss within a fixed time frame.
+
+B.  Investors use this tool both to better understand the risks of their existing portfolios and to assess the risks of potential investments. The VaR measure is closely related to something we discussed way back in Chapter 1.
+
+C.  If the returns on an investment follow a normal distribution, then we can state the probability that a portfolio’s return will be within a certain range. Because a normal distribution is completely specified by its mean and standard deviation, these two statistics are all that we need to state the probability of a loss of a certain size.
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered the essentials of performance evaluation and investment risk management. With thousands of mutual funds and investment companies competing for performance while trying to control risk, these topics are especially important. If you wish to learn more about these subjects, a good place to start is the internet.
+
+A useful and informative website on investment performance analysis is that of Professor William F. Sharpe (stanford.edu/~wfsharpe), the Nobel laureate who created the Sharpe ratio. You can also consult garp.org, which is the website of the Global Association of Risk Professionals (GARP), an independent organization of financial risk management practitioners and researchers.
+
+Because financial institutions generally prefer that their risk profiles be kept private, a large part of the world of financial risk management is hidden from public view. Nevertheless, the field of risk management is large and growing. If you want to know more about this fascinating subject, an interesting website that provides a wealth of information is the Society of Risk Management Consultants (srmcsociety.org).
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com.
+
+Key Terms
+
+information ratio 434
+
+investment risk management 441
+
+Jensen’s alpha 431
+
+performance evaluation 428
+
+raw return 428
+
+R-squared 435
+
+Sharpe ratio 429
+
+tracking error 434
+
+Treynor ratio 430
+
+Value-at-Risk (VaR) 441
+
+Chapter Review Problems and Self-Test
+
+Performance Measures (LO1, CFA7)   Compute Sharpe ratios, Treynor ratios, and Jensen’s alphas for Portfolios A, B, and C based on the following returns data, where M and F stand for the market portfolio and risk-free rate, respectively:
+
+page 447
+
+Portfolio	Rp	σp	βp
+A	10%	30%	.75
+B	15	25	1.00
+C	20	40	1.50
+M	15	15	1.00
+F	5	0	.00
+Value-at-Risk (VaR) (LO4, CFA6)   A portfolio manager believes her $100 million stock portfolio will have a 10 percent return standard deviation during the coming week and that her portfolio’s returns are normally distributed. What is the probability of her losing $10 million or more? What is the dollar loss expected with a 5 percent probability? What is the dollar loss expected with a 1 percent probability?
+
+Answers to Self-Test Problems
+
+Using Equations 13.1, 13.2, and 13.4 yields these performance measurement values:
+
+Portfolio	Sharpe Ratio	Treynor Ratio	Jensen’s Alpha
+A	.167	.0667	–2.5%
+B	.400	.10	0
+C	.375	.10	0
+M	.667	.10	0
+Because a mean is not given, but the time horizon is only one week, we can assume a mean of zero. Thus, the probability of a $10 million or greater loss is the probability of a loss of one or more return standard deviations. For a normal distribution, a realization 1.645 or more standard deviations below the mean occurs with about a 5 percent probability, yielding a potential loss of at least 1.645 × $10 million = $16.45 million. For a normal distribution, a realization 2.326 or more standard deviations below the mean occurs with about a 1 percent probability, yielding a potential loss of at least 2.326 × $10 million = $23.26 million.
+
+Test Your Investment Quotient
+
+
+Beta and Standard Deviation (LO2, CFA3)   Beta and standard deviation differ as risk measures in that beta measures:
+
+Only unsystematic risk, whereas standard deviation measures total risk.
+
+Only systematic risk, whereas standard deviation measures total risk.
+
+Both systematic and unsystematic risk, whereas standard deviation measures only unsystematic risk.
+
+Both systematic and unsystematic risk, whereas standard deviation measures only systematic risk.
+
+Answer Questions 2 through 7 based on the following information:
+
+Risk and Return Data
+Portfolio	Average Return	Standard Deviation	Beta
+P	17%	20%	1.1
+Q	24	18	2.1
+R	11	10	.5
+S	16	14	1.5
+S&P 500	14	12	1.0
+A pension fund administrator wants to evaluate the performance of four portfolio managers. Each manager invests only in U.S. common stocks. During the most recent five-year period, the average annual total return on the S&P 500 was 14 percent and the average annual rate on Treasury bills was 8 percent. The table above shows risk and return measures for each portfolio.
+
+page 448Treynor Ratio (LO1, CFA7)   The Treynor portfolio performance measure for Portfolio P is:
+
+8.18
+
+7.62
+
+6.00
+
+5.33
+
+Sharpe Ratio (LO1, CFA7)   The Sharpe portfolio performance measure for Portfolio Q is:
+
+.45
+
+.89
+
+.30
+
+.57
+
+Jensen’s Alpha (LO1, CFA7)   The Jensen’s alpha portfolio performance measure for Portfolio R is:
+
+2.4 percent
+
+3.4 percent
+
+0 percent
+
+−1 percent
+
+Treynor Ratio (LO1, CFA7)   Which portfolio has the highest Treynor ratio?
+
+P
+
+Q
+
+R
+
+S
+
+Sharpe Ratio (LO1, CFA7)   Which portfolio has the highest Sharpe ratio?
+
+P
+
+Q
+
+R
+
+S
+
+Jensen’s Alpha (LO1, CFA7)   Which portfolio has the highest Jensen’s alpha?
+
+P
+
+Q
+
+R
+
+S
+
+Sortino Ratio (LO1, CFA7)   The primary difference between the Sharpe ratio and the Sortino ratio is that the Sortino ratio considers:
+
+Total volatility.
+
+Only systematic risk.
+
+Only upside volatility.
+
+Only downside volatility.
+
+Normal Distribution (LO4, CFA3)   Given a data series that is normally distributed with a mean of 100 and a standard deviation of 10, about 95 percent of the numbers in the series will fall within:
+
+60 to 140
+
+70 to 130
+
+80 to 120
+
+90 to 110
+
+Normal Distribution (LO4, CFA3)   Given a data series that is normally distributed with a mean of 100 and a standard deviation of 10, about 99 percent of the numbers in the series will fall within:
+
+60 to 140
+
+80 to 120
+
+70 to 130
+
+90 to 110
+
+Normal Distribution (LO4, CFA3)   A normal distribution is completely specified by its:
+
+Mean and correlation.
+
+Variance and correlation.
+
+Variance and standard deviation.
+
+Mean and standard deviation.
+
+page 449Standard Normal Distribution (LO4, CFA5)   A normal random variable is transformed into a standard normal random variable by:
+
+Subtracting its mean and dividing by its standard deviation.
+
+Adding its mean and dividing by its standard deviation.
+
+Subtracting its mean and dividing by its variance.
+
+Adding its mean and multiplying by its standard deviation.
+
+Standard Normal Distribution (LO4, CFA5)   The probability that a standard normal random variable is either less than −1 or greater than +1 is:
+
+2 percent
+
+5 percent
+
+10 percent
+
+31.74 percent
+
+Standard Normal Distribution (LO4, CFA5)   The probability that a standard normal random variable is either less than −1.96 or greater than +1.96 is approximately:
+
+2 percent
+
+5 percent
+
+10 percent
+
+31.74 percent
+
+Value-at-Risk (VaR) (LO4, CFA5)   The Value-at-Risk statistic for an investment portfolio states:
+
+The probability of an investment loss.
+
+The value of the risky portion of an investment portfolio.
+
+The smallest investment loss expected with a specified probability.
+
+The largest investment loss expected with a specified probability.
+
+Concept Questions
+
+Performance Evaluation Ratios (LO2, CFA7)   Explain the difference between the Sharpe ratio and the Treynor ratio.
+
+Performance Evaluation Measures (LO2, CFA7)   What is a common weakness of Jensen’s alpha and the Treynor ratio?
+
+Jensen’s Alpha (LO2, CFA7)   Explain the relationship between Jensen’s alpha and the security market line (SML) of the capital asset pricing model (CAPM).
+
+Sharpe Ratio (LO2, CFA7)   What are one advantage and one disadvantage of the Sharpe ratio?
+
+Comparing Alphas (LO2, CFA7)   Suppose that two investments have the same alpha. What things might you consider to help you determine which investment to choose?
+
+Optimal Sharpe Ratio (LO3, CFA7)   What is meant by a Sharpe-optimal portfolio?
+
+Sortino Ratio (LO1, CFA7)   What is the difference between the Sharpe ratio and the Sortino ratio?
+
+Value-at-Risk (VaR) Statistic (LO4, CFA6)   Explain the meaning of a Value-at-Risk statistic in terms of a smallest expected loss and the probability of such a loss.
+
+Value-at-Risk (VaR) Statistic (LO4, CFA6)   The largest expected loss for a portfolio is −20 percent with a probability of 95 percent. Relate this statement to the Value-at-Risk statistic.
+
+Performance Measures (LO2, CFA7)   Most sources report alphas and other metrics relative to a standard benchmark, such as the S&P 500. When might this method be an inappropriate comparison?
+
+Questions and Problems
+
+Core Questions
+
+Standard Deviation (LO4, CFA6)   You find a particular stock has an annual standard deviation of 54 percent. What is the standard deviation for a two-month period?
+
+Standard Deviation (LO4, CFA6)   You find the monthly standard deviation of a stock is 8.60 percent. What is the annual standard deviation of the stock?
+
+Performance Evaluation (LO1, CFA7)   page 450You are given the following information concerning three portfolios, the market portfolio, and the risk-free asset:
+
+Portfolio	Rp	σp	βp
+X	12%	29%	1.25
+Y	11	24	1.10
+Z	8	14	.75
+Market	10	19	1.00
+Risk-free	4	0	0
+What are the Sharpe ratio, Treynor ratio, and Jensen’s alpha for each portfolio?
+
+Information Ratio (LO1, CFA7)   Assume that the tracking error of Portfolio X in Problem 3 is 9.2 percent. What is the information ratio for Portfolio X?
+
+R-Squared (LO1, CFA7)   In Problem 3, assume that the correlation of returns on Portfolio Y to returns on the market is .75. What percentage of Portfolio Y’s return is driven by the market?
+
+Information Ratio (LO1, CFA7)   The Layton Growth Fund has an alpha of 2.1 percent. You have determined that Layton’s information ratio is .5. What must Layton’s tracking error be relative to its benchmark?
+
+Value-at-Risk (VaR) Statistic (LO4, CFA6)   DW Co. stock has an annual return mean and standard deviation of 12 percent and 30 percent, respectively. What is the smallest expected loss in the coming year with a probability of 5 percent?
+
+Value-at-Risk (VaR) Statistic (LO4, CFA6)   Woodpecker, Inc., stock has an annual return mean and standard deviation of 18 percent and 44 percent, respectively. What is the smallest expected loss in the coming month with a probability of 2.5 percent?
+
+Value-at-Risk (VaR) Statistic (LO4, CFA6)   Your portfolio allocates equal funds to the DW Co. and Woodpecker, Inc., stocks referred to in Problems 7 and 8. The return correlation between DW Co. and Woodpecker, Inc., is zero. What is the smallest expected loss for your portfolio in the coming month with a probability of 2.5 percent?
+
+Sharpe Ratio (LO1, CFA7)   What is the formula for the Sharpe ratio for a stock and bond portfolio with a zero correlation between stock and bond returns?
+
+Intermediate Questions
+
+11. Sharpe Ratio (LO1, CFA7)   What is the formula for the Sharpe ratio for an equally weighted portfolio of stocks and bonds?
+
+12. Sharpe Ratio (LO1, CFA7)   What is the formula for the Sharpe ratio for a portfolio of stocks and bonds with equal expected returns, i.e., E(RS) = E(RB), and a zero return correlation?
+
+13. Value-at-Risk (VaR) Statistic (LO4, CFA6)   A stock has an annual return of 11 percent and a standard deviation of 54 percent. What is the smallest expected loss over the next year with a probability of 1 percent? Does this number make sense?
+
+14. Value-at-Risk (VaR) Statistic (LO4, CFA6)   For the stock in Problem 13, what is the smallest expected gain over the next year with a probability of 1 percent? Does this number make sense? What does this tell you about stock return distributions?
+
+15. Value-at-Risk (VaR) Statistic (LO4, CFA6)   Tyler Trucks stock has an annual return mean and standard deviation of 10 percent and 26 percent, respectively. Michael Moped Manufacturing stock has an annual return mean and standard deviation of 18 percent and 62 percent, respectively. Your portfolio allocates equal funds to Tyler Trucks stock and Michael Moped Manufacturing stock. The return correlation between Tyler Trucks and Michael Moped Manufacturing is .5. What is the smallest expected loss for your portfolio in the coming month with a probability of 5 percent?
+
+16. Value-at-Risk (VaR) Statistic (LO4, CFA6)   Using the same return means and standard deviations as in Problem 15 for Tyler Trucks and Michael Moped Manufacturing stocks, but assuming a return correlation of −.5, what is the smallest expected loss for your portfolio in the coming month with a probability of 5 percent?
+
+17. Value-at-Risk (VaR) Statistic (LO4, CFA6)   Your portfolio allocates equal amounts to three stocks. All three stocks have the same mean annual return of 14 percent. Annual return standard deviations for these three stocks are 30 percent, 40 percent, and 50 percent. The return correlations among all three stocks are zero. What is the smallest expected loss for your portfolio in the coming year with a probability of 1 percent?
+
+18. page 451Optimal Sharpe Portfolio Value-at-Risk (LO3, CFA6)   You are constructing a portfolio of two assets, Asset A and Asset B. The expected returns of the assets are 12 percent and 15 percent, respectively. The standard deviations of the assets are 29 percent and 48 percent, respectively. The correlation between the two assets is .25 and the risk-free rate is 5 percent. What is the optimal Sharpe ratio in a portfolio of the two assets? What is the smallest expected loss for this portfolio over the coming year with a probability of 2.5 percent?
+
+Answer Problems 19 through 21 based on the following information.
+
+You have been given the following return information for a mutual fund, the market index, and the risk-free rate. You also know that the return correlation between the fund and the market is .97.
+
+Year	Fund	Market	Risk-Free
+2015	–15.2%	–24.5%	1%
+2016	25.1	19.5	3
+2017	12.4	9.4	2
+2018	6.2	7.6	4
+2019	–1.2	–2.2	2
+19. Performance Metrics (LO1, CFA7)   What are the Sharpe and Treynor ratios for the fund?
+
+20. Jensen’s Alpha (LO1, CFA7)   Calculate Jensen’s alpha for the fund, as well as its information ratio.
+
+21. Sortino Ratio (LO1, CFA7)   What is the Sortino ratio for the fund and the market?
+
+Spreadsheet Problems
+
+22. Optimal Sharpe Ratio (LO3, CFA5)   You are constructing a portfolio of two assets. Asset A has an expected return of 12 percent and a standard deviation of 24 percent. Asset B has an expected return of 18 percent and a standard deviation of 54 percent. The correlation between the two assets is .20 and the risk-free rate is 4 percent. To achieve the highest possible Sharpe ratio, what should be the weight of each asset in the portfolio?
+
+23. Performance Metrics (LO1, CFA4)   You have been given the following return information for two mutual funds (Papa and Mama), the market index, and the risk-free rate.
+
+
+Calculate the Sharpe ratio, Treynor ratio, Jensen’s alpha, information ratio, and R-squared for both funds and determine which is the best choice for your portfolio.
+
+CFA Exam Review by Kaplan Schweser
+
+[CFA3, CFA7]
+
+Kelli Blakely is a portfolio manager for the Miranda Fund, a core large-cap equity fund. The market proxy and benchmark for performance measurement is the S&P 500. Although the Miranda portfolio generally mirrors the S&P sector weightings, Ms. Blakely is allowed a significant amount of flexibility.
+
+Ms. Blakely was able to produce exceptional returns last year (as outlined in the table below). Much of this performance is attributable to her pessimistic outlook, which caused her to change her asset class exposure to 50 percent stocks and 50 percent cash. The S&P’s allocation was 97 percent stocks and 3 percent cash. The risk-free rate of cash returns was 2 percent.
+
+Miranda	S&P 500
+Return	10.2%	–22.5%
+Standard deviation	37%	44%
+Beta	1.10	
+page 452
+
+What are the Sharpe ratios for the Miranda Fund and the S&P 500?
+
+Miranda	S&P 500
+a.	.2216	−.5568
+b.	.3515	−.2227
+c.	.0745	−.2450
+What is the Treynor measure for the Miranda Fund and the S&P 500?
+
+Miranda	S&P 500
+a.	.2216	−.5568
+b.	.3515	−.2227
+c.	.0745	−.2450
+What is the Jensen alpha for the Miranda Fund?
+
+.2216
+
+.3515
+
+.0745
+
+What’s on the Web?
+
+Morningstar Ratings Go to morningstar.com and find out how to interpret the “Bear Market Percentile Rank.” While you are at the website, also learn more about the best-fit index numbers. What do the best-fit index numbers mean?
+
+Morningstar Risk Go to morningstar.com and find out how Morningstar calculates the “Morningstar Rating” category. What percentage of funds are rated as Below Average by Morningstar? What percentage are rated Average?
+
+Modified VaR Go to alternativesoft.com and learn about modified VaR proposed at the website. Why would you want to use a modified VaR?
+
+VaR Data You can calculate your own VaR statistics by downloading recent security price data off the web. Go to finance.yahoo.com and enter the ticker symbol ^GSPC (don’t forget the caret when entering ticker symbols for stock indexes). Now click on the link for “Historical Data.” There you will see that you can get daily, weekly, or monthly price data for any period by setting the beginning and ending dates as indicated under “Historical Prices.” You can also download the price data into a spreadsheet. Go to the bottom of the page and click on the “Download Data” link. With the downloaded price data, you will need to calculate returns and then return averages and standard deviations. Using these, calculate the VaR statistics for your data as discussed and illustrated in this chapter.

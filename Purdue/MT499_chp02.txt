@@ -1,0 +1,662 @@
+CHAPTER 2
+The Financial System and the Level of Interest Rates
+
+LEARNING OBJECTIVES
+
+Describe the role of the financial system in the economy and the two basic ways in which money flows through the system.
+Discuss direct financing and the important role that investment banks play in this process.
+Describe the primary, secondary, and money markets, explaining the special importance of secondary and money markets to business organizations.
+Explain what an efficient market is and why market efficiency is important to financial managers.
+Explain how financial institutions serve the needs of consumers and small businesses.
+Compute the nominal and the real rates of interest, differentiating between them.
+One of the most important institutional players in the financial system is the Federal Reserve System (called the Fed). In fact, it is sometimes said that the chairperson of the Federal Reserve System Board of Governors, currently Jerome Powell, is the second most powerful person in the United States—second only to the president. Where does all of this power come from?
+
+It comes from the Fed’s role as the nation’s central bank—the institution that controls the money supply. The Fed manages a key component of the nation’s economy by conducting monetary policy, which affects how much money is available in the economy. One way it does this is by setting a target short-term interest rate at which large money center banks lend to each other (called the federal funds rate) and by buying and selling Treasury and federal agency securities to achieve this rate. Increases in the money supply put downward pressure on short-term interest rates. Over time, this can lead to increases in the level of economic activity, along with higher inflation. Conversely, decreases in the money supply put upward pressure on short-term interest rates. This can lead to a lower level of economic activity and lower inflation.
+
+Small wonder that when the Fed speaks, everyone stops and listens. Ben Bernanke, the chairperson of the Fed Board of Governors from 2006 to 2014, described the effects of Fed announcements on the stock market as follows:
+
+Normally, the Federal Open Market Committee, or FOMC, the monetary policymaking arm of the Federal Reserve, announces its interest rate decisions at around 2:15 P.M. following each of its eight regularly scheduled meetings each year. An air of expectation reigns in financial markets in the few minutes before the announcement. If you happen to have access to a monitor that tracks key market indexes, at 2:15 P.M. on an announcement day you can watch those indexes quiver as if trying to digest the information in the rate decision and the FOMC’s accompanying statement of explanation. Then the black line representing each market index moves quickly up or down, and the markets have priced the FOMC action into the aggregate values of U.S. equities, bonds, and other assets.1
+
+The Fed’s policy actions are transmitted quickly through the financial system and ultimately affect the economic well-being of nearly all consumers and businesses. This chapter provides a basic explanation of how the financial system works and discusses interest rates and their movements.
+
+Chapter Preview
+Chapter 1 identified three kinds of decisions that financial managers make: capital budgeting decisions, which concern the purchase of productive assets; financing decisions, which concern how assets will be financed or paid for; and working capital management decisions, which concern day-to-day financial matters. In making capital budgeting decisions, financial managers should select projects whose cash flows increase the value of the firm’s stock. The financial models used to evaluate these projects require an understanding of the concepts covered in this chapter. In making financing decisions, financial managers want to obtain capital at the lowest possible cost, which means that they need to understand how financial markets work and what financing alternatives are available. Finally, working capital management is concerned with whether a firm has enough money to pay its bills and how it invests its spare cash to earn interest. Making decisions in these areas requires knowledge of the financial system and what determines the level of interest rates.
+
+This chapter provides an overview of key concepts related to the financial system, many of which we will revisit in later chapters. We begin the chapter by looking at how the financial system facilitates the transfer of money from those who have it to those who need it. Then we describe direct financing, through which businesses finance themselves by issuing debt and equity, and the important role that investment banks play in the process. Next we describe different types of financial markets that are in the financial system and discuss the concept of market efficiency. We then examine indirect financing and the services that financial institutions provide to large and small businesses. Finally, we discuss the factors that determine the general level of interest rates in the economy and explain how interest rates vary over the business cycle.
+
+2.1 The Financial System
+LEARNING OBJECTIVE
+
+Describe the role of the financial system in the economy and the two basic ways in which money flows through the system.
+The financial system consists of financial markets and financial institutions. Financial market is a general term that includes a number of different types of markets for the creation and exchange of financial assets, such as stocks and bonds. Financial institutions are firms such as commercial banks, credit unions, insurance companies, pension funds, and finance companies that provide financial services to the economy. The distinguishing feature of financial institutions is that they invest their funds in financial assets, such as business loans, stocks, and bonds, rather than real assets, such as plant and equipment.
+
+financial assets assets that are claims on the cash flows from other assets; business loans, stocks, and bonds are financial assets
+
+real assets nonfinancial assets such as plant and equipment; productive assets are real assets; many financial assets are claims on cash flows from real assets
+
+The critical role of the financial system in the economy is to gather money from households (individuals), businesses, and governments with surplus funds to invest and channel that money to those who need it. Businesses need money to invest in new productive assets to expand their operations and increase the firm’s cash flow, which should increase the value of the firm. Consumers, too, need money, which they use to purchase things such as homes, cars, and boats—or to pay college tuition bills. Some of the institutions in the financial system are well-known names such as the New York Stock Exchange, Bank of America, Goldman Sachs, and State Farm Insurance. Others are lesser-known but important firms, such as the multinational giant AIG.
+
+A well-developed financial system is critical for the operation of a complex industrial economy such as that of the United States. Highly industrialized countries cannot function without a competitive and sound financial system that efficiently gathers money from savers and investors and channels it into the best investment opportunities. Let’s look at a simple example to illustrate how the financial system channels money to businesses.
+
+The Financial System at Work
+Suppose that, at the beginning of the school year, you receive a $10,000 student loan to help pay your expenses for the year, but you need only $5,000 for the first semester. You wisely decide to invest the remaining $5,000 to earn some interest income. After shopping at several banks near campus, you decide that the best deal is a $5,000 consumer certificate of deposit (CD) that matures in three months and pays 2 percent interest. (CDs are debt instruments issued by a bank that pay interest and are insured by the federal government.)
+
+The bank pools your money with funds from checking and savings accounts and other CDs and uses this money to make business and consumer loans. In this case, the bank makes a loan to the pizza parlor near campus: $30,000 for five years at a 7 percent interest rate. The bank decides to make the loan because the owner of the pizza parlor has a sound credit rating and because it expects the pizza parlor to generate enough cash flows to repay the loan with interest. The pizza parlor owner wants the money to invest in additional real (productive) assets to earn greater profits (cash flows) and thereby increase the value of her business. During the same week, the bank makes loans to other businesses and also rejects a number of loan requests because the borrowers have poor credit or the proposed projects have low rates of return.
+
+From this example, we can draw some important inferences about financial systems:
+
+If the financial system is competitive, the interest rate the bank pays on CDs will be at or near the highest rate that you can earn on a CD of similar maturity and risk at another bank. At the same time, the pizza parlor and other businesses will have borrowed at or near the lowest possible interest cost, given their risk. Competition among banks will drive CD rates up and loan rates down.
+The bank gathers money from you and other consumers in small dollar amounts, aggregates it, and then makes loans in much larger dollar amounts. Saving by consumers in small dollar amounts is the origin of much of the money that funds business loans.
+An important function of the financial system is to direct money to the best investment opportunities in the economy. If the financial system works properly, only business projects with high rates of return and borrowers with good credit will be financed. Those with low rates of return or poor credit will be rejected. Thus, financial systems contribute to higher production and efficiency in the overall economy.
+Finally, note that the bank has earned a tidy profit from the deal. The bank has borrowed your money at 2 percent by selling you a CD and has lent the money to the pizza parlor at 7 percent. Thus, the bank’s gross profit is 5 percent (7 percent − 2 percent = 5 percent), which is the difference between the bank’s lending and borrowing rates. Banks earn much of their profits from this spread between the lending and borrowing rates.
+EXHIBIT 2.1 The Flow of Funds through the Financial System The role of the financial system is to gather money from households, businesses, or governments with surplus funds and channel it to those who need it. Money flows through the financial system in two basic ways: directly, through wholesale financial markets, as shown in the top route of the diagram, and indirectly, through financial institutions, as shown in the bottom route.
+
+
+How Funds Flow through the Financial System
+We have seen that the financial system plays a critical role in the economy. The system moves money from lender-savers (whose income exceeds their spending) to borrower-spenders (whose spending exceeds their income), as shown schematically in Exhibit 2.1. The most important group of lender-savers in the economy are households, but some businesses and many state and local governments at times have excess funds to lend to those who need money. As a group, businesses are the borrower-spenders that borrow the most in the economy, followed by the federal government.
+
+The arrows in Exhibit 2.1 show that there are two basic mechanisms by which funds flow through the financial system: (1) Funds can flow directly through financial markets (the route at the top of the diagram) and (2) funds can flow indirectly through financial institutions (the route at the bottom of the diagram). In the next three sections, we look more closely at the direct flow of funds and at the financial markets. After that, we discuss financial institutions and the indirect flow of funds.
+
+Before You Go On
+What critical economic role does the financial system play in the economy?
+What are the two basic ways in which funds flow through the financial system from lender-savers to borrower-spenders?
+2.2 Direct Financing
+LEARNING OBJECTIVE
+
+Discuss direct financing and the important role that investment banks play in this process.
+In this section we turn our attention to direct financing, in which funds flow directly through the financial system. In direct transactions, the lender-savers and the borrower-spenders deal directly with one another; borrower-spenders sell securities, such as stocks and bonds, to lender-savers in exchange for money. These securities represent claims on the borrowers’ future income or assets. A number of different interchangeable terms are used to refer to securities, including financial securities, financial instruments, and financial claims.
+
+The financial markets in which direct transactions take place are wholesale markets with a typical minimum transaction size of $1 million. For most business firms, these markets provide funds at the lowest possible cost. The major buyers and sellers of securities in the direct financial markets are commercial banks; other financial institutions, such as insurance companies and business finance companies; large corporations; federal, state, and local governments; hedge funds; and some wealthy individuals. It is important to note that financial institutions are major buyers of securities in the direct financial markets. For example, life and casualty insurance companies buy large quantities of corporate bonds and stocks for their investment portfolios. In Exhibit 2.1 the arrow leading from financial institutions to financial markets depicts this flow.
+
+Although few individuals participate in direct financial markets, individuals can gain access to many of the financial products produced in these markets through retail channels at investment or commercial banks or independent brokerage firms (the lower route in Exhibit 2.1). For example, individuals can buy or sell stocks and bonds in small dollar amounts at Merrill Lynch, a Bank of America retail brokerage business, or the discount brokerage firm TD Ameritrade. We discuss indirect financing through financial institutions later in this chapter.
+
+A Direct Market Transaction
+Let’s look at a typical direct market transaction. When managers decide to engage in a direct market transaction, they often have in mind a specific capital project that needs financing, such as building a new manufacturing facility. Suppose that Apple Inc. needs $200 million to build a new facility and decides to fund it by selling long-term bonds with a 15-year maturity (Apple is planning on borrowing the money). While searching for the financing, Apple contacts a group of insurance companies, which expresses an interest in buying Apple’s bonds. The insurance companies will buy Apple’s bonds only after determining that they are priced fairly for their level of risk. Apple will sell its bonds to the insurance companies only after shopping the market to be sure these investors are offering a competitive price.
+
+If Apple and the insurance companies strike a deal, the flow of funds between them will be as shown below:
+
+
+Apple sells its bonds to the insurance group for $200 million and gets the use of the money for 15 years. For Apple, the bonds are a debt liability, and it pays the insurance companies (bondholders) interest for use of the money. For the insurance companies, the bonds are an asset that earns interest.
+
+Investment Banks and Direct Financing
+Two important participants in the direct financial markets are investment banks and money center banks. Investment banks specialize in helping companies sell new debt or equity, although they can also provide other services, such as the broker and dealer services discussed later in this chapter and traditional banking services. Money center banks are large commercial banks that provide both traditional and investment banking services throughout the world.
+
+investment banks firms that specialize in helping companies sell new security issues
+
+money center banks large commercial banks that provide both traditional and investment banking services throughout the world
+
+Historically, there was a clear distinction between the activities of investment and money center banks. After the Great Depression (1929–1933), commercial banks were prohibited from engaging in investment banking activities because it was believed that these activities encouraged them to take too many risks. However, this prohibition ended in 1999 with passage of the Financial Services Modernization Act, after which the major money center banks, such as Bank of America, JPMorgan Chase, and Citigroup, started providing investment banking services. After the financial meltdown in 2008, the remaining major independent investment banks, specifically Goldman Sachs and Morgan Stanley, converted themselves into traditional bank holding companies to qualify for government assistance. While there are still small investment banks that focus only on investment banking activities, the large investment and commercial banks are now quite similar.
+
+Origination
+
+Origination is the process of preparing a security issue for sale. During the origination phase, the investment banker may help the client company determine the feasibility of the project being funded and the amount and type of capital that needs to be raised. Once this is done, the investment banker helps secure a credit rating, if needed, determines the sale date, obtains legal clearances to sell the securities, and gets the securities printed. If securities are to be sold in the public markets, the issuer must also file a registration statement with the Securities and Exchange Commission (SEC). Issuers that sell securities in the private markets are not required to file a registration statement with the SEC.
+
+Underwriting
+
+Underwriting is the process by which an investment banker helps the company sell its new security issue. In the most common type of underwriting arrangement, called firm-commitment underwriting, the investment banker buys the new securities from the issuing company and resells them to investors. Because the investment banker buys the entire security issue from the company at a fixed price, the issuing company is guaranteed that price. On the other hand, the investment banker takes the risk that the actual price at which the securities are sold is less than the price that is paid to the company. Since issuing companies typically need a certain amount of money to pay for a particular project or to fund operations, and getting anything less than this amount can pose a serious problem, financial managers almost always prefer to have their new security issues underwritten on a firm-commitment basis.2
+
+Once the investment bankers buy the securities from the issuer, they immediately offer to resell individual securities to institutional investors and the public at a specified offering price. The underwriters hope to be able to sell the offering at the market-clearing price, which is the price that will allow the entire security issue to be sold during the first day of sale. Underwriting involves considerable risk because it is difficult to estimate the price that will clear the market. If the investment bank has to sell the securities at a price below the price that it paid to the issuing company, the investment bank suffers a financial loss.
+
+The investment banker’s compensation is called the underwriting spread. It is the difference between the offering price and the price the investment banker pays for the security issue. The underwriting spread is one of the costs to the firm of selling new securities.
+
+Learning by Doing Application 2.1 illustrates how the underwriting spread is calculated.
+
+LEARNING BY DOING APPLICATION 2.1
+Underwriter’s Compensation
+
+Problem
+
+Dairy Queen needs to raise $5 million to build three new restaurants, and its financial manager decides to issue long-term bonds. The financial manager hires an investment banking firm to help design the bond issue and underwrite it. The issue consists of 5,000 bonds, and the investment banker agrees to purchase the entire issue for $4.8 million. The investment banker then resells the bonds to investors at the offering price. The sale totals $5.0 million. What is the underwriter’s compensation?
+
+
+
+
+
+Distribution
+
+Distribution is the process of marketing and reselling the securities to investors. Because security prices can take large, unexpected swings, a quick resale of all the securities is important. To that end, the underwriters often form sales syndicates, consisting of a number of different investment banking firms, to sell the securities. If the securities are not sold within a few days, the syndicate is disbanded, and the individual syndicate members sell the unsold securities at whatever price they can get.
+
+Before You Go On
+Why is it difficult for individuals to participate in direct financial markets?
+Why might a firm prefer to have a security issue underwritten by an investment banking firm?
+
+To get a better idea of all the lines of business in which large investment banking firms engage, go to Goldman Sachs’s home page at www.goldmansachs.com
+
+2.3 Types of Financial Markets
+LEARNING OBJECTIVE
+
+Describe the primary, secondary, and money markets, explaining the special importance of secondary and money markets to business organizations.
+We have seen that direct flows of funds occur in financial markets. However, as already mentioned, financial market is a very general term. A complex industrial economy such as ours includes many different types of financial markets, and not all of them are involved in direct financing. Next, we examine some of the more important ways to classify financial markets. Note that these classifications overlap to a large extent. Thus, for example, the New York Stock Exchange fits into several different categories.
+
+Primary and Secondary Markets
+A primary market is any market where companies sell new security issues (debt or equity). For example, suppose Hewlett-Packard (HP) needs to raise $100 million for business expansion and decides to raise the money through the sale of common stock. The company will sell the new equity issue in the primary market for corporate stock—probably with the help of an underwriter, as discussed in Section 2.2. The primary markets are not well known to the general public because they are wholesale markets and the sales take place outside of the public view. A key characteristic of a primary market is that the transaction results in new money going into the firm.
+
+primary market a financial market in which new security issues are sold by companies directly to investors
+
+A secondary market is any market where owners of outstanding securities can sell them to other investors. Secondary markets are like used-car markets in that they allow investors to buy or sell previously owned securities for cash. These markets are important because they enable investors to buy and sell securities as frequently as they want. As you might expect, investors are willing to pay higher prices for securities that have active secondary markets. Secondary markets are important to corporations as well because investors are willing to pay higher prices for securities in primary markets if the securities have active secondary markets. Thus, companies whose securities have active secondary markets enjoy lower funding costs than similar firms whose securities do not have active secondary markets. In contrast to primary markets, no new money goes into the firm when a secondary market transaction takes place.
+
+secondary market a financial market in which the owners of outstanding securities can sell them to other investors
+
+Marketability versus Liquidity
+
+An important characteristic of a security to investors is its marketability. Marketability is the ease with which a security can be sold and converted into cash. A security’s marketability depends in part on the costs of trading and searching for information, so-called transaction costs. The lower the transaction costs, the greater a security’s marketability. Because secondary markets make it easier to trade securities, their presence increases a security’s marketability.
+
+marketability the ease with which a security can be sold and converted into cash
+
+A term closely related to marketability is liquidity. Liquidity is the ability to convert an asset into cash quickly without loss of value. In common use, the terms marketability and liquidity are often used interchangeably, but they are different. Liquidity implies that when the security is sold, its value will be preserved; marketability does not carry this implication.
+
+liquidity the ability to convert an asset into cash quickly without loss of value
+
+Brokers versus Dealers
+
+Two types of market specialists facilitate transactions in secondary markets. Brokers are market specialists who bring buyers and sellers together when a sale takes place. They execute the transaction for their client and are compensated for their services with a commission fee. They bear no risk of ownership of the securities during the transaction; their only service is that of matchmaker.
+
+brokers market specialists who bring buyers and sellers together, usually for a commission
+
+Dealers, in contrast, make markets for securities and do bear risk. They make a market for a security by buying and selling from an inventory of securities they own. Dealers make their profit, just as retail merchants do, by selling securities at prices above what they paid for them. The risk that dealers bear is price risk, which is the risk that they will sell a security for less than they paid for it.
+
+dealers market specialists who make markets for securities by buying and selling from their own inventories
+
+Exchanges and Over-the-Counter Markets
+Financial markets can be classified as either organized markets (more commonly called exchanges) or over-the-counter markets. Traditional exchanges, such as the New York Stock Exchange (NYSE), provide a physical meeting place and communication facilities for members to buy and sell securities or other assets (such as commodities like oil or wheat) under a specific set of rules and regulations. Members are individuals who represent securities firms as well as people who trade for their own accounts. Only members can use the exchange.
+
+Securities not listed on an exchange are bought and sold in the over-the-counter (OTC) market. The OTC market differs from organized exchanges in that the OTC market has no central trading location. Instead, investors can execute OTC transactions by visiting or telephoning an OTC dealer or by using a computer-based electronic trading system linked to the OTC dealer. Historically, stocks traded over the counter were those of small and relatively unknown firms, most of which would not qualify to be listed on a major exchange. However, electronic trading has become much more important as trading technologies have advanced. Many large, well-known firms, such as Alphabet (Google’s parent company), Facebook, and Microsoft, have securities that now trade on electronic exchanges such as NASDAQ. In fact, even in organized markets like the NYSE, most trades are now completed electronically.
+
+Money and Capital Markets
+Money markets are global markets where short-term debt instruments, which have maturities of less than one year, are traded. Money markets are wholesale markets in which the minimum transaction is $1 million and transactions of $10 million or $100 million are not uncommon. Money market instruments are lower in risk than other securities because of their high liquidity and low default risk. In fact, the term money market is used because these instruments are close substitutes for cash. The most important and largest money markets are in New York City, London, and Tokyo. Exhibit 2.2 lists the most common money market instruments and the dollar amounts outstanding as of December 2019.
+
+money markets markets where short-term debt instruments are traded
+
+Large companies use money markets to adjust their liquidity positions. Liquidity, as mentioned, is the ability to convert an asset into cash quickly without loss of value. Liquidity problems arise because companies’ cash receipts and expenditures are rarely perfectly synchronized. To manage liquidity, a firm can invest idle cash in money market instruments; then, if the firm has a temporary cash shortfall, it can raise cash overnight by selling money market instruments.
+
+Recall from Chapter 1 that capital markets are markets where equity and debt instruments with maturities of greater than one year are traded. In these markets, large firms finance capital assets such as plants and equipment. The NYSE, as well as the London and Tokyo stock exchanges, are capital markets. Exhibit 2.2 also lists the major U.S. capital market instruments and the dollar amounts outstanding. Compared with money market instruments, capital market instruments are less marketable, have higher default risk, and have longer maturities.
+
+EXHIBIT 2.2 Selected Money Market and Capital Market Instruments, December 2019 ($ billions)
+
+The exhibit shows the size of the U.S. market for each of the most important money market and capital market instruments. Notice that the largest security market is the market for corporate stock, followed by those for mortgage debt, corporate bonds, and Treasury notes. Compared with money market instruments, capital market instruments are less marketable, have higher default risk, and have longer maturities.
+
+Money Market Instruments
+Treasury bills	 	$2,417
+Commercial paper	 	1,114
+ 	Total	$3,531
+Capital Market Instruments
+Treasury notes	 	$9,929
+Treasury bonds*	 	4,334
+State and local government bonds	 	3,860
+Corporate bonds	 	14,037
+Corporate stock (at market value)	 	54,984
+Mortgage debt	 	16,008
+ 	Total	$103,152
+* Includes Treasury inflation-protected securities, floating rate notes, and Federal Financing Bank securities.
+
+Sources: Board of Governors, Federal Reserve System, Flow of Funds, Balance Sheets, and Integrated Macroeconomic Accounts (November 12, 2020) and U.S. Treasury Bureau of the Fiscal Service, Monthly Statement of the Public Debt of the United States (December 31, 2019).
+
+Public and Private Markets
+Public markets are organized financial markets where the general public buys and sells securities through their stockbrokers. The NYSE, for example, is a public market. The SEC regulates public securities markets in the United States. This agency is responsible for overseeing the securities industry and regulating all primary and secondary markets in which securities are traded. Many corporations want access to the public markets because they are wholesale markets where issuers can sell their securities at the lowest possible funding cost. The downside for corporations selling in the public markets is the cost of complying with the various SEC regulations.
+
+In contrast to public markets, private markets involve direct transactions between two parties. Transactions in private markets are often called private placements. In private markets, a company contacts investors directly and negotiates a deal to sell them all or part of a security issue. Larger firms may be equipped to handle these transactions themselves. Smaller firms are more likely to use the services of an investment bank, which will help locate investors, help negotiate the deal, and handle the legal aspects of the transaction. The major advantages of a private placement are the speed at which funds can be raised and low transaction costs. The downsides are that privately placed securities cannot legally be sold in the public markets because they lack SEC registration and the dollar amounts that can be raised tend to be smaller.
+
+private placements sales of unregistered securities and directly to investors, such as insurance companies wealthy individuals
+
+Futures and Options Markets
+Markets also exist for trading in futures and options. Perhaps the best-known futures markets are the New York Board of Trade, the New York Mercantile Exchange, and the Chicago Board of Trade. The Chicago Board Options Exchange is a major options market.
+
+Futures and options are often called derivative securities because they derive their value from some underlying asset. Futures contracts are contracts for the future delivery of assets such as securities, foreign currencies, interest cash flows, or commodities. Corporations use these contracts to reduce (hedge) risk exposure caused by fluctuation in things such as foreign exchange rates or commodity prices. We illustrate the use of futures contracts further in Chapter 21.
+
+Options contracts call for one party (the option writer) to perform a specific act if called upon to do so by the option buyer or owner. Options contracts, like futures contracts, can be used to hedge risk in situations where the firm faces risk from price fluctuations. Chapter 20 discusses options in detail.
+
+Before You Go On
+What is the difference between primary and secondary markets?
+How and why do large business firms use money markets?
+What are capital markets, and why are they important to corporations?
+2.4 Market Efficiency
+LEARNING OBJECTIVE
+
+Explain what an efficient market is and why market efficiency is important to financial managers.
+Financial markets, such as the bond and stock markets, help bring together buyers and sellers of securities. They reduce the cost of buying and selling securities by providing a physical location or computer trading system where investors can trade securities. The supply and demand for securities are better reflected in organized markets because much of the total supply and demand for securities flows through these centralized locations or trading systems. Any price that balances the overall supply and demand for a security is a market equilibrium price.
+
+Ideally, economists would like financial markets to price securities at their true (intrinsic) value. A security’s true value is the present value (the value in today’s dollars) of the cash flows an investor who owns that security can expect to receive in the future. This present value, in turn, reflects all available information about the size, timing, and riskiness of the cash flows at the time the price was set.3 As new information becomes available, investors adjust their cash flow estimates. Through buying and selling, the price of a security adjusts to reflect this information.
+
+true (intrinsic) value for a security, the present value of the cash flows an investor who owns that security can expect to receive in the future
+
+Markets such as those just described are called efficient markets. More formally, in an efficient market, security prices fully reflect the knowledge and expectations of all investors at a particular point in time. If markets are efficient, investors and financial managers have no reason to believe the securities are not priced at or near their true value. The more efficient a market is, the more likely securities are to be priced at or near their true value.
+
+efficient market market where prices reflect the knowledge and expectations of all investors
+
+The overall efficiency of a market depends on its operational efficiency and its informational efficiency. Market operational efficiency concerns the costs of bringing together buyers and sellers. The costs of bringing together buyers and sellers are called transaction costs and include such things as broker commissions and other fees and expenses. The lower these costs, the more operationally efficient markets are. Why is operational efficiency important? If transaction costs are high, market prices will be more volatile, fewer financial transactions will take place, and prices will not reflect the knowledge and expectations of investors as accurately.
+
+market operational efficiency the degree to which the transaction costs of bringing buyers and sellers together are minimized
+
+Market informational efficiency is exhibited if market prices reflect all relevant information about securities at a particular point in time. As suggested above, informational efficiency is influenced by operational efficiency, but it also depends on the availability of information and the ability of investors to buy and sell securities based on that information. In an informationally efficient market, market prices adjust quickly to new information as it becomes available. Prices adjust quickly because many security analysts and investors are gathering and trading on information about securities to make a profit. Note that competition among investors is an important driver of informational efficiency.
+
+market informational efficiency the degree to which current market prices reflect relevant information and, therefore, the true value of the security
+
+Efficient Market Hypotheses
+Public financial markets are efficient in part because regulators such as the SEC require issuers of publicly traded securities to disclose a great deal of information about those securities to investors. Investors are constantly evaluating the prospects for these securities and acting on the conclusions from their analyses by trading them. If the price of a security is out of line with what investors think it should be, then investors will buy or sell that security, causing its price to adjust to reflect their assessment of its value. The ability of investors to easily observe transaction prices and trade volumes and to inexpensively trade securities in public markets contributes to the efficiency of this process. This buying and selling by investors is the mechanism through which prices adjust to reflect the market’s consensus. The theory about how well this mechanism works is known as the efficient market hypothesis. We next discuss the three forms of the efficient market hypothesis, which describe different degrees of market efficiency.
+
+efficient market hypothesis a theory concerning the extent to which information is reflected in security prices and how information gets incorporated into security prices
+
+Strong-Form Efficiency
+The market for a security is perfectly informationally efficient if the security’s price always reflects all information. The idea that all information about a security is reflected in its price is known as the strong form of the efficient market hypothesis. Few people really believe that market prices of public securities reflect all available information, however. It is widely accepted that insiders have information that is not reflected in the security prices. Thus, the concept of strong-form market efficiency represents the ideal case rather than the real world.
+
+strong form of the efficient market hypothesis the theory that security prices reflect all information
+
+If a security market were strong-form efficient, then it would not be possible to earn abnormally high returns (returns greater than those justified by the risks) by trading on private information—information unavailable to other investors—because there would be no such information. In addition, since all information would already be reflected in security prices, the price of a share of a particular security would change only when new information about its prospects became available.
+
+private information information that is not available to all investors
+
+Semistrong-Form Efficiency
+A weaker form of the efficient market hypothesis, known as the semistrong form of the efficient market hypothesis, holds only that all public information—information that is available to all investors—is reflected in security prices. Investors who have private information are able to profit by trading on this information before it becomes public. For example, suppose that conversations with the customers of a firm indicate to an investor that the firm’s sales, and thereby its cash flows, are increasing more rapidly than other investors expect. To profit from this information, the investor buys the firm’s stock. By buying the stock, the investor helps drive up the price to the point where it accurately reflects the higher level of cash flows.
+
+semistrong form of the efficient market hypothesis the theory that security prices reflect all public information but not all private information
+
+public information information that is available to all investors
+
+The concept of semistrong-form efficiency is a reasonable representation of the public stock markets in developed countries such as the United States. In a market characterized by this sort of efficiency, as soon as information becomes public, it is quickly reflected in stock prices through trading activity. Studies of the speed at which new information is reflected in stock prices indicate that by the time you read a hot tip in the Wall Street Journal or a business magazine, it is too late to benefit by trading on it.
+
+Weak-Form Efficiency
+The weakest form of the efficient market hypothesis is known, aptly enough, as the weak form of the efficient market hypothesis. This hypothesis holds that all information contained in past prices of a security is reflected in current prices but that there is both public and private information that is not. In a weak-form efficient market, it would not be possible to earn abnormally high returns by looking for patterns in security prices, but it would be possible to do so by trading on public or private information.
+
+weak form of the efficient market hypothesis the theory that security prices reflect all information in past prices but do not reflect all private or all public information
+
+An important conclusion of the efficient market hypothesis is that at any point in time, all securities with the same risk should be priced to offer the same expected return. The more efficient the market, the more likely this is to happen. Since both the bond and stock markets are relatively efficient, this means that securities of similar risk will offer the same expected return. This conclusion is important because it provides the basis for identifying the proper discount rate to use in applying the bond and stock valuation models developed in Chapters 8 and 9.
+
+Before You Go On
+How does information about a firm’s prospects get reflected in its share price?
+What is strong-form market efficiency? semistrong-form market efficiency? weak-form market efficiency?
+
+The concept of market efficiency originated with the Ph.D. dissertation that Eugene Fama wrote at the University of Chicago. In 2013, Dr. Fama received the Nobel Prize in Economics for his research on market efficiency. You can see a video of an interview with Dr. Fama about market efficiency at www.youtube.com/watch?v=bM9bYOBuKF4
+
+
+For an in-depth discussion of market efficiency, visit www.investorhome.com/emh.htm
+
+2.5 Financial Institutions and Indirect Financing
+LEARNING OBJECTIVE
+
+Explain how financial institutions serve the needs of consumers and small businesses.
+As we mentioned earlier, many business firms are too small to sell their debt or equity directly to investors. They have neither the expert knowledge nor the financing requirements to make transacting in wholesale markets cost-effective. When these companies need funds for capital investments or for liquidity adjustments, their only feasible choice is to borrow in the indirect market from a financial institution. These financial institutions act as intermediaries, converting financial securities with one set of characteristics into securities with another set of characteristics. This process is called financial intermediation. The hallmark of indirect financing is that a financial institution—an intermediary—stands between the lender-saver and the borrower-spender. This route is shown at the bottom of Exhibit 2.1.
+
+financial intermediation conversion of securities with one set of characteristics into securities with another set of characteristics
+
+Indirect Market Transactions
+We worked through an example of indirect financing at the beginning of the chapter. In that situation, a college student had $5,000 to invest for three months. A bank sold the student a three-month consumer CD for $5,000, pooled this $5,000 with the proceeds from checking and savings accounts and other CDs, and used the money to make small-business loans, one of which was a $30,000 loan to a pizza parlor owner. Following is a schematic diagram of that transaction:
+
+
+The bank raises money from deposits to checking and savings accounts and by selling CDs and then uses the money to make loans to businesses or consumers.
+
+On a larger scale, insurance companies provide much of the long-term financing in the economy through the indirect credit market. These companies invest heavily in corporate bonds and equity securities using funds they receive when they sell insurance policies to individuals and businesses. The schematic diagram for intermediation by an insurance company is as follows:
+
+
+Notice an important difference between indirect and direct financial markets. In the direct market, as securities flow between lender-savers and borrower-spenders, the form of the securities remains unchanged. In indirect markets, however, as securities flow between lender-savers and borrower-spenders, they are repackaged, and their form is changed. In the example above, money from the sale of insurance policies becomes investments in corporate debt or equity. By repackaging securities, financial intermediaries tailor-make a wide range of financial products and services that meet the needs of consumers, small businesses, and large corporations. Their products and services are particularly important for smaller businesses that do not have access to direct financial markets.
+
+Somewhat surprisingly, indirect markets are a much larger and more important source of financing to businesses than the more newsworthy direct financial markets. This is true not only in the United States, but in all industrial countries as well.
+
+Financial Institutions and Their Services
+We have briefly discussed the role of financial institutions as intermediaries in the indirect financial market. Next, we look at various types of financial institutions and the services they provide to small businesses as well as large corporations. We discuss only financial institutions that provide a significant amount of services to businesses.
+
+Commercial Banks
+
+Commercial banks are the most prominent and largest financial intermediaries in the economy and offer the widest range of financial services to businesses. Nearly every business, small or large, has a significant relationship with a commercial bank—usually a checking or transaction account and some type of credit or loan arrangement. For businesses, the most common type of bank loan is a line of credit (often called revolving credit), which works much like a credit card. A line of credit is a commitment by the bank to lend a firm an amount up to a predetermined limit, which can be used as needed. Banks also make term loans, which are fixed-rate loans with a maturity of one year to 10 years. In addition, banks do a significant amount of equipment lease financing. A lease is a contract that gives a business the right to use an asset, such as office space, a truck, or a computer mainframe, for a period of time in exchange for periodic payments. Leases are discussed in the Appendix to Chapter 16.
+
+An increasing number of commercial banking services are also being provided by financial technology, or “FinTech,” companies. FinTech companies leverage many of the new capabilities associated with artificial intelligence, machine learning, and cloud computing to provide businesses with financial services typically provided by brick-and-mortar commercial banks. One of the largest FinTech providers to businesses today is Square, which offers point-of-sale systems and payments processing, payroll services, and small business lending through its Square Capital subsidiary. Other FinTech business loan providers such as Kabbage, Lendio, Accion, and Funding Circle offer startup companies, as well as established businesses, simple platforms to quickly secure working capital and long-term financing.
+
+Life and Casualty Insurance Companies
+
+Two types of insurance companies are important in the financial markets: (1) life insurance companies and (2) casualty insurance companies, which sell protection against loss of property from fire, theft, accidents, and other causes. The cash flows for both types of companies are fairly predictable. As a result, they are able to provide funding to corporations through the purchase of stocks and bonds in the direct credit markets as well as funding for both public and private corporations through private placement financing. Businesses of all sizes purchase life insurance programs as part of their employee benefit packages and purchase casualty insurance policies to protect physical assets such as automobiles, truck fleets, equipment, and entire plants.
+
+Pension Funds
+
+Pension funds invest retirement funds on behalf of businesses or government agencies that provide retirement programs for their employees. Pension funds obtain money from employee and employer contributions during the employee’s working years, and they provide monthly cash payments upon retirement. Because of the predictability of these cash flows, pension fund managers invest in corporate bonds and equity securities purchased in the direct financial markets and participate in the private placement market.
+
+Investment Funds
+
+Investment funds, such as mutual funds, sell shares to investors and use the funds to purchase securities. As a result, they are an important source of business funding. For example, mutual funds may focus on purchasing (1) equity or debt securities; (2) securities of small or medium-size corporations; (3) securities of companies in a particular industry, such as energy, computer, or information technology, or (4) foreign investments.
+
+Business Finance Companies
+
+Business finance companies obtain the majority of their funds by selling short-term debt, called commercial paper, to investors in direct credit markets. These funds are used to make a variety of short- and intermediate-term loans and leases to small and large businesses. The loans are often secured by accounts receivable or inventory. Business finance companies are typically more willing than commercial banks to make loans and leases to firms with higher levels of default risk.
+
+Corporations and the Financial System
+We began this chapter by saying that financial managers need to understand the financial system in order to make sound decisions. We now follow up on that statement by briefly describing how corporations operate within the financial system. The interaction between the financial system and a large corporation is shown in Exhibit 2.3. The arrows show the major cash flows for a firm over a typical operating cycle. These cash flows relate to some of the key decisions that the financial manager must make. As you know, those decisions involve three major areas: capital budgeting, financing, and working capital management.
+
+Let’s work through an example using Exhibit 2.3 to illustrate how corporate businesses use the financial system. Suppose you are the CFO of a new high-tech firm that is being formed in a joint venture with 3M Corporation. The new firm has a well-thought-out business plan, owns some valuable technology, and will operate one manufacturing facility. The company will be large enough to have access to public markets. The company plans to use its core technology to develop and sell a number of new products that the marketing department believes will generate a strong market demand.
+
+EXHIBIT 2.3 Cash Flows between the Firm and the Financial System This exhibit shows how the financial system helps businesses finance their activities. The arrows in the exhibit indicate the major cash flows into and out of a firm over a typical operating cycle. Money obtained from the financial system, combined with reinvested cash flows from operations, enables a firm to make necessary investments and fund any other requirements.
+
+
+To start the new company, management’s first task is to sell equity and debt to finance the firm. The senior management team and 3M will provide 40 percent of the equity, and the balance will come from an initial public offering (IPO) of common stock. An IPO is a corporation’s first offering of its stock to the public. In this example, management hires Morgan Stanley as its investment bank to underwrite the new securities. After the deal is underwritten, the new venture receives the proceeds from the stock sale, less Morgan Stanley’s underwriting fees (see arrow E in the exhibit).4
+
+initial public offering (IPO) the first offering of a corporation’s stock to the public
+
+In addition to the equity financing, 30 percent of the firm’s total funding will come from the sale of long-term debt through a private placement deal with a large insurance company (see arrow B). Management decided to use a private placement because the lender is willing to commit to lend the firm additional money in the future if the firm meets certain performance goals. Since management has ambitious growth plans, locking in a future source of funds is important.
+
+Once the funds from the debt and equity sales are in hand, they are deposited in the firm’s account at a commercial bank. Management then decides to lease an existing manufacturing facility and the equipment necessary to manufacture the new high-technology products; the cash outflows are represented by arrow A.
+
+To begin manufacturing, the firm needs to raise working capital and does this by (1) selling commercial paper in the money markets (arrow C) and (2) obtaining a line of credit from a bank (arrow D). As the firm becomes operational, it generates residual cash inflows from its productive assets (arrow G). Some of these cash inflows are reinvested in the business (arrow H), and the remainder is used to pay cash dividends to stockholders or repurchase shares (arrow F).
+
+Before You Go On
+What is financial intermediation, and why is it important?
+What are some services that commercial banks provide to businesses?
+What is an IPO, and what role does an investment banker play in the process?
+
+For an example of the range of services provided by FinTech companies to businesses, visit the Web site of Square at www.squareup.com/us/en
+
+2.6 The Determinants of Interest Rate Levels
+LEARNING OBJECTIVE
+
+Compute the nominal and the real rates of interest, differentiating between them.
+We conclude this chapter by examining factors that determine the general level of interest rates in the economy and describing how interest rates vary over the business cycle. Understanding interest rates is important because the financial instruments and most of the financial services discussed in this chapter are priced in terms of interest rates. We will continue our discussion of interest rates in Chapter 8, where we consider why different firms have different borrowing costs.
+
+The Real Rate of Interest
+One of the most important economic variables in the economy is the real rate of interest—an interest rate determined in the absence of inflation. Inflation is the amount by which aggregate price levels rise over time. The real rate of interest is (1) the inflation-adjusted return earned by lender-savers and (2) the inflation-adjusted cost incurred by borrower-spenders when they borrow.
+
+real rate of interest the interest rate that would exist in the absence of inflation
+
+The real rate of interest is not observable because all industrial economies operate with some degree of inflation. The rate that we actually observe in the marketplace at a given time is unadjusted for inflation and is called the nominal rate of interest. The factors that determine the real rate of interest, however, are the underlying determinants of all interest rates we observe in the marketplace. For this reason, an understanding of the real rate is important.
+
+nominal rate of interest the rate of interest that is unadjusted for inflation
+
+Determinants of the Real Rate of Interest
+
+The fundamental determinants of interest rates are the returns earned on investments in productive assets (capital investments) and individuals’ time preference for consumption. Let’s examine how these two factors interact to determine the real rate of interest.
+
+Returns on Investments
+Recall from Chapter 1 that businesses invest in capital projects that are expected to generate positive cash flows by producing additional real output, such as cars, machinery, computers, and video games. The output generated by a capital project constitutes its return on investment, which is usually measured as a percentage. For example, if a capital project costs $1,000 and produces $180 in cash flows each year, the project’s return on investment is 18 percent ($180/$1,000 = 0.18, or 18 percent).
+
+For a capital project to be attractive, its return on investment must exceed the cost of the funds (debt and equity) used to finance it. Intuitively, this makes sense because if an investment earns a return greater than the cost of funding, it should be profitable and thus should increase the value of the firm. For example, if the cost of funding—often called the cost of capital—is 15 percent, the capital project mentioned above would be attractive (18 percent > 15 percent) and would therefore be undertaken. If the capital project was expected to earn only 13 percent, though, the project would be rejected (13 percent < 15 percent). The cost of capital is the minimum acceptable rate of return on a capital project.
+
+Decision Making Example 2.1 illustrates an application of the idea that an attractive project is one for which the return on investment exceeds the cost of funds.
+
+DECISION MAKING EXAMPLE 2.1
+Capital Budgeting Preview
+
+Situation
+
+Sonic Manufacturing Company’s capital budget includes six projects that management has identified as having merit. The CFO’s staff computed the return on investment for each project. The average cost of funding each project is 10 percent. The projects are as follows:
+
+Project	Return on Investment
+A	13.0%
+B	12.0
+C	10.9
+D	10.5
+E	  9.8
+F	  8.9
+Which capital projects should the firm undertake?
+
+
+
+Time Preference for Consumption
+All other things being equal, most people prefer to consume goods today rather than tomorrow. This is called a positive time preference for consumption. For example, most people who want to buy a new car prefer to have it now rather than wait until they have earned enough cash to make the purchase. When people consume today, however, they realize that their future consumption may be less because they have forgone the opportunity to save and earn interest on their savings.
+
+Given people’s positive time preference for consumption, the interest rate offered on financial instruments determines how much people will save. At low rates of interest, it hardly makes sense to save, so most people will continue to spend money rather than put money aside in savings. To coax people to postpone current spending, interest rates must be raised.
+
+Equilibrium Condition. Higher interest rates reduce business investment (or spending) because fewer capital projects can earn a high enough return on investment to cover the added interest cost. They also reduce demand for borrowing by consumers. At the same time, lender-savers spend less and want to lend more money when interest rates are high. The real rate of interest depends on the interaction between these two opposing factors. Using a supply-and-demand framework, Exhibit 2.4 shows that the equilibrium market rate of interest (r) is the point where the desired level of borrowing (B) by borrower-spenders equals the desired level of lending (L) by lender-savers.5
+
+Fluctuations in the Real Rate
+
+In the supply-and-demand framework discussed previously, any economic factor that causes a shift in desired lending or desired borrowing will cause a change in the equilibrium rate of interest. For example, a major breakthrough in technology should cause a shift to the right in the desired level of borrowing schedule, thus increasing the real rate of interest. This makes intuitive sense because the new technology should spawn an increase in investment opportunities, increasing the desired level of borrowing. Similarly, a reduction in the corporate tax rate should provide businesses with more money to spend on investments, which should increase the desired level of borrowing schedule, causing the real rate of interest to increase.
+
+EXHIBIT 2.4 The Determinants of the Equilibrium Rate of Interest The equilibrium rate of interest is a function of supply and demand. Lender-savers are willing to supply more funds as interest rates go up, but borrower-spenders demand fewer funds at higher interest rates. The interest rate at which the supply of funds equals the demand for those funds is the equilibrium rate.
+
+
+One factor that would shift the desired level of lending to the right, and hence lead to a decrease in the real rate of interest, would be a decrease in the tax rates for individuals. Lower individual tax rates would leave lender-savers with more money to lend. Also, with lower individual tax rates, lender-savers could receive a lower interest rate and earn the same after-tax return. Another factor would be monetary policy action by the Federal Reserve System Board of Governors to increase the money supply. A larger money supply would increase the amount of money available for lending.
+
+Other forces that could affect the real rate of interest include growth in population, demographic variables such as the age of the population, and cultural differences. In sum, the real rate of interest reflects a complex set of forces that control the desired level of lending and borrowing in the economy. The real rate of interest has historically been around 3 percent for the U.S. economy but has typically varied between 2 and 4 percent because of changes in economic conditions.
+
+Loan Contracts and Inflation
+The real rate of interest does not account for inflation, but price-level changes in the real world are a fact of life, and these changes affect the value of a loan contract or, for that matter, any financial contract. For example, if prices rise due to inflation during the life of a loan contract, the purchasing power of the dollar decreases because the borrower repays the lender with inflated dollars—dollars with less buying power.6
+
+To see the impact of inflation on a loan, let’s look at an example. Suppose that you lend a friend $1,000 for one year at a 4 percent interest rate. Furthermore, you plan to buy a new surfboard for $1,040 in one year when you graduate from college. With the $40 of interest you earn ($1,000 × 0.04 = $40), you will have just enough money to buy the surfboard. At the end of the year, you graduate, and your friend pays off the loan, giving you $1,040. Unfortunately, the rate of inflation during the year was an unexpected 10 percent, and your surfboard now will cost 10 percent more, or $1,144 ($1,040 × 1.10 = $1,144). You have experienced a 10 percent decrease in your purchasing power due to the unanticipated inflation. The loss of purchasing power is $104 ($1,144 − $1,040 = $104).
+
+The Fisher Equation and Inflation
+How do we write a loan contract that provides protection against loss of purchasing power due to inflation? We have no crystal ball to tell us what the actual rate of inflation will be when the loan contract is written. However, market participants collectively (often called “the market”) have expectations about how prices will change during the contract period.
+
+To incorporate these inflation expectations into a loan contract, we need to adjust the real rate of interest by the amount of inflation that is expected during the contract period. The mathematical formula used to adjust the real rate of interest for the expected rate of inflation is as follows:
+
+(2.1)
+ 
+
+where:
+
+i	=	nominal (or market) rate of interest
+r	=	real rate of interest
+ΔPe	=	expected annualized price-level change
+rΔPe	=	adjustment of the interest rate for expected price-level change
+Equation 2.1 is called the Fisher equation. It is named after Irving Fisher, who first developed the concept and is considered by many to be one of America’s greatest economists.
+
+Applying Equation 2.1 to our surfboard example, we can find out what the nominal rate of interest should be if the expected inflation rate is 10 percent and the real rate of interest is 4 percent:
+
+ 
+
+Looking at Equation 2.1, notice that ΔPe is the expected price-level change and not the realized (actual) rate of inflation (ΔPa). Thus, to properly determine the nominal rate of interest, it is necessary to predict prices over the life of the loan contract. Also, recall that the nominal rate of interest is the market rate of interest—the rate actually observed in financial markets. The real and nominal rates of interest are equal only when the expected rate of inflation over the contract period is zero (ΔPe = 0).7
+
+When either r or ΔPe is a small number, or when both are small, then rΔPe is very small and is approximately equal to zero. In these situations, it is common practice to write the Fisher equation as a simple additive function, where the nominal rate of interest is divided into two parts: (1) the real rate of interest and (2) the anticipated percent change in the price level. The simplified (or approximate) Fisher equation can be written as follows:
+
+(2.2)
+
+Thus, for our one-year loan example:
+
+
+The difference in the contract loan rates between the two variations of the Fisher equation is 0.40 percent (14.40 percent − 14.00 percent = 0.40 percent), a difference of less than 3 percent (0.40/14.40 = 0.0278, or 2.78 percent). Thus, dropping rΔPe from the equation makes the equation easier to understand without creating a significant computational error.
+
+Learning by Doing Applications 2.2 and 2.3 illustrate applications of the Fisher equation.
+
+LEARNING BY DOING APPLICATION 2.2
+Calculating a New Inflation Premium
+
+Problem
+
+The current one-year Treasury bill rate is 2.0 percent. On CNBC.com, several economists at leading investment and commercial banks predict that the annual inflation rate is going to be 0.25 percent higher than originally expected. The higher inflation forecasts reflect unexpectedly strong employment figures released by the government that afternoon. What is the current inflation premium if the real rate of interest is 0.5 percent? When the market opens tomorrow, what should happen to the one-year Treasury bill rate?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 2.3
+International Loan Rate
+
+Problem
+
+You are a financial manager at a manufacturing company that is going to make a one-year loan to a key supplier in another country. The loan will be made in the supplier’s local currency. The supplier’s government controls the banking system, and there are no reliable market data available. For this reason, you have spoken with five economists who have some knowledge about the economy. Their predictions for inflation next year are 30, 40, 45, 50, and 60 percent.
+
+What rate should your firm charge for the one-year business loan if you are not concerned about the possibility that your supplier will default? You recall that the real rate of interest is, on average, 3 percent over the long run.
+
+
+
+
+
+Cyclical and Long-Term Trends in Interest Rates
+Now let’s look at some market data to see how interest rates have actually fluctuated over the past five decades in the United States. Exhibit 2.5 plots the interest rate yield on 10-year government bonds since 1960 to represent interest rate movements. In addition, the exhibit plots the annual rate of inflation, represented by the annual percent change in the consumer price index (CPI). The CPI is a price index that measures the change in prices of a market basket of goods and services that a typical consumer purchases. Finally, the shaded areas on the chart indicate periods of recession. Recession occurs when real output from the economy is decreasing and unemployment is increasing. Each shaded area begins at the peak of the business cycle and ends at the bottom (or trough) of the recession. From our discussion of interest rates and an examination of Exhibit 2.5, we can draw two general conclusions:
+
+The level of interest rates tends to rise and fall with changes in the actual rate of inflation. The positive relation between the rate of inflation and the level of interest rates is what we should expect given Equation 2.1. Thus, we feel comfortable concluding that inflationary expectations have a major impact on interest rates.
+Our findings also explain in part why interest rates can vary substantially between countries. For example, in November 2020 the long-term expected rate of inflation in the United States was 1.4 percent; during the same period, the rate of inflation in Russia was 4.0 percent. If the real rate of interest is 3.0 percent, the long-term interest rate in the United States in 2020 should have been around 4.4 percent (3.0 percent + 1.4 percent = 4.4 percent) and the Russian interest rate should have been around 7.0 percent (3.0 percent + 4.0 percent = 7.0 percent). In fact, at the end of November 2020 the U.S. 10-year interest rate was about 1.00 percent and the Russian rate was 5.85 percent. Though hardly scientific, this analysis illustrates the point that countries with higher rates of inflation or expected rates of inflation will have higher interest rates than countries with lower inflation rates.
+
+EXHIBIT 2.5 Relation between Annual Inflation Rate and Long-Term Interest Rate (1960–2019) Based on the graph shown in the exhibit, we can draw two important conclusions about interest rate movements. First, the level of interest rates tends to rise and fall with the actual rate of inflation—a conclusion also supported by the Fisher equation, which suggests that interest rates rise and fall with the expected rate of inflation. Second, the level of interest rates tends to rise during periods of economic expansion and decline during periods of economic contraction.
+
+
+Sources: Bureau of Labor Statistics, U.S. Department of Labor (www.bls.gov/cpi), U.S. Department of the Treasury (www.treasury.gov), and Wikipedia (www.en.wikipedia.org).
+The level of interest rates tends to rise during periods of economic expansion and decline during periods of economic contraction. It makes sense that interest rates should increase during years of economic expansion. The reasoning is that as the economy expands, businesses begin to borrow money to build up inventories and to invest in more production capacity in anticipation of increased sales. As unemployment begins to decrease, the economic future looks bright, and consumers begin to buy more homes, cars, and other durable items on credit. As a result, the demand for funds by both businesses and consumers increases, driving interest rates up. Also, near the end of expansion, the rate of inflation begins to accelerate, which puts upward pressure on interest rates. At some point, the Fed becomes concerned over the increasing inflation in the economy and begins to tighten credit, which further raises interest rates, slowing down the economy. The higher interest rates in the economy choke off spending by both businesses and consumers.
+During a recession, the opposite takes place; businesses and consumers rein in their spending and their use of credit, putting downward pressure on interest rates. To stimulate demand for goods and services, the Fed will typically begin to make more credit available to lower interest rates in the economy and encourage business and consumer spending.
+
+Also notice in Exhibit 2.5 that periods of business expansion tend to be much longer than periods of contraction (recessions). Since the end of the Great Depression, the average period of economic expansion has lasted three to four years and the average period of contraction about nine months. Keep in mind that the numbers given are averages and that actual periods of economic expansion and contraction can vary widely from averages. For example, the business expansion from October 2001 to December 2007 lasted 6 years and two months and the recession that followed it lasted 18 months, from December 2007 to June 2009.
+
+Before You Go On
+Explain how the real rate of interest is determined.
+How are inflationary expectations accounted for in the nominal rate of interest?
+Explain why interest rates follow the business cycle.
+Summary of Learning Objectives
+1 Describe the role of the financial system in the economy and the two basic ways in which money flows through the system.
+
+The role of the financial system is to gather money from households, businesses, and governments with surplus funds to invest (lender-savers) and channel that money to households, businesses, and governments who need money (borrower-spenders). If the financial system works properly, only investment projects with high rates of return and good credit are financed and all other projects are rejected. Money flows through the financial system in two basic ways: (1) directly, through financial markets, and (2) indirectly, through financial institutions.
+
+2 Discuss direct financing and the important role that investment banks play in this process.
+
+Direct markets are wholesale markets where lender-savers and borrower-spenders deal directly with one another. For example, corporations sell securities, such as stocks and bonds, directly to investors in exchange for money, which they use to invest in their businesses. Investment banks are important in the direct markets because they help borrower-spenders sell their new security issues. The services provided by investment bankers include origination, underwriting, and distribution.
+
+3 Describe the primary, secondary, and money markets, explaining the special importance of secondary and money markets to business organizations.
+
+Primary markets are markets in which new securities are sold for the first time. Secondary markets are markets for securities that were previously issued. Not all securities have active secondary markets. Active secondary markets are important because they enable investors to convert securities easily to cash. Business firms whose securities are traded in secondary markets are able to issue new securities at a lower cost than they otherwise could because investors are willing to pay a higher price for securities that have active secondary markets.
+
+Large corporations use money markets to adjust their liquidity because cash inflows and outflows are rarely perfectly synchronized. Thus, on the one hand, if cash expenditures exceed cash receipts, a firm can borrow short-term in the money markets. If that firm holds a portfolio of money market instruments, it can sell some of these securities for cash. On the other hand, if cash receipts exceed expenditures, the firm can temporarily invest the funds in short-term money market instruments. Businesses are willing to invest large amounts of idle cash in money market instruments because of their high liquidity and their low default risk.
+
+4 Explain what an efficient market is and why market efficiency is important to financial managers.
+
+An efficient market is a market where security prices reflect the knowledge and expectations of all investors. Public markets, for example, are more efficient than private markets because issuers of public securities are required to disclose a great deal of information about these securities to investors and investors are constantly evaluating the prospects for these securities and acting on the conclusions from their analyses by trading them. Market efficiency is important to investors because it assures them that the securities they buy are priced close to their true value.
+
+5 Explain how financial institutions serve the needs of consumers and small businesses.
+
+One problem with direct financing is that it takes place in a wholesale market. Most consumers and small businesses do not have the skills, financing requirements, or money to transact in this market. In contrast, a large portion of the indirect market focuses on providing financial services to consumers and small businesses. For example, commercial banks collect money from consumers in small dollar amounts through checking accounts, savings accounts, and consumer CDs. They then aggregate the funds and make loans in larger amounts to consumers and businesses. The financial services provided by financial institutions are tailor-made to fit the needs of the markets they serve. Exhibit 2.3 illustrates how businesses use the financial system.
+
+6 Compute the nominal and the real rates of interest, differentiating between them.
+
+Equations 2.1 and 2.2 are used to compute the nominal (real) rate of interest when you have the real (nominal) rate and the inflation rate. The real rate of interest is the interest rate that would exist in the absence of inflation. It is determined by the interaction of (1) the rate of return that businesses can expect to earn on capital projects and (2) individuals’ time preference for consumption. The interest rate we observe in the marketplace is called the nominal rate of interest. The nominal rate of interest is composed of two parts: (1) the real rate of interest and (2) the expected rate of inflation.
+
+Summary of Key Equations
+Equation	Description	Formula
+2.1	Fisher equation	 	 
+2.2	Simplified or approximate Fisher equation	  
+Self-Study Problems
+2.1 Economic units that need to borrow money are said to be:
+
+Lender-savers.
+Borrower-spenders.
+Balanced budget keepers.
+None of the above.
+
+
+2.2 Explain what the marketability of a security is and how it is determined.
+
+
+
+2.3 What are over-the-counter markets (OTCs), and how do they differ from organized exchanges?
+
+
+
+2.4 What effect does an increase in demand for business goods and services have on the real interest rate? What other factors can affect the real interest rate?
+
+
+
+2.5 How does the business cycle affect the nominal interest rate and inflation rate?
+
+
+
+2.6 You lent $100 to a friend for one year at a nominal rate of interest of 3 percent. Inflation during that year was 2 percent. Did you experience an increase or decrease in the purchasing power of your money? How much did it increase or decrease?
+
+
+
+Discussion Questions
+2.1 Explain why total financial assets in the economy must equal total financial liabilities.
+
+2.2 Why don’t small businesses make greater use of the direct credit markets, since these markets enable firms to finance their activities at a very low cost?
+
+2.3 Explain the economic role of brokers and dealers. How does each make a profit?
+
+2.4 Why were commercial banks prohibited from engaging in investment banking activities until 1999?
+
+2.5 What are two basic services that investment banks provide in the economy?
+
+2.6 How do large corporations adjust their liquidity in the money markets?
+
+2.7 The CFO of a certain company always wears his green suit on a day when the firm is about to release positive information about his company. You believe that you can profit from this information by buying the firm’s shares at the beginning of every day that the CFO shows up wearing this green suit. Describe which form of market efficiency is consistent with your belief.
+
+2.8 Why is the expected rate of inflation () used in finding the nominal rate of interest in Equation 2.1 rather than the actual rate of inflation (), which can be easily measured?
+
+2.9 How does Exhibit 2.5 help explain why interest rates were so high during the early 1980s as compared to the relatively low interest rates in the early 1960s?
+
+2.10 If businesses are not investing when they have unfunded capital projects whose rate of return exceeds the cost of capital, what does it imply about the real rate of interest?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+2.1 Financial system: What is the role of the financial system, and what are the two major components of the financial system?
+
+2.2 Financial system: What does a competitive financial system imply about interest rates?
+
+2.3 Financial system: What is the difference between saver-lenders and borrower-spenders, and who are the major representatives of each group?
+
+2.4 Financial markets: List the two ways in which a transfer of funds takes place in an economy. What is the main difference between these two?
+
+2.5 Financial markets: Suppose you own a security that you know can be easily sold in the secondary market, but the security will sell at a lower price than you paid for it. What does this imply for the security’s marketability and liquidity?
+
+2.6 Financial markets: Why are direct financial markets also called wholesale markets?
+
+2.7 Financial markets: Trader Inc. is a $300 million company, as measured by asset value, and Horst Corp. is a $35 million company. Both are privately held corporations. Explain which firm is more likely to go public and register with the SEC, and why.
+
+2.8 Primary markets: What is a primary market? What does IPO stand for?
+
+2.9 Primary markets: Identify whether the following transactions are primary market or secondary market transactions.
+
+Jim Hendry bought 300 shares of IBM through his brokerage account.
+Peggy Jones bought $5,000 of General Motors bonds from another investor.
+Hathaway Insurance Company bought 500,000 shares of Trigen Corp. when the company issued stock.
+2.10 Investment banking: What does it mean to “underwrite” a new security issue? What compensation does an investment banker get from underwriting a security issue?
+
+2.11 Investment banking: Cranjet Inc. is issuing 10,000 bonds, and its investment banker has guaranteed a price of $985 per bond. If the investment banker sells the entire issue to investors for $10,150,000:
+
+What is the underwriting spread for this issue?
+What is the percentage underwriting cost?
+How much will Cranjet raise?
+2.12 Financial institutions: What are some of the ways in which a financial institution or intermediary can raise money?
+
+2.13 Financial institutions: How do financial institutions act as intermediaries to provide services to small businesses?
+
+2.14 Financial institutions: Which financial institution is usually the most important to businesses?
+
+2.15 Financial markets: What is the main difference between money markets and capital markets?
+
+2.16 Money markets: What is the primary role of money markets? Explain how the money markets work.
+
+2.17 Money markets: What are the main types of securities in the money markets?
+
+2.18 Capital markets: How do capital market instruments differ from money market instruments?
+
+2.19 Market efficiency: Describe the informational differences that distinguish the three forms of market efficiency.
+
+2.20 Market efficiency: Zippy Computers announced strong fourth quarter results. Sales and earnings were both above analysts’ expectations. You notice in the newspaper that Zippy’s stock price went up sharply on the day of the announcement. If no other information about Zippy became public on the day of the announcement and the overall market was down, is this evidence of market efficiency?
+
+2.21 Market efficiency: In Problem 2.20, if the market is efficient, would it have been possible for Zippy’s stock price to go down in the day that the firm announced the strong fourth quarter results?
+
+2.22 Market efficiency: If the market is strong-form efficient, then trading on tips you hear from Jim Cramer (the host of Mad Money on CNBC) will generate no excess returns (i.e., returns in excess of fair compensation for the risk you are bearing). True or false?
+
+2.23 Financial markets: What are the major differences between public and private markets?
+
+2.24 Financial instruments: What are the two risk-hedging instruments discussed in this chapter?
+
+2.25 Interest rates: What is the real rate of interest, and how is it determined?
+
+2.26 Interest rates: How does the nominal rate of interest vary over time?
+
+2.27 Interest rates: What is the Fisher equation, and how is it used?
+
+2.28 Interest rates: Imagine you borrow $500 from your roommate, agreeing to pay her back $500 plus 7 percent nominal interest in one year. Assume inflation over the life of the contract is expected to be 4.25 percent. What is the total dollar amount you will have to pay her back in a year? What percentage of the interest payment is the result of the real rate of interest (use the simplified or approximate Fisher equation)?
+
+2.29 Interest rates: Your parents gave you $1,000 a year before your graduation date so that you can take a trip when you graduate. You wisely decide to invest the money in a bank CD that pays 6.75 percent interest. You know that the trip costs $1,025 right now and that inflation for the year is predicted to be 4 percent. Will you have enough money in a year to purchase the trip?
+
+2.30 Interest rates: When are the nominal and real interest rates equal?
+
+Sample Test Problems
+2.1 What are the two basic mechanisms through which funds flow through the financial system, and how do they differ?
+
+2.2 You just purchased a share of IBM stock on the New York Stock Exchange. What kind of transaction was this?
+
+Primary market transaction.
+Secondary market transaction.
+Futures market transaction.
+Private placement.
+2.3 How are brokers different from dealers?
+
+2.4 List the three forms of the efficient market hypothesis, and describe what information is assumed to be reflected in security prices under each of these hypotheses.
+
+2.5 If the nominal rate of interest is 4.25 percent and the expected rate of inflation is 1.75 percent, what is the real rate of interest (use the Fisher equation)?
+
+2.6 What is the relation between business cycles and the general level of interest rates?
+
+Notes
+1 Ben S. Bernanke, “Remarks at the Fall 2003 Banking and Finance Lecture,” Widener University, Chester, Pennsylvania, October 2, 2003.
+2 If the risk of underwriting a new security issue is high, investment bankers may refuse to underwrite the securities for a guaranteed price. Instead, they will underwrite the new issue on a best-efforts basis, which means that they will sell the securities for the highest price that investors are willing to pay. These issues are discussed in more detail in Chapter 15.
+3 We discuss how to calculate the present value of future cash flows in Chapters 5 and 6.
+4 Chapter 15 contains a detailed discussion of the IPO process.
+5 The model presented here is based on the loanable funds theory of market equilibrium. Saving (or giving up current consumption) is the source of loanable funds, and personal and business spending (or investment) is the use of funds.
+6 Recall from economics two important relations: (1) The value of money is its purchasing power—what you can buy with it, and (2) there is a negative relation between changes in price level and the value of money. As the price level increases (inflation), the value of money decreases, and as the price level decreases (deflation), the value of money increases. This makes sense because when we have rising prices (inflation), our dollars will buy less.
+7 In economics the terms nominal and real are frequently used as modifiers, as in nominal GNP and real GNP. Nominal means that the data are from the marketplace; thus, the values may contain price-level changes due to inflation. Real means the data are corrected for changes in purchasing power.

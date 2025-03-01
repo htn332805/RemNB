@@ -1,0 +1,758 @@
+CHAPTER 8
+Bond Valuation and the Structure of Interest Rates
+
+LEARNING OBJECTIVES
+
+Describe the market for corporate bonds and three types of corporate bonds.
+Explain how to calculate the value of a bond and why bond prices vary negatively with interest rate movements.
+Distinguish between a bond’s coupon rate, yield to maturity, and effective annual yield.
+Explain why investors in bonds are subject to interest rate risk and why it is important to understand the bond theorems.
+Discuss the concept of default risk and know how to compute a default risk premium.
+Describe the factors that determine the level and shape of the yield curve.
+On May 22, 2020, the car rental company Hertz filed for U.S. bankruptcy protection from its creditors. A large portion of Hertz’s revenue comes from car rentals at airports around the world, and this source of revenue all but evaporated with the onset of the coronavirus pandemic. It quickly became impossible for the firm to make all of the required payments on its nearly $20 billion in outstanding debt.
+
+Hertz’s dire financial situation was compounded by the fact that much of its debt load was made up of securitized debt, obligations with payments tied to the value of its fleet of rental cars. As the global health crisis worsened, a decline in the market value of used vehicles increased Hertz’s monthly payments to these secured creditors. Management attempted to negotiate with the firm’s creditors to obtain some temporary relief, and proposed selling as many as 30,000 vehicles a month from the company’s fleet of over 500,000 cars in an effort to improve cash flows. Ultimately, these efforts were unsuccessful, prompting management to voluntarily declare bankruptcy under Chapter 11 of the U.S. bankruptcy code.
+
+Chapter 11 is the part of the bankruptcy code that companies can use to restructure operations and debts when the debts are so large that the company cannot reasonably expect to pay them in full. In a situation such as that faced by Hertz, a debt restructuring involves developing a plan that repays the creditors as much as possible while allowing the company to continue its operations. Many creditors in a restructuring are forced to “forgive” some of the value they are owed so that the company has the necessary breathing room to continue to function.
+
+The value of all of Hertz’s bonds fell when investors realized that a bankruptcy filing was likely. Publicly traded bonds for Hertz were selling for as little as 11 cents per dollar on the date of the May 2020 bankruptcy declaration, a nearly 90 percent decline in value from their price just three months earlier. The firm’s bond values fell because the prices that investors pay for bonds reflect the value of the interest and principal payments that ownership of those debts entitles them to receive. When a debt issuer gets into financial difficulty, investors are less likely to receive the interest and principal payments that they have been promised, and so they place less value on them. Specifically, investors require higher rates of return for riskier debts. As you might recall from Chapters 5 and 6, when required rates of return go up, the present value of future cash flows, such as interest and principal payments, goes down. The weaker the security underlying the interest and principal payments from a debt, the more the interest rates increase. This chapter discusses the characteristics of bonds, a common form of debt financing used by businesses. It also explains how bonds are valued and identifies the factors that determine bond prices and yields.
+
+Chapter Preview
+This chapter is all about debt that firms issue as bonds and how bonds are valued, or priced, in the marketplace. As you might suspect, the bond valuation models presented in this chapter are derived from the present value concepts discussed in Chapters 5 and 6. The market price of a bond is simply the present value of the promised cash flows (interest and principal payments), discounted at the current market rate of interest for bonds of similar risk.
+
+In this chapter we first discuss the corporate bond market, bond price information that is available, and the types of bonds found in the market. Then we develop the basic equation used to calculate bond prices and show how to compute the following characteristics of a bond: (1) yield to maturity and (2) effective annual yield. We next discuss interest rate risk and identify three bond theorems that describe how bond prices respond to changes in interest rates. Finally, we explain why firms have different borrowing costs. We find that four factors affect a firm’s cost of borrowing: (1) the debt’s marketability, (2) default risk, (3) call risk, and (4) term to maturity.
+
+8.1 Corporate Bonds
+LEARNING OBJECTIVE
+
+Describe the market for corporate bonds and three types of corporate bonds.
+In this section we discuss the market for corporate bonds and some of the types of bonds that firms issue.
+
+
+Market for Corporate Bonds
+The market for corporate bonds is enormous. At the end of the third quarter of 2020, for example, the value of corporate debt outstanding for nonfinancial firms in the United States was $16.9 trillion, almost 79 percent as large as the total U.S. gross domestic product in 2019 of $21.44 trillion. By comparison, the market for corporate equity was the largest part of the U.S. capital market, with a value of $36.3 trillion, and U.S. government Treasury bills and bonds totaled $19 trillion. State and local government debt markets were much smaller at $4.2 trillion. The most important investors in corporate bonds are large institutional investors such as life insurance companies, pension funds, and mutual funds. Because the primary investors are so big, trades in this market tend to involve very large blocks of securities.
+
+Most secondary market transactions for corporate bonds take place through dealers in the over-the-counter (OTC) market. An interesting characteristic of the corporate bond market is the large number of different bond issues that trade in the market. The reason is that while a corporation typically has a single issue of common stock outstanding, it may have a dozen or more different notes and bonds outstanding. Therefore, despite the large overall trading volume of corporate bonds, the bonds from any particular issue will not necessarily trade on a given day. As a result, the market for corporate bonds is thin compared to the market for corporate stocks or money market securities. On Wall Street, the term thin means that secondary market trades of individual securities are relatively infrequent. Thus, corporate bonds are less marketable than the securities that have higher daily trading volumes, like stocks or U.S. Treasury securities.
+
+Prices in the corporate bond market also tend to be more volatile than prices of securities sold in markets with greater trading volumes. This is because a few large trades can have a larger impact on a security’s price than numerous trades of various sizes. The result is that the market for corporate bonds is not as efficient (new information does not get incorporated into corporate bond prices as efficiently) as those for highly marketable securities, such as stocks or U.S. Treasury bills and bonds.
+
+Bond Price Information
+The corporate bond market also has little transparency because it is almost entirely an OTC market. A financial market is transparent if it is easy to view prices and trading volume. An example of a transparent market is the New York Stock Exchange (NYSE), where price information on every trade and trade size is available for every transaction during the day. In contrast, corporate bond market transactions are widely dispersed, with dealers located all over the country, and there is an enormous number of different securities. While trade prices are available for some debt securities, many corporate bond transactions are negotiated directly between the buyer and the seller, and there is limited centralized reporting of these sales. As a result, information on individual corporate bond transactions is not widely published as the transactions occur. This is another reason that the corporate bond market is not as efficient as the stock or money markets.
+
+Types of Corporate Bonds
+Corporate bonds are long-term IOUs that represent claims against a firm’s assets. Unlike stockholders’ returns, most bondholders’ returns are fixed; they receive only the interest payments that are promised plus the repayment of the loan amount when the bond matures. Debt instruments where the interest paid to investors is fixed for the life of the contract are called fixed-income securities. We examine three types of fixed-income securities in this section.
+
+fixed-income securities debt instruments that pay interest in amounts that are fixed for the life of the contract
+
+Vanilla Bonds
+
+The most common bonds issued by corporations have coupon payments that are fixed for the life of the bond, and at maturity the entire original principal is paid and the bonds are retired. These bonds are known as vanilla bonds if they have no special characteristics, such as a conversion feature (discussed below).
+
+
+The time line above shows the cash payments for a three-year vanilla bond with a $1,000 face value and an 8 percent coupon (interest) rate. PB is the price (value) of the bond, which will be discussed in the next section. The $80 cash payments ($1,000 × 8 percent = $80) made each year are called the coupon payments. Coupon payments are the interest payments made to bondholders. These payments are usually made annually or semiannually, and the payment amount (or rate) remains fixed for the life of the bond contract, which for our example is three years. The face value, or par value, for most corporate bonds is $1,000, and it is the principal amount owed to the bondholder at maturity. Finally, the bond’s coupon rate is the annual coupon payment (C) divided by the bond’s face value (F). Our vanilla bond pays $80 of coupon interest annually and has a face value of $1,000. The coupon rate is thus:
+
+coupon payments the interest payments made to bondholders
+
+face value, or par value the amount on which interest is calculated and that is owed to the bondholder when a bond reaches maturity
+
+coupon rate the annual coupon payment of a bond divided by the bond’s face value
+
+Zero Coupon Bonds
+
+Some bonds have no coupon payments but promise a single payment at maturity. The interest paid to a bondholder is the difference between the price paid for the bond and the face value received at maturity. These bonds are sold at a price below the amount that the investor receives at maturity because all of the interest is paid when the bonds are retired at maturity rather than in semiannual or yearly coupon payments. The face value of a zero coupon bond is different from that of a vanilla bond in that it includes both the interest and the principal.
+
+The most frequent and regular issuer of zero coupon bonds is the U.S. Department of the Treasury, and perhaps the best-known zero coupon security is a United States Saving Bond. Corporations also issue zero coupon bonds from time to time. Firms that are expanding operations but have little cash available to make interest payments are especially likely to use zero coupon bonds for funding. In the 1990s, the bond market was flooded with zero coupon bonds issued by telecommunications firms. These firms were spending huge amounts to build fiber-optic networks, which generated few cash inflows until they were completed.
+
+Convertible Bonds
+
+Corporate convertible bonds can be converted into shares of common stock at some predetermined ratio at the discretion of the bondholder. For example, a $1,000 face-value bond may be convertible into 100 shares of common stock. A conversion feature is valuable to bondholders because it allows them to share in the good fortunes of the firm if the firm’s stock price rises above a certain level. Specifically, the bondholders profit if they exchange their bonds for the company’s stock when the market value of the stock they receive exceeds the market value of the bonds.
+
+Typically, the conversion ratio is set so that the firm’s stock price must appreciate at least 15 to 20 percent before it is profitable to convert the bonds into stock. As you would expect from our discussion, since a conversion feature is valuable to bondholders, firms that issue convertible bonds can do so at a lower interest rate. This reduces the amount of cash that the firms must use to make interest payments.
+
+Before You Go On
+What are the main differences between the corporate bond markets and stock markets?
+A bond has a 7 percent coupon rate, a face value of $1,000, and a maturity of four years. On a time line, lay out the cash flows for the bond.
+Explain what a convertible bond is.
+
+For a Web site providing educational information about bonds and their markets, go to www.investinginbonds.com. The trades and prices for debt in the Financial Industry Regulatory Authority’s (FINRA’s) Trade Reporting and Compliance Engine (TRACE) system can be viewed at FINRA’s Market Data Center Web site: finra-markets.morningstar.com/BondCenter/Results.jsp
+
+8.2 Bond Valuation
+LEARNING OBJECTIVE
+
+Explain how to calculate the value of a bond and why bond prices vary negatively with interest rate movements.
+We turn now to the topic of bond valuation—how bonds are priced. Throughout this book, we have stressed that the value, or price, of any asset is the present value of its future cash flows. The steps necessary to value an asset are as follows:
+
+Estimate the expected future cash flows.
+Determine the required rate of return, or discount rate. This rate depends on the riskiness of the future cash flowsd.
+Compute the present value of the future cash flows. This present value is what the asset is worth at a particular point in time.
+For bonds, the valuation procedure is relatively easy. The cash flows (coupon and principal payments) are contractual obligations of the firm and are known by market participants, since they are stated in the bond contract. Thus, market participants know the magnitude and timing of the expected cash flows as promised by the borrower (the bond issuer). The required rate of return, or discount rate, for a bond is the market interest rate, called the bond’s yield to maturity (or more commonly, simply its yield). This rate is determined from the market prices of bonds that have features similar to those of the bond being valued; by similar, we mean bonds that have the same term to maturity, have the same bond rating (default risk class), and are similar in other ways.
+
+Notice that the required rate of return is the opportunity cost for the investors who purchase the bond. An opportunity cost is the highest alternative return that is given up when an investment is made. For example, if bonds identical to the bond being valued—having the same risk—yield 9 percent annually, the threshold yield or required return on the bond being valued is 9 percent. Why? An investor would not buy a bond with an 8 percent yield when an identical bond yielding 9 percent is available.
+
+opportunity cost the return from the best alternative investment with similar risk that an investor gives up when he or she makes a certain investment
+
+Given the above information, we can compute the current value, or price, of a bond (PB) by calculating the present value of the bond’s expected cash flows:
+
+Next, we examine this calculation in detail.
+
+The Bond Valuation Formula
+To begin, refer to Exhibit 8.1, which shows the cash flows for a three-year corporate bond (a bond with three years to maturity) with an 8 percent coupon rate and a $1,000 face value. If the market rate of interest on similar bonds is 10 percent and interest payments are made annually, what is the market price of the bond? In other words, how much should you be willing to pay for the promised cash flow stream?
+
+To value (or price) the bond, we can discount each of the payments back to time zero one at a time, and add those values up. We can also view the bond payments as being made up of a regular annuity of three annual payments of $80 each and a final lump sum payment of $1,000. Thus, the price of the bond (PB) is the sum of the present value calculations for the coupon payments (C) and the principal amount (F), discounted at the required rate (i). That calculation is:
+
+EXHIBIT 8.1 Cash Flows for a Three-Year Bond The exhibit shows a time line for a three-year bond that pays an 8 percent coupon rate and has a face value of $1,000. How much should we pay for such a bond if the market rate of interest is 10 percent? To solve this problem, we discount the promised cash flows to the present and then add them up.
+
+
+Notice that you could have simplified the calculation by combining the final coupon payment and the principal payment (C3 + F3), since both cash flows occur at time t = 3.
+
+The above calculation suggests that the general equation for the price of the bond can be written as:
+
+Or:
+
+(8.1)
+where:
+
+PB = the price of the bond, or present value of the stream of cash payments
+
+Ct = the coupon payment in period t, where t = 1, 2, 3, …, n
+
+Fn = par value or face value (principal amount) to be paid at maturity
+
+i = market interest rate (discount rate or yield)
+
+n = number of periods to maturity
+
+Note that there are five variables in the bond pricing equation. If we know any four of them, we can solve for the fifth.
+
+Calculator Tip: Bond Valuation Problems
+We can easily calculate bond prices using a financial calculator or a spreadsheet. We solve for bond prices and bond yields in exactly the same way we solved for the present value (bond price) and discount rate (bond yield) in Chapter 6. We solve our example problem on a financial calculator as follows:
+
+
+Several points are worth noting:
+
+Always draw a time line for the cash flows. This simple step will significantly reduce mistakes.
+The PMT key enters the dollar amount of an ordinary annuity for n periods. In our example, keying in 3 with the N key and $80 with the PMT key enters an $80 annuity with the final payment made at the end of Year 3.
+Be sure that you enter the coupon and the principal payments separately. Do not enter the final coupon payment ($80) and principal amount ($1,000) as a single entry of $1,080 on the FV key. The reason is that the PMT key is the annuity key, and when you enter N = 3, the $80 is entered in the calculator as a three-year ordinary annuity with a final payment of $80 in period t = 3. If you then enter $1,080 on the FV key, you will have an extra $80 in the final period (t = 3). In this example, we entered the $80 coupon payments with the PMT key and the $1,000 principal payment with the FV key.
+Finally, as we have mentioned in earlier chapters, you must be consistent throughout a problem in how you enter the signs (positive or negative) for cash inflows and cash outflows. For example, if you are a bond investor and decide to enter all cash inflows with a positive sign, then you must enter all coupon and principal payments with a positive sign. The price you paid for the bond, which is a cash outflow, must be entered as a negative number. This is the convention we will follow.
+The value from the financial calculator can differ from the value that we calculate when discounting individual cash flows due to rounding error.
+Learning by Doing Application 8.1 illustrates another example of the use of a calculator to value a bond, and the Using Excel example that follows Application 8.1 illustrates the use of a spreadsheet to solve this problem.
+
+Par, Premium, and Discount Bonds
+One of the mathematical properties of the bond pricing equation is that whenever a bond’s coupon rate is equal to the market rate of interest on similar bonds (the bond’s yield), the bond will sell at par value. We call such bonds par-value bonds. For example, suppose that you own a three-year bond with a face value of $1,000 and an annual coupon rate of 5 percent, when the yield or market rate of interest on similar bonds is 5 percent. The price of your bond, based on Equation 8.1, is:
+
+As predicted, the bond’s price equals its par value.
+
+par-value bonds bonds that sell at par value, or face value; whenever a bond’s coupon rate is equal to the market rate of interest on similar bonds, the bond will sell at par (face) value
+
+LEARNING BY DOING APPLICATION 8.1
+Pricing a Bond
+
+Problem
+
+Your investment advisor is trying to sell you a 15-year bond with a 7 percent coupon, and the interest, or yield, on similar bonds is 10 percent. Is the bond selling for a premium, at par, or at a discount? Answer the question without making any calculations, and then prove that your answer is correct. The time line is as follows:
+
+
+
+
+
+
+Using Excel
+Bond Prices and Yields
+
+Calculating bond prices and yields using a spreadsheet may seem daunting at first. However, understanding the terminology used in the formulas will make the calculations a matter of common sense:
+
+Settlement date—the date a buyer purchases the bond.
+
+Maturity date—the date the bond expires. If you know only the “n” (number of years remaining) of the bond, use a date that is n years in the future in this field.
+
+Redemption—the security’s redemption value per $10 face value. In other words, if the bond has a par value of $1,000, you enter 100 in this field.
+
+Frequency—the number of coupon payments per year.
+
+
+Here is a spreadsheet showing the setup for calculating the price of the discount bond described in Learning by Doing Application 8.1.
+
+We first use the =PRICE(settlement, maturity, rate, yield, redemption, frequency) formula in Excel to calculate the bond price as a percentage of par. We then multiply this percentage (77.18 percent in the example) by $1,000 to obtain the bond price in dollars. A bond yield, which is discussed in the next section, is calculated in a similar manner, using the “=YIELD(settlement, maturity, rate, price, redemption, frequency)” formula.
+
+Now assume that the market rate of interest rises overnight to 8 percent. What happens to the price of the bond? Will the bond’s price be below, above, or at par value?
+
+When i is equal to 8 percent, the price of the bond declines to $922.69. The bond sells at a price below par value; such bonds are called discount bonds.
+
+discount bonds bonds that sell at prices below par (face) value
+
+Whenever a bond’s coupon rate is lower than the market rate of interest on similar bonds, the bond will sell at a discount. This is true because of the fixed nature of a bond’s coupon payments. Let’s return to our 5 percent coupon bond. If the market rate of interest is 8 percent and our bond pays only 5 percent, no economically rational person would buy the bond at its par value. This would be like choosing a bond with a 5 percent yield over one with an 8 percent yield. We cannot change the coupon rate to 8 percent because it is fixed for the life of the bond. That is why bonds are referred to as fixed-income securities. The only way to increase our bond’s yield to 8 percent is to reduce the price of the bond to $922.69. At this price, the bond’s yield will be precisely 8 percent, which is the current market rate for similar bonds. Through the price reduction of $77.31 ($1,000 − $922.69 = $77.31), the seller provides the new owner with additional “interest” in the form of a higher yield.
+
+What would happen to the price of the bond if interest rates on similar bonds declined to 2 percent and the coupon rate remained at 5 percent? The price would rise to $1,086.52. At this price, the bond’s yield would be precisely 2 percent, which is the current market yield. The $86.52 ($1,086.52 − $1,000 = $86.52) premium adjusts the bond’s yield to 2 percent, which is the current market yield for similar bonds. Bonds that sell at prices above par are called premium bonds. Whenever a bond’s coupon rate is higher than the market rate of interest, the bond will sell at a premium.
+
+premium bonds bonds that sell at prices above par (face) value
+
+Our discussion of bond pricing can be summarized as follows, where i is the market rate of interest:
+
+i > coupon rate—the bond sells for a discount
+i < coupon rate—the bond sells for a premium
+i = coupon rate—the bond sells at par value
+The negative relation between changes in the level of interest rates and changes in the price of a bond (or any fixed-income security) is one of the most fundamental relations in corporate finance. The relation exists because the coupon payments on most bonds are fixed and the only way bonds can pay the current market rate of interest to investors is through an adjustment in the price of the bond. This is exactly what happened to the bonds of Hertz as discussed at the beginning of this chapter. As the risk of those bonds increased, their prices declined so that investors received a market rate of interest that reflected the bond’s higher risk.
+
+Semiannual Compounding
+In Europe, bonds generally pay coupon interest on an annual basis. In contrast, in the United States, most bonds pay coupon interest semiannually—that is, twice a year. Thus, if a bond has an 8 percent coupon rate (paid semiannually), each year the bondholder will receive two coupon payments of $40 each, totaling $80 ($40 × 2 = $80). We can modify Equation 8.1 as follows to adjust for coupon payments made more than once a year:
+
+(8.2)
+where C is the annual coupon payment, m is the number of times coupon payments are made each year, n is the number of years to maturity, and i is the annual market interest rate. In the case of a bond with semiannual coupon payments, m equals 2.
+
+Whether we are computing bond prices annually, semiannually, quarterly, or for some other period, the computation is the same. We need only be sure that the bond’s yield, coupon payment, and maturity are adjusted to be consistent with the bond’s stated compounding period. Once that information is converted to the correct compounding period, it can simply be entered into Equation 8.1. Thus, there is really no need to memorize or use Equation 8.2 unless you find it helpful. Let’s work an example to demonstrate.
+
+Earlier we determined that a three-year, 5 percent coupon bond will sell for $922.69 when the market rate of interest is 8 percent. Our computation assumed that coupon payments were made annually. What is the price of the bond if the coupon payments are made semiannually? The time line for the semiannual coupon bond is:
+
+
+We convert the bond data to semiannual compounding as follows: (1) the yield is 4 percent semiannually (8 percent per year/2 = 4 percent), (2) the coupon payment is $25 semiannually ($50 per year/2 = $25), and (3) the total number of coupon payments is 6 (2 payments per year × 3 years = 6 payments). Plugging the data into Equation 8.1, we find that the bond price is:
+
+Notice that the price of the bond is slightly less with semiannual compounding than with annual compounding ($921.37 < $922.69). The slight difference in price reflects the change in the timing of the cash flows and the interest rate adjustment.1
+
+Learning by Doing Application 8.2 illustrates the use of a calculator to value a bond with semiannual coupon payments.
+
+LEARNING BY DOING APPLICATION 8.2
+Bond Pricing with Semiannual Coupon Payments
+
+Problem
+
+A corporate treasurer decides to purchase a 20-year U.S Government Treasury bond with a 4 percent coupon rate. If the current market rate of interest for similar Treasury securities is 4.5 percent, what is the price of the bond?
+
+
+
+
+
+Zero Coupon Bonds
+As previously mentioned, zero coupon bonds have no coupon payments but promise a single payment at maturity. The price (or yield) of a zero coupon bond is simply a special case of Equation 8.2 in which all the coupon payments are equal to zero.
+
+Hence, the pricing equation for a zero coupon bond is:
+
+(8.3)
+where:
+
+PB = the price of the bond
+
+Fmn = the amount of the cash payment at maturity (face value)
+
+i = annual market interest rate (discount rate or yield)
+
+n = number of years until the payment is due
+
+m = number of times interest is compounded each year
+
+Notice that if a zero coupon bond compounds annually, m = 1 and Equation 8.3 becomes:
+
+Now let’s work an example. What is the price of a zero coupon bond with a $1,000 face value, 10-year maturity, and semiannual compounding when the market interest rate is 12 percent? Since the bond compounds interest semiannually, the number of compounding periods is 20 (m × n = 2 × 10 = 20). The semiannual interest is 6 percent (12 percent/2 = 6 percent). The time line for the cash flows is as follows:
+
+
+Plugging the data into Equation 8.3, we find that the price of the bond is:
+
+Notice that the zero coupon bond is selling at a very large (deep) discount. This should come as no surprise, since the bond has no coupon payment and all the dollars paid to investors are paid at maturity. Why are zero coupon bonds so heavily discounted compared with similar bonds that do have coupon payments? From Chapter 5, we know that because of the time value of money, dollars to be received in the future have less value than current dollars. Thus, zero coupon bonds, for which all the cash payments are made at maturity, must sell for less than similar bonds that make coupon payments before maturity.
+
+Learning by Doing Application 8.3 illustrates another example of a bond valuation.
+
+LEARNING BY DOING APPLICATION 8.3
+Pricing a Corporate Bond
+
+Problem
+
+An investor is considering buying a U.S. corporate bond with an eight-year maturity and a coupon rate of 6 percent. Similar bonds in the marketplace yield 14 percent. How much should the investor be willing to pay for the bond?
+
+
+
+
+
+Before You Go On
+Explain conceptually how bonds are priced.
+What is the compounding period for most bonds sold in the United States?
+What are zero coupon bonds, and how are they priced?
+8.3 Bond Yields
+LEARNING OBJECTIVE
+
+Distinguish between a bond’s coupon rate, yield to maturity, and effective annual yield.
+We frequently know a bond’s price from an offer to sell it, but not its yield to maturity. In this section, we discuss how to compute the yield to maturity and some other important bond yields.
+
+Yield to Maturity
+The yield to maturity of a bond is the discount rate that makes the present value of the coupon and principal payments equal to the price of the bond. The yield to maturity can be viewed as a promised yield because it is the annual return that the investor earns if the bond is held to maturity and all the coupon and principal payments are made as promised. A bond’s yield to maturity changes daily as interest rates increase or decrease, but its calculation is always based on the issuer’s promise to make interest and principal payments as stipulated in the bond contract.
+
+yield to maturity for a bond, the discount rate that makes the present value of the coupon and principal payments equal to the price of the bond
+
+Let’s work through an example to see how a bond’s yield to maturity is calculated. Suppose you decide to buy a three-year bond with a 6 percent coupon rate for $960.99. For simplicity, we will assume that the coupon payments are made annually. The time line for the cash flows is as follows:
+
+
+To compute the yield to maturity, we apply Equation 8.1 and solve for i. We can set up the problem using Equation 8.1 as follows:
+
+As we discussed in Chapter 6, we cannot solve for i mathematically; we must find it by trial and error. We know that the bond is selling for a discount because its price is below par, so the yield must be higher than the 6 percent coupon rate. Let’s try 7 percent.
+
+The computed price of $973.76 is still greater than our market price of $960.99; thus, we need to use a slightly larger discount rate. Let’s try 7.7 percent.
+
+Our computed value of $955.95 is now less than the market price of $960.99, so we need a lower discount rate. We’ll try 7.5 percent.
+
+At a discount rate of 7.5 percent, the price of the bond is exactly equal to the market price, and thus, the bond’s yield to maturity is 7.5 percent.
+
+We can, of course, also compute the bond’s yield to maturity using a financial calculator or spreadsheet. Computing the yield in this way is no different from computing the price, except that the unknown is the bond’s yield. As with calculating the price of a bond, the major source of computational errors is failing to make sure that all the bond data are consistent with the bond’s compounding period. The three variables that may require adjustment are (1) the coupon payment, (2) the yield, and (3) the bond maturity.
+
+For the three-year corporate bond discussed earlier, the bond data are already in a form that is consistent with the annual compounding period, so we enter it into the calculator and solve for i, which is the yield to maturity:
+
+
+The bond’s yield to maturity is 7.5 percent, which is identical to the answer from our hand calculation.
+
+Effective Annual Yield
+Up to now, when pricing a bond with a semiannual compounding period, we assumed the bond’s annual yield to be twice the semiannual yield. This is the convention used on Wall Street and by other practitioners who deal in bonds. However, notice that bond yields quoted in this manner are just like the APRs discussed in Chapter 6. For example, we showed that the APR for a bank credit card with a 1 percent monthly interest rate is simply the monthly interest rate multiplied by the number of months in a year, or 12 percent. As you recall, interest rates (or yields) annualized in this manner do not take compounding into account. Hence, the values calculated are not the true cost of funds.
+
+As a result, annualized yields calculated by multiplying a yield per period by the number of compounding periods are only acceptable for decision-making purposes when comparing bonds that have the same compounding frequencies. For example, an investor must be careful when comparing yields of European and U.S. bonds, since interest on a European bond is compounded annually while interest on a U.S. bond compounds twice a year.
+
+The correct way to annualize an interest rate is to compute the effective annual interest rate (EAR). In financial markets, the EAR is called the effective annual yield (EAY); thus, EAR = EAY. Drawing on Equation 6.7 (see Chapter 6), we find that the correct way to annualize the yield on a bond is as follows:
+
+effective annual yield (EAY) the annual yield that takes compounding into account; another name for the effective annual interest rate (EAR)
+
+Let’s work through an example to see how the EAY differs from the yield to maturity. Suppose an investor buys a 30-year bond with a $1,000 face value for $800. The bond’s coupon rate is 8 percent, and interest payments are made semiannually. What is the bond’s yield to maturity, and what is its EAY? To find out, we first need to convert the bond’s annual data into semiannual data: (1) the 30-year bond has 60 compounding periods (30 years × 2 periods per year = 60 periods), and (2) the bond’s semiannual coupon payment is $40 [($1,000 × 0.08)/2 = $80/2 = $40]. The time line for this bond is:
+
+
+We can set up the problem using Equation 8.1 (or 8.2) as:
+
+Solving an equation with so many terms by hand can be time consuming. Therefore, we will solve for the yield to maturity using the yield function in a financial calculator as follows:
+
+
+The answer is 5.07 percent. We then multiply the semiannual yield by 2 to convert it to an annual yield: 2 × 5.07 percent = 10.14 percent. This is the bond’s yield to maturity.
+
+If, instead of multiplying 5.07 percent by 2, we calculate the EAY for the semiannual yield of 5.07 percent, we get:
+
+The EAY of 10.40 percent is greater than the annual yield to maturity of 10.14 percent because the EAY takes into account the effects of compounding over multiple periods per year—earning interest on interest.
+
+Learning by Doing Application 8.4 illustrates the use of the EAY concept in choosing between different investments.
+
+LEARNING BY DOING APPLICATION 8.4
+Choosing between Bonds with Different Coupon Payment Frequencies
+
+Problem
+
+You can purchase a U.S. corporate bond from your financial advisor for $1,099.50. The bond has six years to maturity and an annual coupon rate of 5 percent. Alternatively, she offers you a dollar Eurobond (a dollar-denominated bond sold overseas) with a yield of 3.17 percent, which is denominated in U.S. dollars, has the same maturity and credit rating as the U.S. corporate bond, and pays a coupon once per year. Which bond should you buy?
+
+
+
+
+
+Realized Yield
+The yield to maturity (or promised yield) tells the investor the return on a bond if the bond is held to maturity and all the coupon and principal payments are made as promised. Quite often, however, the investor will sell the bond before maturity. The realized yield is the return earned on a bond given the cash flows actually received by the investor. More formally, it is the interest rate at which the present value of the actual cash flows from the investment equals the bond’s price. The realized yield allows investors to see the return they actually earned on their investment. It is the same as the holding period return discussed in Chapter 7.
+
+realized yield for a bond, the interest rate at which the present value of the actual cash flows from the bond equals the bond’s price
+
+Let’s return to the situation involving a three-year bond with a 6 percent coupon that was purchased for $960.99 and had a promised yield of 7.5 percent. Suppose that interest rates increased sharply and the price of the bond plummeted. Disgruntled, you sold the bond for $750.79 after having owned it for two years. The time line for the realized cash flows looks like this:
+
+
+Substituting the cash flows into Equation 8.1 yields the following:
+
+We can solve this equation for i either by trial and error or with a financial calculator or spreadsheet, as described earlier. Using a financial calculator, the solution is as follows:
+
+
+The result is a realized yield of negative 4.97 percent. The difference between the promised yield of 7.50 percent and the realized yield of negative 4.97 percent is 12.47 percent [7.50 percent − (−4.97 percent) = 12.47 percent], which can be accounted for by the capital loss of $210.20 ($960.99 − $750.79 = $210.20) from the decline in the bond price.
+
+Before You Go On
+Explain how bond yields are calculated.
+8.4 Interest Rate Risk
+LEARNING OBJECTIVE
+
+Explain why investors in bonds are subject to interest rate risk and why it is important to understand the bond theorems.
+As discussed previously, the prices of bonds fluctuate with changes in interest rates, giving rise to interest rate risk. Anyone who owns bonds is subject to interest rate risk because interest rates are always changing in financial markets. A number of relations exist between bond prices and changes in interest rates. These are often called the bond theorems, but they apply to all fixed-income securities. It is important that investors and financial managers understand these theorems.
+
+interest rate risk uncertainty about future bond values that is caused by the unpredictability of interest rates
+
+Bond Theorems
+Bond prices are negatively related to interest rate movements. As interest rates decline, the prices of bonds rise; and as interest rates rise, the prices of bonds decline. As mentioned earlier, this negative relation exists because the coupon rate on most bonds is fixed at the time the bonds are issued. Note that this negative relation is observed not only for bonds but also for all other financial claims that pay a fixed rate of interest to investors, such as bank loans and home mortgages.
+For a given change in interest rates, the prices of long-term bonds will change more than the prices of short-term bonds. In other words, long-term bonds have greater price volatility (risk) than short-term bonds because, all other things being equal, long-term bonds have greater interest rate risk than short-term bonds. Exhibit 8.2 illustrates the fact that bond values are not equally affected by changes in market interest rates. The exhibit shows how the prices of a 1-year bond and a 30-year bond change with changing interest rates. As you can see, the long-term bond has much wider price swings than the short-term bond. Why? The answer is that long-term bonds receive most of their cash flows farther into the future, and because of the time value of money, these cash flows are heavily discounted. This makes the 30-year bond riskier than the 1-year bond.
+For a given change in interest rates, the prices of lower-coupon bonds change more than the prices of higher-coupon bonds. Exhibit 8.3 illustrates the relation between bond price volatility and coupon rates. The exhibit shows the prices of three 10-year bonds: a zero coupon bond, a 5 percent coupon bond, and a 10 percent coupon bond. Initially, the bonds are priced to yield 5 percent (see column 2). The bonds are then priced at yields of 6 and 4 percent (see columns 3 and 6). The dollar price changes for each bond given the appropriate interest rate change are recorded in columns 4 and 7, and percentage price changes (price volatilities) are shown in columns 5 and 8.
+EXHIBIT 8.2 Relation between Bond Price Volatility and Maturity The prices of a 1-year and a 30-year bond respond differently to changes in market interest rates. The long-term bond has much wider price swings than the short-term bond, as predicted by the second bond theorem.
+
+
+EXHIBIT 8.3 Relation between Bond Price Volatility and the Coupon Rate
+
+The exhibit shows the prices of three 10-year bonds: a zero coupon bond, a 5 percent coupon bond, and a 10 percent coupon bond. Initially, the bonds are priced at a 5 percent yield (column 2). The bonds are then priced at yields of 6 and 4 percent (columns 3 and 6). The price changes shown are consistent with the third bond theorem: the smaller the coupon rate, the greater the percentage price change for a given change in interest rates.
+
+(1)	(2)	Price Change if Yield Increases from 5% to 6%	Price Change if Yield Decreases from 5% to 4%
+(3)	(4)	(5)	(6)	(7)	(8)
+Coupon Rate	Bond Price at 5% Yield	Bond Price at 6%	Loss from Increase in Yield	% Price Change	Bond Price at 4%	Gain from Decrease in Yield	% Price Change
+0%	    $613.91	    $558.39	$55.52	−9.04%	    $675.56	    $61.65	10.04%
+5%	$1,000.00	    $926.40	$73.60	−7.36%	$1,081.11	    $81.11	    8.11%
+10%	$1,386.09	$1,294.40	$91.69	−6.61%	$1,486.65	$100.57	    7.26%
+Note: Calculations are based on a bond with a $1,000 face value and a 10-year maturity and assume annual compounding.
+As shown in column 5, when interest rates increase from 5 to 6 percent, the zero coupon bond experiences the greatest percentage price decline, and the 10 percent bond experiences the smallest percentage price decline. Similar results are shown in column 8 for interest rate decreases. In sum, the lower a bond’s coupon rate, the greater its price volatility, and hence, lower-coupon bonds have greater interest rate risk.
+
+The reason for the higher interest rate risk for low-coupon bonds is essentially the same as the reason for the higher interest rate risk for long-term bonds. The lower the bond’s coupon rate, the greater the proportion of the bond’s total cash flows investors will receive at maturity. This is clearly seen with a zero coupon bond, where all of the bond’s cash flows are received at maturity. The farther into the future the cash flows are to be received, the greater the impact of a change in the discount rate on their present value. Thus, all other things being equal, a given change in interest rates will have a greater impact on the price of a low-coupon bond than on the price of a higher-coupon bond with the same maturity.
+
+Bond Theorem Applications
+The bond theorems provide important information about bond price behavior for financial managers. For example, if you are the treasurer of a firm and are investing cash temporarily—say, for a few days—the last security you want to purchase is a long-term zero coupon bond. In contrast, if you are an investor and you expect interest rates to decline, you may well want to invest in a long-term zero coupon bond. This is because as interest rates decline, the prices of long-term zero coupon bonds will increase more than those of any other type of bond.
+
+Make no mistake, forecasting interest rate movements and investing in long-term bonds is a very high-risk strategy. In 1990, for example, executives at Shearson Lehman Hutton (predecessor to Lehman Brothers, the firm that famously went bankrupt in 2008, the beginning of the Great Recession) made a huge bet on interest rate movements and lost. Specifically, over a number of months, the firm made investments in long-term bonds that totaled $480 million. The bet was that interest rates would decline. When interest rates failed to decline and losses mounted, the Shearson team sold the bonds at a loss totaling $115 million. The executives responsible were fired for “lack of judgment.”
+
+Decision Making Example 8.1 illustrates another application of the bond theorems.
+
+DECISION MAKING EXAMPLE 8.1
+Risk Taking
+
+Situation
+
+You work for the treasurer of a large manufacturing corporation where earnings are down substantially for the year. The treasurer’s staff is convinced that interest rates are going to decline over the next three months, and they want to invest in fixed-income securities to make as much money as possible for the firm. The staff recommends investing in one of the following securities:
+
+3-month U.S. Government Treasury bill
+20-year corporate bond
+20-year zero coupon U.S. Government Treasury bond
+The treasurer asks you to answer the following questions about the staff’s plan: (1) What is the underlying strategy of the proposed plan? (2) Which investment should be selected if the plan is executed? (3) What should the treasurer do?
+
+
+
+The moral of the story is simple. Long-term bonds carry substantially more interest rate risk than short-term bonds, and investors in long-term bonds need to fully understand the magnitude of the risk involved. Furthermore, no one can predict interest rate movements consistently, including the Federal Reserve Bank (Fed)—and it controls the money supply.
+
+Before You Go On
+What is interest rate risk?
+Explain why long-term bonds with zero coupons are riskier than short-term bonds that pay coupon interest.
+8.5 The Determinants of Corporate Borrowing Costs
+LEARNING OBJECTIVE
+
+Discuss the concept of default risk and know how to compute a default risk premium.
+In Chapter 2 we discussed the economic forces that determine the level of interest rates, and so far in this chapter, we have discussed how to price various types of debt securities. Armed with this knowledge, we now explore why, on the same day, different firms have different borrowing costs. As you will see, market analysts have identified three characteristics of debt instruments that are responsible for many of the differences in corporate borrowing costs: the security’s marketability, call provision, and default risk.
+
+Marketability
+The interest rate, or yield, on a security varies with its degree of marketability. Recall from Chapter 2 that marketability refers to the ease with which an investor can sell a security quickly at a low transaction cost. The transaction costs include all fees and the cost of searching for information. The lower the costs, the greater a security’s marketability. Because investors prefer marketable securities, they must be paid a premium to purchase otherwise similar securities that are less marketable. The difference in interest rates or yields between a highly marketable security and a less marketable security is known as the marketability risk premium (MRP) and can be defined as follows:
+
+where ilow mkt is the yield on a low or less marketable security and ihigh mkt is the yield on a more highly marketable security.
+
+U.S. Treasury bills have the largest and most active secondary market and are considered to be the most marketable of all securities. Investors can sell virtually any dollar amount of Treasury securities quickly without disrupting the market. Similarly, the securities of many well-known businesses enjoy a high degree of marketability, especially firms whose securities are traded on the major exchanges. For thousands of other firms whose securities are not traded actively, a lack of marketability can raise borrowing costs substantially.
+
+Call Provision
+Most corporate bond contracts contain a call provision. A call provision gives the firm issuing the bonds the option to purchase the bond from an investor at a predetermined price (the call price). The investor must sell the bond at that price to the firm when the firm exercises this option. Bonds with a call provision pay higher yields than comparable noncallable bonds. Investors require the higher yields because call provisions work to the benefit of the borrower and the detriment of the investor. For example, if interest rates decline after the bond is issued, the issuer can call (retire) the bonds at the call price and refinance with a new bond issued at the lower prevailing market rate of interest. The issuing firm is delighted because the refinancing has lowered its interest expense. However, investors are less gleeful. When bonds are called following a decline in interest rates, investors suffer a financial loss because they are forced to surrender their high-yielding bonds and reinvest their funds at the lower prevailing market rate of interest.
+
+The difference in interest rates between a callable bond and a comparable noncallable bond is called the call interest premium (CIP) and can be defined as follows:
+
+where CIP is the call interest premium, icall is the yield on a callable bond, and incall is the yield on a noncallable bond of the same marketability, default risk, and term to maturity. Thus, the more likely a bond is to be called, the higher the CIP and the higher the bond’s market yield. Bonds issued during periods when interest rates are high are likely to be called when interest rates decline, and as a result, these bonds have a large CIP. Conversely, bonds sold when interest rates are relatively low are less likely to be called and have a smaller CIP.
+
+Default Risk
+Recall that any debt, such as a bond or a bank loan, is a formal promise by the borrower to make periodic interest payments and pay the principal as specified in the debt contract. Failure on the borrower’s part to meet any condition of the debt or loan contract constitutes default. As discussed in Chapter 4, default risk refers to the risk that the borrower will not be able to pay its debt obligations as they come due.
+
+The Default Risk Premium
+
+Because investors are risk averse, they must be paid a premium to purchase a security that exposes them to default risk. The size of the premium has two components: (1) compensation for the expected loss if a default occurs and (2) compensation for bearing the risk that a default could occur. The degree of default risk for a security can be measured as the difference between the interest rate on the risky security and the interest rate on a default-free security—all other factors, such as marketability, the existence of a call provision, or term to maturity, are held constant. The default risk premium (DRP) is defined as follows:
+
+where idr is the interest rate (yield) on the security that has default risk and irf is the interest rate (yield) on a risk-free security. U.S. Treasury securities are the best proxy measure for the risk-free rate. The larger the default risk premium, the higher the probability of default, and the higher the security’s market yield.
+
+Bond Ratings
+
+Many investors, especially individuals and smaller businesses, do not have the expertise to formulate the probabilities of default themselves, so they must rely on credit rating agencies to provide this information. The three most prominent credit rating agencies are Moody’s Investors Service (Moody’s), Standard & Poor’s (S&P), and Fitch. All three credit rating services rank bonds in order of their expected probability of default and publish the ratings as letter grades. The rating schemes used are shown in Exhibit 8.4. The highest-grade bonds, those with the lowest default risk, are rated Aaa (or AAA). The default risk premium on corporate bonds increases as the bond rating becomes lower. In 2020, only two U.S. companies maintained a Aaa credit rating: Microsoft and Johnson & Johnson. While this may seem unusual, in Chapter 16 we will discuss the costs and potential offsetting benefits for firms that elect to carry lower credit ratings.
+
+Exhibit 8.4 also shows that bonds in the top four rating categories are called investment-grade bonds. Bonds rated below Baa (or BBB) may be referred to as noninvestment-grade bonds, but most practitioners refer to them as speculative-grade bonds, high-yield bonds, or junk bonds. The distinction between investment-grade and noninvestment-grade bonds is important because state and federal laws typically require commercial banks, insurance companies, pension funds, other financial institutions, and government agencies to purchase only securities rated as investment grade.
+
+investment-grade bonds bonds with low risk of default that are rated Baa (BBB) or above
+
+noninvestment-grade bonds bonds rated below Baa (or BBB) by rating agencies; often called speculative-grade bonds, high-yield bonds, or junk bonds
+
+EXHIBIT 8.4 Corporate Bond Rating Systems
+
+Moody’s has a slightly different notation in its ratings of corporate bonds than do Standard & Poor’s and Fitch, but the interpretation is the same. Bonds with the highest credit standing are rated Aaa (or AAA) and have the lowest default risk. The credit rating declines as the default risk increases.
+
+
+EXHIBIT 8.5 Default Risk Premiums for Selected Bond Ratings
+
+The default risk premium (DRP) measures the yield difference between the yield on Treasury securities (the risk-free rate) and the yields on riskier securities of the same maturity.
+Security: Credit Rating	Security Yield (%) (1)	Risk-Free Ratea (%) (2)	Default Risk:Premium (%) (1) − (2)
+Aaa/AAA	2.20	1.49	0.71
+Aa/AA	2.68	1.49	1.19
+A/A	3.18	1.49	1.69
+Baa/BBB	4.37	1.49	2.88
+a20-year Treasury bond yield as of December 18, 2020.
+
+Sources: U.S. Department of the Treasury (www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield) and Fidelity (https://fixedincome.fidelity.com/ftgw/fi/FILanding).
+Exhibit 8.5 shows default risk premiums associated with selected bonds with investment-grade bond ratings in December 2020. The premiums are the differences between yields on Treasury securities—which, as mentioned, are the proxy for the risk-free rate—and yields on riskier securities of similar maturity. The 0.71 percent default risk premium on Aaa-rated corporate bonds represents the market consensus of the amount investors must be compensated to induce them to purchase typical Aaa-rated bonds instead of a risk-free security. As credit quality declines from Aaa to Baa, the default risk premiums increase from 0.71 percent to 2.88 percent.
+
+
+Fidelity Investment Company’s Web site provides information on bond ratings at www.fidelity.com/learning-center/investment-products/fixed-income-bonds/bond-ratings
+
+8.6 The Term Structure of Interest Rates
+Learning Objective
+
+Describe the factors that determine the level and shape of the yield curve.
+In the preceding section, we described how marketability, call provisions, and default risk determine the cost of borrowing for a company. The term to maturity for a loan is also important for borrowing costs. The term to maturity of a loan is the length of time until the principal amount is payable. The relation between yield to maturity and term to maturity is known as the term structure of interest rates. We can view the term structure visually by plotting the yield curve, a graph with term to maturity on the horizontal axis and yield to maturity on the vertical axis. Yield curves show graphically how market yields vary as term to maturity changes.
+
+term structure of interest rates the relation between yield to maturity and term to maturity
+
+yield curve a graph representing the term structure of interest rates, with the term to maturity on the horizontal axis and the yield on the vertical axis
+
+For yield curves to be meaningful, the securities used to plot the curves should be similar in all features (for example, marketability, call provisions, and default risk) except for maturity. We do not want to confound the relation of yield and term to maturity with other factors that also affect interest rates. We can see the term structure relation by examining yields on U.S. Treasury securities with different maturities because their other features are similar.
+
+Exhibit 8.6 shows data and yield curve plots for Treasury securities at various points in time. As you can see, the shape of the yield curve is not constant over time. As the general level of interest rises and falls, the yield curve shifts up and down and has different slopes.
+
+Note that the yield curve as of December 2020 is lower than the yield curve just three years earlier in December 2017. Also, short-term rates in December 2020 were very close to zero (0.09 percent), which is extremely low by historical standards. In fact, in some European countries’ short-term rates have even been negative in recent years. A negative rate means that rather than earning interest, investors are effectively paying to lend money! Additionally, with interest rates at low levels, bond investors might be concerned about potential interest rate increases. As we know, when interest rates rise, bond prices fall and bondholders can face capital losses. A broader implication is that bond investors might start looking for higher returns elsewhere, which in turn likely involves different and riskier investments, a topic we will discuss further in later chapters.
+
+EXHIBIT 8.6 Yield Curves for Treasury Securities at Three Different Points in Time The shape, or slope, of the yield curve is not constant over time. The exhibit shows two shapes: (1) the curves for December 2020 and January 2017 are upward sloping, which is the shape most commonly observed, and (2) the curve for September 2019 is downward sloping for maturities out to five years.
+
+
+Interest Rate (%)
+Terms to Maturity	December 2020	September 2019	December 2017
+6 months	0.09	1.88	0.63
+1 year	0.09	1.72	0.82
+5 year	0.39	1.35	1.94
+10 years	0.95	1.47	2.49
+20 years	1.49	1.77	2.80
+We can observe three basic shapes (slopes) of yield curves in the marketplace. First is the ascending, or upward-sloping, yield curve (December 2017 and December 2020), which is the shape most commonly observed. Second, descending, or downward-sloping, yield curves, such as the curve in September 2019, appear periodically and are characterized by short-term yields (for example, the six-month yield) that exceed long-term yields (for example, the 10-year yield). Downward-sloping yield curves often appear before the beginning of a recession. Finally, relatively flat yield curves are not common but do occur from time to time. Three factors affect the level and the shape (the slope) of the yield curve over time: the real rate of interest, the expected rate of inflation, and interest rate risk.
+
+The real rate of interest is the base interest rate in the economy and is determined by individuals’ time preference for consumption; that is, it tells us how much individuals must be paid to forgo spending their money today. The real rate of interest varies with the business cycle, with the highest rates seen at the end of a period of business expansion and the lowest at the bottom of a recession. The real rate is not affected by the term to maturity. Thus, the real rate of interest affects the level of interest rates but not the shape of the yield curve.
+
+The expected rate of inflation can influence the shape of the yield curve. If investors believe that inflation will increase in the future, the yield curve will be upward sloping because long-term interest rates will contain a larger inflation premium than short-term interest rates. The inflation premium is the market’s best estimate of future inflation. Conversely, if investors believe inflation will subside in the future, the prevailing yield will be downward sloping.
+
+Finally, the presence of interest rate risk affects the shape of the yield curve. As discussed earlier, long-term bonds have greater price volatility than short-term bonds. Because investors are aware of this risk, they demand compensation in the form of an interest rate premium. It follows that the longer the maturity of a security, the greater its interest rate risk, and the higher the interest rate. It is important to note that the interest rate risk premium always adds an upward bias to the slope of the yield curve.
+
+In sum, the cumulative effect of three economic factors determines the level and shape of the yield curve: (1) the cyclical movements of the real rate of interest affect the level of the yield curve, (2) the expected rate of inflation can bias the slope of the yield curve either positively or negatively, depending on market expectations of inflation, and (3) interest rate risk always provides an upward bias to the slope of the yield curve.
+
+Before You Go On
+What are default risk premiums, and what do they measure?
+Describe the three most prominent bond rating systems.
+What are the key factors that most affect the level and shape of the yield curve?
+
+Stockcharts.com has an illustration of how the yield curve has changed over time—just click on the “animate” button. Go to: www.stockcharts.com/freecharts/yieldcurve.php
+
+Summary of Learning Objectives
+1 Describe the market for corporate bonds and three types of corporate bonds.
+
+The market for corporate bonds is a very large market in which the most important investors are large institutions. Most trades take place through dealers in the OTC market, making the corporate bond market relatively thin. Prices of corporate bonds tend to be more volatile than prices of securities that trade more frequently, such as stocks and money market instruments, and the corporate bond market tends to be less efficient than markets for these other securities.
+
+A vanilla bond pays fixed regular coupon payments over the life of the bond, and the entire principal is repaid at maturity. A zero coupon bond pays all interest and all principal at maturity. Since there are no payments before maturity, zero coupon bonds are issued at prices below their face value. Convertible bonds can be exchanged for common stock at a predetermined ratio.
+
+2 Explain how to calculate the value of a bond and why bond prices vary negatively with interest rate movements.
+
+The value of a bond is equal to the present value of the future cash flows (coupon payments and principal repayment) discounted at the market rate of interest for bonds with similar risk. Bond prices vary negatively with interest rates because the coupon rate on most bonds is fixed at the time the bond is issued. As market interest rates go up, the prices of bonds with fixed coupon payments will be bid down by investors, driving up the yields of those bonds to market levels. When interest rates decline, the yield on fixed-income securities will be higher relative to the yield on similar securities in the market; the favorable yield will increase investor demand for these securities, increasing their price and lowering their yield to the market yield.
+
+3 Distinguish between a bond’s coupon rate, yield to maturity, and effective annual yield.
+
+A bond’s coupon rate is the interest rate on the bond, relative to its face value. U.S. bonds typically pay interest semiannually, whereas European bonds pay once a year. The yield to maturity is the expected return on a bond if it is held to its maturity date. The effective annual yield is the yield an investor actually earns in one year, adjusting for the effects of compounding. If the bond pays coupon payments more often than annually, the effective annual yield will be higher than the simple annual yield because of compounding. Work through Learning by Doing Applications 8.2, 8.3, and 8.4 to master these calculations.
+
+4 Explain why investors in bonds are subject to interest rate risk and why it is important to understand the bond theorems.
+
+Because interest rates are always changing in the market, all investors who hold bonds are subject to interest rate risk. Interest rate risk is uncertainty about future bond values caused by fluctuations in interest rates. Three of the most important bond theorems can be summarized as follows:
+
+Bond prices are negatively related to interest rate movements.
+For a given change in interest rates, the prices of long-term bonds will change more than the prices of short-term bonds.
+For a given change in interest rates, the prices of lower-coupon bonds will change more than the prices of higher-coupon bonds.
+Understanding these theorems is important because it helps investors better understand why bond prices change and, thus, make better decisions regarding the purchase or sale of bonds and other fixed-income securities.
+
+5 Discuss the concept of default risk and know how to compute a default risk premium.
+
+Default risk is the risk that the issuer will be unable to pay its debt obligation. Since investors are risk averse, they must be paid a premium to purchase a security that exposes them to default risk. The default risk premium has two components: (1) compensation for the expected loss if a default occurs and (2) compensation for bearing the risk that a default could occur. All factors held constant, the degree of default risk a security possesses can be measured as the difference between the interest rate on a risky security and the interest rate on a default-free security. The default risk is also reflected in the company’s bond rating. The highest-grade bonds, those with the lowest default risk, are rated Aaa (or AAA). The default risk premium on corporate bonds increases as the bond rating becomes lower.
+
+6 Describe the factors that determine the level and shape of the yield curve.
+
+The level and shape of the yield curve are determined by three factors: (1) the real rate of interest, (2) the expected rate of inflation, and (3) interest rate risk. The real rate of interest is the base interest rate in the economy and varies with the business cycle. The real rate of interest affects only the level of the yield curve and not its shape. The expected rate of inflation does affect the shape of the yield curve. If investors believe inflation will increase in the future, for example, the curve will be upward sloping, as long-term rates will contain a larger inflation premium than short-term rates. Finally, interest rate risk, which increases with a security’s maturity, adds an upward bias to the slope of the yield curve.
+
+Summary of Key Equations
+Equation	Description	Formula
+8.1	Price of a bond	
+8.2	Price of a bond making multiple payments each year	
+8.3	Price of zero coupon bond	
+Self-Study Problems
+8.1 Calculate the price of a five-year bond that has a coupon rate of 6.5 percent paid annually. The current market rate is 5.75 percent.
+
+ 
+
+8.2 Bigbie Corp. issued a five-year bond one year ago with a coupon rate of 8 percent. The bond pays interest semiannually. If the yield to maturity on this bond is 9 percent, what is the price of the bond?
+
+
+
+8.3 Rockwell Industries has a three-year bond outstanding that pays a 7.25 percent coupon rate and is currently priced at $913.88. What is the yield to maturity of this bond? Assume annual coupon payments.
+
+
+
+Thus, the YTM is approximately 10.75 percent. Using a financial calculator provides an exact YTM of 10.7594%.
+
+8.4 Hindenberg, Inc., has a 10-year bond that is priced at $1,100.00. It has a coupon rate of 8 percent paid semiannually. What is the yield to maturity on this bond?
+
+
+
+8.5 Highland Corp., a U.S. company, has a five-year bond whose yield to maturity is 6.5 percent. The bond has no coupon payments. What is the price of this zero coupon bond?
+
+
+
+Discussion Questions
+8.1 Because the conversion feature in a convertible bond is valuable to bondholders, convertible bond issues have lower coupon payments than otherwise similar bonds that are not convertible. Does this mean that a company can lower its cost of borrowing by selling convertible debt? Explain.
+
+8.2 What economic conditions would prompt investors to take advantage of a bond’s convertibility feature?
+
+8.3 We know that a vanilla bond with a coupon rate below the market rate of interest will sell for a discount and that a vanilla bond with a coupon rate above the market rate of interest will sell for a premium. What kind of bond or loan will sell at its par value regardless of what happens to the market rate of interest?
+
+8.4 Define yield to maturity. Why is it important?
+
+8.5 Define interest rate risk. How can CFOs manage this risk?
+
+8.6 Explain why bond prices and interest rates are negatively related. What are the roles of the coupon rate and the term to maturity in this relation?
+
+8.7 If interest rates are expected to increase, should investors look to long-term bonds or short-term bonds? Explain.
+
+8.8 Explain what you would assume the yield curve would look like during economic expansion and why.
+
+8.9 An investor holds a 10-year bond paying a coupon rate of 9 percent. The yield to maturity of the bond is 7.8 percent. Would you expect the investor to be holding a par-value, premium, or discount bond? What if the yield to maturity were 10.2 percent? Explain.
+
+8.10
+
+Investor A holds a 10-year bond, while investor B holds an 8-year bond. If the interest rate increases by 1 percent, which investor has the higher interest rate risk? Explain.
+Investor A holds a 10-year bond paying 8 percent a year, while investor B also has a 10-year bond that pays a 6 percent coupon. Which investor has the higher interest rate risk? Explain.
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+8.1 Bond price: BA Corp is issuing a 10-year bond with a coupon rate of 8 percent. The interest rate for similar bonds is currently 6 percent. Assuming annual payments, what is the value of the bond?
+
+8.2 Bond price: Pierre Dupont just received a cash gift from his grandfather. He plans to invest in a five-year bond issued by Venice Corp. that pays an annual coupon rate of 5.5 percent. If the current market rate is 7.25 percent, what is the maximum amount Pierre should be willing to pay for this bond?
+
+8.3 Bond price: Knight, Inc., has issued a three-year bond that pays a coupon rate of 6.10 percent. Coupon payments are made semiannually. Given the market rate of interest of 5.80 percent, what is the market value of the bond?
+
+8.4 Bond price: Regatta Inc. has seven-year bonds outstanding that pay a 12 percent coupon rate. Investors buying these bonds today can expect to earn a yield to maturity of 8.875 percent. What is the current value of these bonds? Assume annual coupon payments.
+
+8.5 Bond price: You are interested in investing in a five-year bond that pays a 7.8 percent coupon rate with interest to be received semiannually. Your required rate of return is 8.4 percent. What is the most you would be willing to pay for this bond?
+
+8.6 Zero coupon bonds: Diane Carter is interested in buying a five-year zero coupon bond with a face value of $1,000. She understands that the market interest rate for similar investments is 9 percent. Assume annual coupon payments. What is the current value of this bond?
+
+8.7 Zero coupon bonds: Ten-year zero coupon bonds issued by the U.S. Treasury have a face value of $1,000, and interest is compounded semiannually. If similar bonds in the market yield 10.5 percent, what is the value of these bonds?
+
+8.8 Zero coupon bonds: Northrop Real Estate Company management is planning to fund a development project by issuing 10-year zero coupon bonds with a face value of $1,000. Assuming semiannual compounding, what will be the price of these bonds if the appropriate discount rate is 14 percent?
+
+8.9 Yield to maturity: Ruth Hornsby is looking to invest in a three-year bond that makes semiannual coupon payments at a rate of 5.875 percent. If these bonds have a market price of $981.13, what yield to maturity can she expect to earn?
+
+8.10 Yield to maturity: Rudy Sandberg wants to invest in four-year bonds that are currently priced at $868.43. These bonds have a coupon rate of 6 percent and make semiannual coupon payments. What is the current market yield on this bond?
+
+8.11 Realized yield: Josh Kavern bought 10-year, 12 percent coupon bonds issued by the U.S. Treasury three years ago at $913.44. If he sells these bonds, for which he paid the face value of $1,000, at the current price of $804.59, what is his realized yield on the bonds? Assume similar coupon-paying bonds make annual coupon payments.
+
+8.12 Realized yield: Four years ago, Lisa Stills bought six-year, 5.5 percent coupon bonds issued by the Fairways Corp. for $947.68. If she sells these bonds at the current price of $894.52, what will be her realized yield on the bonds? Assume similar coupon-paying bonds make annual coupon payments.
+
+Intermediate
+8.13 Bond price: The International Publishing Group is raising $10 million by issuing 15-year bonds with a coupon rate of 8.5 percent. Coupon payments will be made annually. Investors buying the bonds today will earn a yield to maturity of 8.5 percent. At what price will the bonds sell in the marketplace? Explain.
+
+8.14 Bond price: Lopez Information Systems management is planning to issue 10-year bonds. The going market yield for such bonds is 8.125 percent. Assume that coupon payments will be made semiannually. Management is trying to decide whether to issue an 8 percent coupon bond or a zero coupon bond. Lopez needs to raise $1 million. What will be the price of an 8 percent coupon bond, and how many 8 percent coupon bonds will have to be issued? What will be the price of a zero coupon bond, and how many zero coupon bonds will have to be issued?
+
+8.15 Bond price: Marshall Company is issuing eight-year bonds with a coupon rate of 6.5 percent and semiannual coupon payments. If the current market rate for similar bonds is 8 percent, what will the bond price be? If company management wants to raise $1.25 million, how many bonds does the firm have to sell?
+
+8.16 Bond price: Rockne, Inc., has outstanding bonds that will mature in six years and pay an 8 percent coupon semiannually. If you paid $1,036.65 today and your required rate of return was 6.6 percent, did you pay the right price for the bond?
+
+8.17 Bond price: Nanotech, Inc., has a bond issue maturing in seven years that is paying a coupon rate of 9.5 percent (semiannual payments). Management wants to retire a portion of the issue by buying the securities in the open market. If it can refinance at 8 percent, how much will Nanotech pay to buy back its current outstanding bonds?
+
+8.18 Zero coupon bonds: Kintel, Inc., management wants to raise $1 million by issuing six-year zero coupon bonds with a face value of $1,000. The company’s investment banker states that investors would use an 11.4 percent discount rate to value such bonds. At what price would these bonds sell in the marketplace? How many bonds would the firm have to issue to raise $1 million? Assume semiannual coupon payments.
+
+8.19 Zero coupon bonds: Rockinghouse Corp. management plans to issue seven-year zero coupon bonds. It has learned that these bonds will sell today at a price of $439.76. Assuming annual coupon payments, what is the yield to maturity on these bonds?
+
+8.20 Yield to maturity: Electrolex, Inc., has four-year bonds outstanding that pay a coupon rate of 6.6 percent and make coupon payments semiannually. If these bonds are currently selling at $914.89, what is the yield to maturity that an investor can expect to earn on these bonds? What is the effective annual yield?
+
+8.21 Yield to maturity: Serengeti Corp. has five-year bonds outstanding that pay a coupon rate of 8.8 percent. If these bonds are priced at $1,064.86, what is the yield to maturity on these bonds? Assume semiannual coupon payments. What is the effective annual yield?
+
+8.22 Yield to maturity: Adrienne Dawson is planning to buy 10-year zero coupon bonds issued by the U.S. Treasury. If these bonds have a face value of $1,000 and are currently selling at $404.59, what is the expected return on them? Assume that interest compounds semi-annually on similar coupon paying bonds.
+
+8.23 Realized yield: Brown & Co. issued seven-year bonds two years ago that can be called after two years. The bonds make semiannual coupon payments at a coupon rate of 7.875 percent. Each bond has a market value of $1,053.40, and the call price is $1,078.75. If an investor purchased the bonds at par value when they were originally issued and the bonds are called by the firm today, what is the investor’s realized yield?
+
+8.24 Realized yield: Trevor Price bought 10-year bonds issued by Harvest Foods five years ago for $936.05. The bonds make semiannual coupon payments at a rate of 8.4 percent. If the current price of the bonds is $1,048.77, what is the yield that Trevor would earn by selling the bonds today?
+
+8.25 Realized yield: You bought a six-year bond issued by Runaway Corp. four years ago. At that time, you paid $974.33 for the bond. The bond pays a coupon rate of 7.375 percent, and coupon payments are made semiannually. Currently, the bond is priced at $1,023.56. What yield can you expect to earn on this bond if you sell it today?
+
+Advanced
+8.26 Pullman Corp issued 10-year bonds four years ago with a coupon rate of 9.375 percent. At the time of issue, the bonds sold at par. Today bonds of similar risk and maturity must pay an annual coupon of 6.25 percent to sell at par value. Assuming semiannual coupon payments:
+
+What is the bond’s yield to maturity?
+What is the current market price of the firm’s bonds?
+8.27 Showbiz, Inc., has issued eight-year bonds with a coupon rate of 6.375 percent and semiannual coupon payments. The market’s required rate of return on such bonds is 7.65 percent.
+
+What is the market price of these bonds?
+If the bonds are callable after five years at an 8.5 percent premium on the face value, what is the expected return on the bonds
+8.28 Peabody Corp. has seven-year bonds outstanding. The bonds pay a coupon rate of 8.375 percent semiannually and are currently worth $1,063.49. The bonds can be called in three years at a price of $1,075.
+
+What is the yield to maturity of these bonds?
+What is the effective annual yield?
+What is the realized yield on the bonds if they are called?
+If you plan to invest in one of these bonds today, what is the expected yield on the investment? Explain.
+8.29 The Maryland Department of Transportation has issued 25-year bonds that make semiannual coupon payments at a rate of 9.875 percent. The current market rate for similar securities is 11 percent.
+
+What is the current market value of one of these bonds?
+What will be the bond’s price if rates in the market (i) decrease to 9 percent or (ii) increase to 12 percent?
+Refer to your answers in part b. How do the interest rate changes affect premium bonds and discount bonds?
+Suppose the bond were to mature in 12 years. How do the interest rate changes in part b affect the bond prices?
+8.30 Rachette Corp. has 18-year bonds outstanding. These bonds, which pay interest semiannually, have a coupon rate of 9.735 percent and a yield to maturity of 7.95 percent.
+
+Compute the current price of these bonds.
+If the bonds can be called in five years at a premium of 13.5 percent over par value, what is the investor’s realized yield?
+If you bought one of these bonds today, what is your expected rate of return? Explain.
+8.31 Zippy Corporation just sold $30 million of convertible bonds with a conversion ratio of 40. Each $1,000 bond is convertible into 25 shares of Zippy’s stock.
+
+What is the conversion price of Zippy’s stock?
+If the current price of Zippy’s stock is $15 and the company’s annual stock return is normally distributed with a standard deviation of $5, what is the probability that investors will find it attractive to convert the bond into Zippy stock in the next year?
+8.32 Hastings Corporation has a discount bond making semiannual coupon payments at a rate of 5.2 percent, with 10 years to maturity. The current market rate for similar securities is 6.4 percent. Pivotal Corporation has a premium bond making semiannual coupon payments and a rate of 6.0 percent, with 10 years to maturity. The current market rate for securities similar to the Pivotal bond is 5.2 percent.
+
+If interest rates remain unchanged, what do you expect the price of these bonds to be in 1 year? In 3 years? In 7 years? In 10 years?
+Explain what is happening to the price of each bond as the time to maturity approaches zero and why.
+Sample Test Problems
+8.1 Seven years ago Eastern Corporation issued 20-year bonds that had a $1,000 face value, paid interest annually, and had a coupon rate of 7 percent. If the market rate of interest is 5.5 percent today, what is the current market price of an Eastern Corporation bond? Are these bonds selling at a premium or a discount?
+
+8.2 You are considering investing in a 10-year zero coupon bond that compounds interest semiannually. If the current market rate is 5.65 percent, what is the maximum price you should have to pay for this bond?
+
+8.3 Bigbox, Inc., has bonds outstanding that will mature in eight years. These bonds pay interest semiannually and have a coupon rate of 4.6 percent. If the bonds are currently selling at $888.92, what is the yield to maturity that an investor who buys them today can expect to earn? What is the effective annual yield?
+
+8.4 Given a change in market interest rates, which will change more: the market price of a bond with 20 years until maturity or the market price of a bond with 5 years until maturity? Assume all the characteristics of these bonds are identical except the maturity dates.
+
+8.5 Which of the following classes of securities is likely to have the lowest corporate borrowing cost?
+
+AAA rated bonds.
+A rated bonds.
+BB rated bonds.
+C rated bonds.
+All of the above will have the same corporate borrowing cost.
+Ethics Case
+The Subprime Mortgage Market Meltdown: How Did It Happen?
+The U.S. economy appeared strong throughout the first half of 2007, but many observers saw clouds on the horizon in the form of trouble brewing in the subprime home mortgage market. Fear of the coming storm intensified as housing prices dropped, home foreclosures increased, major subprime mortgage lenders filed for bankruptcy, and investors took losses on mortgage-backed securities. By the end of the year, many were predicting a serious economic downturn.
+
+
+“It’s not like a bottle of water,” said Senator Charles E. Schumer, chairman of the Joint Economic Committee of the U.S. Congress. “It’s much more like a pond where ripples start and can spread quickly…. The subprime ripple leads to another ripple of lower housing prices and a credit crunch for banks and financial markets. Another ripple driven by consumer anxiety causes lower consumer spending, which makes up nearly two-thirds of our economic growth, and leads to an even larger ripple that may end up causing a recession.”1
+
+What Are Subprime Mortgages?
+
+The subprime mortgages at the center of all this turmoil were made to borrowers who had poor credit histories or who were considered high credit risks for other reasons. Subprime mortgages are a relatively recent phenomenon because, prior to the 1980s, usury laws limited the ability of lenders to charge interest rates that adequately compensated them for the risks associated with these loans. As a result, subprime mortgage loans were simply not made before the usury laws were relaxed.
+
+Several new federal laws were passed in the 1980s that, among other things, eliminated interest rate caps and made it possible for high-risk borrowers to obtain home mortgages. The subprime market experienced ups and downs in the 1990s, but by the early 2000s it had become an important part of the broader mortgage market. Loans originated in the subprime market made up less than 5 percent of mortgage loans in 1994 but increased to 13 percent in 2000 and to more than 20 percent in 2005 and 2006.2 The increase after 2000 accompanied a rapid rise in home prices in many real estate markets throughout the United States. Higher prices resulted in larger mortgage loans, which in turn increased the average risk of new loans, because incomes were not rising as quickly as home prices.
+
+The emergence of the subprime market was accompanied by a number of changes in the structure of mortgage lending. Traditionally, a person who wanted a mortgage loan dealt with a bank or a savings and loan institution, which granted the loan (or refused to grant it), financed the loan with deposits, collected the payments, and foreclosed on the property if the payments weren’t made. Today, these activities are much more likely to be carried out by separate institutions. For example, a majority of subprime mortgages are originated by mortgage brokers—intermediaries that earn a fee by bringing borrowers and lenders together. Once the loans are made, the lenders often resell the resulting mortgages.
+
+Beginning in the 1990s, the securitization of mortgage loans became quite popular. This practice involves bundling groups of loans with similar characteristics and selling claims on the cash flows from these bundles, called mortgage-backed securities (MBSs). Most commonly, MBSs are sold to institutional investors by investment banks. Investors in mortgage-backed securities include insurance companies, mutual funds, pension funds, and hedge funds, among others. The securitization of subprime loans increased from about 32 percent of all such loans in 1994 to about 78 percent in 2006.3 This development meant that much of the relatively high risk associated with subprime loans was spread among a large number of investors, rather than a relatively small number of lending institutions.
+
+Over the same period, a number of new kinds of mortgages were developed to supplement the traditional fixed-rate mortgage. Especially important in the subprime market are various kinds of adjustable-rate mortgages (ARMs). The interest rate in an ARM changes (resets) at regular intervals—once a year, for example—in response to changes in some index, such as the prime rate. Many subprime ARMs are hybrids that start with low “teaser” rates that remain constant for a certain period, typically two or three years. After that period is over, the mortgage “resets.” Thereafter, it is adjusted periodically.
+
+In addition, no-documentation loans appeared in the early 2000s as housing prices began their rapid rise. With these loans, lenders do not even ask for verification of the borrower’s income.
+
+What Went Wrong?
+
+Many observers touted the benefits of subprime loans in enabling previously disadvantaged groups, such as those living in poor or minority neighborhoods, to become homeowners. In addition, lenders initially earned large profits by charging these borrowers high interest rates and, because so many of the mortgages were securitized, a relatively large number of investors earned high returns.
+
+So how did this evidently great idea turn into an economic disaster? Remember that subprime borrowers are risky borrowers—they’re considered more likely to default on their loans. And that’s just what happened. Beginning in 2006, more and more subprime borrowers fell behind on their loan payments, and many of them ended up defaulting. This began a long upward trend in foreclosures that showed little sign of slowing even by the end of 2010. Several economic conditions contributed to the high rate of defaults. For one thing, the prime rate of interest, which had been declining or holding steady since 2001, began to rise in 2004, affecting the rate to which interest on ARMs was reset. To further complicate the situation, housing prices, which had been increasing steadily, began to drop in 2006, leaving some buyers owing more than the current value of their homes.
+
+As a result of the large number of defaults, subprime lenders found themselves in deep financial trouble, and some top lenders filed for bankruptcy. Lenders were originating fewer loans and were finding it difficult to sell those that they had originated. Investment bankers who had purchased loans and securitized them also suffered. In order to get the highest possible prices, they had retained some exposure to the riskiest parts of the loan bundles that they sold. As the default rates on loans underlying MBSs increased, the investment bankers suffered losses, as did the investors who bought the securities.
+
+As investors in other types of fixed-income securities saw what was happening to the values of securitized subprime mortgages, they became concerned about the values of similar securitized debt instruments, such as collateralized loan obligations (CLOs). CLOs are securitized business loans, which included business loans that had been used to fund leveraged buyouts and were therefore also quite risky. Investors’ concerns caused prices for CLOs to decline rapidly. In addition, banks and other lenders began to tighten their credit standards, which made it more difficult for businesses and individuals to get loans, further contributing to a general weakening of the economy.
+
+Who’s to Blame?
+
+Inevitably, observers looked around for someone to blame for the subprime crisis. And they came up with a long list of candidates, from the homebuyers themselves (who should have been more prudent) to the SEC and the Federal Reserve (who should have been paying closer attention). Few disagree, though, that those promoting subprime mortgages—such as mortgage brokers and lenders—must bear at least a part of the blame.
+
+Motivated by the potential to earn a lot of money in a rapidly expanding market, many of these players turned their backs on ethical standards. “In the feeding frenzy for housing loans,” according to one writer, “basic quality controls were ignored in the mortgage business, while the big Wall Street investment banks that backed these firms looked the other way.”4 Problems existed at many levels, as a few examples show:
+
+Mortgage lenders did not adequately monitor what the mortgage brokers were doing. In fact, some allege that they were willing to make virtually any loan that brokers sent their way. With little oversight, the brokers did not have a strong incentive to carefully evaluate the ability of borrowers to repay the mortgages. They filled out the loan paperwork that they submitted to the lenders without verifying all of the information and, it has been alleged, in some cases actually misrepresented the facts.
+Appraisers inflated the market value of houses, causing consumers to take out mortgages that did not reflect their houses’ true value. According to several national studies, lenders commonly pressured appraisers to value a property at whatever amount was needed to allow a high-priced sale to close.5 Willingness to inflate appraisals also made some appraisers attractive to unscrupulous mortgage brokers, who were an important source of their business. The attorneys general of several states filed suit against mortgage and appraisal firms, claiming that they engaged in this practice.
+Mortgage companies lured buyers with teaser rates and other loan terms that appeared favorable but, in the longer run, were not. (Some have called these terms “toxic.”) Mortgage agreements often included prepayment penalties that would make it very expensive for buyers to refinance later. Many subprime buyers weren’t experienced or sophisticated enough to fully understand the terms, but lenders and brokers were interested in pushing through the loans—not in explaining the loan terms.
+Many subprime mortgages were “no-doc” loans, which required little or no documentation of income. These loans, claimed one observer, “were available to anyone with a pulse.” Opportunities for abuse are obvious—and not restricted to borrowers. A former employee of Ameriquest Mortgage Corp. stated that it was “a common and open practice at Ameriquest for account executives to forge or alter borrower information or loan documents…. I saw account executives openly engage in conduct such as altering borrowers’ W-2 forms or pay stubs, photocopying borrower signatures and copying them onto other, unsigned documents, and similar conduct.”6
+As bonds backed by subprime mortgages became more popular and profitable, investment banks—eager to bundle more mortgages—loosened their standards. The quality of the loans being bundled began to slide as the popularity of subprime mortgages grew, according to the consultants (called due-diligence firms) hired by the bankers to evaluate loan quality. However, many investment banking firms overlooked the problem—and, as a result, passed ever-higher risk along to the investors who bought their mortgage-backed securities.
+Investors in the MBSs did not fully understand the risks associated with them. The way in which the mortgages were bundled made it difficult for investors to value the MBSs. They were so complex that many investors apparently relied on investment bankers to tell them what they were worth. The investment bankers apparently did not understand or simply failed to inform investors of all the risks. Some investors probably also got a bit greedy.
+Discussion Questions
+What were the responsibilities of the mortgage brokers to borrowers? To lenders? To investors? How well did they fulfill their responsibilities? Why?
+Did some subprime lenders behave unethically? If so, how? Whose interests did the subprime lenders have a responsibility to represent? Did they adequately represent those interests?
+What motivated the investment bankers to get involved in the subprime market? Did they behave appropriately? Why or why not?
+Should the borrowers (homeowners) share in the blame? If so, how?
+What about the investors in MBSs? What could they have done differently?
+What can be done to prevent future blowups like the one that occurred in the subprime market?
+Sources: Associated Press, “Regulators’ Cases Targeting Wall Street’s Role in Subprime Market,” Boston.com, February 18, 2008; James R. Barth, Tong Li, Triphon Phumiwasana, and Glenn Yago, “A Short History of the Subprime Mortgage Market Meltdown” (Milken Institute, January 2008), p. 3; Souphala Chomsisengphet and Anthony Pennington-Cross, “The Evolution of the Subprime Mortgage Market,” Federal Reserve Bank of St. Louis Review, January/February 2006; Patrick Rucker, “Wall Street Often Shelved Damaging Subprime Reports,” International Herald Tribune, August 1, 2007; Robert J. Samuelson, “The Catch-22 of Economics,” Newsweek, updated September 15, 2007; Time/CNN, “A Sub-Prime Primer,” March 15, 2007; Faten Sabry and Thomas Schopflocher, “The Subprime Meltdown: A Primer,” Part I of NERA Insights Series, June 21, 2007; Brenda B. White, “A Short History of Subprime (Mortgage Industry),” Mortgage Banking, March 1, 2006.
+Notes
+1 If the bond sold at a premium, the reverse would be true; that is, the price with semiannual compounding would be slightly more than the price with annual compounding.
+2 Notice that, for annual compounding, the yield to maturity equals the EAY; for the Eurobond, the yield to maturity = 3.17 percent and EAY = (1 + Quoted interest rate/m)m − 1 = (1 + 0.0317/1)1 − 1 = (1 + 0.0317) − 1 = 0.0317, or 3.17 percent.
+1 Senator Charles E. Schumer, “A Call to Action on the Subprime Mortgage Crisis,” remarks on the state of the economy, as prepared for delivery to the Brookings Institution, December 19, 2007.
+2 James R. Barth et al., “A Short History of the Subprime Mortgage Market Meltdown” (Milken Institute, January 2008), p. 3.
+3 Brenda B. White, “A Short History of Subprime (Mortgage Industry),” Mortgage Banking, March 1, 2006.
+4 David Cho, “Pressure at Mortgage Firm Led to Mass Approval of Bad Loans,” Washington Post, May 7, 2007.
+5 Kenneth R. Harney, “Appraisal Inflation,” Washington Post, April 21, 2007.
+6 Bob Irvy, “Subprime ‘Liar Loans’ Fuel Bust with $1 Billion Fraud (Update 1),” Bloomberg.com, updated April 25, 2007.

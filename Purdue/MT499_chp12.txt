@@ -1,0 +1,719 @@
+CHAPTER 12
+Evaluating Project Economics
+
+LEARNING OBJECTIVES
+
+Explain and demonstrate how variable costs and fixed costs affect the volatility of pretax operating cash flows and accounting operating profits.
+Calculate and distinguish between the degree of pretax cash flow operating leverage and the degree of accounting operating leverage.
+Define and calculate the pretax operating cash flow and accounting operating profit break-even points and the crossover levels of unit sales for a project.
+Define the economic break-even point and be able to calculate it for a project.
+Define sensitivity analysis, scenario analysis, and simulation analysis and describe how they are used to evaluate the risks associated with a project.
+During the third quarter of 2020, General Mills, the manufacturer of iconic consumer food brands, including Betty Crocker, Cheerios, Nature Valley, and Pillsbury, among others, announced major expansions of several of its production facilities. These included a $37 million overhaul of its Cedar Rapids, Iowa, plant and an expansion of its Covington, Georgia, cereal operations that a company spokeswoman said was “one of the largest capital projects in General Mills history.”
+
+The focus of these investments was to modernize the firm’s production lines with the goal of increasing efficiency and expanding production capacity to meet the increased demand for General Mills’ products that resulted from the COVID-19 outbreak.
+
+As with any other capital investment, modernizing production facilities involves a great deal of uncertainty. If you put yourself in the shoes of the managers of General Mills, you can imagine the concerns they had about the projects they were undertaking and how the market for the products they produced would evolve over time. The firm’s managers probably asked themselves detailed questions regarding the economics of the new projects: What level of unit sales would be required to cover costs? Would the increased demand for the company’s products be sustained over the longer term? How would competitors respond, and what effect would competitors’ responses have on the firm’s revenues and profits over the long run? If the company was successful with these new investments, how much value would be created for investors? Answering such questions is part of any thorough project analysis. This chapter discusses some of the tools and methods used to obtain the answers.
+
+Chapter Preview
+Financial analysts who forecast the free cash flows used in an NPV analysis realize that actual cash flows will almost certainly differ from their forecasts. No one can predict what will happen in the future! For this reason, it is important to understand the economic characteristics of a project and the implications of being wrong. This chapter discusses key tools and methods that analysts use to develop this understanding.
+
+We first discuss how a project’s cost structure affects its risk and how analysts measure this effect. We then describe break-even analysis, which is used to determine how many units must be sold in order for a project to break even. These concepts help analysts better understand the economic characteristics of projects and provide insights into how projects can be structured to maximize their value.
+
+We end with a discussion of how financial analysts evaluate the uncertainties associated with cash flow forecasts. These techniques allow analysts to determine which characteristics of a project have the greatest impact on the level of the cash flows, how market or economic conditions affect the cash flows of the business, and the probability that certain levels of cash flows will be realized.
+
+12.1 Variable Costs, Fixed Costs, and Project Risk
+LEARNING OBJECTIVE
+
+Explain and demonstrate how variable costs and fixed costs affect the volatility of pretax operating cash flows and accounting operating profits.
+Two questions are always on the mind of a financial analyst evaluating a project: “How wrong can my free cash flow forecasts be?” and “What are the implications if my forecasts are wrong?” It is natural to ask these questions, since the actual incremental after-tax free cash flows (FCF) for a project will almost certainly differ from the forecasted FCF. This chapter discusses some important tools that help provide answers.
+
+To fully understand how to evaluate project risk, you must first understand how variable costs and fixed costs affect the risk of a business. Recall from Chapter 11 that variable costs are costs that vary directly with the number of units sold. An example of a variable cost is the cost of the ingredients that a pizza parlor uses to make its pizzas. The total cost of these ingredients increases or decreases as the number of pizzas sold increases or decreases. Fixed costs, in contrast, do not vary with unit sales—at least in the short run. An example of a fixed cost in a pizza parlor is the salary of the manager. As pizza sales go up and down from month to month, the cost of the manager’s salary remains constant.
+
+The cash flows and accounting profits for a project are sensitive to the proportion of its costs that is variable and the proportion that is fixed. A project with a higher proportion of fixed costs will have cash flows and accounting profits that are more sensitive to changes in revenues than an otherwise identical project with a lower proportion of fixed costs. This is because the costs of a project with a higher proportion of fixed costs will not change as much when revenue changes.
+
+To illustrate this point, we can represent the incremental cash operating expenses, Op Ex, from Equation 11.2 as
+
+(12.1)
+where VC is the incremental variable costs associated with a project and FC is the incremental fixed costs. Equation 12.1 simply says that all cash operating expenses are either variable costs or fixed costs.
+
+Let’s carry this equation a bit further. We know from Exhibit 11.1 that
+
+Thus, Equation 12.1 suggests that we can write EBITDA as
+
+You might recall from Chapter 11 that EBITDA is the incremental earnings before interest, taxes, depreciation, and amortization and Revenue is the incremental revenue from a project. EBITDA is often called pretax operating cash flow because it equals the incremental pretax cash operating profits from a project. Strictly speaking, EBITDA is not a complete measure of cash flow because it does not include the effects of working capital requirements and capital expenditures on cash flows. Nevertheless, it is a very commonly used measure.
+
+pretax operating cash flow earnings before interest, taxes, depreciation, and amortization, or EBITDA
+
+Cost Structure and Sensitivity of EBITDA to Revenue Changes
+To see how writing the calculation of EBITDA in terms of fixed and variable costs can be helpful, consider this situation: You have been trying to decide whether to buy a hammock-manufacturing business in which hammocks are currently made by hand.1 However, you have just found out about an automated hammock-manufacturing system. This means that, in addition to deciding whether to go into the hammock business, you must choose between two manufacturing alternatives: (1) investing in manufacturing equipment that will largely automate the production process and (2) relying on the current manufacturing method in which hammocks are produced by hand. Assume that the per-unit variable costs (Unit VC) and the total fixed costs (FC) and depreciation and amortization (D&A) for the two alternatives are as presented in Exhibit 12.1. How would you evaluate the relative advantages and disadvantages of the automated and the manual production alternatives?
+
+One thing you might do is compare the sensitivity of EBITDA to changes in revenue for the two alternatives. This can help you better understand the risks and returns for the alternatives. To see why, assume that the sensitivity of EBITDA to changes in revenue is higher for one alternative than for the other. This means that EBITDA for the more sensitive alternative will decline more when revenue is lower than expected. A larger decline in EBITDA can cause problems not only because it reduces the value of the project more, but also because it has a greater impact on the amount of cash that the firm has available to fund other positive NPV projects. In an extreme case, a drop in EBITDA can unexpectedly force the firm to invest additional money in the project. On the positive side, EBITDA will increase more when revenue is greater than expected if the sensitivity of EBITDA to revenue is higher. Whether this potential benefit justifies the risks is a decision that you would have to make when choosing between the two alternatives. Comparing the sensitivity of EBITDA to changes in revenue for the two alternatives will at least help you better understand the trade-offs.
+
+EXHIBIT 12.1 Unit and Annual Costs for Hammock Project
+
+To evaluate the automated and manual production alternatives in our hammock-manufacturing example, we start with information about the variable costs per unit (Unit VC), fixed costs (FC), and depreciation and amortization (D&A).
+
+ 	Automated Production	Manual Production
+Unit VC:	 	 
+ Labor	          $1	        $5
+ Rope	           5	         5
+ Spacer bars	           2	         2
+ Hardware	           2	         2
+ Packaging	           2	         2
+ Shipping and other	           4	         4
+      Total	      $16	    $20
+FC	$35,000	$4,000
+D&A	$10,000	$1,000
+EXHIBIT 12.2 EBITDA under Alternative Production Technologies
+
+Here we calculate EBITDA for the automated and manual production alternatives in the hammock-manufacturing example. The calculations use the information provided in Exhibit 12.1 and assume that 10,000 units are sold at a price of $25 per unit.
+ 	Automated Production	Manual Production
+Units sold	  10,000	  10,000
+Unit price	        $25	        $25
+Unit VC	        $16	        $20
+ Revenue	$250,000	$250,000
+− VC	  160,000	  200,000
+− FC         	   35,000	      4,000
+= EBITDA	$ 55,000	$ 46,000
+Distinguishing between fixed and variable costs enables us to calculate the sensitivity of EBITDA to changes in revenue. For example, suppose you expect to sell 10,000 hammocks next year at an average price of $25 each. Based on the costs in Exhibit 12.1, you would forecast EBITDA to be $55,000 under the automated production alternative and $46,000 under the manual production alternative.2 These calculations are presented in Exhibit 12.2.
+
+Although selling 10,000 units represents your best estimate of what you can expect, you might also envision a situation in which demand would be poor and sales would equal only 8,000 units, 20 percent less than your best estimate. Distinguishing between fixed and variable costs makes it relatively straightforward to determine how EBITDA would be affected if only 8,000 units were sold. This “Poor Demand” scenario is illustrated in columns 2 and 4 of Exhibit 12.3 for the automated production and manual production alternatives (assuming that Unit VC does not change with unit sales). Columns 1 and 3 are identical to the two columns in Exhibit 12.2.
+
+EXHIBIT 12.3 Changes in EBITDA under Alternative Production Technologies
+
+EBITDA for the automated and manual production alternatives in the hammock-manufacturing example declines by different amounts when the number of units sold declines 20 percent and the unit price remains the same.
+
+ 	Automated Production	 	Manual Production
+ 	Expected Demand (1)	Poor Demand (2)	 	Expected Demand (3)	Poor Demand (4)
+Units sold	    10,000	       8,000	 	     10,000	       8,000
+Unit price	         $25	          $25	 	         $25	          $25
+Unit VC	         $16	          $16	 	         $20	          $20
+ Revenue	$250,000	$200,000	 	$250,000	$200,000
+− VC	160,000	128,000	 	200,000	160,000
+− FC         	   35,000	   35,000	 	     4,000	     4,000
+= EBITDA	$ 55,000	$ 37,000	 	$ 46,000	$ 36,000
+Percent change in revenuea	 	  −20.0%	 	 	  −20.0%
+Percent change in EBITDA	 	  −32.7%	 	 	  −21.7%
+aThe percent change in revenue is calculated as:
+
+Percent change = (RevenuePoor − RevenueExpected)/RevenueExpected
+
+          = ($200,000 − $250,000)/$250,000 = −0.20, or −20%
+
+All other percent changes are calculated this way in the exhibits.
+
+EXHIBIT 12.4 EBITDA for Different Levels of Unit Sales The sensitivity of EBITDA to changes in unit sales differs for the automated and manual production alternatives in the hammock-manufacturing example. The steeper line for the automated production alternative means that EBITDA for this alternative is more sensitive to changes in the number of units sold.
+
+
+Exhibit 12.3 shows that EBITDA is much more sensitive to changes in revenue with the automated production process than with the manual process. A 20 percent decline in revenue results in a 32.7 percent decline in EBITDA with the automated production process, but only a 21.7 percent decline in EBITDA with the manual production process—an 11 percentage point difference. The reason for the difference is that more of the total costs are fixed with the automated process, making it more difficult to adjust costs when revenue changes. Because of this difference, the difference in EBITDA between the two production alternatives shrinks from $9,000 ($55,000 − $46,000 = $9,000) when unit sales are 10,000 to only $1,000 ($37,000 − $36,000 = $1,000) when unit sales are 8,000.
+
+You can see how the difference in EBITDA initially shrinks as the number of units sold declines from 20,000 units in Exhibit 12.4, which shows how EBITDA changes as the number of units sold changes for both the manual and the automated production process. Notice that the relation between EBITDA and the number of units sold is steeper with the automated production process, where there are more fixed costs. A steeper line indicates that EBITDA for the automated production process is more sensitive to changes in the number of units sold.
+
+Note also that the effect of changes in the number of units sold is symmetrical because the relation between EBITDA and the number of units sold is linear. This means that the automated production process will produce larger declines in EBITDA when unit sales are lower than expected and larger increases in EBITDA when unit sales are higher than expected. This is exactly what we were referring to earlier when we said that when pretax operating cash flows are more sensitive to changes in revenue, they will decline more when revenue is lower than expected and increase more when revenue is greater than expected.
+
+Cost Structure and Sensitivity of EBIT to Revenue Changes
+Exhibit 12.5 expands the analysis in Exhibit 12.3 to illustrate how the sensitivity of accounting operating profits (EBIT) to changes in revenue differs under the two hammock-manufacturing alternatives. The sensitivity of EBIT to changes in revenue is of concern to managers because EBIT is a performance measure that is of interest to investors.
+
+EXHIBIT 12.5 Changes in EBITDA and EBIT under Alternative Production Technologies
+
+The EBIT values for the automated and manual production alternatives in the hammock-manufacturing example decline more than the EBITDA values when the number of units sold declines 20 percent and the unit price remains the same. This occurs because the fixed nature of depreciation and amortization (D&A) charges has the same effect as other fixed costs. When D&A is greater than zero, the percentage change in EBIT is greater than the percentage change in EBITDA.
+
+ 	Automated Production	 	Manual Production
+ 	Expected Demand (1)	Poor Demand (2)	 	Expected Demand (3)	Poor Demand (4)
+Units sold	     10,000	       8,000	 	     10,000	       8,000
+Unit price	         $25	          $25	 	         $25	          $25
+Unit VC	         $16	          $16	 	         $20	          $20
+   Revenue	$250,000	$200,000	 	$250,000	$200,000
+− VC	  160,000	  128,000	 	  200,000	  160,000
+− FC         	    35,000	    35,000	 	      4,000	      4,000
+= EBITDA	$ 55,000	$ 37,000	 	$ 46,000	$ 36,000
+− D&A 	    10,000	    10,000	 	      1,000	      1,000
+= EBIT	  $ 45,000	  $ 27,000	 	  $ 45,000	  $ 35,000
+Percent change in revenue	 	  −20.0%	 	 	  −20.0%
+Percent change in EBITDA	 	  −32.7%	 	 	  −21.7%
+Percent change in EBIT	 	  −40.0%	 	 	  −22.2%
+Building Intuition
+High Fixed Costs Mean Larger Fluctuations in Cash Flows and Profits
+
+The higher the proportion of fixed costs to variable costs in a project, the more pretax operating cash flows (EBITDA) and accounting operating profits (EBIT) will vary as revenue varies. This is true because it is more difficult to change fixed costs than to change variable costs when unit sales change. If unit sales decline, EBITDA and EBIT will decrease more in a business where fixed costs represent a larger proportion of total costs. Conversely, if unit sales increase, EBITDA and EBIT will increase more in a business with higher fixed costs.
+
+In Exhibit 12.5 you can see that the 20 percent decline in revenue results in a 40 percent decline in EBIT with the automated production process but only a 22.2 percent decline in EBIT with the manual production process. The difference in the decline in EBIT is 17.8 percentage points! This difference is larger than the 11 percentage point difference for EBITDA because the EBITDA calculation does not include D&A. Depreciation and amortization acts just like a fixed cost when we include it in the calculation because it is based on the amount that was invested in the project rather than on unit sales. Therefore, when we include D&A in the EBIT calculation, we effectively increase the proportion of costs that is fixed. Note that, since D&A is larger for the automated production alternative, including it in the calculation has a greater impact on the sensitivity of EBIT to changes in revenue for the automated production alternative than for the manual alternative. This is why the difference in the decline in EBIT is so much larger than the corresponding difference for EBITDA.
+
+If we recreated Exhibit 12.4 for EBIT, the slope would be steeper for the automated production process than for the manual production process. As was the case with EBITDA, the linear relation between changes in revenue and EBIT indicates that there are benefits and costs associated with using the automated production process. When deciding whether to use the automated process, you must weigh the prospect of higher accounting operating profits if unit sales exceed expected levels against concerns about lower accounting operating profits if unit sales are below expectations. In other words, you must decide whether the potential for earning a higher return with the automated manufacturing process justifies the risks. In Chapter 16 we will discuss how greater volatility in operating profits increases the chances that a firm will be forced into bankruptcy.
+
+Learning by Doing Applications 12.1 and 12.2 illustrate calculations of an EBIT forecast and its sensitivity to changes in the inputs. The Using Excel Example that follows shows the spreadsheet setup for the sensitivity analysis.
+
+LEARNING BY DOING APPLICATION 12.1
+Forecasting EBIT
+
+Problem
+
+You have decided to start a business that provides in-home technical computer support to people in the community near your university. You have seen national advertisements for a company that provides these services in other communities. You would run this business out of your dorm room, and you know plenty of students who have the necessary technical skills and would welcome the opportunity to take a side gig. To get up and running quickly, you would have to invest in a computer system, an advertising campaign, three vehicles, and tools. You would also want to have enough cash to keep the business going until it began to generate positive cash flows. All of this would require about $100,000, which is all that you can borrow on your credit cards, against your car, and from friends and family.
+
+You are now working on the financial forecasts for the business. You plan to charge $45 for house calls lasting up to 30 minutes and $25 for each additional 30 minutes. Since you expect that the typical house call will require 60 minutes, you expect it to result in revenue of $70. You also estimate that monthly fixed operating costs (FC), which include an advertising contract with a local radio station and a small salary for you, will total $3,000. Unit VC, including the technicians’ pay, gas, and so forth, will total $20 for the typical house call. Monthly depreciation and amortization charges (D&A) will be $1,000. Finally, you expect that after six months the business will average 120 house calls per month. Given this information, what do you expect the monthly EBIT to be in six months?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 12.2
+Fixed Costs and Fluctuations in EBIT
+
+Problem
+
+As you prepare the financial forecast for your computer-support business, you worry about the impact of fluctuations in the number of house calls on EBIT. You decide to examine how converting some fixed costs to variable costs will affect the sensitivity of EBIT to changes in the number of house calls. In a conversation with the manager at the radio station where you would be advertising, you discover that instead of paying $1,500 per month under a long-term advertising contract, you can get the same level of advertising for $1,600, where $1,000 of the total cost is fixed and $600 is variable. That is, in a given month, if you used the full level of advertising, you would pay $1,600, but you would also have the ability to reduce advertising costs to $1,000 by cutting back on the number of advertisements. You wonder how this contract would affect the sensitivity of EBIT to a decrease in the monthly number of house calls—say, from 120 to 90.
+
+
+
+
+
+Using Excel
+Examining the Impact of Changes in Your Assumptions
+
+One of the main advantages of using a spreadsheet for financial analysis is that it enables us to perform a sensitivity analysis in a matter of seconds. Once the spreadsheet is carefully set up with all the relevant key assumptions and calculations, we can change any one of the assumptions and immediately see the effect on the bottom line.
+
+Below is a setup for Learning by Doing Applications 12.1 and 12.2 that analyzes the impact of the alternative advertising schemes on the EBIT of the in-home technical computer-support business.
+
+Notice that the actual EBIT calculation is entirely derived from formulas utilizing inputs from the key assumptions. To use the model for sensitivity analysis, all you have to do is change the values for the volume of house calls per month for the two advertising alternatives (in cell B11 and D11). For example, when you change the volume number for the alternative advertising scenario back to 120, EBIT equals $1,900, just as it does in Learning by Doing Application 12.2.
+
+
+Before You Go On
+Why do analysts care about how sensitive EBITDA and EBIT are to changes in revenue?
+How is the proportion of fixed costs in a project’s cost structure related to the sensitivity of EBITDA and EBIT to changes in revenue?
+12.2 Calculating Operating Leverage
+LEARNING OBJECTIVE
+
+Calculate and distinguish between the degree of pretax cash flow operating leverage and the degree of accounting operating leverage.
+The examples in Section 12.1 illustrate the impact of operating leverage on pretax operating cash flows and on accounting operating profits when revenue changes. Operating leverage is a measure of the relative amounts of fixed and variable costs in a project’s cost structure. It is the major factor that determines the sensitivity of EBITDA or EBIT to changes in revenue. The higher a project’s operating leverage, the greater these sensitivities. Two measures of operating leverage often used by analysts are the degree of pretax cash flow operating leverage and the degree of accounting operating leverage.
+
+operating leverage a measure of the relative amounts of fixed and variable costs in a project’s cost structure; operating leverage is higher with more fixed costs
+
+Degree of Pretax Cash Flow Operating Leverage
+The degree of pretax cash flow operating leverage (Cash Flow DOL) provides us with a measure of how sensitive pretax operating cash flows are to changes in revenue. It is calculated using the following formula:
+
+(12.2)
+degree of pretax cash flow operating leverage (Cash Flow DOL) a measure of the sensitivity of cash flows from operations (EBITDA) to changes in revenue
+
+Using the FC and EBITDA values in Exhibit 12.2, we can calculate Cash Flow DOL for the automated production alternative in the hammock-manufacturing example as follows:
+
+This indicates that a 1 percent change in revenue will change pretax operating cash flow, EBITDA, by 1.64 percent. A measure such as this provides analysts with a convenient way of summarizing how much pretax operating cash flow will differ from forecasts if revenue is below or above the expected level.
+
+You should be aware of one limitation to this measure: Cash Flow DOL changes with the level of revenue. In other words, the sensitivity is not the same for all levels of revenue. As a result, a particular Cash Flow DOL measure is only useful for modest changes in revenue. To understand why this limitation exists, notice that the numerator in the fraction in Equation 12.2, FC, does not vary with revenue. In contrast, the denominator, EBITDA, varies directly with revenue if the pretax operating cash flow margin is positive. If revenue is larger, the denominator in Equation 12.2 will be larger for any project that has a positive pretax operating cash flow margin. This, in turn, will cause Cash Flow DOL to become smaller as revenue increases. Alternatively, if revenue is lower, the denominator in the fraction will be smaller, and Cash Flow DOL will be larger.
+
+Consider, for example, how Cash Flow DOL changes for the automated production alternative if unit sales are 20,000 instead of 10,000. Exhibit 12.6 shows us that EBITDA will equal $145,000 with unit sales of 20,000. Therefore, Cash Flow DOL under the automated production alternative at this higher sales volume would be only 1.24:
+
+EXHIBIT 12.6 EBITDA with Unit Sales of 10,000 and 20,000 for the Automated Production Alternative
+
+For the automated production alternative in the hammock-manufacturing example, EBITDA increases from $55,000 to $145,000 when unit sales increase from 10,000 to 20,000 units.
+
+Units sold	    10,000	    20,000
+Unit price	         $25	         $25
+Unit VC	         $16	         $16
+ Revenue	$250,000	$500,000
+− VC	  160,000	  320,000
+− FC         	     35,000	     35,000
+= EBITDA	$ 55,000	$145,000
+Degree of Accounting Operating Leverage
+While Cash Flow DOL is a measure of the sensitivity of pretax operating cash flows to changes in revenue, the degree of accounting operating leverage (Accounting DOL) is a measure of how sensitive accounting operating profits (EBIT) are to changes in revenue. The formula for Accounting DOL is as follows:
+
+(12.3)
+degree of accounting operating leverage (Accounting DOL) a measure of the sensitivity of accounting operating profits (EBIT) to changes in revenue
+
+In this formula, D&A is treated as a fixed cost and is added to FC to obtain the total of a project’s cash and noncash fixed costs on the income statement. This total is then divided by total accounting operating profits (EBIT).4
+
+The only difference between Accounting DOL and Cash Flow DOL is that Accounting DOL focuses on EBIT, whereas Cash Flow DOL focuses on EBITDA. This means that the calculations differ only in the way that D&A is treated, since EBIT = EBITDA − D&A. Note that Accounting DOL will always be larger than Cash Flow DOL if D&A is greater than zero. This is because, compared with the calculation in Equation 12.2, the calculation in Equation 12.3 will have a larger numerator and a smaller denominator when D&A is greater than zero.
+
+Let’s apply the Accounting DOL formula to the automated production alternative in the hammock example. Using the values of FC, D&A, and EBIT from column 1 in Exhibit 12.5, we get:
+
+This tells us that a 1 percent change in revenue will result in a 2 percent change in EBIT. In other words, EBIT will change by twice as much, in percentage terms, as revenue with the automated production alternative!
+
+In comparison, the Accounting DOL for the manual production alternative (column 3 in Exhibit 12.5) is only 1.11:
+
+Building Intuition
+Revenue Changes Drive Profit Volatility Through Operating Leverage
+
+If there is no uncertainty about costs, volatility in pretax operating cash flows (EBITDA) and accounting operating profits (EBIT) will be driven entirely by changes in revenue and operating leverage. If a project has any fixed costs associated with it, operating leverage will magnify changes in revenue. The degree of operating leverage is a direct measure of how much more volatile EBITDA and EBIT will be than revenue.
+
+A 1 percent change in revenue will result in only a 1.11 percent change in EBIT with the manual production alternative.
+
+One important insight that you should take away from this discussion is that the volatility of pretax operating cash flows (EBITDA) and accounting operating profits (EBIT) is strongly influenced by two factors: (1) volatility in revenue and (2) operating leverage. If there is no uncertainty regarding what the different costs associated with a project will be, these are the only two factors that determine volatility in EBITDA and EBIT. It is always a good idea to pay special attention to these two factors when you are evaluating the uncertainty associated with the cash flows or the accounting profits from a project.
+
+Learning by Doing Application 12.3 illustrates other Cash Flow and Accounting DOL calculations.
+
+LEARNING BY DOING APPLICATION 12.3
+Calculating Cash Flow and Accounting DOL
+
+Problem
+
+You have decided to calculate the operating leverage for the in-home computer-support business you are thinking about starting. What will Cash Flow DOL and Accounting DOL be in six months if EBIT is $2,000, FC is $3,000, and D&A is $1,000?
+
+
+
+
+
+Before You Go On
+How does operating leverage change when there is an increase in the proportion of a project’s costs that are fixed?
+What do the degree of pretax cash flow operating leverage (Cash Flow DOL) and the degree of accounting operating leverage (Accounting DOL) tell us?
+12.3 Break-Even Analysis
+LEARNING OBJECTIVE
+
+Define and calculate the pretax operating cash flow and accounting operating profit break-even points and the crossover levels of unit sales for a project.
+A question that naturally comes to mind when we consider operating leverage is this: What level of unit sales or revenue is necessary for a project to break even? This is an important question because it helps us better understand how successful the project will have to be in order to succeed. In this section, we discuss break-even analysis, which tells us how many units must be sold in order for a project to break even on a cash flow or accounting profit basis. Break-even analysis also helps us understand how sensitive cash flows and accounting profits are to changes in the number of units that will be sold.
+
+break-even analysis an analysis that tells us how many units must be sold in order for a project to break even on a cash flow or accounting profit basis
+
+Pretax Operating Cash Flow Break-Even
+When evaluating a project, we might want to know what level of unit sales is necessary for the project to break even on operations from a pretax operating cash flow perspective. In other words, how many units must be sold for pretax operating cash flow to equal $0? This is a very important question; if the project fails to break even from a pretax operating cash flow perspective, the firm will have to put more cash into the project to keep it going. The pretax operating cash flow (EBITDA) break-even point is calculated as follows:
+
+(12.4)
+pretax operating cash flow (EBITDA) break-even point the number of units that must be sold for pretax operating cash flow to equal $0
+
+For our hammock-manufacturing example, we can calculate the EBITDA break-even points for the automated and manual production alternatives as follows:
+
+In each of these calculations, we are simply dividing the fixed costs, FC, by the per-unit contribution (Price − Unit VC). The per-unit contribution is how much money is left from the sale of a single unit after all the variable costs associated with that unit have been paid. This is the amount that is available to help cover FC for the project.
+
+per-unit contribution the dollar amount that is left over from the sale of a single unit after all the variable costs associated with that unit have been paid; this is the amount that is available to help cover FC for the project
+
+In the hammock-manufacturing example, we see that if the automated production alternative is selected instead of the manual production alternative, almost five times as many units (3,889 versus 800 units) will have to be sold before the project breaks even on a pretax operating cash flow basis in a particular year. This is because the automated production alternative has much higher fixed costs ($35,000 versus $4,000) than the manual production alternative, but its per-unit contribution is not proportionately higher (only $9 versus $5).
+
+Learning by Doing Application 12.4 illustrates another EBITDA break-even point calculation.
+
+Because the pretax operating cash flow break-even points are the unit sales at which EBITDA equals $0, they are the unit sales at which the lines in Exhibit 12.4 cross the $0 point. You can see this in Exhibit 12.7, which is the same as Exhibit 12.4, except that it plots EBITDA only from 0 to 10,000 units.
+
+LEARNING BY DOING APPLICATION 12.4
+Calculating the EBITDA Break-Even Point
+
+Problem
+
+Calculate the expected pretax operating cash flow (EBITDA) break-even number of house calls per month for the in-home computer-support business after six months.
+
+
+
+
+
+EXHIBIT 12.7 EBITDA Break-Even Points and Crossover Level of Unit Sales The EBITDA break-even points for the automated and manual production alternatives in the hammock-manufacturing example tell us the unit sales at which pretax operating cash flows equals $0. The crossover level of unit sales for EBITDA (COEBITDA) tells us the number of units at which the pretax operating cash flows become higher for the automated process than for the manual process.
+
+
+In addition to illustrating the operating cash flow break-even points, Exhibit 12.7 shows that the automated production alternative has a larger EBITDA than the manual production alternative if sales exceed 7,750 units. This is because the larger per-unit contribution of the automated production alternative more than makes up for the higher fixed charges at this level of unit sales. We can compute the EBITDA crossover level of unit sales (CO)—the level above which the automated production alternative has higher pretax operating cash flows—as follows:
+
+(12.5)
+crossover level of unit sales (CO) the level of unit sales at which cash flows or profitability for one project alternative switches from being lower than that of another alternative to being higher
+
+where Unit contribution stands for the per-unit contribution. The calculation for our example is as follows:
+
+Equation 12.5 can be used to calculate the crossover level of unit sales for any two alternatives that differ in the amount of operating leverage they employ.
+
+Accounting Operating Profit (EBIT) Break-Even
+We might also be interested in determining what level of unit sales is necessary for the project to break even on operations from an accounting operating profit perspective. This is called the accounting operating profit (EBIT) break-even point. It is calculated using Equation 12.6:
+
+accounting operating profit (EBIT) break-even point the number of units that must be sold for accounting operating profit to equal $0
+
+(12.6)
+When we calculate the accounting operating profit break-even point, we are calculating how many units must be sold to avoid an accounting operating loss. This is important to know because an accounting operating loss indicates that the project might not be able to cover its cash expenses and the wear and tear on physical assets as reflected in D&A.
+
+For the automated production alternative in the hammock-manufacturing business, the break-even point is calculated as follows:
+
+Similarly, for the manual production alternative:
+
+The accounting operating profit break-even points for the automated and manual production alternatives are 5,000 and 1,000 units, respectively.
+
+The accounting operating profit break-even points are larger than the corresponding pretax operating cash flow break-even points because in Equation 12.6 we are including the noncash D&A charges in the numerator in the calculation. Since the denominator of the fraction is the same in Equations 12.4 and 12.6, the accounting operating profit break-even points will always be larger when D&A is positive.
+
+Learning by Doing Application 12.5 illustrates one more EBIT Break-even point calculation, and Decision Making Example 12.1 illustrates the use of break-even numbers in decision making.
+
+LEARNING BY DOING APPLICATION 12.5
+Calculating the EBIT Break-Even Point
+
+Problem
+
+Calculate the expected accounting operating profit break-even number of house calls per month for the in-home computer-support business after six months of operation.
+
+
+
+
+
+DECISION MAKING EXAMPLE 12.1
+Using Break-Even Numbers
+
+Situation
+
+You have just finished calculating the pretax operating cash flow and accounting operating profit break-even numbers for the in-home computer-support business. These numbers are as follows:
+
+Pretax operating cash flow break-even point: 720 house calls per year (60 per month)
+Accounting operating profit break-even point: 960 house calls per year (80 per month)
+You have also just heard that the national company that provides these services is going to move to the town in which you are located. This has caused you to reduce your estimate of the annual number of house calls you can expect for your business by half, from 1,440 (120 per month) to 720 (60 per month). How will this affect your decision to enter this business?
+
+ 
+
+In addition to the accounting operating profit break-even points for two alternatives, we can also calculate the crossover level of unit sales for EBIT. The equation that we use to do this is:
+
+(12.7)
+Notice that the only difference between Equations 12.5 and 12.7 is that D&A is included in the numerator in Equation 12.7.
+
+The calculation for our hammock-manufacturing example is as follows:
+
+The cash flow and accounting break-even calculations are useful in helping us understand how many units must be sold to break even in a particular period of time, such as a month or a year. However, they are not comprehensive calculations in that they do not tell us what it takes for a project to break even in an economic sense—in other words, how many units must be sold over the life of a project to achieve an NPV of $0. We discuss this more comprehensive break-even analysis in the next section.
+
+Before You Go On
+How is the per-unit contribution related to the pretax operating cash flow break-even point?
+How is the per-unit contribution related to the accounting operating profit break-even point?
+What is the difference between the pretax operating cash flow break-even point and the accounting operating profit break-even point?
+
+See what the U.S. Small Business Administration has to say about break-even analysis at learn.sba.gov/learning-center-plan/learning-center-how-to-write-a-business-plan/break-even-analysis
+
+12.4 The Economic Break-Even Point
+LEARNING OBJECTIVE
+
+Define the economic break-even point and be able to calculate it for a project.
+Knowing the pretax operating cash flow and accounting operating profit break-even points on a year-by-year basis over the life of a project can help a financial manager ensure that sufficient cash is allocated to fund a project and to understand the impact of a project on the firm’s accounting operating profits. The economic break-even point is a more comprehensive break-even measure that can help a financial manager assess the overall economic viability of a project. This measure tells the manager how low unit sales can get before a project destroys stockholder value. It is the number of units that must be sold each year over the life of a project in order for the NPV of that project to equal $0.
+
+economic break-even point the number of units that must be sold each year during the life of a project so that the NPV of the project equals $0
+
+The economic break-even point is a more comprehensive measure in two main ways. First, it considers the entire life of the project, rather than a single year. Second, it focuses on the after-tax free cash flows associated with the project rather than only on the cash flows or profits from operations. Unlike the other measures, the economic break-even point accounts for both the taxes and the investments associated with a project.
+
+We calculate the economic break-even point for a project using the following four-step procedure:
+
+Identify the present value of the net nonrecurring investments in real assets and working capital that are required for the project (this is the present value of the initial investment plus the after-tax cash flow associated with the salvage value and the recovery of working capital at the end of the project), the life of the project, and the opportunity cost of capital for the project. Use the above information in the present value of an ordinary annuity formula (Equation 6.1) to calculate the annual incremental after-tax free cash flow (FCF), that would make the project NPV equal $0.
+Use the FCF formula (Equation 11.2) to solve for the EBIT that corresponds to the FCF value calculated in Step 1. Note that this calculation requires estimates of annual depreciation and amortization (D&A), capital expenditures (Cap Exp), and additions to working capital (Add WC), as well as the firm’s marginal tax rate (t).
+Add the EBIT calculated in Step 2 to the annual D&A and fixed costs (FC). This calculation gives you the annual total contribution of the project (Revenue − VC) that is associated with an NPV of $0.
+Divide the annual total contribution by the unit contribution to obtain the number of units that would have to be sold annually for the project to have an NPV of $0.
+To see how this four-step procedure works, let’s use it to calculate the economic break-even point for the automated production alternative for the hammock-manufacturing business.
+
+In addition to the information previously given about the automated production alternative, we will assume that the project has a four-year life, that the initial investment is $40,000, that the salvage value is expected to equal $0, that the annual capital expenditures will equal $0, that annual additions to working capital will equal $2,000, that the firm’s marginal tax rate is 26 percent, and that the opportunity cost of capital for the project is 10 percent.
+
+From the above assumptions, we know that the initial investment is $40,000, that no salvage value is expected, and that additions to working capital will equal $2,000 per year. If we assume that all $8,000 of the working capital ($2,000 per year × 4 years = $8,000) will be recovered at the end of the project, the present value of the net nonrecurring investments is:
+
+In the capital budgeting calculations we discussed in Chapters 10 and 11, the NPV of a project will equal $0 when the present value of the annual FCFs from the project, PV(FCF), equals the present value of the net nonrecurring investments. If we assume, for simplicity, that the FCF will be the same each year over the four-year life of the project, we can compute the annual FCF (FCFt) at which the project will have an NPV of $0 using the present value of an ordinary annuity formula. With a 10 percent discount rate, this calculation is:
+
+Knowing that FCFt = $14,343, Cap Expt = $0, Add WCt = $2,000, D&At = $10,000 (from Exhibit 12.1), and t = 26 percent, we can use Equation 11.2 to calculate EBITt for the manufacturing alternative. Since:
+
+solving for EBITt yields:
+
+This is the EBIT that corresponds to the FCF at which the project NPV = $0.
+
+We next use EBITt to calculate the amount by which revenue exceeds VC. Recall from our discussion of variable and fixed costs that:
+
+Rearranging this formula and solving for Revenue minus VC yields:
+
+where the FC of $35,000 is from Exhibit 12.1. The difference between Revenue and VC is the total contribution of the project. This is the amount that the project contributes to help pay its fixed costs after covering all of its variable costs.
+
+total contribution the total amount that a project contributes to help pay its fixed costs after covering all of its variable costs
+
+Finally, to compute the economic break-even point, we simply divide the total contribution by the per-unit contribution that we previously calculated to be $9. Doing this, we find that the economic break-even point is
+
+This value tells us that if 5,952 units are sold each year over the life of the automated production alternative for the hammock-manufacturing business, and the unit price and cost estimates are correct, the NPV of the project will equal $0. Any unit sales above this amount will result in an economic profit—a profit that exceeds the opportunity cost of the capital invested in a project.
+
+economic profit a profit that exceeds the opportunity cost of the capital invested in a project
+
+To make sure we understand the economic break-even point calculation, let’s also do it for the manual production alternative for the hammock-manufacturing business.
+
+For this calculation, we will assume that the project has a four-year life, that the initial investment is $4,000, that the salvage value is expected to equal $0, that the annual capital expenditures will equal $0, that annual additions to working capital will equal $2,000, that the firm’s marginal tax rate is 26 percent, and that the opportunity cost of capital for the project is 10 percent.
+
+
+The life of the project is four years, and the opportunity cost of capital is 10 percent. Therefore the annual FCF at which the manual alternative would have an NPV of $0 is:
+
+
+
+
+The number of units that must be sold in order for investors to earn the opportunity cost of capital (i.e., to achieve a $0 NPV) with the manual production alternative is substantially smaller than the number of units that must be sold if the automated production alternative is chosen (2,077 units versus 5,952 units). Of course, as we discussed earlier, the automated production alternative has the potential to generate substantially higher profits and greater value for investors with higher unit sales because it has greater operating leverage.
+
+Learning by Doing Application 12.6 illustrates another economic break-even point calculation.
+
+LEARNING BY DOING APPLICATION 12.6
+Calculating the Economic Break-Even Point
+
+Problem
+
+The opportunity cost of capital for the in-home computer support business you are starting is 8 percent, and you expect to operate the business for five years before shutting it down. Assume that the assets you acquire with the $100,000 initial investment will have no salvage value in five years and that annual capital expenditures and additions to working capital will both equal $0 in each of the next five years. In other words, the business will not require any investment beyond the initial $100,000. Finally, assume that you expect your marginal tax rate to be 20 percent over the next five years. What is the economic break-even number of house calls per year?
+
+
+
+
+
+Before You Go On
+How is the economic break-even point a more comprehensive measure of the impact of a project on a firm’s financial performance than the pretax operating cash flow break-even point or the accounting operating profit break-even point?
+
+12.5 Risk Analysis
+LEARNING OBJECTIVE
+
+Define sensitivity analysis, scenario analysis, and simulation analysis and describe how they are used to evaluate the risks associated with a project.
+In the preceding sections, we noted that two key factors—(1) the volatility of revenue and (2) operating leverage—determine the volatility of pretax operating cash flows (EBITDA) and operating profits (EBIT) when there is no uncertainty regarding costs. We also discussed how changes in unit sales affect the volatility of EBITDA and EBIT.
+
+Unit sales is only one of many factors that an analyst must predict when forecasting the cash flows associated with a project. As with forecasts of unit sales, forecasting the values of these other factors involves a high degree of uncertainty. For example, the price of a product depends on the supply and demand for the product, which are often difficult to predict. Similarly, future values of operating expenses, capital expenditures, and additions to working capital can be very uncertain. Financial analysts often resort to sensitivity analysis, scenario analysis, and simulation analysis to obtain a better understanding of how errors in forecasting these factors affect the attractiveness of a project. In other words, these analyses help answer the questions “How wrong can I be?” and “What are the implications of being wrong?”
+
+In this section we illustrate the application of sensitivity, scenario, and simulation analysis using the automated production alternative from our hammock-manufacturing example. With expected unit sales of 10,000 per year and the other indicated assumptions, the yearly free cash flows and NPV for this alternative are calculated in Exhibit 12.8.
+
+EXHIBIT 12.8 Incremental Free Cash Flows and NPV for the Automated Production Alternative for the Hammock-Manufacturing Business
+
+This exhibit shows the calculation of the yearly incremental pretax free cash flows (FCF) and the NPV of the automated production alternative in the hammock-manufacturing example assuming the project has a four-year life. The FCF calculation is illustrated in Exhibit 11.1.
+
+Assumptions:
+Opportunity cost of capital	 	        10%	Initial investment	 	  $40,000
+Unit sales	 	    10,000	D&A	 	  $10,000
+Unit price	 	        $25	Annual Cap Exp	 	    $8,000
+Unit VC	 	        $16	Add WC	 	    $2,000
+FC	 	    $35,000	Tax Rate	 	        26%
+ 	 	 	Year	 	 
+ 	0	1	2	3	4
+ Revenue	 	$250,000	$250,000	$250,000	$250,000
+− VC	 	  160,000	  160,000	  160,000	  160,000
+− FC          	 	    35,000	    35,000	    35,000	    35,000
+ EBITDA	 	 $ 55,000	 $ 55,000	 $ 55,000	 $ 55,000
+− D&A  	 	    10,000	    10,000	    10,000	    10,000
+ EBIT	 	 $ 45,000	 $ 45,000	 $ 45,000	 $ 45,000
+− Taxes   	 	   11,700	   11,700	   11,700	   11,700
+ NOPAT	 	$ 33,300	$ 33,300	$ 33,300	$ 33,300
++ D&A       	 	   10,000	   10,000	   10,000	   10,000
+ CF Opns	 	$ 43,300	$ 43,300	$ 43,300	$ 43,300
+− Cap Exp	$40,000	      8,000	      8,000	      8,000	      8,000
+− Add WC	                  	      2,000	      2,000	      2,000	      2,000
+= FCF	($40,000)	$ 33,300	$ 33,300	$ 33,300	$ 33,300
+ NPV	$65,557	 	 	 	 
+Sensitivity Analysis
+Sensitivity analysis involves examining the sensitivity of the output from an analysis, such as the NPV estimate in Exhibit 12.8, to changes in individual assumptions. In a sensitivity analysis, an analyst might examine how a project’s NPV changes if there is a decrease in the value of individual cash inflow assumptions or an increase in the value of individual cash outflow assumptions. For example, if unit sales are 10 percent lower than expected, if FC is 10 percent higher than expected, or if annual Cap Exp is 10 percent higher than expected, then an analyst could calculate that the NPV of the automated production alternative in Exhibit 12.8 declines by 32.2 percent, 12.5 percent, and 3.9 percent, respectively, when these values are changed one at a time. These numbers would tell the analyst that the NPV for the automated production alternative is much more sensitive to the unit sales assumption than to the assumptions regarding FC or Cap Exp.
+
+sensitivity analysis examination of the sensitivity of the results from a financial analysis to changes in individual assumptions
+
+This information is very useful because it helps the analyst identify critical assumptions. These are the assumptions the analyst should pay special attention to when evaluating the project. It does not make sense to allocate substantial analytical resources to investigating assumptions that are of little importance. In our example, the numbers suggest that the analyst should be especially careful when developing the unit sales forecasts.
+
+Scenario Analysis
+As we have just seen, sensitivity analysis is a form of “what if” analysis that is very useful in identifying key assumptions. However, the individual assumptions in a financial analysis are often related to each other; their values do not tend to change one at a time. As a result, sensitivity analysis is not very useful in examining how the attractiveness of a project might vary under different economic scenarios. An analyst who wants to examine how the results from a financial analysis will change under alternative scenarios will thus perform a scenario analysis.
+
+scenario analysis an analytical method concerned with how the results from a financial analysis will change under alternative scenarios
+
+Suppose, for example, that the forecasted cash flows in Exhibit 12.8 represent the performance of the automated production alternative for the hammock-manufacturing business under expected future economic conditions. Let’s consider how these cash flows might change if economic conditions turn out to be weaker or stronger than expected. In a scenario in which economic conditions are weaker than in the most likely case, we would expect unit sales to be less than 10,000 because overall demand for hammocks will be lower. The price at which the firm sells its hammocks is also likely to be lower because the firm will probably reduce prices in an effort to boost sales. On the bright side, unit variable costs might also be lower because the demand for rope, spacer bars, hardware, and so forth will decline in a weak market and producers of those products may reduce the prices they charge the firm. In contrast to the weak economic scenario, stronger economic conditions might result in higher-than-expected unit sales, prices, and unit variable costs. Exhibit 12.9 illustrates how these assumptions and the resulting project NPV might vary under the alternative scenarios.
+
+EXHIBIT 12.9 NPV Values for the Automated Production Alternative for the Hammock-Manufacturing Business for Three Scenarios
+
+Different economic scenarios result in different NPV estimates for the automated production alternative in the hammock-manufacturing example. The expected unit sales, unit prices, and unit variable costs vary depending on economic conditions.
+
+Economic Conditions	Unit Sales	Unit Price	Unit Variable Costs	NPV
+Strong	12,000	$28	$17	$164,076
+Expected	10,000	$25	$16	  $65,557
+Weak	  8,000	$22	$15	($14,197)
+In Exhibit 12.9 we can see that the project will have a negative NPV if economic conditions are weak. Furthermore, the decline in NPV if economic conditions are weaker than expected ($79,754, the difference between $65,557 and negative $14,197) is less than the increase in NPV if economic conditions are stronger than expected ($98,519, the difference between $164,076 and $65,557). The range of NPV values under the three scenarios is $178,273 (the range between negative $14,197 and $164,076).
+
+Although this analysis can help us better understand how much uncertainty is associated with an NPV estimate, it is important to remember that there is only one NPV value for a project and that the FCF values we use in an NPV analysis represent the expected incremental free cash flows. For instance, in our example, suppose there is a 50 percent chance that the most likely economic conditions will occur, a 25 percent chance that economic conditions will be weak, and a 25 percent chance that economic conditions will be strong. The NPV calculation would be based on the expected values for unit sales, the unit price, and unit variable costs.
+
+Recall that an expected value represents the sum of the products of the possible outcomes and the probabilities that those outcomes will be realized. Therefore, the expected values for unit sales, the unit price, and unit variable costs in this example are calculated as follows:
+
+Therefore, the NPV of the project would equal $65,557, as illustrated in Exhibit 12.8.
+
+Simulation Analysis
+Simulation analysis is like scenario analysis except that in simulation analysis an analyst uses a computer to examine a large number of scenarios in a short period of time. Rather than selecting individual values for each of the assumptions—such as unit sales, unit price, and unit variable costs—the analyst assumes that those assumptions can be represented by statistical distributions. For instance, unit sales might be assumed to have a normal distribution with a mean value of 10,000 units and a standard deviation of 1,500 units, while prices might be assumed to follow a normal distribution with a mean of $25 and a standard deviation of $5. A computer program then calculates the free cash flows associated with a large number of scenarios by repeatedly drawing numbers for the distributions for various assumptions, plugging them into the free cash flow model, and computing the yearly free cash flows. This technique is referred to as Monte Carlo simulation when the numbers drawn from the distributions are independent of each other across different scenarios. It is not uncommon to compute 10,000 alternative sets of free cash flows. The average of the annual free cash flows generated in this way is then computed to obtain the expected free cash flows for each year during the life of the project. These expected free cash flows can then be discounted using the opportunity cost of capital to obtain the NPV for the project.
+
+simulation analysis an analytical method that uses a computer to quickly examine a large number of scenarios and obtain probability estimates for various values in a financial analysis
+
+In addition to providing an estimate of the expected free cash flows, simulation analysis provides information on the distribution of the free cash flows that the project is likely to produce in each year. For example, if simulation analysis is used to compute 10,000 alternative sets of free cash flows, there will be 10,000 cash flow estimates for each year. From these estimates, an analyst can estimate the probability that the free cash flows in a given year will be greater than $0, greater than $1,000, or greater than any other number. By summing up the free cash flows over time within each alternative set of cash flows, the analyst can also estimate the probability of recovering the initial investment in the project by any particular point in the project’s life.
+
+A discussion of the actual techniques used in simulation analysis is beyond the scope of this book. However, you should be aware that sophisticated financial analysts commonly use simulation analysis to evaluate the riskiness of projects. You are likely to see it in practice if you are ever involved with project analysis.
+
+Before You Go On
+How is a sensitivity analysis used in project analysis?
+How does a scenario analysis differ from a sensitivity analysis?
+What is a simulation analysis, and what can it tell us?
+
+Monte Carlo simulations can be performed with relative ease using a spreadsheet. An introduction to the Monte Carlo process using Excel can be found at www.riskamp.com/how-to
+
+
+You can download a trial version of an Excel add-in program for sensitivity analysis and simulation analysis at www.palisade.com
+
+Summary of Learning Objectives
+1 Explain and demonstrate how variable costs and fixed costs affect the volatility of pretax operating cash flows and accounting operating profits.
+
+Because the fixed costs associated with a project do not change as revenue changes, when a project has fixed costs, fluctuations in revenue are magnified so that pretax operating cash flows and accounting operating profits fluctuate more than revenue in percentage terms. The greater the proportion of total costs that are fixed, the more the fluctuations in revenue will be magnified. To demonstrate this, you can perform calculations like those in the hammock-manufacturing example and in Learning by Doing Applications 12.1 and 12.2.
+
+2 Calculate and distinguish between the degree of pretax cash flow operating leverage and the degree of accounting operating leverage.
+
+The degree of pretax cash flow operating leverage (Cash Flow DOL) is a measure of how much pretax operating cash flow will change in relation to a change in revenue. Similarly, the degree of accounting operating leverage (Accounting DOL) is a measure of how much accounting operating profits will change in relation to a change in revenue. The only difference between cash flow operating leverage and accounting operating leverage is that the accounting measure treats incremental depreciation and amortization charges as a fixed cost in the calculation. These charges are excluded from the cash flow operating leverage measure because they do not reflect actual cash expenses and, therefore, do not affect pretax cash flows. Equations 12.2 and 12.3 are used to calculate these two measures.
+
+3 Define and calculate the pretax operating cash flow and accounting operating profit break-even points and the crossover levels of unit sales for a project.
+
+The pretax operating cash flow break-even point is the number of units that must be sold in a particular year to break even on a pretax operating cash flow (EBITDA) basis. It is calculated using Equation 12.4.
+
+The accounting operating profit break-even point is the number of units that must be sold in a particular year to break even on an accounting operating profit basis. A project breaks even on an accounting operating profit basis when it produces exactly $0 in incremental operating profits (EBIT). It is calculated using Equation 12.6.
+
+The crossover level of unit sales is the level of unit sales at which the pretax operating cash flows or accounting operating profits for one project alternative switches from being lower than that of another alternative to being higher. The EBITDA and EBIT crossover levels of unit sales are calculated using Equations 12.5 and 12.7, respectively.
+
+4 Define the economic break-even point and be able to calculate it for a project.
+
+The economic break-even point is the number of units that must be sold each year during the life of a project so that the NPV of the project equals $0. Section 12.4 illustrates how the economic break-even point is calculated.
+
+5 Define sensitivity analysis, scenario analysis, and simulation analysis and describe how they are used to evaluate the risks associated with a project.
+
+Sensitivity analysis is concerned with how sensitive the output from a financial analysis, such as the NPV, is to changes in an individual assumption. It helps identify which assumptions have the greatest impact on the output and, therefore, on the value of a project. Knowing this helps an analyst identify which assumptions are especially important to that analysis. Scenario analysis is used to examine how the output from a financial analysis changes under alternative scenarios. This type of analysis recognizes that changing economic and market conditions affect more than one variable at a time and tries to account for how each of the different variables will change under alternative scenarios. Simulation analysis is like scenario analysis except that in simulation analysis a computer is used to examine a large number of scenarios in a short period of time.
+
+Summary of Key Equations
+Equation	Description	Formula
+12.1	Op Ex in terms of incremental variable and fixed costs	
+12.2	Degree of pretax cash flow operating leverage	
+12.3	Degree of accounting operating leverage	
+12.4	Pretax operating cash flow (EBITDA) break-even point	
+12.5	Crossover level of unit sales for EBITDA	
+12.6	Accounting operating profit (EBIT) break-even point	
+12.7	Crossover level of unit sales of EBIT	
+Self-Study Problems
+12.1 The Yellow Shelf Company sells all of its shelves for $100 per shelf and incurs $50 in variable costs to produce each. If the fixed costs for the firm are $2,000,000 per year, what will the EBIT for the firm be if it produces and sells 45,000 shelves next year? Assume that depreciation and amortization are included in the fixed costs.
+
+
+
+12.2 Hydrogen Batteries sells its specialty automobile batteries for $85 each, while its current variable cost per unit is $65. Total fixed costs (including depreciation and amortization expense) are $150,000 per year. Management expects to sell 10,000 batteries next year but is concerned that variable cost will increase next year due to material cost increases. What is the maximum variable cost per unit increase that will keep the EBIT from becoming negative?
+
+
+
+12.3 The Vinyl CD Co. is going to take on a project that is expected to increase its EBIT by $90,000, its fixed cost cash expenditures by $100,000, and its depreciation and amortization by $80,000 next year. If the project yields an additional 10 percent in revenue, what percentage increase in the project’s EBIT will result from the additional revenue?
+
+
+
+12.4 You are considering investing in a business that has monthly fixed costs of $5,500 and sells a single product that costs $35 per unit to make. This product sells for $90 per unit. What is the annual pretax operating cash flow break-even point for this business?
+
+
+
+12.5 Belt Bottoms, Inc., is considering a five-year project with an initial investment of $20,000. What annual free cash flow (FCF) would be required for this project to have an NPV of $0 if the opportunity cost capital is 11 percent?
+
+
+
+Discussion Questions
+12.1 You are involved in the planning process for a firm that is expected to have a large increase in sales next year. Which type of firm would benefit more from that sales increase: a firm with low fixed costs and high variable costs or a firm with high fixed costs and low variable costs?
+
+12.2 You own a firm with a single new product that is about to be introduced to the public for the first time. Your marketing analysis suggests that the annual demand for this product could be anywhere between 500,000 units and 5,000,000 units. Given such a wide range, discuss the safest cost structure alternative for your firm.
+
+12.3 Discuss the interpretation of the degree of accounting operating leverage and degree of pretax cash flow operating leverage.
+
+12.4 Explain how EBITDA differs from incremental after-tax free cash flows (FCF) and discuss the types of businesses for which this difference would be especially small or large.
+
+12.5 Describe how the pretax operating cash flow break-even point is related to the economic break-even point.
+
+12.6 Is it possible to have a crossover point where the accounting break-even point is the same for two alternatives—that is, above the break-even point for a low-fixed-cost alternative but below the break-even point for a high-fixed-cost alternative? Explain.
+
+12.7 What is the fundamental difference between a sensitivity analysis and a scenario analysis?
+
+12.8 The economic break-even calculation assumes that the number of units sold is the same each year during the life of the project. Is it possible for the NPV of a project to be negative if unit sales are not the same each year and the average unit sales are higher than those estimated using the economic break-even calculation? Explain.
+
+12.9 How does the pretax operating cash flow for a project differ from the economic profit for the project?
+
+12.10 What is the advantage of using a simulation analysis instead of a scenario analysis to assess the risk of a project?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+12.1 Fixed and variable costs: Define variable costs and fixed costs, and give an example of each.
+
+12.2 EBIT: Describe the role that the mix of variable versus fixed costs has in the variation of earnings before interest and taxes (EBIT) for a firm.
+
+12.3 EBIT: The Generic Publications Textbook Company sells all of its books for $100 per book, and it currently costs $50 in variable costs to produce each text. The fixed costs, which include depreciation and amortization for the firm, are currently $2 million per year. Management is considering changing the firm’s production technology, which will increase the fixed costs for the firm by 50 percent but decrease the variable costs per unit by 50 percent. If management expects to sell 45,000 books next year, should they switch technologies?
+
+12.4 EBIT: WalkAbout Kangaroo Shoe Stores management forecasts that it will sell 9,500 pairs of shoes next year. The firm buys its shoes for $50 per pair from the wholesaler and sells them for $75 per pair. If the firm will incur fixed costs plus depreciation and amortization of $100,000, then what is the percent increase in EBIT if the actual sales next year equal 11,500 pairs of shoes instead of 9,500?
+
+12.5 Cash Flow DOL: The law firm of Dewey, Cheatem, and Howe has monthly fixed costs of $100,000, EBIT of $250,000, and depreciation charges on its office furniture and computers of $5,000. Calculate the Cash Flow DOL for this firm.
+
+12.6 Cash Flow DOL: The degree of pretax cash flow operating leverage at Rackit Corporation is 2.7 when it sells 100,000 units of its new tennis racket and its EBITDA is $95,000. Ignoring the effects of taxes, what are the fixed costs for Rackit Corporation?
+
+12.7 Accounting DOL: Explain how the value of the degree of accounting operating leverage can be used.
+
+12.8 Accounting DOL: Caterpillar, Inc., is a manufacturer of large earth-moving and mining equipment. This firm and other heavy equipment manufacturers have degrees of accounting operating leverage that are relatively high. Explain why.
+
+12.9 Break-even analysis: Why is the per-unit contribution important in a break-even analysis?
+
+12.10 Break-even analysis: Calculate the accounting operating profit break-even point and pretax operating cash flow break-even point for each of the three production choices outlined below.
+
+Choice	Price	Unit VC	FC	D&A
+A	$250	 $160	$15,000	$3,000
+B	  $55	  $10	   $1,100	   $200
+C	  $10	$1.50	     $100	   $100
+12.11 Break-even point: The accounting operating profit break-even point tells us the number of units that must be sold for a firm to break even in a given year from an accounting operating profit perspective. What measure tells us the number of units that must be sold each year during the life of a project in order for the project to break even with regard to its opportunity cost of capital?
+
+12.12 Simulation analysis: What is simulation analysis, and how is it used?
+
+Intermediate
+12.13 EBIT: If a manufacturing firm and a service firm have identical cash fixed costs, but the manufacturing firm has much higher depreciation and amortization, then which firm is more likely to have a large discrepancy between its FCF and its EBIT?
+
+12.14 EBIT: Duplicate Footballs, Inc., management expects to sell 15,000 balls this year. The balls sell for $110 each and have a variable cost per unit of $80. Fixed costs, including depreciation and amortization, are currently $220,000 per year. How much can either the fixed costs or the variable cost per unit increase before the company has a negative EBIT?
+
+12.15 EBIT: Specialty Light Bulbs management anticipates selling 3,000 light bulbs this year at a price of $15 per bulb. It costs Specialty $10 in variable costs to produce each light bulb, and the fixed costs for the firm are $10,000. Specialty has an opportunity to sell an additional 1,000 bulbs next year at the same price and variable cost, but by doing so the firm will incur an additional fixed cost of $4,000. Should Specialty produce and sell the additional bulbs?
+
+12.16 Cash Flow DOL: The pretax operating cash flow of Memphis Motors declined so much during the recession of 2008 and 2009 that the company almost defaulted on its debt. The owner of the company wants to change the cost structure of his business so that this does not happen again. He has been able to reduce fixed costs from $500,000 to $300,000 and, in doing so, reduce the Cash Flow DOL for Memphis Motors from 3.0 to 2.2 with sales of $1,000,000 and pretax operating cash flow of $250,000. If sales declined by 20 percent from this level, how much more pretax operating cash flow would Memphis Motors have with the new cost structure than under the old?
+
+12.17 Cash Flow DOL: For the Vinyl CD Co. in Self-Study Problem 12.3, what percentage increase in pretax operating cash flow will be driven by the additional revenue?
+
+Use the following information for Problems 12.18, 12.19, and 12.20:
+
+Dandle’s Candles will be producing a new line of dripless candles in the coming year and has the choice of producing the candles in a large factory with a small number of workers or a small factory with a large number of workers. Each candle will be sold for $10. If the large factory is chosen, the cost per unit to produce each candle will be $2.50. The cost per unit will be $7.50 in the small factory. The large factory would have fixed cash costs of $2 million and a depreciation expense of $300,000 per year, while those expenses would be $500,000 and $100,000, respectively, in the small factory.
+
+12.18 Accounting operating profit break-even: Calculate the accounting operating profit break-even point for both factory choices for Dandle’s Candles.
+
+12.19 Crossover level of unit sales: Calculate the number of candles for which the accounting operating profit at Dandle’s Candles is the same regardless of the factory choice.
+
+12.20 Pretax operating cash flow break-even: Calculate the pretax operating cash flow break-even point for both factory choices for Dandle’s Candles.
+
+12.21 Accounting and cash flow break-even: Your analysis tells you that at a projected level of sales, a project your firm is considering will be below accounting break-even but above cash flow break-even. Explain why this might still be a viable project or firm.
+
+12.22 Economic break-even point: Management of March and Dine Inc. has estimated that the firm’s new TV dinner project must generate $10,200 in FCF during each of the next six years to have an NPV of $0. Management anticipates that depreciation and amortization charges will equal $3,000, capital expenditures will equal $2,000, and additions to working capital will equal $500 during each of those years. What level of EBIT corresponds to an annual FCF of $10,200 if the firm is subject to a 30 percent marginal tax rate?
+
+12.23 Economic break-even point: Rose Weiser Company management is considering a project that will require an initial investment of $50,000 and will last for 10 years. No other capital expenditures or increases in working capital are anticipated during the life of the project. What is the annual EBIT that will make the project economically viable if the cost of capital for the project is 9 percent and the firm will depreciate the investment using straight-line depreciation and a salvage value of $0? Assume that the marginal tax rate is 24 percent.
+
+12.24 Economic break-even point: The BowGus Archery Company management estimates that its new Galactically Flexible Bow project will have to generate EBIT of $20,000 each year to be viable. The project’s fixed cash expenses are expected to equal $8,000, and its depreciation and amortization expenses are expected to be $5,000 each year. If the new bows are expected to sell for $150 each and the variable cost to produce each bow is expected to be $100, then how many of these bows must the firm produce and sell each year to generate annual EBIT of $20,000?
+
+12.25 Sensitivity and scenario analyses: Sensitivity analysis and scenario analysis are somewhat similar. Describe which is a more realistic method of analyzing the impact of different scenarios on a project.
+
+12.26 Sensitivity analysis: Describe the circumstances under which sensitivity analysis might be a reasonable basis for determining changes to a firm’s EBIT or FCF.
+
+12.27 Scenario analysis: Chip’s Home Brew Whiskey management forecasts that if the firm sells each bottle of Snake-Bite for $20, then the demand for the product will be 15,000 bottles per year. Sales will equal only 90 percent of this amount if the price is raised 10 percent. Chip’s variable cost per bottle is $10, and the total fixed cash cost for the year is $100,000. Depreciation and amortization charges are $20,000, and the firm has a 30 percent marginal tax rate. Management anticipates an increased working capital need of $3,000 for the year. What will be the effect of a 10 percent price increase on the firm’s FCF for the year?
+
+12.28 Sensitivity, scenario, and simulation analysis: If you were interested in calculating the probability that a project will have a positive FCF, what type of risk analysis tool would you most likely use?
+
+Advanced
+12.29 Mick’s Soft Lemonade is starting to develop a new product for which the cash fixed costs are expected to be $80,000. The projected EBIT is $100,000, and the Accounting DOL is expected to be 2.0. What is the Cash Flow DOL?
+
+12.30 If a firm has a fixed asset base, meaning that its depreciation and amortization for any year is positive, discuss the relation between its Accounting DOL and its Cash Flow DOL.
+
+12.31 Silver Polygon, Inc. management has determined that if revenues were to increase by 10 percent, then EBIT would increase by 25 percent to $100,000. The fixed costs (cash only) for the firm are $100,000. Given the same 10 percent increase in revenues, what would be the corresponding change in EBITDA?
+
+12.32 If a firm’s costs (both variable and fixed) are known with certainty, then what are the only two sources of volatility for the firm’s operating profits or its operating cash flows?
+
+12.33 In most circumstances, given the choice between a higher fixed-cost structure and a lower fixed-cost structure, which of the two would generate a larger contribution margin?
+
+12.34 Using the same logic as with the accounting break-even calculation in Problem 12.19, adapt the formula for the crossover level of unit sales to find the number of units sold where the pretax operating cash flow is the same whether the firm chooses the large or small factory.
+
+12.35 You are the project manager for Eagle Golf Corporation. You are considering manufacturing a new golf wedge with a unique groove design. You have put together the estimates in the following table about the potential demand for the new club and the associated selling and manufacturing prices. You expect to sell the club for five years. The equipment required for the manufacturing process can be depreciated using straight-line depreciation over five years and will have a zero salvage value at the end of the project’s life. No additional capital expenditures are required. No new working capital is needed for the project. The required return for projects of this type is 12 percent, and the company has a 23 percent marginal tax rate. You estimate that there is a 50 percent chance the project will achieve good sales and a 25 percent chance it will achieve either the weak or strong sales outcomes. Should you recommend the project?
+
+ 	Strong Sales	Good Sales	Weak Sales
+Units sold	    15,000	    10,000	    7,000
+Selling price per unit	      $130	      $120	      $110
+Variable costs per unit	        $70	        $65	        $60
+Fixed costs	$258,000  	$258,000  	$258,000  
+Initial investment	$1,000,000      	$1,000,000      	$1,000,000      
+12.36 You are working for Eagle Golf Corporation as described in Problem 12.35. A different equipment manufacturer is recommending its “Wedge 2100” club-making machine. The initial cost of the Wedge 2100 is $1,070,000, and the fixed costs of production will be $260,000 per year. However, because the Wedge 2100 is much more efficient than the original machine, its variable cost per unit will be $63. Assume that you will choose one of the two machines. (a) If the other financial information in Problem 12.35 applies, do you recommend the original machine or the Wedge 2100? (b) After seeing a news report that the demand for golf equipment is surging, your CFO believes that the most likely sales outcome is 15,000 units per year. Does the updated sales forecast from the CFO change your recommendation?
+
+12.37 Commodore Motors management is considering a project to produce toy cars. The project would require an initial outlay of $100,000 and have an expected life of 10 years. Management estimates that each year during the life of the project depreciation and amortization would be $8,000, capital expenditures would be $4,000, additions to working capital would be $2,000, and fixed costs would be $3,000. Also, each toy car would sell for $15 and cost $7 to produce. Finally, the cost of capital for the project would be 12 percent, cash flow from the project would be taxed at a 25 percent rate, and the assets would be depreciated to a salvage value of $0. How many units must be sold each year in order for this project to break even from an economic standpoint?
+
+CFA Problems
+12.38 Operating leverage is a measure of the:
+
+Sensitivity of net earnings to changes in operating earnings.
+Sensitivity of net earnings to changes in sales.
+Sensitivity of fixed operating costs to changes in variable costs.
+Sensitivity of earnings before interest and taxes to changes in the number of units produced and sold.
+12.39 The Fulcrum Company produces decorative swivel platforms for home televisions. If Fulcrum produces 40 million units, it estimates that it can sell them for $100 each. The variable production costs are $65 per unit. The fixed production costs, including depreciation and amortization, are $1.05 billion. Which of the following statements is true?
+
+The Fulcrum Company produces a positive accounting operating profit (EBIT) if it produces and sells more than 25 million swivel platforms.
+The Fulcrum Company’s degree of accounting operating leverage is 1.333.
+If the Fulcrum Company increases production and sales by 5 percent, its operating earnings are expected to increase by 20 percent.
+Increasing the fixed production costs by 10 percent will result in a lower sensitivity of operating earnings to changes in units produced and sold.
+Sample Test Problems
+12.1 Retro Inc. sells vintage football jerseys for $72 each. Variable costs are $58 per unit, and total fixed costs (including depreciation and amortization expense) are $84,000 per year. If sales for next year are expected to equal 8,000 jerseys, how much can variable costs per unit increase without EBIT becoming negative?
+
+12.2 How would a capital-intensive company fare during good and poor economic times as compared with less capital-intensive companies? Explain.
+
+12.3 The manager of Roy’s Restaurant has determined that if revenues were to increase by 20 percent, then EBIT would increase by 45 percent to $87,000. What would be the corresponding change in EBITDA if revenues increased 20 percent and cash fixed costs are $35,000?
+
+12.4 Luminosity Inc. produces modern light fixtures that sell for $150 per unit. The firm’s management is considering purchasing a high-capacity manufacturing machine. If the high-capacity machine is purchased, then the firm’s annual cash fixed costs will be $60,000 per year, variable costs will be $55 per unit, and annual depreciation and amortization expenses will equal $30,000. If the machine is not purchased, annual cash fixed costs will be $25,000, variable costs will be $105 per unit, and annual depreciation and amortization expenses will equal $10,000. What is the minimum level of unit sales necessary in order for EBIT with the high-capacity machine to be higher than EBIT without that machine?
+
+12.5 Paper Christmas Trees Inc. management is considering introducing a new line of inexpensive Christmas trees. The initial outlay for the project is $175,000, and the company will have to invest $5,000 in working capital and $10,000 in fixed assets each year during the six-year life of the project. The initial outlay will be depreciated assuming a salvage value of $0. Annual depreciation and amortization charges for the project will be $15,000, and cash-related fixed costs will be $6,000 per year. The firm will sell each tree for $75, and the variable cost to produce each tree will be $40. Calculate the number of trees that the firm must produce and sell in order to break even economically. Assume that the appropriate cost of capital for the project is 15 percent and that the marginal tax rate for the firm is 23 percent.
+
+Notes
+1 A hammock is a bed which is typically made of canvas or rope mesh and which is suspended by cords at each end. Hammocks are often used as garden furniture or on board ships.
+2 VC equals Unit VC (or cost per unit) times the number of units sold. If we know Unit VC, we can calculate VC for different levels of unit sales.
+3 We are assuming that you will cut back on advertising expenditures if revenue declines and that a modest decrease in advertising will not adversely affect demand for your services. Of course, under certain circumstances, you might actually increase advertising expenditures if demand for your service declines.
+4 The term accounting operating profits is used here to refer to EBIT, even though EBIT is not actually computed using accounting numbers when we forecast cash flows for a financial analysis. The term is used to refer to the fact that noncash charges, D&A, are subtracted when computing this measure of earnings, just as is done in the calculation of accounting operating profits.

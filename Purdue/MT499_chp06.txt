@@ -1,0 +1,1146 @@
+CHAPTER 6
+Discounted Cash Flows and Valuation
+
+LEARNING OBJECTIVES
+
+Explain why cash flows occurring at different times must be adjusted to reflect their value as of a common date before they can be compared, and compute the present value and the future value for multiple cash flows.
+Explain the difference between an ordinary annuity and an annuity due, and calculate the present value and the future value of an ordinary annuity and an annuity due.
+Explain what a perpetuity is and where we see them in business, and calculate the value of a perpetuity.
+Discuss growing annuities and perpetuities, as well as their application in business, and calculate their values.
+Discuss why the effective annual interest rate (EAR) is the appropriate way to annualize interest rates, and calculate the EAR.
+On November 25, 2019, luxury retailer Moët Hennessy Louis Vuitton SE, also known as LVMH, announced its blockbuster acquisition agreement to acquire global jeweler Tiffany & Co. for a whopping $16.2 billion in cash. The deal offered the stockholders of Tiffany $135 per share, which was a substantial premium to the $90 per share market value for the stock just one month before. The combination of the two luxury-brand powerhouses seemed like a perfect match at the time. Management at LVMH praised the impending acquisition as one that would “strengthen LVMH’s position in jewelry and further increase its presence in the United States.” In addition, Tiffany would be a brand that would complement LVMH’s seventy-five “Houses,” which range from Dior to Dom Pérignon.
+
+Unfortunately, Tiffany quickly lost its shine for LVMH. By Spring 2020, it was becoming clear that the Covid-19 pandemic was going to have a substantial negative impact on the worldwide market for luxury brands such as Tiffany. With the release of its financials in March, Tiffany forecasted what Reuters described as “a significant results hit this year as it temporarily shut stores and lost about half of its operating days in mainland China since the coronavirus outbreak.” By September 2020, LVMH had had enough. Citing a continued downturn in consumer demand, as well as threats of U.S. tariffs being imposed on imports of French goods, LVMH announced that it was terminating the deal. Lawyers on behalf of Tiffany immediately sued LVMH, calling on the courts to force LVMH to make good on the merger agreement.
+
+Following months of rancorous litigation, Tiffany and LVMH announced in November 2020 that they had agreed to a new acquisition price of $131.5 per share in a deal expected to close in 2021. This new price represented a $425 million discount to the initial purchase agreement, a small concession to LVMH.
+
+In the excitement of an acquisition proposal such as this, it is important not to lose sight of the central question: What are the shares of the target firm really worth? Investors invest in an asset—whether it is a financial asset like the shares of Tiffany, or a real asset like a capital project—because they expect the asset to be worth more than it costs. That’s how investors create value for themselves. The value of a financial or real asset is the sum of the discounted cash flows that it is expected to produce in the future. Thus, the crucial task for both LVMH and Tiffany management and stockholders was to estimate how the acquisition would change the value of the cash flows that they might expect to receive. This chapter, which discusses the discounting of future cash flows, presents fundamental tools that you will need to understand in order to answer questions such as what the Tiffany shares were worth and whether the acquisition of Tiffany was a good deal for LVMH stockholders.
+
+Chapter Preview
+In Chapter 5, we introduced the concept of the time value of money: Dollars today are more valuable than dollars to be received in the future. Starting with that concept, we developed the basics of simple interest, compound interest, and future value calculations. We then went on to discuss present value calculations and discounted cash flow analysis. This was all done in the context of a single cash flow.
+
+In this chapter, we consider the value of multiple cash flows. Most business decisions, after all, involve a series of cash flows over time. For example, if Hatteras Hammocks, a North Carolina–based firm that manufactures hammocks, swings, and rockers, wants to consider building a new factory, the decision will require an analysis of the project’s expected cash flows over a number of periods. Initially, there will be large cash outlays to build and get the new factory operational. Thereafter, the project should produce cash inflows for many years. Because the cash flows occur over time, the analysis must consider the time value of money, discounting each of the cash flows by using the present value formula we discussed in Chapter 5.
+
+We begin the chapter by describing calculations of future and present values for multiple cash flows. We then examine some situations in which future cash flows are level over time: These involve annuities, in which the cash flow stream goes on for a finite period, and perpetuities, in which the stream goes on forever. Next, we examine annuities and perpetuities in which the cash flows grow at a constant rate over time. These cash flows resemble common cash flow patterns encountered in business. Finally, we describe the effective annual interest rate and compare it with the annual percentage rate (APR), which is a rate that is used to describe the interest rate in consumer loans.
+
+6.1 Multiple Cash Flows
+LEARNING OBJECTIVE
+
+Explain why cash flows occurring at different times must be adjusted to reflect their value as of a common date before they can be compared, and compute the present value and the future value for multiple cash flows.
+We begin our discussion of the value of multiple cash flows by calculating the future value and then the present value of multiple cash flows. These calculations, as you will see, are applications of the techniques you learned in Chapter 5.
+
+EXHIBIT 6.1 Future Value of Two Cash Flows This exhibit shows a time line for two cash flows invested in a savings account that pays 10 percent interest annually. The total amount in the savings account after two years is $2,310, which is the sum of the future values of the two cash flows.
+
+
+Future Value of Multiple Cash Flows
+In Chapter 5, we worked through several examples that involved the future value of a lump sum of money invested in a savings account that paid 10 percent interest per year. But suppose you are investing more than one lump sum. Let’s say you put $1,000 in your bank savings account today and another $1,000 a year from now. If the bank continues to pay 10 percent interest per year, how much money will you have at the end of two years?
+
+To solve this future value problem, we can use Equation 5.1: FVn = PV × (1 + i)n. First, however, we construct a time line so that we can see the magnitude and timing of the cash flows. As Exhibit 6.1 shows, there are two cash flows into the savings account. The first cash flow is invested for two years and compounds to a future value as follows:
+
+ 
+
+The second cash flow earns simple interest for a single period only and grows to:
+
+ 
+
+As Exhibit 6.1 shows, the total amount of money in the savings account after two years is the sum of these two amounts, which is $2,310 ($1,100 + $1,210 = $2,310).
+
+Now suppose that you expand your investment horizon to three years and invest $1,000 today, $1,000 a year from now, and $1,000 at the end of two years. How much money will you have at the end of three years? First, we draw a time line to be sure that we have correctly identified the magnitude and timing of each cash flow. This is shown in Exhibit 6.2. Then we compute the future value of each of the individual cash flows using Equation 5.1. Finally, we add up the future values. The total future value is $3,641. The calculations are as follows:
+
+ 
+ 
+
+EXHIBIT 6.2 Future Value of Three Cash Flows The exhibit shows a time line for an investment program with a three-year horizon. The value of the investment at the end of three years is $3,641, the sum of the future values of the three separate cash flows.
+
+
+To summarize, solving future value problems with multiple cash flows involves a simple process. First, draw a time line to make sure that each cash flow is placed in the correct time period. Second, calculate the future value of each cash flow for its time period. Third, add up the future values.
+
+Let’s use this process to solve a practical problem. Suppose you want to buy a condominium in three years and estimate that you will need $20,000 for a down payment. If the interest rate you can earn at the bank is 8 percent and you can save $3,000 now, $4,000 at the end of the first year, and $5,000 at the end of the second year, how much money will you have to obtain from other sources at the end of the third year to have a $20,000 down payment?
+
+The time line for the future value calculation in this problem looks like this:
+
+
+To solve the problem, we need to calculate the future value for each of the cash flows, add up these values, and then calculate the difference between this amount and the $20,000 needed for the down payment. Using Equation 5.1, we find that the future values of the cash flows at the end of the third year are:
+
+ 
+ 
+
+At the end of the third year, you will have $13,844.74, so you will need an additional $6,155.26 ($20,000 − $13,844.74 = $6,155.26) at that time to make the down payment.
+
+Learning by Doing Application 6.1 illustrates another future value calculation with multiple cash flows.
+
+LEARNING BY DOING APPLICATION 6.1
+Bidding on a Contract to Rebuild a Bridge
+
+Problem
+
+The firm you work for is considering bidding on a contract to rebuild an old bridge that has reached the end of its useful life. The two-year contract will pay the firm $1,100,000 at the end of the second year. The firm’s estimator believes that the project will require an initial expenditure of $700,000 for equipment. The expenses for Years 1 and 2 are estimated at $150,000 per year. Because the cash inflow of $1,100,000 at the end of the contract exceeds the total cash outflows of $1,000,000 ($700,000 + $150,000 + $150,000 = $1,000,000), the estimator believes that the firm should accept the job. Drawing on your knowledge of finance, you point out that the estimator’s decision process ignores the time value of money. Not fully understanding what you mean, the estimator asks you how the time value of money should be incorporated into the decision process. Assume that the appropriate interest rate is 8 percent.
+
+
+
+ 
+
+Calculator Tip: Calculating the Future Value of Multiple Cash Flows
+
+To calculate the future value of multiple cash flows with a financial calculator, we can use exactly the same process we used in Chapter 5. We simply calculate the future value of each of the individual cash flows, write down each computed future value, and add them up.
+
+Alternatively, we can generally use a shortcut. More than likely, your financial calculator has a memory where you can store numbers; refer to your calculator’s instruction manual for the keys to use. For the preceding example, you would use your financial calculator’s memory (M) as follows: Calculate the future value of the first number, then store the value in the memory (M1); compute the second value, and store it in the memory (M2); compute the third value, and store it in the memory (M3). Finally, retrieve the three numbers from the memory and add them up (M1 + M2 + M3). The advantage of using the calculator’s memory is that you eliminate two potential sources of error: (1) writing down a number incorrectly and (2) making a mistake when adding up the numbers.
+
+Present Value of Multiple Cash Flows
+In business, we often need to compute the present value of a series of future cash flows. We do this, for example, to determine the market price of a bond, to decide whether to purchase a new machine, or to determine the value of a company. Solving present value problems involving multiple cash flows is similar to solving future value problems involving multiple cash flows. First, we prepare a time line so that we can see the magnitude and timing of the cash flows. Second, we calculate the present value of each individual cash flow using Equation 5.4: PV = FVn/(1 + i)n. Finally, we add up the present values. The sum of the present values of a stream of future cash flows is their current market price, or value. There is nothing new here!
+
+Using the Present Value Equation
+
+Let’s work through some examples to see how we can use Equation 5.4 to find the present value of multiple cash flows. Suppose that your best friend needs cash and offers to pay you $1,000 at the end of each of the next three years if you will give him $3,000 cash today. You realize that because of the time value of money, the cash flows he has promised to pay are worth less than $3,000. If the interest rate on similar loans is 7 percent, how much should you pay for the cash flows your friend is offering?
+
+To solve the problem, we first construct a time line, as shown in Exhibit 6.3. Then, using Equation 5.4, we calculate the present value for each of the three cash flows, as follows:
+
+ 
+ 
+
+If you view this transaction from a purely business perspective, you should not give your friend more than $2,624.32, which is the sum of the individual discounted cash flows.
+
+EXHIBIT 6.3 Present Value of Three Cash Flows This exhibit shows the time line for a three-year loan with a payment of $1,000 at the end of each year and an annual interest rate of 7 percent. To calculate the value of the loan today, we compute the present value of each of the three cash flows and then add them up. The present value of the loan is $2,624.32.
+
+
+Now let’s consider another example. Suppose you have the opportunity to buy a small business while you are in school. The business involves selling sandwiches, drinks, and snack foods from a food truck that you park around campus. The annual cash flows from the business have been predictable. You believe you can expand the business, and you estimate that cash flows will be as follows: $2,000 in the first year, $3,000 in the second and third years, and $4,000 in the fourth year. At the end of the fourth year, the business will be closed down because the truck and other equipment will need to be replaced. You did some research and found that a 10 percent discount rate would be appropriate. How much should you pay for the business?
+
+To value the business, we compute the present value of the expected cash flows, discounted at 10 percent. The time line for the investment is:
+
+
+We compute the present value of each cash flow and then add them up:
+
+ 
+ 
+
+This tells us that the present value of the expected cash flows is $9,283.51. If you pay $9,283.51 for the business, you will earn a return of exactly 10 percent. Of course, you should buy the business for the lowest price possible, but you should never pay more than the $9,283.51 value today of the expected cash flows. If you do, you will be paying more than the investment is worth.
+
+Learning by Doing Application 6.2, Learning by Doing Application 6.3, and Decision Making Example 6.1 illustrate additional present value calculations and their application in decision-making.
+
+Calculator Tip: Calculating the Present Value of Multiple Cash Flows
+
+To calculate the present value of future cash flows with a financial calculator, we use exactly the same process we used in finding the future value, except that we solve for the present value instead of the future value. We can compute the present values of the individual cash flows, save them in the calculator’s memory, and then add them up to obtain the total present value.
+
+You should note that from this point forward we will use a different notation. Up to this point, we have used the notation FVn to represent a cash flow in period n. We have done this to stress that, for n > 0, we were referring to a future value. From this point on, we will use the notation CFn, instead of FVn, because the CFn notation is more commonly used by financial analysts. When you work through Learning by Doing Application 6.2, you will see the new notation.
+
+LEARNING BY DOING APPLICATION 6.2
+The Value of a Gift to the University
+
+Problem
+
+Suppose that in your senior year, as part of the senior class gift campaign, you pledge to donate to your university $1,000 per year for four years and $3,000 for the fifth year. Immediately after making the third payment, you decide to make a payment with a value equal to the present value of the final two payments of your pledge because your financial situation has improved. How much should you pay to the university if the interest rate is 6 percent?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 6.3
+Buying a Used Car—Help!
+
+Problem
+
+Buying a used car can be a harrowing experience. Once you find the car you want, the next difficult decision is choosing how to pay for it—cash or a loan. Suppose the cash price you have negotiated for the car is $5,600, but that amount will stretch your budget for the year. The dealer says, “No problem. The car is yours for a $4,000 down payment today and payments of $1,000 per year for the next two years. Or you can put $2,000 down and today pay $2,000 per year for two years. The choice is yours.” Which offer is the best deal if the interest rate you can earn on your money is 8 percent?
+
+
+
+ 
+
+DECISION MAKING EXAMPLE 6.1
+The Investment Decision
+
+Situation
+
+You are thinking of buying a business, and your investment adviser presents you with two possibilities. Both businesses are priced at $60,000, and you have only $60,000 to invest. She has provided you with the following annual and total cash flows for each business, along with the present value of the cash flows discounted at 10 percent:
+
+Cash flow ($ thousands)
+Business	1	2	3	Total	PV at 10%
+A	$50	$30	$ 20	$100	$85.27
+B	$ 5	$ 5	  $100	$110	$83.81
+Which business should you acquire?
+
+
+
+Before You Go On
+Explain how to calculate the future value of a stream of cash flows.
+Explain how to calculate the present value of a stream of cash flows.
+Why is it important to adjust all cash flows to a common date?
+
+You can find plenty of future value and present value problems to work on at StudyFinance.com. Go to www.studyfinance.com/lectures/timevalue/
+
+6.2 Level Cash Flows: Annuities
+LEARNING OBJECTIVE
+
+Explain the difference between an ordinary annuity and an annuity due, and calculate the present value and the future value of an ordinary annuity and an annuity due.
+In finance we commonly encounter contracts that call for the payment of equal amounts of cash over several time periods. For example, most business term loans and insurance policies require the holder to make a series of equal payments, usually monthly. Similarly, nearly all consumer loans, such as auto, personal, and home mortgage loans, call for equal monthly payments. Any financial contract that calls for equally spaced and level cash flows over a finite number of periods is called an annuity. If the cash flow payments continue forever, the contract is called a perpetuity. Most annuities are structured so that cash payments are received at the end of each period. Because this is the most common structure, these annuities are often called ordinary annuities.
+
+annuity a series of equally spaced and level cash flows extending over a finite number of periods
+
+perpetuity a series of equally spaced and level cash flows that continues forever
+
+ordinary annuity an annuity in which payments are made at the end of each period
+
+Present Value of an Annuity
+We frequently need to find the present value of an annuity (PVA). Suppose, for example, that a financial contract pays $2,000 at the end of each year for three years and the appropriate discount rate is 8 percent. The time line for the contract is:
+
+
+present value of an annuity (PVA) the present value of the cash flows from an annuity, discounted at the appropriate discount rate
+
+What is the most we should pay for this annuity? We have worked problems like this one before. All we need to do is calculate the present value of each individual cash flow (CFn) and add them up. Using Equation 5.4, we find that the present value of the three-year annuity (PVA3) at 8 percent interest is:
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+This approach to computing the present value of an annuity works as long as the number of cash flows is relatively small. In many situations that involve annuities, however, the number of cash flows is large, and doing the calculations by hand would be tedious. For example, a typical 30-year home mortgage has 360 monthly payments (12 months per year × 30 years = 360 months).
+
+Fortunately, our problem can be simplified because the cash flows (CF) for an annuity are all the same (CF1 = CF2 = … = CFn = CF). Thus, the present value of an annuity (PVAn) with n equal cash flows (CF) at interest rate i is the sum of the individual present value calculations:
+
+ 
+ 
+ 
+
+With some mathematical manipulations that we discuss in the appendix to this chapter, we can simplify this equation to yield a useful formula for the present value of an annuity:
+
+(6.1)
+ 
+ 
+ 
+ 
+where:
+
+PVAn	=	present value of an n period annuity
+CF	=	equally spaced and level cash flow
+i	=	discount rate, or interest rate
+n	=	number of periods (often called the annuity’s maturity)
+Notice in Equation 6.1 that 1/(1 + i)n is a term you have already encountered: It is the present value factor. Thus, we can also write Equation 6.1 as follows:
+
+ 
+
+where the term on the right is what we call the PV annuity factor:
+
+ 
+
+It follows that yet another way to state Equation 6.1 is:
+
+
+Let’s apply Equation 6.1 to the example involving a three-year annuity with a $2,000 annual cash flow. To solve for PVAn, we first compute the PV annuity factor for three years at 8 percent. The calculation is made in two steps:
+
+Calculate the present value factor for three years at 8 percent:
+ 
+ 
+ 
+ 
+ 
+
+Use the present value factor to calculate the PV annuity factor:
+ 
+ 
+ 
+
+We now can calculate PVA3 by plugging our values into the equation:
+
+ 
+
+This is almost the same as the $5,154.19 we calculated by hand earlier. The difference is due to rounding.
+
+Learning by Doing Application 6.4 illustrates another calculation of a PV anuity factor.
+
+LEARNING BY DOING APPLICATION 6.4
+Computing a PV Annuity Factor
+
+Problem
+
+Compute the PV annuity factor for 30 years at a 10 percent interest rate.
+
+
+
+
+
+Calculator Tip: Finding the Present Value of an Annuity
+
+There are four variables in a present value of an annuity equation (PVAn, CF, n, and i), and if you know three of them, you can solve for the fourth in a few seconds with a financial calculator. The calculator key that you have not used so far is the PMT (payment) key, which is the key for level cash flows over the life of an annuity.
+
+To illustrate problem solving with a financial calculator, we will revisit the financial contract that paid $2,000 per year for three years, discounted at 8 percent. To find the present value of the contract, we enter 8 percent for the interest rate (i), $2,000 for the payment (PMT), and 3 for the number of periods (N). The key for FV is not relevant for this calculation, so we enter zero into this register to clear it. The key entries and the answer are as follows:
+
+
+The price of the contract is $5,154.19, which agrees with our other calculations. As discussed in Chapter 5, the negative sign on the financial calculator box indicates that $5,154.19 is a cash outflow.
+
+PV Annuity Factor Tables
+
+Just as financial analysts once used future value and present value factor tables to help with future value and present value calculations, they also used PV annuity factor tables, which contain PV annuity factors for a range of interest rates and annuity lengths. Table A-4 in Appendix A is an example of a PV annuity factor table.
+
+Finding Monthly or Yearly Payments
+
+A very common problem in finance is determining the payment schedule for a loan on a consumer asset, such as a car or a home. Nearly all consumer loans call for equal monthly payments. Suppose, for example, that you have just purchased a $450,000 condominium in Miami’s South Beach district. You were able to put $50,000 down and obtain a 30-year, fixed- rate mortgage at 6.125 percent for the balance. What are your monthly payments?
+
+In this problem we know the present value of the annuity. It is $400,000, the price of the condominium less the down payment ($450,000 − $50,000 = $400,000). We also know the number of payments; since the payments will be made monthly for 30 years, you will make 360 payments (12 months per year × 30 years = 360 months). Because the payments are monthly, both the interest rate and maturity must be expressed in monthly terms. For consumer loans, to get the monthly interest rate, we divide the annual interest rate by 12. Thus, the monthly interest rate equals 0.51042 percent (6.125 percent per year/12 months per year = 0.51042 percent per month). What we need to calculate is the monthly cash payment (CF) over the loan period. The time line looks like the following:
+
+
+To find CF (remember that CF1 = CF2 = … = CF360 = CF), we use Equation 6.1. We need to make two preliminary calculations:
+
+First, we calculate the present value factor for 360 months at 0.51042 percent per month (or, in decimal form, 0.0051042):
+ 
+ 
+ 
+ 
+
+Next, we solve for the PV annuity factor:
+ 
+ 
+ 
+ 
+
+We can now plug all the data into Equation 6.1 and solve it for CF:
+
+ 
+ 
+
+Your mortgage payments will be $2,430.45 per month.
+
+Solving the problem on a financial calculator takes only a few seconds once the time line is prepared. The most common error students make when using financial calculators is failing to convert all contract variables to be consistent with the compounding period. If the contract calls for monthly payments, the interest rate and contract duration must be stated in monthly terms.
+
+Having converted our data to monthly terms, we enter the following into the calculator: N = 360 months (30 years × 12 months per year = 360 months), i = 0.51042 (6.125 percent per year/12 months per year = 0.51042 percent per month), PV = $400,000, and FV = 0 (to clear the register). Then, pressing the payment button (PMT), we find the answer, which is −$2,430.44. The keystrokes are:
+
+
+Note that the financial calculator provides the most precise answer but that the hand and financial calculator answers differ by only 1 cent ($2,430.45 − $2,430.44 = $0.01) in this example. The answers are so close because when doing the hand calculation, we carried six to eight decimal places through the entire set of calculations. Had we rounded off each number as the calculations were made, the difference between the answers from the two calculation methods would have been greater. The more numbers that are rounded during the calculations, the greater the possible rounding error.
+
+Learning by Doing Application 6.5 presents another example in which a calculator is used to compute a periodic payment.
+
+LEARNING BY DOING APPLICATION 6.5
+What Are Your Monthly Car Payments?
+
+Problem
+
+You have decided to buy a used car, and the dealer’s best price is $16,000. The dealer agrees to provide financing with a five-year auto loan at 3 percent interest. Using a financial calculator, calculate your monthly payments.
+
+
+
+
+
+Preparing a Loan Amortization Schedule
+
+Once you understand how to calculate a monthly or yearly loan payment, you have all of the tools that you need to prepare a loan amortization schedule. The term amortization describes the way in which the principal (the amount borrowed) is repaid over the life of a loan. With an amortizing loan, some portion of each loan payment goes to paying down the principal. When the final loan payment is made, the unpaid principal is reduced to zero and the loan is paid off. The other portion of each loan payment is interest, which is payment for the use of outstanding principal (the amount of money still owed). Thus, with an amortizing loan, each loan payment contains some repayment of principal and an interest payment. Nearly all loans to consumers are amortizing loans.
+
+amortizing loan a loan for which each loan payment contains repayment of some principal and a payment of interest that is based on the remaining principal to be repaid
+
+A loan amortization schedule is a table that shows the loan balance at the beginning and end of each period, the payment made during that period, and how much of that payment represents interest and how much represents repayment of principal. To see how an amortization schedule is prepared, consider an example. Suppose that, to purchase a car, you have just borrowed $10,000 at a 5 percent interest rate from a bank. Typically, you would make monthly payments on such a loan. For simplicity, however, we will assume that the bank allows you to make annual payments and that the loan will be repaid over five years. Exhibit 6.4 shows the amortization schedule for this loan.
+
+amortization schedule a table that shows the loan balance at the beginning and end of each period, the payment made during that period, and how much of that payment represents interest and how much represents repayment of principal
+
+To prepare a loan amortization schedule, we must first compute the loan payment. Since, for consumer loans, the amount of the loan payment is fixed, all the payments are identical in amount. Applying Equation 6.1, we calculate the payment as follows:
+
+ 
+ 
+ 
+ 
+
+Alternatively, we enter in a financial calculator the values N = 5 years, i = 5 percent, and PV = $10,000 and then press the PMT key to solve for the loan payment amount. The answer is −$2,309.75 per year. The difference between the two answers results from rounding. For the amortization table calculation, we will use the more precise answer from the financial calculator.
+
+Turning to Exhibit 6.4, we can work through the amortization schedule to see how the table is prepared. For the first year, the values are determined as follows:
+
+The amount borrowed, or the beginning principal balance (P0), is $10,000.
+The annual loan payment, as calculated earlier, is $2,309.75.
+The interest payment for the first year is $500 and is calculated as follows:
+ 
+
+EXHIBIT 6.4 Amortization Table for a Five-Year, $10,000 Loan with an Interest Rate of 5 Percent A loan amortization table shows how regular payments of principal and interest are applied to repay a loan. The exhibit is an amortization table for a five-year, $10,000 loan with an interest rate of 5 percent and annual payments of $2,309.75. Notice that the interest paid declines with each payment, while the principal paid increases.
+
+Year	Beginning Principal Balance(1)	Total Annual Paymenta(2)	Interest Paidb(3)	Principal Paid(2)–(3)(4)	Ending Principal Balance(1)–(4)(5)
+1	$10,000.00	$2,309.75	$500.00	$1,809.75	$8,190.25
+2	   8,190.25	   2,309.75	   409.51	   1,900.24	   6,290.02
+3	   6,290.02	   2,309.75	   314.50	   1,995.25	   4,294.77
+4	   4,294.77	   2,309.75	   214.74	   2,095.01	   2,199.76
+5	   2,199.76	   2,309.75	   109.99	   2,199.76	           0.00
+a The total annual payment is calculated using the formula for the present value of an annuity, Equation 6.1. The total annual payment is CF in PVAn − CF × PV annuity factor.
+b Interest paid equals the beginning balance times the interest rate.
+The principal paid for the year is $1,809.75, calculated as follows:
+ 
+
+The ending principal balance is $8,190.25, computed as follows:
+ 
+
+Note that the ending principal balance for the first year ($8,190.25) becomes the beginning principal balance for the second year ($8,190.25), which in turn is used in calculating the interest payment for the second year:
+
+ 
+
+This calculation makes sense because each loan payment includes some principal repayment. This is why the interest paid in column 3 declines each year. We repeat the calculations until the loan is fully amortized, at which point the principal balance goes to zero and the loan is paid off.
+
+The following Using Excel Example shows the amortization table calculations in spreadsheet form.
+
+Note, in Exhibit 6.4, the amounts of interest and principal that are paid each year change over time. Interest payments are greatest in the early years of an amortizing loan because much of the principal has not yet been repaid (see columns 1 and 3). However, as the principal balance is reduced over time, the interest payments decline and more of each payment goes toward paying down the principal (see columns 3 and 4).
+
+Using Excel
+Loan Amortization Table
+
+Loan amortization tables are most easily constructed using a spreadsheet. Here, we have reconstructed the loan amortization table shown in Exhibit 6.4 using Excel.
+
+Notice that all the values in the amortization table are obtained by using formulas. Once you have built an amortization table like this one, you can change any of the input variables, such as the loan amount or the interest rate, and all of the other numbers will automatically be updated.
+
+
+If we were preparing an amortization table for monthly payments, all of the principal balances, loan payments, and interest rates would have to be adjusted to a monthly basis. For example, to calculate monthly payments for our auto loan, we would make the following adjustments: n = 60 payments (12 months per year × 5 years = 60 months), i = 0.4167 percent (5 percent per year/12 months per year = 0.4167 percent per month), and monthly payment = $188.71.
+
+Finding the Interest Rate
+
+Another important calculation in finance is determining the interest, or discount, rate for an annuity. The interest rate tells us the rate of return on an annuity contract. For example, suppose your parents are getting ready to retire and decide to convert some of their retirement portfolio, which is invested in the stock market, into an annuity that guarantees them a fixed annual income. Their insurance agent quotes them a price of $350,000 for an annuity that guarantees to pay them $50,000 a year for 10 years. What is the rate of return on the annuity?
+
+We can insert these values into Equation 6.1:
+
+ 
+ 
+ 
+
+To determine the rate of return for the annuity, we need to solve the equation for the unknown value i. Unfortunately, it is not possible to solve the resulting equation for i algebraically. The only way to solve the problem is by trial and error. We normally solve this kind of problem using a financial calculator or spreadsheet that finds the solution for us. However, it is important to understand how the solution is arrived at by trial and error in order to understand the intuition, so let’s work this problem by hand.
+
+To start the process, we must select an initial value for i, plug it into the right side of the equation, and solve the equation to see if the present value of the annuity cash flows equals $350,000, which is the left side of the equation. If the present value of the annuity is too large (PVA > $350,000), we need to select a higher value for i. If the present value of the annuity cash flows is too small (PVA < $350,000), we need to select a smaller value. We continue the trial-and-error process until we find the value of i for which PVA = $350,000.
+
+The key to getting started is to make the best guess we can as to the possible value of the interest rate given the information and data available to us. We will assume that the current bank savings rate is 4 percent and that the annuity rate of return must exceed the bank rate to entice your parents to purchase the annuity rather than place their money in a bank. We will start our calculations with a 5 percent discount rate. The present value of the annuity is:
+
+ 
+ 
+
+That’s a pretty good first guess, but our present value is greater than $350,000, so we need to try a higher discount rate.1 Let’s try 7 percent:
+
+ 
+ 
+
+The present value of the annuity is still slightly higher than $350,000, so we still need a larger value of i. How about 7.10 percent:
+
+ 
+ 
+
+The value is too small, but we now know that i is between 7.00 and 7.10 percent. On the next try, we need to use a slightly smaller value of i—say, 7.07 percent:
+
+ 
+ 
+
+Since this value is slightly too high, we should try a number for i that is only slightly greater than 7.07 percent. We’ll try 7.073 percent:
+
+ 
+ 
+
+The cost of the annuity, $350,000, is now exactly the same as the present value of the annuity ($350,000); thus, 7.073 percent is the rate of return earned by the annuity.
+
+It often takes more guesses to solve for the interest rate than it did in this example. Clearly, solving for i by trial and error can be a long and tedious process. Fortunately, as mentioned, these types of problems are easily solved with a financial calculator or spreadsheet. Next, we describe how to compute the interest rate or rate of return on an annuity on a financial calculator.
+
+Calculator Tip: Finding the Interest Rate
+
+To illustrate how to find the interest rate for an annuity on a financial calculator, we will enter the information from the previous example. We know the number of periods (N = 10), the payment amount (PMT = $50,000), and the present value (PV = −$350,000), and we want to solve for the interest rate (i):
+
+
+As with our calculations above, the interest rate is 7.073 percent. The Using Excel Example below illustrates how a spreadsheet is used to perform this calculation.
+
+Using Excel
+Calculating the Interest Rate For an Annuity
+
+You can also solve for the interest rate using the =RATE function in Excel as illustrated below.
+
+
+Learning by Doing Application 6.6 and Decision Making Example 6.2 illustrate another interest rate calculation and application of the concepts discussed in this section to investment decision making.
+
+LEARNING BY DOING APPLICATION 6.6
+Return on Investments: Good Deal or Bad?
+
+Problem
+
+With some business opportunities, you know the price of a financial contract and the promised cash flows, and you want to calculate the interest rate or rate of return on the investment. For example, suppose you have a chance to invest in a small business. The owner wants to borrow $200,000 from you for five years and will make yearly payments of $60,000 at the end of each year. Similar types of investment opportunities will pay 5 percent. Is this a good investment opportunity?
+
+
+
+
+
+DECISION MAKING EXAMPLE 6.2
+The Pizza Dough Machine
+
+Situation
+
+As the owner of a pizza parlor, you are considering whether to buy a fully automated pizza dough preparation machine. Your staff is wildly supportive of the purchase because it would eliminate a tedious part of their work. Your accountant provides you with the following information:
+
+The cost, including shipping, for the pizza dough machine is $25,000.
+Cash savings, including labor, raw materials, and tax savings due to depreciation, are $3,500 per year for 10 years.
+The present value of the cash savings is $21,506 at a 10 percent discount rate.2
+Given the above data, what should you do?
+
+
+
+Future Value of an Annuity
+Generally, when we are working with annuities, we are interested in computing their present value. On occasion, though, we need to compute the future value of an annuity (FVA). Such computations typically involve some type of saving activity, such as a monthly savings plan. Another application is computing future values for retirement or pension plans with constant contributions.
+
+future value of an annuity (FVA) the value of an annuity at some point in the future
+
+We will start with a simple example. Suppose that you plan to save $1,000 at the end of every year for four years with the goal of buying a racing bicycle. The bike you want is a Colnago C60, a top-of-the-line Italian racing bike that costs around $4,500. If your bank pays 8 percent interest a year, will you have enough money to buy the bike at the end of four years?
+
+To solve this problem, we can first lay out the cash flows on a time line, as we discussed earlier in this chapter. We can then calculate the future value for each cash flow using Equation 5.1, which is FVn = PV × (1 + i)n. Finally, we can add up all the cash flows. The time line and calculations are shown in Exhibit 6.5. Given that the total future value of the four deposits is $4,506.11, as shown in the exhibit, you should have enough money to buy the bike.
+
+Future Value of Annuity Equations
+
+Of course, most business applications involve longer periods of time than the Colnago bike example. One way to solve more complex problems involving the future value of an annuity is first to calculate the present value of the annuity, PVA, using Equation 6.1, and then to use Equation 5.1 to calculate the future value of the PVA. In practice, we can condense this calculation into a single step by using the future value of annuity (FVA) formula, which we obtain by substituting PVA for PV in Equation 5.1.
+
+(6.2)
+ 
+ 
+ 
+ 
+ 
+where:
+
+FVAn	=	future value of an annuity at the end of n periods
+PVAn	=	present value of an n period annuity
+CF	=	equally spaced and level cash flow
+i	=	discount rate, or interest rate
+n	=	number of periods
+We can rearrange Equation 6.2 to write it in terms of the future value factor and the FV annuity factor:
+
+ 
+ 
+ 
+
+EXHIBIT 6.5 Future Value of a Four-Year Annuity: Colnago C60 Bicycle The exhibit shows a time line for a savings plan to buy a Colnago C60 bicycle. Under this savings plan, $1,000 is invested at the end of each year for four years at an annual interest rate of 8 percent. We find the value at the end of the four-year period by adding the future values of the separate cash flows, just as in Exhibits 6.1 and 6.2.
+
+
+As with PV annuity factors, there are tables listing FV annuity factors. Table A-3 in Appendix A, at the back of this book, includes a table that shows the FV annuity factors for various interest rates and annuity lengths (years).
+
+Using Equation 6.2 to compute FVA for the Colnago bike problem is straightforward. The calculation and process are similar to those we developed for PVA problems. That is, we first calculate the FV annuity factor for four years at 8 percent:
+
+ 
+ 
+ 
+
+We then compute the future value of the annuity by multiplying the constant cash flow (CF) by the FV annuity factor. We plug our computed values into the equation:
+
+
+This value differs slightly from the one we calculated in Exhibit 6.5 because of rounding.
+
+Calculator Tip: Finding the Future Value of an Annuity
+
+The procedure for calculating the future value of an annuity on a financial calculator is precisely the same as the procedure for calculating the present value of an annuity discussed earlier. The only difference is that we use the FV (future value) key instead of the PV (present value) key. The PV key is entered as a zero to clear the register.
+
+Let’s work the Colnago bicycle problem on a calculator. Recall that we decided to put $1,000 in the bank at the end of each year for four years. The bank pays 8 percent interest. Clear the financial register and make the following entries:
+
+
+The calculated value of $4,506.11 is the same as in Exhibit 6.5.
+
+Annuities Due
+So far we have discussed annuities whose cash flow payments occur at the end of the period, so-called ordinary annuities. Another type of annuity that is fairly common in business is known as an annuity due. Here, cash payments start immediately, at the beginning of the first period. For example, when you rent an apartment, the first rent payment is typically due immediately. The second rent payment is due the first of the second month, and so on. In this kind of payment pattern, you are effectively prepaying for the service.
+
+annuity due an annuity in which payments are made at the beginning of each period
+
+Exhibit 6.6 compares the cash flows for a four-year ordinary annuity and a four-year annuity due. Note that both annuities are made up of four $1,000 cash flows and carry an 8 percent interest rate. Exhibit 6.6A shows an ordinary annuity, in which the cash flows take place at the end of the period, and Exhibit 6.6B shows an annuity due, in which the cash flows take place at the beginning of the period. There are several ways to calculate the present and future values of an annuity due, and we discuss them next.
+
+Present Value Method
+
+One way to compute the present value of an annuity due is to discount each individual cash flow to the present, as shown in Exhibit 6.6B. Note that since the first $1,000 cash flow takes place now, that cash flow is already in present value terms. The present value of the cash flows for the annuity due is $3,577.
+
+Compare this present value with the present value of the cash flows for the ordinary annuity, $3,312, as calculated in Exhibit 6.6A. It should be no surprise that the present value of the annuity due is larger than the present value of the ordinary annuity ($3,577 > $3,312), even though both annuities have four $1,000 cash flows. The reason is that the cash flows of the annuity due are shifted forward one year and, thus, are discounted less.
+
+EXHIBIT 6.6 Ordinary Annuity versus Annuity Due The difference between an ordinary annuity (part A) and an annuity due (part B) is that with an ordinary annuity, the cash flows take place at the end of each period, while with an annuity due, the cash flows take place at the beginning of each period. As you can see in this example, the PV of the annuity due is larger than the PV of the ordinary annuity. The reason is that the cash flows of the annuity due are shifted forward one year and thus are discounted less.
+
+
+Annuity Transformation Method
+
+An easier way to work annuity due problems is to transform the formula for the present value of an annuity (Equation 6.1) so that it will work for annuity due problems. To do this, we pretend that each cash flow occurs at the end of the period (although it actually occurs at the beginning of the period) and use Equation 6.1. Since Equation 6.1 discounts each cash flow by one period too many, we then correct for the extra discounting by multiplying our answer by (1 + i), where i is the discount rate or interest rate.
+
+The relation between an ordinary annuity and an annuity due can be formally expressed as:
+
+(6.3)
+This relation is especially helpful because it works for both present value and future value calculations. Calculating the value of an annuity due using Equation 6.3 involves three steps:
+
+Adjust the problem time line as if the cash flows were an ordinary annuity.
+Calculate the present or future value as though the cash flows were an ordinary annuity.
+Multiply the answer by (1 + i).
+Let’s calculate the value of the annuity due shown in Exhibit 6.6B using Equation 6.3, the transformation technique. First, we restate the time line as if the problem were an ordinary annuity; the revised time line looks like the one in Exhibit 6.6A. Second, we calculate the present value of the annuity as if the problem involved an ordinary annuity. The value of the ordinary annuity is $3,312, as shown in Exhibit 6.6A. Finally, we use Equation 6.3 to make the adjustment to an annuity due:
+
+ 
+
+As they should be, the answers for the two methods of calculation are identical.
+
+Another easy way to calculate the present value or future value of an annuity due is by using the BEG/END switch in your financial calculator. All financial calculators have a key that switches the cash flow from the end of each period to the beginning of each period. The keys are typically labeled “BEG” for cash flows at the beginning of the period and “END” for the cash flows at the end of the period. To calculate the PV of an annuity due: (1) switch the calculator to the BEG mode, (2) enter the data, and (3) press the PV key for the answer. As an example, work the problem from Exhibit 6.6B using your financial calculator.
+
+Before You Go On
+What is the difference between an ordinary annuity and an annuity due?
+Give one example of an ordinary annuity and one example of an annuity due.
+What is the annuity transformation method?
+
+Visit New York Life Insurance Company’s Web site to learn more about investment products that pay out cash flow annuities: www.newyorklife.com/products/investments/annuities
+
+
+Investopedia is a great Web site for learning about a variety of finance topics. For example, you can find a discussion of annuities at www.investopedia.com/articles/03/101503.asp
+
+6.3 Level Cash Flows: Perpetuities
+LEARNING OBJECTIVE
+
+Explain what a perpetuity is and where we see them in business, and calculate the value of a perpetuity.
+A perpetuity is a series of equally spaced and level cash flows that goes on forever. Perpetuities in the form of bonds were used by the British Treasury Department to pay off the debt incurred by the government to finance the Napoleonic wars. These perpetual bonds, called consols, have no maturity date and were traded in the international bond markets until 2015, when the British Treasury redeemed the last of its outstanding consol bonds.
+
+The most important perpetuities in the securities markets today are preferred stock issues. The issuer of preferred stock promises to pay investors a fixed dividend forever unless a retirement date for the preferred stock has been set. Since, as we discussed in Chapter 1, a corporation can have an indefinite life, the expected cash flows from a corporation might also go on forever. When these expected cash flows are constant, they can be viewed as a perpetuity.
+
+From Equation 6.1, we can calculate the present value of a perpetuity by setting n, which is the number of periods, equal to infinity (∞).3 When that is done, the value of the term 1/(1 + i)∞ approaches 0, and thus the present value of a perpetuity that begins next period (PVP) equals:
+
+(6.4)
+ 
+ 
+ 
+ 
+ 
+As you can see, the present value of a perpetuity is the promised constant cash payment (CF) divided by the interest rate (i). A nice feature of the final equation (PVP = CF/i) is that it is algebraically very simple to work with, since it allows us to solve for i directly rather than by trial and error, as is required with Equations 6.1 and 6.2.
+
+To see how we use the perpetuity formula, suppose you had a great experience during your studies at the school of business and decided to endow a scholarship fund for finance students. The goal of the fund is to provide the university with $100,000 of financial support each year forever. If the rate of interest is 8 percent, how much money will you have to give the university to provide the desired level of support? Using Equation 6.4, we find that the present value of the perpetuity is:
+
+ 
+ 
+
+Thus, a gift of $1.25 million will provide constant annual funding of $100,000 to the university forever.
+
+Before we finish our discussion of perpetuities, we should point out that the present value of a perpetuity is typically not very different from the present value of a very long annuity. For example, suppose that instead of funding the scholarship forever, you only plan to fund it for 100 years. If you compute the present value of a 100-year annuity of $100,000 using an interest rate of 8 percent, you will find that it equals $1,249,431.76, which is only slightly less than the $1,250,000 value of the perpetuity. Making your gift a perpetuity would only cost you an additional $568.24. This is because the present value of the cash flows to be received after 100 years is extremely small. The key point here is that cash flows that are to be received far in the future can have very small present values.
+
+Learning by Doing Application 6.7 illustrates another application of the present value of a perpetuity formula, Equation 6.4.
+
+LEARNING BY DOING APPLICATION 6.7
+Preferred Stock Dividends
+
+Problem
+
+Suppose that you are the CEO of a public company and your investment banker recommends that you issue some preferred stock at $50 per share. Similar preferred stock issues are yielding 6 percent. What annual cash dividend does the firm need to offer to be competitive in the marketplace? In other words, what cash dividend paid annually forever would be worth $50 with a 6 percent discount rate?
+
+
+
+
+
+Before You Go On
+What are the differences between an ordinary annuity, an annuity due, and a perpetuity?
+Give two examples of perpetuities.
+6.4 Cash Flows That Grow at a Constant Rate
+LEARNING OBJECTIVE
+
+Discuss growing annuities and perpetuities, as well as their application in business, and calculate their values.
+So far, we have been examining level cash flow streams. Often, though, management needs to value a cash flow stream that increases at a constant rate over time. These cash flow streams are called growing annuities or growing perpetuities.
+
+Growing Annuity
+Financial managers often need to compute the value of multiyear product or service contracts with cash flows that increase each year at a constant rate. These are called growing annuities. For example, you may want to value the cost of a 25-year lease that adjusts annually for the expected rate of inflation over the life of the contract. Equation 6.5 can be used to compute the present value of an annuity growing at a constant rate for a finite time period:4
+
+(6.5)
+ 
+ 
+where:
+
+PVAn	=	present value of a growing annuity with n periods
+CF1	=	cash flow one period in the future (t = 1)
+i	=	interest rate, or discount rate
+g	=	constant growth rate per period
+growing annuity an annuity in which the cash flows increase at a constant rate
+
+You should be aware of several important points when applying Equation 6.5. First, the cash flow (CF1) used is not the cash flow for the current period (CF0); rather, it is the cash flow to be received in the next period (t = 1). The relation between these two cash flows is CF1 = CF0 × (1 + g). Second, a necessary condition for using Equation 6.5 is that i > g. If this condition is not met (i ⩽ g), the calculations from the equation will be meaningless, as you will get a negative or infinite value for finite positive cash flows. A negative value essentially says that someone would have to pay you money to get you to accept a positive cash flow.
+
+As an example of how Equation 6.5 is applied, suppose you work for a company that owns a number of coffee shops in the New York City area. One coffee shop is located in the Empire State Building, and your boss wants to know how much it is worth. The coffee shop has a 50-year lease, so we will assume that it will be in business for 50 years. It produced cash flows of $300,000 after all expenses this year, and the discount rate used by similar businesses is 15 percent. You estimate that, over the long term, cash flows will grow at 2.5 percent per year because of inflation. Thus, you calculate that the coffee shop’s cash flow next year (CF1) will be $307,500, or $300,000 × (1 + 0.025).
+
+Plugging the values from the coffee shop example into Equation 6.5 yields the following result:
+
+ 
+ 
+ 
+
+The estimated value of the coffee shop is $2,452,128.
+
+Growing Perpetuity
+Sometimes cash flows are expected to grow at a constant rate indefinitely. In this case the cash flow stream is called a growing perpetuity. The formula to compute the present value for a growing perpetuity that begins next period (PVP) is as follows:
+
+(6.6)
+ 
+growing perpetuity a cash flow stream that grows at a constant rate forever
+
+As before, CF1 is the cash flow occurring at the end of the first period, i is the discount or interest rate, and g is the constant rate of growth of the cash flow (CF). Equation 6.6 is an easy equation to work with, and it is used widely in the valuation of common stock for firms that have a policy and history of paying dividends that grow at a constant rate. It is also widely used in the valuation of entire companies, as we will discuss in Chapter 18.
+
+Notice that we can derive Equation 6.6 from Equation 6.5 by setting n equal to ∞. If i is greater than g, as we said it must be, the term [(1 + g)/(1 + i)]∞ is equal to zero, leading to the following result:
+
+ 
+ 
+ 
+ 
+ 
+
+This makes sense, of course, since Equation 6.5 describes a growing annuity and Equation 6.6 describes a growing cash flow stream that goes on forever. Notice that both Equations 6.5 and 6.6 are exactly the same as Equations 6.1 and 6.4 when g equals zero.
+
+To illustrate a growing perpetuity, we will consider an example. Suppose that, after graduating from college, you started a health and athletic club. Your concept included not only providing workout facilities, such as weights, treadmills, and elliptical trainers, but also promoting a healthy lifestyle through a focus on cooking and nutrition. The concept has proved popular, and after only five years, you have seven clubs in operation. Your accountant reports that the firm’s cash flow last year was $450,000, and the appropriate discount rate for the club is 18 percent. You expect the firm’s cash flows to increase by 5 percent per year, which includes 2 percent for expected inflation. Since the business is a corporation, you can assume it will continue operating indefinitely into the future. What is the value of the firm?
+
+We can use Equation 6.6 to solve this problem. Although the equation is very easy to use, a common mistake is using the current period’s cash flow (CF0) and not the next period’s cash flow (CF1). Since the cash flow is growing at a constant growth rate, g, we simply multiply CF0 by (1 + g) to get the value of CF1. Thus,
+
+
+We can then substitute the result into Equation 6.6, which yields a helpful variant of this equation:
+
+ 
+ 
+
+Now we can insert the values for the health club into the equation and solve for PVP:
+
+ 
+ 
+ 
+
+The business is worth $3,634,615.
+
+The growing annuity and perpetuity formulas are useful, and we will apply them later on in this book. Unfortunately, even though advanced financial calculators have special programs for annuities and perpetuities with constant cash flows, typical financial calculators do not include programs for growing annuities and perpetuities.
+
+Before You Go On
+What is the difference between a growing annuity and a growing perpetuity?
+6.5 The Effective Annual Interest Rate
+LEARNING OBJECTIVE
+
+Discuss why the effective annual interest rate (EAR) is the appropriate way to annualize interest rates, and calculate the EAR.
+So far in this chapter and the preceding one, there has been little question about which interest rate to use in a particular computation. In most cases, a single interest rate has been supplied. When working with real market data, however, the situation is not so clear-cut. We often encounter interest rates that can be computed in different ways. In this final section, we try to untangle some of the issues that can cause problems.
+
+Why the Confusion?
+To better understand why interest rates can be so confusing, consider the following situation. Suppose you borrow $100 on your bank credit card and plan to keep the balance outstanding for one year. The credit card’s stated interest rate is 1 percent per month. The federal Truth-in-Lending Act, which we discuss in more detail later in this section, requires the bank and other financial institutions to disclose to consumers the annual percentage rate (APR) charged on a loan. The APR is the annualized interest rate using simple interest. It ignores the interest earned on interest associated with compounding periods of less than one year. Thus, the APR is defined as the simple interest charged per period multiplied by the number of periods per year. For the bank credit card loan, the APR is 12 percent (1 percent per month × 12 months = 12 percent).
+
+annual percentage rate (APR) the simple interest rate charged per period multiplied by the number of periods per year
+
+At the end of the year, you go to pay off the credit card balance as planned. It seems reasonable to assume that with an APR of 12 percent your credit card balance at the end of one year would be $112 (1.12 × $100 = $112). Wrong! The bank’s actual interest rate is 1 percent per month, meaning that the bank will compound your credit card balance monthly, 12 times over the year. The bank’s calculation for the balance due is $112.68 [$100 × (1.01)12 = $112.68].5 The bank is actually charging you 12.68 percent per year, and the total interest paid for the one-year loan is $12.68 rather than $12.00. This example raises a question: What is the correct way to annualize an interest rate?
+
+Calculating the Effective Annual Interest Rate
+In making financial decisions, the correct way to annualize an interest rate is to compute the effective annual interest rate. The effective annual interest rate (EAR) is defined as the annual interest rate that takes compounding over the course of a year into account. Mathematically, the EAR can be stated as follows:
+
+(6.7)
+ 
+effective annual interest rate (EAR) the annual interest rate that reflects compounding within a year
+
+where m is the number of compounding periods during a year. The quoted interest rate is by definition a simple annual interest rate, like the APR. That means that the quoted interest rate has been annualized by multiplying the rate per period by the number of periods per year. The EAR conversion formula accounts for the number of compounding periods and, thus, effectively adjusts the annualized quoted interest rate for the time value of money. Because the EAR is the true cost of borrowing and lending, it is the rate that should be used for making all finance decisions.
+
+quoted interest rate a simple annual interest rate, such as the APR
+
+We will use our bank credit card example to illustrate the use of Equation 6.7. Recall that the credit card has an APR of 12 percent (1 percent per month). The APR is the quoted interest rate, and the number of compounding periods (m) is 12. Applying Equation 6.7, we find that the effective annual interest rate is:
+
+ 
+ 
+ 
+
+The EAR value of 12.68 percent is the true cost of borrowing the $100 on the bank credit card for one year. The EAR calculation adjusts for the effects of compounding and, hence, the time value of money.
+
+Finally, notice that interest rates are quoted in the marketplace in three ways:
+
+The quoted interest rate. This is an interest rate that has been annualized by multiplying the rate per period by the number of compounding periods. The APR is an example. All consumer borrowing and lending rates are annualized in this manner.
+The interest rate per period. The bank credit card rate of 1 percent per month is an example of this kind of rate. You can find the interest rate per period by dividing the quoted interest rate by the number of compounding periods.
+The effective annual interest rate (EAR). This is the interest rate actually paid (or earned) after accounting for compounding. Sometimes it is difficult to distinguish a quoted rate from an EAR. Generally, however, an annualized consumer rate is an APR rather than an EAR.
+Comparing Interest Rates
+When borrowing or lending money, it is sometimes necessary to compare and select among interest rate alternatives. Quoted interest rates are comparable when they cover the same overall time period, such as one year, and have the same number of compounding periods. If quoted interest rates are not comparable, we must adjust them to a common time period. The easiest way, and the correct way, to make interest rates comparable for making finance decisions is to convert them to effective annual interest rates. Consider an example.
+
+Suppose you are the chief financial officer of a manufacturing company. The company is planning a $1 billion plant expansion and will finance it by borrowing money for five years. Three financial institutions have submitted interest rate quotes; all are APRs:
+
+Lender A: 10.40 percent compound monthly
+Lender B: 10.90 percent compounded annually
+Lender C: 10.50 percent compounded quarterly
+Although all the loans have the same maturity, they are not comparable because the APRs have different compounding periods. To make the adjustments for the different time periods, we apply Equation 6.7 to convert each of the APR quotes into an EAR:
+
+ 
+ 
+ 
+ 
+
+As shown, Lender B offers the lowest interest cost at 10.90 percent.
+
+Notice the shift in rankings that takes place as a result of the EAR calculations. When we initially looked at the APR quotes, it appeared that Lender A offered the lowest rate and Lender B had the highest. After computing the EAR, we find that when we account for the effect of compounding, Lender B actually offers the lowest interest rate.
+
+Another important point is that if all the interest rates are quoted as APRs with the same annualizing period, such as monthly, the interest rates are comparable and you can select the correct rate by simply comparing the quotes. That is, the lowest APR corresponds with the lowest cost of funds. Thus, it is correct for borrowers or lenders to make economic decisions with APR data as long as interest rates have the same maturity and the same compounding period. To find the true cost of the loan, however, it is still necessary to compute the EAR.
+
+Learning by Doing Application 6.8 illustrates another effective annual interest rate calculation.
+
+LEARNING BY DOING APPLICATION 6.8
+What Is the True Cost of a Loan?
+
+Problem
+
+During a period of economic expansion, Frank Smith became financially overextended and was forced to consolidate his debt with a loan from a consumer finance company. The consolidated debt provided Frank with a single loan and lower monthly payments than he had previously been making. The loan agreement quotes an APR of 20 percent, and Frank must make monthly payments. What is the true cost of the loan?
+
+
+
+
+
+Consumer Protection Acts and Interest Rate Disclosure
+In 1968 Congress passed the Truth-in-Lending Act to ensure that all borrowers receive meaningful information about the cost of credit so that they can make intelligent economic decisions.6 The act applies to all lenders that extend credit to consumers, and it covers credit card loans, auto loans, home mortgage loans, home equity loans, home improvement loans, and some small-business loans. Similar legislation, the so-called Truth-in-Savings Act, applies to consumer savings vehicles such as certificates of deposit (CDs). These two pieces of legislation require by law that the APR be disclosed on all consumer loans and savings plans and that it be prominently displayed in advertising and contractual documents.
+
+Truth-in-Lending Act a federal law requiring lenders to fully inform borrowers of important information related to loans, including the annual percentage rate charged
+
+Truth-in-Savings Act a federal law requiring institutions offering consumer savings vehicles, such as certificates of deposit (CDs), to fully inform consumers of important information about the savings vehicles, including the annual percentage rate paid
+
+We know that the EAR, not the APR, represents the true economic interest rate. So why did the Truth-in-Lending and Truth-in-Savings Acts specify that the APR must be the disclosed rate? The APR was selected because it’s easy to calculate and easy to understand. When the legislation was passed, personal computers and handheld calculators did not exist. Down at the auto showroom, salespeople needed an easy way to explain and annualize the monthly interest charge, and the APR provided just such a method. And most important, if all the auto lenders quoted monthly APR, consumers could use this rate to select the loan with the lowest interest cost.
+
+Today, although lenders and borrowers are legally required to quote the APR, they run their businesses using interest rate calculations based on the present value and future value formulas. Consumers are bombarded with both APR and EAR rates, and confusion reigns. At the car dealership, for example, you may find that your auto loan’s APR is 5 percent but the actual borrowing rate is 5.12 percent. And at the bank where your grandmother gets free coffee and doughnuts, she may be told that the bank’s one-year CD has an APR of 3 percent, but it really pays 3.04 percent. Because of confusion arising from conflicting interest rates in the marketplace, some observers believe that the APR calculation has outlived its usefulness and should be replaced by the EAR.
+
+In addition to requiring that lenders report the APR on all consumer loans, the Truth-in-Lending Act provides other important protections for consumers. For example, it also limits the liability of credit card holders if a credit card is stolen or used without the cardholder’s approval. Since this act was passed in 1968, a number of subsequent acts have added to the protections of the Truth-in-Lending Act. The most recent of these, which you may be familiar with, is the Credit Card Act of 2009. This act was passed in response to criticisms of actions by credit card companies leading up to the financial crisis of 2008. Among other things, it places new limits on the ability of credit card companies to raise interest rates, limits the fees that they can charge, requires better disclosure of rate increases and how long it will take a cardholder to pay off the outstanding balance with minimum monthly payments, and makes it more difficult for credit card companies to issue new cards to people under age 21.
+
+The Appropriate Interest Rate Factor
+Here is a final question to consider: What is the appropriate interest rate to use when making future or present value calculations? The answer is simple: use the EAR. Under no circumstance should the APR or any other quoted rate be used as the interest rate in present or future value calculations. Consider an example of using the EAR in such a calculation.
+
+Petra, a student at University of Texas, has purchased from a small consumer finance company a $100 savings note with a two-year maturity. The contract states that the note has a 20 percent APR and pays interest quarterly. The quarterly interest rate is thus 5 percent (20 percent/4 quarters = 5 percent per quarter). Petra has several questions about the note: (1) What is the note’s effective annual interest rate (EAR)? (2) How much money will she have at the end of two years? (3) When making the future value calculation, should she use the quarterly interest rate or the EAR?
+
+To answer Petra’s questions, we first compute the EAR, which is the actual interest earned on the note:
+
+ 
+ 
+ 
+
+Next, we calculate the future value of the note using the EAR. Because the EAR is an annual rate, for this problem we use a total of two compounding periods. The calculation is as follows:
+
+ 
+
+We can also calculate the future value using the quarterly rate of interest of 5 percent with a total of eight compounding periods. In this case, the calculation is as follows:
+
+ 
+
+The two calculation methods yield the same answer: $147.75.
+
+In summary, any time you do a future value or present value calculation, you must use either the interest rate per period (quoted rate/m) or the EAR as the interest rate factor. It does not matter which of these you use. Both will properly account for the impact of compounding on the value of cash flows. Interest rate proxies such as the APR should never be used as interest rate factors for calculating future or present values, because they do not properly account for the number of compounding periods.
+
+Before You Go On
+What is the APR, and why are lending institutions required to disclose this rate?
+What is the correct way to annualize an interest rate in financial decision making?
+Distinguish between quoted interest rate, interest rate per period, and effective annual interest rate.
+
+Many useful financial calculators, including APR and EAR calculators, can be found at calculatorsoup.com. Go to www.calculatorsoup.com/calculators/financial/index-interest-apr-calculators.php
+
+
+You can read more about credit protection laws, including the latest laws, at the Debt.org Web site: www.debt.org/credit/your-consumer-rights/protection-act/
+
+Summary of Learning Objectives
+1 Explain why cash flows occurring at different times must be adjusted to reflect their value as of a common date before they can be compared, and compute the present value and the future value for multiple cash flows.
+
+When making decisions involving cash flows over time, we should first identify the magnitude and timing of the cash flows and then adjust each individual cash flow to reflect its value as of a common date. For example, the process of discounting (compounding) cash flows adjusts them for the time value of money because today’s dollars are not equal in value to dollars in the future. Once all of the cash flows are in present (future) value terms, they can be compared to make decisions. Section 6.1 discusses the computation of present values and future values of multiple cash flows.
+
+2 Explain the difference between an ordinary annuity and an annuity due, and calculate the present value and the future value of an ordinary annuity and an annuity due.
+
+An ordinary annuity is a finite series of equally spaced, level cash flows over time. The cash flows for an ordinary annuity are assumed to take place at the end of each period. To find the present value of an ordinary annuity, we multiply the present value of an annuity factor, which is equal to (1 − present value factor)/i, by the amount of the constant cash flow. We multiply the present value of an ordinary annuity by (1 + i)n to calculate its future value in n periods.
+
+An annuity due is an annuity in which the cash flows occur at the beginning of each period. A lease is an example of an annuity due. In this case, we are effectively prepaying for the service. To calculate the value of an annuity due, we calculate the present value (or future value) as though the cash flows are from an ordinary annuity. We then multiply the ordinary annuity value times (1 + i). Section 6.2 discusses the calculation of the present value and future value of an ordinary annuity and an annuity due.
+
+3 Explain what a perpetuity is and where we see them in business, and calculate the value of a perpetuity.
+
+A perpetuity is like an annuity except that the cash flows are perpetual—they never end. British Treasury Department bonds, called consols, were the first widely used securities of this kind. The most common example of a perpetuity today is preferred stock. The issuer of preferred stock promises to pay fixed-rate dividends forever. The cash flows from corporations can also look like perpetuities. To calculate the present value of a perpetuity, we simply divide the constant cash flow (CF) by the interest rate (i).
+
+4 Discuss growing annuities and perpetuities, as well as their application in business, and calculate their values.
+
+Financial managers often need to value cash flow streams that increase at a constant rate over time. These cash flow streams are called growing annuities or growing perpetuities. An example of a growing annuity is a 10-year lease with an annual adjustment for the expected rate of inflation over the life of the contract. If the cash flows continue to grow at a constant rate indefinitely, this cash flow stream is called a growing perpetuity. Since a C-corporation has an indefinite life, when the cash flows from such a corporation are growing at a constant rate, they can be thought of as a growing perpetuity. The calculation of the value of a cash flow stream that grows at a constant rate is discussed in Section 6.4.
+
+5 Discuss why the effective annual interest rate (EAR) is the appropriate way to annualize interest rates, and calculate the EAR.
+
+The EAR is the annual interest rate that takes compounding into account. Thus, the EAR is the true cost of borrowing or lending money. When we need to compare interest rates, we must make sure that the rates to be compared have the same time and compounding periods. If interest rates are not comparable, they must be converted into common terms. The easiest way to convert rates to common terms is to calculate the EAR for each interest rate. The use and calculation of EAR are discussed in Section 6.5.
+
+Summary of Key Equations
+Equation	Description	Formula
+6.1	Present value of an ordinary annuity	 	
+ 
+ 
+ 
+ 
+ 
+6.2	Future value of an ordinary annuity	 	
+ 
+ 
+ 
+ 
+6.3	Value of an annuity due	Annuity due value = Ordinary annuity value × (1 + i)
+6.4	Present value of a perpetuity	
+ 
+6.5	Present value of a growing annuity	
+ 
+ 
+6.6	Present value of a growing perpetuity	
+ 
+6.7	Effective annual interest rate	
+ 
+Self-Study Problems
+6.1 Kronka, Inc., is expecting cash inflows of $13,000, $11,500, $12,750, and $9,635 over the next four years. What is the present value of these cash flows if the appropriate discount rate is 8 percent?
+
+
+
+6.2 Your grandfather has agreed to deposit a certain amount of money each year into an account paying 7.25 percent annually to help you go to graduate school. Starting next year, and for the following four years, he plans to deposit $2,250, $8,150, $7,675, $6,125, and $12,345 into the account. How much will you have at the end of the five years?
+
+
+
+6.3 Mike White is planning to save up for a trip to Europe in three years. He will need $7,500 when he is ready to make the trip. He plans to invest the same amount at the end of each of the next three years in an account paying 6 percent. What is the amount that he will have to save every year to reach his goal of $7,500 in three years?
+
+
+
+6.4 Becky Scholes has $150,000 to invest. She wants to be able to withdraw $12,500 every year forever without using up any of her principal. What interest rate would her investment have to earn in order for her to be able to do so?
+
+
+
+6.5 Dynamo Corp. is expecting annual payments of $34,225 for the next seven years from a customer. What is the present value of this annuity if the discount rate is 8.5 percent?
+
+
+
+Discussion Questions
+6.1 Identify the steps involved in computing the future value when you have multiple cash flows.
+
+6.2 What is the key economic principle involved in calculating the present value or future value of multiple cash flows?
+
+6.3 What is the difference between a perpetuity and an annuity?
+
+6.4 Define annuity due. Would an investment be worth more if it was an ordinary annuity or an annuity due? Explain.
+
+6.5 Raymond Bartz is trying to choose between two equally risky annuities, each paying $5,000 per year for five years. One is an ordinary annuity, and the other is an annuity due. Which of the following statements is most correct?
+
+The present value of the ordinary annuity must exceed the present value of the annuity due, but the future value of an ordinary annuity may be less than the future value of the annuity due.
+The present value of the annuity due exceeds the present value of the ordinary annuity, while the future value of the annuity due is less than the future value of the ordinary annuity.
+The present value of the annuity due exceeds the present value of the ordinary annuity, and the future value of the annuity due also exceeds the future value of the ordinary annuity.
+If interest rates increase, the difference between the present value of the ordinary annuity and the present value of the annuity due remains the same.
+6.6 Which of the following investments will have the highest future value at the end of three years? Assume that the effective annual rate for all investments is the same.
+
+You earn $3,000 at the end of three years (a total of one payment).
+You earn $1,000 at the end of every year for the next three years (a total of three payments).
+You earn $1,000 at the beginning of every year for the next three years (a total of three payments).
+6.7 Explain whether or not each of the following statements is correct.
+
+A 15-year mortgage will have larger monthly payments than a 30-year mortgage of the same amount and same interest rate.
+If an investment pays 10 percent interest compounded annually, its effective annual rate will also be 10 percent.
+6.8 When will the annual percentage rate (APR) be the same as the effective annual rate (EAR)?
+
+6.9 Why is the effective annual rate (EAR) superior to the annual percentage rate (APR) in measuring the true economic cost or return?
+
+6.10 Suppose three investments have equal lives and multiple cash flows. A high discount rate tends to favor:
+
+The investment with large cash flows early.
+The investment with large cash flows late.
+The investment with even cash flows.
+None of the investments, since they have equal lives.
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+6.1 Future value with multiple cash flows: Konerko, Inc., management expects the company to earn cash flows of $13,227, $15,611, $18,970, and $19,114 over the next four years. If the company uses an 8 percent discount rate, what is the future value of these cash flows at the end of Year 4?
+
+6.2 Future value with multiple cash flows: Ben Woolmer has an investment that will pay him the following cash flows over the next five years: $2,350, $2,725, $3,128, $3,366, and $3,695. If his investments typically earn 7.65 percent, what is the future value of the investment’s cash flows at the end of five years?
+
+6.3 Future value with multiple cash flows: You are a freshman in college and are planning a trip to Europe when you graduate from college at the end of four years. You plan to save the following amounts annually, starting today: $625, $700, $700, and $750. If you can earn 5.75 percent annually, how much will you have at the end of four years?
+
+6.4 Present value with multiple cash flows: Saul Cervantes has just purchased some equipment for his landscaping business. For this equipment he must pay the following amounts at the end of each of the next five years: $10,450, $8,500, $9,675, $12,500, and $11,635. If the appropriate discount rate is 10.875 percent, what is the cost in today’s dollars of the equipment Saul purchased today?
+
+6.5 Present value with multiple cash flows: Jeremy Fenloch borrowed some money from his friend and promised to repay him $1,225, $1,350, $1,500, $1,600, and $1,600 over the next five years. If the friend normally discounts investment cash flows at 8 percent annually, how much did Jeremy borrow?
+
+6.6 Present value with multiple cash flows: Biogenesis Inc. management expects the following cash flow stream over the next five years. The company discounts all cash flows using a 23 percent discount rate. What is the present value of this cash flow stream?
+
+
+6.7 Present value of an ordinary annuity: An investment opportunity requires a payment of $750 for 12 years, starting a year from today. If your required rate of return is 8 percent, what is the value of the investment to you today?
+
+6.8 Present value of an ordinary annuity: Dynamics Telecommunications Corp. has made an investment in another company that will guarantee it a cash flow of $22,500 each year for the next five years. If the company uses a discount rate of 15 percent on its investments, what is the present value of this investment?
+
+6.9 Future value of an ordinary annuity: Robert Hobbes plans to invest $25,000 a year at the end of each year for the next seven years in an investment that will pay him a rate of return of 11.4 percent. How much money will Robert have at the end of seven years?
+
+6.10 Future value of an ordinary annuity: Cecelia Thomas is a sales executive at a Baltimore firm. She is 25 years old and plans to invest $3,000 every year in an IRA account, beginning at the end of this year, until she reaches age 65. If the IRA investment will earn 9.75 percent annually, how much will she have in 40 years, when she turns 65?
+
+6.11 Future value of an annuity due: Refer to Problem 6.10. If Cecelia invests at the beginning of each year, how much will she have at age 65?
+
+6.12 Computing annuity payment: Kevin Winthrop is saving for an Australian vacation in three years. He estimates that he will need $5,000 to cover his airfare and all other expenses for a week-long holiday in Australia. If he can invest his money in an S&P 500 equity index fund that is expected to earn an average annual return of 10.3 percent over the next three years, how much will he have to save every year if he starts saving at the end of this year?
+
+6.13 Computing annuity payment: The Elkridge Bar & Grill has a seven-year loan of $23,500 with Bank of America. It plans to repay the loan in seven equal installments starting today. If the rate of interest is 8.4 percent, how much will each payment be?
+
+6.14 Perpetuity: Your grandfather is retiring at the end of next year. He would like to ensure that his heirs receive payments of $10,000 a year forever, starting when he retires. If he can earn 6.5 percent annually, how much does your grandfather need to invest to produce the desired cash flow?
+
+6.15 Perpetuity: Calculate the annual cash flows for each of the following investments:
+
+$250,000 invested at 6 percent.
+$50,000 invested at 12 percent.
+$100,000 invested at 10 percent.
+6.16 Effective annual interest rate: Marshall Chavez bought a Honda Civic for $17,345. He put down $6,000 and financed the rest through the dealer at an APR of 4.9 percent for four years. What is the effective annual interest rate (EAR) if the loan payments are made monthly?
+
+6.17 Effective annual interest rate: Cyclone Rentals borrowed $15,550 from a bank for three years. If the quoted rate (APR) is 6.75 percent, and the compounding is daily, what is the effective annual interest rate (EAR)?
+
+6.18 Growing perpetuity: You are evaluating a growing perpetuity investment from a large financial services firm. The investment promises an initial payment of $20,000 at the end of this year and subsequent payments that will grow at a rate of 3.4 percent annually. If you use a 9 percent discount rate for investments like this, what is the present value of this growing perpetuity?
+
+Intermediate
+6.19 Future value with multiple cash flows: Trigen Corp. management will invest $331,000, $616,450, $212,775, $818,400, $1,239,644, and $1,617,848 in research and development over the next six years. If the appropriate interest rate is 6.75 percent, what is the future value of these investments eight years from today?
+
+6.20 Future value with multiple cash flows: Stephanie Watson is 20 years old and plans to make the following investments beginning next year. She will invest $3,125 in each of the next three years and will then make investments of $3,650, $3,725, $3,875, and $4,000 over the following four years. If the investments are expected to earn 11.5 percent annually, how much will Stephanie have when she turns 30?
+
+6.21 Present value with multiple cash flows: Carol Jenkins, a lottery winner, will receive the following payments over the next seven years. She has been approached by an investor who will pay her a lump sum today for the rights to those future cash flows. If she can invest her cash flows in a fund that will earn 10.5 percent annually, how much should Carol require the investor to pay for the cash flows?
+
+
+6.22 Computing annuity payment: Gary Whitmore is a high school sophomore. He currently has $7,500 in a savings account that pays 5.65 percent annually. Gary plans to use his current savings plus what he can save over the next four years to buy a car. He estimates that the car will cost $12,000 in four years. How much money should Gary save each year if he wants to buy the car?
+
+6.23 Growing annuity: Modern Energy Company owns several gas stations. Management is looking to open a new station in the western suburbs of Baltimore. One possibility that managers at the company are evaluating is to take over a station located at a site that has been leased from the county. The lease, originally for 99 years, currently has 73 years before expiration. The gas station generated a net cash flow of $92,500 last year, and the current owners expect an annual growth rate of 6.3 percent. If Modern Energy uses a discount rate of 14.5 percent to evaluate such businesses, what is the present value of this growing annuity?
+
+6.24 Future value of annuity due: Jeremy Denham plans to save $5,000 every year for the next eight years, starting today. At the end of eight years, Jeremy will turn 30 years old and plans to use his savings toward the down payment on a house. If his investment in a mutual fund will earn him 10.3 percent annually, how much will he have saved in eight years when he buys his house?
+
+6.25 Present value of an annuity due: Grant Productions borrowed some money from the California Finance Company at a rate of 17.5 percent for a seven-year period. The loan calls for a payment of $1,540,862.19 each year beginning today. How much did Grant borrow?
+
+6.26 Present value of an annuity due: Sharon Kabana has won a state lottery and will receive a payment of $89,729.45 every year, starting today, for the next 20 years. If she invests the proceeds at a rate of 7.25 percent, what is the present value of the cash flows that she will receive? Round to the nearest dollar.
+
+6.27 Present value of an annuity due: You wrote a piece of software that does a better job of allowing computers to network than any other program designed for this purpose. A large networking company wants to incorporate your software into its systems and is offering to pay you $500,000 today, plus $500,000 at the end of each of the following six years, for permission to do this. If the appropriate interest rate is 6 percent, what is the present value of the cash flow stream that the company is offering you?
+
+6.28 Present value of an annuity: Suppose that the networking company in Problem 6.27 will not start paying you until the first of the new systems that uses your software is sold in two years. What is the present value of that annuity? Assume that the appropriate interest rate is still 6 percent.
+
+6.29 Perpetuity: Calculate the present value of the following perpetuities:
+
+$1,250 discounted to the present at 7 percent.
+$7,250 discounted to the present at 6.33 percent.
+$850 discounted to the present at 20 percent.
+6.30 Effective annual interest rate: Find the effective annual interest rate (EAR) for each of the following:
+
+6 percent compounded quarterly.
+4.99 percent compounded monthly.
+7.25 percent compounded semiannually.
+5.6 percent compounded daily.
+6.31 Effective annual interest rate: Which of the following investments has the highest effective annual interest rate (EAR)?
+
+A bank CD that pays 8.25 percent compounded quarterly.
+A bank CD that pays 8.25 percent compounded monthly.
+A bank CD that pays 8.45 percent compounded annually.
+A bank CD that pays 8.25 percent compounded semiannually.
+A bank CD that pays 8 percent compounded daily (on a 365-day per year basis).
+6.32 Effective annual interest rate: You are considering three alternative investments: (1) a three-year bank CD paying 7.5 percent compounded quarterly; (2) a three-year bank CD paying 7.3 percent compounded monthly; and (3) a three-year bank CD paying 7.75 percent compounded annually. Which investment has the highest effective annual interest rate (EAR)?
+
+Advanced
+6.33 You have been offered the opportunity to invest in a project that is expected to provide you with the following cash flows: $4,000 in one year, $12,000 in two years, and $8,000 in three years. If the appropriate interest rates are 6 percent for the first year, 8 percent for the second year, and 12 percent for the third year, what is the present value of these cash flows?
+
+6.34 Tirade Owens, a professional athlete, currently has a contract that will pay him a large amount in the first year of his contract and smaller amounts thereafter. He and his agent have asked the team to restructure the contract. The team, though reluctant, obliged. Tirade and his agent came up with a counteroffer. What are the present values of each of the three alternatives below using a 14 percent discount rate? Which of the three has the highest present value?
+
+Year	Current Contract	Team’s Offer	Counteroffer
+1	$8,125,000	$4,000,000	$5,250,000
+2	$3,650,000	$3,825,000	$7,550,000
+3	$2,715,000	$3,850,000	$3,625,000
+4	$1,822,250	$3,925,000	$2,800,000
+6.35 Gary Kornig is 30 years old and wants to retire when he is 65. So far, he has saved (1) $6,950 in an IRA account in which his money is earning 8.3 percent annually and (2) $5,000 in a money market account in which he is earning 5.25 percent annually. Gary wants to have $1 million when he retires. Starting next year, he plans to invest the same amount of money every year until he retires in a mutual fund in which he expects to earn 9 percent annually. How much will Gary have to invest every year to achieve his savings goal?
+
+6.36 The top prize for the state lottery is $100,000,000. You have decided it is time for you to take a chance and purchase a ticket. Before you purchase the ticket, you must decide whether to choose the cash option or the annual payment option. If you choose the annual payment option and win, you will receive $100,000,000 in 25 equal payments of $4,000,000—one payment today and one payment at the end of each of the next 24 years. If you choose the cash payment, you will receive a one-time lump sum payment of $59,194,567.18. If you can invest the proceeds and earn 6 percent, which option should you choose?
+
+6.37 At what interest rate would you be indifferent between the cash and annual payment options in Problem 6.36?
+
+6.38 Babu Baradwaj is saving for his son’s college tuition. His son is currently 11 years old and will begin college in seven years. Babu has an index fund investment worth $7,500 that is earning 9.5 percent annually. Total expenses at the University of Maryland, where his son says he plans to go, currently total $15,000 per year but are expected to grow at roughly 6 percent each year. Babu plans to invest in a mutual fund that will earn 11 percent annually to make up the difference between the college expenses and his current savings. In total, Babu will make seven equal investments with the first starting today and the last being made a year before his son begins college.
+
+What will be the present value of the four years of college expenses at the time that Babu’s son starts college? Assume a discount rate of 5.5 percent.
+What will the value of the index mutual fund be when his son just starts college?
+What is the amount that Babu will have to have saved when his son turns 18 if Babu plans to cover all of his son’s college expenses?
+How much will Babu have to invest every year in order to have enough funds to cover all his son’s expenses?
+6.39 You are now 50 years old and plan to retire at age 65. You currently have a stock portfolio worth $150,000, a 401(k) retirement plan worth $250,000, and a money market account worth $50,000. Your stock portfolio is expected to provide annual returns of 12 percent, your 401(k) investment will earn 9.5 percent annually, and the money market account earns 5.25 percent, compounded monthly.
+
+If you do not save another penny, what will be the total value of your investments when you retire at age 65?
+Assume you plan to invest $12,000 every year in your 401(k) plan for the next 15 years (starting one year from now). How much will your investments be worth when you retire at age 65?
+Assume that you expect to live 25 years after you retire (until age 90). Today, at age 50, you take all of your investments and place them in an account that pays 8 percent (use the scenario from part b, in which you continue saving). If you start withdrawing funds starting at age 66, how much can you withdraw every year (e.g., an ordinary annuity) in order to leave nothing in your account after a 25th and final withdrawal at age 90?
+You want your current investments, which are described in the problem statement, to support a perpetuity that starts a year from now. How much can you withdraw each year without touching your principal?
+6.40 Trevor Diaz wants to purchase a Maserati Quattroporte sedan, which has an invoice price of $121,737 and a total cost of $129,482. Trevor plans to put down $20,000 and will pay the rest by taking on a 5.75 percent five-year bank loan. What is the monthly payment on this auto loan? Prepare an amortization table using Excel.
+
+6.41 The Yan family is buying a new 3,500-square-foot house in Muncie, Indiana, and will borrow $237,000 from Bank One at a rate of 6.375 percent for 15 years. What will be their monthly loan payment? Prepare an amortization schedule using Excel.
+
+6.42 Assume you will start working as soon as you graduate from college. You plan to start saving for your retirement on your 25th birthday and retire on your 65th birthday. After retirement, you expect to live at least until you are 85. You wish to be able to withdraw $40,000 (in today’s dollars) every year from the time of your retirement until you are 85 years old (i.e., for 20 years). The average inflation rate is likely to be 5 percent.
+
+Calculate the lump sum you need to have accumulated at age 65 to be able to draw the desired income. Assume that the annual return on your investments is likely to be 10 percent.
+What is the dollar amount you need to invest every year, starting at age 26 and ending at age 65 (i.e., for 40 years), to reach the target lump sum at age 65?
+Now answer parts a and b assuming the rate of return to be (i) 8 percent per year and (ii) 15 percent per year.
+Now assume you start investing for your retirement when you turn 30 years old and analyze the situation under rate of return assumptions of (i) 8 percent, (ii) 10 percent, and (iii) 15 percent.
+Repeat the analysis in parts a through d above, but assume that you start investing when you are 35 years old.
+Sample Test Problems
+6.1 Freisinger, Inc., management is expecting a new project to start paying off beginning at the end of next year. Cash flows are expected to be as follows:
+
+
+If Freisinger can reinvest these cash flows to earn a return of 7.8 percent, what is the future value of this cash flow stream at the end of five years? What is its present value?
+
+6.2 Compare an annuity due with an ordinary annuity. The payments for both are made annually and are of the same dollar amounts. The two annuities also have the same duration in years and the same discount rate. Which of the following statements is/are correct?
+
+The present value of the ordinary annuity is greater.
+The present value of the annuity due is greater.
+The future value of the ordinary annuity is greater.
+The future value of the annuity due is greater.
+6.3 You plan to set up an endowment at your alma mater that will fund $200,000 of scholarships each year indefinitely. If the principal (the amount you donate) can be invested at 5.5 percent, compounded annually, how much do you need to donate to the university today so that the first scholarships can be awarded beginning one year from now?
+
+6.4 Annalise Genric wants to open a restaurant in a historic building. The property can be leased for 20 years but not purchased. She believes her restaurant can generate a net cash flow of $76,000 the first year and expects an annual growth rate of 4 percent thereafter. If a discount rate of 15 percent is used to evaluate this business, what is the present value of the cash flows that it will generate?
+
+6.5 A credit card offers financing at an APR of 18 percent, with monthly compounding on outstanding charges. What is the effective annual rate (EAR)?
+
+6.6 Thomas Nguyen currently has $10,000 in the bank earning interest of 6 percent per year, compounded monthly. If he needs $25,000 to purchase a car and can save an additional $100 a month stating at the end of this month, how long will it take him to accumulate the $25,000?
+
+Appendix: Deriving the Formula for the Present Value of an Ordinary Annuity
+In this chapter we showed that the formula for a perpetuity can be obtained from the formula for the present value of an ordinary annuity if n is set equal to ∞. It is also possible to go the other way. In other words, the present value of an ordinary annuity formula can be derived from the formula for a perpetuity. In fact, this is how the annuity formula was originally obtained. To see how this was done, assume that someone has offered to pay you $1 per year forever, beginning next year, but that, in return, you will have to pay that person $1 per year forever, beginning in year n + 1.
+
+The cash flows you will receive and the cash flows you will pay are represented in the following time line:
+
+
+The first row of dollar values shows the cash flows for the perpetuity that you will receive. This perpetuity is worth:
+
+ 
+ 
+
+The second row shows the cash flows for the perpetuity that you will pay. The present value of what you owe is the value of a $1 perpetuity that is discounted for n years.
+
+ 
+ 
+
+Notice that if you subtract, year by year, the cash flows you would pay from the cash flows you would receive, you get the cash flows for an n-year annuity.
+
+
+Therefore, the value of the offer equals the value of an n-year annuity. Solving for the difference between PVPReceive and PVPPay we see that this is the same as Equation 6.1.
+
+ 
+ 
+ 
+ 
+ 
+
+Problem
+6A.1 In the chapter text, you saw that the formula for a growing perpetuity can be obtained from the formula for the present value of a growing annuity if n is set equal to ∞. It is also possible to go the other way. In other words, the present value of a growing annuity formula can be derived from the formula for a growing perpetuity. In fact, this is how Equation 6.5 was actually derived. Show how Equation 6.5 can be derived from Equation 6.6.
+
+Ethics Case
+America’s Ailing Drug Prices
+In September 2016, Mylan CEO Heather Bresch appeared before the U.S. House Oversight Committee to address the controversial issue of rising prescription drug prices. Mylan was in the spotlight because of a dramatic 600 percent increase in the price of the EpiPen, a steroidal injector that treats severe and sometimes deadly allergic reactions. The rise in the cost of EpiPens was stunning. Priced at $100 for a two-pack in 2009, the same medication sold for over $600 by the fall of 2016. Members of the House of Representatives expressed their outrage over the surge in pricing for this important drug. Representative Elijah Cummings, from Maryland, accused the pharmaceutical maker of raising EpiPen prices “to get filthy rich at the expense of our constituents.” Mylan CEO Bresch countered this criticism by claiming that the price increases were necessary to ensure that Mylan could continue to invest in the research and development (R&D) necessary for new drug discovery, as well as improvements to existing products including the EpiPen.
+
+
+The price increase for the EpiPen is hardly unusual in the U.S. drug market. Most drug makers added significant markups to the retail prices of their compounds over the same time period. For example, AbbVie Inc. raised the price of the arthritis drug Humira more than 126 percent from 2011 to 2015, while Teva Pharmaceutical Industries Ltd. increased the price for its multiple sclerosis drug Copaxone by 118 percent over the same period. Data from National Health Statistics Group, summarized in the accompanying figure, illustrate that overall U.S. retail expenditures on prescription drugs grew steadily over the last two decades. By 2018, total U.S. expenditures topped $335 billion!1
+
+Boosting the Bottom Line at Patients’ Expense?
+
+To be sure, price increases are an important way for drug company executives to increase profits and benefit their stockholders. Like most manufacturers, pharma giant Pfizer Inc. routinely raises prices for a large proportion of its offerings, including more than 40 of its products in 2019. Similarly, Merck & Co. raised its list prices by an average of about 5.0 percent in 2019. In some cases, increases for just a single prescription can give a major boost to a company’s bottom line. For example, Pfizer increased the price of its popular painkiller Lyrica by 51.7 percent over a three-year period. Analyst projections suggested that Lyrica would generate close to $5 billion in annual sales for Pfizer through 2019.2
+
+While the increasing cost of medications certainly hit patients’ pocketbooks, the consequences can be dire when sharp price increases impact lifesaving drugs. In one high-profile 2015 case, Turing Pharmaceuticals, headed by then CEO Martin Shkreli, acquired the drug Daraprim, a 62-year-old medicine used to treat a parasitic infection that can cause brain damage and death in infants and people with AIDS. Following the acquisition, Turing raised the price of Daraprim overnight from $13.50 to $750 a pill—a 5,000 percent increase! When asked by investors about the impact of the decision on the company’s profits, Shkreli cynically wrote, “I think it will be huge…. So 5,000 paying bottles at the new price is $375,000,000—almost all of it is profit, and I think we will get three years of that or more. Should be a very handsome investment for all of us.” While not illegal, the price increase prompted public outrage and Shkreli was subpoenaed to appear before the U.S. House Oversight Committee to answer questions about the move. While Shkreli resigned as the CEO of Turing later in the year, the company continues to resist numerous calls to reduce the cost of the medication.
+
+While the price increases associated with Daraprim are extreme, there is little doubt that the widespread increase in prescription drug prices is making health care increasingly unaffordable in the United States. Indeed, some health care advocates are now arguing that price increases actually translate into poorer health outcomes and dangerous medical conditions because some patients can no longer afford to take drugs at their prescribed dosage.3
+
+The High Cost of Drug Development
+
+Bringing a new drug to market typically involves many years of very costly research, development, and testing by the pharmaceutical maker. Once a new drug is discovered and developed for human use, its safety and efficacy are evaluated by the U.S. Food and Drug Administration (FDA). As part of its evaluation, the FDA assesses the outcomes of three stages of clinical trials involving clinical researchers, doctors, and thousands of patients over several years. This process of discovery and testing can be very expensive, with researchers estimating that the average R&D cost of developing a new FDA-approved medication was $2.6 billion (in 2013 dollars) over the last decade.4 Given these costs, it is little wonder that most pharmaceutical companies make enormous investments in R&D every year. Pfizer, for example, expensed over $8.6 billion in R&D in 2019 alone!
+
+Drug development and testing are also exceedingly time consuming and risky. On average, it takes a successful experimental drug 15 years to go from lab to patient.5 Unfortunately, the vast majority of drugs that are developed actually fail to ever receive FDA approval for use. In a recent industry study of clinical trials between 2006 and 2015, only 9.6 percent of all developmental drugs successfully made it through even the first stage of clinical trials. Of those that succeeded in the first phase, only 30.7 percent ended up making it through the second set of clinical trials.6
+
+
+Given this very high development expense, the FDA grants a period of market exclusivity lasting from 5 to 12 years when a new patented drug is approved for patient use. During the exclusivity period, no competing low-cost or generic version of the drug can be sold in the U.S. market. While exclusivity gives the company a veritable monopoly on the marketing and pricing of the drug, executives and regulators agree that it provides pharmaceutical companies with a critical economic incentive to develop new drugs. This incentive is important for the stockholders of drug companies because they have to finance R&D expenses and they bear the costs associated with the duration and risk of drug development.
+
+Innovation or Gaming the System
+
+While market exclusivity provides pharmaceutical companies with an important economic incentive to develop new drugs and improve existing medications, many of these same companies attempt to game the exclusivity rules through maneuvers commonly known as “hard switching” and “evergreening.”
+
+Hard switching happens when a manufacturer discontinues the sale of a drug immediately before the end of its exclusivity period and replaces the drug with a new, market-exclusive compound. In many cases, patients are prescribed the new medication before the lower-cost generic medication hits the market. If patients are unaware and never informed of the availability of generic versions of the older drug, they will continue to use the more expensive brand-name medication.
+
+Evergreening occurs when a pharmaceutical company makes small changes to a drug before the end of its exclusivity period in an effort to gain a new patent and a new exclusivity period. Typically these changes involve modifications to a medication’s dosage or form of release. Drug makers claim that the alterations improve the efficacy of the medication and typically promote the new higher-priced product as superior to the older version. Critics of evergreening, however, argue that the majority of these changes are trivial and yield only minor benefits for patients, while allowing pharmaceutical makers to continue to charge exorbitant prices for equivalent drugs.
+
+Can Consumers Fight Back Against High Drug Prices?
+
+Like any product, drug prices are determined by supply and demand. While consumers may have a number of alternative options when they purchase a car or a gallon of milk in the grocery store, patients typically face far fewer options when they purchase medications as individuals or through one of many forms of medical insurance.
+
+There are often many drugs to choose from when treating common conditions. For example, a “statin” lowers cholesterol in the body and is one of the most commonly prescribed medicines in the United States today. Given the high demand for the product, many pharmaceutical companies have developed their own branded statin, including Pfizer (Lipitor), Astra Zeneca (Crestor), and Merck (Zocor), and various very low-cost generic versions of these drugs are available on the market today.
+
+On the other end of the spectrum, exclusivity rules and a lack of viable alternative medications can severely limit a patient’s options. In the most extreme cases, patients with rare conditions must rely on pharmaceutical companies to develop so-called “orphan” drugs. Under the 1983 Orphan Drug Act (ODA), drug companies producing orphan treatments expected to be used by 200,000 patients or less can qualify for additional exclusivity, special tax treatment, and R&D grants to incentivize research for these relatively small populations. Once a treatment is developed, however, the lack of competition can leave patients vulnerable to price increases. For example, in 2015 Valeant Pharmaceuticals raised the price of Cuprimine, a drug to treat an extremely rare malady known as Wilson’s disease, by 400 percent to $26,189 for the annual treatment.
+
+To many, it seems that consumers are at a distinct disadvantage in the prescription drug market. In contrast, in many other countries, drug prices are negotiated by government health programs that have effectively curbed the increases observed in the U.S. market. Since the government programs are the only large buyers, they can drive hard bargains with manufacturers, and the savings for consumers can be huge. For example, a report by CNN noted that the monthly prescription price for the common acid reflux drug Nexium costs $215 in the United States but just $23 in the Netherlands.7 These low prices have driven many U.S. consumers to try to fill their prescriptions outside of the United States, typically in Canada and Mexico, although U.S. law prohibits pharmacies and people with prescriptions from filling their orders over the border.
+
+For the majority of Americans, drug prices are negotiated indirectly through their insurers, which have a limited ability to constrain surging prices. The Medicare and Medicaid programs are the largest insurers of patients in the United States, covering more than 125 million people. Federal law, however, prohibits the U.S. Centers for Medicare and Medicaid from negotiating drug prices with the pharmaceutical companies.
+
+Private insurers have some options available to reduce excessive drug pricing. One tool at their disposal is the requirement that a patient receive prior authorization from the insurer before receiving coverage for a given prescription. While prior authorization can cause some drug makers to think twice about exorbitant charges, the practice is under fire by state attorneys general who contend that the threat of nonauthorization for expensive drugs is inconsistent with an insurer’s obligation to cover the medical needs of the insured.
+
+Insurers also rely on drug formularies and tiered co-payments by patients for medications to moderate pharmaceutical costs. Drug formularies are the lists of drugs that a health insurer agrees to pay for, at least partially, for a given medical condition. In setting the formulary, health experts try to provide access to effective but low-cost drugs. In many cases, this means providing access to generic rather than brand-name drugs for the same indication. Higher patient co-payments reduce drug affordability for consumers, reducing the demand for certain drugs. The effect of co-payments on demand, however, is limited by state laws that cap out-of-pocket expenses that must be paid by the insured.
+
+Discussion Questions
+Is it ethical for pharmaceutical companies to charge high prices for certain drugs—even if the drugs are required to sustain lives?
+What would be the potential benefits and consequences of allowing the Medicare and Medicaid programs to directly negotiate drug prices?
+Many have called for the FDA to lower its review standard for the approval of prescription drugs and speed up the clinical trial process. How do you think these changes would affect the stock prices of pharmaceutical companies? How do you think these changes would affect patients?
+Notes
+1 Notice that we have rounded the PV annuity factor to three decimal places (7.722). If we use a financial calculator and do not round, we get a more precise answer of $386,086.75.
+2 The annuity present value factor for 10 years at 10 percent is 6.1446. Thus, PVA10 = CF × Annuity factor = $3,500 × 6.1446 = $21,506.10. Using a financial calculator, PVA10 = $21,505.98. The difference is due to rounding errors.
+3 Conversely, we can derive the formula for the present value of an ordinary annuity, Equation 6.1, from the formula for a perpetuity, as explained in the appendix at the end of this chapter.
+4 In Equation 6.5 we represent the present value of a growing annuity of n periods using the same notation (PVAn) that we use for a regular annuity in Equation 6.1. We do this because the regular annuity is just a special case of the growing annuity, where g = 0. Equation 6.5 is the more general form of the annuity formula.
+5 If you have any doubt about the total credit card debt at the end of one year, make the calculation 12 times on your calculator: the first month is $100 × 1.01 = 101.00; the second month is $101.00 × 1.01 = $102.01; the third month is $102.01 × 1.01 = $103.03; and so on for 12 months.
+6 The Truth-in-Lending Act is Title I of the Consumer Credit Protection Act.
+1 Centers for Medicare & Medicaid Services, Office of the Actuary, National Health Statistics Group.
+2 www.bloomberg.com/news/articles/2015-10-02/pfizer-raised-prices-on-133-drugs-this-year-and-it-s-not-alone.
+3 http://www.cbsnews.com/news/whats-behind-the-sharp-rise-in-prescription-drug-prices/.
+4 Pharmaceutical Research and Manufacturers of America (PhRMA) estimates based on Tufts Center for the Study of Drug Development (CSDD) Briefing: “Cost of Developing a New Drug,” November 2014. Tufts CSDD and School of Medicine. http://www.phrma.org/advocacy/research-development/clinical-trials.
+5 J.A. DiMasi, H.G. Grabowski and R.A. Hansen, “Innovation in the Pharmaceutical Industry: New Estimates of R&D Costs,” Journal of Health Economics, 47, 2016, 20–33.
+6 Clinical Development Success Rates 2006–2015 BIO, Biomedtracker, Amplion 2016. www.bio.org/sites/default/files/legacy/bioorg/docs/Clinical%20Development%20Success%20Rates%202006-2015%20-%20BIO,%20Biomedtracker,%20Amplion%202016.pdf.
+7 http://www.cnn.com/2015/09/28/health/us-pays-more-for-drugs

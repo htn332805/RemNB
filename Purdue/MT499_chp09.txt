@@ -1,0 +1,753 @@
+CHAPTER 9
+Stock Valuation
+
+LEARNING OBJECTIVES
+
+List and describe the four types of secondary markets.
+Describe the two types of stock securities, and explain why many financial analysts treat preferred stock as a special type of bond rather than as an equity security.
+Describe how expected future cash flows, discounted at the required rate of return, determine the value of common stock.
+Describe how the general dividend-valuation model values a share of stock.
+Discuss the assumptions that are necessary to make the general dividend-valuation model easier to use, and use the model to compute the value of a firm’s stock.
+Explain why g must be less than R in the constant-growth dividend model.
+Explain how valuing preferred stock with a stated maturity differs from valuing preferred stock with no maturity, and calculate the price of a share of preferred stock under both conditions.
+Finding the actual market price of a share of publicly traded stock is easy. You can just look it up online at any number of Web sites, such as Yahoo! Finance or MSN Money Central. But don’t expect the market price to stay the same; stock prices change all the time—sometimes dramatically. For example, between the end of trading on August 31, 2020, and the end of trading on September 1, 2020, the price of Zoom Video Communications, Inc., stock surged from $325.10 to $447.69 per share—a 38 percent one-day gain! What caused the sharp increase in the company’s share price? Investors decided that the value of the cash flows that they could expect to receive from owning the video conferencing company’s shares was much higher than what they thought these cash flows were worth just one day before.
+
+Investors did not arbitrarily increase their assessment of the value of the cash flows that Zoom shareholders could expect to receive. They changed their opinion when company management announced, on the evening of August 31, the earnings for the firm for the second quarter of the year. While analysts had expected the company to announce quarterly earnings of about $0.45, the company reported actual earnings of $0.92 on significantly higher revenue and improving margins. Comments from Zoom management also relayed their positive expectations for future subscriber growth into 2021. These comments, and the surprising performance of the company in the second quarter, heightened investors’ expectation for the company’s ability to generate higher future cash flows. The net effect of this new information was the 38 percent increase in the company’s stock price.
+
+When stock prices rise or fall, how do investors or financial managers know when it is time to sell or buy? In other words, how can they tell if the market price of a stock reflects its true value? One approach is to develop a stock-valuation model and compare the value estimate from the model with the market price. If the market price is below the estimate, the stock may be undervalued, in which case an investor might decide to buy the stock. Alternatively, financial models can help inform an investor’s decision to sell a stock. In this chapter, we develop and apply stock-valuation models that enable us to estimate a stock’s value. These models are similar to those used in financial markets around the world.
+
+Chapter Preview
+This chapter focuses on equity securities (stocks) and how they are valued. We describe the market in which stocks trade and discuss several valuation models. These models tell us what a stock’s price should be. We can compare our estimates from such models with the actual market price to better understand how the market is valuing an individual stock.
+
+Why are stock-valuation formulas important for you to study in a corporate finance course? First, management may want to know if the firm’s stock is undervalued or overvalued. This knowledge can affect the decisions that managers make. For example, if the stock is undervalued, management may want to repurchase shares of stock to reissue in the future or postpone an equity offering until the stock price increases. Second, as we mentioned in Chapter 1, the overarching goal of financial managers is to maximize the current value of the firm’s stock. To make investment or financing decisions that increase stockholder wealth, you must understand the fundamental factors that determine the market value of the firm’s stock.
+
+We begin this chapter with a discussion of the secondary markets for stocks and their efficiency, describe the major U.S. stock market indexes, explain how to read stock market price quotes and related information, and introduce the types of equity securities that firms typically issue. We then develop a general valuation model and demonstrate that the value of a share of stock is the present value of all expected future cash dividends. We use some simplifying assumptions about dividend payments to implement this valuation model. These assumptions correspond to actual practice and allow us to develop several specific valuation models.
+
+9.1 The Market for Stocks
+LEARNING OBJECTIVE
+
+List and describe the four types of secondary markets.
+Equity securities, which represent an ownership interest in a corporation, are the most visible securities on the financial landscape. In December 2020, about $51 trillion worth of public equity securities were outstanding in the United States alone. Every day, Americans eagerly track the ups and downs of the stock market. Most people instinctively believe that the performance of the stock market is an important barometer of the country’s economic health. Also fueling interest is the large number of people who actually own equity securities through their pension or retirement plans. Today, more than half of U.S. households have some investment in the stock market.
+
+Secondary Markets
+Recall from Chapter 2 that the stock market consists of primary and secondary markets. In the primary market, firms sell new shares of stock to investors to raise money. In secondary markets, outstanding shares of stock are bought and sold among investors. We will discuss the primary markets for stocks further in Chapter 15. Our focus here is on secondary markets.
+
+Any trade of a security after its primary offering is said to be a secondary market transaction. Most secondary market transactions do not directly affect the firm that issues the securities. For example, when an investor buys 100 shares of AT&T stock on the New York Stock Exchange (NYSE), the exchange of money is only between the investors buying and selling the securities; no money flows into or out of AT&T.
+
+The presence of a secondary market does, however, affect the issuer indirectly. As discussed in Chapter 2, investors will pay a higher price for primary securities that have an active secondary market. The reason is that, with an active secondary market, investors face lower transaction costs and are more likely to receive a price that reflects the true value of their securities when they sell them. As a result, firms whose securities trade on a secondary market can sell their new debt or equity issues at a lower cost than can firms selling similar securities that have no secondary market.
+
+Major Secondary Markets
+In the United States, most secondary market transactions take place on one of the many stock exchanges, the two most important being the NYSE and NASDAQ.
+
+New York Stock Exchange
+
+Chapter 2 described a traditional securities exchange as an organized market that provides a physical meeting place and communication facilities for members to buy and sell securities under a specific set of rules and regulations. The oldest, largest, and best-known exchange of this kind in the United States is the NYSE, which was founded in 1792. The exchange lists the common and preferred stocks of more than three thousand companies, as well as eight hundred bonds. Collectively, the companies whose securities are traded on the NYSE had a market capitalization (total stock value) of about $27 trillion in December 2020.
+
+Stocks that are traded on an exchange are said to be listed on that exchange. For a firm’s stocks to be listed on an exchange, the firm must pay a fee and meet the exchange’s requirements for membership. Requirements include a minimum asset size, total stock value, a minimum number of shares of stock outstanding, and a minimum number of stockholders. Because of the prestige associated with being listed on the “big board,” as the NYSE is known, it has the most stringent listing requirements. As a result, companies listed on the NYSE tend to be large, well-known firms.
+
+NASDAQ
+
+The NASDAQ (pronounced “Naz-dak”) is the world’s largest electronic stock market, listing over three thousand companies. NASDAQ was created in 1971 by the National Association of Securities Dealers (NASD), and its odd name is an acronym for National Association of Securities Dealers Automated Quotation (NASDAQ) system.
+
+NASDAQ is an over-the-counter, or OTC, market because it does not have a physical location where trading takes place. Nevertheless, NASDAQ has achieved the stature of a major exchange. In fact, thanks to its sophisticated electronic trading system, NASDAQ is the second-largest stock market in the world. The companies whose shares trade on NASDAQ had an aggregate market capitalization of $21.3 trillion in December 2020. Only the NYSE is larger.
+
+The World’s Stock Exchanges/Markets
+
+Although we have focused on the NYSE and NASDAQ, it is important to recognize that there are approximately 100 equity stock exchanges/markets located throughout the world. The NYSE and NASDAQ are the two largest exchanges based on the market value of the shares that trade in them. The largest exchanges/markets outside the United States in 2020 were the Japan Exchange Group, the Shanghai and Hong Kong Stock Exchanges, and Euronext Europe.
+
+Over the last decade, there has been significant restructuring and consolidation of the exchanges and markets through mergers and acquisitions. Some examples are the purchase of Euronext by the NYSE, the merger of NASDAQ with the OMX Group, and the merger of the Chicago Mercantile Exchange with the Chicago Board of Trade. The consolidation among the world’s major exchanges/markets is driven by (1) new technologies that provide faster executions of trades and access to more markets and more products, (2) increased competition, which has reduced profit margins, and (3) the need to increase size in order to achieve greater economies of scale and operational efficiencies.
+
+Efficiency of Secondary Markets
+The role of the NYSE, NASDAQ, and other secondary markets is to bring together buyers and sellers. Ideally, we would like them to do this as efficiently as possible. As discussed in Chapter 2, markets are efficient when the current market prices of securities that are trading reflect all available information relevant to the valuation of those securities. When this happens, security prices will be at or near their true (intrinsic) value. The more efficient the market, the more likely this is to happen.
+
+There are four types of secondary markets, and each type differs according to the amount of price information available to investors, which in turn affects the efficiency of the market. We discuss the four types of secondary markets—direct search, broker, dealer, and auction—in the order from least to most efficient.
+
+Direct Search
+
+The secondary markets furthest from the ideal of complete availability of price information are those in which buyers and sellers must seek each other out directly. In these markets, individuals bear the full cost of locating and negotiating with a buyer or seller, and it is typically too costly for them to conduct a thorough search to locate the best price. Securities that sell in direct search markets are usually bought and sold so infrequently that few third parties, such as brokers or dealers, find it profitable enough to serve the market. In these markets, sellers often rely on word-of-mouth communication to find interested buyers. The common stock of small private companies is a good example of a security that trades in this manner.
+
+Broker
+
+When trading in a security issue becomes sufficiently heavy, brokers find it profitable to offer specialized search services to market participants. Brokers bring together buyers and sellers to earn a fee, called a commission. To provide investors with an incentive to hire them, brokers may charge a commission that is less than the cost of a direct search. Brokers are not passive agents but aggressively seek out buyers or sellers and try to negotiate an acceptable transaction price for their clients. The presence of active brokers increases market efficiency because brokers are in frequent contact with market participants and are likely to know what constitutes a fair price for a security.
+
+Dealer
+
+If the trading in a given security has sufficient volume, market efficiency is improved when there is someone in the marketplace who provides continuous bidding (selling or buying) for the security. Dealers do this by holding inventories of securities, which they own, and then buying and selling from the inventory to earn a profit. Unlike brokers, dealers have capital at risk. Dealers earn their profits from the spread on the securities they trade—the difference between their bid price (the price at which they buy) and their offer (ask) price (the price at which they sell). NASDAQ is the best-known example of a dealer market in the United States.
+
+bid price the price a securities dealer will pay for a given stock
+
+offer (ask) price the price at which a securities dealer seeks to sell a given stock
+
+The advantage of a dealer over a broker market is that brokers cannot guarantee that an order to buy or sell will be executed promptly. This uncertainty about the speed of execution creates price risk. During the time a broker is trying to sell a security, its price may change and the person trying to sell the security could suffer a loss. A dealer market eliminates the need for time-consuming searches for a fair deal because buying and selling take place immediately from the dealer’s inventory of securities.
+
+Dealers make markets in securities using electronic computer networks to quote prices at which they are willing to buy or sell a particular security. These networks enable dealers to electronically survey the prices quoted by different dealers to help establish their sense of a fair price and to trade. A major development in the 1990s was the opening of the so-called electronic communications network (ECN). An ECN is an electronic network that allows individual investors to trade securities directly with one another, much like dealers.
+
+Auction
+
+In an auction market, buyers and sellers interact directly with each other and bargain over price. The participants can communicate orally if they are located in the same place, or the information can be transmitted electronically. The NYSE is the best-known example of an auction market in the United States. In the NYSE, the auction for a security takes place at a specific location on the floor of the exchange, called a post. The auctioneer in this case is the specialist, who is designated by the exchange to represent orders placed by public customers. Specialists, as the name implies, specialize in orders for a small set of securities and are also allowed to act as dealers. Thus, in reality, the NYSE is an auction market that also has some features of a dealer market. Over the years, the NYSE has embraced electronic trading with the SuperDOT system (DOT stands for designated order turnaround), which allows orders to be transmitted electronically to specialists. While the NYSE still retains a physical trading floor on Wall Street in New York City, a significant proportion of its trades now occur through its data center in Mahwah, New Jersey.
+
+post a specific location on the floor of a stock exchange at which auctions for a particular security take place
+
+specialist the trader designated by an exchange to represent orders placed by public customers at auctions of securities; specialists handle a small set of securities and are also allowed to act as dealers
+
+Stock Market Indexes
+Stock market indexes are used to measure the performance of the stock market—whether stock prices on average are moving up or down. The indexes are watched closely not only to track economic activity but also to measure the performance of specific firms. A wide variety of general and specialized indexes is available. Here, we discuss some of the better-known indexes.
+
+Dow Jones Industrial Average. The most widely quoted stock market index is the Dow Jones Industrial Average (DJIA), which was first published in 1896. The index consists of 30 companies that represent about 20 percent of the market value of all U.S. stocks. Dow Jones also publishes specialized indexes for industrial, transportation, and utility companies. These specialized indexes tell us how stocks in a particular segment of the economy are performing.
+New York Stock Exchange Index. The NYSE composite index, published since 1966, includes all of the common and preferred stocks listed on the NYSE. This index provides information on the performance of many of the largest and most well-known firms in the U.S. economy.
+Standard and Poor’s 500 Index. The Standard and Poor’s 500 Index was created in 1956 and is regarded as the best index for measuring the performance of the largest companies in the U.S. economy. In the past the index contained 500 stocks, but by early 2021 it included 505 stocks. The stocks in the S&P 500 are selected by the Standard and Poor’s Index Committee and represent more than 80 percent of the total market capitalization (market value) of all stocks traded in the United States.
+NASDAQ Composite Index. The NASDAQ Composite Index consists of all of the common stocks listed on the NASDAQ stock exchange. Currently, the index includes more than three thousand firms, many of which are in the technology sector of the economy. Thus, the NASDAQ Composite Index is considered a barometer of performance in the high-tech sector.
+Reading Stock Market Quotes
+Stock price quotes and other market information are readily available online at a number of reliable Web sites, such as Yahoo! Finance, MSN Money, and CNBC, to name a few. Exhibit 9.1 provides an example of the stock quote data obtained from CNBC.com for the athletic apparel company Nike Inc., which trades on the NASDAQ exchange.
+
+The first piece of information provided at the top of the page is the real-time price of the last trade for stock in Nike. Given the high frequency of trade for this stock, you will notice that this price changes constantly over the course of the trading day. The numbers just to the right of the stock price reflect the dollar and percentage change in the stock price relative to the previous day’s closing price. Further to the right in this row is the volume of shares traded during the current day and the highest and lowest price for the stock over the previous 52 weeks. At the moment this quote was obtained, Nike stock was trading for $141.63 per share, and 1,167,930 shares had been traded for the day.
+
+EXHIBIT 9.1 Stock Quotes and Financial Data for Nike This exhibit features stock quotes and other financial market data for Nike Inc., provided by CNBC.com on February 11, 2021.
+
+
+The “Key Stats” under the graph include the opening price from the first trade of the day, the day’s highest and lowest price, and the average daily volume of trading for the stock during the last 10 days. You will also see the $1.10 dividend per-share Nike paid out over the trailing (past) twelve months, abbreviated as “TTM,” and the associated dividend yield. The dividend yield is calculated by dividing the annual dividend per share by the current market price. For Nike, that calculation is $1.10/$141.63 = 0.0078, or 0.78 percent. Most firms pay no dividends and dividend yields can vary widely for the firms that do. You can read more about dividend policy in Chapter 17.
+
+dividend yield a stock’s annual dividend per share divided by its current price
+
+The remainder of the page provides important financial data for Nike stockholders, including the company’s earning per share (EPS) and its price-earnings (P/E) ratio, which—as you may recall from Chapter 4—is the stock’s current price per share divided by its earnings per share.
+
+Before You Go On
+What is the NASDAQ?
+How do dealers differ from brokers?
+List the major stock market indexes, and explain what they tell us.
+What does the price-earnings ratio tell us?
+
+Learn more about the NYSE by visiting its Web site at www.nyse.com
+
+
+Find out about over-the-counter markets and NASDAQ at www.nasdaq.com
+
+
+The Web site www.bigcharts.com offers a real-time summary of all the major market indexes.
+
+
+To monitor stocks trading on the New York Stock Exchange, visit the NYSE EURONEXT Web site at nyse.nyx.com/equities
+
+9.2 Common and Preferred Stock
+LEARNING OBJECTIVE
+
+Describe the two types of stock securities, and explain why many financial analysts treat preferred stock as a special type of bond rather than as an equity security.
+Equity securities take several forms. The most prevalent type of equity security, as its name implies, is common stock. Common stock represents the basic ownership claim in a corporation. One of the basic rights of the owners is to vote on all important matters that affect the company, such as the election of the board of directors or a proposed merger or acquisition. Owners of common stock are not guaranteed any dividend payments and have the lowest-priority claim on the firm’s assets in the event of bankruptcy. Legally, common stockholders enjoy limited liability; that is, their losses are limited to the original amount of their investment in the firm, and their personal assets cannot be taken to satisfy the obligations of the corporation. Finally, common stocks are perpetuities in the sense that they have no maturity. Common stock can be retired only if management buys it in the open market from investors or if the firm is liquidated, in which case its assets are sold, as described in the next section.
+
+common stock an equity share that represents the basic ownership claim in a corporation; the most common type of equity security
+
+Like common stock, preferred stock represents an ownership interest in the corporation, but as the name implies, preferred stock receives preferential treatment over common stock. Specifically, preferred stockholders take precedence over common stockholders in the payment of dividends and in the distribution of corporate assets in the event of liquidation. Unlike the interest payments on bonds, which are contractual obligations, preferred stock dividends are declared by the board of directors, and if a dividend is not paid, the lack of payment is not legally viewed as a default.
+
+preferred stock an equity share in a corporation that entitles the owner to preferred treatment over owners of common stock with respect to dividend payments and claims against the firm’s assets in the event of bankruptcy or liquidation, but that typically has no voting rights
+
+Preferred stock is legally a form of equity. Thus, preferred stock dividends are paid by the issuer with after-tax dollars. Even though preferred stock is an equity security, the owners have no voting privileges unless the preferred stock is convertible into common stock. Preferred stocks are generally viewed as perpetuities because they have no maturity. However, most preferred stocks are not true perpetuities because their share contracts often contain call provisions, and can even include sinking fund provisions, which require management to retire (purchase) a certain percentage of the stock issue annually until the entire issue is retired.
+
+An ongoing debate in finance is whether preferred stock is debt or equity. A strong case can be made that preferred stock is a special type of bond rather than equity. The argument behind this view is as follows. First, regular (nonconvertible) preferred stock confers no voting rights. Second, preferred stockholders receive a fixed dividend, regardless of the firm’s earnings, and if the firm is liquidated, they receive a stated value (usually par) and not a residual value. Third, preferred stocks often have credit ratings that are similar in nature to those issued for bonds. Fourth, preferred stock is sometimes convertible into common stock. Finally, most preferred stock issues have a retirement date and, thus, are not true perpetuities.
+
+Before You Go On
+Describe the basic rights of owners of common stock and their position with respect to dividends.
+Why do some people view preferred stock as a special type of bond rather than a stock?
+
+This link to CNBC provides insights into the pros and cons of investing in preferred stock: www.cnbc.com/2019/05/17/invest-like-warren-buffett-a-guide-on-preferred-stock.html
+
+9.3 Common Stock Valuation
+LEARNING OBJECTIVE
+
+Describe how expected future cash flows, discounted at the required rate of return, determine the value of common stock.
+In earlier chapters we emphasized that the value of any asset is the present value of its future cash flows. The steps in valuing an asset are as follows:
+
+Estimate the expected future cash flows.
+Determine the required rate of return, or discount rate, which reflects the riskiness of the future cash flows.
+Compute the present value of the future cash flows to determine what the asset is worth.
+It is relatively straightforward to apply these steps in valuing a bond because the cash flows are stated as part of the bond contract and the required rate of return or discount rate is just the yield to maturity on bonds with comparable risk. However, common stock valuation is more difficult for several reasons. First, while the expected cash flows for bonds are well documented and easy to determine, common stock dividends are much less certain. Dividends are declared by the board of directors, and a board may or may not decide to pay a cash dividend at a particular time. Thus, the size and the timing of dividend cash flows are less certain. Second, common stocks are true perpetuities in that they have no final maturity date. Thus, firms never have to redeem them. In contrast, bonds have a finite maturity. Finally, unlike the rate of return, or yield, on bonds, the rate of return on common stock is not directly observable. Thus, grouping common stocks into risk classes is more difficult than grouping bonds. Keeping these complexities in mind, we now turn to a discussion of common stock valuation.
+
+A One-Period Model
+Let’s assume that you have a genie that can tell the future with perfect certainty. Also, suppose that you are thinking about buying a share of stock and selling it after a year. The genie volunteers that in one year the price (P1) for which you can sell the stock will be $100 and it will pay an $8 dividend (D1) at the end of the year. The time line for the transaction is:
+
+
+If you and the other investors require a 20 percent return on investments in securities in this risk class, what price would you be willing to pay for the stock today?
+
+The value of the stock is the present value of the future cash flows you can expect to receive from it. The cash flows you will receive are as follows: (1) the $8 dividend and (2) the $100 sale price. Using a 20 percent rate of return, we see that the value of the stock equals the present value (PV) of the dividend plus the present value of the cash received from the sale of the stock:
+
+Thus, the value of the stock today is $90. If you pay $90 for the stock, you will have a one-year holding period return of exactly 20 percent. More formally, the time line and the current value of the stock for our one-period model can be shown as follows:
+
+
+where:
+
+P0	=	the current value, or price, of the stock
+D1	=	dividend paid at the end of the period
+P1	=	price of the stock at the end of the period
+R	=	required return on common stock, or discount rate, in a particular risk class
+Note that P0 denotes time zero, which is today; P1 is the price one period later; P2 is the price two periods in the future; and so on. Note also that when we speak of the price (Pt) in this context, we mean the value—what we have determined is what the price should be, given our model—not the actual market price. Our one-period model provides an estimate of what the market price should be.
+
+Now, what if at the beginning of Year 2 we are again asked to determine the price of a share of common stock with the same dividend pattern and a one-year holding period. As in our first calculation, the current price (P1) of the stock is the present value of the dividend and the stock’s sale price, both received at the end of the year (P2). Specifically, our time line and the stock pricing formula are as follows:
+
+
+If we repeat the process again at the beginning of Year 3, the result is similar:
+
+and at the beginning of Year 4:
+
+Each single-period model discounts the dividend and sale price at the end of the period by the required return.
+
+A Perpetuity Model
+Unfortunately, although our one-period model is correct, it is not very realistic. We need a stock-valuation formula for a perpetuity, not for one or two periods. However, we can string together a series of one-period stock pricing models to arrive at a stock perpetuity model. Here is how we do it.
+
+First, we construct a two-period stock-valuation model. The time line for the two-period model is:
+
+
+To construct our two-period model, we start with our initial single-period valuation model:
+
+Now we substitute into this equation the expression derived earlier for P1 [P1 = (D2 + P2) /(1 + R)] and obtain the following:
+
+Rearranging this equation results in a stock-valuation model for two periods:
+
+Finally, we combine the second-period terms to obtain:
+
+This equation shows that the price of a share of stock that is held for two periods is the present value of the dividend in period 1 (D1) plus the present value of the dividend and sale price of the stock in period 2 (D2 and P2).
+
+Now let’s construct a three-period model. The time line for the three-period model is:
+
+
+If we substitute the equation for P2 into the two-period valuation model shown above, we have a three-period model, which is as follows. Recall that P2 = (D3 + P3)/(1 + R).
+
+By now, it should be clear that we could go on to develop a four-period model, a five-period model, a six-period model, and so on. The ultimate result is the following equation:
+
+Here, t is the time period, which can be any number from one to infinity (∞). We will use t, instead of n, to denote the time period from this point forward because it is more commonly used in pricing equations; n will still be used to denote the number of periods.
+
+In summary, we have developed a model showing that the value, or price, of a share of stock today (P0) is the present value of all future dividends and the stock’s sale price in the future. Although theoretically sound, this model is not practical to apply because the number of dividends could be infinite. It is unlikely that we can successfully forecast an infinite number of dividend payments or a stock’s sale price far into the future. What we need are some realistic simplifying assumptions.
+
+
+You can read about stock-valuation models at the Motley Fool: www.fool.com/how-to-invest/how-to-value-stocks-introduction-to-valuation-meth.aspx
+
+9.4 The General Dividend-Valuation Model
+LEARNING OBJECTIVE
+
+Describe how the general dividend-valuation model values a share of stock.
+In the preceding equation, notice that the final term, as in the earlier stock valuation models, is always the sale price of the stock in period t (Pt) and that t can be any number, including infinity if we plan on holding the stock forever. The model assumes that we can forecast the sale price of the stock far into the future, which does not seem very likely in real life. However, as a practical matter, as Pt moves further out in time toward infinity, the value of the Pt approaches zero. Why? No matter how large the sale price of the stock, the present value of Pt will approach zero because the discount factor approaches zero. Therefore, if we go out to infinity, we can ignore the Pt/(1 + R)t term and write our final equation as:
+
+(9.1)
+where:
+
+P0	=	the current value, or price, of the stock
+Dt	=	the dividend received in period t, where t = 1, 2, 3, …, ∞
+R	=	the required return on the common stock or discount rate
+Equation 9.1 is a general expression for the value of a share of stock. It says that the price of a share of stock is the present value of all expected future dividends:
+
+The formula does not assume any specific pattern for future dividends, such as a constant growth rate. Nor does it make any assumption about when the share of stock is going to be sold in the future. If we do decide to sell a share of stock in the near term, we can assume that the stock price will be equal to the present value of the future dividends at the date of the sale. Furthermore, the model says that to compute a stock’s current value, we need to forecast an infinite number of dividends, which is a daunting task.
+
+Equation 9.1 provides some insights into why stock prices are changing all the time and why, at certain times, price changes can be dramatic. Equation 9.1 implies that the underlying value of a share of stock is determined by the market’s expectations of the future cash flows (from dividends) that the firm can generate. In efficient markets, stock prices change constantly as new information becomes available and is incorporated into the firm’s market price. For publicly traded companies, the market is inundated with new facts and rumors, such as when a firm unexpectedly fails to meet sales projections, the CEO resigns or is fired, or a class-action suit is filed against the firm because of a defect in one of its products. Some events may have little or no impact on the firm’s expected cash flows and, hence, its stock price. Others can have very large effects on expected cash flows. Examples include the effects of the Covid-19 pandemic on lodging stocks, such as Hilton Worldwide, and the impact the grounding of the 737 MAX on the cash flows of Boeing in 2019.
+
+The Growth Stock Pricing Paradox
+An interesting issue concerning growth stocks arises out of the fact that the stock-valuation equation is based on dividend payments. Growth stocks are typically defined as the stocks of companies whose earnings are growing at above-average rates and are expected to continue to do so for some time. A company of this type typically pays little or no dividends on its stock because management believes that the company has a number of high-return investment opportunities and that both the company and its investors will be better off if earnings are reinvested rather than paid out as dividends.
+
+To illustrate the problem with valuing growth stocks, let’s suppose that the earnings of Acme Corporation are growing at an exceptionally high rate. The company’s stock pays no dividends, and management states that there are no plans to pay any dividends. Based on our stock-valuation equation, what is the value of Acme’s stock?
+
+Obviously, since all the dividend values are zero, the value of our growth stock is zero!
+
+How can the value of a growth stock be zero? What is going on here?
+
+The problem is that our definition of growth stocks was less than precise. Our application of Equation 9.1 assumes that Acme will never pay a dividend. If Acme had a charter that stated it would never pay dividends and would never liquidate itself (unless it went bankrupt), the value of its stock would indeed be zero. Equation 9.1 predicts and common sense says that if you own stock in a company that will never pay you any cash, the market value of those shares of stock are worth absolutely nothing. As you may recall, this is a point we emphasized in Chapter 1.
+
+What we should have said is that a growth stock is stock in a company that currently has exceptional investment opportunities and thus is not currently paying dividends because it is reinvesting earnings. At some time in the future, growth stock companies will pay dividends or will liquidate themselves (for example, by selling out to other companies) and pay a single large cash dividend. People who buy growth stocks expect rapid price appreciation because management reinvests the cash flows from earnings internally in investment projects believed to have high rates of return. If the internal investments succeed, the stock’s price should go up significantly, and investors can sell their stock at a price that is higher than the price they paid.
+
+Before You Go On
+What is the general formula used to calculate the price of a share of a stock? What does it mean?
+What are growth stocks, and why do they typically pay little or no dividends?
+9.5 Stock Valuation: Some Simplifying Assumptions
+LEARNING OBJECTIVE
+
+Discuss the assumptions that are necessary to make the general dividend-valuation model easier to use, and use the model to compute the value of a firm’s common stock.
+Conceptually, the general dividend-valuation model (Equation 9.1) is consistent with the notion that the value of an asset is the discounted value of future cash flows. Unfortunately, at a practical level, the model is not easy to use because of the difficulty of estimating future dividends over a long period of time. We can, however, make some simplifying assumptions about the pattern of dividends that make the model more manageable. Fortunately, these assumptions closely resemble the way many firms manage their dividend payments. We have a choice among three different assumptions: (1) Dividends remain constant over time; that is, they have a growth rate of zero. (2) Dividends grow at a constant rate; for example, they grow at 3 percent per year. (3) Dividends exhibit a mixed growth rate pattern; that is, dividends have one growth pattern and then switch to another. We discuss each of these assumptions in turn.
+
+Zero-Growth Dividend Model
+The simplest assumption is that dividends will have a growth rate of zero. Thus, the dividend payment pattern remains constant over time:
+
+In this case, the dividend-discount model (Equation 9.1) becomes:
+
+This cash flow pattern is a perpetuity with a constant cash flow. You may recall that we developed an equation for such a perpetuity in Chapter 6. Equation 6.4 said that the present value of a perpetuity with a constant cash flow is CF/i, where CF is the constant cash flow and i is the interest rate. In terms of our stock-valuation model, we can present the same relation as follows:
+
+(9.2)
+where:
+
+P0	=	the current value, or price, of the stock
+D	=	the constant cash dividend received in each time period
+R	=	the required return on the common stock or discount rate
+This model fits the dividend pattern for common stock of a company that is not growing and has little growth potential or for preferred stock, which we discuss in the next section.
+
+For example, the Del Mar Corporation is a small printing company that serves a rural three-county area near San Diego, California. The county’s economic base has remained constant over the years, and Del Mar’s sales and earnings reflect this trend. The firm pays a $5 dividend per year, and the board of directors has no plans to change the dividend. If the firm’s investors are mostly local businesspeople who expect a 20 percent return on their investment, what should be the price of the firm’s stock?
+
+Since the cash dividend payments are constant, we can use Equation 9.2 to find the price of the stock:
+
+Learning by Doing Application 9.1 illustrates use of Equation 9.2 in valuing the stock of another small business.
+
+Constant-Growth Dividend Model
+Under the constant-growth dividend assumption, cash dividends do not remain constant but instead grow at some average rate g from one period to the next forever. The rate of growth can be positive or negative. And, as it turns out, a constant growth rate is not a bad approximation of the actual dividend pattern for many firms. Constant dividend growth is often an appropriate assumption for mature companies with a history of stable growth.
+
+You may have concerns about the assumption of an infinite time horizon. In practice, though, it does not present a problem. It is true that most companies do not live on forever. We know, however, that the further in the future a cash flow will occur, the smaller its present value. Thus, far-distant dividends have a small present value and contribute very little to the price of the stock. For example, as shown in Exhibit 9.2, with constant dividends and a 15 percent discount rate, dividends paid during the first 10 years account for more than 75 percent of the value of a share of stock, while dividends paid after the twentieth year contribute only about 6 percent of the value.
+
+LEARNING BY DOING APPLICATION 9.1
+The Value of a Small Business
+
+Problem
+
+For the past 15 years, a family has operated the gift shop in a luxury hotel near Rodeo Drive in Los Angeles. The hotel management wants to sell the gift shop to the family members rather than paying them to operate it. The family’s accountant will incorporate the new business and estimates that it will generate an annual cash dividend of $150,000 for the stockholders. The hotel will provide the family with an infinite guarantee for use of the space and a generous buyout plan in the unlikely event that the hotel closes its doors. The accountant estimates that a 20 percent discount rate is appropriate. What is the value of the stock?
+
+
+
+
+
+Identifying and applying the constant-growth dividend model is fairly straightforward. First, we need a model that can be used to compute the value of a dividend payment for any future period. If we assume that cash dividends grow at a constant rate g from one period to the next, we can use the future value formula, Equation 5.1, to obtain such a model:
+
+To apply this formula to dividend payments, we replace FVn with Dt, PV with D0, i with g, and n with t:
+
+(9.3)
+where:
+
+Dt	=	dividend payment in period t, where t = 1, 2, 3, …, ∞
+D0	=	dividend paid in the current period, t = 0
+g	=	the constant growth rate for dividends
+EXHIBIT 9.2 Impact on Stock Prices of Near and Distant Future Dividends Dividends expected far in the future have a smaller present value than dividends expected in the next few years, and so they have less effect on the price of the stock. As you can see in the exhibit, with constant dividends, more than 75 percent of the current price of a share of stock comes from expected dividends in the first 10 years.
+
+
+Equation 9.3 allows us to compute the dividend payment for any time period. For example, the next dividend, paid at time t = 1, is D1, which is just the current dividend (D0) multiplied by the growth factor, (1 + g). Thus, D1 = D0 × (1 + g). Notice that to compute the dividend payment for any future period, we multiply D0 by the growth rate factor to some power, but we always start with D0.
+
+We can now develop the constant-growth dividend model, which is easy to do because it is just an application of Equation 6.6 from Chapter 6. Equation 6.6 says that the present value of a growing perpetuity (PVP) equals the cash flow value from period 1 (CF1) divided by the difference between the discount rate (i) and the rate of growth (g) of the cash flow (CF1):
+
+We can represent this same relation for stock valuation as follows:
+
+(9.4)
+where:
+
+P0	=	the current value, or price, of the stock
+D1	=	the dividend paid in the next period (t = 1)
+g	=	the constant growth rate for dividends
+R	=	the required return on the common stock or discount rate
+In other words, the constant-growth dividend model tells us that the current price of a share of stock is the next period dividend divided by the difference between the discount rate and the dividend growth rate. Note that PVP is the current value of the stock (P0), which equals the present value of the dividend cash flows.
+
+As discussed in Chapter 6, the growing-perpetuity model is valid only if the growth rate is less than the discount rate, or required rate of return. In terms of Equation 9.4, then, the value of g must be less than the value of R (g < R). If the equation is used in situations where R is equal to or less than g (R ≤ g), the computed results will be meaningless.
+
+Finally, notice that if g = 0, there is no dividend growth and the dividend payment pattern is simply a constant no-growth dividend stream. In this case, Equation 9.4 becomes P0 = D/R, which is precisely the same as Equation 9.2, the zero-growth dividend model. Thus, Equation 9.2 is just a special case of Equation 9.4 where g = 0.
+
+Let’s work through an example using the constant-growth dividend model. Big Red Automotive is a regional auto parts supplier based in Oklahoma City. At the firm’s year-end stockholders’ meeting, the CFO announces that this year’s dividend will be $4.81. The announcement conforms to Big Red’s dividend policy, which sets dividend growth at a 4 percent annual rate. Investors who own stock in similar types of firms expect to earn a return of 18 percent. What is the value of the firm’s stock?
+
+First, we need to compute the cash dividend payment for next year (D1). Applying Equation 9.3 for t = 1 yields the following:
+
+Next, we apply Equation 9.4 to compute the value of the firm’s stock, which is $35.71 per share:
+
+Learning by Doing Application 9.2 illustrates another application of Equation 9.4 to the valuation of a firm’s stock.
+
+LEARNING BY DOING APPLICATION 9.2
+Big Red Grows Faster
+
+Problem
+
+Using the information given in the text, compute the value of Big Red’s stock if dividends grow at 6 percent rather than 4 percent and the discount rate remains 18 percent. Explain why the answer makes sense.
+
+
+
+
+
+Computing Future Stock Prices
+The constant-growth dividend model (Equation 9.4) can be modified to determine the value, or price, of a share of stock at any point in time. In general, the price of a share of stock, Pt, can be expressed in terms of the dividend in the next period (Dt + 1), g, and R, when the dividends from Dt + 1 forward are expected to grow at a constant rate. Thus, the price of a share of stock at time t is as follows:
+
+(9.5)
+Notice that Equation 9.4 is just a special case of Equation 9.5 in which t = 0. To be sure that you understand this, set up Equation 9.5 to compute a stock’s current price at t = 0. When you are done, the resulting equation should look exactly like Equation 9.4.
+
+An example will illustrate how Equation 9.5 is used. Suppose that a firm has a current dividend (D0) of $2.50, R is 15 percent, and g is 5 percent. What is the price of the stock today (P0), and what will it be in five years (P5)? To help visualize the problem, we will lay out a time line and identify some of the important variables necessary to solve the problem:
+
+
+To find the current stock price, we can apply Equation 9.4, but we must first compute the dividend for the next period (D1), which is at t = 1. Using Equation 9.3, we compute the firm’s dividend for next year:
+
+Now we can use Equation 9.4 to find the price of the stock today:
+
+We next find the value of the stock in five years. In this situation, Equation 9.5 is expressed as:
+
+We need to compute D6, and we do so by using Equation 9.3:
+
+The price of the stock in five years is therefore:
+
+Finally, note that $33.50/(1.05)5 = $26.25, which is the value today.
+
+Learning by Doing Applications 9.3 and 9.4 illustrate additional examples of the use of Equations 9.3, 9.4, and 9.5 in stock valuation.
+
+9.6 The Relation between R and g
+LEARNING OBJECTIVE
+
+Explain why g must be less than R in the constant-growth dividend model.
+We previously mentioned that the dividend growth model provides valid solutions only when g < R. Students frequently ask what happens to Equation 9.4 or 9.5 if this condition does not hold (if g ≥ R). Mathematically, as g approaches R, the stock price becomes larger and larger, and when g = R, the value of the stock is infinite, which is, of course, impossible. When the growth rate (g) is larger than the discount rate (R), the constant-growth dividend model tells us that the value of the stock is negative, but this is impossible. The value of a share of stock can never be less than zero because, as we discussed in Section 1.2, stockholders have limited liability.
+
+LEARNING BY DOING APPLICATION 9.3
+Procter & Gamble’s Current Stock Price
+
+Problem
+
+Suppose that the current cash dividend on Procter & Gamble’s common stock is $1.84. Financial analysts expect the dividends to grow at a constant rate of 5 percent per year, and investors require an 8 percent return on stocks with the same level of risk. What should be the current price of a share of Procter & Gamble stock?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 9.4
+Procter & Gamble’s Future Stock Price
+
+Problem
+
+Continuing the example in Learning by Doing Application 9.3, what should Procter & Gamble’s stock price be seven years from now (P7)?
+
+
+
+
+
+From a practical perspective, the growth rate in the constant-growth dividend model cannot be greater than the sum of the long-term rate of inflation and the long-term real growth rate of the economy. Since this model assumes that the firm will grow at a constant rate forever, any growth rate that is greater than this sum would imply that the firm will eventually take over the entire economy. Of course, we know this is not possible. Eventually, competition and changes in consumer preferences will cause a decline in the growth rate. Since the sum of the long-term rate of inflation and the long-term real growth rate has historically been less than 6 to 7 percent, the growth rate (g) is virtually always less than the discount rate (R) for the stocks that we would want to use the constant-growth dividend model to value.
+
+It is possible for firms to grow faster than the long-term rate of inflation plus the real growth rate of the economy—just not forever. A firm that is growing at such a high rate is said to be growing at a supernormal growth rate. We must use a different model to value the stock of a firm like this. We discuss one such model next.
+
+Mixed (Supernormal) Growth Dividend Model
+For many firms, it is not appropriate to assume that dividends will grow at a constant rate. Firms typically go through life cycles and, as a result, exhibit different dividend patterns over time.
+
+During the early part of their lives, successful firms experience a supernormal rate of growth in earnings. These firms tend to pay lower dividends or no dividends at all because many good investment projects are available to them and management wants to reinvest earnings in the firm to take advantage of these opportunities. If a growth firm does not pay regular dividends, investors receive their returns from capital appreciation of the firm’s stock (which reflects increases in expected future dividends), from a cash or stock payout if the firm is acquired, or possibly from a large special cash dividend. As a firm matures, it will settle into a growth rate at or below the long-term rate of inflation plus the long-term real growth rate of the economy. When a firm reaches this stage, it will often be paying a fairly predictable regular dividend.
+
+Exhibit 9.3 shows several dividend growth patterns. In the top curve, dividends exhibit a supernormal growth rate of 25 percent for four years, then a more sustainable nominal growth rate of 5 percent (this might, for example, be made up of 2.5 percent growth from inflation plus a 2.5 percent real growth rate). By comparison, the remaining curves show dividends with a constant nominal growth rate of 5 percent, a zero growth rate, and a negative 10 percent growth rate. In addition to the constant growth rates illustrated in Exhibit 9.3, it is also possible for the dividend growth rate to vary during the early years. We refer to this as a mixed dividend growth pattern.
+
+EXHIBIT 9.3 Dividend Growth Rate Patterns This exhibit shows dividend growth patterns including supernormal growth, constant growth, zero growth, and negative growth.
+
+
+As mentioned earlier, successful companies often experience supernormal growth early in their life cycles. During the last decade, for example, firms such as Google, Facebook, and Netflix have experienced supernormal growth. Older companies that reinvent themselves with new products or strategies may also experience periods of supernormal growth. In the early 2000s, Apple Inc. management repositioned the company from being primarily a manufacturer of computers to being a firm that is now also a market leader in the smartphone and computing hardware segments, mobile payments, the distribution of third-party digital content, and applications. Following this restructuring, Apple’s stock generated huge returns for investors, rising from approximately $7.50 per share at the beginning of 2010 to $132 per share at the end of 2020.
+
+To value a share of stock for a firm with a mixed (supernormal) dividend growth pattern, we do not have to develop any new equations. Instead, we can apply Equation 9.1, our general dividend model, and Equation 9.5, which gives us the price of a share of stock with constant dividend growth at any point in time.
+
+We will illustrate with an example. Suppose a company’s expected dividend pattern for three years is as follows: D1 = $1, D2 = $2, D3 = $3. After three years, the dividends are expected to grow at a constant rate of 6 percent a year. What should the current price (P0) of the firm’s stock be if the required rate of return demanded by investors is 15 percent?
+
+We begin by drawing a time line, as shown in Exhibit 9.4. We recommend that you prepare a time line whenever you solve a problem with a complex dividend pattern so that you can be sure the cash flows are placed in the proper time periods. The critical elements in working these problems are to correctly identify when the constant growth starts and to value it properly.
+
+Looking at Exhibit 9.4, it is easy to see that we have two different dividend patterns: (1) D1 through D3 represent a mixed dividend growth pattern, which can be valued using Equation 9.1, the general dividend-valuation model. (2) After the third year, dividends grow at a constant rate of 6 percent and can be valued using Equation 9.5, the constant-growth dividend-valuation model. Thus, our valuation model is:
+
+Combining these present values yields the following formula:
+
+
+The value of the constant-growth dividend stream is P3, which is the value, or price, at time t = 3. More specifically, P3 is the value of the future cash dividends discounted to time period t = 3. With a required rate of return of 15%, the value of these dividends is calculated as follows:
+
+EXHIBIT 9.4 Time Line for Nonconstant Dividend Growth Pattern The exhibit shows a time line for a nonconstant dividend growth pattern. The time line makes it easy to see that we have two different dividend growth patterns. For three years, the dividends are expected to grow at a mixed rate; after that, they are expected to grow at a constant rate of 6 percent.
+
+
+We find the value of P3 using Equation 9.5, which allows us to compute stock prices in the future for stocks with constant dividend growth. Note that the equation gives us the value, as of Year 3, of a constant-growth perpetuity that begins in Year 4. This formula always gives us the value as of one period before the first cash flow.
+
+Now, since P3 is at time period t = 3, we must discount it back to the present (t = 0). This is accomplished by dividing P3 by (1 + R)3.
+
+Plugging the values for the dividends, P3, and R into the mixed-growth equation presented earlier results in the following:
+
+Thus, the value of the stock is $27.58 per share.
+
+We can write a general equation for the mixed (supernormal) growth situation, where dividends grow first at a mixed or high constant rate until period t, and then at a constant rate thereafter, as follows:
+
+(9.6)
+If the mixed- or high-growth period ends and dividends grow at a constant rate, g, then Pt can be calculated using Equation 9.5:
+
+The two preceding equations can also be applied when dividends are constant over time, since we know that g = 0 is just a special case of the constant-growth dividend model (g > 0).
+
+Let’s look at another example, this time using Equation 9.6. Suppose that Redteck is a high-tech medical device firm located in Lincoln, Nebraska. The company is three years old and has experienced spectacular growth since its inception. You are a financial analyst for a stock brokerage firm and have just returned from a two-day visit to the company. You learned that Redteck plans to pay no dividends for the next five years. In Year 6, management plans to pay a large, special cash dividend, which you estimate to be $25 per share. Then, beginning in Year 7, management plans to pay a constant annual dividend of $6 per share for the foreseeable future. The appropriate discount rate for the stock is 12 percent, and the current market price is $24 per share. Your boss doesn’t think the stock is worth the price. You think that it’s a bargain and that you should recommend it to the firm’s clients. Who is right?
+
+Our first step in answering this question is to lay out the expected dividend payments on a time line:
+
+
+Equation 9.6, the mixed (supernormal) dividend model, can be used to determine the value of the stock. There are two different dividend cash streams: (1) the mixed dividends, which in this case comprise a single dividend paid in Year 6 (Equation 9.1), and (2) the constant dividend stream (g = 0) of $6 per year forever (Equation 9.5). The value of the common stock can be computed as follows:
+
+Applying Equation 9.6 to the cash flows presented in the problem yields:
+
+Note that the first term in the second line computes the present value of the large $25 dividend paid in Year 6. In the second term, P6 is the discounted value of the constant $6 dividend payments made in perpetuity, as of period t = 6. To compute the present value of P6, we divide it by the appropriate discount factor, which is (1 + R)6.
+
+Plugging the data given earlier into the above equation yields:
+
+We can see from this relation that we still need to compute the value of P6 using Equation 9.5:
+
+Equation 9.5 is easy to apply since the dividend payments remain constant over time. Since Dt + 1 = $6 and g = 0, P6 is calculated as follows:
+
+and the calculation for P0 is therefore:
+
+The stock’s current market price is $24, and if your estimates of dividend payments are correct, the stock’s value is $38 per share. This suggests that the stock is a bargain and that your boss is incorrect.
+
+Before You Go On
+What three different models are used to value stocks based on different dividend patterns?
+Explain why the growth rate g must always be less than the rate of return R for the constant-growth dividend model.
+9.7 Valuing Preferred Stock
+LEARNING OBJECTIVE
+
+Explain how valuing preferred stock with a stated maturity differs from valuing preferred stock with no maturity, and calculate the price of a share of preferred stock under both conditions.
+As mentioned earlier in this chapter, preferred stocks are hybrid securities, falling someplace between bonds and common stock. For example, preferred stock has a higher-priority claim on the firm’s assets than common stock but a lower-priority claim than the firm’s creditors in the event of default. In computing the value of preferred stock, however, the critical issue is whether the preferred stock has a fixed maturity. If the preferred stock contract has a sinking fund that calls for the mandatory retirement of the stock over a scheduled period of time, financial analysts will tend to treat the stock as if it were a bond with a fixed maturity.
+
+The most significant difference between preferred stock with a fixed maturity and a bond is the risk of default. Bond coupon payments are a legal obligation of the firm, and failure to pay them results in default, whereas preferred stock dividends are declared by the board of directors, and failure to pay dividends does not result in default. Even though it is not a legal default, the failure to pay a preferred stock dividend as promised is not a trivial event. It is a noteworthy financial breach which can signal to the market that the firm is in serious financial difficulty. As a result, managers make every effort to pay preferred stock dividends as promised.
+
+Preferred Stock with a Fixed Maturity
+Because preferred stock with a fixed maturity is considered similar to a bond, we can use the bond valuation model developed in Chapter 8 to determine its price, or value. Applying Equation 8.2 requires only that we recognize that the coupon payments (C) are equivalent to dividend payments (D) and the preferred stock dividends are paid quarterly. Thus, Equation 8.2 can be restated as the price of a share of preferred stock (PS0):
+
+(9.7)
+where:
+
+D	=	the annual preferred stock dividend payment
+P	=	the stated (par) value of the preferred stock
+i	=	the yield to maturity of the preferred stock
+m	=	the number of times dividend payments are made each year
+n	=	the number of years to maturity
+For preferred stock with quarterly dividend payments, m equals 4.
+
+Consider an example of how this equation is used. Suppose that a utility company’s preferred stock has an annual dividend payment of $10 (paid quarterly), a stated (par) value of $100, and a maturity of 20 years owing to a sinking fund requirement. If similar preferred stock issues have market yields of 8 percent, what is the value of the preferred stock?
+
+First, we convert the data to quarterly compounding as follows: (1) the market yield is 2 percent quarterly (8 percent per year/4 quarters per year = 2 percent per quarter), (2) the dividend payment is $2.50 quarterly ($10 per year/4 quarters per year = $2.50 per quarter), and (3) the total number of dividend payments is 80 (4 payments per year × 20 years = 80 payments). Plugging the data into Equation 9.7, we find that the value of the preferred stock is:
+
+We can, of course, also solve this problem on a financial calculator. The keystrokes are as follows:
+
+
+Learning by Doing Application 9.5 illustrates how Equation 9.7 or a calculator can be used to compute the yield to maturity of preferred stock.
+
+LEARNING BY DOING APPLICATION 9.5
+Computing the Yield on Preferred Stock
+
+Problem
+
+Phoenix Gas and Electric (PG&E) has a preferred stock issue outstanding that has a stated value of $100, will be retired by the company in 15 years, and pays a $2 dividend each quarter. If the preferred stock is currently selling for $95, what is the stock’s yield to maturity?
+
+
+
+
+
+Preferred Stock with No Maturity
+Some preferred stock issues have no maturity. These securities have dividends that are constant over time (g = 0) and that go on forever. Thus, these preferred stocks can be valued as perpetuities, using Equation 9.2:
+
+where D is a constant cash dividend and R is the discount rate, or required rate of return.
+
+Let’s work an example. Suppose that Ajax Air Lines has a perpetual preferred stock issue that pays a dividend of $5 per year and that investors require an 8 percent return on such an investment. What is the value of the preferred stock? Applying Equation 9.2, we find that the value is:
+
+Before You Go On
+Why can skipping payment of a preferred dividend be a bad signal?
+How is a preferred stock with a fixed maturity valued?
+Summary of Learning Objectives
+1 List and describe the four types of secondary markets.
+
+The four types of secondary markets are (1) direct search, (2) broker, (3) dealer, and (4) auction. In direct search markets, buyers and sellers seek out each other directly. In broker markets, brokers bring together buyers and sellers for a fee. Trades in dealer markets go through dealers, who buy securities at one price and sell at a higher price. The dealers face the risk that prices could decline while they own the securities. Auction markets have a fixed location where buyers and sellers deal with each other directly and bargain over the transaction price.
+
+2 Describe the two types of stock securities, and explain why many financial analysts treat preferred stock as a special type of bond rather than as an equity security.
+
+Common stock represents the basic ownership claim in a corporation and allows owners to vote on all important corporate matters. Owners of common stock are not guaranteed any dividend payments and have the lowest priority claim on the firm’s assets in the event of bankruptcy. Preferred stock represents ownership in a corporation and entitles the owner to a dividend, which must be paid before dividends are paid to common stockholders. Similar to bonds, preferred stock issues have credit ratings, are sometimes convertible to common stock, and are often callable. Unlike owners of common stock, owners of nonconvertible preferred stock do not have voting rights and do not participate in the firm’s profits beyond the fixed dividends they receive. It is because of their strong similarity to bonds that many financial analysts treat preferred stocks that are not true perpetuities as a form of debt rather than equity.
+
+3 Describe how expected future cash flows, discounted at the required rate of return, determine the value of common stock.
+
+The value of common stock depends on the expected future cash flows and the rate of return, or discount rate. A share of stock is worth the present value of all of its expected future flows when discounted at the rate of return required by investors for investments with a similar level of risk. One-period models and perpetuity models are starting points for understanding how to value common stock.
+
+4 Describe how the general dividend-valuation model values a share of stock.
+
+The general dividend-valuation model values a share of stock as the present value of all future cash dividend payments, where the dividend payments are discounted using the rate of return required by investors for investments with a similar level of risk.
+
+5 Discuss the assumptions that are necessary to make the general dividend-valuation model easier to use, and use the model to compute the value of a firm’s common stock.
+
+The problems with the general dividend-valuation model are that future dividends are uncertain and that some companies do not pay dividends at all. To make the model easier to apply, we make assumptions about the dividend payment patterns of firms. These assumptions allow the development of more manageable models, and they also conform with the actual dividend policies of many firms. Dividend patterns include the following: (1) Dividends are constant (zero growth), as computed in Learning by Doing Application 9.1. (2) Dividends have a constant-growth pattern (they grow forever at a constant rate g), as computed in Learning by Doing Application 9.2. (3) Dividends grow first at a nonconstant rate rather than at a constant rate, as shown in Exhibit 9.4.
+
+6 Explain why g must be less than R in the constant-growth dividend model.
+
+The constant-growth dividend model assumes that dividends will grow at a constant rate forever. With the constant-growth model, if g = R, the value of the denominator is zero and the value of the stock is infinite, which of course is nonsense. If g > R, the value of the denominator is negative, as is the value of the stock, which also does not make economic sense, since stockholders have limited liability. Thus, g must always be less than R (g < R).
+
+7 Explain how valuing preferred stock with a stated maturity differs from valuing preferred stock with no maturity, and calculate the price of a share of preferred stock under both conditions.
+
+When preferred stock has a stated maturity, financial analysts value it as they value any other fixed obligation—that is, as they value a bond. To value such preferred stock, we can use the bond valuation model from Chapter 8. Before using the model, we need to recognize that we will be using dividends in the place of coupon payments and that the stated (par) value of the preferred stock will replace the par value of the bond. In addition, while bond coupons are paid semiannually in the United States, preferred stock dividends are paid quarterly. When a preferred stock has no stated maturity, it becomes a perpetuity, with the dividend becoming a constant payment that goes on forever. We use the perpetuity valuation model represented by Equation 9.2 to price such stocks. The calculations appear in Learning by Doing Application 9.5 and the Ajax Air Lines example at the end of Section 9.7.
+
+Summary of Key Equations
+Equation	Description	Formula
+9.1	General dividend-valuation model	
+9.2	Zero-growth dividend model	
+9.3	Value of a dividend at time t with constant growth	
+9.4	Constant-growth dividend model	
+9.5	Value of a stock at time t when dividends grow at a constant rate	
+9.6	Mixed (supernormal) growth dividend model	
+9.7	Value of preferred stock with a fixed maturity	
+Self-Study Problems
+9.1 Ted McKay has just bought the common stock of Ryland Corp. Management of Ryland expects the company to grow at the following rates for the next three years: 30 percent, 25 percent, and 15 percent. Last year the company paid a dividend of $2.50. Assume a required rate of return of 10 percent. Compute the expected dividends for the next three years and also the present value of these dividends if dividends grow at the same rate as the company.
+
+
+
+9.2 Merriweather Manufacturing Company has been growing at a rate of 6 percent for the past two years, and the company’s CEO expects it to continue to grow at this rate for the next several years. The company paid a dividend of $1.20 last year. If your required rate of return is 14 percent, what is the maximum price that you would be willing to pay for this company’s stock?
+
+
+
+9.3 Clarion Corp. has been selling electrical supplies for the past 20 years. The company’s product line has changed very little in the past five years, and the company’s management does not expect to add any new items for the foreseeable future. Last year, the company paid a dividend of $4.45 to its common stockholders. The company is not expected to increase its dividends in the future. If your required rate of return for such firms is 13 percent, what is the current value of this company’s stock?
+
+
+
+9.4 Barrymore Infotech is a fast-growing communications company. The company did not pay a dividend last year and is not expected to do so for the next two years. Last year the company’s growth accelerated, and management expects to grow the business at a rate of 35 percent for the next five years before growth slows to a more stable rate of 7 percent. In the third year, management has forecasted a dividend payment of $1.10. Dividends will grow with the company thereafter. Calculate the value of the company’s stock at the end of its rapid growth period (i.e., at the end of five years). The required rate of return for such stocks is 17 percent. What is the current value of this stock?
+
+
+
+9.5 You are interested in buying the preferred stock of a bank that pays a dividend of $1.80 every quarter. If you discount such cash flows at 8 percent, what is the value of this stock?
+
+
+
+Discussion Questions
+9.1 Why can the market price of a stock differ from its true (intrinsic) value?
+
+9.2 Why are investors and managers concerned about stock market efficiency?
+
+9.3 Why are common stockholders considered to be more at risk than the holders of other types of securities?
+
+9.4 Under what conditions does it make sense to use the constant-growth dividend model to value a stock?
+
+9.5 What does it mean when a company has a very high P/E ratio? Give examples of industries in which you believe high P/E ratios are justified.
+
+9.6 Explain why preferred stock is considered to be a hybrid of equity and debt securities.
+
+9.7 Why is stock valuation more difficult than bond valuation?
+
+9.8 You are currently thinking about investing in a stock valued at $25.00 per share. The stock recently paid a dividend of $2.25, and its dividend is expected to grow at a rate of 5 percent for the foreseeable future. You normally require a return of 14 percent on stocks of similar risk. Is the stock overpriced, underpriced, or correctly priced?
+
+9.9 Stock A and Stock B are both priced at $50 per share. Stock A has a P/E ratio of 17, while Stock B has a P/E ratio of 24. Which is the more attractive investment, considering everything else to be the same, and why?
+
+9.10 Facebook does not pay dividends. How can it have a positive stock price?
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+9.1 Stock market index: What is a stock market index?
+
+9.2 Stock market index: What is the Dow Jones Industrial Average?
+
+9.3 Stock market index: What does NASDAQ stand for? What is NASDAQ?
+
+9.4 Dividend yield: What is a dividend yield? What does it tell us?
+
+9.5 Present value of dividends: Fresno Corp. is a fast-growing company whose management expects it to grow at a rate of 30 percent over the next two years and then to slow to a growth rate of 18 percent for the following three years. If the last dividend paid by the company was $2.15, estimate the dividends for the next five years. Compute the present value of these dividends if the required rate of return is 14 percent.
+
+9.6 Zero growth: Nynet, Inc., paid a dividend of $4.18 last year. The company’s management does not expect to increase its dividend in the foreseeable future. If the required rate of return is 18.5 percent, what is the current value of the stock?
+
+9.7 Zero growth: Knight Supply Corp. has not grown for the past several years, and management expects this lack of growth to continue. The firm last paid a dividend of $3.56. If you require a rate of return of 13 percent, what is the current value of this stock to you?
+
+9.8 Zero growth: Ron Santana is interested in buying the stock of First National Bank. While the bank’s management expects no growth in the near future, Ron is attracted by the dividend income. Last year the bank paid a dividend of $5.65. If Ron requires a return of 14 percent on such stocks, what is the maximum price he should be willing to pay for a share of the bank’s stock?
+
+9.9 Zero growth: The current stock price of Largent, Inc., is $44.72. If the required rate of return is 19 percent, what is the dividend paid by this firm if the dividend is not expected to grow in the future?
+
+9.10 Constant growth: Moriband Corp. paid a dividend of $2.15 yesterday. The company’s dividend is expected to grow at a steady rate of 5 percent for the foreseeable future. If investors in stocks of companies like Moriband require a rate of return of 15 percent, what should be the market price of Moriband stock?
+
+9.11 Constant growth: Nyeil, Inc., is a consumer products firm that is growing at a constant rate of 6.5 percent. The firm’s last dividend, which was just paid, was $3.36. If the required rate of return is 18 percent, what is the market value of this stock if dividends grow at the same rate as the firm?
+
+9.12 Constant growth: Reco Corp. is expected to pay a dividend of $2.25 next year. The forecast for the stock price a year from now is $37.50. If the required rate of return is 14 percent, what is the current stock price? Assume constant growth.
+
+9.13 Constant growth: Proxicam, Inc., is expected to grow at a constant rate of 7 percent. If the company’s next dividend, which will be paid in a year, is $1.15 and its current stock price is $22.35, what is the required rate of return on this stock?
+
+9.14 Preferred stock valuation: X-Centric Energy Company has issued perpetual preferred stock with a stated (par) value of $100 and a dividend of 4.5 percent. If the required rate of return is 8.25 percent, what is the stock’s current market price?
+
+9.15 Preferred stock valuation: The First Bank of Flagstaff has issued perpetual preferred stock with a $100 par value. The bank pays a quarterly dividend of $1.65 on this stock. What is the current price of this preferred stock given a required rate of return of 11.6 percent?
+
+9.16 Preferred stock valuation: The preferred stock of Axim Corp. is currently selling at $47.13. If the required rate of return is 12.2 percent, what is the dividend paid by this stock?
+
+9.17 Preferred stock valuation: Each quarter, Sirkota, Inc., pays a dividend on its perpetual preferred stock. Today the stock is selling at $63.37. If the required rate of return for such stocks is 15.5 percent, what is the quarterly dividend paid by Sirkota?
+
+Intermediate
+9.18 Constant growth: Kay Williams is interested in purchasing the common stock of Reckers, Inc., which is currently priced at $37.45. The company is expected to pay a dividend of $2.58 next year and to increase its dividend at a constant rate of 7 percent.
+
+What should the market value of the stock be if the required rate of return is 14 percent?
+Is this a good buy? Why or why not?
+9.19 Constant growth: The required rate of return is 23 percent. Ninex Corp. has just paid a dividend of $3.12 and is expected to increase its dividend at a constant rate of 5 percent. What is the expected price of the stock three years from now?
+
+9.20 Constant growth: Jenny Banks is interested in buying the stock of Fervan, Inc., which is increasing its dividends at a constant rate of 6 percent. The firm recently paid a dividend of $2.65. The required rate of return is 16 percent. What is the current value of this stock? What should be the price of the stock in Year 5?
+
+9.21 Constant growth: You own shares of Old World DVD Company and are interested in selling them. With so many people downloading music these days, sales, profits, and dividends at Old World have been declining 6 percent per year. The firm just paid a dividend of $1.15 per share. The required rate of return for a stock this risky is 15 percent. If dividends are expected to decline at 6 percent per year, what is a share of the stock worth today?
+
+9.22 Nonconstant growth: You own a company that competes with Old World DVD Company (in the previous problem). Instead of selling DVDs, however, your company sells music downloads online. Things are going well now, but you know that it is only a matter of time before someone comes up with a better way to distribute music. Your company just paid a $1.50 per share dividend, and you expect to increase the dividend 10 percent next year. However, you then expect your dividend growth rate to begin going down—to 5 percent the following year, 2 percent the next year, and −3 percent per year thereafter. Based on these estimates, what is the value of a share of your company’s stock? Assume that the required rate of return is 12 percent.
+
+9.23 Nonconstant growth: Tre-Bien, Inc., is a fast-growing technology company. Management projects rapid growth of 30 percent for the next two years, then a growth rate of 17 percent for the following two years. After that, a constant growth rate of 8 percent is expected. The firm expects to pay its first dividend of $2.45 a year from now. If dividends will grow at the same rate as the firm and the required rate of return on stocks with similar risk is 22 percent, what is the current value of the stock?
+
+9.24 Nonconstant growth: Management of ProCor, a biotech firm, forecasted the following growth rates for the next three years: 35 percent, 28 percent, and 22 percent. Management then expects the company to grow at a constant rate of 9 percent forever. The company paid a dividend of $1.75 last week. If the required rate of return is 20 percent, what is the value of this stock?
+
+9.25 Nonconstant growth: Revarop, Inc., is a fast-growth company that is expected to grow at a rate of 23 percent for the next four years. It is then expected to grow at a constant rate of 6 percent. Revarop’s first dividend, of $4.25, will be paid in Year 3. If the required rate of return is 17 percent, what is the current value of the stock if dividends are expected to grow at the same rate as the company?
+
+9.26 Nonconstant growth: Quansi, Inc., management expects to pay no dividends for the next six years. It has projected a growth rate of 25 percent for the next seven years. After seven years, the firm will grow at a constant rate of 5 percent. Its first dividend, to be paid in Year 7, will be $3.25. If the required rate of return is 24 percent, what is the stock worth today?
+
+9.27 Nonconstant growth: Staggert Corp. will pay dividends of $5.00, $6.25, $4.75, and $3.00 in the next four years. Thereafter, management expects the dividend growth rate to be constant at 6 percent. If the required rate of return is 18.5 percent, what is the current value of the stock?
+
+9.28 Nonconstant growth: Diaz Corp. is expected to grow rapidly at a rate of 35 percent for the next seven years. The company’s first dividend, to be paid three years from now, will be $5. After seven years, the company (and the dividends it pays) will grow at a rate of 8.5 percent. What is the value of Diaz stock with a required rate of return of 14 percent?
+
+9.29 Nonconstant growth: Tin-Tin Waste Management, Inc., is growing rapidly. Dividends are expected to grow at rates of 30 percent, 35 percent, 25 percent, and 18 percent over the next four years. Thereafter, management expects dividends to grow at a constant rate of 7 percent. The stock is currently selling at $47.85, and the required rate of return is 16 percent. Compute the dividend for the current year (D0).
+
+Advanced
+9.30 Equation 9.4 shows the relation between a stock’s value and the dividend that is expected next year if dividends grow at a constant rate forever. If a firm pays all of its earnings as dividends, show how Equation 9.4 can be rearranged to calculate that firm’s P/E ratio. What does this tell us about the factors that determine a firm’s P/E ratio?
+
+9.31 Riker Departmental Stores management has forecasted a growth rate of 40 percent for the next two years, followed by growth rates of 25 percent and 20 percent for the following two years. It then expects growth to stabilize at a constant rate of 7.5 percent forever. The firm paid a dividend of $3.50 recently. If the required rate of return is 18 percent, what is the current value of Riker’s stock?
+
+9.32 Courtesy Bancorp issued perpetual preferred stock a few years ago. The bank pays an annual dividend of $4.27, and your required rate of return is 12.2 percent.
+
+What is the value of the stock given your required rate of return?
+Should you buy this stock if its current market price is $34.41? Explain.
+9.33 Rhea Kirby owns shares in Ryoko Corp. Currently, the market price of the stock is $36.34. Management expects dividends to grow at a constant rate of 6 percent for the foreseeable future. Its last dividend was $3.25. Rhea’s required rate of return for such stocks is 16 percent. She wants to find out whether she should sell her shares or add to her holdings.
+
+What is the value of this stock?
+Based on your answer to part a, should Rhea buy additional shares in Ryoko Corp? Why or why not?
+9.34 Perry, Inc., paid a dividend of $2.50 yesterday. You are interested in investing in this company, which has forecasted a constant growth rate of 7 percent for its dividends, forever. The required rate of return is 18 percent.
+
+Compute the expected dividends D1, D2, D3, and D4.
+Compute the present value of these four dividends.
+What is the expected value of the stock four years from now (P4)?
+What is the value of the stock today based on the answers to parts b and c?
+Use the equation for constant growth (Equation 9.4) to compute the value of the stock today.
+9.35 Zweite Pharma is a fast-growing drug company. Management forecasts that in the next three years, the company’s dividend growth rates will be 30 percent, 28 percent, and 24 percent, respectively. Last week it paid a dividend of $1.67. After three years, management expects dividend growth to stabilize at a rate of 8 percent. The required rate of return is 14 percent.
+
+Compute the dividends for each of the next three years, and calculate their present value.
+Calculate the price of the stock at the end of Year 3, when the firm settles to a constant growth rate.
+What is the current price of the stock?
+9.36 Triton Inc., is expected to grow at a rate of 22 percent for the next five years and then settle to a constant growth rate of 6 percent. The company recently paid a dividend of $2.35. The required rate of return is 15 percent.
+
+Find the present value of the dividends during the rapid-growth period if dividends grow at the same rate as the company.
+What is the value of the stock at the end of Year 5?
+What is the value of the stock today?
+9.37 Ceebros Builders is expanding very fast and is expected to grow at a rate of 25 percent for the next four years. The company recently paid a dividend of $3.60 but is not expected to pay any dividends for the next three years. In Year 4, management expects to pay a $5 dividend and thereafter to increase the dividend at a constant rate of 6 percent. The required rate of return on such stocks is 20 percent.
+
+Calculate the present value of the dividends during the fast-growth period.
+What is the value of the stock at the end of the fast-growth period (P4)?
+What is the value of the stock today?
+Would today’s stock value be affected by the length of time you intend to hold the stock?
+Sample Test Problems
+9.1 Which type of secondary market provides the most efficient market for financial securities?
+
+9.2 Is preferred stock a debt or an equity security?
+
+9.3 Burnes, Inc., is a mature firm that is growing at a constant rate of 5.5 percent per year. The last dividend that the firm paid was $1.50 per share. If dividends are expected to grow at the same rate as the firm and the required rate of return on Burnes’s stock is 12 percent, what is the market value of the company’s stock?
+
+9.4 Abacus Corporation will pay dividends of $2.25, $2.95, and $3.15 in the next three years. After three years, the dividends are expected to grow at a constant rate of 4 percent per year. If the required rate of return is 14.5 percent, what is the current value of the Abacus common stock?
+
+9.5 The preferred stock of Wellcare Inc. is currently trading at $137.50 per share. If the required rate of return is 8 percent and this stock has no maturity date, what is the quarterly dividend paid by this stock? What is the quarterly dividend if the stock will mature in one year and it has a par value of $140?
+
+Ethics Case
+Insider Trading: Have I Got a Stock Tip for You!
+Everyone would like to get a stock tip that will yield a huge return on a small investment. That’s human nature. But stock tips can be mixed blessings. Consider the following example: Dr. Sam Waksal developed a promising cancer drug called Erbitux. As the CEO of ImClone, Waksal was an entrepreneur as well as an immunologist. Waksal sold an interest in Erbitux to the pharmaceutical company Bristol Myers for $42 million.
+
+
+Martha Stewart leaves the U.S. District Court in Manhattan in 2004
+It was a Bristol Myers executive who informed Waksal that the Federal Drug Administration (FDA) was not going to approve the drug because there were insufficient data to determine its effectiveness; thus, new clinical trials were needed. Investors had expected approval, and once the FDA decision was made public, ImClone stock was certain to face a sharp decline in price. At least in the short term, some people were going to lose a lot of money.
+
+One of those people was, of course, Waksal himself. He had millions of shares of ImClone. So did his family. Waksal told his daughter and father to sell their shares. In addition, Waksal transferred 79,000 of his own shares to his daughter to sell. Waksal knew that it was illegal under federal law for him or his family members to trade on inside information. And in the end, all three were indicted and later convicted of violating federal security laws.
+
+Waksal was guilty of insider trading. As we pointed out in Chapter 1, insider trading results from information asymmetry, which arises when one party in a business transaction has information that is unavailable to the other parties in the transaction. To be legally actionable, insider trading must involve information that has not been publicly announced, as you might expect. In addition, the information must be material. Material means that the information will cause a significant change in the stock price—the price will go either up or down as a result of the event the information concerns. Examples of material corporate events include the introduction of a new product line, an acquisition, a divestiture, a key executive appointment, and the failure or success of a product under development.
+
+Martha Stewart Enters the Picture
+
+Waksal’s conviction is not the only part of this story. Waksal was friends with the celebrity Martha Stewart, who also owned ImClone stock. On the day before the negative FDA announcement, Stewart sold 4,000 shares of ImClone worth $230,000. Did Stewart sell her shares on the basis of inside information regarding the FDA decision? Stewart’s sale certainly looked suspicious, and the Securities and Exchange Commission (SEC) started an investigation and asked her to explain her sale. In her discussions with the SEC, Stewart did not admit to insider trading.
+
+Stewart claimed that she had a prearranged order in place to sell her ImClone stock when it dipped below $60 per share. The stock did dip below $60 the day before the FDA announcement. Federal prosecutors, however, alleged that she and her broker, Peter Bacanovic, had doctored stock transaction records to support her story. In the SEC indictment, it was clear that they did not believe her explanation.
+
+It is also interesting to note that Stewart is not alleged to have received a tip from Waksal himself. Indeed, she contacted Waksal only after the sale, when she called him to ask what was happening to the company. However, it is alleged that her broker, Bacanovic, received a tip that Waksal and his daughter had placed orders to sell shares of ImClone.
+
+Martha Stewart was eventually convicted in a criminal trial, but convicted of what? The most serious charges, which involved securities fraud and insider trading, were thrown out of court. She was convicted only of lying to investigators. However, Stewart was also charged in a civil suit, and in that suit the insider trading charge would have been allowed in court. After serving a jail term, Stewart eventually reached an agreement with the SEC to settle the insider trading accusations. Under the agreement, she had to pay $195,000, covering her gains from the trading and penalties, although she did not admit to any wrongdoing.
+
+Conclusions
+
+What can we conclude about insider trading? The ethical issues can be analyzed at two levels: At the institutional level, we can ask whether the insider trading laws are ethical. At the individual level, we can ask why a person would engage in this illegal behavior.
+
+Institutional Level. Fairness is the ethical basis of the insider trading laws. If the competitive system is to work, it must operate on an even playing field. If insiders have material financial information not available to the public, then the playing field is not level. Note what the SEC said in its press release: “It is fundamentally unfair for someone to have an edge on the market just because she has a stock broker who is willing to break the rules and give her an illegal tip. It’s worse still when the individual engaging in the insider trading is the Chairman and CEO of a public company.” However, not everyone is convinced by this argument. Using a utilitarian framework, others argue that persons acting on insider information bring information to the market more quickly and thus make the market more efficient for the benefit of all.
+
+Both sides have a point. One of the keystone propositions of efficient financial markets is that no participant should possess a significant unfair advantage over others. If you believe that the deck of cards is stacked against you and that some people who trade have access to inside information, you will collect your money and invest it elsewhere. Conversely, without inside information, there would be little reason for trading securities. Unless you know some information that affects securities’ prices that others do not know, why trade? Furthermore, how would information relevant to security prices be released to the market unless some traded on that information?
+
+The bottom line is that too much or too little inside information trading seems to be detrimental to financial markets. The critical question is how much inside information is optimal. There is no consensus among economists on an answer.
+
+Individual Level. At the individual level, we must evaluate the motivation of the inside traders. Waksal, for example, knew that insider trading was illegal. Why did he do it? In an interview on CBS’s 60 Minutes, Waksal admitted that he did not think that he would get caught. Investigation showed that Waksal had been guilty of a number of ethical lapses in his life. He had been dismissed from a number of academic and research positions for questionable conduct. Aristotle would say he had a weak character. If Stewart had not tried to obscure what she did and simply told the truth to investigators, most legal experts are convinced she would not have been convicted of anything.
+
+Discussion Questions
+Discuss whether it would be unethical to buy a stock based on some information you found in the trash that had been thrown away by mistake.
+Suppose you are the printer who has been given the job of preparing the official announcement of the FDA report. Can you use that information for personal gain? Why or why not?
+Some argue that insider trading brings information to the market more quickly and thus is morally acceptable on the grounds of efficiency. Do you agree with that argument? Why or why not?
+Sources: Press release from Securities and Exchange Commission, June 4, 2003; CNNMoney.com, money.cnn.com/2004/03/05/news/companies/martha_verdict; Landon Thomas, Jr., “The Return of Martha Stewart, the Civil Case.” New York Times, May 25, 2006, Section C, p. 1; and Landon Thomas, Jr., “Stewart Deal Resolves Stock Case,” New York Times, August 8, 2006, www.nytimes.com/2006/08/08/business/08martha.html.

@@ -1,0 +1,908 @@
+CHAPTER 5
+The Time Value of Money
+
+LEARNING OBJECTIVES
+
+Explain the concept of time value of money and why it is so important in the field of finance.
+Explain the concept of future value, including the meaning of the terms principal, simple interest, and compound interest, and use the future value formula to make business decisions.
+Explain the concept of present value and how it relates to future value, and use the present value formula to make business decisions.
+Discuss why the concept of compounding is not restricted to money, and use the future value formula to calculate growth rates.
+When you buy a new vehicle, whether its for a business or personal use, the decision of whether to pay cash or finance with debt can affect the price that you pay. For example, manufacturers often offer customers a choice between a cash rebate and low-cost financing. Both of these options will affect the ultimate cost of a vehicle for a buyer.
+
+In October 2020, Honda Motor Company offered special financing terms for its 2020 Accord sedan. Honda offered buyers the choice between (1) receiving $500 off a base (suggested retail) price of $24,770 if they paid cash and (2) receiving 1.99 percent financing on a 60-month loan for the base price of the car. If you had enough cash to buy the car outright and did not need the cash for other purposes, the decision of whether to pay cash or finance the purchase depends on the rate of return you could earn if you financed the car and invested the cash. On the one hand, if it was only possible to earn a 1 percent interest rate, you would be better off paying cash and taking the discount. On the other hand, if it was possible to earn a 5 percent rate, you would be better off financing the purchase and investing the money.
+
+As with most transactions, a crucial element in the analysis of the alternatives offered by Honda is the value of the expected cash flows. Because the cash flows to the two purchase alternatives take place in different time periods, they must be adjusted to account for the time value of money before they can be compared. You, as the buyer of the Accord, want to select the opportunity that results in the lowest value (price paid). This chapter and the next provide the knowledge and tools you need to make the correct decision. You will learn that whether you are dealing with a bank, in a boardroom, or at a car dealer, money has a time value—dollars today are worth more than dollars in the future—and you must account for this reality when making financial decisions.
+
+Chapter Preview
+Businesses routinely make decisions to invest in productive assets to earn income. Some assets, such as plant and equipment, are tangible, and other assets, such as patents and trademarks, are intangible. Regardless of the type of investment, a firm pays out money now in the hope that the value of the future cash inflows will exceed the cost of the asset. This process is what value creation is all about—buying productive assets that are worth more than they cost.
+
+The valuation models presented in this book will require you to compute the present and future values of cash flows. This chapter and the next one provide the tools for making these calculations. Chapter 5 explains how to value a single cash flow in different time periods, and Chapter 6 covers valuation of multiple cash flows over time. These two chapters are critical for your understanding of corporate finance.
+
+We begin this chapter with a discussion of the concept of time value of money. We then look at future value, which tells us how funds will grow if they are invested at a particular interest rate. Next, we discuss present value, which answers the question “What is the value today of cash payments that are to be received in the future?” We conclude the chapter with a discussion of several additional topics related to time value of money calculations.
+
+5.1 The Time Value of Money
+LEARNING OBJECTIVE
+
+Explain the concept of time value of money and why it is so important in the field of finance.
+In financial decision making, one basic problem managers face is determining the value of (or price to pay for) cash flows expected in the future. Why is this a problem? Consider as an example the popular Mega Millions lottery game.1 In Mega Millions, the jackpot continues to build up until some lucky person buys a winning ticket—the payouts for jackpot winning tickets often exceed $100 million.
+
+If you won $100 million, headlines would read “Lucky Student Wins $100 Million Jackpot!” Does this mean that your ticket is worth $100 million on the day you win? The answer is no. A Mega Millions jackpot is paid either as a series of 30 payments over 29 years or as a cash lump sum. If you win “$100 million” and choose to receive the series of payments, the 30 payments will total $100 million. If you choose the lump sum option, Mega Millions will pay you less than the stated value of $100 million. This amount was about $80 million in January 2020. Thus, the value, or market price, of a “$100 million” winning Mega Millions ticket was really about $80 million because of the time value of money and the timing of the 30 cash payments. An appropriate question to ask now is “What is the time value of money?”
+
+Consuming Today or Tomorrow
+The time value of money is based on the idea that people prefer to consume goods today rather than wait to consume similar goods in the future. Most people would prefer to have a large-screen TV today than to have one a year from now, for example. Money has a time value because a dollar in hand today is worth more than a dollar to be received in the future. This makes sense because if you had the dollar today, you could buy something with it—or, instead, you could invest it and earn interest. For example, if you had $100,000 and you could buy a one-year bank certificate of deposit paying 5 percent interest, you could earn $5,000 interest for the year. At the end of the year, you would have $105,000 ($100,000 + $5,000 = $105,000). The $100,000 today is worth $105,000 a year from today. If the interest rate was higher, you would have even more money at the end of the year.
+
+time value of money the difference in value between a dollar in hand today and a dollar promised in the future; a dollar today is worth more than a dollar in the future
+
+Based on this example, we can make several generalizations. First, the value of a dollar invested at a positive interest rate grows over time. Thus, the further in the future you receive a dollar, the less it is worth today. Second, the trade-off between money today and money at some future date depends in part on the rate of interest you can earn by investing. The higher the rate of interest, the more likely you will elect to invest your funds and forgo current consumption. Why? At the higher interest rate, your investment will earn more money.
+
+Building Intuition
+The Value of Money Changes with Time
+
+The term time value of money reflects the notion that people prefer to consume things today rather than at some time in the future. This makes a dollar in the future worth less than a dollar today. For this reason, people require compensation for deferring consumption.
+
+In the next two sections, we look at two views of time value—future value and present value. First, however, we describe time lines, which are pictorial aids to help solve future and present value problems.
+
+Time Lines as Aids to Problem Solving
+Time lines are an important tool for analyzing problems that involve cash flows over time. They provide an easy way to visualize the cash flows associated with investment decisions. A time line is a horizontal line that starts at time zero and shows cash flows as they occur over time. The term time zero is used to refer to the beginning of a transaction in time value of money problems. Time zero is often the current point in time (today).
+
+time zero the beginning of a transaction; often the current point in time
+
+Exhibit 5.1 shows the time line for a five-year investment opportunity and its cash flows. Here, as in most finance problems, cash flows are assumed to occur at the end of the period. The project involves a $10,000 initial investment (cash outflow), such as the purchase of a new machine, that is expected to generate cash inflows over a five-year period: $5,000 at the end of Year 1, $4,000 at the end of Year 2, $3,000 at the end of Year 3, $2,000 at the end of Year 4, and $1,000 at the end of Year 5. Because of the time value of money, it is critical that you identify not only the size of the cash flows but also their timing.
+
+If it is appropriate, the time line will also show the relevant interest rate for the problem. In Exhibit 5.1 this is shown as 5 percent. Also, note in Exhibit 5.1 that the initial cash flow of $10,000 is represented by a negative number. It is conventional that cash outflows from the firm, such as for the purchase of a new machine, are treated as negative values on a time line and that cash inflows to the firm, such as revenues earned, are treated as positive values. The −$10,000 therefore means that there is a cash outflow of $10,000 at time zero. As you will see, it makes no difference how you label cash inflows and outflows as long as you are consistent. That is, if all cash outflows are given a negative value, then all cash inflows must have a positive value. If the signs get mixed up—if some cash inflows are negative and some positive—you will get the wrong answer to any problem you are trying to solve.
+
+Financial Calculator
+We recommend that you purchase a financial calculator for this course. You can purchase an actual calculator, or one of many calculator emulator applications available for smart phones. A financial calculator will provide the computational tools to solve most problems in the book. A financial calculator is just an ordinary calculator that has preprogrammed future value and present value algorithms. To solve problems, all you have to do is press the proper keys. The instructions in this book are generally meant for Texas Instruments calculators, such as the TI BA II Plus. If you are using an HP, Sharp, or other calculator, consult the user’s manual for instructions.
+
+EXHIBIT 5.1 Five-Year Time Line for a $10,000 Investment Time lines help us to correctly identify the size and timing of cash flows—critical tasks in solving time value problems. This time line shows the cash flows generated over five years by a $10,000 investment where the relevant interest rate is 5 percent.
+
+
+It may sound as if the financial calculator will solve problems for you. It won’t. To get the correct answer you must first analyze the problem correctly and then identify the cash flows (size and timing), placing them correctly on a time line. Only then will you enter the correct inputs into the financial calculator.
+
+A calculator can help you eliminate computation errors and save you a great deal of time. However, it is important that you understand the calculations that the calculator is performing. For this reason we recommend when you first start using a financial calculator that you solve problems without using the calculator’s financial functions and then use the financial functions to check your answers.
+
+To help you master your financial calculator, throughout this chapter we provide hints on how to best use the calculator. We also recognize that some professors or students may want to solve problems using one of the popular spreadsheet applications. In this chapter and a number of other chapters, we provide solutions to several problems that lend themselves to spreadsheet analysis. In solving these problems, we used Microsoft Excel. We also provide spreadsheet solutions for additional problems on Wiley Course Resources. Since spreadsheets are commonly used in industry, you should make sure to learn how to use one of these programs early in your studies and become proficient with it before you graduate.
+
+Before You Go On
+Why is a dollar today worth more than a dollar one year from now?
+What is a time line, and why is it important in financial analysis?
+
+Take an online lesson on the time value of money from TeachMeFinance.com at www.teachmefinance.com/timevalueofmoney.html
+
+5.2 Future Value and Compounding
+LEARNING OBJECTIVE
+
+Explain the concept of future value, including the meaning of the terms principal, simple interest, and compound interest, and use the future value formula to make business decisions.
+The future value (FV) of an investment is what the investment will be worth after earning interest for one or more time periods. The process of converting the initial amount into a future value is called compounding. We will define this term more precisely later. First, though, we illustrate the concepts of future value and compounding with an example.
+
+future value (FV) the value of an investment after it earns interest for one or more periods
+
+Single-Period Investment
+Suppose you place $100 in a bank savings account that pays interest at 10 percent a year. How much money will you have in one year? Go ahead and make the calculation. Most people can intuitively arrive at the correct answer, $110, without the aid of a formula. Your calculation could have looked something like this:
+
+ 
+
+This approach computes the amount of interest earned ($100 × 0.10) and then adds it to the initial, or principal, amount ($100). Notice that when we solve the equation, we factor out the $100. Recall from algebra that if you have the equation y = c + (c × x), you can factor out the common term c and get y = c × (1 + x). By doing this in our future value calculation, we arrived at the term (1 + 0.10). This term can be stated more generally as (1 + i), where i is the interest rate. As you will see, this is a pivotal term in all time value of money calculations.
+
+Let’s use our intuitive calculation to generate a more general formula. First, we need to define the variables used to calculate the answer. In our example, $100 is the principal amount (P0), which is the amount of money deposited (invested) at the beginning of the transaction (time zero); the 10 percent is the simple interest rate (i); and the $110 is the future value (FV1) of the investment after one year. We can write the formula for a single-period investment as follows:
+
+ 
+
+Looking at the formula, we more easily see mathematically what is happening in our intuitive calculation. P0 is the principal amount invested at time zero. If you invest for one period at an interest rate of i, your investment, or principal, will grow by (1 + i) per dollar invested. The term (1 + i) is the future value interest factor—often called simply the future value factor—for a single period, such as one year. To test the equation, we plug in our values:
+
+ 
+
+Good, it works!
+
+Two-Period Investment
+We have determined that at the end of one year (one period), your $100 investment has grown to $110. Now let’s say you decide to leave this new principal amount (FV1) of $110 in the bank for another year earning 10 percent interest. How much money would you have at the end of the second year (FV2)? To arrive at the value for FV2, we multiply the new principal amount by the future value factor (1 + i). That is, FV2 = FV1 × (1 + i). Since FV1 = P0 × (1 + i), we can write this as:
+
+ 
+
+The future value of your $110 at the end of the second year (FV2) is as follows:
+
+ 
+
+Another way of thinking of a two-period investment is that it is two single-period investments back to back.
+
+Turning to Exhibit 5.2, we can see what is happening to your $100 investment over the two years we have already discussed and beyond. The future value of $121 at Year 2 consists of three parts. First is the initial principal of $100 (first row of column 2). Second is the $20 ($10 + $10 = $20) of simple interest earned at 10 percent for the first and second years (first and second rows of column 3). Third is the $1 interest earned during the second year (second row of column 4) on the $10 of interest from the first year ($10 × 0.10 = $1.00). This is called interest on interest. The total amount of interest earned is $21 ($10 + $11 = $21), which is shown in column 5 (first and second rows) and is called compound interest.
+
+EXHIBIT 5.2 Future Value of $100 at 10 Percent
+
+With compounding, interest earned on an investment is reinvested so that, in future periods, interest is earned on interest as well as on the principal amount. Here, interest on interest begins accruing in Year 2.
+
+ 	 	Interest Earned	 
+Year	Value at Beginning of Year	Simple Interest	 	Interest on Interest	 	Total (Compound) Interest	Value at End of Year
+(1)	(2)	(3)	 	(4)	 	(5)	(6)
+1	$100.00	$10.00	+	$0.00	=	$10.00	$110.00
+2	110.00	10.00	+	1.00	=	11.00	121.00
+3	121.00	10.00	+	2.10	=	12.10	133.10
+4	133.10	10.00	+	3.31	=	13.31	146.41
+5	146.41	10.00	+	4.64	=	14.64	161.05
+Five‐year total	$100.00	$50.00	+	$11.05	=	$61.05	$161.05
+We are now in a position to formally define some important terms already mentioned in our discussion. The principal is the amount of money on which interest is paid. In our example, the principal amount is $100. Simple interest is the amount of interest paid on the original principal amount. With simple interest, the interest earned each period is paid only on the original principal. In our example, the simple interest is $10 per year or $20 for the two years. Interest on interest is the interest earned on the reinvestment of previous interest payments. In our example, the interest on interest is $1 over the first two years. Compounding is the process by which interest earned on an investment is reinvested so that in future periods, interest is earned on the interest previously earned as well as the original principal. In other words, with compounding you are able to earn compound interest, which consists of both simple interest and interest on interest.
+
+principal the amount of money on which interest is paid
+
+simple interest interest earned on the original principal amount only
+
+interest on interest interest earned on interest that was earned in previous periods
+
+compounding the process by which interest earned on an investment is reinvested, so in future periods interest is earned on the interest as well as the original principal
+
+compound interest interest earned both on the original principal amount and on interest previously earned
+
+The Future Value Equation
+Let’s continue our bank example. Suppose you decide to leave your money in the bank for three years. Looking back at equations for a single-period and a two-period investment, you can probably guess that the equation for the future value of money invested for three years would be:
+
+
+With this pattern clearly established, we can see that the general equation to find the future value after any number of periods is as follows:
+
+
+which is often written as:
+
+(5.1)
+where:
+
+FVn	=	future value of investment at the end of period n
+PV	=	original principal (P0); this is often called the present value, or PV
+i	=	the rate of interest per period
+n	=	the number of periods; a period can be a year, a quarter, a month, a day, or some other unit of time
+(1 + i)n	=	the future value factor
+Let’s test our general equation. Suppose you leave your $100 invested in the bank savings account at 10 percent interest for five years. How much would you have in the bank at the end of five years? Applying Equation 5.1 yields the following:
+
+ 
+
+Exhibit 5.2 shows how the interest is earned on a year-by-year basis. Notice that the total compound interest earned over the five-year period is $61.05 (column 5) and that it is made up of two parts: (1) $50.00 of simple interest (column 3) and (2) $11.05 of interest on interest (column 4). Thus, the total compound interest can be expressed as follows:
+
+ 
+
+The simple interest earned is $100 × 0.10 = $10.00 per year, and thus the total simple interest for the five-year period is $50.00 (5 years × $10.00 = $50.00). The remaining balance of $11.05 ($61.05 − $50.00 = $11.05) comes from earning interest on interest.
+
+A helpful equation for calculating simple interest can be derived by using the future value equation for a single-period investment and solving for the term FV1 − P0:
+
+ 
+
+where SI is the simple interest earned. Thus, the calculation for simple interest is:2
+
+
+Exhibit 5.3 shows graphically how the compound interest in Exhibit 5.2 grows. Notice that the simple interest earned each year remains constant at $10 per year, but that the amount of interest on interest increases every year. The reason, of course, is that interest on interest increases with the cumulative interest that has been earned. As more and more interest is earned, the compounding of interest accelerates the growth of the interest on interest and therefore the total interest earned.
+
+EXHIBIT 5.3 How Compound Interest Grows on $100 at 10 Percent The amount of simple interest earned on $100 invested at 10 percent remains constant at $10 per year, but the amount of interest earned on interest increases each year. As more and more interest builds, the effect of compounding accelerates the growth of the total interest earned.
+
+
+EXHIBIT 5.4 Future Value of $1 for Different Periods and Interest Rates The higher the interest rate, the faster the value of an investment will grow, and the larger the amount of money that will accumulate over time. Because of compounding, the growth over time is not linear but exponential—the dollar increase in the future value is greater in each subsequent period.
+
+
+An interesting observation about Equation 5.1 is that the higher the interest rate, the faster the investment will grow. This fact can be seen in Exhibit 5.4, which shows the growth in the future value of $1.00 at different interest rates and for different time periods into the future. First, notice that the growth in the future value over time is exponential, not linear. The dollar value of the invested funds does not increase by the same dollar amount from year to year. It increases by a greater amount each year. In other words, the growth of the invested funds is accelerated by the compounding of interest. Second, the higher the interest rate, the more the monies accumulated for any time period. Looking at the right side of the exhibit, you can see the difference in total dollars accumulated if you invest a dollar for 10 years: At 5 percent, you will have $1.63; at 10 percent, you will have $2.59; at 15 percent, you will have $4.05; and at 20 percent, you will have $6.19. Finally, as you should expect, if you invest a dollar at 0 percent for 10 years, you will only have a dollar at the end of the 10 years.
+
+Using a Calculator to Compute the Future Value Factor
+To solve a future value problem, we need to know the future value factor, (1 + i)n. Fortunately, almost any calculator has a power key (the yx key) that we can use to make this computation. For example, to compute (1.08)10, we enter 1.08, press the yx key and enter 10, and press the = key. The number 2.159 should emerge. Give it a try with your calculator.
+
+Future Value Factor Tables
+Before calculators and spreadsheets became widely available, a financial analyst would typically use a future value factor table to obtain the factor for a future value calculation. Doing this reduced the necessary calculation to the simple multiplication of the present value by the future value factor—something that could easily be done by hand. A future value factor table, an example of which is provided in Table A-1 in Appendix A at the back of this book, provides future value factors for a range of interest rates and years. While such tables are no longer commonly used, you might find the one at the back of this book useful in checking some of the calculations that you do throughout this course.
+
+Applying the Future Value Formula
+Next, we will review a number of examples of future value problems to illustrate the typical types of problems you will encounter in business and in your personal life.
+
+The Power of Compounding
+
+Our first example illustrates the effects of compounding. Suppose you have an opportunity to make a $5,000 investment that pays 15 percent per year. How much money will you have at the end of 10 years? The time line for the investment opportunity is:
+
+
+where the $5,000 investment is a cash outflow and the future value you will receive in 10 years is a cash inflow.
+
+We can apply Equation 5.1 to find the future value of $5,000 invested for 10 years at 15 percent interest. We want to multiply the original principal amount (PV) times the appropriate future value factor for 10 years at 15 percent, which is (1 + 0.15)10; thus:
+
+ 
+
+Now let’s determine how much of the interest is from simple interest and how much is from interest on interest. The total compound interest earned is $15,227.79 ($20,227.79 − $5,000.00 = $15,227.79). The simple interest is the amount of interest paid on the original principal amount: SI = P0 × i = $5,000 × 0.15 = $750 per year, which over 10 years is $750 × 10 years = $7,500. The interest on interest must be the difference between the total compound interest earned and the simple interest: $15,227.79 − $7,500 = $7,727.79. Notice how quickly the value of an investment increases and how the reinvestment of interest earned impacts the total compound interest when the interest rate is high.
+
+LEARNING BY DOING APPLICATION 5.1
+The Power of Compounding
+
+Problem
+
+Your wealthy uncle passed away, and one of the assets he left to you was a savings account that your great-grandfather had set up 100 years ago. The account had a single deposit of $1,000 and paid 10 percent interest per year. How much money have you inherited, what is the total compound interest, and how much of the interest earned came from interest on interest?
+
+
+
+
+
+As Learning by Doing Application 5.1 indicates, the relative importance of interest earned on interest is especially great for long-term investments. For many people, retirement savings will be some of the longest investments they will make. As you might expect, interest earned on interest has a great impact on how much money people ultimately have for their retirement. For example, consider someone who inherits and invests $10,000 on her 25th birthday and earns 8 percent per year for the next 40 years. This investment will grow to:
+
+
+Building Intuition
+Compounding Drives Much of the Earnings on Long-Term Investments
+
+The earnings from compounding drive much of the return earned on a long-term investment. The reason is that the longer the investment period, the greater the proportion of total earnings from interest earned on interest. Interest earned on interest grows exponentially as the investment period increases.
+
+by the investor’s 65th birthday. In contrast, if the same individual waited until her 35th birthday to invest the $10,000, she would have only:
+
+
+when she turned 65.
+
+Of the $116,618.65 difference in these amounts, the difference in simple interest accounts for only $8,000 (10 years × $10,000 × 0.08 = $8,000). The remaining $108,618.65 is attributable to the difference in interest earned on interest. This example illustrates both the importance of compounding for investment returns and the importance of getting started early when saving for retirement. The sooner you start saving, the better off you will be when you retire.
+
+Compounding More Frequently Than Once a Year
+
+Interest can be compounded more frequently than once a year. In Equation 5.1, the term n represents the number of periods. These periods can be of any length. They can be a year, a quarter, a month, a week, or even a day. The shorter the period, the more frequently interest payments are compounded, and the larger the future value of $1 for a given time period. Equation 5.1 can be rewritten to explicitly recognize different compounding periods:
+
+(5.2)
+where m is the number of times per year that interest is compounded and n is the number of periods specified in years.
+
+Let’s say you invest $100 in a bank account that pays a 5 percent interest rate semiannually (2.5 percent twice a year) for two years. In other words, the annual rate quoted by the bank is 5 percent, but the bank calculates the interest it pays you based on a six-month rate of 2.5 percent. In this example there are four six-month periods, and the amount of principal and interest you would have at the end of the four periods would be:
+
+ 
+
+It is not necessary to memorize Equation 5.2; using Equation 5.1 will do fine. All you have to do is determine the interest paid per compounding period (i/m) and calculate the total number of compounding periods (m × n) as the exponent for the future value factor. For example, if the bank compounds interest quarterly, then both the interest rate and number of compounding periods must be expressed in quarterly terms: (i/4) and (4 × n).
+
+If the bank in the preceding example paid interest annually instead of semiannually, you would have:
+
+
+at the end of the two-year period. The difference between this amount and the $110.38 is due to the additional interest earned on interest when the compounding period is shorter and the interest payments are compounded more frequently.
+
+During the late 1960s, the effects of compounding periods became an issue in banking. At that time, the interest rates that banks and thrift institutions could pay on consumer savings accounts were limited by regulation. However, financial institutions discovered they could keep their rates within the legal limit and pay their customers additional interest by increasing the compounding frequency. Prior to this, banks and thrifts had paid interest on savings accounts quarterly. You can see the difference between quarterly and daily compounding in Learning by Doing Application 5.2.
+
+LEARNING BY DOING APPLICATION 5.2
+Changing the Compounding Period
+
+Problem
+
+Your grandmother has $10,000 she wants to put into a bank savings account for five years. The bank she is considering is within walking distance, pays 5 percent annual interest compounded quarterly (5 percent per year/4 quarters per year = 1.25 percent per quarter), and provides a free coffee bar and doughnuts in the morning. Another bank in town pays 5 percent interest compounded daily. Getting to this bank requires a bus trip, but your grandmother can ride free as a senior citizen. More important, though, this bank does not serve coffee and doughnuts. Which bank should your grandmother select?
+
+
+
+
+
+Continuous Compounding
+
+We can continue to divide the compounding interval into smaller and smaller time periods, such as minutes and seconds, until, at the extreme, we would compound continuously. In this case, m in Equation 5.2 would approach infinity (∞). The formula to compute the future value for continuous compounding (FV∞) is:
+
+(5.3)
+where e is the exponential function, which has a known mathematical value of about 2.71828, n is the number of periods specified in years, and i is the annual interest rate. Although the formula may look a little intimidating, it is really quite easy to apply. Look for a key on your calculator labeled ex. If you don’t have the key, you still can work the problem.
+
+Let’s go back to the example in Learning by Doing Application 5.2, in which your grandmother wants to put $10,000 in a savings account at a bank. How much money would she have at the end of five years if the bank paid 5 percent annual interest compounded continuously? To find out, we enter these values into Equation 5.3:
+
+ 
+If your calculator has an exponent key, all you have to do to calculate e0.25 is enter the number 0.25, then press the ex key, and the number 1.284025 should appear (depending on your calculator, you may have to press the equal [=] key for the answer to appear). Then multiply 1.284025 by $10,000, and you’re done! If your calculator does not have an exponent key, then you can calculate e0.25 by inputting the value of e (2.71828) and raising it to the 0.25 power using the yx key, as described earlier in this chapter.
+
+Let’s look at your grandmother’s $10,000 bank balance at the end of five years with several different compounding periods: yearly, quarterly, daily, and continuous:3
+
+(1)	(2)	(3)	(4)
+Compounding Period	Total Earnings	Compound Interest	Additional Interest
+Yearly	$12,762.82	$2,762.82	—
+Quarterly	$12,820.37	$2,820.37	$57.55 more than yearly compounding
+Daily	$12,840.03	$2,840.03	$19.66 more than quarterly compounding
+Continuous	$12,840.25	$2,840.25	$0.22 more than daily compounding
+Notice that your grandmother’s total earnings get larger as the frequency of compounding increases, as shown in column 2, but the earnings increase at a decreasing rate, as shown in column 4. The biggest gain comes when the compounding period goes from an annual interest payment to quarterly interest payments. The gain from daily compounding to continuous compounding is small on a modest savings balance such as your grandmother’s. Twenty-two cents over five years will not buy your grandmother a cup of coffee, let alone a doughnut. However, for businesses and governments with very large dollar balances at financial institutions, the difference in compounding periods can be substantial.
+
+DECISION MAKING EXAMPLE 5.1
+Which Bank Offers Depositors the Best Deal?
+
+Situation
+
+You have just received a bonus of $10,000 and are looking to deposit the money in a bank account for five years. You investigate the annual deposit rates of several banks and collect the following information:
+
+Bank	Compounding Frequency	Annual Rate
+A	Annually	5.00%
+B	Quarterly	5.00%
+C	Monthly	4.80%
+D	Daily	4.85%
+You understand that the more frequently interest is compounded in each year, the more you will have at the end of your five-year investment horizon. To determine in which bank you should deposit your money, you calculate how much money you will have at the end of five years at each bank. You apply Equation 5.2 and obtain the following results. Which bank should you choose?
+
+Bank	Investment Amount	Compounding Frequency	Annual Rate	Value after 5 Years
+A	$10,000	Annually	5.00%	$12,762.82
+B	$10,000	Quarterly	5.00%	$12,820.37
+C	$10,000	Monthly	4.80%	$12,706.41
+D	$10,000	Daily	4.85%	$12,744.11
+
+
+Decision Making Example 5.1 provides another illustration of how compounding period can affect investment choice.
+
+Calculator Tips for Future Value Problems
+As we have mentioned, all types of future value calculations can be done easily on a financial calculator. Here we discuss how to solve these problems, and we identify some potential problem areas to avoid.
+
+A financial calculator includes the following five basic keys for solving future value and present value problems:
+
+
+The keys represent the following inputs:
+
+N is the number of periods. The periods can be years, quarters, months, days, or some other unit of time.
+i is the interest rate per period, expressed as a percentage.
+PV is the present value or the original principal (P0).
+PMT is the amount of any recurring payment.4
+FV is the future value.
+Given any four of these inputs, the financial calculator will solve for the fifth. Note that the interest rate key i differs with different calculator brands: Texas Instruments uses the I/Y key; Hewlett-Packard an i, %i, or I/Y key; and Sharp the i key.
+
+For future value problems, we use only four of the five keys: N for the number of periods, i for the interest rate (or growth rate), PV for the present value (at time zero), and FV for the future value in n periods. The PMT key is not used, but, when working on a problem, you should always enter a zero for PMT to clear the register.
+
+To solve a future value problem, enter the known data into your calculator. For example, if you know that the number of periods is five, key in 5 and press the N key. Repeat the process for the remaining known values. Once you have entered all of the values you know, then press the key for the unknown quantity, and you have your answer. Note that with some calculators, including the TI BA II Plus, you get the answer by first pressing the key labeled CPT (compute).
+
+Let’s try a problem to see how this works. Suppose we invest $5,000 at 15 percent for 10 years. How much money will we have in 10 years? To solve the problem, we enter data on the keys as displayed in the following calculation and solve for FV. Note that the initial investment of $5,000 is a negative number because it represents a cash outflow. Use the +/− key to make a number negative.
+
+
+If you did not get the correct answer of $20,227.79, you may need to consult the instruction manual that came with your financial calculator. However, before you do that, you may want to look through Exhibit 5.5, which lists the most common problems with using financial calculators. Also, note again that PMT is entered as zero to clear the register.
+
+One advantage of using a financial calculator is that if you have values for any three of the four variables in Equation 5.1, you can solve for the remaining variable at the press of a button. Suppose that you have an opportunity to invest $5,000 in a bank and that the bank will pay you $20,227.79 at the end of 10 years. What interest rate does the bank pay? The time line for our situation is as follows:
+
+
+EXHIBIT 5.5 Tips for Using Financial Calculators
+
+Following these tips will help you avoid problems that sometimes arise in solving time value of money problems with a financial calculator.
+Use the Correct Compounding Period. Make sure that your calculator is set to compound one payment per period or per year. Because financial calculators are often used to compute monthly payments, some will default to monthly payments unless you indicate otherwise. You will need to consult your calculator’s instruction manual because procedures for changing settings vary by manufacturer. Most of the problems you will work in other chapters of this book will compound annually.
+
+Clear the Financial Register of the Calculator Before Starting. Be sure you clear the data from the financial register before starting to work a problem because most calculators retain information between calculations. Since the information may be retained even when the calculator is turned off, turning the calculator off and on will not solve this problem. Check your instruction manual for the correct procedure for clearing the financial register of your calculator.
+
+Ensure the Signs on Cash Outflows and Inflows Are Consistent. For certain types of calculations, you must input a negative (positive) sign for all cash outflows and a positive (negative) sign for all cash inflows. Otherwise, the calculator cannot make the computation, and the answer screen will display an error message, or the answer will be incorrect.
+
+Putting a Negative Sign on a Number. To create a number with a negative sign, enter the number first and then press the “change of sign key.” These keys are typically labeled “CHS” or “+/−”.
+
+Entering an Interest Rate as a Percentage. Most financial calculators require that interest rate data be entered in percentage form, not in decimal form. For example, enter 7.125 percent as 7.125 and not 0.07125. Unlike nonfinancial calculators, financial calculators assume that rates are stated as percentages.
+
+Rounding Off Numbers. Never round off any numbers until all your calculations are complete. If you round off numbers along the way, you can generate significant rounding errors.
+
+Adjusting the Decimal Setting. Most calculators are set to display two decimal places. You will find it convenient at times to display four or more decimal places when making financial calculations, especially when working with interest rates or present value factors. Again, consult your instruction manual.
+
+Having the mode correctly set to BEG or END. In finance, most problems that you solve will involve cash payments that occur at the end of each time period. Most calculators normally operate in this mode, which is usually designated as “END” mode. However, in some problems the cash payments occur at the beginning of each period. This setting is designated as the “BEG” mode. When your financial calculator was purchased, it was set in the END mode. Financial calculators allow you to switch between the END and BEG modes.
+
+We know the values for N (10 years), PV ($5,000), and FV ($20,227.79), so we can enter these values into our financial calculator:
+
+
+Press the interest rate (i) key, and 15.00 percent appears as the answer. Notice that the cash outflow ($5,000) was entered as a negative value and the cash inflow ($20,227.79) as a positive value. If both values were entered with the same sign, your financial calculator algorithm could not compute the equation, yielding an error message. Go ahead and try it.
+
+The following Using Excel Example illustrates the use of a computer spreadsheet to compute future values with different compounding rates.
+
+Using Excel
+Time Value of Money
+
+Spreadsheet applications are a popular method for setting up and solving finance and accounting problems. Throughout this book, we will show you how to structure and calculate some problems using Microsoft Excel. Spreadsheets are like your financial calculator but are especially efficient at doing repetitive calculations. For example, once the spreadsheet is set up, it will allow you to make computations using preprogrammed formulas. Thus, you can simply change any of the input cells, and the preset formula will automatically recalculate the answer based on the new input values. For this reason, we recommend that you use formulas whenever possible.
+
+We begin our spreadsheet examples with time value of money calculations. As with the financial calculator approach, there are five variables used in these calculations, and knowing any four of them will let you calculate the fifth one. Excel includes preset formulas for you to use. These are as follows:
+
+Solving for	Formula
+Present Value	= PV(RATE, NPER, PMT, FV)
+Future Value	= FV(RATE, NPER, PMT, PV)
+Discount Rate	= RATE(NPER, PMT, PV, FV)
+Payment	= PMT(RATE, NPER, PV, FV)
+Number of Periods	= NPER(RATE, PMT, PV, FV)
+To enter a formula, all you have to do is type in the equal sign, the abbreviated name of the variable you want to compute, and an open parenthesis, and Excel will automatically prompt you to enter the rest of the variables. Here is an example of what you would type to compute the future value:
+
+=
+FV
+(
+Here are a few important things to note when entering the formulas: (1) be consistent with signs for cash inflows and outflows; (2) enter the rate of return as a decimal number, not a percentage; and (3) enter the amount of an unknown payment as zero.
+
+To see how a problem is set up and how the calculations are made using a spreadsheet, let’s return to Learning by Doing Application 5.2.
+
+
+Before You Go On
+What is compounding, and how does it affect the future value of an investment?
+What is the difference between simple interest and compound interest?
+How does changing the compounding period affect the amount of interest earned on an investment?
+
+Bankrate.com has a savings calculator as well as some other useful calculation tools at: www.Bankrate.com/calculators/savings
+
+
+Moneychimp.com also provides a compound interest calculator at www.moneychimp.com/calculator/compound_interest_calculator.htm
+
+5.3 Present Value and Discounting
+LEARNING OBJECTIVE
+
+Explain the concept of present value and how it relates to future value, and use the present value formula to make business decisions.
+In our discussion of future value, we asked the question “If you put $100 in a bank savings account that pays 10 percent annual interest, how much money would you have in one year?” Another type of question that arises frequently in finance concerns present value. This question asks, “What is the value today of a cash flow promised in the future?” We’ll illustrate the present value concept with a simple example.
+
+Single-Period Investment
+Suppose that a rich uncle gives you a bank certificate of deposit (CD) that matures in one year and pays $110. The CD pays 10 percent interest annually and cannot be redeemed until maturity. Being a student, you need the money now and would like to sell the CD. What would be a fair price if you sold the CD today?
+
+From our earlier discussion, we know that if we invest $100 in a bank at 10 percent for one year, it will grow to a future value of $100 × (1 + 0.10) = $110. It seems reasonable to conclude that if a CD has an interest rate of 10 percent and will have a value of $110 a year from now, it is worth $100 today.
+
+More formally, to find the present value of a future cash flow, or its value today, we reverse the compounding process and divide the future value ($110) by the future value factor (1 + 0.10). The result is $110/(1 + 0.10) = $100, which is the same answer we derived from our intuitive calculation. If we write the calculations above as a formula, we have a one-period model for calculating the present value of a future cash flow:
+
+ 
+
+The numerical calculation for the present value (PV) from our one-period model follows:
+
+ 
+ 
+ 
+ 
+We have noted that while future value calculations involve compounding an amount forward into the future, present value calculations involve the reverse. That is, present value calculations involve determining the current value (or present value) of a future cash flow. The process of calculating the present value is called discounting, and the interest rate i is known as the discount rate. Accordingly, the present value (PV) can be thought of as the discounted value of a future amount. The present value is simply the current value of a future cash flow that has been discounted at the appropriate discount rate.
+
+discounting the process by which the present value of future cash flows is obtained
+
+discount rate the interest rate used in the discounting process to find the present value of future cash flows
+
+present value (PV) the current value of a future cash flow discounted at the appropriate discount rate
+
+Just as we have a future value factor, (1 + i), we also have a present value factor, which is more commonly called the discount factor. The discount factor, which is 1/(1 + i), is the reciprocal of the future value factor. This expression may not be obvious in the equation above, but note that we can write that equation in two ways:
+
+ 
+ 
+ 
+These equations represent the same calculation, but the discount factor is explicit in the second one.
+
+Multiple-Period Investment
+Now suppose your uncle gives you another 10 percent CD, but this CD matures in two years and pays $121 at maturity. Like the other CD, it cannot be redeemed until maturity. From the previous section, we know that if we invest $100 in a bank at 10 percent for two years, it will grow to a future value of $100 × (1 + 0.10)2 = $121. To calculate the present value, or today’s price, we divide the future value by the future value factor. If we write this as an equation, the result is a two-period model for computing the present value of a future cash flow:
+
+ 
+
+Plugging the data from our example into the equation yields:
+
+ 
+ 
+ 
+ 
+By now, you know the drill. We can extend the equation to a third year as:
+
+ 
+
+and so on for the fourth year and beyond.
+
+The Present Value Equation
+Given the pattern shown above, we can see that the general formula for the present value equation is:
+
+(5.4)
+ 
+where:
+
+PV	=	the value today (time zero) of a cash flow
+FVn	=	the future value at the end of period n
+i	=	the discount rate, which is the interest rate per period
+n	=	the number of periods, which can be years, quarters, months, days, or some other unit of time
+Note that Equation 5.4 can be written in slightly different ways, which we will sometimes do in this book. The first form, introduced earlier, separates out the discount factor, 1/(1 + i):5
+ 
+
+In the second form, DFn is the discount factor for the nth period: DFn = 1/(1 + i)n:
+
+
+Future and Present Value Equations Are the Same
+Equation 5.4 is just a restatement of the future value equation, Equation 5.1. That is, to get the future value (FVn) of funds invested for n years, we multiply the original investment by (1 + i)n. To find the present value of a future payment (PV), we divide FVn by (1 + i)n. Stated another way, we can start with the future value equation (Equation 5.1), FVn = PV × (1 + i)n, and then solve it for PV; the resulting equation is the present value equation (Equation 5.4), PV = FVn/(1 + i)n.
+
+EXHIBIT 5.6 Comparing Future Value and Present Value Calculations The future value and present value formulas are one and the same; the present value factor, 1/(1 + i)n, is just the reciprocal of the future value factor, (1 + i)n.
+
+
+Exhibit 5.6 illustrates the relation between the future value and present value calculations for $100 invested at 10 percent interest. You can see from the exhibit that present value and future value are just two sides of the same coin. The formula used to calculate the present value is really the same as the formula for future value, just rearranged.
+
+Applying the Present Value Formula
+Let’s work through some examples to see how the present value equation is used. Suppose you are interested in buying a new sports coupe a year from now. You estimate that the car will cost $40,000. If your local bank pays 5 percent interest on savings deposits, how much money will you need to save in order to buy the car as planned? The time line for the car purchase problem is as follows:
+
+
+Solving this problem involves a direct application of Equation 5.4. What we want to know is how much money you have to put in the bank today to have $40,000 a year from now to buy your car. To find out, we compute the present value of $40,000 using a 5 percent discount rate:
+
+ 
+ 
+ 
+ 
+If you put $38,095.24 in a bank savings account at 5 percent today, you will have the $40,000 to buy the car in one year.
+
+Since that’s a lot of money to come up with, your mother suggests that you leave the money in the bank for two years instead of one year. If you follow her advice, how much money do you need to invest? The time line is as follows:
+
+
+For a two-year waiting period, assuming the car price will stay the same, the calculation is:
+
+ 
+ 
+ 
+ 
+Given the time value of money, the result is exactly what we would expect. The present value of $40,000 two years out is lower than the present value of $40,000 one year out—$36,281.18 compared with $38,095.24. Thus, if you are willing to leave your money in the bank for two years instead of one, you can make a smaller initial investment to reach your goal.
+
+Now suppose your rich neighbor says that if you invest your money with her for one year, she will pay you 15 percent interest. The time line is:
+
+
+The calculation for the initial investment at this new rate is as follows:
+
+ 
+ 
+ 
+ 
+Thus, when the interest rate, or discount rate, is 15 percent, the present value of $40,000 to be received in a year’s time is $34,782.61, compared with $38,095.24 at a rate of 5 percent and a time of one year. Holding the number of periods constant, an increase in the discount rate decreases the present value of the future cash flow. This makes sense because when interest rates are higher, it is more valuable to have dollars in hand today to invest; thus, dollars in the future are worth less.
+
+Learning by Doing Application 5.3 shows another present valuation calculation.
+
+LEARNING BY DOING APPLICATION 5.3
+European Graduation Trip
+
+Problem
+
+Suppose you plan to take a vacation to Europe when you graduate from college in two years. If your savings account at the bank pays 6 percent, how much money do you need to set aside today to have $8,000 when you leave for Europe?
+
+
+
+
+
+The Relations Among Time, the Discount Rate, and Present Value
+From our discussion so far, we can see that (1) the farther in the future a dollar will be received, the less it is worth today, and (2) the higher the discount rate, the lower the present value of a dollar to be received in the future. Let’s look a bit more closely at these relations.
+
+Recall from Exhibit 5.4 that the future value of a dollar increases with time because of compounding. In contrast, the present value of a dollar becomes smaller the farther into the future that dollar is to be received. The reason is that the present value factor 1/(1 + i)n is the reciprocal of the future value factor (1 + i)n. Thus, the present value of $1 must become smaller the farther into the future that dollar is to be received.
+
+Exhibit 5.7 shows the present values of $1 for different time periods and discount rates. For example, the present value of $1 discounted at 5 percent for 10 years is 61 cents, at 10 percent it is 39 cents, and at 20 percent, 16 cents. Thus, the higher the discount rate, the lower the present value of $1 for a given time period. Exhibit 5.7 also shows that, just as with future value, the relation between the present value of $1 and time is not linear, but exponential. Finally, it is worth noting that if interest rates are zero, the present value of $1 is $1; that is, there is no time value of money. In this situation, $1,000 today has the same value as $1,000 a year from now or, for that matter, 10 years from now.
+
+Calculator Tips for Present Value Problems
+Calculating the discount factor (present value factor) on a calculator is similar to calculating the future value factor but requires an additional keystroke on most calculators because the discount factor, 1/(1 + i)n, is the reciprocal of the future value factor, (1 + i)n. The additional keystroke involves the use of the reciprocal key (1/x) to find the discount factor. For example, to compute 1/(1.08)10, first enter 1.08, press the yx key and enter 10, then press the equal (=) key. The number on the screen should be 2.159. This is the future value factor. It is a calculation you have made before. Now press the 1/x key, then the equal key, and you have the present value factor, 0.463!
+
+EXHIBIT 5.7 Present Value of $1 for Different Time Periods and Discount Rates The higher the discount rate, the lower the present value of $1 for a given time period. Just as with future value, the relation between the present value and time is not linear, but exponential.
+
+
+Calculating the present value (PV) on a financial calculator is the same as calculating the future value (FVn) except that you solve for PV rather than FVn. For example, what is the present value of $1,000 received 10 years from now at a 9 percent discount rate? To find the answer on your financial calculator, enter the following keystrokes:
+
+
+then solve for the present value (PV), which is −$422.41. Notice that the answer has a negative sign. As we discussed previously, the $1,000 represents an inflow, and the $442.41 represents an outflow.
+
+Note that, just as financial analysts used future value factor tables to help with calculations before calculators and spreadsheets became widely available, they also used present value (discount) factor tables. Table A-2 in Appendix A at the back of this book is an example of such a table.
+
+Decision Making Example 5.2 illustrates another application of the present value concept.
+
+Future Value Versus Present Value
+We can analyze financial decisions using either future value or present value techniques. Although the two techniques approach the decision differently, both yield the same result. Both techniques focus on the valuation of cash flows received over time. In corporate finance, future value problems typically measure the value of cash flows at the end of a project, whereas present value problems measure the value of cash flows at the start of a project (time zero).
+
+DECISION MAKING EXAMPLE 5.2
+Picking the Best Lottery Payoff Option
+
+Situation
+
+Congratulations! You have won the $1 million lottery grand prize. You have been presented with several payout alternatives, and you have to decide which one to accept. The alternatives are as follows:
+
+$1 million today
+$1.2 million lump sum in two years
+$1.5 million lump sum in five years
+$2 million lump sum in eight years
+You are intrigued by the choice of collecting the prize money today or receiving double the amount of money in the future. Which payout option should you choose?
+
+Your cousin, a financial advisor, advises you that over the long term you should be able to earn 10 percent on an investment portfolio. Based on that rate of return, you make the following calculations:
+
+Alternative	Future Value	Present Value
+Today	$1 million	$1 million
+2 years	$1.2 million	$991,736
+5 years	$1.5 million	$931,382
+8 years	$2 million	$933,015
+
+
+EXHIBIT 5.8 Future Value and Present Value Compared Compounding converts a present value into its future value, taking into account the time value of money. Discounting is just the reverse—it converts future cash flows into their present value.
+
+
+Exhibit 5.8 compares the $10,000 investment decision shown in Exhibit 5.1 in terms of future value and present value. When managers are making a decision about whether to accept a project, they must look at all of the cash flows associated with that project with reference to the same point in time. As Exhibit 5.8 shows, for most business decisions, that point is either the start (time zero) or the end of the project (in this example, Year 5).
+
+Before You Go On
+What is the present value, and when is it used?
+What is the discount rate? How does the discount rate differ from the interest rate in the future value equation?
+What is the relation between the present value factor and the future value factor?
+Explain why you would expect the discount factor to be smaller when the time to payment is longer.
+
+Marketwatch.com’s personal finance Web site provides a lot of useful information for day-to-day finance dealings at www.marketwatch.com/personal-finance?showsmscrim=true
+
+5.4 Additional Concepts and Applications
+LEARNING OBJECTIVE
+
+Discuss why the concept of compounding is not restricted to money, and use the future value formula to calculate growth rates.
+In this final section, we discuss several additional issues concerning present and future value, including how to find an unknown interest rate, the time required for an investment to grow by a certain amount, a rule of thumb for estimating the length of time it will take to “double your money,” and how to find the growth rates of various kinds of investments.
+
+Finding the Interest Rate
+In finance, some situations require you to determine the interest rate (or discount rate) for a given future cash flow. These situations typically arise when you want to determine the return on an investment. Consider a zero coupon bond, which is essentially a loan that pays no periodic interest. The issuer (the firm that borrows the money) makes a single payment when the bond matures (the loan is due) that includes repayment of the amount borrowed plus all of the interest. Needless to say, the issuer must prepare in advance to have the cash to pay the bondholders.
+
+Suppose a firm is planning to issue $10 million worth of zero coupon bonds with 20 years to maturity. The bonds are issued in denominations of $1,000 and are sold for $90 each. In other words, the investor buys a bond today for $90, and 20 years from now the firm pays the investor $1,000. If you bought one of these bonds, what would be your return on investment?
+
+
+To find the return, we need to solve Equation 5.1, the future value equation, for i, the interest, or discount, rate. The $90 you pay today is the PV (present value), the $1,000 you get in 20 years is the FV (future value), and n (number of periods) is 20 years. The calculation is as follows:
+
+ 
+ 
+ 
+The rate of return on your investment, compounded annually, is 12.79 percent. Using a financial calculator, we arrive at the following solution:
+
+
+Learning by Doing Application 5.4 illustrates another interest rate calculation.
+
+LEARNING BY DOING APPLICATION 5.4
+Interest Rate on a Loan
+
+Problem
+
+Greg and Joan Hubbard are getting ready to buy their first house. To help make the down payment, Greg’s aunt offers to lend them $15,000, which can be repaid in 10 years. If Greg and Joan borrow the money, they will have to repay Greg’s aunt the amount of $23,750. What rate of interest would Greg and Joan be paying on the 10-year loan?
+
+
+
+
+
+Finding How Many Periods It Takes an Investment to Grow to a Certain Amount
+Up to this point we have used variations of Equation 5.1:
+
+
+to calculate the future value of an investment (FVn), the present value of an investment (PV), and the interest rate necessary for an initial investment (the present value) to grow to a specific value (the future value) over a certain number of periods (i). Note that Equation 5.1 has a total of four variables. You may have noticed that in all of the previous calculations, we took advantage of the mathematical principle that if we know the values of three of these variables we can calculate the value of the fourth.
+
+The same principle allows us to calculate the number of periods (n) that it takes an investment to grow to a certain amount. This is a more complicated calculation than the calculations of the values of the other three variables, but it is an important one for you to know and understand.
+
+Suppose that you would like to purchase a new motorcycle to ride on dirt trails near campus. The motorcycle dealer will finance the bike that you are interested in if you make a down payment of $1,175. Right now you only have $1,000. If you can earn 5 percent by investing your money, how long will it take for your $1,000 to grow to $1,175?
+
+To find this length of time, we must solve Equation 5.1, the future value equation, for n.
+
+ 
+ 
+ 
+ 
+ 
+ 
+It will take 3.31 years for your investment to grow to $1,175. If you don’t want to wait this long to get your motorcycle, you cannot rely on your investment earnings alone. You will have to put aside some additional money.
+
+Note that because n is an exponent in the future value formula, we have to take the natural logarithm, ln(x), of both sides of the equation in the fourth line of the preceding calculations to compute the value of n directly. Your financial calculator should have a key that allows you to calculate natural logarithms. Just enter the value in the parentheses and then press the LN key.
+
+Using a financial calculator, we obtain the same solution.
+
+
+The Rule of 72
+People are fascinated by the possibility of doubling their money. For example, you have probably seen infomercials that tout speculative land and other investments, often claiming that some investors have doubled their money in a short period of time, such as four years. Before there were financial calculators, people used rules of thumb to approximate difficult present value calculations. One such rule is the Rule of 72, which was used to determine the approximate amount of time it takes to double the value of an investment. The Rule of 72 says that the time to double your money (TDM) approximately equals 72/i, where i is the rate of return expressed as a percentage. Thus:
+
+(5.5)
+ 
+Rule of 72 a rule proposing that the time required to double an amount of money (TDM) approximately equals 72/i, where i is the rate of return expressed as a percentage
+
+Applying the Rule of 72 to the preceding investment example suggests that if you double your money in four years, your annual rate of return will be 18 percent (i = 72/4 years = 18 percent).
+
+Let’s check the rule’s accuracy by applying the future value formula to the speculative land investment example. We are assuming that we will double our money in four years, so n = 4 years. We did not specify a present value or future value amount; however, doubling our money means that we will get back $2 (FV) for every $1 invested (PV). Using Equation 5.1 and solving for the interest rate (i), we find that i = 0.1892, or 18.92 percent.6
+
+That’s not bad for a simple rule of thumb: 18.92 percent versus 18 percent. Within limits, the Rule of 72 provides a quick method for determining approximately how long it will take to double an investment for a particular rate of return. The Rule of 72 is a linear approximation of a nonlinear function, and as such, the rule is fairly accurate for interest rates between 5 and 20 percent. Outside these limits, the rule is not very accurate.
+
+Compound Growth Rates
+The concept of compounding is not restricted to money. Any number that changes over time, such as the population of a city, changes at some compound growth rate. Compound growth occurs when the initial value of a number increases or decreases each period by the factor (1 + growth rate). As we go through the book, we will discuss many different types of interest rates, such as the discount rate on capital budgeting projects, the yield on a bond, and the internal rate of return on an investment. All of these interest rates can be thought of as growth rates (g) that relate future values to present values.
+
+When we refer to the compounding effect, we are really talking about what happens when the value of a number increases or decreases by (1 + growth rate)n. That is, the future value of a number after n periods will equal the initial value times (1 + growth rate)n. Does this sound familiar? We can also rewrite Equation 5.1 in a more general form as a compound growth rate formula, substituting g, the growth rate, for i, the interest rate:
+
+(5.6)
+where:
+
+FVn	=	future value of the economic factor, such as sales or population, at the end of period n
+PV	=	original amount or present value of the economic factor
+g	=	growth rate per period
+n	=	number of periods, which can be years, quarters, months, weeks, days, minutes, or some other unit of time
+Suppose, for example, that because of an advertising campaign, a firm’s sales increased from 20 million units in 2017 to more than 35 million units in 2020. What has been the average annual growth rate in unit sales? Here, the future value is 35 million, the present value is 20 million, and n is 3 since we are interested in the average annual growth rate over three years. The time line is:
+
+
+Applying Equation 5.6 and solving for the growth factor (g) yields:
+
+ 
+Thus, unit sales grew nearly 21 percent per year. More precisely, we could say that unit sales grew at an average annual growth rate, or compound annual growth rate (CAGR), of nearly 21 percent. If we use our financial calculator, we find the same answer:
+
+
+compound annual growth rate (CAGR) the average annual growth rate over a specified period of time
+
+Note that we enter 20 million as a negative number even though it is not a cash outflow. This is because one value must be negative when using a financial calculator. It makes no difference which number is negative and which is positive.
+
+Learning by Doing Application 5.5 and Learning by Doing Application 5.6 illustrate other growth rate calculations.
+
+LEARNING BY DOING APPLICATION 5.5
+The Growth Rate of the World’s Population
+
+Problem
+
+Hannah, an industrial relations major, is writing a term paper and needs an estimate of how fast the world population is growing. In her almanac, she finds that the world’s population was an estimated 7.4 billion people as of August, 2016. The United Nations estimates that the population will reach 11.2 billion people in August, 2100. Calculate the annual population growth rate implied by these numbers. At that growth rate, what will be the world’s population in August 2030?
+
+
+
+
+
+LEARNING BY DOING APPLICATION 5.6
+Calculating Projected Earnings
+
+Problem
+
+Disney’s net income in 2019 was $11.05 billion. Wall Street analysts expect Disney’s earnings to increase by 1.55 percent per year over the next three years. Using your financial calculator, determine what Disney’s earnings should be in three years.
+
+
+
+
+
+Concluding Comments
+This chapter has introduced the concept of time value of money and the basic principles of present value and future value. The table at the end of the chapter summarizes the key equations developed in the chapter. The equations for future value (Equation 5.1) and present value (Equation 5.4) are two of the most fundamental relations in finance and will be applied throughout the rest of this textbook.
+
+Before You Go On
+What is the difference between the interest rate (i) and the growth rate (g) in the future value equation?
+Summary of Learning Objectives
+1 Explain the concept of time value of money and why it is so important in the field of finance.
+
+The idea that money has a time value is one of the most fundamental concepts in the field of finance. The concept is based on the idea that most people prefer to consume goods today rather than wait to have similar goods in the future. Since money buys goods, they would rather have money today than in the future. Thus, a dollar today is worth more than a dollar received in the future. Another way of viewing the time value of money is that your money is worth more today than at some point in the future because, if you had the money now, you could invest it and earn interest. Thus, the time value of money is the opportunity cost of forgoing consumption today.
+
+Applications of the time value of money focus on the trade-off between current dollars and dollars received at some future date. This is an important element in financial decisions because most investment decisions require the comparison of cash invested today with the value of expected future cash inflows. Time value of money calculations facilitate such comparisons by accounting for both the magnitude and timing of cash flows. Investment opportunities are undertaken only when the value of future cash inflows exceeds the cost of the investment (the initial cash outflow).
+
+2 Explain the concept of future value, including the meaning of the terms principal, simple interest, and compound interest, and use the future value formula to make business decisions.
+
+The future value is what the investment will be worth after earning interest for one or more periods. The principal is the amount of the investment. Simple interest is the interest paid on the original investment; the amount of simple interest remains constant from period to period. Compound interest includes not only simple interest but also interest earned on the reinvestment of previously earned interest, the so-called interest earned on interest. For future value calculations, the higher the interest rate, the faster the investment will grow. The application of the future value formula in business decisions is presented in Section 5.2.
+
+3 Explain the concept of present value and how it relates to future value, and use the present value formula to make business decisions.
+
+The present value is the value today of a future cash flow. Computing the present value involves discounting future cash flows back to the present at an appropriate discount rate. The process of discounting cash flows adjusts the cash flows for the time value of money. Computationally, the present value factor is the reciprocal of the future value factor, or 1/(1 + i). The calculation and application of the present value formula in business decisions is presented in Section 5.3.
+
+4 Discuss why the concept of compounding is not restricted to money, and use the future value formula to calculate growth rates.
+
+Any number of changes that are observed over time in the physical and social sciences follow a compound growth rate pattern. The future value formula can be used in calculating these growth rates, as illustrated in Section 5.4.
+
+Summary of Key Equations
+Equation	Description	Formula
+5.1	Future value of an n-period investment	
+5.2	Future value with more frequent than annual compounding	
+5.3	Future value with continuous compounding	
+5.4	Present value of an n-period investment	
+ 
+5.5	Rule of 72	
+ 
+5.6	Future value with general growth rate	
+Self-Study Problems
+5.1 Amit Patel is planning to invest $10,000 in a bank certificate of deposit (CD) for five years. The CD will pay interest of 9 percent. What is the future value of Amit’s investment?
+
+
+
+5.2 Megan Gaumer expects to need $50,000 for a down payment on a house in six years. How much would she have to invest today in an account paying 7.25 percent in order to have $50,000 in six years?
+
+
+
+5.3 Kelly Martin has $10,000 that she can deposit into a savings account for five years. Bank A compounds interest annually, Bank B twice a year, and Bank C quarterly. Each bank has a quoted annual interest rate of 4 percent. What account balance would Kelly have at the end of the fifth year if she left all the interest paid on the deposit in each bank?
+
+
+
+5.4 You have an opportunity to invest $2,500 today and receive $3,000 in three years. What would be the annual return on your investment if you accepted this opportunity?
+
+
+
+5.5 Emily Smith deposits $1,200 in her bank today.
+
+If the bank pays 4 percent interest per year without compounding, how much simple interest will she have earned and how much money will she have at the end of five years?
+How much money will she have in five years if the bank pays compound interest with annual compounding?
+How much of the earnings in part b will be interest on interest?
+
+
+Discussion Questions
+5.1 Explain what is meant by the phrase “a dollar today is worth more than a dollar tomorrow.”
+
+5.2 Explain the importance of a time line.
+
+5.3 What are the two factors to be considered in time value of money?
+
+5.4 Explain the difference between future value and present value.
+
+5.5 Explain the difference between compounding and discounting.
+
+5.6 Explain how compound interest differs from simple interest.
+
+5.7 If you were given a choice between investing in a savings account that paid quarterly interest and one that paid monthly interest, which one should you choose if they both offered the same quoted annual interest rate, and why?
+
+5.8 Compound growth is exponential over time. Explain.
+
+5.9 What is the Rule of 72?
+
+5.10 You are planning to take a spring break trip to Cancun your senior year. The trip is exactly two years away, but you want to be prepared and have enough money when the time comes. Explain how you would determine the amount of money you will have to save today in order to pay for the trip.
+
+Questions and Problems
+ Excel templates and resources available in Wiley Course Resources.
+
+Basic
+5.1 Future value: Chuck Tomkovick is planning to invest $25,000 today in a mutual fund that will provide a return of 8 percent each year. What will the value of the investment be in 10 years?
+
+5.2 Future value: Ted Rogers is investing $7,500 in a bank CD that pays a 6 percent annual interest rate. How much will the CD be worth at the end of five years?
+
+5.3 Future value: Your aunt is planning to invest in a bank CD that will pay 7.5 percent interest semiannually. If she has $5,000 to invest, how much will she have at the end of four years?
+
+5.4 Future value: Kate Eden received a graduation present of $2,000 that she is planning on investing in a mutual fund that earns 8.5 percent each year. How much money will she have in three years?
+
+5.5 Future value: Your bank pays 5 percent annual interest compounded semiannually on your savings account. You don’t expect to add to the current balance of $2,700 over the next four years. How much money can you expect to have at the end of this period?
+
+5.6 Future value: Your birthday is next week and instead of other presents, your parents promised to give you $1,000 in cash. Since you have a part-time job and, thus, don’t need the cash immediately, you decide to invest the money in a bank CD that pays 5.2 percent, compounded quarterly, for the next two years. How much money can you expect to earn in this period of time?
+
+5.7 Multiple compounding periods: Find the future value of a five-year $100,000 investment that pays 8.75 percent and that has the following compounding periods:
+
+Quarterly.
+Monthly.
+Daily.
+Continuous.
+5.8 Growth rates: Carson Kelly, a catcher for the Arizona Diamondbacks, hit 18 home runs in 2019. If his home-run-hitting ability is expected to grow by 12 percent every year for the following five years, how many home runs is he expected to hit in 2024?
+
+5.9 Present value: Roy Gross is considering an investment that pays 7.6 percent, compounded annually. How much will he have to invest today so that the investment will be worth $25,000 in six years?
+
+5.10 Present value: Maria Addai has been offered a future payment of $750 two years from now. If she can earn an annual rate of 6.5 percent, compounded daily, on her investment, what should she pay for this investment today?
+
+5.11 Present value: Your brother has asked you for a loan and has promised to pay you $7,750 at the end of three years. If you normally invest to earn 6 percent per year, how much will you be willing to lend to your brother if you view this purely as a financial transaction (i.e., you don’t give your brother a special deal)?
+
+5.12 Present value: Tracy Chapman is saving to buy a house in five years. She plans to put 20 percent down at that time, and she believes that she will need $35,000 for the down payment. If Tracy can invest in a fund that pays 9.25 percent annual interest, compounded quarterly, how much will she have to invest today to have enough money for the down payment? When calculating by hand round to four decimal places. If you are using the financial calculator, round to two decimal places.
+
+5.13 Present value: You want to buy a zero coupon bond that will have a value of $1,000 at the end of seven years. If the appropriate discount rate is 4.5 percent annually, how much should you pay for the bond today?
+
+5.14 Present value: Elizabeth Sweeney wants to accumulate $12,000 by the end of 12 years. If the annual interest rate is 7 percent and interest compounds semiannually, how much will she have to invest today to achieve her goal?
+
+5.15 Interest rate: You are in need of cash and turn to your uncle, who has offered to lend you some money. You decide to borrow $1,300 and agree to pay back $1,500 in two years. Alternatively, you could borrow from your bank, which is charging 6.5 percent interest annually. Should you borrow from your uncle or the bank?
+
+5.16 Number of periods: You invest $150 in a mutual fund today that pays 9 percent interest annually. How long will it take to double your money?
+
+Intermediate
+5.17 Future value: Your finance textbook sold 53,250 copies in its first year. The publishing company expects the sales to grow at a rate of 20 percent each year for the next three years and by 10 percent in the fourth year. Calculate the total number of copies that the publisher expects to sell in Years 3 and 4. Draw a time line to show the sales level for each of the next four years.
+
+5.18 Future value: CelebNav, Inc., had sales last year of $700,000, and the analysts are predicting strong future performance for the start-up, with sales growing 20 percent a year for the next three years. After that, the sales should grow 11 percent per year for two years, at which time the owners are planning to sell the company. What are the projected sales for the last year before the sale?
+
+5.19 Future value: You decide to take advantage of the current online dating craze and start your own dating app. You know that you have 450 people who will sign up immediately and, through careful marketing research and analysis, determine that membership can grow by 27 percent in the first two years, 22 percent in Year 3, and 18 percent in Year 4. How many members do you expect to have at the end of four years?
+
+5.20 Multiple compounding periods: Find the future value of an investment of $2,500 made today for the following rates and periods:
+
+6.25 percent compounded semiannually for 12 years.
+7.63 percent compounded quarterly for 6 years.
+8.9 percent compounded monthly for 10 years.
+10 percent compounded daily for 3 years.
+8 percent compounded continuously for 2 years.
+5.21 Multiple compounding periods: Find the present value of $3,500 under each of the following rates and periods:
+
+8.9 percent compounded monthly for five years.
+6.6 percent compounded quarterly for eight years.
+4.3 percent compounded daily for four years.
+5.7 percent compounded continuously for three years.
+5.22 Multiple compounding periods: Samantha plans to invest some money so that she has $5,500 at the end of three years. Determine how much should she invest today given the following choices:
+
+4.2 percent compounded daily.
+4.9 percent compounded monthly.
+5.2 percent compounded quarterly.
+5.4 percent compounded annually.
+5.23 Time to grow: Zephyr Sales Company has sales of $1.125 million. If the company’s management expects sales to grow 6.5 percent annually, how long will it be before sales double? Use a financial calculator to solve this problem.
+
+5.24 Time to grow: You are going to deposit $850 in a bank CD today, and you will withdraw the money only once the balance is $1,000. If the bank pays 5 percent interest, how long will it take for the balance to reach $1,000?
+
+5.25 Time to grow: Neon Lights Company is a private company with sales of $1.3 million a year. Management wants to take the company public but has to wait until the sales reach $2 million. If sales are expected to grow 12 percent annually, when is the earliest that Neon Lights will go public?
+
+5.26 Time to grow: You have just inherited $550,000. You plan to save this money and continue to live off the money that you are earning in your current job. If you can invest at an interest rate of 4.6 percent annually, how long will it be before your inheritance is worth $1 million?
+
+5.27 Growth rate: Xenix Corp had sales of $353,866 in 2017. If management expects its sales to be $476,450 in three years, what is the annual rate at which the company’s sales are expected to grow?
+
+5.28 Growth rate: Infosys Technologies, Inc., reported net income of $419 million this year. Analysts expect the company’s earnings to be $1.468 billion in five years. What is the expected annual growth rate in the company’s earnings?
+
+5.29 Present value: Caroline Weslin needs to decide whether to accept a bonus of $1,820 today or wait two years and receive $2,100 then. She can invest at 6 percent. What should she do?
+
+5.30 Present value: Congress and the president have decided to increase the federal tax rate in an effort to reduce the budget deficit. Suppose that Caroline Weslin, from problem 5.29, will pay 35 percent of her bonus to the federal government for taxes if she accepts the bonus today and 40 percent if she receives her bonus in two years. Will the increase in tax rates affect her decision?
+
+Advanced
+5.31 You have $2,500 that you want to invest in your classmate’s start-up business. You believe the business idea to be great and expect to get $3,700 back at the end of three years. If all goes according to plan, what will the annual return on your investment be?
+
+5.32 Patrick Seeley has $2,400 to invest. His brother approached him with an investment opportunity that could double his money in four years. What annual interest rate would the investment have to yield in order for Patrick’s brother to deliver on his promise?
+
+5.33 You have $12,000 in cash. You can deposit it today in a mutual fund earning 8.2 percent compounded semiannually, or you can wait, enjoy some of it, and invest $11,000 in your brother’s business two years from today. Your brother is promising you an annual return of 10 percent on your investment, but you will receive zero return for the two years that you are waiting to invest with him. Assume that both investments have the same risk. Which investment will give you the largest amount 10 years from today?
+
+5.34 When you were born, your parents set up a bank account in your name with an initial investment of $5,000. You are turning 21 in a few days and will have access to all your funds. The account was earning 7.3 percent for the first seven years, but then the rates went down to 5.5 percent for six years. Your account then earned 8.2 percent three years in a row. Unfortunately, the next two years you earned only 4.6 percent. Finally, as the economy recovered, the return jumped to 7.6 percent for the last three years.
+
+How much money was in your account before the rates went down drastically at the end of Year 16?
+How much money is in your account now, at the end of Year 21?
+What would be the balance now if your parents had made another deposit of $1,200 at the end of Year 7?
+5.35 Joe Burrow, the number 1 draft pick of the NFL Cincinnati Bengals in 2020, and his agent are evaluating three contract options. Each option offers a signing bonus and a series of payments over the life of the contract. Burrow uses a 10.25 percent rate of return to evaluate the contracts. Given the cash flows for each option—A, B, and C—as detailed in the table, which one should he choose?
+
+Year	Cash Flow Type	Option A	Option B	Option C
+0	Signing Bonus	$3,100,000	$4,000,000	$4,250,000
+1	Annual Salary	$ 650,000	$ 825,000	$ 550,000
+2	Annual Salary	$ 715,000	$ 850,000	$ 625,000
+3	Annual Salary	$ 822,250	$ 925,000	$ 800,000
+4	Annual Salary	$ 975,000	$1,250,000	$ 900,000
+5	Annual Salary	$1,100,000		$1,000,000
+6	Annual Salary	$1,250,000		
+5.36 Surmec, Inc., reported sales of $2.1 million last year. The company’s primary business is the manufacture of nuts and bolts. Since this is a mature industry, analysts are confident that sales will grow at a steady rate of 7 percent per year. The company’s net income equals 23 percent of sales. Management would like to buy a new fleet of trucks but can only do so once the net income reaches $620,000 a year. At the end of what year will Surmec be able to buy the trucks? What will sales and net income be in that year?
+
+5.37 You will be graduating in two years and are thinking about your future. You know that you will want to buy a house five years after you graduate and that you will want to put down $60,000. As of right now, you have $8,000 in your savings account. You are also fairly certain that once you graduate, you can work in the family business and earn $32,000 a year, with a 5 percent raise every year. You plan to live with your parents for the first two years after graduation, which will enable you to minimize your expenses and put away $10,000 each year. The next three years, you will have to live on your own, as your younger sister will be graduating from college and has already announced her plan to move back into the family house. Thus, you will be able to save only 13 percent of your annual salary. Assume that you will be able to earn 7.2 percent on the savings from your salary. At what interest rate will you need to invest the current savings account balance in order to achieve your goal? Hint: Draw a time line that shows all the cash flows for years 0 through 7. Remember, you want to buy a house seven years from now and your first salary will be in Year 3.
+
+5.38 Both Amy and Lauren just accepted new jobs and received $5,000 signing bonuses. Both women expect to work for 40 years until retirement, and both have set up retirement accounts that they expect will earn 8 percent interest annually on any money they deposit. Amy decides to deposit her signing bonus immediately and intends to keep the full amount invested for the next 40 years. Lauren intends to use the $5,000 to buy some new equipment for her home gym, but plans to make up this amount with a deposit of $5,000 in her retirement account 10 years from today.
+
+What will be the value of Amy’s deposit after 10 years?
+How much simple interest and interest earned on interest will Amy have earned after 10 years?
+When they retire in 40 years, how much will each of the $5,000 deposits made by Amy and Lauren be worth?
+5.39 You want to buy a house three years from today, and you are currently saving for the down payment. You plan to save $6,000 today, and you anticipate that you will make two more annual deposits that will increase by 4 percent per year thereafter. You expect to earn an 8 percent return on your investments. How much will you have for a down payment at the end of year 3?
+
+Sample Test Problems
+5.1 Holding all else constant, what will happen to the present value of a future amount if you increase the discount rate? What if you increase the number of years?
+
+5.2 Juliette Bronson anticipates needing $500,000 to start a business. If she can earn 4.5 percent compounded annually on her investments, how much money would Juliette have to invest today to have $500,000 in three years?
+
+5.3 Christopher Thompkins must decide how to invest $10,000 that he just inherited. What would be the future value of his investment after five years under each of the following three investment opportunities?
+
+6.28 percent compounded quarterly.
+6.20 percent compounded monthly.
+6.12 percent compounded continuously.
+5.4 Tina DeLeon deposited $2,500 today in an account paying 6 percent interest annually. What would be the simple interest earned on this investment in five years? With annual compounding, how much interest on interest would Tina earn in five years?
+
+5.5 The state of Texas had 50,948 active patient care physicians in 2016, and by 2020 this number had grown to 56,765. What was the compound annual growth rate (CAGR) in the number of active care physicians during this period?
+
+Notes
+1 Mega Millions is operated by a consortium of the state lottery commissions in 45 states plus the District of Columbia and the U.S. Virgin Islands. To play the game, a player pays two dollars and picks five numbers from 1 to 70 and one additional number from 1 to 25 (the Mega Ball number). Twice a week, a machine mixes numbered balls and randomly selects six balls (five white balls and one Mega Ball), which determines the winning combination for that drawing. There are various winning combinations, but a ticket that matches all six numbers, including the Mega Ball number, is the jackpot winner.
+2 Another helpful equation is the one that computes the total simple interest (TSI) over several periods: TSI = Number of periods × SI = Number of periods × (P0 × i).
+3 The future value calculation for annual compounding is FV5 = $10,000 × (1.05)5 = $12,762.82.
+4 The PMT key is used for annuity calculations, which we will discuss in Chapter 6.
+5 Equation 5.4 can also be written as PV = FVn × (1 + i)−n.
+6 Solve FVn = PV × (1 + i)n for i with FVn = $2, PV = $1, and n = 4 years.

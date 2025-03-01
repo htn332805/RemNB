@@ -1,0 +1,1091 @@
+page 211
+
+PART 2
+
+Stock Price Behavior and Market Efficiency
+
+
+
+“A market is the combined behavior of thousands of people responding to information, misinformation, and whim.”
+
+–Kenneth Chang
+
+“If you want to know what’s happening in the market, ask the market.”
+
+–Japanese proverb
+
+Learning Objectives
+
+You should strive to have your investment knowledge fully reflect:
+
+The foundations of market efficiency.
+
+The implications of the forms of market efficiency.
+
+Market efficiency and the performance of professional money managers.
+
+What stock market anomalies, bubbles, and crashes mean for market efficiency.
+
+Controversial, intriguing, and baffling issues are at the heart of this chapter. We begin by investigating a very basic question: Can you, as an investor, consistently “beat the market”? You may be surprised to learn that evidence strongly suggests that the answer to this question is probably not. We show that even professional money managers have trouble beating the market. At the end of the chapter, we describe some market phenomena that sound more like carnival sideshows, such as the “amazing January effect.”
+
+CFATM Exam Topics in This Chapter:
+
+Market efficiency (L1, S14)
+
+Introduction to equity portfolio management (L3, S13)
+
+Passive equity investing (L3, S13)
+
+Go to Connect for a guide that aligns your textbook with CFA readings.
+
+page 212
+
+7.1 Introduction to Market Efficiency
+Market efficiency is probably the most controversial and intriguing issue in investments. The debate that has raged around market efficiency for decades shows few signs of abating. The central issue in the market efficiency debate is: Can you (or anyone else) consistently “beat the market”?
+
+If the answer to this question is no, then the market is said to be efficient. The efficient markets hypothesis (EMH) asserts that, as a practical matter, organized financial markets like the New York Stock Exchange are efficient. The controversy surrounding the EMH centers on this assertion.
+
+efficient markets hypothesis (EMH)
+
+The hypothesis stating that, as a practical matter, investors cannot consistently “beat the market.”
+
+For more on market efficiency, go to
+e-m-h.org.
+
+In the sections that follow, we discuss many issues surrounding the EMH. You will notice that we focus our discussion on stock markets. The reason is that the debate on the EMH and the associated research have largely centered on these markets. However, the same principles and arguments would also apply to any organized financial market, such as the markets for government bonds, corporate bonds, commodity futures, and options.
+
+CHECK THIS
+
+
+
+7.1aWhat is the central issue in the market efficiency debate?
+
+7.1bHow would you state the efficient markets hypothesis?
+
+7.2 What Does “Beat the Market” Mean?
+Good question. As we discussed in Chapter 1, and elsewhere, there is a risk-return trade-off. On average, at least, we expect riskier investments to have larger returns than less risky assets. So, the fact that an investment appears to have a high or low return doesn’t tell us much. We need to know if the return was high or low relative to the risk involved.
+
+Instead, to determine if an investment is superior to another, we need to compare abnormal returns. The abnormal return on an investment is the difference between what that investment earned and what other investments with the same risk earned. A positive abnormal return means that an investment has outperformed other investments of the same risk. Thus, consistently earning a positive abnormal return is what we mean by “beating the market.”
+
+abnormal return
+
+A return in excess of that earned by other investments having the same risk.
+
+CHECK THIS
+
+
+
+7.2aWhat is an abnormal return?
+
+7.2bWhat does it mean to “beat the market”?
+
+7.3 Foundations of Market Efficiency
+Three economic forces can lead to market efficiency: (1) investor rationality, (2) independent deviations from rationality, and (3) arbitrage. These conditions are so powerful that any one of them can result in market efficiency. We discuss aspects of these conditions in detail throughout this chapter. Given their importance, however, we briefly introduce each of them here. In our discussions, we use the term “rational” to mean only that investors do not systematically overvalue or undervalue financial assets in light of the information that they possess.
+
+page 213
+
+If every investor always made perfectly rational investment decisions, earning an abnormal return would be difficult, if not impossible. The reason is simple: If everyone is fully rational, equivalent risk assets would all have the same expected returns. Put differently, no bargains would be available because relative prices would all be correct.
+
+Even if the investor rationality condition does not hold, however, the market could still be efficient. Suppose that many investors are irrational, and a company makes a relevant announcement about a new product. Some investors will be overly optimistic, some will be overly pessimistic, but the net effect might be that these investors cancel each other out. In a sense, the irrationality is noise that is diversified away. As a result, the market could still be efficient (or nearly efficient). What is important here is that irrational investors don’t all (or mostly all) have similar beliefs. Even under this condition, called “independent deviations from rationality,” the market might still be efficient.
+
+Let us now think of a market with many irrational traders and further suppose that their collective irrationality does not balance out. In this case, observed market prices can be too high or too low relative to their risk. Now suppose there are some well-capitalized, intelligent, and rational investors. This group of traders would see these high or low market prices as a profit opportunity and engage in arbitrage—buying relatively inexpensive stocks and selling relatively expensive stocks.
+
+If these rational arbitrage traders dominate irrational traders, the market will still be efficient. We sometimes hear the expression “Market efficiency doesn’t require that everybody be rational, just that somebody is.” In our next section, we look more closely at market efficiency and discuss several different forms.
+
+CHECK THIS
+
+
+
+7.3aWhat three economic conditions cause market efficiency?
+
+7.3bHow would well-capitalized, intelligent, and rational investors profit from market inefficiency?
+
+7.4 Forms of Market Efficiency
+Now that we have a little more precise notion of what beating the market means, we can be a little more precise about market efficiency. A market is efficient with respect to some particular information if that information is not useful in earning a positive abnormal return. Notice the emphasis we place on “with respect to some particular information.”
+
+For example, it seems unlikely that knowledge of Dwight Howard’s free-throw shooting percentage (low) would be of any use in beating the market. If so, we would say that the market is efficient with respect to the information in Dwight’s free-throw percentage. On the other hand, if you have prior knowledge concerning impending takeover offers, you could most definitely use that information to earn a positive abnormal return. Thus, the market is not efficient with regard to this information. We hasten to add that such information is probably “insider” information, and insider trading is generally, though not always, illegal (in the United States, at least). As we discuss later in the chapter, using insider information illegally might well earn you a stay in a jail cell and a stiff financial penalty.
+
+Thus, the question of whether a market is efficient is meaningful only relative to some type of information. Put differently, if you are asked whether a particular market is efficient, you should always reply, “With respect to what information?” Three general types of information are particularly interesting in this context, and it is traditional to define three forms of market efficiency: weak, semistrong, and strong.
+
+The particular sets of information used in the three forms of market efficiency are nested. That is, the information set in the strong form includes the information set in the semistrong form, which in turn includes the information set in the weak form. Figure 7.1 shows the relationships among the information sets.
+
+page 214
+
+Information Sets for Market Efficiency
+
+FIGURE 7.1
+
+
+A weak form efficient market is one in which the information reflected in past prices and volume figures is of no value in beating the market. As we discuss in our next chapter, one form of stock market analysis, called “technical analysis,” is based on using past prices and volume to predict future prices. If a market is weak form efficient, however, then technical analysis is of no use whatsoever. You might as well read tea leaves as stock price charts if the market is weak form efficient.
+
+In a semistrong form efficient market, publicly available information of any and all kinds is of no use in beating the market. If a market is semistrong form efficient, then the fundamental analysis techniques we described in a previous chapter are useless. Also, notice that past prices and volume data are publicly available information, so if a market is semistrong form efficient, it is also weak form efficient.
+
+The implications of semistrong form efficiency are, at a minimum, semistaggering. What it literally means is that nothing in the library, for example, is of any value in earning a positive abnormal return. How about a firm’s financial statements? Useless. How about information in the financial press? Worthless. This book? Sad to say, if the market is semistrong form efficient, nothing in this book will be of any use in beating the market. You can imagine that this form of market efficiency is hotly disputed.
+
+Finally, in a strong form efficient market, no information of any kind, public or private, is useful in beating the market. Notice that if a market is strong form efficient, it is necessarily weak and semistrong form efficient as well. Ignoring the issue of legality, possession of nonpublic inside information of many types clearly would enable you to earn essentially unlimited returns, so this case is not particularly interesting. Instead, the market efficiency debate focuses on the first two forms.
+
+CHECK THIS
+
+
+
+7.4aWhat role does information play in determining whether markets are efficient?
+
+7.4bWhat are the forms of market efficiency?
+
+7.5 Why Would a Market Be Efficient?
+The driving force toward market efficiency is competition and the profit motive. Investors constantly try to identify superior-performing investments. Using the most advanced information-processing tools available, investors and security analysts constantly appraise stock values, buying those stocks that look even slightly undervalued and selling those page 215that look even slightly overvalued. This constant appraisal and subsequent trading activity (as well as all the research behind these activities) act to ensure that prices never differ much from their efficient market price.
+
+To give you an idea of how strong the incentive is to identify superior investments, consider a large mutual fund such as the Fidelity Magellan Fund, which has about $15 billion under management (as of 2019). Suppose Fidelity was able through its research to improve the performance of this fund by 20 basis points for one year only (recall that a basis point is 1 percent of 1 percent, i.e., .0001). How much would this one-time 20 basis point improvement be worth?
+
+The answer is .0020 times $15 billion, or $30 million. Thus, Fidelity would be willing to spend up to $30 million to boost the performance of this one fund by as little as one-fifth of one percent for a single year only. As this example shows, even relatively small performance enhancements are worth tremendous amounts of money and thereby create the incentive to unearth relevant information and use it.
+
+Because of this incentive, the fundamental characteristic of an efficient market is that prices are correct in the sense that they fully reflect relevant information. If and when new information comes to light, prices may change, and they may change by a lot. It depends on the nature of the new information. However, in an efficient market, right here, right now, price is a consensus opinion of value, where that consensus is based on the information and intellect of hundreds of thousands, or even millions, of investors around the world.
+
+CHECK THIS
+
+
+
+7.5aWhat is the driving force behind market efficiency?
+
+7.5bWhy does this driving force work?
+
+7.6 Some Implications of Market Efficiency
+DOES OLD INFORMATION HELP PREDICT FUTURE STOCK PRICES?
+In its weakest form, the efficient markets hypothesis is the simple statement that stock prices fully reflect all past information. If this is true, this means that studying past price movements in the hopes of predicting future stock price movements is really a waste of time.
+
+In addition, a very subtle prediction is at work here. That is, no matter how often a particular stock price path has related to subsequent stock price changes in the past, there is no assurance that this relationship will occur again in the future.
+
+Researchers have used sophisticated statistical techniques to test whether past stock price movements are of any value in predicting future stock price movements. This turns out to be a surprisingly difficult question to answer clearly and without qualification.
+
+In short, although some researchers have been able to show that future returns are partly predictable from past returns, the predicted returns are not economically important, which means that predictability is not sufficient to earn an abnormal return. In addition, trading costs generally swamp attempts to build a profitable trading system on the basis of past returns. Researchers have been unable to provide evidence of a superior trading strategy that uses only past returns. That is, trading costs matter, and buy-and-hold strategies involving broad market indexes are extremely difficult to outperform. (If you know how to outperform a broad market index after accounting for trading costs, please share it with us.)
+
+RANDOM WALKS AND STOCK PRICES
+If you were to ask people you know whether stock market prices are predictable, many of them would say yes. To their surprise, and perhaps yours, it is very difficult to predict stock market prices. In fact, considerable research has shown that stock prices change through page 216time as if they are random. That is, stock price increases are about as likely as stock price decreases. When the path that a stock price follows shows no discernible pattern, then the stock’s price behavior is largely consistent with the notion of a random walk. A random walk is related to the weak form version of the efficient markets hypothesis because past knowledge of the stock price is not useful in predicting future stock prices.
+
+random walk
+
+No discernible pattern to the path that a stock price follows through time.
+
+Figure 7.2 illustrates daily price changes for Intel stock from January 14, 2018, through January 14, 2019. To qualify as a true random walk, Intel stock price changes would have to be truly independent from day to day. In addition, the distribution of possible stock prices each day must be the same. Even so, the graph of daily price changes for Intel stock is essentially what a random walk looks like. It is certainly hard to see any pattern in the daily price changes of Intel.
+
+Daily Price Change for Intel Common Stock, January 14, 2018, through January 14, 2019
+
+FIGURE 7.2
+
+
+HOW DO STOCK PRICES REACT TO NEW INFORMATION?
+In its semistrong form, the efficient markets hypothesis is the simple statement that stock prices fully reflect publicly available information. Stock prices change when traders buy and sell shares based on their view of the future prospects for the stock. The future prospects for the stock are influenced by unexpected news announcements. Examples of unexpected news announcements might include an increase or decrease in the dividend paid by a stock, an increase or decrease in the forecast for future earnings, lawsuits over company practices, or changes in the leadership team. As shown in Figure 7.3, prices could adjust to a positive news announcement in three basic ways.
+
+Efficient market reaction. The price instantaneously adjusts to, and fully reflects, new information. There is no tendency for subsequent increases or decreases to occur.
+
+Delayed reaction. The price partially adjusts to the new information, but days elapse before the price completely reflects new information.
+
+Overreaction and correction. The price overadjusts to the new information; it overshoots the appropriate new price but eventually falls to the appropriate price.
+
+Possible Market Price Reactions to a News Announcement
+
+FIGURE 7.3
+
+
+EVENT STUDIES
+On Friday, May 25, 2007, executives of Advanced Medical Optics, Inc. (EYE), recalled a contact lens solution called Complete MoisturePlus Multi-Purpose Solution. Advanced page 217Medical Optics took this voluntary action after the Centers for Disease Control and Prevention (CDC) found a link between the solution and a rare corneal infection. The medical name for this infection is Acanthamoeba keratitis, or AK for short.
+
+About two out of every million contact lens users in the United States each year are afflicted with AK. Although instances of AK are rare, AK is serious—this infection can lead to vision loss, and sometimes it can lead to the need for a cornea transplant. The CDC determined that the risk of developing AK is about seven times greater for consumers using the Complete MoisturePlus contact lens solution than for those consumers using other contact lens solutions.
+
+Executives at Advanced Medical Optics chose to recall their product even though they did not find evidence their manufacturing process introduced the parasite that can lead to AK. Further, company officials believed that the occurrences of AK were most likely the result of end users who failed to follow safe procedures when installing contact lenses.
+
+Nevertheless, the recall was announced following the market close on Friday, May 25, 2007. Following the long weekend, EYE shares opened on Tuesday, May 29, 2007, at $34.37, down $5.83 from the Friday close of $40.20. Figure 7.4 is a plot of the price per share of Advanced Medical Optics in the days surrounding this news announcement.
+
+The Price of Shares for Advanced Medical Optics, May 14, 2007, through June 15, 2007
+
+FIGURE 7.4
+
+
+Researchers use a technique known as an event study to test the effects of news announcements on stock prices. When researchers look for effects of news on stock prices, however, they must make sure that overall market news is accounted for in their analysis. The reason is simple. Suppose the whole market had fallen drastically on May 29, 2007. How would researchers be able to separate the overall market decline from the isolated news concerning Advanced Medical Optics?
+
+event study
+
+A research method designed to help study the effects of news on stock prices.
+
+To answer this question, researchers calculate abnormal returns. The equation to calculate an abnormal return is:
+
+
+The expected return can be calculated using a market index (like the NASDAQ 100 index or the S&P 500 index) or by using a long-term average return on the stock. As we discussed earlier in the chapter, this expected return should be based on assets that have a similar expected level of risk. If we use market returns, we must adjust these returns to reflect any differences in risk relative to the asset being evaluated.
+
+Researchers then align the abnormal return on a stock to the days relative to the news announcement. Usually, researchers assign the value of zero to the day a news announcement page 218is made. One day after the news announcement is assigned a value of +1, two days after the news announcement is assigned a value of +2, and so on. Similarly, one day before the news announcement is assigned a value of −1.
+
+According to the efficient markets hypothesis, the abnormal return today should relate only to information released on that day. Any previously released information should have no effect on abnormal returns because this information has been available to all traders. Also, the return today cannot be influenced by information that traders do not yet know.
+
+To evaluate abnormal returns, researchers usually accumulate them over some period. Figure 7.5 is a plot of the cumulative abnormal returns for Advanced Medical Optics beginning 40 days before the announcement. The first cumulative abnormal return, or CAR, is equal to the abnormal return on Day −40. The CAR on Day −39 is the sum of the first two page 219abnormal returns, the CAR on Day −38 is the sum of the first three, and so on. By examining CARs, we can see if there was an over- or underreaction to an announcement.
+
+Cumulative Abnormal Returns for Advanced Medical Optics, March 30, 2007, through July 25, 2007
+
+FIGURE 7.5
+
+
+As you can see in Figure 7.5, Advanced Medical’s cumulative abnormal return hovered around zero before the announcement. After the news was released, there was a large, sharp downward movement in the CAR. The stock price gyrated as additional news was released, but the overall pattern of cumulative abnormal returns is essentially what the efficient markets hypothesis would predict. That is, there is a band of cumulative abnormal returns, a sharp break in cumulative abnormal returns, and another band of cumulative abnormal returns.
+
+CHECK THIS
+
+
+
+7.6aHow is a random walk affiliated with the efficient markets hypothesis?
+
+7.6bWhat are the possible market price reactions to a news announcement?
+
+7.6cHow do researchers use event studies to examine the effects of news announcements on stock prices?
+
+7.7 Informed Traders and Insider Trading
+Recall that if a market is strong form efficient, no information of any kind, public or private, is useful in beating the market. However, inside information of many types clearly would enable you to earn essentially unlimited returns. This fact generates an interesting question: Should any of us be able to earn returns based on information that is not known to the public?
+
+In the United States (and in many other countries), making profits on nonpublic information is illegal. This ban is said to be necessary if investors are to have trust in U.S. stock markets. The U.S. Securities and Exchange Commission (SEC) is charged with enforcing laws concerning illegal trading activities. As a result, it is important for you to be able to distinguish between informed trading, insider trading, and legal insider trading.
+
+INFORMED TRADING
+When an investor makes a decision to buy or sell a stock based on publicly available information and analysis, this investor is said to be an informed trader. The information that an informed trader possesses might come from reading The Wall Street Journal, reading quarterly reports issued by a company, gathering financial information from the internet, talking to other traders, or a host of other sources.
+
+informed trader
+
+An investor who makes a buy or sell decision based on public information and analysis.
+
+INSIDER TRADING
+Some informed traders are also insider traders. When you hear the term insider trading, you most likely think that such activity is illegal. However, as you will see at the end of this section, not all insider trading is illegal.
+
+WHO IS AN INSIDER? For the purposes of defining illegal insider trading, an insider is someone who has material nonpublic information. Not only is such information not known to the public, but if it were known, it would impact the stock price. A person can be charged with insider trading when he or she acts on such information in an attempt to make a profit.
+
+material nonpublic information
+
+Any information that could reasonably be expected to affect the price of a security.
+
+Frequently, when an illegal insider trade occurs, there is a tipper and a tippee. The tipper is the person who has, on purpose, divulged material nonpublic information. The tippee is the person who has knowingly used such information in an attempt to make a profit. For example, a tipper could be a CEO who spills some inside information to a friend who does not work for the company. If the friend then knowingly uses this inside information to make a trade, this tippee is guilty of insider trading.
+
+Proving that a trader is a tippee is difficult for the SEC because keeping track of insider information flows and subsequent trades is difficult. For example, suppose a person makes a trade based on the advice of a stockbroker. Even if the broker based this advice on material page 220nonpublic information, the trader might not have been aware of the broker’s knowledge. The SEC must prove that the trader was, in fact, aware that the broker’s information was based on material nonpublic information.
+
+Sometimes, people accused of insider trading claim that they just “overheard” someone talking. Suppose, for example, you are at a restaurant and overhear a conversation between Bill Gates and his CFO concerning some potentially explosive news regarding Microsoft Corp. If you then go out and make a trade in an attempt to profit from what you overheard, you would be violating the law (even though the information was “innocently obtained”). When you take possession of material nonpublic information, you become an insider and are bound to obey insider trading laws. Note that in this case, Bill Gates and his CFO, although careless, are not necessarily in violation of insider trading laws.
+
+LEGAL INSIDER TRADING A company’s corporate insiders can make perfectly legal trades in the stock of their company. To do so, they must comply with the reporting rules made by the U.S. Securities and Exchange Commission. When they make a trade and report it to the SEC, these trades are reported to the public and are available on many investment websites. In addition, corporate insiders must declare that trades that they made were based on public information about the company, rather than “inside” information. Most public companies also have guidelines that must be followed. For example, companies commonly allow insiders to trade only during certain windows throughout the year, often sometime after earnings have been announced.
+
+To see recent insider trades for a company of your choice, check out the “Executive” tab of a stock quote at
+morningstar.com.
+
+IT’S NOT A GOOD THING: WHAT DID MARTHA DO? Martha Stewart became one of America’s most successful entrepreneurs by telling people how to entertain, cook, and decorate their homes. She built her superhomemaker personality into a far-flung international enterprise. In fact, her company, Martha Stewart Living Omnimedia, went public in 1999, raising $873 million in the initial public offering.
+
+Ms. Stewart was in the legal news because the U.S. Securities and Exchange Commission believed that she was told by her friend Sam Waksal, who founded a company called ImClone, that a cancer drug being developed by ImClone had been rejected by the Food and Drug Administration. This development was bad news for ImClone. Martha Stewart sold her 3,928 shares in ImClone on December 27, 2001. On that day, ImClone traded below $60 per share, a level that Ms. Stewart claimed triggered an existing stop-loss order. However, the SEC believed that Ms. Stewart illegally sold her shares because she had information concerning FDA rejection before it became public.
+
+The FDA rejection was announced after the market closed on Friday, December 28, 2001. This news was a huge blow to ImClone shares, which closed at about $46 per share on the following Monday (the first trading day after the information became public). Shares in ImClone subsequently fell to under $10 per share about six months later, in mid-2002. Ironically, shares of ImClone rallied to sell for more than $80 per share in mid-2004.
+
+In June 2003, Martha Stewart and her stockbroker, Peter Bacanovic, were indicted on nine federal counts. They both pleaded not guilty, and Ms. Stewart’s trial began in January 2004. Just days before the jury began to deliberate, however, Judge Miriam Cedarbaum dismissed the most serious charge—securities fraud. Ms. Stewart, however, was convicted on all four counts of obstructing justice and lying to investigators.
+
+Judge Cedarbaum fined Martha Stewart $30,000 and sentenced her to five months in prison, two years of probation, and five months of home confinement after her release. The fine was the maximum allowed under federal rules; the sentence was the minimum the judge could impose. Peter Bacanovic was fined $4,000 and sentenced to five months in prison and two years of probation.
+
+To summarize, Martha Stewart was accused, but not convicted, of insider trading. The same can be said of Phil Mickelson, who was recently investigated for insider trading in Dean Foods. Unlike Mickelson, however, Martha Stewart was also accused, and convicted, of obstructing justice and misleading investigators, leading to a short time in prison.
+
+Although her conviction barred her from taking on the duties of an executive officer, Martha still earned a hefty salary for other roles in her company. In fact, she earned about $5.5 million per year before Sequential Brands Group acquired her company in 2015.
+
+page 221
+
+CHECK THIS
+
+
+
+7.7aWhat makes a stock trader an informed trader?
+
+7.7bWhat traders are considered to be insiders?
+
+7.7cWhat is the difference between legal insider trading and illegal insider trading?
+
+7.8 How Efficient Are Markets?
+ARE FINANCIAL MARKETS EFFICIENT?
+Financial markets are one of the most extensively documented human endeavors. Colossal amounts of financial market data are collected and reported every day. These data, particularly stock market data, have been exhaustively analyzed to test market efficiency.
+
+You would think that with all this analysis going on, we would know whether markets are efficient, but really we don’t. Instead, what we seem to have, at least in the minds of many researchers, is a growing realization that beyond a point, we just can’t tell.
+
+For example, it is not difficult to program a computer to test trading strategies that are based solely on historic prices and volume figures. Many such strategies have been tested, and the bulk of the evidence indicates that such strategies are not useful.
+
+More generally, market efficiency is difficult to test for four basic reasons:
+
+The risk adjustment problem.
+
+The relevant information problem.
+
+The dumb luck problem.
+
+The data snooping problem.
+
+We briefly discuss each in turn.
+
+The first issue, the risk adjustment problem, is the easiest to understand. Earlier, we noted that beating the market means consistently earning a positive abnormal return. To determine whether an investment has a positive abnormal return, we have to adjust for its risk. As we discuss elsewhere in this book, the truth is that we are not even certain exactly what we mean by risk, much less how to measure it precisely and then adjust for it. Thus, what appears to be a positive abnormal return may be the result of a faulty risk adjustment procedure.
+
+The second issue, the relevant information problem, is even more troublesome. Remember that the concept of market efficiency is meaningful only relative to some particular information. As we look back in time and try to assess whether a particular market behavior was inefficient, we have to recognize that we cannot possibly know all the information that may have been underlying that market behavior.
+
+For example, suppose we see that 10 years ago the price of a stock shot up by 100 percent over a short period of time, and then subsequently collapsed. We dig through all the historical information we can find, but we can find no reason for this behavior. What can we conclude? Nothing, really. For all we know, an undocumented rumor existed of a takeover that never materialized, and relative to this information, the price behavior was perfectly efficient.
+
+In general, there is no way to tell whether we have all the relevant information. Without all the relevant information, we cannot tell if some observed price behavior is inefficient. Put differently, any price behavior, no matter how bizarre, might be efficient, and therefore explainable, with respect to some information.
+
+The third problem has to do with evaluating investors and money managers. One type of evidence frequently cited to prove that markets can be beaten is the enviable track record of certain legendary investors. A prime example is Warren Buffett, whose firm Berkshire Hathaway has compounded an annual return of over 20 percent per year since 1951. This compares to an approximate 10 percent return on the S&P 500 over the same period.
+
+The argument goes that the existence of a successful investor such as Warren Buffett proves market inefficiency. Is this correct? Maybe yes, maybe no. You may be familiar with the page 222following expression: “If you put an immortal monkey in front of a typewriter, this monkey will eventually produce Hamlet.” In a similar manner, suppose we have thousands of monkeys who are tasked with picking stocks for a portfolio. We would find that some of these monkeys would appear to be amazingly talented and rack up extraordinary gains. As you surely recognize, however, this is caused by random chance.
+
+Similarly, if we track the performance of thousands of money managers over some period of time, some managers will accumulate remarkable track records and a lot of publicity. Are they good or are they lucky? If we could track them for many decades, we might be able to tell, but for the most part, money managers are not around long enough for us to accumulate sufficient data. We discuss the performance of money managers as a group later in the chapter.
+
+Our final problem has to do with what is known as “data snooping.” Instead of monkeys at typewriters, think of what can happen if thousands of finance researchers with thousands of computers are all studying the same data and are looking for inefficiencies. Apparent patterns, or anomalies, will surely be found.
+
+In fact, researchers have discovered extremely simple patterns that, at least historically, have been both highly successful and very hard to explain. We discuss some of these later in the chapter. These discoveries raise another problem: ghosts in the data. If we look long enough and hard enough at any data, we are bound to find some apparent patterns by sheer chance. But are these patterns real? Only time will tell.
+
+Notwithstanding the four problems we have discussed, based on the last 30+ years of scientific research, three generalities about market efficiency seem in order. First, short-term stock price and market movements appear to be very difficult, or even impossible, to predict with any accuracy (at least with any objective method of which we are aware). Second, the market reacts quickly and sharply to new (i.e., unanticipated) information, and the vast majority of studies of the impact of new information find little or no evidence that the market underreacts or overreacts to new information in a way that can be profitably exploited. Third, if the stock market can be beaten, the way to do it is at least not obvious, so the implication is that the market is not grossly inefficient.
+
+SOME IMPLICATIONS OF MARKET EFFICIENCY
+To the extent that you think a market is efficient, there are some important investment implications. Going back to Chapter 2, we saw that the investment process can be viewed as having two parts: asset allocation and security selection. Even if all markets are efficient, asset allocation is still important because the way you divide your money among the various types of investments will strongly influence your overall risk-return relation.
+
+If markets are efficient, however, then security selection is less important. Market efficiency means you do not have to worry too much about overpaying or underpaying for any particular security. In fact, if markets are efficient, you would probably be better off buying a large basket of stocks and following a passive investment strategy. Your main goal would be to hold your costs to a minimum while maintaining a broadly diversified portfolio.
+
+In broader terms, if markets are efficient, then little role exists for professional money managers. You should not pay load fees to buy mutual fund shares, and you should shop for low management fees. You should not work with full-service brokers, and so on.
+
+Recent investor decisions echo this transition. Over the past decade, the proportion of investment dollars flowing to low-cost, passively managed funds has increased significantly. As of early 2019, passively managed funds represented about 48 percent of all managed assets. In fact, Bloomberg recently forecasted that by the end of 2019, passively managed investments will represent more than half of all fund investments.
+
+If markets are efficient, there is one other thing that you should not do: You should not try to time the market. Recall that market timing amounts to moving money in and out of the market based on your expectations of future market direction. By trying to time the market, all you will accomplish is to guarantee that you will, on average, underperform the market.
+
+In fact, market efficiency aside, market timing is hard to recommend. Historically, most of the gains earned in the stock market have tended to occur over relatively short periods of time. If you miss even a single one of these short market run-ups, you will likely never page 223catch up. Put differently, successful market timing requires phenomenal accuracy to be of any benefit, and anything less than that will, based on the historical record, result in underperforming the market.
+
+CHECK THIS
+
+
+
+7.8aWhat are the four basic reasons market efficiency is difficult to test?
+
+7.8bWhat are the implications to investors if markets are efficient?
+
+7.9 Market Efficiency and the Performance of Professional Money Managers
+Let’s have a stock market investment contest in which you are going to take on professional money managers. Of course, the professional money managers have at their disposal their skill, banks of computers, and scores of analysts to help pick their stocks. Does this sound like an unfair match? Well, it is—you have a terrific advantage!
+
+It’s true. You can become an expert investor by using the following investment strategy: Hold a broad-based market index. One such index that you can easily buy is a mutual fund called the Vanguard 500 Index Fund (there are other market index mutual funds, too). This low-fee mutual fund is designed to produce investment results that correspond to the price and yield performance of the S&P 500 index. The fund tracks the performance of the S&P 500 index by investing its assets in the stocks that make up the S&P 500 index. By the way, this fund is popular—as of February 2019, the Vanguard 500 Index Fund was one of the largest stock mutual funds in the United States, with over $430 billion in assets.
+
+As discussed in a previous chapter, a general equity mutual fund (GEF) is a pool of money invested in stocks that is overseen by a professional money manager. Figure 7.6 shows the growth in the number of actively managed GEFs in the United States from 1989 through 2018. The solid blue line shows the total number of funds that have existed for at least one year, while the solid red line shows the number of funds that have existed for at least 10 years.
+
+The Growth of Actively Managed Equity Funds, 1989–2018
+
+FIGURE 7.6
+
+
+Source: Author calculations.
+
+From Figure 7.6, you can see that it is difficult for professional money managers to keep their funds in existence for 10 years (if it were easy, there would not be much difference between the solid blue line and the solid red line). The figure also illustrates the growing impact of passive investing strategies. In particular, the number of GEFs grew quickly during the 1990s and early 2000s. Since 2008, however, the number of actively managed mutual funds has declined, mostly due to a shift to passive investments (e.g., index funds).
+
+Figure 7.6 also shows the number of these funds that beat the performance of the Vanguard 500 Index Fund. You can see that there is much more variation in the dashed blue line than in the dashed red line. What this means is that in any given year, it is hard to predict how many professional money managers will beat the Vanguard 500 Index Fund. But the low level and low variation of the dashed red line mean that the percentage of professional money managers who can beat the Vanguard 500 Index Fund over a 10-year investment period is low and stable. This lack of performance by active managers is a primary reason investors have shifted away from these higher-cost actively managed funds.
+
+Figures 7.7 and 7.8 are bar charts that show the percentage of managed equity funds that beat the Vanguard 500 Index Fund. Figure 7.7 uses return data for the previous year only, while Figure 7.8 uses return data for the previous 10 years. As you can see from Figure 7.7, in only 12 of the 30 years spanning 1989 through 2018 did more than half the professional money managers beat the Vanguard 500 Index Fund. The performance is almost as bad when it comes to 10-year investment periods (1989–1998 through 2009–2018). As shown in Figure 7.8, in only 11 of these 21 investment periods did more than half the professional money managers beat the Vanguard 500 Index Fund.
+
+Percentage of Managed Equity Funds Beating the Vanguard 500 Index Fund, One-Year Returns
+
+FIGURE 7.7
+
+
+Source: Author calculations.
+
+Percentage of Managed Equity Funds Beating the Vanguard 500 Index Fund, 10-Year Returns
+
+FIGURE 7.8
+
+
+Source: Author calculations.
+
+page 224
+
+Table 7.1 presents more evidence concerning the performance of professional money managers. Using data from 1989 through 2018, we divide this time period into 1-year investment periods, rolling 3-year investment periods, rolling 5-year investment periods, and rolling 10-year investment periods. Then, after we calculate the number of investment periods, we ask two questions: (1) What percentage of the time did half the professionally managed funds page 225beat the Vanguard 500 Index Fund? and (2) What percentage of the time did three-fourths of the professionally managed funds beat the Vanguard 500 Index Fund?
+
+The Performance of Professional Money Managers versus the Vanguard 500 Index Fund
+
+TABLE 7.1
+
+
+Source: Author calculations.
+
+As you see in Table 7.1, the performance of professional money managers is generally quite poor relative to the Vanguard 500 Index Fund.
+
+The figures and table in this section raise some difficult and uncomfortable questions for securities analysts and other investment professionals. If markets are inefficient, and tools like fundamental analysis are valuable, why don’t mutual fund managers do better? Why can’t mutual fund managers even beat a broad market index?
+
+The performance of professional money managers is especially troublesome when we consider the enormous resources at their disposal and the substantial survivorship bias that exists. The survivorship bias comes into being because managers and funds that do especially poorly disappear. If beating the market was possible, then this Darwinian process of elimination should lead to a situation in which the survivors, as a group, are capable of doing so. The fact that professional money managers seem to lack the ability to outperform a broad market index is consistent with the notion that, overall, the equity market is efficient.
+
+So if the market is this efficient, what is the role for portfolio managers? The role of a portfolio manager in an efficient market is to build a portfolio to meet the specific needs of individual investors. You have learned that a basic principle of investing is to hold a well-diversified portfolio. However, exactly which diversified portfolio is optimal varies by investor.
+
+page 226
+
+Some factors that influence portfolio choice include the investor’s age, tax bracket, risk aversion, and even employer. Employer? Sure. Suppose you work for Starbucks and part of your compensation is stock options. Like many companies, Starbucks offers its employees the opportunity to purchase company stock at less than market value. Of course, you would take advantage of this opportunity. You can imagine that you could wind up with a lot of Starbucks stock in your portfolio, which means you are not holding a diversified portfolio. The role of your portfolio manager would be to help you add other assets to your portfolio so that it is once again well diversified.
+
+CHECK THIS
+
+
+
+7.9aHow well do professional money managers perform, on average, against a broad market index?
+
+7.9bWhat are the implications of this performance for investors?
+
+7.10 Anomalies
+In this section, we discuss some aspects of stock price behavior that are both baffling and potentially hard to reconcile with market efficiency. Researchers call these market anomalies. Keep three facts in mind as you read about market anomalies. First, anomalies are generally “small,” in that they do not involve many dollars relative to the overall size of the stock market. Second, many anomalies are fleeting and tend to disappear when discovered. Finally, anomalies are not easily used as the basis for a trading strategy because transaction costs render many of them unprofitable.
+
+THE DAY-OF-THE-WEEK EFFECT
+In the stock market, which day of the week has, on average, the biggest return? The question might strike you as silly; after all, what would make one day different from any other on average? On further reflection, though, you might realize that one day is different: Monday.
+
+When we calculate a daily return for the stock market, we take the percentage change in closing prices from one trading day to the next. For every day except Monday, this is a 24-hour period. However, because the markets are closed on weekends, the average return on Monday is based on the percentage change from Friday’s close to Monday’s close, a 72-hour period. Thus, the average Monday return would be computed over a three-day period, not just a one-day period. Because of this longer time period, we would predict that Monday should have the highest return; in fact, Monday’s average return should be three times as large.
+
+Given this reasoning, it may come as a surprise to you to learn that Monday has the lowest average return. In fact, Monday is the only day with a negative average return. This is the day-of-the-week effect. Table 7.2 shows the average return by day of the week for the S&P 500 for the period January 1950 through December 2018.
+
+day-of-the-week effect
+
+The tendency for Monday to have a negative average return.
+
+Average Daily S&P 500 Returns, by Day of the Week (Dividends Included)
+
+TABLE 7.2
+
+
+Source: Author calculations.
+
+page 227
+
+In the 69 years spanning 1950 to 2018, the negative return on Monday is significant, both in a statistical sense and in an economic sense. This day-of-the-week effect does not appear to be a fluke; it exists in other markets, such as the bond market, and it exists in stock markets outside the United States. It has defied explanation since it was first documented in the early 1980s. As you can see in Table 7.2, the effect is strong in the 1950–1980 time period. The effect, however, is not apparent in the 1981–2018 time period, suggesting that it might have disappeared.
+
+Still, critics of the efficient markets hypothesis point to this strange return behavior as evidence of market inefficiency. While this return behavior is odd, exploiting it presents a problem. That is, how this return behavior can be used to earn a positive abnormal return is not clear. This murkiness is especially true in the 1981–2018 time period (i.e., in the period following the time when the effect was first documented). So whether this strange return behavior points to inefficiency is hard to say.
+
+THE AMAZING JANUARY EFFECT
+We saw in Chapter 1 that returns from small-cap common stocks have significantly outdistanced the returns from large-cap common stocks. Beginning in the early 1980s, researchers reported that the difference was too large even to be explained by differences in risk. In other words, small stocks appeared to earn positive abnormal returns.
+
+Further research found that, in fact, a substantial percentage of the return on small stocks has historically occurred early in the month of January, particularly in the few days surrounding the turn of the year. Even closer research documents that this peculiar phenomenon is more pronounced for stocks that have experienced significant declines in value, or “losers.”
+
+Thus, we have the famous “small-stock-in-January-especially-around-the-turn-of-the-year-for-losers effect,” or SSIJEATTOTYFLE for short. For obvious reasons, this phenomenon is usually just dubbed the January effect. To give you an idea of how big this effect is, we first plotted average returns by month going back to 1926 for large stocks in Figure 7.9A. As shown, the average return per month has been just under 1 percent (.89 percent to be precise).
+
+January effect
+
+Tendency for small stocks to have large returns in January.
+
+Large Stocks’ Average Monthly Returns, 1926–2018, Dividends Included
+
+FIGURE 7.9A
+
+
+Source: Author calculations.
+
+In Figure 7.9A, there is nothing remarkable about January; the largest average monthly return for large stocks occurred in July (followed closely by December); and the lowest average monthly return occurred in September. From a statistical standpoint, there is nothing too exceptional about these large-stock returns. After all, some month has to be the highest, and some month has to be the lowest.
+
+Figure 7.9B, however, shows average returns by month for small stocks (notice the difference in vertical axis scaling between Figures 7.9A and 7.9B). The month of January definitely page 228jumps out. Over the 93 years covered, small stocks gained, on average, about 5.8 percent in the month of January alone! Comparing Figures 7.9A and 7.9B, we see, outside the month of January, small stocks have not done especially well relative to large stocks. To a lesser extent, we see that small stocks have done better than large stocks in February, but large stocks have done better than small stocks by a similar amount in October.
+
+Small Stocks’ Average Monthly Returns, 1926–2018, Dividends Included
+
+FIGURE 7.9B
+
+
+Source: Author calculations.
+
+The January effect appears to exist in many major markets around the world, so it’s not unique to the United States (it’s actually more pronounced in some other markets). It also exists in some markets other than stock markets. Critics of market efficiency point to enormous gains to be had from investing in January and ask: How can an efficient market have such unusual behavior? Why don’t investors take advantage of this opportunity and thereby drive it out of existence?
+
+In Table 7.3, you can see that, on average, small stock returns were 4.69 percent higher than large stock returns in the 1926–2018 time period. The next-best month in this period (February) is more than canceled out by the worst month (October). When we break the 1926–2018 time period into smaller time intervals, you can see that the January effect has diminished over time. In fact, in the 1988–2018 time period, the best monthly difference of 1.62 percent actually occurs in June, and even this difference is more than canceled out by the worst monthly difference of –1.93 percent (October).
+
+Monthly Returns of Small Stocks Minus Monthly Returns of Large Stocks, by Various Time Periods, 1926–2018
+
+TABLE 7.3
+
+
+Source: Author calculations.
+
+Unlike the day-of-the-week effect, the January effect is at least partially understood. Two factors are thought to be important. The first is tax-loss selling. Investors have a strong tax incentive to sell stocks that have gone down in value to realize the loss for tax purposes. This trading leads page 229to a pattern of selling in these stocks near the end of the year and buying after the turn of the year. In large stocks, this activity wouldn’t have much effect, but in the smaller stocks, it could.
+
+The tax-loss selling argument is plausible because researchers have looked to see whether the January effect existed in the United States before there was an income tax—and they found no January effect. However, the January effect has been found in other countries that didn’t (or don’t) have calendar tax years or didn’t (or don’t) have capital gains taxes. However, foreign investors in those markets (such as U.S. investors) did (or do). So, debate continues about the tax-loss selling explanation.
+
+The second factor has to do with institutional investors. The argument here has several pieces, but the gist of it is that these large investors compensate portfolio managers based on their performance over the calendar year. Portfolio managers therefore pile into small stocks at the beginning of the year because of their growth potential, bidding up prices. Over the course of the year, they shed the stocks that do poorly because they don’t want to be seen as having a bunch of “losers” in their portfolio (this is called “window dressing”). Also, because performance is typically measured relative to the S&P 500, portfolio managers who begin to lag because of losses in small stocks have an incentive to sell them and buy S&P 500 stocks to make sure they don’t end up too far behind the S&P 500. Managers who are well ahead late in the year also have an incentive to move into S&P 500 stocks to preserve their leads (this is called “bonus lock-in”).
+
+In evaluating the oddity that is known as the January effect, keep in mind that, unlike the day-of-the-week effect, the January effect does not even exist for the market as a whole, so, in big-picture terms, it is not all that important. Also, it doesn’t happen every year, so attempts to exploit it will occasionally result in substantial losses.
+
+TURN-OF-THE-YEAR EFFECT
+Researchers have delved deeply into the January effect to see whether the effect is due to returns during the whole month of January or to returns bracketing the end of the year. Researchers look at returns over a specific three-week period and compare them to the returns for the rest of the year. In Table 7.4, we calculated daily market returns from 1962 through 2018. The specific three-week period we call “Turn-of-the-Year Days” is the last week of daily returns in a calendar year and the first two weeks of daily returns in the next calendar year. Any daily return that does not fall into this three-week period is put into the “Rest of the Days” category.
+
+The Turn-of-the-Year Effect
+
+TABLE 7.4
+
+Market Return on the:
+Time Period	Turn-of-the-Year Days (%)	Rest of the Days (%)	Difference (%)
+1962–2018	   .075%	   .031%	   .044%
+1962–1990	.104	.021	.083
+1991–2018	.045	.040	.005
+Source: Author calculations.
+
+As you can see in Table 7.4, the returns in the “Turn-of-the-Year Days” category are higher than returns in the “Rest of the Days” category. Further, the difference is also apparent (albeit very small) in the more recent 1991–2018 period. The difference, however, was much higher in the 1962–1990 period. Again, we see that, once identified, these anomalies tend to fade with time.
+
+TURN-OF-THE-MONTH EFFECT
+Financial market researchers have also investigated whether a turn-of-the-month effect exists. In Table 7.5, we took daily stock market returns and separated them into two categories. If the daily return is from the last day of any month or the first three days of the following month, it is put into the “Turn-of-the-Month Days” category. All other daily returns are put into the “Rest of the Days” category.
+
+The Turn-of-the-Month Effect
+
+TABLE 7.5
+
+Market Return on the:
+Time Period	Turn-of-the-Month Days (%)	Rest of the Days (%)	Difference (%)
+1962–2018	   .081%	   .022%	   .059%
+1962–1990	.097	.010	.087
+1991–2018	.065	.035	.030
+Source: Author calculations.
+
+As you can see in Table 7.5, the returns in the “Turn-of-the-Month Days” category are higher than the returns in the “Rest of the Days” category. As with the turn-of-the-year anomaly, the page 230turn-of-the-month effect is apparent in each of the three time periods we report. While the effect is still pronounced in the 1991–2018 time period, it is lower than in the 1962–1990 time period. Again, the fact that this effect exists is puzzling to proponents of the EMH.
+
+The day-of-the-week, turn-of-the-month, turn-of-the-year, and January effects are examples of calendar anomalies. There are noncalendar anomalies as well. Two well-known noncalendar anomalies have to do with earnings announcements and price-earnings ratios.
+
+THE EARNINGS ANNOUNCEMENT PUZZLE
+As you saw earlier in this chapter, unexpected news releases can have a dramatic impact on the price of a stock. One news item that is particularly important to investors is an earnings announcement. These announcements contain information about past earnings and future earnings potential.
+
+Researchers have shown that substantial price adjustments do occur in anticipation of actual earnings. According to the EMH, stock prices should then respond very quickly to unanticipated news, or the earnings “surprise.” However, researchers have found that it takes days (or even longer) for the market price to adjust fully. In addition, some researchers have found that buying stocks after positive earnings surprises is a profitable investment strategy.
+
+THE PRICE-EARNINGS (PE) PUZZLE
+As we have discussed elsewhere, the PE ratio is widely followed by investors and is used in stock valuation. Researchers have found that, on average, stocks with relatively low PE ratios (i.e., value stocks) outperform stocks with relatively high PE ratios (i.e., growth stocks), even after adjusting for other factors like risk. Because a PE ratio is publicly available information, according to the EMH, it should already be reflected in stock prices. However, purchasing stocks with relatively low PE ratios appears to be a potentially profitable investment strategy.
+
+There are many other noncalendar anomalies. For example, the market appears to do worse on cloudy days than sunny days. But rather than continuing with a laundry list of anomalies—however much fun they might provide—we will instead turn to some spectacular events in market history.
+
+CHECK THIS
+
+
+
+7.10aWhat is the day-of-the-week effect?
+
+7.10bWhat is the amazing January effect?
+
+7.10cWhat is the turn-of-the-year effect?
+
+7.11 Bubbles and Crashes
+As a famous philosopher once said, “Those who do not remember the past are condemned to repeat it.”1 Nowhere is this statement seemingly more appropriate in finance than in a discussion of bubbles and crashes.
+
+page 231
+
+A bubble occurs when market prices soar far in excess of what normal and rational analysis would suggest. Investment bubbles eventually pop because they are not based on fundamental values. When a bubble does pop, investors find themselves holding assets with plummeting values.
+
+bubble
+
+A situation where observed prices soar far higher than fundamentals and rational analysis would suggest.
+
+A crash is a significant and sudden drop in marketwide values. Crashes are generally associated with a bubble. Typically, a bubble lasts much longer than a crash. A bubble can form over weeks, months, or even years. Crashes, on the other hand, are sudden, generally lasting less than a week. However, the disastrous financial aftermath of a crash can last for years.
+
+crash
+
+A situation where market prices collapse significantly and suddenly.
+
+THE CRASH OF 1929
+During the Roaring Twenties, the stock market was supposed to be the place where everyone could get rich. The market was widely believed to be a no-risk situation. Many people invested their life savings without learning about the potential pitfalls of investing. At the time, investors could purchase stocks by putting up 10 percent of the purchase price and borrowing the remainder from a broker. This level of leverage was one factor that led to the sudden market downdraft in October 1929.
+
+As you can see in Figure 7.10, on Friday, October 25, the Dow Jones Industrial Average closed up about one point, at 301.22. On Monday, October 28, it closed at 260.64, down 13.5 percent. On Tuesday, October 29, the Dow closed at 230.07, with an intraday low of 212.33, which is about 30 percent lower than the closing level on the previous Friday. On this day, known as “Black Tuesday,” NYSE volume of 16.4 million shares was more than four times normal levels.
+
+Dow Jones Industrial Average, October 21, 1929, to October 31, 1929
+
+FIGURE 7.10
+
+
+Although the Crash of 1929 was a large decline, it pales with respect to the ensuing bear market. As shown in Figure 7.11, the DJIA rebounded about 20 percent following the October 1929 crash. However, the DJIA then began a protracted fall, reaching the bottom at 40.56 on July 8, 1932. This level represents about a 90 percent decline from the record high level of 386.10 on September 3, 1929. By the way, the DJIA did not surpass its previous high level until November 24, 1954, more than 25 years later.
+
+Dow Jones Industrial Average, October 1928 to October 1932
+
+FIGURE 7.11
+
+
+THE CRASH OF OCTOBER 1987
+Once, when we spoke of The Crash, we meant October 29, 1929. That was until October 1987. The Crash of 1987 began on Friday, October 16. On huge volume (at the time) of about 338 million shares, the DJIA fell 108 points to close at 2,246.73. It was the first time in history that the DJIA fell by more than 100 points in one day.
+
+page 232
+
+October 19, 1987, now wears the mantle of “Black Monday.” This day was indeed a dark and stormy one on Wall Street; the market lost about 22.6 percent of its value on a new record volume of about 600 million shares traded. The DJIA plummeted 508.32 points to close at 1,738.74.
+
+During the day on Tuesday, October 20, the DJIA continued to plunge in value, reaching an intraday low of 1,616.21. But the market rallied and closed at 1,841.01, up 102 points. From the then-market high on August 25, 1987, of 2,746.65 to the intraday low on October 20, 1987, the market had fallen over 40 percent.
+
+After the Crash of 1987, however, there was no protracted depression. In fact, as you can see in Figure 7.12, the DJIA took only two years to surpass its previous market high made in August 1987.
+
+Dow Jones Industrial Average (Monthly), October 1986 to October 1990
+
+FIGURE 7.12
+
+
+page 233
+
+What happened? It’s not exactly ancient history, but, here again, debate rages. One faction says that irrational investors had bid up stock prices to ridiculous levels until Black Monday, when the bubble burst, leading to panic selling as investors dumped their stocks. The other faction says that before Black Monday, markets were volatile, volume was heavy, and some ominous signs about the economy were filtering in. From the close on October 13 to the close on October 16, 1987, for example, the market fell by over 10 percent, the largest three-day drop since May 1940 (when German troops broke through French lines near the start of World War II). To top it all off, market values had risen sharply because of a dramatic increase in takeover activity, but Congress was in session and was actively considering antitakeover legislation.
+
+Another factor is that beginning a few years before the Crash of 1987, large investors had developed techniques known as program trading designed for very rapid selling of enormous quantities of shares of stock following a market decline. These techniques were still largely untested because the market had been strong for years. However, following the huge sell-off on October 16, 1987, sell orders came pouring in on Monday at a pace never before seen. In fact, these program trades were (and are) blamed by some for much of what happened.
+
+One of the few things we know for certain about the Crash of 1987 is that the stock exchanges suffered a meltdown. The NYSE could not handle the volume. Posting of prices was delayed by hours, so investors had no idea what their positions were worth. The specialists couldn’t handle the flow of orders, and some specialists actually began selling. NASDAQ went offline when it became impossible to get through to market makers. It has even been alleged that many stopped answering the phone.
+
+On the two days following the crash, prices rose by about 14 percent, one of the biggest short-term gains ever. Prices remained volatile for some time, but as antitakeover talk in Congress died down, the market recovered.
+
+The Crash of 1987 led to some significant infrastructure changes that make it possible for the NYSE to handle much heavier trading volume. One of the most interesting changes was the introduction of NYSE circuit breakers. Different circuit breakers are triggered if the S&P 500 index level drops by 7, 13, or 20 percent. Specifically, the Level 1 and Level 2 circuit breakers kick in if the S&P 500 index falls 7 percent or 13 percent, respectively, before 3:25 P.M. Trading halts in all stocks for 15 minutes when the decline triggers a Level 1 or Level 2 circuit breaker. If the S&P 500 index falls 20 percent at any time during the day, this decline triggers a Level 3 circuit breaker, which means trading is halted for the remainder of the day.
+
+NYSE circuit breakers
+
+Rules that kick in to slow or stop trading when the DJIA declines by more than a preset amount in a trading session.
+
+Circuit breaker trigger limits were originally implemented in 1998, but they were modified to the 7, 13, and 20 percent triggers in April 2013. Point drops that trigger the circuit breakers are recalculated each day based on the daily level of the S&P 500 index. Because circuit breakers are designed to slow a market decline, they are often called “speed bumps.”
+
+Naturally, how well circuit breakers work is a matter of debate. In fact, in another chapter we discussed the “Flash Crash” that occurred on May 6, 2010. Even though many stocks and exchange-traded funds fell over 50 percent during the course of the day, the entire market never dropped far enough to trigger the circuit breakers. In response, regulators imposed individual stock circuit breakers to help control undue volatility in individual stocks. For more on individual stock circuit breakers, take a look at the nearby Investment Updates box.
+
+One of the most remarkable things about the Crash of 1987 is how little impact it seems to have had. If you look back at the data in Chapter 1, you will see that the market was actually up slightly in 1987. The postcrash period was one of the better times to be in the market, and the Crash of 1987 increasingly looks like a blip in one of the most spectacular market increases that U.S. investors have ever seen. One thing is clearly true: October is the cruelest month for market investors. Indeed, two years after the Crash of 1987, a minicrash occurred on October 13, 1989, as the DJIA fell 190 points in the afternoon (following the collapse of a proposed buyout of United Airlines).
+
+THE ASIAN CRASH
+The crash of the Nikkei index, which began in 1990, lengthened into a particularly long bear market. It is quite like the Crash of 1929 in that respect.
+
+page 234
+
+INVESTMENT UPDATES
+
+STOCK CIRCUIT BREAKERS
+
+In 2012, the Securities and Exchange Commission updated the system-wide circuit breaker system and also added individual stock circuit breakers to better control market activity during times of stress.
+
+How these circuit breakers work varies in accordance with the stock price and timing of the declines. They are designed so that trading on individual stocks with a price above $3 will be halted for five minutes when a price decline of more than 5 percent below the stock’s average price occurs over the previous five-minute interval. The same cutoff will be in place for stocks with a jump in price of more than 5 percent under the same circumstances. This is designed to address volatility.
+
+Different constraints are placed around trading during the 15 minute opening and closing periods, allowing for a slightly greater price change (10 percent, versus 5) in either direction before triggering the breakers.
+
+_______________
+
+Source: Bob Pisani, “Here’s a Brief Review of the Stock Circuit Breakers,” CNBC, August 24, 2015.
+
+The Asian crash started with a booming bull market in the 1980s. Japan and emerging Asian economies seemed to be forming a powerful economic force. The “Asian economy” became an investor outlet for those wary of the U.S. market after the Crash of 1987.
+
+To give you some idea of the bubble that was forming in Japan between 1955 and 1989, real estate prices in Japan increased by 70 times, and stock prices increased 100 times over. In 1989, price-earnings ratios of Japanese stocks climbed to unheard-of levels as the Nikkei index soared past 39,000. In retrospect, there were numerous warning signals about the Japanese market. At the time, however, optimism about the continued growth in the Japanese market remained high. Crashes never seem to occur when the outlook is poor, so, as with other crashes, many people did not foresee the impending Nikkei crash.
+
+As you can see in Figure 7.13, in the three years from December 1986 to the peak in December 1989, the Nikkei 225 index rose from under 15,000 to about 39,000. Over the next three years, the index fell to about the 15,000 level. In April 2003, the Nikkei Index stood at a level that was 80 percent off its peak in December 1989. Even 25 years later, in 2009, the Nikkei was at about the same level as it stood in 1984.
+
+Nikkei 225 Index, January 1984 to January 2010
+
+FIGURE 7.13
+
+
+page 235
+
+THE “DOT-COM” BUBBLE AND CRASH
+How many websites do you think existed at the end of 1994? Would you believe only about 10,000? By the end of 1999 the number of active websites stood at about 9,500,000, and at the beginning of 2019 there were almost 2 billion active websites worldwide.
+
+The growth of the World Wide Web is documented at
+zakon.org/robert/internet/timeline.
+
+By the mid-1990s, the rise in internet use and its international growth potential fueled widespread excitement over the “new economy.” Investors did not seem to care about solid business plans—only big ideas. Investor euphoria led to a surge in internet IPOs, which were commonly referred to as “dot-coms” because so many of their names ended in “.com.” Of course, the lack of solid business models doomed many of the newly formed companies. Many of them suffered huge losses, and some folded relatively shortly after their IPOs.
+
+The extent of the dot-com bubble and subsequent crash is presented in Table 7.6 and Figure 7.14, which compare the Amex Internet index and the S&P 500 index. As shown in Table 7.6, the Amex Internet index soared from a level of 114.68 on October 1, 1998, to its peak of 688.52 in late March 2000, an increase of 500 percent. The Amex Internet Index then fell to a level of 58.59 in early October 2002, a drop of 91 percent. By contrast, the S&P 500 index rallied about 31 percent in the same 1998–2000 time period and fell 40 percent during the 2000–2002 time period.
+
+Values of the Amex Internet Index and the S&P 500 Index
+
+TABLE 7.6
+
+
+Source: Author calculations.
+
+Values of the Amex Internet Index and the S&P 500 Index, October 1995 through December 2012
+
+FIGURE 7.14
+
+
+THE CRASH OF OCTOBER 2008
+Elsewhere, we detail the stock market crash of 2008, where many market indexes fell more than 40 percent. Given the recent nature of these events, debate as to the fundamental cause is ongoing. Much of the preceding bubble (and crash), however, appears to have been page 236a function of “easy money.” Unqualified borrowers frequently received large, so-called subprime home loans at low “teaser” rates, which, after a certain amount of time, were reset at more reasonable levels, meaning that required monthly payments increased. If real estate prices were still rising, owners could easily refinance. When prices began to level off and fall, however, the number of bankruptcies increased significantly. These bankruptcies set off a downward spiral effect in securities related to real estate, which we discuss in more detail in another chapter.
+
+To get a clearer picture of the progression of 2008, take a close look at Figure 7.15. This figure details the monthly closing price of the Dow Jones Industrial Average (DJIA). You can see that it declined steeply over almost the entire year. The months of October and November were particularly severe. Recall that this was the time during which investment banks such as Lehman Brothers and Bear Stearns (which had taken highly leveraged positions in real estate) went under or were acquired. Figure 7.16 shows the daily values for the DJIA from October 3 through October 17, 2008.
+
+Dow Jones Industrial Average, January 2008 through January 2013
+
+FIGURE 7.15
+
+
+Dow Jones Industrial Average, October 3, 2008, to October 17, 2008
+
+FIGURE 7.16
+
+
+page 237
+
+CHECK THIS
+
+
+
+7.11aWhat is a stock market bubble? A stock market crash?
+
+7.11bWhat are NYSE circuit breakers? What are they intended to do?
+
+7.11cWhat is a major difference between the Crash of October 1929 and the Crash of October 1987?
+
+7.11dDo you think the Crash of October 2008 resembles the Crash of October 1929 or the Crash of October 1987? Why?
+
+7.12 Summary and Conclusions
+In this chapter, we examined market price behavior and market efficiency. Market efficiency is probably the most controversial and intriguing issue in investments. We cover many aspects of market efficiency in this chapter—which we summarize by the chapter’s important concepts.
+
+The foundations of market efficiency.
+
+A.  The efficient markets hypothesis (EMH) asserts that, as a practical matter, organized financial markets like the New York Stock Exchange are efficient.
+
+B.  Researchers who study efficient markets often ask whether it is possible to “beat the market.” We say that you beat the market if you can consistently earn returns above those earned by other investments having the same risk. We refer to this as an abnormal return.
+
+C.  If a market is efficient, earning these abnormal returns is not possible, except by luck. The controversy surrounding the EMH centers on this assertion.
+
+The implications of the forms of market efficiency.
+
+A.  The EMH states that the market is efficient with respect to some particular information if that information is not useful in earning a positive abnormal return.
+
+B.  The forms of market efficiency and their information sets are:
+
+Weak form: Past price and volume information.
+
+Semistrong form: All publicly available information.
+
+Strong form: All information of any kind, public or private.
+
+C.  We discuss how information affects market prices by influencing traders to act on the arrival of information. We show you how to distinguish among informed trading, illegal insider trading, and legal insider trading.
+
+Market efficiency and the performance of professional money managers.
+
+A.  Testing market efficiency is difficult. We discussed four reasons for this: (1) the risk adjustment problem, (2) the relevant information problem, (3) the dumb luck problem, and (4) the data snooping problem.
+
+B.  We then presented evidence concerning tests of market efficiency. One lesson we demonstrate is that professional money managers have been unable to beat the market consistently—despite their tremendous resources, experience, opportunities, and incentives. Also, this fact is true despite patterns and other oddities that have occurred historically in the stock market.
+
+C.  The fact that professional money managers have been unable to beat the market supports the notion that markets are generally rather efficient.
+
+What stock market anomalies, bubbles, and crashes mean for market efficiency.
+
+A.  We discuss some aspects of stock price behavior that are both baffling and hard to reconcile with market efficiency.
+
+page 238
+
+B. We discuss the day-of-the-week effect, the amazing January effect, the turn-of-the-year effect, the turn-of-the-month effect, the earnings announcement puzzle, and the price-earnings (PE) puzzle.
+
+C. We present some market history concerning some famous bubbles and crashes, including the Crash of October 1929, the Crash of October 1987, the Asian crisis, the dot-com bubble and crash, and the Crash of 2008.
+
+GETTING DOWN TO BUSINESS
+
+This chapter covered market efficiency. In it, we raised a significant question: Can you, or indeed anyone, consistently beat the market? In other words, is the market efficient? This is a question that every investor needs to think about because it has direct, practical implications for investing and portfolio management.
+
+If you think the market is relatively efficient, then your investment strategy should focus on minimizing costs and taxes. Asset allocation is your primary concern, and you will still need to establish the risk level you are comfortable with. But beyond this, you should be a buy-and-hold investor, transacting only when absolutely necessary. Investments such as low-cost, low-turnover mutual funds make a lot of sense. Tools for analyzing the market are irrelevant at best. Thus, in some ways, the appropriate investment strategy is kind of boring, but it’s the one that will pay off over the long haul in an efficient market.
+
+In contrast, if you think the market is not particularly efficient, then you’ve got to be a security picker. You also have to decide what market analyzing tools to use. This is also true if you are in the money management business; you have to decide which specific stocks or bonds to hold.
+
+In the end, the only way to find out if you’ve got what it takes to beat the market is to try, and the best way to try is with a simulated brokerage account. Be honest with yourself: You think you can beat the market; most novice investors do. Some change their minds and some don’t. As to which tools to use, you will have to find out which ones work (or don’t work) for you.
+
+For the latest information on the real world of investments, visit us at
+jmdinvestments.blogspot.com..
+
+Key Terms
+
+abnormal return 212
+
+bubble 231
+
+crash 231
+
+day-of-the-week effect 226
+
+efficient markets hypothesis (EMH) 212
+
+event study 217
+
+informed trader 219
+
+January effect 227
+
+material nonpublic information 219
+
+NYSE circuit breakers 233
+
+random walk 216
+
+Chapter Review Problems and Self-Test
+
+Market Research (LO3, CFA1) Smolira Investment Trust (SIT) runs a retirement account for college professors, with a current market value of $2 billion. Alchemy, Inc., offers to conduct market research in an attempt to sift through the market data to find a way to increase the return to SIT’s portfolio by 30 basis points this year. Alchemy is offering to conduct the research for the sum of $9 million. Is this price too high or too low?
+
+Picking a Money Manager (LO3, CFA1) You are helping your very rich aunt Molly decide where to invest her portfolio. She is planning to take a 10-year world tour after she invests the bulk of her portfolio. She thinks that picking a money manager is unimportant because she believes any professional money manager must be able to beat the market. She’s just planning to pick a professional money manager at random. What do you tell her?
+
+page 239
+
+Answers to Self-Test Problems
+
+Assuming that Alchemy, Inc., actually can conduct research that allows Smolira Investment Trust (SIT) to increase its portfolio return by 30 basis points this year, SIT would be willing to pay up to $2,000,000,000 times .0030 = $6,000,000 for this research. So the price of $9 million is too high.
+
+You could show her Figure 7.8. In this figure, it is clear that picking a professional manager at random gives her about a 25 to 30 percent chance of beating a market fund like the Vanguard 500 Index Fund. If she invests her sizable portfolio in the Vanguard 500 Index Fund, she has about a 70 to 75 percent chance of beating a professional money manager picked at random.
+
+Test Your Investment Quotient
+
+
+Efficient Markets Hypothesis (LO4, CFA1) A market anomaly refers to:
+
+An exogenous shock to the market that is sharp but not persistent.
+
+A price or volume event that is inconsistent with historical price or volume trends.
+
+A trading or pricing structure that interferes with efficient buying or selling of securities.
+
+Price behavior that differs from the behavior predicted by the efficient markets hypothesis.
+
+Efficient Markets Hypothesis (LO1, CFA1) Which of the following assumptions does not imply an informationally efficient market?
+
+Security prices adjust rapidly to reflect new information.
+
+The timing of one news announcement is independent of other news announcements.
+
+The risk-free rate exists, and investors can borrow and lend unlimited amounts at the risk-free rate.
+
+Many profit-maximizing participants, each acting independently of the others, analyze and value securities.
+
+Efficient Markets Hypothesis (LO2, CFA1) After lengthy trial and error, you discover a trading system that would have doubled the value of your investment every six months if applied over the last three years. Which of the following problems makes it difficult to conclude that this is an example of market inefficiency?
+
+Risk adjustment problem
+
+Relevant information problem
+
+Dumb luck problem
+
+Data snooping problem
+
+Efficient Markets Hypothesis (LO2, CFA1) In discussions of financial market efficiency, which of the following is not one of the stylized forms of market efficiency?
+
+Strong form
+
+Semistrong form
+
+Weak form
+
+Economic form
+
+Beating the Market (LO3, CFA2) Which of the following is not considered a problem when evaluating the ability of a trading system to “beat the market”?
+
+Risk adjustment problem
+
+Relevant information problem
+
+Data measurement problem
+
+Data snooping problem
+
+Calendar Anomalies (LO4, CFA2) Which month of the year, on average, has had the highest stock market returns as measured by a small-stock portfolio?
+
+January
+
+March
+
+June
+
+December
+
+page 240
+
+NYSE Circuit Breakers (LO4) Which of the following intraday changes in the Dow Jones Industrial Average (DJIA) will trigger a Level 1 circuit breaker?
+
+7 percent drop before 3:25 P.M.
+
+7 percent drop after 3:25 P.M.
+
+7 percent rise before 3:25 P.M.
+
+7 percent rise after 3:25 P.M.
+
+Efficient Markets Hypothesis (LO2, CFA1) The SEC has regulations that prohibit trading on inside information. If the market is _____ form efficient, such regulation is not needed.
+
+Weak
+
+Semistrong
+
+Technical
+
+Strong
+
+The January Effect (LO4, CFA2) Which of the following is a possible explanation of the January effect?
+
+  I. Institutional window dressing
+
+ II. Bonus demand
+
+III. Tax-loss selling
+
+I only
+
+I and II only
+
+I and III only
+
+I, II, and III
+
+NYSE Circuit Breakers (LO4) Circuit breakers implemented by the NYSE were designed to:
+
+Reduce the January effect.
+
+Reduce the effect of technical trading.
+
+Eliminate program trading.
+
+Slow a market decline.
+
+Market Efficiency Implications (LO2, CFA2) Assume the market is semistrong form efficient. The best investment strategy is to:
+
+Examine the past prices of a stock to determine the trend.
+
+Invest in an actively managed mutual fund whose manager searches for underpriced stocks.
+
+Invest in an index fund.
+
+Examine financial statements to find stocks that are not selling at intrinsic value.
+
+Market Efficiency Implications (LO2, CFA2) Assume the market is weak form efficient. If this is true, technical analysts _____ earn abnormal returns and fundamental analysts _____ earn abnormal returns.
+
+Could; could
+
+Could; could not
+
+Could not; could not
+
+Could not; could
+
+Efficient Markets Hypothesis (LO1, CFA1) Which of the following is not true concerning the efficient markets hypothesis?
+
+Markets that are less organized are not as likely to be efficient.
+
+Markets with wide fluctuations in prices cannot be efficient.
+
+The efficient markets hypothesis deals only with the stock market.
+
+Prices in an efficient market are fair on average.
+
+Efficient Markets Hypothesis (LO2, CFA1) You purchase a stock that you expect to increase in value over the next year. One year later, after the discovery that the CEO embezzled funds and the company is close to bankruptcy, the stock has fallen in price. Which of the following statements is true?
+
+This is a violation of weak form efficiency.
+
+This is a violation of semistrong form efficiency
+
+This is a violation of all forms of market efficiency.
+
+This is not a violation of market efficiency.
+
+page 241
+
+Efficient Markets Hypothesis (LO2, CFA1) Which of the following statements concerning market efficiency is true?
+
+If the market is weak form efficient, it is also semistrong form efficient.
+
+If the market is semistrong form efficient, it is also strong form efficient.
+
+If the market is weak form efficient, it is also strong form efficient.
+
+If the market is semistrong form efficient, it is also weak form efficient.
+
+Concept Questions
+
+Efficient Markets (LO2, CFA1) A stock market analyst is able to identify mispriced stocks by comparing the average price for the last 10 days to the average price for the last 60 days. If this is true, what do you know about the market?
+
+Efficient Markets (LO2, CFA1) Critically evaluate the following statement: “Playing the stock market is like gambling. Such speculative investing has no social value, other than the pleasure people get from this form of gambling.”
+
+Misconceptions about Efficient Markets (LO3, CFA2) Several celebrated investors and stock pickers have recorded huge returns on their investments over the past two decades. Is the success of these particular investors an invalidation of an efficient stock market? Explain.
+
+Interpreting Efficient Markets (LO2, CFA2) For each of the following scenarios, discuss whether profit opportunities exist from trading in the stock of the firm under the conditions that (1) the market is not weak form efficient, (2) the market is weak form but not semistrong form efficient, (3) the market is semistrong form but not strong form efficient, and (4) the market is strong form efficient.
+
+The stock price has risen steadily each day for the past 30 days.
+
+The financial statements for a company were released three days ago, and you believe you’ve uncovered some anomalies in the company’s inventory and cost control reporting techniques that are understating the firm’s true liquidity strength.
+
+You observe that the senior management of a company has been buying a lot of the company’s stock on the open market over the past week.
+
+Your next-door neighbor, who happens to be a computer analyst at the local steel plant, casually mentions that a German steel conglomerate hinted yesterday that it might try to acquire the local firm in a hostile takeover.
+
+Performance of the Pros (LO3, CFA3) In the mid- to late-1990s, the performance of the pros was unusually poor—on the order of 90 percent of all equity mutual funds underperformed a passively managed index fund. How does this bear on the issue of market efficiency?
+
+Efficient Markets (LO1, CFA1) A hundred years ago or so, companies did not compile annual reports. Even if you owned stock in a particular company, you were unlikely to be allowed to see the balance sheet and income statement for the company. Assuming the market is semistrong form efficient, what does this say about market efficiency then compared to now?
+
+Efficient Markets Hypothesis (LO2, CFA1) You invest $10,000 in the market at the beginning of the year, and by the end of the year your account is worth $15,000. During the year the market return was 10 percent. Does this mean that the market is inefficient?
+
+Efficient Markets Hypothesis (LO1, CFA1) Which of the following statements are true about the efficient markets hypothesis?
+
+It implies perfect forecasting ability.
+
+It implies that prices reflect all available information.
+
+It implies an irrational market.
+
+It implies that prices do not fluctuate.
+
+It results from keen competition among investors.
+
+Semistrong Efficiency (LO2, CFA2) If a market is semistrong form efficient, is it also weak form efficient? Explain.
+
+Efficient Markets Hypothesis (LO2, CFA1) What are the implications of the efficient markets hypothesis for investors who buy and sell stocks in an attempt to “beat the market”?
+
+page 242
+
+Efficient Markets Hypothesis (LO2, CFA1) Aerotech, an aerospace technology research firm, announced this morning that it hired the world’s most knowledgeable and prolific space researchers. Before today, Aerotech’s stock had been selling for $100. Assume that no other information is received over the next week and the stock market as a whole does not move.
+
+What do you expect will happen to Aerotech’s stock?
+
+Consider the following scenarios:
+
+  i. The stock price jumps to $118 on the day of the announcement. In subsequent days it floats up to $123, and then falls back to $116.
+
+ ii. The stock price jumps to $116 and remains at that level.
+
+iii. The stock price gradually climbs to $116 over the next week.
+
+Which scenario(s) indicate market efficiency? Which do not? Why?
+
+Efficient Markets Hypothesis (LO2, CFA1) When the 56-year-old founder of Gulf & Western, Inc., died of a heart attack, the stock price immediately jumped from $18.00 a share to $20.25, a 12.5 percent increase. This is evidence of market inefficiency because an efficient stock market would have anticipated his death and adjusted the price beforehand. Assume that no other information is received and the stock market as a whole does not move. Is this statement about market efficiency true or false? Explain.
+
+Efficient Markets Hypothesis (LO2, CFA1) Today, the following announcement was made: “Early today the Justice Department reached a decision in the Universal Product Care (UPC) case. UPC has been found guilty of discriminatory practices in hiring. For the next five years, UPC must pay $2 million each year to a fund representing victims of UPC’s policies.” Assuming the market is efficient, should investors not buy UPC stock after the announcement because the litigation will cause an abnormally low rate of return? Explain.
+
+Efficient Markets Hypothesis (LO2, CFA1) Newtech Corp. is going to adopt a new chip-testing device that can greatly improve its production efficiency. Do you think the lead engineer can profit from purchasing the firm’s stock before the news release on the device? After reading the announcement in The Wall Street Journal, should you be able to earn an abnormal return from purchasing the stock if the market is efficient?
+
+Efficient Markets Hypothesis (LO2, CFA1) TransTrust Corp. has changed how it accounts for inventory. Taxes are unaffected, although the resulting earnings report released this quarter is 20 percent higher than it would have been under the old accounting system. There is no other surprise in the earnings report, and the change in the accounting treatment was publicly announced. If the market is efficient, will the stock price be higher when the market learns that the reported earnings are higher?
+
+Efficient Markets Hypothesis (LO3, CFA1) The Durkin Investing Agency has been the best stock picker in the country for the past two years. Before this rise to fame occurred, the Durkin newsletter had 200 subscribers. Those subscribers beat the market consistently, earning substantially higher returns after adjustment for risk and transaction costs. Subscriptions have skyrocketed to 10,000. Now, when the Durkin Investing Agency recommends a stock, the price instantly rises several points. The subscribers currently earn only a normal return when they buy recommended stock because the price rises before anybody can act on the information. Briefly explain this phenomenon. Is Durkin’s ability to pick stocks consistent with market efficiency?
+
+Efficient Markets Hypothesis (LO2, CFA1) Your broker commented that well-managed firms are better investments than poorly managed firms. As evidence, your broker cited a recent study examining 100 small manufacturing firms that eight years earlier had been listed in an industry magazine as the best-managed small manufacturers in the country. In the ensuing eight years, the 100 firms listed have not earned more than the normal market return. Your broker continued to say that if the firms were well managed, they should have produced better-than-average returns. If the market is efficient, do you agree with your broker?
+
+Efficient Markets Hypothesis (LO2, CFA1) A famous economist just announced in The Wall Street Journal his findings that the recession is over and the economy is again entering an expansion. Assume market efficiency. Can you profit from investing in the stock market after you read this announcement?
+
+Efficient Markets Hypothesis (LO2, CFA1) Suppose the market is semistrong form efficient. Can you expect to earn abnormal returns if you make trades based on:
+
+Your broker’s information about record earnings for a stock?
+
+Rumors about a merger of a firm?
+
+Yesterday’s announcement of a successful new product test?
+
+page 243
+
+Efficient Markets Hypothesis (LO2, CFA1) The efficient markets hypothesis implies that all mutual funds should obtain the same expected risk-adjusted returns. Therefore, we can pick mutual funds at random. Is this statement true or false? Explain.
+
+Efficient Markets Hypothesis (LO2, CFA1) Assume that markets are efficient. During a trading day, American Golf, Inc., announces that it has lost a contract for a large golfing project that, prior to the news, it was widely believed to have secured. If the market is efficient, how should the stock price react to this information if no additional information is released?
+
+Efficient Markets Hypothesis (LO2, CFA2) Prospectors, Inc., is a publicly traded gold prospecting company in Alaska. Although the firm’s searches for gold usually fail, the prospectors occasionally find a rich vein of ore. What pattern would you expect to observe for Prospectors’s cumulative abnormal returns if the market is efficient?
+
+Questions and Problems
+
+Core Questions
+
+Cumulative Abnormal Returns (LO2, CFA2) On November 14, Thorogood Enterprises announced that the public and acrimonious battle with its current CEO had been resolved. Under the terms of the deal, the CEO would step down from his position immediately. In exchange, he was given a generous severance package. Given the information below, calculate the cumulative abnormal return (CAR) around this announcement. Assume the company has an expected return equal to the market return. Graph and interpret your results. Do your results support market efficiency?
+
+Date	Market Return (%)	Company Return (%)
+Nov 7	  .5	  .4
+Nov 8	  .3	  .4
+Nov 9	−.2	−.3
+Nov 10	−.6	−.5
+Nov 11	 1.3	 1.1
+Nov 14	−.1	 1.8
+Nov 15	  .1	  .1
+Nov 16	  .9	  .7
+Nov 17	  .2	  .3
+Nov 18	−.2	  .0
+Nov 19	  .3	  .2
+Cumulative Abnormal Returns (LO2, CFA2) The following diagram shows the cumulative abnormal returns (CAR) for oil exploration companies announcing oil discoveries over a 30-year period. Month 0 in the diagram is the announcement month. Assume that no other information is received and the stock market as a whole does not move. Is the diagram consistent with market efficiency? Why or why not?
+
+
+Cumulative Abnormal Returns (LO2, CFA2) The following figures present the results of four cumulative abnormal returns (CAR) studies. Indicate whether the results of each study support, page 244reject, or are inconclusive about the semistrong form of the efficient markets hypothesis. In each figure, Time 0 is the date of an event.
+
+
+Cumulative Abnormal Returns (LO2, CFA2) A study analyzed the behavior of the stock prices of firms that had lost antitrust cases. Included in the diagram are all firms that lost the initial court decision, even if the decision was later overturned on appeal. The event at Time 0 is the initial, pre-appeal court decision. Assume no other information was released, aside from that disclosed in the initial trial. The stock prices all have a beta of 1. Is the diagram consistent with market efficiency? Why or why not?
+
+
+Intermediate Questions
+
+5.   Cumulative Abnormal Returns (LO2, CFA2) Ross Co., Westerfield, Inc., and Jordan Company announced a new agreement to market their respective products in China on July 18, February 12, and October 7, respectively. Given the information below, calculate the cumulative abnormal return (CAR) for these stocks as a group. Assume all companies have an expected return equal to the market return. Graph and interpret your results. Do your results support market efficiency?
+
+
+page 245
+
+Spreadsheet Problems
+
+6.   Event Study (LO2, CFA2) Assume that on March 15, Trenten Medical received approval for a new drug. Using the data below from February 15 through February 28 as the measurement period, calculate the cumulative abnormal return (CAR) in the +/–3 days surrounding the announcement date.
+
+
+
+
+
+1 George Santayana is credited with this statement.
