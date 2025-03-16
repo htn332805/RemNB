@@ -1,0 +1,175 @@
+#!/usr/bin/env python3
+
+import sys
+from pathlib import Path
+from typing import List, Dict
+import subprocess
+import logging
+import json
+import time
+from datetime import datetime
+
+# Get absolute path to project root
+BASE_DIR = Path(__file__).parent.absolute()
+
+
+class ChainExecutionError(Exception):
+    def __init__(self, script_name: str, error_details: str, exit_code: int):
+        self.script_name = script_name
+        self.error_details = error_details
+        self.exit_code = exit_code
+        super().__init__(f"Failed executing {script_name}: {error_details}")
+
+
+class ScriptChain:
+    def __init__(
+        self, scripts: List[Dict[str, any]], chain_name: str = "default_chain"
+    ):
+        self.scripts = scripts
+        self.chain_name = chain_name
+        self.current_script = None
+        self.logger = self._setup_chain_logger()
+        self.execution_summary = {
+            "start_time": None,
+            "end_time": None,
+            "total_duration": 0,
+            "successful_scripts": [],
+            "failed_script": None,
+            "error_details": None,
+        }
+        self._verify_paths()
+
+    def _verify_paths(self):
+        for script in self.scripts:
+            input_path = Path(script["args"]["input-file"])
+            output_path = Path(script["args"]["output-file"])
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+
+            if script["args"].get("debug"):
+                self.logger.debug(f"Input path: {input_path}")
+                self.logger.debug(f"Output path: {output_path}")
+
+    def _setup_chain_logger(self) -> logging.Logger:
+        logger = logging.getLogger(f"chain_{self.chain_name}")
+        logger.setLevel(logging.INFO)
+
+        log_dir = BASE_DIR / "logs"
+        log_dir.mkdir(exist_ok=True)
+
+        formatter = logging.Formatter(
+            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        )
+
+        # File handler
+        fh = logging.FileHandler(
+            log_dir
+            / f'chain_{self.chain_name}_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log'
+        )
+        fh.setFormatter(formatter)
+        logger.addHandler(fh)
+
+        # Console handler
+        ch = logging.StreamHandler()
+        ch.setFormatter(formatter)
+        logger.addHandler(ch)
+
+        return logger
+
+    def execute_chain(self, continue_on_error: bool = False) -> Dict:
+        self.execution_summary["start_time"] = datetime.now().isoformat()
+        total_scripts = len(self.scripts)
+
+        for index, script in enumerate(self.scripts, 1):
+            script_path = BASE_DIR / script["path"]
+            try:
+                self.logger.info(
+                    f"\nExecuting script {index}/{total_scripts}: {script['path']}"
+                )
+                cmd = [sys.executable, str(script_path)]
+
+                for arg, value in script["args"].items():
+                    cmd.extend([f"--{arg}", str(value)])
+
+                start_time = time.time()
+                process = subprocess.run(
+                    cmd, capture_output=True, text=True, check=True
+                )
+                duration = time.time() - start_time
+
+                self.logger.info(f"✓ Successfully completed in {duration:.2f} seconds")
+                self.execution_summary["successful_scripts"].append(
+                    {
+                        "script": script["path"],
+                        "duration": duration,
+                        "output": process.stdout.strip(),
+                    }
+                )
+
+            except subprocess.CalledProcessError as e:
+                self.execution_summary["failed_script"] = script["path"]
+                self.execution_summary["error_details"] = e.stderr
+                self.logger.error(
+                    f"Chain execution failed at script {index}/{total_scripts}"
+                )
+                self.logger.error(f"Error output:\n{e.stderr}")
+
+                if not continue_on_error:
+                    raise ChainExecutionError(script["path"], e.stderr, e.returncode)
+
+        self.execution_summary["end_time"] = datetime.now().isoformat()
+        self._log_final_summary()
+        return self.execution_summary
+
+    def _log_final_summary(self):
+        start = datetime.fromisoformat(self.execution_summary["start_time"])
+        end = datetime.fromisoformat(self.execution_summary["end_time"])
+        duration = (end - start).total_seconds()
+        self.execution_summary["total_duration"] = duration
+
+        summary_file = (
+            BASE_DIR
+            / "logs"
+            / f'chain_summary_{self.chain_name}_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
+        )
+        with open(summary_file, "w") as f:
+            json.dump(self.execution_summary, f, indent=2)
+        self.logger.info(f"\nDetailed summary saved to: {summary_file}")
+
+
+# Define script chain
+scripts = [
+    {
+        "path": "process_numbers.py",
+        "args": {
+            "input-file": str(BASE_DIR / "data" / "dummy.txt"),
+            "output-file": str(BASE_DIR / "data" / "numbers.json"),
+            "d": True,
+        },
+    },
+    {
+        "path": "calculate_stats.py",
+        "args": {
+            "input-file": str(BASE_DIR / "data" / "numbers.json"),
+            "output-file": str(BASE_DIR / "data" / "stats.json"),
+            "d": True,
+        },
+    },
+    {
+        "path": "generate_report.py",
+        "args": {
+            "input-file": str(BASE_DIR / "data" / "stats.json"),
+            "output-file": str(BASE_DIR / "data" / "final_report.txt"),
+            "d": True,
+        },
+    },
+]
+
+if __name__ == "__main__":
+    try:
+        chain = ScriptChain(scripts, chain_name="stats_processing")
+        summary = chain.execute_chain(continue_on_error=False)
+        print("\nChain execution completed successfully!")
+        print(f"Check the report at: {BASE_DIR / 'data' / 'final_report.txt'}")
+    except Exception as e:
+        print(f"\nFatal error in chain execution: {str(e)}")
+        sys.exit(1)

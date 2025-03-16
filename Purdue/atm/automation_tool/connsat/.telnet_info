@@ -1,0 +1,12 @@
+
+tmux_1$ grep -n 377 `find . -type f -print` | grep -v Binary
+
+tcp_multi_client_server/tcp_telnet_notes.txt:10:      write(s,"\377\375\042\377\373\001",6);
+tcp_multi_client_server/tcp_telnet_notes.txt:15:      write(s,"\377\373\371\377\373\001",6);
+tcp_multi_client_server/tcp_telnet_notes.txt:58:      IAC                 255    \377    0xff    Data Byte 255.
+tcp_multi_client_server/tcp_multi_client_server.c:163:                        // write(new_socket, "\377\375\042\377\373\001", 6);
+tcp_multi_client_server/tcp_multi_client_server.c:169:                        send_ret = send(new_socket, "\377\375\042\377\373\001", 6, 0);
+tcp_multi_client_server/tcp_multi_client_server.c:181:                        // write(new_socket, "\377\373\371\377\373\001", 6);
+tcp_multi_client_server/tcp_multi_client_server.c:182:                        send_ret = send(new_socket, "\377\373\371\377\373\001", 6, 0);
+
+

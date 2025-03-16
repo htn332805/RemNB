@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+from scriptlet_base import ScriptletBase
+import random, pexpect, time, re
+
+
+class NumberProcessor(ScriptletBase):
+    def _wait_for_prompt(self, process, expected_prompt, count=None, meta_char=None):
+        """Modified version of the wait_for_prompt function as a class method"""
+        attempts = 0
+        while True:
+            if meta_char:
+                process.send(meta_char)
+            try:
+                process.expect([expected_prompt], timeout=3)
+                return process.match.group().decode("utf-8")
+            except pexpect.TIMEOUT:
+                attempts += 1
+                if count and attempts >= count:
+                    return 0
+
+    def _execute_commands(self, process, command_file, default_prompt):
+        """Execute commands from file with dynamic prompt handling"""
+        current_prompt = default_prompt
+        with open(command_file, "r") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+
+                # Check for prompt override
+                if line.startswith("new_prompt="):
+                    current_prompt = line.split("=", 1)[1].strip()
+                    self.logger.info(f"Updated prompt to: {current_prompt}")
+                    continue
+
+                # Send command and wait for prompt
+                process.sendline(line)
+                prompt = self._wait_for_prompt(
+                    process=process,
+                    expected_prompt=current_prompt,
+                    count=5,
+                    meta_char="\x03",  # Ctrl+C as safety measure
+                )
+
+                if not prompt:
+                    raise RuntimeError("Failed to recover prompt after command")
+
+    def _execute(self):
+        # Original number generation logic
+        numbers = [random.randint(1, 1000) for _ in range(100)]
+        with open(self.args.output_file, "w") as f:
+            f.write("\n".join(map(str, numbers)))
+
+        # New command execution logic
+        with pexpect.spawn(f"ssh {self.args.username}@{self.args.host}") as process:
+            # Initial connection setup
+            self._wait_for_prompt(
+                process=process, expected_prompt=r"(password:|Password:)", count=5
+            )
+            process.sendline(self.args.password)
+
+            # Wait for default prompt
+            default_prompt = r"[\$#]"  # Default regex for shell prompts
+            self._wait_for_prompt(process, default_prompt)
+
+            # Execute commands from file
+            self._execute_commands(
+                process=process,
+                command_file=self.args.command_file,
+                default_prompt=default_prompt,
+            )
+
+        return {"status": "success", "numbers_generated": len(numbers)}
+
+
+if __name__ == "__main__":
+    processor = NumberProcessor("process_numbers")
+    # Add required arguments for command execution
+    processor.parser.add_argument("--host", required=True, help="Target hostname")
+    processor.parser.add_argument("--username", required=True, help="SSH username")
+    processor.parser.add_argument("--password", required=True, help="SSH password")
+    processor.parser.add_argument(
+        "--command-file", required=True, help="File containing commands to execute"
+    )
+    result = processor.run()

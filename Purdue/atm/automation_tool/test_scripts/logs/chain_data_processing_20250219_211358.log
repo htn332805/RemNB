@@ -1,0 +1,25 @@
+2025-02-19 21:13:58,951 - chain_data_processing - INFO - 
+Starting execution chain: data_processing
+2025-02-19 21:13:58,952 - chain_data_processing - INFO - Total scripts to execute: 2
+2025-02-19 21:13:58,952 - chain_data_processing - INFO - 
+Executing script 1/2: script1.py
+2025-02-19 21:13:58,952 - chain_data_processing - INFO - 
+================================================================================
+2025-02-19 21:13:58,952 - chain_data_processing - INFO - Executing: python3 script1.py --caller chain_executor --input-file data.txt --output-file output1.txt
+2025-02-19 21:13:59,227 - chain_data_processing - INFO - ✓ Successfully completed in 0.28 seconds
+2025-02-19 21:13:59,227 - chain_data_processing - INFO - 
+Executing script 2/2: script2.py
+2025-02-19 21:13:59,227 - chain_data_processing - INFO - 
+================================================================================
+2025-02-19 21:13:59,228 - chain_data_processing - INFO - Executing: python3 script2.py --caller script1.py --input-file output1.txt --output-file final.txt
+2025-02-19 21:13:59,489 - chain_data_processing - INFO - ✓ Successfully completed in 0.26 seconds
+2025-02-19 21:13:59,490 - chain_data_processing - INFO - 
+================================================================================
+2025-02-19 21:13:59,490 - chain_data_processing - INFO - EXECUTION CHAIN SUMMARY
+2025-02-19 21:13:59,490 - chain_data_processing - INFO - ================================================================================
+2025-02-19 21:13:59,490 - chain_data_processing - INFO - Chain Name: data_processing
+2025-02-19 21:13:59,491 - chain_data_processing - INFO - Total Duration: 0.54 seconds
+2025-02-19 21:13:59,491 - chain_data_processing - INFO - Successful Scripts: 2/2
+2025-02-19 21:13:59,491 - chain_data_processing - INFO - Chain Completed Successfully
+2025-02-19 21:13:59,492 - chain_data_processing - INFO - 
+Detailed summary saved to: logs/chain_summary_data_processing_20250219_211359.json

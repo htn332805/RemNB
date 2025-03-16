@@ -1,0 +1,5 @@
+
+dot -Tpng < connections.dot > connections.png
+
+dot -Tpdf < connections.dot > connections.pdf
+

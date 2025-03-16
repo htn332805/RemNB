@@ -1,0 +1,32 @@
+#!/run/current-system/sw/bin/env python3
+
+from scriptlet_base import ScriptletBase
+import json, os
+from icecream import ic
+
+
+class NumberProcessor(ScriptletBase):
+    # In process_numbers.py
+    def _execute(self):
+        try:
+            numbers = list(range(1, 101))
+
+            if self.args.debug:
+                ic("Writing to:", self.args.output_file)
+
+            os.makedirs(os.path.dirname(self.args.output_file), exist_ok=True)
+            with open(self.args.output_file, "w") as f:
+                json.dump(numbers, f)
+
+            if self.args.debug:
+                ic("File written successfully")
+
+            return {"status": "success", "numbers_generated": len(numbers)}
+        except Exception as e:
+            self.logger.error(f"Failed to process numbers: {str(e)}")
+        raise
+
+
+if __name__ == "__main__":
+    processor = NumberProcessor("process_numbers")
+    result = processor.run()

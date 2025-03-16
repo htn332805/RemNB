@@ -1,0 +1,346 @@
+#!/run/current-system/sw/bin/bash
+### #!/usr/bin/sh
+
+### #!/usr/bin/env sh
+
+# DISPLAY EXECUTEABLE TMUX SETUP COMMANDS:
+OPTION_DISPLAY="1"
+
+# EXECUTE THE TMUX SETUP COMMANDS:
+OPTION_EXECUTE="1"
+
+OPTION_CONFIG="0"
+
+OPTION_CONFIG_FILE="./tmux_config"
+
+CONNSAT_LOCATION="/home/nixos/test_tool/connsat/connsat"
+if [ -e "$CONNSAT_LOCATION" ] ; then
+	#echo Using CONNSAT_LOCATION\: $CONNSAT_LOCATION
+	:
+else
+	CONNSAT_LOCATION="/home/nixos/automation_tool/connsat/connsat"
+	if [ -e "$CONNSAT_LOCATION" ] ; then
+		# echo Using CONNSAT_LOCATION\: $CONNSAT_LOCATION
+		:
+	else
+		CONNSAT_LOCATION="./connsat"
+		#echo Using CONNSAT_LOCATION\: $CONNSAT_LOCATION
+		echo Missing CONNSAT path!
+		exit 0
+	fi
+fi
+
+# tmux list-keys
+# tmux list-commands
+# tmux list-clients
+# tmux list-buffers
+
+# tmux list-sessions
+# tmux list-windows
+# tmux list-panes
+# tmux list-clients
+
+# set-option -g default-command "exec /bin/ksh"
+
+# https://stackoverflow.com/questions/57429593/create-new-pane-from-tmux-command-line
+
+start_server()
+{
+	### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+		echo tmux start-server
+	fi
+
+	if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+		tmux start-server
+	fi
+}
+
+find_config_file_match()
+{
+	if [ -f "$OPTION_CONFIG_FILE" ] ; then
+
+		cat "$OPTION_CONFIG_FILE" | \
+		while true ; do
+			if read a b ; then
+				# echo "test	"$a $b
+				if [ "$a" = "$NEXT_WINDOW_CREATED" ] ; then
+					# echo "test	"$a TEST $b MATCH
+					TMUX_SPAWN_SHELL="$b"
+
+					echo $TMUX_SPAWN_SHELL
+
+					return
+				else
+					# echo "test	"$a TEST $b
+					:
+				fi
+			else
+				break
+			fi
+		done
+	fi
+}
+
+new_session()
+{
+while true ; do
+
+		# echo $SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE
+
+		NEXT_WINDOW_CREATED="$SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE"
+		NEXT_WINDOW_TILE="$SESSION_VALUE:$WINDOW_VALUE"
+
+		if [ "$OPTION_CONFIG" -ne "0" ] ; then
+			echo "$SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE" \"$CONNSAT_LOCATION -W 120 -S /run/current-system/sw/bin/bash -i -p $CONNSAT_PORT\"
+		fi
+
+		if [ -f "$OPTION_CONFIG_FILE" ] ; then
+
+			MATCH_TMP=`find_config_file_match "$NEXT_WINDOW_CREATED"`
+			# TMUX_SPAWN_SHELL="\"$MATCH_TMP\""
+			TMUX_SPAWN_SHELL="$MATCH_TMP"
+		else
+			TMUX_SPAWN_SHELL="\"$CONNSAT_LOCATION -W 120 -S /run/current-system/sw/bin/bash -i -p $CONNSAT_PORT\""
+		fi
+
+#echo FINAL_TMUX_SPAWN_SHELL $TMUX_SPAWN_SHELL
+#exit
+
+		if [ "$PANE_VALUE" -eq "0" ] ; then
+
+			if [ "$SESSION_START" -ne "0" ] ; then
+
+				### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+				if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+					# echo tmux new-session -d \"$CONNSAT_LOCATION -p $CONNSAT_PORT\"
+					echo tmux new-session -d $TMUX_SPAWN_SHELL
+				fi
+
+				if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+					# tmux new-session -d "$CONNSAT_LOCATION -p $CONNSAT_PORT"
+					# eval tmux new-session -d \"$CONNSAT_LOCATION -p $CONNSAT_PORT\"
+					eval tmux new-session -d $TMUX_SPAWN_SHELL
+				fi
+
+			else
+
+				if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+					# echo tmux new-window -d \"$CONNSAT_LOCATION -p $CONNSAT_PORT\"
+					echo tmux new-window -d $TMUX_SPAWN_SHELL
+				fi
+
+				if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+					# tmux new-window -d "$CONNSAT_LOCATION -p $CONNSAT_PORT"
+					# eval tmux new-window -d \"$CONNSAT_LOCATION -p $CONNSAT_PORT\"
+					eval tmux new-window -d $TMUX_SPAWN_SHELL
+				fi
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+				echo tmux send-keys -t \"$NEXT_WINDOW_CREATED\" \"PS1=\\\"CONNSAT_$CONNSAT_PORT""_$SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE: \\u@\\h \\W]\\$ \\\"\" ENTER
+			fi
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				tmux send-keys -t "$NEXT_WINDOW_CREATED" "PS1=\"CONNSAT_$CONNSAT_PORT""_$SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE: \u@\h \W]\$ \"" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				:
+				# tmux send-keys -t "$NEXT_WINDOW_CREATED" "clear" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				:
+				# tmux send-keys -t "$NEXT_WINDOW_CREATED" "echo TMUX_PANE \$TMUX_PANE" ENTER
+			fi
+
+			if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+				echo tmux send-keys -t \"$NEXT_WINDOW_CREATED\" \"echo NEXT_WINDOW_CREATED $NEXT_WINDOW_CREATED\" ENTER
+			fi
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				tmux send-keys -t "$NEXT_WINDOW_CREATED" "echo NEXT_WINDOW_CREATED $NEXT_WINDOW_CREATED" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				:
+				### tmux send-keys -t "$NEXT_WINDOW_CREATED" "tml2" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$SESSION_START" -ne "0" ] ; then
+
+				if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+					echo tmux set -g mouse on
+				fi
+
+				if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+					tmux set -g mouse on
+				fi
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		else
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+				# echo tmux split-window -t \"$LAST_WINDOW_CREATED\" -h -d \"$CONNSAT_LOCATION -p $CONNSAT_PORT\"
+				echo tmux split-window -t \"$LAST_WINDOW_CREATED\" -h -d $TMUX_SPAWN_SHELL
+			fi
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				# tmux split-window -t "$LAST_WINDOW_CREATED" -h -d "$CONNSAT_LOCATION -p $CONNSAT_PORT"
+				# eval tmux split-window -t \"$LAST_WINDOW_CREATED\" -h -d \"$CONNSAT_LOCATION -p $CONNSAT_PORT\"
+				eval tmux split-window -t \"$LAST_WINDOW_CREATED\" -h -d $TMUX_SPAWN_SHELL
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+				echo tmux send-keys -t \"$NEXT_WINDOW_CREATED\" \"PS1=\\\"CONNSAT_$CONNSAT_PORT""_$SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE: \\u@\\h \\W]\\$ \\\"\" ENTER
+			fi
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				tmux send-keys -t "$NEXT_WINDOW_CREATED" "PS1=\"CONNSAT_$CONNSAT_PORT""_$SESSION_VALUE:$WINDOW_VALUE.$PANE_VALUE: \u@\h \W]\$ \"" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				:
+				# tmux send-keys -t "$NEXT_WINDOW_CREATED" "clear" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				:
+				# tmux send-keys -t "$NEXT_WINDOW_CREATED" "echo TMUX_PANE \$TMUX_PANE" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+				echo tmux send-keys -t \"$NEXT_WINDOW_CREATED\" \"echo NEXT_WINDOW_CREATED $NEXT_WINDOW_CREATED\" ENTER
+			fi
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				tmux send-keys -t "$NEXT_WINDOW_CREATED" "echo NEXT_WINDOW_CREATED $NEXT_WINDOW_CREATED" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				:
+				### tmux send-keys -t "$NEXT_WINDOW_CREATED" "tml2" ENTER
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+			if [ "$OPTION_DISPLAY" -ne "0" ] ; then
+				echo tmux select-layout -t \"$NEXT_WINDOW_TILE\" tiled
+			fi
+
+			if [ "$OPTION_EXECUTE" -ne "0" ] ; then
+				tmux select-layout -t "$NEXT_WINDOW_TILE" tiled
+			fi
+
+			### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		fi
+
+		LAST_WINDOW_CREATED="$NEXT_WINDOW_CREATED"
+
+		CONNSAT_PORT=$((CONNSAT_PORT+1))
+
+		PANE_VALUE=$((PANE_VALUE+1))
+
+		if [ "$PANE_VALUE" -ge "$TOTAL_PANES" ] ; then
+			break
+		fi
+	done
+}
+
+### INTIALIZE TMUX:
+start_server
+
+### NEW TMUX SESSION-0:
+### INCLUDES 1 TMUX WINDOW:
+### ADDS 9 TMUX PANES:
+
+SESSION_START="1"
+TOTAL_PANES="9"
+CONNSAT_PORT="20000"
+SESSION_VALUE="0"
+WINDOW_VALUE="0"
+PANE_VALUE="0"
+# OPTION_DISPLAY="1"
+# OPTION_EXECUTE="1"
+
+new_session
+echo
+echo
+
+### NO NEW SESSION, ADD WINDOW TO SESSION-0:
+### INCLUDES 1 TMUX WINDOW:
+### ADDS 9 TMUX PANES:
+
+SESSION_START="0"
+TOTAL_PANES="9"
+CONNSAT_PORT="20050"
+SESSION_VALUE="0"
+WINDOW_VALUE="1"
+PANE_VALUE="0"
+# OPTION_DISPLAY="1"
+# OPTION_EXECUTE="1"
+
+new_session
+echo
+echo
+
+### NEW TMUX SESSION-1:
+### INCLUDES 1 TMUX WINDOW:
+### ADDS 12 TMUX PANES:
+
+SESSION_START="1"
+TOTAL_PANES="12"
+CONNSAT_PORT="20100"
+SESSION_VALUE="1"
+WINDOW_VALUE="0"
+PANE_VALUE="0"
+# OPTION_DISPLAY="1"
+# OPTION_EXECUTE="1"
+
+new_session
+echo
+echo
+
+
+
+
+
+# tmux select-layout tiled
+
+
+# tmux select-layout -t 0:1 tiled
+
+# tmux select-window -t 0:0
+# tmux select-window -t 0:1
+
+
+# tmux kill-session -t 0
+# tmux kill-window -t :1
+
+

@@ -1,0 +1,8 @@
+2025-02-20 22:49:18,416 - chain_runner - INFO - Starting script chain execution
+2025-02-20 22:49:18,416 - chain_runner - INFO - Executing: /nix/store/p1d98wdh9fmkmbxn8900znfggr7igngi-python3-3.12.8-env/bin/python3.12 /home/nixos/automation_tool/test_scripts/debug_chain_demo/process_numbers.py --input-file /home/nixos/automation_tool/test_scripts/debug_chain_demo/data/dummy.txt --output-file /home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json -d
+2025-02-20 22:49:19,141 - chain_runner - INFO - Successfully completed process_numbers.py
+2025-02-20 22:49:19,142 - chain_runner - INFO - Executing: /nix/store/p1d98wdh9fmkmbxn8900znfggr7igngi-python3-3.12.8-env/bin/python3.12 /home/nixos/automation_tool/test_scripts/debug_chain_demo/calculate_stats.py --input-file /home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json --output-file /home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json -d
+2025-02-20 22:49:19,867 - chain_runner - INFO - Successfully completed calculate_stats.py
+2025-02-20 22:49:19,867 - chain_runner - INFO - Executing: /nix/store/p1d98wdh9fmkmbxn8900znfggr7igngi-python3-3.12.8-env/bin/python3.12 /home/nixos/automation_tool/test_scripts/debug_chain_demo/generate_report.py --input-file /home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json --output-file /home/nixos/automation_tool/test_scripts/debug_chain_demo/data/final_report.txt -d
+2025-02-20 22:49:20,574 - chain_runner - INFO - Successfully completed generate_report.py
+2025-02-20 22:49:20,575 - chain_runner - INFO - Chain execution completed successfully

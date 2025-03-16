@@ -1,0 +1,33 @@
+2025-02-20 22:49:18,777 - process_numbers - PID:835719 - INFO - Starting process_numbers
+2025-02-20 22:49:18,777 - process_numbers - PID:835719 - INFO - Launch time: 2025-02-20 22:49:18.777509
+2025-02-20 22:49:18,777 - process_numbers - PID:835719 - INFO - Called by: manual
+2025-02-20 22:49:18,778 - process_numbers - PID:835719 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/dummy.txt', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json'}
+2025-02-20 22:49:18,778 - process_numbers - PID:835719 - INFO - PID: 835719
+2025-02-20 22:49:18,779 - process_numbers - PID:835719 - DEBUG - Generated 100 numbers
+2025-02-20 22:49:18,779 - process_numbers - PID:835719 - DEBUG - First 5 numbers: [178, 133, 456, 237, 878]
+2025-02-20 22:49:19,101 - process_numbers - PID:835719 - INFO - Execution time: 0.33 seconds
+2025-02-20 22:49:19,103 - process_numbers - PID:835719 - DEBUG - Memory usage: 23.33 MB
+2025-02-20 22:49:19,103 - process_numbers - PID:835719 - DEBUG - Current memory allocation: 833.55 KB
+2025-02-20 22:49:19,103 - process_numbers - PID:835719 - DEBUG - Peak memory allocation: 874.59 KB
+2025-02-20 23:10:55,712 - process_numbers - PID:840149 - INFO - Starting process_numbers
+2025-02-20 23:10:55,713 - process_numbers - PID:840149 - INFO - Launch time: 2025-02-20 23:10:55.713251
+2025-02-20 23:10:55,713 - process_numbers - PID:840149 - INFO - Called by: manual
+2025-02-20 23:10:55,713 - process_numbers - PID:840149 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/dummy.txt', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json'}
+2025-02-20 23:10:55,714 - process_numbers - PID:840149 - INFO - PID: 840149
+2025-02-20 23:10:55,715 - process_numbers - PID:840149 - DEBUG - Generated 100 numbers
+2025-02-20 23:10:55,715 - process_numbers - PID:840149 - DEBUG - First 5 numbers: [425, 171, 655, 825, 822]
+2025-02-20 23:10:56,037 - process_numbers - PID:840149 - INFO - Execution time: 0.33 seconds
+2025-02-20 23:10:56,038 - process_numbers - PID:840149 - DEBUG - Memory usage: 23.36 MB
+2025-02-20 23:10:56,038 - process_numbers - PID:840149 - DEBUG - Current memory allocation: 834.64 KB
+2025-02-20 23:10:56,038 - process_numbers - PID:840149 - DEBUG - Peak memory allocation: 875.58 KB
+2025-02-20 23:15:58,673 - process_numbers - PID:841160 - INFO - Starting process_numbers
+2025-02-20 23:15:58,673 - process_numbers - PID:841160 - INFO - Launch time: 2025-02-20 23:15:58.673948
+2025-02-20 23:15:58,674 - process_numbers - PID:841160 - INFO - Called by: manual
+2025-02-20 23:15:58,674 - process_numbers - PID:841160 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/dummy.txt', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json'}
+2025-02-20 23:15:58,674 - process_numbers - PID:841160 - INFO - PID: 841160
+2025-02-20 23:15:58,675 - process_numbers - PID:841160 - DEBUG - Generated 100 numbers
+2025-02-20 23:15:58,676 - process_numbers - PID:841160 - DEBUG - First 5 numbers: [909, 658, 417, 996, 100]
+2025-02-20 23:15:59,003 - process_numbers - PID:841160 - INFO - Execution time: 0.33 seconds
+2025-02-20 23:15:59,004 - process_numbers - PID:841160 - DEBUG - Memory usage: 23.41 MB
+2025-02-20 23:15:59,005 - process_numbers - PID:841160 - DEBUG - Current memory allocation: 834.17 KB
+2025-02-20 23:15:59,005 - process_numbers - PID:841160 - DEBUG - Peak memory allocation: 875.22 KB

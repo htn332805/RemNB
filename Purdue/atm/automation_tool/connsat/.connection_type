@@ -1,0 +1,74 @@
+
+		if (distribution_mode_flag & BUFFER_DISTRIBUTION_MODE_FLAG_MENU_MODE) {
+
+			/* MENU_MODE: */
+
+			// printf("\tTRACE: %s-%d%s", __FILE__, __LINE__, newline_string_p);
+
+			switch (connsat_connection_distribution_list_p->connection_type) {
+
+				case CONNSAT_CONNECTION_TYPE_TERMINAL:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_NETWORK_SIDEBAND_SERVER:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_NETWORK_SIDEBAND_CHANNEL:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_FORKPTY:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_CONTROL_MENU:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_NONE:
+
+					break;
+
+				default:
+					connsat_connection_distribution_list_p->connection_type = CONNSAT_CONNECTION_TYPE_NONE;
+					break;
+			}
+
+		} else {
+
+			/* NON_MENU_MODE: */
+
+			// printf("\tTRACE: %s-%d%s", __FILE__, __LINE__, newline_string_p);
+
+			switch (connsat_connection_distribution_list_p->connection_type) {
+
+				case CONNSAT_CONNECTION_TYPE_TERMINAL:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_NETWORK_SIDEBAND_SERVER:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_NETWORK_SIDEBAND_CHANNEL:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_FORKPTY:
+
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_CONTROL_MENU:
+					break;
+
+				case CONNSAT_CONNECTION_TYPE_NONE:
+					break;
+
+				default:
+					connsat_connection_distribution_list_p->connection_type = CONNSAT_CONNECTION_TYPE_NONE;
+					break;
+			}
+		}
+

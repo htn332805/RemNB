@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Basic Block Diagram:
+dot -Tpng < connections_001.dot > connections_001.png
+
+# Basic Block Diagram: User Types Terminal/TMUX keys
+# STEP-01: Receive KEYSTROKES into small input buffer
+dot -Tpng < connections_002.dot > connections_002.png
+
+# STEP-02: Duplicate KEYSTROKES into BMC output channel's big output buffers
+dot -Tpng < connections_003.dot > connections_003.png
+
+# STEP-03: BMC sends output back, to small channel buffer
+dot -Tpng < connections_004.dot > connections_004.png
+
+# STEP-04: BMC sends output back, small channel buffer is duplicated to big buffers
+dot -Tpng < connections_005.dot > connections_005.png
+
+
+# STEP-05: Duplicate KEYSTROKES into Menu-Code output channel's big output buffers
+dot -Tpng < connections_006.dot > connections_006.png
+
+# STEP-06: Menu-Code sends output back, to menu small channel buffer
+dot -Tpng < connections_007.dot > connections_007.png
+
+# STEP-07: Menu-Code sends output back, small channel buffer is duplicated to big buffers
+dot -Tpng < connections_008.dot > connections_008.png
+

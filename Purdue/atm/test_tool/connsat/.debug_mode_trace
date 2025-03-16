@@ -1,0 +1,35 @@
+
+
+
+vi connsat_circular_buffer_algorithm.c
+
+13 #include "connsat_main.h"
+14 #include "connsat_circular_buffer_algorithm.h"
+15 #include "connsat_ascii.h"
+16 
+17 // #define CIRCULAR_BUFFER_DUMP_DEBUG 1
+18
+
+### edit line 17 to have // in front
+
+
+### after you finish that, there is one more file to fix
+
+
+vi connsat_main.h
+
+40 // #define SIDEBAND_TERMINAL_STREAM_READ_BUFFER_DUMP 1
+41 // #define SIDEBAND_TERMINAL_STREAM_WRITE_BUFFER_DUMP 1
+42 // #define CIRCULAR_BUFFER_DUMP_DEBUG_SIDEBAND_OUTPUT 1
+43 // #define SIDEBAND_TERMINAL_STREAM_READ_BUFFER_CRLF 1
+44 // #define FORKPTY_STREAM_READ_BUFFER_DUMP 1
+45 // #define FORKPTY_STREAM_WRITE_BUFFER_DUMP 1
+
+
+### edit line 42 to have // in front
+
+### then run "make sc" to clean the binaries
+
+### then "make" to build it again
+
+

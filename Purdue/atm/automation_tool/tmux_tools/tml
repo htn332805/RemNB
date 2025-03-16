@@ -1,0 +1,50 @@
+#!/run/current-system/sw/bin/bash
+
+#!/run/current-system/sw/bin/env sh
+
+CONNSAT_LOCATION="/home/nixos/automation_tool/connsat/connsat"
+if [ -e "$CONNSAT_LOCATION" ] ; then
+	echo Using CONNSAT_LOCATION\: $CONNSAT_LOCATION
+else
+	CONNSAT_LOCATION="/home/nixos/automation_tool/connsat/connsat"
+	if [ -e "$CONNSAT_LOCATION" ] ; then
+		echo Using CONNSAT_LOCATION\: $CONNSAT_LOCATION
+	else
+		CONNSAT_LOCATION="./connsat"
+		#echo Using CONNSAT_LOCATION\: $CONNSAT_LOCATION
+		echo Missing CONNSAT path!
+		exit 0
+	fi
+fi
+
+echo SESSIONS:
+tmux list-sessions
+echo
+echo
+echo WINDOWS:
+tmux list-windows
+echo
+echo
+echo PANES:
+tmux list-panes
+echo
+echo
+echo CLIENTS:
+tmux list-clients
+
+tmux display-message -p '#S #I #P'
+
+# $ tmux
+#	tmux sessions can be initialized by creating
+#	separate windows as CLIs or opening more
+#	than one terminal in a single window in the
+#	form of panes.
+#
+#	This can be achieved via the following shortcuts.
+# 
+# Ctrl + B and type w Allows you to select from a list of windows
+# Ctrl + B and type 0 Allows you to switch to window number 0. Replace 0 with any number to move to that window
+# Ctrl + B and type o Allows you to switch to the next pane
+# Ctrl + B and type ; Allows you to alternate between both panes
+# Ctrl + B and type x Allows you to close a pane
+

@@ -1,0 +1,30 @@
+2025-02-20 22:49:20,213 - generate_report - PID:835728 - INFO - Starting generate_report
+2025-02-20 22:49:20,213 - generate_report - PID:835728 - INFO - Launch time: 2025-02-20 22:49:20.213822
+2025-02-20 22:49:20,214 - generate_report - PID:835728 - INFO - Called by: manual
+2025-02-20 22:49:20,214 - generate_report - PID:835728 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/final_report.txt'}
+2025-02-20 22:49:20,214 - generate_report - PID:835728 - INFO - PID: 835728
+2025-02-20 22:49:20,215 - generate_report - PID:835728 - DEBUG - Read statistics: {'mean': 455.45, 'median': 436.0, 'std_dev': 302.8325661670375, 'min': 1.0, 'max': 987.0}
+2025-02-20 22:49:20,535 - generate_report - PID:835728 - INFO - Execution time: 0.32 seconds
+2025-02-20 22:49:20,536 - generate_report - PID:835728 - DEBUG - Memory usage: 23.39 MB
+2025-02-20 22:49:20,536 - generate_report - PID:835728 - DEBUG - Current memory allocation: 833.21 KB
+2025-02-20 22:49:20,536 - generate_report - PID:835728 - DEBUG - Peak memory allocation: 874.15 KB
+2025-02-20 23:10:57,140 - generate_report - PID:840156 - INFO - Starting generate_report
+2025-02-20 23:10:57,140 - generate_report - PID:840156 - INFO - Launch time: 2025-02-20 23:10:57.140752
+2025-02-20 23:10:57,141 - generate_report - PID:840156 - INFO - Called by: manual
+2025-02-20 23:10:57,141 - generate_report - PID:840156 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/final_report.txt'}
+2025-02-20 23:10:57,141 - generate_report - PID:840156 - INFO - PID: 840156
+2025-02-20 23:10:57,142 - generate_report - PID:840156 - DEBUG - Read statistics: {'mean': 468.19, 'median': 463.5, 'std_dev': 281.5565571044028, 'min': 1.0, 'max': 992.0}
+2025-02-20 23:10:57,460 - generate_report - PID:840156 - INFO - Execution time: 0.32 seconds
+2025-02-20 23:10:57,461 - generate_report - PID:840156 - DEBUG - Memory usage: 23.33 MB
+2025-02-20 23:10:57,462 - generate_report - PID:840156 - DEBUG - Current memory allocation: 833.59 KB
+2025-02-20 23:10:57,462 - generate_report - PID:840156 - DEBUG - Peak memory allocation: 874.63 KB
+2025-02-20 23:16:00,124 - generate_report - PID:841166 - INFO - Starting generate_report
+2025-02-20 23:16:00,124 - generate_report - PID:841166 - INFO - Launch time: 2025-02-20 23:16:00.124926
+2025-02-20 23:16:00,125 - generate_report - PID:841166 - INFO - Called by: manual
+2025-02-20 23:16:00,125 - generate_report - PID:841166 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/final_report.txt'}
+2025-02-20 23:16:00,125 - generate_report - PID:841166 - INFO - PID: 841166
+2025-02-20 23:16:00,126 - generate_report - PID:841166 - DEBUG - Read statistics: {'mean': 492.77, 'median': 456.0, 'std_dev': 297.7958372896953, 'min': 17.0, 'max': 996.0}
+2025-02-20 23:16:00,446 - generate_report - PID:841166 - INFO - Execution time: 0.32 seconds
+2025-02-20 23:16:00,447 - generate_report - PID:841166 - DEBUG - Memory usage: 23.36 MB
+2025-02-20 23:16:00,447 - generate_report - PID:841166 - DEBUG - Current memory allocation: 829.82 KB
+2025-02-20 23:16:00,447 - generate_report - PID:841166 - DEBUG - Peak memory allocation: 870.76 KB

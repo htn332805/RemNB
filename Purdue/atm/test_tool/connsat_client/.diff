@@ -1,0 +1,4 @@
+
+vimdiff connsat_circular_buffer_algorithm.h ../connsat/connsat_circular_buffer_algorithm.h
+vimdiff connsat_circular_buffer_algorithm.c ../connsat/connsat_circular_buffer_algorithm.c
+

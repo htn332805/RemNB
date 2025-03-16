@@ -1,0 +1,33 @@
+2025-02-20 22:49:19,496 - calculate_stats - PID:835725 - INFO - Starting calculate_stats
+2025-02-20 22:49:19,496 - calculate_stats - PID:835725 - INFO - Launch time: 2025-02-20 22:49:19.496738
+2025-02-20 22:49:19,497 - calculate_stats - PID:835725 - INFO - Called by: manual
+2025-02-20 22:49:19,497 - calculate_stats - PID:835725 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json'}
+2025-02-20 22:49:19,497 - calculate_stats - PID:835725 - INFO - PID: 835725
+2025-02-20 22:49:19,498 - calculate_stats - PID:835725 - DEBUG - Read 100 numbers
+2025-02-20 22:49:19,500 - calculate_stats - PID:835725 - DEBUG - Calculated statistics: {'mean': 455.45, 'median': 436.0, 'std_dev': 302.8325661670375, 'min': 1.0, 'max': 987.0}
+2025-02-20 22:49:19,826 - calculate_stats - PID:835725 - INFO - Execution time: 0.33 seconds
+2025-02-20 22:49:19,827 - calculate_stats - PID:835725 - DEBUG - Memory usage: 23.41 MB
+2025-02-20 22:49:19,828 - calculate_stats - PID:835725 - DEBUG - Current memory allocation: 776.63 KB
+2025-02-20 22:49:19,828 - calculate_stats - PID:835725 - DEBUG - Peak memory allocation: 817.52 KB
+2025-02-20 23:10:56,429 - calculate_stats - PID:840154 - INFO - Starting calculate_stats
+2025-02-20 23:10:56,430 - calculate_stats - PID:840154 - INFO - Launch time: 2025-02-20 23:10:56.430090
+2025-02-20 23:10:56,430 - calculate_stats - PID:840154 - INFO - Called by: manual
+2025-02-20 23:10:56,430 - calculate_stats - PID:840154 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json'}
+2025-02-20 23:10:56,430 - calculate_stats - PID:840154 - INFO - PID: 840154
+2025-02-20 23:10:56,431 - calculate_stats - PID:840154 - DEBUG - Read 100 numbers
+2025-02-20 23:10:56,434 - calculate_stats - PID:840154 - DEBUG - Calculated statistics: {'mean': 468.19, 'median': 463.5, 'std_dev': 281.5565571044028, 'min': 1.0, 'max': 992.0}
+2025-02-20 23:10:56,754 - calculate_stats - PID:840154 - INFO - Execution time: 0.33 seconds
+2025-02-20 23:10:56,755 - calculate_stats - PID:840154 - DEBUG - Memory usage: 23.41 MB
+2025-02-20 23:10:56,755 - calculate_stats - PID:840154 - DEBUG - Current memory allocation: 783.75 KB
+2025-02-20 23:10:56,756 - calculate_stats - PID:840154 - DEBUG - Peak memory allocation: 824.65 KB
+2025-02-20 23:15:59,397 - calculate_stats - PID:841163 - INFO - Starting calculate_stats
+2025-02-20 23:15:59,398 - calculate_stats - PID:841163 - INFO - Launch time: 2025-02-20 23:15:59.397995
+2025-02-20 23:15:59,398 - calculate_stats - PID:841163 - INFO - Called by: manual
+2025-02-20 23:15:59,398 - calculate_stats - PID:841163 - INFO - Arguments: {'debug': True, 'caller': 'manual', 'input_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/numbers.json', 'output_file': '/home/nixos/automation_tool/test_scripts/debug_chain_demo/data/stats.json'}
+2025-02-20 23:15:59,398 - calculate_stats - PID:841163 - INFO - PID: 841163
+2025-02-20 23:15:59,399 - calculate_stats - PID:841163 - DEBUG - Read 100 numbers
+2025-02-20 23:15:59,402 - calculate_stats - PID:841163 - DEBUG - Calculated statistics: {'mean': 492.77, 'median': 456.0, 'std_dev': 297.7958372896953, 'min': 17.0, 'max': 996.0}
+2025-02-20 23:15:59,723 - calculate_stats - PID:841163 - INFO - Execution time: 0.33 seconds
+2025-02-20 23:15:59,724 - calculate_stats - PID:841163 - DEBUG - Memory usage: 23.34 MB
+2025-02-20 23:15:59,724 - calculate_stats - PID:841163 - DEBUG - Current memory allocation: 776.69 KB
+2025-02-20 23:15:59,725 - calculate_stats - PID:841163 - DEBUG - Peak memory allocation: 817.64 KB

@@ -1,0 +1,284 @@
+
+# https://graphviz.org/Gallery/directed/fsm.html
+# https://graphviz.org/doc/info/command.html
+# https://graphviz.org/doc/info/colors.html
+# https://graphviz.org/doc/info/attrs.html
+
+digraph sideband_connection_automation_tool {
+
+	label = "Sideband Connection Automation Tool\n08/21/2024";
+	labelloc = "t";
+
+        fontname="Helvetica,Arial,sans-serif"
+        node [fontname="Helvetica,Arial,sans-serif"]
+        edge [fontname="Helvetica,Arial,sans-serif"]
+        rankdir=LR;
+	# splines="line"
+        # node [shape = doublecircle]; 0 3 4 8;
+        # node [shape = circle];
+        node [shape = ellipse];
+
+	connsat_dist_array [shape = "record" label = "<f0> terminal \n\n\n\n\n\n\n | <f1> forkpty \n\n | <f2> sideband[0] \n\n\n\n\n\n\n | <f3> sideband[1]\n\n\n\n | <f4> sideband[2]\n\n\n\n | <f5> sideband[3]\n\n\n\n | <f6> menu-channel | <f7> session-log | <f8> capture-log"];
+		# connsat_dist_array [shape = "record" label = "<f0> terminal | <f1> forkpty | <f2> sideband[0] | <f3> sideband[1] | <f4> sideband[2] | <f5> sideband[3] | <f6> menu-channel | <f7> session-log | <f8> capture-log" style=filled fillcolor=orange];
+
+	# connections_001.dot
+	# label_node [shape = "box" label = "BASIC BLOCK\nDIAGRAM:" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_002.dot
+	# label_node [shape = "box" label = "BLOCK DIAGRAM:\lUser types keyboard in terminal/tmux\lSTEP-01: Receive KEYSTROKES into channel small input buffer" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_003.dot
+	# label_node [shape = "box" label = "BLOCK DIAGRAM:\lUser types keyboard in terminal/tmux\lSTEP-02: Duplicate KEYSTROKES into output channel's big output buffers\lLOCAL_ECHO_MODE" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_004.dot
+	# label_node [shape = "box" label = "BLOCK DIAGRAM:\lBMC Sends Output Back\lSTEP-03: Duplicate BMC-stdout into channel small input buffer" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_005.dot
+	# label_node [shape = "box" label = "BLOCK DIAGRAM:\lBMC Sends Output Back\lSTEP-04: Receive BMC-stdout into small channel buffer, then is duplicated to big buffers" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_006.dot (connections_003.dot)
+	# label_node [shape = "box" label = "BLOCK DIAGRAM:\lUser types keyboard in terminal/tmux\lSTEP-05: Duplicate KEYSTROKES into Menu-Code stdin channel's big output buffers\lLOCAL_ECHO_MODE" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_007.dot (connections_004.dot)
+	label_node [shape = "box" label = "BLOCK DIAGRAM:\lMenu-Code Sends its stdout Back\lSTEP-06: Duplicate Menu-Code-stdout into channel small input buffer" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	# connections_008.dot (connections_005.dot)
+	# label_node [shape = "box" label = "BLOCK DIAGRAM:\lMenu-Code Sends its stdout Back\lSTEP-07: Receive Menu-Code-stdout into small channel buffer, then is duplicated to big buffers" penwidth=4.0 color = "lightblue" style=filled fillcolor=yellow]
+
+	label_node -> fork00exec [color = "white" ]
+
+	term [shape = "doublecircle" label = "User\nTerminal"]
+		# term [shape = "doublecircle" label = "User\nTerminal" style=filled fillcolor=magenta]
+	term -> terminal:f0 [dir = back]
+		# term -> terminal:f0 [dir = back penwidth=4.0 color = "red"]
+	term -> terminal:f1 [penwidth=1.0 color = "black"]
+		# term -> terminal:f1 [penwidth=4.0 color = "red"]
+
+
+	terminal [shape = "record" label = "<f0> display | <f1> keyboard"]
+		# terminal [shape = "record" label = "<f0> display | <f1> keyboard" style=filled fillcolor=orange]
+				##terminal [shape = "record" label = "<f1> keyboard | <f0> display"]
+					## # terminal [shape = "record" label = "<f1> keyboard | <f0> display" style=filled fillcolor=orange]
+	terminal:f0 -> term_disp_bbuf [label = "stdout" dir = back]
+		# terminal:f0 -> term_disp_bbuf [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	terminal:f1 -> term_key_sbuf [label = "stdin" penwidth=1.0 color = "black"]
+		# terminal:f1 -> term_key_sbuf [label = "stdin" penwidth=4.0 color = "red"]
+
+	term_key_sbuf [label = "terminal_keyboard_stdin\ldistribution_input_buffer_small"];
+		# term_key_sbuf [label = "terminal_keyboard_stdin\ldistribution_input_buffer_small" style=filled fillcolor=lightblue ];
+	term_disp_bbuf [label = "terminal_display_stdout\ldistribution_output_buffer_big"];
+		# term_disp_bbuf [label = "terminal_display_stdout\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	term_disp_bbuf -> connsat_dist_array:f0 [label = "stdout" dir = back]
+		# term_disp_bbuf -> connsat_dist_array:f0 [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	term_key_sbuf -> connsat_dist_array:f0 [label = "stdin" penwidth=1.0 color = "black"]
+		# term_key_sbuf -> connsat_dist_array:f0 [label = "stdin" penwidth=4.0 color = "red"]
+
+
+
+	side00term [shape = "doublecircle" label = "Sideband\nServer 00"]
+		# side00term [shape = "doublecircle" label = "Sideband\nServer 00" style=filled fillcolor=pink]
+	side00term -> side00terminal:f0 [dir = back]
+		# side00term -> side00terminal:f0 [dir = back penwidth=4.0 color = "red"]
+	side00term -> side00terminal:f1 []
+		# side00term -> side00terminal:f1 [penwidth=4.0 color = "red"]
+
+	side00terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin"]
+		# side00terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin" style=filled fillcolor=orange]
+				##side00terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout"]
+					## # side00terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout" style=filled fillcolor=orange]
+	side00terminal:f0 -> side00term_disp_bbuf [label = "stdout" dir = back]
+		# side00terminal:f0 -> side00term_disp_bbuf [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side00terminal:f1 -> side00term_key_sbuf [label = "stdin"]
+		# side00terminal:f1 -> side00term_key_sbuf [label = "stdin" penwidth=4.0 color = "red"]
+
+	side00term_key_sbuf [label = "side00_telnet_stdin\l_distribution_input_buffer_small"];
+		# side00term_key_sbuf [label = "side00_telnet_stdin\l_distribution_input_buffer_small" style=filled fillcolor=orange];
+	side00term_disp_bbuf [label = "side00_telnet_stdout\ldistribution_output_buffer_big"];
+		# side00term_disp_bbuf [label = "side00_telnet_stdout\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	side00term_disp_bbuf -> connsat_dist_array:f2 [label = "stdout" dir = back]
+		# side00term_disp_bbuf -> connsat_dist_array:f2 [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side00term_key_sbuf -> connsat_dist_array:f2 [label = "stdin"]
+		# side00term_key_sbuf -> connsat_dist_array:f2 [label = "stdin" penwidth=4.0 color = "red"]
+
+
+	side01term [shape = "doublecircle" label = "Sideband\nTerminal 01"]
+		# side01term [shape = "doublecircle" label = "Sideband\nTerminal 01" style=filled fillcolor=pink]
+	side01term -> side01terminal:f0 [dir = back]
+		# side01term -> side01terminal:f0 [dir = back penwidth=4.0 color = "red"]
+	side01term -> side01terminal:f1 []
+		# side01term -> side01terminal:f1 [penwidth=4.0 color = "red"]
+
+	side01terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin"]
+		# side01terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin" style=filled fillcolor=orange]
+				##side01terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout"]
+					## # side01terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout" style=filled fillcolor=orange]
+	side01terminal:f0 -> side01term_disp_bbuf [label = "stdout" dir = back]
+		# side01terminal:f0 -> side01term_disp_bbuf [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side01terminal:f1 -> side01term_key_sbuf [label = "stdin"]
+		# side01terminal:f1 -> side01term_key_sbuf [label = "stdin" penwidth=4.0 color = "red"]
+
+	side01term_key_sbuf [label = "side01_telnet_stdin\l_distribution_input_buffer_small"];
+		# side01term_key_sbuf [label = "side01_telnet_stdin\l_distribution_input_buffer_small" style=filled fillcolor=orange];
+	side01term_disp_bbuf [label = "side01_telnet_stdout\ldistribution_output_buffer_big"];
+		# side01term_disp_bbuf [label = "side01_telnet_stdout\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	side01term_disp_bbuf -> connsat_dist_array:f3 [label = "stdout" dir = back]
+		# side01term_disp_bbuf -> connsat_dist_array:f3 [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side01term_key_sbuf -> connsat_dist_array:f3 [label = "stdin"]
+		# side01term_key_sbuf -> connsat_dist_array:f3 [label = "stdin" penwidth=4.0 color = "red"]
+
+
+	side02term [shape = "doublecircle" label = "Sideband\nTerminal 02"]
+		# side02term [shape = "doublecircle" label = "Sideband\nTerminal 02" style=filled fillcolor=pink]
+	side02term -> side02terminal:f0 [dir = back]
+		# side02term -> side02terminal:f0 [dir = back penwidth=4.0 color = "red"]
+	side02term -> side02terminal:f1 []
+		# side02term -> side02terminal:f1 [penwidth=4.0 color = "red"]
+
+	side02terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin"]
+		# side02terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin" style=filled fillcolor=orange]
+				##side02terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout"]
+					## # side02terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout" style=filled fillcolor=orange]
+	side02terminal:f0 -> side02term_disp_bbuf [label = "stdout" dir = back]
+		# side02terminal:f0 -> side02term_disp_bbuf [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side02terminal:f1 -> side02term_key_sbuf [label = "stdin"]
+		# side02terminal:f1 -> side02term_key_sbuf [label = "stdin" penwidth=4.0 color = "red"]
+
+	side02term_key_sbuf [label = "side02_telnet_stdin\l_distribution_input_buffer_small"];
+		# side02term_key_sbuf [label = "side02_telnet_stdin\l_distribution_input_buffer_small" penwidth=4.0 color = "red"];
+	side02term_disp_bbuf [label = "side02_telnet_stdout\ldistribution_output_buffer_big"];
+		# side02term_disp_bbuf [label = "side02_telnet_stdout\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	side02term_disp_bbuf -> connsat_dist_array:f4 [label = "stdout" dir = back]
+		# side02term_disp_bbuf -> connsat_dist_array:f4 [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side02term_key_sbuf -> connsat_dist_array:f4 [label = "stdin"]
+		# side02term_key_sbuf -> connsat_dist_array:f4 [label = "stdin" penwidth=4.0 color = "red"]
+
+
+	side03term [shape = "doublecircle" label = "Sideband\nTerminal 03"]
+		# side03term [shape = "doublecircle" label = "Sideband\nTerminal 03" style=filled fillcolor=pink]
+	side03term -> side03terminal:f0 [dir = back]
+		# side03term -> side03terminal:f0 [dir = back penwidth=4.0 color = "red"]
+	side03term -> side03terminal:f1 []
+		# side03term -> side03terminal:f1 [penwidth=4.0 color = "red"]
+
+	side03terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin"]
+		# side03terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin" style=filled fillcolor=orange]
+				##side03terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout"]
+					## # side03terminal [shape = "record" label = "<f1> telnet-stdin | <f0> telnet-stdout" style=filled fillcolor=orange]
+	side03terminal:f0 -> side03term_disp_bbuf [label = "stdout" dir = back]
+		# side03terminal:f0 -> side03term_disp_bbuf [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side03terminal:f1 -> side03term_key_sbuf [label = "stdin"]
+		# side03terminal:f1 -> side03term_key_sbuf [label = "stdin" penwidth=4.0 color = "red"]
+
+	side03term_key_sbuf [label = "side03_telnet_stdin\l_distribution_input_buffer_small"];
+		# side03term_key_sbuf [label = "side03_telnet_stdin\l_distribution_input_buffer_small" penwidth=4.0 color = "red"];
+	side03term_disp_bbuf [label = "side03_telnet_stdout\ldistribution_output_buffer_big"];
+		# side03term_disp_bbuf [label = "side03_telnet_stdout\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	side03term_disp_bbuf -> connsat_dist_array:f5 [label = "stdout" dir = back]
+		# side03term_disp_bbuf -> connsat_dist_array:f5 [label = "stdout" dir = back penwidth=4.0 color = "red"]
+	side03term_key_sbuf -> connsat_dist_array:f5 [label = "stdin"]
+		# side03term_key_sbuf -> connsat_dist_array:f5 [label = "stdin" penwidth=4.0 color = "red"]
+
+
+
+	fork00term [shape = "doublecircle" label = "ForkPTY\nTelnet\nBMC 00"]
+		# fork00term [shape = "doublecircle" label = "ForkPTY\nTelnet\nBMC 00" style=filled fillcolor=magenta]
+	fork00exec [shape = "diamond" label = "ForkPTY\nexec()"]
+		# fork00exec [shape = "diamond" label = "ForkPTY\nexec()" style=filled fillcolor=orange]
+
+	fork00terminal:f0 -> fork00term [dir = back]
+		# fork00terminal:f0 -> fork00term [dir = back penwidth=4.0 color = "red"]
+	fork00terminal:f1 -> fork00term []
+		# fork00terminal:f1 -> fork00term [penwidth=4.0 color = "red"]
+
+	fork00terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin"]
+		# fork00terminal [shape = "record" label = "<f0> telnet-stdout | <f1> telnet-stdin" style=filled fillcolor=orange]
+
+	fork00exec -> fork00terminal:f0 [label = "Input" dir = back]
+		# fork00exec -> fork00terminal:f0 [label = "Input" dir = back penwidth=4.0 color = "red"]
+	fork00exec -> fork00terminal:f1 [label = "Output"]
+		# fork00exec -> fork00terminal:f1 [label = "Output" penwidth=4.0 color = "red"]
+
+	fork00term_disp_bbuf [label = "fork00_pty_input\ldistribution_input_buffer_small"];
+		# fork00term_disp_bbuf [label = "fork00_pty_input\ldistribution_input_buffer_small" style=filled fillcolor=orange];
+		# fork00term_disp_bbuf [label = "fork00_pty_input\ldistribution_input_buffer_small" style=filled fillcolor=lightblue];
+	fork00term_key_sbuf [label = "fork00_pty_output\ldistribution_output_buffer_big"];
+		# fork00term_key_sbuf [label = "fork00_pty_output\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	connsat_dist_array:f1 -> fork00term_disp_bbuf[label = "INPUT" dir = back color = "black" penwidth=1.0]
+		# connsat_dist_array:f1 -> fork00term_disp_bbuf[label = "INPUT" dir = back color = "red" penwidth=4.0]
+	connsat_dist_array:f1 -> fork00term_key_sbuf [label = "OUTPUT"]
+		# connsat_dist_array:f1 -> fork00term_key_sbuf [label = "OUTPUT" penwidth=4.0 color = "red"]
+
+	fork00term_disp_bbuf -> fork00exec [label = "Input" dir = back]
+		# fork00term_disp_bbuf -> fork00exec [label = "Input" dir = back penwidth=4.0 color = "red"]
+	fork00term_key_sbuf -> fork00exec [label = "Output"]
+		# fork00term_key_sbuf -> fork00exec [label = "Output" penwidth=4.0 color = "red"]
+
+
+
+	# menu00exec [shape = "box" label = "Menu-\nCode()"]
+		# menu00exec [shape = "box" label = "Menu-\nCode()" style=filled fillcolor=orange]
+		menu00exec [shape = "box" label = "Menu-\nCode()" style=filled fillcolor=magenta]
+
+	# menu00term_disp_bbuf [label = "menu00_pty_stdout\ldistribution_input_buffer_small"];
+		# menu00term_disp_bbuf [label = "menu00_pty_stdout\ldistribution_input_buffer_small" style=filled fillcolor=orange];
+		menu00term_disp_bbuf [label = "menu00_pty_stdout\ldistribution_input_buffer_small" style=filled fillcolor=lightblue];
+	menu00term_key_sbuf [label = "menu00_pty_stdin\ldistribution_output_buffer_big"];
+		# menu00term_key_sbuf [label = "menu00_pty_stdin\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	# connsat_dist_array:f6 -> menu00term_disp_bbuf[label = "INPUT" dir = back color = "black" penwidth=1.0]
+		connsat_dist_array:f6 -> menu00term_disp_bbuf[label = "INPUT" dir = back color = "red" penwidth=4.0]
+	connsat_dist_array:f6 -> menu00term_key_sbuf [label = "OUTPUT"]
+		# connsat_dist_array:f6 -> menu00term_key_sbuf [label = "OUTPUT" penwidth=4.0 color = "red"]
+
+	# menu00term_disp_bbuf -> menu00exec [label = "Input-(stdout)" dir = back]
+		menu00term_disp_bbuf -> menu00exec [label = "Input-(stdout)" dir = back penwidth=4.0 color = "red"]
+	menu00term_key_sbuf -> menu00exec [label = "Output-(stdin)"]
+		# menu00term_key_sbuf -> menu00exec [label = "Output-(stdin)" penwidth=4.0 color = "red"]
+
+
+	log01exec [shape = "circle" label = "Session-\nLog()"]
+		# log01exec [shape = "circle" label = "Session-\nLog()" style=filled fillcolor=orange]
+		# log01exec [shape = "circle" label = "Session-\nLog()" style=filled fillcolor=magenta]
+
+	log01term_disp_bbuf [label = "log01_pty_stdout\ldistribution_input_buffer_small"];
+		# log01term_disp_bbuf [label = "log01_pty_stdout\ldistribution_input_buffer_small" style=filled fillcolor=orange];
+	log01term_key_sbuf [label = "log01_pty_stdin\ldistribution_output_buffer_big"];
+		# log01term_key_sbuf [label = "log01_pty_stdin\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	connsat_dist_array:f7 -> log01term_disp_bbuf[label = "INPUT" dir = back color = "black" penwidth=1.0]
+		# connsat_dist_array:f7 -> log01term_disp_bbuf[label = "INPUT" dir = back color = "red" penwidth=4.0]
+	connsat_dist_array:f7 -> log01term_key_sbuf [label = "OUTPUT"]
+		# connsat_dist_array:f7 -> log01term_key_sbuf [label = "OUTPUT" penwidth=4.0 color = "red"]
+
+	log01term_disp_bbuf -> log01exec [label = "Input-(stdout)" dir = back]
+		# log01term_disp_bbuf -> log01exec [label = "Input-(stdout)" dir = back penwidth=4.0 color = "red"]
+	log01term_key_sbuf -> log01exec [label = "Output-(stdin)"]
+		# log01term_key_sbuf -> log01exec [label = "Output-(stdin)" penwidth=4.0 color = "red"]
+
+
+	log02exec [shape = "circle" label = "Capture-\nLog()"]
+		# log02exec [shape = "circle" label = "Capture-\nLog()" style=filled fillcolor=orange]
+		# log02exec [shape = "circle" label = "Capture-\nLog()" style=filled fillcolor=magenta]
+
+	log02term_disp_bbuf [label = "log02_pty_stdout\ldistribution_input_buffer_small"];
+		# log02term_disp_bbuf [label = "log02_pty_stdout\ldistribution_input_buffer_small" style=filled fillcolor=orange];
+	log02term_key_sbuf [label = "log02_pty_stdin\ldistribution_output_buffer_big"];
+		# log02term_key_sbuf [label = "log02_pty_stdin\ldistribution_output_buffer_big" style=filled fillcolor=orange];
+
+	connsat_dist_array:f8 -> log02term_disp_bbuf[label = "INPUT" dir = back color = "black" penwidth=1.0]
+		# connsat_dist_array:f6 -> log02term_disp_bbuf[label = "INPUT" dir = back color = "red" penwidth=4.0]
+	connsat_dist_array:f8 -> log02term_key_sbuf [label = "OUTPUT"]
+		# connsat_dist_array:f6 -> log02term_key_sbuf [label = "OUTPUT" penwidth=4.0 color = "red"]
+
+	log02term_disp_bbuf -> log02exec [label = "Input-(stdout)" dir = back]
+		# log02term_disp_bbuf -> log02exec [label = "Input-(stdout)" dir = back penwidth=4.0 color = "red"]
+	log02term_key_sbuf -> log02exec [label = "Output-(stdin)"]
+		# log02term_key_sbuf -> log02exec [label = "Output-(stdin)" penwidth=4.0 color = "red"]
+}
+

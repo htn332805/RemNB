@@ -1,0 +1,39 @@
+#!/run/current-system/sw/bin/env python3
+
+from scriptlet_base import ScriptletBase
+import json
+import statistics
+from icecream import ic
+
+
+class StatsCalculator(ScriptletBase):
+    def _execute(self):
+        # Read input numbers
+        with open(self.args.input_file, "r") as f:
+            numbers = json.load(f)
+
+        if self.args.debug:
+            ic("Loaded numbers")
+            ic(f"Number of items: {len(numbers)}")
+
+        # Calculate statistics
+        stats = {
+            "mean": statistics.mean(numbers),
+            "median": statistics.median(numbers),
+            "std_dev": statistics.stdev(numbers),
+        }
+
+        if self.args.debug:
+            ic("Calculated statistics")
+            ic(stats)
+
+        # Save results
+        with open(self.args.output_file, "w") as f:
+            json.dump(stats, f)
+
+        return {"status": "success", "stats_calculated": list(stats.keys())}
+
+
+if __name__ == "__main__":
+    calculator = StatsCalculator("calculate_stats")
+    result = calculator.run()

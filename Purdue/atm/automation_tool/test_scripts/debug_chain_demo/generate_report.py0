@@ -1,0 +1,39 @@
+#!/run/current-system/sw/bin/env python3
+
+from scriptlet_base import ScriptletBase
+import json
+from icecream import ic
+
+
+class ReportGenerator(ScriptletBase):
+    def _execute(self):
+        # Read statistics
+        with open(self.args.input_file, "r") as f:
+            stats = json.load(f)
+
+        if self.args.debug:
+            ic("Loaded statistics")
+            ic(stats)
+
+        # Generate report
+        report = f"""Statistical Analysis Report
+========================
+Mean: {stats['mean']:.2f}
+Median: {stats['median']:.2f}
+Standard Deviation: {stats['std_dev']:.2f}
+"""
+
+        if self.args.debug:
+            ic("Generated report")
+            ic(report)
+
+        # Save report
+        with open(self.args.output_file, "w") as f:
+            f.write(report)
+
+        return {"status": "success", "report_generated": True}
+
+
+if __name__ == "__main__":
+    generator = ReportGenerator("generate_report")
+    result = generator.run()

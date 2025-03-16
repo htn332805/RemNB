@@ -1,0 +1,9 @@
+#!/run/current-system/sw/bin/bash
+
+tmux kill-session -t 0
+tmux kill-session -t 1
+tmux kill-session -t 2
+tmux kill-session -t 3
+
+# tmux kill-window -t :1
+

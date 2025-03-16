@@ -1,0 +1,32 @@
+#!/usr/bin/expect -f
+
+set force_conservative 0  ;# set to 1 to force conservative mode even if
+			  ;# script wasn't run conservatively originally
+if {$force_conservative} {
+	set send_slow {1 .1}
+	proc send {ignore arg} {
+		sleep .1
+		exp_send -s -- $arg
+	}
+}
+
+set timeout -1
+spawn $env(SHELL)
+match_max 100000
+#expect -exact "\]0;brentfro@diag06:~/public_html/tmux_1/connsat\[brentfro@diag06 connsat\]\$ "
+send -- "telnet 127.0.0.1 20001\r"
+expect -exact "Connected to 127.0.0.1"
+send -- "\r"
+send -- "date +\"Timestamp: %m/%d/%y %H:%M:%S\" \r"    
+send -- "ipmi-sensor | grep -v discrete\r"
+send -- "echo \"Sleeping for 10 seconds\"\r"
+send -- "echo \"<press CTRL-C to exit loop>\"\r"
+expect -- "Not available at this time or not applicable"
+send -- "\x03"
+send -- "\x1d"
+expect -- "telnet>"
+send -- "quit\r"
+expect -- "Connection closed"
+send -- "exit\r"
+expect eof
+send_user -- "\r\n\r\nAUTOMATION_MATRIX_STATUS=SUCCESS\r\n"

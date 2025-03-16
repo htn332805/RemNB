@@ -1,0 +1,34 @@
+
+
+$ 
+                        Transfer: connsat_connection_sideband_channel.c-2080, CONNECTION_TYPE_SIDEBAND_CHANNEL-smallbuffer[1/2048] >>1<<
+                                Copy: connsat_connection_sideband_channel.c-2106, CONNECTION_TYPE_FORKPTY-bigbuffer[0/10240] <<<10195>>>
+                                        Copy: connsat_connection_sideband_channel.c-2132, CONNECTION_TYPE_FORKPTY-bigbuffer[0/10240] <<<1>>> TRANSFER
+DUMP: connsat_circular_buffer_algorithm.c-1286: count==0, ptr==1, char==0x0d-<CR>
+
+                                        Copy: connsat_connection_sideband_channel.c-2211, CONNECTION_TYPE_SIDEBAND_CHANNEL-smallbuffer[0/2048] <<<1>>> TRANSFER-COMPLETE
+
+                        Transfer: connsat_connection_forkpty.c-1336, CONNECTION_TYPE_FORKPTY-smallbuffer[2/2048] >>2<<
+                                Copy: connsat_connection_forkpty.c-1365, CONNECTION_TYPE_TERMINAL-bigbuffer[0/10240] <<<9229>>>
+                                        Copy: connsat_connection_forkpty.c-1403, CONNECTION_TYPE_TERMINAL-bigbuffer[0/10240] <<<2>>> TRANSFER
+                                Copy: connsat_connection_forkpty.c-1502, CONNECTION_TYPE_SIDEBAND_CHANNEL-bigbuffer[0/10240] <<<10125>>>
+                                        Copy: connsat_connection_forkpty.c-1526, CONNECTION_TYPE_SIDEBAND_CHANNEL-bigbuffer[0/10240] <<<2>>> TRANSFER
+DUMP: connsat_circular_buffer_algorithm.c-1286: count==0, ptr==201, char==0x0d-<CR>
+DUMP: connsat_circular_buffer_algorithm.c-1286: count==1, ptr==202, char==0x0a-<LF>
+
+                                        Copy: connsat_connection_forkpty.c-1613, CONNECTION_TYPE_FORKPTY-smallbuffer[0/2048] <<<2>>> TRANSFER-COMPLETE
+
+
+                        Transfer: connsat_connection_forkpty.c-1336, CONNECTION_TYPE_FORKPTY-smallbuffer[2/2048] >>2<<
+                                Copy: connsat_connection_forkpty.c-1365, CONNECTION_TYPE_TERMINAL-bigbuffer[0/10240] <<<9227>>>
+                                        Copy: connsat_connection_forkpty.c-1403, CONNECTION_TYPE_TERMINAL-bigbuffer[0/10240] <<<2>>> TRANSFER
+                                Copy: connsat_connection_forkpty.c-1502, CONNECTION_TYPE_SIDEBAND_CHANNEL-bigbuffer[0/10240] <<<10123>>>
+                                        Copy: connsat_connection_forkpty.c-1526, CONNECTION_TYPE_SIDEBAND_CHANNEL-bigbuffer[0/10240] <<<2>>> TRANSFER
+DUMP: connsat_circular_buffer_algorithm.c-1286: count==0, ptr==203, char==0x24-"$"
+DUMP: connsat_circular_buffer_algorithm.c-1286: count==1, ptr==204, char==0x20-" "
+
+                                        Copy: connsat_connection_forkpty.c-1613, CONNECTION_TYPE_FORKPTY-smallbuffer[0/2048] <<<2>>> TRANSFER-COMPLETE
+$ 
+
+
+
