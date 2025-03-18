@@ -9,17 +9,18 @@ docker run -d -p 8080:80 --name openproject \
 -v /var/lib/openproject/assets:/var/openproject/assets \
 --restart unless-stopped \
 openproject/openproject:15
-07 top ifm
-08 top ifm
-15 top xfm
-16 top xfm
+07 top ifm 2007
+08 top ifm 2008
+15 top xfm 2015
+16 top xfm 2016
 06 middle ifm
-09 middle ifm
-12 bottom ifm
-13 bottom ifm
+09 middle ifm  b28 b29 b30 b31 b32
+12 bottom ifm JP
+13 bottom ifm JP
+
 14 inside ts
 17 fish
 26 everest1
 27 everest4
-
+ DAQ 172.25.27.202
 
