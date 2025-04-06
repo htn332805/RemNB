@@ -1,7 +1,7 @@
-Hi Samuel,
+Hi Chris,
 
-	I strongly agree with you, ERM is a comprehensive and organized way to managed risk to ensure that the firm's assets, the decision-making process from derailing the firms establish objective or mission. It also correct that level of risk varies due to  the differeces in operational and fincial structure of the firms. 
-	
+	It is true that financial leverage or debt financing could be really beneficial if used correctly, how ever it also come with some tradeoff. Highly leverage practive of debt could increase the risk and restricting the available cash flow for the future. Your example of the AST SpaceMobile financial situation to demonstrate the important of using debt financing as leverage. As you have pointed out this company have a leverage ratio of 0.7 and require a significant boost in sale or revenue to meet its upcoming financial challegnes. If cash reserves are depleted and refinancing is not possible, the company may face insolvency or bankruptcy.
+	In conclusion some level of debt financing could provide some benefits as long as it is within check and not over leverage to put the company at risk.	
 	
 Thanks
 Hai Nguyen
