@@ -80,8 +80,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Pu" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1737997341512" POSITION="bottom_or_right">
-<node TEXT="MT482" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
+<node TEXT="Pu" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1744764124201" POSITION="bottom_or_right">
+<node TEXT="MT482" FOLDED="true" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
 <node TEXT="Types of Analysis" FOLDED="true" ID="ID_1377584060" CREATED="1737931360853" MODIFIED="1737931362735">
 <node TEXT="Horizontal Analysis" FOLDED="true" ID="ID_433089173" CREATED="1737931364553" MODIFIED="1737931372809">
 <node TEXT="Compares financial data across multiple periods" ID="ID_1736652375" CREATED="1737931427815" MODIFIED="1737931430699"/>
@@ -626,7 +626,7 @@
 </node>
 </node>
 <node TEXT="Unsorted" ID="ID_1940118872" CREATED="1738256885616" MODIFIED="1738256930700">
-<node TEXT="Financial Analysis Tools" ID="ID_1116463031" CREATED="1738263442474" MODIFIED="1738263446800">
+<node TEXT="Financial Analysis Tools" FOLDED="true" ID="ID_1116463031" CREATED="1738263442474" MODIFIED="1738263446800">
 <node TEXT=" Comparative Financial Statement Analysis" FOLDED="true" ID="ID_517042761" CREATED="1738262077403" MODIFIED="1738262083139">
 <node TEXT="Inherent Limitations of Single-Year" ID="ID_1456860616" CREATED="1738262139026" MODIFIED="1738262147459">
 <node TEXT="Just a snapshot of historical nature" ID="ID_277362693" CREATED="1738262152562" MODIFIED="1738262172571"/>
@@ -715,7 +715,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Future value of money differs from present value</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Difficulty in estimating future cash flows" ID="ID_1349946469" CREATED="1738263748811" MODIFIED="1738264742696"/>
@@ -934,7 +933,7 @@
 </node>
 </node>
 </node>
-<node TEXT="MT483" FOLDED="true" ID="ID_1192020377" CREATED="1737931317344" MODIFIED="1737931320198">
+<node TEXT="MT483" FOLDED="true" ID="ID_1192020377" CREATED="1737931317344" MODIFIED="1744764124201">
 <node TEXT=" Basics" FOLDED="true" ID="ID_1097801182" CREATED="1737964086615" MODIFIED="1738010878986">
 <node TEXT="Types of Investments" FOLDED="true" ID="ID_593856561" CREATED="1737964095103" MODIFIED="1737964097778">
 <node TEXT="stock" FOLDED="true" ID="ID_1690779077" CREATED="1737883718561" MODIFIED="1737883721566" POSITION="bottom_or_right">
@@ -1255,6 +1254,252 @@
 </node>
 </node>
 <node TEXT="short term" ID="ID_1684796121" CREATED="1738018167532" MODIFIED="1738018171228"/>
+</node>
+</node>
+<node TEXT="FI499" POSITION="left" ID="ID_794169337" CREATED="1744764030635" MODIFIED="1744852315237">
+<node TEXT="Role of the Financial Manager" FOLDED="true" ID="ID_468785608" CREATED="1744852316357" MODIFIED="1744852326183">
+<node ID="ID_897252654" CREATED="1744852340951" MODIFIED="1744852340951"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Maximize shareholder wealth</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="through strategic decision-making[" ID="ID_1657025446" CREATED="1744852373493" MODIFIED="1744852374850"/>
+</node>
+<node TEXT="Focus on **positive residual cash flows**" ID="ID_653625718" CREATED="1744852355061" MODIFIED="1744852359205">
+<node TEXT="to sustain operations and growth" ID="ID_1964073455" CREATED="1744852381940" MODIFIED="1744852383573"/>
+</node>
+<node TEXT="Three Fundamental Decisions" FOLDED="true" ID="ID_1341447826" CREATED="1744852413684" MODIFIED="1744852415560">
+<node TEXT="**Capital Budgeting**" ID="ID_1479035605" CREATED="1744852416564" MODIFIED="1744852431155">
+<node TEXT="Long-term asset investment decisions" ID="ID_10428877" CREATED="1744852490036" MODIFIED="1744852492469"/>
+</node>
+<node TEXT="**Financing**" ID="ID_540792328" CREATED="1744852435356" MODIFIED="1744852441826">
+<node TEXT="Optimizing debt-equity mix for asset funding" ID="ID_1971772070" CREATED="1744852449620" MODIFIED="1744852481623"/>
+</node>
+<node TEXT="**Working Capital Management**" ID="ID_1888215789" CREATED="1744852442219" MODIFIED="1744852444182">
+<node ID="ID_379595694" CREATED="1744852453044" MODIFIED="1744852453044"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Balancing short-term assets/liabilities</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node FOLDED="true" ID="ID_1849742250" CREATED="1744853096385" MODIFIED="1744853096385"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Corporate Goals and Valuation</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1039666189" CREATED="1744853114947" MODIFIED="1744853114947"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">**Maximize stock value*</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="by prioritizing cash flow timing/risk" ID="ID_685032143" CREATED="1744853111652" MODIFIED="1744853128871"/>
+</node>
+</node>
+<node TEXT="Profit vs. Value" FOLDED="true" ID="ID_1001997193" CREATED="1744853145876" MODIFIED="1744853149373">
+<node ID="ID_1221428104" CREATED="1744853160058" MODIFIED="1744853160058"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Accounting profit ≠ economic profit due to cash flow timing</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_600040336" CREATED="1744853175163" MODIFIED="1744853175163"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Market share expansion ≠ sustainable value without profitability</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Stock Price Drivers" FOLDED="true" ID="ID_26811276" CREATED="1744853182836" MODIFIED="1744853184611">
+<node TEXT="External factors" ID="ID_1002068428" CREATED="1744853192269" MODIFIED="1744853205845">
+<node ID="ID_245153044" CREATED="1744853206809" MODIFIED="1744853206809"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Economic conditions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1333809352" CREATED="1744853214185" MODIFIED="1744853214185"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">regulations</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_334234116" CREATED="1744853222062" MODIFIED="1744853222062"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Internal factors</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1253289279" CREATED="1744853228282" MODIFIED="1744853228282"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Management decisions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1251605646" CREATED="1744853235858" MODIFIED="1744853235858"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">cash flow projections</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_504328185" CREATED="1744853302137" MODIFIED="1744853302137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Decision-Making Checklist</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1646359283" CREATED="1744853309250" MODIFIED="1744853309250"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Legal compliance</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_463149382" CREATED="1744853316929" MODIFIED="1744853316929"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Role-specific obligations</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_230741952" CREATED="1744853328976" MODIFIED="1744853328976"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Shareholder impact assessment</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_685748943" CREATED="1744853342270" MODIFIED="1744853342270"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Transparency in conflicts</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_380130948" CREATED="1744853350145" MODIFIED="1744853350145"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">&quot;Wall Street Journal Test&quot; for actions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </node>
