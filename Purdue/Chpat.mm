@@ -81,7 +81,7 @@
 </map_styles>
 </hook>
 <node TEXT="Pu" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1737997341512" POSITION="bottom_or_right">
-<node TEXT="MT482" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
+<node TEXT="MT482" FOLDED="true" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
 <node TEXT="Types of Analysis" FOLDED="true" ID="ID_1377584060" CREATED="1737931360853" MODIFIED="1737931362735">
 <node TEXT="Horizontal Analysis" FOLDED="true" ID="ID_433089173" CREATED="1737931364553" MODIFIED="1737931372809">
 <node TEXT="Compares financial data across multiple periods" ID="ID_1736652375" CREATED="1737931427815" MODIFIED="1737931430699"/>
@@ -625,7 +625,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Unsorted" ID="ID_1940118872" CREATED="1738256885616" MODIFIED="1738256930700">
+<node TEXT="Unsorted" FOLDED="true" ID="ID_1940118872" CREATED="1738256885616" MODIFIED="1738256930700">
 <node TEXT="Financial Analysis Tools" ID="ID_1116463031" CREATED="1738263442474" MODIFIED="1738263446800">
 <node TEXT=" Comparative Financial Statement Analysis" FOLDED="true" ID="ID_517042761" CREATED="1738262077403" MODIFIED="1738262083139">
 <node TEXT="Inherent Limitations of Single-Year" ID="ID_1456860616" CREATED="1738262139026" MODIFIED="1738262147459">
@@ -715,7 +715,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Future value of money differs from present value</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Difficulty in estimating future cash flows" ID="ID_1349946469" CREATED="1738263748811" MODIFIED="1738264742696"/>
@@ -1255,6 +1254,1010 @@
 </node>
 </node>
 <node TEXT="short term" ID="ID_1684796121" CREATED="1738018167532" MODIFIED="1738018171228"/>
+</node>
+<node TEXT="MT422" ID="ID_1587014706" CREATED="1745184580725" MODIFIED="1745184584143">
+<node TEXT="Unit 7" ID="ID_1405834829" CREATED="1745189428119" MODIFIED="1745189431792"/>
+<node TEXT="Unit 6" FOLDED="true" ID="ID_114965946" CREATED="1745189442176" MODIFIED="1745189450305">
+<node TEXT="Operating leverage" ID="ID_3815332" CREATED="1745184608402" MODIFIED="1745184614988">
+<node TEXT="Firm&apos;s fixed cost" ID="ID_1535075" CREATED="1745184615457" MODIFIED="1745184653443">
+<node TEXT="v.s" ID="ID_442159609" CREATED="1745184653859" MODIFIED="1745184656804">
+<node TEXT="Variable cost" ID="ID_1714207984" CREATED="1745184657299" MODIFIED="1745184660771"/>
+</node>
+<node TEXT="High fixed cost" ID="ID_853516002" CREATED="1745184670826" MODIFIED="1745184908524">
+<node ID="ID_261144131" CREATED="1745184704475" MODIFIED="1745184739948"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">amplified changes operating income when sale fluctuate</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="poor performance" ID="ID_187662038" CREATED="1745185232361" MODIFIED="1745185432890">
+<node ID="ID_30846763" CREATED="1745185244037" MODIFIED="1745185244037"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">magnified losses</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" implies greater business risk" ID="ID_1484169681" CREATED="1745185403674" MODIFIED="1745185406290">
+<node ID="ID_262344793" CREATED="1745185444469" MODIFIED="1745185444469"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">during downturns,</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_555065503" CREATED="1745185478344" MODIFIED="1745185478344"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">due to the inflexibility</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="means more fixed costs relative to variable costs" ID="ID_42888942" CREATED="1745185774353" MODIFIED="1745185776685"/>
+</node>
+</node>
+<node ID="ID_1557049183" CREATED="1745185651472" MODIFIED="1745185802852"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">DEF: the impact on operating income</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="ue to changes in the level of output or sales" ID="ID_1387278593" CREATED="1745185672313" MODIFIED="1745185738073"/>
+</node>
+<node TEXT=" Contribution / EBIT" ID="ID_387382351" CREATED="1745185739265" MODIFIED="1745185746923">
+<node ID="ID_1261491046" CREATED="1745185751652" MODIFIED="1745185751652"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Fixed Costs / Total Costs</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1292830255" CREATED="1745186132276" MODIFIED="1745186132276"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">measured using DOL</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Degree of Operating Leverage" ID="ID_1008920572" CREATED="1745186139905" MODIFIED="1745186149960"/>
+</node>
+<node ID="ID_1778414308" CREATED="1745186192892" MODIFIED="1745186192892"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">affects EBIT</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1040981753" CREATED="1745186199747" MODIFIED="1745186205481"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Earnings Before Interest and Taxes</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_808406391" CREATED="1745186241705" MODIFIED="1745186241705"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">controlled through operational decisions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Financial leverage" ID="ID_1185925449" CREATED="1745184802482" MODIFIED="1745184806602">
+<node ID="ID_184740810" CREATED="1745184829233" MODIFIED="1745184829233"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">use of debt financing</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_308080690" CREATED="1745184848137" MODIFIED="1745184848137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">impact on net income</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1419767543" CREATED="1745184856974" MODIFIED="1745184856974"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">due to fixed interest expenses</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT=" earnings exceed interest costs" ID="ID_400041861" CREATED="1745185304809" MODIFIED="1745185306530">
+<node TEXT="boosts profits through debt" ID="ID_973493773" CREATED="1745185268202" MODIFIED="1745185289067"/>
+</node>
+<node ID="ID_80959752" CREATED="1745185346858" MODIFIED="1745185346858"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">earnings decline</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_360033226" CREATED="1745185320933" MODIFIED="1745185320933"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">increases the risk of financial distress</span><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="high" ID="ID_1116407248" CREATED="1745185519713" MODIFIED="1745185524043">
+<node ID="ID_139975517" CREATED="1745185536901" MODIFIED="1745185536901"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">raises risks</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_537697940" CREATED="1745185551001" MODIFIED="1745185551001"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">meeting debt repayments</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_587731114" CREATED="1745185568291" MODIFIED="1745185568291"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">higher earnings volatility</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1140754577" CREATED="1745185944660" MODIFIED="1745185944660"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">amplify returns when a company performs well</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="DEF: the impact on returns due to changes in the extent to which assets are financed with borrowed money" ID="ID_567850144" CREATED="1745185804921" MODIFIED="1745185848645">
+<node TEXT=" the amount of debt used to finance company operations" ID="ID_1102178737" CREATED="1745185873337" MODIFIED="1745185874787"/>
+</node>
+<node TEXT=" EBIT / EBT" ID="ID_1461152629" CREATED="1745185885274" MODIFIED="1745185909704">
+<node ID="ID_1082313655" CREATED="1745185923581" MODIFIED="1745185923581"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">expressed using ratios like debt-to-equity</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1470512084" CREATED="1745186150844" MODIFIED="1745186150844"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">measured using DFL</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1938214761" CREATED="1745186161216" MODIFIED="1745186161216"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Degree of Financial Leverage</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1440690461" CREATED="1745186215243" MODIFIED="1745186215243"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">affects EPS</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Earnings Per Share" ID="ID_1530124128" CREATED="1745186221265" MODIFIED="1745186240714"/>
+</node>
+<node ID="ID_276564610" CREATED="1745186255812" MODIFIED="1745186255812"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">controlled through financing decisions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="3x Key comparision" ID="ID_526797716" CREATED="1745185039858" MODIFIED="1745185054507">
+<node TEXT="1. Cost Structure" ID="ID_1044127080" CREATED="1745185055625" MODIFIED="1745185067242">
+<node ID="ID_1409352182" CREATED="1745186014987" MODIFIED="1745186014987"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Operating leverage</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_983843955" CREATED="1745186022365" MODIFIED="1745186022365"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">fixed vs. variable costs</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="2. impact on profititability" ID="ID_1766732138" CREATED="1745185069537" MODIFIED="1745185082490">
+<node ID="ID_397001051" CREATED="1745186068076" MODIFIED="1745186068076"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Financial leverage focuses on capital structure</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_387335163" CREATED="1745186074012" MODIFIED="1745186074012"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">debt vs. equity</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="3. Risk Exposure" ID="ID_499332474" CREATED="1745185360593" MODIFIED="1745185365911">
+<node ID="ID_807408337" CREATED="1745186092332" MODIFIED="1745186092332"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">business/operational risk</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Financial leverage results in financial risk" ID="ID_1582949778" CREATED="1745186107697" MODIFIED="1745186111914"/>
+</node>
+</node>
+<node TEXT="Correlation" ID="ID_445560817" CREATED="1745187291400" MODIFIED="1745187294594">
+<node TEXT="high positive correlation" ID="ID_1569175231" CREATED="1745187339992" MODIFIED="1745187344130">
+<node ID="ID_1279029562" CREATED="1745187355365" MODIFIED="1745187355365"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">increases total risk</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_317541700" CREATED="1745187830435" MODIFIED="1745187830435"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">diversification benefits diminish</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1003156954" CREATED="1745188404770" MODIFIED="1745188404770"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">during crises</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1504325719" CREATED="1745188414140" MODIFIED="1745188414140"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">assets might become more correlated,</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="low or negative correlation" ID="ID_1791393513" CREATED="1745187366552" MODIFIED="1745187372675">
+<node ID="ID_1727295373" CREATED="1745187381292" MODIFIED="1745187381292"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">reduces risk</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="1.Diversification benefits" ID="ID_716988793" CREATED="1745187656338" MODIFIED="1745187663914">
+<node ID="ID_125641187" CREATED="1745187412987" MODIFIED="1745187412987"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">when assets are not perfectly correlate</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1054368080" CREATED="1745187420827" MODIFIED="1745187420827"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">diversification benefits arise</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_835700263" CREATED="1745188346474" MODIFIED="1745188346474"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">emphasis on low or negative correlation</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="2. Portfolio Variance" ID="ID_300811015" CREATED="1745187683536" MODIFIED="1745187695129">
+<node ID="ID_1637041394" CREATED="1745187723563" MODIFIED="1745187829440"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">affected by both</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1666608932" CREATED="1745187731011" MODIFIED="1745187731011"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">individual asset variances</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_409009425" CREATED="1745187739099" MODIFIED="1745187739099"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">the covariances</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="total risk" ID="ID_786632920" CREATED="1745187320136" MODIFIED="1745187329359">
+<node ID="ID_712699409" CREATED="1745188184043" MODIFIED="1745188184043"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">depends on the covariance between assets</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1133119839" CREATED="1745188198587" MODIFIED="1745188198587"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">tied to their correlation</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_209625342" CREATED="1745188235386" MODIFIED="1745188235386"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">different levels of correlation</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_566401147" CREATED="1745188264626" MODIFIED="1745188264626"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">positive, negative, zero</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_361532831" CREATED="1745188497283" MODIFIED="1745188497283"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">If ρ is negative</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1152959964" CREATED="1745188508115" MODIFIED="1745188532309"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">the last term reduces the variance</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_966055253" CREATED="1745188533867" MODIFIED="1745188533867"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">thus lowering risk</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Examples like stocks and bonds" ID="ID_1909307284" CREATED="1745188551945" MODIFIED="1745188559898">
+<node ID="ID_213696172" CREATED="1745188567411" MODIFIED="1745188567411"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">negative correlation</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1587962752" CREATED="1745188596395" MODIFIED="1745188596395"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">if ρ is positive</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1035673002" CREATED="1745188607114" MODIFIED="1745188607114"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">covariance term adds to the variance</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1011004146" CREATED="1745189114467" MODIFIED="1745189114467"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">Risk Exposure</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1927138985" CREATED="1745189124362" MODIFIED="1745189124362"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">VaR quantifies downside risk</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_535704507" CREATED="1745189142897" MODIFIED="1745189142897"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">maximum expected loss at a given confidence level</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_165183357" CREATED="1745189228802" MODIFIED="1745189228802"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">does not capture losses beyond the confidence level</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Capital Adequacy" ID="ID_968953446" CREATED="1745189164031" MODIFIED="1745189182926">
+<node ID="ID_1284633822" CREATED="1745189184754" MODIFIED="1745189204753"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">VaR figure helps determine whether sufficient capital reserves</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1170315793" CREATED="1745187866507" MODIFIED="1745187866507"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">3. Dynamic Nature of Correlation</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_295188803" CREATED="1745187893731" MODIFIED="1745187893731"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Correlation can change over time and</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1991533252" CREATED="1745187904915" MODIFIED="1745187904915"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">increases during market downturns.</span><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_484081169" CREATED="1745188310794" MODIFIED="1745188310794"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">combining uncorrelated or negatively correlated assets can reduce risk</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1546552821" CREATED="1745188688434" MODIFIED="1745188692989"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">stocks and bonds became positively correlated due to inflation</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="DEF: measures how assets move in relation to each othe" ID="ID_1788670201" CREATED="1745188114368" MODIFIED="1745188120218"/>
+</node>
+<node TEXT="Strategic Leverage Management for Long-Term Resilience" ID="ID_1886426047" CREATED="1745195261417" MODIFIED="1745195275022">
+<node ID="ID_1753138397" CREATED="1745195276742" MODIFIED="1745195276742"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">balance fixed costs with debt levels to avoid over-leverage.</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Moderate DOL and DFL ratios" ID="ID_1272193990" CREATED="1745195298436" MODIFIED="1745195306447">
+<node ID="ID_1507743759" CREATED="1745195307535" MODIFIED="1745195307535"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">mitigate volatility</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1802864639" CREATED="1745195324166" MODIFIED="1745195324166"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">safeguarding against</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span>&nbsp;</span></font>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_688314481" CREATED="1745195335686" MODIFIED="1745195335686"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">demand shocks</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1447242411" CREATED="1745195346998" MODIFIED="1745195346998"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">interest rate hikes.</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1932245456" CREATED="1745195370631" MODIFIED="1745195370631"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Regular stress-testing</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1574664387" CREATED="1745195383463" MODIFIED="1745195383463"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">ensures preparedness for economic downturns</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_122425890" CREATED="1745195785275" MODIFIED="1745195785275"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h2 class="mb-2 mt-6 text-lg font-[500] first:mt-0" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-size: 1.125rem; font-weight: 500; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; color: black; line-height: 1.75rem; font-family: fkGrotesk, fkGrotesk Fallback; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      Navigating Correlation for Optimal Risk Management
+    </h2>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_365337362" CREATED="1745195796667" MODIFIED="1745195796667"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Diversify Beyond Traditional Assets</font></b></strong>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1116727183" CREATED="1745195840724" MODIFIED="1745195840724"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Monitor Regime Shifts</font></b></strong>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_192357509" CREATED="1745195850739" MODIFIED="1745195850739"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Use rolling correlation analyses</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_593553553" CREATED="1745195861178" MODIFIED="1745195861178"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">macroeconomic indicators to anticipate structural changes.</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
