@@ -1256,7 +1256,1218 @@
 <node TEXT="short term" ID="ID_1684796121" CREATED="1738018167532" MODIFIED="1738018171228"/>
 </node>
 <node TEXT="MT422" ID="ID_1587014706" CREATED="1745184580725" MODIFIED="1745184584143">
-<node TEXT="Unit 7" ID="ID_1405834829" CREATED="1745189428119" MODIFIED="1745189431792"/>
+<node TEXT="Unit 7" ID="ID_1405834829" CREATED="1745189428119" MODIFIED="1745189431792">
+<node FOLDED="true" ID="ID_807205092" CREATED="1745267082819" MODIFIED="1745267082819"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Key Concepts</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Focus: Maximizing returns while minimizing risk" ID="ID_1822017481" CREATED="1745267071153" MODIFIED="1745267109782"/>
+<node ID="ID_1877717190" CREATED="1745267123714" MODIFIED="1745267123714"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Shift from individual asset analysis to portfolio-level risk assessment</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_267787633" CREATED="1745268083435" MODIFIED="1745268083435"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Key Assumptions</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1826758391" CREATED="1745268089686" MODIFIED="1745268089686"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Rational investors</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1155263044" CREATED="1745268094987" MODIFIED="1745268094987"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Efficient markets</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_145232659" CREATED="1745268101064" MODIFIED="1745268101064"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Unlimited risk-free borrowing</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_270717477" CREATED="1745268107667" MODIFIED="1745268107667"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">No transaction costs/taxes</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1924335170" CREATED="1745268114301" MODIFIED="1745268114301"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Historical returns predict future performance</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node FOLDED="true" ID="ID_1997896948" CREATED="1745267134272" MODIFIED="1745267134272"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk &amp; Return Relationship</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1765972181" CREATED="1745267140985" MODIFIED="1745267140985"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk Components</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_59021568" CREATED="1745267150446" MODIFIED="1745267150446"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Systematic Risk (Market Risk)</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_374184223" CREATED="1745267160799" MODIFIED="1745267160799"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Affects entire market</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_769478123" CREATED="1745267165903" MODIFIED="1745267165903"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">(e.g., inflation, interest rates)</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_983486801" CREATED="1745267175270" MODIFIED="1745267175270"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Cannot be diversified away</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_764534382" CREATED="1745267182918" MODIFIED="1745267182918"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Unsystematic Risk (Specific Risk)</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1475148609" CREATED="1745267206613" MODIFIED="1745267206613"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Company-specific factors</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_610424032" CREATED="1745267212474" MODIFIED="1745267212474"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">(e.g., management decisions)</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1200986734" CREATED="1745267218235" MODIFIED="1745267218235"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Reducible through diversification</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1421779605" CREATED="1745267240756" MODIFIED="1745267240756"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk-Return Tradeoff</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1069348946" CREATED="1745267250834" MODIFIED="1745267250834"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Higher risk demands higher expected returns</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_47346318" CREATED="1745267258587" MODIFIED="1745267270890"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Measured through volatility indicators:</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_596039832" CREATED="1745267268828" MODIFIED="1745267270890" HGAP_QUANTITY="14.75 pt"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Variance (σ²):</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1835149440" CREATED="1745267282542" MODIFIED="1745267282542"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Spread of returns from mean</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1810190453" CREATED="1745268166128" MODIFIED="1745268166128"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Return dispersion </font></span><br class="Apple-interchange-newline"/>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_672101795" CREATED="1745267297259" MODIFIED="1745267297259"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Standard Deviation (σ)</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_919387909" CREATED="1745267304363" MODIFIED="1745267304363"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Square root of variance</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_90026010" CREATED="1745268178675" MODIFIED="1745268178675"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk magnitude</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1967558057" CREATED="1745267310587" MODIFIED="1745267310587"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Covariance</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1376791085" CREATED="1745267317733" MODIFIED="1745267317733"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Inter-asset return relationships</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_266411825" CREATED="1745267325023" MODIFIED="1745267325023"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Correlation</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1517287733" CREATED="1745267336359" MODIFIED="1745267336359"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Standardized covariance measure</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1973852943" CREATED="1745267340838" MODIFIED="1745267340838"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">(-1 to +1)</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node FOLDED="true" ID="ID_1435895605" CREATED="1745267369377" MODIFIED="1745267369377"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Diversification Mechanics</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1614963442" CREATED="1745267418681" MODIFIED="1745267418681"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">&quot;Don't put all eggs in one basket&quot; principle</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1516218079" CREATED="1745267434118" MODIFIED="1745267434118"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Reduces unsystematic risk through</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_835512397" CREATED="1745267441409" MODIFIED="1745267441409"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Asset class variety</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_897556224" CREATED="1745267446744" MODIFIED="1745267446744"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Industry sector spread</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1410919647" CREATED="1745267454356" MODIFIED="1745267454356"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Geographic distribution</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_373329578" CREATED="1745267462985" MODIFIED="1745267462985"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Effectiveness depends on</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_404029971" CREATED="1745267471241" MODIFIED="1745267471241"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Correlation coefficients between assets</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1842929056" CREATED="1745267476226" MODIFIED="1745267476226"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Number of portfolio holdings</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1577871851" CREATED="1745267481390" MODIFIED="1745267481390"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Weighting strategy</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_92360203" CREATED="1745267529154" MODIFIED="1745267529154"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Portfolio Composition</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1667696585" CREATED="1745267537457" MODIFIED="1745267537457"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Construction Elements</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_422770510" CREATED="1745267558185" MODIFIED="1745267558185"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Expected Return Calculation</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1157538552" CREATED="1745267564484" MODIFIED="1745267564484"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Weighted average of individual asset returns</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1271727782" CREATED="1745267569970" MODIFIED="1745267569970"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Portfolio Variance</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_641007680" CREATED="1745267581202" MODIFIED="1745267581202"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Function of individual variances + covariance matrix</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_984708985" CREATED="1745267586960" MODIFIED="1745267586960"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Formula: σ²ₚ = Σwᵢ²σᵢ² + ΣΣwᵢwⱼσᵢσⱼρᵢⱼ</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_359885482" CREATED="1745267601010" MODIFIED="1745267601010"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Optimization Principles</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1733566770" CREATED="1745267608176" MODIFIED="1745267608176"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Efficient Frontier Concept</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_986914817" CREATED="1745267617177" MODIFIED="1745267617177"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Optimal risk-return combinations</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1654299029" CREATED="1745267642835" MODIFIED="1745267642835"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: inherit; font-style: normal; font-weight: 100; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; line-height: 1.42857; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; text-align: right"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="inherit">Northwest boundary of feasible portfolios </font></span><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="inherit"><span style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: inherit; font-style: normal; font-weight: 100; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; line-height: 1.42857; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; text-align: right">- Capital Allocation Line</span></font>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_664345626" CREATED="1745267649711" MODIFIED="1745267649711"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Capital Allocation Line</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1684285128" CREATED="1745267657568" MODIFIED="1745267657568"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk-free asset + risky portfolio combinations</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_50971029" CREATED="1745267663938" MODIFIED="1745267663938"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Mean-Variance Optimization</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_559132965" CREATED="1745267670712" MODIFIED="1745267670712"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Balancing expected returns vs. volatility</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1472004554" CREATED="1745267692041" MODIFIED="1745267692041"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Mathematical Foundations</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1743400719" CREATED="1745267697311" MODIFIED="1745267697311"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Key Formulas</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_220027509" CREATED="1745267720782" MODIFIED="1745267720782"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Expected Return</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1174414134" CREATED="1745267729239" MODIFIED="1745267729239"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">E(Rₚ) = ΣwᵢE(Rᵢ)</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_830318893" CREATED="1745267735877" MODIFIED="1745267735877"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Portfolio Variance</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1148224220" CREATED="1745267742702" MODIFIED="1745267742702"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">σ²ₚ = ΣΣwᵢwⱼCov(Rᵢ,Rⱼ)</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1783657315" CREATED="1745267752234" MODIFIED="1745267752234"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Correlation</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1827842299" CREATED="1745267757568" MODIFIED="1745267757568"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">ρᵢⱼ = Cov(Rᵢ,Rⱼ)/(σᵢσⱼ)</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1920059986" CREATED="1745267774400" MODIFIED="1745267774400"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Computational Tools</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1915582701" CREATED="1745267789440" MODIFIED="1745267789440"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Microsoft Excel</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_685053194" CREATED="1745267795515" MODIFIED="1745267795515"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Covariance matrix calculations</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1707637222" CREATED="1745267800097" MODIFIED="1745267800097"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Efficient frontier modeling</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1842604560" CREATED="1745267804377" MODIFIED="1745267804377"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Portfolio optimization scenarios</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1652111020" CREATED="1745267814335" MODIFIED="1745267814335"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Criticisms &amp; Limitations</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_706367424" CREATED="1745267825457" MODIFIED="1745267825457"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Reliance on historical data assumptions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_854292178" CREATED="1745267832487" MODIFIED="1745267832487"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Perfect market efficiency requirement</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1190448199" CREATED="1745267837955" MODIFIED="1745267837955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Rational investor behavior assumption</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1870393127" CREATED="1745267851459" MODIFIED="1745267851459"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Challenges with accurate future return predictions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1639489650" CREATED="1745267857712" MODIFIED="1745267857712"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Limitations in handling non-normal distributions</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_425586088" CREATED="1745267869519" MODIFIED="1745267869519"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Practical Applications</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_946420383" CREATED="1745267880296" MODIFIED="1745267880296"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Asset allocation strategies</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_818761300" CREATED="1745267885234" MODIFIED="1745267885234"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk management frameworks</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_765926636" CREATED="1745267894033" MODIFIED="1745267894033"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Performance attribution analysis</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1480391514" CREATED="1745267900731" MODIFIED="1745267900731"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Institutional portfolio construction</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1910699062" CREATED="1745267905198" MODIFIED="1745267905198"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Robo-advisory algorithms </font></span><br class="Apple-interchange-newline"/>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_207447747" CREATED="1745267935648" MODIFIED="1745267966239"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Modern Evolutions</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1519281587" CREATED="1745267942143" MODIFIED="1745267942143"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Integration with behavioral finance</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_868733355" CREATED="1745267949364" MODIFIED="1745267949364"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Machine learning applications</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_429382080" CREATED="1745267954681" MODIFIED="1745267966238"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Factor-based investing models</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_486057615" CREATED="1745267960137" MODIFIED="1745267960137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Environmental/Social/Governance (ESG) integration</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_891054400" CREATED="1745267965547" MODIFIED="1745267965547"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Big Data analytics in risk modeling</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_1954576396" CREATED="1745268370584" MODIFIED="1745268370584"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Critical Analysis </font></span><br class="Apple-interchange-newline"/>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_463420746" CREATED="1745268382302" MODIFIED="1745268382302"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Strengths</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1750444463" CREATED="1745268388574" MODIFIED="1745268388574"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Quantitative risk management</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_118996648" CREATED="1745268397935" MODIFIED="1745268397935"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Diversification benefits quantification</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_798772249" CREATED="1745268405565" MODIFIED="1745268405565"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Objective portfolio optimization</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="Unit 6" FOLDED="true" ID="ID_114965946" CREATED="1745189442176" MODIFIED="1745189450305">
 <node TEXT="Operating leverage" ID="ID_3815332" CREATED="1745184608402" MODIFIED="1745184614988">
 <node TEXT="Firm&apos;s fixed cost" ID="ID_1535075" CREATED="1745184615457" MODIFIED="1745184653443">
@@ -1274,7 +2485,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">amplified changes operating income when sale fluctuate</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="poor performance" ID="ID_187662038" CREATED="1745185232361" MODIFIED="1745185432890">
@@ -1288,7 +2498,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">magnified losses</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1303,7 +2512,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">during downturns,</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_555065503" CREATED="1745185478344" MODIFIED="1745185478344"><richcontent TYPE="NODE">
@@ -1316,7 +2524,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">due to the inflexibility</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1333,7 +2540,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">DEF: the impact on operating income</font></span>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="ue to changes in the level of output or sales" ID="ID_1387278593" CREATED="1745185672313" MODIFIED="1745185738073"/>
 </node>
@@ -1348,7 +2554,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Fixed Costs / Total Costs</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1362,7 +2567,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">measured using DOL</span></font>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Degree of Operating Leverage" ID="ID_1008920572" CREATED="1745186139905" MODIFIED="1745186149960"/>
 </node>
@@ -1376,7 +2580,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">affects EBIT</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1040981753" CREATED="1745186199747" MODIFIED="1745186205481"><richcontent TYPE="NODE">
 
@@ -1388,7 +2591,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Earnings Before Interest and Taxes</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1402,7 +2604,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">controlled through operational decisions</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1417,7 +2618,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">use of debt financing</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_308080690" CREATED="1745184848137" MODIFIED="1745184848137"><richcontent TYPE="NODE">
 
@@ -1429,7 +2629,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">impact on net income</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1419767543" CREATED="1745184856974" MODIFIED="1745184856974"><richcontent TYPE="NODE">
 
@@ -1441,7 +2640,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">due to fixed interest expenses</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1458,7 +2656,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">earnings decline</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_360033226" CREATED="1745185320933" MODIFIED="1745185320933"><richcontent TYPE="NODE">
 
@@ -1470,7 +2667,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">increases the risk of financial distress</span><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1485,7 +2681,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">raises risks</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_537697940" CREATED="1745185551001" MODIFIED="1745185551001"><richcontent TYPE="NODE">
 
@@ -1497,7 +2692,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">meeting debt repayments</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_587731114" CREATED="1745185568291" MODIFIED="1745185568291"><richcontent TYPE="NODE">
@@ -1510,7 +2704,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">higher earnings volatility</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1525,7 +2718,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">amplify returns when a company performs well</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1543,7 +2735,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">expressed using ratios like debt-to-equity</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1557,7 +2748,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">measured using DFL</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1938214761" CREATED="1745186161216" MODIFIED="1745186161216"><richcontent TYPE="NODE">
 
@@ -1569,7 +2759,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Degree of Financial Leverage</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1583,7 +2772,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">affects EPS</font></span>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Earnings Per Share" ID="ID_1530124128" CREATED="1745186221265" MODIFIED="1745186240714"/>
 </node>
@@ -1597,7 +2785,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">controlled through financing decisions</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1613,7 +2800,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Operating leverage</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_983843955" CREATED="1745186022365" MODIFIED="1745186022365"><richcontent TYPE="NODE">
 
@@ -1625,7 +2811,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">fixed vs. variable costs</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1641,7 +2826,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Financial leverage focuses on capital structure</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_387335163" CREATED="1745186074012" MODIFIED="1745186074012"><richcontent TYPE="NODE">
 
@@ -1653,7 +2837,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">debt vs. equity</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1669,7 +2852,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">business/operational risk</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Financial leverage results in financial risk" ID="ID_1582949778" CREATED="1745186107697" MODIFIED="1745186111914"/>
@@ -1687,7 +2869,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">increases total risk</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_317541700" CREATED="1745187830435" MODIFIED="1745187830435"><richcontent TYPE="NODE">
@@ -1700,7 +2881,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">diversification benefits diminish</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1003156954" CREATED="1745188404770" MODIFIED="1745188404770"><richcontent TYPE="NODE">
@@ -1713,7 +2893,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">during crises</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1504325719" CREATED="1745188414140" MODIFIED="1745188414140"><richcontent TYPE="NODE">
 
@@ -1725,7 +2904,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">assets might become more correlated,</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1741,7 +2919,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">reduces risk</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1756,7 +2933,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">when assets are not perfectly correlate</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1054368080" CREATED="1745187420827" MODIFIED="1745187420827"><richcontent TYPE="NODE">
 
@@ -1768,7 +2944,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">diversification benefits arise</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1782,7 +2957,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">emphasis on low or negative correlation</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1797,7 +2971,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">affected by both</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1666608932" CREATED="1745187731011" MODIFIED="1745187731011"><richcontent TYPE="NODE">
 
@@ -1809,7 +2982,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">individual asset variances</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_409009425" CREATED="1745187739099" MODIFIED="1745187739099"><richcontent TYPE="NODE">
@@ -1822,7 +2994,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">the covariances</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1837,7 +3008,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">depends on the covariance between assets</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1133119839" CREATED="1745188198587" MODIFIED="1745188198587"><richcontent TYPE="NODE">
 
@@ -1849,7 +3019,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">tied to their correlation</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1863,7 +3032,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">different levels of correlation</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_566401147" CREATED="1745188264626" MODIFIED="1745188264626"><richcontent TYPE="NODE">
 
@@ -1875,7 +3043,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">positive, negative, zero</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1890,7 +3057,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">If ρ is negative</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1152959964" CREATED="1745188508115" MODIFIED="1745188532309"><richcontent TYPE="NODE">
 
@@ -1902,7 +3068,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">the last term reduces the variance</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_966055253" CREATED="1745188533867" MODIFIED="1745188533867"><richcontent TYPE="NODE">
 
@@ -1914,7 +3079,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">thus lowering risk</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Examples like stocks and bonds" ID="ID_1909307284" CREATED="1745188551945" MODIFIED="1745188559898">
@@ -1928,7 +3092,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">negative correlation</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1944,7 +3107,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">if ρ is positive</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1035673002" CREATED="1745188607114" MODIFIED="1745188607114"><richcontent TYPE="NODE">
 
@@ -1956,7 +3118,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">covariance term adds to the variance</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1970,7 +3131,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">Risk Exposure</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1927138985" CREATED="1745189124362" MODIFIED="1745189124362"><richcontent TYPE="NODE">
 
@@ -1982,7 +3142,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">VaR quantifies downside risk</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_535704507" CREATED="1745189142897" MODIFIED="1745189142897"><richcontent TYPE="NODE">
 
@@ -1994,7 +3153,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">maximum expected loss at a given confidence level</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_165183357" CREATED="1745189228802" MODIFIED="1745189228802"><richcontent TYPE="NODE">
@@ -2007,7 +3165,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">does not capture losses beyond the confidence level</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2023,7 +3180,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">VaR figure helps determine whether sufficient capital reserves</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2038,7 +3194,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">3. Dynamic Nature of Correlation</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_295188803" CREATED="1745187893731" MODIFIED="1745187893731"><richcontent TYPE="NODE">
 
@@ -2050,7 +3205,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">Correlation can change over time and</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1991533252" CREATED="1745187904915" MODIFIED="1745187904915"><richcontent TYPE="NODE">
@@ -2063,7 +3217,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">increases during market downturns.</span><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_484081169" CREATED="1745188310794" MODIFIED="1745188310794"><richcontent TYPE="NODE">
@@ -2076,7 +3229,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">combining uncorrelated or negatively correlated assets can reduce risk</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1546552821" CREATED="1745188688434" MODIFIED="1745188692989"><richcontent TYPE="NODE">
@@ -2089,7 +3241,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="14px">stocks and bonds became positively correlated due to inflation</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2106,7 +3257,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">balance fixed costs with debt levels to avoid over-leverage.</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Moderate DOL and DFL ratios" ID="ID_1272193990" CREATED="1745195298436" MODIFIED="1745195306447">
@@ -2120,7 +3270,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">mitigate volatility</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1802864639" CREATED="1745195324166" MODIFIED="1745195324166"><richcontent TYPE="NODE">
@@ -2133,7 +3282,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">safeguarding against</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_688314481" CREATED="1745195335686" MODIFIED="1745195335686"><richcontent TYPE="NODE">
 
@@ -2145,7 +3293,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">demand shocks</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1447242411" CREATED="1745195346998" MODIFIED="1745195346998"><richcontent TYPE="NODE">
@@ -2158,7 +3305,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">interest rate hikes.</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2173,7 +3319,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Regular stress-testing</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1574664387" CREATED="1745195383463" MODIFIED="1745195383463"><richcontent TYPE="NODE">
 
@@ -2185,7 +3330,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">ensures preparedness for economic downturns</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2202,7 +3346,6 @@
     </h2>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_365337362" CREATED="1745195796667" MODIFIED="1745195796667"><richcontent TYPE="NODE">
 
@@ -2214,7 +3357,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Diversify Beyond Traditional Assets</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1116727183" CREATED="1745195840724" MODIFIED="1745195840724"><richcontent TYPE="NODE">
@@ -2227,7 +3369,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Monitor Regime Shifts</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_192357509" CREATED="1745195850739" MODIFIED="1745195850739"><richcontent TYPE="NODE">
 
@@ -2239,7 +3380,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Use rolling correlation analyses</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_593553553" CREATED="1745195861178" MODIFIED="1745195861178"><richcontent TYPE="NODE">
@@ -2252,7 +3392,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">macroeconomic indicators to anticipate structural changes.</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
