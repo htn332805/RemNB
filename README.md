@@ -26,10 +26,10 @@ $`\text{Total Dollar Return} = \text{Dividend Income} + \text{Capital Gain/Loss}
 ### 1.2 Percentage Returns
 **Components:**
 1. **Dividend Yield:** \($`\frac{D_{t+1}}{P_t} = \frac{0.40}{50} = 0.8\% `$\)
-2. **Capital Gains Yield:** \( \frac{P_{t+1} - P_t}{P_t} = \frac{55.60-50}{50} = 11.2\% \)
+2. **Capital Gains Yield:** \($` \frac{P_{t+1} - P_t}{P_t} = \frac{55.60-50}{50} = 11.2\% `$\)
 
 **Total Return Formula:**
-\( \text{Total \% Return} = \frac{D_{t+1} + (P_{t+1} - P_t)}{P_t} \times 100 \) [1][2]
+\($` \text{Total \% Return} = \frac{D_{t+1} + (P_{t+1} - P_t)}{P_t} \times 100 `$\) [1][2]
 
 **Application:**
 - Enables comparison across different investments
