@@ -13,7 +13,7 @@ $\( \text{Total Dollar Return} = \text{Dividend Income} + \text{Capital Gain/Los
 **Example:**
 - Initial investment: 200 shares @ $50 = $10,000
 - Case 1 (Price $55.60): 
-  $$\( \$80 \text{ dividends} + \$1,120 \text{ capital gain} = \$1,200 \text{ total return} \)$$
+  $\( \$80 \text{ dividends} + \$1,120 \text{ capital gain} = \$1,200 \text{ total return} \)$
 
 **Positives:**
 - Intuitive monetary value representation
