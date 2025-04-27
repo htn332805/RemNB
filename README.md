@@ -8,7 +8,7 @@
 - Capital gains/losses [1][2]
 
 **Calculation:**
-$$\( \text{Total Dollar Return} = \text{Dividend Income} + \text{Capital Gain/Loss} \)$$
+$\( \text{Total Dollar Return} = \text{Dividend Income} + \text{Capital Gain/Loss} \)$
 
 **Example:**
 - Initial investment: 200 shares @ $50 = $10,000
