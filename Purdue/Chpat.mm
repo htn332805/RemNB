@@ -3,8 +3,8 @@
 <node TEXT="My Notes" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1737931298040">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="2.198">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1667796204000" fit_to_viewport="false" showTagCategories="false"/>
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1667796204000" fit_to_viewport="false" showTagCategories="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -3305,8 +3305,7 @@
 </node>
 </node>
 </node>
-</node>
-<node TEXT="Risk and Return in Investments" FOLDED="true" POSITION="left" ID="ID_1439652073" CREATED="1745689741953" MODIFIED="1745691194360">
+<node TEXT="Risk and Return in Investments" FOLDED="true" ID="ID_1439652073" CREATED="1745689741953" MODIFIED="1745691194360">
 <node TEXT="key concepts" FOLDED="true" ID="ID_561927634" CREATED="1745691830132" MODIFIED="1745691836573">
 <node TEXT="Dollar Returns" ID="ID_1273461849" CREATED="1745691838620" MODIFIED="1745691843981">
 <node TEXT="    +" ID="ID_279826229" CREATED="1745691903212" MODIFIED="1745691917877">
@@ -4229,7 +4228,8 @@
 </node>
 </node>
 </node>
-<node TEXT="TOS" POSITION="right" ID="ID_215521422" CREATED="1745793522367" MODIFIED="1745793525230">
+</node>
+<node TEXT="TOS" FOLDED="true" POSITION="right" ID="ID_215521422" CREATED="1745793522367" MODIFIED="1745793525230">
 <node TEXT="EPS" FOLDED="true" ID="ID_1938750496" CREATED="1745793525785" MODIFIED="1745793570427">
 <node ID="ID_1640716782" CREATED="1745793595687" MODIFIED="1745793595687"><richcontent TYPE="NODE">
 
@@ -4241,7 +4241,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">measuring a company's profitability on a per-share basis</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1899952920" CREATED="1745793619162" MODIFIED="1745793619162"><richcontent TYPE="NODE">
@@ -4254,7 +4253,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">portion of net income allocated to common shareholders</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex  $\frac{\text(Net Income) -\text( Preferred Div)}{\text(Weighted Average Common Shares Oustanding)}" ID="ID_52924525" CREATED="1745793660531" MODIFIED="1745794081097">
@@ -4272,7 +4270,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">generating profits per share</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1928053335" CREATED="1745794145149" MODIFIED="1745794150229"><richcontent TYPE="NODE">
@@ -4285,7 +4282,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">but excessive leverage</font></span>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="face solvency risks" ID="ID_1462631222" CREATED="1745794159472" MODIFIED="1745794160973"/>
 </node>
@@ -4301,7 +4297,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">EPS ignores debt and cash flow quality</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4315,7 +4310,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">EPS reflects per-share earnings efficiency.</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4329,7 +4323,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Analysis</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Peer Comparison" ID="ID_124832468" CREATED="1745794237184" MODIFIED="1745794243424"/>
 <node TEXT="Trend Analysis" ID="ID_955875125" CREATED="1745794244016" MODIFIED="1745794247425">
@@ -4343,7 +4336,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">EPS growth over quarters/years</font></span>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="improving/worsening performance" ID="ID_957612500" CREATED="1745794269447" MODIFIED="1745794274930"/>
 <node TEXT="\latex \frac{CurrenEPS-PriorEPS}{PriorEPS}" ID="ID_996769962" CREATED="1745794535648" MODIFIED="1745794591740">
@@ -4361,7 +4353,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Consistent EPS growth often drives stock appreciation</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span>&nbsp;</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4376,7 +4367,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">If growth lags expectations, stocks may decline</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4392,7 +4382,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Bearish Signal</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1826879298" CREATED="1745796460034" MODIFIED="1745796460034"><richcontent TYPE="NODE">
 
@@ -4404,7 +4393,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Declining EPS may trigger sell-offs</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_234350306" CREATED="1745796465928" MODIFIED="1745796465928"><richcontent TYPE="NODE">
 
@@ -4416,7 +4404,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">especially in cyclical industries</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4431,7 +4418,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Resilience</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1985262042" CREATED="1745796505528" MODIFIED="1745796525770"><richcontent TYPE="NODE">
 
@@ -4443,7 +4429,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Companies maintaining EPS during downturns</font></span>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="may see relative outperformance" ID="ID_1378557656" CREATED="1745796519162" MODIFIED="1745796526654">
 <node ID="ID_1137806676" CREATED="1745796528578" MODIFIED="1745796528578"><richcontent TYPE="NODE">
@@ -4456,7 +4441,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">e.g., consumer staples</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4493,7 +4477,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Sector-wide EPS growth signals robust economic conditions</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4507,7 +4490,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Recession</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_255333885" CREATED="1745796281580" MODIFIED="1745796281580"><richcontent TYPE="NODE">
 
@@ -4519,7 +4501,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">EPS declines may reflect broader demand drops rather than poor management</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4534,7 +4515,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">R&amp;D/Expansion</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_889297160" CREATED="1745796336004" MODIFIED="1745796336004"><richcontent TYPE="NODE">
 
@@ -4546,7 +4526,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Short-term EPS dips may precede long-term growth</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4585,7 +4564,6 @@
     <strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Recommendation</font></b></strong>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1604179984" CREATED="1745796666821" MODIFIED="1745796666821"><richcontent TYPE="NODE">
 
@@ -4597,7 +4575,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Combine EPS with P/E ratios, debt metrics, and macroeconomic trends</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1070747617" CREATED="1745796676429" MODIFIED="1745796676429"><richcontent TYPE="NODE">
@@ -4610,7 +4587,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">For long-term investors, prioritize EPS growth consistency over short-term volatility</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -4627,7 +4603,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">company's profit is being distributed to shareholders on a per-share basis</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_616224010" CREATED="1745796951616" MODIFIED="1745796951616"><richcontent TYPE="NODE">
@@ -4640,7 +4615,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">portion of earnings returned to investors as a reward for their investment</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1941070797" CREATED="1745796976320" MODIFIED="1745796976320"><richcontent TYPE="NODE">
@@ -4653,7 +4627,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">relevant for mature companies</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex&#xa;\frac{TotalDividendPaid}{TotalNumberofOustandingShare}" ID="ID_721770272" CREATED="1745797024236" MODIFIED="1745797117006"/>
@@ -4667,7 +4640,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Consistent or increasing DPS</font></span>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1403090781" CREATED="1745797288099" MODIFIED="1745797288099"><richcontent TYPE="NODE">
 
@@ -4679,7 +4651,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">company generates sufficient profits and cash flow to support regular dividend payments</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1932268299" CREATED="1745797297107" MODIFIED="1745797297107"><richcontent TYPE="NODE">
@@ -4692,7 +4663,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">indicating financial stability and operational success</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_667836456" CREATED="1745797313315" MODIFIED="1745797313315"><richcontent TYPE="NODE">
@@ -4705,7 +4675,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">ability to maintain or increase dividend payments,</span></font>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1587612201" CREATED="1745797329559" MODIFIED="1745797329559"><richcontent TYPE="NODE">
 
@@ -4717,7 +4686,6 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">demonstrates financial resilience</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_985125983" CREATED="1745797334556" MODIFIED="1745797334556"><richcontent TYPE="NODE">
@@ -4730,7 +4698,6 @@
     <span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&nbsp;</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">effective capital management</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1835868940" CREATED="1745797341899" MODIFIED="1745797341899"/>
@@ -4748,13 +4715,615 @@
     <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">reveals what portion of earnings is being distributed versus retained</font></span>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 <node TEXT="Dividend Discount Model (DDM)" ID="ID_391554410" CREATED="1745797565488" MODIFIED="1745797580881"/>
 <node TEXT="Two-Stage Dividend Discount Model" ID="ID_1904654961" CREATED="1745797598384" MODIFIED="1745797614336"/>
+</node>
+</node>
+<node TEXT="Python" POSITION="left" ID="ID_1562820050" CREATED="1746907663355" MODIFIED="1746907666870">
+<node TEXT="Pandas" ID="ID_31643223" CREATED="1746907730772" MODIFIED="1746907733596">
+<node TEXT="create DataFrame" ID="ID_1889577349" CREATED="1746907733948" MODIFIED="1746909080908"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>import pandas as pd
+pd.set_option('display.max_rows', 5)</pre>
+    <p>
+      
+    </p>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-4" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre>pd.DataFrame({'Yes': [50, 21], 'No': [131, 2]})</pre>
+      </div>
+    </div>
+    <pre><code class="language-python">fruits = pd.DataFrame([[30, 21]], columns=['Apples', 'Bananas'])</code></pre>
+    <p>
+      fruit_sales = pd.DataFrame([[35,21],[41,34]], columns=['Apples', 'Bananas'], index=['2017 Sales', '2018 Sales'])
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="create a series" ID="ID_1946361111" CREATED="1746908277547" MODIFIED="1746909413379"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-11" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre>pd.Series([1, 2, 3, 4, 5])</pre>
+      </div>
+    </div>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-12" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text_cell_render border-box-sizing rendered_html">
+      <p>
+        A Series is, in essence, a single column of a DataFrame. So you can assign row labels to the Series the same way as before, using an <code>index</code>&nbsp;&nbsp;parameter. However, a Series does not have a column name, it only has one overall <code>name</code>:
+      </p>
+    </div>
+    <pre>pd.Series([30, 35, 40], index=['2015 Sales', '2016 Sales', '2017 Sales'], name='Product A')
+ingredients = pd.Series(['4 cups', '1 cup', '2 large', '1 can'], index=['Flour', 'Milk', 'Eggs', 'Spam'], name='Dinner')</pre>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Read a csv" ID="ID_1789466647" CREATED="1746908411251" MODIFIED="1746909612506"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>wine_reviews = pd.read_csv(&quot;../input/wine-reviews/winemag-data-130k-v2.csv&quot;)
+reviews = pd.read_csv(&quot;../input/wine-reviews/winemag-data_first150k.csv&quot;, index_col=[0])</pre>
+    <p>
+      to check how large the resulting DataFrame is:
+    </p>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-18" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre>wine_reviews.shape
+
+        </pre>
+        <div class="inner_cell">
+          <div id="sharing-control-portal-20" class="sharing-control-portal">
+            <div class="sc-lpbaSe gMZthK cell-sharing-control">
+              <div class="sc-bxjEGZ jVNjDH">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input_area">
+          <div class=" highlight hl-ipython3">
+            <pre>wine_reviews.head()
+
+</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Write to csv" ID="ID_1921142372" CREATED="1746909753307" MODIFIED="1746909788945"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      animals_df.to_csv(&quot;cows_and_goats.csv&quot;)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Indexing in pandas" FOLDED="true" ID="ID_148331048" CREATED="1746910286435" MODIFIED="1746912908470"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>reviews.description.loc[0]</code>, <code>reviews.description[0] </code>
+    </p>
+    <pre><code class="language-python">first_description <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">description</span><span class="ͼ1c">.</span><span class="ͼ12">iloc</span><span class="ͼ17">[</span><span class="ͼx">0</span><span class="ͼ17">]</span></code><code>first_row = reviews.iloc[0,:]</code></pre>
+    <pre><code class="language-python">first_row <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">iloc</span><span class="ͼ17">[</span><span class="ͼx">0</span><span class="ͼ17">]</span></code></pre>
+    <p>
+      <code>desc.head(10) </code>
+    </p>
+    <p>
+      <code>reviews.loc[:9, &quot;description&quot;] </code>
+    </p>
+    <p>
+      <code>sample_reviews = reviews.iloc[[1,2,3,5,8],:] </code>
+    </p>
+    <pre><code class="language-python">indices <span class="ͼ13">=</span> <span class="ͼ17">[</span><span class="ͼx">1</span><span class="ͼ1c">,</span> <span class="ͼx">2</span><span class="ͼ1c">,</span> <span class="ͼx">3</span><span class="ͼ1c">,</span> <span class="ͼx">5</span><span class="ͼ1c">,</span> <span class="ͼx">8</span><span class="ͼ17">]</span>
+sample_reviews <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">loc</span><span class="ͼ17">[</span>indices<span class="ͼ17">]</span></code></pre>
+    <pre><code class="language-python">cols <span class="ͼ13">=</span> <span class="ͼ17">[</span><span class="ͼ15">'country'</span><span class="ͼ1c">,</span> <span class="ͼ15">'variety'</span><span class="ͼ17">]</span>
+df <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">loc</span><span class="ͼ17">[</span>:<span class="ͼx">99</span><span class="ͼ1c">,</span> cols<span class="ͼ17">]</span></code></pre>
+    <p>
+      or
+    </p>
+    <pre><code class="language-python">cols_idx <span class="ͼ13">=</span> <span class="ͼ17">[</span><span class="ͼx">0</span><span class="ͼ1c">,</span> <span class="ͼx">11</span><span class="ͼ17">]</span>
+df <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">iloc</span><span class="ͼ17">[</span>:<span class="ͼx">100</span><span class="ͼ1c">,</span> cols_idx<span class="ͼ17">]</span></code></pre>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="row-first, column-second" ID="ID_114645371" CREATED="1746910412778" MODIFIED="1746910416936">
+<node TEXT="loc" ID="ID_54563565" CREATED="1746910289794" MODIFIED="1746911074792"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="n">reviews</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="s1">'country'</span><span class="p">]</span></pre>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-27" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre><span class="n">reviews</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">'taster_name'</span><span class="p">,</span> <span class="s1">'taster_twitter_handle'</span><span class="p">,</span> <span class="s1">'points'</span><span class="p">]]</span>
+</pre>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+<node ID="ID_138738460" CREATED="1746910732822" MODIFIED="1746910732822"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <strong>label-based selection</strong>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_277982248" CREATED="1746910743924" MODIFIED="1746910743924"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    data index value
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_43344405" CREATED="1746911019445" MODIFIED="1746911019445"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    indexes inclusively
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="iloc" ID="ID_444204054" CREATED="1746910293914" MODIFIED="1746910812459"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>reviews.iloc[0]</pre>
+    <pre>reviews.iloc[:, </pre>
+    <div class="inner_cell">
+      <div class=" highlight hl-ipython3">
+        <pre>reviews.iloc[:3, 0]</pre>
+      </div>
+    </div>
+    <pre>reviews.iloc[1:3, 0]</pre>
+    <pre>reviews.iloc[[0, 1, 2], 0]</pre>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-23" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre>reviews.iloc[-5:]</pre>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+<node ID="ID_130536395" CREATED="1746910326640" MODIFIED="1746910326640"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    selecting data based on its numerical position
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_538662358" CREATED="1746910446792" MODIFIED="1746910446792"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="n">reviews</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_662560658" CREATED="1746911000860" MODIFIED="1746911000860"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    first element of the range is included and the last one excluded
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Manipulating the index" ID="ID_1959482026" CREATED="1746911085727" MODIFIED="1746914407464">
+<node TEXT="reviews.set_index(&quot;title&quot;)" ID="ID_798740955" CREATED="1746911143841" MODIFIED="1746911146032"/>
+</node>
+<node TEXT="Conditional selection" ID="ID_629145455" CREATED="1746911224974" MODIFIED="1746914384325"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-37" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre>reviews.loc[(reviews.country == 'Italy') &amp; (reviews.points &gt;= 90)]</pre>
+      </div>
+    </div>
+    <pre>reviews.loc[(reviews.country == 'Italy') | (reviews.points &gt;= 90)]</pre>
+    <div class="inner_cell">
+      <div class=" highlight hl-ipython3">
+        <pre>reviews.loc[reviews.country.isin(['Italy', 'France'])]</pre>
+      </div>
+    </div>
+    <p>
+      <code>isnull</code>&nbsp;(and its companion <code>notnull</code>).
+    </p>
+    <div class="inner_cell">
+      <div id="sharing-control-portal-43" class="sharing-control-portal">
+        <div class="sc-lpbaSe gMZthK cell-sharing-control">
+          <div class="sc-bxjEGZ jVNjDH">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre>reviews.loc[reviews.price.notnull()]
+reviews.loc[reviews.country == 'Italy']</pre>
+      </div>
+    </div>
+    <pre><code class="language-python">italian_wines <span class="ͼ13">=</span> reviews<span class="ͼ17">[</span>reviews<span class="ͼ1c">.</span><span class="ͼ12">country</span> <span class="ͼ13">==</span> <span class="ͼ15">'Italy'</span><span class="ͼ17">]</span></code></pre>
+  </body>
+</html></richcontent>
+<node ID="ID_424744659" CREATED="1746911197472" MODIFIED="1746911197472"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="input_area">
+      <div class=" highlight hl-ipython3">
+        <pre><span class="n">reviews</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">reviews</span><span class="o">.</span><span class="n">country</span> <span class="o">==</span> <span class="s1">'Italy'</span><span class="p">]</span>
+</pre>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1147377337" CREATED="1746911921263" MODIFIED="1746911921263"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code>table.column</code>&nbsp;or <code>table[&quot;column&quot;]</code>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Assigning data" ID="ID_764775693" CREATED="1746911541690" MODIFIED="1746911794848"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="n">reviews</span><span class="p">[</span><span class="s1">'critic'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'everyone'</span></pre>
+    <p>
+      
+    </p>
+    <p>
+      with an iterable of values:
+    </p>
+    <div class="inner_cell">
+      <pre><span class="n">reviews</span><span class="p">[</span><span class="s1">'index_backwards'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">reviews</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span></pre>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="Summary functions" FOLDED="true" ID="ID_952985517" CREATED="1746914233854" MODIFIED="1746914364002">
+<node TEXT="df.points.describe()" ID="ID_1000184769" CREATED="1746914507520" MODIFIED="1746914528272"/>
+<node TEXT="df.column.describe()" ID="ID_752187749" CREATED="1746914534407" MODIFIED="1746914544082"/>
+<node TEXT="df.column.mean()" ID="ID_1877241740" CREATED="1746914550614" MODIFIED="1746914563153"/>
+<node TEXT="df.column.unique()" ID="ID_1821850330" CREATED="1746914572046" MODIFIED="1746914584792"/>
+<node TEXT="df.column.value_counts()" ID="ID_475415392" CREATED="1746914586200" MODIFIED="1746914595664"/>
+<node TEXT="df.column.median()" ID="ID_1125201788" CREATED="1746915660768" MODIFIED="1746915667680"/>
+</node>
+<node TEXT="Maps" FOLDED="true" ID="ID_1946251728" CREATED="1746915107887" MODIFIED="1746915111720">
+<node TEXT="custom method" ID="ID_1967481712" CREATED="1746915148047" MODIFIED="1746915160584">
+<node TEXT="apply()" ID="ID_306799372" CREATED="1746915161727" MODIFIED="1746920231501"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>def remean_points(row):
+    row.points = row.points - review_points_mean
+    return row
+
+reviews.apply(remean_points, axis='columns')</pre>
+    <p>
+      
+    </p>
+    <pre><code class="language-python"><span class="ͼv">def</span> <span class="ͼy">stars</span><span class="ͼ1c">(</span>row<span class="ͼ1c">)</span>:
+    <span class="ͼv">if</span> row<span class="ͼ1c">.</span><span class="ͼ12">country</span> <span class="ͼ13">==</span> <span class="ͼ15">'Canada'</span>:
+        <span class="ͼv">return</span> <span class="ͼx">3</span>
+    <span class="ͼv">elif</span> row<span class="ͼ1c">.</span><span class="ͼ12">points</span> <span class="ͼ13">&gt;=</span> <span class="ͼx">95</span>:
+        <span class="ͼv">return</span> <span class="ͼx">3</span>
+    <span class="ͼv">elif</span> row<span class="ͼ1c">.</span><span class="ͼ12">points</span> <span class="ͼ13">&gt;=</span> <span class="ͼx">85</span>:
+        <span class="ͼv">return</span> <span class="ͼx">2</span>
+    <span class="ͼv">else</span>:
+        <span class="ͼv">return</span> <span class="ͼx">1</span>
+    
+star_ratings <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">apply</span><span class="ͼ1c">(</span>stars<span class="ͼ1c">,</span> axis<span class="ͼ13">=</span><span class="ͼ15">'columns'</span><span class="ͼ1c">)</span></code></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="map()" ID="ID_1432228739" CREATED="1746915170743" MODIFIED="1746915187711"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      review_points_mean = reviews.points.mean()
+    </p>
+    <p>
+      reviews.points.map(lambda p: p - review_points_mean)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="df.groupby()" ID="ID_166896595" CREATED="1746930450844" MODIFIED="1746930677147"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>df<span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'</span>column_name'<span class="p">)</span><span class="o">.</span>columnA<span class="o">.</span><span class="n">count</span><span class="p">()</span></pre>
+    <div class="inner_cell">
+      <div class=" highlight hl-ipython3">
+        <pre>df<span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'points'</span><span class="p">)</span><span class="o">.</span><span class="n">price</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+
+        </pre>
+        <div class="inner_cell">
+          <div id="sharing-control-portal-7" class="sharing-control-portal">
+            <div class="sc-lpbaSe gMZthK cell-sharing-control">
+              <div class="sc-bxjEGZ jVNjDH">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input_area">
+          <div class=" highlight hl-ipython3">
+            <pre><span class="n">reviews</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'winery'</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">df</span><span class="p">:</span> <span class="n">df</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="missing data" ID="ID_1288825746" CREATED="1746930723871" MODIFIED="1746931666043"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre>reviews.region_2.fillna(&quot;Unknown&quot;)</pre>
+    <pre>reviews.taster_twitter_handle.replace(&quot;@kerinokeefe&quot;, &quot;@kerino&quot;)</pre>
+    <pre><code class="language-python">missing_price_reviews <span class="ͼ13">=</span> reviews<span class="ͼ17">[</span>reviews<span class="ͼ1c">.</span><span class="ͼ12">price</span><span class="ͼ1c">.</span><span class="ͼ12">isnull</span><span class="ͼ1c">()</span><span class="ͼ17">]</span>
+n_missing_prices <span class="ͼ13">=</span> len<span class="ͼ1c">(</span>missing_price_reviews<span class="ͼ1c">)</span>
+<span class="ͼ14"># Cute alternative solution: if we sum a boolean series, True is treated as 1 and False as 0</span>
+n_missing_prices <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">price</span><span class="ͼ1c">.</span><span class="ͼ12">isnull</span><span class="ͼ1c">().</span><span class="ͼ12">sum</span><span class="ͼ1c">()</span>
+<span class="ͼ14"># or equivalently:</span>
+n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span class="ͼ12">isnull</span><span class="ͼ1c">(</span>reviews<span class="ͼ1c">.</span><span class="ͼ12">price</span><span class="ͼ1c">).</span><span class="ͼ12">sum</span><span class="ͼ1c">()</span></code></pre>
+  </body>
+</html></richcontent>
+<node ID="ID_136067153" CREATED="1746930797084" MODIFIED="1746930797084"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code>pd.isnull()</code>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1519689689" CREATED="1746930803200" MODIFIED="1746930803200"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <code>pd.notnull()</code>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="fillna()" ID="ID_1554990397" CREATED="1746930861374" MODIFIED="1746930865924"/>
+</node>
+<node TEXT="rename" ID="ID_1438420547" CREATED="1746931746214" MODIFIED="1746931917050"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="n">reviews</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="p">{</span><span class="mi">0</span><span class="p">:</span> <span class="s1">'firstEntry'</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span> <span class="s1">'secondEntry'</span><span class="p">})</span></pre>
+    <div class="inner_cell">
+      <div class=" highlight hl-ipython3">
+        <pre><span class="n">reviews</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s2">&quot;wines&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'rows'</span><span class="p">)</span><span class="o">.</span><span class="n">rename_axis</span><span class="p">(</span><span class="s2">&quot;fields&quot;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s1">'columns'</span><span class="p">)</span>
+</pre>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+<node ID="ID_1726874814" CREATED="1746931769994" MODIFIED="1746931795859"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="o">df.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'oldcol'</span><span class="p">:</span> <span class="s1">'newcol'</span><span class="p">})</span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1487801726" CREATED="1746932590854" MODIFIED="1746932590854"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code class="language-python">reindexed <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ12">rename_axis</span><span class="ͼ1c">(</span><span class="ͼ15">'wines'</span><span class="ͼ1c">,</span> axis<span class="ͼ13">=</span><span class="ͼ15">'rows'</span><span class="ͼ1c">)</span></code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="combine" ID="ID_961382611" CREATED="1746931918677" MODIFIED="1746931921247">
+<node ID="ID_589205145" CREATED="1746931975650" MODIFIED="1746931991403"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([df1,</span> df2<span class="p">])</span></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="join()" ID="ID_1234100265" CREATED="1746932032245" MODIFIED="1746932201016"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><span class="n">left</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">right</span><span class="p">,</span> <span class="n">lsuffix</span><span class="o">=</span><span class="s1">'_CAN'</span><span class="p">,</span> <span class="n">rsuffix</span><span class="o">=</span><span class="s1">'_UK'</span><span class="p">)</span></pre>
+  </body>
+</html></richcontent>
+<node ID="ID_109071131" CREATED="1746932047309" MODIFIED="1746932047309"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    have an index in common
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
