@@ -299,5 +299,338 @@
 </node>
 </node>
 </node>
+<node TEXT="MT423" POSITION="left" ID="ID_106093417" CREATED="1747598069740" MODIFIED="1747598080365">
+<node TEXT="critical components" ID="ID_35534004" CREATED="1747597690327" MODIFIED="1747602797022">
+<node TEXT="Risk" ID="ID_435487616" CREATED="1747597709221" MODIFIED="1747597712763">
+<node TEXT="Risk-Return Tradeoff" ID="ID_752113690" CREATED="1747597885253" MODIFIED="1747597886574">
+<node ID="ID_1534788702" CREATED="1747597898941" MODIFIED="1747597898941"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Central principle</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex \( \text{Expected Return} = f(\text{Risk}) \)" ID="ID_1226534479" CREATED="1747597906150" MODIFIED="1747597945054">
+<font NAME="Ink Free"/>
+</node>
+<node TEXT="\latex Risk-Free Rate (\( R_F \)) as baseline" ID="ID_667473248" CREATED="1747597966205" MODIFIED="1747598579469"/>
+</node>
+</node>
+<node ID="ID_1119812106" CREATED="1747597988285" MODIFIED="1747597988285"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Risk Tolerance Spectrum</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex \[&#xa;\begin{array}{ll}&#xa;\text{Low Risk} &amp; \rightarrow \text{Treasury Bonds} \\&#xa;\text{Medium Risk} &amp; \rightarrow \text{Blue-Chip Stocks} \\&#xa;\text{High Risk} &amp; \rightarrow \text{Startup Equity} \\&#xa;\end{array}&#xa;\]" ID="ID_669222495" CREATED="1747597993587" MODIFIED="1747597997254"/>
+</node>
+</node>
+<node TEXT="return" ID="ID_1501343723" CREATED="1747597727396" MODIFIED="1747597731342">
+<node TEXT="\latex Sharpe ratio  \frac{PortfolioReturn -RiskFreeRate}{Portofolio Volatility}" ID="ID_1016625686" CREATED="1747600567315" MODIFIED="1747600739725"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">evaluate whether additional risk justifies incremental returns</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1715790997" CREATED="1747600749584" MODIFIED="1747600759299"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">&gt;1 indicates efficient risk-adjusted performance</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Compounding Magnifies Small Differences" ID="ID_1488833198" CREATED="1747601708874" MODIFIED="1747610177490"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul class="marker:text-textOff list-disc" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; list-style: disc; margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <li style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0; margin-bottom: 0">
+        <p class="my-0" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px">
+          More frequent compounding (e.g., monthly vs. annually) yields higher returns due to<span>&nbsp;</span><strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black"><b><font color="black">interest earning interest</font></b></strong>.
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Time is the Critical Variable" ID="ID_194880534" CREATED="1747601730185" MODIFIED="1747601778217">
+<node TEXT="The gap grows exponentially with time" ID="ID_528090921" CREATED="1747601780881" MODIFIED="1747601783028"/>
+</node>
+</node>
+</node>
+<node TEXT="increasing trend of risk and expect return" ID="ID_496645953" CREATED="1747599368828" MODIFIED="1747602797022">
+<node TEXT="Risk Free" ID="ID_10684657" CREATED="1747599384299" MODIFIED="1747599389588">
+<node TEXT="Corporate bonds" ID="ID_1040365560" CREATED="1747599389843" MODIFIED="1747599395756">
+<node TEXT="Large firm common stock" ID="ID_307201220" CREATED="1747599396027" MODIFIED="1747599403868">
+<node TEXT="small firm common stock" ID="ID_766638265" CREATED="1747599404851" MODIFIED="1747599410652">
+<node TEXT="private equity" ID="ID_1955119964" CREATED="1747599410899" MODIFIED="1747599414541"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Investment Decision Process" ID="ID_1230647989" CREATED="1747598087300" MODIFIED="1747598384431"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Stock prices can be heavily influenced by investor expectations and market sentiment, not just company earnings.
+    </p>
+    <p>
+      Overpaying for growth during a bubble can lead to long-term underperformance
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1334481049" CREATED="1747598100036" MODIFIED="1747598100036"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Security Analysis</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_550498909" CREATED="1747598113428" MODIFIED="1747598113428"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Valuation methods</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="T-bill pricing" ID="ID_938367161" CREATED="1747602592376" MODIFIED="1747602606377">
+<node TEXT="\latex Price(P)= F \times [ 1- \frac{r_{BD}&#xa; \times n}{360} ]" ID="ID_1389093344" CREATED="1747602608025" MODIFIED="1747602917667">
+<node TEXT="\latex \[&#xa;\begin{array}{ll}&#xa;\text{F} &amp; \rightarrow \text{ face value of T-bill} \\&#xa;r_{BD} &amp; \rightarrow \text{ bank discount rate} \\&#xa;\text{n} &amp; \rightarrow \text{ dasy to maturity} \\&#xa;\end{array}&#xa;\]" ID="ID_92746813" CREATED="1747602918792" MODIFIED="1747602956562"/>
+</node>
+<node TEXT="Bond Equivalent Yield" ID="ID_1573898736" CREATED="1747602981584" MODIFIED="1747602984513">
+<node TEXT="\latex  r_{BEY} = \frac{F-P}{P} \times \frac{365}{n}" ID="ID_961323213" CREATED="1747603001616" MODIFIED="1747603061969"/>
+</node>
+<node TEXT="Equivalent Annual Yield" ID="ID_329215470" CREATED="1747603073688" MODIFIED="1747603081488">
+<node TEXT="\latex r_{EAY} = [  (\frac{F}{P})^{365/n}-1]" ID="ID_93135884" CREATED="1747603082999" MODIFIED="1747603317830"/>
+</node>
+</node>
+<node TEXT="Bond" ID="ID_1868508878" CREATED="1747603452943" MODIFIED="1747603456224">
+<node TEXT="Taxable Equivalent Yield" ID="ID_541927949" CREATED="1747603457544" MODIFIED="1747603459528">
+<node TEXT="\latex TEY=\frac{MunicipalBondYield}{1-marginalTaxRate}" ID="ID_306506842" CREATED="1747603461440" MODIFIED="1747603512895"/>
+</node>
+<node TEXT=" When rates fall, bond prices rise" ID="ID_1614789430" CREATED="1747605379125" MODIFIED="1747605387092">
+<node TEXT=" when rates rise,&#xa;bond prices fall" ID="ID_1721573532" CREATED="1747605392693" MODIFIED="1747605402431"/>
+</node>
+<node TEXT="after-tax yield" ID="ID_1631139302" CREATED="1747606898052" MODIFIED="1747606900645">
+<node TEXT="\latex After-Tax-Yield = CorporateBondYield \times (1- MarginalTaxRate)" ID="ID_608339878" CREATED="1747606901188" MODIFIED="1747606994947"/>
+</node>
+<node TEXT="Comparison" ID="ID_706501727" CREATED="1747607073908" MODIFIED="1747607137331"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Even a small difference in yields matters when tax implications are factored in</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Pre-tax comparison" ID="ID_1299501859" CREATED="1747607081964" MODIFIED="1747607090989"/>
+<node TEXT="after-tax comparison" ID="ID_1040017556" CREATED="1747607092203" MODIFIED="1747607099637"/>
+</node>
+<node TEXT="Coupon Rate v.s. Market Yield" ID="ID_1001896052" CREATED="1747607729236" MODIFIED="1747607741611">
+<node TEXT="coupon &gt; market" ID="ID_1031528912" CREATED="1747607747339" MODIFIED="1747607756428">
+<node TEXT="Trade above par (Premium)" ID="ID_173448776" CREATED="1747607760475" MODIFIED="1747608026574"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none"><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">The coupon rate (5.35%)</font></span><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><span>&nbsp;</span><strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b>exceeds</b></strong><span>&nbsp;</span><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">the market yield (5.00%). Investors pay a</span><span>&nbsp;</span><strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b>premium</b></strong><span>&nbsp;</span><span style="color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; display: inline !important; float: none">to secure the higher coupon payments relative to prevailing rates.</span></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="coupon &lt; Market" ID="ID_63830232" CREATED="1747607807171" MODIFIED="1747607877781">
+<node TEXT="Trade below par (Discount)" ID="ID_355501827" CREATED="1747607892092" MODIFIED="1747607922449"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">Since the coupon rate (5.25%) is</font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji">&nbsp;</font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b>less than</b></strong></font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji">&nbsp;</font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">the market yield (7.25%), investors demand a higher return. The bond must trade</font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji">&nbsp;</font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px"><strong style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; font-weight: 550; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal"><b>below par</b></strong></font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji">&nbsp;</font><font color="black" face="fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji" size="16px">to compensate for the lower coupon.</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Common Stock" ID="ID_1461253963" CREATED="1747603610279" MODIFIED="1747603615808">
+<node TEXT="Book value" ID="ID_1518892736" CREATED="1747603616583" MODIFIED="1747603625296">
+<node TEXT="Accounting value on balance sheet" ID="ID_1759134910" CREATED="1747603625895" MODIFIED="1747603632556"/>
+</node>
+<node TEXT="Market Value" ID="ID_1396705686" CREATED="1747603634311" MODIFIED="1747603643164">
+<node TEXT="Observed stock price" ID="ID_474228408" CREATED="1747603644663" MODIFIED="1747603652007"/>
+</node>
+<node TEXT="Market capitalization" ID="ID_85626372" CREATED="1747603664040" MODIFIED="1747603667270">
+<node TEXT="Price per share × number of shares outstanding" ID="ID_453560366" CREATED="1747603677887" MODIFIED="1747603680075"/>
+</node>
+<node TEXT="Dividend yield" ID="ID_1600244973" CREATED="1747603687519" MODIFIED="1747603689447">
+<node TEXT="Dividend per share ÷ current stock price" ID="ID_1136965325" CREATED="1747603695903" MODIFIED="1747603699505"/>
+</node>
+<node TEXT="Payout ratio" ID="ID_907719498" CREATED="1747603706759" MODIFIED="1747603708854">
+<node TEXT="Dividends ÷ earnings" ID="ID_1789006922" CREATED="1747603714743" MODIFIED="1747603717749"/>
+</node>
+<node TEXT="Stock dividends and splits" ID="ID_528105663" CREATED="1747603729480" MODIFIED="1747603736040">
+<node TEXT="Distribution of additional shares" ID="ID_240917911" CREATED="1747603742999" MODIFIED="1747603745250"/>
+</node>
+<node TEXT="P/E ratio" ID="ID_1856949583" CREATED="1747603751519" MODIFIED="1747603754037"/>
+</node>
+</node>
+</node>
+<node TEXT="Portfolio Management" ID="ID_1810412810" CREATED="1747598406720" MODIFIED="1747601871115"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="my-0" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      Small improvements in returns (even 1%) are<span>&nbsp;</span><em style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px">critically important</em><span>&nbsp;</span>for long-term investors. This underscores the value of:
+    </p>
+    <ol class="marker:text-textOff list-decimal" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; list-style: decimal; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: black; font-family: fkGroteskNeue, fkGroteskNeue Fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal">
+      <li style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0; margin-bottom: 0">
+        <p class="my-0" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px">
+          Minimizing fees (e.g., choosing low-cost index funds).
+        </p>
+      </li>
+      <li style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0; margin-bottom: 0">
+        <p class="my-0" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px">
+          Optimizing asset allocation to balance risk and return.
+        </p>
+      </li>
+      <li style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0; margin-bottom: 0">
+        <p class="my-0" style="border-top-color: rgb(229, 231, 235); border-top-style: solid; border-top-width: 0px; border-right-color: rgb(229, 231, 235); border-right-style: solid; border-right-width: 0px; border-bottom-color: rgb(229, 231, 235); border-bottom-style: solid; border-bottom-width: 0px; border-left-color: rgb(229, 231, 235); border-left-style: solid; border-left-width: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px">
+          Staying invested to harness compounding.
+        </p>
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1458655421" CREATED="1747598422067" MODIFIED="1747598422067"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Diversification</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_39531166" CREATED="1747598438859" MODIFIED="1747598438859"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Global stocks reduce portfolio volatility</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Markowitz Theory" ID="ID_727839150" CREATED="1747598449548" MODIFIED="1747598451488">
+<node TEXT="\latex Quantifies risk as \( \sigma^2 \) (variance)" ID="ID_522447485" CREATED="1747598461836" MODIFIED="1747598470701"/>
+</node>
+<node TEXT="Barbell strategy" ID="ID_97562862" CREATED="1747600934386" MODIFIED="1747600941874">
+<node TEXT="70% Core holdings" ID="ID_1511813761" CREATED="1747600943129" MODIFIED="1747600952074">
+<node TEXT="steady compounding" ID="ID_1589279452" CREATED="1747600976328" MODIFIED="1747600982634"/>
+<node TEXT="VOO" ID="ID_1780949723" CREATED="1747600985201" MODIFIED="1747600987203">
+<node TEXT="Broad Market" ID="ID_1602700962" CREATED="1747600989561" MODIFIED="1747600995627"/>
+</node>
+</node>
+<node TEXT="30% satellite holdings" ID="ID_684395256" CREATED="1747600953289" MODIFIED="1747600964882">
+<node TEXT="for growth" ID="ID_899337481" CREATED="1747600969418" MODIFIED="1747600974130"/>
+<node TEXT="higher risk assets" ID="ID_1204119803" CREATED="1747600999970" MODIFIED="1747601008739"/>
+<node TEXT="growth" ID="ID_1059582210" CREATED="1747601014345" MODIFIED="1747601016668"/>
+</node>
+</node>
+</node>
+<node TEXT=" Critical Considerations" ID="ID_1815863758" CREATED="1747598489147" MODIFIED="1747598491032">
+<node ID="ID_5251363" CREATED="1747598510707" MODIFIED="1747598510707"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 76); font-family: berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace; font-size: 14px; font-style: normal; font-weight: 100; letter-spacing: normal; text-align: right; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: pre-wrap; display: inline !important; float: none"><font color="rgb(77, 77, 76)" face="berkeleyMono, berkeleyMono Fallback, ui-monospace, SFMono-Regular, monospace" size="14px">Global Perspective</font></span>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Technological Impact" ID="ID_1751320005" CREATED="1747598532421" MODIFIED="1747598534804"/>
+</node>
+<node TEXT="Financial Assets" ID="ID_59011950" CREATED="1747602422888" MODIFIED="1747602428144">
+<node TEXT="Nonmarketable Financial Assets" ID="ID_1769203175" CREATED="1747602361912" MODIFIED="1747602365864">
+<node TEXT="Savings accounts" ID="ID_516262491" CREATED="1747602380121" MODIFIED="1747602388852"/>
+<node TEXT="Nonnegotiable certificates of deposit (CDs)" ID="ID_1183343832" CREATED="1747602389392" MODIFIED="1747602391426"/>
+<node TEXT="Money Market Deposit Accounts (MMDAs)" ID="ID_1142788700" CREATED="1747602397160" MODIFIED="1747602400220"/>
+<node TEXT="U.S. government savings bonds" ID="ID_1299661239" CREATED="1747602405472" MODIFIED="1747602408246"/>
+</node>
+<node TEXT="Money Market Securities" ID="ID_586729639" CREATED="1747602432000" MODIFIED="1747602433762">
+<node TEXT="Treasury bills (T-bills)" ID="ID_1851302473" CREATED="1747602446864" MODIFIED="1747602450319"/>
+<node TEXT="CD" ID="ID_256705165" CREATED="1747602469744" MODIFIED="1747602472025"/>
+<node TEXT="Commercial Paper" ID="ID_576041590" CREATED="1747602477080" MODIFIED="1747602484945"/>
+<node TEXT="Repurchaseable agreement RPs" ID="ID_306268233" CREATED="1747602487328" MODIFIED="1747602496753"/>
+<node TEXT="Banker&apos;s acceptance" ID="ID_128638640" CREATED="1747602500832" MODIFIED="1747602508353"/>
+</node>
+</node>
+</node>
 </node>
 </map>
