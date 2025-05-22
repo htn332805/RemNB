@@ -1,24 +1,28 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="My Notes" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1737931298040">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1667796204000" fit_to_viewport="false" showTagCategories="false"/>
+<hook NAME="MapStyle" background="#f9f9f8ff">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1744920790000" fit_to_viewport="false" showTagCategories="false" show_icons="BESIDE_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_506805493" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#efefef" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#8fbcbb" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_506805493" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#2e3440" WIDTH="3" DASH="SOLID"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#ffffff" BACKGROUND_COLOR="#2e3440" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true">
 <font SIZE="11" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="10"/>
@@ -33,7 +37,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#eceff4" BACKGROUND_COLOR="#bf616a" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_915433779" BORDER_COLOR="#bf616a">
 <icon BUILTIN="yes"/>
 <arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_915433779"/>
@@ -42,7 +46,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -80,7 +84,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Pu" FOLDED="true" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1737997341512" POSITION="bottom_or_right">
+<node TEXT="Pu" FOLDED="true" POSITION="bottom_or_right" ID="ID_651212852" CREATED="1737931300464" MODIFIED="1737997341512">
 <node TEXT="MT482" FOLDED="true" ID="ID_306573270" CREATED="1737931307251" MODIFIED="1737932938366">
 <node TEXT="Types of Analysis" FOLDED="true" ID="ID_1377584060" CREATED="1737931360853" MODIFIED="1737931362735">
 <node TEXT="Horizontal Analysis" FOLDED="true" ID="ID_433089173" CREATED="1737931364553" MODIFIED="1737931372809">
@@ -102,12 +106,12 @@
 <node TEXT="Balance Sheet" FOLDED="true" ID="ID_889111944" CREATED="1737931525533" MODIFIED="1737931531831">
 <node TEXT="Provides a snapshot of financial standing at a specific point" ID="ID_1314586995" CREATED="1737931564817" MODIFIED="1737952416379"/>
 <node TEXT="Summarize assets and liabilities, and equity" ID="ID_765897629" CREATED="1737931572016" MODIFIED="1737933390089"/>
-<node TEXT="Considers liquidity, debt obligations, and equity structure" ID="ID_969257305" CREATED="1737931606219" MODIFIED="1737952510539" POSITION="bottom_or_right"/>
+<node TEXT="Considers liquidity, debt obligations, and equity structure" POSITION="bottom_or_right" ID="ID_969257305" CREATED="1737931606219" MODIFIED="1737952510539"/>
 <node TEXT="Helps evaluate the extent of liabilities and available capital" ID="ID_698273150" CREATED="1737933426939" MODIFIED="1737933430554"/>
 </node>
 <node TEXT="Income Statement" FOLDED="true" ID="ID_1661050421" CREATED="1737931535207" MODIFIED="1737931692122">
-<node TEXT="Reveals profitability or losses" ID="ID_1182664937" CREATED="1737931581477" MODIFIED="1737931632964" POSITION="bottom_or_right"/>
-<node TEXT="Reports revenues and expenses over a specific period" ID="ID_160270761" CREATED="1737931619243" MODIFIED="1737952602423" POSITION="bottom_or_right"/>
+<node TEXT="Reveals profitability or losses" POSITION="bottom_or_right" ID="ID_1182664937" CREATED="1737931581477" MODIFIED="1737931632964"/>
+<node TEXT="Reports revenues and expenses over a specific period" POSITION="bottom_or_right" ID="ID_160270761" CREATED="1737931619243" MODIFIED="1737952602423"/>
 <node TEXT="Key metrics: Gross Profit Margin, Operating Margin, Net Profit Margin" ID="ID_1721956773" CREATED="1737931639059" MODIFIED="1737952668913"/>
 </node>
 <node TEXT="Cash Flow Statement" FOLDED="true" ID="ID_1520348591" CREATED="1737931543444" MODIFIED="1737931547181">
@@ -170,8 +174,8 @@
 <node TEXT="Determine intrinsic value" ID="ID_1978274401" CREATED="1737932569925" MODIFIED="1737932576633"/>
 </node>
 <node TEXT="Statement of Changes in Equity" FOLDED="true" ID="ID_882850094" CREATED="1737933545635" MODIFIED="1737933558235">
-<node TEXT="Shows changes" FOLDED="true" ID="ID_1885833270" CREATED="1737933583626" MODIFIED="1737952835921" POSITION="bottom_or_right">
-<node TEXT="Retained Earnings" ID="ID_95436239" CREATED="1737933579775" MODIFIED="1737933599206" POSITION="bottom_or_right"/>
+<node TEXT="Shows changes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1885833270" CREATED="1737933583626" MODIFIED="1737952835921">
+<node TEXT="Retained Earnings" POSITION="bottom_or_right" ID="ID_95436239" CREATED="1737933579775" MODIFIED="1737933599206"/>
 <node TEXT="Shareholders&apos;equity" ID="ID_376581331" CREATED="1737933600105" MODIFIED="1737933606017"/>
 </node>
 </node>
@@ -187,8 +191,8 @@
 <node TEXT="Indicator of ability to meet financial obligations" ID="ID_1591391070" CREATED="1737955277574" MODIFIED="1737955279662"/>
 <node TEXT="Affects financial flexibility and investment opportunities" ID="ID_601865933" CREATED="1737955297591" MODIFIED="1737955300757"/>
 <node TEXT="working capital ratios" FOLDED="true" ID="ID_1194342645" CREATED="1737961890116" MODIFIED="1737961894539">
-<node TEXT="Current Ratio" ID="ID_973738427" CREATED="1737931806043" MODIFIED="1737931811184" POSITION="bottom_or_right"/>
-<node TEXT="Quick Ratio" ID="ID_1686177364" CREATED="1737931812151" MODIFIED="1737933743481" POSITION="bottom_or_right"/>
+<node TEXT="Current Ratio" POSITION="bottom_or_right" ID="ID_973738427" CREATED="1737931806043" MODIFIED="1737931811184"/>
+<node TEXT="Quick Ratio" POSITION="bottom_or_right" ID="ID_1686177364" CREATED="1737931812151" MODIFIED="1737933743481"/>
 </node>
 </node>
 <node TEXT="Valuation" FOLDED="true" ID="ID_1085989080" CREATED="1737931736063" MODIFIED="1737931738826">
@@ -332,8 +336,8 @@
 </node>
 <node TEXT="Operating activities" FOLDED="true" ID="ID_1018389236" CREATED="1737932717404" MODIFIED="1737932750477">
 <node TEXT="Goods and services" FOLDED="true" ID="ID_879559297" CREATED="1737932830460" MODIFIED="1737932853977">
-<node TEXT="&lt;= Expense" ID="ID_736294664" CREATED="1737932784515" MODIFIED="1737932881365" POSITION="bottom_or_right"/>
-<node TEXT="&lt;= Revenue" ID="ID_281956145" CREATED="1737932750780" MODIFIED="1737932890034" POSITION="bottom_or_right"/>
+<node TEXT="&lt;= Expense" POSITION="bottom_or_right" ID="ID_736294664" CREATED="1737932784515" MODIFIED="1737932881365"/>
+<node TEXT="&lt;= Revenue" POSITION="bottom_or_right" ID="ID_281956145" CREATED="1737932750780" MODIFIED="1737932890034"/>
 </node>
 </node>
 </node>
@@ -357,8 +361,8 @@
 <node TEXT="Help in tracking cash flow and identifying areas for improvemen" ID="ID_786971080" CREATED="1737933779734" MODIFIED="1737952963787"/>
 </node>
 </node>
-<node TEXT="Solvency" FOLDED="true" ID="ID_924395248" CREATED="1737955395274" MODIFIED="1737955412231" POSITION="bottom_or_right">
-<node TEXT="Debt-to-Equity" ID="ID_1654630215" CREATED="1737931816715" MODIFIED="1737931834469" POSITION="bottom_or_right"/>
+<node TEXT="Solvency" FOLDED="true" POSITION="bottom_or_right" ID="ID_924395248" CREATED="1737955395274" MODIFIED="1737955412231">
+<node TEXT="Debt-to-Equity" POSITION="bottom_or_right" ID="ID_1654630215" CREATED="1737931816715" MODIFIED="1737931834469"/>
 <node TEXT="Ability to meet long-term and current obligations" ID="ID_699432350" CREATED="1737955431768" MODIFIED="1737955447201"/>
 <node TEXT="Crucial for company&apos;s financial health" ID="ID_958506971" CREATED="1737955448834" MODIFIED="1737955451324"/>
 </node>
@@ -408,8 +412,8 @@
 <node TEXT="Key to maximizing shareholder returns" ID="ID_640737107" CREATED="1737958336148" MODIFIED="1737958337835"/>
 <node TEXT="Components of ROIC" FOLDED="true" ID="ID_176296849" CREATED="1737958347828" MODIFIED="1737958349927">
 <node TEXT="NOPAT (Numerator)" FOLDED="true" ID="ID_1766892394" CREATED="1737958360080" MODIFIED="1737958361831">
-<node TEXT="Net Operating Profit After Taxes" ID="ID_1597887018" CREATED="1737958375941" MODIFIED="1737958385539" POSITION="bottom_or_right"/>
-<node TEXT="Represents profits from core business operations" ID="ID_471664566" CREATED="1737958385839" MODIFIED="1737958406238" POSITION="bottom_or_right"/>
+<node TEXT="Net Operating Profit After Taxes" POSITION="bottom_or_right" ID="ID_1597887018" CREATED="1737958375941" MODIFIED="1737958385539"/>
+<node TEXT="Represents profits from core business operations" POSITION="bottom_or_right" ID="ID_471664566" CREATED="1737958385839" MODIFIED="1737958406238"/>
 </node>
 <node TEXT="Invested Capital (Denominator)" FOLDED="true" ID="ID_1884121416" CREATED="1737958427307" MODIFIED="1737958429016">
 <node TEXT="Includes equity and debt invested in company operations" ID="ID_453564518" CREATED="1737958438817" MODIFIED="1737958448405"/>
@@ -468,7 +472,7 @@
 <node TEXT="Estimates future assets, liabilities, and equity" ID="ID_616311251" CREATED="1737959159232" MODIFIED="1737959163606"/>
 <node TEXT="1. non cash current assets projection" FOLDED="true" ID="ID_1120269484" CREATED="1737959398818" MODIFIED="1737959547186">
 <node TEXT="Using" FOLDED="true" ID="ID_1091948303" CREATED="1737959581405" MODIFIED="1737959583209">
-<node TEXT="&lt;=projected sales" ID="ID_1317740728" CREATED="1737959548632" MODIFIED="1737959579776" POSITION="bottom_or_right"/>
+<node TEXT="&lt;=projected sales" POSITION="bottom_or_right" ID="ID_1317740728" CREATED="1737959548632" MODIFIED="1737959579776"/>
 <node TEXT="&lt;= projected COGS" ID="ID_1073611948" CREATED="1737959587290" MODIFIED="1737959606214"/>
 <node TEXT="&lt;= turnover ratio" ID="ID_984726421" CREATED="1737959607542" MODIFIED="1737959623969"/>
 </node>
@@ -551,15 +555,15 @@
 <node TEXT="account payable" ID="ID_510030154" CREATED="1737962056955" MODIFIED="1737962061472"/>
 </node>
 <node TEXT="Solvency Analysis" FOLDED="true" ID="ID_1386630605" CREATED="1737962174947" MODIFIED="1737962182873">
-<node TEXT="Capital structure" FOLDED="true" ID="ID_773478214" CREATED="1737962075992" MODIFIED="1737962079786" POSITION="bottom_or_right">
+<node TEXT="Capital structure" FOLDED="true" POSITION="bottom_or_right" ID="ID_773478214" CREATED="1737962075992" MODIFIED="1737962079786">
 <node TEXT="Composition of company&apos;s financing sources" ID="ID_341870330" CREATED="1737962081606" MODIFIED="1737962100819"/>
 <node TEXT="Impact on financial risk and performance" ID="ID_1695859942" CREATED="1737962103916" MODIFIED="1737962106091"/>
 </node>
-<node TEXT="Financial Leverage" FOLDED="true" ID="ID_700906174" CREATED="1737962111868" MODIFIED="1737962114246" POSITION="bottom_or_right">
+<node TEXT="Financial Leverage" FOLDED="true" POSITION="bottom_or_right" ID="ID_700906174" CREATED="1737962111868" MODIFIED="1737962114246">
 <node TEXT="Use of debt in capital structure" ID="ID_1830030862" CREATED="1737962115502" MODIFIED="1737962123390"/>
 <node TEXT="Implications for company performance and risk" ID="ID_1927871416" CREATED="1737962134376" MODIFIED="1737962137082"/>
 </node>
-<node TEXT="Risk and Return Analysis" FOLDED="true" ID="ID_1298052360" CREATED="1737962143617" MODIFIED="1737962145397" POSITION="bottom_or_right">
+<node TEXT="Risk and Return Analysis" FOLDED="true" POSITION="bottom_or_right" ID="ID_1298052360" CREATED="1737962143617" MODIFIED="1737962145397">
 <node TEXT="Evaluating capital structure in terms of risk-return tradeoff" ID="ID_1969309429" CREATED="1737962145762" MODIFIED="1737962154730"/>
 </node>
 </node>
@@ -613,7 +617,7 @@
 <node TEXT="Factors Affecting Valuation" FOLDED="true" ID="ID_421052817" CREATED="1737963115997" MODIFIED="1737963118243">
 <node TEXT="Higher persistence indicates higher quality" ID="ID_256662755" CREATED="1737963140029" MODIFIED="1737963144513"/>
 <node TEXT="Market Ratios" FOLDED="true" ID="ID_767685824" CREATED="1737963167030" MODIFIED="1737963168465">
-<node TEXT="P/E ratio as a key valuation metric" ID="ID_1549891233" CREATED="1737963155690" MODIFIED="1737963156808" POSITION="bottom_or_right"/>
+<node TEXT="P/E ratio as a key valuation metric" POSITION="bottom_or_right" ID="ID_1549891233" CREATED="1737963155690" MODIFIED="1737963156808"/>
 </node>
 <node TEXT="Cost of Capital" FOLDED="true" ID="ID_820469664" CREATED="1737963181944" MODIFIED="1737963183655">
 <node TEXT="Crucial for discounting future earnings" ID="ID_1129788144" CREATED="1737963192009" MODIFIED="1737963193816"/>
@@ -936,7 +940,7 @@
 <node TEXT="MT483" FOLDED="true" ID="ID_1192020377" CREATED="1737931317344" MODIFIED="1737931320198">
 <node TEXT=" Basics" FOLDED="true" ID="ID_1097801182" CREATED="1737964086615" MODIFIED="1738010878986">
 <node TEXT="Types of Investments" FOLDED="true" ID="ID_593856561" CREATED="1737964095103" MODIFIED="1737964097778">
-<node TEXT="stock" FOLDED="true" ID="ID_1690779077" CREATED="1737883718561" MODIFIED="1737883721566" POSITION="bottom_or_right">
+<node TEXT="stock" FOLDED="true" POSITION="bottom_or_right" ID="ID_1690779077" CREATED="1737883718561" MODIFIED="1737883721566">
 <node TEXT="Dividends" FOLDED="true" ID="ID_871132622" CREATED="1737965394940" MODIFIED="1737965396825">
 <node TEXT="Impact on stock values" ID="ID_1872139361" CREATED="1737965406386" MODIFIED="1737965411405"/>
 </node>
@@ -949,7 +953,7 @@
 </node>
 </node>
 </node>
-<node TEXT="mutual fund" ID="ID_527786812" CREATED="1737883145523" MODIFIED="1737883156594" POSITION="bottom_or_right"/>
+<node TEXT="mutual fund" POSITION="bottom_or_right" ID="ID_527786812" CREATED="1737883145523" MODIFIED="1737883156594"/>
 <node TEXT="bonds" FOLDED="true" ID="ID_1511930579" CREATED="1737964120165" MODIFIED="1737964121525">
 <node TEXT="Bond Fundamentals" FOLDED="true" ID="ID_1386716642" CREATED="1737966830125" MODIFIED="1737966832227">
 <node TEXT="Types of Bonds" FOLDED="true" ID="ID_509946083" CREATED="1737966838272" MODIFIED="1737966842599">
@@ -1050,7 +1054,7 @@
 <node TEXT="Minimum return an investor expects" ID="ID_1034141472" CREATED="1737964882515" MODIFIED="1737964891472"/>
 </node>
 </node>
-<node TEXT="Return Calculations" FOLDED="true" ID="ID_327808051" CREATED="1737964905041" MODIFIED="1737964908001" POSITION="bottom_or_right">
+<node TEXT="Return Calculations" FOLDED="true" POSITION="bottom_or_right" ID="ID_327808051" CREATED="1737964905041" MODIFIED="1737964908001">
 <node TEXT="Dollar return" FOLDED="true" ID="ID_519628681" CREATED="1737964921210" MODIFIED="1737964925929">
 <node TEXT="Absolute gain or loss in monetary terms" ID="ID_961192087" CREATED="1737964948932" MODIFIED="1737964950069"/>
 </node>
@@ -4229,7 +4233,7 @@
 </node>
 </node>
 </node>
-<node TEXT="TOS" FOLDED="true" POSITION="right" ID="ID_215521422" CREATED="1745793522367" MODIFIED="1745793525230">
+<node TEXT="TOS" FOLDED="true" POSITION="bottom_or_right" ID="ID_215521422" CREATED="1745793522367" MODIFIED="1745793525230">
 <node TEXT="EPS" FOLDED="true" ID="ID_1938750496" CREATED="1745793525785" MODIFIED="1745793570427">
 <node ID="ID_1640716782" CREATED="1745793595687" MODIFIED="1745793595687"><richcontent TYPE="NODE">
 
@@ -4723,9 +4727,9 @@
 <node TEXT="Two-Stage Dividend Discount Model" ID="ID_1904654961" CREATED="1745797598384" MODIFIED="1745797614336"/>
 </node>
 </node>
-<node TEXT="Python" POSITION="left" ID="ID_1562820050" CREATED="1746907663355" MODIFIED="1746907666870">
+<node TEXT="Python" POSITION="top_or_left" ID="ID_1562820050" CREATED="1746907663355" MODIFIED="1746907666870">
 <node TEXT="Pandas" ID="ID_31643223" CREATED="1746907730772" MODIFIED="1746907733596">
-<node TEXT="create DataFrame" ID="ID_1889577349" CREATED="1746907733948" MODIFIED="1746909080908"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="create DataFrame" ID="ID_1889577349" CREATED="1746907733948" MODIFIED="1746909080908"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -4757,7 +4761,7 @@ pd.set_option('display.max_rows', 5)</pre>
   </body>
 </html></richcontent>
 </node>
-<node TEXT="create a series" ID="ID_1946361111" CREATED="1746908277547" MODIFIED="1746909413379"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="create a series" ID="ID_1946361111" CREATED="1746908277547" MODIFIED="1746909413379"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -4796,7 +4800,7 @@ ingredients = pd.Series(['4 cups', '1 cup', '2 large', '1 can'], index=['Flour',
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Read a csv" ID="ID_1789466647" CREATED="1746908411251" MODIFIED="1746909612506"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Read a csv" ID="ID_1789466647" CREATED="1746908411251" MODIFIED="1746909612506"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -4842,7 +4846,7 @@ reviews = pd.read_csv(&quot;../input/wine-reviews/winemag-data_first150k.csv&quo
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Write to csv" ID="ID_1921142372" CREATED="1746909753307" MODIFIED="1746909788945"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Write to csv" ID="ID_1921142372" CREATED="1746909753307" MODIFIED="1746909788945"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -4854,7 +4858,7 @@ reviews = pd.read_csv(&quot;../input/wine-reviews/winemag-data_first150k.csv&quo
   </body>
 </html></richcontent>
 </node>
-<node TEXT="Indexing in pandas" FOLDED="true" ID="ID_148331048" CREATED="1746910286435" MODIFIED="1746912908470"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Indexing in pandas" FOLDED="true" ID="ID_148331048" CREATED="1746910286435" MODIFIED="1746912908470"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -4889,7 +4893,7 @@ df <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ
   </body>
 </html></richcontent>
 <node TEXT="row-first, column-second" ID="ID_114645371" CREATED="1746910412778" MODIFIED="1746910416936">
-<node TEXT="loc" ID="ID_54563565" CREATED="1746910289794" MODIFIED="1746911074792"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="loc" ID="ID_54563565" CREATED="1746910289794" MODIFIED="1746911074792"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -4950,7 +4954,7 @@ df <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ
 </richcontent>
 </node>
 </node>
-<node TEXT="iloc" ID="ID_444204054" CREATED="1746910293914" MODIFIED="1746910812459"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="iloc" ID="ID_444204054" CREATED="1746910293914" MODIFIED="1746910812459"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5022,7 +5026,7 @@ df <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span class="ͼ
 <node TEXT="Manipulating the index" ID="ID_1959482026" CREATED="1746911085727" MODIFIED="1746914407464">
 <node TEXT="reviews.set_index(&quot;title&quot;)" ID="ID_798740955" CREATED="1746911143841" MODIFIED="1746911146032"/>
 </node>
-<node TEXT="Conditional selection" ID="ID_629145455" CREATED="1746911224974" MODIFIED="1746914384325"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Conditional selection" ID="ID_629145455" CREATED="1746911224974" MODIFIED="1746914384325"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5100,7 +5104,7 @@ reviews.loc[reviews.country == 'Italy']</pre>
 </richcontent>
 </node>
 </node>
-<node TEXT="Assigning data" ID="ID_764775693" CREATED="1746911541690" MODIFIED="1746911794848"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="Assigning data" ID="ID_764775693" CREATED="1746911541690" MODIFIED="1746911794848"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5129,7 +5133,7 @@ reviews.loc[reviews.country == 'Italy']</pre>
 </node>
 <node TEXT="Maps" FOLDED="true" ID="ID_1946251728" CREATED="1746915107887" MODIFIED="1746915111720">
 <node TEXT="custom method" ID="ID_1967481712" CREATED="1746915148047" MODIFIED="1746915160584">
-<node TEXT="apply()" ID="ID_306799372" CREATED="1746915161727" MODIFIED="1746920231501"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="apply()" ID="ID_306799372" CREATED="1746915161727" MODIFIED="1746920231501"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5158,7 +5162,7 @@ star_ratings <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span
 </html></richcontent>
 </node>
 </node>
-<node TEXT="map()" ID="ID_1432228739" CREATED="1746915170743" MODIFIED="1746915187711"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="map()" ID="ID_1432228739" CREATED="1746915170743" MODIFIED="1746915187711"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5174,7 +5178,7 @@ star_ratings <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span
 </html></richcontent>
 </node>
 </node>
-<node TEXT="df.groupby()" ID="ID_166896595" CREATED="1746930450844" MODIFIED="1746930677147"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="df.groupby()" ID="ID_166896595" CREATED="1746930450844" MODIFIED="1746930677147"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5206,7 +5210,7 @@ star_ratings <span class="ͼ13">=</span> reviews<span class="ͼ1c">.</span><span
   </body>
 </html></richcontent>
 </node>
-<node TEXT="missing data" ID="ID_1288825746" CREATED="1746930723871" MODIFIED="1746931666043"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="missing data" ID="ID_1288825746" CREATED="1746930723871" MODIFIED="1746931666043"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5248,7 +5252,7 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </node>
 <node TEXT="fillna()" ID="ID_1554990397" CREATED="1746930861374" MODIFIED="1746930865924"/>
 </node>
-<node TEXT="rename" ID="ID_1438420547" CREATED="1746931746214" MODIFIED="1746931917050"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="rename" ID="ID_1438420547" CREATED="1746931746214" MODIFIED="1746931917050"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5301,7 +5305,7 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </html>
 </richcontent>
 </node>
-<node TEXT="join()" ID="ID_1234100265" CREATED="1746932032245" MODIFIED="1746932201016"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="join()" ID="ID_1234100265" CREATED="1746932032245" MODIFIED="1746932201016"><richcontent TYPE="NOTE">
 <html>
   <head>
     
