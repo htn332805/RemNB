@@ -1,0 +1,669 @@
+197CHAPTER 8
+Having learned about the impor-
+tance of diversification, it seems log-
+ical that there are limits to its use.
+How many securities are enough?
+How can you know if you have cho-
+sen the right portfolio? How would
+you respond if an advisor recom-
+mends that you invest a sizeable
+portion of your $1 million in a sin-
+gle asset class, such as gold bullion?
+We know that risk and return are
+the key parameters to consider, but
+how do we balance them against
+each other? It seems prudent to
+learn more about the formation
+of optimal portfolios. Going fur-
+ther, what about an overall plan to
+ensure that all investment oppor-
+tunities have been considered? It
+is time to consider asset allocation,
+one of the most important decisions when it comes to portfolio formation. Many of
+the websites devoted to investing refer to asset allocation when discussing appropri-
+ate investor actions. With a good asset allocation plan in place for your $1,000,000,
+you will be able to sleep better at night.
+Calculation of portfolio risk is a key issue in portfolio management, and risk
+reduction through diversification is crucial to portfolio risk. Closely related to the
+principle of diversification is the concept of asset allocation, which involves inves-
+tor choices among asset classes, such as stocks, bonds, real estate, and cash equiva-
+lents. The asset allocation decision is the most important single decision made by
+investors in terms of the impact on portfolio performance.
+Portfolio Selection
+and Asset Allocation
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain the significance of the effi-
+cient frontier and demonstrate how
+an optimal portfolio of risky assets is
+determined.
+• Discuss the importance of the asset
+allocation decision.
+• Apply the Markowitz optimization
+procedure to asset classes and
+understand the practical implica-
+tions of doing so.
+• Explain how the total risk of a port-
+folio can be broken into two com-
+ponents
+198 Chapter 8 Portfolio Selection and Asset Allocation
+Building a Portfolio Using Markowitz
+Principles
+To select an optimal portfolio of assets using the Markowitz efficient frontier analy-
+sis, an investor should:
+1. Identify optimal risk–return combinations (the efficient set), available from
+the set of risky assets under consideration, by using the Markowitz analysis.
+This step uses as inputs the expected returns, variances, and covariances for
+a set of securities.
+2. Select the optimal portfolio from among those in the efficient set based on
+the investor’s preferences.
+In Chapter 9, we extend our Chapter 8 analysis and examine how investors can
+invest in both risky assets and riskless assets. As you will see, the use of a risk-free
+asset changes the investor’s ultimate portfolio position from that derived under the
+Markowitz analysis.
+Identify Optimal Risk–Return Combinations
+As we saw in Chapter 7, even if portfolios are formed arbitrarily, some diversifica-
+tion benefits are gained, which results in a reduction of portfolio risk. However, to
+take the full information set into account, we use portfolio theory as developed by
+Markowitz. Portfolio theory is normative, meaning that it tells investors how they
+should act to diversify optimally. It is based on a small set of assumptions, including:
+1. A single investment period, for example, one year.
+2. Liquidity of positions; for example, there are no transaction costs.
+3. Investor preferences are based only on a portfolio’s risk (as measured by vari-
+ance or standard deviation) and expected return.
+The Attainable Set of Portfolios
+Markowitz’s approach to portfolio selection is that an investor should evaluate portfo-
+lios on the basis of their risk and expected return. Therefore, we must first determine
+the risk–return opportunities available to an investor from a given set of securities.
+Figure 8.1 illustrates the opportunities available from a given set of securities. A large
+number of possible portfolios exist when we realize that varying percentages of an
+investor’s wealth can be invested in each of the assets under consideration.
+The assets in Figure 8.1 constitute the attainable set of portfolios or the oppor-
+tunity set. The attainable set includes all portfolios that could be formed from a
+group of n securities. However, risk-averse investors should be interested only in
+those portfolios with the lowest possible risk for any given level of return. All other
+portfolios in the attainable set are inferior or dominated.
+Efficient portfolios Markowitz was the first to derive the concept of an efficient port-
+folio, defined as one that has the smallest risk for a given level of expected return or
+the largest expected return for a given level of risk. Investors can identify efficient
+portfolios by specifying an expected portfolio return and minimizing the portfolio
+risk at this level of return. Alternatively, they can specify a portfolio risk level they are
+willing to assume and maximize the expected return for this level of risk. Rational
+Efficient Portfolio A port-
+folio with the highest level
+of expected return for a
+given level of risk or the
+lowest risk for a given level
+of expected return
+Building a Portfolio Using Markowitz Principles 199
+investors will seek efficient portfolios because these portfolios are optimized on the
+basis of the two dimensions of most importance to investors, expected return and risk.
+Using the inputs described earlier—expected returns, variances, and covariances—
+we can calculate the portfolio with the smallest variance, or risk, for a given level of
+expected return. Given the minimum-variance portfolios, we can plot the minimum-
+variance frontier as shown in Figure 8.1. Point A represents the global minimum-variance
+portfolio because no other minimum-variance portfolio has a smaller risk. The bottom
+segment of the minimum-variance frontier, AC, is dominated by portfolios on the
+upper segment, AB. For example, since portfolio x has a larger return than portfolio
+y for the same level of risk, investors would not want to own portfolio y.
+The efficient set (frontier) The segment of the minimum-variance frontier
+above the global minimum-variance portfolio, AB, offers the best risk–return com-
+binations available to investors from this particular set of inputs. This segment is
+referred to as the efficient set or efficient frontier of portfolios. The efficient set
+is determined by the principle of dominance—portfolio x dominates portfolio y if it
+has the same level of risk but a larger expected return, or the same expected return
+but a lower risk.
+• An efficient portfolio has the smallest risk for a given level of expected return
+or the largest expected return for a given level of risk. All efficient portfolios
+for a specified group of securities are referred to as the efficient set.
+The arc AB in Figure 8.1 is the Markowitz efficient frontier. Note again that
+expected return is on the vertical axis while risk, as measured by standard deviation,
+is on the horizontal axis. There are many efficient portfolios on the arc AB (the
+efficient frontier).
+Understanding the Markowitz solution The solution to the Markowitz model
+revolves around the portfolio weights, or percentages of funds invested in each
+security. Because the expected returns, standard deviations, and correlation coef-
+ficients for the securities being considered are inputs in the Markowitz analysis, the
+portfolio weights are the only variable that can be manipulated to solve the portfolio
+problem of determining efficient portfolios.
+202 Chapter 8 Portfolio Selection and Asset Allocation
+What effect does the addition of international stocks have on our diversification
+analysis? Empirical studies confirm that at least historically, adding foreign stocks to
+a portfolio reduced the overall volatility.
+Bruno Solnik, a leading authority on international investing, notes that in the
+past country factors dominated stock prices and the correlation of country factors
+was weak. 4 This means equity markets around the world were in fact different,
+and because of the low correlations, investors could reduce the total variance of
+their portfolio by diversifying across countries. However, conditions have changed
+as financial markets have become more integrated. There is enormous growth
+in what is called cross-border mergers and acquisitions, which means, for exam-
+ple, that a British company wishing to grow will buy the same type of business in
+another country rather than buying another type of British company.
+Correlations among country returns increased significantly starting around
+1995, which diminished the benefits of risk reduction through diversification. By
+2008, global equity correlations were historically high, and the MSCI-EAFE Index,
+an international equity index, moved in unison with the S&P 500 about 90 percent
+of the time. Even the MSCI Emerging Markets index was correlated with the S&P
+500 at the 80 percent level.5
+Some Important Conclusions about the
+Markowitz Model
+Five important points regarding the Markowitz portfolio selection model:
+1. Markowitz portfolio theory is a two-parameter model because investors
+are assumed to make decisions on the basis of two parameters,
+expected return and risk. Thus, it is sometimes referred to as the mean-
+variance model.
+2. The Markowitz analysis generates an entire set, or frontier, of efficient port-
+folios, all of which are equally “good.” No portfolio on the efficient frontier
+dominates any other portfolio on the frontier.
+3. The Markowitz model does not address the issue of investors using borrowed
+money along with their own funds to purchase risky assets; that is, investors are
+not allowed to use leverage. As we shall see in Chapter 9, allowing investors
+to purchase a risk-free asset increases investor utility and leads to a different
+efficient set.
+4. In practice, different investors will estimate the inputs to the Markow-
+itz model differently. This will produce different efficient frontiers. This
+results from the uncertainty inherent in the security analysis part of
+investments.
+5. The Markowitz model remains cumbersome to work with because of the large
+variance–covariance matrix needed for a set of stocks. For example, using
+only 100 stocks the variance–covariance matrix has 10,000 terms in it.
+4 These comments are based on Bruno Solnik, “Global Considerations for Portfolio Construction,” in
+AIMR Conference Proceedings: Equity Portfolio Construction, Association for Investment Management and
+Research, Charlottesville, VA, 2002, pp. 29–35.
+5 Based on Alec Young, “Dwindling Diversification,” Standard & Poor’s The Outlook, 80, no. 43 (November
+12, 2008): 5.
+Selecting Optimal Asset Classes—The Asset Allocation Decision 205
+stocks. Our group of asset classes is a nonexhaustive list, although it does encompass
+the asset classes that most investors choose from.
+1. International Equities Investment counselors regularly recommend that
+investors diversify internationally by holding foreign securities. The rationale
+is that such investing reduces portfolio risk because domestic and foreign
+markets frequently do not move together. Furthermore, potential opportuni-
+ties in other markets may be greater than those available in the United States.
+U.S. investors have taken this rationale to heart. Whereas the average allo-
+cation for international equities was about 15 percent in 2001, it was twice
+that by 2011.
+Historically, international diversification provided substantial risk-reducing
+benefits due to the relatively low positive correlation between asset returns in
+various countries. Numerous studies confirmed these relatively low correla-
+tions, which led many in the investing business to recommend rather large
+foreign holdings. More recent evidence suggests that the benefits of interna-
+tional diversification have decreased as the correlation between U.S. stocks
+and international stocks has increased. The increased correlation can be
+attributed to the continuing integration of global markets.
+The data reported in Table 8.1 shows that over the 40-year period ending
+in 2010, the annual returns to foreign developed market equities (MSCI-EAFE
+Index) are comparable to those of U.S. equities at approximately 11 percent.
+Consider the period around the 2008 financial crisis. The
+stock market hit a record high on October 9, 2007, and
+officially entered a declining phase by June 30, 2008. The typical U.S. stock index
+fund lost about 16 percent over this roughly nine-month period. In contrast, a
+60 percent stock/40 percent bond portfolio lost only half that amount.
+EXAMPLE 8.2
+Annual Performance for Asset Classes and Correlation with U.S. Stocks through 2010
+Correlation with U.S. Equities
+Asset Class Start Date
+Mean
+Return (%)
+Standard
+Deviation (%) (1970–1990) (1990–2010)
+U.S. equities 1970 10.92 15.72 1.00 1.00
+Foreign equities
+Developed market (EAFE) 1970 10.68 17.25 0.48 0.73
+Emerging market 1988 16.20 24.18 0.29 0.69
+Commodities (S&P GSCI) 1970 11.76 20.02 −0.06 0.13
+Gold 1978 8.16 19.57 0.04 −0.06
+Real estate (NAREIT) 1972 10.80 18.01 0.64 0.55
+U.S. bonds 1976 8.16 5.68 0.34 0.15
+Treasury bills (three month) 1970 6.00 1.04 −0.02 0.04
+Note: Start dates for the return series vary based on data availability.
+Source: Adapted from Exhibits 1 and 3 of “The Effectiveness of Asset Classes in Hedging Risk,” Luis Garcia-Feijoo, Gerald R. Jensen, and Robert R.
+Johnson, Journal of Portfolio Management 38 (Spring 2012): 40–55.
+TABLE 8.1
+208 Chapter 8 Portfolio Selection and Asset Allocation
+creation of a variety of commodity funds, has greatly increased investor inter-
+est in commodity investments. The data in Table 8.1 show that, on average,
+commodity investments have performed similarly to equities but with much
+greater variability. Thus, their stand-alone performance has been relatively
+poor. Commodities, however, have considerable appeal as an addition to a
+portfolio due to their low correlation with equities. For example, the cor-
+relation between the S&P GSCI Commodity Index and U.S. stocks over the
+period from 1970 to 2010 was slightly below zero in the first 20 years, at −6
+percent, and slightly above zero in the second 20 years, at 13 percent.
+The tremendous investor interest in commodities spurred the creation of
+numerous commodity funds, and by 2012, there were over 200 commodity
+funds available to investors, a very large change from just a few years prior.
+Concepts in Action
+All That’s Gold Does Not Glitter
+Should investors have an exposure to precious
+metals in their portfolio? The consensus answer
+to this question appears to be, yes. However,
+investors are then left with a follow-up question,
+how should they establish a precious metals
+exposure? Jensen, Johnson, and Washer report
+evidence indicating that the answer to this
+second question is crucial in determining the
+success that investors achieve with their precious
+metals’ exposure. 10
+Jensen et al. use gold as their proxy for pre-
+cious metals due to gold’s dominance in the
+market and its high correlation with other pre-
+cious metal prices. Note, the largest gold fund is
+over five times the size of the largest silver fund;
+silver is the second most prominent precious
+metal. The authors identify two fundamental
+reasons investors include precious metals in their
+portfolios:
+1. they expect the price of precious metals to
+appreciate,
+2. they want to hedge against an adverse move
+in the stock market.
+The authors evaluate three basic types of
+funds that provide investors with an exposure
+to precious metals: bullion funds (hold physical
+gold); synthetic funds (hold gold futures con-
+tracts); and equity funds (hold the common
+stock of gold mining firms). The table below
+reports data for the top funds in each of the
+three categories and is adapted from several of
+the authors’ tables.
+Performance of Largest Gold Fund in Each Fund Category: 2007–2016
+Gold Price Bullion Fund Synthetic Fund Equity Fund
+Total return over 10-year period 80.58% 74.31% 57.66% −44.75%
+Annual standard deviation of return 18.67% 18.74% 18.74% 43.27%
+Correlation with equities (S&P 500) NA 0.03 0.02 0.34
+Weekly return during 5% worst weeks for equities NA −0.67% −0.64% −6.60%
+The data in the table indicate that the price
+of gold advanced by 80.58 percent over the
+10-year study period. The performance of the
+gold bullion fund aligned nicely with this price
+movement advancing 74.31 percent. The
+synthetic fund fell somewhat short, but still cap-
+tured most of the upward movement in gold
+prices. In stark contrast, the equity fund reported
+a large negative return of −44.75 percent over
+the full period. Furthermore, while the volatility of
+10 The material presented here is adapted from Gerald R. Jensen, Robert R. Johnson, and Kenneth M.
+Washer, “All That’s Gold Does Not Glitter,” Financial Analysts Journal 74 (First Quarter 2018): 59–76.
+Selecting Optimal Asset Classes—The Asset Allocation Decision 209
+Combining Asset Classes
+As an indication of what can be accomplished by diversifying across asset classes,
+consider a simple analysis whereby investors select mutual funds representing dif-
+ferent asset classes. For example, funds are spread across asset classes such as blue-
+chip stocks, small-cap stocks, international equities, domestic bonds, international
+bonds, gold, and money market securities. Tests of such portfolios indicate that
+they have outperformed the S&P 500 over long periods, and with less risk. And this
+analysis relies on equal security weights rather than employing the Markowitz effi-
+cient frontier technique. Presumably, the Markowitz optimization procedure could
+improve the results obtained from this simple strategy.
+Table 8.2 shows examples of efficient portfolios using the Markowitz optimiza-
+tion technique. It contains return and risk data for “traditional” asset allocation
+portfolios consisting of stocks (S&P 500), Treasury bonds, and T-bills, as well as
+“nontraditional” portfolios which also include real estate and TIPS in the invest-
+ment set. Notice that three different portfolios are shown: (1) a low-risk portfolio,
+with a standard deviation of 5 percent; (2) a moderate-risk portfolio, with a standard
+deviation of 10 percent; and (3) a high-risk portfolio, with a standard deviation of
+15 percent.
+The nontraditional portfolios can include all five assets, as opposed to three for
+the traditional. As shown in Table 8.2, the standard deviations for both portfolios
+are the same for each of three risk levels: 5, 10, and 15 percent. But note that the
+expected returns are higher in each case for the nontraditional portfolio as com-
+pared to the traditional portfolio.
+For the traditional portfolios, an investor seeking low risk (5 percent standard
+deviation) would place funds in each of the three major asset classes, ranging from
+22.8 percent in stocks to 40.92 percent in T-bills. With a nontraditional portfolio,
+four of the five asset classes would be held for a low-risk position, with no funds in
+T-bills. In contrast, for the high-risk portfolio, funds are allocated only to stocks
+and bonds with the traditional portfolio and only to stocks and real estate for the
+nontraditional.
+Figure 8.4 shows a plot of the efficient frontiers for the traditional and nontradi-
+tional portfolios. Note that the end points are T-bills on the low end and stocks on the
+the bullion and synthetic fund mirrored closely
+the volatility in gold prices, the equity fund’s vola-
+tility was more than double that of gold prices.
+The final two rows of the table show that the
+equity fund did not fare any better with regard
+to its hedging potential as it followed the market
+much more closely. The equity fund’s correlation
+with the stock market was substantially higher at
+34 percent versus a correlation of only 3 per-
+cent for the bullion fund. As noted in Chapter 7,
+securities with lower correlation provide greater
+diversification benefits. Finally, the equity fund
+was abysmal at protecting investors from extreme
+negative stock market events. Specifically, the
+average return for the S&P 500 during its worst
+5 percent observations was −6.58 percent (not
+shown in the table); shockingly, the equity fund
+performance was even slightly worse at −6.60
+percent. Thus, the fund expanded on negative
+market shocks, rather than insulating investors
+from the shocks.
+The authors conclude that investors need to
+be very careful when selecting a precious metals
+fund. All the funds evaluated by the authors were
+marketed as offering investors an exposure to
+gold prices; however, it is very clear that the type
+of exposure provided deviated substantial across
+the funds. Clearly, all that’s gold does not glitter.
+Asset Allocation and the Individual Investor 211
+high end. As expected, the nontraditional efficient frontier plots above the traditional
+efficient frontier. Thus, using the Markowitz analysis investors can determine efficient
+portfolios by calculating the optimal allocations to each asset class being considered.
+Asset Allocation and the Individual Investor
+Individual investors must confront the asset allocation decision if they are to be
+successful. Owning only a portfolio of stocks and not properly diversifying is a pre-
+scription for poor, if not disastrous, investment performance. All investors should
+diversify, simply because we live in an uncertain world, and proper diversification
+eliminates some risk from owning stocks.
+Chapter 7 should convince you that Markowitz diversification pays; that is, port-
+folio risk is reduced by spreading investment across less than perfectly correlated
+assets. Figure 8.4 makes a strong case for asset allocation by demonstrating that the
+traditional efficient frontier using stocks, bonds, and money market securities is
+improved with the addition of other asset classes that have low or negative correla-
+tion with the traditional asset classes.
+EXHIBIT 8.1 | Spread It Around
+Diversifying May Help Reduce Risk In Your
+Portfolio
+Over the last few years, investors have learned a hard
+lesson in market volatility. One small example: The S&P
+500, which ended 2002 with a total return of −23.37 per-
+cent, finished 2003 with a flourish, up 26.38 percent.
+This dramatic one-year change in performance demon-
+strates how much the financial markets can fluctuate.
+Alas, performance ups and downs—whether over the
+short or long term—are a given in the world of invest-
+ing. And in a sharp market downturn, this volatility can
+significantly shrink your holdings.
+Certainly, last year’s rise in equity values came as a
+great relief to investors after three years of steep stock
+market declines. But with stock returns flat so far this
+year and interest rates beginning to go back up, you
+may wonder whether you want (or need) to adjust your
+investment strategy.
+When reviewing your portfolio, first realize that you
+cannot predict how the markets will perform. As a result,
+trying to “time” the market—attempting to guess which
+way the markets will move and basing your investment
+decisions on these predictions—is bound to fail, at least
+most of the time.
+Since market timing is not the answer, you need a
+better approach for building your portfolio. A tried and
+true method, based on substantial research, is to diversify
+your money across different types of investments. “Given
+the uncertainty of the markets, asset allocation, or dividing
+holdings among different asset classes like stocks, bonds,
+and real estate, provides a good way to manage risk and
+to build a portfolio for the long term,” says Leonard
+Govia, participant advice manager, TIAA-CREF. (How-
+ever, diversification doesn’t guarantee against loss.)
+The Birth of a Theory
+The concept of asset allocation is based on modern
+portfolio theory, which was developed in the 1950s by
+the economist Harry M. Markowitz, who later shared a
+Nobel Prize for his work. Markowitz measured the risk
+inherent in various types of securities and developed
+methods for combining investments to maximize the
+trade-off between risk and return.
+Basically, the theory says that investors shouldn’t view
+the prospects of a particular security in isolation but
+instead look at each investment and how it fits into an
+overall portfolio. By combining securities that have a low
+(or, better yet, negative) correlation with each other—that
+is, securities that don’t perform in the same way under
+similar market conditions—investors will create a less
+risky portfolio than if they invested only in securities that
+perform similarly (i.e., have a high correlation).
+212 Chapter 8 Portfolio Selection and Asset Allocation
+For investors, the asset allocation decision depends heavily on their time hori-
+zon and their risk tolerance. Investors tend to be more comfortable with equi-
+ties when they have long time horizons, given the year-to-year volatility of stocks.
+Investors with a low tolerance for risk may maintain a relatively modest allocation
+to stocks.
+Asset allocation using stocks and bonds Let’s first consider owning the two
+major asset classes that most investors are familiar with, stocks and bonds. Bonds
+are the safer of the two assets, and this is why many investors allocate at least part of
+their portfolio to bonds. Bonds historically have provided a lower return than stocks
+but with considerably lower risk. The standard deviation for bonds has been roughly
+40 percent of the standard deviation for stocks. A severe stock market decline such
+as that of 2000–2002 and 2008 convinced a number of investors that they should
+be holding bonds. Garcia-Feijoo et al. (2012) show that there is only a 5 percent
+overlap between periods of disastrous stock market performance and negative per-
+formance by bonds.
+Table 8.3 shows the performance for 11 different portfolios that are formed with
+varying proportions of stocks and bonds over the period from 1980 through 2013.
+The table shows returns and standard deviations of portfolio combinations of stocks
+and bonds in 10 percent increments. Clearly, risk and return go hand in hand. A
+portfolio consisting of only stocks (the first row) has a higher return than does a
+portfolio consisting of only bonds (the last row), or a portfolio consisting of 50 per-
+cent stocks and 50 percent bonds. However, the risk of a 100 percent stock portfolio
+is also higher than the alternatives.
+Now consider the situation for an investor who because of his risk tolerance
+really wishes to own a portfolio of bonds. The performance data in the table
+indicates that the expected return on his portfolio is lower than that of a stock
+“The advantage of diversifying investments is that
+each type of security won’t react to the ups and downs of
+the market in the same way,” says Govia. “So by diversi-
+fying, you spread the risk in your portfolio around. The
+result is a more balanced portfolio that can help you
+withstand drops in the market.”
+Other studies demonstrate the impact asset alloca-
+tion has on volatility. For example, in a notable 10-year
+study of large pension funds, Gary P. Brinson, L. Ran-
+dolph Hood, and Gilbert Beebower found that, over
+time, more than 90 percent of the variability of a port-
+folio’s performance is due to allocation among specific
+asset classes, while less than 5 percent of the variability of
+performance results from investment selection.
+Create a Portfolio For You
+If diversification works, your next question may be,
+“How do I ensure that my portfolio is right for my
+needs?” Many investment companies give you a simple
+way to develop an appropriate strategy: model portfo-
+lios, diversified among asset classes like stocks, bonds,
+and money markets, that are based on different risk tol-
+erances, investment preferences, and “time horizons”
+(the number of years you have to invest before needing
+to use the money and how many years you’ll need that
+money to last).
+At TIAA-CREF, we’ve developed model portfo-
+lios diversified among five asset classes—stocks, fixed
+income, real estate, guaranteed, and money market—
+for a variety of investor types. To ensure appropriate
+diversification for retirement, our portfolios are diver-
+sified among at least three asset classes, with one being
+stocks; virtually all our after-tax mutual fund portfolios
+are diversified among at least two asset classes, including
+stocks.
+Source: “Spread It Around,” Balance, Quarterly News and
+Tools From TIAA-CREF, Summer 2004, pp. 10–11. Reprinted
+by permission.
+Asset Allocation and the Individual Investor 215
+Concepts in Action
+Making Asset Allocation Recommendations
+for Investors
+As noted previously, studies suggest that the
+asset allocation decision accounts for more than
+90 percent of return variance for large pension
+fund portfolios. Many investors now regard asset
+allocation as the most important decision in
+determining the success of their portfolio.
+How does asset allocation get implemented
+in practice? Consider the model portfolios of
+TIAA-CREF, one of the largest financial service
+providers in the world. This organization provides
+retirement planning and investment services for
+a very large clientele.
+TIAA-CREF illustrates several model portfolios
+that accommodate a range of investor risk tol-
+erances. For example, for a conservative investor
+who emphasizes safety and stability, the follow-
+ing asset allocation is recommended.
+50% Guaranteed
+50% TIAA Traditional
+10% fixed income
+10% CREF
+Inflation-Linked Bond
+10% real estate
+10% TIAA Real Estate
+30% equities
+30% CREF Stock
+30%
+10%
+10%
+50%
+Notice that 50 percent of the portfolio is allo-
+cated to a guaranteed fund. Even so, 30 percent
+is allocated to equities to provide some growth
+opportunities over time.
+What about a moderately aggressive investor
+who seeks more growth possibilities while still
+emphasizing stability? TIAA-CREF recommends
+the following asset allocation:
+60%
+15%
+10%
+15%
+15% guaranteed
+15% TIAA traditional
+10% Fixed income
+10% CREF bond market
+15% Real estate
+15% TIAA real estate
+60% Equities
+60% CREF stock
+216 Chapter 8 Portfolio Selection and Asset Allocation
+Checking Your Understanding
+4. Relative to Figure 8.4, what does it mean to say that an efficient frontier is
+pushed out?
+5. Explain why, using the bear markets of 2000–2002 or 2008, one can argue that
+the asset allocation decision is the most important decision made by an investor.
+The Impact of Diversification on Risk
+The Markowitz analysis demonstrates that a portfolio’s standard deviation is less
+than the weighted average of the standard deviations of the portfolio’s holdings.
+Thus, diversification reduces portfolio’s holdings—as the number of portfolio
+holdings increases, portfolio risk declines. In fact, almost half of an average stock’s
+risk can be eliminated if the stock is held in a well-diversified portfolio.
+Systematic and Nonsystematic Risk
+Diversifiable (nonsystematic) risk Portfolio risk generally declines as more
+stocks are added because we are eliminating the nonsystematic risk, or company-
+specific risk. This is unique risk related to a particular company. However, the extent
+of the risk reduction depends on the degree of correlation among the stocks. As a
+The Impact of Diversification on Risk 217
+general rule, correlations among stocks are positive, but less than 1.0. Adding more
+stocks continues to reduce risk, but no matter how many partially correlated stocks
+we add to the portfolio, we cannot eliminate all risk.
+Nondiversifiable (systematic) risk Variability in a security’s total returns that
+is directly associated with overall movements in the general market or economy
+is called systematic risk, market risk, or nondiversifiable risk. Virtually all securi-
+ties have some systematic risk because systematic risk directly encompasses the risk
+of interest rate changes, recession, inflation, and so on. Most stocks are negatively
+impacted by such factors; therefore, diversification cannot eliminate market risk.
+After the nonsystematic risk is eliminated, what is left is the nondiversifiable por-
+tion or market risk. This part of the risk is inescapable, because no matter how
+well an investor diversifies, the risk of the overall market cannot be avoided. If the
+stock market rises strongly, as it did in 2009, 2013, and 2017 most stocks appreciate
+in value; if it declines sharply, as in 2001, 2002, and 2008 most stocks are adversely
+affected. These movements occur regardless of what any single investment does.
+Remember:
+Total risk
+Systematic risk
+Nonsystematic risk
+consists of two parts
+Market risk
+Nonmarket risk Diversifiable risk
+Nondiversifiable risk
+which are
+Risk and the number of securities Investors can construct a diversified portfolio
+and eliminate part of total risk, the diversifiable or nonmarket part. Figure 8.5 illus-
+trates this concept of declining nonsystematic risk in a portfolio. As more securities
+are added, the nonsystematic risk becomes smaller, and portfolio total risk approaches
+its systematic risk. Since diversification cannot reduce systematic risk, total portfolio
+risk can be reduced no lower than the total risk of the market portfolio.
+Diversification can substantially reduce the unique risk of a portfolio. However,
+Figure 8.5 indicates that no matter how much we diversify, we cannot eliminate
+systematic risk. The declining total risk curve levels off and at most becomes asymp-
+totic to the systematic risk. Clearly, market risk is critical to all investors. It plays a
+central role in asset pricing because it is the risk that investors value.
+How Many Securities Are Needed to Fully Diversify?
+A study done by Evans and Archer in 1968 is often cited in answering the question of
+how many securities are needed to have a well-diversified portfolio.11 Their analysis
+suggested as few as 15 stocks could be adequate. Thus, based on studies done in the
+Systematic Risk Risk
+attributable to broad
+macrofactors affecting all
+securities
+11 See John Evans and Stephen Archer, “Diversification and the Reduction of Dispersion: An Empirical
+Analysis,” Journal of Finance, 23 (1968): 761–767.
+
+The Implications of Reducing Risk by
+Holding Portfolios
+The construction of optimal portfolios and the selection of the best portfolio have
+implications for the pricing of financial assets. As we saw in the previous discus-
+sion, part of the riskiness of the average stock can be eliminated by holding a well-
+diversified portfolio. This means that part of a stock’s risk can be eliminated and part
+cannot. Investors need to focus on that part of the risk that cannot be eliminated by
+diversification because this is the risk that should be priced in the financial markets.
+The relevant risk of an individual stock is its contribution to the riskiness of a well-
+diversified portfolio. The return that should be expected on the basis of this contribu-
+tion can be estimated by the capital asset pricing model, which we consider in Chapter 9.
+Summary
+• Markowitz portfolio theory provides a means to select optimal portfolios based
+on using the full information set about securities.
+• The expected returns, standard deviations, and correlation coefficients are
+inputs in the Markowitz analysis. Therefore, the portfolio weights are the vari-
+able manipulated to determine efficient portfolios.
+• An efficient portfolio has the highest expected return for a given level of risk,
+or the least risk for a given level of expected return.
+• The Markowitz analysis determines the set of efficient portfolios, all of which
+are equally desirable. The efficient set is an arc in expected return—standard
+deviation space.
+• The efficient frontier captures the optimal potential portfolios that exist from
+a given set of securities. Indifference curves express investor preferences.
+• The optimal portfolio for a risk-averse investor occurs at the point of tangency
+between the investor’s highest indifference curve and the efficient set of port-
+folios.
+Total risk
+Risk of portfolio
+(standard deviation of return)
+Unsystematic risk
+Systematic
+risk
+0 10 20 30 40
+Number of securities in portfolio
+50
+1990s
+1960s
+FIGURE 8.6 Diversification and the number of securities
+Source: From “How Much Diversification is Enough!” by Burton Malkiel from the CFA Institute Conference and Pro-
+ceedings EQUITY PORTFOLIO CONSTRUCTION. Copyright © 2002, CFA Institute. Reproduced and Republished
+from Equity Portfolio Construction with Permission from CFA Institute. All Rights Reserved.
+220 Chapter 8 Portfolio Selection and Asset Allocation
+Problems
+8.1 Given the following information:
+Standard deviation for stock X = 12 percent
+Standard deviation for stock Y = 20 percent
+Expected return for stock X = 16 percent
+Expected return for stock Y = 22 percent
+Correlation coefficient between X and Y = 0.30
+The covariance between stocks X and Y is:
+(a) 0.048
+(b) 72.00
+(c) 3.60
+(d) 105.6
+• The asset allocation decision refers to the allocation of portfolio assets to broad
+asset classes; in other words, how much of the portfolio to invest in stocks,
+bonds, real estate, money market assets, and so forth. Each weight can range
+from 0 to 100 percent. Asset allocation is one of the most widely used applica-
+tions of Markowitz analysis.
+• In addition to being applied to individual securities, the Markowitz analysis
+can be applied to asset classes to determine optimal portfolios. Efficient fron-
+tiers involving asset classes can be generated.
+• Diversification can substantially reduce the unique risk of a portfolio. How-
+ever, no matter how much we diversify, we cannot eliminate systematic risk.
+Therefore, systematic (market) risk is critical to all investors.
+• New research indicates that it takes substantially more stocks to diversify ade-
+quately than has previously been thought. This number appears to be at least
+40 and could be more.
+• The relevant risk of an individual stock is its contribution to the riskiness of a
+well-diversified portfolio.

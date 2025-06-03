@@ -1,0 +1,1126 @@
+How Securities are Traded
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain brokers’ roles and how
+brokerage firms operate.
+• Understand the types of orders
+investors use in trading securities.
+• Assess the role of regulation in the
+securities markets.
+• Describe how margin trading and
+short selling contribute to investor
+opportunities.
+114CHAPTER 5
+Now that you know what invest-
+ing alternatives are available and
+where they trade, you need to con-
+sider the details of trading securi-
+ties as you prepare to invest your
+inheritance. What type of broker-
+age account will best meet your
+needs? What type of orders can
+you use to buy and sell securities?
+How well does securities legisla-
+tion protect you from the many
+pitfalls awaiting you as an investor?
+Should you take additional risk by
+buying stocks on margin, and if so,
+how do you go about trading on
+margin? Should you bet on secu-
+rity price declines by selling short, or is this technique too risky for average inves-
+tors? Details, details, but investors must deal with them. Unless you master these
+details, you will not be able to take full advantage of the trading opportunities that
+financial markets offer. Furthermore, you will be at the mercy of others who may not
+have your best interests at heart.
+In Chapter 4 we considered how securities markets are organized. In this chapter,
+we learn the mechanics of trading securities which investors must know in order
+to operate successfully in the marketplace. This chapter discusses various details
+involved in trading securities and critical information for every investor. Broker-
+age firms and their activities are analyzed, as are the types of orders to buy and sell
+securities and the handling of these orders. The regulation of the securities markets
+is discussed. Finally, the various aspects of trading securities that investors often
+encounter are considered. Although the details of trading, like the organization of
+securities markets, continue to evolve, the basic procedures remain the same.
+Introduction
+Could you as an investor carry out the following transactions? If so, how?
+1. Buy Treasury securities directly from the Treasury, bypassing brokers.
+2. Buy any stock you want directly from the company, bypassing brokers.
+How Securities are Traded
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain brokers’ roles and how
+brokerage firms operate.
+• Understand the types of orders
+investors use in trading securities.
+• Assess the role of regulation in the
+securities markets.
+• Describe how margin trading and
+short selling contribute to investor
+opportunities.
+Brokerage Transactions 115
+3. Specify an exact price or better on a stock you wish to trade.
+4. Buy securities by only putting up half the cost.
+5. Sell a stock you don’t own in an attempt to make money on the transaction.
+Brokerage Transactions
+Brokerage Firms
+In general, it is quite easy for any responsible person to open a brokerage account.
+An investor selects a broker or brokerage house by personal contact, referral, or
+reputation. Personal contact between broker and customer seldom occurs, with
+transactions typically carried out by phone or by computer.
+Brokers are commonly classified according to the services offered and fees
+charged, and customers choose the type of broker they wish to use.
+Full-service brokers Traditionally, brokerage firms offered a variety of services to
+investors, particularly information and advice. Today, investors can still obtain a
+wide variety of information on the economy, particular industries, individual com-
+panies, and different security types from full-service brokers such as Merrill Lynch,
+Morgan Stanley, Edward Jones, Raymond James, and Wells Fargo Advisors. These
+large retail brokerage firms execute their customers’ orders, provide investment
+research, and offer advice and recommendations to investors.
+Today’s full-service stockbrokers go by different titles, such as financial consult-
+ants or investment executives (or simply registered representatives). This change in
+title reflects the significant changes that have occurred in the industry. Full-service
+brokerage firms now derive only a small percentage of their revenues from commis-
+sions paid by individual investors, a major change from the past.1 And the typical
+full-service stockbroker now derives much less of his or her income from customer
+commissions than was the case in the past. This is why firms such as Edward Jones
+encourage their brokers to become more like fee-based financial planners and less
+like salespeople.
+• Full-service brokers seek to build relationships by meeting all of a client’s
+needs, whether it be retirement planning, estate planning, taxes, financing
+children’s education, or providing access to such exotic assets as coffee futures
+and thinly traded foreign stocks.
+Commissions charged by full-service brokers vary by product. For stocks, com-
+missions vary across firms, although costs are typically higher than those charged
+by discount brokers. Treasury securities carry a commission of less than 1 percent,
+whereas a complicated limited partnership may carry a commission of 8 percent or
+more.
+Discount brokers Investors can choose to use a discount broker who provides vir-
+tually the same services as a full-service broker except they may not offer advice and
+116 Chapter 5 How Securities Are Traded
+research, and they generally charge less for the execution of trades.2 Smart inves-
+tors choose the alternative that is best for them in terms of their own needs. Some
+investors want personal attention and detailed research publications and are willing
+to pay in the form of higher brokerage commissions. Others, however, prefer to do
+their own research, make their own decisions, and pay only for order execution.
+Barron’s survey of “The Best Online Brokers of 2019” finds that Interactive Bro-
+kers and Fidelity rate best with each rating 4.5 out of 5 stars. E*Trade, TD Ameri-
+trade, and Merrill Edge are in the next group and earned 4 stars each. To compile
+its ranking, Barron’s assessed 14 brokerages across six categories. 3 With online dis-
+count brokers, investors must carefully evaluate the total package of services offered.
+Most prominent discount brokerage firms offer the same services to customers
+such as check writing privileges, access to research reports, and a mobile app for
+trading. In addition, they offer SIPC coverage, which insures the securities and cash
+in customer accounts. TD Ameritrade even offers customers the ability to trade
+through Amazon Echo.
+Some Practical Advice
+Broker Responsibilities or the Lack Thereof
+Most investors have heard the term “fiduciary”;
+however, many investors do not understand what
+the term means. For brokers and investment
+advisers, a fiduciary standard basically means
+that the client’s interests come before the inter-
+ests of the broker or investment adviser. However,
+there is a difference in the manner in which this
+standard is applied. Investment advisers are
+held to a fiduciary standard that requires them
+to put the client’s interest first. For example, when
+recommending two investment products for a
+client that would accomplish the same objective
+but at different costs, they are required to rec-
+ommend the cheaper of the two. Brokers, on the
+other hand, are not held to this standard. As long
+as the investment products they sell their clients
+are suitable, brokers have satisfied their obliga-
+tions. Thus, in the previous example they are not
+required to recommend the cheaper alternative.
+Ethics in Investing
+Do You Have an Obligation Arising from
+Unsolicited Good Advice?
+Investors have a choice of brokers, ranging
+from those providing advice and recommenda-
+tions (and typically charging more) and those
+offering little or no advice (and typically charg-
+ing less). While we generally think of an investor
+seeking out a broker, brokers often seek out
+customers. Assume that you as an investor have
+a brokerage account where you transact your
+investing decisions. Out of the blue, a broker
+you have never met, calls you (for obvious rea-
+sons, this is referred to in the business as “cold
+calling”). He offers to send you, for no charge,
+some investing ideas. You accept the offer. You
+later decide to invest in one of the stocks he
+has recommended because you decide that
+this stock has merit. You execute the transaction
+2 Some discount brokers do provide research information beyond very basic information. This includes
+standard information supplied to the brokerage from outside sources and customized information gen-
+erated in-house.
+3 Two brokerages, Vanguard and Firstrade, chose not to participate in the rating. See www.barrons.com.
+Brokerage Transactions 117
+Commissions Not surprisingly, commissions charged vary considerably even
+across the discount brokers. Discount brokers typically charge between $5 and
+$7 per trade; however, some deep discount brokers such as Interactive Brokers
+charge even less. Robinhood offers a commission-free trading app and is quite pop-
+ular with college students.
+Brokerage Accounts
+The most basic type of account is the cash account, whereby the customer pays the
+brokerage house the full price for any securities purchased. Many customers add
+margin borrowing to their account, which allows customers to borrow from the bro-
+kerage firm to purchase securities. (Margin is explained in some detail later in this
+chapter.) To have the margin feature, investors are required by both the NYSE and
+NASD to deposit a minimum of $2,000 or 100 percent of the purchase price, which-
+ever is less (this is referred to as the “minimum margin”). Some firms may require
+a deposit of more than $2,000.
+Most brokerage accounts today are cash management accounts (also called core
+accounts and sweep accounts), which means they offer a variety of what are essen-
+tially banking services to the investor. For example, account holders can write checks
+against the account. Debit and/or credit cards may be offered. In addition, instant
+loans based on the marginable securities in the account can be obtained for virtu-
+ally any purpose, at the current broker’s call money rate plus 0.75 to 2.25 percent.
+With a sweep account, the brokerage firm “sweeps” any excess cash in the account
+daily and invests it in an interest-earning fund. Although many of these sweep
+accounts are federally insured, the interest rates they pay can be incredibly low. For
+example, in 2018, a typical rate on a sweep account was 0.15 to 0.25 percent.
+Wrap accounts Brokers can act as middlemen, matching clients with independ-
+ent money managers. Using the broker as a consultant, the client chooses an out-
+side money manager from a list provided by the broker. Under a wrap account, all
+Margin Borrowing Bor-
+rowing from a brokerage
+firm to finance a securities
+transaction
+Wrap Account A type of
+brokerage account where
+all costs are wrapped in
+one fee
+in your regular brokerage account rather than
+through the broker who called. Is this ethical
+behavior on your part?
+Most observers agree that in this situation
+you are under no obligation to transact with
+the new broker. Had you solicited the recom-
+mendation, you would have an obligation, but
+in this case you do not. Of course, you may
+not receive any more recommendations from
+this broker.
+Some Practical Advice
+You Snooze, You Lose
+Investors should pay close attention to what their
+brokerage firm is paying in the way of interest
+on their sweep account. The brokerage default
+account typically pays the lowest rate possible,
+and the brokerage firm is unlikely to recommend
+alternatives. Brokerage firms can make billions
+on the spread between what they pay on their
+default sweep account and what they earn invest-
+ing the cash balances. However, most firms offer
+alternatives that pay higher rates of interest, some
+of which are disclosed on their websites. Investors
+should be diligent about seeking out these alter-
+natives if their cash balances are significant
+costs—the cost of the broker-consultant and money manager, transactions costs,
+custody fees, and the cost of detailed performance reports—are wrapped in one fee.
+For stocks, the fee is 1–3 percent of the assets managed.4
+Large brokerage houses such as Merrill Lynch pioneered wrap accounts for
+investors with a minimum of $100,000 to commit. Merrill Lynch now offers sev-
+eral different types of wrap programs ranging from the traditional consultant wrap
+(the placement of client funds with institutional money managers) to a program
+where the investor makes the buy and sell decisions and can have unlimited no-
+commission trading. Because of their popularity, other financial companies, such as
+bank trusts, have begun offering these accounts.
+A variation of wrap programs is the mutual fund wrap account, involving an invest-
+ment in various mutual funds. Minimum account size requirements are more mod-
+est at $10,000 to $100,000. A few mutual fund companies such as Fidelity participate
+in this market directly. Fees average 1.1 to 1.4 percent of assets. Mutual fund wrap
+accounts are based on an asset allocation model that is updated quarterly to account
+for market conditions and client needs. The adviser may decide, for example, to
+shift some funds from bonds to stocks.
+DRIPs Many companies now offer Dividend Reinvestment Plans (DRIPs). For inves-
+tors enrolled in these plans, the company uses the dividends paid on shares owned
+to purchase additional shares, either full or fractional. Typically, no brokerage or
+administrative fees are involved. The advantages of such plans include dollar cost
+averaging, whereby additional shares are purchased over time.
+In order to participate in a company’s DRIP, investors often buy the stock through
+their brokers, although some companies sell directly to individuals. On becoming
+stockholders, investors can join the DRIP and, in addition to the reinvestment of
+dividends, invest additional cash at specified intervals.
+DRIPs are starting to resemble brokerage accounts. Investors can purchase addi-
+tional shares by having money withdrawn from bank accounts periodically, and
+shares can even be redeemed by phone at many companies.
+As an outgrowth of their DRIPs, a number of companies now offer direct stock
+purchase programs (DSPs), which allow investors to invest without a stock broker.
+Investors make their initial purchase of stock directly from the company for a small
+purchase fee. The price paid typically is based on the closing price of the stock on
+designated dates (no limit orders are allowed). The companies selling stock by this
+method view it as a way to raise capital without underwriting fees and as a way to
+build goodwill with investors.
+Treasury bond buyers can also avoid brokers by using the TreasuryDirect Program.
+Investors can buy or sell Treasuries by phone or Internet, check account balances
+and reinvest as Treasuries mature. Investors eliminate brokerage commissions, but
+some fees are involved.
+How Orders Work
+Trading on Today’s Exchanges
+The NYSE was traditionally an agency auction market where agents represented
+the public at an auction and the interactions of buyers and sellers determined the
+Dividend Reinvestment
+Plan (DRIPs) A plan
+offered by a company
+whereby stockholders
+can reinvest dividends in
+additional shares of stock
+at no cost
+4 Fees are lower for bond portfolios or portfolios that are combinations of stocks and bonds.
+How Orders Work 119
+stock price. Given the enormous volume of shares handled by the NYSE, trading has
+become highly automated.
+The Intercontinental Exchange (ICE) operates NYSE, which includes the NYSE
+and NYSE Amex markets. Designated market makers (DMMs), formerly known as
+specialists, have the responsibility for maintaining a fair and orderly market. DMMs
+serve as a buffer against market volatility, increase liquidity, and are obligated to
+maintain a fair and orderly market for an assigned set of listed firms. The NYSE
+features both a physical auction convened by DMMs and a completely automated
+auction that includes algorithmic quotes from DMMs and other participants.
+ICE includes NYSE Arca, an ECN. The NYSE describes itself as a hybrid market,
+offering both an auction path seeking best price and an electronic path seeking the
+quickest execution. In effect, NYSE operates two exchanges in the United States—
+the NYSE and NYSE Arca—which provide differentiated trading models to meet
+different customer needs.
+Orders in the Nasdaq Stock Market
+Nasdaq, in terms of market share, is the largest U.S. stock exchange. Nasdaq was
+the world’s first electronic stock market, and it now operates in more than 70 mar-
+ketplaces in 50 countries. Nasdaq consists of a system of securities dealers that are
+linked via a telecommunications network.
+Market makers (dealers) match the forces of supply and demand by making a
+market in certain securities. They do this by standing ready to buy a particular secu-
+rity from a seller or sell it to a buyer. Market makers quote bid and asked prices for
+each security. The dealer profits from the spread between these two prices.
+Assume you place an order for a Nasdaq stock. The brokerage firm will enter it
+into the computer system, which will find the best price. Market makers are con-
+stantly buying and selling shares and earning the spread, the compensation for act-
+ing as a middleman. In effect, they are being paid to make the market.
+Modern-Day Trading
+Individual investors should think of the financial markets for equities primarily as
+the NYSE and Nasdaq because these are the marketplaces that will most often affect
+them. However, they should also be aware of some terminology and practices that
+affect stock trading.
+Algorithmic trading (also called automated trading or algo trading) involves the
+use of computer programs to initiate trading orders. A computer algorithm makes
+decisions on such details of the order as price, quantity, and timing. The order
+is often carried out without human intervention. Large institutional investors fre-
+quently use algorithmic trading to break large orders into several smaller orders in
+120 Chapter 5 How Securities Are Traded
+order to manage the impact of the order on the market. For example, a buy order
+for 1 million shares could impact the price of a stock significantly more than five
+orders consecutively placed for 200,000 shares each.
+High-frequency traders, or “HFT” firms, hold shares for less than a day and some-
+times only for minutes. Using the very latest in technology, these firms can execute
+trades in fractions of a second in an attempt to gain an advantage over other trad-
+ers. HFT firms now account for a large percentage of all volume. HFTs use superfast
+computers to view orders placed on the exchange and jump ahead of the original
+purchaser. They buy the security and then sell it at a slightly higher price. Institu-
+tional investors often complain that such trading makes it difficult for them to trans-
+act in large volumes. How are individual investors affected? Buy-and-hold investors
+are not affected to any significant degree by this type of trading, except perhaps
+psychologically. And when they need to buy or sell, they can easily and inexpensively
+do so.
+On May 6, 2010, a flash crash occurred in the financial markets. The DJIA
+suddenly plunged about 1,000 points on an intraday basis, although it recovered
+quickly. Algorithmic trading and HFT have been cited as contributing factors to the
+flash crash.
+How important is speed to HFTs? Consider this: in 2009, a fiber-optic cable was
+laid between New York and Chicago at a cost of approximately $300 million. The
+purpose of the cable was to speed up messages sent between the two cities from 17
+to 13 milliseconds. This increase in speed was projected to produce annual profits
+in the $ billions. A new superspeed fiber-optic cable was laid in 2015 that links New
+York with London. What was the motivation for this tremendous expenditure of
+time and money? To save 5.2 milliseconds in message speed.
+Can it really be worth it to hedge funds, foreign exchange firms, and other types
+of traders to pay for the use of this cable to gain that advantage? One estimate is that
+a 1-millisecond advantage can be worth $100 million to a hedge fund.
+Types of Orders
+Investors use three basic types of orders: market orders, limit orders, and stop
+orders. Each of these orders is explained in Exhibit 5.1. Briefly,
+• A market order ensures that the order will be executed upon receipt, but the
+exact price at which the transaction occurs is not guaranteed.
+• A limit order ensures that the price specified by the investor will be met or bet-
+tered, but execution of the order may be delayed or may not occur.
+• A stop order directs that when a stock reaches a specified price, a market
+order takes effect, but the exact transaction price is not assured.
+Investors can enter limit orders as day orders, which are effective for only
+one day, or as good-until-canceled orders or open orders, which remain in
+effect for six months unless canceled or renewed. There is no guarantee that
+all orders will be filled at a particular price limit when that price is reached
+because orders are filled in a sequence determined by the rules of the various
+exchanges. 5
+Market Order An order to
+buy or sell at the best price
+available when the order
+reaches the trading floor
+Limit Order An order to
+buy or sell at a specified
+(or better) price
+Stop Order An order
+specifying a certain price
+at which a market order
+takes effect
+5 Limit orders can be filled in part until completed unless the order is specified as all or none (fill the
+whole order or no part of it), immediate or cancel (fill the whole order or any part immediately, canceling
+the balance), or fill or kill (fill the entire order immediately or cancel it).
+How Orders Work 121
+Stop orders are used to buy and sell after a stock reaches a certain price level. A
+buy stop order is placed above the current market price, while a sell stop order is
+placed below the current price. Unlike regular stop orders, a stop limit order auto-
+matically becomes a limit order when the stop limit price is reached. Therefore,
+stop limit orders specify two prices, the stop price that converts the order into a sell
+order and the limit price.
+• Use a market order to ensure execution of the order (exact price is not
+assured). Use a limit order to ensure a specified price or better (execution
+not assured).
+Some Practical Advice
+As we should expect, certain types of orders
+can have both good and bad effects. A sell stop
+order calls for a stock to be automatically sold
+when the price drops by a specified percentage
+or hits a specified price. This can limit losses on
+short-term trades and can be effective in locking
+in profits. However, the normal volatility of the
+market can cause investors to buy at a higher
+price and sell at a lower price, only to see the
+price rebound and continue upward. Setting the
+right price at which the stock is to be sold is criti-
+cal, but difficult to do.
+EXHIBIT 5.1 | Types of Orders Used by Investors
+1. Market orders, the most common type of order,
+instruct the broker to buy or sell the security imme-
+diately at the best price available. As a representa-
+tive of the client, it is incumbent upon the broker
+to obtain the best price possible. A market order
+ensures that the transaction will be carried out, but
+the exact price at which it will occur is not known
+until its execution.
+2. Limit orders specify a particular price to be met or
+bettered. They may result in the customer obtain-
+ing a better price than with a market order or in
+no transaction occurring because the market price
+never reaches the specified limit. The transaction
+will occur only if the broker obtains that price or
+betters it (lower for a purchase, higher for a sale).
+Limit orders can be tried immediately or left with the
+broker for a specific time or indefinitely. In turn, the
+broker leaves the order with the DMM who enters it
+in the limit book.
+Example: Assume that the current market price
+of a stock is $50. An investor might enter a buy
+limit order at $47. If the stock declines to $47, this
+limit order, which is on the DMM’s book, will be
+executed at $47 or less. Similarly, another investor
+might enter a sell limit order for this stock at $55.
+If the stock price rises to $55, this investor’s shares
+will be sold.
+3. Stop orders, which are also commonly called stop-loss
+orders, specify a certain price at which a market order
+takes effect. For example, a stop order to sell at $50
+becomes a market order to sell as soon as the market
+price declines to $50. However, the order may not be
+filled exactly at $50 because the closest price at which
+the stock trades may be $49.95. The exact price spec-
+ified in the stop order is therefore not guaranteed
+and may not be realized.
+Example 1: A sell stop order can be used to pro-
+tect a profit in the case of a price decline. Assume
+that a stock bought at $32 currently trades at $50.
+The investor does not want to limit additional gains
+but may wish to protect against a price decline. To
+lock in most of the profit, a sell stop order could be
+placed at $47.
+Example 2: A buy stop order could be used to pro-
+tect a profit from a short sale. Assume an investor
+sold short at $50, and the current market price of
+the stock is $32. A buy stop order placed at, say, $36
+would protect most of the profit from the short sale.
+122 Chapter 5 How Securities Are Traded
+A standard order is a round lot, which is 100 shares or a multiple of 100; an odd
+lot is any number of shares between 1 and 99.
+Clearing Procedures
+Most securities are settled on the regular-way basis, which means they settle on the
+normal settlement cycle for the particular investment being traded. The amount
+of time between the trade date and the settlement date, however, differs from one
+security to another. Equities and municipal bonds have the longest settlement
+cycle, which is two business days after the trade date. On the trade date, the parties
+agree on the terms of the exchange. On the settlement date, the customer becomes
+the legal owner of any securities bought, or gives them up if sold, and must settle
+with the brokerage firm. Most customers allow their brokerage firm to keep their
+securities in “street name”—that is, the name of the brokerage firm. The customer
+receives a monthly statement showing his or her position as to cash, securities held,
+any funds borrowed from the broker, and so on.6
+Checking Your Understanding
+1. Assume you bought a stock for $50 and it has increased to $75. You think
+it may go higher, but you want to protect most of your current profit. What
+order would you place to ensure a minimum gain of about $23 per share?
+2. State two reasons why an investor establishing a brokerage account might
+prefer a wrap account to the more traditional asset management account.
+Investor Protection in the Securities Markets
+Investors should be concerned that securities markets are properly regulated for
+their protection. Our financial system depends heavily on confidence in that sys-
+tem. In the late 19th and early 20th centuries, significant abuses in securities trading
+did occur; at the same time, there was a lack of information disclosure, and trading
+procedures were not always sound. The market crash in 1929 and the Great Depres-
+sion served as catalysts for reforms, which effectively began in the 1930s.
+Investor protection can be divided into government regulation, primarily federal,
+and self-regulation by the industry. Although states also regulate securities transac-
+tions, the primary emphasis is on federal regulation, and so we concentrate on that.
+Government Regulation
+Federal legislation
+Much of the legislation governing the securities markets and industry was initially
+enacted during the Great Depression. Many fraudulent and undesirable practices
+6 Use of stock certificates as part of the settlement is dying out in the United States. The Depository Trust
+Company (DTC) has helped to eliminate stock certificates by placing stock transactions on computers.
+Members (brokers and dealers) who own certificates (in street name) deposit them in an account and
+can then deliver securities to each other in the form of a bookkeeping entry. This book-entry system, as
+opposed to the actual physical possession of securities in either registered or “bearer” form, is essential
+to minimize the tremendous amount of paperwork that would otherwise occur with stock certificates.
+Investor Protection in the Securities Markets 123
+occurred in the 1920s, and the markets as a whole were shattered in the crash of
+1929. Congress subsequently sought to improve the stability and viability of the secu-
+rities markets by enacting securities regulation in the 1930s. Several additional acts
+have been legislated subsequently. Exhibit 5.2 contains a brief description of the
+major legislation affecting securities markets.
+The securities and exchange commission In 1934, Congress created the Secu-
+rities and Exchange Commission (SEC) as an independent, quasijudicial agency of
+the U.S. government. Its mission is to administer laws in the securities field and to
+protect investors and the public in securities transactions. The commission consists
+of five members appointed by the president for five-year terms. Its staff consists of
+lawyers, accountants, security analysts, and others divided into divisions and offices
+(including eleven regional offices). The SEC has approximately 4,600 employees.
+Securities and Exchange
+Commission (SEC) A fed-
+eral government agency
+established by the Securi-
+ties Exchange Act of 1934
+to protect investors
+EXHIBIT 5.2 | Major Legislation Regulating the Securities Markets
+1. The Securities Act of 1933 (the Securities Act) deals
+primarily with new issues of securities. The intent
+was to protect potential investors in new securities
+by requiring issuers to register an issue with full dis-
+closure of information. False information is subject
+to criminal penalties and lawsuits by purchasers to
+recover lost funds.
+2. The Securities Exchange Act of 1934 extended the
+disclosure requirements to the secondary market
+and established the SEC to oversee registration and
+disclosure requirements. Organized exchanges are
+required to register with the SEC and agree to be
+governed by existing legislation.
+3. The Maloney Act of 1936 extended SEC control to
+the OTC market. It provides for the self-regulation
+of OTC dealers through the National Association
+of Securities Dealers (NASD), which licenses and
+regulates members of OTC firms. The SEC has
+authority over the NASD, which must report all its
+rules to the SEC.
+4. The Trust Indenture Act of 1939 applies to debt secu-
+rities that are offered for public sale. Even if debt
+securities are registered, they may not be offered to
+the public unless the indenture conforms to the Act.
+5. The Investment Company Act of 1940 requires
+investment companies to register with the SEC and
+provides a regulatory framework within which they
+must operate. Investment companies are required
+to disclose considerable information and to follow
+procedures designed to protect their shareholders.
+6. The Investment Advisers Act of 1940 requires indi-
+viduals or firms who sell advice about investments
+to register with the SEC. Registration connotes only
+compliance with the law. Almost anyone can become
+an investment advisor because the SEC cannot deny
+anyone the right to sell investment advice unless it
+can demonstrate dishonesty or fraud.
+7. The Securities Investor Protection Act of 1970
+established the Securities Investor Protection Cor-
+poration (SPIC) to act as an insurance company in
+protecting investors from brokerage firms that fail.
+Assessments are made against brokerage firms to
+provide the funds with backup government support
+available.
+8. The Securities Act Amendments of 1975 was a
+far-reaching piece of legislation, calling for the SEC
+to move toward the establishment of a national
+market. This Act abolished fixed brokerage com-
+missions.
+9. Fair Disclosure: Regulation FD or Reg FD was adopted
+in 2000 and requires that material nonpublic infor-
+mation is disclosed broadly to the public, not to
+select market professionals.
+10. The Sarbanes–Oxley Act of 2002 mandates reforms
+to enhance corporate responsibility, enhances
+financial disclosures, and combats fraud. The Act
+created the Public Company Accounting Over-
+sight Board.
+11. The Dodd–Frank Wall Street Reform and Consumer
+Protection Act of 2010 added to the regulatory mea-
+sures in the areas of consumer protection, trading
+restrictions, credit ratings, financial products, cor-
+porate governance, and disclosure.
+124 Chapter 5 How Securities Are Traded
+In general, the SEC administers all securities laws. Thus, under the Securities Act
+of 1933, the SEC ensures that new securities offered for public sale are registered
+with the commission, and under the 1934 act it does the same for securities trading
+on national exchanges. The registration of securities in no way ensures that inves-
+tors purchasing them will not lose money. Registration means only that the issuer
+has made adequate disclosure. In fact, the SEC has no power to disapprove securi-
+ties for lack of merit.
+Under the two acts of 1940—the Investment Company Act and the Investment
+Advisers Act—investment companies and investment advisors must register with the
+SEC and disclose certain information. The SEC ensures that these two groups meet
+the requirements of the laws affecting them. One problem, however, is that the
+number of registered investment advisors has increased significantly over the years,
+as has the number of investment companies. The SEC has a relatively small staff to
+deal with these two groups.
+The SEC is required to investigate complaints or indications of violations in secu-
+rities transactions. The Justice Department can also investigate alleged abuses in the
+financial markets.
+The SEC and insider trading A well-known illustration of SEC activity involves
+“insider trading,” which has been a primary enforcement emphasis of the SEC.
+Insider trading can be defined as a breach of a fiduciary duty while in possession of
+material, nonpublic information about a security. “Insiders” (officers and directors
+of corporations) are prohibited from misusing (i.e., trading on) corporate informa-
+tion that is not generally available to the public and are required to file reports with
+the SEC showing their equity holdings.
+Several major insider trading “scandals” have been reported over the years.
+For example, in late 2011, Raj Rajaratnam, a hedge fund operator, was sentenced
+Some Practical Advice
+Brokers are obligated to ensure that invest-
+ments are “suitable” for their clients. Registered
+investment advisers (RIA) act as fiduciaries, and
+thus, have a legal requirement to put their clients’
+interest ahead of theirs. Registering with the SEC
+simply is a notification that an individual is doing
+business as an RIA. There are no educational
+requirements or other standards. Furthermore,
+RIAs do not have to disclose their performance
+history to clients; therefore, clients may have no
+idea how well a particular RIA has managed
+money. Disputes between an RIA and a client
+typically must be settled by arbitration, which
+can be very costly.
+124 Chapter 5 How Securities Are Traded
+In general, the SEC administers all securities laws. Thus, under the Securities Act
+of 1933, the SEC ensures that new securities offered for public sale are registered
+with the commission, and under the 1934 act it does the same for securities trading
+on national exchanges. The registration of securities in no way ensures that inves-
+tors purchasing them will not lose money. Registration means only that the issuer
+has made adequate disclosure. In fact, the SEC has no power to disapprove securi-
+ties for lack of merit.
+Under the two acts of 1940—the Investment Company Act and the Investment
+Advisers Act—investment companies and investment advisors must register with the
+SEC and disclose certain information. The SEC ensures that these two groups meet
+the requirements of the laws affecting them. One problem, however, is that the
+number of registered investment advisors has increased significantly over the years,
+as has the number of investment companies. The SEC has a relatively small staff to
+deal with these two groups.
+The SEC is required to investigate complaints or indications of violations in secu-
+rities transactions. The Justice Department can also investigate alleged abuses in the
+financial markets.
+The SEC and insider trading A well-known illustration of SEC activity involves
+“insider trading,” which has been a primary enforcement emphasis of the SEC.
+Insider trading can be defined as a breach of a fiduciary duty while in possession of
+material, nonpublic information about a security. “Insiders” (officers and directors
+of corporations) are prohibited from misusing (i.e., trading on) corporate informa-
+tion that is not generally available to the public and are required to file reports with
+the SEC showing their equity holdings.
+Several major insider trading “scandals” have been reported over the years.
+For example, in late 2011, Raj Rajaratnam, a hedge fund operator, was sentenced
+Some Practical Advice
+Brokers are obligated to ensure that invest-
+ments are “suitable” for their clients. Registered
+investment advisers (RIA) act as fiduciaries, and
+thus, have a legal requirement to put their clients’
+interest ahead of theirs. Registering with the SEC
+simply is a notification that an individual is doing
+business as an RIA. There are no educational
+requirements or other standards. Furthermore,
+RIAs do not have to disclose their performance
+history to clients; therefore, clients may have no
+idea how well a particular RIA has managed
+money. Disputes between an RIA and a client
+typically must be settled by arbitration, which
+can be very costly.
+In September 2014, the SEC filed charges against a
+roommate and a friend of a hedge fund analyst for
+insider trading ahead of an announcement that hedge fund Pershing Square
+Capital Management had taken a $1 billion short position in Herbalife Ltd.
+In the same month, the SEC charged a senior IT professional at Wilson
+Sonsini Goodrich & Rosati with insider trading ahead of several mergers and
+acquisitions involving firm clients.
+Investor Protection in the Securities Markets 125
+to 11 years in prison, the longest prison sentence ever for insider trading. The
+trend now is for a higher percentage of those found guilty of insider trading to
+serve prison terms and for the sentences received to be longer. In the past jail
+sentences were often light, a few months, but now they often are for periods of
+two to three years.
+Although questions remain about exactly what constitutes insider trading, small
+investors can, and are, charged with trading on “material, nonpublic information.”
+This happens frequently as a result of mergers and takeovers where the individuals
+involved are charged with using inside information to trade the stock of a company
+about to be acquired. Investors are well advised to be very careful to avoid insider
+trading.
+Self-Regulation
+Regulation of the stock exchange Stock exchanges regulate and monitor trad-
+ing for the benefit of investors and the protection of the financial system. The NYSE,
+in particular, has a stringent set of self-regulations and declares that it “provides
+the most meaningful market regulation in the world.” The NYSE regulates itself
+as part of a combined effort involving the SEC, itself, and member firms. Together,
+this triad enforces federal legislation and self-regulation for the benefit of the invest-
+ing public.
+NYSE Regulation, Inc., a subsidiary of NYSE, which is itself part of ICE, is a not-
+for- profit corporation which focuses on protecting investors and strengthening
+market integrity. NYSE Regulation is independent in its decision making. 7 It seeks
+to protect investors by enforcing federal securities laws as well as exchange rules.
+NYSE Regulation performs the self-regulatory responsibilities for the NYSE, NYSE
+Arca, and NYSE MKT.
+During a typical trading day, the NYSE continuously monitors all market par-
+ticipants. It also closely monitors the performance of DMMs in their responsibility
+for maintaining a fair and orderly market in their assigned stocks. NYSE rules and
+regulations are self-imposed and approved by the SEC.
+The NYSE has instituted several measures to reduce market volatility and serve
+investors’ best interests. These safeguards are referred to as “circuit breakers.” A
+“trading halt” is an example of a circuit breaker. A trading halt—which typically lasts
+less than an hour—is called during the trading day to allow a company to announce
+important news or where there is a significant order imbalance between buyers and
+sellers in a security. A trading delay (or “delayed opening”) is called if either of these
+situations occurs during after-hours trading.
+The Financial Industry Regulatory Authority (FINRA), created in 2007, is the
+largest regulator for securities firms doing business in the United States. 8 Its over-
+sight includes 3,712 securities firms and more than 629,000 registered securities
+representatives. FINRA’s objective is to protect investors and ensure market integ-
+rity. It accomplishes this objective through both regulation and compliance meas-
+ures. FINRA examines securities firms and enforces federal securities laws and also
+performs market regulation under contract with certain exchanges.
+7 The organization consists of three divisions: Market Surveillance, Enforcement, and Listed Company
+Compliance.
+8 FINRA is an independent, not-for-profit organization that came about from the consolidation of the
+NASD and the member regulation, enforcement, and arbitration functions of the NYSE. It has approxi-
+mately 3,400 employees and operates from 20 district offices around the country.
+126 Chapter 5 How Securities Are Traded
+Other Investor Protections
+Insured brokerage accounts The SIPC is a nonprofit membership corpo-
+ration overseen by the SEC. It insures each customer account of its member
+brokers against brokerage firm failure. Each account is covered for as much as
+$500,000. 9 From its creation by Congress in 1970 through December 2017, SIPC
+states that it has advanced $2.8 billion in order to make possible the recovery
+of $138.7 billion in assets for an estimated 773,000 investors. According to SIPC
+data, more than 99 percent of eligible investors have been made whole in the
+failed brokerage firm cases it has handled. 10
+Mediation and arbitration Investors who have disputes with their brokers gen-
+erally cannot seek relief in court. When they open an account, investors pledge to
+resolve disputes through mediation or arbitration rather than go to court. When
+investors have problems, there are three stages of possible resolution.
+First, investors can try to solve the problem with the brokerage firm. The investor
+files written claim, providing as much documentation as possible. Also, the claim
+should be sent to NASDR, the regulatory arm of the NASD as well as the investor’s
+state securities regulator.
+The second stage, particularly where compensation or damages is being sought,
+is mediation, which is voluntary. NASDR maintains a list of mediators and can
+appoint one if requested (investors have veto power over the choice of mediator).
+Mediation decisions are nonbinding.
+The last stage is arbitration, which is a binding process that can determine dam-
+ages. Arbiters can be a person or panel that examines the evidence and makes a
+ruling. Arbitration is not free, and investors should probably hire a lawyer.
+In general, arbitration rulings cannot be appealed. The few exceptions (such as
+bias by the arbitrator) must be appealed within three months. Finally, litigation is
+possible, but difficult because of the arbitration clause investors sign. An example
+of when this might occur would be cases alleging broker fraud. A suit must be filed
+within one year of the alleged incident.
+Some Practical Advice
+Conflicts between brokers and customers are
+inevitable, and investors should take steps to
+protect themselves. To get information about
+brokerage firms, investors can go to www.finra.org
+and click on “FINRA BrokerCheck” under Investor
+Resources. State regulators provide Central Reg-
+istration Depository reports, which offer disci-
+plinary details on financial advisors. Links to state
+regulators can be found at nasaa.org (website
+for the North American Securities Administrators
+Association).
+Checking Your Understanding
+3. The Securities Act of 1933 ensures investors that every new issue of stock has
+met its quality standards and is likely to be a good investment. Agree or disa-
+gree, and explain your reasoning.
+4. When resolving investor disputes with brokers, what is the major difference
+between mediation and arbitration?
+Margin
+As previously noted, investors often add a borrowing feature to their brokerage
+accounts. Doing so requires some deposit of cash or marginable securities. The
+NYSE requires that member firms establish a minimum deposit of $2,000 or its equiv-
+alent in securities for customers opening a margin account, but individual firms may
+require more to simply open an account. For example, Fidelity Brokerage Services
+requires $2,500 to open an account, while First Discount Brokerage requires $5,000.
+With a margin transaction, the customer pays part of the total amount due and
+borrows the remainder from the broker, who in turn typically borrows from a bank.
+The bank charges the broker the “broker call rate,” and the broker in turn charges
+the customer a “margin interest rate,” which is the broker call rate plus a percentage
+added on by the brokerage firm.11 Cash has 100 percent loan value, and most stock
+securities have 50 percent loan value.
+How Margin Accounts Can Be Used
+A margin account can be used to:
+1. Purchase additional securities by leveraging the value of the eligible shares
+to buy more
+2. Borrow money from a brokerage account for personal purposes (the margin
+interest rate is comparable to a bank’s prime rate)
+3. Provide overdraft protection in amounts up to the loan value of the margin-
+able securities for checks written (or debit card purchases)
+Margin trading is comparable to a secured loan, with securities serving as collateral.
+Investments Intuition
+An appeal of margin trading is that it magnifies
+the percentage gains on your equity by the
+reciprocal of the margin requirement (i.e., 1/
+margin percentage; e.g., with a margin of 40
+percent, the magnification is 1/0.4 = 2.50). Unfor-
+tunately, the use of margin also magnifies the
+percentage losses. Regardless of what happens,
+the margin trader must pay the interest on the
+margin account. An investor considering a mar-
+gined stock purchase should remember that the
+stock price can go up, remain the same, or go
+down. In two of these three cases, the investor
+loses. Even if the stock rises, the breakeven point
+is higher by the amount of the interest charges.
+11 One large discount brokerage firm adds 2 percent for margin loans up to $10,000, 1.5 percent for loans
+up to $25,000, 1 percent for loans up to $50,000, and 0.50 percent for loans above $50,000.
+128 Chapter 5 How Securities Are Traded
+Margin Requirements and Obligations
+• Margin is the customer’s equity in a transaction; that is, it is that part of the
+total value of the transaction that is not borrowed from the broker.
+There are two separate margin requirements. The initial margin requirement must
+be met when the transaction is initiated, but the maintenance margin must be met on
+an ongoing basis. Failure to meet the latter requirement can result in a margin call.
+• An investor must meet both the initial margin requirement and the mainte-
+nance margin requirement.
+Initial margin The Board of Governors of the Federal Reserve System (Fed), using
+Regulation T, has the authority to specify the initial margin. Historically, the initial
+margin for stocks has ranged between 40 and 100 percent; it has been 50 percent
+since 1974.12 The initial margin can be defined as
+Initial margin Amount investor contributes
+Value of the trannsaction (5-1)
+Maintenance margin In addition to the initial margin, all exchanges and bro-
+kers require a maintenance margin below which the actual margin cannot go. The
+maintenance margin is the absolute minimum amount of margin (equity) that an
+investor must have in the account at all times. Brokers usually require 30 percent or
+more on long positions.13
+• An investor’s equity is calculated as the market value of the stock minus the
+amount borrowed. In turn, the market value of the stock is equal to the cur-
+rent stock price multiplied by the number of shares.
+If the investor’s equity exceeds the initial margin, the excess margin can be
+withdrawn from the account, or more stock can be purchased. Conversely, if the
+investor’s equity declines below the initial margin, problems can arise. It is at this
+point that the maintenance margin must be considered.
+Margin The investor’s
+equity in a transaction
+Initial Margin In dollar
+terms, the initial equity an
+investor has in a margin
+transaction
+Maintenance Margin The
+percentage of a transac-
+tion’s value that must be
+on hand at all times as
+equity
+12 Exchanges and brokerage houses can require more initial margin than that set by the Fed.
+13 The NYSE requires a maintenance margin of 25 percent.
+14 With a 60 percent requirement, the customer must initially put up $5,400.
+If the initial margin requirement is 50 percent on a
+$9,000 transaction (100 shares at $90 per share), an
+investor who wants to fully use the margin provision must contribute $4,500,
+borrowing $4,500 from the broker. 14 The investor could contribute $4,500 in
+cash or deposit $9,000 in marginable securities.
+EXAMPLE 5.3
+To illustrate the leverage impact, assume that the stock
+in Example 5.3 goes up 20 percent from $90 to $108, for
+a gain of $1,800. The investor has a $1,800/$4,500 = 40 percent gain on his
+or her equity, the actual cash put up by the investor. On the other hand, if
+the stock goes down 6 percent to $84.60, a loss of $540, the investor has a
+$540/$4,500 = 12 percent loss on his or her equity.
+Short Sales 131
+selling is simply borrowing a stock, selling it, and replacing it later (hopefully
+after a price decline). After all, when you borrow your neighbor’s lawn mower
+or power tools, you are expected to bring them back or replace them. The short
+seller has an obligation to replace the shorted stock.
+The short seller’s broker sells the borrowed security, exactly like any other sale,
+to some investor who wishes to own it. The short seller expects the security’s price
+to decline. Assume that it does. The short seller instructs the broker to repurchase
+the security and cancel the short position (by replacing the borrowed security).
+The investor profits by the difference between the price at which the borrowed
+stock was sold and the price at which it was repurchased. This process is illustrated
+graphically in Figure 5.1 and spelled out in Exhibit 5.3.
+You think a particular
+stock’s price will
+decline
+You instruct your
+broker to establish a
+short position in this
+stock
+The broker borrows
+the shares, sells them,
+and credits your
+account
+The price declines so
+you buy the stock
+back and replace the
+borrowed shares
+This closes out your
+short position on
+which you made a
+profit
+FIGURE 5.1 The short sale process
+EXHIBIT 5.3 | How Short Selling Works
+1. You believe that IBM is overpriced at $180 per share.
+You do not own IBM stock but wish to profit if your
+belief is correct and the price goes down.
+2. You instruct your broker to short 100 shares of IBM,
+a transaction valued at $18,000 (ignore brokerage
+costs). The broker does this by borrowing the 100
+shares from another investor’s account and selling
+the shares on your behalf at $18,000.
+3. The sale proceeds of $18,000 are credited to your
+margin account because you sold the stock. You
+must put up 50 percent of the borrowed amount, or
+$9,000 as initial margin. You are now responsible for
+paying back 100 shares of IBM stock to replace the
+100 shares that were borrowed on your behalf.
+4. Assume IBM’s price goes to $100 three months later. You
+are now ahead $8,000 because you can buy the shares
+for $10,000 and replace the 100 shares you borrowed.
+5. Having closed out the short sale, you regain access to
+the $9,000 margin you contributed.
+6. Should the price of IBM rise, you have two choices.
+One, buy the stock back and close out the position,
+taking a loss. For example, buying back at $200 would
+result in a loss of $2,000. Two, continue to hold the
+position and hope the price eventually drops. In the
+case of a rising stock price for a short position, you
+may face a margin call requiring cash or equivalents
+equal to 25 to 35 percent of the stock’s value. Exact
+maintenance margin requirements vary by firm.
+132 Chapter 5 How Securities Are Traded
+Several technicalities are involved in a short sale; these are outlined in Exhibit 5.4.
+For example, there is no time limit on how long an investor can remain short in a
+stock, and any dividends paid on the stock during the time the seller is short must
+be covered by the short seller.
+Keep in mind that to sell short an investor must be approved for a margin
+account because short positions involve the potential for margin calls. For exam-
+ple, the initial minimum equity to open a Fidelity margin account is $2,500, the
+initial margin requirement would be 50 percent of the short sale, and the main-
+tenance margin would be 30 percent of market value (the absolute minimum to
+open a margin account is $2,000 in cash or securities). That is, the maintenance
+requirements for short sales are 100 percent of the current market value of the
+short sale plus (typically) 30 percent of the total market value of the securities
+in the margin account. Should the price of the security shorted rise enough, an
+investor will be required by the broker to put more cash in the account or sell
+some securities. 17
+17 It is possible for investors to get caught in a “short squeeze.” As a stock continues to rise in price,
+short sellers start buying to cover their positions, pushing the price even higher. Short sellers can
+actually create significant run-ups in the stock price, thereby causing the opposite of what they are
+trying to achieve. Brokers, in turn, may force the short sellers to cover their short positions if the
+price is rising dramatically. One way for short sellers to protect themselves against this is to use a buy
+stop order.
+18 Note that Ashley knows nothing about this transaction, nor is she really affected. Ashley receives a
+monthly statement from the broker showing ownership of 100 shares of GM. Should Ashley wish to sell
+the GM stock while Erica is short the stock, the broker will simply borrow 100 shares from a third inves-
+tor’s account that holds GM stock. It is important to note that all of these transactions are book entries
+and do not typically involve actual stock certificates.
+19 Notice that two trades are required to complete a transaction, or “round trip.” Investors who purchase
+securities plan to sell them eventually. Investors who sell short plan to buy back eventually; they have
+simply reversed the normal buy–sell procedure by selling and then buying.
+Assume Erica believes that the price of General Motors
+(GM) will decline over the next few months and wants
+to profit if her assessment is correct. She calls her broker with instructions
+to sell 100 shares of GM short (she does not own GM) at its current price
+of $30 per share. The broker borrows 100 shares of GM from Ashley, who
+has a brokerage account with the firm and currently owns GM (“long”).
+The broker sells the borrowed 100 shares at $30 per share, crediting the
+$3,000 proceeds (less commissions, which we ignore for this example) to
+Erica’s account. 18 Six months later the price of GM has declined, as Erica
+predicted, and is now $25 per share. Satisfied with this drop in price, Erica
+instructs the broker to purchase 100 shares of GM and close out the short
+position. Her profit is $3,000–$2,500 or $500. The broker replaces Ashley’s
+missing stock with the just-purchased 100 shares, and the transaction is
+complete. 19
+EXAMPLE 5.8
+Short Sales 133
+Selling Short as an Investor
+Short sellers argue that short sales help the overall market because they provide
+liquidity and help smooth out the highs and lows in stock prices. And, of course, there
+have been many periods in the stock market when prices did not rise, but instead fell.
+During such periods, short selling might be a good strategy for some investors.
+Some investors argue that a portfolio consisting of both long and short positions
+can dampen volatility while still producing good returns. Some evidence suggests
+that a portfolio holding positions that are 65 percent long and 35 percent short is
+half as volatile as a portfolio that is 100 percent long.20
+If you are interested in selling stocks short, how do you go about obtaining
+short sale recommendations? Investors can do their own analysis or use investment
+advisory services. When you perform your own analysis, which types of companies
+EXHIBIT 5.4 | The Details of Short Selling
+1. Dividends declared on any stock sold short must be
+covered by the short seller. After all, the person from
+whom the shares were borrowed still owns the stock
+and expects all dividends it pays.
+2. Short sellers must have a margin account to sell short
+and must put up margin as if they had gone long. The
+margin can consist of cash or securities held long.
+3. The net proceeds from a short sale, plus the required
+margin, are held by the broker; thus, no funds are
+immediately received by the short seller. The lender
+must be fully protected. To do this, the account is
+marked to market. If the stock price declines as
+expected by the short seller, he or she can withdraw
+the difference between the sale price and the current
+market price. If the stock price rises, however, the
+short seller may have to put up more funds.
+4. There is no time limit on a short sale. Short sellers
+can remain short indefinitely. The only exception
+arises when the lender of the securities wants them
+back. In most cases, the broker can borrow else-
+where, but in some situations, such as a thinly traded
+stock, this may not be possible.
+Assume an investor shorts 100 shares of Microsoft at
+$100 per share. The investor must have $5,000 in the
+account (initial margin of 50 percent). The proceeds of the short sale are left
+in the account, making the total initial margin requirement $15,000 ($10,000
+proceeds +$5,000 margin). If Microsoft rises to $110, the short sale value is now
+$11,000, and the maintenance margin is now 30 percent of that, or $3,300, for
+a total margin requirement of $14,300. Because the investor started with a total
+margin requirement of $15,000, no action is necessary. Now assume the price of
+Microsoft goes to $140. The short sale value is now $14,000, and the maintenance
+margin is now 30 percent of that, or $4,200. The total margin requirement is
+now $18,200, generating a margin call for an additional cash deposit of $3,200
+(recall that the investor started with $15,000 after selling the stock short and
+putting up 50 percent of the value of the transaction as collateral).
+134 Chapter 5 How Securities Are Traded
+should you look for to sell short? It makes sense to focus on companies in declining
+industries, companies that are in the news for possible fraudulent activity, compa-
+nies with declining financial situations, and, perhaps most commonly, companies
+whose earnings are disappointing the market. As for advisory services, the results
+of those who provide recommendations vary over a wide range. And as you would
+expect, there are many more investment advisory services making buy recommen-
+dations than sell recommendations.
+The financial crisis that began in 2008 was not a crisis for
+everyone. David Einhorn from Greenlight Capital made
+a fortune during the financial crisis. Einhorn shorted the investment bank
+Lehman Brothers in July of 2007 when the stock was selling for over $70 per
+share. The share price steadily declined over the next 10 months to around
+$35 per share when he publicly announced his short position at a large NYC
+investment conference in May of 2008. On the day of his speech, Lehman’s
+stock closed down an additional $2.44 per share. Lehman, which before the
+crisis was the fourth largest investment bank in the United States, filed for
+bankruptcy in September 2008.
+EXAMPLE 5.10
+Concepts in Action
+Do You Want to Be a Short Seller?
+Frequently stock prices escalate for glamour
+companies before their earnings take hold. For
+example, think of Tesla and the slew of mari-
+juana stocks. When this happens, some inves-
+tors become motivated to take short positions
+in the stocks. How popular is this activity, and
+what exactly is involved? First, short selling as a
+percentage of total volume on the NYSE is small.
+Clearly, most investors are not selling short. Part of
+the reason is the mechanics involved. Short sellers
+must put up 50 percent of the short sale as col-
+lateral for the initial margin requirement and then
+meet ongoing margin requirements. They must
+also replace any dividends paid on the stock
+while the short position is open. Finally, there is
+the widely stated note of caution to investors that
+while potential gains from short selling are limited,
+potential losses are not.
+The financial crisis that began in 2008 was a
+short seller’s dream for those who recognized
+the situation and acted accordingly. Markets
+declined sharply, and many stocks collapsed.
+A number of financial stocks went bankrupt,
+with the price essentially going to zero. Even the
+big-name financial stocks dropped dramatically.
+For example, Lehman Brothers and Bear Stearns,
+which were both investment banking behemoths,
+failed during the financial crisis. This was the best
+environment for short selling in many years.
+Some short sellers can encounter a so-called
+short squeeze. This occurs when there is an excess
+demand for a stock but a lack of supply, which
+drives up the stock price. If a stock starts to rise
+rapidly, many short sellers may choose to cover
+their position and get out. As more short sellers
+buy back the stock, the stock price rises even
+more. Short squeezes are more likely with smaller
+capitalization stocks with relatively fewer shares
+outstanding. Consider the case of Volkswagon
+(VW) in 2008. VW was selling at a price beyond
+what many investors thought was warranted,
+so they established a rather large short position
+in the stock. However, Porsche and a few other
+institutions had accumulated virtually all of VW’s
+outstanding shares. When VW’s stock price started
+rising, these institutions were unwilling to sell their
+shares. The resulting short squeeze pushed VW’s
+price from the low $200s to the $1,000 range in
+just a couple days. Finally, if you plan to sell short,
+remember the old Wall Street ditty: “He who sells
+what isn’t his’n/Buys it back or goes to prison.”
+Summary 135
+Short interest ratio Is it possible to measure how bearish investors are about a
+stock? The short interest ratio is calculated for a stock by dividing the number of
+shares sold short by the average daily trading volume. It indicates the number of
+days it would take for short sellers to buy back (cover) all of the shares sold short.
+The higher the ratio, the more bearish investors are about a stock’s prospects. Some
+studies suggest that there is a strong negative relationship between short interest
+and subsequent stock returns, indicating that high short interest conveys negative
+information about future stock performance.
+Checking Your Understanding
+5. Why is it necessary for brokerage accounts to be marked to market every
+day?
+6. Why sell short instead of using puts?
+7. What does it mean to say the losses from short selling are infinite while the
+gains are finite?
+Summary
+• Brokerage firms consist of full-service brokers and discount brokers.
+• Full-service stockbrokers earn their incomes from a variety of sources, includ-
+ing individuals’ trades, in-house mutual fund sales, principal transactions, new
+issues, and fees.
+• With a cash brokerage account, the customer pays in full on the settlement
+date, whereas with a margin account money can be borrowed from the broker
+to finance purchases.
+• Asset management accounts offering a variety of services are commonplace.
+With a wrap account, brokers, acting as middlemen, match clients with money
+managers. All costs—the cost of the broker-consultant and money man-
+ager, transactions costs, custody fees, and the cost of detailed performance
+reports—are wrapped in one fee.
+• Brokerage commissions are negotiable. Full-line brokerage houses charge
+more than discount brokers but offer recommendations and research.
+Internet- only discount brokers typically charge the least.
+• Investors can invest without a broker through dividend reinvestment plans.
+Some companies sell shares directly to investors.
+• The stock exchanges are highly automated, allowing billions of shares to be
+traded.
+• Market orders are executed at the best price available, whereas limit orders
+specify a particular price to be met or bettered. Stop orders specify a certain
+price at which a market order is to take over.
+• Investor protection includes government regulation, primarily federal, and
+self-regulation by the industry. The Securities and Exchange Commission
+administers the securities laws.
+• The major exchanges have a stringent set of self-regulations. The Financial
+Industry Regulatory Authority (FINRA), created in 2007, is now the largest
+regulator for all securities firms doing business in the United States.
+Short-Interest Ratio The
+ratio of total shares sold
+short to average daily
+trading volume
+136 Chapter 5 How Securities Are Traded
+• Margin is the equity an investor has in a transaction. The Federal Reserve
+sets the initial margin, but all exchanges and brokers require a maintenance
+margin. Margin can magnify any gains on a transaction, but it can also magnify
+losses.
+• An investor sells short if a security’s price is expected to decline. The investor
+borrows the securities sold short from the broker, hoping to replace them
+through a later purchase at a lower price.

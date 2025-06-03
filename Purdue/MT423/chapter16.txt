@@ -1,0 +1,1024 @@
+421CH APTER 16
+You have probably heard people
+mention technical analysis, which
+is an approach that is widely used
+in investments. Technical analysis
+is very popular and strongly advo-
+cated by a significant group of inves-
+tors, who are frequently identified
+as technical analysts or chartists.
+While technical analysis is very pop-
+ular among some investors, other
+investors contend the approach
+lacks any merit. For example, the
+following quote is attributed to
+renowned investor Ralph Seger,
+“One way to end up with $1 million
+is to start with $2 million and use
+technical analysis.”
+Given these two strongly oppos-
+ing views regarding technical analy-
+sis, it is important that you learn the
+basics of the approach so that you
+can make an informed decision regarding its merits. Whether or not you decide
+to apply technical trading rules in managing your portfolio, it is important that
+you are knowledgeable about the approach. Understanding alternative investment
+approaches, along with their pros and cons, is crucial to becoming a successful
+investor.
+After learning the basics of technical analysis and the various technical trading
+rules, I think that you will discover that most investors rely on technical analysis to
+at least a limited extent, whether they will admit it or not. For example, one of the
+most widely reported and discussed pieces of information for a stock is its price
+range, generally reported as the stock’s 52-week high and low price. This bit of
+information is a very basic technical indicator that is universally surveyed, even by
+investors that are technical analysis cynics. Once you have learned about technical
+analysis, I think you will find that many technical tools and techniques have become
+integral parts of the investments’ practice and vocabulary. In addition, changes in
+the financial markets are helping to promote increased use of technical analysis
+among investors.
+Technical Analysis
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain how technical analysis dif-
+fers from fundamental analysis.
+• Critically evaluate the most
+prominent techniques used in
+technical analysis, as well as the
+claims supporting these tech-
+niques.
+• Decide what role technical analysis
+might play in your own investing
+program.
+• Describe the relation between
+technical analysis, behavioral
+finance, and the efficient market
+hypothesis (EMH).
+422 Chapter 16 Technical Analysis
+Introduction
+Traditionally, stocks have been selected using two major approaches:
+• Fundamental analysis
+• Technical analysis
+Technical analysis is quite different from the fundamental approach to security
+analysis discussed in the last three chapters. How different? Consider the following
+quotes from popular press articles on technical analysis:
+Engage a technical analyst in a conversation about his art, and you soon feel like you’re
+in the shadowy saloon from Star Wars, where freakish aliens lounge about speaking
+strange languages.1
+Spend some time with a technical analyst and you almost need a Technical-to-English
+translation guide. Conversations are full of references to support and resistance levels,
+Fibonacci retracements, double bottoms, and moving averages.2
+Although the technical approach to common stock selection is the oldest
+approach (dating back to the late 1800s), it remains controversial. The techniques
+discussed in this chapter appear at first glance to have considerable merit, because
+they seem intuitive and plausible, but many of them have been severely challenged
+in the last three decades by evidence supporting the efficient market hypothesis
+(EMH). The extensive evidence concerning market efficiency challenges the valid-
+ity of technical analysis and the likelihood of its success.
+Those learning about investments will be exposed to technical analysis because
+numerous investors, investment advisory firms, and the popular press discuss it and
+use it. Furthermore, it may produce some insights into the psychological dimen-
+sion of the market. In fact, technical analysis is interrelated with behavioral finance,
+which is becoming increasingly popular in investments. In effect, technical indica-
+tors are being used to measure investor emotions.
+Even if this approach is not effective, many investors act as if it is productive.
+Therefore, the prudent course of action is to study this topic and try to make an
+objective evaluation of its validity and usefulness. At the very least, an informed
+investor is in a better position to interpret analyst comments and judge their valid-
+ity. Technical analysis can be applied to any type of security, but the most popular
+applications are to common stocks. Therefore, we restrict our discussion in this
+chapter to the stock market.
+What Is Technical Analysis?
+Martin J. Pring, in his book Technical Analysis, states: “The technical approach to
+investing is essentially a reflection of the idea that prices move in trends which are
+determined by the changing attitudes of investors toward a variety of economic,
+monetary, political, and psychological forces. The art of technical analysis—for it
+is an art [emphasis added]—is to identify trend changes at an early stage and to
+1 See Michael Hirson, “Reading the Tea Leaves,” Individual Investor (January 2001): 96.
+2 See Karen Talley, “Some Technical Analysts Fall off the Charts,” The Wall Street Journal (February 20,
+2002): B5.
+What Is Technical Analysis? 423
+maintain an investment posture until the weight of the evidence indicates that the
+trend is reversed.”3
+• Technical analysis can be defined as the use of specific market-generated data
+for the analysis of aggregate and individual stock prices.
+Technical analysis is sometimes called market or internal analysis because it uti-
+lizes market data to attempt to assess the demand for, and supply of, shares of a
+stock, or the entire market. Thus, technical analysts believe that the market itself is
+its own best source of data—as they say, “let the market tell its own story.” The theory
+of technical analysis is that a security’s price movement captures the information
+about that security.
+Economics teaches us that prices are determined by the interaction of demand
+and supply. Technicians do not disagree but argue that it is extremely difficult to
+assess all the factors that influence demand and supply. Since not all investors are
+in agreement on price, the determining factor is the net demand for a stock based
+on how many investors are optimistic or pessimistic. Furthermore, once the bal-
+ance of investors becomes optimistic (pessimistic), this mood is likely to continue
+for the near term and can be detected by various technical indicators. As the chief
+market technician of one New York firm says, “All I care about is how people feel
+about those particular stocks as shown by their putting money in and taking their
+money out.” 4
+• Technical analysis is based on market data as opposed to fundamental data,
+such as earnings, sales, growth rates, and government regulations.
+Market data primarily include price and volume data for a stock or a market
+index. Many technical analysts believe that market data, as opposed to fundamental
+data, is more relevant for stock prices. They argue that accounting data are subject
+to all types of limitations and ambiguities, an argument that was strengthened by the
+Enron debacle and other accounting flaps over the years.
+Recall that in fundamental analysis, the discount models and the multiplier
+approach produce estimates of a stock’s intrinsic value, which is then compared to
+the market price. Fundamentalists believe that their data, properly evaluated, can
+be used to estimate the intrinsic value of a stock. Technicians, on the other hand,
+believe that it is extremely difficult to estimate intrinsic value and virtually impos-
+sible to obtain and analyze good information consistently. In particular, they are
+dubious about the value to be derived from an analysis of published financial state-
+ments. Instead, they focus on market data as an indication of the forces of supply
+and demand for a stock or the market.
+Technicians believe that the process by which prices adjust to new information is
+one of a gradual adjustment toward a new (equilibrium) price. As the stock adjusts
+from its old equilibrium level to its new level, the price tends to move in a trend.
+The central concern is not why the change is taking place but rather the fact that it
+is taking place. Technical analysts believe that stock prices show identifiable trends
+that can be exploited by investors. They seek to identify changes in a stock’s direc-
+tion and take a position to take advantage of the trend.
+The following points summarize technical analysis:
+1. Technical analysis is based on market (internal) data for the aggregate mar-
+ket, an industry average, or a stock. In contrast, fundamental analysis focuses
+424 Chapter 16 Technical Analysis
+on those factors that affect firm cash flows, which are external to market price
+and volume data.
+2. The focus of technical analysis is identifying changes in the direction of stock
+prices, which tend to move in trends as the stock price adjusts to a new equi-
+librium level. Changes in price trends can be detected by studying the action
+of price movements and trading volume across time.
+3. Technicians assess the overall situation concerning stocks by analyzing techni-
+cal indicators, such as breadth of market, market sentiment, and momentum.
+4. Technicians tend to emphasize “trading” stocks to take advantage of pre-
+dicted price movements; the trades often involve taking short-term positions.
+The idea is to time the appropriate trade. In contrast, fundamental analysts
+generally emphasize making an advantageous “investment” decision that is
+long term in nature.
+• The bottom line for technical analysis: Stock prices tend to move in trends.
+Such trends can be spotted by careful analysis and acted upon by buying and
+selling.
+A Framework for Technical Analysis
+Technical analysis can be applied to market and industry indexes as well as indi-
+vidual stocks. Technical analysis includes the use of graphs, charts, and technical
+indicators. Figure 16.1 depicts the technical analysis approach to investing.
+Price and volume are the primary tools of the technical analyst, and the chart
+is the most important mechanism for displaying this information. Technicians
+believe that the forces of supply and demand result in particular patterns of
+price behavior, the most important of which is the trend or overall direction
+in price. Using a chart, the technician hopes to identify trends and patterns in
+stock prices that provide trading signals.
+Volume data are used to gauge general market conditions. The evidence seems
+to suggest that rising (falling) stock prices are usually associated with rising (falling)
+volume. When stock prices rise but volume activity does not keep pace, technicians
+are skeptical about the upward trend. An upward surge on contracting volume is
+particularly suspect. A downside movement from some pattern or holding point,
+accompanied by heavy volume, is taken as a bearish sign.
+Investments Insight
+Technicians believe that prices move in trends
+that are determined by changes in investor
+attitudes toward various factors, including
+psychological factors. They believe that investor
+emotions influence stock prices. Therefore, it is rea-
+sonable to think there is a connection between
+technical analysis and behavioral finance. As
+one senior portfolio manager put it, “Prices do not
+move only in a random walk but show trends that
+can be exploited. Behavioral finance does not tell
+you what to do to exploit these trends, but it can
+explain why certain strategies or tools may work.
+424 Chapter 16 Technical Analysis
+on those factors that affect firm cash flows, which are external to market price
+and volume data.
+2. The focus of technical analysis is identifying changes in the direction of stock
+prices, which tend to move in trends as the stock price adjusts to a new equi-
+librium level. Changes in price trends can be detected by studying the action
+of price movements and trading volume across time.
+3. Technicians assess the overall situation concerning stocks by analyzing techni-
+cal indicators, such as breadth of market, market sentiment, and momentum.
+4. Technicians tend to emphasize “trading” stocks to take advantage of pre-
+dicted price movements; the trades often involve taking short-term positions.
+The idea is to time the appropriate trade. In contrast, fundamental analysts
+generally emphasize making an advantageous “investment” decision that is
+long term in nature.
+• The bottom line for technical analysis: Stock prices tend to move in trends.
+Such trends can be spotted by careful analysis and acted upon by buying and
+selling.
+A Framework for Technical Analysis
+Technical analysis can be applied to market and industry indexes as well as indi-
+vidual stocks. Technical analysis includes the use of graphs, charts, and technical
+indicators. Figure 16.1 depicts the technical analysis approach to investing.
+Price and volume are the primary tools of the technical analyst, and the chart
+is the most important mechanism for displaying this information. Technicians
+believe that the forces of supply and demand result in particular patterns of
+price behavior, the most important of which is the trend or overall direction
+in price. Using a chart, the technician hopes to identify trends and patterns in
+stock prices that provide trading signals.
+Volume data are used to gauge general market conditions. The evidence seems
+to suggest that rising (falling) stock prices are usually associated with rising (falling)
+volume. When stock prices rise but volume activity does not keep pace, technicians
+are skeptical about the upward trend. An upward surge on contracting volume is
+particularly suspect. A downside movement from some pattern or holding point,
+accompanied by heavy volume, is taken as a bearish sign.
+Investments Insight
+Technicians believe that prices move in trends
+that are determined by changes in investor
+attitudes toward various factors, including
+psychological factors. They believe that investor
+emotions influence stock prices. Therefore, it is rea-
+sonable to think there is a connection between
+technical analysis and behavioral finance. As
+one senior portfolio manager put it, “Prices do not
+move only in a random walk but show trends that
+can be exploited. Behavioral finance does not tell
+you what to do to exploit these trends, but it can
+explain why certain strategies or tools may work.”5
+5 Stephen Brown, “The Behavioral Connection,” CFA Magazine (March/April 2006): 45.
+Stock Price and Volume Techniques 425
+Technical analysis has evolved over time, so that today it involves more than sim-
+ply charting individual stocks or the market. In particular, technical indicators are
+used to assess market conditions (breadth) and investor sentiment. It also includes
+“contrary analysis,” which is an intellectual process more than a technique. The
+idea behind contrary analysis is to go against the crowd when the crowd starts
+thinking alike.
+Checking Your Understanding
+1. Some technical analysts claim they can conduct their analysis without know-
+ing the name of the stock being evaluated. Explain.
+2. How useful is a stock’s intrinsic value to a technical analyst?
+Stock Price and Volume Techniques
+The Dow Theory
+The oldest and best-known theory of technical analysis is the Dow theory, originally
+developed in the late l800s by the editor of The Wall Street Journal, Charles H. Dow,
+who many regard as the father of technical analysis. Although Dow developed the
+theory to describe past price movements, William Hamilton followed up by using
+it to predict movements in the market. (It is not concerned with individual securi-
+ties.) The Dow theory was very popular in the 1920s and 1930s, and articles offering
+support for it still appear periodically in the literature. Several investment advisory
+services are based on the Dow theory.
+Stock Price and Volume Techniques 427
+downturn or new bear market has begun, although it is subject to confirmation.
+What serves as a confirmation is up to each Dow theory user to determine.
+• The Dow theory is intended to forecast the start of a primary movement, but
+it does not tell us how long the movement will last.
+The Dow theory is subject to a number of criticisms, and investors continue to
+debate its merits. Studies of its success rate have been disappointing; for example,
+some indicate that investors would have been more successful following a buy-and-
+hold policy. Today’s economy is vastly different from the one that existed when
+the theory was developed. In addition, confirmations are slow to arrive, difficult to
+interpret, and ambiguous.
+• A problem with the Dow theory is that several versions are available. Its users
+interpret the theory in various ways; therefore, it may predict different (and
+conflicting) movements at the same time.
+Charts of Price Patterns
+To assess stock-price movements, technicians generally rely on charts or graphs of
+price movements and on relative strength analysis. The charting of price patterns
+is one of the classic technical analysis techniques. Technicians believe that stock
+prices move in trends, with price changes forming patterns that can be recognized
+and categorized. By visually assessing the forces of supply and demand, technicians
+hope to be able to predict the likely direction of future movements. The most basic
+measure of a stock’s direction is the trend line, which simply shows the direction
+the stock is moving. If demand is increasing more rapidly than supply and the stock
+shows successively higher low and high points, it is in an uptrend. Consistently lower
+highs and lows indicate that supply is increasing more rapidly and the stock is in a
+downtrend. Obviously, investors seek to buy in an uptrend and sell in a downtrend.
+Technicians seek to identify signals in a chart of stock prices and use certain ter-
+minology to describe the events. A support level is the price level (or more correctly
+price range) at which a technician expects a significant increase in the demand for
+a stock—in other words, a lower bound on price where it is expected that buyers
+will act, supporting the price and preventing additional price declines. A resistance
+level, on the other hand, is the price level (range) at which a technician expects a sig-
+nificant increase in the supply of a stock—in other words, an upper bound on price
+where sellers are expected to act, providing a resistance to any further price increase.
+Figure 16.3 illustrates support and resistance levels. As the stock approaches $10
+per share, it encounters a resistance level and drops back below this price. Con-
+versely, as it approaches slightly less than $6 per share, it gains support and eventu-
+ally rises. If the stock breaks through the resistance level on heavy volume, this is
+taken as a very bullish sign and is referred to as a breakthrough.
+Support levels tend to develop when profit taking causes a reversal in a stock’s
+price following an increase. Investors who did not purchase earlier are now willing
+to buy at this price, which becomes a support level. Resistance levels tend to develop
+after a stock declines from a higher level. Investors are waiting to sell the stocks at
+a certain recovery point. At certain price levels, therefore, a significant increase in
+supply occurs, and the price will encounter resistance if it moves beyond this level.
+As noted, a trend line is a line drawn on a chart to identify a trend. If a trend exhib-
+its support and resistance levels simultaneously that appear to be well defined, the
+trend lines are referred to as channel lines, and price is said to move between the upper
+channel line and the lower channel line. Momentum is used to indicate the speed with
+Trend Line A line on the
+chart of a security indicat-
+ing the general direction
+in which the security’s
+price is moving
+Support Level A price
+level at which a techni-
+cian expects a significant
+increase in the demand
+for a stock
+Resistance Level A price
+level at which a techni-
+cian expects a significant
+increase in the supply of
+a stock
+Stock Price and Volume Techniques 429
+in Figure 16.4 the strong uptrend occurring over a period of months. This trend
+ended with a rally on high volume (at point 1 in the figure) that forms part of the
+left shoulder of a famous chart pattern called a head-and-shoulders pattern.
+The left shoulder shows initially strong demand followed by a reaction on lower
+volume (2) and then a second rally, with strong volume, carrying prices still higher
+(3). Profit taking again causes prices to fall to the so-called neckline (4), thus com-
+pleting the left shoulder. (The neckline is formed by connecting previous low
+points.) A rally occurs, but this time on low volume, and again prices sink back
+to the neckline. This is the head (5). The last step is the formation of the right
+shoulder, which occurs with light volume (6). Growing weakness is identified as the
+price approaches the neckline. A downside breakout occurs (7), which technicians
+consider to be a sell signal.
+What about other patterns? Technicians have considered a very large number of
+such patterns. Example patterns include flags, pennants, gaps, triangles of various
+types, the inverted saucer or dome, the triple top, the compound fulcrum, the rising
+(and falling) wedge, the broadening bottom, the duplex horizontal, rectangles, and
+the inverted V. Figure 16.5 shows the set of price patterns proposed as most impor-
+tant for investors to recognize.
+Four phases
+Distribution
+Markup Markdown
+AccumulationAccumulation
+Price
+Time
+Trend line
+Price
+Time
+Triangle
+Price
+Time
+Flag
+Price
+Time
+Double top
+Price
+Time
+Wedge
+Price
+Time
+FIGURE 16.5 Important price patterns for investors using charts
+Source: Jonathan Butler, “Technical Analysis: A Primer,” Worth, October 1995, p. 133. Reprinted by Permission
+of Worth Magazine.
+430 Chapter 16 Technical Analysis
+Obviously, numerous patterns are possible and can usually be found on a chart
+of stock prices. It is also obvious that price patterns are much easier to identify in
+hindsight than when they are actually occurring.
+Point-and-figure charts Technicians also use point-and-figure charts. This type
+of chart shows only significant price changes, and volume is not shown at all. The
+user determines what constitutes a significant price change and price reversal ($1,
+$2, etc.). Although the horizontal axis still depicts time, specific calendar time is not
+particularly important—the passage of time is basically ignored. (Some chartists do
+show the month in which changes occur.)
+An X is typically used to show an upward movement, whereas an O is used for a
+downward movement. Each X or O represents $1 movements, $2 movements, $5
+movements, and so on, depending on how much movement is considered signifi-
+cant for that stock. An X or O is recorded only when the price moves by the speci-
+fied amount. Figure 16.6 illustrates a point-and-figure chart.
+A point-and-figure chart is designed to compress many price changes into a
+small space. By doing so, areas of “congestion” can be identified. A congestion
+area is a compacted area of price fluctuations (i.e., a closely compacted horizon-
+tal band of Xs and Os). The technician studies a congestion area in search of
+a “breakout,” which indicates an expected upward or downward movement in
+stock price.
+Candlestick charts Developed in Japan, the candlestick chart is very sim-
+ilar to the bar chart; however, it adds several pieces of information that are
+considered noteworthy by some technical analysts. By transforming a bar into
+a candle with a wick at each end, a candlestick chart is able to add trading
+information.
+The extreme end of each candle wick represents the respective high and low
+price for the stock, whereas the top and bottom of the candle wax identify the open-
+ing and closing price. Finally, if the candle is filled in (solid black), it indicates that
+the stock closed down for the day, that is, the opening price was above the closing
+price. Of course, a clear candle indicates an up day for the stock.
+Point- and- Figure Chart A
+plot of stock prices show-
+ing only significant price
+changes
+40
+35
+30
+Price
+25
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X X
+X
+X
+X X
+X
+X
+X
+X
+0
+0
+X
+X
+X
+6
+0
+0
+0
+2
+0
+0X
+1
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+0
+3
+0
+0
+0
+0 X
+X
+X
+X
+X
+X
+X
+XX
+X
+X X
+X
+X
+X
+X
+0
+0
+7
+X
+X
+X
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 0
+8
+0
+00
+5
+X
+X
+X
+0
+0
+0
+0
+0
+0 0
+0
+0
+4
+0 0
+0
+0
+0
+20
+Time
+FIGURE 16.6 A point-and-figure chart for Gigantic Computers. X = $1 upward price change, O = $1
+downward price change (numbers indicate months)
+Checking Your Understanding 431
+Some evidence on price charts There are many chart patterns, and tech-
+nicians analyze and interpret these patterns. It is impossible to demonstrate
+conclusively the lack of predictive significance in all of the variations used
+in charting.
+Levy studied the predictive significance of “five-point” chart patterns.6 A five-
+point chart pattern is one with two highs and three lows, or two lows and three highs.
+As Levy noted, “The avid chartist will recognize, among the 32 patterns, several
+variations of channels, wedges, diamonds, symmetrical triangles, head and shoul-
+ders, reverse head and shoulders, triple tops, and triple bottoms. Each of these
+formations allegedly reflects underlying supply/demand and support/resistance
+conditions that have implications as to future price behavior. A common belief
+among chartists is that the appearance of certain patterns followed by a ‘breakout’
+gives a profitable buy or sell signal.”
+Levy’s results indicate that although some patterns did produce better results
+than others, none performed very differently from the market. When brokerage
+commissions were deducted, none of the 32 patterns was found to have any “profit-
+able forecasting ability.” The really surprising conclusion of his study, however, was
+that “the best performing patterns would probably be characterized as bearish by
+most technicians, and conversely, the worst performing patterns would, in two of
+the three cases, be characterized as bullish.”
+Opinions about charting vary widely. Since the evidence is not conclusive—at
+least to everyone’s satisfaction—the controversy continues.
+Checking Your Understanding
+3. Suppose someone tells you that they use the Dow theory regularly and that
+it provides them with valuable information. They urge you to do the same.
+What objections might you raise against doing this?
+4. What are the implications of the EMH for technical analysts practicing the
+charting of stock prices?
+Concepts in Action
+Using Technical Analysis When Making
+Investing Decisions
+The average investor can easily access charts
+and graphs of individual stocks and the market.
+While numerous services provide this type of
+information at a cost, the average investor can
+probably find what he or she wants at no cost.
+Start with Yahoo! Finance. Entering the stock
+symbol for a company, a page comes up with a
+small chart showing one day’s price activity. The
+chart can be viewed as a bar chart, a line chart,
+or a candlestick chart. By clicking on “Technical
+Analysis,” an investor can construct various
+moving averages around the stock’s price
+432 Chapter 16 Technical Analysis
+Moving Averages
+A moving average of prices is a popular technique for analyzing both the overall
+market and individual stocks.
+Several days of closing prices are chosen to calculate a moving average. A new
+value for the moving average is then calculated by dropping the earliest observa-
+tion and adding the latest one. This process is repeated daily (or weekly). The
+resulting moving average line supposedly represents the basic trend of stock
+prices. Moving averages smooth data, tending to eliminate or soften outliers in
+price data.
+Three major decisions have to be made in constructing a moving average; fur-
+thermore, each of the three involves several alternatives:
+1. The time period over which the average is calculated. This decision has the great-
+est impact on the moving average. A well-known average for identifying major
+trends is the 200-day moving average, and a 10-week average is popular for
+identifying intermediate trends. Shorter trends can be captured by 10-, 20-,
+50-, and 100-day averages. The 200-day moving average is less volatile than
+shorter-term moving averages.
+2. The price used. Although closing prices are often used, sometimes the open,
+high, low, and close prices are used in different configurations.
+3. The type of moving average used. A simple moving average is often used, but
+alternatives include a weighted average and an exponential average. The lat-
+ter two place greater weight on recent price activity, while the simple moving
+average places equal weight on each day’s price activity.
+A comparison of the current market price to the moving average produces a buy
+or sell signal. A buy signal is generated when price rises through the moving average
+on high volume, with the opposite applying to a sell signal. Specific signals of a sell
+signal are the following:
+1. Actual price is below the moving average, advances toward it, does not pen-
+etrate the average, and starts to turn down again.
+2. Following a rise, the moving average flattens out or declines, and the price
+penetrates it from the top.
+3. The stock price rises above the moving average line while the line is still
+falling.
+Buy signals are generated if these situations are turned upside down.
+Figure 16.7 shows Coca-Cola plotted daily with both a 200-day moving average
+and a 50-day moving average. Volume is shown at the bottom of the chart. Various
+movements. Furthermore, various indicators and
+overlays can be added. The average investor
+can probably accomplish what they want at this
+one site.
+Another well-known source of charts for stocks
+can be found at www.bigcharts.com. One can
+construct various charts and also quickly link to
+analysts information, insider statistics, news about
+the company, and so forth.
+Effective charts can be quickly assembled at
+www.stockcharts.com. This site has some inter-
+esting tools, among them its “Carpets” diagrams.
+The bottom line for investors when it comes to
+looking at, or using, charts is that such data can
+be accessed on numerous sites. Most investors
+who wish to use this type of analysis would be
+well advised to select one or two such sites and
+become familiar with what they offer
+Checking Your Understanding 433
+publications and websites offer plots of moving averages for both individual stocks
+and market indexes.
+Investors should remember that moving averages show what prices have already
+done, not what they will do. Regardless of how it is constructed, the moving average
+always reflects what has already happened.
+A variation of the moving average popular on some websites is the moving average
+convergence divergence, or MACD. This involves a longer moving average (such as
+the 200-day) and a shorter moving average (such as the 50-day). As stock price rises,
+a bullish signal is generated if the short-term average consistently is greater than the
+long-term average. A warning signal is generated when the short-term average falls
+below the long-term average.
+Relative Strength
+A well-known technique used for individual stocks (or industries) is relative strength
+analysis. The relative strength for a stock is the ratio of the stock’s price relative to
+a market index, or an industry index, or the average historical price of the stock.
+Relative strength can also be calculated as the ratio of an industry average relative
+to the market. These ratios can be plotted to form a graph of relative prices across
+time. In effect, the graph shows the strength of the stock relative to its industry, the
+market, or whatever. According to a chief market analyst at Merrill Lynch, “Very
+often changes in trend, from good to bad or from bad to good, will be preceded by
+a change in the stock’s relative performance.”7
+A stock’s relative strength may be of use in forecasting.8 Because trends are
+assumed to continue for some time, a rising ratio (an upward-sloping line) indicates
+Relative Strength The
+ratio of a stock’s price to
+some market or industry
+index, usually plotted as a
+graph
+KO
+50-day MA
+200-day MA
+Volume
+May 11 Jul 11 Sep 11 Nov 11 Jan 12
+Mar 02, 2012
+Mar 12
+72
+70
+68
+66
+64
+62
+60
+58
+30.0
+20.0
+10.0
+Millions
+0.0
+FIGURE 16.7 A full screen shot from Yahoo! Finance showing a chart of Coca-Cola with two moving
+averages, a 50-day average and a 200-day average (the smoother line)
+Source: Reproduced with the Permission of Yahoo! Inc. Copyright © 2012 by Yahoo! Inc.
+434 Chapter 16 Technical Analysis
+relative strength. That is, it indicates that the stock is outperforming the market and
+that may continue. In contrast, a declining ratio has negative implications for the
+stock. One rule of thumb is that a stock is attractive when the relative strength has
+improved for at least four months, but as with most technical indicators, technicians
+interpret these signals in different ways.
+Figure 16.8 shows relative performance for Coca-Cola by plotting the ratio of
+closing monthly prices for Coke to closing monthly prices for the S&P 500. During
+this period, Coca-Cola’s stock price generally increased as did the S&P 500 value.
+However, relative to Coke, the market performed better from beginning to end
+and, therefore, Coca-Cola’s relative strength declined over the period.
+Relative strength is often used by technicians to identify industries or sectors that
+look attractive, prior to selecting individual stocks. This is in line with our analysis in
+Part 4 which supports a top-down approach to security analysis, with industry analy-
+sis preceding company analysis. By focusing on the selection of promising indus-
+tries, investors narrow the number of possibilities to be considered.
+One problem with relative strength is that a stock could show increasing rela-
+tive strength because it is declining less quickly than the market, not because it
+is increasing. This suggests that relative strength is not a technique to be used in
+isolation.
+Numerous investment services provide information on relative strength. For
+example, The Value Line Investment Survey divides a stock’s price by the Value Line
+Composite Average and plots this relative strength ratio for each company it cov-
+ers. Relative strength analysis lends itself well to computerized stock analysis. This
+probably accounts for its popularity among institutional investors who own highly
+automated and sophisticated data analysis systems.
+Using the Computer for Technical Analysis
+Obviously, widespread computer use makes technical analysis much more accessible
+than previously. The basic choice for those interested in technical analysis remains
+either obtaining software or using an online service. Software-based programs are
+more comprehensive, both with regard to charting and to technical indicators.
+Software-based programs allow the user to select a trading system based on multi-
+ple technical indicators and backtest the system to determine what the profitability
+would have been. Few online services offer any type of trading system, and none
+allow significant historical backtesting.
+0
+0.005
+0.01
+0.015
+0.02
+0.025
+Relative Strength, Coca-Cola
+Oct-16
+Dec-16
+Feb-17
+Apr-17
+Jun-17
+Aug-17
+Oct-17
+Dec-17
+Feb-18
+Apr-18
+Jun-18
+Aug-18
+Oct-18
+FIGURE 16.8 Coca-Cola relative strength performance, 2016–2018
+Technical Indicators 435
+Using technical analysis systems requires both a program and a data vendor,
+and costs can add up quickly. Data can be provided at the end of the day, intraday
+delayed, or real time. Most users find web-based services sufficient.
+Technical Indicators
+The chart remains the technician’s most important tool for making buy and sell
+decisions. However, in addition to looking at the plot of stock prices, technicians
+also like to examine the overall situation by analyzing such factors as breadth and
+market sentiment indicators.
+Breadth Indicators
+The advance–decline line (breadth of the market) The advance–decline line
+measures, on a cumulative daily basis, the difference between the number of stocks
+advancing in price and those declining for a group of stocks such as those on the
+New York Stock Exchange (NYSE). Subtracting the number of declines from the
+number of advances produces the net advance for a given day.
+The advance–decline line, often referred to as the breadth of the market,
+results from plotting a running total of these numbers across time. The line can
+be based on daily or weekly stock prices. The advance–decline line is compared
+to a stock average, such as the DJIA, in order to analyze any divergence between
+the two. Technicians believe that divergence can signal that the trend is about to
+change.
+The advance–decline line and the market averages normally move together.
+If both are rising (declining), the overall market is said to be technically strong
+(weak). If the advance–decline line is rising while the market average is declining,
+the decline in the market average should reverse itself. Particular attention is paid
+to a divergence between the two during a bull market. If the market rises while
+the line weakens or declines, this indicates a weakening in the market; the market
+would, therefore, be expected to start declining.
+New highs and lows Part of the information reported for the NYSE and other
+stocks is the 52-week high and low prices for each stock. Technicians regard the
+market as bullish when a significant number of stocks hit 52-week highs. On the
+other hand, technicians see rising market indexes and few stocks hitting new highs
+as a troublesome sign.
+Volume Volume is an accepted part of technical analysis. High trading volume,
+other things being equal, is generally regarded as a bullish sign. Heavy volume com-
+bined with rising prices is even more bullish.
+Sentiment Indicators
+Short-interest ratio The short interest for a security is the number of shares that
+have been sold short and not yet bought back. The short-interest ratio can be
+defined relative to shares outstanding or average daily volume, as in:
+Short-interest ratio Total shares sold short/Average daily trading volume (16-1)
+Advance–Decline
+Line Relates the number
+of stocks rising to the
+number declining
+Short Interest The total
+number of shares in the
+market sold short and not
+yet repurchased
+436 Chapter 16 Technical Analysis
+The NYSE, AMEX, and Nasdaq report the short interest monthly for each stock.
+For investors interested in finding information about short interest, it is readily
+available at websites such as finance.yahoo.com.9
+The short-interest ratio indicates the number of days necessary to “work off” the
+current short interest. For example, a ratio of 1.0 means that the outstanding short
+interest approximates a day’s trading volume.
+Investors sell short when they expect prices to decline; therefore, the higher the
+short interest, the more investors are expecting a decline. A large short-interest
+position for an individual stock should indicate strong negative sentiment against
+a stock.
+Many technical analysts interpret this ratio in the opposite manner, as a contrar-
+ian indicator, that is, a high short-interest ratio is taken as a bullish sign because the
+large number of shares sold short must be repurchased in order to close out the
+short sales. The larger the short-interest ratio, the larger the potential demand that
+is indicated. Therefore, an increase in the ratio indicates more “pent-up” demand
+for the shares.
+The short-interest ratio for a given month should be interpreted in relation to
+historical boundaries, which historically were in the range of 1.0–2.0 for the NYSE.
+The problem is that the boundaries keep changing. In the 1960s, 1970s, and 1980s,
+a ratio of 2.0 was bullish. Since the 1980s, the ratio has been in the 3.0–6.0 range
+regardless of the market.
+Short-interest figures can be distorted by hedging and arbitrage techniques that
+have become more popular. For example, convertible arbitrage is a market-neutral
+strategy that involves the simultaneous purchase of convertible bonds and the short
+sale of the same firm’s common stock. Hedged short sellers are not likely to panic if
+the stock price moves adversely (i.e., up), which otherwise might lead them to buy
+and push the price up further.
+Mutual fund liquidity Several indicators are based on the theory of contrary invest-
+ing. The idea is to trade contrary to most investors, who supposedly almost always
+miss turning points in price trends. This is an old idea on Wall Street, and over time,
+technicians have developed several measures designed to capitalize on this concept.
+As mentioned previously, short interest is often used as a contrarian indicator.
+Mutual fund liquidity is often used as a contrary opinion technique. Under this
+scenario, mutual funds are viewed in a manner similar to odd-lotters; that is, they
+are presumed to act incorrectly before a market turning point.10 Therefore, when
+mutual fund liquidity is low because the funds are fully invested, contrarians believe
+that the market is at, or near, a peak. Conversely, when funds hold large liquid
+reserves, it suggests that they are bearish. Contrarians consider this a good time to
+buy because the market may be near its low point.
+The opinions of investment advisory newsletters Investors Intelligence, an invest-
+ment advisory service, samples weekly the opinions of about 150 investment advi-
+sory services and calculates an index of investment service opinions. It has found
+that, on average, these services are most bearish at the market bottom and least
+438 Chapter 16 Technical Analysis
+4. Out-of-sample validity. Has the rule been tried on data other than that used to
+produce the rule? It is always possible to find a rule that works on a particular
+sample if enough rules are tried—that is, it is possible to torture the data until
+it confesses.
+A well-known test of technical trading rules is the filter rule test. A filter rule spec-
+ifies a breakpoint for an individual stock or a market average, and trades are made
+when the stock-price change is greater than this filter. For example, buy a stock if
+the price moves up 10 percent from some established base, hold it until it declines
+10 percent from its new high, and then sell it and possibly go short.
+Several studies of filters have been conducted. Fama and Blume tested 24 filters
+(ranging from 0.50 percent to 50 percent) on the 30 Dow Jones stocks.12 Before
+commissions, several of the filters were profitable, in particular the smallest (0.5 per-
+cent). After commissions, however, average returns were typically negative or very
+small. Brokerage commissions more than offset any gains that could be exploited.
+Many different variations of the relative strength technique can be tested by
+varying the method used to calculate the average price and the stocks used in the
+comparison. If we conduct enough tests, we can find a rule that produces favorable
+results on a particular sample; however, before concluding that a trading rule is suc-
+cessful, we must conduct a fair test. Risks must be comparable, and appropriate costs
+must be deducted. Finally, the rule should be tried on a different sample of stocks.
+The challenge of the efficient market hypothesis The EMH poses a major
+challenge to the usefulness of technical analysis. Virtually, all statistical tests of the
+EMH strongly support weak-form efficiency, thereby providing evidence against
+technical analysis, which holds that stock-price changes across time are dependent
+and that prices move in trends. Many tests of technical trading rules suggest that
+such rules do not generate superior risk-adjusted returns after all relevant costs are
+deducted. This evidence is why many informed observers doubt whether technical
+analysis can really work on a consistent basis. Nevertheless, proponents of techni-
+cal analysis claim that it can and does work, and certainly there is some supporting
+evidence, which we now examine.
+Evidence supporting technical analysis Many studies suggest that technical
+analysis does not work, which is why most academics (and textbooks) speak unfa-
+vorably about technical analysis. Nevertheless, some evidence exists that supports
+technical analysis. The following articles appear in The Journal of Finance, one of the
+top academic journals in the field.
+Jegadeesh found predictable patterns in stock prices based on monthly returns
+over a 50+ year period. 13 He showed that stocks with large losses in one month are
+likely to show a significant reversal in the following month and that stocks with large
+gains in one month are likely to show a significant loss the next month. Subsequent
+research by Jegadeesh and Titman14 attributed the short-term reversal to micro-
+structure issues, particularly bid/ask bounce, which suggests that in practice capital-
+izing on the return pattern would be very difficult for investors.
+Filter Rule A rule for
+buying and selling stocks
+according to the stock’s
+price movements
+12 Eugene Fama and Marshall Blume, “Filter Rules and Stock-Market Trading,” The Journal of Business: A
+Supplement, 39 (January 1969): 2–21.
+13 Narasimhan Jegadeesh, “Evidence of Predictable Behavior of Security Returns,” The Journal of Finance
+(July 1990): 881–898.
+14 Narasimhan Jegadeesh and Sheridan Titman, “Short-Horizon Return Reversal and the Bid-Ask Spread,”
+Journal of Financial Intermediation, 4 (1995): 116–132.
+Some Conclusions about Technical Analysis 439
+Baron et al. support the usefulness of two basic technical indicators, moving aver-
+ages and support and resistance. 15 The authors’ results suggest it pays to be in the
+market when the DJIA is above its 200-day moving average and to be more cautious
+when it is below that average. The authors conclude that the results are “consistent
+with technical rules having predictive power.”
+Chordia and Swaminathan found that trading volume is a significant determi-
+nant of leads and lags observed in stock prices. 16 Returns on low-volume portfolios
+respond more slowly to information in market returns than do returns on high-
+volume portfolios.
+Lo, Mamaysky, and Wang at MIT developed a systematic and automatic approach
+to technical pattern recognition in order to bypass the subjective nature of technical
+analysis.17 Testing a large number of stocks, they found that several technical indica-
+tors provide incremental information and may have practical value.
+The Ebb and Flow of Technical Analysis
+There is a general ebb and flow in the popularity of alternative investment strate-
+gies, with some strategies gaining followers, whereas other strategies are abandoned
+by investors. In general, the same is true of technical analysis. The vast majority
+of investment firms employ many more fundamental analysts than technical ana-
+lysts; however, technical analysis has gained some credibility and popularity in the
+past two decades. One reason for the growing popularity of technical analysis is the
+advent of high-speed computing, which has made it easier to implement, less costly
+to execute, and more accessible to investors. A second reason for its growth is the
+increased interest and support for behavioral finance, which offers validation for
+many of the technical trading rules.
+Historically, many investors considered technical analysis to be a mutually exclu-
+sive alternative to fundamental analysis. However, investors are increasingly recog-
+nizing that fundamental analysis and technical analysis should not be viewed as
+independent approaches. As one analyst puts it, “I choose stocks or sectors that
+have strong fundamentals and then use technical analysis to help me decide when
+to trade.”
+Some Conclusions about Technical
+Analysis
+Technical analysis often appeals to those beginning a study of investments because
+it seems reasonable that stock prices form repeatable patterns or that certain indica-
+tors should be related to future stock price movements. Most people who look at a
+chart of stock prices will immediately see what they believe to be patterns and clear
+evidence of trends that should have been obvious to anyone.
+15 William Baron, Josef Lakonishok, and Blake LeBaron, “Simple Technical Trading Rules and the Sto-
+chastic Properties of Stock Returns,” The Journal of Finance, 47 (December 1992): 1731–1764.
+16 Taran Chordia and Bhaskaran Swaminathan, “Trading Volume and Cross-Autocorrelation in Stock
+Returns,” The Journal of Finance, 55 (April 2000): 913–935.
+17 Andrew Lo, Harry Mamaysky, and Jiang Wang, “Foundations of Technical Analysis: Computational
+Algorithms, Statistical Inference, and Empirical Implementation,” The Journal of Finance, 55 (August
+2000): 1705–1770.
+440 Chapter 16 Technical Analysis
+Consider a quote from John Allen Paulos, a mathematician who wrote A Math-
+ematician Plays the Stock Market18
+:
+“People tend not to believe that markets move in random ways. Randomness is difficult
+to recognize. If you have people write down 100 Hs and Ts to simulate 100 flips of a
+coin, you will always be able to tell a sequence generated by a human from one gener-
+ated by real coin flips. When humans make up the sequence, they don’t put in enough
+consecutive Hs and consecutive Ts, and they don’t make the lengths of these runs long
+enough or frequent enough. And that is one of the reasons people look at patterns in
+the stock market and ascribe significance to them.”
+How should we view this situation? Academicians (and numerous practitioners)
+are highly skeptical of technical analysis, to say the least. Most academic discussions
+at the college level dismiss, or seriously disparage, technical analysis. A primary rea-
+son is that thorough tests of technical analysis techniques typically fail to confirm
+their value.
+• Efficient market theories argue against the possibility of profiting from using
+technical analysis.
+In addition to these reasons, other troubling features of technical analysis remain.
+First, several interpretations of each technical tool and chart pattern are not only
+possible but typical. One or more of the interpreters will be correct, but it is virtually
+impossible to know beforehand who they will be. After the fact, we will know which
+indicator or chart, or whose interpretation, was correct, but only those investors who
+used that particular information will benefit. Tools such as the Dow theory are well
+known for their multiple interpretations by various observers who disagree over how
+the theory is to be interpreted. These types of problems come under various labels
+such as data snooping and ex post selection of trading rules and search methods.
+Furthermore, consider a technical trading rule that is, in fact, successful. Assume
+it correctly predicts movements in the market or some particular stock. Such a rule
+or pattern, if observed by several market participants, will be self-destructive as more
+and more investors use it. Price will reach its equilibrium value quickly, taking away
+profit opportunities from all but the quickest. Some observers will start trading
+before the rest on the basis of what they expect to happen. (For example, they may
+act before a complete head and shoulders forms.) Price will then reach an equilib-
+rium even more quickly, so that only those who act earliest will benefit. Eventually,
+the value of any such rule will be negated entirely.
+Strong evidence exists that stock-price changes are weak form efficient. If this is
+the case, any patterns formed are accidental but not surprising.
+Investments Intuition
+No inherent reason exists for stock-price move-
+ments to repeat themselves. For example, flipping
+a fair coin 100 times should, on average, result
+in about 50 heads and 50 tails. There is some
+probability that the first 10 tosses could produce
+10 heads. However, the chance of such a pattern
+repeating itself is very small.
+Summary 441
+Yet, it is impossible to test all the techniques of technical analysis and their varia-
+tions and interpretations. In fact, technical analysis has not been tested thoroughly.
+The techniques are simply too numerous, and technical analysis is broader than the
+use of only simple trading rules. Therefore, absolutely definitive statements about
+the merits of technical analysis cannot be made. A good example of the omissions
+in this area is the use of volume in technical strategies. Although volume is a recog-
+nized part of technical analysis, relatively few tests have evaluated its use in conjunc-
+tion with the rest of technical analysis.
+Also, as noted previously, some evidence tends to support the basis of technical
+analysis. Furthermore, today’s behavioral models open up the possibility of profit-
+able trading strategies using technical analysis because of noise in the markets or
+irrational behavior on the part of investors.
+What can we conclude about technical analysis? On the basis of all available evi-
+dence, it is difficult to justify technical analysis. EMH studies imply that technical
+analysis does not work on a consistent, after-transactions-cost basis. Regardless of
+the evidence, however, technical analysis remains popular with many investors.
+Perhaps a recent quote from the popular press summarizes it best:
+Whether it works or not, technical analysis is no quick road to riches. Even die-
+hard technical analysts say that the method works best when accompanied by funda-
+mental research—for example, to time entry and exit points for a stock.19
+Summary
+• Technical analysis is the oldest and most controversial approach used by inves-
+tors to make trade decisions.
+• Technical analysis relies on market data, primarily price and volume data, to pre-
+dict the direction of individual stocks or the market as a whole. The emphasis is
+on internal factors that help to detect demand–supply conditions in the market.
+• The rationale for technical analysis is that net demand for stocks can be
+detected by various technical indicators and that trends in stock prices occur
+and continue for considerable periods of time. Stock prices require time to
+adjust to the change in supply and demand.
+• Technical analysis involves the use of charts of price patterns to detect trends
+that are believed to persist.
+• Aggregate market analysis originated with the Dow theory, the best-known
+technical theory. It is designed to detect the start of major movements.
+• The most frequently used types of charts are: line, bar, candlestick, and point-
+and- figure.
+• Numerous chart “patterns” are recognizable to a technician. However, all pat-
+terns are subject to multiple interpretations because different technicians will
+read the same chart differently.
+• A very well-known tool of technical analysis is the moving average, which is
+used to detect both the direction and the rate of change in prices.
+• Another well-known technique for individual stocks is relative strength, which
+shows the strength of a particular stock in relation to its average price, its
+industry, or the market.
+• Technical indicators of the aggregate market include the following:
+1. The advance–decline line (breadth of market), which reflects the condi-
+tion of the overall market.
+19 See Hirson, op. cit., p. 98.
+442 Chapter 16 Technical Analysis
+2. Mutual fund liquidity, which uses the potential buying power (liquidity) of
+mutual funds as a bullish or bearish indicator.
+3. Short-interest ratio, which assesses potential demand from investors who
+have sold short.
+4. Contrary opinion, which is designed to go against the crowd, includes the
+put/call ratio and the opinions of investment advisory services. The short
+sale ratio and mutual fund liquidity can also be interpreted as contrarian
+indicators.

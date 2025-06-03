@@ -1,0 +1,1180 @@
+443CH APTER 17
+Most financial advisors recommend
+that investors allocate a significant
+portion of their investment port-
+folio to bonds. Bonds are viewed
+as attractive components of a well-
+diversified portfolio due to their
+relatively predictable cash flow
+stream and their ability to preserve
+capital. You may be sold on the idea
+of including bonds in your portfo-
+lio; however, before purchasing any
+security, it is important to under-
+stand the advantages and disad-
+vantages of the security. You know
+that risk and return are the funda-
+mental characteristics that investors
+are concerned about, but how do
+the features of bonds impact these
+characteristics? Specifically, how do
+bond features such as the coupon rate, time to maturity, and callability affect the
+return and risk of a bond? If you want to be a successful investor, it is imperative that
+you answer these questions before diving into a bond investment.
+This chapter provides an analysis of bond yields and prices. Bond market partici-
+pants use various yield measures unique to bonds when quoting potential returns to
+investors. However, these measures can mislead unwary investors who fail to under-
+stand the basis on which they are constructed. It is important to understand how
+bonds are valued, how bond features impact bond prices and returns, and how
+bond prices change over time. This chapter covers the mechanics of bond calcula-
+tions, an important part of an investor’s toolkit.
+Introduction
+In order to establish a balanced portfolio, you have decided to invest a portion
+of your $1 million in fixed-income securities—specifically bonds. How should the
+following variables influence your decision as to the fixed-income securities to
+hold: maturity, type of bond, credit worthiness, inflation, yield, and future inter-
+est rates?
+Bond Yields and Prices
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Calculate and interpret various
+bond yield measures, most impor-
+tantly, the yield to maturity.
+• Calculate the price of a bond.
+• Determine how bond prices
+change as the interest rate
+changes.
+• Explain how the most prominent
+bond features affect the risk and
+return of a bond.
+• Describe the term structure of
+interest rates and the yield curve.
+Bond Yields and Interest Rates
+For our purposes, bond yields and interest rates are interchangeable concepts.
+Therefore, we begin our discussion with a consideration of interest rates.
+Interest rates measure the rental rate paid by a borrower to a lender for the use
+of funds over some time period—that is, interest rates are the rental rate for loan-
+able funds. The rental rate differs from case to case, based on demand and supply
+for the funds. The spread between the lowest and highest rates at any point in time
+could be as much as 10–15 percentage points. In bond parlance, this is equiva-
+lent to 1,000–1,500 basis points, since 1 percentage point in yield equates to 100
+basis points. During the financial crisis of 2008, the spread between speculative
+bonds and Treasury bonds widened dramatically, exceeding 20 percentage points.
+• 100 basis points = 1 percentage point
+It is convenient to focus on the one interest rate that provides the foundation for
+other rates. This rate is referred to as the risk-free rate (designated RF in this text)
+and is typically proxied by the rate on Treasury securities. All other rates differ from
+RF because of risk factors.
+The Basic Components of Interest Rates
+Fully understanding interest rates is a complex task that involves learning about
+numerous advanced economic relationships. Such a task is not feasible in this text.1
+However, we can analyze the basic determinants of nominal (observed) interest
+rates with an eye toward recognizing the factors that affect such rates and cause
+them to fluctuate. The bond investor who understands the foundations of market
+rates is better positioned to interpret and evaluate bond market information.
+The basic foundation of interest rates is the opportunity cost of foregoing con-
+sumption, representing the rate that must be offered to persuade individuals to save
+rather than consume. This rate is sometimes called the real risk-free rate because it
+is not affected by price changes or risk factors. We refer to it simply as the real rate
+and designate it rr in this discussion.
+• Nominal (observed) interest rates on Treasury securities consist of the real
+rate plus an adjustment for expected inflation.
+A lender who lends $100 for a year at 10 percent will be repaid $110. But if
+inflation is 4 percent a year, the $110 that the lender receives is worth, in terms of
+purchasing power, only (1/1.04)($110), or $105.60. Lenders therefore expect to be
+compensated for the expected inflation rate in order to leave their real purchasing
+power unchanged. This inflation adjustment can be combined with the real risk-
+free rate. Unlike rr, which is often assumed by market participants to be reasonably
+stable with time, adjustments for expected inflation vary widely over time.
+Basis Points 100 basis
+points is equal to 1 per-
+centage point
+Real Risk-Free Rate The
+opportunity cost of forego-
+ing consumption, given
+no inflation
+Assume the 10-year Treasury bond yield to maturity
+(YTM) is 4.54 percent, compared to 4.39 percent a week
+earlier. The yield has increased 15 basis points in a week, or 0.15 percent.
+EXAMPLE 17.1
+1 Most texts on financial markets contain a good, concise discussion of interest rates.
+Bond Yields and Interest Rates 445
+Thus, the nominal interest rate is a function of the real rate and the expected infla-
+tion premium. This is expressed as Equation 17-12
+:
+1 1 1
+1 1 1
+RF rr ei
+RF rr ei
+( ) ( )
+( ) ( ) (17-1)
+where
+RF
+rr
+Return on Treasury securities
+the real risk-free rate
+eei the expected rate of inflation over the term of the insstrument
+Equation 17-1 (the Fisher equation) indicates that the nominal rate rises with
+increases in expected inflation and the real risk-free rate.3 Turning Equation 17-1
+around, estimates of the real rate can be easily derived. Most market participants
+typically estimate the real rate to be in the 1–2 percent range.
+One source of expected inflation data is the Survey of Consumers by the Univer-
+sity of Michigan. Participants are asked to predict how much prices will change over
+a horizon of 1 year and 5–10 years. The median expected price change for the next
+12 months can be seen in graphical form at the St. Louis Fed website.4 The Fed web-
+site also presents a graph of the five-year inflation forecast, which is derived using the
+Fisher equation along with 5-year Treasury Inflation Protected Security (TIPS) yields.
+Building on Equation 17-1, we can formulate a statement for all interest rates,
+R, as
+R RF rp (17-2)
+In this formulation, rp incorporates all risk premiums resulting from bond fea-
+tures such as time to maturity, credit quality, liquidity, callability, and sinking fund
+provisions. In the discussion that follows, we separate the time element from the
+issuer characteristics.
+Investments Intuition
+When Interest Rates are Constrained
+We think of most interest rates as being freely
+determined in the marketplace. However, we
+know that in the years following the 2008 finan-
+cial crisis, market conditions were “abnormal”
+with record unemployment, sluggish growth, an
+economic crisis that almost crippled the country,
+and a European sovereign debt crisis. Under
+such conditions, we should expect the Federal
+Reserve to take drastic actions to try to bolster
+the economy, resulting in unusual interest rates.
+Starting in December 2008, the Fed’s target for
+short-term interest rates was anchored between
+0.0 percent and 0.25 percent, and this condition
+continued on into 2015. This action led to
+“strange” interest rates. For example, in early
+2015, the yield on short-term Treasury bills was
+essentially zero.
+446 Chapter 17 Bond Yields and Prices
+The Term Structure of Interest Rates
+The term structure of interest rates refers to the relationship between time to matu-
+rity and yield to maturity (YTM). Ideally, other factors are held constant, particularly
+the risk of default. The easiest way to do this is to examine U.S. Treasury securities,
+which have no practical risk of default.
+Yield curves The term structure is usually plotted in the form of a yield curve.
+The horizontal axis represents time to maturity, whereas the vertical axis represents
+YTM. An example yield curve, based on U.S. Treasury bond yields as of March 2015,
+is plotted in Figure 17.1. 5 The average yield curve is generally upward sloping but is
+not as steep as the curve depicted in Figure 17.1.
+• The yield curve is a graphical depiction of the relationship between YTM and
+time to maturity for bonds of the same issuer, such as the U.S. Treasury.
+Most observations about yield curves involve general statements regarding inves-
+tor expectations about future interest rates.
+Term Structure of Interest
+Rates The relationship
+between time to maturity
+and bond yields
+Yield Curve A graphical
+depiction of the relation-
+ship between bond YTM
+and time to maturity
+0.5
+1
+1.5
+2
+2.5
+3
+1 mo 3 mo 6 mo 1 yr 2 yr 3 yr 5 yr 7 yr 10 yr 15 yr 20 yr 25 yr 30 yr
+YTM (%)
+Bond time to maturity
+FIGURE 17.1 Yield curve as of March 2015 (based on treasury bond yields)
+Source: Data for the graph was obtained from the Federal Reserve Bank of St. Louis Link: http://research.stlouisfed.
+org/fred2.
+Some Practical Advice
+Pay Attention to the Yield Curve
+Under normal conditions, long-term Trea-
+sury rates are about 1–2 percentage points
+above Treasury bill rates. This spread frequently
+widens as the economy comes out of a reces-
+sion, resulting in a steeper upward-sloping
+yield curve. Yield curves often become flat
+or humped as economic activity slows and
+interest rates drop. When the yield curve
+becomes inverted (sloping downward), many
+analysts argue that a recession is inevitable in
+the near future.
+Bond Yields and Interest Rates 447
+Term structure theories A theory of the term structure of interest rates is needed
+to explain the shape and slope of the yield curve and why it shifts over time. The-
+ories traditionally advanced are the expectations theory, the liquidity preference
+theory, the preferred habitat theory, and the market segmentation theory.
+The “pure or unbiased” expectations theory of the term structure asserts the
+return from holding an n-period security equals the average return expected from
+holding a series of short-term securities over the same n periods. In other words,
+the long-term interest rate is equal to an average of the present yield and expected
+future yields on short-term securities that are expected to prevail over the long-term
+period. Therefore, for a period of given length, the total return is expected to be
+the same whether an investor follows a strategy of investing in a series of short-term
+securities or invests in a long-term security.
+In effect, the term structure consists of a set of forward rates and a current known
+rate. Forward rates are rates that are expected to prevail in the future; that is, they
+are unobservable but anticipated future rates.
+• Under the expectations theory, long rates are an average of the present and
+future short-term rates.
+For example, the rate on a three-year bond is an average of the current
+one-year rate and the expected forward rates for the next two years. The same
+principle holds for any number of periods; therefore, the market rate for any
+maturity can be expressed as an average of the current rate and the applicable
+forward rates. Technically, the average involved is a geometric rather than an
+arithmetic average.
+For example, the rate for a three-year bond equals a geometric average of the
+current one-year rate t R1 and the expected forward rates for the subsequent two
+years.
+Therefore, in equation form
+1 1 1 13 1 1 1 2 1
+1 3
+t t t tR R r r /
+(17-3)
+where
+t
+t
+R
+R
+3
+1
+the current known rate on a three-year bond
+the currrent known rate on a one-year bond
+the expected ratet r1 1 on a bond with one year to maturity beginning one year frrom now
+the expected rate on a bond with one year tot r2 1 maturity beginning two years from now
+The same principle applies for any number of periods. Any long-term rate is a
+geometric average of consecutive one-period rates.
+Expectations Theory
+States that the long-term
+interest rate is equal to
+an average of short-term
+rates that are expected to
+prevail over the long-term
+period
+Forward Rates Unobserv-
+able rates expected to
+prevail in the future
+Assume that the current one-year bond rate t R1 is 7
+percent and the two forward rates are 7.5 percent t r1 1
+and 8.2 percent t r2 1 . The rate for a three-year bond tR3
+, would be
+t R3
+1 3
+1 07 1 075 1 082 1 0
+1 0757 1 0
+0 0757 7
+. . . .
+. .
+.
+/
+or .. %57
+EXAMPLE 17.2
+448 Chapter 17 Bond Yields and Prices
+Forward rates cannot be easily measured, but they can be inferred for any one-
+year future period. The expectations theory, however, does not say that these future
+expected rates will be correct; it simply says that there is a relationship between rates
+today and rates expected in the future.
+Under this hypothesis, an investors’ expected return over any holding period
+is independent of their choice of investment strategy. Any combination of secu-
+rity maturities that satisfy a particular holding period will have the same expected
+return.
+The assumption underlying the expectations theory is that expected future
+rates are equal to computed forward rates. Profit-seeking individuals will exploit
+any differences between forward rates and expected rates, ensuring that the rates
+equilibrate.
+The liquidity preference theory states that interest rates reflect current and
+expected short rates, as in the expectations theory, but the theory adds a liquidity
+risk premium. Because uncertainty increases with time, investors generally prefer
+to lend for the short run. Borrowers, however, generally prefer to borrow for the
+long run in order to be assured of funds. Investors receive a liquidity premium to
+induce them to lend long-term, while paying a price (in the form of lower yields)
+for investing short-term. The implication of this theory is that longer-term bonds
+should offer higher yields.
+The difference between the liquidity preference theory and the expectations
+theory is the recognition that interest rate expectations are uncertain. Risk-averse
+investors seek to be compensated for this uncertainty. Forward rates and estimated
+future rates are not the same; they differ by the amount of the liquidity premium.
+The preferred habitat theory contends that market participants have maturity seg-
+ments where they prefer to operate. In order to induce a lender/borrower to move
+out of their preferred maturity sector, the lender/borrower needs to be offered an
+incentive, in the form of a more attractive interest rate. The market segmentation
+theory is a more extreme version of the preferred habitat theory and contends that
+market participants will not leave their desired maturity segment. For example, life
+insurance companies are generally assumed to prefer long-term investments due to
+the long-term nature of their liabilities. In contrast, nonfinancial firms with tempo-
+rary fund excesses generally prefer to invest the extra funds in short-term securities.
+According to the preferred habitat and market segmentation theories, the inter-
+est rate in a particular maturity segment is determined by supply and demand
+conditions within that segment. For example, if there is excess demand relative to
+supply in the long-term maturity segment, interest rates will be driven up in this
+segment. Further, if the short- and intermediate-term maturity segments have more
+balance between demand and supply, the interest rates in these maturity segments
+will be moderated relative to the long-term segment. Thus, under these conditions,
+the yield curve will be upward sloping due to the upward pressure on rates on the
+far end of the curve.
+Forward rates have the most relevance within the expectations theory and
+the least relevance in the preferred habitat/market segmentation theory. In the
+Liquidity Preference
+Theory States that long-
+term interest rates reflect
+current and expected
+short rates, as in the
+expectations theory, but
+they also include a liquid-
+ity risk premium
+According to the expectations theory, a five-year bond will
+have the same expected return as a two-year bond held to
+maturity plus a three-year bond bought at the beginning of the third year.
+Bond Yields and Interest Rates 449
+expectations theory, forward rates equal expected future spot rates, and thus, long-
+term rates represent averages of expected short-term rates. In the preferred habitat
+and market segmentation theory, the relation between long-term and short-term
+rates is not defined.
+There is empirical evidence that supports each of the yield curve theories, so it is
+imperative that you understand the basics of each. It is likely that each theory plays
+a role in describing the relationship between time to maturity and yield; however,
+the prominence of that role may change over time.
+Risk Premiums (Yield Spreads)
+Risk premiums, or yield spreads, refer to differences in security yields that are attributed to
+the securities’ characteristics. They are a result of the following factors:
+1. Differences in quality, or risk of default. Clearly, a bond rated Baa will offer a
+higher yield than a comparable bond rated Aaa because of its greater default
+risk.
+2. Differences in time to maturity. The longer the time period involved, the
+greater the uncertainty.
+3. Differences in call features. A bond that is callable will have a higher YTM
+than an otherwise identical noncallable bond. If the bond is called, bond-
+holders must give it up, and they can replace it only with a bond carrying a
+lower YTM. Therefore, investors expect to be compensated for this risk.
+4. Differences in coupon rates. Bonds with low coupons pay a larger part of their
+YTM in the form of capital gains.
+5. Differences in marketability. Some bonds are more marketable than others,
+meaning that their liquidity is better. They can be sold more quickly or with
+less of a price concession, or both. The less marketable a bond, the higher
+the YTM.
+6. Differences in tax treatments.
+7. Differences between countries.
+• Yield spreads are a function of the features attached to a particular bond issue
+or issuer.
+Other factors affecting yield spreads Investors expect to be compensated for
+risk, and this compensation is reflected in the risk premium. However, the actions of
+borrowers also affect the yield spread. Heavy Treasury financing, for example, may
+cause the yield spreads between governments and corporates to narrow as the large
+increase in the supply of Treasury securities pushes up the yields on Treasuries.
+Yield Spreads Differences
+in yields due to differ-
+ences in bond features
+such as quality, callability,
+and taxes
+Investments Intuition
+The term spread is often defined as the
+difference between the YTM on a 10-year T-bond
+and the YTM on a T-bill. The spread can be
+interpreted as a risk premium. In this case, the
+risk premium is compensation for committing
+wealth to long-term investments in the face of
+unanticipated inflation shocks. The term spread
+is positive when the yield curve is upward
+sloping and negative when the yield curve
+is inverted
+The level of interest rates also plays a role in explaining yield spreads. As a gen-
+eral proposition, risk premiums tend to be high when the level of interest rates is
+high.
+Yield spreads over time The size of the yield spread changes over time based on
+changes in perceived risk. Whenever the differences in yield become smaller, the
+yield spread is said to “narrow”; as the differences increase, it “widens.”
+The credit spread, also called the default premium, is one of the most popular
+yield spreads. The credit spread reflects the difference in yields between a lower-
+quality bond and a higher-quality bond of comparable maturity. For example, the
+credit spread is often derived as the YTM of a long-term Baa-rated bond index minus
+the YTM of a long-term T-bond index.
+The credit spread commonly widens during periods of economic uncertainty,
+when investors become more risk-averse, and it narrows during times of economic
+prosperity. Since the probability of default is greater during a recession, investors
+demand more of a premium. The credit spread widened substantially in 2008 dur-
+ing the financial crisis. In contrast, the spread narrowed gradually as the economy
+recovered in subsequent years. The spread in 2018 was especially low because even
+financially weak companies have a good chance of surviving and paying their debt
+obligations when economic growth is strong.
+Figure 17.2 shows the spread between 10-year Treasuries and Baa corporate
+bonds, a measure of the credit spread. In 2006 and 2007, the spread was relatively
+narrow averaging less than 2 percent, which reflected investor confidence in the
+economy. However, as a result of the recession and financial crises, the spread wid-
+ened substantially, reaching 6 percent by the end of 2008. The spread narrowed
+considerably during 2009; however, notice that in the post-crisis period, the spread
+remained above its pre-crisis level, reflecting lingering doubts about economic con-
+ditions. The spread did not return to its normal level until late in 2017, nearly 10
+years after the financial crisis began.
+• The credit spread generally varies inversely with business activity.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+YTM (%) Baa corp bond
+Yield Spread—Baa Corp Bond and 10-Year T-bond
+10-year Treasury
+FIGURE 17.2 Yield spread between Baa corporate bond and 10-year T-bond (credit spread), 2006–2018
+Source: Data for the graph was obtained from the Federal Reserve Bank of St. Louis Link: http://research.stlouisfed.
+org/fred2.
+Measuring Bond Yields 451
+Measuring Bond Yields
+Several measures of the yield on a bond are used by investors. It is very important for
+investors to understand which yield measure is being discussed and the measure’s
+underlying assumptions. We consider five different measures of a bond’s return, as
+shown in Figure 17.3.
+To illustrate current yield and YTM, we use an Aaa-rated corporate bond with the
+following features:
+Current price = $1,052.10
+Maturity = three years
+Coupon = 10 percent, or $100 per year, with semiannual interest payments of $50
+occurring every six months
+Note that this is a premium bond because its price is greater than its par value of
+$1,000. For a discount bond, the price is less than par value.
+• Interest payments on bonds (i.e., the coupons) are typically paid semiannu-
+ally—this is the actual payment mechanism that has existed for many years.
+Unless otherwise noted, assume that coupons are paid semiannually.
+In practice, bond market participants frequently reference bond prices in per-
+cent of par value. For example, a discount bond quoted at 89.52 is selling at $895.20,
+whereas a premium bond quoted at 104.35 is selling at $1,043.50.
+Current Yield
+The ratio of the annual coupon to the current price is the current yield, which as
+a measure of return is superior to simply citing a bond’s coupon rate because it
+uses the current price as opposed to the bond’s face value (almost always, $1,000).
+However, current yield is not a true measure of a bond’s return because it does
+not account for the difference between the bond’s purchase price and its eventual
+redemption at par value.
+Premium Bond A bond
+whose price is above the
+$1,000 face value
+Discount Bond A bond
+whose price is below the
+face value of $1,000
+Current Yield A bond’s
+annual coupon divided by
+its current price
+Current yield
+Yield to
+maturity
+Yield to first
+call
+Realized
+compound
+yield
+Horizon yield
+FIGURE 17.3 Some measures of a bond’s yield or return
+452 Chapter 17 Bond Yields and Prices
+Yield to Maturity
+Assume you are interested in buying some bonds for your portfolio. After a diligent
+search, your advisor finds a 15-year, high-quality bond with a YTM of 6.25 percent.
+Your advisor recommends the bond stating, “it guarantees you a return of 6.25 per-
+cent if it is held to maturity.” Is your advisor’s statement accurate?
+• The bond return most often quoted is the yield to maturity (YTM), a promised
+rate of return that occurs only under specific assumptions.
+YTM is the return an investor will receive from a bond purchased at the current
+market price if
+1. The bond is held to maturity.
+2. The coupons received are reinvested at the calculated YTM.
+In practice, YTM is the average annual return on the bond over its life. 6 However,
+an investor will actually earn this promised rate if and only if the two stated condi-
+tions are met. As we shall see, the likelihood of the second condition actually being
+met is extremely small. Thus, in our example, your chances of earning exactly 6.25
+percent over the bond’s 15-year life are almost zero.
+The YTM is derived from Equation 17-4 where the market price, the coupon,
+the number of years to maturity, and the face value of the bond are known. The
+discount rate or YTM is the variable to be determined. Note in the following discussion
+that lowercase letters ytm, c, and n are used to denote semiannual variables, whereas capital
+letters YTM, C, and N are used to denote annual variables.
+• Bond calculations in the United States usually involve semiannual periods,
+because bond interest is typically paid twice a year:
+P c
+t
+n
+t
+t n
+1 1 1ytm ytm
+FV (17-4)
+where
+P
+n
+the current market price of the bond
+the number of semiaannual periods to maturity
+ytm the semiannual yield to matuurity to be solved for
+the semiannual coupon in dollars
+F
+c
+VV the face value maturity value or par value which in t( ), hhis discussion is $1 000,
+Since both the left-hand side of Equation 17-4 and the numerator values (cash
+flows) on the right-hand side are known, the equation can be solved for ytm. Because
+of the semiannual nature of interest payments, the annual coupon on the bond, C,
+is divided in half (to obtain c) and the number of periods, N, is doubled (to obtain
+ The discount rate (ytm), equates the inflows from the bond (coupons plus matu-
+rity value) with its current price (cost).
+$ $
+ytm
+$
+ytm
+$ $ p
+1 052 10 50
+1
+1 000
+1
+1 052 10 50
+1
+6
+6
+, . ( )
+,
+( )
+, . (
+t
+t
+rresent value of an annuity for six periods
+$ p
+, % )
+, (
+4
+1 000 rresent value factor for six periods
+$ $
+, % )
+, . ( .
+4
+1 052 10 50 5 2422 1 000 0 790
+1 052 10 1 052 10
+4
+2 4
+) , ( . )
+, . , .
+%
+%
+$
+$ $
+semiannual ytm
+88% ( )annual YTM bond equivalent yield
+In Example 17.5, the solution is 4 percent on a semiannual basis, which we
+call ytm and which by convention is doubled to obtain the annual YTM of 8 per-
+cent. A YTM calculated by annualizing in this manner is referred to as the bond
+equivalent yield.
+An investor who purchases a bond and holds it to maturity will earn the promised
+YTM if and only if the cash flows are reinvested at the calculated YTM. Thus, the
+rate(s) at which the cash flows are reinvested over the life of the bond will affect the
+actual outcome of every coupon-paying bond investment.
+YTM for a zero-coupon bond Recall from Chapter 2 that a zero-coupon
+bond has no cash flows (coupons); instead, it is bought at a discount and held to
+Bond Equivalent
+Yield Yield on an annual
+basis, derived by doubling
+the semiannual yield
+Consider a 10 percent coupon bond with three years to
+maturity. The annual coupon is $100, which is paid $50
+every six months, and the total number of semiannual periods is six. Assume
+the bond sells at a premium with a price of $1,052.10. Due to the inverse
+relation between bond prices and market yields, it is clear that yields have
+declined since the bond was originally issued, because the price is greater than
+$1,000. Using Equation 17-4, we can illustrate conceptually what is happening
+when we solve for ytm, although to actually solve for ytm we would use a
+calculator or computer.
+EXAMPLE 17.5
+Using a financial calculator,
+N I/YR PV PMT FV
+6 ? −1,052.10 50 1,000
+Note that the price of the bond is entered as a negative using the +/− key. The
+values entered for N and PMT are semiannual values. The face or par value is
+almost always $1,000. Computing I/YR, we find the semiannual yield (ytm),
+to be 4 percent. We double this to obtain the bond equivalent yield (YTM) of
+maturity. The YTM calculation for a zero-coupon bond is based on the same process
+expressed in Equation 17-4—equating the current price to the future cash flows
+to find ytm and then doubling this result to obtain the annual YTM. Because there
+are no coupons, the only cash flow is the face value of the bond to be received at
+maturity. We assume a $1,000 face value for all bonds discussed. The ytm calcula-
+tion for a zero-coupon bond reduces to Equation 17-5, with all terms as previously
+defined:
+ytm FV/P n1
+1
+/
+(17-5)
+Multiply by 2 to obtain YTM, the bond equivalent yield.
+Yield to First Call
+Many corporate bonds, as well as some government bonds, are callable by the
+issuer, typically after some deferred call period. For bonds likely to be called,
+the yield-to-maturity calculation is unrealistic. A better calculation is the yield
+to first call. The end of the deferred call period, when a bond can first be
+called, is often used for the yield-to-first-call calculation. This is particularly
+appropriate for bonds selling at a premium (i.e., high-coupon bonds with prices
+above par value). 7
+• Premium bonds are vulnerable to call. Investors in premium bonds pay care-
+ful attention to a bond’s yield to first call, particularly if they expect a further
+drop in interest rates.
+To calculate yield to first call, the ytm formula (Equation 17-4) is used, but with
+the number of periods until the first call date substituted for the number of periods
+until maturity and the call price substituted for face value. Issuers often pay a call
+premium to call a bond, and therefore, the call price generally differs from the
+maturity value of $1,000. These changes are shown in Equation 17-6:
+P c
+t
+t
+t
+1 1 1
+fc
+yc
+CP
+yc fc (17-6)
+Yield to First Call The
+promised return from the
+present to the date that
+the bond is likely to be
+called
+A zero-coupon bond has 12 years to maturity and is selling
+for $300. Given the 24 semiannual periods, the power
+used in raising the ratio of $1,000/$300, or 3.3333, is 0.04167 (calculated as
+1/24). Using a calculator produces a value of 1.05145. Subtracting the 1.0 and
+multiplying by 100 leaves a ytm, of 5.145 percent. The YTM is 10.29 percent.
+Using a financial calculator,
+N I/YR PV PMT FV
+24 ? −300 0 1,000
+Computing I/YR, we find the ytm, to be 5.145 percent, and YTM is 10.29 percent
+where
+fc the number of semiannual periods until the first call daate
+yc the yield to first call on a semiannual basis
+CP the call price to be paid by the issuer if the bond is calledd
+Bonds are priced on the basis of the lowest yield measure. Therefore, for pre-
+mium bonds selling above a certain level, yield to first call replaces YTM, because it
+produces the lowest measure of yield.
+Realized Compound Yield
+After the investment period for a bond is over, an investor can calculate the
+realized compound yield (RCY). This rate measures the yield the bond invest-
+ment earned over the investment period, taking into account all intermediate
+cash flows and reinvestment rates. It cannot be determined until the investment
+is concluded and all cash flows are known. Thus, if you invest $1,000 in a bond
+for five years, reinvesting the coupons as they are received, you will have X dol-
+lars at the conclusion of the five years, consisting of the coupons received, the
+amount earned from reinvesting the coupons, and the $1,000 par value of the
+bond payable at maturity. You can then calculate your actual realized return on
+the investment.
+• The RCY is calculated by dividing the total dollar return at the bond’s
+maturity by the amount invested and raising the result to the 1/n power,
+where n is the number of (semiannual) compounding periods. Next, sub-
+tract 1.0 from the result. Finally, multiply by 2 to obtain the bond equiva-
+lent rate.
+The realized compound yield is calculated using the following formula:
+RCY total dollar return
+purchase price of bond
+1
+1 0
+/
+.
+n
+(17-7)
+Total dollar return for a coupon bond held to maturity is the sum of the matu-
+rity value ($1,000), the coupons, and the interest earned by reinvesting the
+coupons.
+Realized Compound Yield
+(RCY) Yield earned based
+on actual reinvestment
+rates during the life of the
+bond
+Assume a 15-year, 6 percent bond is callable in 5 years at a
+price of $1,050. The bond currently sells for $1,075. The
+semiannual yield to call is calculated as
+N I/YR PV PMT FV
+10 ? −1,075 30 1,050
+I/YR, the semiannual yield to call, is 2.584 percent. The bond equivalent yield (yield to
+call) is 5.17 percent. The YTM on this bond is 5.27 percent.
+456 Chapter 17 Bond Yields and Prices
+The above example illustrates the assumptions underlying the YTM. The YTM
+assumes that all coupons are reinvested at a rate equal to the bond’s YTM. If all
+coupons are reinvested at the calculated YTM, the realized compound yield will
+equal the investor's promised return at the time of purchase, the YTM. This is the
+case for the bond in Example 17.8. The promised YTM was 10 percent annually
+(bond equivalent basis), and the realized compound yield was 10 percent annually
+(bond equivalent basis).
+If the coupons are reinvested at different rates, however, the RCY will not equal
+the YTM. Assume in Example 17.8 that conditions changed immediately after the
+investor purchased the bond so that the coupons were reinvested at 9 percent.
+In this case, the value of the coupons and the interest earned on the coupons is
+$335.84.
+N I/YR PV PMT FV
+6 4.5 0 50 ?
+The total dollar return is $1,335.84. While the YTM was 10 percent when the
+investor purchased the bond, the RCY is now 9.89 percent.
+• For the typical bond investment, the YTM will seldom equal the RCY.
+This is true because subsequent reinvestment rates will seldom equal the calcu-
+lated YTM on the bond. Instead, they will vary over time, being higher than the
+calculated YTM at times and lower than the YTM at other times.
+Remember,
+• YTM is a promised rate and is dependent on the coupons being reinvested at
+the YTM.
+• RCY is the return realized at the conclusion of the investment and reflects
+what was earned based on the reinvestment rates available.
+Assume an investor purchased a $1,000, 10 percent
+coupon bond with a three-year maturity at face value.
+The promised YTM for this bond was 10 percent.
+Assume the investor reinvested each coupon at a ytm of 5 percent. At the
+end of three years, the investor has a total ending wealth of $1,340.10 which
+includes the initial investment of $1,000 (in other words, the investor earned
+$340.10 of total interest).
+This $340.10 is a combination of the coupons and the interest earned on
+the coupons. Using the calculator,
+N I/YR PV PMT FV
+6 5 0 50 ?
+Solving for FV produces $340.10 which added to the maturity value of the
+bond gives us a total dollar return of $1,340.10.
+The realized compound yield is 5 percent on a semiannual basis or 10
+percent on a bond equivalent basis, calculated as
+$ /$ semiannually or on a bo1 340 10 1 000 1 0 5 10
+1 6
+, . , . % , %
+/
+nnd equivalent basis.
+Checking Your Understanding 457
+Checking Your Understanding
+1. Agree or disagree with the following statement, and explain your reasoning.
+“Investors are routinely quoted the YTM on a bond, but the chance of them actu-
+ally earning this quoted yield at the termination of the investment is almost zero.”
+2. Explain why, for a bond selling at a discount, the coupon rate is less than the
+current yield, which is less than the YTM.
+Reinvestment risk As noted, the YTM calculation assumes that the investor rein-
+vests all coupons at the YTM. Interest on interest is the income earned on the rein-
+vestment of the semiannual coupon (interest) payments.
+If an investor reinvests the coupons at a rate that differs from the assumed rein-
+vestment rate, the realized compound yield will differ from the YTM. And, in fact,
+coupons almost always are reinvested at rates higher or lower than the computed
+YTM, which gives rise to an important bond risk.
+• Reinvestment rate risk is the risk that future reinvestment rates will be less
+than the YTM at the time the bond is purchased.
+A bond’s total dollar return consists of three components: (1) the coupons paid
+on the bond, (2) interest income from the reinvestment of coupons, and (3) the
+maturity value of the bond, which is assumed to be $1,000.
+The interest-on-interest concept significantly affects the potential total dollar
+return. The exact impact is a function of coupon and time to maturity, with rein-
+vestment becoming more important as either coupon or time to maturity, or both,
+increase. Specifically, holding everything else constant,
+1. The longer a bond’s maturity, the greater the reinvestment risk
+2. The higher the coupon rate, the greater the dependence of a bond’s total
+dollar return on the reinvestment of the coupon payments
+Table 17.1 illustrates the impact of interest on interest for a 20-year, 10-percent
+bond purchased at par value. Assuming all coupons are reinvested at 5 percent on
+a semiannual basis, which is the bond’s ytm, the total dollar return on the bond is
+$7,040 ($6,040 attributable to coupons and $1,000 return of principal). More pre-
+cisely, there are three separate components as follows:
+$1,000 received at maturity
++$2,000 in coupons received over the life of the bond
++$4,040 interest on interest (reinvesting coupons at 5 percent semiannually)
+Interest on Interest The
+process by which bond
+coupons are reinvested to
+earn interest
+Reinvestment Rate
+Risk That part of inter-
+est rate risk resulting
+from uncertainty about
+the rate at which future
+interest payments can be
+reinvested
+Investments Intuition
+Consider what happens when investors purchase
+bonds at high YTMs, such as the record levels
+reached in the summer of 1982. Some utilities
+issued bonds with an 18 percent coupon. Inves-
+tors expecting to earn 18 percent were ultimately
+disappointed when they failed to achieve a real-
+ized compound yield equal to the YTM. For the
+YTM to become a realized yield, coupons have to
+be reinvested at the record rates existing at the
+purchase date, an unlikely situation for a high-
+YTM bond with a long maturity. The subsequent
+decline in interest rates during the fall of 1982
+illustrates the fallacy of believing that one has
+“locked up” record yields during a brief period of
+very high interest rates. Investors in this situation
+are sometimes said to be subject to yield illusion
+Bond Yields and Prices
+Table 17.1 illustrates the importance of the reinvestment rate in determining
+realized yields. If the reinvestment rate equals the YTM of 10 percent, the investor
+earns a 10 percent RCY when the bond is held to maturity, with $4,040 of the total
+dollar return attributable to interest on interest.
+Notice in this case that interest on interest is the largest single component of the
+total dollar return. If coupons are reinvested at rates above YTM, the RCY rises, and
+an even larger percentage of the total dollar return comes from interest on interest.
+Clearly, the reinvestment portion of a bond’s total dollar return is critical in deter-
+mining the actual return earned.
+• For long-term bonds, the interest-on-interest component is typically the most
+important component of total dollar return.
+One advantage of a zero-coupon bond is the elimination of reinvestment
+rate risk because there are no coupons to be reinvested. At the time of purchase,
+To calculate the RCY with a 12 percent reinvestment rate,
+add the total return from coupons shown in Table 17.1,
+$7,738, to the maturity value of the bond, $1,000, to obtain the total dollar
+return of $8,738. Then divide by the purchase price and raise to the appropriate
+power (take the 40th root). Therefore,
+RCY $ /
+or on a
+[ , , ] .
+. .
+. , . %
+/
+8 738 1 000 1 0
+1 0557 1 0
+0 0557 5 57
+1 40
+semiannual basis
+The annual RCY is 5.57 percent × 2 = 11.14 percent.
+Almost 75 percent of the total return comes from interest on interest
+($5,738/$7,738).
+EXAMPLE 17.9
+Realized Compound Yields (RCYs) Using Different Reinvestment Rate Assumptions
+for a 10-Percent, 20-Year Bond Purchased at Face Value
+(1) Coupon
+Incomea ($)
+(2) Assumed
+Reinvestment
+Rate (%)
+(3) Total
+Return from
+Couponsb ($)
+(4) Amount
+Attributable to
+Reinvestmentc ($)
+(5) Realized
+Compound
+Yieldd (%)
+2,000 0 2,000 0 5.57
+2,000 5 3,370 1,370 7.51
+2,000 8 4,751 2,751 8.94
+2,000 9 5,352 3,352 9.46
+2,000 10 6,040 4,040 10.00
+2,000 11 6,830 4,830 10.56
+2,000 12 7,738 5,738 11.14
+a Coupon income = total coupons received over 20 years (40 semiannual periods) = $50 coupon semiannually × 40 periods.
+b Total return from coupons = all coupons received plus all income earned from reinvesting the coupons over the bond’s life. Using a calculator: N = 40; I/YR =
+1/2 of assumed reinvestment rate; PV = 0; PMT = 50; solve for FV.
+Example: at an 8-percent reinvestment rate, N = 40; I/YR = 4; PV = 0; PMT = 50; FV = $4,751.
+c Amount attributable to reinvestment of coupons = total return from coupons minus coupon income ($2,000). This is also known as the interest on interest.
+d Realized compound yield = [total dollar return/cost of the bond]1/n−1, where total dollar return = total return from coupons + the maturity value of $1,00
+Bond Prices 459
+investors know the RCY that will be earned when the bond is held to maturity—it is
+simply the YTM because there are no coupons to reinvest.
+• A zero-coupon bond can be used to eliminate reinvestment rate risk.
+Horizon return As we have seen, each of the yield measures has problems. Cur-
+rent yield is clearly an incomplete measure of a bond’s return. Both YTM and yield
+to first call have potential problems because of the reinvestment rate assumptions
+made. What can a bond investor do in these circumstances?
+Bond investors often make specific assumptions about future reinvestment rates
+in order to cope with the reinvestment rate problem. This is sometimes referred to
+as horizon analysis. Given their assumptions about the reinvestment rate, investors
+can calculate the horizon (total) return over a specified period.
+The investor makes an assumption about the reinvestment rate expected to pre-
+vail over the planned investment horizon. The investor may also make an assumption
+about the YTM expected to prevail at the end of the planned investment horizon,
+which in turn is used to estimate the bond’s price at that time. Based on these
+assumptions, the future dollars expected to be available at the end of the planned
+investment horizon can be determined. The horizon return is then calculated as
+the interest rate that equates the total future dollars to the bond’s purchase price.
+Checking Your Understanding
+3. Assume an investor holds a bond that is guaranteed not to default. Can the
+YTM on this bond be described as the actual return the investor will receive,
+rather than a promised return?
+Bond Prices
+The Valuation Principle
+A security’s estimated value determines the price that investors place on the security
+in the open market. Recall from Chapter 10 that a security’s intrinsic value, or esti-
+mated value, is the present value of the security’s expected cash flows. Any security
+purchased is expected to provide one or more cash flows sometime in the future.
+These cash flows could be periodic, such as interest or dividends, or simply a termi-
+nal price or redemption value, or a combination of these. Since the cash flows occur
+in the future, they must be discounted at an appropriate rate to determine their pre-
+sent value. The sum of the discounted cash flows is the estimated intrinsic value of
+the asset. Equation 17-8 expresses this concept, which is a repeat of Equation 10.1:
+Value cash flows
+0
+1 1t
+n
+t
+r( ) (17-8)
+where
+Value the estimated value of the security now time perio0 ( dd
+Cash flows the future cash flows resulting from owner
+0)
+sship of the asset
+the appropriate discount rate or requir rred return for an investment of this type
+number of perin oods over which the cash flows are expected
+Horizon (Total) Return
+Bond return based on
+assumptions about rein-
+vestment rates
+460 Chapter 17 Bond Yields and Prices
+Bond Valuation
+The price of a bond should equal the present value of its expected cash flows. 8
+The coupons and the principal repayment of $1,000 are known, and the value
+can be determined by discounting these future payments at an appropriate
+required yield, r. Equation 17-9 is used to solve for the price of an option-free
+coupon bond:
+P c
+r rt
+n
+t
+t n
+1 1 1
+FV (17-9)
+where
+P
+c
+the value or price of the bond today time period
+th
+( )0
+ee semiannual coupons or interest payments
+FV the face valuee or par value of the bond
+the number of semiannual pe
+( )
+n rriods until the bond matures
+the appropriate semiannualr ddiscount rate or market yield
+To conform with the semiannual payment practice on bonds, the discount
+rate (r), the coupon (c t), and the number of periods (n) are expressed on a
+semiannual basis. Equation 17-9 is the equation that underlies standard bond
+practices.
+The value process for a typical coupon-bearing bond requires three inputs: the
+dollar coupon, the face value, and the applicable market yield.
+Consider bond A with a three-year maturity, a 10 percent
+coupon rate, and a required semiannual yield of 5
+percent. The price of bond A, based on Equation 17-9, is
+P A t
+t
+( ) ( . )
+,
+( . ) . . ,
+1
+6
+6
+50
+1 0 05
+1 000
+1 0 05 253 78 746 21 1
+$ $ $ $ $ 0000
+The bond’s price should be $1,000 since its coupon rate equals its required
+yield.
+Now consider bond B, with risk identical to bond A, issued five years ago
+when its required yield was 7 percent. Assume that the bond’s required yield
+is now 10 percent, or 5 percent on a semiannual basis, and that the bond has
+three years left to maturity. Investors certainly will not pay $1,000 for bond
+B and receive $35 semiannually when they can pay $1,000 for bond A and
+receive $50 semiannually. However, they will pay a price determined by the
+use of Equation 17-9.
+P B t
+t
+( ) ( . )
+,
+( . ) . .
+1
+6
+6
+35
+1 0 05
+1 000
+1 0 05 177 64 746 22 92
+$ $ $ $ $ 33 86
+Bond Price Changes 461
+• The appropriate discount rate is the bond’s required yield.
+The required yield (r), in Equation 17-9, is specific for each bond. It is the current
+market rate on comparable bonds with the same maturity and the same credit quality.
+(In other words, it is an opportunity cost.) Thus, market interest rates are incorpo-
+rated directly into the discount rate used to solve for the fundamental value of a bond.
+Since market interest rates fluctuate constantly, required yields do also. When
+solving for a bond price, it is customary to use ytm as the discount rate as shown in
+Equation 17-4, which is restated as Equation 17-10:
+P c
+t
+n
+t
+t n
+1 1 1ytm
+FV
+ytm (17-10)
+Bond Price Changes
+Bond Price Changes Over Time
+Assume that we calculate the price of a 20-year bond issued 5 years ago and deter-
+mine that it is $910. The bond still has 15 years to maturity. What can we say about
+its price over the next 15 years?
+With everything else held constant, including market interest rates, bond prices
+that differ from the bond’s face value ($1,000) must converge to $1,000 over time.
+Why? On a bond’s specified maturity date, it pays its face value or maturity value.
+• Over time, holding all other factors constant, a bond’s price must converge
+to $1,000 on the maturity date because that is the amount the issuer pays the
+bondholder at maturity.
+After bonds are issued, they can sell at discounts (prices less than $1,000) and
+premiums (prices greater than $1,000) during their lifetimes. Therefore, holding
+all other factors constant, a bond selling at a discount will experience a rise in price
+over time, and a bond selling at a premium will experience a price decline as the
+bond’s remaining life approaches zero.
+Figure 17.4 illustrates bond price movements over time assuming constant yields.
+Bond 2 illustrates a 10 percent coupon, 30-year bond assuming that its required
+yield remains constant at 10 percent. The price of this bond does not change, begin-
+ning at $1,000 and ending at $1,000. Bond 1 illustrates an 8 percent coupon, 30-year
+bond assuming that its required yield starts, and remains constant, at 10 percent.
+Using a financial calculator,
+N I/YR PV PMT FV
+6 5 ? 35 1,000
+Computing the PV, we find the price of the bond is $923.86.
+Bond B is valued, as is any other asset, on the basis of its future stream of
+benefits (cash flows) using an appropriate market yield. Since the numerator is
+always specified for coupon-bearing bonds at time of issuance, the only issue in
+valuing a typical bond is to determine the denominator or discount rate
+Bond Price Changes 461
+• The appropriate discount rate is the bond’s required yield.
+The required yield (r), in Equation 17-9, is specific for each bond. It is the current
+market rate on comparable bonds with the same maturity and the same credit quality.
+(In other words, it is an opportunity cost.) Thus, market interest rates are incorpo-
+rated directly into the discount rate used to solve for the fundamental value of a bond.
+Since market interest rates fluctuate constantly, required yields do also. When
+solving for a bond price, it is customary to use ytm as the discount rate as shown in
+Equation 17-4, which is restated as Equation 17-10:
+P c
+t
+n
+t
+t n
+1 1 1ytm
+FV
+ytm (17-10)
+Bond Price Changes
+Bond Price Changes Over Time
+Assume that we calculate the price of a 20-year bond issued 5 years ago and deter-
+mine that it is $910. The bond still has 15 years to maturity. What can we say about
+its price over the next 15 years?
+With everything else held constant, including market interest rates, bond prices
+that differ from the bond’s face value ($1,000) must converge to $1,000 over time.
+Why? On a bond’s specified maturity date, it pays its face value or maturity value.
+• Over time, holding all other factors constant, a bond’s price must converge
+to $1,000 on the maturity date because that is the amount the issuer pays the
+bondholder at maturity.
+After bonds are issued, they can sell at discounts (prices less than $1,000) and
+premiums (prices greater than $1,000) during their lifetimes. Therefore, holding
+all other factors constant, a bond selling at a discount will experience a rise in price
+over time, and a bond selling at a premium will experience a price decline as the
+bond’s remaining life approaches zero.
+Figure 17.4 illustrates bond price movements over time assuming constant yields.
+Bond 2 illustrates a 10 percent coupon, 30-year bond assuming that its required
+yield remains constant at 10 percent. The price of this bond does not change, begin-
+ning at $1,000 and ending at $1,000. Bond 1 illustrates an 8 percent coupon, 30-year
+bond assuming that its required yield starts, and remains constant, at 10 percent.
+Using a financial calculator,
+N I/YR PV PMT FV
+6 5 ? 35 1,000
+Computing the PV, we find the price of the bond is $923.86.
+Bond B is valued, as is any other asset, on the basis of its future stream of
+benefits (cash flows) using an appropriate market yield. Since the numerator is
+always specified for coupon-bearing bonds at time of issuance, the only issue in
+valuing a typical bond is to determine the denominator or discount rate
+464 Chapter 17 Bond Yields and Prices
+Obviously, bond price volatility can work for, as well as against, investors. Money
+can be made, and lost, in Treasury securities as well as corporate bonds. The inverse
+relation between bond prices and interest rates is a basic principle of bond analysis;
+however, a complete understanding of the relation between bond price changes
+and interest rate changes requires additional information.
+• An increase (decrease) in interest rates will cause bond prices to decline
+(increase), but the exact amount of decline will depend on important features
+unique to each bond, such as time to maturity and coupon.
+We examine each of these in turn.
+The effects of maturity The effect an interest rate change has on a bond’s price
+depends on the bond’s maturity. An important principle is that for a given change in
+market yields, the resulting change in bond price is directly related to time to maturity.
+• As interest rates change, the prices of longer-term bonds will change more
+than the prices of shorter-term bonds, everything else being equal.
+The principle illustrated here is simple but important. Other things being equal,
+bond price volatility is a function of maturity.
+• Long-term bond prices fluctuate more than do short-term bond prices.
+A related principle regarding maturity is as follows: The percentage price change that
+occurs as a result of the direct relationship between a bond’s maturity and its price volatility
+increases at a diminishing rate as the time to maturity increases.
+From Table 17.2, we can see the effect that bond maturity
+has on the sensitivity of bond prices to interest rate
+changes. For example, for two 10 percent coupon bonds, if market yields
+drop from 10 percent to 8 percent, the price of the 15-year bond increases
+by $172.92 to $1,172.92, whereas the price of the 30-year bond increases by
+$226.23 to $1,226.23.
+EXAMPLE 17.13
+As we saw above, a drop in market yields from 10 percent
+to 8 percent increased the price of the 15-year bond
+to $1,172.92, a 17.29 percent change, while the price of the 30-year bond
+changed to $1,226.23, a 22.62 percent change. Therefore, although the time
+to maturity doubled, the percentage change in price was less than double.
+EXAMPLE 17.14
+Table 17.2 shows that for the 15-year, 10 percent coupon
+bond, the price would be $1,172.92 if market rates were
+to decline from 10 percent to 8 percent, resulting in a price appreciation of
+$172.92 or 17.29 percent. On the other hand, a rise of 2 percentage points in
+market rates from 10 percent to 12 percent results in a price drop to $862.35,
+a decline of only $137.65 or 13.77 percent.
+Summary 465
+The effects of coupon In addition to the maturity effect, the change in the price
+of a bond as a result of a change in interest rates depends on the coupon rate of
+the bond.
+• Bond price fluctuations (volatility) and bond coupon rates are inversely
+related.10
+The implications of Malkiel’s theorems for investors Malkiel’s theorems lead
+to a practical conclusion: the two bond variables of major importance in assessing
+the change in bond price, given a change in interest rates, are the bond’s coupon
+and its maturity. This conclusion can be summarized as follows: A decline (rise)
+in interest rates will cause a rise (decline) in bond prices, with the most sensitivity
+in bond prices occurring in longer maturity bonds and bonds with low coupons.
+Therefore,
+1. A bond buyer, in order to receive the maximum price impact of an expected
+drop in interest rates, should purchase low-coupon, long-maturity bonds.
+2. A bond investor wishing to alleviate the negative impact of an interest rate
+increase should purchase bonds with large coupons and short maturities.
+Although investors have no control over market interest rates, they can exercise
+control over the coupon and maturity of the bonds they purchase. While the cou-
+pon and maturity provide a rough gauge of the impact that yield changes have on
+bond prices, the measures are generally considered insufficient indicators for inves-
+tors managing bond portfolios.
+Investors managing bond portfolios need a measure that takes a bond’s coupon
+and its maturity into account and offers a more accurate indicator of the sensitivity
+of the bond’s price to yield changes. Such a measure, called duration, is available
+and is widely used by bond portfolio managers. Duration is discussed in Chapter 18.
+Checking Your Understanding
+4. The price of a bond, selling at a premium or discount, will not remain con-
+stant over time even if interest rates remain constant. Agree or disagree, and
+explain your reasoning.
+5. A long-term bond’s price is more sensitive to interest rate changes than the
+price of a short-term bond. Why, then, is maturity alone not sufficient to
+measure interest rate sensitivity?
+Summary
+• The level of interest rates for risk-free securities is a function of the real rate
+and inflation expectations. Inflation expectations are the primary variable
+affecting rates for default-free securities.
+• Interest rates vary from the riskless rate as a result of risk premiums.
+• The term structure of interest rates denotes the relation between market
+yields and time to maturity. A yield curve graphically depicts this relation with
+upward-sloping curves being the norm.
+10 Note that we are talking about percentage price fluctuations; this relationship does not necessarily hold
+if we measure volatility in terms of dollar price changes rather than percentage price changes.
+466 Chapter 17 Bond Yields and Prices
+• None of the prevalent theories proposed to explain term structure—the
+expectations theory, the liquidity preference theory, the preferred habitat
+theory, and the market segmentation theory—is dominant.
+• Yield spreads reflect the relation between bond yields and particular bond
+features such as quality and callability. Differences in type, quality, and coupon
+account for most yield spreads.
+• The yield to maturity is defined as the promised return an investor will receive
+from a bond purchased at the current market price and held to maturity.
+• The yield to call is the expected yield to the end of the deferred call period,
+when a bond first can be called.
+• The horizon return is the total return earned on a bond over some time period
+given a specified reinvestment rate.
+• Bonds are valued using a present value process. The cash flows for a bond—
+interest payments and principal repayment—are discounted at the bond’s
+required yield.
+• Over time, bond prices will converge to their face value (typically, $1,000) on
+the maturity date.
+• Bond prices move inversely with interest rates, with price increasing (decreas-
+ing) as the required yield decreases (increases).
+• The two variables of major importance in assessing the change in price, given
+a change in interest rates, are the bond’s coupon and its maturity.
+• The sensitivity of bond prices to interest rate changes is directly related to time
+to maturity and inversely related to coupon rate.
+

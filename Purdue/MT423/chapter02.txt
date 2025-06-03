@@ -1,0 +1,1475 @@
+24CHAPTER 2
+Continuing our scenario from
+Chapter 1 wherein you inherit
+$1 million dollars from a relative,
+with the stipulation that you must
+invest it under the general supervi-
+sion of a trustee, let’s consider your
+investing opportunities. You know
+generally about stocks and bonds,
+but you are not really sure about
+the specific details of each. For
+example, you do not know what a
+BBB rating on a bond indicates.
+Furthermore, you are unaware
+of zero-coupon bonds, you have
+never heard the term securitiza-
+tion, and when your broker sug-
+gests that you consider American
+Depository Receipts (ADRs) for
+international exposure, you are
+really at a loss. For sure, you are
+not ready to explain to your trustee
+why you might consider derivative
+securities for your portfolio. It is
+clear that today’s investors should be prepared to deal with such issues because they
+will arise as soon as you undertake any type of investing program.
+Fortunately, you can learn to evaluate your investing opportunities, both current
+and prospective, by learning the basics about some of the fundamental types of
+securities.
+This chapter explains the most important investment alternatives available to
+investors, ranging from money market securities to capital market securities to
+derivative securities. The emphasis is on the basic features of these securities, pro-
+viding the reader with the knowledge needed to understand the investment oppor-
+tunities of interest to most investors. We also consider financial market innovations
+such as securitization.
+Changes in the securities field occur so rapidly that investors are regularly con-
+fronted with new developments. Investors in the 21st century have a wide variety of
+investment alternatives available, and it is reasonable to expect that this variety will
+continue to increase. The types of securities are only constrained by the ingenuity
+Investment Alternatives
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Identify money market and capital
+market securities and understand
+the important features of these
+securities.
+• Price a T-bill and calculate the
+bond equivalent yield and effec-
+tive annual yield on money market
+instruments.
+• Recognize important terms such as
+asset-backed securities, stock splits,
+bond ratings, private equity, and
+ADRs.
+• Understand the basics of two
+derivative securities, options and
+futures, and how they fit into the
+investor’s choice set.
+Organizing Financial Assets 25
+of investment bankers, and they are an imaginative group. However, if investors
+understand the basic characteristics of the major existing securities, they will likely
+be able to understand new securities as they appear.
+Organizing Financial Assets
+The emphasis in this chapter (and in the text in general) is on financial assets, which
+are financial claims on the issuers of the securities. These claims are marketable secu-
+rities that are saleable in the various marketplaces discussed in Chapter 4.
+Basically, households have three choices with regard to savings options:
+1. Hold the liabilities of traditional intermediaries, such as banks, thrifts (sav-
+ings and loans, savings banks and credit unions), and insurance companies.
+This means holding savings accounts and other financial assets well known to
+many individual investors.
+2. Hold securities directly, such as stocks and bonds, purchased through brokers
+and other intermediaries. This option can also include self-directed retire-
+ment plans involving IRAs, 401(k)s, Keoghs, and so forth.
+3. Hold securities indirectly, through mutual funds, exchange-traded funds
+(ETFs), and pension funds. In this case, households leave the investing deci-
+sions to others by investing indirectly rather than directly.
+A pronounced shift has occurred in these alternatives over time. Households
+have decreased their allocation to direct holdings of securities and the liabilities
+of traditional intermediaries and have increased their indirect holdings of assets
+through mutual funds, ETFs, and pension funds. Indirect investing, discussed in
+Chapter 3, refers to investors owning securities indirectly through investment com-
+panies such as mutual funds and ETFs. This method of investing has become tre-
+mendously popular in the last few years with individual investors. For example, the
+assets of mutual funds, the most popular type of investment company, as of year-end
+2017, totaled approximately $19 trillion.
+Households also own a large, and growing, amount of pension fund reserves.
+Most of this amount is being invested by pension funds, on behalf of households, in
+equity and fixed-income securities, the primary securities of interest to most indi-
+vidual investors. Pension funds (both public and private) are the largest single insti-
+tutional owner of common stocks.
+Direct Investing
+This chapter concentrates on investment alternatives available through direct invest-
+ing, which involves securities that investors not only buy and sell themselves but
+also have direct control over. Investors who invest directly in financial markets,
+either using a broker or by other means, have a wide variety of assets from which
+to choose.
+Nonmarketable investment opportunities, such as savings accounts at thrift insti-
+tutions, are discussed briefly since investors often own these assets and are familiar
+with them. However, our emphasis is on marketable securities, which can be clas-
+sified into one of three categories: the money market, the capital market, and the
+derivatives market.
+26 Chapter 2 Investment Alternatives
+Investors should understand money market securities, but they typically will not
+own these securities directly, choosing instead to own them through money market
+mutual funds. Within the capital market, securities can be classified as either fixed-
+income (debt) or equity securities. Finally, investors may choose to include deriva-
+tive securities in their portfolios. The market value of these securities is derived
+from an underlying security such as common stock.
+Exhibit 2.1 organizes the types of financial assets to be analyzed in this chap-
+ter and in Chapter 3 using the above classifications. Although for expositional
+purposes we cover direct investing and indirect investing in separate chapters,
+it is important to understand that investors can invest directly through the use
+of a brokerage account and invest indirectly in one or more types of investment
+company. Furthermore, brokerage accounts can accommodate the ownership of
+investment company shares, thereby combining direct and indirect investing into
+one account.
+• Today’s investors often engage in both direct and indirect investing in their
+portfolios. Brokerage accounts can accommodate both.
+EXHIBIT 2.1 | Major types of financial assets
+Nonmarketable
+DIRECT INVESTING
+• Savings deposits
+• Certificates of deposit
+• Money market deposit accounts
+• U.S. savings bonds
+Money market • Treasury bills
+• Negotiable certificates of deposit
+• Commercial paper
+• Eurodollars
+• Repurchase agreements
+• Banker’s acceptances
+Capital market • Fixed income
+Treasuries
+Agencies
+Municipals
+Corporates
+• Equities
+Preferred stock
+Common stock
+Derivatives market • Options
+• Futures contracts
+Investment companies
+INDIRECT INVESTING
+• Unit investment trust
+• Open end
+Money market mutual fund
+Stock, bond, and income funds
+• Closed end
+• Exchange-traded funds (ETFs)
+Nonmarketable Financial Assets 27
+A Global Perspective
+As noted in Chapter 1, investors should adopt a global perspective in making their
+investment decisions. Many of the investment alternatives analyzed in this chapter
+are readily available from foreign markets to U.S. investors. Thus, the characteris-
+tics of these basic securities are relevant whether investors own domestic or foreign
+securities, or both. Furthermore, investors must recognize that securities tradition-
+ally thought of as U.S. securities are, in reality, heavily influenced by global events.
+To illustrate, in 2018, Apple had revenue of $265.6 billion, with 63 percent coming
+from foreign markets; nearly 20 percent came from China alone. Clearly, Apple is
+heavily influenced by global events.
+U.S. investors can choose to purchase foreign stocks directly. Alternatively,
+many U.S. investors invest internationally by turning funds over to an invest-
+ment company, which makes decisions on behalf of investors. 1 Regardless,
+investors must understand we live in a global environment that will profoundly
+change the way we live and invest. The simple fact is that while the United States
+is, and will continue to be, a major player in the financial markets, it no longer
+dominates.
+Nonmarketable Financial Assets
+We begin our discussion of investment alternatives with those that are nonmarket-
+able simply because most individuals will own one or more of these assets. For exam-
+ple, approximately 12 percent of total financial assets of U.S. households are in the
+form of deposits, including checkable deposits and currency, and time and savings
+deposits. Furthermore, these assets serve as a good contrast to the marketable secu-
+rities we will concentrate on throughout the text.
+A distinguishing characteristic of nonmarketable assets is that they represent per-
+sonal transactions between the owner and the issuer. That is, you as the owner of a
+savings account at a credit union must open the account personally, and you must
+deal with the credit union in maintaining the account. In contrast, marketable secu-
+rities trade in impersonal markets—the buyer (seller) does not know who the seller
+(buyer) is, and does not care.
+Typically nonmarketable assets are “safe” investments, occurring at insured
+financial institutions or, issued by the U.S. government. At least some of these
+assets offer the ultimate in liquidity, where liquidity is defined as the ease with
+which an asset can be converted into cash. For example, we know we can withdraw
+our money from a savings account, or a money market deposit account (MMDA),
+very quickly.
+Exhibit 2.2 describes the four major nonmarketable assets held by investors. Inno-
+vations have occurred in this area. For example, the Treasury now offers I bonds, or
+inflation-indexed savings bonds. The yield on these bonds is a combination of a
+fixed rate of return and a semiannual inflation rate.2
+EXHIBIT 2.2 | Important Nonmarketable Financial Assets
+1. Savings accounts. Undoubtedly the best-known type
+of investment in the United States, savings accounts
+are held at commercial banks or at “thrift” institu-
+tions such as savings and loan associations and credit
+unions. Savings accounts in insured institutions offer
+a high degree of safety on both the principal and
+the interest earned on that principal. Liquidity is
+taken for granted and, together with the safety fea-
+ture, probably accounts for the popularity of savings
+accounts. Most accounts permit unlimited access to
+funds although some restrictions can apply.
+2. Nonnegotiable certificates of deposit. Commercial
+banks and other institutions offer a variety of savings
+certificates known as certificates of deposit (CDs).
+These certificates are available for a variety of
+amounts and maturities, with higher rates offered as
+maturity increases. Nonnegotiable CDs are meant to
+be a buy-and-hold investment, and penalties for early
+withdrawal are commonly imposed.
+3. MMDAs. Financial institutions offer MMDAs with
+no interest rate ceilings. Money market “investment”
+accounts have a required minimum deposit to open,
+pay competitive money market rates, and are insured
+up to $250,000 by the Federal Deposit Insurance
+Corporation (FDIC), if the bank is insured. Six pre-
+authorized or automatic transfers are allowed each
+month, up to three of which can be by check. There
+is no limit on the number of deposits or withdrawals
+that can be made in person or through automated
+teller machines (ATMs).
+4. U.S. government savings bonds. U.S. savings bonds
+are nonmarketable, nontransferable, and nonnego-
+tiable and cannot be used for collateral. They are
+purchased from the Treasury, most often through
+banks and savings institutions. Series EE bonds
+in paper form are sold at 50 percent of face value,
+with denominations of as low as $50 and as high as
+$10,000. Electronic EE bonds are sold at face value
+and earn a fixed rate of return.
+A second series of savings bonds is the I bond, sold
+in both electronic and paper form. A comparison of
+these two savings bonds is available at http://www.
+savingsbonds.gov/indiv/research/indepth/ebonds/
+res_e_bonds_eecomparison.htm.
+Coca-Cola is justifiably famous for its brand name and its
+global marketing efforts. Its success, however, is heavily
+dependent on what happens in the non-U.S. markets it has increasingly
+penetrated. Nearly 60 percent of Coke’s revenues are generated internationally.
+If foreign economies slow, Coke’s sales will be hurt. Furthermore, Coke must
+be able to convert its foreign earnings into dollars at favorable rates and
+repatriate them. Therefore, investing in Coke involves betting on a variety of
+global events
+28 Chapter 2 Investment Alternatives
+Money Market Securities
+Money markets include short-term, highly liquid, relatively low-risk debt instru-
+ments sold by governments, financial institutions, and corporations to investors.
+This market is dominated by financial institutions, particularly banks, and govern-
+ments. The size of the transactions in the money market typically is large ($100,000
+or more). The maturities of money market instruments range from 1 day to 1 year
+and are often less than 90 days.
+Some of these instruments are negotiable and actively traded, and some are not.
+Investors may choose to invest directly in some of these securities, but more often
+they do so indirectly through money market mutual funds (discussed in Chapter 3)
+Money Market Securities 29
+which are investment companies organized to own and manage a portfolio of secu-
+rities. Many individual investors own shares in money market funds that, in turn,
+own portfolios of these money market securities. Exhibit 2.3 describes the major
+money market securities.3
+The Treasury Bill
+The Treasury bill (T-bill) is the most prominent money market security because it
+is the safest asset available and because it serves as a benchmark asset. Although in
+some pure sense there is no such thing as a risk-free financial asset, on a practical
+basis the T-bill is risk-free on a nominal basis (ignoring inflation). There is little
+practical risk of default by the U.S. government, despite the debt ceiling “crisis” in
+the summer of 2011 and the fall of 2013.
+Treasury Bill A short-term
+money market instrument
+sold at discount by the
+U.S. government
+EXHIBIT 2.3 | Important Money Market Securities
+1. Treasury bills. The premier money market instru-
+ment, a fully guaranteed, very liquid IOU from the
+U.S. Treasury. They are sold on an auction basis every
+week at a discount from face value in denominations
+starting at $10,000. The greater the discount at time
+of purchase, the higher the return earned by inves-
+tors. Typical maturities are 13 and 26 weeks, although
+maturities range from a few days to 52 weeks. New
+bills can be purchased by investors on a competi-
+tive or noncompetitive bid basis. Outstanding (i.e.,
+already issued) bills can be purchased and sold in
+the secondary market, an extremely efficient market
+where government securities dealers stand ready to
+buy and sell these securities.
+2. Negotiable certificates of deposit (CDs). Issued by a bank
+in exchange for a deposit of funds, a CD is a liability
+of the issuer. The deposit is maintained in the bank
+until maturity, at which time the holder receives the
+deposit plus interest. However, these CDs are nego-
+tiable, meaning that they can be sold in the open
+market before maturity. Dealers make a market in
+these unmatured CDs. Maturities typically range
+from 14 days (the minimum maturity permitted) to
+one year. The minimum deposit is $100,000.
+3. Commercial paper. A short-term, unsecured promis-
+sory note issued by large, well-known, and financially
+strong corporations (including finance companies).
+Denominations start at $100,000, with a maturity of
+270 days or less (average maturity is about 30 days).
+Commercial paper is usually sold at a discount either
+directly by the issuer or indirectly through a dealer.
+Although a secondary market exists for commercial
+paper, it is weak and most paper is held to maturity.
+Commercial paper is rated by a rating service as to
+quality (relative probability of issuer default).
+4. Repurchase agreement (RP). An agreement between a
+borrower and a lender (typically institutions) to sell
+and repurchase U.S. government securities. The bor-
+rower initiates an RP by contracting to sell securities to
+a lender and agreeing to repurchase these securities
+at a prespecified price on a stated date. The effective
+interest rate is given by the difference between the
+two prices. The maturity of RPs is generally very short,
+from three to 14 days, and sometimes overnight. The
+minimum denomination is typically $100,000.
+5. Banker’s acceptance. A time draft drawn on a bank
+by a customer, whereby the bank agrees to pay a
+particular amount at a specified future date. Bank-
+er’s acceptances are negotiable instruments because
+the holder can sell them for less than face value
+(i.e., discount them) in the money market. They
+are normally used in international trade. Banker’s
+acceptances are traded on a discount basis, with a
+minimum denomination of $100,000. Maturities typ-
+ically range from 30 to 180 days, with 90 days being
+the most common.
+ Investment Alternatives
+T-bills are redeemed at face value, thereby providing investors with an
+effective rate of return that can be calculated at time of purchase. Obviously,
+the less investors pay for these securities, the larger their return. T-bill rates
+are determined at auction each week and therefore reflect current money
+market conditions. If T-bill rates are rising (falling), this generally reflects
+an increased (decreased) demand for funds. In turn, other interest rates will
+be affected.
+Money market securities, such as T-bills and commercial paper, are priced based
+on a discount from face value. Dealers quote the discount, which is then converted
+to a price by the investor. The discount is often referenced as the bank discount
+rate. Equation 2-1 shows the formula used to convert a quoted bank discount rate
+to a price.
+Price P F x r x n
+BD( ) 1 360 (2-1)
+where: F = face value of T-bill; rBD = bank discount rate; and n = days to maturity
+There are two return measures that investors commonly reference when discuss-
+ing money market securities: the bond equivalent yield (rBEY
+) and the equivalent
+annual yield (rEAY
+). These two returns will always exceed the bank discount rate,
+which is a biased indicator of an investor’s actual return. The formulas to derive rBEY
+and rEAY are presented as Equations 2-2 and 2-3, respectively.
+r F P
+P x n
+BEY
+365 (2-2)
+r F P
+P
+EAY
+n
+1 1
+365
+(2-3)
+Money Market Rates
+The rates on money market securities tend to move together, and most rates are
+very similar to each other for the same maturity instrument. Treasury bill rates are
+less than the rates available on other money market securities because of the pre-
+sumed risk-free nature of T-bills.
+For a $10,000 T-bill with 140 days to maturity, a security
+dealer quotes a bank discount rate of 2.15 percent. To
+purchase the T-bill, an investor would pay:
+P 10 000 1 0 0215 140 360 9 916 39, [ . ] $ , ./
+The T-bill offers a bond equivalent yield of:
+rBEY [ ]( , , . ) , . . %10 000 9 916 39 9 916 39 365 140 2 198/ /
+The T-bill offers an equivalent annual yield of:
+rEAY [ ( , , . ) , . ] . %/
+1 10 000 9 916 39 9 916 39 1 2 213365 140
+/
+Some Practical Advice
+Most investors will never own a money market
+security directly because of the unfamiliarity
+and the large face value of these instruments.
+However, most investors will own them indirectly
+sometime in their investing lifetime in the form of
+money market mutual funds. By buying shares
+in this type of fund, an investor gets the benefits
+of these securities without having to worry about
+the details and the large face value.
+Checking Your Understanding
+1. Why are money market securities referred to as impersonal assets, while the
+nonmarketable financial assets are not?
+2. Holding maturity constant, “how similar would” you expect the yields on
+money market securities to be?
+3. Why does the Treasury bill serve as a benchmark security?
+Capital Market Securities
+Capital market instruments encompass fixed-income and equity securities with
+maturities greater than one year. Risk is generally much higher than in the money
+market because of the longer time to maturity and the very nature of the securities
+sold in the capital markets. Marketability is poorer in some cases.
+• The capital market includes both debt and equity securities, with equity securi-
+ties having no maturity date.
+Fixed-Income Securities
+We begin our review of capital market securities typically owned directly by individ-
+ual investors with fixed-income securities. These securities have a specified payment
+schedule with the amount and date of each payment generally known in advance.
+Some of these securities deviate from the traditional bond format, but all fixed-
+income securities have a specified payment or repayment schedule—they must
+mature at some future date.
+Technically, fixed-income securities include Treasury bonds, agency bonds,
+municipal bonds, corporate bonds, asset-backed securities, mortgage-related bonds,
+and money market securities, which were covered in the previous section.
+Bonds
+Bonds can be described simply as long-term debt instruments representing the issu-
+er’s contractual obligation, or IOU.4
+Bonds are fixed-income securities because the interest payments and the principal
+repayment for a typical bond are specified at the time the bond is issued and fixed
+Capital Markets The
+market for long-term
+securities such as bonds
+and stocks
+Fixed-Income Securities
+Securities with speci-
+fied payment dates and
+amounts, includes primar-
+ily bonds
+Bonds Long-term debt
+instruments representing
+the issuer’s contractual
+obligation
+Some Practical Advice
+Most investors will never own a money market
+security directly because of the unfamiliarity
+and the large face value of these instruments.
+However, most investors will own them indirectly
+sometime in their investing lifetime in the form of
+money market mutual funds. By buying shares
+in this type of fund, an investor gets the benefits
+of these securities without having to worry about
+the details and the large face value.
+4 The buyer of a newly issued coupon bond is lending money to the issuer who, in turn, agrees to pay
+interest on this loan and repay the principal at a stated maturity date.
+32 Chapter 2 Investment Alternatives
+for the life of the bond. At the time of purchase, the bond buyer knows the future
+stream of cash flows he or she expects to receive from buying and holding the bond
+to maturity. Barring default by the issuer, these payments will be received at speci-
+fied intervals until maturity, at which time the principal will be repaid. However, if
+the buyer decides to sell the bond before maturity, the price received will depend
+on the level of interest rates at that time.
+• From an investor’s viewpoint, bonds are typically “safe” assets, at least relative
+to stocks and derivative securities. Principal and interest are specified, and the
+issuer must meet these obligations or face default, and possibly bankruptcy.5
+Bond characteristics The par value (face value) of most bonds is $1,000, and
+we will use this number as the amount to be repaid at maturity. 6 The typical bond
+matures (terminates) on a specified date and is technically known as a term bond.7
+Most bonds are coupon bonds, where coupon refers to the periodic interest that
+the issuer pays to the holder of the bonds.8 Interest on bonds is typically paid
+semiannually.
+Bond prices By convention, bond traders use 100 as par rather than $1,000, which
+is the actual par value of most bonds. Therefore, a price of 90 represents $900 (90
+percent of the $1,000 par value), and a price of 55 represents $550 using the normal
+assumption of a par value of $1,000. The easiest way to convert quoted bond prices
+into actual prices is to remember that they are quoted in percentages, with the com-
+mon assumption of a $1,000 par value.
+• Bond prices are quoted as a percentage of par value, which is typically $1,000.
+Accrued interest Example 2.4 suggests that an investor could purchase the IBM
+bond for $1,013.75 on that day. Actually, bonds trade on an accrued interest basis.
+That is, the bond buyer must pay the bond seller the price of the bond as well as
+Par Value (Face
+Value) The redemption
+value of a bond paid at
+maturity, typically $1,000
+A 10-year, 10 percent coupon bond has a dollar coupon
+of $100 (10 percent of $1,000); therefore, knowing
+the percentage coupon rate is the same as knowing the coupon payment
+in dollars.9 This bond would pay interest of $50 ($100 ÷ 2) on a specified
+date every six months. The $1,000 principal would be repaid 10 years hence.
+Similarly, a 5.5 percent coupon bond pays an annual interest amount of $55,
+payable at $27.50 every six months. Note that all the characteristics of a bond
+are specified when the bond is issued.
+Fixed-Income Securities 33
+the interest that has been earned (accrued) on the bond since the last semiannual
+interest payment. This allows an investor to sell a bond any time between interest
+payments without losing the interest that has accrued. Bond buyers should remem-
+ber this additional “cost” when buying a bond because prices are quoted to investors
+without the accrued interest.10
+Discounts and premiums The price of the IBM bond in Example 2.4 is above
+100 (i.e., $1,000) because market yields on bonds of this type declined after this
+bond was issued.
+The coupon on the IBM bond became more favorable than the going market
+interest rate for comparable newly issued bonds, and the price increased to reflect
+this fact. At any point in time some bonds sell at premiums (prices above par value),
+reflecting a decline in market rates after that particular bond was sold. Others sell at
+discounts (prices below $1,000) because the stated coupons are less than the prevail-
+ing interest rate on comparable new issues.
+• While a bond will be worth exactly its face value (typically $1,000) on
+the day it matures, its price will fluctuate around $1,000 until then,
+depending on what interest rates do. Interest rates and bond prices move
+inversely. When rates fall, bond prices rise. Conversely, when rates rise,
+bond prices fall.
+Callable bonds The call provision gives the issuer the right to “call in” the bonds,
+thereby depriving investors of that particular fixed-income security.11 Exercising the
+call provision becomes attractive to the issuer when market interest rates drop suf-
+ficiently below the bond’s coupon rate.12 The issuer expects to sell new bonds at a
+lower interest cost, thereby replacing existing higher interest-cost bonds with new,
+lower interest-cost bonds. Costs are incurred to call the bonds, such as a “call pre-
+mium” and administrative expenses. 13
+Some bonds, including most Treasury bonds, are not callable. On the other
+hand, most municipal bonds are callable.
+Call Provision Gives the
+issuer the right to call in
+a security and retire it by
+paying off the obligation
+A closing price of 101.375 on a particular day for an IBM
+bond represents 101.375 percent of $1,000, or 1.01375 ×
+$1,000 = $1,013.75. Treasury bond prices are quoted in 32nds and may be
+shown as fractions, as in 100 14/32.
+34 Chapter 2 Investment Alternatives
+The Zero-coupon bond A radical innovation in the format of traditional bonds is
+the Zero-Coupon Bond, which is issued with no interest to be paid during the life of
+the bond. The purchaser pays less than par value for zero coupons and receives par
+value at maturity. The difference in these two amounts generates an effective inter-
+est rate or rate of return. As with Treasury bills, which are also sold at a discount, the
+lower the price paid for the bond, the higher the effective return.
+Issuers of zero-coupon bonds include corporations, municipalities, government
+agencies, and the U.S. Treasury. Since 1985, the Treasury has offered STRIPS, or
+Separate Trading of Registered Interest and Principal of Securities.15
+Types of Bonds
+There are four major types of bonds in the United States based on the issuer involved
+(U.S. government, federal agency, municipality, and corporation), and variations
+exist within each major type.
+Treasury
+securities
+Federal
+agen
+Fixed-Income Securities 35
+Treasury securities The U.S. government, in the course of financing its opera-
+tions through the Treasury Department, issues numerous notes and bonds with
+maturities greater than one year. The U.S. government is considered the safest
+credit risk because of the overall stability and economic power of the U.S. economy
+and because of the government’s power to print money.
+• For practical purposes, investors do not consider the possibility of risk of
+default for U.S. Treasury securities.
+Treasury bonds have been rated since 1917, and always received a triple-A rating
+until 2011, when Standard & Poor’s (S&P) lowered the rating one notch in a con-
+troversial move. The other two rating agencies did not follow suit, although Fitch
+credit rating service put the United States on a negative credit rating watch because
+of the government failure to raise the debt ceiling in a timely manner.
+Most investors still consider U.S. Treasury securities the safest securities in the
+world. Investors purchase these securities with the expectation of earning a steady
+stream of interest payments and with full assurance of receiving the par value of the
+bonds when they mature. This was made clear following the unprecedented rating
+cut by S&P. Long-term Treasury returns for 2011 were at near record lows due to
+investor worries about the European debt crisis, and the slow economic growth in
+the United States indicated no inflationary pressures. During turbulent times, inves-
+tors often become more concerned about protecting themselves from loss rather
+than making money. Thus, there is a “flight to quality,” which entails investors sell-
+ing more risky securities and buying less risky securities. This drives up the prices of
+the lower-risk securities, particularly U.S. Treasury securities. This is why the prices
+of U.S. Treasury securities actually rose despite the downgrade of U.S. debt by S&P.
+Treasury bonds and notes The U.S. government traditionally has issued Treas-
+ury bonds with maturities of 10 to 30 years, although a bond can be issued with any
+maturity exceeding 10 years. The Treasury also sells Treasury notes, issued for terms
+of 2, 5, or 10 years.16 Interest on notes and bonds is paid every six months. Notes and
+bonds differ only in original maturity and are therefore very similar securities. Thus,
+it is common to use the terms “note” and “bond” interchangeably when making
+general reference to fixed-income debt securities. In addition to their low risk, an
+added benefit of all Treasury securities, notes, bonds, and bills is that their interest
+is exempt from state and local taxes, which is a major benefit in some high-tax states.
+TIPS Since 1997, the Treasury has sold Treasury Inflation-Protected Securities
+(TIPS) which protect investors against losses resulting from inflation. TIPS pay
+interest at a fixed rate twice a year, but this rate is applied to the inflation-adjusted
+principal. Because the rate is applied to the adjusted principal, interest payments
+can vary in amount from one period to the next. If inflation occurs, the interest pay-
+ment increases. In the event of deflation, the interest payment decreases.
+TIPS are sold at auction by the Treasury, with the interest rate determined at the
+auction. Therefore, at the time you buy a new TIPS, you do not know what the inter-
+est rate will be.17 They can be held to maturity or sold prior to maturity. At maturity,
+the investor receives the higher of the adjusted principal or the original principal
+(with deflation, the adjusted principal could be less than face value).
+Taxes must be paid each year on both the interest and the inflation adjustments,
+although the actual cash for the latter is not received until maturity. This is often
+referred to as a phantom tax—the investor owes tax each year on the increased
+value of the principal but does not receive this money until the bond is sold or
+matures. Therefore, many investors prefer to hold these securities in a tax-deferred
+retirement account.
+Government Agency Securities Starting in the 1920s, the federal government
+created various federal agencies designed to help certain sectors of the economy,
+through either direct loans or guarantee of private loans. These credit agencies
+compete for funds in the marketplace by selling government agency securities.
+Two types of government agencies have existed in the U.S. financial system: fed-
+eral agencies and Government-Sponsored Enterprises (GSEs).
+1. Federal agencies are part of the federal government, and their securities are
+fully guaranteed by the Treasury. The most important “agency” for investors is
+the Government National Mortgage Association (often referred to as “Ginnie
+Mae”). Ginnie Mae securities are the only mortgage-backed securities that are
+backed by the “full faith and credit” of the U.S. government.
+2. GSEs are publicly held, for-profit corporations created by Congress. GSEs sell
+their own securities in the marketplace in order to raise funds for their spe-
+cific purposes. Although these agencies have access to credit lines from the
+government, their securities are not explicitly guaranteed by the government
+as to principal or interest. GSEs include the Federal Home Loan Bank and
+the Farm Credit System.18
+The Federal National Mortgage Association (“Fannie Mae”) and the Federal
+Home Loan Mortgage Corporation (“Freddie Mac”) started as federal agencies and
+later offered stock to the public, becoming GSEs. 19 They buy mortgages from finan-
+cial institutions, freeing them to make more mortgage loans to Americans. Because
+of their Congressional charters, the financial markets believed that the government
+would not allow these GSEs to default. In September 2008, a Federal takeover of
+Fannie Mae and Freddie Mac occurred.
+Mortgage-backed securities A part of the market of fixed-income securities
+is known as asset-backed securities, which includes Mortgage-Backed Securities
+Government Agency
+Securities Securities
+issued by federal agencies
+(fully guaranteed) or by
+government-sponsored
+agencies (not guaranteed)
+Some Practical Advice
+An investor can buy or sell Treasury securities
+through a financial institution, bank, or broker.
+Alternatively, for a nominal fee and some simple
+paperwork, investors can join TreasuryDirect. This
+program allows investors to trade Treasury secu-
+rities directly via the Internet. Participants put in
+a “noncompetitive” bid, which means they pay
+the average successful bid of the professionals.
+Payments are deducted directly from the inves-
+tor’s account.
+Fixed-Income Securities 37
+(MBSs). These securities are simply shares of home loans (mortgages) sold to inves-
+tors in various security forms. Traditionally, investors in mortgage-backed securi-
+ties expected to minimize default risk because most mortgages were guaranteed
+by one of the government agencies. Nevertheless, these securities present investors
+with uncertainty because they can receive varying amounts of monthly payments
+depending on how quickly homeowners pay off their mortgages.
+By now, almost everyone is familiar with the difficulties associated with subprime
+mortgages and mortgage-backed securities (MBSs) and the role they played in the
+financial crisis that began in 2007. In mid-2007, a pair of hedge funds managed by
+Bear Stearns collapsed because of heavy losses in subprime mortgages. By 2008, a large
+amount of home loans had been packaged and sold to investors, repackaged and sold
+again, and so on. As good borrowers dwindled in number, the loan originators made
+more and more loans to less creditworthy borrowers. Sometime in 2008, the rate of
+house foreclosures started to increase sharply as many borrowers could no longer
+keep current with their mortgage payments. With MBSs widely held throughout the
+economy, the foreclosures and declining house prices led to larger and larger losses
+for many individual investors, investment banks, and other financial institutions.
+Municipal securities Bonds sold by states, counties, cities, and other political
+entities (e.g., airport authorities and school districts) other than the federal govern-
+ment and its agencies are called municipal bonds or munis (pronounced myōō’nēz).
+This is a vast market, roughly $3.9 trillion as of 2017, with tens of thousands of differ-
+ent issuers and more than 1 million different issues outstanding. According to the
+Investment Company Institute, individual investors are the largest holders of munic-
+ipal bonds as they hold 35 percent of all municipal bonds directly and another 36
+percent indirectly through mutual funds, closed-end funds, and ETFs.
+While we typically think of long-term bonds as having maximum maturities of
+about 30 years, exceptions do occur. In late 2011, the California Institute of Tech-
+nology (Caltech) sold $350 million of debt maturing in 100 years. These bonds,
+rated AA1, were sold at a record low yield of 4.744 percent, which was 1.8 percent-
+age points higher than 30-year Treasuries.
+Credit ratings and marketability on munis range from very good to very suspect.
+Overall, however, the historical default rate on municipal bonds has been very
+favorable, and muni returns compare favorably with the investment-grade corpo-
+rate market. In fact, for the 10-year period ending in 2013, an index of municipal
+bonds has nearly the same return as an index of high-grade corporate bonds. This
+is in spite of the fact that munis are tax exempt, while corporate bonds are taxable.
+The relatively low-risk nature of munis may change, however, in this new era of defi-
+cits for many municipal bond issuers. The perilous fiscal situations of municipalities
+are often the result of generous postretirement benefits promised to workers cou-
+pled with the political inability to raise revenues through increased taxation. The
+dire situation of many municipalities—notably Detroit and Puerto Rico—has been
+the subject of headlines in the popular press, serving to scare many investors away
+from municipal bonds.
+Two basic types of municipals are general obligation bonds, which are backed
+by the “full faith and credit” of the issuer, and revenue bonds, which are repaid
+from the revenues generated by the project they were sold to finance (e.g., a
+toll road or airport improvement). 20 In the case of general obligation bonds, the
+issuer can tax residents to pay for the bond interest and principal. In the case of
+revenue bonds, the specific project must generate sufficient revenue to service
+the issue.
+It is common for long-term municipals to be sold as serial bonds, which means that
+a specified portion of the original issue matures in specified years until the final
+maturity date. For example, a 10-year serial issue might have 10 percent of the issue
+maturing each year for the next 10 years. Structuring the bonds in this way allows
+the municipality to gradually retire the debt over time, making the bonds safer for
+investors.
+Most municipals are insured by one of the major municipal bond insurers.
+The insurance guarantees the payment of principal and interest should the issuer
+default. By having the bonds insured, the issuers achieve a higher rating for the
+bond and therefore a lower interest cost. Investors trade some yield for protection.
+However, the financial viability of the bond insurers themselves came under scrutiny
+in 2008 as the subprime crisis deepened. Prior to the subprime crisis, there were
+several municipal bond insurers rated triple-A by the major credit rating agencies.
+In 2014, none of the insurers were triple-A rated.
+The taxable equivalent yield (TEY) The distinguishing feature of most munici-
+pals is their exemption from federal taxes. Because of this feature, the stated inter-
+est rate on munis is lower than that on comparable nonexempt bonds. The higher
+an investor’s tax bracket, the more attractive municipals become.
+• The taxable equivalent yield (TEY) shows the interest rate that a taxable bond
+would have to pay an investor to make the bond equivalent on an after-tax
+basis to the muni.
+The TEY for any municipal bond and any marginal tax bracket can be calculated
+using the following formula:
+Taxable equivalent yield Municipal bond yield
+marginal ta1 xx rate (2-4)
+In many cases, the municipal bondholder can also avoid state and/or local taxes.
+For example, a North Carolina resident purchasing a bond issued by the state of
+North Carolina would escape all taxes on the interest received. 21 States often exempt
+21 To calculate the TEY in these cases, first determine the effective state rate:
+effective state rate = marginal state tax rate × (1 − federal marginal rate)
+Then, calculate the combined effective federal/state tax rate as:
+combined effective tax rate = effective state rate + federal rate
+Use Equation 2-4 to calculate the combined TEY, substitute the combined effective tax rate for the
+marginal tax rate.
+Some Practical Advice
+A free online municipal bond information service
+is available, Electronic Municipal Market Access,
+nicknamed EMMA, at emma.msrb.org. EMMA
+shows real-time trade data as well as the issuer’s
+prospectus, which contains official information
+about the issue.
+Fixed-Income Securities 39
+interest on their own bonds for residents while taxing interest on bonds issued by
+other states.
+• Bond yields are typically stated on a before-tax basis, which puts municipal
+bonds at a disadvantage, since they are tax exempt. The TEY converts a munic-
+ipal bond yield into its equivalent before-tax basis, thus allowing investors to
+compare bond yields across the board.
+Corporates In 2018, the size of the corporate bond market was estimated
+to be $9 trillion; compared to $15 trillion for the U.S. Treasury market. Most
+larger corporations issue corporate bonds to finance operations and fund capi-
+tal investment. At any given time, most corporations have several bond issues
+outstanding.
+Although an investor can find a wide range of maturities, coupons, and special
+features available from corporates, the typical corporate bond matures in 20 to 40
+years, pays semiannual interest, and is generally issued with a price close to par
+value, which is almost always $1,000. Credit quality across corporate bonds varies
+widely.
+Corporate bonds are senior securities. That is, they are senior to any preferred
+and common stock of a corporation in terms of priority of payment and in case of
+bankruptcy and liquidation. However, within the bond category itself, there are vari-
+ous degrees of security.
+• The most common type of unsecured bond is the debenture, a bond backed
+only by the issuer’s overall financial soundness.22
+Debentures can be subordinated, resulting in a claim on income that stands
+below (subordinate to) the claim of the other debentures.
+Convertible bonds Some bonds have a built-in conversion feature. The holders
+of these bonds have the option to convert the bonds into common stock whenever
+they choose. Typically, the bonds are exchanged with the issuer for a specified num-
+ber of common shares, with no cash payment required. Convertible bonds can be
+considered two securities simultaneously: a fixed-income security paying a specified
+interest payment and a claim on the common stock that becomes increasingly valu-
+able as the price of the underlying common stock rises. Thus, convertible prices
+may fluctuate over a fairly wide range, depending on whether the convertible is
+trading like other fixed-income securities or is trading to reflect the price of the
+underlying common stock.
+Corporate Bonds Long-
+term debt securities sold
+by corporations
+Senior Securities Securi-
+ties that have precedence
+over other specified secu-
+rities in terms of payment
+or in case of liquidation
+Debenture An unsecured
+bond backed by the gen-
+eral credit worthiness of
+the firm
+An investor in the 28 percent marginal tax bracket who is
+offered a 5 percent municipal bond would have to receive
+0 05
+1 0 28 6 94
+.
+( . ) . %
+from a comparable taxable bond to be as well off.
+EXAMPLE 2.5
+22 Bonds that are “secured” by a legal claim to specific assets of the issuer are called mortgage bonds.
+40 Chapter 2 Investment Alternatives
+Bond ratings Corporate and municipal bonds, unlike Treasury securities, carry
+the risk of default by the issuer. Rating agencies such as S&P Corporation, Moody’s
+Investors Service, Inc., and Fitch Ratings provide investors with bond ratings—that
+is, opinions on the relative quality of most large corporate and municipal bonds, as
+well as commercial paper. By carefully analyzing the issues in detail, the rating firms,
+in effect, perform the credit analysis for the investor.
+S&P bond ratings consist of letters ranging from AAA, AA, A, BBB, and so on, to
+D. (Moody’s corresponding ratings are Aaa, Aa, A, Baa, to D.) Plus or minus signs
+can be used to provide more detailed standings within a given category.23 Exhibit 2.4
+Bond Ratings Letter rat-
+ings assigned to bonds by
+rating agencies to express
+the relative probability of
+default
+EXHIBIT 2.4 | Standard & Poor’s Debt-Rating Definitions
+AAA The obligor’s capacity to meet its financial commitment on the obligation is extremely strong.
+AA The obligor’s capacity to meet its financial commitment on the obligation is very strong.
+A The obligor is somewhat more susceptible to the adverse effects of changes in circumstances and economic
+conditions relative to obligors in higher-rated categories. However, the obligor’s capacity is still strong.
+BBB The obligation exhibits adequate protection parameters. However, adverse economic conditions or
+changing circumstances are more likely (relative to higher-rated obligations) to lead to a weakened capacity
+of the obligor to meet its financial commitment.
+BB The obligation is less vulnerable to nonpayment than other speculative issues. However, it faces major
+ongoing uncertainties or exposure to adverse business, financial, or economic conditions which could lead
+to the obligor’s inadequate capacity to meet its financial commitment on the obligation.
+B The obligation is more vulnerable to nonpayment than obligations rated “BB,” but the obligor currently has the
+capacity to meet its financial commitment on the obligation. Adverse business, financial, or economic conditions
+will likely impair the obligor’s capacity or willingness to meet its financial commitment on the obligation.
+CCC The obligation is vulnerable to nonpayment and is dependent on favorable business, financial, and
+economic conditions for the obligor to meet its financial commitment on the obligation. In the event of
+adverse business, financial, or economic conditions, the obligor is not likely to have the capacity to meet its
+financial commitment on the obligation.
+CC The obligation is currently highly vulnerable to nonpayment. Default has not yet occurred, but eventual
+default is expected as a virtual certainty.
+C The obligation is currently highly vulnerable to nonpayment, and the obligation is expected to have lower
+relative seniority or lower ultimate recovery compared to obligations that are rated higher.
+D The obligation is in default or in breach on an imputed promise.
++ or − The ratings from “AA” to “CCC” may be modified with the addition of a plus (+) or minus (−) sign to show
+relative standing within the major rating categories.
+23 Moody’s uses numbers (i.e., 1, 2, and 3) to designate quality grades further. For example, bonds could
+be rated Aa1 or Aa2.
+Investments Intuition
+Investors do not receive the conversion option
+free. Convertible bonds pay a lower interest rate
+than would otherwise be paid, resulting in a
+lower interest return to investors. Many convertible
+bond issuers are young, growing companies that
+need the cash to grow. They are able to conserve
+precious cash by lowering interest payments.
+The issuing firm hopes that eventually the bonds
+will be converted into common stock because
+that means the company was successful and
+the stock price increased. Convertible bonds are
+often referred to as “delayed equity financing.”
+Fixed-Income Securities 41
+shows S&P rating definitions and provides an explanation of the considerations on
+which the ratings are based.
+The first four categories, AAA through BBB, represent investment-grade securi-
+ties. AAA securities are judged to have very strong capacity to meet all obligations,
+whereas BBB securities are considered to have adequate capacity. The difference
+between a rating of BBB and BB is very significant, as many institutional investors
+are not allowed to hold securities rated below BBB. Thus, if a security is downgraded
+from BBB to BB, these investors are forced to sell the downgraded bonds.
+Of the large number of corporate bonds outstanding, traditionally the vast major-
+ity (based on the value of bonds outstanding) have been rated A or better. Bonds
+rated BB, B, CCC, and CC are regarded as speculative securities in terms of the
+issuer’s ability to meet its contractual obligations. Bonds rated C are highly vulner-
+able to nonpayment, and bonds rated D are in default.
+Despite their widespread acceptance and use, bond ratings have some limita-
+tions. The rating agencies may disagree on their evaluations. Furthermore, because
+most bonds are in the top four categories, it seems safe to argue that not all issues
+in a single category (such as A) can be equally risky. It is extremely important to
+remember that bond ratings are a reflection of the relative probability of default, which says
+little or nothing about the absolute probability of default. Finally, it is important to
+remember that, like most people and institutions in life, rating agencies aren’t per-
+fect. Occasionally, they really fail. For example, the agencies came under tremen-
+dous criticism in the aftermath of the global financial crisis, particularly with respect
+to mortgage-backed securities (MBSs). Many MBSs that were rated AAA failed as
+they were backed by subprime loans that defaulted. It came to light that the credit
+valuation models used by the rating agencies didn’t properly account for potential
+widespread default by home borrowers.
+Perhaps the biggest problem with credit rating agencies is that the issuers pay to
+have their bonds rated. If GM has a bond issue and wants Moody’s to rate it, GM
+pays the bill. There is a fairly obvious conflict of interest evident with this structure.
+The major rating agencies (S&P, Moody’s, and Fitch) compete for business. Firms
+want high ratings on their bond issues because it lowers the firms’ interest expense.
+Don’t you think that if you could hire the person who grades your college papers
+and examinations you might earn higher grades?
+Junk bonds The term junk bonds refers to high-risk, high-yield bonds that carry
+ratings of BB (S&P) or Ba (Moody’s) or lower. An alternative, and more reassuring,
+name used to describe this area of the bond market is the high-yield debt market.
+According to data from Moody’s, the default rate on junk bonds averaged 4.8 per-
+cent from 1983 through 2013. Default rates vary widely, as in the throes of the finan-
+cial crisis in 2009, they spiked to over 14 percent, while falling to 3 percent in 2017.
+As you would suspect, default rates are highly related to economic conditions.
+Junk Bonds Bonds that
+carry ratings of BB or
+lower
+In September 2011, with the European fiscal crisis
+regularly in the news, it was reported that Moody’s
+Investors Services was expected to cut the ratings of three large French banks
+because of their large holdings of Greek government debt. Expectations of
+this move lowered investor confidence in French banks and led to falling
+stock prices for these institutions. Security prices are determined largely by
+the expectations of market participants.
+EXAMPLE 2.6
+42 Chapter 2 Investment Alternatives
+Prior to the 1980s, most junk bonds were actually investment grade when they
+were issued. The creditworthiness of these bonds declined due to poor performance
+of the issuer. These bonds are often referred to as “fallen angels.” What changed in
+the 1980s was that more bonds were issued with below-investment-grade ratings to
+finance the wave of leveraged buyouts that were prominent at the time.
+Asset-backed securities The money and capital markets are constantly adapting
+to meet new requirements and conditions. This has given rise to new types of securi-
+ties that were not previously available.
+Securitization refers to the transformation of illiquid, risky individual loans into
+more liquid, less risky securities referred to as Asset-Backed Securities (ABSs). An
+asset-backed security is a securitized interest in a pool of assets. To create an ABS, a
+corporation creates a trust and sells it a group of assets. The trust, in turn, sells secu-
+rities to investors. Legal safeguards are established to protect investors from possible
+bankruptcy of the corporation.
+Asset-backed securities proliferated prior to 2008 as financial institutions rushed to
+securitize various types of loans. The volume of asset-backed securities issued in the
+United States peaked at over $750 billion in 2006. In 2010, the volume had fallen to
+$107 billion and has been steadily rising as we move further from the financial crisis.
+ABSs can be structured into “tranches,” 24 or different classes, which are priced
+according to the degree of risk. Different classes can have different credit ratings,
+and tranches may be structured with different average maturities. As for risks, secu-
+ritization works best when packaged loans are homogeneous, so that income streams
+and risks are more predictable. This is not the case for some of the newer loans
+being considered for packaging, such as loans for boats and motorcycles. These
+loans offer less information, which results in more risk from unanticipated factors.
+Asset- Backed Security
+(ABS) Security issued
+against some type of
+asset-linked debt, such as
+credit card receivables or
+mortgages
+A few examples of rating agency miscues include the
+following events. In December 2001, Enron was rated
+investment grade on a Friday. On Sunday, it filed for bankruptcy. Also at
+that time, S&P rated Tyco bonds as investment grade (BBB), although the
+bonds had junk bond yields. And by the time the rating services downgraded
+WorldCom to junk status in May 2002, the market had reflected that fact for
+some time. The lesson that investors should take from this is that bond ratings
+are simply one piece of information. They don’t substitute for investors doing
+their own analysis (or “due diligence”).
+EXAMPLE 2.7
+Concepts in Action
+Do You Want a Tailor-Made Fixed-Income
+Security?
+Tailor-made suits are better than suits off the
+rack, so tailor-made securities must be better
+than standard offerings. In theory that sounds
+correct, but practice is often much different than
+theory. By definition, structured products are
+financial assets consisting of several components
+combined together to create a specific risk–
+return profile that is attractive to specific inves-
+tors. Structured products range from financial
+products whose returns are linked to individual
+24 Tranche is actually a French word meaning “slice” or “portion.” ABSs and MBSs are created by taking
+a large pool of loans and slicing them up into smaller and smaller segments. Each of these segments
+becomes a security on its own.
+Fixed-Income Securities 43
+Returns on Fixed-Income Securities
+Returns on fixed-income securities fluctuate widely with changes in demand and
+supply conditions and inflationary expectations. As we would expect on the basis of
+the risk–return trade-off, corporate bond yields exceed Treasury yields, and lower-
+rated corporates yield more than higher-rated bonds. The yield on municipal bonds
+is below other rates, but we must remember that munis are tax exempt. To make
+them comparable, the municipal bond yield is adjusted to a TEY. When this is done,
+their rates are much closer to taxable rates. Investors can obtain daily information
+on the rates available on fixed-income securities in the The Wall Street Journal or on
+financial websites such as bloomberg.com or finance.yahoo.com.
+securities, such as the stock of Apple or a finan-
+cial index, such as the S&P 500.
+The largest range and greatest use of these
+securities has historically been in Europe and
+Asia, but some structured products have
+attained popularity in the United States. These
+products are created (structured) by finan-
+cial institutions to offer investors securities that
+behave somewhat differently than traditional
+securities. Examples of broad classes of struc-
+tured products include principal protected
+notes, enhanced income notes, performance
+participation notes, and leveraged participa-
+tion notes.
+To get an idea of how structured products
+work, let’s consider a principal protected
+note. This is a debt instrument that promises
+to pay a return based on the performance
+of an index (e.g., the S&P 500). The investor
+is promised to receive 100 percent of the
+investment back, as long as the note is held
+to maturity. The investor is also promised a
+certain percentage (say, 65 percent) of the
+appreciation in the specified index. In effect, by
+purchasing the structured product, rather than
+the underlying security, the investor is giving up
+some upside potential in return for downside
+risk protection.
+Like any investing opportunity, there are risks
+involved. Generally, investors must hold these
+products to maturity because there is not a
+liquid market for them. Commissions can also
+be quite expensive and may not even be readily
+apparent to most investors. These products are
+often extremely complex and require a great
+deal of due diligence (research) on the part
+of the investor to fully understand their terms.
+Finally, the notes are backed by a financial insti-
+tution, which could experience financial prob-
+lems or failure
+Most prominent banks have large credit card operations.
+They frequently take the cash flows from the monthly
+payments that customers make on their credit card accounts, securitize them,
+and sell the resulting bonds to investors.
+Marketable securities have been backed by car loans, credit card receivables,
+railcar leases, small-business loans, photocopier leases, aircraft leases, and
+so forth. The assets that can be securitized seem to be limited only by the
+imagination of the packagers, as evidenced by the fact that securitized asset
+types came from a variety of sources including royalty streams from films,
+student loans, mutual fund fees, tax liens, monthly electric utility bills, and
+delinquent child support payments.
+EXAMPLE 2.8
+Checking Your Understanding
+4. Consider a corporate bond rated AAA versus another corporate bond rated
+BBB. Could you say with confidence that the first bond will not default while
+the second bond has a reasonable probability of default?
+5. Municipal bond yields are stated on an after-tax basis, while corporate bond
+yields are stated on a before-tax basis. Agree or disagree, and state your
+reasoning.
+6. Should risk-averse investors avoid junk bonds?
+Equity Securities
+Unlike fixed-income securities, equity securities represent an ownership interest
+in a corporation. These securities represent a residual claim—after payment of all
+fixed-income claims—on the income and assets of a corporation. There are two
+forms of equities, preferred stock and common stock. Most individual investors are
+primarily interested in common stock.
+Preferred Stock
+Although technically classified an equity security, preferred stock (which is also
+called preference shares) is better characterized as a hybrid security because it has
+features of both equity and fixed-income instruments. Equity-like characteristics
+include the fact that it has an infinite life, pays dividends, and stands behind fixed-
+income investors in a bankruptcy proceeding. Preferred stock dividends are not
+legally binding, but must be voted on each period by a corporation’s board of direc-
+tors. In addition, due to their infinite maturity, the price fluctuations in preferred
+shares often exceed those in bonds.
+Preferred stock resembles fixed-income securities in that the dividend is fixed in
+amount and known in advance, and preferred stock stands before common share-
+holders in a bankruptcy proceeding. The dividend payment stream continues for-
+ever, unless the issue is called or otherwise retired (most preferred is callable).
+Most preferred stock has a cumulative feature, which means that if the issuer fails
+to pay the dividend in any year, the unpaid dividend(s) will have to be paid in the
+future before common stock dividends can be paid.25 A large amount of the total
+preferred stock outstanding is variable-rate preferred; that is, the dividend rate is tied
+to current market interest rates. In addition, more than one-third of the preferred
+stock sold in recent years is convertible into common stock at the owner’s option.26
+Common Stock
+Common stock represents the ownership interest of corporations, and we typically
+use the terms “equity” and “common stock” interchangeably. If a firm’s shares are
+held by only a few individuals, the firm is said to be “closely held.” Most companies
+Preferred Stock An equity
+security with an inter-
+mediate claim (between
+the bondholders and the
+stockholders) on a firm’s
+assets and earnings
+Common Stock An equity
+security representing
+ownership interest in a
+corporation
+25 In the event of a series of omitted dividends, preferred stock owners frequently gain voting rights.
+26 A recent innovation is mandatory convertible preferred, which automatically converts to common
+stock in a few years at a ratio specified at time of issuance.
+Equity Securities 45
+choose to “go public”; that is, they sell common stock to the general public. This
+action is taken primarily to enable the company to raise additional capital (funds)
+more easily. If a corporation meets certain requirements, it may choose to be listed
+on an exchange.
+As a purchaser of 100 shares of common stock, an investor owns 100/n percent of
+the corporation (where n is the number of shares of common stock the firm has out-
+standing). As the residual claimants of the corporation, stockholders are entitled to
+income remaining after the fixed-income claimants (including preferred stockhold-
+ers) have been paid; also, in the case of firm liquidation, common stockholders are
+entitled to the remaining assets after all other claims are satisfied. As owners, the
+holders of common stock are entitled to elect the directors of the corporation and
+vote on major issues.
+Stockholders also have limited liability, meaning that they cannot lose more than
+their investment in the corporation. In the event of financial difficulties, creditors
+have recourse only to the assets of the corporation, leaving the stockholders pro-
+tected. This is perhaps the greatest advantage of the corporate form and the reason
+why it has been so successful.
+Characteristics of common stock The par value for a common stock, unlike a
+bond or preferred stock, is generally not a significant economic variable. Corpora-
+tions can make the par value any number they choose—for example, the par value
+of Coca-Cola is $0.25 per share. A typical par value is $1; however, some corpora-
+tions issue no-par stock.
+The book value of a corporation is the accounting value of the equity as shown
+on the books (i.e., balance sheet). It is the sum of the par value of common stock
+outstanding, capital in excess of par value, and retained earnings. Dividing total
+book value by the number of common shares outstanding produces book value
+per share.
+The market value (i.e., price) of the stock is the variable of most concern to
+investors. The aggregate market value for a corporation, calculated by multiplying the
+price per share by the number of shares outstanding, represents the market value
+of equity. The aggregate market value is generally referenced as a firm’s market
+capitalization, or market cap for short. The market value of one share of stock is
+simply the observed stock price. As of December 31, 2018, Coca-Cola’s market price
+was $47.35 per share. Because the firm had 4.268 billion shares outstanding, Coca-
+Cola’s market cap was $202.09 billion!
+Cash dividends The only cash payments regularly made by corporations directly
+to their stockholders are dividends. They are decided on and declared by the board
+of directors and are generally paid quarterly for firms that choose to pay a dividend.
+The vast majority—approximately 80 percent—of companies in the S&P 500 index
+pay dividends. One prominent company that has never paid a dividend is Warren
+Buffett’s Berkshire Hathaway.
+Book Value The account-
+ing value of the equity
+as shown on the balance
+sheet
+The Coca-Cola Company reported $19.058 billion as
+total equity for fiscal year-end 2018. This is the book value
+of Coca-Cola’s equity. Based on shares outstanding of 4.268 billion, the book
+value per share was $4.47.
+EXAMPLE 2.9
+46 Chapter 2 Investment Alternatives
+• The common stockholder has no specific promise to receive any cash from
+the corporation since the stock never matures, and dividends do not have to
+be paid.
+Common stocks involve substantial risk, because the dividend is at the company’s
+discretion and stock prices typically fluctuate sharply, which means that the value of
+investors’ claims may rise and fall rapidly over relatively short periods of time.
+• Dividends are extremely important to many investors. Since 1930, over 40 per-
+cent of the total return on the S&P 500 Index came from dividends.
+The following two dividend terms are important:
+• The dividend yield is the income component of a stock’s return stated on a
+percentage basis. It is one of the two components of total return, discussed in
+Chapter 6. Dividend yield typically is calculated as the most recent 12-month
+dividend divided by the current market price.
+• The payout ratio is the ratio of dividends to earnings. It indicates the percent-
+age of a firm’s earnings paid out in cash to its stockholders. The complement
+of the payout ratio, or (1.0 − payout ratio), is the retention or plowback ratio, and
+it indicates the percentage of a firm’s current earnings retained by the firm for
+reinvestment purposes.
+How dividends are paid Dividends traditionally are declared and paid quarterly,
+although a few firms, such as Disney, have moved to semi-annual dividend payments.
+To receive a declared dividend, an investor must be a holder of record on the specified
+Dividend Yield Dividend
+per share divided by
+current stock price
+Payout Ratio Dividends
+divided by earnings
+Investments Intuition
+Companies may choose to repurchase their
+stock as an alternative way to affect their stock-
+holders. In effect, cash is paid by the company
+to its stockholders, and the number of shares is
+reduced.
+Some investors prefer companies that pay
+cash dividends, while others prefer investing
+in companies that repurchase shares. Cash
+dividend advocates contend that a steady
+stream of dividends provides value to inves-
+tors as their capital is returned over time.
+Investors can choose to take those dividends
+and (1) reinvest them in the company’s
+shares, (2) invest in other firms, or (3) increase
+their current consumption of goods and
+services.
+Stock repurchases (sometimes called “buy-
+backs”) are typically done in the open market.
+The company purchases shares from investors
+who choose to sell their stock at the prevail-
+ing market price. Investors who don’t sell their
+shares benefit because they now own a larger
+percentage of the company. Some market
+watchers contend that stock repurchases are
+signals that management believes that the stock
+is undervalued and is a good buy.
+As is generally the case with most investment
+decisions, taxes are also a consideration. Buy-
+backs, relative to dividend payments, are often
+considered to be more tax efficient as a method
+to distribute excess cash because only the share-
+holders who want to sell their stock will incur a
+tax liability. In contrast, all shareholders incur a
+tax liability when dividends are paid.
+46 Chapter 2 Investment Alternatives
+• The common stockholder has no specific promise to receive any cash from
+the corporation since the stock never matures, and dividends do not have to
+be paid.
+Common stocks involve substantial risk, because the dividend is at the company’s
+discretion and stock prices typically fluctuate sharply, which means that the value of
+investors’ claims may rise and fall rapidly over relatively short periods of time.
+• Dividends are extremely important to many investors. Since 1930, over 40 per-
+cent of the total return on the S&P 500 Index came from dividends.
+The following two dividend terms are important:
+• The dividend yield is the income component of a stock’s return stated on a
+percentage basis. It is one of the two components of total return, discussed in
+Chapter 6. Dividend yield typically is calculated as the most recent 12-month
+dividend divided by the current market price.
+• The payout ratio is the ratio of dividends to earnings. It indicates the percent-
+age of a firm’s earnings paid out in cash to its stockholders. The complement
+of the payout ratio, or (1.0 − payout ratio), is the retention or plowback ratio, and
+it indicates the percentage of a firm’s current earnings retained by the firm for
+reinvestment purposes.
+How dividends are paid Dividends traditionally are declared and paid quarterly,
+although a few firms, such as Disney, have moved to semi-annual dividend payments.
+To receive a declared dividend, an investor must be a holder of record on the specified
+Dividend Yield Dividend
+per share divided by
+current stock price
+Payout Ratio Dividends
+divided by earnings
+Investments Intuition
+Companies may choose to repurchase their
+stock as an alternative way to affect their stock-
+holders. In effect, cash is paid by the company
+to its stockholders, and the number of shares is
+reduced.
+Some investors prefer companies that pay
+cash dividends, while others prefer investing
+in companies that repurchase shares. Cash
+dividend advocates contend that a steady
+stream of dividends provides value to inves-
+tors as their capital is returned over time.
+Investors can choose to take those dividends
+and (1) reinvest them in the company’s
+shares, (2) invest in other firms, or (3) increase
+their current consumption of goods and
+services.
+Stock repurchases (sometimes called “buy-
+backs”) are typically done in the open market.
+The company purchases shares from investors
+who choose to sell their stock at the prevail-
+ing market price. Investors who don’t sell their
+shares benefit because they now own a larger
+percentage of the company. Some market
+watchers contend that stock repurchases are
+signals that management believes that the stock
+is undervalued and is a good buy.
+As is generally the case with most investment
+decisions, taxes are also a consideration. Buy-
+backs, relative to dividend payments, are often
+considered to be more tax efficient as a method
+to distribute excess cash because only the share-
+holders who want to sell their stock will incur a
+tax liability. In contrast, all shareholders incur a
+tax liability when dividends are paid.
+Coca-Cola’s 2018 earnings were $1.58 per share, and it
+paid an annual per share dividend of $1.56. Based on
+Coke’s year-end stock price of $47.35, its dividend yield was 3.29 percent. Its
+payout ratio was unusually high at $1.56/$1.58, or 99 percent.
+date that a company closes its stock transfer books. To avoid problems, the broker-
+age industry has established a procedure that counts back two business days from the
+holder-of-record date; this is the last day that the stock purchaser has the right to the
+dividend. Therefore, one business day before the holder-of-record date, the right to
+the dividend leaves the stock; for that reason this date is called the ex-dividend date.
+Stock dividends and stock splits A stock dividend is a payment by the corpora-
+tion in shares of stock instead of cash. A stock split is a corporate action in which
+a firm divides each existing share outstanding into multiple shares. On a practical
+basis, there is little difference between a stock dividend and a stock split; a stock split
+is essentially a large stock dividend.27
+The important question to investors is the value of the distribution, whether a
+dividend or a split. It is clear that the recipient has more shares (i.e., more pieces
+of paper), but has anything of real value been received? Other things being equal,
+these additional shares do not represent additional value because proportional own-
+ership has not changed. Quite simply, the pieces of paper, stock certificates, have
+been repackaged.28 That is, the proverbial pie has been cut into more pieces with no
+change in its total size. For example, if you own 1,000 shares of a corporation that
+has 100,000 shares of stock outstanding, your proportional ownership is 1 percent;
+with a 2-for-1 stock split, your proportional ownership is still 1 percent because you
+now own 2,000 shares out of a total of 200,000 shares outstanding.
+So, if nothing really changes, why do companies split their stock? This is the
+subject of debate in academic finance, but three reasons are often cited. First, many
+analysts believe that there is a preferred trading range for stocks. The vast majority
+of stocks trade between $10 and $100. Once a stock is outside of that trading range,
+it is less attractive to some investors. Second, stock splits convey positive information
+about a firm’s performance, as successful companies split their stock. Finally, splits
+generate publicity and that may be helpful in attracting investor interest.
+Stock Dividend A pay-
+ment by the corporation
+in shares of stock rather
+than cash
+Stock Split A corporate
+action that divides each
+share into multiple shares
+Concepts in Action
+An Argument against Stock Splits
+Some companies choose not to split their stock.
+As of early 2019, Berkshire Hathaway Class A
+shares were selling for over $300,000 for a single
+share of stock! Chairman Warren Buffett believes
+that such a high stock price keeps out frivolous
+investors and leads to a more stable shareholder
+base. And who can argue with him? Berkshire
+Hathaway is one of the most successful com-
+panies in the world.
+Assume that the board of directors of Coca-Cola meets
+on May 26 and declares a quarterly dividend, payable on
+July 2. May 26 is called the declaration date. The board will declare a holder- of-
+record date—say, Thursday, June 12. The books close on this date, but Coke
+goes ex-dividend on Wednesday, June 11. To receive this dividend, an investor
+must purchase the stock by Tuesday, June 10. The dividend will be mailed to
+the stockholders of record on the payment date, July 2.
+EXAMPLE 2.11
+27 With a stock split, the per share book value of equity is changed; for example, it is cut in half with a
+2-for-1 split.
+28 Stock data, as reported to investors in most investment information sources, typically are adjusted for
+stock dividends and stock splits. Obviously, such adjustments must be made in order to make compari-
+sons legitimate.
+48 Chapter 2 Investment Alternatives
+P/E ratio (earnings multiplier) The P/E ratio, also referred to as the earnings mul-
+tiplier, is calculated as the ratio of the current stock price to some measure of the firm’s
+annual earnings per share. It is standard investing practice to refer to stocks as selling
+at, say, 10 times earnings or 25 times earnings. Investors have traditionally used such
+a classification to categorize stocks. Growth stocks, for example, typically sell at high
+multiples, compared to the average stock, because investors are willing to pay more for
+their expected higher earnings growth. Variations of this ratio are often used in the
+valuation of common stocks. Price-to-earnings multiples are readily available in news-
+papers, on financial websites, and in financial databases. In fact, the P/E ratio in its
+various forms is one of the best-known and most often cited variables in security analy-
+sis and is familiar to almost all investors.29 What most people do not realize though
+is that not all sources calculate P/E ratios in an identical manner. In calculating P/E
+ratios, all of the methods use the current stock price in the numerator. However, there
+are a variety of alternatives for the earnings measure used in the denominator. A few of
+the alternative methods used in calculating the P/E ratio are shown below:
+• Historical P/E based on the last full fiscal year’s earnings (also known as a
+trailing P/E).
+• Historical P/E based on the last 12 months of earnings (commonly known
+as trailing 12 months (TTM), but practically speaking it is really the last four
+quarters)—also referred to as a trailing P/E. This is the method used by
+Yahoo! Finance.
+• Leading P/E based on a forecast of the next fiscal year’s earnings.
+• Leading P/E based on a forecast of the next four quarters’ earnings.
+• P/E based on a combination of the last two historical quarters plus the next
+two forecast quarters. This is the method used by Value Line. 30
+Because the price of a stock, which is determined in the marketplace, is divided by
+its earnings, the P/E ratio shows how much the market as a whole is willing to pay
+per dollar of earnings.
+P/E Ratio (Earnings
+Multiplier) The ratio of
+stock price to historical or
+estimated earnings
+A 5 percent stock dividend would entitle an owner of 100
+shares of a particular stock to an additional five shares. A
+2-for-1 stock split would double the number of shares of stock outstanding and
+double an individual owner’s number of shares (e.g., from 100 shares to 200
+shares). The split would also cut the stock price in half at the time of the split.
+EXAMPLE 2.12
+The price of Coca-Cola at year-end 2018 was $47.35 and
+the firm’s most recent 12-month trailing earnings per share
+(EPS) was $1.58. Therefore, Coke’s trailing P/E ratio was 29.97. Bloomberg
+estimated Coke’s 2019 EPS at $1.78, producing a leading (forward) P/E of 26.60
+for Coke. Note that for a growing firm, its trailing P/E will exceed its forward P/E
+Equity Securities 49
+Investing Globally in Equities
+U.S. investors, like investors in many other countries, invest in foreign securities as they
+seek higher returns and possibly lower risks. Furthermore, changes in currency values
+can greatly increase interest in owning foreign securities. For example, if U.S. inves-
+tors forecast that the dollar will fall in value, investing in foreign securities is undertaken
+to benefit from the decline. While U.S. investors typically choose to use investment
+companies—mutual funds, closed-end funds, and exchange-traded funds—to pursue
+international investing, some investors choose to buy individual foreign securities.
+American depository receipts (ADRs) A popular way to buy foreign companies
+is to purchase American Depository Receipts (ADRs). ADRs represent indirect own-
+ership of a specified number of shares of a foreign company. These shares are held
+on deposit in a bank in the issuing company’s home country, and the ADRs are
+issued by U.S. banks called depositories. In effect, ADRs are tradable receipts issued
+by a depository that has physical possession of the foreign securities through its for-
+eign correspondent bank or custodian. The bank (or its correspondent) holding the
+securities collects the dividends, pays any applicable foreign withholding taxes, con-
+verts the remaining funds into dollars, and pays this amount to the ADR holders.31
+ADRs are an effective way for an American investor to invest in individual for-
+eign stocks without having to worry about currency conversions, bank accounts,
+and brokerage issues. Currently, there are literally hundreds of ADRs listed on U.S.
+exchanges and markets. For example, there are more than 100 ADRs from Brazil
+alone that trade on U.S. exchanges and over the counter. Examples of well-known
+companies that trade as ADRs include Baidu, Toyota, Volvo, Sony, and British Petro-
+leum. The prices of ADRs are quoted in dollars, and dividends are paid in dollars.
+Note that while some companies in developing countries have issued ADRs, other
+prominent foreign companies have no ADR that trades in the United States.
+American Depository
+Receipt (ADR) A security
+representing an ownership
+interest in the stock of a
+foreign company
+Petrobras, a large energy company in Brazil, has an
+ADR listed on the NYSE. On the other hand, Samsung,
+a major producer of consumer products, has no ADR traded in the United
+States. However, an investor could buy the South Korea exchange-traded fund
+which has Samsung as one of its major holdings (exchange-traded funds are
+explained in Chapter 3).
+EXAMPLE 2.14
+Concepts in Action
+Think Globally, Invest Locally
+While most investors recognize the benefits of
+global diversification, they concentrate their hold-
+ings in their own domestic markets. This tendency
+is known as “home country bias.” A 2013 Franklin
+Templeton Global Investor Sentiment Survey
+showed that while 65 percent of the world’s
+investments (as measured by market capitaliza-
+tion) are outside of the United States, 39 percent
+of investors had all of their assets invested in the
+United States. A Fidelity study showed that U.S.
+investors, on average, keep about 72 percent of
+their investments in their home market
+54 Chapter 2 Investment Alternatives
+• In general terms, buyout funds attempt to revitalize established firms, whereas
+venture capital funds are involved in creating new firms.
+• Derivative securities include options and futures.
+• Options allow both buyers and sellers (writers) to speculate on and/or hedge
+the price movements of stocks for which these claims are available. Calls (puts)
+are rights to purchase (sell) a common stock at a specified price within a speci-
+fied future time.
+• Futures contracts provide for the future exchange of a particular asset between
+a buyer and a seller. Securities that combine characteristics of both securi-
+ties—options on futures—are also available.
+Questions
+2.1 What is meant by “indirect” investing?
+2.2 What does it mean for Treasury bills to be sold at a
+discount?
+2.3 Distinguish between a negotiable certificate of
+deposit and the certificate of deposit discussed in the
+section “Nonmarketable Financial Assets.”
+2.4 Name the four issuers of bonds discussed in this
+chapter. Which do you think would be most risky as a
+general proposition?
+2.5 From an issuer standpoint, what is the distinction
+between Fannie Mae and Ginnie Mae?
+2.6 Name and explain the difference between the two
+types of municipal securities.
+2.7 What does it mean to say that investors in Ginnie
+Maes face the risk of early redemption?
+2.8 What are the advantages and disadvantages of Trea-
+sury bonds?
+2.9 Is there any relationship between a savings bond and
+a U.S. Treasury bond?
+2.10 Why is preferred stock referred to as a “hybrid”
+security?
+2.11 Why is a common stockholder referred to as a
+“residual claimant?”
+2.12 Do all common stocks pay dividends? Who decides?
+2.13 What is meant by the term derivative security?
+2.14 What is meant by the term securitization?
+2.15 Give at least two examples of asset-backed securities.
+2.16 Why should we expect six-month Treasury bill rates
+to be less than six-month CD rates or six-month
+commercial paper rates?
+2.17 Why is the call provision on a bond generally a disad-
+vantage to the bondholder?
+2.18 Is a typical investor more likely to hold zero-coupon
+bonds in a taxable account or a nontaxable account?
+Why?
+2.19 What is meant by home country bias?
+2.20 What is an ADR? What advantages do they offer
+investors?
+2.21 What value do investors derive from stock dividends
+and splits?
+2.22 What are the advantages and disadvantages of being
+a holder of the common stock of IBM as opposed to
+being a bondholder?
+2.23 Assume you plan to purchase the stock of a company
+that is expected to pay a quarterly dividend of $3.20.
+The board of directors has declared the dividend
+payable on September 1, with a holder-of-record date
+of Friday, August 15. When must you buy the stock to
+receive this dividend, and how much will you receive
+if you buy 150 shares?
+2.24 With regard to bond ratings, which of the following
+statements is INCORRECT?
+(a) The first four categories represent investment-
+grade securities.
+(b) Ratings reflect the absolute probability of default.
+(c) Both corporates and municipals are rated.
+(d) Ratings are current opinions on the relative
+quality of bonds.
+2.25 Preferred stocks and common stocks are similar in
+that:
+(a) both are equity securities.
+(b) both pay a stated and fixed dividend.
+(c) the expected return for each can be estimated
+with precision for the next period.
+(d) both have an equal claim on the income stream
+of the company.
+2.26 The common stockholder:
+(a) is guaranteed a specified dividend return.
+(b) is senior to (i.e., ranks above) debtholders in terms
+of payment.
+(c) takes relatively small risk in any given year.
+(d) can best be described as the residual claimant.
+2.27 What are the general types of private equity, and how
+do they differ?
+
+

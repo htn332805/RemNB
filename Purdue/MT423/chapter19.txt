@@ -1,0 +1,1271 @@
+498CHAPTER 19
+When an investor talks about trad-
+ing derivative securities, the com-
+mon assumption among most
+individuals is that the investor pre-
+fers to take on considerable risk.
+After all, derivative securities have
+been responsible for some spec-
+tacular losses throughout history.
+For example, in 1998, Long-Term
+Capital Management lost over
+$4.5 billion trading derivatives,
+and in 2012, JP Morgan Chase lost
+nearly $6 billion trading derivative
+instruments. Based on the many
+well-publicized losses attributed
+to derivatives trading, you may be
+tempted to dismiss derivatives as a
+viable alternative for your portfo-
+lio. This would be a mistake as derivatives represent a very flexible investment alter-
+native that can be used in a variety of ways.
+Derivative securities are simply agreements to transfer the ownership of the
+underlying securities under specified conditions. In an investment context, deriv-
+atives can be used to enhance portfolio risk, reduce portfolio risk, or simply to
+generate income. Thus, derivatives can be viewed as an investment tool that offers
+investors many opportunities. This chapter analyzes one type of derivative instru-
+ment, options, whereas Chapter 20 analyzes another, futures.
+After learning more about derivative securities, you may decide that they are
+something you want to incorporate into your investment strategy. But even if you
+choose not to use derivatives in managing your portfolio, it is imperative that you
+have a basic understanding of derivatives because they have become part of the
+investment lexicon. So, if you want to participate in investment discussions, you will
+need to be equipped with an understanding of derivatives.
+This chapter focuses on put and call equity options. Equity options give the holder
+the right to receive or deliver shares of stock under certain specified conditions. We
+concentrate mostly on options on individual stocks but also consider index options.
+Chapters 19 and 20 focus on financial derivatives as opposed to derivatives involving
+commodities such as gold and oil.
+Options
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain how and why investors use
+options in their investment strat-
+egies.
+• Describe the option alternatives
+available to investors and how the
+options markets operate.
+• Evaluate alternative option trading
+strategies.
+• Explain the inputs for the Black-
+Scholes model and describe the
+option valuation process.
+Introduction to Options 499
+The emphasis here is on how puts and calls work and on their importance to
+investors. Options are useful in portfolio and risk management and are used by
+both individual investors and portfolio managers.
+Why Have Derivative Securities?
+Some people wonder why we have derivative instruments such as options and futures,
+which allow investors to speculate on securities and indexes. Investors can easily lose
+their entire investment in a derivative security by speculating on a price move.
+An important reason for the existence of derivatives is that they contribute to
+market completeness. A complete market is one where all identifiable payoffs can be
+obtained by trading the securities that are in that market. Incomplete markets exist
+when investors are not able to exploit all available opportunities.
+Derivatives offer an opportunity to limit the risk faced by both individual inves-
+tors and firms. They can also be used as a substitute for the underlying positions and
+may offer lower transaction costs as well as more liquidity. Finally, derivatives allow
+investors to speculate, which involves taking a market position when a change in
+prices or interest rates is expected.
+• Derivatives have several important applications, including risk management,
+trading efficiency, and speculation.
+Why Options Markets
+An investor can purchase shares of common stock if he or she is bullish about a
+company’s prospects or sell short if bearish. Why, then, should we create these indi-
+rect claims on a stock as an alternative way to invest? Several reasons have been
+advanced, including the following:
+1. Puts and calls expand the opportunity set available to investors, making avail-
+able risk–return combinations that would otherwise be impossible or that
+improve the risk–return characteristics of a portfolio.
+2. An investor can establish a position with options for a much smaller invest-
+ment than required with the security itself. The buyer’s maximum loss is
+known in advance. If an option expires worthless, the most the buyer can lose
+is the cost (price) of the option.
+3. Options provide leverage—the chance to magnify percentage gains.
+4. Using options on a market index, such as the S&P 500, allows an investor to
+participate in market movements with a single trading decision.
+Introduction to Options
+Options on common stocks are created by investors and sold to other investors. The
+corporation whose common stock underlies these claims has no direct involvement
+in the transaction and is not responsible for creating, terminating, or executing put
+and call contracts.
+An option is created when someone writes (sells) the option. Options can be
+created and destroyed; therefore, there is no predefined number of puts and calls.
+Options Rights to buy or
+sell a stated number of
+shares within a specified
+period at a specified price
+500 Chapter 19 Options
+• A call option on a stock gives the holder the right to buy (or “call away”) shares
+of the stock at a specified price any time prior to a specified expiration date.1
+Investors purchase calls if they expect the stock price to rise because the price
+of the call and the common stock will move up together. Therefore, calls permit
+investors to speculate on a rise in the price of the underlying common stock without
+buying the stock itself.
+• A put option gives the buyer the right to sell (or “put to the seller”) shares of
+the stock at a specified price prior to the expiration date.
+Investors purchase puts if they expect the stock price to fall, because the value of the
+put will rise as the stock price declines. Therefore, puts allow investors to speculate
+on a decline in the stock price without selling the common stock short.
+Long-Term Options
+Long-term options known as Long-Term Equity Anticipation Securities (LEAPS)
+were introduced in 1990. These long-term options are available on hundreds of
+stocks and many indexes.
+LEAPS have original maturities longer than one year and up to three years.
+They typically are considerably more expensive than short-term options. Like other
+options, they can be used to hedge or speculate.2
+Call An option to buy
+shares of stock at a stated
+price within a specified
+period
+Put An option to sell
+shares of stock at a stated
+price within a specified
+period
+Long- Term Equity
+Anticipation Securities
+(LEAPS) Puts and calls
+with longer maturity dates,
+up to three years
+A Coca-Cola six-month call option at $55 per share gives
+the buyer the right (an option) to purchase 100 shares of
+Coke at $55 per share from a writer (seller) of the option anytime prior to the
+six-month expiration date. The buyer pays a premium (the price of the call)
+to the writer for this option.
+EXAMPLE 19.1
+A buyer of a Coca-Cola six-month put at $55 per share has
+the right to sell 100 shares of Coke to the put writer for
+$55 per share. The writer receives a premium (the price of the put) for selling
+this option. The put buyer can exercise his or her right any time within the
+next six months.
+EXAMPLE 19.2
+Equity LEAPS are available on over 2,500 individual
+stocks including Intel and Adobe, and Index LEAPS are
+available on over 20 indexes including the S&P 100 and S&P 500.
+502 Chapter 19 Options
+2. What does it mean to say a call buyer has a right but not an obligation? What
+about the call seller?
+3. Suppose you buy car insurance that can be renewed annually. Thinking in
+general terms, can this be considered an option? If so, which type?
+How Options Work
+As noted, a standard call (put) contract gives the buyer the right to purchase (sell)
+100 shares of a particular stock at a specified exercise price any time before the expi-
+ration date. Options are created by sellers, either individuals or institutions, who seek
+to profit from their beliefs about the underlying stock’s likely price performance.
+The buyer and the seller of an option have opposite expectations about the likely
+performance of the underlying stock, and, therefore, the performance of the option:
+• The call writer expects the stock price to remain roughly steady or perhaps drop.
+• The call buyer expects the price of the stock to move upward, and relatively soon.
+• The put writer expects the price of the stock to remain roughly steady or per-
+haps move up.
+• The put buyer expects the price of the stock to move down, and relatively soon.
+Puts are created in the same manner as calls. A writer creates a put contract and
+sells it for the premium, which is paid by the buyer. The writer believes that the
+underlying common stock is likely to remain flat or appreciate, while the buyer
+believes that the stock price is likely to decline.
+Assume Carl is optimistic about Intel’s prospects. Carl
+buys a March call option on Intel at a strike price of $40.
+Assume the stock price is $41.15, and the premium is $1.60. Carl pays this
+premium, a total cost of $160 since 100 shares are involved, plus brokerage
+commissions. Three courses of action are possible with any option:
+1. The option may expire worthless. Assume the price of Intel fluctuates up and
+down but is at $39.25 on the option’s expiration date. The call gives the
+buyer (owner) the right to purchase Intel at $40, but this would make no
+sense when Intel can be purchased on the open market at $39.25. There-
+fore, the option will expire worthless.
+2. The option may be exercised. If Intel sells at a price above $40 at option expira-
+tion, Carl will exercise the option by paying $4,000 (the $40 exercise price
+multiplied by 100 shares) and receive 100 shares of Intel.6
+3. The option can be sold in the secondary market. If Intel appreciates, the value
+(price) of the call will also appreciate. Carl can easily sell the call in the
+secondary market to another investor who wishes to speculate on Intel. Most
+investors trading puts and calls do not exercise those that are valuable;
+instead, they simply sell them on the open market, exactly as they would
+the common stock if they owned it.7
+EXAMPLE 19.4
+6 Assume that the price appreciates to $50 before expiration. After exercise, Carl owns 100 shares of
+Intel worth $50 per share, for which he paid $40 per share (plus the $1.60 per share for the call). An
+immediate sale of the stock in the market would result in a $840 gross profit (brokerage costs are not
+included here), or [$5,000 − ($4,000 + $160)].
+7 American calls on stocks that do not pay a cash dividend should never be exercised before the expira-
+tion date. Calls on stocks paying a cash dividend might be exercised before the expiration date.
+Checking Your Understanding 503
+• Unlike a buyer, who is not obligated to act, a writer may be assigned to take
+action in the form of making or taking delivery of the stock.
+As with a call, two other courses of action are possible in addition to the exercise
+of the put. The put may expire worthless because the stock price did not decline
+enough to justify exercising the put. Far more likely, however, the put owner can sell
+the put in the secondary market for a profit (or a loss).
+What actually happens to puts and calls?
+60 percent are
+traded in
+the marketplace
+30 percent expire
+worthless 10 percent are
+exercised
+• Most call and put investors simply sell their options in the open market. There-
+fore, they close out their positions before the expiration date.
+The Mechanics of Trading
+The options exchanges There are several options exchanges, including
+the Chicago Board Options Exchange (CBOE), the Nasdaq OMX PHLX, the
+International Securities Exchange (ISE), the BATS Options Market, the NYSE
+Amex Options Market, and the NYSE Arca.9
+The options markets provide liquidity to investors, which is a very important
+requirement for successful markets. Investors know that they can buy or sell when-
+ever they choose at a price set by the forces of supply and demand.
+Assume that a writer sells a March Intel put at an exercise
+price of $40 when the stock price is $41.15. The premium
+is $0.30, or $30 for 100 shares, which the buyer of the put pays and the seller
+(writer) receives. Suppose the price of Intel declines to $35 near the expiration
+date. The put owner (buyer), who did not own Intel stock previously, could
+purchase 100 shares of Intel in the open market for $3,500. The buyer could
+then exercise the put, which means that a writer chosen randomly must accept
+the 100 shares of Intel and pay the put owner $40 per share, or $4,000 total
+(although the current market price is only $35). The put buyer grosses $470
+($4,000 received less $3,500 cost of 100 shares less the $30 paid for the put).
+The put writer suffers an immediate paper loss of $500 because the 100 shares
+of Intel are worth $35 per share but have a cost of $40 per share, although the
+premium received by the writer reduces this loss by $30. All brokerage costs
+are ignored in this example.8
+EXAMPLE 19.5
+8 With stock options, the transactor must pay the brokerage commission for buying or selling the stock.
+9 In addition, the Options Clearing Corporation reports trading for other exchanges such as the Boston
+Options Exchange (BOX) and the NSDQ Nasdaq market. For more details, see http://www.option-
+sclearing.com/market/vol_data/main/exchange_volume.jsp.
+504 Chapter 19 Options
+• Options exchanges make puts and calls a success by standardizing the exercise
+date and exercise price of contracts. One Intel May 45 call option is identical
+to every other Intel May 45 call option.
+The same types of orders discussed in Chapter 5, in particular market, limit, and
+stop orders, are used in trading puts and calls. Certificates representing ownership
+are not used for puts and calls; instead, transactions are handled as bookkeeping
+entries. Option trades settle on the next business day after the trade.
+The secondary markets for puts and calls have worked well since the CBOE
+started operations in 1973. Trading volume has been large, and the number of puts
+and calls available has expanded.
+The clearing corporation The Options Clearing Corporation (OCC) performs
+a number of important functions that contribute to the success of the secondary
+market for options. It functions as an intermediary between the brokers represent-
+ing the buyers and the writers. That is, once the brokers representing the buyer and
+the seller negotiate the price on the floor of the exchange, they no longer deal with
+each other, but with the OCC.
+Through their brokers, call writers are effectively contracting with the OCC to
+deliver shares of the particular stock, and buyers of calls actually receive the right to
+purchase the shares from the OCC.
+• The OCC effectively becomes the buyer for every seller and the seller for
+every buyer, guaranteeing that all contract obligations are met. This prevents
+problems that could occur as buyers attempt to force writers to honor their
+obligations.
+The net position of the OCC is always zero because the number of contracts pur-
+chased must equal the number sold.
+Investors wishing to exercise their options inform their brokers, who in turn
+inform the OCC of the exercise. The OCC randomly selects a broker on whom it
+holds the same written contract, and the broker randomly selects a customer who
+has written these options to honor the contract. Writers chosen in this manner are
+said to be assigned an obligation or to have received an assignment notice. Once
+assigned, the writer cannot execute an offsetting transaction to eliminate the obli-
+gation; that is, a call writer who receives an assignment must sell the underlying
+securities, and a put writer who receives an assignment must purchase the underly-
+ing stock.
+A great advantage of a clearinghouse is that transactors can easily cancel their
+positions prior to assignment. Since the OCC maintains all the positions for both
+buyers and sellers, it can cancel out the obligations of both call and put writers wish-
+ing to terminate their position.10
+• A writer of a put or call can buy the exact same option and cancel the position
+at any time (except in the case of assignment).
+Options Clearing Cor-
+poration (OCC) Stands
+between buyers and sellers
+of options to ensure fulfill-
+ment of obligations
+10 For example, a call writer can terminate the obligation to deliver the stock any time before the expira-
+tion date (or assignment) by making a “closing purchase transaction” at the current market-determined
+price of the option. The OCC offsets the outstanding call written with the call purchased. A put writer
+can also close out a position at any time by making an offsetting transaction.
+Payoffs and Profits from Basic Option Positions 507
+Selling (writing) a call A writer of an uncovered (naked) call incurs losses if the
+stock’s price increases, as shown by the payoff profile in Figure 19.1(b) (note care-
+fully that we are not talking here about covered call writing—writing a covered call
+is a different situation, as explained below). For a naked call writer, the payoff is flat
+at the amount of the premium until the exercise price is reached, at which point it
+declines as the stock price rises. The writer loses if the stock price rises, exactly as
+the call buyer gains if the stock price rises.
+The profit line in Figure 19.3 shows a similar pattern to that of the call buyer, except
+now the profit is positive up to the exercise price because the call writer is receiving
+the premium. The horizontal axis intercept in Figure 19.3 occurs at the breakeven
+point for the option writer—the sum of the exercise price and the option premium
+received (note that the breakeven point is identical to that of the call buyer). As the
+stock price exceeds the breakeven point, the uncovered call writer loses.
+The mirror images of the payoff and profit profiles for the call buyer (Figure 19.2)
+and the call writer (Figure 19.3) illustrate an important point.
+• Options trading is a zero-sum game. What the option buyer (writer) gains, the
+option writer (buyer) loses.
+Puts
+Buying a put A put buyer makes money if the price of the stock declines. There-
+fore, as Figure 19.1(c) illustrates, the payoff pattern is flat to the right of the exercise
+price; that is, stock prices greater than the exercise price result in a $0 payoff for
+the put buyer. As the stock declines below the exercise price, the payoff for the put
+option increases. The larger the decline in the stock price, the larger the payoff.
+Breakeven for stock purchase
+Purchase the stock
+Purchase a call
+20
+10
+0
+0 10 20 30
+Market price
+Profit $Loss
+40 50 60 70
+–10
+–20
+Breakeven for call
+FIGURE 19.2 Profit and loss to the buyer of a call option
+Payoff to call writer at expiration :
+if
+if
+T T( )S E S E
+S0 TT E
+508 Chapter 19 Options
+Once again, the profit line parallels the payoff pattern for the put option at expi-
+ration. As Figure 19.4 illustrates, the investor breaks even (no profit) at the point
+where the stock price is equal to the exercise price minus the premium paid for
+the put. Beyond that point, the profit line parallels the payoff line representing the
+investment value of the put.
+20
+10
+0
+0 10 20 30
+Market price
+Profit $Loss
+40 50 60 70
+–10
+–20
+FIGURE 19.3 Profit and loss to the writer of a call option
+Breakeven for put purchase
+Selling the stock short
+Purchasing a put
+20
+30
+10
+0
+0 10 20 30
+Market price
+Profit $Loss
+40 5046 48 60 70
+–10
+–20
+Breakeven for short sale
+FIGURE 19.4 Profit and loss to the buyer of a put option
+Payoff to put buyer at expiration:
+if
+if
+T
+T T
+0 S E
+E S S E
+Payoffs and Profits from Basic Option Positions 509
+Selling (writing) a put The payoff pattern for the put writer is the mirror image
+of that for the put buyer as shown in Figure 19.1(d). The put writer retains the
+premium if the stock price rises and loses if the stock price declines. The put writer
+exchanges a fixed payoff for unknown losses.
+Writers (sellers) of puts seek the premium income exactly as call writers do. The
+writer is obligated to purchase the stock at the exercise price during the life of the
+put contract. If the stock price declines, the put buyer may purchase the stock and
+exercise the put by delivering the stock to the writer, who must pay the specified
+price.
+Note that the put writer may be obligated to purchase a stock for, say, $50 a share
+when it is selling in the market for $40 a share. Also note that the put writer can
+cancel the obligation by purchasing an identical contract in the market.
+Some observations on buying and selling options Options are attractive
+because of the small investment required and the potentially large payoff. According
+510 Chapter 19 Options
+to empirical studies, the odds favor sellers. Writing calls produces steady, although
+not extraordinary, returns. Call buying is often unprofitable. When buying options,
+investors should generally avoid options that expire in a few weeks—about 75 per-
+cent of the option premium disappears in the last three weeks of the option’s life.
+Selling uncovered options can be very risky. In effect, the reward (premium) does
+not justify the risk for most investors.
+Some Basic Options Strategies
+In the previous section, we examined the payoffs, and profits/losses, for basic
+“uncovered” positions involving options. The six uncovered positions are long
+stock, short stock, buy call, write call, buy put, and write put. In this section, we ana-
+lyze “covered” positions involving hedges.
+A hedge is a combination of an option and its underlying stock designed such
+that the option protects the stock against loss or the stock protects the option against
+loss. We consider the more popular hedges next.
+Covered Calls
+A covered call involves the purchase of stock and the sale of a call on that stock;
+that is, it is a long position in the stock and a short position in a call. 12 The posi-
+tion is “covered” because the writer owns the stock and could deliver it if the call is
+exercised by the holder. In effect, the investor is willing to agree to sell the stock at
+a fixed price in exchange for the call premium.
+Using our previous notation, the payoff profile at expiration is:
+Hedge A strategy using
+derivatives to offset or
+reduce the risk result-
+ing from exposure to an
+underlying asset
+Covered Call A strategy
+involving the sale of a call
+option to supplement a
+long position in an under-
+lying asset
+Payoff of stock
+Payoff of call
+Total payoff
+T
+T
+T
+T
+S E
+S
+S E
+S
+0
+SS
+S E
+ET
+T
+Assume an investor purchased 100 shares of Hewlett-
+Packard last year for $40 per share and this year, with the
+stock price at $48, writes a (covered) six-month call with an exercise price
+of $50. The writer receives a premium of $4. This situation is illustrated in
+Figure 19.6.
+If called on to deliver the shares, the investor receives $50 per share, plus the
+$4 premium, for a gross profit of $14 per share (since the stock was purchased
+at $40 per share). However, the investor gives up the additional potential gain
+if the stock price rises above $50—shown by the flat line to the right of $50 for
+the covered call position in Figure 19.6. If the price rises to $60, for example,
+the investor grosses $14 per share but could have grossed $20 per share if no
+call had been written.
+EXAMPLE 19.9
+12 If the stock is purchased at the same time as the call is written, it is called a “buy-write.” If the shares are
+already owned, it is sometimes called an “overwrite.”
+Some Basic Options Strategies 511
+• Writing a covered call is typically regarded as a conservative strategy because it
+reduces the cost of owning the stock.
+Protective Puts
+A protective put involves buying a put on a stock that is owned; that is, it is a long
+position in both the stock and a put. The put acts as insurance against a decline in
+the underlying stock, guaranteeing an investor a minimum price at which the stock
+can be sold. In effect, the insurance acts to limit losses or unfavorable outcomes. As
+indicated by the following payoff profile, the largest profit possible is the price of
+the stock, which is infinite.
+Above the exercise price, the payoff reflects the increase in the stock price. Below
+the exercise price, the payoff is worth the exercise price at expiration.
+Chapter 19 Options
+Figure 19.7 shows the protective put versus an investment in the underlying
+stock. As always, the payoff for the stock is a straight line, and the payoff for the
+option strategy is an asymmetrical line consisting of two segments. The payoff for
+the protective put clearly illustrates what is meant by the term truncating the distri-
+bution of returns. Below a certain stock price (the exercise price), the payoff line
+is flat or horizontal. Therefore, the loss is limited to the cost of the put. Above the
+breakeven point, the protective put strategy shares in the gains as the stock price
+rises. This is the true benefit of derivative securities and the reason for their phe-
+nomenal growth—derivatives provide a quick and inexpensive way to alter the risk
+of a portfolio.
+• A protective put offers insurance against a decline in the stock price. The
+insurance cost is the premium paid for the put.
+The diagram for the protective put is identical to the diagram for purchasing a
+call except for the vertical axis intercept. This relationship illustrates a well-known
+concept called portfolio insurance, which is explained next.
+Portfolio Insurance
+The potential risk–return modification properties of options, particularly the insur-
+ance aspects discussed earlier, are well illustrated by the technique known as port-
+folio insurance. This technique is designed to hedge portfolio positions by providing
+a minimum return on the portfolio, while simultaneously providing an opportunity
+for the portfolio to participate in rising security prices. The technique became very
+popular in the 1980s, with many billions of dollars of assets insured.
+There are several methods of insuring a portfolio, including options, futures, and
+the creation of synthetic options. In practice, it is common to use futures contracts
+on market indexes (as discussed in Chapter 20). However, in principle, options can
+be used in portfolio insurance strategies, and their use illustrates the basic nature
+of a hedge.
+The idea behind implementing portfolio insurance with options is simple. A pro-
+tective put is purchased that allows the portfolio to be sold for an amount sufficient
+to provide the minimum return. The remaining portfolio is invested in the usual
+manner. The protective put provides insurance for the portfolio by limiting losses
+in the event stock prices decline. The portfolio’s value at the end of the period will
+equal or exceed the exercise price of the put.
+Portfolio Insurance A
+technique designed to
+provide a portfolio with a
+lower limit on value, while
+permitting it to benefit
+from rising security prices
+Synthetic Options Cre-
+ated by a combination of
+two options or an option
+and shares
+Payoff for put
+ST
+Payoff for protective put
+Payoff
+Profit
+ST
+EE
+Payoff for stock
+ST
+E
+FIGURE 19.7 Payoff profile and profit/loss for a protected put position
+Option Valuation 513
+This example illustrates the use of puts in portfolio insurance strategies. In practice,
+the exercise-at-any-time feature of American options makes them not only more valu-
+able than corresponding European options but also more costly for portfolio insur-
+ance purposes. Furthermore, it generally is not possible to find puts and calls with the
+exact time to expiration, exercise price, and so on that matches a particular portfolio.
+It should be noted that portfolio insurance is not costless. The investor must pay
+for the cost of the put, which can be thought of as the insurance premium. If the
+stock price appreciates, the premium reduces the investor’s return relative to what
+it would otherwise have been.
+Checking Your Understanding
+6. In terms of payoff and profit profiles, what is the distinguishing characteristic
+for the various options positions? How does this differ from simply buying a
+stock, or shorting a stock?
+7. Why is covered call writing considered a conservative strategy?
+Option Valuation
+A General Framework
+In this section, we examine the determinants of put and call values. If the stock
+price, S, exceeds the exercise price of a call, E, the call is said to be in the money and
+has an immediate exercisable value. On the other hand, if the stock price is less than
+the exercise price of a call, it is said to be out of the money. Finally, calls that are near the
+money are those with exercise prices near their current market price, whereas calls
+that are at the money are those with exercise prices equal to the stock price.
+These same definitions also apply to puts, but in reverse. In summary,
+If , the call is in the money and the put is out of the mS E ooney.
+If , the call is out of the money and the put is inS E the money.
+If , the option is at the money
+Chapter 19 Options
+Intrinsic Values and Time Values
+The price of a call option can be dichotomized in the following manner. If the call
+is in the money (the market price of the stock exceeds the exercise price), it has
+an immediate value equal to the difference in the two prices. The value is designated
+as the call’s intrinsic value; it could also be referred to as the call’s minimum value,
+which in this case is positive. If the call is out of the money (the stock price is less
+than the exercise price), the intrinsic value is zero; in this case, the call’s price is
+based on its speculative appeal or time value. Summarizing, where S = current stock
+price:
+Intrinsic value of a call maximum S E ,0 (19-1)
+Puts work in reverse. If the market price of the stock is less than the exercise price
+of the put, the put is in the money and has an intrinsic value. Otherwise, it is out of
+the money and has a zero intrinsic value. Thus,
+Intrinsic value of a put maximum E S ,0 (19-2)
+• An option’s premium (price) will almost always exceed its intrinsic value.13
+Consider a stock currently selling at $40. We analyze two options
+with exercise prices that are $5 on either side of the stock price.
+Exercise Price Option Moneyness (S = $40)
+$45 In the money put Out of the money call
+$40 At the money put At the money call
+$35 In the money call Out of the money put
+EXAMPLE 19.11
+Assume that on February 10, Skechers closes at $25.70
+and a March call option with a strike price of 25 is
+available for a price of $1.15. This option is in the money because the stock
+price is greater than the exercise price:
+Intrinsic value of March call $ $ $25 25 70 25 0 70. .
+EXAMPLE 19.12
+Assume a Skechers March put available on February 10
+has a strike price of $27.50. The current market price of
+the stock is $25.70. The price of the put on that day is $1.90:
+Intrinsic value of March put $ $ $27 50 27 50 25 70 1 80. . . .
+EXAMPLE 19.13
+13 In our initial valuation discussions, we assume the underlying stock does not pay a dividend during the
+option’s time to expiration.
+Option Valuation 515
+Arbitrageurs constantly monitor options prices for discrepancies, and their trad-
+ing eliminates any discrepancies that occur. Arbitrageurs are speculators who seek
+to earn a return by taking positions in securities that they perceive to be mispriced.
+A pure arbitrage opportunity occurs when the arbitrageur can construct a riskless
+hedge. Short-lived deviations are possible, but they are quickly exploited.
+• Options prices exceed intrinsic values, with the difference reflecting the option’s
+potential appreciation, which is typically referred to as the option’s time value.14
+Because buyers are willing to pay a price for potential future stock-price move-
+ments, time has a positive value—the longer the time to expiration for the option,
+the more chance it has to appreciate in value. As an option’s expiration approaches,
+the time value of the option declines to zero.
+An option’s time value is calculated as the difference between the option’s price
+and its intrinsic value:
+Time value option price intrinsic value (19-3)
+We can now understand the premium for an option as the sum of its intrinsic
+value and its time value, or:
+Premium or option price intrinsic value time value (19-4)
+Notice an important point about options based on the preceding discussion. An
+investor who owns a call option and wishes to immediately acquire the underlying
+common stock will always find it preferable to sell the option and purchase the stock
+in the open market rather than exercise the option (at least if the stock pays no
+dividends). Why? Because otherwise, the investor will lose the speculative premium
+(time value) on the option.
+Arbitrageurs Investors
+who seek to take advan-
+tage of discrepancies in
+security prices
+For the Skechers options referenced earlier:
+Time value of March call $ $ $
+Time value of
+25 1 15 0 70 0 45. . .
+March put $ $ $27 50 1 90 1 80 0 10. . . .
+EXAMPLE 19.14
+For the Skechers options:
+Premium for March call $ $ $
+Premium for Mar
+25 0 70 0 45 1 15. . .
+cch put $ $ $27 50 1 80 0 10 1 90. . . .
+EXAMPLE 19.15
+14 This is somewhat of a misnomer because the actual source of value is volatility in price. However, price
+volatility decreases with a shortening of the time to expiration—hence the term time value.
+Consider the Skechers March 25 call option, with the stock
+price at $25.70. An investor who owned the call and wanted
+to own the common would be better off to sell the option at $1.15 and purchase
+the common for $25.70, for a net investment of $24.55. An immediate exercise
+of the call option would require the investor to pay $25 for shares worth $25.70,
+but at a total cost of $26.15 once the forgone call premium is considered.
+516 Chapter 19 Options
+In contrast, it can be optimal to exercise an American put early. In some cases,
+a put sufficiently deep in the money should be exercised early because the pay-
+ment received can be invested to earn a return that exceeds the option’s time
+value.
+Boundaries on Option Prices
+In the previous section, we learned what an option’s premium consists of, but we do
+not know what factors affect option prices and the range of values they can assume.
+In this section, we learn about the boundaries for option prices, and in the next sec-
+tion, we discuss the exact determinants of option prices.
+The value of an option must be related to the value of the underlying security.
+The basic relation is best understood by considering an option immediately prior
+to expiration, when there is no time premium. If the option is not exercised, it
+will expire immediately, leaving the option with no value. Obviously, investors will
+exercise the option only if it is worth exercising (if it is in the money).
+Figure 19.8(a) shows the values of call options at expiration, assuming a strike
+price of $50. At expiration, a call must have a value that is the maximum of 0 or its
+intrinsic value. Therefore, the line representing the value of a call option must be
+horizontal at $0 up to the exercise price and then rise as the stock price exceeds
+the exercise price. Above $50, the call price must equal the difference between the
+stock price and the exercise price, or its intrinsic value.
+For puts, the situation is reversed. At expiration, a put must have a value that is
+the maximum of 0 or its intrinsic value. Therefore, the line in Figure 19.8(b) rep-
+resenting the value of a put option must be horizontal beyond the exercise price.
+Below $50, the put price must equal the difference between the exercise price and
+the stock price. Note that a put option has a strict upper limit on intrinsic value,
+whereas the call has no upper limit.
+• A put’s strike price is its maximum intrinsic value.
+What is the maximum price an option can assume? To see this, think of a call.
+Since the call’s value is derived from its ability to be converted into the underlying
+stock, it can never sell for more than the stock itself. It would not make sense to pay
+more for a call than the price of the stock itself.
+• The maximum price for a call is the price of the underlying stock.
+Based on the preceding, we can establish the absolute upper and lower bounda-
+ries for the price of a call option as shown in Figure 19.8(c). The upper boundary
+Some Practical Advice
+The time to expiration is clearly a major deter-
+minant of the value of an option. Most inves-
+tors should generally avoid deep in-the-money
+and deep out-of-the-money options, because
+they have limited liquidity. Investors are gener-
+ally better served with near-the-money options
+because they are typically the most actively
+traded options.
+Option Valuation 517
+is a 45° line from the origin representing a call price equal to the stock price. 15 The
+lower boundary is represented by a 45° line starting at the exercise price. This lower
+boundary can be interpreted as the value of the call at the moment the call is exer-
+cised, or its intrinsic value.
+• The lower boundary for a call is the price of the option at expiration, which
+must be either zero or its in-the-money value.
+Finally, Figure 19.8(d) illustrates more precisely and realistically the varia-
+tion in price for a call option by illustrating how the price of a call varies with
+the stock price and the exercise price. The call price is always above intrinsic
+value and rises as the stock price increases beyond the exercise price. The time
+value, represented by the shaded area in Figure 19.8(d), decreases beyond the
+exercise price.
+To understand fully the price of a call option, we can use a formal model of call
+prices, the Black–Scholes model. The price of a put can also be found from this
+model because of a parity relationship between puts and calls.
+The Black–Scholes Model
+Fischer Black and Myron Scholes developed a model for the valuation of call options
+that is widely accepted and used in the investments community.16 The formula itself
+is mathematical and appears to be very complex, but it is widely available on cal-
+culators and computers. Numerous investors estimate the value of calls using the
+Black–Scholes model.
+The Black–Scholes model uses five variables to value the call option on a
+nondividend-paying stock.17 These five variables, all but the last of which are directly
+observable in the market, are as follows:
+1. The price of the underlying stock
+2. The exercise (strike) price of the option
+3. The time remaining to the expiration of the option
+4. The interest rate
+5. The volatility of the underlying stock
+The first two variables are of obvious importance in valuing an option because
+they determine the option’s intrinsic value. If it is out of the money, it has only a
+time value based on the speculative interest in the stock.
+Time to expiration (measured as a fraction of a year) is also an important factor
+in the value of an option because value generally increases with maturity. The rela-
+tionship between time and value is not proportional, however.
+• The time value of an option is greatest when the market price and the exercise
+price are equal, that is, the option is at the money. 18
+The interest rate affects option values, but the reasoning behind this is often
+ambiguous. Furthermore, different sources give different reasons for the relation-
+ship between interest rates and option premiums. Suffice it to say that increases in
+interest rates increase call premiums and decrease put premiums.
+The last factor, and the only one not directly observable in the marketplace, is
+the stock’s volatility. The greater the volatility, the higher the price of call and put
+options because of the increased potential for the stock price to move. Therefore,
+a positive relation exists between the volatility of the stock and the value of call and
+put options.19
+The Black–Scholes option pricing formula can be expressed as 20
+C S N d E
+e N drt
+[ ( )] [ ( )]1 2 (19-5)
+Black–Scholes Model A
+widely used model for the
+valuation of call options
+16 Fischer Black and Myron Scholes, “The Pricing of Options and Corporate Liabilities,” The Journal of
+Political Economy, 81 (May–June 1973): 637–654.
+17 Options traded on organized exchanges are not protected against cash dividends, and this can have
+significant effects on option values. When a cash dividend is paid, the stock price should decline to
+reflect this payment. Any event that reduces the stock price reduces the value of a call and increases the
+value of a put.
+18 If the option is already in the money, a rise in the stock price will not result in the same percentage gain
+in the option price that would occur in the previous situation. For out-of-the-money options, part of the
+time remaining will be used for the price of the stock to reach the exercise price.
+19 “Volatility” is used here as a measure of the variability in the stock price.
+20 This version of the model applies to nondividend-paying stocks. Adjustments can be made for stocks
+that pay dividends.
+Option Valuation 519
+where
+C
+S
+the price of the call option
+current market price of thee underlying common stock
+the cumulative density funN d( )1 cction of
+the exercise price of the option
+the base o
+d
+E
+e
+1
+ff natural logarithms approximately
+the risk-free
+2 71828.
+r rate of interest on an annual basis
+the time remainingt tto the option’s expiration date expressed as
+a fraction o
+,
+ff a year
+the cumulative density function ofN d d( )2 2
+To find d1 and d2
+, it is necessary to solve these equations:
+d S E r t
+t
+1
+2
+1 2
+0 5ln( ) ( . )
+( [( ) ])/
+/ (19-6)
+d d t2 1
+1 2
+( [( ) ])/ (19-7)
+where
+ln( ) log ( )S E S E/ the natural of /
+the standard deviation off the annual return on the underlying stock
+The five variables previously listed are needed as inputs. Variables 1–4 are imme-
+diately available; however, Variable 5 is not because the appropriate measure reflects
+expected future volatility in the stock’s price.
+Although historical data on stock returns are typically used to estimate this stand-
+ard deviation, volatility does change over time. A formula user should try to incor-
+porate expected changes in the volatility when using historical data. To do so, the
+user should examine any likely changes in either the market’s or the individual
+stock’s volatility. Empirical studies have shown that analysts can improve upon vari-
+ance estimates that are based purely on historical data.
+Because the price of an option can be observed at any time, it is possible to
+solve the Black–Scholes formula for the implied volatility of the stock’s return. The
+implied volatility is the volatility level for the stock implied by the option price. By
+using the observed call price, one can solve the Black–Scholes model for the volatil-
+ity level implied by that price.
+The Black–Scholes Model
+Fischer Black and Myron Scholes developed a model for the valuation of call options
+that is widely accepted and used in the investments community.16 The formula itself
+is mathematical and appears to be very complex, but it is widely available on cal-
+culators and computers. Numerous investors estimate the value of calls using the
+Black–Scholes model.
+The Black–Scholes model uses five variables to value the call option on a
+nondividend-paying stock.17 These five variables, all but the last of which are directly
+observable in the market, are as follows:
+1. The price of the underlying stock
+2. The exercise (strike) price of the option
+3. The time remaining to the expiration of the option
+4. The interest rate
+5. The volatility of the underlying stock
+The first two variables are of obvious importance in valuing an option because
+they determine the option’s intrinsic value. If it is out of the money, it has only a
+time value based on the speculative interest in the stock.
+Time to expiration (measured as a fraction of a year) is also an important factor
+in the value of an option because value generally increases with maturity. The rela-
+tionship between time and value is not proportional, however.
+• The time value of an option is greatest when the market price and the exercise
+price are equal, that is, the option is at the money. 18
+The interest rate affects option values, but the reasoning behind this is often
+ambiguous. Furthermore, different sources give different reasons for the relation-
+ship between interest rates and option premiums. Suffice it to say that increases in
+interest rates increase call premiums and decrease put premiums.
+The last factor, and the only one not directly observable in the marketplace, is
+the stock’s volatility. The greater the volatility, the higher the price of call and put
+options because of the increased potential for the stock price to move. Therefore,
+a positive relation exists between the volatility of the stock and the value of call and
+put options.19
+The Black–Scholes option pricing formula can be expressed as 20
+C S N d E
+e N drt
+[ ( )] [ ( )]1 2 (19-5)
+Black–Scholes Model A
+widely used model for the
+valuation of call options
+16 Fischer Black and Myron Scholes, “The Pricing of Options and Corporate Liabilities,” The Journal of
+Political Economy, 81 (May–June 1973): 637–654.
+17 Options traded on organized exchanges are not protected against cash dividends, and this can have
+significant effects on option values. When a cash dividend is paid, the stock price should decline to
+reflect this payment. Any event that reduces the stock price reduces the value of a call and increases the
+value of a put.
+18 If the option is already in the money, a rise in the stock price will not result in the same percentage gain
+in the option price that would occur in the previous situation. For out-of-the-money options, part of the
+time remaining will be used for the price of the stock to reach the exercise price.
+19 “Volatility” is used here as a measure of the variability in the stock price.
+20 This version of the model applies to nondividend-paying stocks. Adjustments can be made for stocks
+that pay dividends.
+Option Valuation 519
+where
+C
+S
+the price of the call option
+current market price of thee underlying common stock
+the cumulative density funN d( )1 cction of
+the exercise price of the option
+the base o
+d
+E
+e
+1
+ff natural logarithms approximately
+the risk-free
+2 71828.
+r rate of interest on an annual basis
+the time remainingt tto the option’s expiration date expressed as
+a fraction o
+,
+ff a year
+the cumulative density function ofN d d( )2 2
+To find d1 and d2
+, it is necessary to solve these equations:
+d S E r t
+t
+1
+2
+1 2
+0 5ln( ) ( . )
+( [( ) ])/
+/ (19-6)
+d d t2 1
+1 2
+( [( ) ])/ (19-7)
+where
+ln( ) log ( )S E S E/ the natural of /
+the standard deviation off the annual return on the underlying stock
+The five variables previously listed are needed as inputs. Variables 1–4 are imme-
+diately available; however, Variable 5 is not because the appropriate measure reflects
+expected future volatility in the stock’s price.
+Although historical data on stock returns are typically used to estimate this stand-
+ard deviation, volatility does change over time. A formula user should try to incor-
+porate expected changes in the volatility when using historical data. To do so, the
+user should examine any likely changes in either the market’s or the individual
+stock’s volatility. Empirical studies have shown that analysts can improve upon vari-
+ance estimates that are based purely on historical data.
+Because the price of an option can be observed at any time, it is possible to
+solve the Black–Scholes formula for the implied volatility of the stock’s return. The
+implied volatility is the volatility level for the stock implied by the option price. By
+using the observed call price, one can solve the Black–Scholes model for the volatil-
+ity level implied by that price.
+Option Valuation 521
+Summarizing the Factors Affecting Options Prices
+If we allow for stocks that pay dividends, we can summarize the factors affecting
+options prices into a table with six elements, as shown in Table 19.1. The + sign
+indicates a direct relation, and a negative sign a negative relation. The assumption
+behind Table 19.1 is that all other variables remain fixed as we consider any of the
+six variables individually.
+Hedge Ratios
+A key concept with options is their use as a hedging device. Although risky assets
+themselves, options can be used to control risk. In particular, options can be used to
+control the riskiness inherent in common stocks.
+To hedge a long stock position with options, an investor would write an
+appropriate number of call options to offset a change in the stock price. This
+number is given by the hedge ratio, or delta, which is N(d1) from the Black–Scholes
+model. 24
+• The hedge ratio for an option, commonly referred to as the option’s
+delta, indicates the change in the option price for a $1 change in the stock
+price.
+Since the hedge ratio with a call option is N(d1
+), for a put option it is N(d1) − 1.
+Hedge Ratio The ratio of
+options written to shares
+of stock held long in a
+riskless portfolio
+Delta A measure of how
+much an option’s value
+should change for a $1.00
+change in the underlying
+stock price
+Consider the information for the call given earlier. Since
+the Black–Scholes model uses continuous interest, the
+discount factor is expressed in continuous form.23 It is equal to ert or e0.10(0.5)
+.
+Using a calculator, this value is 1.0513. Therefore,
+Price of put / $3 95 40 45 1 0513 6 75. . .
+EXAMPLE 19.18
+Effects of Relevant Variables on Options Prices
+Variable Calls Puts
+Stock price + −
+Exercise price − +
+Time to expiration + +
+Stock volatility + +
+Interest rates + −
+Cash dividends − +
+TABLE 19.1
+23 The value er is the equivalent of (1 + r) in continuous compounding.
+24 Technically, the hedge ratio is the slope of the functional relationship between the value of the option
+(vertical axis) and the value of the stock (horizontal axis), evaluated at the current stock pric
+522 Chapter 19 Options
+Hedge ratios are less than 1.0 because option values change with stock prices
+on less than a one-for-one basis. That is, dollar movements in option prices are
+smaller than dollar movements in the underlying stock. However, percentage price
+changes on the option are generally greater than percentage price changes on
+the stock.
+Using the Black–Scholes Model
+Development of the Black–Scholes model was a significant event and has had a
+major impact on all options investors. This model has been the basis of extensive
+empirical investigations into how options are priced. How well does this model
+work?
+The numerous studies that have been conducted offer general support for the
+Black–Scholes model and the proposition that options are efficiently priced by the
+market. Some deficiencies have been noted. 25 The original Black–Scholes model
+is based on some simplifying assumptions, such as no dividends, a constant vari-
+ance, and continuous stock prices. Furthermore, the standard deviation used in
+the model cannot be observed and must be estimated. Therefore, any observed
+discrepancies could reflect errors in the estimation of the stock’s volatility, or other
+noise in the data.
+Checking Your Understanding
+8. Why does an option’s price almost always exceed its intrinsic value?
+9. What are the boundaries for the price of a call?
+An Investor’s Perspective on Puts and Calls
+What Puts and Calls Mean to Investors
+Option contracts are important to investors because of their ability to impact
+the risk and return of a security or portfolio. Options can be used for various
+types of hedging, which are common with risk management strategies. Options
+also offer speculators a way to leverage their investment with a strict limit on
+downside risk.
+In Example 19.17, N(d1
+) was 0.4785; therefore, to hedge
+a 1,000 share portfolio, the investor should write 21
+call options [(1/0.4785) × 1,000 = 2,089.86 individual options or about 21
+contracts]. A $1 increase in the stock price should produce approximately
+a $0.4785 change in the option price. The loss on the call options written
+is 2,100 × $0.4785 = $1,004.85, which is approximately offset by the $1 per-
+share gain on the 1,000 shares. A perfectly hedged position leaves total wealth
+unchanged.
+An Investor’s Perspective on Puts and Calls 523
+The risk–return modification properties of puts and calls vary significantly
+from other derivative instruments such as futures contracts, which we consider in
+Chapter 20. In the case of buying an option, the most the investor can lose is the
+premium, regardless of what happens to the stock price; that is, the distribution of
+payoffs or profits is truncated.
+• An important point about options and their impact on portfolio return and
+risk is that the impact is not symmetrical. The distribution of payoffs is truncated.
+The Evolutionary Use of Options
+Puts and calls on organized options exchanges have been available to investors since
+1973, although financial derivatives were being used long before then. Options
+have been popular with individual investors since the beginning of CBOE trading,
+although the manner in which they are viewed has changed somewhat. At first,
+options were viewed more or less as speculative instruments and were often pur-
+chased for their leverage possibilities. Covered option writing was used to enhance
+portfolio yields. During the 1980s, many investors were selling puts in order to capi-
+talize on the rising trend in stock prices. This strategy worked well until the famous
+market crash in October 1987. Market conditions change—the market does not
+continue to go in one direction without corrections.
+The current emphasis by the options markets and the brokerage industry
+is on educating investors as to how options can be used efficiently as part of
+their portfolio. Investors have continued to learn how to hedge their risk using
+derivatives.
+Options are increasingly valued in strategic portfolio management because they
+allow investors to create strategies that expand the set of outcomes beyond what
+could be achieved in the absence of options. In other words, investors and invest-
+ment managers sometimes need the nonsymmetric distributions of returns that
+Some Practical Advice
+Investors who consider buying options as a way
+to trade securities should remember the following
+important points:
+• With options, you have a significant chance of
+losing your entire investment. Thus, speculating
+in options can be risky.
+• With options, there is a small chance of making
+a large profit, often 5 to 10 times the original
+investment and sometimes more.
+Given these two points, options may be attractive
+to some investors and very unattractive to others.
+The CBOE has a nice tutorial on options for investors,
+starting with the basics and going to more advanced
+topics—see www.cboe.com. The International Securities Exchange (ISE)
+offers an options trading education section on its website. Included are
+webcasts, podcasts, and YouTube videos..
+An Investor’s Perspective on Puts and Calls 523
+The risk–return modification properties of puts and calls vary significantly
+from other derivative instruments such as futures contracts, which we consider in
+Chapter 20. In the case of buying an option, the most the investor can lose is the
+premium, regardless of what happens to the stock price; that is, the distribution of
+payoffs or profits is truncated.
+• An important point about options and their impact on portfolio return and
+risk is that the impact is not symmetrical. The distribution of payoffs is truncated.
+The Evolutionary Use of Options
+Puts and calls on organized options exchanges have been available to investors since
+1973, although financial derivatives were being used long before then. Options
+have been popular with individual investors since the beginning of CBOE trading,
+although the manner in which they are viewed has changed somewhat. At first,
+options were viewed more or less as speculative instruments and were often pur-
+chased for their leverage possibilities. Covered option writing was used to enhance
+portfolio yields. During the 1980s, many investors were selling puts in order to capi-
+talize on the rising trend in stock prices. This strategy worked well until the famous
+market crash in October 1987. Market conditions change—the market does not
+continue to go in one direction without corrections.
+The current emphasis by the options markets and the brokerage industry
+is on educating investors as to how options can be used efficiently as part of
+their portfolio. Investors have continued to learn how to hedge their risk using
+derivatives.
+Options are increasingly valued in strategic portfolio management because they
+allow investors to create strategies that expand the set of outcomes beyond what
+could be achieved in the absence of options. In other words, investors and invest-
+ment managers sometimes need the nonsymmetric distributions of returns that
+Some Practical Advice
+Investors who consider buying options as a way
+to trade securities should remember the following
+important points:
+• With options, you have a significant chance of
+losing your entire investment. Thus, speculating
+in options can be risky.
+• With options, there is a small chance of making
+a large profit, often 5 to 10 times the original
+investment and sometimes more.
+Given these two points, options may be attractive
+to some investors and very unattractive to others.
+The CBOE has a nice tutorial on options for investors,
+starting with the basics and going to more advanced
+topics—see www.cboe.com. The International Securities Exchange (ISE)
+offers an options trading education section on its website. Included are
+webcasts, podcasts, and YouTube videos.
+options can provide. Options strategies increase the set of contingencies that can
+be met.26
+At some brokerage firms, options volume has increased significantly and now
+accounts for a sizable percentage of the firm’s revenues. The online brokerage
+firms have made options trading much easier and options information, recommen-
+dations, and strategies much more accessible. Meanwhile, some investors with a
+strong interest in options use so-called options boutiques that cater to options trad-
+ers. These specialized brokers, such as OptionsXpress by Charles Schwab and Wall
+Street Access, offer complex trades at lower prices than regular brokerage firms,
+specialized risk assessment tools, and a staff specifically trained in options.
+Stock Index Options
+For many investors, an important part of the options market is stock index options.
+Rather than concentrate on options for individual securities, investors can buy puts
+and calls on various market indexes, thereby taking a position on broad market
+movements or market segments.
+The Basics of Stock Index Options
+Stock index options are available on more than 50 stock indexes, such as the S&P
+100, the S&P 500, the DJIA, the Russell 2000, and the NASDAQ 100. Index options
+are also available on industry sectors such as technology, oil, gold, and semiconduc-
+tors. Index options are also available on foreign markets such as Korea, Germany,
+Japan, and the United Kingdom. In addition, long-term index options (LEAPS) are
+available for several market indexes.27
+Stock index options enable investors to trade on general stock market move-
+ments or industries in the same way that they can trade on individual stocks. Thus,
+an investor who is bullish on a market index such as the S&P 500 can buy a call on
+this index, and an investor who is bearish can buy a put.
+• An investor in stock index options can make market decisions rather than
+individual stock decisions.
+Overall, stock index options are similar to equity options on individual stocks. As
+usual, the exercise price and the expiration date are uniformly established. Investors
+buy and sell them through their broker in the normal manner. Index option informa-
+tion is read in the same manner as that for stock options. Whereas options on individual
+stocks generally allow for exercise at any time (i.e., they are American style), options on
+stock indexes frequently allow for exercise only at expiration (European style).
+• Unlike stock options, which require the actual delivery of the stock upon exer-
+cise, buyers of index options receive cash from the seller upon exercise of the
+contract.
+Stock Index Options
+Option contracts on a
+stock market index such as
+the S&P 500
+26 This discussion is based on Richard Bookstaber, “The Use of Options in Performance Structuring,”
+Journal of Portfolio Management (Summer 1985): 36–37.
+27 In 1986, the S&P 500 Index option was converted to a European-style contract, meaning it cannot
+be exercised until the contract expires. The predictable exercise date appeals to institutional investors
+when they attempt to hedge their portfolios against losses in volatile markets. Hedgers using standard
+index options may find their hedges exercised before the contracts expire, thereby giving an edge to the
+European-style contracts.
+Stock Index Options 525
+The amount of cash settlement is equal to the difference between the closing
+price of the index and the strike price of the option multiplied by a specified dollar
+amount, generally $100.
+Strategies with Stock Index Options
+The strategies with index options are similar to those for individual stock options.
+Investors expecting a market rise buy calls, and investors expecting a market decline
+buy puts. The maximum losses from these two strategies—the premiums—are
+known at the outset of the transaction. The potential gains can be large because of
+the leverage involved with options.
+28 OEX designates an American-style option, while XEO designates a European-style option.
+29 Before exercising, the investor should determine if a better price could be obtained by selling the
+option.
+Assume an investor holds an S&P 100 Index option
+(OEX)—the S&P 100 index consists of 100 stocks from
+a broad range of industries.28 The strike price is 580, and the investor decides
+to exercise the option on a day that the S&P 100 index closes at 588.5. The
+investor will receive a cash payment from the assigned writer equal to $100
+multiplied by the difference between the option’s strike price and the closing
+value of the index, or
+S&P
+S&P
+Index close
+Index option strike price
+100 588 5
+100
+.
+580 0
+8 5
+8 5 100 850
+.
+.
+. $ $
+The multiplier for this index option is $100—one point = $100. The
+multiplier performs a function similar to the unit of trading (100 shares)
+for a stock option in that it determines the total dollar value of the cash
+settlement. Since options on different indexes may have different multipliers,
+it is important to know the multiplier for the stock index being used.
+EXAMPLE 19.21
+In early April, an investor expects the stock market to rise
+strongly over the next two to three months. This investor
+decides to purchase an S&P 100 index May 590 call, currently selling for 24,
+on a day when the S&P 100 index closed at 588.5.
+Assume that the market rises, as the investor expects, to a mid-May level
+of 623.81 (a 6 percent increase). The investor could exercise the option and
+receive a cash settlement equal to the difference between the index close
+(623.81) and the exercise price of 590, multiplied by $100, or 29
+623 81 100
+590 00 100
+.
+.
+S&P Index close
+S&P Call exercise priice
+$ $33 81 100 3 381
+526 Chapter 19 Options
+The leverage offered by index options is illustrated in this example by the fact
+that a 6 percent rise in the index leads to a 40.9 percent profit on the option posi-
+tion [($3,381 − $2,400)/$2,400]. Obviously, losses can occur. If the market declined
+or remained flat, the entire option premium of $2,400 would be lost.
+• As with any option, the investor buying an index option has a limited loss of
+known amount—the premium paid.
+Investors can use stock index options to hedge their positions. For example, an
+investor who owns a diversified portfolio of stocks may be unwilling to liquidate his
+or her portfolio but is concerned about a near-term market decline. Buying a put
+on a market index will provide some protection from a market decline. In effect,
+the investor is purchasing a form of market insurance. The losses on the portfolio
+holdings will be partially offset by the gains on the put. If the market rises, the inves-
+tor loses the premium paid but gains with the portfolio holdings. A problem arises,
+however, in that the portfolio holdings and the market index are unlikely to be a
+perfect match. The effectiveness of this hedge depends on the similarity between
+the two.
+If the value of the investor’s portfolio declines by approximately 10 percent (or
+$6,000), the portfolio loss will be largely offset by the net gain on the put contract
+of $5,000 ($6,000 − $1,000 premium). It is important to note, however, that a par-
+ticular portfolio’s value may decline more or less than a market index such as the
+S&P 100 or 500.
+As before, if the option is held to expiration and a market decline (of a signifi-
+cant amount) does not occur, the investor loses the premium. In our example, the
+investor would lose the $1,000 paid for the put. This could be viewed as the cost of
+obtaining “market insurance.”
+Stock index options can be useful to investors who do not have funds available
+immediately for investment but anticipate a market rise. Buying calls will allow such
+investors to take advantage of market rises if they occur. Of course, the premium
+could be lost if the investor’s expectations are incorrect.
+Investors can sell (write) index options, either to speculate or to hedge their
+positions. If the seller is correct, the profit is limited to the amount of the premium;
+if incorrect, the seller faces potential losses far in excess of the premiums received
+from selling the options. It is impractical to write a completely covered stock index
+Assume an investor has a portfolio of NYSE common
+stocks currently worth $60,000. It is early April, and the
+investor is concerned about a market decline over the next two months. The
+S&P 100 is currently at 588.5, and an S&P 100 May 590 put is available for
+10. In an attempt to protect the portfolio’s profits against a market decline,
+the investor purchases a put, which represents an aggregate exercise price of
+$59,000, calculated as (590 × 100 = $59,000). Assume that the market declines
+about 10 percent by the May expiration. If the OEX Index is 530 at that point,
+Put exercise price
+OEX Index price
+$ $
+590
+530
+60 100 6 000,
+EXAMPLE 19.23
+Summary 527
+option because of the difficulty of owning a portfolio that exactly matches the index
+at all points in time. Although the writer of an individual stock call option can
+deliver the stock if the option is exercised, the writer of a stock index call option
+that is exercised must settle in cash and cannot be certain that gains in the stock
+portfolio will fully offset losses on the index option.30
+The Popularity of Stock Index Options
+Stock index put options allow a portfolio manager to hedge equity market risk by
+limiting a portfolio’s downside exposure while retaining the upside potential. If the
+index rises while the puts are held, the puts serve to insure the portfolio against a
+loss. If the index declines, the protective puts limit the portfolio’s downside and
+could offset the decline almost entirely in some cases.
+Stock index options appeal to speculators because of the leverage they offer. A
+change in the underlying index of less than one percent can result in a change in
+the value of the contract of 15 percent or more. Given the increased volatility in
+the financial markets in recent years, investors can experience rapid changes in the
+value of their positions, both up and down.
+Introduced in 1983, stock index options quickly became a popular investment
+in the United States. Much of the initial volume was accounted for by professional
+speculators and trading firms. As familiarity with index options increased, individ-
+ual investors have assumed a larger role in this market.
+Summary
+• Equity-derivative securities include puts and calls, created by investors, and
+warrants and convertible securities, created by corporations.
+• A call (put) is an option to buy (sell) shares of a particular stock at a stated
+price any time before a specified expiration date. An option seller receives a
+premium, and the buyer pays the premium.
+• Advantages of options include the following: they require a smaller invest-
+ment than transacting in the stock itself, the maximum loss is known
+in advance, they leverage the stock position, and they expand the oppor-
+tunity set.
+• Buyers of calls (puts) expect the underlying stock to perform well (poorly).
+Writers of each instrument have opposite expectations from buyers.
+• A call writer and a put buyer expect the underlying stock price to decline,
+whereas a call buyer and a put writer expect it to rise. Options may also be
+used to hedge against a stock position by establishing an opposite position in
+options.
+• More sophisticated options strategies include combinations of options, such
+as strips, straps, straddles, and spreads, which include money spreads and time
+spreads.
+• Options have an intrinsic value ranging from $0 to their “in-the-money” value.
+Most sell for more than their intrinsic value due to a speculative premium.
+30 Writers of index options are notified of their obligation to make a cash settlement on the business day
+following the day of exercise.
+Page load complete
+528 Chapter 19 Options
+• According to the Black–Scholes option valuation model, value is a function of
+the stock price, the exercise price, time to expiration, the interest rate, and
+the volatility of the underlying stock.
+• The available empirical evidence suggests that the options market is efficient,
+with trading rules unable to exploit any biases that exist in the Black–Scholes
+or other option pricing models.
+• Interest rate options and stock index options are also available to investors.
+• Stock index options are a popular innovation in the options area that allow
+investors to buy puts and calls on broad stock market indexes and industry
+subindexes.
+• A major distinction with index options contracts is that settlement is in cash.
+• In effect, stock index options allow investors to make a market decision and to
+purchase a form of market insurance.
+• Strategies with index options are similar to those for individual stock options.
+Investors can both hedge and speculate.

@@ -1,0 +1,1480 @@
+Common Stock Valuation
+AFTER READING THIS CHAPTER, YOU
+WILL BE ABLE TO:
+• Explain the foundation of valuation
+for common stocks, discounted
+cash flow techniques, and the con-
+cept of intrinsic value.
+• Use the dividend discount model
+to estimate the intrinsic value of a
+stock.
+• Estimate target prices for stocks
+using price multiples and firm fun-
+damentals.
+• Apply the two-stage, three-stage,
+and H-model in deriving stock
+values.
+256CHAPTER 10
+The moment you have been wait-
+ing for is almost at hand. Having
+prepared yourself to manage your
+inheritance by learning about top-
+ics such as mutual funds, short
+selling, portfolio theory, and the
+capital asset pricing model (CAPM),
+you are now anxious to get out
+there and buy some stocks. After
+all, you know someone who bought
+Amazon in 2009 at $80 and it went
+to over $1,800, and you know for
+sure this person is not the bright-
+est bulb in the chandelier. On the
+other hand, you have read horror
+stories about the folks who bought
+technology stocks which subse-
+quently collapsed—and some of
+these people were really smart.
+So there must be more to equity
+investing than meets the eye.
+To better understand what differentiates poor performing from strong
+performing stocks, you need to bite the bullet and learn about the principles
+of stock valuation. The bad news, as you are about to learn, is that valuation
+is an art and not a science—it requires judgment as well as skill. The good news
+is that learning the basic principles of valuation will give you an advantage
+over many investors who simply act on tips or jump in without doing adequate
+analysis.
+How do investors typically go about analyzing stocks to buy and sell? This chapter
+concentrates on the valuation of common stocks, while Chapter 11 concentrates
+on how investors should analyze and manage their equity holdings. Here, we con-
+sider the major approaches used by investors in the valuation of stocks: discounted
+cash flow techniques, target prices, and relative valuation techniques. Every serious
+investor should be comfortable with the basic principles of common stock valuation
+represented by these approaches.
+Common Stock Valuation
+AFTER READING THIS CHAPTER, YOU
+WILL BE ABLE TO:
+• Explain the foundation of valuation
+for common stocks, discounted
+cash flow techniques, and the con-
+cept of intrinsic value.
+• Use the dividend discount model
+to estimate the intrinsic value of a
+stock.
+• Estimate target prices for stocks
+using price multiples and firm fun-
+damentals.
+• Apply the two-stage, three-stage,
+and H-model in deriving stock
+values.
+Overview 257
+Overview
+Major approaches to valuing common stocks using fundamental security analysis
+include:
+1. Discounted cash flow (DCF) techniques
+2. Multiplier approach
+3. Relative valuation metrics
+DCF techniques attempt to estimate the value of a stock (its intrinsic value)
+using a present value analysis. For example, using the Dividend Discount Model,
+the future stream of dividends to be received from a common stock is discounted
+back to the present at an appropriate discount rate (i.e., the investor’s required
+return) and summed. Alternative DCF versions discount such variables as free cash
+flow. The end result is an estimate of the current “fair value” or intrinsic value of
+the stock.
+The multiplier approach attempts to estimate intrinsic value by multiplying an
+estimated firm characteristic by an estimated multiple. The most prominent mul-
+tiplier approach relies on estimated earnings per share (EPS) and the earnings
+multiplier, the P/E ratio. To implement this approach:
+• Estimate EPS for next period, typically the next 12 months.
+• Determine an appropriate P/E ratio. Part of this process may involve compar-
+ing the company being valued with its peers in order to derive the appropriate
+P/E ratio.
+• Multiply the estimated EPS by the P/E ratio that has been determined.
+While the earnings multiplier is the most commonly used approach, we discuss
+several other multipliers that are used in practice. Each approach relies on the same
+basic process. The end result for each approach is an estimate of the intrinsic value
+of the stock or the estimated value of the stock today.
+Relative valuation metrics typically involve the P/E ratio, the Price/Book (P/B)
+ratio, the Price/Sales (P/S) ratio, the Price/Cash Flow (P/CF) ratio, and Enter-
+prise Value (EV)/earnings before interest, taxes, depreciation, and amortization
+(EBITDA) ratio. With the relative value approach, the emphasis is on selecting
+stocks for possible purchase based on a comparison between comparable firms
+rather than estimating each stock’s value.
+Exhibit 10.1 summarizes the most prominent approaches to common stock valu-
+ation. In this chapter, we discuss these approaches in order. Before doing so, how-
+ever, let’s briefly consider why it is important to understand the alternative valuation
+approaches. It is important to understand DCF models for at least two reasons.
+First, virtually all investment professionals that work in valuation agree that the DCF
+approach is conceptually correct. It may have its limitations, but we can learn from
+it. Second, some of the most popular investment advisory services, in particular
+Morningstar and Standard & Poor’s Outlook, rely on a DCF approach.
+The DCF approach, however, is not universally relied upon by investment pro-
+fessionals. A 2006 study found that practitioners and investment advisory services
+often rely on multipliers and relative valuation metrics when making investment
+decisions.1
+ Valuation Techniques, Variables Used,
+and the End Result Sought
+Valuation Technique Variables Used End Product Produced
+1. Discounted cash flow techniques
+a. Dividend discount model Expected future dividends, stockholders
+required return (cost of equity capital)
+Intrinsic value
+b. Free cash flow to equity Expected free cash flow to equity, cost of
+equity capital
+Intrinsic value
+c. Free cash flow to firm Expected free cash flow to the firm, firm’s cost
+of capital
+Intrinsic value
+2. Multiplier approach Estimated firm fundamental (e.g., EPS or
+revenue) for next year, combined with
+estimated appropriate price multiple
+Intrinsic value
+3. Relative valuation metrics
+i. P/E ratio (price to earnings)
+ii. P/B ratio (price to book)
+iii. P/S ratio (price to sales)
+iv. P/CF ratio (price to cash flow)
+v. EV/EBITDA (enterprise value
+to EBITDA)
+Based on relative judgments Stock selection
+260 Chapter 10 Common Stock Valuation
+my family, what benefits will my family receive? The answer is a stream of cash
+dividends because this is the only cash distribution that a corporation actually
+makes to its stockholders. Although a firm’s EPS in any year belongs to the
+stockholders, corporations generally do not pay out all their earnings to their
+stockholders; furthermore, EPS is an accounting concept, whereas dividends
+represent cash payments. Investors cannot spend EPS, but they can spend divi-
+dends received.
+Stockholders may plan to sell their shares sometime in the future, resulting in
+a cash flow from the sale price. However, the value of the cash flow from the sale
+is equivalent to evaluating the stream of all subsequent dividends to be received
+from the stock. Therefore, we can concentrate on a company’s estimated future
+dividends and an appropriate required return.
+Applying the DDM
+Adapting Equation 10-1 specifically to value common stocks, the cash flows are the
+dividends expected to be paid in each future period. An investor or analyst using
+this approach carefully studies the future prospects for a company and estimates
+the likely dividends to be paid. In addition, the analyst estimates an appropriate
+required return or discount rate based on the risk foreseen in the dividends. Finally,
+he or she discounts the entire stream of estimated future dividends and adds them
+together. The derived present value is the intrinsic value of the stock. This process
+is illustrated in Figure 10.2.
+The required return is the minimum expected return necessary to induce an
+investor to buy a stock, given its risk. Note that it is an expected return, and that it is
+the minimum rate necessary to induce purchase.
+• The required return, capitalization rate, and discount rate are inter-
+changeable terms in valuation analysis. Regardless of the terminology, it is
+challenging to determine the precise numerical value to use for a particu-
+lar stock.
+Because in practice it is not easy to determine a precise discount rate, we will
+assume for purposes of this discussion that we know the discount rate and con-
+centrate on the other issues involved in valuation, which are difficult enough. The
+CAPM model discussed in Chapter 9 serves as a basis for thinking about, and calcu-
+lating, a required return.
+Required Return The
+minimum expected return
+necessary to induce an
+investor to purchase a
+security
+Estimate the future
+dividends for a
+stock
+Estimate a required
+return or discount
+rate
+Discount all the
+estimated future
+dividends
+Add all discounted
+dividends together
+to obtain a present
+value
+The present value is
+the intrinsic value
+of the stock
+FIGURE 10.2 The process involved with the dividend discount model
+The Dividend Discount Model 261
+The DDM Equation
+The DDM states that the estimated value (per share) of a stock today is the dis-
+counted value of all future dividends:
+Estimated value of a stock today V D
+k
+D
+k
+D
+k
+0
+1 2
+2
+3
+1 1 1 3
+1
+1
+1
+ D
+k
+D
+kt
+t
+t
+(10-2)
+where
+D D1 2, ,… the dividends expected to be received in each futurre period
+the required return for the stock which is thek , discount rate applicable
+for an investment with this degreee of riskiness the opportunity cost of a
+comparable ris
+(
+kk alternative)
+Implementing the DDM
+Two immediate issues with Equation 10-2 are the following:
+1. Equation 10-2 indicates that investors are dealing with infinity. They must
+value a stream of dividends that may be paid forever, since common stock has
+no maturity date.
+2. The dividend stream is uncertain:
+a. There is no specified number of dividends, if in fact any are paid at all.
+Dividends are declared periodically by the firm’s board of directors.
+(Technically, they are typically paid quarterly, but conventional valuation
+analysis uses annual dividends.)
+b. The dividends for most firms are expected to grow over time; therefore,
+investors cannot simplify Equation 10-2 to a perpetuity as is done with
+preferred stock.
+Who’s afraid of infinity? From a practical standpoint, the infinity problem is not
+as troublesome as it first appears. At reasonably high discount rates, such as 10 per-
+cent or more, dividends received 40 or 50 years in the future are worth very little
+today so that investors need not worry about them. For example, the present value
+of $1 to be received 50 years from now, if the discount rate is 10 percent, is only
+$0.0085, which is zero for practical purposes.
+Estimating Future Dividends
+The conventional solution to the second issue, that the dividend is expected to grow
+over time, is to make a simplifying assumption about the expected dividend growth
+rate. That is, the investor classifies each stock to be valued into one of three catego-
+ries based on the expected growth rate in dividends.
+• The DDM is operationalized by estimating the expected growth rate(s) in the
+dividend stream.
+262 Chapter 10 Common Stock Valuation
+Checking Your Understanding
+1. Why is the required return for a stock also an expected return?
+2. What does it mean to say that the estimated value of a stock today is the dis-
+counted value of all future dividends?
+Growth Rate Cases for the DDM
+There are three growth rate cases:
+1. The zero-growth rate case: A dividend stream with a zero-growth rate result-
+ing from a fixed-dollar dividend equal to the current dividend, D0
+, being paid
+every year from now to infinity:
+∞
+
+
+0 0 0 0 0 dividend stream
+time period0 1 2 3
+D D D D D
+2. The constant (normal)-growth rate case: A dividend stream that is growing at
+a constant rate g, starting with D0
+:
+D D g D g D g0 0
+1
+0
+2
+01 1 1
+0 1 2
+
+
+dividend stream
+time periodd
+3. The multiple-growth rate case: A dividend stream that is growing at variable
+rates, for example, g1 for the first two years and g2 thereafter:
+The Zero-Growth Rate Model
+A zero-growth rate equates to a fixed-dollar dividend that does not change
+over time. For example, a firm pays a dividend of $1.00 a share annually, and
+there is no expectation that the dividend will change. The zero-growth case
+reduces to a perpetuity. Assuming a constant dollar dividend, which implies a
+zero-growth rate, Equation 10-2 simplifies to the zero-growth model shown as
+Equation 10-3:
+V D
+k z0
+0 ero-growth rate version of the dividend discount moodel (10-3)
+where D0 is the constant dollar dividend expected for all future time periods and k
+is the opportunity cost or required return for the stock.
+The no-growth DDM is commonly used to value traditional preferred stock,
+which, as discussed in Chapter 2, has an infinite life and pays a fixed dividend. The
+annual amount of preferred dividends is calculated by multiplying the stated divi-
+dend rate by the par value of the preferred stock.
+Zero-Growth Rate Case
+One of three growth rate
+cases of the DDM, when
+the dollar dividend being
+paid is not expected to
+change
+Constant (Normal)-Growth
+Rate Case A well-known
+scenario in which dividends
+are expected to grow at a
+constant rate over time
+Multiple-Growth Rate
+Case One of the three
+possible forms of the
+DDM, involves two or
+more expected growth
+rates for dividends
+D D D g D D g D D g D D g0 1 0 1 2 1 1 3 2 2 1 21 1 1 1
+0 1 2 3
+d
+
+iividend stream
+time period
+Growth Rate Cases for the DDM 263
+A present value process The discounting process is not apparent when the per-
+petuity formula is applied in the zero-growth rate case. Nevertheless, the formula
+accounts for all dividends from now to infinity, as with the other DDM cases. It is
+simply a mathematical fact—not to mention a great calculation convenience—that
+dividing a constant dollar amount by the discount rate, k, produces a result equiva-
+lent to discounting each dividend from now to infinity separately and summing all
+of the present values.
+• In using a DDM to value a stock, an investor discounts the future stream of
+dividends from now to infinity.
+Present value of growth opportunities The value of a stock can be viewed as
+the value of the company’s profitability based on its existing operations plus the
+present value of growth opportunities (PVGO). This relationship is demonstrated
+by Equation 10-4.
+V E
+k PVGO0
+1 (10-4)
+where
+V0 = the intrinsic value of the stock
+E1 = next year’s forecasted earnings per share (EPS)
+k = the required return on the stock
+E
+k
+1 = the no-growth value of the stock
+PVGO includes the value of growth in earnings from the firm’s assets that are
+currently in place along with expected earnings from future projects that will
+expand firm operations. The latter are commonly referenced as the firm’s real
+options.
+To estimate PVGO, investors can rearrange Equation 10-4 to get PVGO on the
+left-hand side. Investors substitute the current stock price for V0 in the equation and
+subtract the no-growth value of the stock.
+Furthermore, as an extension of Equation 10-4, it is common to derive the per-
+centage of a firm’s current stock price that is represented by the firm’s PVGO. For
+firms with strong growth prospects, it is common for PVGO to represent 70 percent
+plus of the firm’s stock price.
+Assume Magna Corporation’s annual-pay preferred stock
+has a 7 percent dividend rate and a $100 par value. If an
+investor’s required return on Magna preferred is 8.5 percent, the investor’s
+estimated value, V0
+, for the stock is
+V D
+k
+V
+0
+0
+0
+0 07 100
+0 085 82 35
+264 Chapter 10 Common Stock Valuation
+The Constant-Growth Rate Model
+A well-known scenario in valuation is the case in which dividends are expected to grow
+at a constant rate over time. This constant-growth rate model is shown as Equation 10-5:
+V D g
+k
+D g
+k
+D g
+k
+D g
+0
+0 0
+2
+2
+0
+3
+3
+01
+1
+1
+1
+1
+1
+1
+1
+ kk (10-5)
+where D0 is the current dividend being paid and growing at the constant rate g, and
+k is the appropriate discount rate.
+Equation 10-5 can be simplified to the following equation2
+:
+V D
+k g
+0
+1 constant-growth rate version of the dividend discoount model (10-6)
+where D1 is the dividend expected to be received at the end of Year 1.
+Equation 10-6 is used whenever the growth rate of future dividends is expected
+to be approximately constant. In actual practice, it is used quite often because of its
+simplicity, and because it is the best description of the expected dividend stream for
+a large number of companies, in particular large, stable companies and the market
+as a whole.
+D0 versus D1 Note that the current dividend (D0
+), must be compounded one
+period because the constant-growth version of the DDM specifies the numerator as
+the dividend expected to be received one period from now, which is D1
+. In valuation
+terminology, D0 represents the dividend currently being paid, and D1 represents the
+dividend expected to be paid in the next period.
+Given D0
+, which is known and observable, D1 can always be determined3
+:
+D
+D D g
+0
+1 0 1
+current dividend
+where g is the expected growth rate of dividends.
+At the end of 2018, Amazon’s estimated EPS for 2019 was
+$26.66 and its required return on equity was estimated at
+13 percent. Amazon was selling at $1,502 per share. Its PVGO was:
+PVGO $ , $ .
+. $ , . $ , .1 502 26 66
+0 13 1 502 205 08 1 296 92.
+PVGO as a percent of Amazon’s stock price was: 1 296 92
+1 502 0 8635 86 35
+, .
+, . . %or .
+Thus, over 86 percent of Amazon’s stock price could be attributed to investors’
+expectations about its future growth prospects
+Growth Rate Cases for the DDM 265
+Understanding the constant-growth rate model The constant-growth version
+of the DDM (Equation 10-6) takes account of all future cash flows from now to
+infinity. The mathematics of an infinite constant-growth process reduces to a very
+simple expression, masking the fact that all dividends from now to infinity are being
+accounted for and discounted.
+Growth in stock price The constant-growth version of the DDM implies that the
+stock price is estimated to grow at the same rate as the dividends, which is g. In
+fact, holding the payout ratio (the ratio of dividends to earnings) constant, the
+constant-growth model implies that dividends, earnings, and stock price all grow at
+the expected constant-growth rate, g.
+How k and g Affect Value
+An examination of Equation 10-6 quickly reveals the two major factors affecting the
+estimated value of a common stock:
+1. If the market lowers the required return for a stock, estimated value will rise.
+2. If investors decide that the expected growth in dividends is higher as the
+result of some favorable development for the firm, estimated value also rises.
+Of course, the converse for these two situations also holds—a rise in the dis-
+count rate or a reduction in the expected growth rate of dividends lowers esti-
+mated value.
+Estimating k and g The capital asset pricing model (CAPM) is commonly used
+to derive the required return on equity (k). As an alternative to the CAPM, some
+analysts prefer to use multifactor models, such as the three-factor model, to derive
+the appropriate discount rate for a stock (k).
+There are several means to obtain an estimate of growth (g) for use in the
+constant- growth model. The following three general approaches are commonly
+used:
+1. Obtain an estimate from security analysts or an investment advisory service
+such as Value Line Investment Survey or Standard & Poor’s Outlook.
+2. Derive an estimate based on a firm’s past growth in dividends or earnings.
+According to this approach, future growth is projected to approximate past
+growth.
+Assume that Summa Corporation is currently paying $1
+per share in dividends and investors expect dividends to
+grow at 7 percent a year for the foreseeable future. For investments at this risk
+level, investors require a return of 15 percent. The estimated value of Summa
+today, V0
+, is:
+V D
+k g
+V
+0
+1
+0
+1 00 1 07
+0 15 0 07 13 38
+268 Chapter 10 Common Stock Valuation
+some period (typically, 2 to 10 years) followed by a steady long-term growth rate
+that is sustainable (i.e., a constant-growth rate). This can be described in equation
+form as
+V D g
+k
+D g
+k g kt
+n t
+t
+n
+n0
+1
+0 1
+1
+1 1
+1
+s c
+c
+(10-7)
+where
+V
+D
+0
+0
+the estimated value of the stock today
+the current divvidend
+the supernormal or subnormal growth rate for dsg ( ) iividends
+the constant-growth rate for dividends
+requir
+cg
+k eed return
+the number of periods of supernormal or subnon ( rrmal growth
+the dividend at the end of the abnormal gr
+)
+Dn oowth period
+Understanding the equation Notice in Equation 10-7 that the first term on the
+right side defines a dividend stream covering n periods, growing at a high (or low)
+growth rate of gs and discounted at the required return, k. This term covers the
+period of supernormal (or subnormal) growth, after which the dividend is expected
+to grow at a constant rate forever. In effect, we must identify each of the dividends
+during this abnormal growth period, and then discount them back to the present
+using the required return.
+The second term on the right-hand side is the constant-growth equation dis-
+cussed earlier, which takes the dividend expected for the next period, n + 1, and
+divides by the difference between k and gc
+.5 Notice, however, that the value obtained
+from this second term is the value of the stock at the end of period n, which we shall
+call Vn. This value must be discounted back to time period zero by multiplying by the
+appropriate discount (present value) factor, which is accomplished in Equation 10-7
+by multiplying by 1/(1 + k)n.
+The valuation process is as follows:
+=
++
+0 sof the dividends during the period of unusual growth based on the growth rate
+of the terminal price (which is the value of all dividends that are paid from the start
+of the constant growth
+V PV g
+PV
+phase through infinity)
+Think about the second term in Equation 10-7 as representing the estimated
+value of the stock derived from the constant-growth model as of period n. There-
+fore, the terminal value as of period n is:
+V D
+k g
+n
+n 1
+c
+Because Vn is the estimated value of the stock as of period n, it must be discounted
+back to the present. When it is added to the value of the discounted dividends from
+the first term, we have the estimated value of the stock today.
+5 The dividend at period n + 1 is equal to the dividend paid in period n compounded by the new growth
+rate, gc
+. The designation n + 1 refers to the first period after the abnormal growth ends.
+Growth Rate Cases for the DDM 269
+Figure 10.3 illustrates the valuation of a multiple-growth
+rate company. In this example, the current dividend is
+$1 and is expected to grow at the higher rate (gs
+) of 12 percent a year for five
+years, at the end of which time the new growth rate (gc) is expected to be a
+constant 6 percent a year. The required return is 10 percent.
+The first step in the valuation process is to determine the dollar dividends
+in each year of supernormal growth. This is done by compounding the
+beginning dividend, $1, at 12 percent for each of the first five years:
+D
+D
+D
+D
+0
+1
+2
+2
+3
+1 00
+1 00 1 12 1 12
+1 00 1 12 1 25
+1 00 1
+$
+$ $
+$ $
+$
+.
+. . .
+. . .
+. .. .
+. . .
+. . .
+12 1 40
+1 00 1 12 1 57
+1 00 1 12 1 76
+3
+4
+4
+5
+5
+$
+$ $
+$ $
+D
+D
+Once the stream of dividends over the supergrowth period is determined,
+they must be discounted to the present using the required return of 10
+percent. Thus,
+$ $
+$ $
+$ $
+$
+1 12 0 909 1 02
+1 25 0 826 1 03
+1 40 0 751 1 05
+. . .
+. . .
+. . .
+11 57 0 683 1 07
+1 76 0 621 1 09
+5 26
+. . .
+. . .
+.
+$
+$ $
+$
+EXAMPLE 10.8
+V0
+Vn = The discounted value of all
+dividends from Year 6 to ∞,
+given a normal growth rate
+of 6 percent
+∞Time
+Vn = $46.64 = The value of the stock
+at the end of Year 5
+1
+Discounted
+One year
+Discounted two years
+Discounted three years
+Discounted four years
+Discounted five years
+Discounted five years
+1.12
+2
+1.25
+3
+1.40
+4
+1.57
+5
+1.76
++$1.03
++$1.05
++$1.07
++$1.09
+$1.02
+= 1.76 (1.06)
+0.10 –0.06
++ $28.96
+= $34.22
+FIGURE 10.3 Valuing a multiple-growth rate company
+270 Chapter 10 Common Stock Valuation
+Limitations of the multiple-growth rate case As mentioned previously, the
+DDM is subject to limitations, which clearly apply to multiple-growth rate models:
+a. The model is very sensitive to the inputs. Since a large part of the model
+involves a constant-growth rate calculation, a relatively modest change
+in one of the parameters has a significant impact on the final estimate
+of value.
+b. Determining the length of the abnormal growth period is quite difficult to do
+in practice. Will it last 5 or 12 years?
+c. The model as described previously assumes an immediate transition from
+unusual growth to constant growth, in reality the transition may not take
+place that quickly.
+The three-stage growth rate model A logical extension of the two-stage growth
+rate model is the three-stage model. The three-stage model includes three distinct
+periods of dividend growth: a near-term period of supernormal growth, followed
+by a period of rapid yet diminishing growth, which culminates with a period of
+constant growth.
+To apply the three-stage model, we rely on Equation 10-7, but recognize that the
+period of unusual growth, as represented in the first term in the equation, is com-
+prised of two distinct periods of growth: the supernormal growth and a rapid but
+diminishing growth period.
+Summing the five discounted dividends produces the value of the stock’s
+first five dividends only, which is $5.26. To evaluate Years 6 and forward, when
+constant growth is expected, the constant-growth model is used:
+V D
+k g
+V D
+k g
+V
+V
+n
+n 1
+5
+6
+5
+5
+1 76 1 06
+0 10 0 06
+46 64
+c
+c
+$
+. .
+. .
+.
+Thus, $46.64 is the expected value of the stock as of Year 5. It must be
+discounted back to the present using the present value factor for five years and
+10 percent, 0.621. Therefore,
+V Vn ndiscounted to today PV factor for five years
+$
+, %10
+466 64 0 621
+28 960
+. .
+.V $
+The last step is to add the two present values together:
+$ present value of the first five years of dividends5 26
+2
+.
+88 96. ,present value of the Year 5 value representing the ddiscounted
+value of dividends from Year to
+$ t
+6
+34 22 0. ,V hhe value today of this multiple-growth rate stock
+Growth Rate Cases for the DDM 271
+The H-Model A variant of the two- and three-stage dividend growth scenarios is
+captured by the H-model. The H-model assumes an initial period of supernormal
+dividend growth that declines linearly through the supernormal growth period
+until it reaches the constant or mature growth phase. Thus, the H-model modifies
+the “period of rapid but diminishing growth” phase that is found in the three-
+stage model by assuming that the growth diminishes linearly from the first period
+until constant growth starts. Based on the H-model, a stock’s value (V0 ) is esti-
+mated as follows:
+V D g D H g g
+k g
+C S C
+C
+0
+0 01 (10-8)
+where
+D0 the current dividend
+gS the supernormal growth rate for dividends
+gC the constant growth rate for dividends
+k required rate of return
+H half-life in years of the high growth period (i.e., years of diminishing growth divided
+by 2)
+An analyst expects Microsoft’s per share dividend to grow
+by 14 percent per year from its current annual rate of
+$1.84 for the next three years. Further, the analyst expects dividend growth to
+diminish by 2 percent each year for the subsequent three years, and finally, the
+dividend is expected to grow at 7 percent thereafter.
+D1 = $1.84 × 1.14 = $2.10
+D 2 = $2.10 ×1.14 = $2.39
+D3 = $2.39 ×1.14 = $2.73
+D4 = $2.73 ×1.12 = $3.05
+D5 = $3.05 ×1.10 = $3.36
+D6 = $3.36 ×1.08 = $3.63
+D7 = $3.63 ×1.07 = $3.88
+Period of supernormal growth
+Period of rapid but diminishing growth
+Period of constant growth
+Applying Equation 10-7, the dividend stream is discounted at Microsoft’s required
+return on equity as shown below. Microsoft’s required return is derived based on the
+CAPM as 9.0 percent.
+V0 1 2 3 4 5
+2 10
+1 09
+2 39
+1 09
+2 73
+1 09
+3 05
+1 09
+3 36
+1 09
+3 63
+1
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+..
+.
+. . .
+$ .
+09
+3 88
+0 09 0 07
+1
+1 09
+128 2
+Assume that Cisco Systems pays an annual dividend of
+$1.32 and has a required return of 10 percent. An analyst
+estimates Cisco’s short-term dividend growth at 15 percent and predicts
+dividend growth will decline to a growth rate of 6 percent over the next
+12 years. Applying the H-model, as specified in Equation 10-8, the analyst’s
+estimated value for Cisco is:
+V0
+1 32 1 06 1 32 6 0 15 0 06
+0 10 0 06 52 80
+272 Chapter 10 Common Stock Valuation
+Dividends, Dividends—What About Capital Gains?
+In their initial study of valuation concepts, investors often are bothered by the fact
+that the DDM contains only dividends. Although this is the correct formulation,
+many investors are sure that (1) they will not be here forever and (2) they really
+want capital gains. Dividends may be nice, but buying low and selling high is won-
+derful! Since so many investors are interested in capital gains, a valuation model
+should seemingly contain stock price somewhere. How can price be incorporated
+into the valuation model—or should it be?
+How capital gains are accounted for The estimated future price is built into
+the DDM—it is simply not visible. To see this, ask yourself at what price you can
+expect to sell your stock at some point in the future. Assume, for example, that you
+purchase the stock today and plan to hold it for three years. The price you receive
+three years from now will reflect the buyer’s expectations of dividends from that
+point forward (at the end of Years 4, 5, etc.). Your estimated price today of the stock,
+V0
+, is equal to:
+V D
+k
+D
+k
+D
+k
+V
+k
+0
+1 2
+2
+3
+3
+3
+3
+1 1 1 1 (10-9)
+But V3 (the estimated value of the stock at the end of Year 3), is, in turn, equal to the
+discounted value of all future dividends from Year 4 to infinity. That is,
+V D
+k
+D
+k
+D
+k
+3
+4
+1
+5
+2
+1 1 1
+ (10-10)
+Substituting Equation 10-10 into Equation 10-9 produces Equation 10-2, the
+basic DDM. Thus, in principle, investors obtain the same estimate of value today
+whether they discount:
+a. Only the stream of dividends expected to be paid on the stock
+or
+b. A combination of dividends for some period and an expected terminal
+price
+Since expected price at any point in the future is a function of the dividends to
+be received after that time, the estimated value today for a common stock is best
+thought of as the discounted value of all future dividends.
+Assume that Cisco Systems pays an annual dividend of
+$1.32 and has a required return of 10 percent. An analyst
+estimates Cisco’s short-term dividend growth at 15 percent and predicts
+dividend growth will decline to a growth rate of 6 percent over the next
+12 years. Applying the H-model, as specified in Equation 10-8, the analyst’s
+estimated value for Cisco is:
+V0
+1 32 1 06 1 32 6 0 15 0 06
+0 10 0 06 52 80
+. . . . .
+. . $ .
+EXAMPLE 10.10
+Other Discounted Cash Flow Approaches 273
+The Dividend Discount Model in Practice
+Many investment professionals use the DDM in various ways to estimate the intrin-
+sic value of stocks. Regardless of who uses the model, or how it is used, the process
+produces an “estimate” of firm value. Investors should remember this when using,
+or evaluating, the output from any valuation model.
+• All valuation models involve judgments and estimates because all valuation
+models deal with the uncertain future.
+In practice, investors may use the DDM in other forms as well. For example, rear-
+ranging Equation 10-6 to solve for k, which represents the expected rate of return
+on a stock (we now use the current price, P0
+, instead of V0
+):
+k D
+P g1
+0
+(10-11)
+Equation 10-11 says that the expected return on a constant-growth stock is equal
+to the dividend yield plus the expected growth rate in dividends and price, g. The
+latter term can be thought of as the price change component or capital gains com-
+ponent. Therefore, an investor’s expected return can be viewed as the sum of the
+income component and the price change component, which together constitute
+the return from a stock.
+Investors can use Equation 10-11 to estimate return on a constant-growth stock,
+and then compare that estimate to their required return. Recall that the required
+return for a common stock, or any security, is defined as the minimum expected return
+needed to induce an investor to purchase it. That is, given its risk, a security must
+offer some minimum expected return before an investor is persuaded to buy it.
+The CAPM provides investors with a method of calculating a required return for
+a stock, an industry, or the market as a whole. If an investor’s estimated return on a
+stock is greater than the required return, the stock is a buy candidate because it is
+considered undervalued. Specifically,
+• Buy if the investor’s estimated return > the required return
+• Do not buy if the required return > investor’s estimated return
+Checking Your Understanding
+3. Neither the zero-growth case nor the constant-growth case shows any signs of
+a present value process in their equations. How, then, can the DDM be said to
+involve a present value process?
+4. Assume a group of investors uses the constant-growth version of the DDM to
+value GE. Are they likely to come up with different estimates of value?
+Other Discounted Cash Flow Approaches
+The DDM is certainly not the only DCF model used by investors and analysts; how-
+ever, all DCF models rely on the same basic concepts—an estimation of future cash
+flows discounted back to today using a discount rate that reflects the time value of
+274 Chapter 10 Common Stock Valuation
+money and the risk involved. As noted at the outset of this discussion, the primary
+differences across models relate to the cash flows and the discount rate used.
+Free Cash Flow to Equity
+The DCF model that relies on cash flows to equity is referred to as the Free Cash
+Flow to Equity (FCFE) model. It differs from the DDM discussed previously in that
+FCFE measures what a firm could pay out in dividends, rather than what it actually
+does pay out.
+Dividends are at times higher than FCFE and at other times lower. Note that the
+FCFE variable is on a per-share basis.
+Definition of free cash flow to equity FCFE is defined as the cash flow avail-
+able to the firm’s owners (stockholders). It equals cash remaining after interest
+and principal repayments on debt, capital expenditures (both to maintain existing
+assets and provide for new assets needed for growth), and operating working capital
+expenditures. It can be calculated as:
+FCFE net income depreciation fixed capital expenditures
+opeerating working capital expenditures net borrowing
+Implementing the model To implement this model for a firm whose cash flows
+are growing at a stable rate, an analyst could apply the constant-growth format dis-
+cussed with the DDM. This results in the following equation:
+V k g
+0
+next period’s expected FCFE (10-12)
+where g is the expected constant-growth rate in FCFE for the company, and k is the
+firm’s cost of equity capital.6
+This free cash flow model is an alternative to the DDM. It may provide an esti-
+mated value that is similar to that produced by the DDM or one that differs by a sig-
+nificant amount. A difference will occur if the firm is paying dividends in amounts
+greater than its free cash flows. The firm would have to finance these dividends out
+of external capital, which could have significant consequences for the valuation of
+the stock.
+Free Cash Flow to the Firm
+Free cash flow to the firm (FCFF) is similar to the definition of FCFE. The major
+differences arise from the use of debt financing, including both the repayment of
+existing debt, and the interest thereon, and the sale of new debt.
+Definition of free cash flow to the firm FCFF is defined as the cash flows avail-
+able to all the firm’s claimholders (common and preferred stock and bonds) after
+making fixed and operating working capital expenditures.
+Other Discounted Cash Flow Approaches 275
+FCFF net income depreciation fixed capital expenditures
+opeerating working capital expenditures interest expense t1 aax rate
+or
+FCFF EBIT tax rate depreciation fixed cap
+,
+1 iital expenditures
+operating working capital expenditures
+orr
+FCFF FCFE interest expense tax rate net borrowing
+,
+1 (10-13)
+When using FCFF in a DCF model, the weighted average cost of capital is used
+as the discount rate. The derived value from the model represents the value of the
+entire firm, that is, the value of all claimholder interests (common stock, preferred
+stock, and bonds).
+Implementing the model DCF models are used regularly in finance; however,
+completing a full-blown valuation on a firm can be a time-consuming and tedious
+process. As an example of a DCF analysis, we report an outline of the process used
+by Morningstar. Morningstar’s methodology is as follows:
+1. Project expected cash flows taking into account several factors such as the
+company’s relative position compared to competitors, growth prospects,
+management, and the attractiveness of the company’s industry.
+2. Discount these estimated cash flows back to the present using an estimate of
+the company’s weighted cost of capital (and taking into account such factors
+as the risk of the company and its debt level).
+3. To derive a firm’s equity value, adjust the present value of the firm’s expected
+cash flows to account for its debt, preferred stock, cash, and off-balance sheet
+assets and liabilities.
+4. Divide the resulting value by the number of diluted shares outstanding, which
+results in a per-share estimate of fair value of the firm’s equity (the stock price).
+Recognizing that any estimation process is subject to errors, Morningstar recom-
+mends a stock as a buy only if the current market price is below the fair value esti-
+mate by a certain percentage (often 20 percent) in order to account for uncertainty.
+Intrinsic Value and Market Price
+The end objective of a DCF analysis is an estimate of intrinsic value. What does intrin-
+sic value indicate? It is the estimated value of the stock today, derived from estimating
+and discounting the future cash flows. How is it used? Investors and analysts specify a
+relationship between the intrinsic value, V0
+, of an asset and its current market price.
+Specifically,
+If price the asset is undervalued and should be purchasV0 , eed or held if already owned
+If price the asset is overvV0 , aalued and should be avoided sold if held or possibly sold, , short
+If price this implies an equilibrium in that theV0 , asset is correctly valued
+Security analysis can be viewed as a search for under- or overvalued stocks. Most
+investors believe that stocks are not always priced at their intrinsic values, thereby
+leading to buy and sell opportunities.
+276 Chapter 10 Common Stock Valuation
+Using intrinsic value Always remember that the valuation process is an art and
+not a science—it can never be an exact process because it involves estimates of the
+future.
+• When an investor calculates an intrinsic value, it is an estimate, which is sub-
+ject to error.
+The intelligent way to make investment decisions using intrinsic value is to
+base the decision on significant differences in current price versus estimated
+(calculated) value. If you estimate the value of AT&T at $30 per share, and it
+is selling for $29 or $31, then it really does not matter too much. But if you do
+careful analysis, and you estimate an intrinsic value for AT&T of $40 when it is
+selling for $25, then you should buy because the stock is substantially under-
+valued. In a similar vein, if your careful analysis indicates an intrinsic value for
+AT&T of $14 when it is currently selling for $25, you should avoid the stock or
+perhaps sell it short.
+In practice, some analysts use a 15 percent rule in recognition of the fact that the
+estimation of a security’s value is an inexact process. Thus, if the price is not at least
+15 percent different from the estimated value, no action is warranted.
+Uncertainty will always be the dominant feature of the environment in which
+investment decisions are made. Furthermore, factors other than those that affect
+cash flows are at play, including the psychology of the market. And with the advent
+of the Internet, and increased investor interaction, false or misleading information
+can be spread quickly and prices affected accordingly.
+Checking Your Understanding
+5. Does the use of models involving free cash flows make an investor’s job any
+easier?
+6. Is the intrinsic value of a stock a formula value or an estimated value?
+The Multiplier Approach
+Multiples are derived as simple ratios of firm characteristics; however, they are
+widely discussed and used across finance. The most commonly used multiplier is
+based on firm earnings; however, there are several alternative multipliers that are
+used in investment analysis. Relative to DCF models, multipliers are popular due to
+their easy calculation and straightforward interpretation.
+We consider the most prominent multipliers in this section. A common feature
+of all the multipliers is that market value (price) is placed in the numerator of the
+ratio and a common firm characteristic in the denominator.
+Earnings Multiplier (P/E Ratio)
+The P/E ratio (multiple) is one of the most widely mentioned and discussed vari-
+ables pertaining to a common stock and will typically appear in any report from an
+analyst or an investment advisory service. As a definition, the P/E ratio is simply
+the price investors are willing to pay per dollar of firm earnings. For example, a
+stock priced at $100, with most recent 12-month EPS of $5, has a P/E of 20, and is
+The Multiplier Approach 277
+selling for a multiple of 20 times trailing 12-month (TTM) earnings. Likewise, a firm
+with EPS of $2.50 that is selling for $100 has a P/E of 40 and is selling at 40 times
+earnings.
+• The typical P/E ratio is calculated as the current stock price divided by the
+firm’s latest 12-month EPS. This P/E ratio is frequently referenced as the trail-
+ing P/E because it uses trailing 12-month EPS.
+The typical P/E ratio relies on historical earnings and is not particularly useful
+for valuation purposes. Therefore, analysts generally use a modified version of the
+ratio when deriving stock values. For valuing a stock, analysts generally make a fore-
+cast of next year’s EPS and project an appropriate P/E ratio they expect is relevant
+for the firm. Next year’s expected EPS, E1
+, can be found by taking this year’s EPS, E0,
+and compounding it one period by the expected growth rate, g.
+E E g1 0 1
+Previously in this chapter, we discussed three methods to obtain an estimate for
+growth (g). Frequently, investors obtain estimates of next year’s EPS from security
+analysts and investment advisory services such as The Value Line Investment Survey or
+Standard & Poor’s Outlook.
+Multiplying next year’s EPS estimate by what is thought to be an appropriate P/E
+ratio produces an estimate of intrinsic value, V0
+, as shown in Equation 10-14:
+V E P
+E
+0 1
+0
+1 A
+(10-14)
+where
+V
+E
+0
+1
+an estimate of the stock’s intrinsic value
+next periodd’s estimated EPS
+estimated appropriate P/E ratioA
+P E0 1/
+An appealing aspect of this approach is its simplicity—multiply two variables
+together to derive an estimate of intrinsic value. However, the problem is that both
+variables used in this model, next period’s EPS and the appropriate P/E ratio, are
+both estimates and therefore are subject to misestimation. The appropriate P/E
+ratio P E0 1/ A is the investor’s estimate of the price that investors in aggregate
+should pay per dollar of estimated firm earnings.
+• Remember that all valuation techniques are subject to error because they rely
+on estimates.
+In early 2019, Bloomberg estimated 2019 earnings for
+Lowe’s at $5.12 per share. At the same time, Home Depot’s
+P/E was 19.56. If an analyst believes that Home Depot’s P/E represents an
+appropriate multiplier for Lowe’s. The product of the two numbers produces
+a target price for Lowe’s ($5.12 × 19.56=$100.15). At the time, Lowe’s was
+selling at $105. Thus, this method suggests Lowe’s was selling at a premium to
+fair value.
+EXAMPLE 10.11
+278 Chapter 10 Common Stock Valuation
+Other Multipliers
+The multiplier approach is commonly applied with estimated EPS and appropriate
+P/E; however, many analysts rely on alternative multipliers in deriving the intrinsic
+value for a stock. The valuation procedure using these alternative multipliers works
+in the same manner as the earnings multiplier approach. Specifically, the investor
+estimates the relevant firm characteristic and the appropriate multiplier. By multi-
+plying the two together, the investor obtains an estimate of intrinsic value, V0. The
+most popular alternative multipliers include the following:
+Price to Book (P/B)
+The P/B ratio equals price per share divided by book value of equity per share. It is
+calculated as the ratio of stock price to per-share stockholders’ equity as measured
+on the balance sheet. If the value of this ratio is 1.0, the market price is equal to the
+accounting (book) value. If the P/B ratio exceeds 1.0, the price exceeds the book
+value (the stockholders’ contribution to the firm). Some investors view this case as
+evidence that the firm has created value for stockholders. If the ratio is less than 1.0,
+the stockholders’ equity contribution exceeds the market price and some would
+argue the firm has destroyed value.
+The relevance of the P/B ratio for investment analysis has garnered support in
+empirical tests. For example, a study by Rosenberg et al.7 found that stocks with low
+P/B ratios significantly outperformed the average stock. The P/B ratio received a
+major boost of support in 1992 with the publication of an article by Eugene Fama and
+Kenneth French. The authors found that two basic firm characteristics, size (market
+value of equity) and P/B ratio, were effective in explaining subsequent stock returns.8
+Price to Sales (P/S)
+The P/S ratio is calculated as price per share divided by annual sales (revenue) per
+share. In effect, it indicates what the market is willing to pay for a firm’s revenues.
+Concepts in Action
+It Takes Two to Tango
+Investors place great emphasis on a company’s
+EPS because of the recognized importance of
+the variable in affecting stock prices. However,
+remember that it takes two variables to deter-
+mine stock price, EPS and the multiplier, or P/E
+ratio. Consider Molson Coors Brewing, a global
+brewing company. From 2013 through 2018,
+revenue per share and EPS increased by 117 per-
+cent and 67 percent, respectively; however, the
+stock price remained at $56. Why? In 2018, inves-
+tors were not willing to pay the same multiple for
+Molson Coors due to concerns about shifting
+consumer preferences. Specifically, Molson Coors
+sold with a multiple of 15.24 in 2013, whereas the
+multiple was only 11.23 in 2018.
+280 Chapter 10 Common Stock Valuation
+trying to determine stocks that may be undervalued without having to say what the
+stock is worth or how much it is undervalued. The appeal of the relative valuation
+approach is supported by its widespread use in assessing the value of other assets
+such as real estate. For example, homeowners will frequently judge the value of
+their house based on the price per square foot of a neighbor’s house that recently
+sold. How much did the neighbor get per square foot? Now that sounds like a price
+multiple, doesn’t it?
+Performing an appropriate comparative analysis across firms requires the inves-
+tor to focus on firms operating in approximately the same line of business. This is
+particularly true when using multiples that are not based on bottom-line firm fun-
+damentals. For example, it makes little sense to compare Walmart’s P/S ratio, which
+in 2018 was 0.5, to Intel’s P/S, which was 4.0. Given the different operating structure
+of the two firms, such comparisons are invalid.
+The relative value metrics are frequently applied to individual firms; however,
+they can also be used to assess industries, sectors, and entire markets. For example,
+an analyst focused on determining the appropriate sector allocation may compare
+a sector’s price multiples with its historic multiples to determine how the multiple
+compares to its typical valuation. If the financial sector typically has a P/B ratio of
+1.6, and is now selling with a P/B of 1.4, and the analyst believes the sector’s pros-
+pects are above average, the analyst may decide to overweight financials due to their
+attractive relative valuation.
+Information on relative valuation ratios can be easily found at sites such as Yahoo!
+Finance (look under “Key Statistics” for any stock you call up by its ticker symbol).
+On the Morningstar website, look under the “Valuation” section.
+Price/Earnings (P/E) Ratio
+Most investors intuitively realize that the P/E ratio should be higher for companies
+whose earnings are expected to grow rapidly. However, how much higher is not
+an easy question to answer. Furthermore, the high growth rate may be attribut-
+able to several different factors, some of which are more desirable than others. For
+example, rapid growth in earnings owing to strong demand for a firm’s products is
+preferable to earnings growth due to temporarily favorable tax situations or liberal
+accounting procedures.
+As with all relative value metrics, the P/E ratio is typically used to compare com-
+panies in the same industry or a company’s current P/E ratio to its past P/E ratios.
+Note that while the P/E ratios for comparable companies can be evaluated, compa-
+nies in different industries are expected to have different P/E ratios merely due to
+differences in their operating and financial structures.
+As an example, if several companies in the same industry are selling for an aver-
+age P/E of 15, another company (Firm A) in this group might be given a P/E of
+15; however, if Firm A is thought to be superior in terms of expected growth, a
+P/E of 16 or 18 might be applied. This means that a relative valuation judgment,
+or comparative judgment, is being made. In contrast, comparing Firm A to firms
+in another industry that has an average P/E ratio of 10 would offer relatively little
+insight.
+As a general proposition, the higher the P/E ratio, the greater the market’s expec-
+tation about future earnings growth. However, the market will assess the degree of
+risk involved in the expected future growth of earnings. The average long-term P/E
+for the S&P 500 stocks is around 16. Stocks that have very high P/E ratios, such
+as 40 or higher, are very vulnerable to a market disappointment about earnings.
+282 Chapter 10 Common Stock Valuation
+Price/Cash Flow (P/CF) Ratio
+The 2012 BofA Merrill Lynch Institutional Factor Survey indicates that P/CF is used
+as a valuation metric by approximately half of the institutions surveyed. Cash
+flow is viewed favorably to earnings because it is less susceptible to manipu-
+lation, less likely to be negative, and is generally more stable. In addition,
+cash flow addresses the issue of differences in quality of earnings across firms.
+High-quality earnings are more likely to flow through to cash flows than are low-
+quality earnings.
+P/CF is popular among investment professionals due to its reliance on cash flow,
+which is the basis of DCF analysis. When CF is measured as FCFE or FCFF, the P/CF
+multiple has particularly strong theoretical support.
+Enterprise Value/EBITDA (EV/EBITDA) Ratio
+The EV/EBITDA ratio, also called the enterprise multiple, is less well-known than
+the P/E and P/S multiple; however, the measure has gained increased recogni-
+tion by practitioners over time. The empirical evidence indicates that the enterprise
+multiple compares favorably with the alternative multiples in differentiating stock
+returns, which likely explains its increased attention. A 2011 study by Loughran and
+Wellman shows that firms with low EV/EBITDA ratios outperform firms with high
+ratios by over 5 percent per year. Furthermore, the authors show that the enter-
+prise multiple is superior to other price multiples in explaining subsequent stock
+returns. The authors conclude that practitioner use of the enterprise multiple is
+well justified.10
+A recognized advantage of the enterprise multiple is that it provides a more
+valid comparison when firms use different amounts of debt. In addition, relative
+to other profitability measures, EBITDA is less subject to manager manipulation,
+which makes the measure more appropriate for comparisons both within and across
+industries.
+Economic Value Added Analysis
+An alternative technique for evaluating stocks is to calculate the economic value
+added or EVA™.11 In effect, this measure indicates the amount by which a company’s
+operating profit exceeds its total cost of capital. If this difference is positive, the
+company is adding value. Its creator calls this variable “the measure of a company’s
+true profitability.”
+Some mutual funds now use EVA ™ analysis as the primary tool for selecting
+stocks for the fund. One recommendation for investors interested in this approach
+is to search for companies that are generating relatively high rates of return
+on capital.
+10 See Tim Loughran and Jay W. Wellman, “New Evidence on the Relation between the Enterprise Multi-
+ple and Average Stock Returns,” CFA Digest, 46, no. 6 (2011): 1629–1650.
+11 This term has been trademarked by Stern Stewart, a consulting firm that pioneered the use of this
+concept.
+Which Approach to Use? 283
+In 2018, Amazon had an enterprise value to EBITDA
+(EV/EBITDA) ratio of 44.9, whereas J.C. Penney Co’s
+EV/EBITDA was 6.3. This dramatic difference in ratios reflects, among other
+things, the difference in investor optimism about the prospects for these two
+prominent retailers.
+EXAMPLE 10.13
+Which Approach to Use?
+We have described the most often used approaches in fundamental analysis—DCF,
+price multiples, and relative valuation. Which should be used?
+In theory, the DCF approach is logical and supported by sound financial prin-
+ciples. Conceptually, the best estimate of a company’s stock value is the present
+value of the firm’s estimated cash flows. However, some analysts and investors argue
+that no one can forecast dividends or cash flows into the distant future with much
+accuracy. Technically, DCF models call for an estimate of all dividends/cash flows
+from now to infinity, which is an impossible task. However, as we learned, infinity is
+not a problem, and future dividends/cash flows can be modeled based on expected
+growth rates.
+Due to their ease of application and interpretation, techniques that rely on price
+multiples are very popular in valuation analysis. In contrast to the DCF approaches,
+these techniques can be applied to a relatively large number of firms in a fairly short
+period of time. Furthermore, the price multiple approaches have broad appeal
+because they are employed widely to value other types of assets. For example, the
+“comparables approach” for real estate valuation relies on pricing a property based
+on a comparison with comparable properties. Homeowners routinely assess their
+homes’ value based on this approach.
+Ethics in Investing
+Truth in the Financial Markets
+Investors that value stocks have a difficult
+enough job without having to worry about
+whether corporate disclosures are truthful or not.
+In the past 30 years, a number of corporate scan-
+dals have been uncovered involving manipula-
+tion to make corporate earnings appear more
+favorable. We need only think of Enron, World-
+Com, HealthSouth, ImClone, and so forth. Lying
+appears to have been a prominent feature in
+multiple corporations and that has serious impli-
+cations for financial markets.
+The Sarbanes–Oxley Act was passed in 2002
+largely as a response to these infractions. Hope-
+fully, between passage of this legislation and the
+trials and convictions of a number of corporate
+executives, the message has been delivered that
+lying about firm financials will not be tolerated. It
+is unrealistic, of course, to think that these actions
+will stop all false statements issued by corporate
+executives. However, investors need to be able
+to rely on the integrity of public disclosures by
+companies if they are to have faith in the finan-
+cial markets. Otherwise, they may conclude that
+trying to value companies is simply a shot in the
+dark, akin to gambling at a roulette wheel or slot
+machine.
+Bottom line? Ethical behavior, and the percep-
+tion of ethical behavior, is critical to the orderly
+functioning of the stock market.
+284 Chapter 10 Common Stock Valuation
+Regardless of the valuation approaches used, it is important to remember that
+the approaches are subject to error because they rely on an uncertain future. No
+matter who does the analysis, or how it is done, mistakes will be made. To increase
+the robustness and accuracy of a valuation analysis, investors should apply more
+than one of the valuation approaches. If different approaches produce similar esti-
+mates of a stock’s intrinsic value, the investor achieves some assurance that the esti-
+mate is valid. The investor can proceed with more confidence with the transaction.
+In contrast, if widely differing estimates for a stock’s intrinsic value are produced by
+alternative approaches, the investor should reassess the models’ inputs and make
+adjustments until the valuation discrepancy can be explained.
+• When estimating the intrinsic value of a security, investors should rely on more
+than one valuation approach.
+Bursting the Bubble on New Economy
+Stocks—A Lesson in Valuation
+At the end of the 1990s and into 2000, investors were caught up in a speculative
+bubble involving “New Economy” stocks, such as eToys and Dr.Koop.com. These
+internet companies were thought to represent the wave of the future and to be
+more desirable than “Old Economy” stocks such as 3M or Procter & Gamble. There
+seemed to be no upper limit as prices for these New Economy stocks were bid higher
+and higher. Tremendous fortunes, mostly on paper, were made.
+Because these companies involved revolutionary new technology, many investors
+argued that they should be valued using revolutionary techniques because the old
+methods no longer applied. As one of the leading Internet gurus at Merrill Lynch
+proclaimed in early 2000, “Valuation is often not a helpful tool in determining when
+to sell hyper growth stocks.” Other star analysts were talking about “usage metrics”
+when discussing these stocks, which basically referred to nonfinancial metrics such
+as customer loyalty, site hits, and “engaged shoppers.” Many analysts and investors
+did not want to talk about EPS, cash flows, P/E ratios, and so on, and of course for
+Concepts in Action
+How Some Investment Advisory Services
+Recommend Stocks
+There are, of course, a large number of
+investment advisory services and brokerage firms
+that make stock recommendations. They use a
+variety of valuation techniques. We review the
+valuation approaches from a few well-known ser-
+vices that investors can subscribe to or access in
+a public library or on the Internet.
+Consider Morningstar, which calculates and
+reports the “fair value” for stocks based on a
+DCF analysis. Standard & Poor’s, in its Outlook,
+recommends stocks based on DCF analysis and
+relative valuation metrics.
+The Value Line Investment Survey, perhaps
+the best known investment service because of
+its long history and wide availability in libraries,
+uses a proprietary ranking system to recom-
+mend stocks, with “1” being the highest rec-
+ommendation and “5” the lowest. Value Line
+write-ups include earnings estimates for the
+following year, earnings growth rates, a safety
+rating, some information on P/E ratios, and
+so forth.
+Some Final Thoughts on Valuation 285
+many of these companies, these variables did not exist. They had no profitability,
+and in many cases little hope of profitability for the foreseeable future.
+As we now know, the bubble began to burst in March 2000 and continued, with
+horrific declines in 2001 and 2002. Many of the hot New Economy stocks dropped
+80 percent or more, and hundreds of Internet companies went out of business.
+The aggregate dollar loss in the value of investor portfolios was staggering—roughly
+$4 trillion from March 2000 to March 2001 alone. The Amex Internet Index lost
+60 percent of its value in 2000 and declined even further in early 2001.
+By early 2001, it became apparent to all but the most obtuse that the old metrics
+of valuation really do apply. To survive and succeed, companies sooner or later have
+to generate cash flows and be profitable. Investors no longer believe statements
+such as that of a major brokerage firm report, which argued that cash burned by
+dot-com companies is “primarily an investor sentiment issue” and not a long-term
+risk for the sector.12
+The bottom line is that valuation standards apply to all stocks, even New Econ-
+omy stocks. Revenues and profits, and all the other factors that impact cash flows,
+do matter and so do price multiples.
+Checking Your Understanding
+7. Why is the definition of the P/E ratio often a problem when using this relative
+valuation technique?
+8. What did the extraordinary rise in stock valuations in the late 1990s, ending
+in March 2000, demonstrate about the valuation of common stock?
+Some Final Thoughts on Valuation
+Valuing stocks is difficult under the best of circumstances. Judgments must be made
+and variables estimated. Valuation of stocks is, and will continue to be, an art, not a
+science. Errors are to be expected.
+In the final analysis, stocks are worth the price investors pay for them. Eventually,
+however, a stock’s price will reflect its fundamentals, as determined by cash flows
+and risk, even if there may be some fairly long departures between the two.
+At the peak of the technology bubble, which occurred
+on March 10, 2000, Cisco had a P/E ratio of about 150,
+Yahoo about 650, and JDS Uniphase about 640. One year later, the same
+companies had P/E ratios of 31, 35, and 41, respectively.
+EXAMPLE 10.15
+Between January 1998 and March 2000, the Amex
+Internet Index rose from 87 to 689. Therefore, in just
+over two years, this index showed a gain of almost 700 percent. Such was the
+euphoria that prevailed for New Economy stocks during this period of time.
+286 Chapter 10 Common Stock Valuation
+Summary
+• Major approaches to valuing common stocks using fundamental analysis
+include discounted cash flow (DCF) techniques, the price multiples approach,
+and relative valuation techniques.
+• DCF techniques attempt to estimate the intrinsic value of a stock using a pre-
+sent value analysis. A stock’s intrinsic value is its estimated value or formula
+value.
+• The dividend discount model (DDM) is the best known DCF model and is
+widely considered a foundation of stock valuation. It states that a stock’s value
+today is the discounted value of all future dividends.
+• The future stream of dividends from a common stock is discounted back
+to the present at an appropriate discount rate (the investor’s required
+return).
+• To account for an infinite stream of dividends, stocks are classified by their
+expected growth rate in dividends.
+• If no growth is expected, the DDM reduces to a perpetuity. If two or more
+growth rates are expected, a multiple-growth model must be used.
+• The constant-growth version of the DDM is used most often. Using this ver-
+sion, the dividend expected next period is divided by the difference between
+the required return and the expected growth rate in dividends.
+• The DDM is sensitive to the estimates of its inputs; therefore, investors
+will calculate different prices for the same stock while using an identical
+model.
+• Other discounted cash flow approaches involve free cash flow to equity and
+to the firm.
+• The end objective of a DCF technique is an estimate of intrinsic value. Intrin-
+sic value is compared to current market price to make a buy or sell decision.
+• A P/E ratio can be calculated by dividing the current price by the most recent
+12-month EPS.
+• The earnings multiplier approach derives stock value as the product of the
+firm’s forecasted 12-month EPS and the appropriate P/E ratio.
+• The multiplier approach attempts to estimate intrinsic value based on
+an estimated firm characteristic for the next year and an appropriate mul-
+tiplier.
+• The relative value concept is based on making comparisons in order to deter-
+mine value. By calculating measures such as the P/E ratio, and making com-
+parisons to some benchmark(s), analysts can avoid having to estimate the g
+and k parameters of the DDM.
+• Relative valuation techniques include P/E, P/B, P/CF, P/S, and EV/EBITDA.
+Like all valuation techniques, each has its strengths and weaknesses.
+286 Chapter 10 Common Stock Valuation
+Summary
+• Major approaches to valuing common stocks using fundamental analysis
+include discounted cash flow (DCF) techniques, the price multiples approach,
+and relative valuation techniques.
+• DCF techniques attempt to estimate the intrinsic value of a stock using a pre-
+sent value analysis. A stock’s intrinsic value is its estimated value or formula
+value.
+• The dividend discount model (DDM) is the best known DCF model and is
+widely considered a foundation of stock valuation. It states that a stock’s value
+today is the discounted value of all future dividends.
+• The future stream of dividends from a common stock is discounted back
+to the present at an appropriate discount rate (the investor’s required
+return).
+• To account for an infinite stream of dividends, stocks are classified by their
+expected growth rate in dividends.
+• If no growth is expected, the DDM reduces to a perpetuity. If two or more
+growth rates are expected, a multiple-growth model must be used.
+• The constant-growth version of the DDM is used most often. Using this ver-
+sion, the dividend expected next period is divided by the difference between
+the required return and the expected growth rate in dividends.
+• The DDM is sensitive to the estimates of its inputs; therefore, investors
+will calculate different prices for the same stock while using an identical
+model.
+• Other discounted cash flow approaches involve free cash flow to equity and
+to the firm.
+• The end objective of a DCF technique is an estimate of intrinsic value. Intrin-
+sic value is compared to current market price to make a buy or sell decision.
+• A P/E ratio can be calculated by dividing the current price by the most recent
+12-month EPS.
+• The earnings multiplier approach derives stock value as the product of the
+firm’s forecasted 12-month EPS and the appropriate P/E ratio.
+• The multiplier approach attempts to estimate intrinsic value based on
+an estimated firm characteristic for the next year and an appropriate mul-
+tiplier.
+• The relative value concept is based on making comparisons in order to deter-
+mine value. By calculating measures such as the P/E ratio, and making com-
+parisons to some benchmark(s), analysts can avoid having to estimate the g
+and k parameters of the DDM.
+• Relative valuation techniques include P/E, P/B, P/CF, P/S, and EV/EBITDA.
+Like all valuation techniques, each has its strengths and weaknesses.
+Alphabet went public in August 2004 at $85, a price
+regarded by many at the time as ridiculously high. By May
+of 2005, the price had tripled. By late 2007, the price was over $600 a share
+but fell below $300 in late 2008. In late 2014, it ranged from $900 to $950.
+Alphabet’s erratic price behavior reflects the inherent challenge in valuing
+New Economy stocks
+

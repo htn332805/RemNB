@@ -1,0 +1,1129 @@
+532CHAPTER 20
+In the book Chronicles of a Million
+Dollar Trader, the author offers a
+detailed account of the process
+used to grow his self-directed retire-
+ment fund by $1 million. He ulti-
+mately surpassed his objective by
+earning $2 million in an 18-month
+period through the use of equity
+futures. Before you decide that
+you too would like to use futures
+to add a million dollars or more
+to your portfolio value, you should
+consider the case of Nick Leeson.
+Leeson was the trader at Britain’s
+Barings Bank who lost $1.3 billion
+trading futures contracts on the
+Nikkei stock index; the loss ulti-
+mately resulted in Barings’s failure.
+Leeson also wrote a book, titled Rogue Trader, detailing his experiences in trading
+futures contracts.
+Given the potentially spectacular gains and losses that are possible with futures
+trading, you should perhaps learn something about futures contracts before decid-
+ing whether to make futures part of your investment plan. This chapter covers
+futures, which are derivative securities of importance to many investors. Although
+our discussion pertains in general to all futures markets, our primary interest is
+financial futures as opposed to commodity futures. As with options, futures allow
+investors to manage investment risk and to speculate in the equity, fixed-income,
+and currency markets.
+An Overview of Futures Markets
+Why Futures Markets?
+Physical commodities and financial instruments typically are traded in cash markets.
+A cash contract calls for immediate delivery and is used by those who need a com-
+modity now (e.g., food processors). Cash contracts cannot be canceled unless both
+parties agree. Current cash prices of commodities and financial instruments are
+readily available at financial websites such as Yahoo! Finance.
+Futures Contracts
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain why financial futures were
+developed for use by investors.
+• Describe the alternatives available
+to investors in the futures markets
+as well as how futures markets
+operate.
+• Analyze basic strategies involving
+futures contracts.
+• Explain the rationale for various
+futures trading strategies and cal-
+culate the profit from the strategies.
+An Overview of Futures Markets 533
+There are two types of cash markets: spot markets and forward markets. (1) Spot
+markets are markets for immediate delivery.1 The spot price refers to the current
+market price of an item available for immediate delivery. (2) Forward markets are
+markets for deferred delivery. The forward price is the price of an item for deferred
+delivery. The asset is delivered in the future at a price that is agreed upon today.
+Forward contracts are centuries old, traceable to at least the ancient Romans and
+Greeks. Organized futures markets in the United States, on the other hand, effec-
+tively go back to the mid-19th century in Chicago. Futures markets are, in effect,
+organized, and standardized forward markets.
+• An organized futures exchange standardizes the nonstandard forward con-
+tracts, establishing such features as contract size, delivery dates, and condition
+of the items that can be delivered. Only the price and number of contracts are
+left for futures traders to negotiate.
+Individuals can trade without personal contact because of the centralized mar-
+ketplace. Performance is guaranteed by a clearinghouse, relieving the gaining party
+from worry that the losing party will fail to honor its commitment.
+Suppose a manufacturer of class rings is gathering orders
+to fill for this school year and wishes to ensure a price
+for gold to be delivered six months from now, when the rings will actually
+be manufactured. The spot (current) price of gold is not the manufacturer’s
+primary concern because the gold will not be purchased until it is needed
+for the manufacturing process. However, to reduce the risk involved with the
+future price of gold, the manufacturer wishes to contract now for the needed
+gold. Having a guaranteed price for gold will allow the manufacturer to price
+its rings more accurately.
+Our manufacturer could find a gold supplier (e.g., a gold mining firm) who
+was willing to enter into a forward commitment or contract, which is simply a
+commitment today to transact in the future. The supplier agrees to deliver the
+gold six months from now at a price negotiated today. Both parties have agreed
+to a deferred delivery at a sales price that is currently determined; however,
+no funds are exchanged. Both parties have reduced their risk because the
+supplier knows what it will receive for the gold when it is sold six months from
+now and the ring manufacturer knows what it will pay for the gold when it
+takes delivery six months from now.
+EXAMPLE 20.1
+Investments Intuition
+Obviously, one of the parties will be disappointed
+six months later when the price of gold has
+changed, but that is the advantage of hindsight. If
+investors could foresee the future, they would know
+what to do to start with and would not have to
+worry about risk. The forward and futures markets
+were developed to allow individuals to deal with
+the risks they face because the future is uncertain.
+534 Chapter 20 Futures Contracts
+An important economic function performed by futures markets is price
+discovery—that is, developing information about future cash market prices. The
+price of a futures contract reflects current expectations about values at some future
+date, which in effect is a forecast of the future price.
+Some people or companies have a preexisting risk exposure that they want to
+reduce. They do this by hedging their position. The futures markets serve a valuable
+economic purpose by allowing hedgers to shift price risk to speculators. The risk of
+price fluctuations is shifted from participants unwilling to assume such risk to those
+who are. From a societal standpoint, hedging is the most important rationale for
+futures markets.
+• Price discovery and hedging are the primary functions of futures markets.
+What Is Traded in the Futures Markets?
+To most people, futures markets involve trading in commodities such as wheat,
+gold, and oil. However, money can be thought of simply as another commodity,
+and financial futures have become a particularly viable investment alternative for
+numerous investors. Therefore, futures contracts currently traded on U.S. futures
+exchanges can be divided into two broad categories:
+1. Commodities: agricultural, metals, and energy related
+2. Financials: foreign currencies and debt and equity instruments
+Although financial futures are relatively new (compared to commodity futures),
+they now account for about two-thirds of all futures traded in the United States.
+Thus, the futures market to a large extent is a financial futures market.
+Each category can be further subdivided as shown in Exhibit 20.1. As we can
+see, the futures markets involve trading in a variety of both commodities and finan-
+cials. Note that Exhibit 20.1 is a nonexhaustive list of items that trade on the futures
+exchanges.
+For each type of contract, such as corn or silver, different delivery dates are
+available. Each contract specifies the trading unit involved and, where applicable,
+the deliverable grade necessary to satisfy the contract. Investors can also purchase
+options on futures contracts.
+Concepts in Action
+Yes, You Can Do Something About the
+Weather
+Futures contracts exist on a variety of commod-
+ities and financial instruments. One of the most
+interesting is the weather contract, traded on the
+CME, which can be used to manage the risk asso-
+ciated with unexpected weather events. Known
+as weather derivatives, these futures allow one to
+both hedge and speculate on the weather in 47
+U.S. cities and several foreign countries. The under-
+lying index can be based on temperatures, snow-
+falls, frost, and hurricanes. These contracts have
+many potential uses, particularly in agriculture.
+Other examples include ski resorts that rely on
+snowfall and coastal resorts that fear hurricanes
+during the peak season for vacation renters
+ Futures Contracts Traded in the United States,
+by Category
+The major futures contracts traded in the United States can be classified into the following categories (this is not an
+all-inclusive list):
+I. Commodities
+Grains and oilseeds Wheat, corn, oats, soybeans, soybean oils, soybean meal, flaxseed, rye, canola, and rough rice
+Livestock and meats Cattle (both live and feeders), pork bellies, and hogs
+Foods Cocoa, coffee, orange juice, and sugar
+Fibers Cotton
+Industrial metals Copper, aluminum, nickel, zinc, and lead
+Precious metals Gold, silver, platinum, and palladium
+Oil Gasoline, heating oil, crude oil, gas oil, propane, and ethanol
+Wood Lumber
+II. Financials
+Interest rates Treasury bills, Treasury notes, Treasury bonds, municipal bonds, 30-day federal funds, 10-year
+swap, 5-year swap, Eurodollar, 1-month LIBOR, Sterling, Long Gilt, Euroswiss, German
+Government Bond, Italian Government Bond, and Canadian Government Bond
+Stock indexes S&P 500, S&P MidCap 400, NYSE Composite, Major Market, Russell 2000, CAC 40,
+Nikkei 225, FTSE 100, and Toronto 35
+Foreign exchange Euro, Japanese yen, Canadian dollar, British pound, Swiss franc, Australian dollar, Mexican
+peso, Chinese yuan, and Russian ruble
+The Structure of Futures Markets 535
+The Structure of Futures Markets
+U.S. Futures Exchanges
+Futures contracts are traded on organized futures exchanges. While U.S. exchanges
+were nonprofit associations for many years, exchanges now are often for-profit
+corporations. Although multiple futures exchanges are in operation, most trading
+occurs on the Chicago Mercantile Exchange (CME), the Chicago Board of Trade
+(CBOT), and the New York Mercantile Exchange (NYMEX). The CME is the most
+active exchange. The CME and CBOT merged to form the CME Group, which later
+acquired NYMEX. However, these exchanges continue to operate separately.
+Unlike stocks, there are no specialists on futures exchanges. U.S. futures
+exchanges have traditionally operated with a trading floor (a “pit”) where traders
+and brokers come together in an auction-style, open-outcry market. This means
+that they communicate with each other verbally and with hand signals. A futures
+customer submits an order which goes to a floor broker on the trading floor to be
+executed with other floor brokers representing other customers or with floor trad-
+ers trading for their own accounts.
+Electronic order matching has developed rapidly in the United States after a
+slow start. The major futures exchanges in the United States use both methods
+of trading—open-outcry trading and electronic trading. Firms offer customers
+24-hour futures trading.
+EXHIBIT 20.1 | Futures Contracts Traded in the United States,
+by Category
+The major futures contracts traded in the United States can be classified into the following categories (this is not an
+all-inclusive list):
+I. Commodities
+Grains and oilseeds Wheat, corn, oats, soybeans, soybean oils, soybean meal, flaxseed, rye, canola, and rough rice
+Livestock and meats Cattle (both live and feeders), pork bellies, and hogs
+Foods Cocoa, coffee, orange juice, and sugar
+Fibers Cotton
+Industrial metals Copper, aluminum, nickel, zinc, and lead
+Precious metals Gold, silver, platinum, and palladium
+Oil Gasoline, heating oil, crude oil, gas oil, propane, and ethanol
+Wood Lumber
+II. Financials
+Interest rates Treasury bills, Treasury notes, Treasury bonds, municipal bonds, 30-day federal funds, 10-year
+swap, 5-year swap, Eurodollar, 1-month LIBOR, Sterling, Long Gilt, Euroswiss, German
+Government Bond, Italian Government Bond, and Canadian Government Bond
+Stock indexes S&P 500, S&P MidCap 400, NYSE Composite, Major Market, Russell 2000, CAC 40,
+Nikkei 225, FTSE 100, and Toronto 35
+Foreign exchange Euro, Japanese yen, Canadian dollar, British pound, Swiss franc, Australian dollar, Mexican
+peso, Chinese yuan, and Russian ruble
+536 Chapter 20 Futures Contracts
+The CME bills itself as the world’s largest and most diverse financial exchange. It
+offers futures and options on futures on commodities as well as on finance-related
+items—interest rates, stock indexes, and foreign exchange. The CME acts as an
+international marketplace with its open-outcry platform and trading floor systems
+linked to its Globex® electronic trading platform.
+• Futures exchanges are firms that create markets and compete for the right to
+trade contracts.2
+Futures brokerage firms, known as futures commission merchants (FCMs), act
+as agents for the general public, from which they receive commissions. Thus, a cus-
+tomer can establish an account with an FCM, who, in turn, may work through a
+floor broker at the exchange. FCMs can be full-service firms or discount firms, and
+they can be stand-alone firms (doing business only in futures) or part of a financial
+services firm offering securities and other services (e.g., a national or regional bro-
+kerage firm).
+Foreign Futures Markets
+European futures exchanges are very competitive with most offering fully auto-
+mated order-matching systems. Euronext was the first pan-European exchange.
+It was created in 2000 by the merger of the Amsterdam, Brussels, and Paris mar-
+kets. In 2002, it acquired the London International Financial Futures and Options
+Exchange (LIFFE). In 2014, it was the leading European exchange.
+Japan, which banned financial futures until 1985, has been very active in develop-
+ing futures exchanges. Commodity futures markets account for most of the futures
+trading in Japan. Japan has several commodity futures exchanges including the
+Kansai Commodities Exchange and Tokyo Commodity Exchange.
+The Clearinghouse
+The clearinghouse is a corporation that is separate from, but associated with, an
+exchange. All futures trades are cleared through the clearinghouse. Exchange
+members must either be members of the clearinghouse or pay a member for this
+service.
+The clearinghouse for futures markets operates in the same way as the clearing-
+house for options, which was discussed in some detail in Chapter 19. Effectively, buy-
+ers and sellers settle with the clearinghouse, not each other. The clearinghouse is
+2 For more in-depth descriptions, see Robert W. Kolb and James A. Overdahl, Futures, Options and Swaps,
+5th ed. (Malden, MA: Blackwell Publishing, 2007), p. 54.
+According to its website, CME Group is the world’s
+leading derivatives marketplace, handling an average
+daily volume of 19 million contracts. The company offers individuals and firms
+the opportunity to manage risk, or profit by accepting risk.
+The Mechanics of Trading 537
+the seller to the buyer, and the buyer to the seller. It stands ready to fulfill a contract
+if either buyer or seller defaults, thereby guaranteeing performance and helping to
+facilitate an orderly market in futures.
+The clearinghouse makes the futures market impersonal, which is the key to its suc-
+cess because any buyer or seller can always close out a position and be assured of pay-
+ment. The first failure of a clearing member in modern times occurred in the 1980s,
+and the system worked perfectly in preventing any customer from losing money.3
+• In essence, the clearinghouse is on the other side of every futures transaction
+and ensures that all payments are made as specified.
+Finally, the clearinghouse allows participants to easily reverse a position (take the
+opposite position) before maturity because the clearinghouse keeps track of each
+participant’s obligations. Thus, an investor who is short a gold contract can easily
+cancel this position by buying (going long) the same gold contract.
+Checking Your Understanding
+1. Given the development of futures markets and the disadvantages of forward
+contracts, what advantage does a forward contract offer?
+2. Assume you buy several futures contracts that, at the expiration date, are
+worth considerably more than when purchased so that you have a large gain.
+How can you be assured that the losers on these same positions will make
+good on their obligations?
+The Mechanics of Trading
+Futures Contracts
+As noted earlier, a forward contract is an agreement between two parties that calls
+for delivery of an asset (tangible or financial) at a specified future time at a price
+agreed upon today. Each contract has a buyer and a seller. Forward markets have
+grown primarily because of the growth in swaps, which in general are similar to
+forward contracts. A swap is an agreement between parties to exchange streams of
+cash flows over some future period.
+• Forward contracts involve credit risk—either party can default on their
+obligation.
+Forward contracts also involve liquidity risk because of the difficulties involved in
+getting out of the contract. Forward contracts, however, can be customized to the
+specific needs of the parties involved.
+A futures contract is a standardized, transferable agreement providing for the
+deferred delivery of either a designated commodity within a specified geographi-
+cal area or a financial instrument (or its cash value). Futures contracts are well-
+specified commitments. Market participants know exactly what is involved in the
+transaction, which in fact helps to promote liquidity in these markets.
+Forward Contract A
+commitment today to
+transact in the future at
+a price that is currently
+determined, with no funds
+having been exchanged
+Swap An agreement
+between parties to
+exchange streams of cash
+flows over some future
+period
+Futures Contract Agree-
+ment providing for the
+future exchange of a par-
+ticular asset at a currently
+determined market price
+3 The clearinghouse deals only with clearing members, and not individual investors, making each clear-
+ing member responsible for every position it carries on its books. Because the clearinghouse does not
+deal with individual customers, it depends on the clearing member’s carrying and guaranteeing cus-
+tomer accounts when it comes to margin requirements and payments.
+538 Chapter 20 Futures Contracts
+• A futures contract locks in a price for delivery on a future date. The futures
+price at which this exchange will occur at contract maturity is determined today.
+The trading of futures contracts means only that commitments have been made
+by buyers and sellers; therefore, “buying” and “selling” do not have the same mean-
+ing in futures transactions as they do in stock and bond transactions. Although
+these commitments are binding because futures contracts are legal contracts, a
+buyer or seller can eliminate the commitment simply by taking an opposite position
+in the same commodity or financial instrument for the same futures month. This is
+referred to as offsetting the position.
+Futures contracts are not securities and are not regulated by the Securities and
+Exchange Commission. The Commodity Futures Trading Commission (CFTC),
+a federal regulatory agency, is responsible for regulating trading in all domestic
+futures markets. In practice, the National Futures Association, a self-regulating
+body, has assumed some of the duties previously performed by the CFTC. In addi-
+tion, each futures exchange has a supervisory body to oversee its members.
+Basic Procedures
+Because a futures contract is a commitment to buy or sell at a specified future settle-
+ment date, a contract is not really being sold or bought because no money is exchanged
+at the time the contract is negotiated. Instead, the seller and the buyer simply agree to
+make and take delivery, respectively, at some future time for a price agreed upon
+today. As noted above, the terms buy and sell do not have the same meanings with
+futures. It is more accurate to think in terms of:
+• A short position (seller) commits the trader to deliver an item at contract
+maturity at a price agreed upon today.
+• A long position (buyer) commits the trader to purchase an item at contract
+maturity at a price agreed upon today.
+Selling short in futures trading means only that a contract not previously pur-
+chased is sold. For every futures contract, someone sold it (thereby establishing a
+short position) and someone else bought it (thereby establishing a long position).
+• Like options, futures trading is a zero-sum game. The gains and losses on all
+positions net to zero.
+Whereas an options contract gives the buyer the right to make or take delivery,
+a futures contract involves an obligation to take or make delivery. Delivery, or settle-
+ment of the contract, occurs in months that are designated by the various exchanges
+for each of the items traded. However, futures contracts can be settled by delivery or
+by offsetting the position, with most being settled by offsetting.
+• A futures contract involves an obligation—either the position is offset or deliv-
+ery occurs.
+Indeed, about 95 percent of futures contracts are closed by offset before the
+contract expires. Holders close a position by arranging an offsetting transaction.
+This means that buyers sell their positions and sellers buy their positions some-
+time prior to delivery. When an investor offsets his or her position, it means that
+their trading account is adjusted to reflect the final gains (or losses), and their
+position is closed.
+• Offsetting a position is the typical method of settling a contract.
+The Mechanics of Trading 539
+Thus, to eliminate a futures market position, the investor simply does the reverse
+of what was done originally. As explained above, the clearinghouse makes this easy
+to accomplish. It is critical to remember that if a futures contract is not offset, it
+must be closed out by delivery.
+Each exchange establishes price fluctuation limits on the various types of con-
+tracts. Typically, a minimum price change is specified. In the case of corn, for exam-
+ple, it is 0.25 cents per bushel, or $12.50 per contract. A daily price limit is in effect
+for all futures contracts except stock-index futures. For corn, it is 20 cents per bushel
+($1,000 per contract) above and below the previous day’s settlement price.
+Long stock positions can literally be held forever. Even many short positions can
+be held indefinitely as long as certain conditions are met. However, futures posi-
+tions must be closed out within a specified time, either by offsetting the position or
+by making or taking delivery.
+Brokerage commissions on futures contracts are paid on the basis of a completed
+contract (purchase and sale), rather than each purchase and sale, as in the case of
+stocks. As with options, no certificates exist for futures contracts.
+The open interest indicates contracts that have not been offset by opposite transac-
+tions or delivery. That is, it measures the number of unliquidated contracts at any
+point in time, on a cumulative basis.4 The open interest increases when an investor
+goes long a contract and is reduced when the contract is liquidated.
+Margin
+Recall that with stock transactions the term margin refers to the down payment
+required when money is borrowed from the broker to finance the purchase. Futures
+margin, on the other hand, is not a down payment because ownership of the under-
+lying item is not being transferred at the time of the transaction. 5 Futures margin
+refers to the “good faith” (or earnest money) deposit made by both buyer and seller
+to ensure the completion of the contract. These funds serve as a performance bond
+to help ensure that traders fulfill their contract obligations.
+Unlike stock trading, futures margin is required of all participants. All futures
+market participants, whether buyers or sellers, must deposit minimum specified
+amounts in their futures margin accounts.
+Each clearinghouse sets its own minimum initial margin requirements (in dollars).
+Furthermore, brokerage houses can require a higher margin and typically do so.
+The margin required for futures contracts, which is small in relation to the value of
+the contract itself, represents the equity of the transactor (either buyer or seller). It
+is not unusual for the initial margin to be only a few thousand dollars while the value
+of the contract is much larger. As a generalized approximation, the margin require-
+ment for futures contracts is about 6 percent of the value of the contract. Since the
+equity is small, the risk to the transactor is magnified.
+In addition to the initial margin requirement, each contract requires a main-
+tenance margin below which the transactor’s equity cannot drop without action
+being taken. If the market price of a futures contract moves adversely to the owner’s
+position, the equity declines. A margin call occurs when the price goes sufficiently
+Futures Margin The
+earnest money deposit
+made by a transactor to
+ensure the completion of
+a contract
+Initial Margin In dollar
+terms, the initial equity an
+investor has in a margin
+transaction
+Maintenance Margin The
+amount of funds that must
+be maintained at all times
+as equity
+Margin Call A demand
+from the broker for an
+additional cash deposit
+when actual margin
+declines below the mainte-
+nance margin4 The open interest can be measured using either the open long positions or the open short positions,
+but not both.
+5 Because no credit is being extended, no interest expense is incurred as is the case when stocks are
+purchased on margin. With futures, customers often receive interest on margin money deposited. A cus-
+tomer with a large enough requirement (roughly, $15,000 and over) can use T-bills as part of the margin.
+540 Chapter 20 Futures Contracts
+against the transactor such that the transactor’s equity value falls below the mainte-
+nance margin. A margin call requires the deposit of additional cash (the variation
+margin) to restore the account back to the initial margin level (not the mainte-
+nance margin level).6
+All futures contracts are marked to market daily, which means that all profits and
+losses on a contract are credited and debited to each account every trading day. 7
+Those contract holders with a profit can withdraw the gains, whereas those with
+a loss will receive a margin call if the equity falls below the specified maintenance
+margin. This process is referred to as daily resettlement, and the price used is the
+contract’s settlement price.8
+Marked to Market The
+daily posting of all profits
+and losses in an investor’s
+account
+Assume that the initial margin is equal to 5 percent of
+the total value and an investor holds one contract. If the
+price of the contract changes by 5 percent because the price of the underlying
+commodity changes by 5 percent, this is equivalent to a 100 percent change
+in the investor’s equity. This example shows why futures trading can be risky!
+EXAMPLE 20.3
+Table 20.1 illustrates how accounts are marked to market
+daily. Consider an investor who buys a stock-index futures
+contract on the DJJA using the CBOT® DJIASM futures contract.9 Assume the
+brokerage firm requires an initial margin of $7,000 and a maintenance margin
+of $5,000.
+This contract has a multiplier of $10. Price quotes are in points ($10), and
+the tick size is $10. The value of a CBOT DJIA futures contract is equal to
+$10 times the current index level. For example, if the index is trading at
+26,000, one contract is equivalent to investing $260,000 in the DJIA. The
+seller of such a contract (the short position) is agreeing to sell $10 times the
+index and the buyer (the long position) is agreeing to buy $10 times the index
+on the contract’s expiration date. On the settlement day, the final settlement
+price is $10 times the Special Opening Quotation of the index.
+Assume that investor A buys a contract with the DJIA at 26,000 while investor
+B, believing the DJIA will decline, sells (goes short) one contract at the same
+time. After day one, the settlement price is 25,925. The buyer will have a debit
+in his/her account of 75 × $10 = $750 because the price declined and the
+buyer was long. Conversely, the seller’s account will have a credit of the same
+amount because the seller was short and the price declined. At the end of day
+1, the value of the buyer’s account is $7,000 − $750 = $6,250, while the value
+of the seller’s account is $7,000 + $750 = $7,750. In effect, both accounts have
+been marked to market.
+Now assume that two weeks have passed, during which time each account
+has been marked to market daily. The settlement price on this contract
+has reached 26,400, with a move on the last day of this two-week period of
+The Mechanics of Trading 541
+150 points. The aggregate change in market value for each investor is the
+difference between the current price and the initial price multiplied by $10,
+the value of one point in price. This is:
+26 400 26 000 400 10 4 000, , ,$ $
+As shown in Table 20.1, this amount is currently credited to the buyer
+because the price moved up as the buyer expected. Conversely, this same
+amount is debited to the seller, who is now on the wrong side of the price
+movement. Therefore, starting with an initial equity or margin of $7,000, after
+two weeks the cumulative mark to market is $4,000. This results in a current
+equity of $11,000 for the buyer and $3,000 for the seller. The buyer has a
+withdrawable excess equity of $4,000 because of the favorable price movement,
+whereas the seller now faces a margin call because the maintenance margin
+for this contract is $5,000. In this example, the market increased sharply on
+the last day of the two-week period, bringing the seller’s equity below the
+required maintenance level. The seller would have to deposit funds to return
+the account to the initial margin requirement level of $7,000.
+Buyer (Long) Seller (Short)
+Account after one day
+Original equity (initial margin) $7,000 $7,000
+Day I mark to market (750) 750
+End of day 1 equity $6,250 $7,750
+Account after two weeks
+Original equity $7,000 $7,000
+Cumulative mark to market 4,000 (4,000)
+Current equity $11,000 $3,000
+Withdrawable excess equity $4,000
+Margin call $4,000
+An Example of Investor Accounts, Using Stock-Index Futures,
+Marked to Market
+TABLE 20.1
+Investments Intuition
+Example 20.4 illustrates what is meant by the
+expression that futures trading, like options
+trading, is a zero-sum game. The aggregate
+gains and losses net to zero. The aggregate
+profits enjoyed by the winners must equal the
+aggregate losses suffered by the losers. This also
+means that the net exposure to changes in the
+asset’s price must be zero.
+542 Chapter 20 Futures Contracts
+Checking Your Understanding
+3. The short position’s loss is equal to the long position’s gain. Explain.
+4. The maturity date of a contract does not dictate realization of an investor’s
+gains and losses. Explain.
+Using Futures Contracts
+Who uses futures, and for what purpose? Traditionally, participants in the futures
+market have been classified as either hedgers or speculators. Because both groups
+are important in understanding the role and functioning of futures markets, we will
+consider each in turn. The distinctions between these two groups apply to financial
+futures as well as to the more traditional commodity futures.
+Hedgers
+Hedgers are parties that face price risk from a commodity or an asset, which means
+they are exposed to price changes. They buy or sell futures contracts in order to alle-
+viate or eliminate the price risk they face due to their exposure to the commodity
+or asset. In other words, hedgers actually deal in the commodity or financial instru-
+ment specified in the futures contract.10
+• By taking a position opposite to an existing exposure, hedgers plan to reduce
+the risk of adverse price fluctuations—that is, to hedge the risk of unexpected
+price changes. In effect, this is a form of insurance.
+With futures trading, risk is reduced by having the gain (loss) in the futures
+position offset the loss (gain) on the cash position. A hedger is willing to forego
+some profit potential in exchange for having someone else assume part of the risk.
+Figure 20.1 illustrates the hedging process as it affects the risk–return distribution.
+Notice that the unhedged position has a greater chance of a larger loss but also a
+greater chance of a larger gain.
+• The hedged position has a smaller chance of a low return but also a smaller
+chance of a high return. Thus, hedging reduces the variance in the outcome.
+Hedged position
+Unhedged position
+Probability density
+FIGURE 20.1 Return distribution for hedged and unhedged positions
+10 The exposure may currently exist (a cash hedge) or may be expected to exist in the future (an anticipa-
+tory hedge).
+Using Futures Contracts 543
+How to Hedge with Futures
+The nature of a cash market position determines the appropriate hedge in the
+futures market. A commodity or financial instrument held (in inventory) represents
+a long position because these items could be sold in the cash market. In contrast, a
+transactor who sells a futures contract has created a short position.
+• The key to any hedge is that a futures position is taken opposite to the position
+in the cash market.
+Because transactors can assume two basic positions with futures contracts, long
+and short, there are two basic hedge positions: the short (sell) hedge and the long
+(buy) hedge.
+1. The short (sell) hedge. A cash market inventory holder must sell (short) the
+futures. For example, investors should think of short hedges as a means of
+protecting the value of their portfolios. Since they are holding securities,
+they are long on the cash position and need to protect themselves against
+a decline in prices. A short hedge reduces the risk taken in a cash market
+(long) position.
+2. The long (buy) hedge. An individual who plans to own an asset in the future
+but currently holds no cash inventory (holds no commodities or financial
+instruments) is short in the cash market; therefore, to hedge with futures
+requires a long position. The individual wants to lock in the current price
+until cash is available to make the investment. The use of a long hedge reduces
+the risk of the individual’s short position.
+Hedging is not an automatic process. It requires more than simply taking a
+position. Hedgers must make timing decisions as to when to initiate and end the
+process. As conditions change, hedgers must adjust their hedge strategy.
+One aspect of hedging that must be considered for hedging to be successful is
+“basis” risk. The basis for financial futures often is defined as the difference between
+the cash price and the futures price of the item being hedged11
+:
+Basis cash price futures price(spot)
+The basis must be zero on the maturity date of the contract. That is, the
+futures price and the cash price must be equal, resulting in a zero basis; however,
+transactions costs can cause minor discrepancies. In the interim, the basis fluc-
+tuates in an unpredictable manner and is not constant during a hedge period.
+Basis risk, therefore, is the risk hedgers face as a result of unexpected changes
+in basis.
+Short Hedge A transac-
+tion involving the sale of
+futures (a short position)
+while holding the asset (a
+long position)
+Long Hedge A transac-
+tion where the asset is
+currently not held, but
+futures are purchased to
+lock in current prices
+Basis The difference
+between the futures price
+and the spot price of an
+item
+Investments Intuition
+Hedging techniques exhibit the trade-off that
+underlies all investing decisions: Hedging
+reduces the risk of loss but also reduces the
+potential return. Thus, hedging is used by people
+who are uncertain of future price movements
+and are willing to protect themselves against
+adverse price movements at the expense of
+possible gains. There is no free lunch!
+544 Chapter 20 Futures Contracts
+In hedging, the buyer benefits from a weakening basis (cash price weakens relative
+to futures). The seller benefits from a strengthening basis (cash price strengthens
+relative to futures). It is important to note that the basis can strengthen or weaken
+when price levels are falling or rising.
+Although changes in the basis affect the hedge position during its life, a hedge
+will reduce risk as long as the variability in the basis is less than the variability in the
+price of the asset being hedged. The significance of basis risk to investors is that risk
+cannot be entirely eliminated. Hedging a cash position will involve basis risk.
+Speculators
+In contrast to hedgers, speculators buy or sell futures contracts in an attempt to
+earn a return. Unlike hedgers, speculators typically do not transact in the physical
+commodity or financial instrument underlying the futures contract. In other words,
+they have no prior market position. Some speculators are professionals who trade
+for a living; others are amateurs, ranging from the very sophisticated to the novice.12
+• Speculators assume the risk of price fluctuations, hoping to profit from them.
+Speculators are essential to the proper functioning of the futures market, absorb-
+ing the excess demand or supply generated by hedgers and assuming the risk of
+price fluctuations that hedgers wish to avoid. Speculators contribute to the liquidity
+of the market and reduce the variability in prices over time.
+Why speculate in futures markets? After all, one could speculate in the underly-
+ing instruments. For example, an investor who believed interest rates were going
+to decline could buy T-bonds directly and avoid the T-bond futures market. The
+potential advantages of speculating in futures markets include:
+1. Leverage. The magnification of gains (and losses) can easily be 10 to 1.
+2. Ease of transacting. An investor who predicts an interest rate increase will
+have difficulty selling bonds short, but taking a short position in a T-bond
+futures contract is easy.
+3. Transaction costs are often significantly smaller in futures markets, relative to
+cash markets.
+By all accounts, an investor’s likelihood of success when speculating in futures is
+not very good. The small investor is up against stiff odds when it comes to speculating
+with futures contracts. Thus, for most individuals, futures should be used for hedg-
+ing purposes.
+Calculating Rate of Return on Futures Contracts
+The return for most financial assets includes both an income component and a capi-
+tal gain (loss) component. In contrast, with futures contracts, there is no income
+component, only a price change or capital gain (loss). Furthermore, the investor does
+not put up the full contract value, but only the margin required, which is typically very
+small. What matters when we calculate a return is to relate the cash flows received to
+the actual cash investment made by the investor. The return on investment is stated as:
+Selling price of contract s purchase price of contract s
+MMargin deposit made by investor (20-1)
+12 Floor traders often take very short-term (minutes) positions to exploit any short-lived market anomalies.
+Financial Futures 545
+Checking Your Understanding
+5. What is the difference between a hedger and a speculator when it comes to
+owning the underlying asset involved in a futures contract?
+Financial Futures
+Financial futures are futures contracts on equity indexes, fixed-income securities,
+and currencies. They give investors greater opportunity to fine-tune the risk–return
+characteristics of their portfolios. In recent years, this flexibility has become increas-
+ingly important as stock prices have become more volatile and as investors have
+sought new techniques to reduce the risk of equity positions.
+• There are three broad types of financial futures: currency futures, interest rate
+futures, and equity futures.
+The procedures for trading financial futures are comparable to those for a com-
+modity. At maturity, stock-index futures settle in cash because it would be impractical
+to deliver all the stocks in a particular index.13 Unlike traditional futures contracts,
+stock-index futures typically have no daily price limits.
+We analyze each of the three broad types of financial futures. Hedging and spec-
+ulative activities within each category are discussed separately.
+Foreign Currency Futures
+Foreign currency trading has existed for many years and has become increasingly
+important in the global economy. Foreign currencies are traded in both a forward
+market and a futures market, with the forward market the larger of the two.
+Every exchange rate (price) is a relative price because every pair of foreign
+exchange rates are related to each other as reciprocals. For example, a euro rate of
+Financial Futures Futures
+contracts on financial
+assets
+Assume in December a speculator buys two May wheat
+contracts at 624’0 ($6.24 per bushel). The margin
+requirement for each is $1,700, and the contract size is 5,000 bushels.
+Sometime later the contract is quoted at 645’0 ($6.45 per bushel). The gain
+is $0.21 × 5000 × 2 = $2,100. The return on the speculator’s actual cash outlay
+(the total margin requirement) is
+$ $ /$64 500 62 400 3 400 61 8, , , . %
+This high return was achieved because the price of wheat rose, and futures
+contracts have a lot of leverage. Note that the total margin requirement of
+$3,400 is only 5.4 percent of the original value of the two wheat contracts.
+Of course, there is always a downside. Had wheat prices declined, the entire
+margin could have been lost.
+546 Chapter 20 Futures Contracts
+$1.0852 indicates that one euro will buy $1.0852 of U.S. currency. Conversely, one
+U.S. dollar will buy (1/1.0852 = 0.9215) euros.14
+Traders need information about individual contracts, including: prices, size of
+contract, expiration dates, maximum daily movements, and so forth. This informa-
+tion can be found at the various exchanges where the contracts are traded, such as
+www.cmegroup.com.
+Hedging with foreign currency futures Companies often use currency futures
+when they are exposed to foreign currency exchange risk. Investors can use currency
+futures to protect their currency positions in foreign securities, thereby earning
+what the foreign securities offer without being adversely affected by exchange rate
+movements.
+Speculating with foreign currency futures Investors can speculate on the
+differences in exchange rates between two countries, based on their beliefs
+about what is going to happen. For example, due to the Fed’s easy money policy
+and weak economic conditions in the United States, the dollar fell relative
+to most currencies during 2013. Subsequently, however, the dollar rallied rela-
+tive to most currencies due to the U.S. economic recovery and the Fed’s decision
+to move away from its easy money policy. A speculative strategy depends upon
+accepting price risk in order to profit from the projected move in currency
+prices.
+Let’s consider the euro/dollar (EUR/USD) futures.
+Assume a U.S. investor buys $270,000 of French notes
+in January because of their relatively high yields and plans to sell them in
+December. We abstract from margin requirements and assume the yield curve
+remains flat. The investor wants to collect the higher yield without taking
+much exchange rate risk.
+The contract size is €125,000, with expirations in March, June, September,
+and December. At a price of $1.0852, one contract is worth $1.0852 × 125,000
+or $135,650. To protect against adverse currency movements, the investor sells
+two futures contracts with a total value of $135,650 × 2 = $271,300. Now assume
+the dollar rises against the euro so that one dollar in December buys 0.9542
+euros instead of the previous 0.9215 (calculated as 1/1.0852). The euro
+contract is now quoted at (1/0.9542 = $1.048), and each contract is worth
+125,000 × $1.048 = $131,000, or a total of $262,000.
+The investor makes a profit on the two futures contracts of ($271,300 −
+$262,000 = $9,300) because she sold the contracts and the euro declined.
+However, when she sells the notes and buys dollars back, she loses on the
+transaction. The original $270,000 was worth, in euros, $270,000 × 0.9215 =
+248,805. Now the 248,805 is worth only 248,805 × $1.048 = $260,748. Therefore,
+the investor has a loss on the investment of $9,252 and a gain on the futures
+of $9,300. The investor is able to collect the high yields that the French notes
+were offering and hedge the price risk associated with a change in the currency
+exchange rate. Without the hedge, her return would have been significantly
+different.
+EXAMPLE 20.6
+14 The daily exchange rates can be found at several places including wsj.com, “Markets,” and “Currencies.”
+Financial Futures 547
+It is important to remember that futures contracts can have large payoffs but also
+staggering losses. Because of the small amount of margin required, if an investor’s
+position works out well, the percentage gains can be very large. Conversely, the
+leverage can also magnify investor losses.
+Interest Rate Futures
+Bond prices are very sensitive to interest rate movements. Interest rate futures allow
+bondholders and others who are affected by volatile interest rates to transfer this
+risk. A primary reason for the growth in financial futures is that portfolio managers
+and investors are increasingly protecting themselves against adverse movements in
+interest rates. Protecting the value of a fixed-income portfolio requires investors to
+consider the possible impact of interest rate changes.
+There are numerous alternative interest rate futures contracts available on the
+various exchanges. 15 The CME trades contracts on T-bills, agency notes, Eurodollars,
+and the one-month LIBOR rate, among others. The CBOT specializes in longer-
+maturity instruments, including T-notes (2-, 5-, and 10-year maturities) and T-bonds.
+The CBOT also trades contracts on 30-day federal funds.
+Exhibit 20.2 shows selected characteristics for a few of the more popular futures
+contracts on fixed-income securities. Contracts are available on various maturities
+of U.S. T-notes in trading units of $100,000 and $200,000, on T-bonds in units of
+$100,000, and on T-bills in units of $1 million.
+Reading quotes The face value of a 10-year T-note at maturity is $100,000, and
+price quotations are percentages of par, with 32nds, and fractions of 32nds. Since
+one point is $1,000, 1/32 is worth $31.25. A quote of 126-16 represents a price of
+126 and 16/32nds percent of par, or $126,500.
+Hedging with interest rate futures We now consider an example using inter-
+est rate futures to hedge an investment position. Obviously, other examples could
+be constructed involving various transactors, such as a financial institution; various
+financial instruments, such as a portfolio of T-bills; and various scenarios under
+which the particular hedger is operating.
+EXHIBIT 20.2 | Characteristics of Interest Rate Futures Contracts
+Contract Size or Trading Unit Minimum Fluctuations
+Treasury bonds $100,000 par value 8% coupona 1/32 or $31.25
+10-year Treasury notes $100,000 par value ½ of 1/32 or $15.625
+30-day fed funds $5,000,000 ¼ of one basis point (0.0025) or $10.4175
+2-year Treasury notes $200,000 par value ¼ of 1/32 or $15.625
+a Bonds with other coupons are usable with price adjustments.
+15 The Chicago Board of Trade launched financial futures trading in 1975 by opening trading in
+Government National Mortgage Association (GNMA or Ginnie Mae) bonds. T-bond futures appeared
+Short hedge Suppose an investor holds a bond portfolio consisting of $1 million
+in two-year T-notes. The investor plans to sell the notes in the near future to pay an
+obligation. The investor fears that an interest rate increase would leave her short in
+terms of paying the obligation.
+The investor could take a short position in two-year T-note futures. If done prop-
+erly, the short position in the futures will gain as much as the T-notes lose in the
+event of an interest rate increase. What if yields drop? In this case, the investor will
+lose on the futures position but gain on the T-note value. Therefore, the investor
+will able to meet the upcoming obligation regardless of what interest rates do.
+The mechanics of executing a short hedge (also called an inventory hedge)
+require the hedger to determine the hedge ratio, or the number of contracts to be
+sold. This is a function of the asset’s value and the value of each futures contract.
+Long hedge An alternative hedge is the anticipatory hedge, a long hedge, whereby
+an investor purchases a futures contract on a security the investor plans to acquire
+in the future. At some designated time in the future, the investor will purchase the
+security and sell the futures contract. This results in a net price paid equal to the
+security price minus the gain or loss on the futures position.
+Consider an investor planning to purchase a bond at today’s price but complet-
+ing the transaction in three months. If rates drop, the bond will cost more at that
+point in time. By purchasing a futures contract now, as a hedge, the investor can
+lock in the interest rate implied by the interest rate futures contract. At the transac-
+tion’s conclusion, the investor will pay a net price that reflects the ending bond price
+minus the gain (loss) on the futures contract. In effect, if rates decline, the gain on
+the futures will help offset any loss on the bond.
+Speculating with interest rate futures Investors can speculate with interest rate
+futures as well as hedge with them. To do so, investors make assessments of likely
+Concepts in Action
+Using Futures to Manage Your Bond
+Portfolio
+Suppose you are concerned about the possibility
+of rising interest rates, and you own a substan-
+tial bond portfolio with an average duration
+of 6.5 years. You know that if interest rates rise,
+bond prices will fall, and you know the portfolio’s
+duration offers an approximate guide to the
+percentage decrease that will occur. You decide
+to shorten the duration of your portfolio—let’s
+say to five years. If interest rates rise, the prices
+of your bonds will still decline, but with a shorter
+duration, they will decline less than with your
+original position. An obvious way to shorten your
+portfolio’s duration is to sell longer-maturity bonds
+and replace them with shorter-maturity bonds.
+However, this involves transaction costs and has
+possible tax implications.
+An alternative is to use futures to sell duration.
+This strategy has lower transaction costs and
+can be reversed quickly and easily. You can use
+Treasury futures to lower the duration of your
+bond portfolio.
+A simple way to sell duration is to sell 1.5 years
+of duration by going short 10-year T-note futures.
+You would need to determine how many con-
+tracts to sell. If you were to hedge completely,
+the duration would be zero. Instead, you wish
+to achieve a 23 percent hedge, reducing your
+duration from 6.5 years to 5 years (1.5/6.5 = 23
+percent). The details of such a transaction can
+be determined with a little effort.
+Although there are some complications in this
+transaction, such as whether the shape of the yield
+curve shifts, futures contracts can be used in inno-
+vative ways when it comes to managing a portfolio
+Financial Futures 549
+movements in interest rates and assume a futures position that corresponds with
+this assessment. If an interest rate increase is anticipated, the investor will sell inter-
+est rate futures, because a rate increase drives down bond prices and, therefore, the
+price of the futures contract. The investor sells the contract with the expectation of
+buying it back later at a lower price. Of course, a decline in interest rates will result
+in a loss for the investor, since the price will rise.
+The usefulness of interest rate futures for pursuing such strategies is significant.
+A speculator who wishes to assume a short position in bonds cannot do so readily in
+the cash market (either financially or mechanically). Interest rate futures provide
+the means to short bonds easily.
+In a similar manner, investors can speculate on a decline in interest rates by
+purchasing interest rate futures. If the rate decline materializes, bond prices and
+the value of the futures contract will rise. Because of the leverage involved, the gain
+can be large; however, the loss can also be large if the rate increases.
+Stock-Index Futures
+Stock-index futures trading was initiated in 1982. Investors can trade futures con-
+tracts on major market indexes such as the DJIA and the S&P 500. Contracts are also
+available on numerous other indexes such as a “mini” S&P Index, the Nasdaq 100,
+the Russell 2000, and the Nikkei 225 Stock Average (Japanese market).
+The S&P 500 contract is the most popular stock-index futures contract, account-
+ing for the bulk of trading in stock-index futures. The value of an S&P 500 contract
+is determined by using a multiplier of $250. The minimum tick is 0.10, or $25.
+Delivery is not permitted in stock-index futures because of its impracticality.
+Instead, each open contract is settled in cash on the settlement day by taking an
+offsetting position using the price of the underlying index.16
+Stock-index futures offer investors the opportunity to act on their investment
+opinions concerning the future direction of the market. They need not select indi-
+vidual stocks, and it is easy to short the market. Furthermore, investors who are
+concerned about unfavorable short-term market prospects, but remain bullish for
+the longer run, can protect their equity portfolio value in the interim by selling
+stock-index futures.
+Hedging with stock-index futures Common stock investors hedge with financial
+futures for the same reasons that fixed-income investors use them. Equity investors
+are subject to the risk of overall market moves, that is, systematic risk. A futures con-
+tract enables the investor to transfer part of this risk to those willing to assume it.
+Stock-index futures have opened up new, and relatively inexpensive, opportunities
+for investors to manage market risk through hedging.
+Assume that in November a speculator thinks interest
+rates will rise over the next two weeks and wishes to profit
+from this expectation. The investor can sell one December T-bond futures
+contract at a price of 90–20. Two weeks later, the price of this contract has
+declined to 88–24 because of rising interest rates. This investor would gain
+1 and 28/32, or $1,875 (each 1/32 is worth $31.25), and could close out the
+position by buying an identical contract.
+EXAMPLE 20.7
+16 The final settlement price is set equal to the closing index on the maturity date
+Chapter 8 identifies two types of stock risk: systematic risk and unsystematic risk.
+Diversification eliminates most of the unsystematic risk in a portfolio, but not the
+systematic risk. Although an investor could trade individual stocks to adjust the port-
+folio’s beta in anticipation of a market rise or fall, this can be a costly proposition.
+Investors can use financial futures on stock market indexes to hedge against an
+overall market decline. That is, investors can hedge against systematic or market risk
+by selling the appropriate number of contracts against a stock portfolio. In effect,
+stock-index futures give investors the opportunity to protect their portfolios against
+market fluctuations.
+To hedge market risk, investors take a position in the hedging asset (in this case,
+stock-index futures) such that profits or losses on the hedging asset offset changes
+in the stock portfolio’s value. Stock-index futures accomplish this because changes
+in the futures prices are highly correlated with changes in stock portfolio values that
+are caused by market-wide events. The more diversified the portfolio, and therefore
+the lower its unsystematic risk, the greater the correlation between the futures con-
+tract and the stock portfolio.
+A comparison of the S&P 500 futures price to the value of a portfolio that is
+essentially completely diversified (i.e., the portfolio has only market risk) shows that
+the two track each other very closely. This indicates that stock-index futures can be
+very effective in hedging a portfolio’s market risk.
+Short hedges Since so much common stock is held by investors, the short hedge
+is the natural position for most investors. Investors who hold stock portfolios hedge
+market risk by selling stock-index futures, which means they assume a short position.
+A short hedge is implemented by selling a futures contract with the goal of offset-
+ting losses on the stock portfolio with gains on the futures position. If the market
+falls, leading to a loss on the cash position (the stock portfolio), stock-index futures
+prices will also fall, leading to a profit for sellers of futures.
+The potential reduction in price volatility by hedging is shown in Figure 20.2,
+which compares the performance of a well-diversified portfolio (the unhedged
+portfolio) with the same portfolio hedged by sales of S&P 500 futures. To test the
+power of the hedge, we focus on 1987 when the market suffered its greatest one-day
+decline in history, October 19, 1987 (Black Monday).
+1300
+1100
+900
+700
+500
+300 1982 1983 1984 1985 1986 1987
+Index (1962 = 100)
+Unhedged portfoliio
+Hedged portfoliio
+FIGURE 20.2 The value of a well-diversified portfolio versus the value of the same portfolio hedged by
+sales of S&P 500 index futures
+Source: Charles S. Morris, “Managing Stock Market Risk with Stock Index Futures,” Economic Review (June 1989): 10.
+Financial Futures 551
+Clearly, there is much less variability in the value of the hedged portfolio as com-
+pared to the value of the unhedged portfolio. In fact, the volatility of the returns is
+91 percent lower. Notice in particular what happened in the great market crash of
+October 1987. The value of the unhedged portfolio fell some 19 percent, whereas
+the value of the hedged portfolio fell only 6 percent.
+Table 20.2 (top) illustrates the concept of a short hedge using an equity futures
+contract when it is at 1,140. Assume an investor has a portfolio of stocks valued
+at $290,000 that he or she would like to protect against a market decline. By sell-
+ing one futures contract also priced at 1,140, the investor has a short position of
+$285,000, because the value of the contract is $250 times the index quote. As the
+table illustrates, a decline in the stock market of 10 percent results in a loss on the
+stock portfolio of $29,000 and a gain on the futures position of $28,500 (ignoring
+commissions). Thus, the investor almost makes up on the short side what is lost on
+the long side.
+Long hedges The long hedger, while awaiting funds to invest, generally wishes to
+reduce the risk of having to pay more for an equity position if prices rise. Potential
+users of a long hedge include the following:
+1. Institutions with a regular cash flow that use long hedges to improve the tim-
+ing of their positions.
+2. Institutions switching large positions who wish to hedge during the time it
+takes to complete the process. (This could also be a short hedge.)
+Limitations of hedging with stock-index futures Although hedging with stock-
+index futures can reduce investor risk, risk cannot be eliminated completely. As with
+interest rate futures, basis risk is present with stock-index futures. It represents the
+difference between the price of the stock-index futures contract and the value of the
+underlying stock index. A daily examination of stock-index values and stock-index
+futures prices will show that each of the indexes quoted under the respective futures
+contracts differs from the closing price of the contracts.
+Examples of Short and Long Hedges Using Stock-Index Futures
+Short Hedge
+Current
+Position
+Position after a
+10% Market Drop
+Change in
+Position
+(Long position) $ value of portfolio $290,000 $261,000 $(29,000)
+(Short position) sell one futures contract at 1140 285,000 256,500 28,500
+Gain or loss from hedged position (500)
+Long Hedge
+Current
+Position
+Position or Cost Following
+a 10% Market Rise
+Change in Position
+or Cost of Position
+Buy three futures contracts at 1140 each $855,000 $940,500 $85,500
+Cost of stock position 850,000 935,000 (85,000)
+Gain or loss from hedged position 500
+552 Chapter 20 Futures Contracts
+Basis risk, as it applies to stock portfolios, can be defined as the risk that remains
+after a stock portfolio has been hedged. Note that stock-index futures hedge only
+systematic (market) risk. That is, when we consider a stock portfolio hedged with
+stock-index futures, the basis risk is attributable to unsystematic (nonmarket or
+firm-specific) risk.
+Index arbitrage and program trading A force of considerable magnitude hit
+Wall Street in the 1980s. Program trading (defined in Chapter 4) captured much
+attention and generated considerable controversy. It led to headlines attributing
+market plunges to program trading, as happened on Black Monday, when the DJIA
+fell over 21 percent.
+The terms program trading and index arbitrage are often used together. In
+general terms, index arbitrage refers to attempts to exploit differences between
+the prices of stock-index futures and the prices of the stocks underlying the
+futures contract. For example, if the S&P 500 futures price is too high relative
+to the S&P 500, investors could short the futures contract and buy the stocks in
+the index. In theory, arbitrageurs should be able to build a hedged portfolio
+that earns arbitrage profits equaling the difference between the two positions.
+If the price of the S&P 500 futures is deemed too low, investors could purchase
+the futures and short the stocks, again exploiting the difference between the
+two prices.
+For investors to take advantage of discrepancies between the futures price and
+the underlying stock price, they must act quickly. Program trading involves the use
+of computer-generated orders to coordinate buy and sell orders for entire port-
+folios based on arbitrage opportunities. The arbitrage is typically performed by
+large institutional investors and occurs between portfolios of common stocks rela-
+tive to index futures and options. The institutions generally enter positions in bas-
+kets of securities worth several million dollars.
+Normally, program traders and other speculators “unwind” their positions dur-
+ing the last trading hour of the day the futures expire. At this time, the futures
+premium goes to zero, because, as noted, the futures price at expiration must equal
+the stock-index value.
+Speculating with stock-index futures In addition to hedging strategies, inves-
+tors can speculate with stock-index futures if they wish to profit from anticipated
+stock market moves. Stock-index futures are effective instruments for speculating
+on movements in the stock market because:
+1. Minimal costs are involved in establishing a futures position.
+2. Stock-index futures mirror the market, offering just as much risk.
+One group of speculators, referenced as “active traders,” risk their capital on
+price changes they expect to occur in futures contracts. Such individuals are often
+sophisticated investors who seek the opportunity for large gains and understand the
+risk they are assuming.
+The strategies of active traders include long and short positions. Traders who
+expect the market to rise (fall), buy (sell) index futures. Because of the high lever-
+age, the profit opportunities are great; however, the loss opportunities are equally
+great. Buying (selling) a contract is a convenient way to go long (short) the entire
+market. It can be done at any time.
+Index Arbitrage Exploita-
+tion of price differences
+between stock-index
+futures and the stocks
+underlying the futures
+contract
+Single Stock Futures 553
+Another type of speculator is spreaders, who establish both long and short
+positions at the same time. Their objective is to profit from changes in price rela-
+tionships between two futures contracts. Spreads include the following:
+1. The intramarket spread, also known as a calendar or time spread. This spread
+combines contracts for two different settlement months, such as buying a
+March contract and selling a June contract.
+2. The intermarket spread, also known as a quality spread. This spread involves
+two different markets, such as buying an S&P 500 contract and selling a
+Nasdaq 100 contract (both for the same month).
+Spreaders are interested in relative price as opposed to absolute price changes.
+If two different contracts appear to be out of line, the spreader hopes to profit by
+buying one contract and selling the other and waiting for the price difference to
+adjust. This adjustment may require the spread between the two contracts to widen
+in some cases and narrow in others.
+Single Stock Futures
+A more recent innovation in financial futures is the single stock futures (SSFs).
+These are futures contracts on individual stocks as well as on exchange-traded funds
+(ETFs) such as the DJIA, called DIAMONDS®. These futures are traded on One-
+Chicago, a joint venture of the Chicago Board Options Exchange, the CME, and
+the CBOT. OneChicago offers over 13,000 products representing claims on global
+equities, including contracts on over 2,600 ETFs.
+Like other futures contracts, SSFs are standardized agreements between two par-
+ties to buy or sell 100 shares of a specified stock in the future at a price determined
+today. The minimum price fluctuation (“tick”) is one cent per share, or $1 per
+contract (contracts are for 100 shares). There are no daily price limits. The initial
+margin requirement is 20 percent, providing substantial leverage for these contracts.
+Note that SSFs settle to physical delivery rather than cash. The contract cannot be
+exercised early. Of course, a contract can be offset prior to expiration.
+Using SSFs An investor buys or “goes long” an SSF contract if he or she believes
+that the stock price will rise and sells or “goes short” an SSF contract if the price is
+expected to decline. Shorting is easily accomplished. As always with a futures con-
+tract, both a buy and sell are involved, and which is done first really does not matter
+in terms of the process working smoothly.
+The primary advantages of SSFs are the low cost and ease with which short selling
+can be accomplished. Some investors view the 20 percent margin requirement as an
+advantage, but it can also be a significant disadvantage if the price moves against the
+investor, particularly when multiple contracts are involved.
+Assume that an investor buys 10 SSF contracts on
+Microsoft at $100 and sells them two months later at
+$110. The profit on this position is:
+[ ] ,$ $ shares contracts $110 100 100 10 10 00
+554 Chapter 20 Futures Contracts
+How SSFs differ from stocks and options SSFs have price and risk profiles that
+are similar to stocks. For example, if the stock price goes up, the futures price will
+also go up. In contrast, the payoff profile for options is often nonlinear, consisting
+of two or more different segments. In addition, options truncate the return distribu-
+tion, while futures do not. Finally, there are several variables that affect the prices of
+options, while futures prices are more straightforward.
+SSFs are like any other futures in most respects and therefore differ from stocks.
+Margin for futures represents funds to ensure that obligations are met, not funds
+to finance part of the purchase. There is no interest to pay on the loan as is the
+case with margin on stocks. Profits and losses are credited to an investor’s account
+daily. SSF prices are often higher than the actual stock because the price of the SSF
+includes the cost of interest.
+The future of SSFs Because SSFs are a relatively recent innovation, it is difficult
+to say how successful they will be and the total impact they will have on investors.
+They clearly offer investors one more tool in hedging risk and constructing specific
+risk–return profiles. At their introduction, some critics questioned their necessity,
+or even desirability. However, it is worthwhile to remember that foreign currency
+futures, ETFs, and stock-index futures were also attacked by critics at their introduc-
+tion. Each has gone on to be quite successful. ETFs, for example, started slowly, but
+total volume is now substantial.
+Summary
+• Futures markets play an important role in risk management.
+• Spot markets are markets for immediate delivery. Forward and futures markets
+are markets for deferred delivery.
+• An organized futures exchange standardizes nonstandard forward contracts,
+with only the price and number of contracts left for traders to negotiate.
+• A futures contract designates a specific amount of a particular item to be deliv-
+ered at a specified date in the future at a currently determined price.
+• Buyers assume long positions and sellers assume short positions.
+• Most contracts are settled by offsetting the position, whereby a position is
+liquidated by an offsetting transaction. The clearinghouse is effectively on
+the other side of every transaction and ensures that all payments are made as
+specified.
+• Contracts are traded on designated futures exchanges, which set minimum
+price changes and establish daily price limits.
+• Futures positions must be closed out within a specified time. There are no
+certificates and no specialists to handle the trading.
+• Margin, the norm in futures trading, is the “good faith” deposit made to
+ensure completion of the contract.
+Assume that an investor shorts 10 SSF contracts on
+Microsoft at $100 and buys them back at $107. The loss
+on this position is:
+[ ] ,$ $ shares contracts $100 107 100 10 7 000
+All futures contracts are marked to market daily; that is, all profits and losses
+are credited and debited to each investor’s account daily.
+• Hedgers buy or sell futures contracts to offset risk in some other position.
+• Speculators buy or sell futures contracts in an attempt to earn a return. Specu-
+lators are valuable to the proper functioning of the market.
+• Interest rate futures, one of the principal types of financial futures, allow inves-
+tors to hedge against, and speculate on, interest rate movements. Numerous
+contracts are available on both domestic instruments and foreign instruments.
+• Investors can execute short hedges to protect their long positions in assets.
+• Stock-index futures are available on the NYSE Composite Index, the S&P 500,
+and numerous other indexes, both domestic and foreign.
+• Investors can use stock-index futures to hedge the systematic risk of common
+stocks—that is, broad market movements.
+• Short hedges protect a security position against a price decline, and long
+hedges protect against having to pay more for a security because prices rise
+before the investment can be made.
+• Index arbitrage refers to attempts to exploit differences between prices of
+stock-index futures and prices of the stocks underlying the futures contract.
+• Single stock futures are standardized agreements between two parties to buy
+or sell shares of a specified stock in the future at a price determined today

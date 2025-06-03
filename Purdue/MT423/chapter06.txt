@@ -1,0 +1,743 @@
+The Risk and Return from
+Investing
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Calculate important risk and return
+measures for financial assets, using
+the formulation appropriate for the
+task.
+• Use key terms involved with risk and
+return, including geometric mean,
+cumulative wealth index, inflation-
+adjusted return, and currency-
+adjusted return.
+• Understand clearly historical secu-
+rity performance, an important step
+in estimating future risk and return.
+142 Chapter 6 The Risk and Return from Investing
+For convenience, TR is conventionally labeled simply as return (R). We follow
+this convention throughout the rest of this text. Therefore, when you see return
+(R), just remember that it incorporates both components of return. Furthermore,
+returns are almost always reported as annual values and are reported in percent.
+When you are calculating returns, you may use the decimal form; however, when
+reporting the final number, make sure to convert it to a percent. What would you
+think of the wisdom of a person that told you they just obtained a mortgage at 0.004
+per month? Clearly, the language of the financial markets dictates we talk in terms
+of annual percent returns, the above annual rate is 4.8 percent. Any deviation from
+this convention should be clearly highlighted and explained.
+The periodic cash flows from a bond consist of the interest payments received,
+and for a stock, the dividends received. For some assets, such as a T-bill or a
+nondividend-paying stock, there is only a price change. Exhibit 6.1 illustrates the
+calculation of TR, or from now on R, for a bond and a common stock. Although one
+year is often used for convenience, the return calculation can be applied to periods
+of any length.
+EXHIBIT 6.1 | Examples of Return Calculations
+Return (R) Calculations:
+I. Bond Return
+R l P P
+P
+l
+P
+l
+t t
+t
+E B
+B B
+PC
+the interest payment s received( ) dduring
+the period
+and the beginning and endingB EP P prices
+respectively
+PC the change in pr
+,
+iice during the period
+Example: Assume the purchase of a 10 percent coupon
+Treasury bond at a price of $960, held one year, and sold
+for $1,020.
+R 100 1 020 960
+960
+100 60
+960 0 1667 16 67
+( , ) . . %or
+II. Stock Return
+R D P P
+P
+D
+P
+D
+t t
+t
+E B
+B B
+the dividend(s) paid during the p
+PC
+eeriod
+Example: 100 shares of DataShield are purchased at $30
+per share and sold one year later at $26 per share. A
+dividend of $2 per share is received.
+R 2 26 30
+30
+2 4
+30 0 0667 6 67. . %or
+If DataShield paid no dividend, its return would be cal-
+culated as follows:
+R 26 30
+30
+4
+30 0 1333 13 33. . %or
+Calculating returns for the S&P 500 index Table 6.1 shows the Standard &
+Poor’s 500 Index (S&P 500) for the years 1926 through 2018 (a total of 93 years
+because the data start on January 1, 1926). Included in the table are end-of-year val-
+ues for the index, from which capital gains and losses can be computed, and divi-
+dends, which constitute the income component.
+Conclusions about total return In summary, the total return concept, identified
+as return (R), is valuable as a measure of return because it is all-inclusive.
+• Return (R) is the basic measure of the income earned by investors on any
+financial asset for any specified period of time. It is generally stated on a per-
+centage basis.
+Measuring Returns 145
+The returns shown in Table 6.1 are calculated as shown
+in Equation 6-2. For example, the return (R) for 2010 for
+the S&P 500 Index was 14.82 percent, calculated as3
+R2010 1257 64 1115 10 22 73 1115 10 0 1482 14 82. . . / . . . %or
+In contrast, in 2000, the return was −9.03 percent, calculated as
+R2000 1320 28 1469 25 16 27 1469 25 0 0903 9 03. . . / . . . %or
+EXAMPLE 6.3
+3 Note carefully that these calculations do not assume the reinvestment of dividends during the year.
+4 The material presented in this section was adapted from the article, C. Mitchell Conover, Gerald Jensen,
+and Marc Simpson, “What Difference Do Dividends Make,” Financial Analysts Journal, 72, (November/
+December 2016): 28–40.
+Concepts in Action
+What Difference Do Dividends Make?
+There are some investors that target dividend
+paying stocks, whereas others target firms that
+pay no dividend. The preference for a specific
+dividend policy is often attributed to an investor’s
+tax situation, appetite for risk, or desire for periodic
+cash inflows. The effect that an investor’s dividend
+strategy has on overall portfolio performance is
+often debated Is overall portfolio performance
+better if the investor obtains a large portion of
+portfolio return from dividends or is it better to rely
+on capital gains for portfolio return?
+An article by Conover, Jensen, and Simpson
+addressed this issue directly.4 The following table
+is adapted from their Table 2 Annual Portfolio
+Performance Across Dividend Level: July 1963–
+December 2014,
+Dividend Yield Portfolio
+Investment Performance No Dividend Low Dividend High Dividend Extreme Dividend
+Mean Return 9.58% 9.99% 11.31% 10.69%
+Standard Deviation of Return 24.37% 16.44% 13.90% 17.15%
+The “Extreme Dividend“ portfolio includes the
+5% of dividend paying firms with the highest
+dividend yield. These firms are separated from the
+other dividend payers as recognition that firms
+with very high dividend yields are often finan-
+cially distressed. An extreme dividend yield for
+a firm typically results from the firm’s stock price
+declining considerably, whereas the dividend
+continues to be paid. Generally, investors expect
+that the dividend for these firms will be slashed or
+omitted in the next few quarters.
+The other dividend paying firms are sepa-
+rated roughly equally into the “Low Dividend”
+and “High Dividend” portfolio. These portfo-
+lios include the firms that have established a
+dividend payment policy at a relatively low or
+high level.
+Interestingly, the evidence in the table indi-
+cates that the portfolio of firms paying no
+dividend earned the lowest total return, yet
+subjected investors to the greatest risk. Clearly,
+this portfolio provided investors with a suboptimal
+investment result over the period. In contrast, the
+“High Dividend” portfolio reported the highest
+return and subjected investors to the least risk. The
+“High Dividend” portfolio was superior to the other
+portfolios and was especially dominant over the
+“No Dividend” portfolio’s performance.
+The authors went on to evaluate the benefits of
+dividend policy across investment strategy. They
+found that investors targeting relatively small firms
+with strong growth prospects gained the greatest
+benefit by shifting their strategy to include firms
+paying relatively high dividends. In contrast, for
+146 Chapter 6 The Risk and Return from Investing
+Cumulative Wealth Index
+The rate of change in an asset’s price and percentage rates of return have multiple
+uses. Nevertheless, we all understand dollar amounts! Therefore, it is often desir-
+able to measure how one’s wealth changes over time. In other words, we measure
+the cumulative effect of returns compounding over time given some stated initial
+investment, which is frequently shown as $1 for convenience. Note that having calcu-
+lated ending wealth (cumulative wealth) over some time period on the basis of a $1
+initial investment, it is simple enough to multiply by an investor’s actual beginning
+amount invested, such as $10,000.
+The cumulative wealth index, CWIn, is computed as
+CWI WIn nR R R0 1 21 1 1 (6-3)
+CWI the cumulative wealth index as of the end of periodn n
+WI the beginning index value; typically $ is used but0 1 any amount can be used
+the periodic s in decimalR Rn1, fform adding to R produces a return relative( . )1 0
+Cumulative wealth is always stated in dollars and represents the effects of com-
+pounding returns over some period of time, given any initial investment.
+Cumulative Wealth
+Index Cumulative wealth
+over time, given an initial
+wealth and a series of
+returns on some asset
+investors targeting relatively large companies with
+limited growth prospects, the dividend choice did
+not significantly affect portfolio performance; how-
+ever, it still significantly reduced risk.
+Overall, the authors conclude that adding
+dividend paying stocks to one’s portfolio has
+offered substantial benefits no matter what the
+investor’s strategy. In all cases, the addition of
+dividends significantly reduced portfolio risk.
+Furthermore, for investors targeting firms of below
+average size with strong growth prospects, target-
+ing dividend payers provided a double benefit as
+it increased portfolio return significantly while also
+significantly cutting risk.
+Let’s calculate cumulative wealth per $1 invested for the
+1990s, one of the greatest decades in the 20th century
+to own common stocks. This will provide you with a perspective on common
+stock returns at their best. Using the S&P returns in Table 6.1 and converting
+them to return relatives, the cumulative wealth index for the decade of the
+1990s (the 10-year period 1990–1999) would be
+CWI90 99 1 00 0 9686 1 30 1 0743 1 0994 1 0129 1 3711. . . . . . . 1 2268 1 331
+1 2834 1 2087
+5 23
+. .
+. .
+.
+Thus, $1 invested at the beginning of 1990 would have been worth $5.23
+by the end of 1999. Obviously, any beginning wealth value can be used to
+calculate cumulative wealth. For example, $10,000 invested under the same
+conditions would have been worth $52,300 at the end of 1999, and $37,500
+invested under the same conditions would have been worth $196,125
+148 Chapter 6 The Risk and Return from Investing
+percent for an investor transacting only in euros. However, the value of the dollar fell
+during this period, and when the shares of Air France were sold, the euro proceeds
+bought back more dollars. The dollar value of one share had risen to $1.14(9.282)
+= $10.581. During the two-year period, Air France stock paid no dividend. The total
+return for the two-year period (in dollar terms) was: (10.581/5.433) − 1 = 94.75 per-
+cent. The annual return, in dollar terms, was: (10.581/5.433)0.5 −1 = 39.55 percent.
+To calculate directly the return to a U.S. investor from an investment in a foreign
+country, we can use Equation 6-4. The return earned on the foreign asset in terms
+of foreign currency ( )RFA is compounded by the change in the foreign currency
+value. The foreign currency is stated in domestic terms—that is, the amount of
+domestic currency necessary to purchase one unit of the foreign currency:
+Return in domestic terms ending value of foreign c
+FA1 R uurrency
+beginning value of foreign currency 1 0. (6-4)
+The dollar and investors How much difference can currency adjustments make
+to investors? They can make a substantial difference for selected periods of time.
+In a year of phenomenal returns, the Brazilian market
+was up about 150 percent, but the currency adjustment
+for U.S. investors was negative 83 percent, leaving a U.S. dollar return for the
+year of approximately 67 percent instead of 150 percent. On the other hand,
+the Japanese market enjoyed a 47 percent return, and the currency adjustment
+was positive, 15 percent, resulting in a U.S. dollar return of approximately 62
+percent for the year.
+EXAMPLE 6.5
+Impact of Currency Change on Air France Stock Investment
+(Denominated in Euros)
+Variable January 3, 2017 January 2, 2019
+Exchange rate 1.00 = $1.05 1.00 = $1.14
+Cost in euros of one share €5.174 €9.282
+Cost in dollars of one share $5.433 $10.581
+Annual return in euros N/A 33.94%
+Annual return in dollars N/A 39.55%
+TABLE 6.2
+Consider a U.S. investor who invests in WalMex at 40.25
+pesos when the value of the peso stated in dollars is $0.10.
+One year later, WalMex is at 52.35 pesos, and the stock paid no dividend. The
+peso is now at $0.093, which means that the dollar appreciated against the peso:
+Return relative for WalMexFA( ) . / . .1 52 35 40 25 1 3006R
+EXAMPLE 6.6
+Checking Your Understanding
+1. The Cumulative Wealth Index can be calculated for nominal stock returns,
+but it cannot show the impact of inflation. Agree or disagree, and explain
+your reasoning.
+2. What does it mean to say that when you buy a foreign asset, you are selling
+the dollar?
+3. Is it correct to say that in recent years antidollar bets by U.S. investors paid off?
+Summary Statistics for Returns
+Return and cumulative wealth index are useful measures of performance for a spec-
+ified time period. Also needed for investment analysis are statistics to describe a
+series of returns. For example, investing in a particular stock for 10 years or a differ-
+ent stock in each of 10 years could result in 10 returns, which need to be described by
+summary statistics. Two such measures used with returns data are described below.
+Arithmetic Mean
+The best known statistic to most people is the arithmetic mean. Therefore, when
+someone refers to the mean or average return, they usually are referring to the arith-
+metic mean unless otherwise specified. The arithmetic mean, customarily desig-
+nated by the symbol X , of a set of values is calculated as:
+X X
+n
+(6-5)
+or the sum of the values being considered divided by the total number of values n.
+Geometric Mean
+The arithmetic mean return is an appropriate measure of the central tendency of a
+return distribution for a particular time period, such as 10 years. However, when an
+ending value is the result of compounding over time, the geometric mean is needed
+to describe accurately the “true” average return over multiple periods.
+The geometric mean is defined as the nth root of the product resulting from
+multiplying a series of return relatives together, as in Equation 6-6:
+RG 1 1 1 11 2
+1
+R R Rn
+n/
+(6-6)
+where R is a series of returns in decimal form and RG is the geometric mean return.
+Note that adding 1.0 to each return produces a return relative. Return relatives are
+used in calculating geometric mean returns.5
+The geometric mean return measures compound growth over time. It is important
+to note that the geometric mean assumes that all cash flows are reinvested in the asset
+Geometric Mean The
+compound return over
+time
+5 An alternative method of calculating the geometric mean is to find the log of each return relative, sum
+them, divide by n, and take the antilog.
+Summary Statistics for Returns 151
+and that those reinvested funds earn the subsequent return earned on that asset. It
+reflects the steady growth rate of invested funds over some past period—that is, the
+uniform rate at which money actually grew per period, taking into account all gains
+and losses.
+• Think of the annual geometric mean as the equal annual return that
+makes a beginning amount of money grow to a particular ending amount
+of money.
+For example, we saw in Example 6.4 that $1 invested in the S&P 500 on January 1,
+1990, would have grown to $5.23 by December 31, 1999 (10 years). This is a result
+of the money compounding at the annual rate of 18 percent. At the end of year 1,
+the $1 would grow to $1.18; at the end of year 2, the $1.18 would grow to $1.39; at
+the end of year 3, the $1.39 would grow to $1.64, and so on, until at the end of year
+Year S&P 500 Rs (%) S&P 500 Return Relative (1 + R)
+1990 −3.14 0.9686
+1991 30.00 1.3000
+1992 7.43 1.0743
+1993 9.94 1.0994
+1994 1.29 1.0129
+1995 37.11 1.3711
+1996 22.68 1.2268
+1997 33.10 1.3310
+1998 28.34 1.2834
+1999 20.87 1.2087
+Arithmetic mean
+Geometric m
+3 14 30 00 20 87 10 18 76. . . / . %
+eean 0 9686 1 3000 1 0743 1 0994 1 0129
+1 3711 1 226
+. . . . .
+. . 88 1 3310 1 2834 1 2087 1
+1 18 1
+0 18
+1 10
+. . .
+.
+.
+/
+or 118%
+Calculation of the Arithmetic and Geometric Mean for the Years
+1990–1999 for the S&P 500 Stock Index
+TABLE 6.3
+Using the Calculator
+In Example 6.4, we calculated the CWI for
+1990–1999 as 5.23. Knowing this number,
+we can calculate the geometric mean
+return for these years by taking the 10th
+root of 5.23 and subtracting 1.0. Calcu-
+lator inputs: 5 23 0 10. . ;[ ] [ ]y x answer is
+1 1799 1 0 1799 18. . %or
+152 Chapter 6 The Risk and Return from Investing
+10 the original $1 is worth $5.23. Notice that this geometric average return is lower
+than the arithmetic average return of 18.76 percent.
+• The geometric mean is always less than the arithmetic mean unless the values
+being considered are identical, which is an unlikely event. The spread between
+the two depends on the dispersion of the distribution: the greater the dispersion
+(higher the standard deviation), the greater the spread between the two means.
+Arithmetic Mean Versus Geometric Mean
+When should we use the arithmetic mean and when should we use the geometric
+mean to describe the returns from financial assets? The answer depends on the
+investor’s objective:
+• The arithmetic mean is a better measure of average (typical) performance
+over single periods. It is the better measure for investors that rebalance their
+portfolios to begin each period with a fixed size investment.
+• The geometric mean is a better measure of the change in wealth over the past
+(multiple periods). It is typically used by investors to measure the realized
+compound rate of return at which money grew over a specified period of time.
+It is the better measure for investors that follow a buy-and-hold strategy.
+Over multiple periods, the geometric mean shows the true average compound
+rate of growth that actually occurred—that is, the annual average rate at which an
+invested dollar grew, taking into account the gains and losses over time.
+Consider the return data for the S&P Index for the years 1990–1999 as described
+earlier. Our best representation of any one year’s performance would be the arith-
+metic mean of 18.76 percent. It was necessary to average this rate of return, given the
+variability in the yearly numbers, in order to realize an annual compound growth
+rate of 18 percent after the fact.
+Concepts in Action
+Using the Geometric Mean to Measure
+Market Performance
+The geometric mean for the S&P 500 for the 20th
+century was 10.35 percent. Thus, $1 invested in this
+index compounded at an average rate of 10.35
+percent every year during the period 1900–1999.
+What about the first decade of the 21st century
+(defined as 2000–2009)? The S&P 500 suffered losses
+for the first three years of the decade, followed by
+positive returns during 2003–2007. The year 2008 was
+a disaster, but 2009 showed a very large return. The
+geometric mean for this decade is calculated as
+Return Relatives for the S&P 500 Index:
+2000 0.910 2004 1.107 2008 0.635
+2001 0.881 2005 1.048 2009 1.259
+2002 0.780 2006 1.156
+2003 1.284 2007 1.055
+[(0.910)(0.881)(0.780)(1.284)(1.107)(1.048)(1.156)
+(1.055)(0.635)(1.259)] 1/10 −1.0
+= [0.9086] 1/10 − 1.0
+= 0.9905 − 1.0
+= −0.0095 or −0.95%
+This indicates that $1 invested in the S&P 500
+at the beginning of 2000 grew at an average
+annual rate of approximately −1 percent a year
+for the first 10 years of the 21st century. The market,
+as measured by the S&P 500 got a very bad start
+for the first three years of the decade, and it is
+quite difficult to overcome such a bad start. The
+severely negative performance in 2008 sealed the
+fate for this decade. This poor performance has
+led some to name this period the “Lost Decade”
+for common stocks. In fact, this decade was the
+worst-performing decade for stocks in the history
+of reliable stock market data.
+Summary Statistics for Returns 153
+Inflation-Adjusted Returns
+All returns discussed above are nominal returns, based on dollar amounts that do
+not take inflation into account. Typically, the returns we see daily on the news, being
+paid by financial institutions, or quoted to us by lenders, are nominal rates of return.
+To assess our actual gain, we need to consider the purchasing power of the dol-
+lars involved in investing. To capture this dimension, we analyze real returns, or
+inflation-adjusted returns. When nominal returns are adjusted for inflation, the
+result is in constant purchasing power terms.
+Why is this important to you? What really matters is the purchasing power that
+your dollars have. It is not simply a case of how many dollars you have but what those
+dollars will buy. 6
+Since 1871, the starting point for reliable data on stocks, the United States has
+had a few periods of deflation, but on average the United States has experienced
+mild inflation over a long period of time. Therefore, on average, the purchasing
+power of the dollar has declined over the long run. We typically define the rate of
+inflation as the percentage change in the Consumer Price Index (CPI).7
+Nominal Return Return
+in current dollars, with
+no adjustment to remove
+inflation
+Real Returns Returns
+adjusted for inflation
+As an illustration of how the arithmetic mean can be
+misleading, consider the data in Table 6.4, which show
+the movements in price for two stocks over two successive holding periods.
+Both stocks have a beginning price of $10. Stock A rises to $20 in period 1
+and then declines to $10 in period 2. Stock B falls to $8 in period 1 and then
+rises 50 percent to $12 in period 2. For stock A, the indicated annual average
+arithmetic rate of change in price is 25 percent [(100% − 50%)/2]. This is
+clearly not sensible because the price of stock A at the end of period 2 is
+$10, the same as the beginning price. The geometric mean calculation gives
+the correct annual average rate of change in price of 0 percent per year. For
+stock B, the arithmetic average of the annual percentage changes in price is
+15 percent. However, if the price actually increased 15 percent each period,
+the ending price in period 2 would be $10(1.15)(1.15) = $13.23. We know that
+this is not correct because the price at the end of period 2 is $12. The annual
+geometric rate of return, 9.54 percent, produces the correct price at the end
+of period 2: $10(1.0954)(1.0954) = $12.
+154 Chapter 6 The Risk and Return from Investing
+The consumer price index Based on the CPI, the compound annual rate of
+inflation over the period 1926–2018 was approximately 2.92 percent. This means
+that a basket of consumer goods purchased at the beginning of 1926 for $1 would
+cost approximately $14.54 at year-end 2018. This is calculated as (1.0292) 93 because
+there are 93 years from the beginning of 1926 through the end of 2018.
+Relation between nominal return and real return The nominal return (R)
+is related to the real return (Rr) and the expected inflation rate (Ir) as shown in
+Equation 6-7:
+R R I1 1 1r r (6-7)
+This equation can be applied to both individual years and average returns.
+Checking Your Understanding
+4. Assume that you invest $1,000 in a stock. Your rate of return is 15 percent for
+year 1, followed by a loss of 15 percent for year two. Did you break even by the
+end of year 2? Would it matter if the sequence of returns was reversed?
+5. The inflation rate has been very low in recent years. Why, then, should inves-
+tors be concerned with inflation-adjusted returns?
+Risk
+It is not sensible to talk about investment returns without talking about risk because
+investment decisions involve a trade-off between the two. Investors must constantly be
+aware of the risk they are assuming and be prepared for the consequences of this risk.
+• Return and risk are opposite sides of the same coin.
+Suppose your father earned a salary of $35,000 in 1975,
+and by 2019, his salary had increased to $135,000. How
+much better off is he in terms of purchasing power? We can convert the
+$35,000 in 1975 dollars into 2019 dollars. When we do this, we find that the
+1975 salary is worth $163,753 in 2019 dollars. So in terms of purchasing power,
+your father has suffered a significant loss over this long time period.
+EXAMPLE 6.9
+The return for the S&P 500 in 2018 was about −4.2
+percent. The rate of inflation was about 2.4 percent.
+Therefore, the real (inflation-adjusted) return for large U.S. common stocks
+in 2018 was (0.958/1.024) − 1 = −0.064 or −6.4 percent.
+EXAMPLE 6.10
+Consider the period 1926–2018. The geometric mean for
+the S&P 500 for the entire period was approximately 10
+percent and for the CPI, 3.0 percent. Therefore, the real (inflation-adjusted)
+geometric mean return for large common stocks for the period 1926–2018
+was (1.10/1.03) − 1 = 0.068 or 6.8%.
+EXAMPLE 6.11
+158 Chapter 6 The Risk and Return from Investing
+The standard deviation and variance are measures of the total risk or dispersion of
+an asset or a portfolio. They capture total variability in the asset’s or portfolio’s return,
+whatever the source of that variability. The two measures tend to be referenced inter-
+changeably when discussing the concept of variability or risk; however, since standard
+deviation is measured in the same units as the mean, standard deviation is used more
+commonly than variance when performing investment analysis and calculations.
+For a variable (X), the variance and standard deviation are calculated as:
+2 1
+2
+1
+i
+n
+X X
+n
+(6-8)
+where
+2 the variance of a set of values
+each value in the setX
+X the mean of the observations
+the number of values in thn ee sample
+standard deviation2 1 2/
+In summary, the standard deviation of return measures the total risk of one secu-
+rity or the total risk of a portfolio of securities. This ex post value is useful in evaluat-
+ing the total risk for a particular historical period and in estimating the total risk
+that is expected to prevail over some future period. The calculation of standard
+deviation for the 10 annual returns from 2005 through 2014 for the S&P 500 is
+shown in Table 6.5.
+Calculating the Standard Deviation for the Period 2005–2014
+Year R (%) R R ( )R R 2
+2005 4.83 −4.54 20.61
+2006 15.61 6.24 38.94
+2007 5.48 −3.89 15.13
+2008 −36.55 −45.92 2108.65
+2009 25.94 16.57 274.56
+2010 14.82 5.45 29.70
+2011 2.10 −7.27 52.85
+2012 15.89 6.52 42.51
+2013 32.05 22.68 514.38
+2014 13.52 4.15 17.22
+R 9 37. R R 2
+2
+3114 56
+3114 56
+9 346 06
+346 06 1 2 18 60
+.
+. .
+. / . %
+TABLE 6.5
+Realized Returns and Risks from Investing 161
+The difference between the geometric and arithmetic means is related to the
+variability of the return series. The linkage between the geometric mean and the
+arithmetic mean is approximated by Equation 6-9:
+1 1
+2 2 2
+R RG A (6-9)
+where
+R the geometric mean of a series of asset returns
+R the ari
+G
+A tthmetic mean of a series of asset returns
+the variance of2 the series of returns
+• If we know the arithmetic mean and variance of a series of asset returns, we
+can approximate the geometric mean for this series. As the variance of a series
+increases, the superiority of the arithmetic mean relative to the geometric
+mean also increases.
+As indicated by Equation 6-9, the greater difference between the geometric and
+arithmetic mean for the small-cap index can be attributed to the small-cap indexes’
+greater volatility. Note that the volatility of the small-cap index is the largest of all
+the return series and is substantially greater than even that of the large-cap index.
+Table 6.6 shows that over this 93-year period, small-cap stocks earned a return that
+was somewhat higher than that of large-cap stocks. In addition, both of the equity
+indexes recorded minimum and maximum values that were much larger when com-
+pared to the other indexes. Interestingly, for the equity indexes, the smallest and
+largest values both occurred in the 1930s, which is consistent with the phenomenon
+that extreme swings in stock returns tend to appear in close proximity. For example,
+the extreme negative returns for the S&P 500 for 2002 (−21.97 percent) and 2008
+(−36.55 percent) were followed the next year with returns of 28.36 percent and
+25.94 percent, respectively.
+Corporate and Treasury bonds have geometric mean returns that are roughly
+50 to 60 percent of the returns reported for the equity indexes. The bond indexes,
+however, have standard deviations that are much lower than those reported for
+the equity indexes. These observations support the well-recognized positive rela-
+tion that exists between risk and long-term security returns. Interestingly, relative
+to long-term corporate bonds, long-term government bonds have greater risk (9.8
+percent versus 8.4 percent), but lower returns (5.5 percent versus 5.9 percent).
+This would seem to contradict the positive long-term risk-return trade-off rule. This
+observation, however, is not a violation of the rule as it can be attributed to govern-
+ment bonds offering a unique advantage relative to corporate bonds, exemption
+from state and local income taxes.10
+Finally, as expected, T-bills have the smallest returns of any of the major assets
+shown in Table 6.6, 3.3 percent, as well as by far the smallest standard deviation (3.1
+percent).
+T-bill investors never experienced a significant negative return over the entire
+93-year period as their lowest return was only −0.02 percent.
+10 The reason for the variability in the returns for T-bonds and T-bills, which have no practical risk of
+default, is that the data is represented by a series of annual returns, where negative numbers are possible.
+Thus, a new 10-year T-bond purchased at $1,000 on January 1 could decline to, say, $900 by December
+31, resulting in a negative return for that year. For the full 10-year period, its return will, of course, be
+positive since it will be redeemed for $1,000.
+162 Chapter 6 The Risk and Return from Investing
+Cumulative Wealth Indexes
+Table 6.7 shows cumulative wealth values for the major asset classes based on a $100
+investment at the beginning of 1926. Many people find the value differences across
+the asset classes to be astounding. For example, $100 placed in a bond fund would
+have cumulated to somewhere between $10,000 and $21,000 depending on bond
+type, which seems like a great result. It is a great result, until we consider the alterna-
+tives. The same $100 invested in large-cap stocks would have cumulated to $707,163.
+Over the 93 years, large-cap stocks returned about twice what bonds returned;
+however, the cumulative wealth difference is much larger than twice the difference;
+it is about 35 times greater. Why? Remember that time value of money is an expo-
+nential process. Compounding produces an exponential growth in money, not a
+linear growth. How about that relatively small difference of 1.8 percent between
+the return to small-cap and large-cap stocks? It produced a value difference of
+$2,492,378 ($3,199,541 − $707,163). Now you can see why fund managers fight for
+even a few extra basis points. A small return premium earned over an extended time
+makes for a large difference in the final wealth accumulated and is the basis for a lot
+better marketing material.11
+Wealth and Return Statistics for Major Financial Assets, 1926–2018
+Asset
+Cumulative
+Wealth of $100
+Times Top
+1-Year Return
+Times Top
+5-Year Return
+Times Top
+20-Year Return
+Large-Cap Stocks $707,163 17 26 9
+Small-Cap Stocks $3,199,541 41 46 64
+Long-term Corp Bonds $20,669 6 8 0
+Long-term Gov’t Bonds $14,537 12 5 1
+Inter-term Gov’t Bonds $10,211 4 3 0
+U.S. Treasury Bills $2,048 6 0 0
+Inflation $1,428 7 1 0
+Source: Duff & Phelps, 2019 SBBI® Yearbook Stocks, Bonds, Bills, and Inflation, Roger G. Ibbotson.
+TABLE 6.7
+Using the data from Table 6.6, we can assess the accuracy
+of Equation 6-9 relative to large-cap stocks as follows:
+1 100 1 119 0 198
+1 210 1 252 0 039
+1 210 1 213
+2 2 2
+. . .
+. . .
+. .
+EXAMPLE 6.12
+11 When plotting cumulative wealth values across time, a logarithmic scale is typically used. A logarithmic
+scale greatly facilitates comparisons of different series across time because the same vertical distance rep-
+resents the same percentage change in a particular series return. The logarithmic scale allows the user to
+concentrate on rates of return and ignore the dollar amounts involved.
+Realized Returns and Risks from Investing 163
+The cumulative wealth values reported in Table 6.7 are derived by raising
+(1 + geometric mean return from Table 6.6) to the 93rd power; there are 93 years in
+the period. The geometric mean reflects the return from following a buy-and-hold
+strategy, whereas the arithmetic mean reflects the return from a rebalancing strat-
+egy, i.e., keeping the amount invested at the beginning of each period constant.12
+We all appreciate dollar totals, and the larger the final wealth accumulated over
+some period of time, the better. If we understand how cumulative wealth is gener-
+ated, we have a better chance of enhancing that wealth. For stocks, the cumulative
+wealth index can be decomposed into the two components of return—the dividend
+component and the price change component.
+For S&P 500 stocks, about 40 percent of the total return over time can be attrib-
+uted to dividends. When dividend yields are low, as they have been recently, inves-
+tors have to earn more from the price change component of cumulative wealth or
+their cumulative wealth will grow at a slower pace going forward.
+Financial Asset Return Superiority
+Table 6.7 reports data regarding the return superiority of each of the financial assets
+over alternative holding periods. As expected, small-cap stocks, which have the greatest
+risk, produced superior returns in the most cases. Of the total of 93 years, small-cap
+stocks were superior in 41 years, large-cap stocks in 17 years, bonds of various types in 22
+years, T-bills in 6 years, and inflation was the highest in 7 years. As the holding period is
+extended, the dominance of equities and especially small-cap equities expands. There
+has only been one 20-year period in the history of the organized U.S. financial markets
+when bonds have produced superior returns to equities. That period ended with the
+2008 financial crisis and included two major market meltdowns, 2000–2002 and 2008.
+If you seek guidance from a financial advisor regarding saving for your retire-
+ment in 30 years, would it surprise you when the advisor recommends the majority
+of your portfolio be allocated to equities? I hope not. There is no 30-year period in
+the history of the U.S financial markets where equity returns were less than bond
+returns.
+12 On an inflation-adjusted basis, the cumulative ending wealth for any of the series can be calculated as
+CWI CWI
+CI
+IA
+INF
+where
+CWI the cumulative wealth index value for any asset on iIA nnflation-adjusted basis
+CWI the cumulative wealth index vvalue for any asset on a nominal basis
+CI the ending iINF nndex value for inflation calculated as geometric rate o, 1 ff inflation
+where is the number of period
+n
+n
+,
+ss considere
+Compounding and Discounting
+Of course, the single most striking feature of Table 6.7 is the tremendous differ-
+ence in ending wealth between stocks and bonds. This difference reflects the impact
+of compounding different mean returns over long periods, which produces almost
+unbelievable results. The use of compounding points out the importance of this
+concept and of its complement, discounting. Both are important in investment
+analysis and are used often. Compounding involves deriving future values that result
+from compound interest—earning interest on interest. As we saw, the calculation
+of wealth indexes involves compounding at the geometric mean return over some
+historical period.
+Present value (discounting) is the value today of a dollar to be received in the
+future. Future dollars are not comparable to present dollars, because of the time
+value of money. In order to be comparable, they must be discounted back to the
+present. Present value concepts are used extensively in Chapters 10 and 17, and in
+other chapters as needed.
+Summary
+• Risk and return go together in investments; indeed, these two parameters are
+the underlying basis of investments. Everything an investor does, or is con-
+cerned with, is tied directly or indirectly to risk and return.
+• The term return can be used in different ways. It is important to distinguish
+between realized (ex post, or historical) return and expected (ex ante, or
+anticipated) return.
+• The two components of return are yield and price change (capital gain or loss).
+• The total return is a percentage return concept that can be used to correctly
+measure the return for any security.
+• The return relative, which adds 1.0 to the return, is used when calculating the
+geometric mean of a series of returns.
+• The cumulative wealth index is used to measure cumulative wealth over time
+given some initial starting wealth—typically, $1—and a series of returns.
+• The beginning and ending values of the foreign currency can be used to con-
+vert the return on a foreign investment into a domestic return.
+• The geometric mean measures the compound rate of return over time,
+whereas the arithmetic mean is simply the average return for a series and is
+used to measure the typical performance for a single period.
+• Inflation-adjusted returns can be calculated by dividing (1 + the nominal
+return) by (1 + the inflation rate), where inflation is commonly derived as the
+percent change in the CPI.
+• Risk and expected return should always be considered together. An investor
+cannot reasonably expect to earn larger returns without assuming greater risks.
+• The primary components of risk have traditionally been categorized into
+interest rate, market, inflation, business, financial, and liquidity risks. Inves-
+tors must also consider exchange rate risk and country risk.
+• Historical returns can be described in terms of a frequency distribution and
+their variability as measured by standard deviation or variance.
+Questions 165
+• The standard deviation provides useful information about the distribution
+of returns and aids investors in assessing the possible outcomes of an invest-
+ment.
+• Common stocks over the period 1926–2018 had an annualized geometric
+mean return of 10.0 percent, compared to 5.5 percent for long-term Treasury
+bonds.
+• Over the period 1926–2018, common stock returns had a standard deviation
+of approximately 19.8 percent, about twice that of long-term government
+bonds and about six times that of Treasury bills.

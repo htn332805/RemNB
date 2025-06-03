@@ -1,0 +1,1212 @@
+389CHAPTER 15
+The last step in performing funda-
+mental security analysis is to evalu-
+ate individual companies. From the
+outset of your quest to gain investing
+knowledge, owning individual stocks
+was probably one of your top objec-
+tives. Undoubtedly, you have heard
+stories about individuals who owned
+stocks that doubled, tripled, or did
+even better. And when investors or
+the media discuss tremendous stock
+performance, they commonly attrib-
+ute it to strong earnings reports.
+Finally, it is important to understand
+the nuances of earnings such as earn-
+ings guidance, earnings surprises,
+and earnings disappointments.
+As we learned in Chapter 11, most investors following an active approach are
+stock selectors. Everyone wants to hold stocks that will perform well over time, and
+many investors are searching for the next Apple, Alphabet, or Amazon.
+Once economy/market analysis has indicated projected future economic condi-
+tions and sector/industry analysis has identified the business types that will prosper
+during the projected economic conditions, it is time to apply the final step in a top-
+down security analysis, the evaluation of individual firms. To be successful, investors
+need to have a good understanding of the broad factors that affect security returns,
+but they also need to be adept at evaluating individual firm financials.
+Fundamental Analysis
+Fundamental analysis involves analyzing basic financial variables in order to estimate
+a company’s intrinsic value. These variables include sales, profit margins, deprecia-
+tion, the tax rate, sources of financing, asset utilization, and other factors. Addi-
+tional analysis could involve the firm’s competitive position in its industry, labor
+relations, technological changes, management, foreign competition, and so on.
+• An end result of fundamental analysis is a good understanding of a company’s
+financial variables and its potential, culminating in a calculation of its intrinsic
+value.
+Company Analysis
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain the role of accounting data
+in financial analysis.
+• Use a company’s financial
+statements for security analysis
+purposes.
+• Explain the impact of earnings
+announcements and surprises
+on stock prices.
+• Discuss how price multiples fit into
+security analysis
+390 Chapter 15 Company Analysis
+As discussed in Chapter 10, investors can use a discount model to estimate intrin-
+sic value. Alternatively, they can use a multiplier model, based on a forecast of a
+firm’s particular financial characteristic and an appropriate price multiple. The
+most popular multiplier approach relies on estimated Earnings Per Share (EPS)
+and projected P/E ratio.
+We concentrate on earnings and P/E ratios because this is what investors com-
+monly use and what most investment advisory services generally discuss when ana-
+lyzing stocks.1 Despite the uproar about accounting scandals, EPS is still the major
+variable of interest to investors. Furthermore, the close correlation between earn-
+ings changes and stock-price changes is well documented. As Jeremy Siegel states
+in his book, Stocks for the Long Run, “stock values are based on corporate earnings.” 2
+• Future profitability is the most fundamental factor affecting stock price; there-
+fore, EPS and stock price are closely related.
+The Accounting Aspects of Earnings
+If investors are to focus on a company’s EPS, they should understand the vari-
+ous uses of the word “earnings,” how EPS is determined, and what it represents.
+EPS is the bottom line—the item of major interest—in a company’s financial
+statements. Investors must understand the components of EPS before they can
+attempt to forecast it—and earnings forecasts remain a major building block of
+stock valuation.
+The Financial Statements
+Investors rely heavily on financial statements when performing security analysis. To
+illustrate the use of financial statements in doing company analysis, we examine the
+financial statements for the Coca-Cola Company.
+The balance sheet The balance sheet shows a corporation’s assets, as well as its
+liabilities and owner’s equity, at a point in time. The value at which an item is carried
+on the balance sheet is dictated by accounting conventions. Cash is the actual dollar
+amount, whereas marketable securities could be at cost or market value. Stockhold-
+ers’ equity and fixed assets are reported on a book value basis.
+The balance sheet for Coca-Cola is shown in Exhibit 15.1. The asset side is divided
+into Current Assets, Investments, Property, Plant and Equipment, Goodwill, and Intangible
+Assets. There are a couple of unique aspects of Coca-Cola’s asset structure. First, over
+half of Coca-Cola’s current assets are comprised of cash and short-term investments,
+which represents a significant holding in liquid reserves. Second, the substantial val-
+ues in Goodwill and Intangible Assets reflect the strong brand recognition and product
+differentiation enjoyed by Coca-Cola.
+The right-hand side of the balance sheet is divided between Current Liabilities
+(payable within one year), Long-Term Debt, Deferred Liability Charges, Minority Interest,
+Other Liabilities, and Shareholders’ Equity. Relative to most firms, Coke relies heavily
+Financial Statements The
+principal published finan-
+cial data about a company,
+primarily the balance
+sheet, income statement,
+and statement of cash
+flows
+Balance Sheet A summary
+of a company’s assets,
+liabilities, and owner’s
+equity at a specific point
+in time
+1 Many investors use relative valuation techniques, comparing a company’s P/E, P/B, and/or P/S to
+various benchmarks to assess the company’s relative value. Using these techniques, it is not necessary to
+make a point estimate of intrinsic value. Instead, investors simply try to determine if a stock is reasonably
+valued, overvalued, or undervalued without being too precise about the absolute amount.
+2 See Jeremy Siegel, Stocks for the Long Run, 5th ed. (McGraw-Hill, 2012).
+The Accounting Aspects of Earnings 391
+EXHIBIT 15.1 | The Balance Sheet for Coca-Cola
+(all values in $ millions)
+Period Ending Dec 31, 2018 Dec 31, 2017
+Assets
+Current Assets
+Cash and Short-Term Investments 15,964 20,675
+Net Receivables 3,396 3,667
+Inventory 2,766 2,655
+Other Current Assets 8,508 9,548
+Total Current Assets 30,634 36,545
+Long-Term Investments 20,274 23,281
+Property/Plant/Equipment 8,232 8,203
+Goodwill 10,263 9,401
+Intangible Assets 7,007 7,235
+Other Assets 6,806 3,231
+Total Assets 83,216 87,896
+Liabilities
+Current Liabilities
+Accounts Payable 2,498 2,288
+Accrued Expenses 6,576 6,684
+Notes Payable/Short-Term Debt 13,194 13,205
+Current Port. of LT Debt/Capital Leases 4,997 3,298
+Other Current Liabilities 1,958 1,719
+Total Current Liabilities 29,223 27,194
+Long-Term Debt 25,364 31,182
+Deferred Long-Term Liability Charges 0 0
+Minority Interest 2,077 1,905
+Other Liabilities 9,571 10,543
+Total Liabilities 66,235 70,824
+Stockholders’ Equity
+Preferred Stock 0 0
+Common Stock 1,760 1,760
+Additional Paid-In Capital (Capital Surplus) 16,520 15,864
+Retained Earnings 63,234 60,430
+Treasury Stock (51,719) (50,677)
+Other Shareholder Equity (12,814) (10,305)
+Total Shareholder Equity 16,981 17,072
+Total Liabilities and Shareholder Equity 83,216 87,89
+on short-term debt to finance its operations. For 2018, its short-term debt value is
+similar to the value in long-term debt. The entry in Minority Interest represents the
+portion of Coke’s subsidiary firms that is not owned by Coke.
+In 2018, shareholders’ equity includes a substantial amount of retained earnings,
+$63.2 billion. The retained earnings item does not represent “spendable” funds
+for a company; rather, it designates that part of previous earnings reinvested in the
+firm, instead of being paid out as dividends. Note the large balance in Treasury Stock,
+which represents shares of Coca-Cola stock repurchased and held by the company
+itself. This value reduces stockholders’ equity substantially and is unusually large
+when compared to the value reported by most companies.
+It is important for investors to carefully analyze a company’s balance sheet to
+assess the firm’s financial condition. Investors evaluate a company’s asset and lia-
+bility structure to help determine the company’s long-term prospects. For exam-
+ple, in the latter years of the 1990s, numerous companies used large amounts of
+debt to improve their performance. Following the severe stock market downturn
+in 2000–2002, investors became much more concerned about both the amount of
+debt shown on the balance sheet and the amount of cash available to survive dif-
+ficult periods. These issues again became critical during the financial crisis of 2008.
+The income statement This statement is used to assess firm performance and
+as a guide to the company’s future profitability. The income statement represents
+a company’s financial flows for a particular period. Exhibit 15.2 shows Coca-Cola’s
+income statement for 2017 and 2018.
+A key item for investors on the income statement is after-tax net income (Con-
+solidated Net Income), which, when divided by the number of common shares out-
+standing, produces EPS. Earnings from continuing operations (Net Income from
+Continuing Ops) typically are used to judge the company’s success and are almost
+always the earnings reported in the financial press. Nonrecurring earnings, such
+as extraordinary items that arise from unusual and infrequently occurring transac-
+tions, are separated from income from continuing operations.
+Exhibit 15.2 clearly illustrates the “flow” in an income statement. Starting with
+Total Revenue (net sales), Cost of Goods Sold is deducted to obtain Gross Profit. Subtrac-
+tion of Selling, General, and Administrative Expenses results in Operating Income, which
+for Coca-Cola in 2018 was $9.152 billion. Operating income is then adjusted by add-
+ing/subtracting other income/expenses and subtracting interest expense. For most
+firms, interest expense is a large item because firms like to take advantage of the tax
+deductibility of interest by assuming significant amounts of debt. For Coke, interest
+expense in 2018 is only $950 million, which reflects Coke’s relatively low reliance on
+debt, particularly long-term debt.
+After deducting interest expense from Earnings Before Interest and Taxes (EBIT),
+the result is Earnings Before Tax. Subtracting out income taxes results in Consolidated
+Net Income. After a small adjustment for the income attributable to the minority own-
+ers of Coke’s subsidiaries, we arrive at Net Income from Continuing Operations, which
+is adjusted for extraordinary items to yield Net Income. In this case, Coke has a small
+adjustment for extraordinary items in each year. In 2017, the value increases net
+income, whereas the amount in 2018 is negative.
+Dividing net income by the average shares outstanding produces EPS for 2018
+of $1.58. Dividends paid to shareholders are subtracted from net income and the
+remainder becomes retained earnings. Dividends per share were $1.56; therefore,
+Coke’s dividend payout ratio was 99 percent in 2018.
+Charges to earnings that result from nonrecurring events, discontinued opera-
+tions, extraordinary items, and accounting changes are considered at the bottom of
+Income Statement An
+accounting of a company’s
+income and expenses over
+a specified period of time
+The Accounting Aspects of Earnings 393
+the income statement. Since these charges are considered unusual, they are com-
+monly omitted when investors seek to establish a firm’s “core earnings,” which are
+considered most relevant for forecasting the firm’s future earnings potential. For
+some firms, these unusual charges can be quite large.
+The cash flow statement The third financial statement is the cash flow state-
+ment, which incorporates elements of both the balance sheet and income statement
+as well as other items. It is designed to track the flow of cash through the firm. It
+consists of three parts:
+• Cash from operating activities
+• Cash from investing activities
+• Cash from financing activities
+The cash flow statement helps investors assess the quality of a firm’s earnings.
+For example, if inventories are rising more quickly than sales, this can be a sign
+of trouble—demand may be softening. If a company is cutting back on its capital
+expenditures, this may indicate that firm growth will slow in the future. If accounts
+receivable are rising at a rate greater than sales are increasing, a company may
+be having trouble collecting on its receivables. If accounts payable are rising too
+quickly, a company may be conserving cash by delaying payments to suppliers, a
+potential sign of trouble for the company.
+394 Chapter 15 Company Analysis
+Earnings that are not accompanied by increases in cash flows are referred to as
+accruals. Investors should be wary of companies with high or increasing accruals.
+High-quality earnings will flow through to the statement of cash flows, so investors
+should take note if a firm is reporting strong earnings results but weak cash flows.
+Exhibit 15.3 shows the Statement of Cash Flows for Coca-Cola. In 2018, Coke
+generated a very healthy cash flow from operating activities of $7.63 billion; about
+84 percent of the cash came from net income. During the year, the firm made
+substantial investments to expand its future profitability by investing $1.10 billion
+in fixed assets (capital expenditures). The financing activities segment shows that
+Coke returned a substantial amount of cash to its equity holders by paying $6.64
+billion in dividends and repurchasing $436 million of common stock. Furthermore,
+Coke reduced its debt balance by $3.23 billion during the year. Overall, for 2018,
+Coke increased its cash holdings by about $2.95 billion during the year.
+For 2018, Coca-Cola reduced its debt balance substantially, paid its dividend, and
+financed its capital expenditure with cash from operating activities and by drawing
+down its investment holdings by a large amount ($8.08 billion). In addition, the
+firm was left with a significant addition to its holdings of cash and cash equivalents.
+Because of the flexibility allowed in accounting rules, firms will occasion-
+ally engage in “earnings management” in order to improve reported financial
+Motorola’s financial statements showed that net cash used
+for inventories went from $678 million to $2.3 billion in
+one year, clearly a warning sign that investors should investigate.
+EXAMPLE 15.1
+Kraft Heinz recorded a loss of over $16 billion in 2018
+due to impairment of goodwill and intangibles. The
+write-down in value was linked largely with the acquisition of Kraft, and the
+realization that the firm had overpaid. Kraft Heinz’s stock price dropped 27
+percent on the day the impairment was announced.
+EXAMPLE 15.2
+Some Practical Advice
+Many investors have come to rely on cash flows
+because they cannot be easily manipulated.
+While cash flows are very important, investors
+need to be aware that companies can and do
+manipulate cash flows. WorldCom, in its summer
+2002 announcement that rocked the investment
+community, admitted that it inflated not only
+earnings but cash flows as well for several quar-
+ters. Investors should pay careful attention to
+“cash flows from operations.” For example, did
+the company sell its accounts receivable, which
+will immediately pump up operating cash flows?
+Are some expenses being capitalized, thereby
+creating an asset to be written off gradually
+(this is what WorldCom did)? Are the proceeds
+from securities trading being counted as part of
+operating cash flow? Investors need to look for
+issues such as these if they are to avoid being
+fooled by data in the cash flow statement.3
+EXHIBIT 15.3 | The Statement of Cash Flows for
+Coca-Cola (all values in $ millions)
+Period Ending Dec 31, 2018 Dec 31, 2017
+Consolidated Net Income 6,434 1,248
+Operating Activities
+Depreciation 1,086 1,260
+Adjustments to Net Income 1,309 1,059
+Changes in Accounts Receivables (271) 189
+Changes in Liabilities 990 (618)
+Changes in Inventories (111) 20
+Changes in Other Operating Activities (1,810) 3,883
+Total Cash Flows from Operating Activities 7,627 7,041
+Investing Activities
+Capital Expenditures (1,102) (1,571)
+Investments 8,079 1,448
+Acquisitions 322 12
+Other Cash Flows from Investing Activities (1,372) (2,201)
+Total Cash Flows from Investing Activities 5,927 (2,312)
+Financing Activities
+Dividends Paid (6,644) (6,320)
+Sale (Purchase) of Stock (436) (2,087)
+Net Borrowings (3,229) 1,089
+Other Cash Flows from Financing Activities (38) (129)
+Total Cash Flows from Financing Activities (10,347) (7,447)
+Effect of Exchange Rate Changes (262) 241
+Changes in Cash and Cash Equivalents 2,945 (2,477)
+396 Chapter 15 Company Analysis
+The Financial Accounting Standards Board (FASB) currently formulates account-
+ing and reporting standards in the United States.
+• The auditor’s report does not guarantee the accuracy or the quality of the
+earnings in an absolute sense; rather, it only attests that the statements are a
+fair presentation of the company’s financial position.
+Reading the footnotes Regardless of how closely a company adheres to good
+accounting practices and how carefully the auditors do their job, investors still
+need to examine the “notes to the financial statements,” or footnotes, if they are to
+In certifying Coca-Cola’s financial statements, the
+accounting firm preparing the statements makes a
+statement such as, “In our opinion, the reported financial statements present
+fairly, in all material respects, the consolidated financial position of the Coca-
+Cola Company and subsidiaries.”
+EXAMPLE 15.3
+Investments Intuition
+Does Repetition Lead to Complacency?
+Public firms are required by law to have an
+independent audit each year. A survey found that
+30 percent of the 1,000 leading U.S. companies
+have used the same auditor for the last 25 years
+and 11 percent have used the same audit firm
+every year for 50 years.4 This raises the question of
+whether audit firms can become too complacent
+or intertwined with the company being audited.
+After all, they have a vested interest in maintaining
+an established relationship, and they may look
+less critically at their own work from previous years.
+Some are now calling for public companies to
+rotate their accounting firms every few years.
+Ethics in Investing Accounting for Options
+U.S. companies must deduct the cost of options
+from their earnings. Technology companies argue
+that such treatment hits them particularly hard.
+Some companies seek to lower the costs of
+options expenses. This is possible because the
+cost of options must be estimated, leaving room
+for interpretation.5 One way to lower costs is to
+change the formula used to value options. For
+example, options on stocks with greater volatility
+are worth more. Therefore, if a company lowers
+the volatility estimate, they lower the cost of the
+option. According to one estimate, in 2004 some
+200 companies cut the estimate of volatility by
+an average of 17 percent.
+While such actions are legal, are they really
+ethical? After all, a primary argument for the
+existence of options is that giving employees
+options is conducive to retaining valuable
+employees who will work hard to increase
+firm value
+The Problems with EPS 397
+really understand the company’s financial situation. The footnotes are located after
+the consolidated financial statements and can be found in 10-K and 10-Q Reports.
+They often provide important information about the accounting methods being
+used, any ongoing litigation, how revenue is recognized, information regarding off-
+balance-sheet financing, and so forth.
+• The footnotes can help an investor better understand the quality of the
+reported earnings.
+Checking Your Understanding
+1. Given that a company’s financial statements are certified by its auditors, why
+should investors be concerned about the information contained therein?
+2. Assume a company has completed its financial statements and the income
+statement shows a large loss. Does this mean the company will not have ade-
+quate cash to pay its bills?
+The Problems with EPS
+Reported Earnings
+Earnings derived under GAAP and reported on the income statement are known
+as reported earnings. Although the financial statements are derived on the basis of
+GAAP and are certified in an auditor’s report, problems exist with reported earn-
+ings. The basic problem, simply stated, is that reported EPS for a company (i.e.,
+accounting EPS) is based on a set of complex GAAP principles, which are subject
+to judgment.
+• EPS is not a precise figure that is readily comparable over time, and the EPS
+figures across companies often are not comparable due to differences in the
+accounting principles used to prepare the financial statements.
+Many items in the balance sheet and income statement can be accounted for in
+more than one way. Given the number of items that constitutes the financial state-
+ments, the possible number of acceptable combinations that could be used is large.
+A company could produce several legal and permissible EPS figures, depending
+solely on the accounting principles used. The question that investors must try to
+answer is, “Which EPS best represents the ‘true’ position of a company?”
+Because reported EPS is a function of many accounting choices, it is extremely
+difficult, if not impossible, for the “true” performance of a company to be reflected
+consistently in one figure. Since each company is different, is it reasonable to expect
+one accounting system to capture the true performance of all companies?
+Reported Earnings GAAP
+earnings, the “official”
+earnings of a company as
+reported to stockholders
+and the SEC
+Investments Intuition
+Given the alternative accounting treatments,
+investors must remember that reported EPS is not
+the precise figure that it first appears to be. Unless
+adjustments are made, the EPS of different com-
+panies may not be comparable on either a time
+series or a cross-sectional basis
+398 Chapter 15 Company Analysis
+Accountants are caught in the middle—between investors, who want a clean,
+clear-cut EPS figure, and company management, which wants to present the finan-
+cial statements in the most favorable light. After all, management hires the account-
+ing firm, and, subject to certain guidelines, management can change accounting
+firms. As long as the company follows GAAP, the accounting firm may find it dif-
+ficult to resist management pressure to use particular principles. At some point, an
+accounting firm may resign as a company’s auditor due to the problems and pres-
+sures that can arise.
+The FASB faces conflicting demands when it formulates or changes accounting
+principles because various interest groups want items accounted for in specific ways.
+The end result is that the “standards” issued by the FASB are often compromises
+that do not fully resolve the particular issue; in some cases, they create additional
+complications.
+Should the FASB falter in its job, or investors demand “tighter” accounting rules,
+as they did in 2002 in the face of several company accounting scandals, the govern-
+ment can intervene and issue its own rulings. The Securities and Exchange Com-
+mission (SEC) has the authority to do so because corporations must file detailed
+financial data with it. The SEC has issued some definitions of acceptable accounting
+practices over the years, thereby acting as a prod to the accounting groups to con-
+tinue their progress.
+The Sarbanes Oxley Act (SOX) passed by Congress in 2002 was largely in
+response to the accounting scandals involving Enron, WorldCom, Global Cross-
+ing, and other companies that blew up financially in spectacular fashion. SOX
+represented a very significant change in federal securities laws and demon-
+strates that such changes do occur from time to time. Concisely stated, this act
+mandated that companies must submit an annual report to the SEC outlining
+the effectiveness of their internal accounting controls and provide increased
+financial disclosures. Substantial civil and criminal penalties can be imposed for
+noncompliance.
+Has the Situation Improved?
+With the passage of SOX, one might logically assume that the accounting situation
+has improved. And indeed, companies are spending much more on accounting
+compliance as a result of SOX.
+In general, changes in regulatory oversight have had a significant impact in
+improving the corporate situation. CEOs no longer handpick the Board of Direc-
+tors for the company. Boards have real power, and directors have significant respon-
+sibilities. Many boards have a majority of independent directors and have separate
+committees for important functions such as audit and compensation. Although
+more remains to be done, the corporate governance situation is better today than
+it was in the past.
+FAS 133, which is concerned with financial derivatives
+and hedging, was issued in June 1998. The standard and
+its supporting documents now total more than 800 pages. There have been
+over 200 restatements related to derivatives accounting.
+The Problems with EPS 399
+Financial reports today, however, remain difficult to understand. Estimates by
+companies are rampant, and the assumptions and rationales behind these estimates
+may be difficult to uncover.
+The quality of earnings Some EPS figures are said to be “better” than others in the
+sense that they have been derived using more conservative principles. In other words,
+they are of higher quality. Smart investors recognize that earnings numbers are often
+the result of subjective judgments, compromises, and changes in accounting practices.
+Quality assessments are typically difficult to make and require considerable
+expertise in accounting and financial analysis. When it is difficult to assess the qual-
+ity of a company’s earnings, one alternative is to look at the first item on the income
+statement, which is sales, or revenues. Is revenue growth slowing or increasing?
+Unless (legitimate) revenues are growing over time, earnings will suffer, and the
+quality may be suspect. Because of the importance of earnings quality, more and
+more information sources are focusing on it.
+One of the primary reasons that earnings quality has been called into doubt in
+recent years is the proliferation of various EPS numbers. We examine this issue next.
+What about adjusted earnings? As if the problems with reported earnings are
+not bad enough, companies may use another measure of EPS, with varying levels of
+subjectivity. Let’s examine the differences in alternative earnings measures.6
+• Net income is also called reported earnings or GAAP earnings. It is the “official”
+audited number on the income statement derived under GAAP and filed with
+the SEC. It is earnings from continuing operations before extraordinary items.
+• Adjusted earnings (also referred to as “pro forma earnings,” “operating earn-
+ings,” “core earnings,” or “street earnings”) takes net income and adjusts it
+by leaving out nonrecurring or unusual items (sometimes called special
+items). Examples include restructuring charges and gains on the sale of assets.
+Adjusted earnings is not an audited measure, and there are no rules on how
+to calculate it, leaving companies free to do as they choose.
+Adjusted Earnings Net
+income adjusted for non-
+recurring or unusual items
+For a take on earnings quality, consider J.P. Morgan’s 2011
+third-quarter earnings report. The company raised its
+quarterly earnings by almost $2 billion by using a debit valuation adjustment,
+allowed under accounting rules. Essentially, the market value of J.P. Morgan’s
+debt declined, which allowed the company to report this “gain” as a profit.
+Some investors view such gains as poor earnings quality, and Moody’s Investors
+Services removes it when evaluating a bank’s earnings.
+EXAMPLE 15.5
+In late 2018, Tesla reported adjusted EPS of $1.93
+versus analysts’ average estimates of $2.20, thus it missed
+earnings. EPS on an unadjusted basis, however, was substantially lower at only
+$0.78. The stock price reaction to the earnings miss was minimal because the
+firm gave positive forward guidance and revenues beat analysts’ estimates.
+Using the Financial Statements to Analyze FCF, ROE, and EPS 401
+• Obtain other opinions, found in sources such as The Value Line Investment Sur-
+vey, which has its own independent analysts.
+• Study the cash flow statement. Firms need cash to operate, and it is more
+difficult to disguise problems where cash is concerned. Investors should cal-
+culate free cash flow (FCF), defined as the money left after all bills are paid.11
+Fast-growing companies may have negative FCF for several years and still be
+okay, but mature companies with negative FCF are frequently experiencing
+financial problems.
+Investors who find U.S. accounting comparisons difficult often have additional prob-
+lems when analyzing foreign companies due to their different accounting practices.
+The United States is generally considered to have the strictest standards, which are
+based on a set of detailed rules. Foreign companies listed on U.S. securities exchanges
+are allowed to file U.S. financial statements using the international standards.
+The International Accounting Standards Board formulated International Finan-
+cial Reporting Standards (IFRS) that are now used by most companies worldwide.
+GAAP is based on a set of detailed rules, while IFRS seeks to apply guiding principles
+of accounting, allowing more flexibility and judgment.
+In August 2008, the SEC proposed a plan whereby all U.S. companies would switch
+to IFRS by 2014, essentially replacing U.S. GAAP. However, IFRS and U.S. GAAP con-
+tinue as the two predominant, yet separate, financial reporting frameworks. There is
+continuing advancement of IFRS globally, and many believe IFRS will continue to be
+more fully incorporated into the U.S. financial reporting system over time.
+Checking Your Understanding
+3. Sarbanes Oxley ended most of the fraudulent accounting practices recently
+publicized and ensures that investors can fully understand the financial state-
+ments and their implications. Agree or disagree, and explain your reasoning.
+4. In reporting their results, companies may choose to emphasize adjusted earn-
+ings. Why would they do this?
+Using the Financial Statements to Analyze
+FCF, ROE, and EPS
+We can use a company’s financial statements to analyze its FCF, return on equity
+(ROE) and EPS, as illustrated below. In evaluating these alternative measures, we
+rely on the three most prominent financial statements, along with performing
+standard ratio analysis and the DuPont analysis. It is important to note that different
+definitions of EPS are available, such as basic and diluted EPS, with each form offer-
+ing two versions, including or excluding extraordinary items. This analysis focuses
+on basic EPS excluding extraordinary items.
+Analyzing Free Cash Flow (FCF)
+FCF is a crucial input in firm valuation because it represents the cash flows
+that are free for use in making payments to the firm’s security holders and for
+11 Free cash flow is discussed in more detail in Chapter 10.
+making investments. FCF comes in two basic forms, free cash flow to the firm
+(FCFF) and free cash flow to equity (FCFE). By relying on the statement of cash
+flows, the formula used to derive each of these measures can be condensed from
+what was presented in Chapter 10. FCFF represents the cash flows available to
+all the firm’s security holders, whereas FCFE represents cash flows to the firm’s
+equity holders.
+The two FCF measures are derived by combining three values as follows:
+FCFF CFO fixed capital investment interest
+FCFE f
+( )1 t
+CFO iixed capital investment net borrowings
+where
+CFO cash flow from operating activities
+Fixed capital investtment investment in fixed assets capital expenditures
+pl
+(
+uus acquisitions
+Interest after tax interest expense
+)
+( )1 t ,,derived as interest expense multiplied
+by minus the fi1 rrm’s tax rate
+Net borrowings the value of short- and long-tterm borrowing by the firm
+Analyzing Return on Assets (ROA)
+ROA is an important measure of a company’s profitability. It is a product of two
+factors.
+Net profit (income) margin net income
+sales
+Asset turnover saales
+total assets
+The first ratio affecting ROA, the net profit margin, measures the company’s
+earning power on its sales (revenues). How much return is realized from sales, given
+all costs? Obviously, the more a company earns per dollar of sales, the better.
+Asset turnover is a measure of efficiency. Given some amount of total assets, how
+much in sales is generated? The more sales per dollar of assets, the better. A com-
+pany may have some assets that are unproductive, thereby adversely affecting its
+efficiency.
+making investments. FCF comes in two basic forms, free cash flow to the firm
+(FCFF) and free cash flow to equity (FCFE). By relying on the statement of cash
+flows, the formula used to derive each of these measures can be condensed from
+what was presented in Chapter 10. FCFF represents the cash flows available to
+all the firm’s security holders, whereas FCFE represents cash flows to the firm’s
+equity holders.
+The two FCF measures are derived by combining three values as follows:
+FCFF CFO fixed capital investment interest
+FCFE f
+( )1 t
+CFO iixed capital investment net borrowings
+where
+CFO cash flow from operating activities
+Fixed capital investtment investment in fixed assets capital expenditures
+pl
+(
+uus acquisitions
+Interest after tax interest expense
+)
+( )1 t ,,derived as interest expense multiplied
+by minus the fi1 rrm’s tax rate
+Net borrowings the value of short- and long-tterm borrowing by the firm
+Analyzing Return on Assets (ROA)
+ROA is an important measure of a company’s profitability. It is a product of two
+factors.
+Net profit (income) margin net income
+sales
+Asset turnover saales
+total assets
+The first ratio affecting ROA, the net profit margin, measures the company’s
+earning power on its sales (revenues). How much return is realized from sales, given
+all costs? Obviously, the more a company earns per dollar of sales, the better.
+Asset turnover is a measure of efficiency. Given some amount of total assets, how
+much in sales is generated? The more sales per dollar of assets, the better. A com-
+pany may have some assets that are unproductive, thereby adversely affecting its
+efficiency.
+Using data from Exhibits 15.2 and 15.3, the FCFF and FCFE
+for Coca-Cola for 2018 are as follows (all $ values in billions):
+FCFF $
+FCFE
+0.950 7.5607 627 1 102 0 322 1 0 25
+7 627
+. ( . . ) ( . )
+. (11 102 0 322 3 229 3 618. . ) . .$
+FCFF is frequently greater than FCFE; however, in this case the difference is more pro-
+nounced than usual because Coca-Cola significantly reduced its debt balance during
+2018. Typically, a growing firm increases its borrowing level over time
+Using the Financial Statements to Analyze FCF, ROE, and EPS 403
+ROA can be expressed as the product of these two components12
+:
+ROA net income
+sales
+sales
+total assets
+ROA net profit margin asset turnover
+(15-1)
+Return on assets (ROA) is a fundamental measure of company profitability,
+reflecting how effectively and efficiently a firm is using its assets. Obviously, the
+higher the net income for a given amount of assets, the better the return. Coca-
+Cola’s ROA is 7.73 percent. The ROA can be improved by increasing net profit
+margin or by using assets more efficiently.
+One component of ROA may be able to offset poor performance in the other.
+A low net profit margin can be offset if the company can generate more sales per
+dollar of assets than comparable companies. Conversely, poor turnover can be over-
+come by high profitability. We now focus on the return to shareholders by examin-
+ing the ROE.
+Analyzing Return on Equity (ROE)
+An important variable in security analysis is return on equity (ROE) because it
+is a key component in determining earnings and dividend growth. Analysts and
+investors decompose ROE into its critical components in order to identify adverse
+impacts on ROE and to help predict future trends in ROE.
+To understand and calculate ROE, the effects of leverage must be considered.
+The leverage ratio measures how the firm finances its assets. Basically, firms can
+finance with either debt or equity. Debt, though a cheaper source of financing,
+is riskier because of the fixed interest payments that must be paid to avoid bank-
+ruptcy. Leverage can magnify the returns to stockholders or diminish them. Thus,
+any given ROA can be magnified into a higher ROE by the judicious use of debt
+financing. Of course, the converse also applies.
+• For a typical profitable company that uses debt, ROE will be larger than
+ROA.
+Return on Assets (ROA)
+The accounting rate of
+return on a firm’s assets
+Return on Equity
+(ROE) The accounting
+rate of return on stock-
+holders’ equity
+Using the data for Coca-Cola from Exhibits 15.1 and 15.2
+Coca-Cola’s ROA can be derived as follows (all $ values
+in billions):
+Net income/sales $ /$
+Sales/total assets $
+34.300 0.18766 434.
+334.300 0.4122/$83 216.
+ROA or0.1876 0.4122 0 0773 7 73. . %
+404 Chapter 15 Company Analysis
+To more easily capture the effects of leverage, we use an equity multiplier rather
+than a debt percentage. The equity multiplier reflects the amount of assets financed
+per dollar of stockholders’ equity. For example, a ratio of two would indicate that
+the firm finances $2 in assets with $1 in stockholders’ equity:
+Equity multiplier total assets
+stockholders’ equity
+To calculate ROE, we combine ROA and leverage as shown in Equation 15-2:
+ROE ROA equity multiplier (15-2)
+For Coca-Cola, its use of leverage nearly quintupled its ROA to produce an ROE
+of approximately 37.88 percent.
+The Accounting Determinants of EPS
+EPS is the culmination of several important functions going on within a company.
+By analyzing key financial ratios, analysts can determine whether a company’s prof-
+itability is increasing or decreasing, and why. This analysis will assist the analyst in
+projecting the firm’s future profitability.
+The following accounting identity establishes the relationship between EPS
+and ROE:
+EPS ROE book value per share (15-3)
+where book value per share is the accounting value of stockholder equity.
+In 2018, Coca-Cola’s equity multiplier was 4.90, calculated
+as total assets divided by stockholder equity. The equity
+multiplier indicates the level of financial leverage a firm employs. In effect,
+Coke uses $1 of equity to finance $4.90 of assets.
+EXAMPLE 15.10
+Combining these two factors, ROA and leverage, for
+Coca-Cola produces the following:
+ROE 4.90 37.88%7 73. %
+EXAMPLE 15.11
+Investments Intuition
+What this analysis does not show is the impact
+of leverage on a company’s risk. We are exam-
+ining only the determinants of EPS. However,
+as we know from our discussion of valuation,
+two factors, EPS and P/E ratio, are required to
+determine value. An increase in leverage may
+increase the riskiness of the company more
+than enough to offset the increased EPS, thereby
+lowering the company’s value. Investors must
+consider both dimensions of the value of a stock,
+the return side and the risk side
+Using the Financial Statements to Analyze FCF, ROE, and EPS 405
+Estimating the Sustainable Growth Rate
+An important part of company analysis is the determination of a sustainable growth
+rate in earnings and dividends. This rate represents the rate at which a company can
+grow from internal sources, without the issuance of additional securities. It provides
+a benchmark for assessing a company’s actual or target growth rate. A company
+growing faster than the sustainable growth rate will have to issue additional securi-
+ties, which could dilute the existing equity (in the case of stock issues) or increase
+the financial risk (in the case of debt issues).
+The sustainable growth rate, typically designated as g, is the product of the reten-
+tion rate (b)—which is calculated as 1.0 minus the dividend payout ratio—and
+ROE, as shown in Equation 15-4:
+g b ROE payout ratio ROE( )1 (15-4)
+Equation 15-4 is a primary calculation in fundamental security analysis and is
+often used by security analysts.
+A problem with estimating the sustainable growth rate is that the data used may
+not come from a “normal” year. Basing a projection on one year’s results can result in
+a faulty estimate; this is particularly true for companies in cyclical industries. There-
+fore, average data are probably more appropriate for performing the calculations. 13
+The internal growth rate estimated by Equation 15-4 is reliable only if a com-
+pany’s profitability, as measured by ROE, remains in balance. If the ROE grows or
+declines significantly in the future, the firm’s actual growth rate will be quite differ-
+ent than the growth rate estimated by Equation 15-4.
+What matters is the future expected growth rate, not the actual historical growth rate.
+If investors expect a different growth rate in the future, they should use the
+expected growth rate not the calculation based on current data. Payout ratios for
+most companies vary over time, but reasonable estimates can often be obtained by
+using an average of recent years. Estimating future ROE is more challenging.
+Sustainable Growth
+Rate A firm’s expected
+growth rate in earnings
+and dividends, often
+calculated as the product
+of ROE and the retention
+rate of earnings
+Concepts in Action
+Estimating Growth Rates
+Many investors get carried away when esti-
+mating the expected growth rate in EPS for com-
+panies they find attractive. The natural tendency
+is to rely on historical growth rates because that
+is the only objective evidence available. An
+immediate problem is deciding what period of
+time is relevant in forecasting the future, par-
+ticularly when significant differences exist. For
+example, if a company had a 15 percent annual
+growth rate in EPS for the last 10 years, but a
+25 percent annual growth rate for the last five
+years, which (if either) is more likely to be indica-
+tive of the future?
+When we think about it logically, there must
+be limits to how fast a company can continue to
+grow, whether in price or EPS. Clearly, some can
+grow extremely fast for a few years. But an anal-
+ysis of companies shows that the outer limit for
+truly long-term growth is about 20 percent. And
+most companies do not achieve this growth rate
+over long periods of time
+406 Chapter 15 Company Analysis
+Checking Your Understanding
+5. Assume that a company uses no debt to finance its operations. What is the
+relationship between its ROA and its ROE?
+6. Assume that a company’s EPS is $3.00 and that it pays $1.00 in dividends. Its
+ROE is 18 percent. Calculate an estimate of the firm’s internal growth rate.
+Earnings Estimates
+Stock valuation is forward looking. The EPS that investors use to value stocks is the
+future (expected) EPS. In doing fundamental security analysis with EPS, an investor
+needs to (1) know how to obtain an earnings estimate, (2) consider the accuracy of
+the earnings estimate obtained, and (3) understand the role of earnings surprises
+in impacting stock prices. We consider each of these topics in turn.
+A Forecast of EPS
+Security analysts’ estimates of earnings Among the most obvious sources of
+earnings estimates are security analysts, who forecast earnings as part of their job. The
+consensus forecast is generally superior to the forecasts of individual analysts. Thus,
+security analysts’ consensus estimates are a practical and useful proxy for the market’s
+expectations about EPS. The consensus reflects the average EPS estimate. The number
+of analysts covering a particular company can vary widely, from 1 to 50, whereas some
+smaller firms are not followed by any analysts. Services that provide earnings forecasts
+to institutional clients include I/B/E/S, First Call, and Zacks Investment Research.
+Earnings estimates are available to individual investors from sources such as Value
+Line and Yahoo! Finance.15 Examples include the following:
+• The Value Line Investment Survey forecasts quarterly earnings for several quar-
+ters ahead for each company covered.
+Consider this—Cisco, one of the great growth
+stocks of modern times, grew almost 100 per-
+cent a year for a 10-year period through March
+2000.14 Fantastic growth, and it produced great
+performance for Cisco’s stockholders. However,
+had Cisco grown at that rate for the subsequent
+10 years, it would have had a total market value
+of $520 trillion in 2010. This would have exceeded
+the combined value of every stock in the world.
+Simply put, very rapid growth cannot last indef-
+initely. It is not possible for a wide variety of rea-
+sons including competition, regulation, changes
+in technology, poor management decisions, and
+merely because rapid growth is more difficult to
+accomplish on a large base value.
+Take a well-known and highly successful
+company like 3M. In the 15 years from the end
+of 1998 through 2013, its stock price appreci-
+ated by almost 300 percent. In contrast, over the
+subsequent five years, the price appreciated
+by only 36 percent. As great a stock as 3M has
+been—and it has been a magnificent blue-chip
+company—it has succumbed to the same dimin-
+ished-growth fate as other successful firms.
+Earnings Estimates 407
+• Yahoo! Finance provides analyst estimates for a company under the section
+titled “Analyst Coverage.” The average, low, and high estimates are shown,
+along with the number of analysts making estimates. Current and next quarter
+estimates are provided, along with current and next year.
+Several studies suggest that individual analysts are indistinguishable in their abil-
+ity to predict EPS. The practical implication of these findings is that, in general,
+investors should pay more attention to the consensus forecast or the average of
+several forecasts of EPS unless they have good reason to rely on a particular analyst
+(such as proven performance for a particular company).
+The Accuracy of Earnings Forecasts
+Even if investors accept the relative superiority of analysts’ estimates, the fact
+remains that analysts often over- or underestimate the earnings that are actually
+realized. According to one study of almost 400 companies, analysts’ estimates aver-
+aged 57 percent too high in the first month of a fiscal year, and the error was still an
+average 12 percent by year’s end.
+A study by Dreman and Berry covered approximately 500,000 brokerage ana-
+lysts’ forecasts for an 18-year period. Analysts were given every advantage in the
+study—for example, forecasts could be made in the same quarter as earnings were
+reported, and the forecasts could be changed up to two weeks before the end of the
+quarter. Nevertheless, the average annual error was 44 percent, and only 25 percent
+of consensus estimates came within plus or minus 5 percent of reported earnings.
+Furthermore, the error rate actually worsened over time.
+Inaccurate earnings estimates can provide opportunities for investors. Analysts
+are frequently wrong, and if investors can make better estimates of earnings for
+particular companies, they can expect to profit from their astuteness.
+Earnings Surprises
+Studies establish that changes in earnings and stock prices are highly correlated.
+However, the association between earnings and stock prices is more complicated
+than simply demonstrating a correlation between earnings growth and stock-price
+changes. Malkiel and Cragg concluded years ago that in making accurate one-year
+predictions, “It is far more important to know what the market will think the growth
+rate of earnings will be next year rather than to know the (actual) realized long-
+term growth rate.”16 As Latane and Jones note the important point about EPS in
+terms of stock prices is the difference between what the market (i.e., investors in
+general) was expecting the EPS to be and what the company actually reported.17
+A favorable earnings surprise, in which the actual earnings exceed the market’s
+expectation, brings about an upward adjustment to the price of the stock as inves-
+tors revise their probability beliefs about the company’s earnings. Conversely, an
+unfavorable earnings surprise leads to a downward adjustment in price; in effect,
+the market has been disappointed in its expectations.
+In conclusion, stock prices are affected not only by the level of, and growth
+in, earnings but also by the market’s expectations of earnings. Investors should be
+Consensus Forecast Most
+likely EPS value expected
+by analysts
+Earnings Surprises The
+difference between a
+firm’s actual earnings and
+its expected earnings
+16 Burton Malkiel and John Cragg, Expectations and the Structure of Share Prices, National Bureau of Eco-
+nomic Research Monograph, 1982, 616.
+17 Henry Latane and Charles Jones, “Standardized Unexpected Earnings—A Progress Report,” Journal of
+Finance, 32 (December 1977): 1457–1465.
+408 Chapter 15 Company Analysis
+concerned with both earnings forecasts and the difference between the actual earn-
+ings and the forecast—that is, the surprise. Therefore, fundamental analysis of earn-
+ings should include more than a forecast; it should involve the role of the market’s
+earnings expectations.
+What happens when earnings are reported and the figures are below analysts’
+estimates? Obviously, the price generally drops and in some cases sharply. The stock
+market tends to be unforgiving about negative earnings surprises.
+If the stock price drops sharply following such an announcement, should an
+investor interested in owning the stock take the opportunity to purchase? Some
+studies suggest no. The initial drop is often followed by additional price declines.
+Earnings Guidance
+Many companies have developed the practice of providing “guidance” on their
+forthcoming quarterly earnings announcements. Such guidance often comes to be
+expected by the market.
+A trend has started whereby an increasing number of companies are discontin-
+uing the process of providing earnings guidance. Warren Buffet, among others,
+supports this development as he has argued that companies should not provide
+guidance. In December 2002, Coca-Cola announced that it would no longer pro-
+vide quarterly or annual EPS guidance. The company stated that it would “continue
+to provide investors with perspectives on its value drivers, its strategic initiatives
+and those factors critical to understanding [Coca-Cola’s] business and operating
+environment.”
+Yelp Inc. announced adjusted EPS that beat analyst
+expectations by about 10 percent, yet its stock price
+dropped by nearly 27 percent on the announcement day. Why? Yelp’s reported
+revenues missed estimates by nearly 2 percent, and more importantly, its
+guidance for future revenues was reduced by over 1 percent.
+EXAMPLE 15.12
+Some Practical Advice
+Earnings Surprises Don’t Always Tell
+the Entire Story
+As noted, investors react to company quarterly
+earnings reports; however, they also react to the
+revenue number as well. Thus, EPS could meet
+or beat analysts’ expectations, but if revenues
+fall short of expectations, the stock price may
+decline.
+In late 2011, Green Mountain Coffee Roasters announced
+that its revenues increased 91 percent. The stock dropped
+almost 40 percent immediately. Why? The market’s expectation was for
+revenues to increase approximately 100 percent, and the market had come to
+believe that Green Mountain would always deliver on its expectations.
+Earnings Estimates 409
+The Earnings Game
+Investors need to realize that the process of estimating earnings, announcing earn-
+ings, and determining earnings surprises has become much more of a game, or
+managed process, over time. The way the “game” is played by many companies and
+analysts is as follows:
+1. Analysts attempt to estimate what a particular company will earn each quarter.
+2. A company may provide “guidance” as to what it thinks earnings will be. Com-
+panies may subsequently revise their guidance numbers lower in a series of
+steps, and the analysts follow by lowering their estimates.
+3. This “talking the forecast down” results in the consensus forecast being
+slightly below the actual expected number. The company now is likely to beat
+the forecast, which provides a positive earnings surprise.
+4. In the past, a positive earnings surprise typically led to stock price increase.
+Now, however, positive earnings surprises have become commonplace. In
+most quarters, the vast majority of companies show positive earnings surprises,
+which means there is less impact from an earnings surprise than in the past.
+5. Investors sometimes have to contend with “whisper forecasts,” which are unof-
+ficial earnings estimates that circulate among professional investors before
+earnings are announced. Think of these whisper numbers as the analysts’ true
+expectation as opposed to the published consensus number. Some studies sug-
+gest that these estimates are more accurate than the consensus estimates.
+Obviously, investors must try to understand the earnings game and its likely
+impact on stock prices. It has become more complicated as investors try to figure
+out which forecast the actual earnings are expected to beat and which companies
+are reporting true earnings surprises as opposed to managed earnings surprises.
+Regulation FD, which became effective in October 2000, requires companies
+to make public disclosure of important information to all investors at the same
+time. Numerous companies are now releasing corporate information to all investors
+simultaneously through Internet broadcasts.
+Useful Information for Investors About Earnings
+Estimates
+Summarizing our discussion about earnings forecasts, we can note the following
+useful information about the role, and use, of earnings forecasts in selecting com-
+mon stocks:
+1. Reported earnings are a key factor affecting stock prices; however, it is the
+surprise element in the reports that often moves stock prices. Surprises typi-
+cally involve the difference between the consensus analyst forecast and the
+actual earnings.
+2. There appears to be a lag in the adjustment of stock prices to earnings sur-
+prises. This has been documented in numerous studies.
+3. Surprises may occur because analyst estimates are off target. Alternatively,
+companies may guide analysts to a slightly lower number than actually
+expected, resulting in an earnings “surprise.”
+4. Positive earnings surprises have outnumbered negative earnings surprises by
+a ratio of three to one. Positive surprises are often attributed to the “earnings
+guidance game.”
+410 Chapter 15 Company Analysis
+5. The size of the surprise is important information, with large surprises leading
+to larger returns.
+6. The best guideline to surprises may be revisions in analyst estimates. If esti-
+mates are steadily being adjusted upward, a buy signal is indicated, and if the
+adjustments are downward, a sell signal is indicated.
+7. Investors interested in buying stocks that report bad news and suffer a sharp
+decline may benefit by waiting a month or two. Chances are the stock will get
+even cheaper after the initial sharp decline.
+8. When estimating stock-price movements, investors must consider reported
+earnings, earnings surprises, earnings forecasts, and other information con-
+tained in the earnings announcement.
+Alternatives to Earnings
+Given the accounting problems with earnings and the difficulty in forecasting earn-
+ings, it is not surprising that investors look at other fundamental data when select-
+ing stocks. This is particularly true with newer companies that may not have positive
+EPS, or the expectation thereof for several years. Tesla is a clear example of this—
+given its limited profitability, investors must evaluate other dimensions.
+A key variable is obviously revenues, or sales. After all, a company cannot have
+earnings without reasonable revenues. Revenues not only lead to EPS for a company
+but also make possible cash flows, which it uses to pay its bills and operate.
+The Multiplier
+The other half of the valuation framework is the appropriate price multiple. In effect,
+the price multiple is a measure of the relative price of a stock. For example, investors
+may be willing to pay 40 or 50 times earnings for some companies but only six or seven
+times earnings for other companies. Why such a large difference? We will consider
+this question below after we clarify the various multiples an investor may encounter.
+The P/E Ratio
+When discussing the P/E ratio, it is important to remember that different P/E ratios
+can be calculated for the same stock at a point in time, including:
+• P/E based on last year’s reported earnings
+• P/E based on trailing 12-month (TTM) earnings
+• P/E based on this year’s expected earnings
+• P/E based on next year’s expected earnings
+Furthermore, the EPS could be reported as GAAP EPS, operating (adjusted)
+EPS, or core EPS being reported by Standard & Poor’s Corporation. Assuming we
+limit ourselves to GAAP EPS, the differences in P/E ratios that investors encounter
+can still be substantial.
+Facebook reported record second-quarter earnings of
+$1.74 up from $1.32 the prior year, yet the stock price
+dropped by 19 percent. Why? The announced earnings were less than Wall
+Street expectations.
+The Multiplier 411
+Determinants of the P/E Ratio
+The justifiable P/E ratio equation indicates that the appropriate P/E ratio is a func-
+tion of three factors:
+P
+E
+D E
+k g
+1 1/ (15-5)
+Investors attempting to determine an appropriate P/E ratio for a stock should
+think in terms of these three factors and their likely changes:
+• The higher the expected dividend payout ratio (D1
+/E1
+), other things being
+equal, the higher the P/E ratio. However, “other things” are seldom equal. If
+the payout rises, the expected growth rate in earnings and dividends, g, will
+decline, thereby adversely affecting the P/E ratio. This decline occurs because
+fewer funds are available for reinvestment in the business, thereby leading to
+a decline in the expected growth rate, g.
+• There is an inverse relationship between k (required return) and the P/E
+ratio. Other things being equal, as k rises, the P/E ratio declines; as k declines,
+the P/E ratio rises. The required return is a discount rate; thus, P/E ratios and
+required returns move inversely to each other.
+• P/E and g (growth) are directly related; the higher the g, other things being
+equal, the higher the P/E ratio.18
+Determinants of the P/B Ratio
+The justifiable price-to-book (P/B) ratio equation indicates that the appropriate
+P/B ratio is a function of three factors:
+P
+B
+ROE g
+k g (15-6)
+where the terms in the equation are as previously defined.
+Investors attempting to determine an appropriate P/B ratio for a stock should
+consider the three factors included in the formula. The denominator in Equa-
+tion 15-6 is identical to the denominator in Equation 15-5, and thus, the relation-
+ships are consistent; justifiable P/B has an inverse relation with required return (k)
+and a positive relation with growth (g).
+The justifiable P/B equation identifies the crucial consideration for P/B as
+the relation between ROE and k. A firm that is generating returns higher than its
+required return (ROE > k) will have a justifiable P/B that is greater than 1.0. Such a
+firm is creating positive value for its equity holders.
+In 2019, Pfizer was trading at $38.
+• Based on TTM (trailing 12-month) earnings, its P/E was 21.2.
+• Based on expected earnings for 2019, its P/E was 13.3.
+412 Chapter 15 Company Analysis
+Determinants of the P/S Ratio
+The justifiable price-to-sales (P/S) ratio equation indicates that the appropriate P/S
+ratio is a function of four values:
+P
+S
+E S D E g
+k g
+0 0 0 0 1/ / (15-7)
+where
+E S0 0/ earnings divided by sales which is the firm’s net pr, oofit margin
+/ the firm’s current dividend payout ratioD E0 0
+The other terms in Equation 15-7 are as defined in Equation 15-5.
+Investors attempting to determine a stock’s appropriate P/S should consider the
+measures included in Equation 15-7. The equation indicates that a company’s net
+profit margin plays a crucial role in determining the stock’s appropriate P/S. All
+else the same, firms with relatively high profit margins will have relatively high P/S.
+As with Equations 15-5 and 15-6, the denominator of Equation 15-7 is “k–g,” and
+thus, these two variables maintain the same relation with P/S as they had with P/E
+and P/B.
+Why Price Multiples Vary Among Companies
+Stock prices reflect market expectations about a firm’s prospects. Companies that
+the market believes will achieve high sales and earnings growth will tend to be
+priced with higher multiples than companies with low expected growth rates. When
+problems arise, however, price multiples can change quickly. Consider this quote
+from The Wall Street Journal: “High-growth companies are complex machines. At the
+first sign of problems, investors begin prodding areas they had never looked into.”19
+• A primary factor in explaining price multiple differences among companies is
+investor expectations about future growth prospects for the firms.
+It is important to remember the role of interest rates, which are inversely related
+to price multiples. When interest rates are declining, the largest impact is on the
+multiples of growth stocks. This is because most of their earnings will occur far in
+the future and will now be discounted at lower rates.
+• The spread between the lowest multiples and the highest multiples for a set
+of companies is typically large. Of course, the multiples for a company change
+over time.
+Research shows a link exists between P/E ratios and long-term earnings growth.
+The results demonstrate that the highest P/E portfolio (portfolio containing the
+highest P/E firms) had larger earnings growth than the lowest P/E portfolio over
+the subsequent 10 years. However, additional analysis showed that the realized
+growth rate of the highest P/E portfolio fell short of investor expectations, which
+resulted in the stocks in the highest P/E portfolio underperforming.20
+19 John Jannarone, “Green Mountain’s Landslide,” The Wall Street Journal (November 11, 2011): C10.
+20 See Wan-Ting Wu, “The Forward E/P Ratio and Earnings Growth,” 2014, Advances in Accounting, 30:
+128–142.
+The Multiplier 413
+The PEG Ratio
+Some investors divide the P/E ratio by the earnings growth rate (specified in per-
+cent) to obtain the PEG ratio:
+PEG ratio /( )P E
+g (15-8)
+• The advantage of the PEG ratio is that it relates the P/E ratio to earnings
+growth rather than relying on the P/E ratio by itself.
+According to Peter Lynch, a former, highly successful manager of the Magel-
+lan Fund, a fairly valued company’s P/E ratio will equal its expected growth rate.
+Therefore, an indication of undervaluation could be a stock with a P/E less than its
+earnings growth rate. Like most calculations of this type, the PEG ratio is only a rule
+of thumb. There are no assurances that one is paying too much or too little.
+The PEG ratio is often used as an analysis metric by investors following a growth
+at a reasonable price (GARP) investment philosophy. Investors following a GARP
+approach do not mind paying a high multiple for a firm if the firm has strong
+growth prospects.
+One problem with the PEG ratio is that it relates a ratio to a percentage num-
+ber. Another is that different earnings growth rates can be used to calculate it. For
+example, Standard & Poor’s Outlook uses a three-year compound annual growth
+rate, whereas others use recent earnings growth rates or estimated earnings growth.
+PEG Ratio The P/E ratio
+divided by the earnings
+growth rate
+Some Practical Advice
+Stocks with High P/E Ratios Carry
+Substantial Risk
+Investors like to see growth in earnings, and
+high-flying growth stocks often have very high
+P/E ratios. The average P/E on the S&P 500 stocks
+for a very long period has been about 16. In late
+2018, Amazon had a P/E of 87, which is obviously
+extremely high. In the third quarter of 2018, Amazon
+missed its revenue estimate and its price dropped
+8 percent in one day. With a P/E of 87, expecta-
+tions about earnings are very high, and investors
+want results now. As a company’s P/E ratio rises, the
+downside risk grows. Therefore, remember that the
+higher a stock’s valuation, the greater the expec-
+tations about earnings, and the larger the risk of
+disappointments and price declines.
+Some Practical Advice
+Growth at a Reasonable Price (GARP)
+In late 2018, Amazon had a P/E ratio of 87, which
+represented a valuation that was higher than
+many investors were willing to pay. However, at
+the time, Bloomberg reported a five-year growth
+for Amazon of 58 percent. Based on these num-
+bers, Amazon’s PEG ratio was only 1.5, which is
+considered a reasonable value for a high-quality
+firm. In contrast, at the time, McDonald’s had a
+P/E of 24 and a growth rate of 7 percent, which
+corresponds with a PEG ratio of 3.4. Therefore,
+investors following a GARP approach would view
+Amazon to have the more attractive valuation of
+the two firm
+416 Chapter 15 Company Analysis
+It should come as no surprise that because security analysis involves the uncertain
+future, mistakes will be made, and analysts will differ in their outlooks for a particu-
+lar company. At any time, some investors may think it is time to sell, while others see
+a buy opportunity.
+As we might expect, security analysis in the 21st century is often done differently
+from how it was done in the past. The reason for this change is not because we have
+a better understanding of the basis of security analysis. Rather, the differences now
+have to do with the increasingly sophisticated use of personal computers to per-
+form many calculations quickly and objectively. For example, a “neural network”
+is a computer program that attempts to imitate the brain in doing security analysis
+and choosing stocks. One program can examine dozens of different variables for
+thousands of companies, searching for patterns that might be profitable to exploit
+and that are too subtle for humans to detect.
+Summary
+• The analysis of individual companies, which is the last of three steps in fun-
+damental security analysis, considers the characteristics of a company, such as
+sales and earnings growth, management quality, and level of competition. It
+involves applying the valuation procedures explained in earlier chapters.
+• Intrinsic value (a company’s justified price) can be estimated using either a
+discount model or a multiplier model. Intrinsic value is then compared to the
+current market price in order to determine whether the stock is undervalued
+or overvalued.
+• An important first step in fundamental analysis is to understand the earnings
+per share (EPS) of companies. The financial statements can be used to under-
+stand the accounting basis of EPS.
+• The balance sheet shows a company’s assets and liabilities as of a specific date,
+whereas the income statement shows the flows during a period for the items
+that determine net income. The cash flow statement shows a firm’s sources
+and uses of cash.
+• Although financial statements are certified by the accounting profession,
+alternative accounting principles can result in financial measures that are not
+precise or readily comparable.
+Concepts in Action
+Sooner or Later, One or More Zombies
+Will Get You
+Investors interested in selecting stocks should
+do the best company analysis they can. It is
+not easy, and it takes time. Regardless of one’s
+diligence, however, the analysis will not always
+work out. Stocks will not perform as expected.
+In Wall Street terms, you will have some “dead
+money.” Your investment will be “alive” and in
+play, but as far as helping your portfolio, it will
+be dead—a zombie. In mid-2011, 30 percent of
+the S&P 100 Index, which focuses on large-cap
+stocks, had a stock price below their value 10
+years earlier. This included some of the best-
+known stocks in the United States, such as Micro-
+soft, Pfizer, and General Electric.
+Questions 417
+• Changes in earnings are directly related to changes in stock prices. To assess
+expected earnings, investors often consider the sustainable growth rate, which
+is the product of ROE and the earnings retention rate.
+• EPS forecasts are available from several sources that compile analysts’ fore-
+casts; however, such forecasts are subject to error.
+• The difference between actual and forecast EPS is important because of the
+role of the market’s expectations about earnings. Standardized unexpected
+earnings (SUE) considers the unexpected portion of quarterly earnings.
+• Price multiples represent half of the multiplier model, indicating the amount
+per dollar of firm characteristic investors are willing to pay for a stock. It rep-
+resents the relative price of a stock, with some companies carrying high multi-
+ples and others having low ones.
+• Price multiples are influenced directly by investors’ expectations of the future
+growth of sales and earnings and inversely by the required rate of return.
+• There are different P/E ratios in use at any time. Typically, the P/E is based
+on the most recent 12-month earnings. A forward P/E uses earnings for the
+next year.
+• Price multiples vary among companies primarily because of differences in
+investors’ expectations about the future prospects for the companies. If inves-
+tors lower their expectations, the price of the stock may drop, while firm per-
+formance remains constant or even rises.
+• The PEG ratio relates the P/E for a company to its expected growth rate in
+earnings. Some consider a company to be fairly valued if its P/E ratio is equal
+to its expected growth in earnings.

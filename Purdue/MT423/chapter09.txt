@@ -1,0 +1,1228 @@
+224CH APTER 9
+You may remember from your
+finance course a well-known model
+called the capital asset pricing
+model (CAPM). This model has
+an important role to play in your
+investing decisions because it cap-
+tures the concept of a required
+return for a stock. So the time has
+come to bite the bullet and review
+some theory regarding asset prices
+and markets and consider the
+CAPM once again. Knowing about
+the required return will be impor-
+tant when you start trying to value
+common stocks, a topic that you
+are almost ready to tackle. Further-
+more, understanding how risk is
+priced in financial markets can be
+very valuable to an investor.
+In the previous chapter, we dis-
+cussed portfolio theory, which is
+normative, describing how inves-
+tors should act in selecting an opti-
+mal portfolio of risky securities. In this chapter, we consider theories about asset
+pricing. What happens if all investors seek portfolios of risky securities using the
+Markowitz framework under idealized conditions? How will this affect equilibrium
+security prices and returns? In other words, how does optimal diversification affect
+the market prices of securities? Under these idealized conditions, what is the risk–
+return trade-off that investors face? In general, we wish to examine models that
+explain security prices under conditions of market equilibrium. These are asset
+pricing models or models for the valuation of risky assets.
+We devote most of our attention to capital market theory (CMT), which begins
+where portfolio theory ends. CMT provides a model for pricing risky assets. 1 While
+Capital Market Theory
+and Asset Pricing Models
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Describe capital market theory as
+an extension of portfolio theory.
+• Distinguish between the capital
+market line, which applies to effi-
+cient portfolios, and the security
+market line, which applies to all
+portfolios as well as individual
+securities.
+• Explain beta and the capital asset
+pricing model (CAPM) and use
+CAPM to calculate the required
+rate of return for a security.
+• Discuss the alternative theories of
+how assets are priced, the arbi-
+trage pricing theory and multifactor
+models.
+1 See William Sharpe, “Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk,”
+The Journal of Finance, 19 (September 1964): 425–442.
+Capital Market Theory 225
+CMT has its shortcomings, in practice, CMT, in the form of CAPM, remains the
+most relied upon asset pricing model.
+Capital Market Theory
+Capital market theory (CMT) is a positive theory as it hypothesizes how investors
+behave rather than how investors should behave, as in the case of modern portfolio
+theory (MPT). It is reasonable to view CMT as an extension of portfolio theory, but
+it is important to understand that MPT is not based on the validity, or lack thereof,
+of CMT.
+The specific equilibrium model of interest to many investors is the capital asset
+pricing model, typically referred to as the CAPM. It allows us to assess the relevant
+risk of an individual security and the relationship between risk and expected return.
+The CAPM is attractive as an equilibrium model because of its simplicity and its
+implications. As a result of serious challenges to the model, however, several alterna-
+tive models have been developed. The primary alternatives to the CAPM are arbi-
+trage pricing theory (APT) and other multifactor models.
+The output from an asset pricing model, whether it be the CAPM or a multifac-
+tor model, is an asset’s expected or required return. In an efficient market (and we
+assume that financial markets are generally efficient), an asset’s expected return
+and its required return are equivalent. That is, on average, investors expect to earn
+returns on assets that are commensurate with the risk of those assets; their expected
+return is their required return.
+Therefore, in this text and other finance texts, you will see the output from asset
+pricing models labeled as either expected or required return; the two terms are
+used interchangeably. It is important to note, however, that individuals will develop
+their own expectations, which may differ from the market equilibrium. To differ-
+entiate an individual’s expected return from the expected return derived from an
+asset pricing model, we follow the convention of labeling an individual’s return
+expectation as the individual’s “estimated” return.
+Capital Market Theory Assumptions
+CMT involves a set of predictions concerning equilibrium expected (required)
+returns on risky assets. It typically is derived by making some simplifying assump-
+tions in order to facilitate the analysis and help us to more easily understand the
+arguments without fundamentally changing the predictions of asset pricing theory.
+CMT builds on Markowitz portfolio theory. Each investor is assumed to diversify
+his or her portfolio according to the Markowitz model, choosing a location on the
+efficient frontier that matches his or her risk–return preferences. Because of the
+complexity of the real world, additional assumptions are made to make individuals
+more alike:
+1. All investors can borrow or lend money at the risk-free rate of return (desig-
+nated RF in this text).
+2. All investors have identical probability distributions for future returns; they
+have homogeneous expectations with respect to the three inputs of the port-
+folio model: expected returns, variance of returns, and the correlation matrix.
+Therefore, given a set of security prices and a risk-free rate (RF), all investors
+use the same information to generate an efficient frontier.
+Homogeneous Expecta-
+tions Investors have the
+same expectations regard-
+ing the expected return
+and risk of securities
+226 Chapter 9 Capital Market Theory and Asset Pricing Models
+3. All investors have the same one-period time horizon.
+4. There are no transaction costs.
+5. There are no personal income taxes—investors are indifferent between capi-
+tal gains and dividends.
+6. There is no inflation.
+7. There are many investors, and no single investor can affect the price of a
+stock through his or her trading decisions. Investors are price takers and act
+as if prices are unaffected by their own trades.
+8. Capital markets are in equilibrium.
+Realism of the assumptions These assumptions appear unrealistic and often
+disturb investors encountering CMT for the first time. However, the important issue
+is how well the theory predicts or describes reality and not the realism of its assump-
+tions. If CMT does a good job of explaining the returns on risky assets, it is very use-
+ful and the assumptions made in deriving the theory are of less importance. Later in
+this chapter, we discuss the development of the CAPM and its implications. We also
+gauge the usefulness of the CAPM in asset pricing, which is the primary practical
+outcome of CMT.
+Most of the above assumptions can be relaxed without significant effects on the
+CAPM or its implications; in other words, the CAPM is robust. 2 Although the results
+from such a relaxation of the assumptions may be less clear-cut and precise, no sig-
+nificant damage is done. Many conclusions of the basic model still hold.
+Finally, most investors recognize that all of the assumptions of CMT are not
+unrealistic. For example, some institutional investors such as pension funds are
+tax-exempt, and brokerage costs today, as a percentage of the transaction, are very
+small. Nor is it too unreasonable to assume that for the model’s one-period horizon,
+inflation may be fully (or mostly) anticipated and, therefore, not a major factor.
+Introduction of the Risk-Free Asset
+The first assumption of CMT is that investors can borrow and lend at the risk-free
+rate (RF). Although the introduction of a risk-free asset appears to be a simple step
+to take in the evolution of portfolio theory, it is a very significant step. In fact, it is
+the introduction of RF that allows us to develop CMT from portfolio theory.
+Defining a risk-free asset A risk-free asset can be defined as one with a certain-to-
+be- earned expected return and a variance of return of zero. Since variance = 0, RF
+in each period will equal its expected value. Furthermore, the covariance between
+RF and the return to any risky asset i will be zero.
+The true risk-free asset is best thought of as a Treasury security, which has little or
+no practical risk of default. The Treasury security should have a maturity matching
+the holding period of the investor. To make the investment risk-free, the amount of
+money to be received at the end of the holding period must be known with certainty
+at the beginning of the period. A Treasury note is typically taken to be the risk-free
+asset, and its rate of return is referred to throughout this text as RF.
+In practice, the yield on five-year Treasury notes is commonly used for RF, and
+we follow this convention throughout this text. In asset pricing, the investor is
+weighing a choice between purchasing the risk-free asset versus an investment in
+risky assets. While an investor’s actual holding period is generally uncertain at the
+time an investment is made, the decision to purchase is frequently viewed as attrac-
+tive for a long-term commitment of funds. Therefore, the ex ante holding period at
+the time of investment can be viewed as long term.
+There is, however, some difference of opinion whether the appropriate proxy for
+the risk-free asset is a short- or long-term Treasury security. The use of a long-term
+Treasury rate for RF has been increasing in popularity because of the tendency
+for T-bill yields, at times, to reflect what many would consider as unrealistic rates.
+In particular, due to Federal Reserve manipulation in the short-term market,
+the T-bill yield has been driven to nearly zero in recent times. For example, one-year
+T-bills were yielding only 0.08 percent in May 2014 versus a yield of 1.65 percent for
+five- year Treasuries.
+Risk-Free Borrowing and Lending
+Assume that the efficient frontier, as shown by the arc AB in Figure 9.1, has been
+derived by an investor. The arc AB delineates the set of efficient portfolios as
+explained in Chapter 8. (For simplicity, assume these are portfolios of common
+stocks.) We now introduce a risk-free asset with return RF and standard deviation
+(σ) = 0.
+RF plots on the vertical axis because the risk is zero. Investors can combine this
+riskless asset with the efficient set of portfolios on the efficient frontier. By drawing
+a line between RF and various risky portfolios on the efficient frontier, we can exam-
+ine combinations of risk–return possibilities that did not exist previously.
+Lending possibilities In Figure 9.1, a new line could be drawn between RF and
+the Markowitz efficient frontier above point X, for example, connecting RF to
+point V. Each successively higher line will dominate the preceding set of port-
+folios. This process ends when a line is drawn tangent to the efficient set of risky
+portfolios, given a vertical intercept of RF. In Figure 9.1, we call this tangency
+Expected return
+Risk
+RF A
+B
+Y
+X
+V
+M
+Z
+FIGURE 9.1 The Markowitz efficient frontier and the possibilities resulting from introducing
+a risk-free asset
+228 Chapter 9 Capital Market Theory and Asset Pricing Models
+point M. The set of portfolio opportunities on this line (RF to M) dominates all
+portfolios below it.
+The straight line from RF to the efficient frontier at point M, RF-M, dominates all
+straight lines below it and contains the superior lending portfolios given the Markow-
+itz efficient set. Lending refers to the purchase of a riskless asset such as Treasury
+securities because by making such a purchase the investor is lending money to the
+issuer of the securities, the U.S. government. We can think of this risk-free lending
+simply as risk-free investing.
+Borrowing possibilities What if we extend this analysis to allow investors to bor-
+row money? The investor can now invest more in risky assets than the amount of
+his or her wealth. Technically, the investor is short selling the riskless asset. One
+way to accomplish this borrowing is to buy stocks on margin, which is currently
+constrained to an initial margin requirement of 50 percent. We will assume that
+investors can also borrow at RF. 3 This assumption can be removed without changing
+the basic arguments.
+Borrowing additional investable funds and investing them together with
+the investor’s own wealth allows investors to attain higher expected returns
+while assuming greater risk. These borrowed funds can be used to leverage the
+portfolio position beyond point M. As in the lending discussion, point M repre-
+sents 100 percent of an investor’s wealth in the risky-asset portfolio M. The straight
+line RF-M is now extended upward, as shown in Figure 9.2, and can be designated
+RF-M-L.
+The market portfolio Portfolio M in Figure 9.2 is called the market portfolio of
+risky securities. It is the highest point of tangency between RF and the efficient fron-
+tier and is the optimal risky portfolio. All investors want to be on the optimal line
+RF-M-L. Unless they invested 100 percent of their wealth in the risk-free asset, they
+Market Portfolio The
+portfolio of all risky assets,
+with each asset weighted
+by the ratio of its market
+value to the market value
+of all risky assets
+Expected return
+RF A
+L
+M
+B
+Risk = σ
+FIGURE 9.2 The efficient frontier when lending and borrowing possibilities are allowed
+would own portfolio M with some portion of their investable wealth, or they would
+invest their own wealth plus borrowed funds in portfolio M.
+• Portfolio M is the optimal portfolio of risky assets.4
+Why do all investors hold identical risky portfolios? Based on our previous
+assumptions, all investors use the same Markowitz analysis on the same set of securi-
+ties, have the same expected returns and covariances, and have an identical time
+horizon. Therefore, they arrive at the same optimal risky portfolio, and it is the
+market portfolio, designated M.
+It is critical to note that although investors take different positions on the straight
+line in Figure 9.2, all investors invest in portfolio M, which consists of all risky assets
+in existence. If the optimal portfolio did not include a particular asset, the price
+of this asset would decline until it became an attractive investment opportunity. At
+some point, investors would purchase it, and it would be included in the market
+portfolio. Because the market portfolio includes all risky assets, portfolio M is com-
+pletely diversified. Portfolio M contains only market (systematic) risk, which, even with
+perfect diversification, cannot be eliminated because it is the result of macroeco-
+nomic factors that affect the value of all securities.
+The market portfolio is often proxied by the portfolio of all common stocks,
+which, in turn, is proxied by a market index such as the Standard & Poor’s 500
+Index. Therefore, to facilitate this discussion, think of portfolio M as a broad mar-
+ket index such as the S&P 500. The market portfolio is a risky portfolio because it
+consists of risky common stocks, and its risk is designated as σM .
+Checking Your Understanding
+1. Why is the introduction of risk-free borrowing and lending such an important
+change relative to where the Markowitz analysis left off?
+The Capital Market Line
+The straight line shown in Figure 9.2, which traces out the risk–return trade-off for
+efficient portfolios, is tangent to the Markowitz efficient frontier at point M and
+has a vertical intercept RF. This straight line is called the capital market line (CML)
+and it represents the best obtainable efficient set. All investors will hold portfolio
+M as their optimal risky portfolio and will be somewhere on this trade-off line. The
+CML represents those combinations of risk-free investing/borrowing and portfolio
+M that yield the highest expected return obtainable for a given level of risk.
+Let’s summarize what we have learned so far:
+1. A risk-averse investor makes investment decisions based on Markowitz princi-
+ples. Such investors select efficient portfolios of risky assets.
+4 All assets are included in portfolio M in proportion to their market value. For example, if the market
+value of IBM constitutes 2 percent of the market value of all risky assets, IBM will constitute 2 percent of
+the market value of portfolio M. In theory, the market portfolio should include all risky assets worldwide,
+both financial (bonds, options, futures, etc.) and real (gold, real estate, etc.), in their proper propor-
+tions. By one estimate, the value of non-U.S. assets exceeds 60 percent of the world total, and U.S. equi-
+ties make up only about 10 percent of total world assets. Therefore, international diversification is clearly
+important. A worldwide portfolio, if it could be constructed, would be completely diversified. Of course,
+the market portfolio is unobservable.
+230 Chapter 9 Capital Market Theory and Asset Pricing Models
+2. We then add the assumption that investors can borrow and lend freely
+at RF.
+3. Each investor then constructs an optimal portfolio that falls on the CML and
+matches his or her preferred risk–return combination. Conservative investors
+invest part of their portfolio in the risk-free asset (i.e., they lend), and aggres-
+sive investors borrow.
+4. All investors can construct an optimal portfolio by combining an efficient
+portfolio, M, with a risk-free asset. The result is the CML, a straight line in
+expected return, standard deviation space.
+Defining the Capital Market Line
+The capital market line (CML) depicts the equilibrium conditions that prevail in the
+market for efficient portfolios consisting of the optimal portfolio of risky assets and the
+risk-free asset. All combinations of the risk-free asset and the risky portfolio M are
+on the CML, and, in equilibrium, all investors end up with a portfolio somewhere
+on the CML based on their risk tolerance.
+The Separation Theorem
+We have established that each investor holds combinations of the risk-free asset and
+the market portfolio M. Further, under the assumptions of capital market theory
+(CMT), all investors agree on RF. Therefore, the linear efficient set shown in
+Figure 9.2 applies to all investors.
+Borrowing and lending possibilities, combined with one portfolio of risky assets,
+M, offer an investor whatever risk–expected return combination he or she seeks;
+that is, investors can be anywhere they choose on this line, depending on their risk–
+return preferences. An investor could:
+a. Invest 100 percent of investable funds in the risk-free asset, providing an
+expected return of RF and zero risk
+b. Invest 100 percent of investable funds in risky-asset portfolio M, offering
+E(RM), with its risk σM
+c. Invest in any combination of risk and return between these two points,
+obtained by varying the proportion wRF invested in the risk-free asset
+d. Invest more than 100 percent of investable funds in portfolio M by borrow-
+ing money at RF, thereby increasing both the expected return and the risk
+beyond that offered by portfolio M
+Different investors will choose different portfolios because of their risk prefer-
+ences (they have different indifference curves), but they will choose the same com-
+bination of risky securities, M. Investors will then borrow or lend to achieve various
+positions on the linear trade-off between risk and expected return.
+Unlike the Markowitz analysis, it is not necessary to match each client’s indif-
+ference curves with a particular efficient portfolio because only one efficient
+portfolio is held by all investors. Rather, each client will use his or her indiffer-
+ence curves to determine where along the new efficient frontier RF-M-L he or
+she should be. In effect, each client must determine how much of investable
+funds should be lent or borrowed at RF and how much should be invested in
+portfolio M
+232 Chapter 9 Capital Market Theory and Asset Pricing Models
+The slope of the CML is the market price of risk for efficient portfolios. It is also
+called the equilibrium market price of risk. It indicates the additional return that
+the market demands for each percentage increase in a portfolio’s risk.
+The Equation for the CML
+We now know the intercept and slope of the CML. Since the CML is the trade-off
+between risk and expected return for efficient portfolios, and risk is measured by
+the standard deviation, the equation for the CML is shown as Equation 9-1:
+E R E R
+p
+M
+M
+pRF RF (9-1)
+where
+E Rp( ) the expected return on any efficient portfolio on thee CML
+the return on the risk-free asset
+the expect
+RF
+E RM( ) eed return on the market portfolio
+the standard deviat
+M
+M iion of the returns on the market portfolio
+the standardP deviation of the efficient portfolio being considered
+In words, the expected (required) return for any portfolio on the CML is equal
+to the risk-free rate plus a risk premium. The risk premium is the product of the
+market price of risk and the amount of risk for the portfolio under consideration.
+Important Points About the CML
+The following points should be noted about the CML:
+1. Only efficient portfolios consisting of the risk-free asset and portfolio M lie
+on the CML. Portfolio M contains all securities weighted by their respective
+market values—it is the optimum combination of risky securities and is, by
+definition, an efficient portfolio. The risk-free asset has no risk. Therefore, all
+combinations of these two assets are efficient portfolios.
+M
+L
+Risk premium for the market portfolio M = E(RM) – RF
+Risk = standard deviation
+RF
+Risk of market
+portfolio M, σM
+σM
+E(R M)
+Expected portfolio return
+Slope of CML = σM
+E(R M) – RF
+FIGURE 9.4 The capital market line and its components
+234 Chapter 9 Capital Market Theory and Asset Pricing Models
+• Beta measures the risk of an individual stock relative to the market portfolio
+of all stocks.
+Beta is a measure of the sensitivity of a stock’s return to the returns of the mar-
+ket. A security that tends to move in the same direction as the market but typically
+moves more than the market has a beta greater than 1.0 and is considered to have
+above-average risk. For example, a security whose returns rise or fall on average
+15 percent when the market rises or falls 10 percent has a beta of 1.5 and is consid-
+ered relatively high risk. Likewise, a security that typically moves in the same direc-
+tion as the market but moves less than the market has a beta less than 1.0 and has
+below-average risk. For example, a security that generally moves 6 percent in direct
+correspondence with a market move of 10 percent has a beta of 0.6 and has below-
+average risk. The average beta, which is frequently also called the market beta, is 1.0.
+Since beta measures comovement with the market, the comovement of the market
+with the market must be 1.0. Figure 9.5 shows return plots of three different securi-
+ties relative to the market return.
+Above- and Below-Average Beta Stocks
+You may be wondering what types of stocks have high versus low betas. The follow-
+ing categories should help you in your efforts to classify stocks:
+Beta: 0 < β < 1: Below-average risk stocks. Sometimes referred to as defensive
+stocks. Typically includes firms producing products that are necessities.
+Security return
+Market return
+A = 1.5
+β
+= 1.0
+β
+= 0.6
+β
+B
+C
+FIGURE 9.5 Illustrative betas of 1.5 (A), 1.0 (B), and 0.6 (C)
+In Figure 9.5, Security A’s beta of 1.5 indicates that, on
+average, A’s returns exhibit 1.5 times the average sensitivity
+to market return changes, both up and down. A security whose returns rise or
+fall on average 15 percent when the market return rises or falls 10 percent is said
+to be an aggressive, or risky, security. If the line is less steep than the 45-degree
+line, beta is less than 1.0; this indicates that on average, a stock’s returns have
+less sensitivity than average to market moves. For example, Security C’s beta of
+0.6 indicates that stock returns move up or down, on average, only 60 percent
+as much as the market as a whole.
+EXAMPLE 9.2
+Systematic Risk and Beta 235
+Example stocks include the stocks of public utilities, healthcare, and con-
+sumer staple firms.
+Beta: β > 1: Above-average risk stocks. Sometimes referenced as cyclical stocks.
+Typically includes firms offering products or services that are purchased
+with discretionary income. Example stocks include the stocks of technology,
+consumer discretionary, capital goods manufacturers, and financial firms.
+Beta: β < 0: These assets have very low risk; however, very few stocks fall in this
+category. Example assets include derivative securities (e.g., put options) and
+assets tied to commodity prices (particularly precious metals prices).
+Some reported betas The following table reports betas, as of February 2019, for
+a variety of well-known firms. Separate the firms into two groups, those that offer
+products and services that are commonly considered staples or necessities versus
+those firms offering products and services purchased with discretionary funds (i.e.,
+luxury products/services). Do you notice anything about the difference in the betas
+across these two groups?
+Company Beta
+Bank of America (BAC) 1.56
+Fiat Chrysler (FCAU) 1.99
+Merck & Co. (MRK) 0.38
+Wal-Mart Stores (WMT) 0.64
+McDonald’s (MCD) 0.40
+Micron Technology (MU) 1.28
+American Electric Power (AEP) 0.24
+Tiffany & Co. (TIF) 1.32
+Royal Caribbean Cruises (RCL) 1.97
+Source: Yahoo Finance.
+Remember that beta measures the performance of a security relative to the mar-
+ket performance. Those firms that are most reliant on strong market conditions for
+their own success have the highest betas, while those firms that are relatively invari-
+ant to market conditions have the lowest betas.
+In Summary, What is Beta?
+We will start by indicating what beta is not, that is, beta is not a measure of asset
+volatility. Many individuals that know a little about beta are convinced that beta
+measures an asset’s volatility. This, however, is an incorrect view of beta. While high-
+beta stocks and low-beta stocks generally also have high volatility and low volatil-
+ity, respectively, there are notable exceptions. For example, investments in firms
+engaged in precious metal mining or drug research typically have relatively volatile
+stock prices; however, their stock prices are generally relatively insensitive to market
+moves. Thus, the standard deviation of stock returns for these firms is typically rela-
+tively high, while their betas are generally relatively low.
+The key is determining the most prominent underlying factor that drives stock
+returns. If the most prominent factor is general market conditions, then beta and
+volatility will align with each other; however, if the most prominent factor is some-
+thing other than general market conditions (e.g., a major gold discovery, a drug
+breakthrough, or a substantial move in gold price), then beta and volatility may
+differ substantially from one another.
+236 Chapter 9 Capital Market Theory and Asset Pricing Models
+The following list contains alternative definitions of beta. Beta is:
+1. A measure of an asset’s comovement with the market (M)
+2. A measure of an asset’s sensitivity to market moves
+3. The slope of the line formed when an asset’s returns are plotted relative to
+the market return
+4. The relevant risk measure for well-diversified investors
+5. A measure of the risk that an asset will add to a well-diversified portfolio
+6. A measure of systematic (or market, or nondiversifiable) risk
+Estimating Beta
+The market model is an equation that relates an asset’s returns to the market return.
+The market model equation is expressed as
+R R ei i i M i (9-2)
+where
+R i
+R
+i
+M
+the return on security
+the return on the market indeex
+the intercept term
+the slope term
+the random res
+i
+i
+ie iidual error
+To estimate the market model, the return for stock i is regressed on the corre-
+sponding return for the market index. Estimates are obtained for αi (the constant
+return on security i that is earned regardless of the level of market returns) and βi
+(the slope coefficient that indicates the expected change in security i’s return for
+a 1 percent increase in market return). The slope coefficient from estimating the
+market model represents a stock’s beta. Estimating the market model with a regres-
+sion is the process that is generally followed in deriving stock betas. However, it is
+also possible to calculate beta using the formula we presented earlier:
+i
+i M
+M
+COV ,
+2
+When the returns for a stock are plotted against the market index returns, the
+regression line fitted to these points is referred to as the characteristic line. Coca-
+Cola’s characteristic line is shown in Figure 9.6.
+The alpha is the intercept of the characteristic line on the vertical axis and,
+in theory, should equal RF for any stock. It measures the return for a stock when
+the return for the market portfolio is zero. The beta coefficient is the slope of the
+Market Model Relates the
+return on each stock to
+the return on the market,
+using a linear relationship
+with intercept and slope
+Characteristic Line A
+regression equation used
+to estimate beta by regress-
+ing stock returns on
+market returns
+To illustrate the estimation of the market model, we use
+return data for the Coca-Cola company (ticker symbol
+“KO”). Fitting a regression equation to 60 months of return data along with
+corresponding returns for the S&P 500, the estimated equation is:
+R RKO 0 008 0 528 500. . &S P
+EXAMPLE 9.3
+Systematic Risk and Beta 237
+characteristic line. It measures the sensitivity of a stock’s return to that of the market
+portfolio.
+The variance of the error term measures the variability of a stock’s return not
+associated with movements in the market’s return. This variance represents diver-
+sifiable or unsystematic risk, and hence, diversification can reduce this variability.
+Many brokerage houses and investment advisory services report betas as part of
+the total information given for individual stocks. For example, the Yahoo Finance
+website reports the beta for each stock covered, as do brokerage firms such as Mer-
+rill Lynch. Both measures of risk discussed above, standard deviation and beta, are
+widely known and discussed by investors.
+The values of αi and βi (beta) obtained by estimating the market model regres-
+sion are estimates of the true parameters and are subject to error. Furthermore,
+beta can shift over time as a company’s situation changes. A legitimate question,
+therefore, is how accurate are the estimates of beta?
+There are several points you should keep in mind when considering betas and
+the characteristic line:
+1. We are trying to estimate the future beta for a security, which may differ from
+the historical beta.
+2. In theory, the independent variable RM represents the return for the total of
+all marketable assets in the economy. This is typically approximated with a
+stock market index, which, in turn, is an approximation of the return on all
+common stocks.
+3. The characteristic line can be fitted over varying numbers of observations
+and time periods. There is no one correct period or number of observations
+for calculating beta. As a result, estimates of beta vary. For example, The Value
+Line Investment Survey calculates betas from weekly rates of return for five
+years, whereas other analysts often use monthly rates of return over a compa-
+rable period.
+238 Chapter 9 Capital Market Theory and Asset Pricing Models
+4. The regression estimates of α and β from the characteristic line are only esti-
+mates of the true α and β and are subject to error. Thus, these estimates may
+differ from the true α and β.
+5. As the fundamental variables (e.g., earnings) of a company change, beta
+should change; that is, the beta is not perfectly stationary over time. This issue
+is important enough to be considered separately.
+Blume found that in comparing nonoverlapping seven-year periods for portfo-
+lios of various sizes the following observations could be made5
+:
+1. Betas estimated for individual securities are not stable; that is, they contain
+relatively little information about future betas.
+2. Betas estimated for large portfolios are stable; that is, they contain much
+information about future betas.
+In effect, a large portfolio (e.g., 50 stocks) provides stability because of the aver-
+aging effect. Although the betas of some stocks in the portfolio go up from period
+to period, others go down, and these two movements tend to cancel each other.
+Furthermore, the errors involved in estimating betas tend to cancel out in a portfo-
+lio. Therefore, estimates of portfolio betas show less change from period to period
+and are much more reliable than are the betas estimated for individual securities.
+Researchers have found that betas in the forecast period are, on average, closer
+to 1.0 than the estimate obtained using historical data. In other words, betas tend
+to regress toward the mean. This would imply that we can improve the estimates of
+beta by measuring the adjustment in one period and using it as an estimate of the
+adjustment in the next period. For example, Blume’s adjustment for the tendency
+for betas to regress toward the mean uses the following formula:
+adjusted measured0 333 0 667. .
+This simple adjustment approach is employed by many investment firms; how-
+ever, other firms rely on more sophisticated methods, including Bayesian estimation
+techniques.
+Concepts in Action
+Beta Management and Risk-On, Risk-Off
+Beta represents a key concept in investment
+management. As a measure of systematic risk,
+beta relates a stock’s or portfolio’s performance
+to the overall market. A diversified portfolio with
+a beta of 1.0 should perform like the overall
+market, which by definition has a beta of 1.0.
+A portfolio with a beta greater than 1.0 has
+greater than average sensitivity to market returns,
+while a portfolio with a beta less than 1.0 has
+less than average sensitivity. Beta management
+involves adjusting the beta of the portfolio to take
+advantage of expected market conditions. If the
+market is expected to perform well (poorly), the
+manager adjusts the portfolio’s beta up (down)
+to take advantage of the projected market
+performance. In recent periods, this approach
+has commonly been referenced as a risk-on,
+risk-off strategy. Based on a risk-on, risk-off strategy,
+managers use economic conditions, or fre-
+quently Fed policy changes, to determine when
+to ramp a portfolio’s risk up or down. During
+the financial crisis of 2008, a risk-off (low-beta)
+position was popular, while risk-on (high-beta)
+became attractive with the subsequent market
+recove
+The Capital Asset Pricing Model (CAPM) 239
+The Capital Asset Pricing Model (CAPM)
+The CML depicts the risk–return trade-off in equilibrium. However, it applies only
+to efficient portfolios and cannot be used to assess the equilibrium expected return
+for a single security. What about individual securities or inefficient portfolios? That’s
+where the CAPM enters the picture.
+Under the CAPM, all investors hold the market portfolio, which is the bench-
+mark portfolio against which other portfolios are measured. How does an individual
+security contribute to the risk of the market portfolio? As we discussed in the previ-
+ous section, beta measures this risk contribution.
+Investors should expect a risk premium for buying a risky asset, such as a stock.
+The greater the riskiness of that stock, the higher the risk premium. Assuming inves-
+tors hold well-diversified portfolios, they will be interested in portfolio risk rather
+than individual security risk. Different stocks affect a well-diversified portfolio dif-
+ferently. The relevant risk for an individual stock is its contribution to the riskiness
+of a well-diversified portfolio, which is measured by beta. And the risk of a well-
+diversified portfolio is market risk, or systematic risk, which is nondiversifiable.
+We know that investors should hold diversified portfolios to reduce portfolio risk.
+When an investor adds a security to a large portfolio, what matters is the security’s
+average comovement with the other securities in the portfolio, that is, its beta. We
+also now know that under CMT all investors hold the same portfolio of risky assets,
+the market portfolio. Therefore, the risk that matters when we consider any security
+is its beta.
+• The major conclusion of the CAPM is as follows: The relevant risk of any secu-
+rity is the amount of risk that security contributes to a well-diversified portfo-
+lio, that is, its beta.
+The CAPM’s expected return–beta relationship The Security Market Line
+(SML) is the graphical depiction of the CAPM equation. The SML depicts the rela-
+tionship between risk and expected return for any asset, security, or portfolio. The
+CAPM posits a linear relationship between an asset’s risk and its expected return.
+The security market line (SML) is shown in Figure 9.7. Required (expected) return
+is on the vertical axis and beta, the measure of risk, is on the horizontal axis.6 The
+slope of the SML is the difference between the required return on the market index
+and RF.
+Security Market Line
+(SML) The graphical
+depiction of the CAPM
+Investments Intuition
+Investors first exposed to the concepts of beta
+and CAPM may hear someone say that high-
+beta stocks held last year produced a lower
+return than did low-beta stocks, and therefore
+something is wrong with this concept. This is a
+fallacy, however, because the CAPM relationship
+is an equilibrium relationship expected to prevail
+in the long run. High-beta stocks have greater
+risk than low-beta stocks and are expected to
+produce higher returns. However, they will not typ-
+ically produce higher returns every period and
+over all intervals of time. If they did, they would
+be less risky than low-beta stocks, not more risky.
+The correct statement is that over long periods
+of time, high-beta stocks should produce higher
+average returns.
+6 In equilibrium the expected and required rates of return are the same for a security.
+240 Chapter 9 Capital Market Theory and Asset Pricing Models
+The Capital Asset Pricing Model (CAPM) formally relates the expected (required)
+return for any security or portfolio with the relevant risk measure. The CAPM’s
+expected return–beta relationship is the most often cited form of the relationship.
+Beta measures the risk that cannot be diversified away in a portfolio of securities
+and, as such, is the measure that investors should consider in their portfolio man-
+agement decision process.
+The CAPM in its expected return–beta relationship form is a simple but ele-
+gant statement. It says that the expected return on an asset is a function of two
+components—the risk-free rate and the risk premium:
+E R
+E R
+i
+i M
+( )
+( )
+Risk-free rate Risk premium
+RF RF
+(9-3)
+where
+E R i
+E R
+i
+M
+( ) ( )
+( )
+the required expected return on asset
+the exxpected required return on the market
+the marke
+( )
+( )E R RFM tt risk premium
+the beta coefficient for asseti i
+The simplicity of the CAPM is reflected in the following discussion. When
+considering an investment, an investor always has the option of purchasing the
+Capital Asset Pricing
+Model (CAPM) Relates
+the required (expected)
+return for any security
+with the risk for that secu-
+rity as measured by beta
+0 0.5 1.0 1.5
+Risk (Beta)
+BetaM
+B
+C
+Assets more
+risky than the
+market index
+Assets less
+risky than the
+market index
+Required rate of return (k)
+A
+2.0
+kM
+k RF
+FIGURE 9.7 The security market line (SML)
+Investments Intuition
+As expected, Figure 9.7 demonstrates that if
+investors are to seek higher expected returns,
+they must assume greater risk. The trade-off
+between expected (required) return and risk
+must always be positive. In equilibrium, inves-
+tors require a minimum expected return before
+they will invest in a particular security. That is,
+given its risk, a security must offer some minimum
+expected return before an investor can be per-
+suaded to purchase it. Thus, in discussing the SML
+concept, we are simultaneously talking about
+required and expected return.
+The Capital Asset Pricing Model (CAPM) 241
+risk- free asset and earning RF. What then entices the investor to purchase a risky
+asset instead? The risky asset must offer a risk premium above RF. How is an asset’s
+risk premium determined? An asset’s risk premium is based on the asset’s amount of
+risk, which is measured by beta, and the compensation the market pays for bearing
+a unit of risk, which is measured by the market risk premium. Thus, beta represents
+an asset’s amount of risk and the market risk premium reflects the price of risk.
+From our previous discussion, we established that beta is the relevant measure of
+risk because it indicates the amount of risk an asset will add to a well-diversified port-
+folio. We now discuss the market risk premium, which reflects the market’s required
+return for bearing a unit of risk (i.e., the price of risk).
+The market risk premium is dependent on the risk aversion of investors as a
+whole. The market risk premium also represents the slope of the SML. When aggre-
+gate risk aversion increases, the price of bearing risk goes up and so does the slope
+of the SML. For example, during the financial crisis in 2008, investor risk aversion
+increased substantially and the market risk premium increased accordingly. Inves-
+tors demanded much greater returns to move from the risk-free asset into risky
+assets.
+When aggregate risk aversion subsides, the price of bearing risk goes down along
+with the slope of the SML. For example, in the years following the financial crisis
+of 2008, the economy gradually improved and investor confidence increased. The
+improved conditions lessened investor risk aversion and reduced the slope of the
+SML. The result was that it required a smaller premium to entice investors to invest
+in risky assets.
+The CAPM’s expected return–beta relationship is a simple but elegant statement
+about expected (required) return and risk for any security or portfolio. It formalizes
+the basis of investments, which is that the greater the risk assumed, the greater the
+expected return. This relationship states that an investor requires a return on a risky
+asset equal to the return on a risk-free asset plus a risk premium, and the greater the
+risk assumed, the greater the risk premium.
+The required (or expected) return for IBM is larger than that of the market
+because IBM’s beta is larger.
+Market Risk Premium
+The difference between
+expected return for
+equities and RF
+Investments Intuition
+The CAPM indicates that securities with betas
+greater than the market beta of 1.0 have larger
+risk premiums than that of the average stock
+and therefore, when added to RF, larger required
+returns. This is exactly what investors should expect,
+since beta is a measure of risk, and greater risk
+should be accompanied by greater return. Con-
+versely, securities with betas less than that of the
+market are less risky and should have required
+returns lower than that for the market as a whole.
+Assume that the beta for IBM is 1.15. Also assume that RF
+is 5 percent and that the expected return on the market
+is 12 percent. The required return for IBM can be calculated as:
+KIBM 0 05 1 15 0 12 0 05
+13 05
+. . ( . . )
+. %
+EXAMPLE 9.4
+242 Chapter 9 Capital Market Theory and Asset Pricing Models
+Over- and undervalued securities The SML has important implications for
+security prices. In equilibrium, each security should lie on the SML because a secu-
+rity’s expected return should be the return needed to compensate investors for the
+security’s risk.
+What happens if an investor determines that a security is not in equilibrium and
+therefore does not lie on the SML? To make this determination, the investor must
+employ a separate methodology to estimate the return for the security. In other
+words, the investor derives an estimated return for a security and plots the security
+relative to the SML. The investor may use some approach, such as fundamental
+analysis to derive the security’s estimated return and then use the CAPM/SML to
+derive the security’s required return. The investor believes that the security is tem-
+porarily mispriced or in disequilibrium and will return at some point to equilib-
+rium, that is, will eventually plot on the SML.
+Alpha is the estimated return for a stock above or below the expected return
+predicted by the CAPM. We can see this clearly in Figure 9.8. Alpha will be zero
+for stocks that are fairly priced, that is, on the SML. According to the CAPM, the
+expected value for alpha is zero for all securities that are in equilibrium.
+n Figure 9.8, Investor G plots two securities relative to
+the SML: Security X has a relatively high estimated return
+derived from fundamental analysis and plots above the SML; Security Y has a
+relatively low estimated return and plots below the SML. Based on Investor
+G’s analysis, which is undervalued? Security X, plotting above the SML, is
+undervalued because its estimated return is higher than required, given its
+level of systematic risk. Investors require a return of E(RX
+), but Security X,
+according to Investor G’s fundamental analysis, is offering E(RXI). Investor G
+should purchase Security X. If other investors recognize the same mispricing
+as Investor G, they will do the following:
+Purchase Security X, which will drive up its price as more of it is purchased.
+Investor G gains as the price is driven up by other investor trading. The
+expected return will be driven down, until it is at the level indicated by
+the SML.
+Now consider Security Y, which, according to Investor G’s fundamental
+analysis, does not offer enough expected return given its level of systematic
+risk. Investors require E(RY
+) for Security Y, based on the SML, but Y offers only
+E(RYI). Investor G should short sell Security Y. If other investors recognize the
+same mispricing as Investor G, they will do the following:
+Sell Security Y (or perhaps sell Y short), which increases the supply of Y and drives
+down its price. Investor G gains as the price is driven down by the trading activ-
+ity of the other investors. The expected return will be driven up for new buyers
+because any dividends or price appreciation are now relative to a lower price. The
+price will fall until the expected return rises enough to reach the SML and the
+security is once again in equilibrium.
+244 Chapter 9 Capital Market Theory and Asset Pricing Models
+Tests of the CAPM
+The conclusions of the CAPM are entirely sensible:
+1. Expected return and risk are positively related—greater risk implies greater
+expected return.
+2. The relevant risk for a security is a measure of its effect on portfolio risk.
+The question, therefore, is how well the theory works. After all, the assumptions
+on which capital market theory (CMT) rest are, for the most part, unrealistic. To
+assess the validity of this or any other theory, empirical tests must be performed. If
+the CAPM is valid, and the market tends to balance out so that the model provides
+reasonably accurate forecasts for security returns, equations of the following type
+can be estimated:
+R a ai i1 2 (9-4)
+where
+R ii the average return on security over some number of perriods
+the estimated beta for securityi i
+When Equation 9-4 is estimated, a1 should approximate the average RF during
+the periods studied, and a2 should approximate the average market risk premium
+during the periods studied.
+An extensive literature exists involving tests of the CAPM. Although it is not possi-
+ble to summarize the scope of this literature entirely and to reconcile findings from
+different studies that seem to be in disagreement, the following points represent a
+reasonable consensus of the empirical results7
+:
+1. The SML appears to be linear; that is, the trade-off between expected
+(required) return and risk is an upward-sloping straight line.
+2. The intercept term, a1
+, is generally found to be higher than RF.
+3. The slope of the CAPM, a2, is generally found to be less steep than posited by
+the theory.
+4. Although the evidence is mixed, no persuasive case has been made that
+unsystematic risk commands a risk premium. In other words, investors are
+rewarded only for assuming systematic risk.
+The major problem in testing CAPM is that it is formulated on an ex ante basis
+but can be tested only on an ex post basis. We can never know investor expectations
+with certainty. Therefore, it should come as no surprise that tests of the model have
+produced conflicting results in some cases and that the empirical results diverge
+from the predictions of the model. In fact, it is amazing that the empirical results
+support the basic CAPM as well as they do. Based on many studies, it appears that
+the stock market prices securities on the basis of a linear relationship between sys-
+tematic risk and return, with diversifiable (unsystematic) risk playing little or no
+part in the pricing mechanism.
+The CAPM has not been proved empirically, nor will it be. In fact, Roll has
+argued that the CAPM is untestable because the market portfolio, which consists
+7 For a discussion of empirical tests of the CAPM, see Elton, Gruber, Brown, and Goetzmann, Modern
+Portfolio Theory and Investment Analysis, 9th ed. (John Wiley & Sons, Inc., 2014).
+of all risky assets, is unobservable. 8 In effect, Roll argues that tests of the CAPM are
+actually tests of the mean-variance efficiency of the market portfolio. Nevertheless,
+the CAPM remains a logical way to view the risk-expected return trade-off and is a
+frequently used model in finance.
+Arbitrage Pricing Theory
+The CAPM is not the only model of security pricing. Another model that has
+received attention is based on arbitrage pricing theory (APT) as developed by Ross
+and enhanced by others. In recent years, APT has emerged as an alternative theory
+of asset pricing to the CAPM. Its appeal is that it is more general than the CAPM,
+with less restrictive assumptions. However, like the CAPM, it has limitations, and like
+the CAPM, it is not the final word in asset pricing.
+Similar to the CAPM, or any other asset pricing model, APT posits a relationship
+between expected return and risk. It does so, however, using different assumptions
+and procedures. Very importantly, APT is not critically dependent on an underlying
+market portfolio. In contrast, the CAPM predicts that only market risk influences
+expected returns. Instead, APT recognizes that several types of systematic risk may
+affect security returns.
+The Law of One Price
+APT is based on the law of one price, which states that two otherwise identical assets
+cannot sell at different prices. APT assumes that asset returns are linearly related to
+a set of indexes, where each index represents a factor that influences the return on
+an asset. Market participants develop expectations about the sensitivities of assets to
+the factors. They buy and sell securities so that, given the law of one price, securities
+affected equally by the same factors will have equal expected returns. This buying
+and selling is the arbitrage process, which determines the prices of securities.
+APT states that equilibrium market prices will adjust to eliminate any pure arbi-
+trage opportunities, which refer to situations where a zero investment portfolio can be
+constructed that will yield a risk-free profit. According to the theory, if arbitrage
+opportunities arise, a relatively few investors can act to restore equilibrium.
+Assumptions of APT
+Unlike the CAPM, APT does not assume:
+1. A single-period investment horizon
+2. The absence of taxes
+3. Borrowing and lending at RF
+4. Investors select portfolios on the basis of expected return and variance
+APT, like the CAPM, does assume that:
+1. Investors have homogeneous beliefs
+2. Investors are risk-averse utility maximizers
+Arbitrage Pricing Theory
+(APT) An equilibrium
+theory of expected returns
+for securities involving few
+assumptions about inves-
+tor preferences
+8 Richard Roll, “A Critique of the Asset Pricing Theory’s Tests; Part I: On Past and Potential Testability of
+the Theory,” Journal of Financial Economics, 4 (March 1977): 129–176.
+246 Chapter 9 Capital Market Theory and Asset Pricing Models
+3. Markets are perfect
+4. Returns are generated by a factor model
+Factor Models
+A factor model is based on the view that there are underlying risk factors that affect
+realized and expected security returns. These risk factors represent broad economic
+forces and not company-specific characteristics and, by definition, they represent
+the element of surprise in the risk factor—the difference between the actual value
+for the factor and its expected value. Both the CAPM and the APT represent factor
+models. The CAPM is a single-factor model, where the market portfolio is the one
+factor. The APT is generally considered to be a multifactor model; however, the fac-
+tors are not explicitly identified.
+For any factor model, the factors must possess three characteristics9
+:
+1. Each risk factor must have a pervasive influence on stock returns. Firm-
+specific events are not risk factors.
+2. The risk factors must influence expected return, which means they must have
+nonzero prices. This issue can be tested empirically by statistically analyzing
+stock returns to see which factors pervasively affect returns.
+3. At the beginning of each period, the risk factors must be unpredictable to the
+market. This raises an important point. In Example 9.6, we use inflation and
+the economy’s output as the two factors affecting portfolio returns. The rate
+of inflation is generally not considered a risk factor because it is at least par-
+tially predictable. In an economy with reasonable growth where the quarterly
+rate of inflation has averaged 3 percent on an annual basis, we can reason-
+ably assume that next quarter’s inflation rate is not going to be 10 percent or
+negative. On the other hand, unexpected inflation—the difference between
+actual inflation and expected inflation—may be a risk factor. By definition,
+unexpected inflation cannot be predicted since it is unexpected.
+What really matters are the deviations of the factors from their expected values.
+For example, if expected inflation is 5 percent and actual inflation is only 4 percent,
+this 1 percent deviation will affect the actual return for the period.
+Factor Model Used to
+depict the behavior of
+security prices by identify-
+ing major factors in the
+economy that affect large
+numbers of securities
+An investor holds a portfolio of stocks that she thinks is
+influenced by only two basic economic factors—inflation
+and the economy’s output. Diversification once again plays a role, because the
+portfolio’s sensitivity to all other factors can be eliminated by diversification.
+Portfolio return varies directly with output and inversely with inflation. Each of
+these factors has an expected value, and the portfolio has an expected return
+when the factors are at their expected values. If either or both of the factors
+deviate from expectations, the portfolio return will be affected. We must
+measure the sensitivity of each stock in our investor’s portfolio to changes
+in each of the two factors. Each stock will have its own sensitivity to each of
+the factors. For example, stock #1 (a mortgage company) may be particularly
+sensitive to inflation and have a sensitivity of 2.0, whereas stock #2 (a food
+manufacturer) may have a sensitivity to inflation of only 1.0.
+Arbitrage Pricing Theory 247
+Understanding the APT Model
+The APT model assumes that investors believe that asset returns are randomly gen-
+erated according to a n-factor model, which, for security i, can be formally stated as
+R E R f f f ei i i i in n i( ) 1 1 2 2  (9-5)
+where
+R ii the actual random return on security in any given p( ) eeriod
+the expected return on security
+the devia
+t
+E R i
+f
+i( )
+ttion of a systematic factor from its expected value
+s
+F
+i eensitivity of security to a factor
+random error term,
+i
+ei unique to security i10
+It is important to note that the fs in Equation 9-5 measure the deviation of each
+factor from its expected value. Notice in Equation 9-5 that the actual return for a
+security in a given period will be at the expected (required) return if the factors are
+at expected levels [e.g., F1 − E(F1
+) = 0, F2 − E(F2
+) = 0, and so forth] and if the error
+term is at zero.
+A factor model makes no statement about equilibrium. If we transform Equa-
+tion 9-5 into an equilibrium model, we are saying something about expected returns
+across securities. APT is an equilibrium theory of expected returns that requires a
+factor model such as Equation 9-5. The equation for expected return on a security
+is given by Equation 9-6:
+E R a b F b F b Fi i i in n( ) 0 1 1 2 2  (9-6)
+E R i
+a
+i( ) the expected return on security
+the expected ret0 uurn on a security with zero systematic risk
+the risk preF mmium for a factor e.g. the risk premium for is equal( , F1 tto E F a( ) )1 0
+With APT, risk is defined in terms of a stock’s sensitivity to basic economic factors,
+while expected return is directly related to sensitivity. As always, expected return
+increases with risk.
+The expected return–risk relationship for the CAPM is
+E R i i( ) RF market risk premium
+The CAPM assumes that the only required measure of risk is the sensitivity to the
+market. The risk premium for a stock depends on this sensitivity and the market
+risk premium (the difference between the expected return on the market and RF).
+The expected return–risk relationship for the APT can be described as
+E R b
+b
+i i
+i
+( ) ( )
+(
+RF 1
+2
+1risk premium for factor
+risk premium foor factor
+risk premium for factor
+2)
+( )
+
+b nin
+10 It is assumed that all covariances between returns on securities are attributable to the effects of the fac-
+tors; therefore, the error terms are uncorrelated.
+248 Chapter 9 Capital Market Theory and Asset Pricing Models
+Note that the sensitivity measures (βi and b i) have similar interpretations. They
+are measures of the relative sensitivity of a security’s return to a particular risk pre-
+mium. Also notice that we are dealing with risk premiums in both cases. Finally,
+notice that the CAPM relationship is the same as would be provided by APT if
+there were only one pervasive factor influencing returns. APT is more general
+than CAPM.
+Identifying the Factors
+The problem with APT is that the factors are not specified, at least not ex ante. To
+implement the APT model, we need to know the factors that account for the differ-
+ences among security returns. The APT makes no statements about what the factors
+are, their size or their sign. The factor model inputs must be identified empirically.
+In contrast, with the CAPM the factor that matters is the market portfolio, a concept
+that is well understood conceptually; however, as noted earlier, Roll has argued that
+the market portfolio is unobservable.
+Early empirical work by Roll and Ross 11 suggested that three to five factors influ-
+ence security returns and are priced in the market.
+According to APT-type models, different securities have different sensitivities to
+the risk factors, and each investor has different risk attitudes. Investors can con-
+struct a portfolio that has their desired risk exposure to each of the factors. Knowing
+the market prices of the risk factors and the sensitivities of securities to changes in
+the factors, the expected returns for various stocks can be estimated.
+Research suggests that an APT model that incorporates unanticipated changes in
+five macroeconomic variables is superior to the CAPM. These five variables, which
+are typical of APT-type models, are12
+:
+1. Default risk
+2. The term structure of interest rates
+3. Inflation or deflation
+4. The long-run expected growth rate of profits for the economy
+5. Residual market risk
+Using APT in Investment Decisions
+Roll and Ross argue that APT offers an approach to strategic portfolio planning.
+The idea is to recognize that a few systematic factors affect long-term average
+returns. Investors should seek to identify the few factors affecting most assets in
+order to appreciate their influence on portfolio returns. Based on this knowledge,
+they should seek to structure their portfolios in such a way as to improve portfolio
+design and performance.
+Some researchers have identified and measured, for both economic sectors and
+industries, the risk exposures associated with APT risk factors such as the five identi-
+fied above. These “risk exposure profiles” vary widely. For example, the financial,
+growth, and transportation sectors were found to be particularly sensitive to default
+Other Prominent Factor Models 249
+risk, while the utility sector was relatively insensitive to both unexpected inflation
+and the unexpected change in the growth rate of profits.
+An analysis of 82 different industry classifications showed the same result—
+exposure to different types of risk varies widely. For example, some industries
+were particularly sensitive to unexpected inflation risk, such as the mobile
+home building industry, retailers, hotels and motels, toys, and eating places.
+The industries least sensitive to this risk factor included foods, tire and rubber
+goods, shoes, and breweries. Several industries showed no significant sensitiv-
+ity to unexpected inflation risk, such as corn and soybean refiners and sugar
+refiners.
+A portfolio manager could design strategies that would expose them to one or
+more types of these risk factors or “sterilize” a portfolio such that its exposure to the
+unexpected change in the growth rate of profits matched that of the market as a
+whole. Taking an active approach, a portfolio manager who believes that he or she
+can forecast a factor realization can build a portfolio that emphasizes or deempha-
+sizes that factor. In doing this, the manager would select stocks that have exposures
+to the remaining risk factors that are exactly proportional to the market. If the
+manager is accurate with the forecast—and remember that such a manager must
+forecast the unexpected component of the risk factor—he or she can outperform
+the market for that period.
+Checking Your Understanding
+6. Can the CAPM be considered simply a special case of APT?
+Other Prominent Factor Models
+Two other multifactor models have gained prominence within the academic com-
+munity and are widely applied in investment management. These models are typi-
+cally referenced by their generic but descriptive titles, which are the three-factor
+model and the four-factor model.
+Previously, we established that the CAPM and APT were developed based on
+an underlying theory that linked returns to systematic risk factors. In contrast, the
+three- and four-factor models were developed largely based on empirical obser-
+vation. Specifically, numerous researchers, over several years, documented that
+stock returns are systematically linked with firm market capitalization (size) and
+firm relative value ratios (we discuss these findings in Chapter 12). Whereas the
+CAPM and APT-based models focused on identifying the underlying risk factors
+first and then investigated their relationship with returns, the three- and four-
+factor models started with firm characteristics that were shown empirically to be
+tied to stock returns. The three- and four-factor models are commonly classified
+as characteristic- or microeconomic-based multifactor models due to the nature
+of their factors.
+Based on the empirical evidence, Fama and French developed the three-factor
+model, which is as follows:
+E R E Ri i M i iRF RF SMB HML1 2 3
+250 Chapter 9 Capital Market Theory and Asset Pricing Models
+where
+E R i
+RF
+i( ) the expected return on asset
+the return on the riisk-free asset
+the sensitivity of asset to the marke1i i tt factor
+the sensitivity of asset to the market capi2i i ttalization market cap factor
+the sensitivity of asse
+( )
+3 i tt to the book-to market factor
+small minus big the
+i
+SMB , rreturn on small cap stocks minus the return on large
+cap sstocks
+high minus low the return on high book-to-markHML , eet stocks minus the return
+on low book-to-market stocks
+The four-factor model was proposed by Carhart as an extension of the three-
+factor model. The extension recognizes the empirical evidence showing that stock
+returns tend to exhibit momentum (we discuss this evidence in Chapter 12). The
+four-factor model is as follows:
+E R E Ri i M i i iRF RF SMB HML UMD1 2 3 4
+The first three factors are identical to the three-factor model. The final term rep-
+resents the sensitivity to the momentum factor (β4i) multiplied by the momentum
+factor premium (UMD). UMD stands for up minus down and equals the return
+on stocks with the strongest past performance minus the return on stocks with the
+weakest past performance.
+Note that if one truncates the three- or four-factor models after the first fac-
+tor, the resulting model is the CAPM. For this reason, it is common to reference
+these two models as multifactor CAPM models. As noted above, the three- and four-
+factor models were developed based on empirical evidence that linked stock returns
+with firm characteristics. Subsequently, however, researchers have argued that the
+included factors proxy for underlying risk variables.13
+Some Conclusions about Asset Pricing
+The question of how security prices and equilibrium returns are established—
+whether via the CAPM or APT or some other model—remains open. Some research-
+ers are convinced that the multifactor models are superior to the CAPM, while
+others are not. The CAPM relies on observation of the market portfolio, which,
+in actuality, cannot be observed. On the other hand, APT offers no clues as to the
+identity of the factors that are priced in the factor structure.
+In the final analysis, no model has been proven superior to the others. Each
+model has its advantages and disadvantages. Additional testing is needed before we
+can claim a clear-cut winner.
+Summary 251
+Summary
+• Capital market theory (CMT), based on the concept of efficient diversifica-
+tion, describes the pricing of capital assets in the marketplace.
+• CMT is derived from several assumptions that appear unrealistic; however, the
+important issue is the ability of the theory to predict. Relaxation of most of the
+assumptions does not change the major implications of CMT.
+• Given risk-free borrowing and lending, the new efficient frontier has a verti-
+cal intercept of RF and is tangent to the old efficient frontier at point M, the
+market portfolio. The new efficient set is no longer a curve, or arc, as in the
+Markowitz analysis. It is now linear.
+• All investors can achieve an optimal point on the new efficient frontier by
+investing in portfolio M and either borrowing or lending at the risk-free
+rate (RF).
+• The new efficient frontier is called the capital market line (CML), and its
+slope indicates the equilibrium price of risk in the market. In effect, it is the
+expected return–risk trade-off for efficient portfolios.
+• The CML must always be upward sloping.
+• In theory, the market portfolio, M, should include all risky assets, although in
+practice it is typically proxied by a stock market index such as the S&P 500.
+• The separation theorem states that the investment decision (what portfolio of
+risky assets to buy) can be separated from the financing decision (how much
+of investable funds should be put in risky assets and how much in the risk-free
+asset).
+• Under the separation theorem, all investors should hold the same portfolio
+of risky assets and achieve their own position on the risk–return trade-off
+through borrowing and lending.
+• Investors need to focus on that part of portfolio risk that cannot be eliminated
+by diversification because this is the risk that should be priced in financial
+markets.
+• Total risk can be divided into systematic risk and nonsystematic risk. Nonsys-
+tematic risk, also called diversifiable risk, can be eliminated by diversification.
+• Market risk cannot be eliminated by diversification and is the relevant risk for
+pricing financial assets.
+• Based on the separation of risk into its systematic and nonsystematic compo-
+nents, the security market line (SML) can be constructed for individual securi-
+ties (and portfolios). What is important is each security’s contribution to the
+total risk of the portfolio, as measured by beta.
+• Using beta as the measure of risk, the SML depicts the trade-off between
+required return and risk for all securities and all portfolios.
+• The market model can be used to estimate the alpha and beta for a security by
+regressing total returns for a security against total returns for a market index.
+• The characteristic line is a graph of the regression involved in the market
+model.
+• Beta, the slope of the characteristic line, is a measure of systematic risk.
+• Betas for individual stocks are unstable, while betas for large portfolios are
+quite stable.
+• If estimated returns for securities can be obtained from security analysis,
+and plotted against the SML, undervalued and overvalued securities can be
+identified.
+252 Chapter 9 Capital Market Theory and Asset Pricing Models
+• Tests of the CAPM are inconclusive. An ex ante model is being tested with ex
+post data. It has not been proven empirically, nor is it likely to be, but its basic
+implications seem to be supported.
+• Alternative theories of asset pricing, such as the arbitrage pricing theory
+(APT), also exist but are unproven.
+• APT is not critically dependent on an underlying market portfolio. In con-
+trast, CAPM predicts that only market risk influences expected returns. APT
+recognizes that several types of systematic risk may affect security returns.
+• A factor model recognizes risk factors affect security returns. These risk fac-
+tors represent broad economic forces and not company-specific characteris-
+tics and, by definition, they represent the element of surprise in the risk factor.
+• APT is more general than the CAPM. If only one factor exists, the two models
+can be shown to be identical.
+• The problem with APT is that the factors are not specified, at least not ex ante.
+• Most empirical work suggests that three to five factors influence security
+returns and are priced.

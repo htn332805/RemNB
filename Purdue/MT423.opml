@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="utf-8"?><opml version="1.0">
+    <head>
+        <expansionState>/opml[1]/body[1]/outline[1]</expansionState>
+        <vertScrollState>1</vertScrollState>
+    </head>
+    <body>
+        <outline text="Purdue">
+            <outline text="MT481 Financial Markets">
+                <outline text="Ch1. Role of Financial Markets and Institutions">
+                    <outline text="summary">
+                        <outline text="money market">
+                            <outline text="short-term"/>
+                        </outline>
+                        <outline text="capital market">
+                            <outline text="long-term">
+                                <outline text="bonds"/>
+                                <outline text="mortgages"/>
+                                <outline text="mortgage-back security (MBS)"/>
+                                <outline text="stocks"/>
+                            </outline>
+                            <outline text="valuation">
+                                <outline text="represents the present value of future cash flows"/>
+                                <outline text="New information that indicates a change in expected cash flows">
+                                    <outline text="affects the prices of securities"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="Financial institutions">
+                            <outline text="Depository">
+                                <outline text="commercial banks"/>
+                                <outline text="savings institutions"/>
+                                <outline text="credit unions."/>
+                            </outline>
+                            <outline text="nondepository">
+                                <outline text="finance companie"/>
+                                <outline text="mutual funds"/>
+                                <outline text="pension funds"/>
+                                <outline text="insurance companies"/>
+                            </outline>
+                            <outline text="Consolidation">
+                                <outline text="increase the financial institution’s value"/>
+                                <outline text="enhance cash flows"/>
+                                <outline text="diversify the institution’s services"/>
+                                <outline text="increase its value by reducing risk."/>
+                                <outline text="allows for economies of scale and scope"/>
+                            </outline>
+                            <outline text="subject to systemic risk">
+                                <outline text="commonly invest in the same types of securities"/>
+                                <outline text="similarly exposed to conditions">
+                                    <outline text="cause the prices of securities to decline substantially"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="Point"/>
+                        <outline text="Counter point"/>
+                        <outline text="Financial markets">
+                            <outline text="facilitate the transfer of funds from surplus units to deficit units"/>
+                            <outline text="primary market">
+                                <outline text="allows for the issuance of new securities"/>
+                            </outline>
+                            <outline text="secondary market">
+                                <outline text="allows for the sale of existing securities"/>
+                            </outline>
+                        </outline>
+                        <outline text="Distinguishing">
+                            <outline text="Perfect Security Markets">
+                                <outline text="Complete information readily available"/>
+                                <outline text="No transaction costs"/>
+                                <outline text="Perfect liquidity"/>
+                                <outline text="No barriers to entry or exit"/>
+                                <outline text="Homogeneous expectations"/>
+                                <outline text="Rational investors"/>
+                            </outline>
+                            <outline text="Imperfect Markets">
+                                <outline text="Create a Need for Financial Intermediaries">
+                                    <outline text="bridge the information gap between buyers and sellers of securities">
+                                        <outline text="reducing information asymmetry in the market"/>
+                                        <outline text="specialized knowledge and resources"/>
+                                        <outline text="analyze, and disseminate information"/>
+                                    </outline>
+                                    <outline text="reduce transaction costs">
+                                        <outline text="aggregating trades and providing economies of scale"/>
+                                        <outline text="cost-effective for individual investors"/>
+                                    </outline>
+                                    <outline text="Liquidity provision">
+                                        <outline text="improve market efficiency"/>
+                                        <outline text="educes the impact of large trades on prices"/>
+                                    </outline>
+                                    <outline text="Risk management">
+                                        <outline text="help manage and distribute risk more effectively">
+                                            <outline text="across the financial system."/>
+                                        </outline>
+                                        <outline text="diversified portfolios"/>
+                                        <outline text="offer risk management products"/>
+                                    </outline>
+                                    <outline text="Expertise and specialization">
+                                        <outline text="specialized knowledge and expertise"/>
+                                        <outline text="investment advice"/>
+                                        <outline text="portfolio management"/>
+                                        <outline text="financial planning"/>
+                                    </outline>
+                                    <outline text="Regulatory compliance">
+                                        <outline text="compliance with complex financial regulations"/>
+                                        <outline text="reducing the burden on individual investors"/>
+                                        <outline text="improving overall market integrity"/>
+                                    </outline>
+                                    <outline text="Market access">
+                                        <outline text="broadening the range of investment"/>
+                                    </outline>
+                                    <outline text="Maturity transformation">
+                                        <outline text="can transform short-term deposits into long-term loans"/>
+                                        <outline text="facilitating the flow of capital in the economy"/>
+                                    </outline>
+                                </outline>
+                                <outline text="Incomplete or asymmetric information"/>
+                                <outline text="Transaction costs"/>
+                                <outline text="liquidity turnover"/>
+                                <outline text="Barriers to entry"/>
+                                <outline text="Heterogeneous expectations"/>
+                                <outline text="Behavioral biases"/>
+                            </outline>
+                            <outline text="Toward Efficiency">
+                                <outline text="Information availability">
+                                    <outline text="information spreads rapidly."/>
+                                </outline>
+                                <outline text="Large number of participants"/>
+                                <outline text="Profit motive">
+                                    <outline text="incentivized to quickly act on any mispricing."/>
+                                </outline>
+                                <outline text="Technological advancements">
+                                    <outline text="AI can rapidly process information."/>
+                                </outline>
+                                <outline text="Regulatory environment">
+                                    <outline text="Disclosure requirements and insider trading laws"/>
+                                </outline>
+                                <outline text="Inside Information">
+                                    <outline text="Isolated incidents">
+                                        <outline text="small fraction of overall market activity"/>
+                                    </outline>
+                                    <outline text="Legal consequence">
+                                        <outline text="severe penalties, which should deter such behavior."/>
+                                    </outline>
+                                    <outline text="Market reaction">
+                                        <outline text="react quickly to incorporate this information."/>
+                                    </outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="MT423">
+                <outline text="critical components">
+                    <outline text="Risk">
+                        <outline text="Risk-Return Tradeoff">
+                            <outline text="Central principle">
+                                <outline text=""/>
+                                <outline text=""/>
+                            </outline>
+                        </outline>
+                        <outline text="Risk Tolerance Spectrum">
+                            <outline text=""/>
+                        </outline>
+                    </outline>
+                    <outline text="return">
+                        <outline text="">
+                            <outline text="&gt;1 indicates efficient risk-adjusted performance"/>
+                        </outline>
+                        <outline text="Compounding Magnifies Small Differences">
+                            <outline text="Time is the Critical Variable">
+                                <outline text="The gap grows exponentially with time"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="increasing trend of risk and expect return">
+                        <outline text="Risk Free">
+                            <outline text="Corporate bonds">
+                                <outline text="Large firm common stock">
+                                    <outline text="small firm common stock">
+                                        <outline text="private equity"/>
+                                    </outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                </outline>
+                <outline text="Investment Decision Process">
+                    <outline text="Security Analysis">
+                        <outline text="Valuation methods">
+                            <outline text="T-bill pricing">
+                                <outline text="">
+                                    <outline text=""/>
+                                </outline>
+                                <outline text="Bond Equivalent Yield">
+                                    <outline text=""/>
+                                </outline>
+                                <outline text="Equivalent Annual Yield">
+                                    <outline text=""/>
+                                </outline>
+                            </outline>
+                            <outline text="Bond">
+                                <outline text="Taxable Equivalent Yield">
+                                    <outline text=""/>
+                                </outline>
+                                <outline text="When rates fall, bond prices rise">
+                                    <outline text="when rates rise, bond prices fall"/>
+                                </outline>
+                                <outline text="after-tax yield">
+                                    <outline text=""/>
+                                </outline>
+                                <outline text="Comparison">
+                                    <outline text="Pre-tax comparison"/>
+                                    <outline text="after-tax comparison"/>
+                                </outline>
+                                <outline text="Coupon Rate v.s. Market Yield">
+                                    <outline text="coupon &gt; market">
+                                        <outline text="Trade above par (Premium)"/>
+                                    </outline>
+                                    <outline text="coupon &lt; Market">
+                                        <outline text="Trade below par (Discount)"/>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="Common Stock">
+                                <outline text="Book value">
+                                    <outline text="Accounting value on balance sheet"/>
+                                </outline>
+                                <outline text="Market Value">
+                                    <outline text="Observed stock price"/>
+                                </outline>
+                                <outline text="Market capitalization">
+                                    <outline text="Price per share × number of shares outstanding"/>
+                                </outline>
+                                <outline text="Dividend yield">
+                                    <outline text="Dividend per share ÷ current stock price"/>
+                                </outline>
+                                <outline text="Payout ratio">
+                                    <outline text="Dividends ÷ earnings"/>
+                                </outline>
+                                <outline text="Stock dividends and splits">
+                                    <outline text="Distribution of additional shares"/>
+                                </outline>
+                                <outline text="P/E ratio"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Portfolio Management">
+                        <outline text="Diversification">
+                            <outline text="Global stocks reduce portfolio volatility"/>
+                        </outline>
+                        <outline text="Markowitz Theory">
+                            <outline text=""/>
+                        </outline>
+                        <outline text="Barbell strategy">
+                            <outline text="70% Core holdings">
+                                <outline text="steady compounding"/>
+                                <outline text="VOO">
+                                    <outline text="Broad Market"/>
+                                </outline>
+                            </outline>
+                            <outline text="30% satellite holdings">
+                                <outline text="for growth"/>
+                                <outline text="higher risk assets"/>
+                                <outline text="growth"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Critical Considerations">
+                        <outline text="Global Perspective"/>
+                    </outline>
+                    <outline text="Technological Impact"/>
+                </outline>
+                <outline text="Financial Assets">
+                    <outline text="Nonmarketable Financial Assets">
+                        <outline text="Savings accounts"/>
+                        <outline text="Nonnegotiable certificates of deposit (CDs)"/>
+                        <outline text="Money Market Deposit Accounts (MMDAs)"/>
+                        <outline text="U.S. government savings bonds"/>
+                    </outline>
+                    <outline text="Money Market Securities">
+                        <outline text="Treasury bills (T-bills)"/>
+                        <outline text="CD"/>
+                        <outline text="Commercial Paper"/>
+                        <outline text="Repurchaseable agreement RPs"/>
+                        <outline text="Banker's acceptance"/>
+                    </outline>
+                </outline>
+                <outline text="Investing FrameWork &amp; alternative">
+                    <outline text="Fundamentals">
+                        <outline text="intellignent investing">
+                            <outline text="learn to say no"/>
+                            <outline text="avoid financial scam"/>
+                            <outline text="investigate in alternative"/>
+                        </outline>
+                        <outline text="Risk Aversion">
+                            <outline text="Investor dislike risk"/>
+                            <outline text="risk quantified as variance/std"/>
+                        </outline>
+                    </outline>
+                    <outline text="financial assets">
+                        <outline text="Money Market securities">
+                            <outline text="T-bill"/>
+                            <outline text="Negotiable CD">
+                                <outline text="Issued by bank"/>
+                                <outline text="liability of issuer"/>
+                                <outline text="Negotiable in open market"/>
+                                <outline text="Min denomiation 100K"/>
+                            </outline>
+                            <outline text="Banker's Acceptance">
+                                <outline text="Time draft on bank"/>
+                                <outline text="Used in international trade"/>
+                                <outline text="trade on discount basis"/>
+                            </outline>
+                            <outline text="Commercial paper"/>
+                            <outline text="Priced based on discount from face value"/>
+                            <outline text="Bank discount rate"/>
+                            <outline text="Bond equivalent Yield"/>
+                        </outline>
+                        <outline text="bonds">
+                            <outline text="Munis">
+                                <outline text="sold by states/counties, cities, etc"/>
+                                <outline text="Large market ($3.5T as 2017)"/>
+                                <outline text="individual investors largest holders"/>
+                                <outline text="serial vs. term issues"/>
+                                <outline text="often insured"/>
+                            </outline>
+                            <outline text="Corp Bond">
+                                <outline text="Mortgage bonds (secured by assets)"/>
+                            </outline>
+                            <outline text="bond rating">
+                                <outline text="Opinion on relative quality"/>
+                                <outline text="Agencies: S&amp;P, Moody's, Fitch"/>
+                                <outline text="S&amp;P Ratings: AAA, AA, A,BBB,D"/>
+                                <outline text="Investment-grade securities (first 4 categories)"/>
+                            </outline>
+                            <outline text="Bond Yield and Prices">
+                                <outline text="Basis Points (100bps=1%)"/>
+                                <outline text="Yield to Maturity (YTM)"/>
+                                <outline text="Yield Curve (Term structure)"/>
+                                <outline text="Credit Spread (Default Premium)"/>
+                                <outline text="Bond Equivalent yield"/>
+                                <outline text="Yield to First Call (YC)"/>
+                                <outline text="Horizon Return"/>
+                                <outline text="Reinvestment rate risk"/>
+                                <outline text="Valued using present value"/>
+                            </outline>
+                            <outline text="bond analysis">
+                                <outline text="Duration">
+                                    <outline text="Measures interest rate sensitivity"/>
+                                    <outline text="Modified Duration"/>
+                                    <outline text="Relationship with maturity, YTM, coupon"/>
+                                </outline>
+                                <outline text="immunization"/>
+                            </outline>
+                        </outline>
+                        <outline text="stocks">
+                            <outline text="Common stock"/>
+                            <outline text="stock splits"/>
+                            <outline text="Stock Valuation">
+                                <outline text="DCF technique"/>
+                                <outline text="Intrinsic Value"/>
+                                <outline text="DDM dividend discount model">
+                                    <outline text="Discounted value of future dividend"/>
+                                    <outline text="Zero-Growth rate model"/>
+                                    <outline text="Constant_Growth rate model"/>
+                                    <outline text="Muliple-Growth rate model (two stage, three-stage, H-model)"/>
+                                </outline>
+                                <outline text="Price Multiples"/>
+                                <outline text="target prices"/>
+                            </outline>
+                            <outline text="Stock Market Economy">
+                                <outline text="Relationship with business cycle"/>
+                                <outline text="sector performance"/>
+                                <outline text="Cyclical vs. Defensive sectors"/>
+                            </outline>
+                            <outline text="Beta">
+                                <outline text="Measure of systematic risk"/>
+                                <outline text="Asset's sensitivity to market return"/>
+                                <outline text="Beta categories (0&lt;b&lt;1, B=1, b&gt;1,b&lt;0)"/>
+                                <outline text="Estimating beta using market model (regression)"/>
+                                <outline text="Characteristic line"/>
+                            </outline>
+                        </outline>
+                        <outline text="Derivatives">
+                            <outline text="options">
+                                <outline text="Right to purchase/sell stock at specific price/time"/>
+                                <outline text="Calls"/>
+                                <outline text="puts"/>
+                                <outline text="Black-Scholes Model (valuation)"/>
+                                <outline text="Hedge Ratio (Delta)"/>
+                                <outline text="Index options"/>
+                                <outline text="LEAPS (long-term index options)"/>
+                            </outline>
+                            <outline text="future">
+                                <outline text="future exchange of asset"/>
+                                <outline text="single stock future (SSFs)"/>
+                            </outline>
+                        </outline>
+                        <outline text="private equity"/>
+                        <outline text="ADRs (american depositary receipts)"/>
+                    </outline>
+                    <outline text="investment process">
+                        <outline text="Original Financial Assets"/>
+                        <outline text="Role of Investment Bankers"/>
+                        <outline text="Markets and Regulation">
+                            <outline text="NYSE"/>
+                            <outline text="NASDAQ">
+                                <outline text="Electronic market"/>
+                            </outline>
+                            <outline text="Market Makers">
+                                <outline text="Dealers"/>
+                            </outline>
+                            <outline text="NYSE Regulation, Inc">
+                                <outline text="Protecting investor"/>
+                                <outline text="Market Integrity"/>
+                            </outline>
+                            <outline text="Circuit Breakers">
+                                <outline text="Trading Halt"/>
+                            </outline>
+                        </outline>
+                        <outline text="Short interest ratio"/>
+                        <outline text="Portfolio Theory">
+                            <outline text="Quantifying portfolio risk">
+                                <outline text="Markowitz"/>
+                            </outline>
+                            <outline text="Portfolio return">
+                                <outline text="Variance"/>
+                                <outline text="std"/>
+                            </outline>
+                            <outline text="Covariance"/>
+                            <outline text="Variance-covariance Matrix"/>
+                            <outline text="Portfolio risk components"/>
+                        </outline>
+                        <outline text="Arbitrage Pricing Theory (APT)">
+                            <outline text="n-factor model"/>
+                        </outline>
+                        <outline text="Security Market Line (SML)"/>
+                        <outline text="Calculating Returns"/>
+                        <outline text="Arithmetic Mean"/>
+                        <outline text="Geometric Mean"/>
+                        <outline text="Analyzing performance relative to conditions"/>
+                        <outline text="Analyzing risk">
+                            <outline text="Downside Risk Measurement">
+                                <outline text="drawdown"/>
+                                <outline text="VaR"/>
+                            </outline>
+                            <outline text="VaR calculation method"/>
+                            <outline text="Style Analysis"/>
+                        </outline>
+                        <outline text="Investment strategy">
+                            <outline text="Establish investor objective"/>
+                            <outline text="Determine expectations">
+                                <outline text="Economy"/>
+                                <outline text="Sector"/>
+                            </outline>
+                            <outline text="Develop &amp; implement strategy">
+                                <outline text="Asset Allocation"/>
+                                <outline text="Security selection"/>
+                            </outline>
+                            <outline text="Monitor Portfolio"/>
+                        </outline>
+                    </outline>
+                    <outline text="Economic factors">
+                        <outline text="Business Cycle">
+                            <outline text="Phase">
+                                <outline text="peak"/>
+                                <outline text="through"/>
+                                <outline text="Recession"/>
+                                <outline text="Expansion"/>
+                            </outline>
+                            <outline text="average duration">
+                                <outline text="Expansion ~ 60 MOs"/>
+                                <outline text="Contraction ~ 10 MOs"/>
+                            </outline>
+                        </outline>
+                        <outline text="Federal Reserve">
+                            <outline text="Monetary Policy"/>
+                            <outline text="Dual Mandate">
+                                <outline text="Maximum employment"/>
+                                <outline text="stable price"/>
+                            </outline>
+                        </outline>
+                        <outline text="Interest rate"/>
+                    </outline>
+                    <outline text="technical analysis">
+                        <outline text="Price Charts">
+                            <outline text="Candlestick"/>
+                            <outline text="Point and Figure"/>
+                        </outline>
+                        <outline text="Filter Rules"/>
+                    </outline>
+                </outline>
+                <outline text="Chpt1 Understand Investment">
+                    <outline text="Basic Investment Decision">
+                        <outline text="Return">
+                            <outline text="Why Invest ?">
+                                <outline text="Earn a return"/>
+                            </outline>
+                            <outline text="Expect return v.s Realized Return"/>
+                        </outline>
+                        <outline text="Risk">
+                            <outline text="Definition">
+                                <outline text="Uncertainty about actual return"/>
+                            </outline>
+                            <outline text="Different Types/Definition"/>
+                            <outline text="Quantifying Risk">
+                                <outline text="Variance"/>
+                                <outline text="STD"/>
+                            </outline>
+                            <outline text="Risk-Averse Investor"/>
+                            <outline text="Risk Tolerance"/>
+                            <outline text="Cannot Earn Higher Returns without higher risk"/>
+                        </outline>
+                        <outline text="Risk-Expected Return Tradeoff">
+                            <outline text="Upward sloping spectrum"/>
+                            <outline text="Risk-Free Rate return RF"/>
+                            <outline text="Positions of Assets">
+                                <outline text="Bond"/>
+                                <outline text="stock"/>
+                            </outline>
+                            <outline text="Rational Environment expectation"/>
+                        </outline>
+                    </outline>
+                    <outline text="Investment Decision Process">
+                        <outline text="Organized View"/>
+                        <outline text="Two Broad Steps"/>
+                        <outline text="Security Analysis">
+                            <outline text="valuation of securities"/>
+                            <outline text="function of risk and expected return"/>
+                        </outline>
+                        <outline text="Portfolio Managment">
+                            <outline text="Building and Optimal Portfolio"/>
+                            <outline text="Initial Construction"/>
+                            <outline text="Revision"/>
+                            <outline text="Continuous Management"/>
+                            <outline text="Measuring Performance"/>
+                        </outline>
+                    </outline>
+                    <outline text="Important Consideration">
+                        <outline text="The great unkown">
+                            <outline text="uncertainty"/>
+                        </outline>
+                        <outline text="Global Perspective">
+                            <outline text="Integrate economies"/>
+                            <outline text="Non-U.S securities"/>
+                            <outline text="Diversification"/>
+                        </outline>
+                        <outline text="Important of the interest">
+                            <outline text="Access to information"/>
+                            <outline text="online trading"/>
+                            <outline text="Information Overload"/>
+                            <outline text="Misleading/Fraudulent Information"/>
+                        </outline>
+                        <outline text="Individual vs. institutional investors">
+                            <outline text="Institutional investor types"/>
+                            <outline text="Dual Relationship"/>
+                            <outline text="Regulation FD"/>
+                            <outline text="Individual Investor Advantages"/>
+                        </outline>
+                        <outline text="Ethics in investing"/>
+                    </outline>
+                    <outline text="Scope of Investment Decision">
+                        <outline text="Investing Definition"/>
+                        <outline text="Assets">
+                            <outline text="Financial Assets">
+                                <outline text="Paper/Electronic claims">
+                                    <outline text="Marketable securities"/>
+                                </outline>
+                            </outline>
+                            <outline text="Real Assets">
+                                <outline text="Tangible"/>
+                                <outline text="Physical"/>
+                            </outline>
+                            <outline text="New Products (ETPs)"/>
+                        </outline>
+                        <outline text="Investment Management"/>
+                        <outline text="Wealth Management"/>
+                        <outline text="Conservative Positions to Aggressive Speculation"/>
+                    </outline>
+                    <outline text="Why people invest">
+                        <outline text="Make Money (improve Welfare)"/>
+                        <outline text="Monetary benefits (current &amp; Future)"/>
+                        <outline text="Fund from Assets, Borrowing, Savings"/>
+                        <outline text="Enhance Future Consumption"/>
+                        <outline text="Manage Wealth (inflation, taxes, etc)"/>
+                        <outline text="Achieve Financial goals"/>
+                    </outline>
+                    <outline text="Portfolio Perspective">
+                        <outline text="Evaluate and Manage as a Unified Whole"/>
+                        <outline text="Optimal Combination of Financial Assets"/>
+                    </outline>
+                    <outline text="Important of studying investment">
+                        <outline text="Personal Aspects">
+                            <outline text="Individual Wealth (human Capital)"/>
+                            <outline text="Retirement Decisions (Defined contribution plan)"/>
+                            <outline text="IRA">
+                                <outline text="Tax-shelterd Accounts"/>
+                                <outline text="Self-direct brokerage"/>
+                                <outline text="impact of return rate"/>
+                            </outline>
+                            <outline text="Build Wealth Over lifetime"/>
+                            <outline text="Increased individual investor participation"/>
+                            <outline text="Avoid Pitfalls"/>
+                        </outline>
+                        <outline text="Investing as a Profession">
+                            <outline text="Rewarding Career"/>
+                            <outline text="Investment Bankers and Traders"/>
+                            <outline text="Security Analysts"/>
+                            <outline text="Portfolio manager"/>
+                            <outline text="Stockbroker"/>
+                            <outline text="financial adviser"/>
+                            <outline text="CFA"/>
+                            <outline text="Cyclical Employment/pay"/>
+                        </outline>
+                    </outline>
+                    <outline text="Example and Concepts">
+                        <outline text=""/>
+                    </outline>
+                    <outline text="Text Organization">
+                        <outline text="Part 1 Background material"/>
+                        <outline text="Part 2 Risk and Return"/>
+                        <outline text="Part 3-5 Asset valuation"/>
+                        <outline text="Part 6 Alternative investment"/>
+                        <outline text="part 7 Portfolio Management process"/>
+                    </outline>
+                    <outline text="Key Concepts">
+                        <outline text="risk and expected return tradeoff"/>
+                        <outline text="risk-aversion"/>
+                        <outline text="risk tolerance"/>
+                        <outline text="security analysis"/>
+                        <outline text="portfolio management"/>
+                        <outline text="diversification"/>
+                        <outline text="market efficiency"/>
+                        <outline text="Regulation FD"/>
+                        <outline text="Cryptocurrency"/>
+                        <outline text="blockchain"/>
+                    </outline>
+                </outline>
+                <outline text="Chpt2 Investment Alternative">
+                    <outline text="Organizing financial assets">
+                        <outline text="Financial Claims on Issuers"/>
+                        <outline text="Marketable Securities"/>
+                        <outline text="Household Savings Options">
+                            <outline text="Hold Liabilities fo Traditional Intermediaries"/>
+                            <outline text="Hold Securities directly"/>
+                            <outline text="hold securities indirectly (investment Companies)"/>
+                        </outline>
+                    </outline>
+                    <outline text="Non-Marketable financial Assets">
+                        <outline text="Personal Transaction"/>
+                        <outline text="Safe Investment"/>
+                        <outline text="High Liquidity"/>
+                        <outline text="Major Types">
+                            <outline text="Saving accounts"/>
+                            <outline text="Nonegotiable CD"/>
+                            <outline text="Money Market Deposit Account"/>
+                            <outline text="U.S. Govt saving bonds(EE, I-bonds)"/>
+                        </outline>
+                    </outline>
+                    <outline text="Money Market Securities">
+                        <outline text="Short-term"/>
+                        <outline text="Large Denomination &gt;100K"/>
+                        <outline text="Dominated by Institution"/>
+                        <outline text="Can be negotiable"/>
+                        <outline text="Often hold indirectly (Mutual Funds)"/>
+                        <outline text="Major Types">
+                            <outline text="T-Bill">
+                                <outline text="Premier Money Market Investment"/>
+                                <outline text="Safe Asset (Risk-Free)"/>
+                                <outline text="sold at discount"/>
+                                <outline text="Benchmark"/>
+                            </outline>
+                            <outline text="Negotiable CDs"/>
+                            <outline text="Commercial Paper"/>
+                            <outline text="Repurchase Agreement (RP)"/>
+                            <outline text="Banker's Acceptance"/>
+                            <outline text="Eurodollars"/>
+                        </outline>
+                        <outline text="Yield Measures">
+                            <outline text="Bank Discount Rate"/>
+                            <outline text="Bond Equivalent Yield (rBEY)"/>
+                            <outline text="Equivalent Annual Yield (rEAY)"/>
+                        </outline>
+                    </outline>
+                    <outline text="Capital Market Securities">
+                        <outline text="Longer Maturity &gt;1 Yr"/>
+                        <outline text="Generally higher risk"/>
+                        <outline text="Types">
+                            <outline text="Fixed-Income securities">
+                                <outline text="specified payment schedule"/>
+                                <outline text="primarily bonds"/>
+                                <outline text="bonds">
+                                    <outline text="Long-term debt instruments"/>
+                                    <outline text="issuer's contractual obligation"/>
+                                    <outline text="par value (typically 1k)"/>
+                                    <outline text="Term bond (matures on specified date)"/>
+                                    <outline text="coupon bonds (periodic interest)"/>
+                                    <outline text="interest Typically paid Semiannually"/>
+                                    <outline text="Price quote as % of par"/>
+                                    <outline text="Trade on Accrued Interest basis"/>
+                                    <outline text="Price fluctuate with interest rate (Inverse Relationship)"/>
+                                    <outline text="Callable bonds"/>
+                                    <outline text="Zero-Coupon bonds"/>
+                                </outline>
+                                <outline text="types of bonds by issuer">
+                                    <outline text="Treasury securities">
+                                        <outline text="Us. Govt issuer"/>
+                                        <outline text="Safest Credit risk (practical basis)"/>
+                                        <outline text="Note (2,5,10)"/>
+                                        <outline text="Bonds(&gt;10 yrs)"/>
+                                        <outline text="Interest exempt from state/local taxes"/>
+                                        <outline text="TIPS (treasury inflation-protected securities)"/>
+                                        <outline text="STRIPS ( Separate trading of registered interest and principal of securities)"/>
+                                    </outline>
+                                    <outline text="Govt Agency Securities">
+                                        <outline text="Federal Agencies (Fully Guaranteed)"/>
+                                        <outline text="Govt-sponsored enterprise (GSEs-Not guaranteed)"/>
+                                        <outline text="Ginnie Mae (GNMA)"/>
+                                        <outline text="Fannie Mae (FNMA)"/>
+                                        <outline text="Fredie Mac (FHLMC)"/>
+                                        <outline text="Face Risk of early redemption (Ginnie Mae)"/>
+                                    </outline>
+                                    <outline text="Munis">
+                                        <outline text="State, Counties, Cities, Political Entities Issuer"/>
+                                        <outline text="Interest often exempt from federal/state/local taxes"/>
+                                        <outline text="Vast Market"/>
+                                        <outline text="Individual Investors Largest Holders"/>
+                                        <outline text="Historical default rate favorable"/>
+                                        <outline text="types">
+                                            <outline text="General Obligation Bonds"/>
+                                            <outline text="Revenue BOnds"/>
+                                        </outline>
+                                        <outline text="serial bonds"/>
+                                        <outline text="often issured"/>
+                                        <outline text="taxable equivalent yield (TEY)"/>
+                                    </outline>
+                                    <outline text="Corporate Bonds">
+                                        <outline text="Corporation Issues"/>
+                                        <outline text="Large Market"/>
+                                        <outline text="Senior Securities"/>
+                                        <outline text="Debentures (Unsecured)"/>
+                                        <outline text="Convertible bonds"/>
+                                        <outline text="Mortgage bonds (Secured)"/>
+                                    </outline>
+                                </outline>
+                                <outline text="bond ratings">
+                                    <outline text="Opinions on relative quality"/>
+                                    <outline text="Rating Agencies"/>
+                                    <outline text="Reflect probability of default"/>
+                                    <outline text="Investment Grade (AAA to BBB)"/>
+                                    <outline text="speculative (BB or lower)"/>
+                                    <outline text="Junk BOnds (High Yield debt)"/>
+                                    <outline text="limitations (disagreement, variation within category)"/>
+                                </outline>
+                                <outline text="Asset-backed securities (ABSs)">
+                                    <outline text="Result of securitizaton"/>
+                                    <outline text="Interest in pool of assets"/>
+                                    <outline text="transform illiquid loans into liquid securities"/>
+                                    <outline text="Can be structured into tranches"/>
+                                    <outline text="includes mortgage-backed securities"/>
+                                    <outline text="Examples: Credit cards, auto loans, student loans"/>
+                                </outline>
+                            </outline>
+                            <outline text="Equity securities">
+                                <outline text="Ownership interest in corporation"/>
+                                <outline text="Residual claim"/>
+                                <outline text="types">
+                                    <outline text="Preferred stock (Hybrid security)"/>
+                                    <outline text="common stock">
+                                        <outline text="most individual investor focus"/>
+                                        <outline text="value fluctuate sharply"/>
+                                        <outline text="dividend">
+                                            <outline text="Important component of return"/>
+                                            <outline text="typical declared/paid quarterly"/>
+                                            <outline text="declaration date"/>
+                                            <outline text="holder-of-record date"/>
+                                            <outline text="ex-dividend date"/>
+                                            <outline text="payment date"/>
+                                            <outline text="stock dividends"/>
+                                        </outline>
+                                        <outline text="dividend yield"/>
+                                        <outline text="payout ratio"/>
+                                        <outline text="retention/plowback ratio"/>
+                                        <outline text="stock splits"/>
+                                        <outline text="stock repurchases (Buyback)"/>
+                                        <outline text="P/E Ratio (Earning Multiples)"/>
+                                    </outline>
+                                </outline>
+                                <outline text="Private equity (Not Publicly traded)"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Derivative Securities">
+                        <outline text="Combine characteristics of securities"/>
+                        <outline text="types">
+                            <outline text="options"/>
+                            <outline text="futures contracts"/>
+                        </outline>
+                    </outline>
+                    <outline text="Indirect Investing">
+                        <outline text="Through mutual funds"/>
+                        <outline text="through exchange-trade-funds ETFs"/>
+                        <outline text="through pension funds"/>
+                        <outline text="investment companies"/>
+                    </outline>
+                    <outline text="International Investing (Global Perspective)">
+                        <outline text="investment alternatives available from foreign markets"/>
+                        <outline text="ADRs"/>
+                        <outline text="Securities influenced by Global Events"/>
+                        <outline text="Home Country Bias (Tendency to favor Domentic)"/>
+                    </outline>
+                </outline>
+                <outline text="Chpt3 Indirect Investing with Funds">
+                    <outline text="Mutual Funds">
+                        <outline text="Why investor use them">
+                            <outline text="widely owned"/>
+                            <outline text="Financial press touts performance"/>
+                            <outline text="friends are pleased"/>
+                            <outline text="relieve day-to-day decision"/>
+                            <outline text="diversification"/>
+                            <outline text="professional managers"/>
+                            <outline text="access to high face value securities (MMFs)"/>
+                        </outline>
+                        <outline text="Types of mutual funds (ICI Classifications)">
+                            <outline text="Equity Funds">
+                                <outline text="Capital appreciation"/>
+                                <outline text="total return"/>
+                                <outline text="world equity"/>
+                            </outline>
+                            <outline text="Hybrid Funds">
+                                <outline text="Mix of equity and fixed-income"/>
+                            </outline>
+                            <outline text="Taxable bond funds">
+                                <outline text="investment grade"/>
+                                <outline text="high-yield"/>
+                                <outline text="Govt bond"/>
+                                <outline text="multi-sector bond"/>
+                                <outline text="world bond"/>
+                            </outline>
+                            <outline text="Tax-Exempt bonds funds">
+                                <outline text="national municipal"/>
+                                <outline text="state municipal"/>
+                            </outline>
+                            <outline text="Money Market Funds (MMFs)">
+                                <outline text="Taxable MMFs"/>
+                                <outline text="tax-exempt MMFs"/>
+                                <outline text="safest type"/>
+                                <outline text="short-term, high-grade securities"/>
+                                <outline text="stable NAV"/>
+                            </outline>
+                        </outline>
+                        <outline text="Key features">
+                            <outline text="NAV">
+                                <outline text="Per share value of securities"/>
+                                <outline text="Calculated daily after market close"/>
+                            </outline>
+                            <outline text="Sales Charge (Load)">
+                                <outline text="load funds vs. no-load funds"/>
+                                <outline text="percentage of amount invested"/>
+                            </outline>
+                            <outline text="Annual Expense Ratio">
+                                <outline text="Fee for operating costs and management"/>
+                                <outline text="lower expense = better performance indicator"/>
+                            </outline>
+                            <outline text="Performance metrics">
+                                <outline text="Total return">
+                                    <outline text="includes cash distribution and price changes"/>
+                                    <outline text="measures all ways investors make money"/>
+                                </outline>
+                                <outline text="cumulative total return"/>
+                                <outline text="average annual total return (Geometric mean)">
+                                    <outline text="Hypothetical constant growth rate"/>
+                                    <outline text="used for direct comparisons"/>
+                                </outline>
+                            </outline>
+                            <outline text="tax efficiency">
+                                <outline text="less efficient than ETFs regarding capital gains"/>
+                                <outline text="capital gains passed through to shareholders"/>
+                                <outline text="high turnover = less tax efficient"/>
+                            </outline>
+                            <outline text="investment styles (equity)">
+                                <outline text="growth funds"/>
+                                <outline text="value funds"/>
+                                <outline text="blend funds"/>
+                                <outline text="larg/mid/small cap"/>
+                            </outline>
+                            <outline text="Benchmarks">
+                                <outline text="Used to judge relative performance"/>
+                                <outline text="S&amp;P500 index"/>
+                                <outline text="Russell 2000"/>
+                                <outline text="Lipper Growth and income fund average"/>
+                            </outline>
+                            <outline text="morning start rating">
+                                <outline text="Five-star system (historical risk-adjusted performance)"/>
+                                <outline text="compares funds within categories"/>
+                                <outline text="not intended to predict future performance"/>
+                                <outline text="forward-looking system">
+                                    <outline text="Gold"/>
+                                    <outline text="Silver"/>
+                                    <outline text="Bronze"/>
+                                    <outline text="Neutral"/>
+                                    <outline text="Negative"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="how Purchased">
+                            <outline text="Directly from fund companies (no-load)"/>
+                            <outline text="through brokers (may underperform, higher cost)"/>
+                            <outline text="Fund Supermarkets"/>
+                        </outline>
+                    </outline>
+                    <outline text="ETFs">
+                        <outline text="increasingly popular alternative"/>
+                        <outline text="bundle assets that trade as one security"/>
+                        <outline text="trade on an exchange"/>
+                        <outline text="resemble closed-end funds"/>
+                        <outline text="generally sell close to NAV"/>
+                        <outline text="Advantages">
+                            <outline text="tax efficiency (investors control capital gain)"/>
+                            <outline text="lower expense ratios than actively managed mutual funds"/>
+                        </outline>
+                        <outline text="examples">
+                            <outline text="SPY - S&amp;P500"/>
+                            <outline text="Diamonds (DIA-dow jones industrial average)"/>
+                            <outline text="Cubes (QQQ-NASDAQ 100 index)"/>
+                            <outline text="Vanguard Total Stock Market ETF (VTI)"/>
+                            <outline text="iShare Silver Trust ETF (SLV)"/>
+                        </outline>
+                        <outline text="track various investments (equities, bonds, real estate, commodities)"/>
+                        <outline text="growth trends">
+                            <outline text="Started with equity securities (until 2002)"/>
+                            <outline text="rapid growth assets"/>
+                            <outline text="now cover bonds, real estate, currencies, gold, commodities"/>
+                        </outline>
+                        <outline text="actively managed ETFs"/>
+                        <outline text="caution for investors">
+                            <outline text="narrow focused ETFs, may have marginal value"/>
+                            <outline text="leveraged and inverse leverage ETFs are complex, intended for short-term use"/>
+                            <outline text="some funds go out of business"/>
+                        </outline>
+                    </outline>
+                    <outline text="ETNs">
+                        <outline text="Unsecured debt security"/>
+                        <outline text="represents a promissory note"/>
+                        <outline text="payment based on underlying assets price"/>
+                        <outline text="similarities to ETFs (track assets, low expenses, trade on exchange)"/>
+                        <outline text="primary Difference vs. ETFs">
+                            <outline text="ETN=debt security issued by fund"/>
+                            <outline text="ETF=ownership calim on underlying securities"/>
+                        </outline>
+                        <outline text="carry credit quality risk of issues"/>
+                        <outline text="minor techinical differences (may affect taxation)"/>
+                        <outline text="example: Ipat S&amp;P OIL fund (OIL) vs. U.S oil fund (USO-ETF)"/>
+                    </outline>
+                    <outline text="Closed-End Funds">
+                        <outline text="price can be unequal to NAV"/>
+                        <outline text="trade at discounts or premium"/>
+                        <outline text="can be &quot;worth more dead than alive&quot;"/>
+                        <outline text="single-country funds traditionally closed-end"/>
+                    </outline>
+                    <outline text="Hedge Funds">
+                        <outline text="unregulated companies"/>
+                        <outline text="seek to exploit market opportunities"/>
+                        <outline text="aim for larger returns"/>
+                        <outline text="frequently in the news"/>
+                    </outline>
+                    <outline text="Reasons for indirect investing">
+                        <outline text="Alternative to direct investing"/>
+                        <outline text="relieve day-to-day decision"/>
+                        <outline text="diversification"/>
+                        <outline text="professional management"/>
+                        <outline text="potential cost savings (vs. active management/advisors) with index funds/ETFs"/>
+                    </outline>
+                </outline>
+                <outline text="Chpt4 Navigating Securities Markets and Index">
+                    <outline text="Primary Markets">
+                        <outline text="Definitions">
+                            <outline text="issuer sells securities directly to investor"/>
+                            <outline text="cash goes from buyer to issuers"/>
+                            <outline text="Buyer receives new financial claim"/>
+                        </outline>
+                        <outline text="examples">
+                            <outline text="New Treasury bonds"/>
+                            <outline text="New Apple stock"/>
+                            <outline text="new california bonds"/>
+                        </outline>
+                        <outline text="type of new issues">
+                            <outline text="Seasoned issues">
+                                <outline text="stock issued by publicly traded company"/>
+                            </outline>
+                            <outline text="IPO">
+                                <outline text="first time company sell securities"/>
+                                <outline text="require SEC registration (S-1 filing)"/>
+                                <outline text="IPOs run in cycles (dot.com, financial crisis)"/>
+                                <outline text="often underpriced (skyrocket first day)"/>
+                                <outline text="long-run performance not attractive"/>
+                                <outline text="lockup period for employees"/>
+                            </outline>
+                        </outline>
+                        <outline text="role of investment banker">
+                            <outline text="intermediary between issuers and investors"/>
+                            <outline text="expertise and access to capital"/>
+                            <outline text="advice on type, features, price, timing"/>
+                            <outline text="underwriting">
+                                <outline text="purchase securities, assume resale risk"/>
+                                <outline text="compensated by spread (discount)"/>
+                            </outline>
+                            <outline text="syndicates">
+                                <outline text="Groups of investment banks"/>
+                                <outline text="diversifies risk"/>
+                            </outline>
+                        </outline>
+                        <outline text="indispensable to economy"/>
+                    </outline>
+                    <outline text="Secondary Markets">
+                        <outline text="definitions">
+                            <outline text="investors trade existing securities"/>
+                            <outline text="issuers unaffected (no new cash)"/>
+                            <outline text="securities can trade repeatedly"/>
+                        </outline>
+                        <outline text="importance">
+                            <outline text="provides liquidity for primary maket purchasers"/>
+                            <outline text="allow investors to sell securities quickly"/>
+                        </outline>
+                        <outline text="equity markets">
+                            <outline text="Major exchanges">
+                                <outline text="NYSE">
+                                    <outline text="oldest and prominent U.S market"/>
+                                    <outline text="world largest exchange"/>
+                                    <outline text="physical location"/>
+                                    <outline text="involves specialists/Designated Market Makers"/>
+                                    <outline text="High Listing requirement"/>
+                                    <outline text="traded list securities"/>
+                                    <outline text="NYSE MKT (formerly Amex) acquired by NYSE"/>
+                                    <outline text="program trading significant volume"/>
+                                    <outline text="Trading share decreased to ~22% (2017)"/>
+                                </outline>
+                                <outline text="NASDAQ">
+                                    <outline text="Largest electronic screen-based market"/>
+                                    <outline text="electronic trading system"/>
+                                    <outline text="Market Makers (dealers) compete electronically"/>
+                                    <outline text="quotes and order consolidated"/>
+                                    <outline text="primary market for NASDAQ listed stocks"/>
+                                    <outline text="home of technology companies (AAPL, GOOG)"/>
+                                    <outline text="most stock symbols have 4 letters"/>
+                                    <outline text="World's largest exchange company(2017)"/>
+                                    <outline text="List &gt; 3700 companies in 35 countries (2017)"/>
+                                </outline>
+                                <outline text="BATS (Better Alternative Trading System)">
+                                    <outline text="launched as ECN (2005), converted to exchange (2008)"/>
+                                    <outline text="third largest securities exchange"/>
+                                    <outline text="accounts for ~11% of U.S trading volume"/>
+                                    <outline text="appeal to high frequency traders (hedge funds)"/>
+                                    <outline text="operates U.S. stock exchanges, U.S options, BATS Europe"/>
+                                    <outline text="Began listing ETFs (2012)"/>
+                                </outline>
+                            </outline>
+                            <outline text="Electronic Communication Networks (ECNs)">
+                                <outline text="computerized trading network"/>
+                                <outline text="matches buy/sell orders from subscribers/brokers"/>
+                                <outline text="displays order in system"/>
+                                <outline text="subscribers see full order book"/>
+                                <outline text="display quotes in NASDAQ system"/>
+                                <outline text="Offers automation, lower costs, anonymity"/>
+                                <outline text="No Spreads or commissions (fees instead)"/>
+                            </outline>
+                            <outline text="over the counter (OTC) market">
+                                <outline text="not an organized marketplace or exchange"/>
+                                <outline text="for equity securities not list on U.S exchange"/>
+                                <outline text="companies unable to meet listing standards or choose not to list"/>
+                                <outline text="often small, high-risk companies"/>
+                                <outline text="quoted on Pink Sheets or OTC Bulletin Board (registered)"/>
+                            </outline>
+                            <outline text="brokers">
+                                <outline text="intermediaries representing buyers/sellers"/>
+                                <outline text="attempt to get best price"/>
+                                <outline text="collect commissions"/>
+                                <outline text="generally no vested interest in buy/sell orders"/>
+                            </outline>
+                            <outline text="listed securities">
+                                <outline text="meet exchange requirements"/>
+                            </outline>
+                        </outline>
+                        <outline text="bond markets">
+                            <outline text="viable market need for bondholders flexibility"/>
+                            <outline text="prevents demand for higher yields"/>
+                            <outline text="trade existing bonds"/>
+                            <outline text="trading venues">
+                                <outline text="mostly over the counter (dealer-to-dealer)"/>
+                                <outline text="ICE (intercontinental exchange) NYSE Bonds (electronic platform)"/>
+                                <outline text="small amounts on NYSE and Amex bond markets"/>
+                            </outline>
+                            <outline text="individual investors (historically difficult)"/>
+                            <outline text="can buy treasuries directly (TreasuryDirect)"/>
+                            <outline text="use a broker for other bonds"/>
+                        </outline>
+                        <outline text="derivatives markets">
+                            <outline text="puts and calls trade on various options exchange"/>
+                            <outline text="futures contracts trade on various futures exchanges"/>
+                        </outline>
+                    </outline>
+                    <outline text="Market Indexes">
+                        <outline text="Universal everyday use by investors"/>
+                        <outline text="different calculation methods affect results (e.g., 2014 DJIA vs. S&amp;P 500)"/>
+                        <outline text="key U.S Indexes">
+                            <outline text="Dow Jones Index (DJIA)"/>
+                            <outline text="NASDAQ index"/>
+                            <outline text="S&amp;P 500"/>
+                        </outline>
+                        <outline text="Foreign stock market indicators">
+                            <outline text="Composition/weighting vary widely"/>
+                            <outline text="make comparisons difficult"/>
+                            <outline text="Major Foreign Indexes">
+                                <outline text="MSCI EAFE Index (Europe, AustralAsia, Far East)"/>
+                                <outline text="Capitalization-weighted"/>
+                                <outline text="measures developed non-American market"/>
+                                <outline text="Excludes emerging markets (Brazil, China, India)"/>
+                                <outline text="Dow Jones World Stock Index (Global, Capitalization-weighted)"/>
+                                <outline text="Global DowSM Index">
+                                    <outline text="reflects global stock market by industry/region"/>
+                                </outline>
+                                <outline text="STOXX Europe 600 index">
+                                    <outline text="18 European countries"/>
+                                </outline>
+                                <outline text="Nikkei 225">
+                                    <outline text="Japanese stocks"/>
+                                </outline>
+                                <outline text="MSCI EM indexes">
+                                    <outline text="Comprehensive EM,"/>
+                                    <outline text="EM Beyond BRIC"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                </outline>
+                <outline text="Chpt5 How Securities are trade">
+                    <outline text="Brokerage Transactions">
+                        <outline text="types of brokers">
+                            <outline text="full-service brokers">
+                                <outline text="offer information and advice"/>
+                                <outline text="higher commissions"/>
+                            </outline>
+                            <outline text="discount brokers">
+                                <outline text="may not office advices"/>
+                                <outline text="lower commissions ($5-$7)"/>
+                                <outline text="deep discount brokers">
+                                    <outline text="interactive brokers"/>
+                                </outline>
+                                <outline text="commission-free">
+                                    <outline text="Robinhood"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="brokerages accounts">
+                            <outline text="cash account">
+                                <outline text="customer pays full price"/>
+                            </outline>
+                            <outline text="margin account">
+                                <outline text="Borrow from brokerage"/>
+                                <outline text="minimum deposit (2k+)"/>
+                            </outline>
+                            <outline text="Cash management accounts">
+                                <outline text="banking services (check,cards)"/>
+                                <outline text="instant loans"/>
+                                <outline text="sweep accounts (invest excess cash)"/>
+                            </outline>
+                            <outline text="wrap accounts">
+                                <outline text="Broker matches client with money manager"/>
+                                <outline text="Costs wrapped in one fee"/>
+                                <outline text="minimum investment (100K+)"/>
+                            </outline>
+                            <outline text="mutual fund wrap account">
+                                <outline text="investment in mutual funds"/>
+                                <outline text="more modest ($10K-100K)"/>
+                                <outline text="asset allocation model"/>
+                            </outline>
+                            <outline text="dividdend reinvestment plans (DRIP)">
+                                <outline text="reinvest dividends into shares"/>
+                                <outline text="typicallly no fees"/>
+                                <outline text="dollar cost averaging"/>
+                                <outline text="can invest additional cash"/>
+                            </outline>
+                            <outline text="Direct stock purchase programs (DSPs)">
+                                <outline text="Buy stock directly from company"/>
+                                <outline text="no broker needed for initial purchase"/>
+                                <outline text="small purchase fee"/>
+                            </outline>
+                        </outline>
+                        <outline text="avoiding brokers">
+                            <outline text="TreasuryDirect Program (Treasury securities)"/>
+                            <outline text="Direct stock purchase programs (DSPs)"/>
+                        </outline>
+                        <outline text="commisions vary"/>
+                    </outline>
+                    <outline text="How order works">
+                        <outline text="Trading Venues">
+                            <outline text="NYSE">
+                                <outline text="agency auction market (traditional)"/>
+                                <outline text="highly automated"/>
+                                <outline text="operated by ICE"/>
+                                <outline text="designated Market Makers (DMM)"/>
+                                <outline text="Hybrid market (auction &amp; electronic)"/>
+                                <outline text="includes NYSE Amex, NYSE Arca (ECN)"/>
+                            </outline>
+                            <outline text="NASDAQ">
+                                <outline text="largest U.S stock exchange by market share"/>
+                                <outline text="world first electronic market"/>
+                                <outline text="network of dealers"/>
+                                <outline text="market makers quote bid/asked prices"/>
+                            </outline>
+                        </outline>
+                        <outline text="Mondern-Day trading practices">
+                            <outline text="algorithmic trading (Algo Trading)">
+                                <outline text="used of computer programs"/>
+                                <outline text="automated decision (price,quantity,timing)"/>
+                                <outline text="often no human intervention"/>
+                                <outline text="used by large institution to break orders"/>
+                                <outline text="cited in Flash Crash (2010)"/>
+                            </outline>
+                            <outline text="High-Frequency trading (HFT)">
+                                <outline text="hold shares for short periods (min/sec)"/>
+                                <outline text="use latest technology"/>
+                                <outline text="execute trades in fractions of second"/>
+                                <outline text="large percentages on volume"/>
+                                <outline text="can jump ahead of orders"/>
+                                <outline text="can make trading difficult for institutions"/>
+                                <outline text="Buy and hold investor less affected"/>
+                                <outline text="Cited in Flash Crash (2010)"/>
+                                <outline text="speed is crucial"/>
+                            </outline>
+                        </outline>
+                        <outline text="Types of orders">
+                            <outline text="Market order">
+                                <outline text="Best available price"/>
+                                <outline text="execution assured"/>
+                            </outline>
+                            <outline text="limited order">
+                                <outline text="specified price or better"/>
+                                <outline text="execution may be delay or not occur"/>
+                                <outline text="day orders">
+                                    <outline text="effective for one day"/>
+                                </outline>
+                                <outline text="good until cancelled order">
+                                    <outline text="remain in effect"/>
+                                </outline>
+                                <outline text="entered in the limit book (DMM)"/>
+                            </outline>
+                            <outline text="stop orders">
+                                <outline text="stop-loss order">
+                                    <outline text="market order takes effect at specified price"/>
+                                    <outline text="exact transaction price not assured"/>
+                                    <outline text="buy stop order">
+                                        <outline text="above current price"/>
+                                    </outline>
+                                    <outline text="sell top order">
+                                        <outline text="below current price"/>
+                                    </outline>
+                                    <outline text="can limit losses/lock in profits"/>
+                                </outline>
+                            </outline>
+                            <outline text="stop limited order">
+                                <outline text="becomes limit order at stop price"/>
+                                <outline text="specifies two prices">
+                                    <outline text="stop"/>
+                                    <outline text="limit"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="order size">
+                            <outline text="Round lot">
+                                <outline text="100x share or multiples"/>
+                            </outline>
+                            <outline text="Odd lot">
+                                <outline text="1-99 shares"/>
+                            </outline>
+                        </outline>
+                        <outline text="clearing procedures">
+                            <outline text="Regular-way basis">
+                                <outline text="Normal settlement cycle"/>
+                            </outline>
+                            <outline text="Equities/Municipal Bonds">
+                                <outline text="2 business days after trade date"/>
+                            </outline>
+                            <outline text="Trade date (terms agreed)"/>
+                            <outline text="settlement date">
+                                <outline text="Ownership changes"/>
+                                <outline text="settle with broker"/>
+                            </outline>
+                            <outline text="street name">
+                                <outline text="securities hold by brokerage"/>
+                            </outline>
+                            <outline text="Monthly statement"/>
+                            <outline text="book-entry system">
+                                <outline text="Eliminate certificates"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Investor Protection in securities markets">
+                        <outline text="Govt regulation (Federal)">
+                            <outline text="Catalyst: 1929 crash, Great Depression"/>
+                            <outline text="Security Act of 1933">
+                                <outline text="New Issue disclosure"/>
+                            </outline>
+                            <outline text="Security Act of 1934">
+                                <outline text="secondary market disclosure"/>
+                                <outline text="Established SEC">
+                                    <outline text="Administer laws"/>
+                                    <outline text="protect investors"/>
+                                    <outline text="Division and offices"/>
+                                    <outline text="Requires registration/disclosuer"/>
+                                    <outline text="No Power to disapprove securities for lack of merit"/>
+                                    <outline text="primary enforcement: insider trading"/>
+                                </outline>
+                                <outline text="Requires exchange registration with SEC"/>
+                            </outline>
+                            <outline text="Maloney Act of 1936">
+                                <outline text="Extended SEC control to OTC market"/>
+                                <outline text="Provided for NASD (Selft-regulation of OTC dealers)">
+                                    <outline text="Licenses/regulates member"/>
+                                    <outline text="SEC had authority over NASD"/>
+                                </outline>
+                            </outline>
+                            <outline text="Trust Indenture Act of 1939">
+                                <outline text="Debt Securities"/>
+                            </outline>
+                            <outline text="Investment Company Act of 1940">
+                                <outline text="investment companies register"/>
+                                <outline text="follow procedures"/>
+                            </outline>
+                            <outline text="investment Advisers Act of 1940">
+                                <outline text="Advisers register"/>
+                            </outline>
+                            <outline text="Insider Trading">
+                                <outline text="Breach of fiduciary duty with material, non-public info"/>
+                            </outline>
+                        </outline>
+                        <outline text="self-regulation">
+                            <outline text="Regulation by exchanges (monitor trading)"/>
+                            <outline text="NYSE regulation, Inc">
+                                <outline text="Subsidiary of NYSE/ICE"/>
+                                <outline text="not-for-profit"/>
+                                <outline text="independent decision makeing"/>
+                                <outline text="Enforces federal laws and exchange rules"/>
+                                <outline text="regulates NYSE, NYSE Arca, NYSE MKT"/>
+                                <outline text="Monitor market participants and DMM"/>
+                                <outline text="Rules approved by SEC"/>
+                            </outline>
+                            <outline text="Market Safeguards">
+                                <outline text="Trading Halt">
+                                    <outline text="Company news"/>
+                                    <outline text="order imbalance"/>
+                                </outline>
+                                <outline text="Trading delay">
+                                    <outline text="after -hours issues"/>
+                                </outline>
+                            </outline>
+                            <outline text="Financial industry regulatory Authority (FINRA)">
+                                <outline text="created in 2007"/>
+                                <outline text="largest regulator for U.S securities firms"/>
+                                <outline text="oversight of firms and representative"/>
+                                <outline text="protect investors, ensures market integrity"/>
+                                <outline text="examines firms, enforces laws"/>
+                                <outline text="performs market regulation under contract"/>
+                                <outline text="independent, not-for-profit"/>
+                                <outline text="Consolidation of NASD and NYSE functions"/>
+                            </outline>
+                            <outline text="brokers obligated to ensure suitability"/>
+                            <outline text="Registered investment advisers (RIA) acts as fiduciaries"/>
+                        </outline>
+                        <outline text="other investor protections">
+                            <outline text="Insured Brokerage Accounts (SIPC)">
+                                <outline text="nonprofit membership corporation"/>
+                                <outline text="overseen by SEC"/>
+                                <outline text="insure customer accounts against firm failure"/>
+                                <outline text="coverage up to $500K/account"/>
+                                <outline text="High rate of investor recovery"/>
+                            </outline>
+                            <outline text="Dispute Resolution">
+                                <outline text="Typically resolve through mediation/arbitration (not court)"/>
+                                <outline text="stage1">
+                                    <outline text="solve with brokerage firm">
+                                        <outline text="written claim"/>
+                                    </outline>
+                                </outline>
+                                <outline text="stage2">
+                                    <outline text="mediation">
+                                        <outline text="voluntary"/>
+                                        <outline text="nonbinding"/>
+                                    </outline>
+                                </outline>
+                                <outline text="stage3">
+                                    <outline text="Abitration">
+                                        <outline text="binding"/>
+                                        <outline text="can determine damages"/>
+                                    </outline>
+                                </outline>
+                                <outline text="Arbitration rulings generally cannot be appealed"/>
+                                <outline text="litigation is difficult due to arbitration clause"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="margin trading">
+                        <outline text="Borrowing from brokerage to finance transaction"/>
+                        <outline text="requires cash/marginable securities deposit"/>
+                        <outline text="broker borrows from bank">
+                            <outline text="broker call rate"/>
+                        </outline>
+                        <outline text="broker charges customer">
+                            <outline text="margin interest rate"/>
+                        </outline>
+                        <outline text="cash has 100% loan value"/>
+                        <outline text="Most stock has 50% loan value"/>
+                        <outline text="Uses of margin account">
+                            <outline text="purchase additional securities (leverage)"/>
+                            <outline text="Borrow for personal purpose"/>
+                            <outline text="Provide overdraft protection"/>
+                        </outline>
+                        <outline text="comparable to a secured loan">
+                            <outline text="securities as collateral"/>
+                        </outline>
+                        <outline text="magnifies gains and losses"/>
+                        <outline text="must pay interest charges"/>
+                        <outline text="breakeven point higher due to interest"/>
+                        <outline text="margin is customer's equity"/>
+                        <outline text="margin requirements">
+                            <outline text="initial margin">
+                                <outline text="set by Federal Reserve">
+                                    <outline text="Regulation T"/>
+                                </outline>
+                                <outline text="Currently 50% for stocks (since 1974)"/>
+                                <outline text="Brokerage firms can require more"/>
+                                <outline text="amount investor contributes/value of transaction"/>
+                            </outline>
+                            <outline text="maintenance margin">
+                                <outline text="Absolute minimum equity at all times"/>
+                                <outline text="required by exchanges and brokers"/>
+                                <outline text="brokers usually require 30%+ on long positions"/>
+                                <outline text="NYSE requires 25%"/>
+                                <outline text="Failure result in margin call"/>
+                            </outline>
+                        </outline>
+                        <outline text="equity = market value of stock - amount borrowed"/>
+                        <outline text="excess margin can be withdrawn or used to buy more stock"/>
+                    </outline>
+                    <outline text="short selling">
+                        <outline text="Betting on a security price decline"/>
+                        <outline text="Borrowing a stock, selling it, replacing it later">
+                            <outline text="Hopefully lower price"/>
+                        </outline>
+                        <outline text="obligation to replace shorted stock"/>
+                        <outline text="broker sells borrowed security"/>
+                        <outline text="investor profits from difference (sell price - buy price)"/>
+                        <outline text="process">
+                            <outline text="think price will decline">
+                                <outline text="instruct broker">
+                                    <outline text="broker borrows/sells shares">
+                                        <outline text="price declines">
+                                            <outline text="buy back stock">
+                                                <outline text="replace borrowed shares">
+                                                    <outline text="Close position,profit"/>
+                                                </outline>
+                                            </outline>
+                                        </outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="details of short selling">
+                            <outline text="Must cover dividends paid on shorted stock"/>
+                            <outline text="must have a margin account"/>
+                            <outline text="must put up margin">
+                                <outline text="cash or long securities"/>
+                            </outline>
+                            <outline text="Net proceeds + required margin hold by broker"/>
+                            <outline text="account marked to market">
+                                <outline text="adjustment for prices changes"/>
+                            </outline>
+                            <outline text="withdraw if price declines, put up more funds if price rise"/>
+                            <outline text="no time limit">
+                                <outline text="unless lender want shares back"/>
+                            </outline>
+                            <outline text="possible short squeeze risk">
+                                <outline text="rising price force buying"/>
+                            </outline>
+                            <outline text="can use buy stop order to protect against rising price"/>
+                        </outline>
+                        <outline text="maintenance margin for short sales">
+                            <outline text="100% of current value + typical 30%"/>
+                        </outline>
+                        <outline text="contributes to market liquidity and smooths prices"/>
+                        <outline text="can be a good strategy in falling markets"/>
+                        <outline text="portfolio with long/short positions can dampen volatility"/>
+                        <outline text="can use investment advisory services or own analysis"/>
+                        <outline text="short interest ratio">
+                            <outline text="# shares sold short/ average daily trading volume"/>
+                            <outline text="indicates days to cover short positions"/>
+                            <outline text="higher ratio = more bearish sentiment"/>
+                        </outline>
+                        <outline text="two trades for a 'round trip'">
+                            <outline text="sell then buy back"/>
+                        </outline>
+                    </outline>
+                </outline>
+                <outline text="Chpt6 Investment Risk and Return">
+                    <outline text="Measuring Returns">
+                        <outline text="Total Return">
+                            <outline text="incorporates yield &amp; price change"/>
+                            <outline text="Generally annual percent values"/>
+                            <outline text="Bond Return Calculation"/>
+                            <outline text="Stock Return Calculation"/>
+                        </outline>
+                        <outline text="Return Relative (1+R)"/>
+                        <outline text="Cumulative Wealth Index (CWI)">
+                            <outline text="Measures wealth change over time"/>
+                            <outline text="compounding effect of returns"/>
+                            <outline text="based on initial investment (often $1)"/>
+                            <outline text="calculated using return relatives"/>
+                        </outline>
+                        <outline text="Inflation-adjusted Returns (Real Returns)">
+                            <outline text="nominal returns adjusted for inflation"/>
+                            <outline text="reflects purchasing power"/>
+                            <outline text="inflation based on consumer price index (CPI)"/>
+                            <outline text="relation: (1+R)=(1+Rr)*(1+Ir)"/>
+                        </outline>
+                        <outline text="Currency-adjusted returns">
+                            <outline text="Converting foreign investment return to domestic"/>
+                            <outline text="compounded by foreign currency value change"/>
+                            <outline text="impact can be substantial"/>
+                        </outline>
+                    </outline>
+                    <outline text="Summary statistics for returns">
+                        <outline text="Arithmetic mean">
+                            <outline text="Sume of values / number of values"/>
+                            <outline text="Better for typical performance over single periods"/>
+                            <outline text="better for rebalancing strategy"/>
+                        </outline>
+                        <outline text="Geometric mean">
+                            <outline text="Measure compound growth over time"/>
+                            <outline text="Nth root of product of return relatives"/>
+                            <outline text="Assumes cash flows reinvested"/>
+                            <outline text="reflects steady growth rate"/>
+                            <outline text="better for change in wealth over multiple periods"/>
+                            <outline text="better for buy and hold strategy"/>
+                            <outline text="always less than or equal to arithmetic mean"/>
+                            <outline text="difference related to dispersion">
+                                <outline text="std"/>
+                            </outline>
+                        </outline>
+                        <outline text="Arithmetic v.s. Geometric Mean usage"/>
+                    </outline>
+                    <outline text="Understanding risk">
+                        <outline text="risk and return go together"/>
+                        <outline text="trade-off between risk and return"/>
+                        <outline text="measures of total risk">
+                            <outline text="variance">
+                                <outline text="measures dispersion of returns"/>
+                            </outline>
+                            <outline text="std">
+                                <outline text="square root of variance"/>
+                                <outline text="measure in same units as mean"/>
+                                <outline text="more commonly used than variance"/>
+                                <outline text="useful for assessing possible outcomes"/>
+                            </outline>
+                        </outline>
+                        <outline text="primary risk components">
+                            <outline text="Interest risk"/>
+                            <outline text="market risk"/>
+                            <outline text="inflation risk"/>
+                            <outline text="Business risk"/>
+                            <outline text="Financial risk"/>
+                            <outline text="Exchange rate risk"/>
+                            <outline text="liquidity risk"/>
+                            <outline text="country risk"/>
+                        </outline>
+                    </outline>
+                    <outline text="Historical security performance (1926-2018)">
+                        <outline text="asset class performance">
+                            <outline text="small-cap stocks">
+                                <outline text="highest return on risk"/>
+                            </outline>
+                            <outline text="large cap stocks">
+                                <outline text="high return and risk"/>
+                            </outline>
+                            <outline text="long-term corporate bonds">
+                                <outline text="Moderate return and risk"/>
+                            </outline>
+                            <outline text="long-term govt bond">
+                                <outline text="moderate return"/>
+                                <outline text="slightly higer risk than corporate bond"/>
+                                <outline text="tax exemption ???"/>
+                            </outline>
+                            <outline text="intermediate-term govt bond">
+                                <outline text="lower return and risk than long-term govt bond"/>
+                            </outline>
+                            <outline text="U.S Treasury Bills">
+                                <outline text="lowest return and risk">
+                                    <outline text="minimal negative returns"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                        <outline text="cumulative wealth comparison ($100 initial)">
+                            <outline text="Large cap stock">
+                                <outline text="707163"/>
+                            </outline>
+                            <outline text="Small-cap stock">
+                                <outline text="3199541"/>
+                            </outline>
+                            <outline text="long-term corp bond">
+                                <outline text="20669"/>
+                            </outline>
+                            <outline text="long term govt bond">
+                                <outline text="14537"/>
+                            </outline>
+                            <outline text="intermediate-term govt bond">
+                                <outline text="10211"/>
+                            </outline>
+                            <outline text="U.S T-Bill">
+                                <outline text="2048"/>
+                            </outline>
+                            <outline text="inflation">
+                                <outline text="1428"/>
+                            </outline>
+                            <outline text="Exponential vs. linear growth"/>
+                        </outline>
+                        <outline text="return superiority by holding period">
+                            <outline text="small cap stocks superior in most single years"/>
+                            <outline text="equities dominance expands with longer holding periods"/>
+                            <outline text="equities superior to bonds in a 30-years period"/>
+                        </outline>
+                        <outline text="geometric mean v.s arithmetic mean difference related to volatility"/>
+                    </outline>
+                    <outline text="Compounding and discounting">
+                        <outline text="compounding">
+                            <outline text="earning interest on interest">
+                                <outline text="Future value"/>
+                            </outline>
+                        </outline>
+                        <outline text="discounting">
+                            <outline text="value today of future dollars">
+                                <outline text="Present value"/>
+                            </outline>
+                        </outline>
+                        <outline text="Time value of money is critical"/>
+                    </outline>
+                </outline>
+                <outline text="Chpt7 Essence of Portfolio theory">
+                    <outline text="Dealing with Uncertainty">
+                        <outline text="Future involves expected returns"/>
+                        <outline text="estimate and manage risk &amp; return"/>
+                        <outline text="Risk elements (Bernstein)">
+                            <outline text="Consequences vs. proability of being wrong"/>
+                            <outline text="expected the unexpected"/>
+                            <outline text="reversibility and control"/>
+                        </outline>
+                        <outline text="Using Probabilities">
+                            <outline text="Return must be estimated (expected return)"/>
+                            <outline text="Risk Present in Decision"/>
+                            <outline text="Think about Distribution of probable returns"/>
+                            <outline text="Probability of occurrence (Decimal/Fraction)"/>
+                        </outline>
+                        <outline text="probability distributions">
+                            <outline text="Discrete probability distributions"/>
+                            <outline text="Continuous Probability distributions"/>
+                            <outline text="subjective estimates"/>
+                        </outline>
+                        <outline text="Calculating expected return (security)">
+                            <outline text="expected value of probability distribution"/>
+                            <outline text="weighted average of outcomes by probability"/>
+                        </outline>
+                        <outline text="Calculating risk (security)">
+                            <outline text="Quantifying and Measuring risk"/>
+                            <outline text="variance or std used"/>
+                            <outline text="measure dispersion around mean"/>
+                            <outline text="Tighter distribution">
+                                <outline text="equal smaller std dev">
+                                    <outline text="equal smaller risk"/>
+                                </outline>
+                            </outline>
+                            <outline text="Ex. Ante vs. Ex Post Std Deviation"/>
+                        </outline>
+                    </outline>
+                    <outline text="Modern Portfolio Theory (MPT)">
+                        <outline text="Harry Markowitz (Father of MPT)"/>
+                        <outline text="Developed Basic Portfolio Principles (1950s)"/>
+                        <outline text="Framework for systematic portfolio selection"/>
+                        <outline text="Based on Expected return and risk"/>
+                        <outline text="quantified portfolio diversification"/>
+                        <outline text="account for interrelationships among security returns"/>
+                    </outline>
+                    <outline text="Portfolio return and risk">
+                        <outline text="Consider Total Portfolio"/>
+                        <outline text="individual security risk important but portfolio risk matters most"/>
+                        <outline text="Optimal portfolios constructed by diversification"/>
+                        <outline text="portfolio risk not simply sum of individual risks"/>
+                        <outline text="Portfolio expected return">
+                            <outline text="Weight average of individual security expected returns"/>
+                            <outline text="portfolio weights"/>
+                            <outline text="weights sum to 1"/>
+                        </outline>
+                        <outline text="portfolio risk">
+                            <outline text="measured by variance of std dev"/>
+                            <outline text="not a weight average of individual risks">
+                                <outline text="except perfect positive correlation"/>
+                            </outline>
+                            <outline text="risk reduction possible beyond weighted average"/>
+                        </outline>
+                    </outline>
+                    <outline text="analyzing portfolio risk">
+                        <outline text="Risk reduction - insurance principles">
+                            <outline text="Independent risk sources"/>
+                            <outline text="law of large numbers"/>
+                            <outline text="total risk falls toward 0 (if independent)"/>
+                            <outline text="statistically independent return unrealistic"/>
+                            <outline text="most stock positively correlated"/>
+                            <outline text="Market Risk (Common Sources) cannot be eliminated"/>
+                            <outline text="firm-specific risk v.s. Market Risk"/>
+                        </outline>
+                        <outline text="diversification">
+                            <outline text="Process of adding securities to reduce firm-specific risk"/>
+                            <outline text="key to managing portfolio risk"/>
+                            <outline text="lower portfolio risk without adversely affecting return"/>
+                            <outline text="random diversification">
+                                <outline text="selecting securities randomly"/>
+                                <outline text="risk declines rapidly initially"/>
+                                <outline text="benefits kick in immediately"/>
+                                <outline text="Cannot completely eliminate risk">
+                                    <outline text="Market risk remains"/>
+                                </outline>
+                                <outline text="marginal risk reduction decrease with more securities"/>
+                                <outline text="Generally not optimal"/>
+                            </outline>
+                            <outline text="efficient diversification">
+                                <outline text="based on MTP principles"/>
+                                <outline text="requires understanding portfolio risk in MPT context"/>
+                            </outline>
+                        </outline>
+                        <outline text="components of portfolio risk">
+                            <outline text="Weight individual security risk">
+                                <outline text="variance"/>
+                            </outline>
+                            <outline text="weight comovements btw security returns">
+                                <outline text="Covariance"/>
+                            </outline>
+                        </outline>
+                        <outline text="covariance">
+                            <outline text="Extent two random variables covary"/>
+                            <outline text="positive: returns move in same direction"/>
+                            <outline text="negative: returns move inversely"/>
+                            <outline text="Zero: return independent"/>
+                            <outline text="size depends on units"/>
+                            <outline text="primarily indicates direction (+/-/0)"/>
+                            <outline text="limited guidance on strength of association"/>
+                        </outline>
+                        <outline text="correlation coefficient">
+                            <outline text="Statistical measure of relative comovements"/>
+                            <outline text="Measures extent returns move together"/>
+                            <outline text="denotes association (not causation)"/>
+                            <outline text="standardized covariance measure"/>
+                            <outline text="bounded by +1 and -1"/>
+                            <outline text="+1: perfect postive correlation"/>
+                            <outline text="-1: perfect negative correlation"/>
+                            <outline text="0: Zero, or No, Correlation"/>
+                            <outline text="indicates direction and strength"/>
+                            <outline text="More popular measure of comovement"/>
+                        </outline>
+                        <outline text="impact of correlation of risk reduction">
+                            <outline text="Perfect positive correlation( +1): No risk reduction"/>
+                            <outline text="Perfect negative correlation(-1): risk can be complete eliminate"/>
+                            <outline text="less than perfect positive correlation: risk reduction occurs"/>
+                            <outline text="lower positive correlation=better risk reduction"/>
+                        </outline>
+                        <outline text="the n-security case">
+                            <outline text="Portfolio risk=f(variances,covariances,weights)"/>
+                            <outline text="adding security to large portfolio"/>
+                            <outline text="asset's own risk added"/>
+                            <outline text="Weighted covariances added"/>
+                            <outline text="covariance becomes more important than variance"/>
+                            <outline text="individual risks diversified away"/>
+                            <outline text="covariance terms contribute to portfolio risk"/>
+                        </outline>
+                        <outline text="simplifying Markowitz Calculations">
+                            <outline text="requires full set of security return covariances"/>
+                            <outline text="Number of covariances=n(n-1)"/>
+                            <outline text="Number of covariances=[n(n-1)]/2"/>
+                            <outline text="large number of inputs for many securities"/>
+                            <outline text="simplification needed for practical user"/>
+                            <outline text="relation of each security to an index (suggested by Markowitz)"/>
+                        </outline>
+                    </outline>
+                </outline>
+                <outline text="Chpt8 Portfolio Selection and Asset Allocation">
+                    <outline text="Important of asset allocation">
+                        <outline text="most important single decision">
+                            <outline text="Impact on Portfolio performance"/>
+                        </outline>
+                        <outline text="Manage risk"/>
+                        <outline text="build long-term portfolio"/>
+                        <outline text="Account for &gt; 90% of return variance (pension funds)"/>
+                    </outline>
+                    <outline text="portfolio theory">
+                        <outline text="How investors should act to diversify optimally"/>
+                        <outline text="normative theory"/>
+                        <outline text="Assumptions">
+                            <outline text="single investment period"/>
+                            <outline text="liquidity (No transaction costs)"/>
+                            <outline text="preferences based on risk(variane/std dev) &amp; expected return"/>
+                        </outline>
+                        <outline text="two-parameter model (Mean-Variance)">
+                            <outline text="expected return"/>
+                            <outline text="Risk (std dev)"/>
+                        </outline>
+                        <outline text="Optimal Portfolio selection Process">
+                            <outline text="identify optimal risk-return combinations (efficient set)"/>
+                            <outline text="Use inputs: expected returns, variances, covariances"/>
+                            <outline text="Manipulate portfolio weights"/>
+                            <outline text="select optimal portfolio based on investor preferences"/>
+                        </outline>
+                        <outline text="Consider only risk assets (chpt8)"/>
+                        <outline text="Does not address using borrowed money"/>
+                        <outline text="Different investors estimate inputs differently"/>
+                        <outline text="Cumbersome with large number of stocks"/>
+                    </outline>
+                    <outline text="Efficient Frontier">
+                        <outline text="set of efficient portfolios"/>
+                        <outline text="highest expected return for given risk"/>
+                        <outline text="lowest risk for given expected return"/>
+                        <outline text="plotted in expected return-std dev space"/>
+                        <outline text="segment of minimum-variance frontier above global minimum-variance portfolio"/>
+                        <outline text="Markowitz efficient frontier (arc AB)"/>
+                        <outline text="nontraditional efficient frontier plots above traditional"/>
+                    </outline>
+                    <outline text="Attainable set of portfolios">
+                        <outline text="all possible portfolios from a set of securities"/>
+                        <outline text="opportunity set"/>
+                    </outline>
+                    <outline text="Diversifications">
+                        <outline text="Risk reduction through spreading investment"/>
+                        <outline text="Less risky portfolio with low/negative correlation assets"/>
+                        <outline text="Eliminate nonsystematic risk"/>
+                        <outline text="Portfolio risk declines as more stocks added"/>
+                        <outline text="Benefits gaine even from arbitrary portfolios"/>
+                    </outline>
+                    <outline text="portfolio risk components">
+                        <outline text="total risk">
+                            <outline text="systematic risk"/>
+                            <outline text="nonsystematic risk"/>
+                        </outline>
+                        <outline text="nonsystematic risk">
+                            <outline text="Diversifiable risk"/>
+                            <outline text="company specific risk"/>
+                            <outline text="can be eliminated by diversification"/>
+                        </outline>
+                        <outline text="systematic risk">
+                            <outline text="nondiversifiable risk"/>
+                            <outline text="market risk"/>
+                            <outline text="associated with overall market/economy movements"/>
+                            <outline text="cannot be eliminated by diversification"/>
+                            <outline text="critical to all investors"/>
+                            <outline text="Relevant risk for assets pricing"/>
+                        </outline>
+                    </outline>
+                    <outline text="asset classes for allocations">
+                        <outline text="stocks"/>
+                        <outline text="bonds"/>
+                        <outline text="real estate"/>
+                        <outline text="Cash equivalent (Money Market)"/>
+                        <outline text="International equities">
+                            <outline text="Historical reduced risk due to low correlation"/>
+                            <outline text="increased correlation with U.S stock recently"/>
+                        </outline>
+                        <outline text="Commodities">
+                            <outline text="low correlation with equities"/>
+                            <outline text="high variability"/>
+                        </outline>
+                        <outline text="Precious metals">
+                            <outline text="reasons for inclusions">
+                                <outline text="appreciation"/>
+                                <outline text="hedge against stock market"/>
+                            </outline>
+                            <outline text="types of funds">
+                                <outline text="Bullion Funds">
+                                    <outline text="hold physical gold"/>
+                                </outline>
+                                <outline text="Synthetic Funds">
+                                    <outline text="hold futures"/>
+                                </outline>
+                                <outline text="equity funds">
+                                    <outline text="hold mining stocks"/>
+                                    <outline text="can perform poorly"/>
+                                    <outline text="high volatility"/>
+                                    <outline text="higher correlation with equities"/>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="individual investor considerations">
+                        <outline text="time horizon"/>
+                        <outline text="Risk tolerance"/>
+                        <outline text="model portfolios (eg, TIAA-CREF)">
+                            <outline text="based on risk tolerance"/>
+                            <outline text="Diversified across asset classes"/>
+                        </outline>
+                    </outline>
+                    <outline text="how many securities for diversification">
+                        <outline text="Historically suggested as few as 15 stock"/>
+                        <outline text="New Research suggest 40+ stocks"/>
+                    </outline>
+                </outline>
+                <outline text="Chpt9 Asset Pricing Model and Capital Market Theory">
+                    <outline text="introduction">
+                        <outline text="CAPM Model"/>
+                        <outline text="required return for stock"/>
+                        <outline text="asset prices and market theory"/>
+                        <outline text="understanding risk pricing"/>
+                        <outline text="building on Portfolio Theory"/>
+                        <outline text="explaining security prices under equilibrium"/>
+                        <outline text="asset pricing models"/>
+                    </outline>
+                    <outline text="Capital Market Theory (CMT)">
+                        <outline text="Extension of portfolio theory"/>
+                        <outline text="positive theory (how investors behave)"/>
+                        <outline text="provides model for pricing risky assets"/>
+                        <outline text="CAPM most relied upon model"/>
+                        <outline text="Assumptions">
+                            <outline text="Borrow/lend at risk free rate (RF)"/>
+                            <outline text="identical probability distributions">
+                                <outline text="Homogeneous expectations"/>
+                            </outline>
+                            <outline text="same one-period time horizon"/>
+                            <outline text="No transaction costs"/>
+                            <outline text="No personal income taxes"/>
+                            <outline text="No inflation"/>
+                            <outline text="Many investors">
+                                <outline text="price takers"/>
+                            </outline>
+                            <outline text="Capital markets in equilibrium"/>
+                            <outline text="Realism vs. Predictive Power"/>
+                            <outline text="Assumptions can be relaxed (Robust)"/>
+                        </outline>
+                        <outline text="Risk Free Asset Introduction">
+                            <outline text="Defined: certain return, variance=0"/>
+                            <outline text="Covariance with risky asset =0"/>
+                            <outline text="best thought of as Treasury security"/>
+                            <outline text="maturity matching holding period"/>
+                            <outline text="Yield on five-year treasury note">
+                                <outline text="common proxy"/>
+                            </outline>
+                            <outline text="Borrowing and lending at RF"/>
+                        </outline>
+                        <outline text="Capital Market Line (CML)">
+                            <outline text="straight line">
+                                <outline text="RF to tangent point M"/>
+                            </outline>
+                            <outline text="represents best obtainable efficient set"/>
+                            <outline text="combinations of risk-free and portfolio M"/>
+                            <outline text="expected return-risk trade-off for efficient portfolios"/>
+                            <outline text="upward sloping"/>
+                            <outline text="defining the CML">
+                                <outline text="depicts equilibrium for efficient portfolios"/>
+                                <outline text="ivnestors end up on the CML based on risk tolerance"/>
+                            </outline>
+                            <outline text="the separation theorem">
+                                <outline text="investment decision separate from financing decision"/>
+                                <outline text="All investors hold same risky portfolio (M)"/>
+                                <outline text="achieve position on trade-off via borrowing/leding"/>
+                            </outline>
+                            <outline text="Slope of CML">
+                                <outline text="market price of risk for efficient portfolios"/>
+                                <outline text="equilibrium market price of risk"/>
+                                <outline text="additional return for each % risk increase"/>
+                            </outline>
+                            <outline text="equation for CML">
+                                <outline text=""/>
+                                <outline text="Expected return= risk-free rate +risk premium"/>
+                            </outline>
+                            <outline text="important points about CML">
+                                <outline text="Only efficient portfolios on CML"/>
+                                <outline text="Portfolio M is optimum risky combination (efficient)"/>
+                                <outline text="Risk-Free asset + M combination are efficient"/>
+                            </outline>
+                        </outline>
+                        <outline text="Market Portfolio (M)">
+                            <outline text="Optimal portfolio of risky assets"/>
+                            <outline text="highest tangency point">
+                                <outline text="RF and efficient frontier"/>
+                            </outline>
+                            <outline text="all investors invest in portfolio M"/>
+                            <outline text="Consists of all risky assets in existence"/>
+                            <outline text="asset price declines if not included (until attractive)"/>
+                            <outline text="completely diversified"/>
+                            <outline text="contains only market (systematic) risk"/>
+                            <outline text="proxies by stock market index (eg, S&amp;P500)"/>
+                            <outline text="Error setting the text for the following input: \latex risk is \sigmaM:org.scilab.forge.jlatexmath.ParseException: Problem with command text at position 4:22 Unknown symbol or command or predefined TeXFormula: 'sigmaM'."/>
+                        </outline>
+                    </outline>
+                    <outline text="Systematic risk and beta">
+                        <outline text="total risk">
+                            <outline text="Systematic risk">
+                                <outline text="Nondiversifiable"/>
+                                <outline text="market risk"/>
+                            </outline>
+                            <outline text="Nonsystematic risk">
+                                <outline text="diversifiable"/>
+                            </outline>
+                        </outline>
+                        <outline text="diversification eliminates nonsystematic risk"/>
+                        <outline text="investors compensated for systematic risk only"/>
+                        <outline text="">
+                            <outline text="Measure of systematic risk"/>
+                            <outline text="risk of individual stock relative to market portfolio"/>
+                            <outline text="sensitivity of stock's return to market return"/>
+                            <outline text="Beta&gt;1: above-average risk">
+                                <outline text="cyclical stocks"/>
+                            </outline>
+                            <outline text="Beta &lt;1: below-average">
+                                <outline text="defensive stocks"/>
+                            </outline>
+                            <outline text="average beta is 1.0">
+                                <outline text="market beta"/>
+                            </outline>
+                            <outline text="not a measure of asset volatility"/>
+                            <outline text="relevant risk measure for well-diversified investors"/>
+                            <outline text="Risk added to a well-diversified portfolio"/>
+                        </outline>
+                        <outline text="Estimating beta">
+                            <outline text="Market Model">
+                                <outline text="relates asset's returns to market return"/>
+                                <outline text="equation: Ri=alpha_i+ beta_i RM +ei"/>
+                                <outline text="regression of stock return on market index return"/>
+                                <outline text="slope(beta_i) is beta estimate"/>
+                                <outline text="intercept (alpha_i) is return when market return is zero"/>
+                            </outline>
+                            <outline text="Characteristic line">
+                                <outline text="Graph of market model regression"/>
+                                <outline text="slope is beta"/>
+                            </outline>
+                            <outline text="Variance of error term = diversifiable risk"/>
+                            <outline text="betas are estimates">
+                                <outline text="subject to error"/>
+                            </outline>
+                            <outline text="beta can shift over time"/>
+                            <outline text="considerations for betas">
+                                <outline text="estimating future data"/>
+                                <outline text="market index is approximating"/>
+                                <outline text="Varying observations/time periods"/>
+                                <outline text="Regression estimates are subject to error"/>
+                                <outline text="Beta is not perfectly stationary"/>
+                            </outline>
+                            <outline text="individual security betas not stable (Blume)"/>
+                            <outline text="Large portfolio betas are stable (Blume)"/>
+                            <outline text="betas regress toward the mean"/>
+                            <outline text="adjusted beta formula">
+                                <outline text="adjusted=0.3333+0.667*Measured"/>
+                            </outline>
+                        </outline>
+                        <outline text="beta management (Risk-On, Risk-Off)">
+                            <outline text="Adjusting portfolio beta based on expected market conditions"/>
+                        </outline>
+                    </outline>
+                    <outline text="The Capital Asset Pricing Model (CAPM)">
+                        <outline text="Applies to individual securities and iefficient portfolio"/>
+                        <outline text="investors hold market portfolio (Benchmark)"/>
+                        <outline text="Relevant risk is contribution to market portfolio risk (beta)"/>
+                        <outline text="Risk premium for risky asset"/>
+                        <outline text="Linear relationship btw risk and expected return"/>
+                        <outline text="Security Market Line (SML)">
+                            <outline text="graphical depiction of CAPM equation"/>
+                            <outline text="relationship btw risk (beta) and expected return"/>
+                            <outline text="slope is (E(RM)-RF)"/>
+                            <outline text="risk-return trade-off always positive"/>
+                        </outline>
+                        <outline text="CAPM expected Return-beta relationship">
+                            <outline text="formalizes relationship for any security/portfolio"/>
+                            <outline text="E(Ri)= RF + beta_i*(E(RM)-RF)"/>
+                            <outline text="expected return = risk-free rate + risk premium"/>
+                            <outline text="Risk premium=beta*market risk premium"/>
+                            <outline text="Beta is amount of risk"/>
+                            <outline text="Market risk premium is price of risk">
+                                <outline text="Slope of SML"/>
+                            </outline>
+                            <outline text="Market risk premium dependent on risk aversion"/>
+                        </outline>
+                        <outline text="Over-and Undervalue securities">
+                            <outline text="In equilibrium, security lies on SML"/>
+                            <outline text="Investor estimates return">
+                                <outline text="eg. Fundamental analysis"/>
+                            </outline>
+                            <outline text="plots estimated return v.s. required return (SML)"/>
+                            <outline text="security above SML">
+                                <outline text="undervalued">
+                                    <outline text="estimated return &gt; required"/>
+                                </outline>
+                            </outline>
+                            <outline text="security below SML">
+                                <outline text="overvalued">
+                                    <outline text="estimated return &lt; required"/>
+                                </outline>
+                            </outline>
+                            <outline text="Alpha">
+                                <outline text="estimate return above CAPM prediction"/>
+                                <outline text="estimate return below CAPM prediction"/>
+                                <outline text="equal 0">
+                                    <outline text="for fairly priced stocks (on SML)"/>
+                                </outline>
+                                <outline text="Trading drives price back to SML equilibrium"/>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="Tests of the CAPM">
+                        <outline text="Conclusions are sensible">
+                            <outline text="Risk return related"/>
+                            <outline text="relevant risk is portfolio effect"/>
+                        </outline>
+                        <outline text="assumptions are unrealistics">
+                            <outline text="Test relies on predictive power"/>
+                        </outline>
+                        <outline text="Empirical tests performed"/>
+                        <outline text="testing equation: Ri=alpha1+alpha2*Beta_i"/>
+                        <outline text="alpha1 should approximate average RF">
+                            <outline text="alpha2 should approximate average market risk premium"/>
+                        </outline>
+                        <outline text="empirical results consensus">
+                            <outline text="SML appears linear"/>
+                            <outline text="Intercept alpha1 generally higher than RF"/>
+                            <outline text="slope(alpha2) generally less steep"/>
+                            <outline text="No persuasive case for unsystematic risk premium"/>
+                            <outline text="Stock market prices on linear systematic risk relationship"/>
+                        </outline>
+                        <outline text="Major problem">
+                            <outline text="Ex. ante model tested with ex post data"/>
+                        </outline>
+                        <outline text="Roll's Critique">
+                            <outline text="CAPM untestable">
+                                <outline text="Market Portfolio unobservable"/>
+                            </outline>
+                        </outline>
+                        <outline text="Tests are of mean-variance efficiency of market portfolio"/>
+                        <outline text="CAPM remains logical view, frequently used"/>
+                    </outline>
+                    <outline text="Arbitrage pricing theory (APT)">
+                        <outline text="Alternative theory of asset pricing"/>
+                        <outline text="More general than CAPM"/>
+                        <outline text="less restrictive assumptions"/>
+                        <outline text="relationship btw expected return and risk"/>
+                        <outline text="not critically dependent on underlying market portfolio"/>
+                        <outline text="recognizes several types of systematic risk"/>
+                        <outline text="Law of One Price">
+                            <outline text="identical assets cannot sell at different prices"/>
+                        </outline>
+                        <outline text="Asset returns linearly related to set of indexes (factors)"/>
+                        <outline text="Market participants use factor sensitivities"/>
+                        <outline text="Arbitrage process determines prices"/>
+                        <outline text="Eliminate pure arbitrage opportunities">
+                            <outline text="Risk-free profit with zero investment"/>
+                        </outline>
+                        <outline text="assumptions of APT">
+                            <outline text="does not assume">
+                                <outline text="single-period horizon"/>
+                                <outline text="absence of taxes"/>
+                                <outline text="borrowing/lending at RF"/>
+                                <outline text="expected return/variance portfolio selection"/>
+                            </outline>
+                            <outline text="Assumes">
+                                <outline text="Homogeneous beliefs"/>
+                                <outline text="risk-averse utility maximizers"/>
+                                <outline text="perfect markets"/>
+                                <outline text="returns generated by factor model"/>
+                            </outline>
+                        </outline>
+                        <outline text="Factor Models">
+                            <outline text="Underlying risk factors affect security returns"/>
+                            <outline text="Factors represent broad economics forces">
+                                <outline text="not company specific"/>
+                            </outline>
+                            <outline text="Element of surprise (actual-expected) is the factor"/>
+                            <outline text="CAPM is single-factor model">
+                                <outline text="market portfolio"/>
+                            </outline>
+                            <outline text="APT is generally multifactor">
+                                <outline text="factors not explicitly identified"/>
+                            </outline>
+                            <outline text="characteristics of factors">
+                                <outline text="pervasive influence on stock returns"/>
+                                <outline text="influence expected return">
+                                    <outline text="nonzeror prices"/>
+                                </outline>
+                                <outline text="unpredictable to the market at start of period"/>
+                            </outline>
+                            <outline text="Deviations from expected values matter"/>
+                        </outline>
+                        <outline text="Understanding the APT model">
+                            <outline text="Assumes returns randomly generated by n-factor model"/>
+                            <outline text="equation (Actual Return): Ri=E(Ri)+Beta1f1+...Beta_i*fn+ei"/>
+                            <outline text="fs are deviations from expected factor values"/>
+                            <outline text="equation (Expected Return - Equilibrium): E(Ri)=a0+b1F1+b2F2+....bnFn"/>
+                            <outline text="a0 is expected return with zero systematic risk"/>
+                            <outline text="Fs are risk premium for factors"/>
+                            <outline text="Risk defined by sensitivity to economic factors"/>
+                            <outline text="Expected return increases with risk (sensitivity)"/>
+                            <outline text="APT is more general than CAPM">
+                                <outline text="if only one factor, they are identical"/>
+                            </outline>
+                        </outline>
+                        <outline text="Identifying the factors">
+                            <outline text="factors not specified ex ante (problem with APT)"/>
+                            <outline text="Need empirical identification"/>
+                            <outline text="Early work suggested 3-5 factors"/>
+                            <outline text="typical APT Factors (Empirical)">
+                                <outline text="Default risk"/>
+                                <outline text="term structure of interest rates"/>
+                                <outline text="inflation or deflation (unexpected)"/>
+                                <outline text="long-run expected growth rate of profits"/>
+                                <outline text="residual market risk"/>
+                            </outline>
+                        </outline>
+                        <outline text="Using APT in investment decisions">
+                            <outline text="Approach to strategic portfolio planning"/>
+                            <outline text="identify systematic factors affecting returns"/>
+                            <outline text="structure portfolios to improve design/performance"/>
+                            <outline text="Risk exposure profiles vary by sector/industry"/>
+                            <outline text="Design strategies for exposure or sterilization to factors"/>
+                            <outline text="Active approach: forecast factor realization and emphasize/deemphasize"/>
+                        </outline>
+                    </outline>
+                    <outline text="Other Prominent Factor Models">
+                        <outline text="Gained prominence in academic community"/>
+                        <outline text="Widely applied in investment management"/>
+                        <outline text="Developed largely based on empirical observation"/>
+                        <outline text="linked returns with firm market capitalization (size) and value ratios"/>
+                        <outline text="Classified as characteristic or microeconomic-based"/>
+                        <outline text="three-factor model (Fama and French)">
+                            <outline text="E(Ri)=RF+b1(E(RM)-RF) + b2SMB+ b3HML"/>
+                            <outline text="SMB (small minus big)">
+                                <outline text="return on small cap - return on large cap"/>
+                            </outline>
+                            <outline text="HML (high minus low">
+                                <outline text="return on high book-to-market - return on low book-to-market"/>
+                            </outline>
+                        </outline>
+                        <outline text="Four-Factor model (Carhart)">
+                            <outline text="Extension of three-factor model"/>
+                            <outline text="recognizes momentum evidence"/>
+                            <outline text="E(Ri)=RF+ b1(E(RM)-RF)+b2SMB+b3HML+b4UMD"/>
+                            <outline text="UMD (Up minus Down)">
+                                <outline text="return on strong past performance - return on weak past performance"/>
+                            </outline>
+                        </outline>
+                        <outline text="truncating models to first factor results in CAPM"/>
+                        <outline text="commonly references as multifactor CAPM models"/>
+                        <outline text="factors proxy for underlying risk variables"/>
+                    </outline>
+                    <outline text="Conclusions about asset pricing">
+                        <outline text="How security prices/returns established remains open"/>
+                        <outline text="Multifactor models v.s. CAPM debate continues"/>
+                        <outline text="CAPM relies on unobservable market portfolio"/>
+                        <outline text="APT offers no clues on factor identity ex ante"/>
+                        <outline text="no model proven superior"/>
+                        <outline text="each model has advantages/disadvantages"/>
+                        <outline text="additional testing needed"/>
+                    </outline>
+                </outline>
+            </outline>
+        </outline>
+    </body>
+</opml>

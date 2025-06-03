@@ -1,0 +1,919 @@
+Common Stocks: Analysis
+and Strategy
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Describe the overall impact of the
+market on stocks and portfolios
+• Explain the pros and cons of a
+passive approach to building a
+stock portfolio
+• Describe the conditions that
+favor the application of an active
+strategy
+• Critically evaluate the well-known
+active equity strategies used by
+investors
+The Impact of the Overall Market on Stocks 295
+market, almost all typical stock portfolios are significantly influenced by what hap-
+pens to the market as a whole.
+• Market risk is the single most important risk affecting the price movements of
+common stocks. For well-diversified portfolios, market effects can account for
+90 percent or more of the variability in the portfolio’s return.
+Market risk abroad U.S. investors buying foreign stocks face the same issues
+when it comes to market risk. Some foreign markets have performed very well, and
+some have performed poorly over specified periods of time. For example, in 2014
+the Chinese stock market gained more than 50 percent, whereas, in the same year,
+the Russian equity market lost more than 45 percent.
+Consider the performance of the T. Rowe Price Growth
+and Income Fund for a recent multiyear period, as shown
+in Figure 11.1. Notice how the fund’s returns and the returns for the S&P 500
+track very closely. The market’s performance explains almost all of the fund’s
+performance for this time period.
+EXAMPLE 11.1
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014
+Return (%)
+Growth and Income return
+S&P 500 return
+FIGURE 11.1 Performance of T. Rowe Price Growth and Income Fund versus S&P 500, 2005–2014
+Perhaps the best foreign example of the market’s impact
+on investors is Japan. In the 1980s, Japan’s economy
+seemed invincible, and the Nikkei stock index reflected Japan’s success as
+prices rose almost without fail. The Nikkei stock index peaked at the end of
+1989 at almost 39,000. By mid-1992, the index had declined below the 15,000
+level, representing a staggering decline of some 60 percent. Even as recently
+as January 2015, the index was trading below 17,500. As one well-known
+magazine put it at the time, this was the “biggest erasure of wealth in history.”
+Such is the impact of the overall market on investor wealth. From its peak in
+1989 through January 2015, the Nikkei stock index lost well over 50 percent of
+its value. Regardless of an investor’s prowess, virtually no portfolio invested in
+Japanese stocks over this extended period could have performed well.
+EXAMPLE 11.2
+Building Stock Portfolios
+We now consider how investors go about forming a portfolio. Investors often con-
+sider the investment decision—based on objectives, constraints, and preferences—
+as consisting of two steps:
+1. Asset allocation
+2. Security selection
+Asset allocation, refers to allocating wealth to various asset classes, such as stocks,
+bonds, real estate, and cash equivalents. Of course, many investors use a diversity of
+asset classes, including foreign stocks, foreign bonds, real estate, commodities, and
+small-capitalization stocks. And some of these categories can be further divided—
+for example, foreign stocks can be allocated by region, type of economy (developed
+vs. developing), and so forth.
+• In many respects, asset allocation is the most important decision an investor
+makes.
+Having made the portfolio allocation decision, the largest part of an investor’s
+success or failure is locked in.
+In the rest of this chapter, we consider alternative strategies for managing the
+equity portion of an investor’s portfolio. The equity component could constitute
+anywhere from 0 to 100 percent of the portfolio.
+Checking Your Understanding
+1. Suppose you know with certainty that the stock market will rise sharply over
+the next three years. Are you comfortable letting someone choose a broadly
+diversified subsample of S&P 500 stocks for you?
+2. If you expect real estate values to fall in the United States, what do you predict
+will happen to the required return for stocks?
+The Passive Strategy
+A natural outcome of a belief in efficient markets is to employ some type of passive
+strategy in owning and managing common stocks. If the market is highly efficient,
+impounding information into prices quickly and on balance accurately, no active
+strategy should be able to outperform the market on a risk-adjusted basis over a
+reasonable period of time.
+A passive management strategy means that the investor does not actively seek
+out trading possibilities in an attempt to outperform the market. Passive strategies
+Passive Management Strat-
+egy A strategy whereby
+investors do not actively
+seek out trading possi-
+bilities in an attempt to
+outperform the market
+Think of one investor allocating her portfolio as 90 per-
+cent Nasdaq stocks and 10 percent cash equivalents
+and another investor doing the opposite, 90 percent cash equivalents and
+10 percent Nasdaq stocks. Now imagine the Nasdaq market declining about
+75 percent, as it did in 2000–2002. Clearly, the results of these two portfolios
+are vastly different regardless of the exact securities selected. Such is the
+importance of asset allocation.
+The Passive Strategy 297
+simply aim to do as well as the market. The emphasis is on minimizing transaction
+costs and time spent in managing the portfolio because any expected benefits from
+active trading are likely to be less than the costs. Passive investors act as if the market
+is efficient and accept the consensus estimates of return and risk, recognizing cur-
+rent market price as the best estimate of a security’s value.
+• Passive investment management does not try to find undervalued stocks nor
+does it try to time the market. Instead, passive investing is concerned with
+achieving the returns available in various market sectors at minimum costs.
+An investor can simply follow a buy-and-hold strategy for whatever portfolio of
+stocks is owned. Alternatively, a very effective way to employ a passive strategy with
+common stocks is to invest in an index fund. We will consider each of these strate-
+gies in turn.
+Buy-and-Hold Strategy
+A buy-and-hold strategy means an investor buys stocks and holds them until some
+future time in order to meet some objective. The emphasis is on avoiding transac-
+tion costs, taxable transactions, additional search costs, the time commitment to
+portfolio management, and so forth. The investor believes that such a strategy will
+produce results as good as alternatives that require active management. The alter-
+natives incur greater search costs, taxes, and transaction costs, and inevitably, they
+involve investment mistakes.
+Evidence to support this view comes from Odean and Barber, who examined
+60,000 investors. They found the average investor earned 15.3 percent over a five-
+year period, while the most active traders (turning over about 10 percent of their
+holdings each month) averaged only 10 percent.1
+A buy-and-hold strategy is applicable to an investor’s portfolio, whatever its com-
+position. The portfolio may be large or small, and it may emphasize various types of
+stocks. Also note that an initial selection must be made to implement the strategy.
+The investor must decide to buy stocks A, B, and C and not X, Y, and Z.
+It is also important to recognize that the investor will, in fact, have to perform
+certain functions while the buy-and-hold strategy is in existence. For example,
+the investor must make an investment decision regarding the income generated
+by the portfolio. In addition, a few stocks may perform so well that they dominate
+the total market value of the portfolio and reduce the portfolio’s diversification. If
+Investments Intuition
+It is important to understand the logic of why
+passive investing is a superior strategy for most
+investors. Consider a capitalization-weighted
+index portfolio that holds virtually all of the
+stocks in the market. Each year this portfolio will
+generate a return—in effect the market return.
+Now consider the average dollar invested in
+the market and the return it earns. Are the two
+equal? No, not if the active management costs
+attached to the average dollar exceed the cost
+of the index portfolio, which is almost always
+the case
+he portfolio’s characteristics change such that it is no longer compatible with the
+investor’s risk tolerance, adjustments may be required. The point is simply that even
+under such a strategy, investors must still take certain actions.
+Index Funds
+An increasing amount of mutual fund and pension fund assets are invested in index
+funds, which are considered passive equity investments. Recall from Chapter 3 that
+an index fund is an unmanaged fund designed to replicate as closely as possible the
+performance of a specified group of securities. Index funds arose in response to the
+large body of evidence supporting the efficiency of the market, and they have grown
+as evidence of the inability of mutual funds to outperform the market continues to
+accumulate.
+Index funds illustrated A stock-index fund may consist of all stocks in a well-
+known market average such as the S&P 500 Index. No attempt is made to forecast
+market movements and act accordingly or to select under- or overvalued securi-
+ties. Expenses are kept to a minimum, including research costs, portfolio manag-
+ers’ fees, and brokerage commissions. Index funds can be run efficiently by a
+small staff.
+Vanguard offers a large selection of index funds, which
+allows investors to duplicate various market segments at a
+very low cost. Some examples are as follows:
+1. The 500 Index Portfolio consists of stocks selected to duplicate the S&P 500
+and emphasizes large-capitalization stocks.
+2. The Extended Market Portfolio consists of a statistically selected sample of
+the Wilshire 4500 Index, which consists largely of medium- and small-
+capitalization stocks.
+3. The Total Stock Market Portfolio seeks to match the performance of all
+(approximately 7,000) publicly traded U.S. stocks.
+4. The Small-Capitalization Stock Portfolio seeks to match the performance of
+the Russell 2000 Small Stock Index, consisting of 2,000 small-capitalization
+stocks.
+5. The U.S. Value Portfolio seeks to match the investment performance of the
+S&P/BARRA Value Index, which consists of stocks selected from the S&P
+500 with lower than average ratios of market price to book value.
+6. The U.S. Growth Portfolio seeks to match the investment performance of the
+S&P/BARRA Growth Index, which consists of stocks selected from the S&P
+500 with higher than average ratios of market price to book value.
+7. The Total International Portfolio covers multiple countries across Europe, the
+Pacific, and emerging markets and holds over 1,500 stocks.
+8. The Emerging Markets Portfolio holds stocks from companies located in
+emerging markets around the world, such as Brazil, Russia, India, Taiwan,
+and China.
+For Vanguard funds, there are no sales or exit charges of any kind. Total
+operating expenses for most of these funds is about 0.20 percent or less
+annually, which is extremely low.
+EXAMPLE 11.4
+The Passive Strategy 299
+Importance of equity index funds How important are equity index funds?
+Vanguard’s 500 Index fund had over $400 billion in assets in 2018, making it one
+of the largest mutual funds in the United States. And Vanguard Group is one of
+the largest fund families in the United States, based primarily on the size of its
+index funds. Fidelity Investments, also one of the largest fund families, traditionally
+emphasized the performance of its actively managed equity funds. However, Fidelity
+has increased its index offerings and has cut the total expense ratio on many of its
+equity index funds to a very low rate. As noted by Morningstar, investors continue to
+pour money into index funds; passive equity strategies reached nearly 45 percent of
+all U.S. stock market investments at the end of 2017.2
+ETFs Vanguard also offers numerous exchange-traded funds (ETFs), which can
+accomplish the same objectives as an index fund. Expenses are typically even lower
+than those for an index fund, and shares can be bought and sold any time the mar-
+ket is open.
+Tax efficiency of index funds A significant advantage of index funds is their tax
+efficiency. Index funds basically buy and hold, selling shares only when necessary.
+Actively managed funds, on the other hand, do more frequent trading and gener-
+ate larger tax bills. Some trades may produce short-term gains taxable at ordinary
+income tax rates. The tax issue really hit investors in 2001 when they paid their
+taxes for 2000—many funds made large, taxable distributions based on prior years
+of good returns, but the value of the fund shares themselves declined in 2000, many
+quite sharply. Thus, these investors watched the value of their funds decline signifi-
+cantly while paying taxes on prior gains. The same thing was repeated in 2008.
+Enhanced index funds Investors can also purchase so-called “enhanced” index
+funds, which are index funds that are tweaked by their managers to be a little dif-
+ferent. For example, an enhanced fund tracking the S&P 500 could have the same
+sector weightings as the S&P 500 but hold somewhat different stocks, perhaps with
+lower P/E ratios. Or an enhanced fund can use futures and options to hold the S&P
+500 and invest the remainder of the funds in bonds or other securities. The theory
+is that the manager can, by tweaking the fund slightly, outperform the index. The
+reality is, according to a study of 40 of these funds since their start dates, about half
+of the funds outperformed their benchmark, and half did not.
+The case for index funds One of the strongest cases for index funds is made by
+Burton Malkiel, an economics professor at Princeton and author of the book Earn
+Although an extreme example, the Boston Company
+International Small-Cap fund had a 2007 distribution
+equal to $23.17 per share. If, earlier that year, you had invested $100,000 in
+the fund, your tax bill on this distribution would have exceeded $14,000. In
+contrast, Vanguard’s S&P 500 Index fund paid no capital gains distribution
+for the year.
+More, Sleep Better: The Index Fund Solution. According to Malkiel, “On average, the
+typical actively managed fund underperforms the index by about two percentage
+points a year. And that calculation ignores the sales charges that are imposed by
+some actively managed funds and the extra taxes an investor pays on funds that turn
+over their portfolios rapidly.”3
+According to Malkiel, there are four reasons why indexing works:
+1. Securities markets are extremely efficient in digesting information.
+2. Indexing is cost-efficient, with expenses much lower than actively managed
+funds.
+3. Actively-managed funds incur heavy trading expenses. Trading costs can
+amount to 0.5 to 1.0 percent per year.
+4. Indexing has a tax advantage, deferring the realization of capital gains.
+Performance of index funds As for actual performance of equity index funds,
+consider the following. Morningstar, the mutual fund tracking company, studied the
+“success ratio” for active and passive funds taken together within each asset class,
+adjusting for survivorship bias, for the five years ending in 2010. 4 Overall, passive
+funds outperformed active funds. Balanced funds showed the biggest win for pas-
+sive investing. International funds were the only category where active funds outper-
+formed passive funds.
+According to John Bogle, founder of the Vanguard Group and a leading pro-
+ponent of index funds, the S&P Index will outperform 70 percent of all actively
+managed equity funds over time. According to Standard and Poor’s, over a recent
+five-year period, 75 percent of actively managed mutual funds failed to outperform
+the market.
+Table 11.1 shows the percentage of actively managed funds that underper-
+formed their benchmark for the 15-year period ending in 2010. These results
+are adjusted for survivorship bias. As Table 11.1 shows, for large-cap actively
+managed growth funds, 79 percent underperformed their benchmark. Notice
+the astounding results for medium-capitalization funds—96, 94, and 97 percent
+for the value, blend, and growth categories, respectively, underperformed their
+benchmarks.
+Percentage of Actively Managed Funds Underperforming
+Their Benchmarks for the 15-Year Period Ending in 2010
+Small Medium Large
+Value (%) 82 96 63
+Blend 93 94 84
+Growth 83 97 79
+Source: Adapted from Christopher B. Philips, “The Case for Indexing,” Vanguard Research,
+February 2011, p. 15, Figure 10.
+TABLE 11.1
+3 Burton Malkiel, “The Case for Index Funds,” Mutual Funds Magazine (February 1999): p. 72. This entire
+discussion involving Malkiel is based on this article, pp. 72–75.
+4 Russel Kinnel, “Index vs. Active: What the Data Say,” Morningstar online (September 12, 2011).
+The Active Strategy 301
+Checking Your Understanding
+3. Your financial advisor urges you to adopt a passive investing strategy. You
+decide to hold a broadly diversified portfolio of stocks. Your advisor argues
+that you are now protected from the collateral damage to a portfolio that
+occurs when an overvalued sector of the market declines. Agree or disagree
+and explain your reasoning.
+The Active Strategy
+Most of the techniques discussed in this text involve an active approach to invest-
+ing. In the area of common stocks, the use of valuation models to value and select
+stocks indicates that investors are analyzing and valuing stocks in an attempt to
+improve their performance relative to some benchmark such as a market index.
+They assume or expect the benefits to be greater than the costs.
+An active management strategy assumes that investors possess some advantage
+relative to other market participants. Such advantages could include superior ana-
+lytical or judgment skills, superior information, or the ability or willingness to do
+what other investors, particularly institutions, are unable to do. For example, many
+large institutional investors cannot take positions in very small companies, leaving
+this field for individual investors. Furthermore, individuals are not required to own
+diversified portfolios and are typically not prohibited from short sales or margin
+trading as are some institutions.
+Most investors still favor an active approach to common stock selection and
+management, despite the accumulating evidence from efficient market studies and
+the published performance results of institutional investors. The reason for this is
+obvious—the potential rewards are very large, and many investors feel confident
+that they can achieve such rewards even if other investors cannot. We discuss three
+components of the active approach to stock selection and management.
+• Security selectionActive approach
+• Sector analysis
+• Market timing
+Security Selection
+• The most traditional and popular form of active strategies is the selection of
+individual stocks believed to offer superior “risk-return” characteristics.
+Stocks typically are selected using fundamental security analysis, but technical
+analysis is also used.5 Many investors believe that they possess the requisite skill,
+patience, and ability to identify undervalued stocks.
+Active Management Strat-
+egy A strategy designed to
+provide additional returns
+by trading activities
+5 Technical analysis is discussed in Chapter 16.
+302 Chapter 11 Common Stocks: Analysis and Strategy
+A key feature of the investment environment is the uncertainty that surrounds
+investing decisions. Most stock pickers recognize the pervasiveness of this uncer-
+tainty and protect themselves accordingly by diversifying. Therefore, the standard
+assumption of rational, intelligent investors who select stocks to buy and sell is that
+such selections will be part of a diversified portfolio.
+The justification for stock selection To gain some appreciation for the impor-
+tance of stock selection, consider the cross-sectional variation in common stock
+returns. McEnally and Todd found that investors who successfully confined selec-
+tion to stocks in the highest quartile would have largely avoided losing years, and
+even in bad years the losses were modest. 6 Conversely, for the bottom quarter,
+results were negative about 55 percent of the time, and about 25 percent of the
+time, even the best stocks lost money despite generally favorable market condi-
+tions. The implication is that “For those who attempt to pick stocks, the rewards
+can be very high, but the risk and negative consequences of poor selection are
+substantial.”
+The best performing industry in 2018 was the retail industry, which returned 8.6
+percent. In contrast, the worst performing industry was the mining industry, which
+reported a return of −28.8 percent. With respect to individual stocks, for 2018,
+Advanced Micro Devices appreciated by 79.6 percent, whereas Coty Inc. dropped by
+67.0 percent. Obviously, investors able to avoid poor performing stocks and indus-
+tries, while accumulating strong performers can achieve remarkable portfolio per-
+formance over time.
+The importance of stock selection How important is stock selection in the over-
+all investment process? As Peter Lynch, former head of Fidelity’s Magellan Fund,
+states: “If it’s a choice between investing in a good company in a great industry, or a
+great company in a lousy industry, I’ll take the great company in the lousy industry
+any day.” Most active investors, are, to various degrees, stock selectors. The major-
+ity of investment advice is geared to the selection of stocks thought to be attractive
+candidates at the time.
+The importance of earnings per share (EPS) in stock selection Investors
+should carefully study a company’s earnings, and estimates of earnings, before
+investing. Earnings are critical in determining stock prices, and what really mat-
+ters is a company’s expected earnings (what is referred to on Wall Street as earnings
+estimates). Three prominent investment service firms that report consensus
+earnings forecasts include I/B/E/S, Thomson First Call, and Zacks Investment
+Research. These services typically track the earnings expectations of thousands of
+equity analysts.
+• The primary emphasis in fundamental security analysis is on expected EPS.
+Considerable effort is devoted by investors and investment advisory services to
+forecasting EPS.
+Growth stocks and value stocks Value stocks have prices that are considered
+“cheap” relative to earnings, book value, and other measures thought indicative of
+The Active Strategy 303
+value. According to Zacks, value stocks (1) are believed to trade at a discount to their
+true value, (2) have relatively high dividend yields, and (3) have relatively low price
+multiples, such as P/E and P/B. Value investing is generally consistent with a con-
+trarian strategy, whereby the investor chooses stocks that are considered out of favor.
+Growth stocks, on the other hand, emphasize expectations about future growth
+in earnings. Zacks identifies the following three features of growth stocks. First, they
+typically grow earnings/revenues faster than the industry or market. Second, they
+rarely pay dividends and instead prefer to reinvest excess cash. Third, they usually
+have relatively high price multiples such as P/E and P/B ratios. Growth investing is
+generally consistent with a momentum approach whereby investors choose stocks
+with recent strong performance.
+Over the last 60 years, value stocks have outperformed growth stocks by an aver-
+age of about five percent per year. This outperformance contributed to the wide-
+spread recognition of the value effect or value anomaly and was instrumental in
+making fortunes for recognized value investors such as Warren Buffett and John
+Neff. Figure 11.2 illustrates the value premium, which is derived as the return on
+the value portfolio minus the return on the growth portfolio, over the period from
+2003 through 2014. During this 12-year period, the value premium averaged only
+1.4 percent.
+As indicated in Figure 11.2, the value premium has been positive in the majority
+of recent years but has deviated substantially. For example, the highest premium
+during the 12 years was 14.5 percent in 2006, whereas the lowest premium was
+−12.2 percent the following year. Clearly, the value premium is not something that
+investors should count on as a reliable outcome.
+• Value investing is based on taking a long-term view and often involves a con-
+trarian approach, that is, going against the consensus.
+Security analysts and stock selection Stocks are, of course, selected by both
+individual investors and institutional investors. Rather than do their own security
+analysis, individual investors often rely on the recommendations of professionals.
+An important part of the institutional side of stock selection is the role of the secu-
+rity analyst in the investment process.
+Growth Stocks Stocks that
+are considered to have
+strong prospects for future
+growth
+–15
+–10
+–5
+0
+5
+10
+15
+2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014
+Return (%)
+Value premium
+FIGURE 11.2 Annual value premium, 2003–2014
+Source: The return premiums plotted in the figure are obtained from the Kenneth French website, http://mba.tuck.
+dartmouth.edu/pages/faculty/ken.french/data_library.htmlis.
+304 Chapter 11 Common Stocks: Analysis and Strategy
+“Wall Street” analysts, called sell-side analysts, cover the actively traded stocks in
+the United States (some stocks are heavily covered, others are covered by only one
+or two analysts, and some stocks are not covered at all). Their research reports are
+used to “sell” an idea to investors, both individuals and institutions. Some of these
+analysts work for firms such as Value Line and Standard and Poor’s, which provide
+“independent” research and recommendations to investors; that is, these companies
+do not have brokerage operations to support. On the other hand, buy-side analysts
+are employed by money management firms (such as pension funds, mutual funds,
+and investment advisers). These analysts search for attractively priced equities for
+their firms to buy, and their research is typically available only to their employers.7
+A typical analyst report contains a description of the company’s business, how
+the analyst expects the company to perform, an estimate of firm value, revenue esti-
+mates, earnings estimates, a price target for the year ahead, and recommendations
+as to buy, hold, or sell. The central focus of the analysts’ job is to forecast a specific
+company’s price, growth rate, or return.
+In preparing their reports, the major sources of information used by analysts
+are presentations from the firms’ top management, annual reports, and Form 10-K
+reports, which are filed with the SEC. According to surveys of analysts, they consist-
+ently emphasize the long term over the short term. Variables of major importance
+in their analysis include expected changes in earnings per share, expected return
+on equity (ROE), and industry outlook.
+StarMine Corporation examined the impact that analysts have on stock prices
+when they change their recommendations. The StarMine analysis showed that on
+the day of an analyst upgrade, stocks rose an average of 2.1 percent; whereas, follow-
+ing a downgrade, stocks declined an average of 5.4 percent. Downgrades are more
+prominent because investors who trade stocks are more concerned with bad news.
+The substantial price moves associated with upgrades and downgrades indicate that
+analysts provide valuable information to the financial markets.
+Potential problems with security analysts Regardless of the effort expended
+by analysts, investors should be cautious in accepting analysts’ forecasts and recom-
+mendations. For example, analyst forecasts of long-term EPS are typically overly
+optimistic. In contrast, analyst forecasts of near-term EPS, on average, understate
+next quarter’s actual EPS. FactSet reports that as of early 2015, the five-year average
+for the number of S&P 500 companies that beat the consensus analyst EPS estimate
+was 73 percent. If earnings forecasts are unbiased, shouldn’t that be approximately
+50 percent?
+Much like obstetricians forecasting birth dates, analysts have been successful
+in convincing the public that their incorrect earnings forecasts are not errors but
+instead earnings “misses” or “beats” by the underlying firms. Interestingly, making
+overly optimistic long-term EPS growth estimates, while simultaneously underesti-
+mating near-term EPS, tends to promote positive investor attitudes toward stocks.
+What investor doesn’t feel better about their stocks having strong projected long-
+term EPS growth and beating their EPS estimates?
+In doing their job of analyzing and recommending companies, analysts suppos-
+edly present their recommendations in the forms “buy,” “hold,” and “sell.” However,
+until very recently, investors who receive brokerage reports typically saw recommen-
+dations for specific companies as either “buy” or “hold” or “speculative hold” or
+other words such as these.
+The Active Strategy 305
+• Traditionally, security analysts were under great pressure to avoid the word
+“sell.” Analysts often faced significant pressure from their own firms seeking to
+be the underwriter on lucrative stock and bond underwritings.
+Brokerage firms wanted their analysts to support stocks by making positive state-
+ments in the hopes of winning investment banking business. By 2000–2001, security
+analysts were being heavily criticized for these conflicts of interest, and rightly so.
+As of 2008, only about 6 percent of analyst recommendations were sell recom-
+mendations; however, the larger investment firms had more sell ratings. In 2008,
+Merrill Lynch began requiring its analysts to assign at least 20 percent of the stocks
+it follows the lowest rating used by Merrill Lynch, underperform.8
+Figure 11.3 shows an example of the number of analyst recommendations by type
+of recommendation—buy, hold, or sell—for the S&P 500 stocks. Out of a total of
+almost 11,000 recommendations, only 530 were sell/underperform.
+What about analysts’ forecasts of EPS for foreign firms? According to a 2011 anal-
+ysis, analysts employed by investment banks around the world rated almost every
+Chinese stock they covered a “buy” by a ratio of 19 buy recommendations for every
+one sell recommendation.9 Reasons given for this optimism by sell-side analysts are
+strong pressures to believe in the “China cannot fail” story, the desire for investment
+banking business, and the desire to obtain better access to Chinese companies and
+their executives. Thus, across the globe, it would appear that analysts’ EPS forecasts
+are like the fictional Lake Wobegon, where all the children are considered above
+average.
+Ethics in Investing
+Should Brokers and Analysts Be Fined for
+Rumors?
+In early 2005, the NASD announced it had fined
+a stock analyst $75,000 for spreading a rumor
+about a small semiconductor manufacturer. It
+was said to be a “sensational negative rumor,”
+and the stock fell although the company publicly
+denied the rumor. The company complained
+to the NASD, which, after investigation, levied
+the fine.
+The NASD alleged that the broker/analyst in
+this situation did not adequately investigate to
+determine if there was a reasonable basis for the
+rumor. Obviously, the question arises as to what is
+“adequate.” If the rumor had simply been fabri-
+cated or the analyst spread it knowing it was false,
+there would be clear grounds for a fine. In this
+case, however, the charge was that the analyst
+simply circulated it. Analysts and brokers are not
+fined for passing on rumors thought to come from
+a reliable source or if the rumor is qualified by
+saying that the accuracy of the rumor could be
+in serious doubt. Furthermore, rumors are a daily
+part of trading stocks. Many trades are initiated
+on the basis of rumors or limited information, only
+later obtaining the actual facts. What is ethical in
+situations like this, and who determines when an
+analyst crosses the line
+306 Chapter 11 Common Stocks: Analysis and Strategy
+Using analysts’ output effectively Investors should be wary of analysts’ forecasts
+and buy recommendations but should not disregard the information they produce.
+Despite all the criticism leveled at analysts, investors can use analysts’ reports and
+information intelligently.
+Many analysts are quite good at analyzing industries and identifying trends in
+companies, industries, and the economy. They compile useful information and
+often have good insights as to future prospects because they have followed the indus-
+tries and companies for years. Investors should use this information in conjunction
+with their own analysis. On the other hand, they should be skeptical of such items
+as long-term earnings estimates because analysts are typically overly optimistic, and
+they should be very skeptical about price targets.
+0
+Buy/outperform
+Hold
+Sell/underperform
+1,000 2,000 3,000 4,000
+Number of recommendations
+5,000 6,000 7,000
+FIGURE 11.3 Number of analyst recommendations by type for the S&P 500 stocks
+Source: Jack Hough, “How to Profit from Analysts’ Stock Recommendations,” The Wall Street Journal, January 14–15,
+p. B7.
+Some Practical Advice
+Can You Believe Security Analysts?
+When the market peaked in 2000, only 1 percent
+of analysts’ recommendations were “sell.” The
+collapse of Enron in 2001 was a major scandal
+on Wall Street. The company was reporting fraud-
+ulent earnings and eventually collapsed in a
+spectacular bankruptcy. Immediately prior to the
+collapse, analysts were recommending Enron to
+investors as a “buy” or at least a “hold.”
+The years following the Enron scandal suppos-
+edly saw analysts’ recommendations become
+more objective. But how much really changed?
+At the peak of the housing boom (2005–2006),
+analysts were very positive about the house
+building industry. According to one study of Wall
+Street analyst ratings based on 1,500 companies,
+only 0.08 percent of the recommendations were
+“sell” recommendations and only 4.2 percent
+were “weak hold” recommendations. Clearly, out
+of so many companies, it is impossible to believe
+there were almost no sell candidates. Instead,
+it appears analysts are doing what they have
+always done, being optimistic in their recommen-
+dations and going out of their way not to find sell
+candidates. Investors should be extremely cau-
+tious when reviewing sell-side analyst recommen-
+dations. Instead, they should rely on independent
+sources for recommendations.
+The Active Strategy 307
+It is important to note that investors need not rely on Wall Street analysts for their
+recommendations and analysis. Some firms employ independent analysts to study
+companies, and the information from these firms is available to investors, either by
+paid subscription or free in a library or even free on a website. Three outstanding
+sources of independent information are the following:
+• The Value Line Investment Survey is one of the most famous sources of stock
+information. Value Line has ranked stocks into five categories since 1965. It is
+available in printed and electronic format by subscription and widely available
+in libraries.
+• Standard and Poor’s Outlook is available by subscription and at libraries. A very
+informative weekly source of information.
+• Morningstar, although best known for mutual funds, now analyzes and recom-
+mends individual stocks.
+Rotation Strategies
+As the name implies, a rotation strategy is executed by an investment manager
+rotating out of certain asset classes while rotating into other asset classes. Imple-
+menting a rotation strategy requires the investor to rely on a variable, or set of
+variables, to serve as a signal of when to initiate the rotation. For many investors,
+past performance serves as the indicator variable, whereby the investor rotates into
+the best performing securities and out of the worst performers. The Wall Street Jour-
+nal columnist Jason Zweig contends that “It is well-known that investors chase past
+performance, buying whatever has just made the most money for other people.”
+According to the authors of the book, Invest with the Fed, “Implementing a rotation
+strategy involves moving into the best performing sectors and out of the worst per-
+formers; the tricky part, of course, is to make the move prior to the sector becoming
+the best or worst performer.” 10
+One type of rotation strategy involves rotating across equities grouped by
+industry/sector and is frequently identified as a sector rotation strategy. This strat-
+egy involves shifting sector weights in the portfolio in order to take advantage of
+those sectors that are expected to do relatively better and avoid or deemphasize
+those sectors that are expected to do relatively worse. Investors employing a sector
+rotation strategy are betting that particular sectors will repeat their price perfor-
+mance relative to the current economic, business, or monetary conditions.
+An investor could think of larger groups as the relevant sectors, shifting between
+cyclical, defensive, growth, and value stocks. For example, a common approach is
+to divide stocks into four broad sectors: interest-sensitive, consumer durable, capital
+goods, and defensive stocks. Each of these sectors is expected to perform differently
+during the various phases of the business and credit cycles. For example, interest-
+sensitive stocks are expected to be adversely impacted during periods of high inter-
+est rates and such periods tend to occur at the latter stages of the business cycle. As
+interest rates decline, the earnings of companies in this sector—mortgage REITs,
+utilities, and residential construction firms—should improve.
+Defensive stocks include companies such as food production, soft drinks, beer,
+pharmaceuticals, and utilities that often are not hurt as badly during the down-
+side of the business cycle. These firms offer services and produce products that are
+10 See Robert Johnson, Gerald Jensen, and Luis Garcia-Feijoo, Invest with the Fed: Maximizing Portfolio
+Performance by Following Federal Reserve Policy (McGraw-Hill Inc., 2015).
+308 Chapter 11 Common Stocks: Analysis and Strategy
+considered to be necessities by most consumers. As the economy worsens and more
+problems are foreseen, investors may move into these stocks for investment protec-
+tion. These stocks often do well during late phases of a business cycle.
+An effective sector rotation strategy depends heavily on an accurate assessment of
+current economic conditions. A knowledge and understanding of the phases of the
+business cycle are important, as is an understanding of political environments, mon-
+etary conditions, international linkages among economies, and credit conditions.
+Investors search for indicators that successfully identify when to shift a portfolio to
+a more aggressive or defensive position.
+Relative to investing in a market index, sector bets are narrow bets that can
+result in big gains or big losses. Investors should not generally expect year-to-year
+continuity in results. Nevertheless, a 2008 study using 33 years of equity returns
+strongly suggests that a simple sector rotation strategy based on Federal Reserve
+monetary policy “could have been used to significantly improve risk-adjusted port-
+folio performance.”11
+• Sector investing is subject to greater risks than investing in the overall market.
+As for information, Standard and Poor’s Industry Surveys is published weekly and
+contains detailed data on more than 50 industry groups. Investor’s Business Daily,
+published five days a week, ranks almost 200 industry groups with each issue. Each
+weekly issue of Bloomberg Business Week reports best and worst performing sectors
+for the last month and the last 12 months, as well as information on sector mutual
+funds.
+Indirect investing in sectors Investors can pursue a sector investing approach
+using sector mutual funds or sector ETFs. There are hundreds of sector funds and
+sector ETFs available to investors. For example, both Vanguard and State Street
+offer sector ETFs for the nine major sectors of the stock market: consumer dis-
+cretionary, consumer staples, energy, financials, healthcare, industrials, technology,
+materials, and utilities. The dramatic increase in the number and type of sector
+fund has made sector rotation strategies much easier to implement and manage,
+which has greatly expanded the strategy’s popularity.
+It is also possible to construct a balanced portfolio consisting solely of sector
+funds or ETFs. For example, an investor could include technology, real estate,
+financial, natural resource, consumer discretionary, and utility stocks with six sector
+funds or ETFs.
+Industry momentum and sector investing Sector funds are particularly popu-
+lar with momentum traders. Momentum in stock returns refers to the tendency
+of stocks that have performed well (poorly) recently to continue to perform well
+(poorly). Academic research has uncovered an intermediate (3- to 12-month)
+momentum in U.S. stock returns and attributed it, at least partially, to an industry
+effect. This suggests that recent strong (weak) industry performance is followed by
+strong (weak) industry performance over subsequent months.
+Based on Fidelity Select Portfolio sector funds, O’Neal found evidence sup-
+porting the view that it was possible to exploit the industry momentum pattern
+in stock returns. In particular, he found a difference of 8.6 percent in the annual
+The Active Strategy 309
+returns between the high- and low-momentum portfolios that were formed from
+the sector funds. 12
+Market Timing
+Market timers attempt to earn excess returns by varying the percentage of portfolio
+assets in equity securities. One has only to observe a chart of stock prices over time
+to appreciate the profit potential of being in the stock market at the right times and
+being out of the market at bad times. For example, if you could have recognized
+a market peak in Spring 2008 and sold your equities, you would have avoided a
+disaster. Similarly, if you could have recognized the market bottom in March 2009
+and bought equities, you could have realized a 60 percent return on your money. If,
+if, if—if you could see your college exams before you take them, you undoubtedly
+would do much better on them.
+When equities are expected to do well, timers shift from cash equivalents
+such as money market funds to common stocks. When equities are expected to
+do poorly, the opposite occurs. Alternatively, timers could increase the betas of
+their portfolios when the market is expected to rise or decrease the betas of their
+portfolio when the market is expected to fall. One important factor affecting
+the success of a market timing strategy is the amount of brokerage commissions
+and taxes paid with such a strategy as opposed to those paid with a buy-and-
+hold strategy.
+Some believe that the popularity of market timing follows a cycle of its own. If the
+market is strongly up, market timing falls into disrepute, and buying and holding
+is the popular strategy. Following a severe market decline, however, market timing
+comes into vogue, and the buy-and-hold strategy is not as popular.
+The controversy surrounding market timing Like many issues in the invest-
+ing arena, the subject of market timing is controversial. Can some investors
+regularly time the market effectively enough to provide excess returns on a risk-
+adjusted basis?
+Much of the empirical evidence on market timing comes from studies of mutual
+funds. A basic issue is whether fund managers increase the beta of their portfolios
+when they anticipate a rising market and reduce the beta when they anticipate a
+declining market. Several studies found no evidence that funds were able to time
+market changes and change their risk levels in response.
+Chang and Lewellen examined the performance of mutual funds and found
+little evidence of any market timing ability. Furthermore, the average estimated
+down-market beta turned out to be slightly higher than the average estimated
+upmarket beta. Overall, this study supported the conclusion that mutual funds
+do not outperform a passive investment strategy. Henriksson found that mutual
+fund managers are not able to successfully employ strategies involving market
+timing. Moreover, these managers were also not successful with timing large mar-
+ket changes. 13
+12 Edward S. O’Neal, “Industry Momentum and Sector Mutual Funds,” Financial Analysts Journal, 58, no.
+4 (July/August 2000): 37–49.
+13 Eric Chang and Wilbur Lewellen, “Market Timing and Mutual Fund Investment Performance,”
+Journal of Business, 57, no. 1, part 1 (January 1984): 57–72. Roy D. Henriksson, “Market Timing and
+Mutual Fund Performance: An Empirical Investigation,” Journal of Business, 57, no. 1, part 1 (January
+1984): 73–96.
+310 Chapter 11 Common Stocks: Analysis and Strategy
+A study of market timing using large-cap stocks versus T-bills concluded, “the
+investor would need to have a predictive accuracy, on average, of greater than
+66 percent to outperform choices made from simply flipping a coin. As the holding
+period increases, the needed accuracy also increases.”14 The Hulbert Financial Digest
+tracks many market timing newsletters and consistently finds that approximately
+80 percent of them underperform the market indexes. Mark Hulbert is quoted as
+saying, “It’s such a constant it’s like, end of story, might as well go home.”15
+Why market timing is risky Investors who miss only a few key months of being
+invested in the market may suffer significantly. For example, over a recent 40-year
+period, investors who missed the 34 best months for stocks would have seen an ini-
+tial $1,000 investment grow to only $4,492 instead of $86,650. Even Treasury bills
+would have been a better alternative in this situation. According to another esti-
+mate, as Figure 11.4 shows, for the period 1980–2000 the value of $1.00 invested in
+the S&P 500 would have grown to $18.41. However, taking out the best 15 months of
+S&P performance, $1.00 would have grown to only $4.73. As one magazine summed
+up these statistics, “You gotta be in it, to win it.”16
+• Considerable research now suggests that the biggest risk of market timing is
+that investors will not be in the market at critical times, thereby significantly
+reducing their overall returns.
+Some Practical Advice
+The available evidence clearly suggests market
+timing will not work for most investors. Not only
+must you decide when to get out of stocks,
+you must also decide when to get back in.
+And, being out of the market for relatively short
+periods can dramatically lower average returns.
+Charles Ellis, in his well-known book about why
+investors are not likely to outperform the market,
+summed it up well: “Market timing is a wicked
+idea. Don’t try it—ever.” 17 Finally, consider this
+quote from Warren Buffett, arguably the most
+successful investor in the world: “Investors need
+to avoid the negatives of buying fads, crummy
+companies, and timing the market.”18
+Checking Your Understanding
+4. What causes the conflicts of interest for security analysts?
+5. How can investors be confident that security analysis is profitable year after year?
+6. State two reasons why market timing will likely not be a successful strategy.
+Rational Markets and Active Strategies
+One of the most significant developments in recent years is the proposition that
+securities markets are efficient and that rational asset pricing models predominate.
+Under this scenario, investors are assumed to make rational, informed decisions on
+the basis of the best available information. In a rational market, security prices accu-
+rately reflect investor expectations about future cash flows. Much evidence exists to
+support the basic concepts of market efficiency and rational asset pricing.
+If the stock market is efficient, prices reflect their fair economic value. Even if
+this is not strictly true, prices may reflect their approximate fair value after trans-
+action costs are taken into account, a condition known as economic efficiency. If
+stock prices depart only slightly from their fair economic value, investors should not
+employ trading strategies designed to “beat the market” by identifying undervalued
+stocks, nor should they attempt to time the market. Sector rotation also will be
+unsuccessful on average in a highly efficient market.
+Efficient market proponents often argue that less time should be devoted to the
+analysis of securities for possible inclusion in a portfolio, and more to such considera-
+tions as reducing taxes and transaction costs and maintaining the chosen portfolio risk
+level. Because a person’s beliefs about market efficiency have a significant impact on the
+type of stock strategy implemented, we consider market efficiency in the next chapter.
+A Simple Strategy: The Coffeehouse
+Portfolio
+An appropriate way to conclude our discussion of common stock strategies is to
+consider one of the simplest strategies an investor can follow. Short of simply invest-
+ing 100 percent in one fund, one of the simplest strategies is the “Coffeehouse
+Some Practical Advice
+The available evidence clearly suggests market
+timing will not work for most investors. Not only
+must you decide when to get out of stocks,
+you must also decide when to get back in.
+And, being out of the market for relatively short
+periods can dramatically lower average returns.
+Charles Ellis, in his well-known book about why
+investors are not likely to outperform the market,
+summed it up well: “Market timing is a wicked
+idea. Don’t try it—ever.” 17 Finally, consider this
+quote from Warren Buffett, arguably the most
+successful investor in the world: “Investors need
+to avoid the negatives of buying fads, crummy
+companies, and timing the market.”18
+17 Charles Ellis, Winning the Loser’s Game, 4th ed. (McGraw-Hill, 2002), p. 10.
+18 Andy Serwer, “The Oracle of Everything,” Fortune (November 11, 2002): 71.
+312 Chapter 11 Common Stocks: Analysis and Strategy
+portfolio,” created by an ex-Smith Barney broker named Bill Schultheis.19 It involves
+no trading, no rebalancing, no security analysis, and no strategizing.
+Forty percent of the portfolio is allocated to bonds and 60 percent to equity.
+This can be accomplished with index funds or ETFs. For example, for the 60
+percent equity portion, put 10 percent in the S&P 500, 10 percent in large-cap
+value stocks, 10 percent in small-cap stocks, 10 percent in small-cap value stocks,
+10 percent in international stocks, and 10 percent in REITs. Over the five-year
+period starting with the bear market of 2000–2002, this portfolio outperformed
+the indexes with no additional costs or effort. Over the 10-year period ending in
+2014, according to the Coffeehouse website, the annualized return was 6.45 per-
+cent. Although not a direct comparison because the Coffeehouse portfolio holds
+bonds, small stocks, and so on, the S&P 500 annual return for these 10 years was
+9.37 percent.
+Such a portfolio typically does not outperform the market when it is booming,
+which is why it was laughed at in 1999 at the height of the dotcom frenzy. However,
+in 2008 when the market lost 36.55 percent, the Coffeehouse portfolio dropped by
+only 20.21 percent. Over time things have a way of evening out, as the performance
+of the Coffeehouse portfolio demonstrates. Once again, it illustrates the impor-
+tance of good asset allocation.
+Summary
+• Market risk is the single most important risk affecting common stocks.
+• For well-diversified portfolios, market effects account for 90 percent or more
+of the variability in the portfolio’s return.
+• The required return for a common stock, or any security, is defined as the
+minimum expected return needed to induce an investor to purchase the
+stock.
+• The required return for any investment opportunity can be expressed as the
+sum of the risk-free return and a risk premium.
+• The tradeoff between required return and risk is viewed as linear and
+upward sloping, which means that the required return increases as risk
+increases.
+• If the market is totally efficient, no active strategy will beat the market on a
+risk-adjusted basis, and, therefore, a passive strategy is superior.
+• Passive strategies include buy and hold and the use of index funds.
+• Pursuit of an active strategy assumes that investors possess some advantage
+relative to other market participants.
+• Active strategies include stock selection, rotation strategies, and market
+timing.
+• The most important active strategy is stock selection. A rotation strategy is a
+variation of this approach.
+• Security analysts play a large role in providing information relevant to stock
+valuation and selection. Some of their output has been heavily criticized
+because of conflicts of interest. Other parts of their output can be of real value
+to investors doing security analysis.
+19 See Bill Schultheis, The New Coffeehouse Investor: How to Build Wealth, Ignore Wall Street, and Get on With
+Your Life, 2009.
+Computational Problems 313
+Questions
+11.1 What impact does the market have on well-
+diversified portfolios? What does this suggest about
+the performance of mutual funds?
+11.2 How does an investor reconcile the large vari-
+ability in stock returns, and the big drops that have
+occurred, with taking a prudent position in owning
+a portfolio of financial assets?
+11.3 Given the drastic drop in the price of Japanese
+stocks in the past, how can U.S. investors justify own-
+ing foreign stocks?
+11.4 Outline the rationale for passive strategies.
+11.5 What is the relation between passive investing and
+the efficient market concept?
+11.6 Why are actively managed mutual funds likely to be
+tax inefficient?
+11.7 Can a standard index mutual fund outperform its
+index?
+11.8 Describe three active strategies involving common
+stocks.
+11.9 What are the major sources of information used by
+security analysts in evaluating common stocks?
+11.10 How does the cross-sectional variation in common
+stock returns relate to the issue of stock selection?
+11.11 What is meant by a rotation strategy? What is
+the key input in implementing effective rotation
+strategies?
+11.12 What does the evidence cited on market timing sug-
+gest about the likelihood of success in this area?
+11.13 What does it mean to say that investors at large
+brokerage firms now have access to independent
+research when buying securities?
+11.14 Name three independent sources of information
+investors can use in doing their own research on
+stocks.
+11.15 What is the basic idea behind the efficient market
+hypothesis?
+11.16 What are the implications of the efficient market hy-
+pothesis to both stock selectors and market timers?
+11.17 If more investors became passive investors, how
+would that affect investment companies?
+11.18 How should active investors determine if their efforts
+are worth the cost relative to passive investing?
+11.19 Vanguard’s S&P 500 Index fund consistently out-
+performs Morgan Stanley’s S&P 500 Index fund,
+although both hold the same portfolio of stocks.
+Ignoring sales charges, what is the obvious reason for
+the underperformance of the Morgan Stanley fund?
+11.20 Vanguard’s Information Technology Fund (VITAX)
+outperformed Vanguard’s S&P 500 Index fund dur-
+ing the period 2014–2018, although it had a higher
+operating expense ratio. What is the reason for this
+outperformance?
+Problems
+11.1 The average equity mutual fund charges about 1.5
+percent annually as an operating expense ratio.
+Assuming that the average fund earns 11 percent on
+a gross basis over a 20-year period, determine how
+much $10,000 would grow to on a net basis after 20
+years.
+11.2 Go to www.morningstar.com and look at Morgan
+Stanley’s S&P 500 “A” shares (symbol = SPIAX).
+Assuming you invest $10,000 in these shares, how
+much would your account be worth on the first day
+after the deduction of the load charge?
+11.3 Suppose you had bought Putnam’s Multi-Cap
+Growth “A” shares (symbol = PNOPX) and owned
+it for the years 2007–2011. Calculate the geometric
+mean annual return for this five-year period. Use
+Morningstar to determine the average annual return
+for these five years.
+Computational Problems
+11.1 You can buy Vanguard’s S&P 500 fund with an
+annual operating expense of 0.18 percent, or you
+can buy Morgan Stanley’s S&P 500 fund with an
+annual operating expense of 1.40 percent. Given
+S&P 500 returns for 2007–2011 of 5.49, 36.6, 26.46,
+15.06, and 2.1, respectively, determine how much
+$10,000 invested in each fund on January 1, 2007,
+would be worth on December 31, 2011.
+• Market timing is not a likely success story for investors. Missing a relatively few
+days or months in the market can lower average returns dramatically.
+• The efficient market hypothesis, which states that current stock prices reflect
+information quickly and without bias, has implications for all stock investors.

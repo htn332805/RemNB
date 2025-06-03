@@ -1,0 +1,1183 @@
+470CHAPTER 18
+Having chosen to allocate a por-
+tion of your inheritance to bonds,
+you have only satisfied the first
+step in the fixed-income manage-
+ment process. By making an alloca-
+tion to bonds you have increased
+the diversification of your port-
+folio, which will help to alleviate
+the impact of a large stock mar-
+ket decline, such as those that
+occurred in 2000–2002 and 2008.
+However, there are additional
+decisions that need to be made. In
+order to effectively manage your
+fixed-income allocation, you need
+to choose whether to apply an
+active or passive approach to the
+management of the bond portfolio.
+Effective management also requires that you understand how particular bond fea-
+tures affect the execution of your investment strategy.
+This chapter concludes our discussion of fixed-income securities by analyzing
+strategies and approaches to the management of a bond portfolio. We discuss the
+major issues that confront investors in selecting and managing their bond portfolio.
+The overall objective of the chapter is to provide information regarding how invest-
+ment choices impact the risk and return profile of a bond portfolio.
+Why Buy Bonds?
+Do stocks always outperform bonds in the long run, as many commentators on
+investing have stated? Are bonds always destined for a second-place finish? Despite
+the fact that this statement is almost always true, exceptions do occur. Consider the
+30 years ending September 30, 2011. A long-term government bond index beat
+the S&P 500 stock index, 11.5 to 10.8 percent. 1 The major explanation for this
+Bonds: Analysis and
+Strategy
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain the reasons why investors
+buy bonds.
+• Differentiate between the passive
+and active strategies for managing
+a bond portfolio.
+• Explain the concept of dura-
+tion and how it can be used in
+managing bond volatility.
+• Describe how convexity relates to
+duration and bond price move-
+ments.
+1 This information is based on Cordell Eddings and Evan Applegate, “Bonds Notch a Rare Win over
+Stocks,” Bloomberg Businessweek (November 7–13, 2011): 46, 48.
+Why Buy Bonds? 471
+was the long decline in interest rates over this period, from 14 percent on Treasury
+bonds to less than 3 percent. Thus, bond investors enjoyed capital gains as well as
+interest income and did not suffer the losses that stocks suffered in 2000–2002 and
+2008. However, such a dramatic decline in interest rates is a very rare event and
+not likely to be repeated again anytime soon. Clearly, with the 10-year Treasury rate
+hovering around 2 percent, as it was in early 2019, there was little room for further
+decline.
+Also, bonds outperform other asset classes for shorter periods of time. In 2014,
+for example, T-bonds outperformed both U.S. stocks and corporate bonds.
+The return on bonds can be separated into two components, which helps to
+explain why bonds appeal to both conservative investors seeking steady income and
+aggressive investors seeking capital gains. A wide range of investors participate in
+the fixed-income market, ranging from individuals who own a few government or
+corporate bonds to large institutional investors who own billions of dollars of bonds.
+Most of these investors are seeking the basic steady return–low risk characteristics that
+most bonds offer; however, quite different overall objectives can be accomplished
+by purchasing bonds.
+Conservative investors view bonds as fixed-income securities that pay a steady
+stream of income. In most cases the risk is small, and Treasury issues are regarded
+as having no practical risk of default. These investors tend to use a buy-and-hold
+approach. Investors following this strategy seek to maximize their current income
+subject to the risk assumed: corporates should return more than Treasuries, BBB
+should return more than A or AA or AAA, long maturities should return more than
+short maturities, and so on.
+The promised yield on a bond held to maturity is known at the time of purchase.
+Barring default by the issuer, a buyer has the bond’s principal returned at maturity.
+By holding to maturity, an investor can escape the risk a bond’s price will be lower
+when it is sold, although other risks (such as inflation risk and reinvestment rate
+risk) may not be eliminated.
+• As fixed-income securities, bonds are desirable to many investors because they
+offer a steady stream of interest income over the bond’s life and a return of
+principal at maturity.
+While most investors buy “standard” coupon-paying bonds where the payoffs
+are known in advance, other types of bonds are available. Some bonds have
+yields that depend upon a specified index or are tied to a specific Treasury yield.
+Some floating-rate bonds have yields tied to LIBOR (London Interbank Offered
+Rate) plus some percentage yield amount. Still others may have yields that
+are pegged to inflation. These securities are referenced as structured income-
+producing products.
+To illustrate the risk and return situation for an investor
+who is seeking steady returns, consider long-term bonds
+for the period 1926–2017. For the period, investors in Treasury bonds would
+have earned an average annual return of 5.5 percent. Over the same period,
+corporate bonds earned an average annual return of 6.1 percent. The standard
+deviations for these two series were less than half that of stocks. Thus, high-
+quality bonds offer a stream of steady returns over long periods of time, with
+relatively small risk.
+EXAMPLE 18.1
+472 Chapter 18 Bonds: Analysis and Strategy
+Other investors are interested in bonds because bond prices change as
+interest rates change. If interest rates rise (fall), bond prices fall (rise). These
+investors are interested not in holding the bonds to maturity, but rather in
+earning the capital gains that accrue if they correctly anticipate movements
+in interest rates.
+Aggressive investors are interested in capital gains that arise from a change
+in interest rates. There is a substantial range of aggressiveness, from the really
+short-term speculator to the somewhat less aggressive investor who is willing to
+realize capital gains over a longer period while receiving a stream of interest
+income.
+Short-term speculators study interest rates carefully and move into and out of
+securities on the basis of interest rate expectations. If rates are expected to fall,
+they buy long-term, low-coupon issues and achieve maximum capital gains if
+their interest rate forecast is correct. Treasury bonds can be bought on 10 percent
+margin to further magnify gains (or losses). Speculators often use Treasury issues
+(the highest quality bond available) or high-grade corporates in doing this kind of
+bond trading. It is not necessary to resort to low-quality bonds when speculating on
+interest rate changes.
+Of course, losses also occur as a result of interest rate changes, both for longer
+periods and for short periods.
+In the past, bonds were viewed as very stable instruments whose prices fluctu-
+ated very little in the short run. However, this situation changed drastically in the
+1980s when the bond markets became quite volatile. Interest rates in the early 1980s
+reached record levels, causing large changes in bond prices.
+Investments Insight
+Of Course, Not Everything Goes
+as Expected
+Despite the typical steady performance of bonds
+over time, the situation can be reversed during
+unusual conditions such as a financial crisis. Con-
+sider an investor in 1985 holding 10-year Treasuries.
+The coupon was 10 percent, and inflation was
+about 4 percent, leaving a real return of approx-
+imately 6 percent. Now consider an investor in
+2017 holding 10-year Treasuries. The coupon was
+2 percent, which was approximately equal to infla-
+tion. Thus, the real return was zero. If the investor
+held these securities in a taxable account, taxes
+were due on the interest. Therefore, on a real basis,
+the investor was paying the government to hold
+these securities and earning a negative real
+return. This helps to illustrate that even conserva-
+tive bond investors face a wide range of situations.
+To obtain an idea of the returns possible from changes
+in interest rates, consider long-term T-bond returns over
+some selected years. In 1982, the return was approximately 42 percent; in
+1985, 32 percent; in 1995, 31 percent; in 2000, 20 percent; in 2011, 35 percent;
+and in 2014, 30 percent. Clearly, successful bond speculation in each of these
+years resulted in very large return
+Why Buy Bonds? 473
+Bond speculators encompass a wide range of participants, from financial institu-
+tions to individual investors. All are trying to take advantage of an expected move-
+ment in interest rates. Thus, investors seeking the income component from bonds,
+as well as investors attempting to speculate with bonds, are keenly interested in the
+level of interest rates and any likely rate changes. A critical part of bond strategy and
+management, therefore, must involve interest rate considerations.
+Buying Foreign Bonds
+How important are foreign bonds in the total investing environment? Foreign bond
+markets account for approximately 60 percent of the fixed-income opportunities
+available on a global basis; in 1990, they accounted for only one-third. In spite of the
+size of the foreign bond market, U.S. investors generally have little, if any, foreign
+bond exposure. U.S. investors should consider foreign bonds for their portfolios for
+the following reasons:
+1. Foreign bonds often offer higher returns than alternative domestic bonds.
+Thus, investors can make a good case for buying foreign bonds on the basis
+of potentially attractive returns.
+2. Foreign bonds expand diversification benefits, which are extremely impor-
+tant, both in stock and bond portfolios.
+Individual investors often find it difficult to invest directly in foreign bonds. Some
+brokerage firms do not offer foreign bonds to individual investors, while most that
+do require a minimum investment of at least $50,000. Selling foreign bonds that are
+directly owned also can be a problem. Secondary markets in most foreign countries
+are not comparable to the huge U.S. bond market. This means that individual inves-
+tors selling small amounts of foreign bonds abroad will typically incur significant
+price concessions. In addition, these investors face transaction costs. Dollars must
+be converted into the foreign currency to make purchases, and receipts from the
+foreign bonds must be converted back into dollars. On small transactions, these
+costs can significantly impact returns.
+• Given the difficulties involved, most investors buying foreign bonds do so via
+mutual funds or exchange-traded funds (ETFs).
+From September 28, 2016, to December 16, 2016, the
+10-year T-bond rate went from 1.6 to 2.6 percent, and
+the value of these bonds went down more than 9 percent. Thus, in only three
+months, holders of this security could have experienced a negative price
+change of 9 percent on a bond instrument typically considered default-free.
+EXAMPLE 18.3
+In 2014, Vanguard’s total international bond fund
+returned 8.82 percent versus only 5.89 percent for its
+total U.S. bond fund. However, its emerging market bond fund returned only
+4.34 percent in 2014, less than half the return of the total international bond
+fund
+474 Chapter 18 Bonds: Analysis and Strategy
+What about currency risk? Investors in foreign bonds (or any other foreign
+security) face exchange rate risk, which can be favorable or unfavorable. The euro
+strengthened against the dollar for several years of the new decade, providing a cur-
+rency gain to U.S. investors. In contrast, in 2014, the euro weakened substantially
+against the dollar, which caused a significant loss for U.S. investors holding euro-
+denominated bonds.
+Investors buying mutual funds can choose foreign bond funds that hedge their
+currency exposure. When a fund does this, a U.S. investor earns a return close to
+what local investors would earn on bonds. On the other hand, investors seeking cur-
+rency exposure in the bond area can choose unhedged funds.
+Important Considerations in Managing
+a Bond Portfolio
+Understanding the Bond Market
+To be successful, investors must understand the relationship between the bond mar-
+ket and the economy as a whole. It is commonplace to talk about the bond market
+benefiting from a weak economy. If the economy is growing slowly, interest rates
+often decline, and bond prices rise. In effect, a decline in economic growth can
+lead to fewer investment opportunities, inducing savers to increase their demand
+for bonds, which pushes bond prices up and bond yields down. A rapidly growing
+economy can frighten bond investors because strong economic activity often pushes
+interest rates up and bond prices down.
+Another important relationship is between bond yields and inflation. If
+investors anticipate a rise in inflation, they demand more from a bond to com-
+pensate for the expected decline in the purchasing power of a bond’s cash
+flows. An increase in expected inflation will tend to depress bond prices and
+increase yields.
+Some Practical Advice
+The quest for higher bond yields has led
+investment firms to offer emerging market bond
+funds. For example, Vanguard created its emerg-
+ing market bond fund in May 2013. While the
+fund offers investors the potential for greater
+returns, the higher potential returns come with
+higher risk and higher transactions costs. Van-
+guard’s emerging market bond fund has an
+expense ratio of 0.34 percent versus only 0.08
+percent for its total bond fund.
+The T. Rowe Price International Bond Fund provides U.S.
+investors with diversification away from U.S. markets. The
+fund invests heavily in government bonds from developed countries, although
+it also invests modestly in foreign corporate issues and emerging market debt.
+The fund is exposed to currency risk, which increases its potential volatility.
+During a particular time period, this exposure to currency risk can work for
+or against investors
+Bond Strategies and Techniques 475
+• While the bond market appears to prefer a neutral to weak economy with its
+lower interest rates, the bond market clearly dislikes inflation.
+Bond investors fear inflation because of its negative effect on fixed-income securi-
+ties, and they favor Fed actions that temper economic growth and reduce inflation.
+Not surprisingly, typical relationships between economic data and yields do not
+always hold. In December 2011, economic data came in better than expected. This
+would normally suggest rising interest rates. Instead, the 10-year T-bond yield ended
+the year below 2 percent. Fears about the European debt crisis and doubts about
+the U.S. economy led investors to seek the safety of Treasury debt, even at record
+low yields.
+Global Factors and the U.S. Bond Markets
+Global crises can have a significant impact on the U.S. bond market. When the
+Brazilian crisis erupted around the end of 1998, there was a flight to safety in the
+form of purchases of Treasuries. As the crisis diminished, this demand for Treasur-
+ies decreased.
+A notable impact of foreign factors on U.S. bond prices, particularly Treasuries,
+occurred during the European sovereign debt and bond crisis in 2011. With Greece
+on the brink of bankruptcy and Italy, Spain, and Portugal facing major debt prob-
+lems, a flight to safety was common. Investors sought the relative safety of Treas-
+ury securities given all the turmoil. As one source noted on September 12, 2011:
+“Investors continued to pile into Treasuries Monday as the intensifying debt crisis
+in Europe sparked a broad flight to safety.”2 The result of this reallocation to lower
+risk bonds was that yields on 10-year Treasuries fell below 2 percent in late 2011 and
+remained largely below that level until mid-2013.
+Checking Your Understanding
+1. During the first several years of the 21st century, the euro strengthened rela-
+tive to the dollar. How did this affect U.S. investors in European bonds?
+2. Bond investors are often said to react favorably to a Federal Reserve move-
+ment to tighten monetary policy. What is the explanation for this?
+3. What are the two most important reasons for a U.S. investor to buy foreign
+bonds?
+4. Given an economy that is growing better than expected, is it rational for bond
+holders to sell?
+Bond Strategies and Techniques
+Bond investing has become increasingly popular, which has driven interest rates to
+record low levels in recent years. Unfortunately, bonds generally do not receive the
+same amount of attention from individual investors as common stocks. A majority
+of individual investors are simply more interested in owning stocks than in owning
+bonds. Stocks are more “glamorous,” and more attention is devoted to them. Fur-
+thermore, more data exist for common stocks, undoubtedly because most stocks
+2 Ben Rooney, “Treasury Yields Hit Record Lows on Euro Turmoil,” money.cnn.com, September 12, 2011.
+476 Chapter 18 Bonds: Analysis and Strategy
+trade on exchanges where detailed prices can be collected and analyzed. The same
+is not true for bonds. Even today investors have difficulty obtaining instantaneous
+current quotes on many bonds.
+Despite the lesser emphasis on bond portfolio management, investors must man-
+age their bond portfolios and make investment decisions. Investors adopt different
+strategies, depending on their risk preferences, knowledge of the bond market, and
+investment objectives. Two broad strategies that any investor can follow with any
+type of portfolio are the passive and active strategies.
+We know that bond prices change as interest rates change. Investors need to be
+able to make reasonable estimates of bond price changes if interest rates change by
+a specified amount. Therefore, as part of our consideration of bond strategies and
+management techniques, we analyze how investors can accurately assess bond price
+volatility. We also consider how investors can protect a bond portfolio against inter-
+est rate movements.
+Passive Management Strategies
+Many investors agree that securities are fairly priced in that the expected return is
+commensurate with the risk taken. Passive bond strategies are based on the proposi-
+tion that bond prices are determined rationally, leaving risk as the portfolio variable
+to control. Strategies for investors following a passive approach include buy and
+hold and indexing.
+Passive strategies have a lower cost than do active strategies. Costs are a key deter-
+minant in a fund’s success over time, and this is particularly true for bonds because
+bond returns are typically lower than stock returns.
+• Passive management strategies are based on inputs that are known at the time,
+rather than expectations.
+Passive management does not mean that investors maintain their current bond
+holdings even when market conditions change unexpectedly. Investors must moni-
+tor the status of their portfolios in order to match their holdings with their risk
+preferences and objectives. Conditions in the financial markets change quickly, and
+hence investors must make fast changes when necessary. Thus, a passive investment
+strategy does not mean that investors do nothing.
+The passive approach to bond investing is supported by evidence showing that
+the performance of bond managers failed to equal that of a market index. For
+example, the SPIVA Scorecard reports that over 85 percent of investment-grade
+long-bond funds reported 5-year performance that was inferior to that of their
+benchmark. Likewise, more than 90 percent of high yield funds underperformed
+over a 5-year period. 3 Thus, the average pension fund holding these securities would
+have done better with an index fund.
+A comprehensive study examining the performance of bond mutual funds found
+that such funds underperformed relevant bond indexes.4 The results were robust
+across a wide choice of models. For the most part, this underperformance approxi-
+mated the average management fees; therefore, before expenses, funds performed
+about as well as the indexes.
+478 Chapter 18 Bonds: Analysis and Strategy
+as the Barclays Capital Aggregate Bond Index. 5 Mutual funds designed to match
+the performance of an index are known as index funds. While the typical actively
+managed bond fund has an expense ratio that may approach 1 percent, the average
+expense ratio of bond index funds is less than half that amount. ETFs are another
+alternative, and they often have very low expense ratios.
+How important are expense ratios for bond funds? Extremely important! With
+high-grade corporates yielding 3 percent and Treasuries even less, the impact of a
+0.05 percent expense ratio versus about 1 percent subtracted from these returns is
+obvious.
+Active Management Strategies
+Many investors purchase bonds planning to hold them to maturity; however, other
+bond investors use active management strategies. These strategies have traditionally
+sought to profit from active management of bonds by:
+1. Taking speculative bond positions based on forecasting changes in interest
+rates
+2. Identifying abnormal yield spreads between bond sectors and acting to take
+advantage of these discrepancies
+3. Identifying relative mispricing between fixed-income securities with differing
+features and taking appropriate positions
+Notice that, unlike the passive strategy, the key bond features targeted are not
+known until after the analysis is completed. Instead, investors form expectations
+about interest rate changes, yield spreads, and security mispricings and take bond
+positions thereafter.
+We consider several active strategies; however, this is a nonexhaustive list of
+strategies.
+The Vanguard Total Bond Market Index is one of the largest
+bond index funds. Its expense ratio is a mere 0.05 percent,
+which Vanguard states is on average 93 percent lower than other bond funds
+with similar holdings.6 Vanguard also offers Vanguard Total Bond Market ETF
+with similar holdings and the same 0.05 percent expense ratio.
+EXAMPLE 18.7
+Some Practical Advice
+Barclays offers several iShares ETFs concentrating
+on both corporate and Treasury bonds such
+as iShares Barclay U.S. Aggregate Bond Fund.
+Vanguard offers the Vanguard Total Bond Market
+ETF and the Vanguard Short-Term Bond ETF and
+Long-Term Bond ETF. For investors with a greater
+risk appetite, Vanguard offers a high-yield corpo-
+rate bond fund.
+5 The Barclays Capital Aggregate Bond Index covers more than 6,000 securities. Most bond index funds
+use a sampling approach to replicate the index as closely as possible.
+6 This expense ratio is for the Admiral Shares, which require a higher initial investment.
+Active Management Strategies 479
+Forecasting Changes in Interest Rates
+Changes in interest rates are the chief factor affecting bond prices. There is an
+inverse relationship between changes in bond prices and changes in interest rates;
+however, the relationship is influenced by bond features. When investors project
+interest rate declines, they should take action to invest in bonds with the right fea-
+tures to optimize price appreciation opportunities. When interest rates are expected
+to rise, the objective is to minimize losses by not holding bonds or holding bonds
+with the appropriate characteristics.
+How does an investor forecast interest rates? Sadly, the answer has commonly
+been, “not very well.” Interest rate forecasting is a notoriously difficult proposition.
+Consider this quote concerning the yield on 10-year T-bonds: “Strategists at Credit
+Suisse predicted the yield will tumble to as low as 1.5 percent during the first half
+of 2012. But analysts at Nomura expect the yield to rise to 2.4 percent in the next
+few months.”7
+Reasonable forecasts can sometimes be made about the likely growth rate of the
+economy and the prospects for inflation, both of which affect interest rates and,
+therefore, bond prices. Assuming an investor has a forecast of interest rates, he or
+she should lengthen (shorten) a bond portfolio’s maturity when interest rates are
+expected to decline (rise).
+Bond maturity impacts investment performance in important ways:
+1. Short maturities sacrifice price appreciation opportunities and usually offer
+lower coupons (income) but serve to protect the investor if rates rise.
+2. Longer maturities have greater price fluctuations; therefore, the chance for
+bigger gains (and bigger losses) is magnified. They also tend to pay higher
+coupons; however, longer maturities are generally less liquid than shorter-
+term securities.
+• An important component in forecasting interest rates is the yield curve. The
+shape of the yield curve contains valuable information about the future course
+of interest rates. Bond market participants, pay close attention to yield curves
+as an aid in forecasting interest rates and in deciding what segments of the
+bond market to target.
+One form of interest rate forecasting, horizon analysis, involves the projection
+of bond performance over a planned investment horizon. The investor evaluates
+bonds over a selected holding period in order to determine which will perform
+the best. To do this, the investor must make assumptions about reinvestment rates
+A report from Fidelity’s Investment Grade Bond Fund
+made the following observation: “Yield curve positioning
+was a solid contributor to fund performance during the year while the
+yield curve flattened. The fund benefited from the barbell style yield curve
+positioning it employed with investments concentrated to a higher degree on
+the short and long ends of the yield curve and to a lesser degree in between.”
+EXAMPLE 18.8
+7 Min Zeng, “Treasuries End Year Below 2% for the First Time Since ‘77,” The Wall Street Journal online
+(December 30, 2011).
+480 Chapter 18 Bonds: Analysis and Strategy
+and future market rates and calculate the horizon returns for the bonds. Note that
+this concept is different from the yield-to-maturity concept, which does not require
+future interest rate expectations to be integrated into the analysis. Horizon analysis
+requires users to make assumptions about reinvestment rates and future yields but
+allows them to consider how different scenarios will affect bond performance.
+• Always remember that interest rate forecasts are notoriously inaccurate. While
+a particular forecaster may get it right one time, the same forecaster probably
+will not the next time.
+Yield Spread Analysis
+In Chapter 17, we discussed the risk premiums that help to explain why rates differ
+between bonds with different features or issuers. We can categorize the differences
+between two segments of the bond market as a yield spread. As we know, the bond
+market comprises different sectors based on issuer (the Treasury, corporations, and
+so forth), quality (Treasury, government agency, AAA, AA, A, BBB, below invest-
+ment grade), or call feature (callable or noncallable).
+Yield spread analysis involves analyzing the differences in promised yields between
+segments of the bond market. Investors monitor yield relationships between types of
+bonds and look for abnormalities based on their beliefs regarding normal spreads.
+Using these strategies, investors sell bonds in one sector and buy bonds in another
+sector in the hopes of profiting as the yield spread moves from its current level to
+its “normal” level.
+• Yield spread strategies seek to profit from an expected change in the yield
+spreads between bond sectors, based on an assumption that there exists some
+normal yield spread level between sectors.
+During periods of economic expansion, the spread between Treasury issues and
+corporate issues (the credit spread) generally narrows, reflecting corporate bonds’
+Some Practical Advice
+Assume that you expect interest rates to decline
+over the next two years and you want to use
+bonds to capitalize on the move. A good way
+would be to use T-bonds, which are default-free,
+exempt from state and local taxes, and not
+callable. You could buy long-term Treasuries, such
+as the 30-year bond issued in February 2018. If
+you are right in your forecast, percentage returns
+will be large.
+The Fed started raising short-term interest rates in June
+2004 and raised them 14 times through early 2006. When
+the raises started, the 10-year Treasury note yielded about 4.6 percent and by
+February 2006, the yield stood at 4.54 percent. Thus, long-term rates did not
+follow the rise in short-term rates as most expected. Even the chairman of the
+Fed called the failure of long-term rates to rise a “conundrum."
+decreased credit risk. Conversely, during periods of economic weakness, the credit
+spread generally widens, reflecting the increased credit risk. Thus, if an expansion
+is forecast, a manager purchases corporates and sells Treasuries in anticipation
+of greater price appreciation or less price erosion due to the spread narrowing. In
+contrast, if the economy is expected to weaken, the manager sells corporates and
+buys Treasuries to reduce the price loss due to the spread widening.
+If a spread is considered abnormally high, investors trade to take advantage of a
+return to a normal spread. The objective is to invest in sectors that will display the
+strongest relative price movements. Historical records of yield spreads are available
+from brokerage firms.
+What can cause the credit spread to widen?
+• A financial crisis, such as occurred in 2008, when the spread between high-
+yield bonds and Treasuries reached as high as 2,000 basis points
+• Accounting debacles, such as those in 2002 involving WorldCom, Enron, and
+Tyco
+• Litigation problems, such as Halliburton and other firms with asbestos
+exposure
+• Excessive debt levels, which increase the risk of default and bankruptcy
+• Weak earnings, which increases the risk that a company cannot service
+its debt
+Smart bond investors understand that not all corporate yield spreads are justi-
+fied. Markets sometimes overreact by being caught up in a current environment of
+despair or panic. Some investors look for such opportunities.
+Identifying Mispricing Among Bonds
+Managers of bond portfolios attempt to adjust to the constantly changing market
+environment. They seek to improve bond portfolio returns by identifying tempo-
+rary mispricings in the bond market, which do occur.
+Bond swaps refer to selling one bond and simultaneously buying a different
+bond. There are various types of swaps, but all are designed to improve the inves-
+tor’s portfolio position. Some swaps are relatively straightforward, simple transac-
+tions, while others are very complex. Various inputs are required to perform a swap
+analysis, including most importantly predictions about future interest rates. Also, a
+time horizon is needed as an input, with a typical time horizon in the range of six
+months to a year.
+Some active mutual fund managers have outperformed their bond benchmarks
+over respectable periods of time due to mispricings or inefficiencies in the bond
+market. According to Morningstar, 37 out of the 338 funds in the intermediate-term
+Bond Swaps An active
+bond management strat-
+egy involving the purchase
+and sale of bonds in an
+attempt to improve the
+return on a bond portfolio
+Consider the credit spread, as reflected by the difference
+in rates between 10-year Treasuries and corporate Baa
+bonds. In 2008, the spread widened to as much as 6.1 percent versus the
+average of about 2 percent. Due to the economic turmoil, investors rushed to
+Treasury securities (a “flight to safety”), pushing their price up and their yield
+down.
+category outperformed the Aggregate Bond index’s gain over a 10-year period. 8 The
+Pimco Total Return Fund is often cited as an outstanding actively managed bond
+fund that frequently outperforms its index. From its inception in 1987 through
+2013, the fund’s performance surpassed 96 percent of its peers; however, the fund
+experienced turmoil in 2014 when Bill Gross, the fund’s manager, unexpectedly left
+the fund to join Janus Capital Group.
+New Tools for Individual Investors
+Traditionally, the bond market has been an institutional market and one not friendly
+to individual investors. Up-to-date price information was not easily available, and
+investors could not be sure that the prices they paid were fair because they were not
+transparent. This situation has changed dramatically with the Internet.
+Consider Fidelity Investments, which has a set of online tools and research for
+investors.9 Investors can search through approximately 50,000 bonds, bond funds,
+and CDs and sort them in various ways. Transaction costs for trading the bonds are
+extremely low and transparent. Fidelity offers investors a bond ladder tool, which
+they can use to construct a portfolio that will provide a steady stream of income.
+Managing Price Volatility
+We know from Chapter 17, that coupon and maturity are the primary factors affect-
+ing bond price volatility. When yields change, these are the two primary features that
+determine how much a bond’s price will change. To properly manage bond price
+volatility, we need a measure that combines these two features. Duration is such a
+measure. It combines the properties of maturity and coupon and allows investors to
+estimate a bond’s price change for any estimated change in interest rates.
+Duration
+Although maturity is the traditional measure of a bond’s lifetime, it is inadequate
+because it reflects only the time to the return of principal at the maturity date. Two
+20-year bonds, one with a 4 percent coupon and the other with a 9 percent coupon, do
+Investments Intuition
+The Best Laid Plans of Mice and Men
+Can Backfire
+Even the best bond fund managers make incor-
+rect guesses about bond prices and interest
+rates, particularly during turbulent times. In late
+2011, some of the top managers were making
+positive bets on emerging market debt secu-
+rities and negative bets on Treasury securities.
+However, the eurozone’s sovereign debt crisis,
+which dominated the news in late 2011, turned
+these bets upside down. Investors rushed to the
+perceived safety of T-bonds, providing one of
+the largest price rallies seen in Treasuries, and
+relatively poor returns in more risky assets such as
+emerging market debt
+not have identical economic lifetimes. An investor will recover the original purchase
+price much sooner with the 9 percent coupon bond compared to the 4 percent cou-
+pon bond. Therefore, a measure is needed that accounts for the entire pattern (both
+size and timing) of the cash flows over a bond’s life. Such a measure, called duration
+(or Macaulay duration), was conceived many years ago by Frederick Macaulay.
+Duration is a present-value weighted average of the number of years over which
+investors receive cash flows from a bond.10 It measures the economic life of a bond
+rather than simply its time to maturity.
+Figure 18.1 illustrates the concepts of both time to maturity and duration for a
+bond with five years to maturity and, a 10 percent coupon. As shown, the stream of
+cash flows generated consists of $50 every six months, plus the return of principal of
+$1,000 at the end of five years. The last cash flow combines the interest payment of
+$50 with the principal repayment of $1,000.
+Although the term to maturity for the bond illustrated in Figure 18.1 is 5 years,
+its duration is only 4.054 years, as indicated by the arrow. This means that the time-
+value- of- money weighted average number of years needed to recover the bond’s
+cost is 4.054. In effect, the arrow indicates the point where the weights, which are
+the cash flows, are in balance on either side.
+While the bond has five years to maturity, interest payments are received in each
+of the first four years. Therefore, describing the bond as a five-year bond is not totally
+accurate because the average time to receipt of the cash flows is clearly less than five
+years. Duration describes the weighted average time to receipt of the bond’s payments.
+It is very unusual for a coupon-paying bond to have a duration greater than
+10 years, regardless of its maturity date. This is because cash flows far in the future
+have small present values today. The only payment from a zero-coupon bond is its
+face value, thus, a zero-coupon bond’s duration equals its maturity.
+• A zero-coupon bond has a duration equal to its maturity because there are no
+coupons.
+Duration A measure of a
+bond’s economic lifetime
+that accounts for the
+entire pattern of cash
+flows; a measure of bond
+price sensitivity to interest
+rate movements
+0
+200
+400
+Cash flows received from owning bond
+600
+800
+1,000
+1,200
+Time in years 4.054
+0.5 1 1.5 2 2.5 3 3.5 4 4.5 5
+FIGURE 18.1 Illustration of the cash flow pattern of a 10 percent coupon, five-year maturity bond
+paying semiannual interest
+10 This discussion applies only to option-free bonds.
+484 Chapter 18 Bonds: Analysis and Strategy
+Calculating duration To calculate duration, it is necessary to calculate a weighted
+time period because duration is stated in years. The time periods in which the cash
+flows are received are expressed in terms of years (or semiannual periods) and
+denoted by t in this discussion. Weighting and summing these ts produces the dura-
+tion measure, which is stated in years.
+• Duration is a measure stated in years.
+The present values of the cash flows, as a percentage of the bond’s current price,
+serve as the weighting factors applied to the time periods. Each weighting factor
+reflects the relative importance of each cash flow to the bond’s total present value,
+which is simply its current price. The sum of these weighting factors is 1.0, indicat-
+ing that all cash flows have been accounted for. The sum of the bond’s discounted
+cash flows equals the bond’s price.
+The equation for duration is shown as Equation 18-1:
+Macaulay duration price
+D t
+t
+n t
+1
+PV CF (18-1)
+where
+( )
+the time period at which the cash flow is expected to be received
+the number of periods to maturity
+present value of the cash flow in period discounted at the yieldPV CF
+to maturity
+price the bond
+t
+t
+n
+t
+=
+=
+=
+= s current price or present value of all the cash flows’
+Table 18.1 shows the duration calculation for a 5 percent,
+five-year bond. The bond is priced at $974.17 because
+interest rates have risen so that the current yield to maturity (YTM) is 5.6 percent
+(ytm is 2.8 percent).11
+The cash flows, column 2, consist of ten $25 coupons (the annual coupon
+is $50) plus the return of principal at the end of the fifth year. Column 3
+shows the present value of the cash flows using 2.8 percent as the discount
+rate. Column 4 shows the weights, or the present value of the cash flows as
+a percentage of the bond’s price. Notice that the final cash flow of $1,025
+($25 coupon plus $1,000 principal) accounts for 79.8 percent of the bond
+value on a weighted average basis. Column 5 is calculated by multiplying the
+weights in column 4 by the time periods in column 1 and summing these
+products. The end result, 4.48 years, is the present-value weighted average
+number of years over which investors receive cash flows from the bond,
+which is the bond’s duration.
+The duration of 4.48 years is approximately one-half year less than the term
+to maturity of 5 years.
+EXAMPLE 18.11
+11 A shortcut formula can be used for coupon bonds selling at face value:
+Duration 1 1 1
+1
+YTM
+YTM YTM( )n
+Using the semiannual rate and doubling the number of periods, we must divide the answer by 2.0 to put
+it on an annual basis.
+Managing Price Volatility 485
+As Equation 18-1 shows, duration is obtained by multiplying the weighted pre-
+sent value of each period’s cash flow by the period in which it is received and sum-
+ming. Note that duration is expressed in years because we are calculating a weighted
+average of the number of years.
+• Duration is always less than time to maturity for bonds that pay coupons. For
+zero-coupon bonds, duration is equal to time to maturity.
+Understanding duration How is duration related to the key bond variables previ-
+ously analyzed? An examination of Equation 18-1 shows that the calculation of dura-
+tion depends on three factors12
+:
+• The time to maturity of the bond
+• The coupon payments
+• The yield to maturity (YTM)
+1. Duration expands with time to maturity but at a decreasing rate (hold-
+ing coupon payments and YTM constant). Even between 5 and 10 years
+time to maturity, duration expands at a significantly slower pace than for a
+maturity up to five years, where it expands rapidly.13 For all coupon-paying
+Duration Calculation of a Bond with a 5 Percent Coupon,
+Five-Year Maturity, Currently Priced at $974.17 with a YTM
+of 5.6 Percent
+(1) Periods
+(2) Cash
+Flow (CF)
+(3) PV
+of CFs
+(4) Weighted PV
+of CFs (3)/Bond
+Price
+(5) Weighted
+Average of Time
+Periods (1) × (4)
+0.5 25 24.319 0.025 0.012
+1 25 23.657 0.024 0.024
+1.5 25 23.012 0.024 0.035
+2 25 22.386 0.023 0.046
+2.5 25 21.776 0.022 0.056
+3 25 21.183 0.022 0.065
+3.5 25 20.606 0.021 0.074
+4 25 20.044 0.021 0.082
+4.5 25 19.499 0.020 0.090
+5 1025 777.665 0.798 3.991
+1.000 4.477
+486 Chapter 18 Bonds: Analysis and Strategy
+bonds, duration is less than maturity. For a zero-coupon bond, duration is
+equal to time to maturity.14
+2. Duration is inversely related to YTM (holding coupon payments and matu-
+rity constant).
+3. Duration is inversely related to the size of the coupon payments (holding
+maturity and YTM constant). This is logical because higher coupons lead
+to quicker recovery of the bond’s value, resulting in a shorter duration.
+Duration and bond management Why is duration important in bond analysis
+and management? First, it tells us the difference between the effective lives of alter-
+native bonds. Bonds A and B, with the same duration but different years to maturity,
+have more in common than bonds C and D with the same maturity but different
+durations. For any particular bond, as maturity increases, the duration increases at
+a decreasing rate.
+Second, the duration concept is used in certain bond management strategies,
+particularly immunization, as explained later.
+Third, and most importantly for bond investors, duration is a measure of bond
+price sensitivity to interest rate movements; that is, it is a direct measure of interest
+rate risk.
+Estimating price changes using duration Bond price changes are directly
+related to duration; that is, the percentage change in a bond’s price, given a change
+in interest rates, is proportional to its duration. Therefore, duration can be used to
+measure interest rate exposure.
+• Duration measures the approximate percentage change in price for a
+1- percentage- point (100 basis points) change in interest rates. This can be
+implemented by using modified duration.
+Modified duration, shown in Equation 18-2, equals Macaulay’s duration divided
+by (1 + ytm).15
+Modified duration D D
+* ( )1 ytm (18-2)
+Modified Duration
+Duration divided by
+1 + ytm
+Consider a 10 percent bond with a YTM of 10 percent
+and a five-year life. This bond’s duration is 4.054 years,
+approximately 1 year less than maturity. However, if the maturity was 10 years,
+it would have an effective life (duration) of 6.76 years, and with a 20-year
+maturity, it would have a duration of only 9.36 years. Furthermore, a 50-year
+maturity would change duration to only 10.91 years. The reason for the sharp
+differences between the term to maturity and the duration is that cash receipts
+received in the distant future have very small present values and, therefore,
+add little to a bond’s value
+Managing Price Volatility 487
+where
+Macaulay duration in years
+the bond s semiannual YTM (we divide YTM by the number of
+discounting periods,which for semiannual bond payments is 2)
+D =
+=ytm ’
+The modified duration can be used to calculate a bond’s percentage price
+change for a given change in yield. This is shown by Equation 18-3, which is an
+approximation16
+:
+percentage change in bond price yield changeD * (18-3)
+Or
+P
+P D r* (18-4)
+where
+P
+P
+D
+change in price
+the price of the bond
+duration with* a negative sign the negative sign reflects the inverse
+r
+(
+eelation between price changes and yield
+the instantane
+)
+r oous change in yield in decimal form
+Using the duration of 4.054 years from Example 18.12
+and the YTM of 10 percent, the modified duration is
+D* .
+( . ) .
+4 054
+1 0 05 3 861
+EXAMPLE 18.13
+Using our same bond with a modified duration of 3.861,
+assume an instantaneous yield increase of 20 basis points
+(+0.002), from 10 to 10.20 percent. The approximate change in price based
+on Equation 18-4 is
+P
+P 3 861 100 0 772. ( ) . %0.002
+Given the original price is $1,000, this percentage price change results in an
+estimated bond price of $992.28. For very small changes in yield, Equation 18-4
+produces a good approximation.17
+EXAMPLE 18.14
+16 This formula can provide an exact estimate of the percentage price change if the change in yield is very
+small and the security does not involve embedded options.
+17 To prove this, we solve for the bond price using a YTM of 10.20 percent. We find that the price declines
+to $992.32, a percentage decline of 0.768 percent as compared to our estimate of 0.772 percent. For
+larger changes in yield, such as 100 or 200 basis points, the equation is less accurate.
+488 Chapter 18 Bonds: Analysis and Strategy
+The steps involved in calculating the approximate price change in the bond are
+illustrated in Figure 18.2 using the information in Example 18.14.
+In summary, for small changes in a bond’s required yield, modified duration
+shows the bond’s percentage price change for a 1-percentage-point change (100
+basis points) in its yield. Modified duration measures the price risk of a bond or a
+portfolio since the same holds true for a portfolio of bonds.
+Convexity Although Equation 18-3 provides only an approximation, for very
+small changes in the required yield, the approximation is quite close and at times is
+exact. However, as the changes in required yield become larger, the approximation
+becomes poorer. The problem is that modified duration produces symmetric linear
+percentage price change estimates (if r had decreased 0.20 percent, the predicted
+price change would have been +0.772 percent) when, in actuality, the price–yield
+relationship is not linear, nor is it symmetric. The relationship is, in fact, curvilinear.
+We refer to the curved nature of the price–yield relationship as the bond’s
+convexity (the relationship is said to be convex because it opens upward). More
+Concepts in Action
+Using Duration in Managing Bond Portfolios
+Let’s see how these concepts are used in
+practice. The Nuveen Select Tax-Free Income 2
+closed-end fund had an average modified
+duration of 5.4 in Spring 2008; “That suggests that
+the fund’s net asset value (NAV) per share would
+fall about 5.4 percent if interest rates rose by
+1 percentage point.” 18
+Bond fund investors can obtain information
+about the fund’s duration directly from the fund
+company. For example, if you own a Fidelity
+bond fund, go to the fund’s website and look
+up the fund of interest. Alternatively, Morning-
+star’s website provides duration information for
+bond funds.
+Step 1
+• Start with Macaulay duration
+• Macaulay duration = 4.054
+Step 2
+• Calculate modified duration based on semiannual interest of
+0.05
+• Modified duration = 4.054/1.05 = 3.861
+Step 3
+• Calculate approximate price change for a bond given a yield change
+of 20 basis points
+• Approximate price change = –3.861 × (+0.0020) × 100 = –0.772%
+FIGURE 18.2 Calculating the approximate price change for a bond
+18 Elizabeth Ody, “Buy Munis at a Discount,” Kiplinger’s Personal Finance (May 2008
+490 Chapter 18 Bonds: Analysis and Strategy
+Effective duration When a bond has a feature that allows for its cash flows to
+change when yields change, investors should consider the bond’s effective dura-
+tion. For example, with a callable or floating-rate bond, the Macaulay and modified
+duration measures can produce poor estimates of the bond’s interest rate sensitivity.
+A more accurate measure of interest rate risk for such bonds is their effective dura-
+tion, which is measured as follows:
+Effective duration P P
+P y2 0
+where
+P y
+P
+is the bond s price given a yield decrease of
+is the
+’
+bond s price given a yield increase of
+is the curren
+’ y
+P0 tt bond price
+is the given change in yield used to computy ee the price changes
+For a bond whose cash flows do not change with a change in interest rates, the
+bond’s effective duration equals its modified duration.
+Checking Your Understanding
+5. Holding maturity constant, a bond with a larger coupon will have a shorter
+duration than a bond with a smaller coupon. Agree or disagree, and explain
+your reasoning.
+6. Using the duration concept, if you expect a decline in interest rates, and you
+want to use this decline to your advantage, how should you adjust your bond
+portfolio?
+Managing Price Volatility
+What are the ramifications of a security’s duration for bond investors? The message
+is simple—to obtain the maximum (minimum) price volatility from a bond, inves-
+tors should choose bonds with the longest (shortest) duration. If an investor already
+owns a portfolio of bonds, he or she can act to increase the average duration if a
+decline in interest rates is projected. Fortunately, duration is additive, which means
+that a bond portfolio’s duration is a (market-value) weighted average of each indi-
+vidual bond’s duration.
+How popular is the duration concept in practice? Duration has become widely
+known and referred to in the popular press. Investors can find duration numbers in
+a variety of sources, particularly with regard to bond funds.
+Although duration is an important measure of bond risk, it is not necessarily always
+the most appropriate one. Duration measures volatility, which is important but is only
+one aspect of bond risk. If an investor considers volatility an acceptable proxy for risk,
+duration is the measure of risk to use along with the correction for convexity.
+Immunization
+Because interest rates change over time, investors face uncertainty about the realized
+returns from bonds. This, of course, is the nature of interest rate risk. The strategy
+Immunization 491
+of immunizing (protecting) a portfolio against interest rate risk (i.e., changes in the
+general level of interest rates) is called immunization. This is one form of a struc-
+tured portfolio strategy, which aims to achieve an objective that has been specified
+beforehand.
+To see how such a strategy works, think of interest rate risk as being composed
+of two parts:
+1. Price risk, resulting from the inverse relationship between bond prices and
+required returns.
+2. Reinvestment rate risk, resulting from the uncertainty about the rate at which
+future coupon income can be reinvested. The YTM calculation assumes that
+future coupons are reinvested at the calculated YTM. If interest rates change
+so that this assumption is no longer operable, the bond’s realized return will
+differ from the calculated YTM.
+Notice that these two components of interest rate risk move in opposite
+directions:
+• If interest rates rise, reinvestment rates (and therefore income) rise, whereas
+the price of the bond declines.
+• If interest rates decline, reinvestment rates (and therefore interest on interest)
+decline, whereas the price of the bond rises.
+In effect, the favorable results on one side can be used to offset the unfavorable
+results on the other.
+• Immunization involves protecting a bond portfolio against interest rate risk by
+canceling out the two components of interest rate risk, reinvestment rate risk
+and price risk.
+A portfolio is said to be immunized (the effects of interest rate risk are neutral-
+ized) if the duration of the portfolio is made equal to a preselected investment
+horizon.
+Note carefully what this statement says. An investor with, say, a 10-year investment
+horizon does not choose bonds with 10 years to maturity but bonds with a duration
+of 10 years. The duration strategy usually requires holding bonds with maturities
+longer than the investment horizon to make the duration match the investment
+horizon.
+• The duration concept is the basis for immunization theory.
+Exhibit 18.1 outlines the concept of immunization, showing the essential points.
+• Immunization protects against the adverse consequences of interest rate risk,
+thereby allowing the portfolio holder to achieve a prespecified return.
+For an example of the immunization concept, consider Table 18.2. 21 Assume that
+an investor has a five-year investment horizon after which she wishes to liquidate
+her bond portfolio. The current YTM for AAA-rated bonds is 7.9 percent for both
+five- and six-year bonds because of the flatness of the yield curve. To simplify the
+calculations, we assume that interest is paid annually so that we can concentrate on
+the immunization principle.
+Immunization The
+strategy of immunizing
+(protecting) a portfolio
+against interest rate risk by
+canceling out its two com-
+ponents, price risk and
+reinvestment rate risk
+21 We assume here that the yield curve is flat and that any changes in the yield curve are parallel changes.
+492 Chapter 18 Bonds: Analysis and Strategy
+Because the YTM is 7.9 percent, the ending wealth ratio should be (1.079)5
+, or
+$1.46254 per dollar invested today. That is, if she invests $1,000 and the intermedi-
+ate coupons are reinvested at 7.9 percent, the ending wealth for her bond invest-
+ment should be $1,000 (1.079)5, or $1,462.54.
+Our investor can purchase bond A, with a 7.9 percent coupon and a five-year
+maturity, or bond B, with a 7.9 percent coupon, a six-year maturity, and a duration
+of five years. The top panel of Table 18.2 illustrates what happens if bond A is pur-
+chased and market yields remain constant for our investor’s five-year investment
+horizon. Because the intermediate cash flows are reinvested at exactly 7.9 percent
+each year, the ending amounts cumulate to $1,462.54. Notice in these examples that
+we separate year 5 because of the return of principal ($1,000) at the end of year 5;
+obviously, no interest is earned on the return of this $1,000. In a similar manner, at
+the end of year 1, no interest has been earned on the first year’s $79 coupon, which
+occurs at the end of the year.
+Now consider what happens if our investor buys bond A and in the third year of
+its five-year life, market yields decline to 6 percent and remain there for the remain-
+der of the five-year period. As a result, the cash flows in the last three years of the
+bond’s life are reinvested at 6 percent rather than at 7.9 percent. Therefore, the
+reinvestment rate risk has a negative impact on the bond investment.
+The results of a drop in the reinvestment rate are shown in the middle panel
+of Table 18.2. At the end of year 5, the wealth for bond A now is only $1,447.13,
+representing a shortfall for the investor’s wealth objective. This result occurred
+because she did not immunize her portfolio against interest rate risk, but instead
+EXHIBIT 18.1 | Understanding the Concept
+of Immunization
+Immunization
+Seeks to
+Protect a Portfolio Against Interest Rate Risk
+by
+Playing the Two Components of Interest Rate Risk
+Against Each Other
+The Objective is to Earn a Prespecified
+Return
+With an Immunized Portfolio:
+If Interest Rates Go UP ⇑
+Reinvestment Rates ↑
+While
+The Prices of Bonds ↓
+If Interest Rates Go DOWN ⇓
+Reinvestment Rates ↓
+While
+The Prices of Bonds ↑
+The Key to Immunization is Duration
+Ending Wealth for a Bond Following a Change in Market Yields with and without
+Immunization
+Bond A: Purchased for $1,000, Five-Year Maturity, 7.9 Percent Coupon, 7.9 Percent Yield to Maturity
+Bond B: Purchased for $1,000, Six-Year Maturity, 7.9 Percent Coupon, 7.9 Percent Yield to Maturity, Duration = 5.00 Years
+Part A: Ending Wealth for Bond A if Market Yields Remain Constant at 7.9 Percent
+Years Cash Flow Reinvestment Rate (%) Ending Wealth
+1 $79 — a $79.00
+2 79 7.9 164.24
+3 79 7.9 256.22
+4 79 7.9 355.46
+5 79 7.9 462.54
+5 1,000 — 1,462.54
+Part B: Ending Wealth for Bond A if Market Yields Decline to 6 Percent in Year 3
+Years Cash Flow Reinvestment Rate (%) Ending Wealth
+1 $79 — $79.00
+2 79 7.9 164.24
+3 79 6.0 253.10
+4 79 6.0 347.29
+5 79 6.0 477.13
+5 1,000 — 1,447.13
+Part C: Ending Wealth for Bond B if Market Yields Decline to 6 Percent in Year 3 (Bond B has a duration
+of five years.)
+Years Cash Flow Reinvestment Rate (%) Ending Wealth
+1 $79 — $79.00
+2 79 7.9 164.24
+3 79 6.0 253.10
+4 79 6.0 347.29
+5 79 6.0 477.13
+5 1,017.92 b — 1,465.05
+a Cash flows are received at the end of the year.
+b The price of bond B with one year left to maturity and a market yield of 6 percent is $1,017.92
+Immunization 493
+purchased a bond based on matching bond maturity with her investment horizon.
+As explained previously, to protect against interest rate risk, it is necessary to pur-
+chase a bond whose duration is equal to the investment horizon.
+Assume that a $1,000 bond with a coupon rate of 7.9 percent and a six-year matu-
+rity was purchased instead. The duration of this bond, which we call bond B, is
+exactly five years, matching the investor’s investment horizon. In this case, the bond
+is immunized against interest rate risk because any shortfall arising from a declin-
+ing reinvestment rate is offset by a higher bond price at the end of the investment
+horizon because the drop in interest rates produces an increase in the bond’s price.
+Note that at the end of five years, bond B has one year left to maturity and could be
+sold for $1,017.92 (see Part C of Table 18.2).
+Ending Wealth for a Bond Following a Change in Market Yields with and without
+Immunization
+Bond A: Purchased for $1,000, Five-Year Maturity, 7.9 Percent Coupon, 7.9 Percent Yield to Maturity
+Bond B: Purchased for $1,000, Six-Year Maturity, 7.9 Percent Coupon, 7.9 Percent Yield to Maturity, Duration = 5.00 Years
+Part A: Ending Wealth for Bond A if Market Yields Remain Constant at 7.9 Percent
+Years Cash Flow Reinvestment Rate (%) Ending Wealth
+1 $79 — a $79.00
+2 79 7.9 164.24
+3 79 7.9 256.22
+4 79 7.9 355.46
+5 79 7.9 462.54
+5 1,000 — 1,462.54
+Part B: Ending Wealth for Bond A if Market Yields Decline to 6 Percent in Year 3
+Years Cash Flow Reinvestment Rate (%) Ending Wealth
+1 $79 — $79.00
+2 79 7.9 164.24
+3 79 6.0 253.10
+4 79 6.0 347.29
+5 79 6.0 477.13
+5 1,000 — 1,447.13
+Part C: Ending Wealth for Bond B if Market Yields Decline to 6 Percent in Year 3 (Bond B has a duration
+of five years.)
+Years Cash Flow Reinvestment Rate (%) Ending Wealth
+1 $79 — $79.00
+2 79 7.9 164.24
+3 79 6.0 253.10
+4 79 6.0 347.29
+5 79 6.0 477.13
+5 1,017.92 b — 1,465.05
+a Cash flows are received at the end of the year.
+b The price of bond B with one year left to maturity and a market yield of 6 percent is $1,017.92.
+TABLE 18.2
+494 Chapter 18 Bonds: Analysis and Strategy
+Notice that the ending wealth values in Parts B and C are the same for the
+first four years. At the end of year 5, bond B still has one year to maturity. Its
+price has risen to $1,017.92 because of the drop in interest rates. The ending
+wealth is more than enough to meet the investor’s objective of $1,462.54 per
+$1,000 invested.
+• By choosing a bond portfolio with a duration equal to a predetermined
+investment horizon, it is possible, to immunize a portfolio against interest
+rate risk.
+Immunization is only one of the structured portfolio strategies. These strate-
+gies occupy a position between passive strategies and active strategies. Although
+the classical immunization discussed here could possibly be thought of as a pas-
+sive strategy, we must be aware of the real-world problems involved in imple-
+menting such a strategy. In truth, this strategy is not easy to implement, and it
+is not a passive strategy in application. To achieve immunization as discussed
+here requires frequent rebalancing because duration should always be equal to
+the investment horizon. An investor simply cannot set duration equal to invest-
+ment horizon at the beginning of the process and ignore the bond, or portfolio,
+thereafter. 22
+Summary
+• A wide range of investors are interested in bonds, ranging from those who
+seek a steady stream of interest income and return of principal to those seek-
+ing capital gains by speculating on future interest rate movements.
+• Passive bond strategies, whereby the investor does not actively trade in an
+attempt to outperform the market, include buy and hold and indexing.
+• Active bond management strategies rely on forecasted changes in interest
+rates, yield spread analysis, and identifying relative mispricings.
+• Duration is the weighted average time to recovery of all interest payments plus
+principal repayment.
+• Duration expands with time to maturity but at a decreasing rate, and it is
+inversely related to coupon rate and yield to maturity.
+• Modified duration indicates the approximate percentage price change for a
+given change in a bond’s YTM.
+• Convexity refers to the degree to which duration changes as the YTM changes.
+The degree of convexity is not the same for all bonds.
+• Immunization is the strategy of protecting (immunizing) a portfolio against
+interest rate risk by attempting to have the two components of interest rate
+risk—reinvestment rate risk and price risk—cancel each other out.
+22 There are several variations of the basic immunization strategy. The most popular variation is called
+horizon matching, or combination matching. This involves a portfolio that is duration matched and also
+cash matched in the first few years. An alternative variation is contingent immunization, which involves
+active management plus a lower floor return that is ensured for the horizon period. The portfolio man-
+ager must act to earn the floor return by immunizing the portfolio if necessary. Otherwise, the manager
+can actively manage the portfolio or some portion thereof.
+Questions 495
+Questions
+18.1 Describe two different types of investors interested
+in bonds as an investment.
+18.2 List two of the most important reasons for U.S.
+investors to purchase foreign bonds.
+18.3 Assume a U.S. investor buys French bonds. If the
+euro weakens, how does that affect the U.S. inves-
+tor’s dollar-denominated return?
+18.4 A U.S. investor buying foreign bonds is selling
+the dollar. Agree or disagree and explain your
+reasoning.
+18.5 When would bond yields be expected to move in
+the same direction as nominal GDP?
+18.6 When would an expected increase in inflation neg-
+atively impact bond investors?
+18.7 Why would an increase in the Fed’s federal funds
+rate target be expected to lead to an increase in the
+long-term bond rate?
+18.8 What is the key factor in analyzing bonds? Why?
+18.9 Why are yield spreads important to an investor?
+18.10 Identify and explain at least two passive bond
+management strategies.
+18.11 Identify and explain two specific active bond
+management strategies. Are the two related?
+18.12 How does duration differ from time to maturity?
+What does duration tell you?
+18.13 How is duration related to time to maturity? To
+coupon? The YTM? Do the same relationships hold
+for a zero-coupon bond?
+18.14 Assume that an investor wishes to maximize the
+potential price volatility from a bond portfolio.
+What should this investor seek in the way of coupon,
+maturity, and duration?
+18.15 Is duration a complete measure of bond risk? Is it
+the best measure?
+18.16 Explain the concept of immunization. What role, if
+any, does duration play in this concept?
+18.17 Assume you expect interest rates to decline sharply,
+and you can invest only in fixed-income securities.
+Further assume your time horizon is one year; how
+would you construct a portfolio?
+18.18 When would investors find long-term bonds, selling
+at large discounts, particularly unattractive?
+18.19 What is meant by the term “bond mispricings”?
+18.20 How can horizon analysis be used to manage a bond
+portfolio?
+18.21 Assume some Canadian government bonds are cur-
+rently yielding 2 percent more than comparable
+Treasury securities. Suppose you project that the
+Canadian economy will slow. How would this impact
+your decision to purchase the Canadian bonds?
+How would you decide whether to hedge this posi-
+tion?
+CFA
+18.22 Sam Stevens, the trustee for the Hole Punchers
+Labor Union (HPLU), has approached IM Asso-
+ciates (IMA) to manage its $200 million bond
+portfolio. IMA assigned Carol Peters to the HPLU
+account. In their first meeting, Mr. Stevens told Ms.
+Peters: “We are an extremely conservative pension
+fund. We believe in investing only in investment
+grade bonds so that there is minimal risk that the
+principal will be lost. We want at least 40 percent
+of the portfolio in bonds that will mature within
+the next three years. I would like your thoughts on
+this proposed structure.” How should Ms. Peters
+respond?
+CFA
+18.23 A British portfolio manager is considering invest-
+ing in Japanese government bonds denominated in
+yen. What are the major risks associated with this
+investment?
+CFA
+18.24 A portfolio manager wants to estimate the interest
+rate risk of a bond. The bond’s current price is 82. A
+valuation model found that if interest rates decline
+by 30 basis points, the price will increase to 83.50; if
+interest rates increase by 30 basis points, the price
+will decline to 80.75. What is the effective duration
+of this bond?
+CFA
+18.25 A portfolio manager purchased an $8 million bond
+portfolio with an average modified of 5. Determine
+• A portfolio is immunized (the effects of interest rate risk are neutralized) if
+the portfolio’s duration is equal to a preselected investment horizon.
+• Immunization is only one of the structured portfolio strategies, which occupy
+a position between passive strategies and active strategies.

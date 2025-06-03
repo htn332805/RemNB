@@ -1,0 +1,1006 @@
+171CHAPTER 7
+With $1 million to invest, you can
+have a nice portfolio of securities,
+but what is a portfolio exactly? You
+have heard people say, don’t put
+all your eggs in one basket, so how
+does that apply to investing? If you
+decide to put the entire $1 million
+in two stocks, what will the trustee
+say? Popular press articles routinely
+discuss the importance of diversi-
+fication, or note that some stocks
+react negatively to economic devel-
+opments such as the threat of ris-
+ing inflation, while others respond
+positively. Therefore, it seems like a
+good idea to learn about the basics
+of portfolio theory. Then you will not be intimidated when someone starts talking
+about Markowitz (modern) portfolio theory, which is a universal concept that is
+widely known and discussed by investors.
+In this chapter, we outline the nature of risk and return as it applies to mak-
+ing investment decisions. Unlike Chapter 6, we are talking about the future, which
+involves expected returns, and not the past, which involves realized returns. Investors
+must estimate and manage the risk and returns of their investments. By building
+diversified portfolios, they reduce risk to the maximum extent possible without
+negatively affecting returns. Therefore, we should consider the investor’s total port-
+folio and analyze investment risk accordingly. As we shall see, diversification is the
+key to effective risk management. We will consider the critically important principle of
+Markowitz diversification, focusing primarily on the concepts of correlation and
+covariance as applied to security returns.
+Dealing With Uncertainty
+In Chapter 6, we discussed average returns, both arithmetic and geometric, that
+investors experienced from investing in the major financial assets. We also con-
+sidered the risk of these asset returns as measured by the standard deviation or
+variance.
+Portfolio Theory
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Calculate and interpret risk and
+expected return measures for an
+individual security.
+• Discuss the implications of modern
+portfolio theory.
+• Calculate portfolio risk and return
+measures as formulated by
+Markowitz.
+• Explain how diversification works
+Realized returns are important for several reasons. First, investors need to know
+how their portfolios have performed relative to relevant market indices. Second,
+realized returns are important in helping investors form expectations about future
+returns by providing a foundation upon which to make estimates of expected
+returns. For example, if over a long period Treasury bills averaged less than 4 per-
+cent return, it would be unrealistic to expect a future return of 6 or 7 percent from
+Treasury bills unless the investing environment has changed significantly.
+How do we go about estimating returns, which is what investors must do in man-
+aging their portfolios? First, note that we will use the risk and return measures devel-
+oped in Chapter 6. The return measure is applicable whether one is measuring
+realized returns or estimating future (expected) returns because it includes every-
+thing the investor can expect to receive over any specified future period.
+Similarly, the variance, or its square root, the standard deviation, is an accepted
+measure of variability for both realized returns and expected returns. We will calcu-
+late both the variance and the standard deviation in the following text and use them
+interchangeably as the situation dictates. Sometimes it is preferable to use one, and
+sometimes the other.
+To estimate the returns from various securities, investors must estimate the cash
+flows these securities are likely to provide. The basis for doing so for bonds and
+stocks will be covered in their respective chapters. For now, it is sufficient to remind
+ourselves of the uncertainty of the future, a problem emphasized in Chapter 1.
+Exhibit 7.1 presents an interesting discussion of risk and how best to under-
+stand it. In this essay, Peter Bernstein, one of the most prominent observers of the
+investing environment, argues that risky decisions are all about three elements.
+His second point, “expect the unexpected,” turned out to be particularly relevant
+given what happened to the financial system in 2008. The unexpected did occur,
+and very few were prepared to deal with the situation. The resulting damage was
+enormous.
+Using Probabilities
+The return an investor will earn from investing is not known; it must be estimated.
+Future return is an expected return and may or may not actually be realized. An inves-
+tor may expect the return on a particular security to be 10 percent for the coming
+year, but in truth, this is only a “point estimate.” Risk, or the chance that some unfa-
+vorable event will occur, is present when investment decisions are made. Investors
+are often overly optimistic about expected returns. We can use the term random
+variable to describe the one-period rate of return from a stock (or bond)—it has an
+uncertain value which fluctuates randomly.
+To deal with the uncertainty of returns, investors need to think explicitly about
+a security’s distribution of probable returns. In other words, while investors may
+expect a security to return 10 percent, this is only a point estimate of the entire
+range of possibilities. Given that investors must deal with the uncertain future, a
+number of possible returns can, and will, occur.
+In the case of a Treasury bond, the interest payment will be made with 100 per-
+cent certainty barring a financial collapse of the country. The probability of occur-
+rence is 1.0, because no other outcome is possible.
+With the possibility of multiple outcomes, which is the norm for common stocks,
+each possible outcome must be considered and a probability of its occurrence
+assessed. The probability for a particular outcome is simply the chance that the
+specified outcome will occur and is typically expressed as a decimal or fraction.
+Dealing With Uncertainty 173
+EXHIBIT 7.1 | Risk: The Whole versus the Parts
+Many years ago, in the middle of a staff meeting, a col-
+league passed me a scrap of paper on which he had writ-
+ten, “When all is said and done, more things are said
+than done.” When I consider the plethora of books,
+articles, consultants, and conferences on risk in today’s
+world, my friend’s aphorism has never seemed more
+appropriate. Are we never going to nail risk down and
+bring it under control? How much more can anyone
+reveal to us beyond what we have already been told?
+In a very real sense, this flood of material about risk is
+inherently risky. Sorting out the pieces and searching for
+main themes has become an escalating challenge. The
+root of the matter gets lost in the shuffle while we are
+analyzing all the elegant advances in risk measurement
+and the impressive broadening of the kinds of risks we
+seek to manage. More is said than is done, or what is
+done loses touch with what has been said.
+If we go back to first principles for a moment, per-
+haps we can put the multifarious individual pieces
+into some kind of a larger framework and optimize
+the choices among the masses of information we are
+attempting to master.
+Professor Elroy Dimson of the London Business School
+once said risk means more things can happen than will
+happen. Dimson’s formulation is only a fancy way of saying
+that we do not know what is going to happen—good or
+bad. Even the range of possible outcomes remains indeter-
+minate, much as we would like to nail it down. Remember
+always: Risk is not about uncertainty but about the unknown,
+the inescapable darkness of the future.
+If more things can happen than will happen, and if
+we are denied precise knowledge of the range of pos-
+sible outcomes, some decisions we make are going to be wrong.
+How many, how often, how seriously? We have no way of
+knowing even that. Even the most elegant model, as Leib-
+niz reminded Jacob Bernoulli in 1703, is going to work
+“only for the most part.” What lurks in the smaller part is
+hidden from us, but it could turn into a load of dynamite.
+The beginning of wisdom in life is in accepting the
+inevitability of being wrong on occasion. Or, to turn that
+phrase around, the greatest risks we take are those where
+we are certain of the outcome—as masses of people
+are at classic market bottoms and tops. My investment
+philosophy has always been that victory in the long-run
+accrues to the humble rather than to the bold.
+This emphasis on ignorance is the necessary first step
+toward the larger framework we need if we hope to sort
+out the flood of information about risk that assails us.
+Now we can break down the problem of risk into what
+appear to me to be its three primary constituent parts.
+First, what is the balance between the consequences
+of being wrong and the probability of being wrong?
+Many mistakes do not matter. Other mistakes can be
+fatal. No matter how small the probability you will be
+hit by a car when you cross against the lights, the con-
+sequences of being hit deserve the greater weight in the
+decision. This line of questioning is the beginning, and
+in some ways the end, of risk management. All decisions
+must pass through this sieve. It is the end if you decide
+not to take the risk, but it is also the end in the sense that
+distinguishing between consequences and probabilities
+is what risk management is all about.
+Second, expect the unexpected. That sounds like
+an empty cliché, but it has profound meaning for risk
+management. It is easy to prepare for the risks you know—
+earnings fail to meet expectations, clients depart, bonds
+go sour, and a valued associate goes to a competitor. Insur-
+ance and hedging strategies cover other kinds of risks lying
+in wait out there, from price volatility to premature death.
+But preparation for the unexpected is a matter of
+the decision-making structure, and nothing else. Who is
+in charge here? That is the critical question in any orga-
+nization. And if it is just you there when the unexpected
+strikes, then you should prepare in advance for where
+you will turn for help when matters seem to be running
+out of control.
+Finally, note that word “control.” With an exit
+strategy—when decisions are easily reversible—con-
+trol over outcomes can be a secondary matter. But with
+decisions such as launching a new product or getting
+married, the costs of reversibility are so high that you
+should not enter into them unless you have some control
+over the outcome if things turn out differently from what
+you expect. Gambling is fun because your bet is irrevers-
+ible and you have no control over the outcome. But real
+life is not a gambling casino.
+These three elements are what risky decisions are all
+about—consequences versus probabilities, preparation
+for dealing with unexpected outcomes, and the distinc-
+tion between reversibility and control. These are where
+things get done, not said.
+174 Chapter 7 Portfolio Theory
+Probability Distributions
+A probability distribution for a security brings together the likely outcomes that may
+occur along with the probabilities associated with these likely outcomes. The set of
+probabilities in a probability distribution must sum to 1.0, or 100 percent because
+they must completely describe all the (perceived) occurrences.
+How are these probabilities and associated outcomes obtained? In the final
+analysis, investing for some future period involves uncertainty, and therefore
+subjective estimates. Although past occurrences may be relied on heavily to esti-
+mate the probabilities, the past must be modified for any changes expected in
+the future.
+Probability distributions can be either discrete or continuous. With a discrete
+probability distribution, a probability is assigned to each possible outcome. In Fig-
+ure 7.1a, five possible returns are assumed for General Foods for next year. Each of
+these five possible outcomes—1, 7, 8, 10, and 15 percent—has an associated prob-
+ability; these probabilities sum to 1.0, indicating that the possible outcomes that an
+investor foresees for General Foods have been accounted for.
+With a continuous probability distribution, as shown in Figure 7.1b, an infinite
+number of possible outcomes exist. Because probability is now measured as the area
+under the curve in Figure 7.1b, the emphasis is on the probability that a particular
+outcome is within some range of values.
+The most familiar continuous distribution is the normal distribution depicted in
+Figure 7.1b. This is the well-known bell-shaped curve often used in statistics. It is a
+two-parameter distribution in that the mean and the variance fully describe it.
+Probability function
+Rate of return (%)
+(a)
+(b)
+0
+0.5
+1
+5 10 15
+Probability
+Rate of return (%)
+FIGURE 7.1 (a) A discrete probability distribution; (b) a continuous probability distribution
+Dealing With Uncertainty 175
+Calculating Expected Return for a Security
+To describe the single most likely outcome from a particular probability distribution, it
+is necessary to calculate its expected value. The expected value of a probability distribu-
+tion is the weighted average of all possible outcomes, where each outcome is weighted
+by its respective probability of occurrence. Since investors are interested in returns, we
+will call this expected value the expected return, and for any security, it is calculated as:
+E R R
+i
+m
+i i( ) 1
+pr (7-1)
+where
+E R
+R ii
+( ) the expected return on a security
+the th possible rreturn
+pr the probability of the th return
+the numbe
+i ii R
+m rr of possible returns
+Calculating Risk for a Security
+Investors must be able to quantify and measure risk. To calculate the total (stand-
+alone) risk associated with the expected return, the variance or standard deviation
+is used. The variance and its square root, standard deviation, are measures of the
+spread or dispersion in the probability distribution; that is, they measure the disper-
+sion of a random variable around its mean. The larger this dispersion, the larger the
+variance or standard deviation.
+• The tighter the probability distribution of expected returns, the smaller the
+standard deviation, and the smaller the risk.
+Expected Return The ex
+ante return expected by
+investors over some future
+holding period
+Based on your analysis, you think that next year’s return
+for General Foods will range from 1 to 15 percent
+as described earlier. The expected value of the probability distribution for
+General Foods returns is calculated in the first three columns of Table 7.1. We
+call this expected value the expected return.
+EXAMPLE 7.1
+Calculating the Standard Deviation Using Expected Data
+(1)
+Possible
+Return (%)
+(2)
+Probability
+(3)
+(1) × (2)
+(4)
+Ri − E(R)
+(5)
+(Ri − E(R))2
+(6)
+(R i − E(R))2
+pri
+1 0.2 0.2 −7.0 49.0 9.8
+7 0.2 1.4 −1.0 1.0 0.2
+8 0.3 2.4 0.0 0.0 0.0
+10 0.1 1.0 2.0 4.0 0.4
+15 0.2 3.0 7.0 49.0 9.8
+1.0 8.0 = E(R) 20.2
+σ = (20.2)1/2 = 4.49%
+176 Chapter 7 Portfolio Theory
+To calculate the variance or standard deviation from the probability distribution,
+first calculate the expected return of the distribution using Equation 7-1. Essentially,
+the same procedure used in Chapter 6 to measure risk applies here, but now the prob-
+abilities associated with the outcomes must be included, as in Equation 7-2:
+Variance of returns pr2
+1
+2
+i
+m
+i iR E R( ) (7-2)
+and
+Standard deviation of returns 2 1 2/
+(7-3)
+where all terms are as defined previously.
+Note that the standard deviation is simply a weighted average of the deviations
+from the expected value. As such, it provides a measure of how far the actual value
+may differ from the expected value, either above or below. With a normal probabil-
+ity distribution, the actual return on a security will be within ±1 standard deviation
+of the expected return approximately 68 percent of the time, and within ±2 stand-
+ard deviations approximately 95 percent of the time.
+Calculating a standard deviation using probability distributions involves making
+subjective estimates of the probabilities and the likely returns. However, we cannot
+avoid such estimates because future returns are uncertain. The prices of securities
+are based on investors’ expectations about the future. The relevant standard devia-
+tion in this situation is the ex ante standard deviation and not the ex post standard
+deviation, which is based on realized returns.
+Although standard deviations based on realized returns are often used as prox-
+ies for ex ante standard deviations, investors should be careful to remember that the
+past cannot be extrapolated into the future without modifications.
+• Standard deviations calculated using historical data may be convenient, but
+they are subject to errors when used as estimates of the future.
+Checking Your Understanding
+1. The expected return for a security is typically different from any of the pos-
+sible outcomes (returns) used to calculate it. How, then, can we say that it is
+the security’s expected return?
+2. Having calculated a security’s standard deviation using a probability distribu-
+tion, how confident can we be in this number?
+Introduction to Modern Portfolio Theory
+In the 1950s, Harry Markowitz, the father of Modern Portfolio Theory (MPT), devel-
+oped the basic portfolio principles that underlie MPT. His original contribution
+The variance and standard deviation for General Foods,
+using the information reported above, is calculated in
+Table 7.1.
+EXAMPLE 7.2
+Portfolio Return and Risk 177
+was published in 1952, making portfolio theory over 60 years old. Over time, these
+principles have been widely adopted by the financial community in a variety of ways,
+creating a broad legacy for MPT. 1
+The primary impact of MPT is that it provides a framework for the systematic
+selection of portfolios based on expected return and risk principles. Most portfolio
+managers are aware of, and to varying degrees apply, the basic principles of MPT.
+Major mutual fund families employ the implications of MPT in managing their
+funds, financial advisors use the principles of MPT in advising their clients, many
+financial commentators use MPT terms in discussing the current investing environ-
+ment, and so forth.
+Before Markowitz, investors dealt loosely with the concepts of risk and return.
+Investors have known intuitively for many years that it is smart to diversify, that is,
+not to “put all your eggs in one basket.” Markowitz, however, was the first to develop
+the concept of portfolio diversification in a formal way—he quantified the concept
+of diversification. He showed quantitatively why, and how, portfolio diversification
+works to reduce the risk of a portfolio to an investor.
+Markowitz sought to organize the existing thoughts and practices into a more
+formal framework and to answer a basic question: Is the risk of a portfolio equal
+to the sum of the risks of the individual securities comprising it? The answer is
+no! Markowitz was the first to show that we must account for the interrelationships
+among security returns in order to calculate portfolio risk and in order to reduce
+portfolio risk to its minimum level for any given level of return.
+Portfolio Return and Risk
+When we analyze investment returns and risks, we must consider the total portfolio
+held by an investor. Individual security risk and return is important, but it is the risk
+and return to the investor’s portfolio that ultimately matters. Optimal portfolios can
+be constructed if portfolios are diversified correctly. As we learned in Chapter 1, an
+investor’s portfolio is his or her combination of assets.
+As we will see, portfolio risk is a unique characteristic and not simply the sum of
+individual security risks. A security may have high risk if held by itself, but much less
+risk when held in a portfolio of securities. Since investors are concerned primarily
+with the risk to their total wealth, as represented by their portfolio, individual stocks
+are risky only to the extent that they add risk to the portfolio.
+1 See Frank J. Fabozzi, Francis Gupta, and Harry M. Markowitz, “The Legacy of Modern Portfolio Theory,”
+The Journal of Investing (Fall 2002): 7–22.
+Investments Intuition
+Clearly, investors thought about diversifying a
+portfolio before Markowitz’s landmark work. But
+they did so in general terms. And it is true that not
+everyone uses his analysis today. However, the
+tenets of portfolio theory are widely used today,
+by themselves or in conjunction with other tech-
+niques, and by both institutional investors and
+individual investors.
+178 Chapter 7 Portfolio Theory
+Portfolio Expected Return
+Portfolio weights The percentages of a portfolio’s total value that are invested in
+each portfolio asset are referred to as portfolio weights, which we will denote by w.
+The combined portfolio weights sum to 100 percent of total investable funds, or 1.0,
+indicating that all portfolio funds are invested. That is,
+w w w wn
+i
+n
+i1 2
+1
+1 0 . (7-4)
+Calculating the expected return on a portfolio The expected return on
+any portfolio p can be calculated as a weighted average of the individual security
+expected returns:
+E R w E Rp
+i
+n
+i i( ) ( )
+1
+(7-5)
+where
+E R
+w
+p
+i
+( ) the expected return on the portfolio
+the portfolio weight for the th security
+the expected ret
+i
+w
+E R
+i
+i
+1 0.
+( ) uurn on the th security
+the number of different securiti
+i
+n ees in the portfolio
+• The expected returns for individual securities
+• Multiplied by the weights assigned to each security
+• When added together form the expected return on
+a portfolio
+Portfolio Weights
+Percentages of portfolio
+funds invested in each
+security
+With equal dollar amounts invested in three securities,
+the portfolio weights are 0.333, 0.333, and 0.333. For an
+equal-weighted portfolio of five securities, each security would have a portfolio
+weight of 0.20. Of course, weights do not have to be equal. A five-stock portfolio
+could have weights of 0.40, 0.10, 0.15, 0.25, and 0.10.
+EXAMPLE 7.3
+Consider a three-stock portfolio consisting of stocks G, H,
+and I with expected returns of 12, 20, and 17 percent,
+respectively. Assume that 50 percent of investable funds are invested in security
+G, 30 percent in H, and 20 percent in I. The expected return on the portfolio is
+E Rp( ) . ( %) . ( %) . ( %) . %0 5 12 0 3 20 0 2 17 15 4
+EXAMPLE 7.4
+Analyzing Portfolio Risk 179
+• Regardless of the number of assets held in a portfolio, or the proportion of
+total investable funds placed in each asset, the expected return on the port-
+folio is always a weighted average of the expected returns for individual assets
+in the portfolio.
+Portfolio Risk
+Risk and return are the basis of all investing decisions. Risk is measured by the vari-
+ance (or standard deviation) of the portfolio’s return, exactly as in the case of an
+individual security. Typically, portfolio risk is stated in terms of standard deviation.
+A major implication of MPT is as follows: Although the expected return of a
+portfolio is a weighted average of the expected returns of the individual securities
+included in the portfolio, portfolio risk is not a weighted average of the risk of the
+individual securities in the portfolio. Symbolically,
+E R w E Rp
+i
+n
+i i( ) ( )
+1
+(7-6)
+p
+i
+n
+i iw2
+1
+2 (7-7)
+Equation 7-7 is an inequality, and, in fact, investors can reduce the risk of a port-
+folio beyond what it would be if risk were simply a weighted average of the indi-
+vidual securities’ risk. In order to see how this risk reduction is accomplished, we
+analyze portfolio risk in detail.
+• Portfolio risk is always less than a weighted average of the risks of the securities
+in the portfolio unless the securities have outcomes that vary together exactly,
+which is an almost impossible occurrence.
+Analyzing Portfolio Risk
+Risk Reduction—The Insurance Principle
+To begin our analysis of how forming a portfolio of assets can reduce risk, assume
+that all security risk sources in a portfolio are independent. As we add securities to
+the portfolio, the exposure to any particular source of risk becomes small. Accord-
+ing to the Law of Large Numbers, the larger the sample size, the more likely it is that
+the sample mean will be close to the population expected value. Risk reduction in
+the case of independent risk sources can be thought of as the insurance principle,
+Investments Intuition
+The expected return for a portfolio must fall bet-
+ween the highest and lowest expected returns for
+the individual securities making up the portfolio.
+Exactly where it falls is determined by the per-
+centages of investable funds placed in each of
+the individual securities in the portfolio.
+180 Chapter 7 Portfolio Theory
+named for the idea that an insurance company reduces its risk by writing many poli-
+cies against many independent sources of risk.
+We start by assuming the most extreme case in which individual security returns
+are statistically independent such that any one security’s return is unaffected by anoth-
+er’s return. In this situation, and only in this situation, the standard deviation of the
+portfolio is given by
+p
+i
+n1 2/ (7-8)
+Equation 7-8 describes the extreme case of independent risk sources, which
+implies that all risk is firm specific. In this situation, the total risk continues to fall
+toward 0 as securities are added. Unfortunately, when it comes to investing in finan-
+cial assets, the assumption of statistically independent returns is unrealistic.
+In practice, most stocks are positively correlated with each other; that is, the
+movements in their returns are related, not independent. We call the variation in
+returns that is attributable to general market moves, market risk. While total risk
+can be reduced, it cannot be eliminated because market risk cannot be eliminated.
+Unlike firm-specific risk, common sources of risk (market risk) affect all firms and
+cannot be diversified away. For example, an increase in interest rates affects most
+firms adversely because most firms borrow funds to finance part of their operations.
+Diversification
+Another major implication of MPT is that there are two general sources of risk,
+firm-specific and market risk. Because the sources of risk are not entirely independ-
+ent, adding securities reduces the firm-specific risk, but not the market risk. The
+process of adding securities to a portfolio to reduce firm-specific risk is referred to
+as diversification.
+• Diversification is the key to managing portfolio risk because it allows investors
+to significantly lower portfolio risk without adversely affecting return.
+We consider two forms of portfolio diversification, beginning with random diver-
+sification and moving to efficient portfolio diversification, which is based on MPT
+principles.
+Random diversification Random or naive diversification refers to the act of ran-
+domly diversifying without regard to how security returns are related to each other.
+An investor simply selects a relatively large number of securities randomly—the
+The risk of a portfolio declines quickly as more securities
+are added. Using Equation 7-8 and assuming that each
+security’s standard deviation is 20 percent, the risk of a 100-security portfolio
+is reduced to 2.0 percent:
+p
+20
+100
+2 0
+1 2/
+. %
+EXAMPLE 7.5
+The Components of Portfolio Risk 181
+proverbial “throwing a dart at The Wall Street Journal page of stock quotes.” As we add
+securities to a portfolio, the total risk associated with the portfolio of stocks declines
+rapidly even without the use of any investment insight. The first few stocks cause a
+large decrease in portfolio risk.
+The benefits of diversification kick in immediately—two stocks are better than
+one, three stocks are better than two, and so on. However, diversification cannot
+completely eliminate the risk in a portfolio because the market risk cannot be elimi-
+nated. As additional stocks are added, risk is reduced, but the marginal risk reduc-
+tion becomes smaller with each security added.
+Although random diversification is clearly beneficial, it is generally not optimal.
+To take full advantage of the benefits of diversification, we need to understand effi-
+cient diversification; that is, we need to understand portfolio risk within an MPT
+context.
+Checking Your Understanding
+3. What does it mean to an investor that the benefits of diversification kick in
+immediately but are limited?
+The Components of Portfolio Risk
+In order to develop an equation for portfolio risk, as measured by variance or stand-
+ard deviation, we must account for two factors:
+1. The weighted individual security risks (i.e., the variance of each security,
+weighted by the percentage of funds invested in the security)
+2. The weighted comovements between securities’ returns (i.e., the weighted
+covariance between each security’s returns and the returns of all other securi-
+ties in the portfolio)
+The covariance and the correlation coefficient are prominent measures of
+comovement between security returns and are both used commonly in deriving
+portfolio risk. These two measures are discussed in detail in the following text.
+Covariance
+Covariance is defined as the extent to which two random variables covary (move
+together) over time. In financial markets, the variables in question are typically the
+returns on two securities. Covariance can be:
+1. Positive, indicating that the returns on the two securities tend to move in the
+same direction; when one increases (decreases), the other tends to do the
+same.2
+2. Negative, indicating that the returns on the two securities tend to move inversely;
+when one increases (decreases), the other tends to decrease (increase).
+3. Zero, indicating that the returns on the two securities are independent and
+have no tendency to move together.
+182 Chapter 7 Portfolio Theory
+The formula for calculating the expected covariance for two securities is
+AB A A B B pr
+i
+m
+i i iR E R R E R
+1
+, ,( ) ( ) (7-9)
+where
+AB
+A
+the covariance between securities A and B
+one possR i, iible return on security A
+the expected return on secAE R( ) uurity A
+the number of likely outcomes for a security form the period
+3
+Equation 7-9 indicates that covariance is the sum of the weighted products of
+the return deviations from their expected values. In Equation 7-9, if the returns for
+both A and B are above their expected value or below their expected value at the
+same time, the product will be positive, leading to a positive covariance. If, on the
+other hand, A is above its expected value when B is below its expected value, the
+product will be negative, and with enough counter occurrences, the covariance will
+be negative.
+The size of the covariance measure depends on the units of the variables involved
+and changes when these units are changed. Therefore, the covariance primarily pro-
+vides information to investors about whether the association between asset returns
+is positive, negative, or zero because simply observing the number itself, without any
+context with which to assess the number, is not very useful.
+We offer the following as an example of the limitation of covariance as a measure
+of comovement. Assume you are told two securities, R and S, have a covariance of
+325. What does this indicate about the comovement between security R and security
+S? Since the value is positive, you know the two have a positive association, that is,
+when one performs well (poorly), the other tends to also perform well (poorly).
+But how strong is the association? This is where covariance offers little guidance.
+We really do not know whether a covariance of 325 indicates a weak or a strong
+positive association. Fortunately, the correlation coefficient, which we discuss next,
+overcomes this limitation of covariance.
+The Correlation Coefficient
+In investments, the correlation coefficient (correlation) is a statistical measure of
+the relative comovements between security returns. Like covariance, correlation (ρAB
+)
+measures the extent to which the returns on two securities move together. Further-
+more, both measures denote the association between the two securities; however,
+they do not offer guidance regarding causation. For example, two oil companies
+may have security returns that have a high covariance, that is, they are highly corre-
+lated. This does not mean the movements in one cause the movements in the other;
+instead, both firms are reliant on a common underlying factor, the price of oil.
+Covariance and correlation are related in the following manner:
+AB
+AB
+A B
+(7-10)
+3 The order does not matter, because AB BA .
+Correlation Coefficient
+A statistical measure of
+the extent to which two
+variables are associated
+The Components of Portfolio Risk 183
+This equation shows that the correlation is simply a standardized covariance
+measure. To derive correlation, covariance is standardized by dividing the value by
+the product of the two standard deviations.
+Or alternatively, by rearranging the formula, the covariance can be written as
+AB AB A B (7-11)
+Therefore, by knowing the covariance, we can calculate the correlation (and vice
+versa) because the standard deviations of the assets’ returns are already known.
+From the formulas, we can establish that when the covariance is positive, the cor-
+relation will also be positive. Likewise, when the covariance is negative, the correla-
+tion will be negative. This relationship is evident because standard deviation (as the
+square root of variance) is always a positive value.
+While correlation and covariance are both measures of comovement, the primary
+difference between the two is that correlation is a bounded measure of comove-
+ment. In particular, correlation is a relative measure of association that is bounded
+by +1.0 and −1.0 with
+AB
+AB
+1: perfect positive correlation
+1: perfect negativve correlation
+0: zero, or no, correlationAB
+When analyzing how security returns move together, it is more convenient to talk
+about the correlation because we can immediately assess the degree of association.
+Remember that hypothetical covariance of 325 that we assumed between security
+R and security S. Depending upon the security standard deviations, that covariance
+may translate to a correlation of 0.9, which indicates a very strong positive correla-
+tion (the highest is 1.0). On the other hand, it may translate to a correlation of 0.1,
+which indicates a weak positive correlation.
+Overall, we can conclude that covariance and correlation are similar measures of
+comovement; both provide information about the association of two securities. Cor-
+relation, however, extends the information that covariance offers by indicating both
+direction of association and strength of association. For this reason, correlation is
+much more popular as a measure of comovement.
+Perfect positive correlation With perfect positive correlation, the returns have a
+perfect direct linear relationship. Knowing what the return on one security will do
+allows an investor to forecast perfectly what the other will do. In Figure 7.2, stocks
+A and B have identical return patterns over the six-year period 2013–2018. When
+stock A’s return goes up, stock B’s does also. When stock A’s return goes down, stock
+B’s does also.
+Notice that a portfolio combining stocks A and B (portfolio AB), with 50 percent
+invested in each, has exactly the same return as does either stock by itself, since the
+returns are identical. The risk of the portfolio, as measured by the standard devia-
+tion, is identical to the standard deviation of either stock by itself.
+• When returns are perfectly positively correlated, portfolio risk is simply a
+weighted average of the individual securities’ risks. This is the one case where
+diversification does not lead to a reduction in risk.
+Perfect negative correlation In contrast, with perfect negative correlation,
+the securities’ returns have a perfect inverse linear relationship to each other.
+The Components of Portfolio Risk 185
+Less than perfect positive correlation Figure 7.4 illustrates a case where stocks
+A and D are positively correlated with each other at a level of ρ = +0.55. Inves-
+tors may encounter situations such as this and feel there is not much benefit to
+be gained from diversifying. Note that the standard deviation of each security is
+Rate of return (%)
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+Rate of return (%)
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+Rate of return (%)
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+Stock A Stock C
+Portfolio AC
+2013 12
+12
+12
+12
+12
+12
+12
+36
+–12
+–10
+34
+–6
+30
+12
+21.5
+–12
+36
+34
+–10
+30
+–6
+12
+21.5 0.0
+2014
+2015
+2016
+2017
+2018
+Av. return
+Std. dev.
+Stock A Stock CYear Return on portfolio AC
+2013 2014 2015 2016 2017 2018
+2013 2014 2015 2016 2017 2018
+2013 2014 2015 2016 2017 2018
+FIGURE 7.3 Returns for the years 2013–2018 on two stocks, A and C, and a portfolio consisting of 50 percent A and 50 percent C,
+when the correction coefficient is −1.0
+Stock D
+Rate of return (%)
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+Stock A
+Rate of return (%)
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+Portfolio AD
+Rate of return (%)
+–40
+–30
+–20
+–10
+0
+10
+20
+30
+40
+2013 36
+–12
+–10
+34
+–6
+30
+12
+21.5
+25
+13
+19
+28
+–35
+22
+12
+21.5
+30.5
+0.5
+4.5
+31.0
+–20.5
+26.0
+12.0
+18.0
+2014
+2015
+2016
+2017
+2018
+Av. return
+Std. dev.
+Stock A Stock DYear Return on portfolio AD
+2013 2014 2015 2016 2017 2018
+2013 2014 2015 2016 2017 2018
+2013 2014 2015 2016 2017 2018
+FIGURE 7.4 Returns for the years 2013–2018 on two stocks, A and D, and a portfolio consisting of 50 percent A and 50 percent D,
+when the correction coefficient is +0.55
+Checking Your Understanding 189
+The n-Security Case
+The two-security case can be generalized to the n-security case. Portfolio risk can
+be reduced by combining assets with less than perfect positive correlation. Further-
+more, the smaller the positive correlation, the better.
+Portfolio risk is a function of each individual security’s risk and the covariances
+between the returns on the individual securities. Stated in terms of variance, port-
+folio risk is:
+p
+i
+n
+i i
+i
+n
+j
+n
+i j
+i j ijw w w2
+1
+2 2
+1 1
+(7-13)
+where
+p
+i
+2
+2
+the variance of the portfolio’s return
+the variance of security ’s return
+the covariance between the ret
+i
+ij uurns for securities and
+the weight invested in secu
+i j
+w i rrity
+a double summation sign since
+i
+i j n n
+i
+n
+j
+n
+1 1
+1, , ( ))
+( ,
+comovement terms are added
+together i.e. all possible ppairs of values for and excludingi j i j, )
+Although Equation 7-13 appears formidable, it states exactly the same message as
+Equation 7-12 for the two-stock portfolio; portfolio risk is a function of:
+• The weighted risk of each individual security (as measured by its variance)
+• The weighted covariances among all pairs of securities
+As noted previously, three variables determine portfolio risk: variances, covari-
+ances, and weights.
+Since the covariance of security i and security j (σij) equals the correlation of
+returns for security i and j times the standard deviation of each security, we can
+easily report Equation 7-13 using covariance or correlation. Therefore, in general
+discussions of portfolio risk, these two comovement terms can be, and are, used
+interchangeably.
+Checking Your Understanding
+5. Correlation and covariance are both measures of comovement. How are the
+two measures used and how are they related to one another?
+6. Suppose we add a very risky stock to a well-diversified portfolio. Could such an
+action lower the portfolio’s risk?
+The importance of covariance One of Markowitz’s important contributions to
+portfolio theory is his insight about the relative importance of variances and covari-
+ances. As highlighted in Figure 7.5, when we add a new security to a large portfolio
+of securities, there are two impacts.
+1. The asset’s own risk, as measured by its weighted variance, is added to the
+portfolio’s risk.
+2. Weighted covariances between the new security and every other security
+already in the portfolio are also added.
+Chapter 7 Portfolio Theory
+• As the number of securities held in a portfolio increases, the importance of
+each individual security’s risk (variance) decreases, while the importance of
+the covariance relationships increases.
+For example, in a portfolio of 150 securities, the contribution of each security’s
+own risk to the total portfolio risk is extremely small. When a new security is added
+to a large portfolio of securities, what matters most is its covariance with the other
+securities in the portfolio.
+Portfolio risk consists almost entirely of the covariance risk between securities.
+Individual security risks are diversified away in a large portfolio, but the covariance
+terms are not diversified away and therefore contribute to the risk of the portfolio.
+Obtaining the Data
+To calculate portfolio risk using Equation 7-13, we need estimates of each security’s
+variance and estimates of the correlation coefficients or covariances. Both variances
+and covariances can be calculated using either ex post or ex ante data. If an analyst
+uses ex post data to calculate the variances and covariances and then uses these esti-
+mates in the Markowitz model, the implicit assumption is that the relationship that
+existed in the past will continue into the future. If historical data is thought to offer
+the best estimate of the expected variances and covariances, it should be used. How-
+ever, it must be remembered that measures of variance and covariance change over
+time as does the expected return.
+Simplifying the Markowitz Calculations
+Equation 7-13 illustrates the problem associated with the calculation of portfolio
+risk using the Markowitz mean-variance analysis. In the case of two securities, there
+are two covariances, and we multiply the weighted covariance term in Equation
+7-12 by two since the covariance of A with B is the same as the covariance of B with
+A. Therefore, in the case of three securities, there are six covariances, with four
+securities, 12 covariances, and so forth. The total number of covariances in the
+Markowitz model is calculated as n(n − 1), where n is the number of securities.
+Table 7.2 shows the variance–covariance matrix associated with these calcula-
+tions. For the case of two securities, there are n2
+, or four, total terms in the matrix—
+two variances and two covariances. For the case of four securities, there are n2
+, or 16
+total terms in the matrix—4 variances and 12 covariances. The variance terms are
+on the diagonal of the matrix and, in effect, represent the covariance of a security
+with itself. Note that the covariance terms above the diagonal are a mirror image of
+the covariance terms below the diagonal—that is, each covariance is repeated twice
+since σAB is the same as σBA
+.
+The sum of
+the
+weighted
+risk of each
+individual
+security
+The sum of
+the
+weighted
+covariances
+among all
+pairs of
+securities
+Portfolio
+risk
+FIGURE 7.5 The components of portfolio risk
+Summary 191
+• The number of covariances in the Markowitz model is based on the calcu-
+lation n(n − 1), where n is the number of securities involved. Because the
+covariance of A with B is the same as the covariance of B with A, there are
+[n(n − 1)]/2 unique covariances.
+Obviously, estimating large numbers of covariances quickly becomes a major
+problem for model users. Since many institutional investors follow as many as 250 or
+300 securities, the number of inputs required may become an impossibility. In fact,
+until the basic Markowitz model was simplified in terms of the covariance inputs, it
+remained primarily of academic interest.
+On a practical basis, analysts are unlikely to be able to directly estimate the large
+number of correlations necessary for a complete Markowitz analysis. In his origi-
+nal work, Markowitz suggested using the relation of each security to an index as a
+means of generating covariances.
+Summary
+• A security’s expected return must be estimated. Since this is done under con-
+ditions of uncertainty, it may not be realized. Risk (or uncertainty) is always
+present in the estimation of expected returns for risky assets.
+• Probability distributions are used to calculate a security’s expected return.
+• The standard deviation or variance of a security’s expected return is a measure
+of the security’s risk; therefore, it also incorporates the probabilities used in
+calculating the expected return.
+• The expected return for a portfolio is a weighted average of the individual
+security expected returns.
+The Variance–Covariance Matrix Involved in
+Calculating the Standard Deviation of a Portfolio
+Two securities:
+σ1,1 σ1,2
+σ2,1 σ2,2
+Four securities:
+σ1,1 σ1,2 σ1,3 σ1,4
+σ2,1 σ2,2 σ2,3 σ2,4
+σ3,1 σ3,2 σ3,3 σ3,4
+σ4,1 σ4,2 σ4,3 σ4,4
+TABLE 7.2
+An analyst considering 100 securities must estimate
+[100(99)]/2 = 4,950 unique covariances. For 250 securi-
+ties, the number is [250(249)]/2 = 31,125 unique covariances.
+EXAMPLE 7.9
+192 Chapter 7 Portfolio Theory
+• Portfolio weights, designated wi, are the percentages of a portfolio’s total funds
+that are invested in each security, where the weights sum to 1.0.
+• Portfolio risk is not a weighted average of the individual security risks. To cal-
+culate portfolio risk, we must take account of the comovements between the
+securities’ returns.
+• The correlation coefficient is a relative measure of the association between
+security returns. It is bounded by +1.0 and −1.0, with 0 representing no asso-
+ciation.
+• Correlation and covariance are both quantitative measures of comovement,
+and either can be used in deriving portfolio risk (portfolio variance).
+• Portfolio risk is a function of security variances, covariances, and portfolio
+weights.
+• Covariance and correlation between security returns determine how much
+portfolio risk can be reduced through diversification.
+• The risk of a well-diversified portfolio is largely attributable to the impact of
+the covariances. When a new security is added to a large portfolio of securities,
+what matters most is its covariance with the other securities in the portfolio.
+• As the number of securities held in a portfolio increases, the importance of
+each individual security’s risk (variance) decreases, while the importance of
+the covariance relationships increases.
+• The major problem with the Markowitz model is that it requires a full set of
+security return covariances in order to calculate portfolio variance.
+• The number of covariances in the Markowitz model is n(n − 1); the number of
+unique covariances is [n(n − 1)]/2.

@@ -1,0 +1,975 @@
+Suppose you are fortunate enough
+to receive an inheritance of $1 mil-
+lion from a relative. She specifies
+that you must invest this money intel-
+ligently in financial assets within the
+next six months, and not spend it
+on consumption, and that you must
+be answerable to a trustee who has
+the final say on your decisions. You
+now face an enviable task—building
+a portfolio of stocks, bonds, and so
+forth—and you quickly realize that
+not only do you not know all the
+answers, you do not even know some
+of the questions.
+Having had a finance course in
+college, you learned about risk and return, but now you must really understand
+what these terms mean. You have heard some people talk about making a “killing
+in the market,” but common sense tells you it cannot be that easy. Like the prospec-
+tive investor asked the broker when the latter was showing him the yachts belong-
+ing to other brokers, “Where are the customers’ yachts?” Also, you have on several
+occasions read about fraudulent investment schemes leaving people broke, but
+wiser. And so you realize you have your work cut out for you. You need to identify
+the important issues, ask the right questions, and learn the basics about successful
+investing.
+You can, in fact, construct and manage your portfolio, as the following chapters
+show. With a little tenacity, you can be on your way to an intelligent investing pro-
+gram because basic knowledge can go a long way. Let’s get started.
+Chapter 1 provides the foundation for the study of investments by analyzing what
+it is all about. The critically important tradeoff between risk and expected return is
+explained, and the major issues that every investor must deal with in making invest-
+ment decisions are analyzed.
+
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Understand why risk and return are
+the two critical components of all
+investing decisions.
+• Appreciate the scope of investment
+decisions and the operating envi-
+ronment in which they are made.
+• Follow the organization of the
+investment decision process as we
+progress through the text.
+
+An Overall Perspective on Investing
+• In less than two years, from its peak in March 2000, the S&P 500 Index, a
+measure of large stocks, subsequently lost about 50 percent of its value. Dur-
+ing this period, investors lost about $5 trillion. In 2008–2009, stock market
+2 Chapter 1 Understanding Investments
+volatility was even greater as the market lost over 50 percent of its value in only
+17 months. In only two months in 2011, $3 trillion in stock market wealth dis-
+appeared in the United States and $8 trillion globally. With volatility like this,
+should investors avoid stocks, particularly for their retirement plans?
+• Following the financial crisis of 2008, interest rates on U.S. Treasury secu-
+rities dropped to record lows, in some cases close to zero. In 2019, bond
+yields for several European countries were negative. Why would investors
+continue to invest in these debt securities, sometimes stampeding to invest
+in them?
+• Stocks have always outperformed Treasury bonds over long periods of time,
+such as 30 years. Is this an accurate statement?
+• Many company employees with self-directed retirement plans have none of
+their funds invested in stocks. Is this smart?
+• About two-thirds of all affluent Americans use financial advisers, a percentage
+that has been increasing. Will you need one?
+• For a recent 10-year period, only 24 percent of professionally managed stock
+portfolios were able to outperform the overall stock market. Why?
+• How can futures contracts, with a reputation for being extremely risky, be used
+to reduce investor risk?
+• What is the historical average annual rate of return on common stocks and
+bonds? What can an investor reasonably expect to earn from stocks in the
+future?
+The objective of this text is to help you understand the investments field so that
+you can intelligently answer questions such as the preceding and make sound invest-
+ment decisions that will enhance your economic welfare and standard of living. The
+text also provides an introduction for those considering careers in this rewarding
+field. To accomplish this objective, key concepts are presented along with many
+real-world examples to provide an appreciation of both the theory and practice of
+investments.
+Both descriptive and quantitative materials on investing are readily available. In
+fact, one of the problems today is information overload with investment material.
+Some investment material is very enlightening; however, some of it is worthless. This
+text seeks to cover what is particularly useful and relevant for today’s investment cli-
+mate. It offers some ideas about what you can reasonably expect to accomplish with
+your added knowledge, and therefore what you can realistically expect to achieve
+as an investor. Many investors have unrealistic expectations, and this will ultimately
+lead to disappointments in investment results—or, worse, the loss of all of their
+funds in a fraud or scam.
+Just Say NO! Prepare yourself to say NO! Learning how to avoid the many pitfalls
+awaiting you as an investor—in particular, investing scams and frauds—by clearly
+understanding what you can reasonably expect from investing your money may be
+the single most important benefit to be derived from this text. For example, would
+you entrust your money to someone offering 36 percent annual return on riskless
+Treasury securities? Some 600 investors did and lost some $10 million to a former
+Sunday school teacher.
+In February 2009, the Securities and Exchange Commission (SEC) filed a com-
+plaint alleging that R. Allen Stanford and James Davis operated a massive Ponzi
+scheme, misappropriating billions of dollars of investors’ money. According to the
+complaint, the $8 billion fraud involved certificates of deposit promising overly high
+rates of return. The size of this alleged fraud pales in comparison to the Madoff
+Establishing a Framework for Investing 3
+scandal reported in December 2008, involving a very large Ponzi scheme. Bernard
+Madoff admitted that his investment advisor business was a fraud and had been
+insolvent for years. Returns were being paid to certain investors out of the principal
+received from other investors. The lasting legacy of the Madoff scandal is that many
+investors are now focused on safety (return of capital) instead of portfolio growth
+(return on capital).
+Intelligent investors quickly learn to say no, thereby avoiding many of the pitfalls
+that await investors daily. At the very least, you must be prepared to carefully inves-
+tigate the investment alternatives that are available to you.
+• Remember, there are many financial scams awaiting the unwary. However, you
+can easily learn to avoid them.
+Establishing a Framework for Investing
+Some Definitions
+The term investing covers a wide range of activities. It often refers to investing
+money in certificates of deposit, bonds, common stocks, or mutual funds. More
+knowledgeable investors would include other “paper” assets, such as warrants,
+puts and calls, futures contracts, and convertible securities, as well as tangible
+assets, such as gold, real estate, and collectibles. Investing encompasses very
+conservative positions as well as aggressive speculation. Whether your perspec-
+tive is that of a college graduate starting out in the workplace or that of a senior
+citizen concerned with finances after retirement, investing decisions are critically
+important to most people and contribute substantially to an individual’s quality
+of life.
+An investment can be defined as the commitment of funds to one or more assets
+that will be held over some future time period. Investment management is con-
+cerned with the management of an investor’s wealth, which is the sum of current
+income and the present value of all future income. Although the field of invest-
+ments encompasses many aspects, it can be thought of in terms of two primary func-
+tions: analysis and management—hence the title of this text.
+Financial assets and marketable securities In this text, the term invest-
+ments refers in general to financial assets and in particular to marketable securi-
+ties. Financial assets are paper (or electronic) claims on some issuer, such as the
+federal government or a corporation, whereas real assets are tangible, physical
+assets such as gold, silver, diamonds, art, and real estate. Marketable securities
+are financial assets that are easily and inexpensively tradable in organized mar-
+kets. Technically, the word investments includes both financial and real assets and
+both marketable and nonmarketable assets. Because of the vast scope of invest-
+ment opportunities available to investors, our primary emphasis is on marketable
+securities; however, the basic principles and techniques discussed in this text are
+applicable to real assets.
+Even when we limit our discussion primarily to financial assets, it is difficult to
+keep up with the proliferation of new products. Assets that did not exist a few years
+ago include the many new exchange traded products (ETPs), which are discussed
+in a later chapter
+A Perspective on Investing
+Why Do We Invest?
+We invest to make money! Although everyone would agree with this statement, we
+need to be more precise. (After all, this is a college textbook and anyone helping
+to pay for your education expects more.) We invest to improve our welfare, which
+for our purposes can be defined as monetary wealth, both current and future. We
+assume that investors are interested only in the monetary benefits to be obtained
+from investing, as opposed to such factors as the psychic income to be derived from
+impressing one’s friends with demonstrated financial prowess.
+Funds to be invested come from assets already owned, borrowed money, and
+savings or foregone consumption. By foregoing consumption today and investing
+the savings, investors expect to enhance their future consumption possibilities by
+increasing their wealth. Do not underestimate the amount of money individuals can
+accumulate. According to Spectrem Group’s 2017 Market Insights Report, a record
+10.8 million U.S. households had a net worth of more than $1 million, which was an
+increase of 400,000 households from the previous year. This success was attributed
+to the U.S. economy’s recovery, in combination with the Wall Street rally following
+the 2016 election.
+Investors also seek to manage their wealth effectively, obtaining the most from
+it while protecting it from inflation, taxes, and other factors. To accomplish both
+objectives, people invest.
+Take a Portfolio Perspective
+This text assumes that investors have established their overall financial plan and are
+now interested in managing and enhancing their wealth by investing in an optimal
+combination of financial assets. The idea of an “optimal combination” is important
+because our wealth, which we hold in the form of various assets, should be evalu-
+ated and managed as a unified whole. Wealth should be evaluated and managed
+within the context of a portfolio, which consists of all assets held by an investor. For
+example, if you own four stocks and three mutual funds, that is your portfolio. If
+your parents own 23 stocks, some municipal bonds, and some bank CDs, that is their
+portfolio of financial assets
+Cryptocurrency
+What is cryptocurrency? A currency? A great
+investment opportunity? A hoax? You are likely
+to receive any one of these answers depending
+on who you ask. In short, cryptocurrency is digital
+money, represented as an encrypted string
+of data that is free of governmental oversight.
+Blockchain technology is the underlying process
+that enables the existence of cryptocurrencies.
+Blockchain is a digital, decentralized ledger
+that allows for, and keeps a record of, peer-to-
+peer transactions across a network without the
+need for a centralized third party. Blockchain
+technology has the potential to create enor-
+mous gains in efficiency and tremendous cost
+savings by eliminating the need for a third party
+in transactions.
+By far the most recognized cryptocurrency is
+Bitcoin; however, there are numerous other cryp-
+tocurrencies in existence. Some other popular
+alternatives include Ethereum, Ripple, Litecoin,
+The Importance of Studying Investments 5
+The Importance of Studying Investments
+The Personal Aspects
+It is important to remember that all individuals have wealth of some kind; if noth-
+ing else, this wealth may consist of the current and future value of their services in
+the marketplace (often referred to as human capital). Most individuals must make
+investment decisions sometime in their lives. For example, many employees must
+decide the appropriate combination of stocks, bonds, and other assets to hold in
+their retirement accounts. And many people try to build wealth during their work-
+ing years by investing.
+Retirement decisions The lack of retirement savings is a looming crisis of epic
+proportions. According to the 2018 Retirement, Income, and Risk report prepared
+by the Insured Retirement Institute, over 40 percent of Baby Boomers have no
+retirement savings at all, and only 25 percent are confident they will have enough
+money to last throughout retirement.
+A major revolution in personal finance is to provide employees with self-directed
+retirement plans (defined contribution plans rather than defined benefit plans).
+Whereas traditional defined-benefit retirement plans guarantee retirees an amount
+of money each month, the new emphasis on self-directed retirement plans means
+that you will have to choose among stock funds, bond funds, guaranteed invest-
+ment contracts, and other alternatives. How much you have available for retirement
+depends upon how much you save each month as well as the performance of the
+investments you select.
+• In 1979, more than 40 percent of workers in the private sector participated in
+defined benefit pension plans in which the employer took primary responsi-
+bility for directing retirement dollars. By 2018, that number had fallen to only
+EOS, and Cardano. When Bitcoin was introduced
+in 2009 by Satoshi Nakamoto (a pseudonym), it
+was described as a new electronic peer-to-peer
+cash system with no server or central authority.
+The “crypto” part of the term references the idea
+that cryptocurrencies rely on strong cryptography
+that prevents a security breach.
+As a digital payment system, the advantages
+of cryptocurrencies are that they allow for digital
+global payments that are fast, secure, irreversible,
+pseudonymous, free of government intervention,
+and open to any individual that wants to partic-
+ipate in the system. One of the recognized flaws
+with cryptocurrencies is that they are not backed
+by tangible assets or a government entity. Some
+of the most renowned investors in history (e.g.,
+Boone Pickens, Warren Buffett, and Nouriel
+Roubini) have weighed in negatively on Bitcoin
+as an investment. The following quote by Jack
+Bogle sums up the group’s sentiment, “Avoid
+Bitcoin like the plague. Did I make myself clear?”1
+Bitcoin experienced a wild price ride between
+2013 and 2018, leaving some investors delighted
+and others dejected. The price per Bitcoin
+advanced from $134 on April 28, 2013, to a high
+value of $19,497 on December 16, 2017, before
+falling all the way back to $3,743 at the end of
+2018. That’s a total return of over 14,000 percent
+on the way up and a drop of over 80 percent on
+the way down.
+6 Chapter 1 Understanding Investments
+17 percent, thus, putting much more reliance on defined contribution plans,
+which put the onus on the employee. The ultimate success of these plans is
+dependent upon the choices made by the employee.
+Your choices are many, and your success—or lack thereof—will directly affect
+your quality of life in retirement and may dictate whether you are even able to
+retire. Therefore, while employees in the past typically did not have to concern
+themselves with investing decisions relative to their company’s retirement plan,
+employees now must do so. This is a very important personal reason for studying
+the subject of investments!
+A good example of this revolution in retirement programs is 401(k) plans offered
+by many employers, whereby employees contribute a percentage of salary to a tax-
+deferred plan, and the employer often matches part of the contribution. Tens of
+millions of American workers contribute to 401(k) plans. At the end of 2018, these
+and similar tax-advantaged plans held approximately $9.2 trillion in assets. The bulk
+of 401(k) assets are invested in stocks; therefore, it is important to know something
+about stocks.
+To illustrate the critical importance of making good investment decisions,
+consider yet another self-directed retirement vehicle, the Individual Retirement
+Account (IRA). IRAs are an important method that Americans use to provide for
+their retirement. IRA assets totaled approximately $8.2 trillion by 2017, which was
+roughly 31 percent of the total U.S. retirement market.
+The annual maximum IRA contribution was $5,500 in 2018 ($6,500 for those age
+50 and above). IRA funds can be invested in a wide range of assets, from the very
+safe to the quite speculative. IRA owners are allowed to have self-directed brokerage
+accounts, which offer a wide array of investment opportunities. Since these funds
+may be invested for as long as 40 or more years, good investment decisions are criti-
+cal, as shown in Example 1.1.
+Consider the amount of wealth that can be accumulated by
+contributing $5,000 annually to a tax-sheltered account. Over
+many years of investing, the differences in results can be staggering. Note that in the
+case of a $5,000 annual contribution for 40 years, the payoff at a rate of 15 percent
+is almost $9 million. In contrast, at a rate of 10 percent the payoff is $2.21 million,
+which is a great outcome but significantly less than almost $9 million. Similarly, if
+a 10 percent return can be obtained instead of a 5 percent return, over a period of
+40 years the difference approaches a fourfold multiple. Clearly, good investment
+decisions, which lead to higher returns, can make a tremendous difference in the
+wealth that you accumulate. None other than Albert Einstein is rumored to have said
+“compound interest is the most powerful force in the universe.”2
+Final dollar wealth if funds are
+compounded at
+Amount invested
+per year Number of years 5% 10% 15%
+$5000 20 165,330 286,375 512,218
+$5000 30 332,194 822,470 2,173,726
+$5000 40 603,999 2,212,963 8,895,452
+EXAMPLE 1.1
+2 Whether he said it or not is irrelevant. It is still a good motto to live by.
+The Importance of Studying Investments 7
+Building wealth over your lifetime Beyond the retirement issue, the study
+of investments is more important than ever in the 21st century. Individ-
+ual investors have swarmed into the financial markets, either by force (becom-
+ing part of a self-directed retirement plan) or by choice (seeking higher
+returns than those available from financial institutions). In 2017, approximately
+56.2 million households in the United States owned mutual funds that invested
+in stocks.
+Individual investor interest in the stock market is best expressed by the popular-
+ity of mutual funds and exchange traded products (explained in Chapter 3), which
+are favorite investment vehicles of small investors. With so much individual investor
+money flowing into these funds, and with individual investors owning a large per-
+centage of all stocks outstanding, the study of investments is more important than
+ever.
+In the final analysis, we study investments in the hope of creating wealth and
+earning better returns in relation to the risk we assume. A careful study of invest-
+ment analysis and portfolio management principles can provide a sound framework
+for both managing and increasing wealth. Furthermore, a sound study of this sub-
+ject matter will allow you to obtain maximum value from the many articles on invest-
+ing that appear daily in newspapers and on the Internet, which in turn will increase
+your chances of reaching your financial goals.
+Investments as a Profession
+In addition to the above-mentioned reasons for the importance of studying invest-
+ments, the world of investments offers several rewarding careers, both professionally
+and financially. A study of investments is an essential part of becoming a profes-
+sional in this field.
+Investment bankers and traders Investment bankers, who arrange the sale of
+new securities as well as assist in mergers and acquisitions, enjoyed phenomenal
+financial rewards in the booming 1980s and 1990s. Given the turmoil of 2000–2002,
+investment banking business dropped off sharply, and by mid-2002 was the slow-
+est part of Wall Street’s business. In 2008, the financial crisis saw the demise of
+Bear Stearns and Lehman Brothers and the merger of Merrill Lynch with Bank of
+America. Furthermore, signaling the end of an era on Wall Street, Goldman Sachs
+and Morgan Stanley, the last two major investment banks at the time, became bank
+holding companies in order to stay in business.
+The 2008 financial crisis ushered in a new wave of government regulation and
+resulted in the promotion of “shadow banking” firms, such as hedge funds, private
+equity funds, and ETFs. Since the crises, however, investment banking business has
+rebounded considerably with advisory fees increasing from a low of $66 billion in
+2008 to $74 billion in 2016.
+Security analysts and portfolio managers A range of financial institu-
+tions, including mutual funds, brokerage firms, and investment bankers as
+well as banks and insurance companies, need the services of security analysts
+(also called investment analysts). Security analysts are routinely separated
+into buy- and sell-side analysts. Sell-side analysts issue recommendations such
+as “strong buy” that are published and made available to many investors, while
+buy-side analysts prepare research to benefit the firm for whom the research
+was prepared.
+Security Analysts Market
+professionals whose job it
+is to evaluate and recom-
+mend stocks to individual
+and institutional investors
+8 Chapter 1 Understanding Investments
+Brokerage houses employ sell-side analysts to support their registered represent-
+atives who in turn serve the public—for example, preparing the research reports
+provided to customers. Investment bankers employ buy-side analysts to assist in the
+sale of new securities and in the valuation of firms as possible merger or acquisition
+candidates. Other firms that employ buy-side analysts include banks and insurance
+companies who own portfolios of securities that must be evaluated in order to be
+managed, and mutual funds that need analysts to evaluate securities for possible
+purchase or sale.
+Financial firms need portfolio managers to manage the portfolios of securities
+handled by these organizations. Portfolio managers are responsible for making the
+actual portfolio buy and sell decisions—what to buy and sell and when to place
+the trade. Portfolio performance is calculated for these managers, and their jobs
+depend on their performance measured relative to other managed portfolios and
+to market averages.
+Stockbrokers and financial advisers What about the registered representa-
+tives (stockbrokers) employed in cities across the country? A few superbrokers
+earn more than $1 million per year. Of course, the average broker earns much
+less, but still the compensation can be quite rewarding. More will be said about
+brokers in Chapter 5.
+The employment and pay for the various job types associated with Wall Street
+tend to be cyclical. While the late 1990s were great years for investors and invest-
+ment professionals, the market declines of 2000–2002 brought a new reality, as did
+the financial crisis of 2008. Given the tremendous turmoil in the financial markets
+in 2008, we have entered a new era of banking, financial institutions, and trading
+practices, and the exact structure will take time to unfold.
+Finally, the number of financial advisers continues to grow. This area has employ-
+ment opportunities for people interested in the investments field. The Bureau
+of Labor Statistics expects this job category to grow by 27 percent from 2012 to
+2022—much faster than the average for all occupations. As the U.S. population ages
+and life expectancies increase, the demand for financial planning services should
+increase. Over 60 percent of affluent Americans with a net worth between $100,000
+and $1 million now use a financial adviser. For a $1 million portfolio, a typical finan-
+cial adviser will charge $10,000 a year. Some charge by the hour, with the hourly rate
+in the $150 to $500 range.
+Standard credentials do not exist for financial advisers. Internet advisers who
+manage $25 million or more must register with the SEC as a Registered Investment
+Advisor (RIA). Those managing less than $25 million must register with the state
+securities agency in the state where they have their principal place of business. 3
+According to the Bureau of Labor Statistics, the average financial adviser earned
+approximately $90,530 per year in 2016, primarily from commissions for selling
+products and from managing clients’ assets for a percentage of the assets under
+management (AUM).
+Exhibit 1.1 lists three designations that financial advisers and planners may
+hold and indicates how they are compensated. Those interested in this field as a
+career should seriously consider obtaining one (or more) of these professional
+designations.
+Understanding the Investment Decision Process 9
+The CFA designation Individuals interested in careers in the investments
+field, as opposed to financial planning, should consider earning the Chartered
+Financial Analyst (CFA) designation. This is a highly respected, global profes-
+sional designation for people in the investments area. It serves as an indica-
+tion that areas of knowledge relevant to investing have been studied and that
+high ethical and professional standards have been recognized and accepted.
+Throughout this text, we present questions and problems that are based on the
+CFA curriculum.
+Understanding the Investment
+Decision Process
+An organized view of the investment process involves analyzing the basic nature of
+investment decisions and organizing the activities in the decision process.
+Common stocks have produced, on average, significantly larger returns than sav-
+ings accounts or bonds. Therefore, should not all investors invest heavily in com-
+mon stocks and realize these larger returns? The answer to this question is “To
+pursue higher returns, investors must assume larger risks, which is not always pru-
+dent.” Underlying all investment decisions is the tradeoff between risk and expected
+return.
+The Basis of Investment Decisions—Return and Risk
+Return Why invest? Stated in the simplest terms, investors wish to earn a return on
+their money. Cash has an opportunity cost: By holding cash, you forego the oppor-
+tunity to earn a return on that cash. Furthermore, in an inflationary environment,
+the purchasing power of cash diminishes at a rapid pace.
+Chartered Financial Ana-
+lyst (CFA) A professional
+designation for people in
+the investment field.
+10 Chapter 1 Understanding Investments
+Expected return versus realized return It is critical to distinguish between an
+expected return (the anticipated return for some future period) and a realized
+return (the actual return over some past period). Investors invest for the future—
+for the returns they expect to earn—but when the investing period is over, they are
+left with their realized returns. What investors actually earn from their holdings may
+turn out to be more or less than what they expected to earn when they initiated the
+investment. This point is the essence of the investment process: Investors should
+always consider the risk involved in investing.
+Properly stated, investors seek to maximize their returns from investing, subject
+to the risk they are willing to incur. Therefore, we must consider the other side of
+the coin from return, which is risk.
+Risk Investors like their returns to be as large as possible; however, this objective
+is subject to constraints, primarily risk. 4 The stock market enjoyed the five great-
+est consecutive years of returns in its history during 1995–1999, with returns each
+year in excess of 20 percent. Nevertheless, several professionally managed funds
+performed poorly, with some managing to lose money in one or more of those
+years. During the next three years, however, the annual market return was nega-
+tive and the average was a loss of more than 14 percent per year. Furthermore, the
+market lost more than 36 percent in 2008, while gaining more than 32 percent in
+2013. Finally, 2017 saw the market appreciate by nearly 22 percent, whereas the
+Expected Return The ex
+ante return expected by
+investors over some future
+holding period
+Realized Return Actual
+return on an investment
+over some previous period
+Investments Intuition
+The stock market suffered sharp declines during
+2000–2002 because of the collapse of tech-
+nology stocks. The collapse was so severe that
+the technology-heavy NASDAQ stock index
+did not reach the levels it attained prior to the
+collapse until spring 2015, more than 15 years
+later. However, if investors had bought Apple or
+Amazon after the collapse, they would have
+done extremely well over the next 17 years. Why
+didn’t more investors buy these stocks? The
+reason is that at the time the risk was thought
+to be too great, not only for these stocks, but for
+stocks in general. And therein lies the story of
+investing. There are great opportunities, but there
+are also large risks.
+investments Intuition
+Investors buy, hold, and sell financial assets
+to earn returns on them. Within the spectrum
+of financial assets, why do some people buy
+common stocks instead of safely depositing
+their money in an insured savings account or a
+U.S. savings bond, which provides a guaranteed
+minimum return? The answer is that they are
+trying to earn returns larger than those available
+from safer assets. They know they are taking a
+greater risk of losing some of their money by buy-
+ing common stocks, but they expect to earn a
+greater return.
+Understanding the Investment Decision Process 11
+market was off nearly 5 percent in 2018. As these examples show, the investment
+decision must always be considered in terms of both risk and return. The two are
+inseparable.
+There are different types, and therefore different definitions, of risk. Risk is
+defined here as the uncertainty about the actual return that will be earned on an
+investment. When we invest, we do so on the basis of an expected return, but there
+is a risk that the outcome from the investment—the actual (realized) return—will
+differ from what we expected when we made the investment.
+Defining risk in this manner, the return on a Treasury bill has no practical risk
+because there is little chance that the U.S. government will fail to redeem these
+obligations when they mature. In contrast, there is some risk that General Electric,
+a company in business for more than 100 years, will be unable to redeem an issue of
+30-year bonds when they mature. And there is a substantial risk of not realizing the
+expected return on any particular common stock over some future holding period,
+such as a year, a month, or even a day.
+As we shall see in Chapter 7, Harry Markowitz changed the study of investments
+in a significant manner by quantifying portfolio risk as a statistical measure, the vari-
+ance or standard deviation. His insight allows us to assess the risk that a purchased
+asset will add to an investor’s portfolio.
+Investors are risk-averse! It is easy to say that investors dislike risk, but more
+precisely, we should say that investors are risk-averse. A risk-averse investor will not
+assume risk simply for its own sake and will not incur risk unless there is an expecta-
+tion of adequate compensation for doing so.
+• Note carefully that it is not irrational to assume risk, even very large risk, as
+long as we expect to be compensated for it.
+Investors cannot reasonably expect to earn larger returns without assuming
+larger risks. Furthermore, it is possible that some investors, perhaps unwittingly,
+act in a manner that is too risk-averse, thereby severely diminishing their final
+accumulated wealth. There is an old investment adage that says “You can eat
+Risk The chance that
+the realized return on an
+investment will differ from
+the expected return
+Risk-Averse Investor An
+investor who will not
+assume risk unless there is
+an expectation of compen-
+sation for doing so
+Concepts in Action
+Returns and Risk
+Investors enjoyed the best five consecutive years
+in stock market history over the period 1995–1999.
+They thought they were truly in the golden age of
+money making, and in fact, they were. This great
+performance came to an end with negative
+returns experienced in 2000, 2001, and 2002. Such
+is the nature of stock market returns and risk!
+Or consider an individual company and its
+risk to investors. In early 2000, Cisco, the Internet
+products company, had a market cap of $550
+billion and was the world’s most valuable
+company. In the prior five years, Cisco’s stock
+price climbed 35-fold to over $80/share, and
+its revenues advanced by 40 percent per year.
+Then, the Internet crash occurred. From 2000 to
+2002, Cisco’s stock price declined by 90 percent,
+reaching a low of less than $10/share. At the
+end of 2018, Cisco’s stock price was still nearly 20
+percent below its tech-bubble high, even though
+its earnings per share (EPS) had increased over
+fivefold. Such is the nature of stock risk!
+12 Chapter 1 Understanding Investments
+well or you can sleep well.” Investing in high-risk and high-reward securities
+will offer the potential for you to eat well, but the risky nature of these securi-
+ties might prevent you from sleeping at night. However, if you invest in low-risk
+securities, you may sleep at night but find that your low returns do not provide
+for your needs.
+Investor’s risk tolerance Investors deal with risk by choosing the amount of risk
+they are willing to incur—that is, they decide their risk tolerance. Some investors
+choose to incur high risk levels with the expectation of high levels of return. Other
+investors assume much less risk and should not expect to earn large returns.
+Can we say that investors, in general, will choose to minimize their risks? No! The
+reason is that there are costs to minimizing the risk, specifically a lower expected
+return. Taken to its logical conclusion, the minimization of risk would result in
+everyone holding risk-free assets such as savings accounts and Treasury bills. The
+intelligent way to think about return and risk is this:
+• Investors decide on their risk tolerance—how much risk they are willing to
+assume when investing. They then seek to maximize their returns subject to
+this risk tolerance constraint and any other constraints that might apply (e.g.,
+taxes).
+Of course, investors’ risk tolerance changes as conditions change. With all the
+instant communications now available, this can and does happen quickly. Too often,
+individual investors change their risk tolerance at precisely the wrong time. They
+become more risk-averse after market declines and less risk-averse after market
+advances. This is the opposite of the advice given by famed investor Warren Buffett
+who advises investors to “be fearful when others are greedy and greedy when others
+are fearful.”
+To put these two criteria together, we need to think in terms of the risk-expected
+return tradeoff that results from the direct relationship between the risk and the
+expected return of an investment. We do this in the following section.
+Risk Tolerance An inves-
+tor’s willingness to accept
+risk when investing
+According to Gallup’s 2018 Annual Economy and
+Personal Finance survey, only 37 percent of those under
+age 35 hold common stock. In contrast, 61 percent of individuals older
+than 35 hold stock. Given that stocks have almost always outperformed
+other asset classes over long periods, is this a case of young people being too
+risk-averse?
+EXAMPLE 1.2
+Based on news reports, 2016 was a record year for global
+economic uncertainty due to major events such as the
+U.S. election, escalating tensions in the Middle East, and the Brexit vote. As a
+result, investors lost their appetite for stocks. The U.S. equity market, however,
+rebounded and posted a large gain of more than 21 percent in 2017. At this
+point, many investors were on the sidelines and only later realized they had
+indeed overreacted to earlier events
+Understanding the Investment Decision Process 13
+The risk-expected return tradeoff Within the realm of financial assets, inves-
+tors can achieve virtually any position on a risk-expected return spectrum such
+as that depicted in Figure 1.1. The line RF to B is the assumed tradeoff between
+expected return and risk that exists for investors interested in financial assets. This
+tradeoff always slopes upward because the vertical axis is expected return, and
+rational investors will not assume more risk unless they expect to be compen-
+sated. The expected return should be large enough to compensate for assuming
+the additional risk; however, there is no guarantee that the additional returns will
+be realized.
+RF in Figure 1.1 is the return on a risk-free asset such as a Treasury security, which
+has no default risk. This risk-free rate of return, which is available to all investors, is
+designated as RF throughout the text.
+Figure 1.1 shows approximate relative positions for some of the financial assets
+that are discussed in Chapter 2. As we move from risk-free Treasury securities to
+more risky corporate bonds, equities, and so forth, we assume more risk in the
+expectation of earning a larger return. The common stock of large, blue chip com-
+panies is risky, in relation to bonds, but these securities are not as risky as a purchase
+of the common stock of small, speculative firms.
+Obviously, Figure 1.1 depicts broad categories. Within a particular category, such
+as large firm common stocks, a wide range of expected return and risk opportuni-
+ties exist at any time.
+The important point in Figure 1.1 is the tradeoff between risk and expected
+return that should prevail in a rational environment. Investors unwilling to assume
+risk must be satisfied with the risk-free rate of return, RF. If they wish to try to earn
+a larger rate of return, they must be willing to assume a larger risk as represented by
+moving up the risk-expected return tradeoff into more speculative assets. In effect,
+Risk-Free Rate of
+Return The return on a
+riskless asset, often prox-
+ied by the rate of return
+on Treasury securities
+Some Practical Advice
+You can find a number of websites with a set of
+questions designed to help you assess your risk
+tolerance. One such site is http://njaes.rutgers.
+edu/money/riskquiz/. Also see http://www.
+morningstar.co.uk/uk/655/articles/98540/
+a-guide-to-assessing-your-risk-tolerance.aspx.
+Risk
+Corporate
+bonds
+Private
+equity
+B
+Large firm
+common
+stocks
+Small firm
+common
+stocks
+RF
+Expected return
+FIGURE 1.1 The risk-expected return tradeoff available to investors
+Important Considerations in the Investment Decision-Making Process 15
+hunches, suggestions from friends, and recommendations from brokers—all of
+which can be dangerous to one’s financial health.
+Portfolio management The other major component of the decision process is
+portfolio management. After securities are evaluated, a portfolio is constructed.
+Concepts on why and how to build a portfolio are well established. Much of the
+work in this area is in the form of mathematical and statistical models, which have
+revolutionized both the practice and study of investments over the past 50 years.
+Having built a portfolio, the astute investor must consider how and when to revise
+it. And, of course, portfolios must be managed on a continuing basis.
+Finally, all investors are interested in how well their portfolio performs. This is
+the bottom line of the investment process. Measuring portfolio performance is an
+inexact procedure, even today, and needs to be carefully considered.
+Important Considerations in the
+Investment Decision-Making Process
+Investors should be aware that the investment decision process can be lengthy and
+involved. Regardless of individual actions, however, certain factors in the investment
+environment affect all investors. These factors are relevant to investors as they work
+through the investment decision-making process.
+The Great Unknown
+When describing the investment decision-making process, the late esteemed econo-
+mist Peter Bernstein stated, “You have to understand that being wrong is part of the
+process.” The first, and paramount, factor that all investors must come to grips with
+is uncertainty. Investors buy financial assets with a formulated return expectation
+over some future holding period. These returns are seldom realized.
+• The simple fact that dominates investing, although many investors do not
+appreciate it fully, is that realized return on a risky asset often differs from
+what was expected—sometimes quite dramatically.
+At best, estimates are imprecise; at worst, they are completely wrong. The best
+one can do is make the most informed risk and return estimates, act on them, and
+be prepared for shifting circumstances. Regardless of how careful and informed
+investors are, the future is uncertain, and mistakes will be made.
+• All investors, individuals as well as professionals, make investing mistakes.
+Anyone can tell you what you should have bought or sold in the past. No one,
+however, can guarantee you a successful portfolio for a future period because no
+The years 2000–2002 each showed negative returns for
+the major stock indexes, as did 2008 and 2018. For large
+company stocks, those were the only negative return years since 1990. While
+investors expected the returns for those years to be positive at the outset, they
+turned out to be years with negative returns.
+16 Chapter 1 Understanding Investments
+one can consistently forecast what will happen in the financial markets, including
+those professionals who are paid to make recommendations. Consider the following
+November 2016 quotes:
+If Trump wins we should expect a big markdown in expected future earnings for a wide range of
+stocks–and a likely crash in the broader market.
+Eric Zitzewitz, former chief economist at the IMF.
+It really does now look like President Donald J. Trump, and markets are plunging. When might
+we expect them to recover? A first-pass answer is never . . . So we are probably looking at a global
+recession, with no end in sight.
+Paul Krugman, Nobel Prize-winning economist.
+Although the future is uncertain, it is manageable, and a thorough understand-
+ing of the basic principles of investing will allow investors to cope intelligently. Inves-
+tors should always apply sound judgment in making investment decisions. Panic
+trading based on emotion can be devastating to one’s wealth.
+A Global Perspective
+Now more than ever, investors must think of investments in a global context. The
+investing environment has changed dramatically as the world’s economies have
+become more integrated. The United States no longer accounts for a majority of
+stock market capitalization globally, as it did in the past.
+• U.S. stocks now account for about 40 percent of the world’s total stock market
+capitalization.
+A global marketplace of round-the-clock investing opportunities is emerging.
+Despite having a large home country bias, U.S. investors are becoming increasingly
+comfortable owning the securities of non-U.S. companies.
+Why should today’s investors be actively interested in international investing?
+The relative valuation levels of many foreign markets are often more attractive than
+the U.S. market. For example, as of January 2018, the major U.S. index, the S&P 500
+sold at a P/E ratio (P/E ratios are explained in Chapter 2) of 20.0. Major indices in
+Hong Kong, China, France, Germany, and the United Kingdom sold at P/E ratios
+of 13.3, 15.6, 15.7, 14.6, and 15.6, respectively. This indicates that shares of many
+foreign stocks were discounted relative to their U.S. counterparts.
+Many U.S. companies now derive a very large percentage of their revenues from
+abroad. Consider some of the 100 largest multinational corporations headquartered
+in the United States. In 2018, ExxonMobil and Hewlett Packard each earned about
+65 percent of its revenues from abroad, while some 58 percent of Coca-Cola’s rev-
+enues came from abroad. Alphabet was getting about 54 percent of its revenues out-
+side the United States. Thus, U.S. investors holding what traditionally are thought
+of as classic American companies are vitally affected by what happens abroad. Of
+course, not all large corporations are affected to this extent. Retailing behemoth
+Walmart receives only about 24 percent of its revenues from abroad.
+From an investing standpoint, the real importance of adding foreign securities is
+that investors can achieve beneficial risk reduction if foreign markets move differ-
+ently from U.S. markets. For example, when U.S. stocks perform poorly, some for-
+eign stocks may do well, which would help offset the poor U.S. performance. This
+reduction in portfolio risk is a result of diversification, a very important concept in
+investing, which we analyze in Chapter 7. Past studies have shown that portfolios
+Important Considerations in the Investment Decision-Making Process 17
+consisting of U.S. stocks and foreign stocks provided performance comparable to
+either investment individually, and did so with less risk.
+When making investment decisions, investors should consider foreign markets as
+well as the U.S. financial environment. We do so throughout this text as an integral
+part of the discussion, rather than as a separate chapter. Although the technical
+details may vary, the principles of investing are applicable to financial assets and
+financial markets wherever they exist.
+While it may be a smart play, foreign investing does not ensure success because of
+the first issue we discussed—the great unknown. As in any other area of investing,
+the experts are often wrong. Furthermore, as economies around the world become
+more integrated, markets become more similar than dissimilar.
+The Importance of the Internet
+Any discussion of the investment decision process must highlight the role of the
+Internet, which in a short time has significantly changed the investment environ-
+ment. Now, investors can access a wealth of investment information, trade inexpen-
+sively and quickly through online brokerage accounts, obtain real-time quotes, and
+track portfolio performance.
+This is a true revolution—the Internet has democratized the flow of investment
+information. Any investor, at home, at work, or on vacation, can download an incred-
+ible array of information, share comments with other investors, perform security
+analysis, manage portfolios, check company required filings, and carry out numerous
+other activities not thought possible for an individual investor only a few years ago.
+While some of these information sources and/or services carry a fee, most of it is free.
+While more information is available, much of it is misleading at best, and out-
+right fraudulent at worst. One of the goals of this book is to help you discern which
+sources are reliable and which sources should be avoided.
+Individual Investors Versus Institutional Investors
+There are two broad categories of investors: individual investors and institutional
+investors. The latter group, consisting of bank trust departments, pension funds,
+Some Practical Advice
+U.S. investors are regularly advised to diver-
+sify their portfolios by investing globally. Prior to
+the advent of global stock mutual funds and
+exchange traded funds, this was a difficult task.
+Now investors can easily invest in funds that are
+diversified across many countries and geo-
+graphic regions or are concentrated in the secu-
+rities of one country. Investors can, for instance,
+choose to invest in the Vanguard FTSE All-World
+ex US Index Fund (symbol: VEU). This fund invests
+in the stocks of companies located in both
+developing and emerging markets outside of the
+United States. Alternatively, investors can choose
+funds such as the Dreyfus Brazil Equity Fund
+(symbol: DBZAX) that invests solely in Brazilian
+companies.
+U.S. investors are regularly advised to diver-
+sify their portfolios by investing globally. Such
+activity can be heavily influenced by the dollar’s
+value relative to other currencies. Recent pur-
+chases by U.S. investors of foreign shares have
+been heavy. Such activity is influenced by a
+projected decline in the dollar, which would
+increase returns to U.S. investors in dollar terms
+(as explained in Chapter 6). Intelligent investors
+pay attention to what is happening on a global
+basis, and not simply what is happening in the
+United States.
+18 Chapter 1 Understanding Investments
+mutual funds, insurance companies, and so forth, includes the professional money
+managers, who are often publicized in the popular press. Institutional investors in
+the United States hold trillions of dollars worth of assets.
+Institutional investors have a dual relationship with individual investors. On the
+one hand, individuals are the indirect beneficiaries of institutional investor actions
+because they own or benefit from these institutions’ portfolios. On a daily basis,
+however, they are “competing” with these institutions in the sense that both are
+managing portfolios of securities and attempting to do well financially by buying
+and selling securities.
+Institutional investors are indeed the “professional” investors, with vast resources
+at their command. In the past, they were often treated differently from individual
+investors because companies often disclosed important information selectively to
+some institutional investors. However, this situation changed significantly in Octo-
+ber 2000 when Regulation FD (Full Disclosure) took place.
+Regulation FD, which applies to almost all public companies, regulates commu-
+nications between public companies and investment professionals. Companies are
+now prohibited from (intentionally) disclosing material, nonpublic information to
+specific types of investment professionals unless the company simultaneously pub-
+licly discloses the information. Regulation FD and other security regulations are
+discussed more fully in Chapter 5.
+Some individual investors consistently beat institutional investors due to either
+superior skill and insight, or luck. Furthermore, some opportunities can be exploited
+more easily by individual investors than by institutional investors. As an example, for
+a multibillion dollar fund to benefit from identifying an undervalued stock, it must
+purchase many thousands of company shares. As it purchases the shares, the stock
+price is driven up, and the firm has to pay higher and higher prices for the stock.
+Individual investors, on the contrary, take much smaller positions, and their trades
+do not move the market price.
+Individual investors are now on a more competitive basis with institutional inves-
+tors, given the information they can access from the Internet and the low cost of
+transacting. We should expect the market to be more efficient today relative to the
+past because information is even more quickly and freely available. However, given
+recent stock market volatility, it may be that investors are misinterpreting and/or
+overreacting to aspects of this information flow. The question of how well individual
+investors perform relative to institutional investors raises the issue of market effi-
+ciency, which we consider in Chapter 12.
+Regulation FD Regulates
+communications between
+public companies and
+investment professionals
+Investors have often sought out emerging markets as an
+investing opportunity on the basis that these economies
+may perform differently from the industrialized economies, thereby providing
+some offset in case of declines in industrialized market prices. However, this
+view is now less certain. Consider the following quote from the head of global
+credit at a firm managing more than $200 billion in fixed-income investments:
+“People often make the argument about decoupling (that emerging markets
+can rise as developed markets fall), but then they start to realize—wait a second,
+it’s one big interconnected world.”6
+EXAMPLE 1.5
+6 Neil Shah, “Institutions Hit by Emerging Bets,” The Wall Street Journal, September 26, 2011, p. c2.
+Important Considerations in the Investment Decision-Making Process 19
+Ethics in Investing
+Today, perhaps more than ever, investors need to stop and think about ethical issues
+as they apply to investing. Corporate scandals involving Bernard Madoff Invest-
+ments, Enron, WorldCom, HealthSouth, and so forth were prominently in the news
+as executives from these firms went on trial and were charged with fraud in con-
+nection with the companies’ financial activities. Insider trading cases have been a
+dominant focus of regulators and cases involving employees of SAC Capital, Martha
+Stewart, and the Galleon Group have dominated the headlines. Other recent nega-
+tive headlines involving ethical issues include the conflicts of interest with security
+analysts and the role of high-frequency trading in providing a few investors with
+unfair trading advantages.
+Financial markets depend on integrity in the process, whether it be from CEOs,
+brokers, stock exchange employees, security analysts, or managers of mutual
+funds. If investors lose confidence in the overall fairness of the investing envi-
+ronment, financial markets could be severely damaged, and this in turn could
+adversely impact the capital formation process that is so vital to the success of the
+U.S. economy.
+Because of the overall importance of ethics in the investing process, we examine
+ethical issues in several chapters. In some cases, as in the next example, we do not
+provide a clear answer to the issue raised. In other examples, we offer some guid-
+ance on the issue. This is consistent with the real-life nature of ethical issues, where
+it is not always easy to identify the correct course of action.
+20 Chapter 1 Understanding Investments
+Checking Your Understanding
+5. Individual investors make investing decisions under conditions of uncer-
+tainty, while professional investors make such decisions under conditions of
+controlled risk taking, thereby eliminating the uncertainty. Agree or disagree
+and explain your reasoning.
+6. A chance for larger returns than those available domestically is the primary
+reason U.S. investors should hold foreign securities. Agree or disagree and
+explain your reasoning.
+Organizing the Text
+Four chapters of background material follow this introductory chapter to form Part
+1. The financial assets available to investors—both from direct investing and indi-
+rect investing—are examined in separate chapters, followed by a discussion of the
+securities markets in which they trade. This, in turn, is followed by an analysis of how
+securities are actually traded.
+Part 2 deals with the important issues of risk and return, which underlie all invest-
+ment decisions. Chapter 6 covers historical returns from securities, along with the
+risk involved. Investors must understand the results of investing in major assets,
+such as stocks and bonds, if they are to make intelligent estimates of future perfor-
+mance. Chapter 7 deals with the estimation of risk and return, and discusses the
+important principles of Markowitz portfolio theory. Chapter 8 continues the discus-
+sion of portfolio theory, explaining how an efficient portfolio is selected. Chapter 9
+discusses capital market theory, which pertains to asset pricing models.
+Nine chapters of the text, involving Parts 3–5, are devoted to evaluating the pri-
+mary financial assets, stocks, and bonds, and explaining the basics of asset valuation.
+Common stocks are analyzed in Part 3, which includes two chapters. Valuation tech-
+niques are discussed in the first of the two chapters, and analysis and management
+Ethics in Investing
+The Case of Martha Stewart
+The SEC filed securities fraud charges against
+Martha Stewart and her stockbroker in 2003.
+Stewart became entangled in this matter as a
+result of selling her stock in ImClone Systems
+after allegedly receiving an unlawful tip from
+her broker. The SEC also alleged that Stewart
+and her broker created an alibi for Stewart’s
+sales and concealed important facts during the
+investigation. An SEC official stated that “[t]he
+Commission simply cannot allow corporate exec-
+utives or industry professionals to profit illegally
+from their access to nonpublic information. The
+coordinated action announced today by the U.S.
+Attorney’s Office shows that the consequences
+for those individuals will be even greater if we
+uncover evidence that they obstructed our
+investigation.”
+Stewart was forced to resign as an officer and
+director of her company, and was sentenced to
+five months in prison and two years’ probation, in
+addition to a fine of $30,000. Contrary to popular
+belief, Stewart was not charged with insider
+trading, but rather with obstruction of justice.
+Although many people seem to believe
+otherwise, she maintained throughout the pro-
+ceedings that she had done nothing wrong. In
+this situation, would it have been appropriate
+for her to admit guilt in exchange for a reduced
+sentence?
+in the second. A chapter on market efficiency is included because this important
+concept affects the strategies followed in selecting and managing a portfolio.
+Because of the complexity of common stocks, four additional chapters are
+needed to describe the basics of security analysis. Part 4 is purposefully sequenced
+from market to industry to company analysis, followed by a discussion of technical
+analysis.
+Part 5 covers bonds, using the same format as Part 3. Chapter 17 covers the prin-
+ciples of bond valuation, and Chapter 18 covers the analysis and management of
+bonds.
+Part 6 contains a basic analysis of alternative investment opportunities involving
+derivative securities. Separate chapters cover options and futures.
+Part 7 contains two chapters covering the portfolio management process. Chap-
+ter 21 describes some of the issues that investors face in their financial planning
+and how they can proceed to manage their financial assets. The text concludes in
+Chapter 22, with the logical capstone to a study of investments, the measurement of
+portfolio performance.
+Summary
+• An investment is the commitment of funds to one or more assets that will be
+held over some future period. The field of investment management involves
+the management of investor wealth.
+• The investment opportunities considered in this text consist of a wide array
+of financial assets (primarily marketable securities), which are financial claims
+on some issuer.
+• The basic element of all investment decisions is the tradeoff between risk and
+expected return. Financial assets are arrayed along an upward-sloping risk-
+expected return tradeoff, with the risk-free return (RF) as the vertical axis
+intercept.
+• Expected return and risk are directly related; the greater (smaller) the
+expected return, the greater (smaller) the risk.
+• Investors seek to maximize expected returns subject to constraints, primarily risk.
+• Risk is defined as the chance that the realized return on an investment will
+differ from its expected return.
+• Rational investors are risk-averse, meaning that they are unwilling to assume
+risk unless they expect to be adequately compensated. The study of invest-
+ments is based on the premise that investors act rationally.
+• Investors deal with risk by choosing (implicitly or explicitly) the amount of risk
+they are willing to incur—that is, they decide their risk tolerance.
+• For organizational purposes, the investment decision process has traditionally
+been divided into two broad steps: security analysis and portfolio management.
+• Security analysis is concerned with the valuation of securities. Valuation, in
+turn, is a function of risk and expected return.
+• Portfolio management encompasses building an optimal portfolio for an
+investor. Considerations include initial portfolio construction, revision, and
+the evaluation of portfolio performance.
+• Major factors affecting the investment management process include uncer-
+tainty in investment decisions, the global nature of investing, the increasing
+importance of the Internet, the role of institutional investors in the market-
+place, and ethical issues in investing.

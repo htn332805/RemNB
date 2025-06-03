@@ -1,0 +1,1099 @@
+Market Efficiency
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Discuss the efficient market hypo-
+thesis (EMH) and explain its signifi-
+cance to investors.
+• Evaluate how the EMH is tested and
+what the evidence has shown.
+• Recognize the anomalies (excep-
+tions to market efficiency) that
+have been put forward.
+• Explain the behavioral finance
+arguments being made today.
+316 Chapter 12 Market Efficiency
+approach the study of market efficiency with an open mind. The fact that some
+well-known market observers and participants reject or disparage market efficiency
+does not reduce its validity. Much evidence exists to support market efficiency,
+regardless of the counterarguments and the rise in prominence of behavioral
+finance. The intelligent approach for investors, therefore, is to learn about the
+potential implications that market efficiency and behavioral finance have for
+investment management.
+The Concept of an Efficient Market
+What Is an Efficient Market?
+Investors determine stock prices on the basis of the expected cash flows to be
+received from a stock and the risk involved. Rational investors use all the informa-
+tion they have available or can reasonably obtain. This information set consists of
+both known information and beliefs about the future (i.e., information that can
+reasonably be inferred).
+• Information is the key to the determination of stock prices and, therefore, is
+the central issue of the efficient market concept.
+An efficient market is defined as one in which the prices of all securities quickly
+and fully reflect all available relevant information:
+• In an efficient market, the price of a security incorporates all relevant
+information.
+• In an efficient market, security prices reflect available information so as to
+offer an expected return consistent with the level of risk.
+The efficient market concept postulates that investors assimilate all relevant
+information into prices through their buy and sell decisions. Therefore, the current
+stock price reflects:
+1. All known information, including:
+• Past information (e.g., last year’s or last quarter’s earnings)
+• Current information as well as events that have been announced but are
+still forthcoming (such as a stock split)
+2. Information that can reasonably be inferred; for example, if many investors
+believe that the Fed will cut interest rates at its meeting next week, prices will
+reflect this belief before the actual event occurs.
+To summarize, a market is efficient relative to any information set if investors are
+unable to earn abnormal returns (returns beyond those warranted by the amount
+of risk assumed) by using that information set. In an efficient market, competition
+between investors seeking abnormal returns drives stock prices to their equilibrium
+(“correct”) values.
+Market efficiency requires that the adjustment to new information occurs very
+quickly as the information becomes known. In the United States, information is
+spread very quickly, almost instantaneously, to market participants that have access
+to financial websites. Numerous websites offer updated information during the day
+about the economy, financial markets, and individual companies. Clearly, the Inter-
+net has made the market more efficient in the sense of how widely and quickly
+information is disseminated.
+Efficient Market A market
+in which security prices
+quickly and fully reflect all
+available information
+318 Chapter 12 Market Efficiency
+Concepts in Action
+In 2007, Warren Buffett entered into a wager that
+would extend for 10 years. Buffett bet Protege
+Funds, a money management firm, that a port-
+folio of hedge funds chosen by Protege would
+not outperform the S&P 500 over the next 10
+years. Buffett has been a big critic of the fees
+charged by hedge funds. Each party put up
+roughly $320,000, and a zero-coupon bond with
+a payoff of $1 million was purchased, with the
+proceeds going to charity. Protege hoped to
+show that expert selection of five hedge funds
+could outperform the index fund, while Buffett’s
+argument was that outperformance by the
+hedge funds would be unlikely after deducting
+fees. Buffett was implicitly relying on the notion
+of efficient markets to win this bet. During the
+first couple years of the competition, Buffett’s
+bet appeared to be in jeopardy. However, in
+2018, Buffett’s selected S&P 500 Index fund was
+up an average of 7.1 percent annually over
+the decade, while the hedge fund portfolio
+advanced by only a 2.2 percent average. Thus,
+Buffett’s bet supports the view that, in the long
+run, it is wise to bet on market efficiency.
+3. Information is generated in a random fashion such that announcements are
+basically independent of one another.
+4. Investors react quickly and fully to the new information, causing stock prices
+to adjust accordingly.
+These conditions may seem strict, and in some sense they are. Nevertheless, con-
+sider how closely they parallel the actual investments environment:
+• A large number of investors are constantly “playing the game.” Both individu-
+als and institutions follow the market closely on a daily basis, standing ready to
+buy or sell when they think it is appropriate.
+• Although the production of information is not costless, for institutions in the
+investments business, generating financial information is a necessary cost of
+business, and many participants receive it “free” (investors may pay for the
+information in indirect fees).
+• Information is largely generated in a random fashion, in the sense that most
+investors cannot predict when companies will announce significant new devel-
+opments, when oil disruptions will occur, when major weather events will
+affect economies, when currencies will be devalued, when important lead-
+ers will suddenly suffer health issues, and so forth. Although there is some
+dependence in information events over time, by and large announcements
+are independent and occur more or less randomly.
+• The efficient market concept does not say that all investors are rational and
+react quickly to new information, only that markets in aggregate are rational.
+Investors with substantial resources are generally rational and ready to act on
+information.
+The result of these conditions is that markets efficiently reflect available informa-
+tion about securities. Although mistakes are made and some irrational behavior does
+occur, by and large the market does a good job when it comes to pricing securities.
+The International Perspective
+A strong case can be made for U.S. financial markets being efficient; after all, U.S.
+markets have thousands of analysts and millions of investors buying and selling
+The Concept of an Efficient Market 319
+stocks regularly. What about foreign markets? Are the securities in foreign markets
+analyzed less closely? Of course, the large developed countries provide much infor-
+mation and tend to have companies that are well known and scrutinized. The
+less-developed countries have less well-developed flows of information, and the
+emerging markets may have significant gaps in information.
+If there is less efficiency in the financial markets of other countries relative to the
+United States, there should be some evidence of more success involving interna-
+tional investing. During the last 15 years, only 7.8 percent of large-cap U.S. mutual
+fund managers, 4.6 percent of mid-cap, and 6.8 percent of small-cap outperformed
+the S&P 500. While the international money managers clearly did better, both
+groups make an argument for market efficiency and passive investing.
+More recent periods show that international money managers continue to turn
+in meager performances. For the 15-year period ending in 2017, 82 percent of
+global funds underperformed and 92 percent of international funds underper-
+formed their benchmarks. As for emerging markets, where logically more ineffi-
+ciencies should occur, 95 percent of emerging market funds underperformed their
+benchmarks.
+Forms of Market Efficiency
+We have defined an efficient market as one in which all relevant information is
+reflected in prices quickly and fully. Thus, the key to assessing market efficiency
+is to determine how well information is reflected in prices. In a perfectly efficient
+market, security prices quickly reflect all available information, and investors
+are not able to use available information to earn abnormal returns because it is
+already impounded in prices. In such a market, every security’s price is equal to its
+intrinsic value.
+Abnormal return is defined as the return in excess of what an investor should
+expect given the amount of risk taken. The abnormal return is calculated as the dif-
+ference between the security’s actual return and the security’s expected/required
+return. In other words, after adjusting for what the company’s return should have
+been, any remaining portion of the actual return is an abnormal return.
+Abnormal return ARit it itR E R
+where
+ARit
+it
+i t
+R
+the abnormal return for security during period
+the actual return on security during period
+th
+i t
+E R it ee expected return for security during periodi t
+Thus, the abnormal return is the stock’s return over and above what the stock
+should earn as predicted by a particular approach. There are three common
+approaches that are used to derive expected returns as follows:
+1. The expected return is measured as the return of a broad market index (e.g.,
+the S&P 500). This approach is appropriate if the stock has approximately
+average risk.
+2. The expected return is the return predicted by an asset pricing model such
+as the market model, the Capital Asset Pricing Model (CAPM), or any of the
+multifactor models. See Chapter 9 for a discussion of the alternative asset
+pricing models.
+Abnormal Return Return
+on a security beyond that
+expected on the basis of
+its risk
+320 Chapter 12 Market Efficiency
+Technical analysts look for patterns in stock prices that
+can be exploited. Figure 12.3 shows 30 days of price
+changes for Botox Company. Notice that in every case but one, whenever the
+price change is less than 20 cents, the next price change is strongly positive.
+Furthermore, whenever the price change is above 80 cents, the next price
+change is almost always lower. Is this a successful example of using past price
+information to predict future price changes?
+The answer is NO! The changes in Figure 12.3 were generated by the
+random number generator function in Excel. This illustrates the danger of
+trying to find useful patterns in stock prices.
+EXAMPLE 12.1
+3. The expected return is the return for a firm that has comparable character-
+istics to the firm being considered. For example, the comparison firm is of
+approximately the same size, has comparable price multiples, and operates in
+the same industry.
+The efficient market hypothesis (EMH) is simply the formal statement of mar-
+ket efficiency concerned with the extent to which security prices quickly and fully
+reflect available information. In 1970, Eugene Fama proposed dividing the EMH
+into three categories, which have typically been used since in EMH discussions.
+These three classifications are illustrated in Figure 12.2.2
+1. Weak Form: One of the most traditional types of information used in assess-
+ing security values is market data, which refers primarily to past price and
+volume information. If security prices are determined in a market that is
+weak-form efficient, market data should already be reflected in current
+prices and should be of no value in predicting future price changes. Since
+market data are the basis of technical analysis (discussed in Chapter 16),
+technical analysis is of little or no value if a market is weak form efficient.
+In other words, in a weak-form efficient market, the use of market data
+would not be expected to offer opportunities for investors to earn abnor-
+mal returns.
+The Concept of an Efficient Market 321
+Tests of the usefulness of market data are called weak-form tests of the
+EMH. If the weak form of the EMH is correct, past price changes should be
+unrelated to future price changes. In other words, a weakly efficient market
+exists if the current price reflects all past market data. The implication of
+a weak-form efficient market is that past price information is of no value in
+assessing future price changes.3
+2. Semistrong Form: A more comprehensive level of market efficiency involves
+not only market data but also all publicly known and available data, such as
+earnings, dividends, stock split announcements, new product developments,
+financing difficulties, and accounting changes. A market that quickly incor-
+porates all such information into prices is said to show semistrong-form
+efficiency. Note that a semistrong efficient market encompasses the weak
+form of the hypothesis, because market data are part of the larger set of all
+publicly available information.
+A semistrong form efficient market implies that investors cannot act on pub-
+lic information after its announcement and expect to earn above-average risk-
+adjusted (abnormal) returns. If lags exist in the adjustment of stock prices to
+certain announcements and investors can exploit these lags and earn abnor-
+mal returns, then the market is not fully efficient in the semistrong sense.
+3. Strong Form: The most stringent form of market efficiency is the strong
+form, which asserts that stock prices fully reflect all information, public and
+nonpublic. If the market is strong form efficient, no group of investors should
+expect to earn abnormal returns by using any information.
+The strong-form EMH incorporates private information—that is, informa-
+tion not publicly available because it is restricted to certain groups such as
+Semistrong Form That
+part of the EMH stating
+that prices reflect all pub-
+licly available information
+Strong Form That part
+of the EMH stating that
+prices reflect all informa-
+tion, public and private
+120
+100
+80
+60
+Price change in cents
+40
+20
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Time
+16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+FIGURE 12.3 Botox company price changes for 30 days
+3 It is incorrect to state that the best estimate of price at time t + 1 is the current (time t) price, because
+this implies an expected return of zero. The EMH in no way implies that the expected return on any
+security is zero.
+322 Chapter 12 Market Efficiency
+corporate insiders and specialists on the exchanges. The strong form holds
+that no one with private information can make money using this information.
+Needless to say, such an extreme belief is not held by many people.
+As noted earlier, if one believes in semistrong-form efficiency, the weak form is
+also encompassed. Strong-form efficiency encompasses the weak and semistrong
+forms and represents the highest level of market efficiency. An investor who believes
+in the strong form of the EMH should be a passive investor. On the other hand, an
+investor who accepts the weak form but rejects the other two could be an aggressive
+investor, trading actively in pursuit of investing gains.
+Checking Your Understanding
+1. Should investors expect stock prices to reflect all available information?
+2. Suppose stock-price movements are predictable. Would this be evidence of
+market efficiency or market inefficiency? Explain.
+How to Test for Market Efficiency
+Due to the significance of the EMH and because of the controversy that surrounds
+the EMH, we consider some empirical evidence on market efficiency. A very large
+number of EMH studies have been done over the years. Our purpose here is simply
+to present an idea of how these tests are done and offer some generalized notion
+of their results.
+• The key to testing the validity of the three forms of market efficiency is the
+consistency with which investors can earn abnormal returns, conditional on
+the information set involved.
+Short-lived inefficiencies appearing on a random basis do not constitute evi-
+dence of market inefficiencies. In an economically efficient market, assets are priced in
+such a manner that investors cannot exploit any discrepancies and earn abnormal
+returns after consideration of all transaction costs. In such a market, some securi-
+ties can be slightly mispriced, and lags can exist in the processing of information,
+but, again, not in such a way that the differences can be profitably exploited by the
+average investor.
+Investors may earn abnormal returns even if the market is efficient. After all, you
+could buy a stock today, and tomorrow a major discovery could be announced that
+would cause the firm’s stock price to increase significantly. Does this mean the mar-
+ket is inefficient? Obviously not; it means you are either very skillful or, more likely,
+very lucky. The question is, can you, and other investors, do this a sufficient number
+of times in the long run to earn abnormal profits? Given the large number of inves-
+tors, even in the long run, there will be some investors that experience unusual luck.
+Weak-Form Tests
+As noted, weak-form efficiency means that past market data are incorporated into
+current stock prices. If prices follow nonrandom trends, stock-price changes are
+dependent on previous changes. Therefore, weak-form tests involve the question of
+whether all information contained in the sequence of past prices is fully reflected
+in the current price.
+How to Test for Market Efficiency 323
+The weak-form EMH is related to an idea popular in the 1960s stating that stock-
+price changes follow a random walk. If prices follow a random walk, price changes
+over time are random (independent). 4 The price change for today is unrelated to
+the price change yesterday, or the day before, or any other day. If new information
+arrives randomly in the market and investors react to it immediately, changes in
+prices will be random.
+There are two primary ways to test for weak-form efficiency:
+1. Statistically test the independence of stock-price changes. If the tests suggest
+that price changes are independent, the implication is that knowing and
+using past price information is of no value to an investor.
+2. Test specific trading rules that attempt to use past price data. If such tests
+legitimately produce abnormal returns, it suggests that the market is not
+weak-form efficient.
+• When considering weak-form tests of market efficiency, it is important to dis-
+tinguish between statistical dependence and economic dependence in stock-price
+changes.
+Statistical tests detected a small amount of dependence in price changes. Not all
+of the series could be said to be completely independent statistically. However, they
+were economically independent in that one could not exploit the small statistical
+dependence that existed. After brokerage costs, abnormal returns disappear. 5
+Weak-form tests, both of statistical independence and of trading rules, are numer-
+ous and almost unanimous in their conclusions. These tests support the notion that
+the market is weak-form efficient.
+Semistrong-Form Tests
+Many semistrong-form tests are tests of the speed of price adjustment to announce-
+ments of publicly available information. The question is whether investors can use
+publicly available information to earn abnormal returns, after adjusting for transac-
+tion costs.
+Event studies The empirical research into semistrong-form efficiency often
+involves an event study, which examines the speed of investors’ reaction to a mate-
+rial announcement.
+• Event studies allow us to control for aggregate market returns while firm-
+unique events are examined.
+Random Walk A theory
+from the 1960s stating
+that stock prices wander
+randomly across time
+Event Study An empiri-
+cal analysis of stock-price
+behavior surrounding a
+particular event
+Suppose an analyst wants to study the relationship between
+earnings surprises and stock prices. An event study would
+quantify the relationship between quarterly earnings announcements (which
+contain the surprises) and stock prices around the announcement.
+EXAMPLE 12.2
+4 Technically, the random walk hypothesis is more restrictive than the weak-form EMH. Stock prices can
+conform to weak-form efficiency without meeting the conditions of a random walk. The random walk
+model specifies that successive returns are independent and are identically distributed over time.
+5 Some studies suggest that trading rules can produce profits after adjusting for transaction costs. For
+a counter argument, see Ray Ball, S. P. Kothari, and Charles Wasley, “Can We Implement Research on
+Stock Trading Rules?,” The Journal of Portfolio Management (Winter 1995): 54–63.
+324 Chapter 12 Market Efficiency
+Concepts in Action
+How Efficient Are Markets in Processing
+Information?
+The evidence suggests that markets are incred-
+ibly efficient. A study to address this issue was
+conducted by two researchers who evaluated
+stock prices around the greatest space disaster
+in U.S. history, the Challenger crash.6 To assess the
+efficiency of the market’s price-discovery process,
+the authors examined the speed and accu-
+racy of the stock market reaction to the crash’s
+announcement. The announcement produced
+a significant drop in stock price for four firms,
+each of which was potentially responsible for
+the crash. However, the authors found that within
+an hour the market placed the blame squarely
+on Morton Thiokol. Morton Thiokol was ultimately
+confirmed as the culprit by a panel of renowned
+experts, but that conclusion was announced sev-
+eral months later. Furthermore, Morton Thiokol’s
+day-of-crash price reaction of negative 12 per-
+cent was quick, permanent, and corresponded
+closely with the value in losses the firm ultimately
+faced. In contrast, prices for the three other firms
+that were deemed potentially at fault rebounded
+almost completely by the end of the announce-
+ment day.
+The event study methodology examines abnormal returns around the event’s
+announcement date. When studying a particular event, such as earnings surprises,
+we want to be sure the abnormal return measures the effect of the event and not
+some other economic factor occurring at the same time. To do this, studies include
+multiple firms experiencing the same event on different dates in order that other
+economic factors cancel each other. This allows us to calculate an average abnormal
+return across the firms. We will call this average, ARt, whereas for each individual
+company, the abnormal return is ARit.
+The cumulative abnormal return (CAR) is the sum of the average abnormal
+returns (ARt) over the period under examination and is calculated as
+CAR AR
+t
+n
+t
+1
+where
+CAR the cumalative abnormal return
+The CAR captures the average firm-specific stock movements over some time
+period during which the event being studied is expected to affect stock returns.
+Consider Figure 12.4(a), which shows a situation where an announcement is
+unanticipated in an efficient market. The CAR is near zero prior to the announce-
+ment date. On the announcement date there is an immediate upward adjustment
+to new, and positive, information. After this adjustment takes place, stocks are once
+again fairly valued, and the CAR fluctuates along a horizontal path.
+Now consider Figure 12.4(b), the case of an anticipated favorable event in an
+efficient market. Investors anticipate the event, and the CAR rises as investors
+Market Anomalies 327
+Profitable insider trading is a violation of strong-form efficiency, which requires a
+market in which no investor can consistently earn abnormal profits. Investors with-
+out access to private information can observe what insiders are doing by monitoring
+insider trades. Insider trading information is made available to investors, with only a
+few days lag, on websites such as Yahoo! Finance. Successful use of this information
+by outsiders (the general public) would be a violation of semistrong-form efficiency.
+Rozeff and Zaman used the typical abnormal return methodology of previous
+studies and found that outsiders can earn profits by acting on the publicly avail-
+able information concerning insider transactions.9 However, after deducting trans-
+action costs and adjusting for differences in firm size and price multiples, these
+profits largely disappeared. Furthermore, after imposing realistic transactions cost
+on corporate insiders, the authors found that insider returns fell; however, they still
+earned an abnormal return of 3–3.5 percent per year.
+Checking Your Understanding
+3. Assume stock prices truly follow a random walk. Is this evidence of market
+irrationality?
+4. Given the overall evidence supporting market efficiency, how might an insti-
+tutional investor, such as a mutual fund or endowment, justify spending large
+amounts on stock selection techniques?
+Market Anomalies
+Market anomalies are observations that contrast with what would be expected in an
+efficient market. They represent findings that cannot be explained with the prevail-
+ing theory or appropriate security market behavior. To date, many of them have not
+been explained away, and until they are, they remain anomalies or exceptions to the
+accepted view about market efficiency.
+• Market anomalies constitute exceptions to prevailing views regarding market
+efficiency.
+We examine several anomalies that have generated much attention and have
+yet to be satisfactorily explained. However, investors must be cautious in viewing
+any of these anomalies as a stock selection device guaranteed to outperform the
+market. There is no such guarantee because empirical tests of these anomalies may
+not approximate actual trading strategies that could be followed by investors. Fur-
+thermore, even if anomalies exist and can be identified, investors should still hold
+a portfolio of stocks rather than concentrating on a few stocks identified by one of
+these methods. As we saw in Chapter 7, diversification is crucial for all investors—
+indeed, diversification is the number one rule of portfolio management.
+Earnings Announcements
+The adjustment of stock prices to earnings announcements has been studied in
+several papers, opening up some interesting questions and possibilities. Earnings
+Market Anomalies Obser-
+vations that are contrary
+to what should exist in an
+efficient market
+9 Michael S. Rozeff and Mir A. Zaman, “Market Efficiency and Insider Trading: New Evidence,” Journal of
+Business (January 1988): 25–45.
+330 Chapter 12 Market Efficiency
+about 1 in 10 candidates on the basis of low P/E passes his additional screens, such
+as dividend yields higher than average and accelerating earnings growth. Dreman
+also suggests an emphasis on large stocks as opposed to small-company stocks.
+In his popular book, What Works on Wall Street: A Guide to the Best Performing Invest-
+ment Strategies of All Time, James O’Shaughnessy considers the alternative price mul-
+tiples and finds that all the popular price multiples, including P/E, price-to-book
+(P/B), price-to-sales (P/S), and price-to-cash flow (P/CF), effectively identify stock
+winners and losers. Specifically, low (high) price multiples were associated with
+higher (lower) returning stocks. However, his evidence indicated that P/S was most
+effective as a screen across a diverse range of firm sizes.
+The Size Effect
+Another anomaly that generates considerable attention is the firm size effect or
+small-firm effect. In well-publicized studies, Rolf Banz and Mark Reinganum found
+that the stocks of small firms earned higher risk-adjusted returns than the stocks
+of large firms (on average). Furthermore, the research documented that this size
+effect persisted for many years.12
+Many investors generally accept the notion that small caps outperform large
+caps, based partly on results from the Ibbotson Associates data, which shows that,
+on average, “small” stocks have outperformed the S&P 500 Index by roughly 2 per-
+centage points per year; however, “small” as used in this context means the bot-
+tom 20 percent of NYSE stocks based on market value. Remember that small firms
+should return more than large firms because they have greater risk; the identified
+anomaly is that even after adjusting for risk differences, small firms outperformed,
+that is, they provided abnormal positive returns. On average, small stocks have out-
+performed large stocks; however, there are multiyear periods when large caps have
+outperformed small caps. Furthermore, Dreman has argued that the size “myth” is
+based on stocks that trade thinly or not at all. In his book, What Works on Wall Street,
+James O’Shaughnessy supports Dreman’s view as he claims that the returns associ-
+ated with small stocks are mostly associated with microcap stocks, which have very
+small capitalizations and are not easily bought by individuals or even institutions
+because of large spreads and commissions.13
+The January Effect
+Several studies suggest that seasonality exists in the stock market. Keim found that
+roughly 50 percent of the small-firm premium reported by Reinganum is concen-
+trated in January. The strong performance in January by small-company stocks is
+known as the January effect and is often attributed to end-of-year, tax-based trading. 14
+Size Effect The observed
+tendency for smaller firms
+to have positive abnormal
+stock returns
+January Effect The
+observed tendency for
+small- company stock
+returns to be higher in
+January relative to other
+months
+12 Rolf Banz, “The Relationship Between Returns and Market Value of Common Stocks,” Journal of Finan-
+cial Economics, 9 (March 1981): 3–18. Mark Reinganum, “Misspecification of Capital Asset Pricing: Empir-
+ical Anomalies Based on Earnings Yield and Market Values,” Journal of Financial Economics, 9 (March
+1981): 19–46.
+13 A more detailed discussion of this issue can be found in Marc R. Reinganum, “The Size Effect: Evidence
+and Potential Explanations,” in Investing in Small-Cap and Microcap Securities, Association for Investment
+Management and Research, 1997.
+14 For a discussion of the January Effect and several other anomalies, see Donald B. Keim, “The CAPM
+and Equity Return Regularities,” Financial Analysts Journal (May June 1986): 19–34 and Donald B. Keim,
+“Dividend Yields and the January Effect,” The Journal of Portfolio Management (Winter 1986): 54–60. Rich-
+ard Roll, “Vas ist das? The Turn of the Year Effect and the Return Premium of Small Firms,” The Journal
+of Portfolio Management (Winter 1983): 18–28.
+Market Anomalies 333
+The Value Line Ranking System
+The Value Line Investment Survey is the largest, and perhaps best-known, investment
+service in the country. Value Line ranks each of the roughly 1,700 stocks it covers
+from 1 (best) to 5 (worst) as to its “timeliness”—probable relative price perfor-
+mance within the next 12 months. These timeliness ranks, updated weekly, have
+been available since 1965.
+During the period from 1965 through 2011, the ranking system clearly showed
+monotonic discrimination ability. That is, Group 1 stocks performed best, Group 2
+stocks performed second best, and so on down to Group 5 stocks, which performed
+the worst. Figure 12.6 shows the record for the Value Line ranks allowing for annual
+changes in rank.
+The Value Line Investment Survey now regularly reports a comparison of the relative
+price performance of its Group 1 stocks with four other strategies: low P/E, low cap
+(small size), low price/book value, and low price/sales. These results are shown in
+Figure 12.7 for the period 1966 through mid-2008.
+Figure 12.7 suggests that Value Line’s Group 1 stocks outperformed the other
+four strategies by a significant amount. Interestingly, by this comparison the
+small-cap stocks did better than the other strategies (other than Value Line’s
+Group 1), with the low P/E ratio strategy the next best. The low P/S and low
+P/B did poorly in this comparison. It is easy to see from Figure 12.7 why Value
+Line has stated, “The lesson is clear—stay with the Group 1s.” Several studies of
+the success of Value Line’s rankings exist, and not surprisingly, the results vary. It
+appears that the rankings, and changes in the rankings, do contain useful infor-
+mation. For example, Mark Hulbert, who monitors the performance of investing
+newsletters, has noted that the Value Line Investment Survey has been at or near
+the top in his rankings for long-term risk-adjusted performance for 28 years as
+of mid-2008.
+However, there is evidence that the market adjusts quickly to this information
+(one or two trading days following the Friday release) and that true transaction
+1965
+40,000%
+Group 1
+Group 2
+S&P 500
+Dj Ind’t
+Group 3
+Group 4
+Group 5
+20,000%
+10,000%
+1,000%
+500%
+100%
+0%
+–50%
+–75%
+5,000%
+1970 1975 1980
+Record of Value Line ranks for timelines
+Allowing for annual changes in rank (1965–2011)
+1985 1990 1995 2000 2005 2010 2015
+Group 1: 18,386% 11.8%
+11.1%
+9.2%
+7.7%
+4.2%
+5.7%
+5.9%
+13,410%
+5,961%
+9,148%
+574%
+1,240%
+1,327%
+Cumulative
+return Per annum
+return
+Group 2:
+Group 3:
+Group 4:
+Group 5:
+DJ Ind’t:
+S&P 500:
+FIGURE 12.6 Record of Value Line ranks for timeliness, allowing for annual changes in rank, 1965–2011
+Source: “Value Line Selection and Opinion,” The Value Line Investment Survey, January 27, 2012, p. 1779. Reprinted by
+Permission.
+Behavioral Finance 335
+Some anomalies offer strong evidence supporting the existence of market
+inefficiencies. However, Eugene Fama, a long-time proponent of market effi-
+ciency, argues that the evidence on anomalies does not refute the EMH. 24
+He believes that many of the studies showing anomalies contain statistical prob-
+lems. He also believes that overreaction and underreaction are about equally
+likely to be found, which suggests that markets are efficient because this behav-
+ior can be attributable to chance. For example, the postannouncement earnings
+drift observed in the SUE studies suggests underreaction to information. The
+poor performance of Initial Public Offerings (IPOs) over five years is evidence
+of overreaction.
+Checking Your Understanding
+5. Does the existence of market anomalies disprove the EMH?
+6. Do you think it is easier, or more difficult, for someone to engage in data
+mining today?
+Behavioral Finance
+Much of economics and finance is grounded on the proposition that individuals
+act rationally and consider all available information in the decision-making process.
+However, markets consist of human beings who have limited information- processing
+capabilities, who have inherent biases, who make mistakes, and who often rely on
+the opinions of brokers, financial advisors, and the financial press. In short, people
+are subject to irrationality in their financial decisions.
+In a well-known book titled Against the Gods, Bernstein notes that one finds
+“repeated patterns of irrationality, inconsistency, and incompetence in the ways
+The Motley Fool is a popular and well-known source of
+investment information and ideas for individual investors.
+Operating a website and also producing other publications, this source has
+advocated that small investors can often do well in the market by applying
+simple principles. One technique advocated by the Motley Fool was the “Foolish
+Four,” a system that involved taking the 30 stocks in the DJIA and calculating
+the ratio of the dividend yield to the square root of the share price. The stock
+with the highest ratio was ignored, and the next four highest became the
+Foolish Four. The founders of the Motley Fool claimed that the Foolish Four
+strategy, which required only 15 minutes a year to implement, was so effective
+it would “crush your mutual funds.” A Money Magazine columnist who criticized
+this technique was severely criticized by Motley Fool followers. Eventually, the
+founders had to admit that this technique did not work, saying it was a result of
+faulty analysis of historical data resulting from “finding random correlations
+and considering them valid and repeatable.”
+336 Chapter 12 Market Efficiency
+human beings arrive at decisions and choices when faced with uncertainty.”25 His
+conclusion is consistent with the argument that an understanding of human psy-
+chology could help to explain some stock market behavior.
+Behavioral Finance integrates cognitive (how people think) psychology with
+finance. It holds that investors’ emotions and biases affect stock prices and markets.
+• Behavioral finance says investors are prone to systematic mistakes in their
+financial decision making. Markets overreact, both up and down. Investors are
+motivated by numerous “irrational” forces; other investors, recognizing these
+mistakes in judgment, may be able to profitably exploit them.
+Behavioral finance analyzes behavioral biases and the effects these biases have on
+financial markets. The behavioral finance view of markets and market efficiency is
+based on the following propositions26
+:
+1. Informed traders face risk aversion constraints in seeking to keep prices effi-
+cient. The EMH argues that well-informed, risk-tolerant investors keep prices
+at their “fair values.” When prices get sufficiently out of line to warrant action
+by investors, they act to move them back. However, there are limits to arbi-
+trage, which may constrain price adjustments.
+2. Individual investors, who are considered the uninformed investors, generate
+trade imbalances that drive prices away from fundamental value.
+3. Over time, informed investors will drive prices back to fundamental value.
+4. The trading decisions of individual investors are biased due to predisposi-
+tions associated with human behavior. For example, several of the behavioral
+biases are an outgrowth of the basic principle of framing. Framing refers to
+the fact that individuals often arrive at different decisions depending on how
+an issue or question is framed.
+An important step in establishing behavioral finance as a discipline was the work of
+DeBondt and Thaler.27 They proposed an “overreaction hypothesis,” which states that
+people overreact to unexpected and dramatic news events. As applied to stock prices,
+the hypothesis states that, due to overreactions, loser portfolios (portfolios of stocks
+with poor long-term prior performance) outperform, and winner portfolios (port-
+folios of stocks with strong long-term prior performance) underperform. DeBondt
+and Thaler interpreted this evidence as indicative of irrational behavior by investors.
+Behavioral Finance The
+study of investment
+behavior, based on the
+belief that investors do not
+always act rationally
+Concepts in Action
+How Do Individuals Use Frames to Make
+Decisions?
+Behavioral economists contend that individ-
+uals tend to draw different conclusions from
+information depending on how the information
+is presented. For example, individuals presented
+with an opportunity of winning either $8 or $32
+should be happy that they are presented with
+a winning situation no matter how it turns out.
+However, those individuals that won $8 reported
+being dissatisfied. In contrast, individuals given
+an option of losing either $8 or $32 should have
+25 Peter L. Bernstein, Against the Gods: The Remarkable Story of Risk (John Wiley & Sons, Inc., 1998), p. 12.
+26 These propositions and their discussion are based on Terrance Odean, “Effect of Behavioral Biases on
+Market Efficiency and Investors’ Welfare,” Conference Proceedings Quarterly, CFA Institute, 24, no. 1, March,
+2007, pp. 6–16.
+27 Werner F. M. DeBondt and Richard Thaler, “Does the Stock Market Overreact?,” The Journal of Finance
+(July 1985): 793–805.
+Behavioral Finance 337
+Behavioral Biases
+There are numerous behavioral biases that researchers have identified in individu-
+als’ actions. Note that the biases do not afflict all individuals, but they are common
+enough to deserve our attention. As you read through this section, you are likely to
+recognize several biases in your own beliefs and actions. We separate the biases into
+three categories, emotional, belief perseverance, and information processing, and
+discuss examples in each category.
+An emotional bias is based on an individual’s state of mind that arises spontane-
+ously, rather than through conscious effort. We discuss nine alternative emotional
+biases below.
+1. Loss aversion—relates to the so-called disposition effect. Studies of trading
+records show that investors are nearly 50 percent more likely to sell winners
+than losers. Because investors are subject to loss aversion, they feel the pain
+of a loss more than the pleasure of a gain—therefore, they are reluctant to
+sell their losers even though losses are tax deductible. Furthermore, evi-
+dence suggests this bias applies to fund managers as well as individual inves-
+tors. Those “sophisticated” investors are eager to sell winners and reluctant
+to sell losers. Poorly performing managers (based on their recent 12-month
+performance) sell winners nearly twice as often as losers. This bias results
+in investors holding losers too long and selling winners too soon (often
+referenced as the disposition effect). As a result, the bias is extremely tax
+inefficient.
+2. Overconfidence—manifests itself in the observation that a majority of
+money managers and investors think their ability is above average. They
+think they have more skill than they actually possess. Research shows that
+this bias leads overconfident investors to trade more than other investors,
+which produces inferior investment performance. Barber and Odean find
+that buy and hold investors outperformed the most active investors by about
+6 percent a year.
+3. Familiarity bias—is closely related to overconfidence and reflects the idea
+that investors become more confident with things in which they are more
+been disappointed with their losing options; how-
+ever, those individuals losing only $8 felt positive
+because they avoided losing $32. Thus, when
+the gamble was framed in terms of losses, they
+felt good about losing $8, whereas when the
+gamble was framed in terms of gains, they felt
+bad about winning $8.
+Or alternatively, consider an individual given
+two options for paying for an extravagance. Let’s
+assume that extravagance is a new motorcycle
+worth $24,000 to be delivered in six months:
+Option 1 is $4,000 per month over the next six
+months, and Option 2 is $4,000 per month over
+the six months after the motorcycle is delivered.
+Clearly, we know from time value of money
+that Option 2 is preferable and virtually everyone
+chooses that option. However, now let’s assume
+the same payment options exist but the extrav-
+agance is a one-week vacation. Now, what
+researchers find is that many individuals choose
+Option 1. Why? Because who wants to be paying
+for a vacation for six months after the vacation is
+over. People want to enjoy their vacation without
+worrying about having to pay for it for six months
+after their return. The economically rational
+choice is always Option 1, no matter what the
+asset. However, it is easy to see how the “frame”
+can change an individual’s choice.
+338 Chapter 12 Market Efficiency
+familiar. This bias leads to investors allocating too much of their investment
+to domestic stocks (home country bias), their own company’s stock, and local
+firms.
+4. Status quo bias—reflects the observation that individuals prefer to do noth-
+ing than to make a change. Individuals are more comfortable keeping things
+as they are, thus they will stay with the default situation rather than putting
+forth the effort to opt out of the default.
+5. Self-control bias—reflects the tendency for individuals to choose short-term
+satisfaction in favor of long-term good. The bias is manifested due to a lack of
+self-discipline and is present in many of life’s decisions such as healthy eating,
+smoking, exercising, and studying.
+6. Endowment bias—is the tendency for individuals to place a higher value on
+an asset after they establish ownership of the asset, i.e., they become attached
+to the asset. The attachment can occur due to the asset’s purchase or inherit-
+ance, and it often grows with time and with the effort allocated in advance of
+taking ownership.
+7. Regret aversion—causes individuals to avoid an action for fear the action
+will cause mental anguish. For example, investors avoid trading for fear
+that they will trade a security at the wrong time. This reflects an error of
+commission, which is more painful than failing to make a good trade, an
+error of omission. One aspect of regret aversion is the unopened-envelope
+syndrome, which reflects the observation that during bear market periods,
+investors discard their account reports without opening them to avoid facing
+the bad news.
+8. Snake-bit effect—individuals avoid situations where they have had negative
+results in the past. For example, investors avoid investments in which they
+have had previous losses.
+9. House-money effect—investors are less risk averse with funds derived from
+winnings or gains. The loss of gambling proceeds or investment gains causes
+individuals little remorse; thus, individuals often take excessive risk with these
+funds.
+Belief perseverance biases are associated with cognitive dissonance, which is the
+mental discomfort that occurs when new information conflicts with previously held
+beliefs. Individuals exhibit several biases that help them to avoid this discomfort. We
+discuss five of these biases below.
+1. Conservatism—causes individuals to overweight their initial beliefs and
+under-react to new information. This bias causes forecasts and valuations to
+change less than are warranted.
+2. Confirmation—is reflected by individuals gathering information that rein-
+forces their original beliefs, while discounting information that refutes those
+beliefs.
+3. Representativeness—causes individuals to classify and interpret information
+based on their past experiences even when the information may reflect a
+unique situation.
+4. Illusion of control—individuals believe they have more control than they do,
+infer connections between variables where none exist, or assume they have
+predictive ability over chance events.
+5. Hindsight bias—involves individuals remembering their predictions as more
+accurate than they were. Individuals fill in memory gaps with what they prefer
+to believe, which prevents them from learning from the past.
+Behavioral Finance 339
+Information-processing biases are cognitive errors that involve information being
+processed and used incorrectly or irrationally. We discuss four of these information-
+processing biases below.
+1. Anchoring and reference points—individuals tend to establish a default num-
+ber as an anchor for a reference point for decision-making; they then adjust
+their final estimate up or down. The bias is created because they tend to adjust
+their estimates by an insufficient amount. This bias often manifests itself in
+individuals refusing to sell assets below a set price. For example, homeown-
+ers will often pay real estate taxes, insurance, mortgage payments, etc., for
+an extended period to avoid selling their home below a price they envision,
+which is often based on the purchase price.
+2. Mental accounting—individuals treat sums of money differently depending
+on the mental account in which the money is classified. Assets are grouped
+into noninterchangeable mental accounts such as the college education
+account, vacation account, Christmas gift account, grocery account, etc. Men-
+tal accounting is diametrically opposed to the principle of modern portfolio
+theory.
+3. Framing—reflects the idea that an individual’s decision is influenced by the
+way the information is framed. For example, when physicians present treat-
+ment options, patients have a much more positive outlook if the outcome is
+described in terms of percent survivors, rather than percent of fatalities. An
+aspect of framing is naïve diversification (sometimes called the 1/n strategy)
+in which investors spread their investment evenly across presented invest-
+ment options because they view the presented options as a recommendation.
+4. Availability bias—occurs when individuals base the probability of an out-
+come on their familiarity with the situation. They assume that readily mem-
+orable events are more likely to occur, thus, recent and noteworthy events
+are assigned higher probabilities of future occurrence. Overreaction is an
+outcome of this bias as individuals tend to overreact to notable positive and
+negative news events. The observation that variables mean revert provides
+evidence for an overreaction bias. As time passes an event’s effect diminishes
+and things return to normal i.e., mean revert.
+The main problem with behavioral biases is that they can be disastrous to one’s
+financial health. Specifically, behavioral biases contradict the principles necessary
+for successful portfolio management. First, many of the biases encourage investors
+to trade too frequently, thus running up transaction’s costs. Second, the biases moti-
+vate investors to sell winners too early, while holding on to losers too long. These
+two symptoms result in a strategy that is extremely tax inefficient as it results in
+paying capital gains taxes without harvesting capital losses. Third, the biases often
+lead investors to form portfolios that are mal-diversified. They tend to be concen-
+trated in a type of security or in securities that have performed in a similar manner.
+Fourth, many of the biases encourage actions that run counter to basic economic
+policies such as not considering time value of money or ignoring opportunity costs.
+Finally, the biases cause investors to make decisions that are focused on a single fac-
+tor, rather than taking a portfolio perspective.
+You probably recognized that some of the behavioral biases run counter to one
+another. For example, some biases encourage trading, whereas others discourage
+trading. In general, though they promote the wrong trading decisions, whether
+too frequent for some securities or not frequent enough for other securities.
+You also may have noticed that many of the biases compound on one another and
+340 Chapter 12 Market Efficiency
+promote very poor decisions. Overall, recognizing the behavioral biases will
+allow you to improve your own decision-making, and also assist others in improv-
+ing theirs.
+Efficient Markets Versus Behavioral Finance
+The EMH assumes that markets are rational even if all investors are not rational.
+Competition among investors seeking abnormal returns drives stock prices to their
+fundamental values. Behavioral finance, on the other hand, says investors may make
+systematic errors in the way they think.
+The EMH assumes investors are risk averse, whereas behavioral finance argues
+they are loss averse. Furthermore, the EMH assumes that investors consider deci-
+sions in a portfolio context, whereas behavioral finance contends investors separate
+investment decisions.
+• According to the EMH, markets are informationally efficient. According to
+behavioral finance, in some circumstances markets may be informationally
+inefficient.
+A basic misunderstanding of behavioral finance is that it says people can beat
+the market. It does not. What it says is that market prices and fundamental val-
+ues can diverge because of psychology. Opportunities may be present as a result of
+this divergence; however, investment managers won’t necessarily try to exploit the
+opportunities. Why? Informed investors may not be willing to take the risk involved
+to try to exploit these opportunities, or constraints exist that prevent them from
+doing so.
+Behavioral Finance Implications for Investors
+David Dreman, a money manager and columnist for Forbes, has been a leading pro-
+ponent of behavioral finance. He particularly espouses the “investor overreaction
+hypothesis,” which states that investors overreact to events in a predictable manner,
+overvaluing the best alternatives and undervaluing the worst. Premiums and dis-
+counts are the result, and eventually these situations reverse as assets regress toward
+the mean or average valuation.
+This behavior has led Dreman to his “contrarian investing” philosophy, which
+involves taking positions that are currently out of favor. For example, in 1998
+growth investing was much more profitable than value investing, but Dreman
+continued to recommend stocks that looked promising on a value basis on the
+assumption that value stocks would once again excel. 28 And Dreman is famous for
+recommending that investors buy low P/E stocks, rather than the currently popu-
+lar high P/E stocks.
+Behavioral Finance Today
+Behavioral finance can perhaps be traced back to 1979 when Tversky and Kahne-
+man offered the first significant alternative to the expected utility theory underlying
+Contrarian Investing The
+theory that it pays to trade
+contrary to most investors
+28 Dreman published a book called Contrarian Investment Strategies: The Next Generation, by Simon and
+Schuster. He also started a new journal, The Journal of Psychology and Financial Markets.
+Some Conclusions about Market Efficiency 341
+traditional rational financial decision making. Clear recognition of the impact of
+behavioral finance came in 2002 with the awarding of the Nobel prize in econom-
+ics to Daniel Kahneman, a Princeton psychologist, and to Vernon Smith of George
+Mason University, whose economic experiments are at odds with the EMH. Even
+Burton Malkiel, a leading proponent of market efficiency, includes a chapter on the
+lessons to be learned from behavioral finance in the latest edition of his well-known
+book, A Random Walk Down Wall Street.29
+Needless to say, behavioral finance has not gone unchallenged. Eugene Fama,
+a leading proponent of efficient markets, has presented an argument against the
+behaviorists and their claims that anomalies have been found in historical asset
+prices.30 He argues that data mining techniques allow researchers to discover appar-
+ent patterns but that their significance is questionable at best.
+Checking Your Understanding
+7. How does the concept of investor underreaction or overreaction to news and
+information fit with the concept of behavioral finance?
+Some Conclusions about Market Efficiency
+Given all of the evidence about market efficiency, what conclusions can be drawn?
+John Maynard Keynes, one of the most famous economists of the 20th century, pro-
+posed a cynical view of the market when suggesting the stock market is a “casino”
+guided by “animal spirits.”
+The overwhelming evidence in support of market efficiency has convinced
+many market observers of its pervasiveness. And almost certainly, the widespread
+availability of information and data on the Internet, along with the investment
+tools offered there, has made the market even more efficient. Consider the para-
+graph by Samuel Eisenstadt quoted early in the chapter. Eisenstadt was the pri-
+mary force in the development of Value Line’s famed ranking system for stocks,
+one of the best-known and most successful systems ever developed for general
+investor use. Eisenstadt noted that “beating the market is difficult and becoming
+even more so.” 31
+Nevertheless, many investors are convinced that they can outperform the mar-
+ket. Paradoxically, this belief helps to make the market efficient. Consider the quote
+from Charles Ellis, a well-known investment consultant and author:
+“The problem is not that professional managers lack skill or diligence. Quite the
+opposite. The problem with trying to beat the market is that professional investors
+are so talented, so numerous, and so dedicated to their work that as a group they
+make it very difficult for any one of their number to do significantly better than the
+others, particularly in the long run.”
+342 Chapter 12 Market Efficiency
+Perhaps the most telling evidence in favor of market efficiency is the perfor-
+mance of professional investors such as mutual funds, for whom we have detailed
+performance data. Consider some statistics on their performance33
+:
+1. Approximately 70 percent of mutual fund managers underperform over a
+10-year period and 80 percent underperform over a 20-year period.
+2. Consider the top 25 percent of large funds during the period 2001–2006.
+Over the subsequent five years, 2007–2011, only 12 percent of the earlier top
+performers were in the top 25 percent.
+3. As for institutional portfolios, research shows that after adjusting for risk, well
+under 1 percent achieve superior results after all adjustments for costs.
+For some additional evidence about market efficiency, consider the 28-year
+results of the Hulbert Financial Digest. The Digest, which tracks the performance of
+investment newsletters, completed 28 years in business as of mid-2008. Over that
+28-year period, 41 percent of the financial newsletters did not survive. Only four of
+the 17 (24 percent) of newsletters that existed for the entire time period beat the
+market on a risk-adjusted basis.34
+Investments Intuition
+What Can Hedge Fund Portfolios Tell Us
+about Market Efficiency?
+We know from Chapter 3 that hedge funds are
+supposed to represent sophisticated investment
+funds run by top portfolio managers who have
+great flexibility with the portfolio, charge substan-
+tial fees, and are expected to produce out-
+standing results. There are even firms that advise
+investors on which hedge funds to own. Whereas
+the expertise of hedge fund managers is widely
+acknowledged, it may come as a surprise to
+most investors that hedge funds have gener-
+ally failed to outperform the S&P 500. Looking
+at performance through 2017, the last year in
+which hedge funds outperformed the S&P 500
+was 2008. Furthermore, in 2013, hedge funds
+were trounced by the market by a remarkable 23
+percentage points.35
+Investments Intuition
+If the information is favorable, the discoverers
+buy immediately, and if unfavorable, they sell
+immediately. A paradox is that as investors
+scramble for information and attempt to be the
+first to act, they make the market more efficient.
+If enough of this activity occurs, all information
+will be reflected in prices. Thus, the fact that a
+number of investors do not believe in the EMH
+results in actions that help to make the market
+efficien
+Summary 343
+One difficult problem for those who believe in efficient markets is the crash of
+October 1987. The S&P 500 lost over 20 percent in one day. Is it really reasonable
+to argue that investors, efficiently discounting information, decided in one day that
+the market should be valued some 20 percent less? Not many people, including
+efficient market proponents, are comfortable making this argument.
+Another example is the Internet market bubble that burst in 2000, with the stock
+market declining sharply over the next two years. Most observers accept the propo-
+sition that a bubble did exist, that it was not based on rational behavior, and that
+this is not in agreement with the efficient markets view. This observation, however,
+fits with the behavioral finance view. Even Burton Malkiel, a well-known economics
+professor who is a leading proponent of efficient markets, stated: “No one under-
+stands better than I do that sometimes markets go crazy. . . sometimes, markets just
+get it wrong.”36
+The controversy about market efficiency and behavioral finance remains. Inves-
+tors are faced with the choice between pursuing an active or a passive investment
+strategy or some combination thereof. Making this choice depends heavily upon
+what the investor believes about efficient markets. Investors who plan, or wish, to
+pursue some type of active strategy should consider a quote attributed to Warren
+Buffett:
+“Most investors, both institutional and individual, will find that the best way to
+own common stocks (shares) is through an index fund that charges minimal fees.
+Those following this path are sure to beat the net results (after fees and expenses)
+of the great majority of investment professionals.”
+Summary
+• An efficient market is one in which security prices fully reflect all information
+quickly and accurately.
+• The conditions that guarantee an efficient market largely exist: many inves-
+tors are competing, information is widely available and generated more or less
+randomly, and investors react quickly to this information.
+Ethics in Investing
+What Obligations Do Financial Advisors
+Have to Clients?
+Given the evidence on the mediocre performance
+of most professional money managers, should
+financial advisors explain this information to their
+clients? Advisors often earn their living by the com-
+missions they receive when investors trade or the
+fees they earn when clients buy load funds. What
+would happen if more and more clients opted for
+no-load funds, index funds, and ETFs?
+Aren’t investors better off with an index fund
+such as Vanguard’s S&P 500 fund, which has very
+low costs and has outperformed most actively
+managed funds? How can an advisor justify the
+recommendation of Morgan Stanley’s S&P 500
+fund, with a 5.25 percent load and an annual
+operating fee that is several times higher than
+the fee of Vanguard’s no-load fund? Most finan-
+cial advisors routinely face ethical issues such
+as these.
+36 Burton G. Malkiel, “In Defense of Indexing,” Conference Proceedings Quarterly, CFA Institute, December
+2007, p. 9.
+344 Chapter 12 Market Efficiency
+• To assess market efficiency, three degrees of efficiency are discussed: the weak
+form, the semistrong form, and the strong form. The weak form involves mar-
+ket data, whereas the semistrong and strong forms involve the assimilation of
+all public and private information, respectively.
+• The weak-form evidence, based on tests of statistical independence and trad-
+ing rules, strongly supports the hypothesis.
+• Many tests of semistrong-form efficiency have been conducted, including
+studies of stock splits, money supply changes, accounting changes, dividend
+announcements, and earnings announcements. Although all the studies do
+not agree, the majority support semistrong efficiency.
+• Event studies are one type of semistrong-form test. Abnormal returns are cal-
+culated for each company for which a specific event is being examined. Cumu-
+lative abnormal returns show what happens before and after the event.
+• Strong-form tests examine the performance of groups presumed to have “pri-
+vate” information and of the ability of professional managers to outperform
+the market. Insiders are able to do well, whereas the decisions of the managers
+of mutual funds have not been found to add value.
+• Most knowledgeable observers accept weak-form efficiency, reject strong-form
+efficiency, and feel that the market is, to a large degree, semistrong efficient.
+This casts doubt on the value of both technical analysis and simple forms of
+fundamental analysis.
+• Although the EMH does not preclude investors from outperforming the mar-
+ket, it does suggest that this is quite difficult to accomplish and that the inves-
+tor must do more than the norm.
+• Several major “anomalies” that have appeared over the years have yet to be
+satisfactorily explained. These anomalies, which would not be expected in a
+totally efficient market, include the following:
+1. Unexpected Earnings, SUE Effect: The market appears to adjust with a lag
+to earnings surprises. SUE has been shown to be a monotonic discrimina-
+tor of subsequent short-term (e.g., three-month) stock returns.
+2. Value Effect: Stocks with low price multiples appear to outperform high
+price multiple stocks over the long run, even after adjustment for risk and
+size.
+3. Size Effect: Evidence suggests that small firms outperform large firms, on
+a risk-adjusted basis. However, substantial recent evidence suggests the
+“small-cap” premium has disappeared.
+4. Momentum and Long-Run Reversal: Evidence indicates that in the short
+run stocks continue their recent performance (momentum), whereas they
+reverse from their long-run performance (long-run reversal). For exam-
+ple, stocks that have recently done well continue to do well, whereas stocks
+that have done well for several years, reverse course and do poorly.
+5. Firm Quality: Firms with strong past profitability are shown to have supe-
+rior future stock performance. This measure is especially effective when
+combined with price multiples.
+6. Asset Growth: Firms with strong (weak) past growth in total assets have
+relatively poor (strong) subsequent stock returns.
+7. Value Line Performance: The Value Line rankings for timeliness appear to
+have performed well over time, on average, and therefore may offer the
+average investor a chance to outperform the averages.
+• Data mining refers to the search for patterns in security returns by examining
+various techniques applied to a data set. With enough effort, patterns will be
+Questions 345
+uncovered, and investing rules and techniques can be found that appear to
+work in the sense of providing abnormal returns.
+• Behavioral finance integrates psychology with finance. It argues that investors
+often make systematic mistakes when processing information about the stock
+market.
+• Behavioral biases are based on individuals’ beliefs that are illogical or irra-
+tional. The beliefs often lead to actions that are contrary to effective portfolio
+management.
+• Behavioral biases can be separated into biases based on emotion, belief perse-
+verance, and information processing. Emotional biases are most common and
+recognizable.
+• According to behavioral finance, in some circumstances markets may be infor-
+mationally inefficient. The EMH, in contrast, holds that markets are informa-
+tionally efficient.
+• The preponderance of evidence indicates the market is very efficient (although
+not perfectly efficient). Most investors should accept the efficiency of the mar-
+ket unless they have superior skills or resources.

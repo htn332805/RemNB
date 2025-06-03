@@ -1,0 +1,1222 @@
+579CHAPTER 22
+At long last you have arrived at the
+end of your quest to learn enough
+about investing to manage your
+inheritance sensibly. Now that you
+know some basics about how to
+invest, what your alternatives are,
+and what to expect, you must con-
+sider how well you are doing as
+an investor. Measuring portfolio
+performance is the bottom line of
+investing. Everyone wants to know
+how they are performing as inves-
+tors, either in managing their own
+portfolios or entrusting their money
+to others to manage for them. Fur-
+thermore, if investors use others
+to manage their money or read
+investing newsletters, they should
+be aware of what to look for when
+investment results are presented.
+This chapter explains what is involved in the evaluation of investment perfor-
+mance. While it might seem like a straightforward process to determine how well an
+investor’s portfolio has performed, such is not always the case. This chapter covers
+well-known measures of portfolio performance such as the Sharpe measure and also
+discusses style investing, performance benchmarks, and performance presentation
+standards.
+We have now discussed the major components of the investing process. One
+important issue that remains is the “bottom line” task: evaluating and understand-
+ing portfolio performance. This is important regardless of whether an investor
+manages his or her own funds or invests indirectly through an investment com-
+pany. Direct investing can be time consuming and costly. If the results are inad-
+equate, why do it (unless the investor simply enjoys it)? On the other hand, if
+professional portfolio managers are employed, it is necessary to know how well
+they perform. If manager A consistently outperforms manager B, other things
+being equal, investors should prefer manager A. Alternatively, if neither A nor
+B outperforms an index fund, investors may prefer neither. The obvious point is
+Evaluation of Investment
+Performance
+AFTER READING THIS CHAPTER YOU
+WILL BE ABLE TO:
+• Explain the issues involved in eval-
+uating portfolio performance and
+calculate common measures of
+portfolio performance.
+• Evaluate media claims about the
+performance of various portfolios,
+such as mutual funds and ETFs.
+• Calculate time-and-money-
+weighted returns and explain when
+each should be used.
+• Describe concepts such as
+performance attribution and style
+analysis
+580 Chapter 22 Evaluation of Investment Performance
+that performance has to be evaluated before intelligent decisions can be made
+about existing portfolios.
+Currently, thousands of mutual funds are operating, with several trillion dollars
+under management. More than 90 million individuals own mutual funds. The pen-
+sion fund universe is also very large. The majority of U.S. pension plans employ mul-
+tiple managers. In addition to these money managers, trusts, discretionary accounts,
+and endowment funds have portfolios that must be evaluated. Professional portfolio
+management is an unforgiving profession, with managers hired and fired regularly
+because of their performance, both absolute and relative to other managers.
+Portfolio evaluation techniques have become more sophisticated, and the
+demands by portfolio clients more intense. The broad acceptance of modern port-
+folio theory has changed the evaluation process and how it is viewed.
+A Framework for Evaluating and Assessing
+Portfolio Performance
+We will consider four broad issues in evaluating portfolio performance:
+1. Performance Measurement Issues—A critical concern for investors is to cor-
+rectly determine how a portfolio performed over some time period. Thus, the
+portfolio’s results have to be correctly measured and analyzed.
+2. Well-Known Measures of Performance—Several risk-adjusted measures of
+portfolio performance have been available for many years. One or more
+of these are often referred to in discussions of portfolio performance, and
+therefore investors need to be aware of them.
+3. Performance Attribution and Style Analysis—Going beyond measuring a
+portfolio’s performance, the concept of performance attribution seeks to
+determine why a portfolio had the return it did over some specified period
+of time. This relates to style analysis, which describes a portfolio manager’s
+investing style.
+4. Portfolio Presentation Standards—How should the results of a portfolio be
+presented to those directly affected by that portfolio—in other words, from
+investment manager to client? Thirty years ago there were few standards or
+guidelines. Now there are a clearly stated set of standards to be followed when
+presenting portfolio results.
+We consider each of these issues in turn.
+Performance Measurement Issues
+If you read financial magazines and newspapers, you will be exposed to claims from
+various mutual fund companies touting the performance of their funds. This is an
+ongoing process, and therefore it may be beneficial to learn to quickly spot the
+deficiencies in such ads.
+You will see over time, a changing set of fund companies promoting their selected
+funds. Why does this happen? When a fund achieves good ratings, based on the lat-
+est measurement periods, companies hurry to put out ads proclaiming the new
+stellar ratings. Investors are attracted to top performing funds and start to buy the
+ones that are rated highly. The problem is that the ratings reflect past performance,
+not future performance. Often the fund happened to be in the right sectors, or the
+Performance Measurement Issues 581
+right stocks, for the time period involved. These stocks and sectors typically do not
+continue to perform strongly, and investors end up disappointed because they buy
+into the funds when it is too late.
+Or consider an excerpt from an ad placed by a well-known mutual fund com-
+pany. This ad listed five funds said to be “peer-beating funds.” It highlighted five
+of its funds that were in the first quartile of Lipper Quartile rankings for one year,
+three years, and the life of the fund. How should you react to this information?
+In this case, the fund’s average annual returns were not shown. What if, for a
+one-year period, one of these funds achieved a first-quartile ranking although it had
+a 2 percent positive return, less than you could have earned in T-bills? What about
+the funds’ risk—would you want to know something about that? Why are 5- and
+10-year returns not highlighted, as they often are in other ads? Although the infor-
+mation presented is totally legitimate, one might wonder if it is selectively presented
+to put these funds in the best light.
+Or consider another ad placed at the same time by a large company that fea-
+tured only one of its funds. The only real message was that this fund has a four-star
+overall rating out of 300 other funds in the same category. There was no mention of
+returns, risk, benchmark returns, or anything else.
+In order to correctly measure portfolio performance, certain factors must be
+considered. In the following section, we discuss the most important factors that
+must be accounted for in order to correctly assess a portfolio’s performance.
+To initiate our discussion about measuring portfolio performance, assume that
+you are evaluating the GoGrowth mutual fund, a domestic equity fund in the cat-
+egory of large growth (it emphasizes large-capitalization growth stocks). This fund
+earned a 19 percent return for its shareholders for 2019. It claims in an advertise-
+ment that it is the number one performing mutual fund in its category. As a share-
+holder, what can you conclude about GoGrowth’s performance, both absolutely
+and relatively?
+Three Questions to Answer in Measuring Portfolio
+Performance
+The first question to be answered is obvious: Was the return on the portfolio ade-
+quate, all things considered? Every investor is concerned with this issue because the
+objective of investing is to increase, or at least protect, financial wealth. Unsatisfac-
+tory results must be detected so that changes can be made.
+The second question to be answered is related to the first. How much risk did
+the investor, or portfolio manager, take in creating and managing the portfolio?
+We have stressed throughout this text that you must think in terms of both risk and
+return because they are opposite sides of the same coin.
+It is inappropriate to consider only the returns from investment alternatives.
+Although investors prefer higher returns, rational investors are also risk-averse. To
+evaluate portfolio performance properly, we must determine whether the returns
+are large enough given the risk involved. If we are to assess portfolio performance
+correctly, we must evaluate performance on a risk-adjusted basis.
+The third question concerns comparisons, or benchmarks. What return should
+have been earned on the portfolio, given the risk taken and the alternative returns
+available from comparable investments over the same period? This issue is so impor-
+tant that when someone asks you how your portfolio performed compared to the
+market, the proper response is to say, “We need to compare my portfolio’s perfor-
+mance to the proper benchmark.”
+582 Chapter 22 Evaluation of Investment Performance
+The DJIA is arguably the most famous stock market index in the world, widely
+reported and widely recognized by most investors. Very few investors, however,
+use it as a performance benchmark—this is almost universally true for money
+managers. Why? The Dow, which is composed of 30 blue-chip stocks, is not as
+good an indicator of the breadth of today’s stock market as are some other
+indexes.
+It is critical in evaluating portfolio performance to compare the returns obtained
+on the portfolio being evaluated with the returns that could have been obtained
+from a comparable alternative. The measurement process must involve relevant and
+obtainable alternatives; that is, the benchmark portfolio must be a legitimate alter-
+native that accurately reflects the objectives of the portfolio being evaluated. One
+might assume that, unlike the Dow, the S&P 500 would be a widely accepted bench-
+mark portfolio because it is typically cited by institutional investors. And indeed it
+is often used as a benchmark, but as we shall see, it may not adequately capture the
+various dimensions of a portfolio.
+The S&P 500 is the most frequently used benchmark for evaluating the per-
+formance of institutional portfolios such as those of pension funds and mutual
+funds. However, many observers now agree that multiple benchmarks are
+more appropriate when evaluating portfolio returns. Customized benchmarks,
+explained later in the chapter, can be constructed to more accurately evaluate a
+manager’s style.
+Given the three questions mentioned earlier, what can we say about the 19
+percent return reported for the GoGrowth fund? If we know nothing about
+the fund’s risk, little can be said about its performance. After all, GoGrowth’s
+managers may have taken twice the risk of comparable portfolios. Further-
+more, even if we know GoGrowth’s risk, its 19 percent return is meaningful only
+when compared to a legitimate benchmark. Obviously, if the average return for
+comparable funds was 23 percent in 2019, we would rate its performance unfa-
+vorable. Therefore, we must make relative comparisons in performance measure-
+ment, and an important related issue is the relevant benchmark for evaluating
+the performance.
+Finally, note that it is not unusual to pick up a publication from the popular press
+and see two different mutual funds of the same type—for example, two different
+small-cap growth funds advertise themselves as the number one performer. How
+can this occur?
+The answer is simple. Each of these funds is using a different time period over
+which to measure performance. For example, one fund could use the 10 years end-
+ing December 31, 2019, while the other fund uses the 5 years ending June 30, 2019.
+Mutual fund sponsors may emphasize different time periods in promoting their
+performance. Funds can also define the group or index to which comparisons are
+made differently.
+Benchmark Portfolio
+An alternative portfolio
+against which to measure
+a portfolio’s performance
+Over a recent five-year period, small-cap value funds
+significantly outperformed large-cap value funds.
+Therefore, the typical owner of a small-cap value fund will have outperformed
+the S&P 500 and should not compare his or her results to the S&P 500, but
+instead to the Russell 2000 Value Index.
+EXAMPLE 22.1
+Performance Measurement Issues 583
+Mark Hulbert publishes the Hulbert Financial Digest, which has tracked the perfor-
+mance of investment advisors for more than 30 years. Consider this quote:
+“I am constantly bombarded with questions about investment advisers that my Hulbert
+Financial Digest (HFD) has not been monitoring. Inevitably, the inquiries focus on
+alleged performance that is tantalizingly good—so good, in fact, that even if actual per-
+formance were only half as good, it still would justify our immediately allocating all our
+investment portfolios to following the adviser or strategy in question. My reply is always
+the same: don’t believe it.”1
+Return Calculations
+Performance measurement begins with portfolio valuations and transactions trans-
+lated into rate of return. When portfolio performance is evaluated, the investor
+should be concerned with the total change in wealth. As discussed throughout this
+text, a proper measure of this return is the total return (R), which captures both the
+income component and the capital gains (or losses) component of return.
+The market value of a portfolio can be measured at the beginning and ending of
+a period, and the portfolio return (Rp) can be calculated as:
+R V V
+V
+p
+E B
+B
+(22-1)
+where VE is the ending value of the portfolio and VB is its beginning value.
+Some Practical Advice
+Buyer Beware
+Performance evaluation extends to the evalua-
+tion of money managers and investment news-
+letters. A large number of newsletters offering
+investment advice compete for readers. Think of
+a newsletter charging $125 a year and consider
+the marginal cost of producing and mailing one
+more newsletter. It is easy to understand why
+these newsletters work hard at attracting readers.
+Unfortunately, publishers of financial newsletters
+are not regulated by the SEC. Therefore, subscribers
+might be caught unaware. Consider one news-
+letter endorsed by a well-known personal finance
+celebrity. A mutual fund managed by the same
+company claimed a strong annual average return
+from 2002 to 2011, but the fund was not started
+until December 31, 2009. After questions arose, this
+was said to be the result of a misunderstanding.
+The same newsletter reported that in 2009, one
+of the company’s portfolios outperformed the S&P
+500, which was stated to have a return of 19.79
+percent. The actual S&P return for that year, as
+officially declared by Standard & Poor’s, was 26.46
+percent. In fact, the newsletter understated the
+performance of the S&P 500 in 9 of the 10 years
+cited. Some of the company’s other newsletters
+have made the claim “Ranked #1 & Recom-
+mended by Hulbert Financial Digest!” The Digest,
+however, does not make recommendations.2
+Bottom line—investors must be particularly dil-
+igent when evaluating the claims of investment
+newsletters.
+584 Chapter 22 Evaluation of Investment Performance
+This calculation assumes that no funds were added to or withdrawn from the
+portfolio during the measurement period. If intraperiod cash flows occur, the port-
+folio return (Rp), will not be an accurate measure of the portfolio’s performance.
+For example, if the client adds funds prior to the end of the measurement period,
+use of Equation 22-1 would produce inaccurate results.
+Money-weighted return Traditionally, portfolio measurement consisted of cal-
+culating the money-weighted return (MWR), which is equivalent to the internal rate
+of return (IRR) used commonly in financial applications. The MWR measures the
+return earned on a beginning portfolio value and on any net contributions made
+during the period.
+The MWR equates the discounted value of all cash flows, including ending mar-
+ket value, with the beginning value of the portfolio. Because the MWR is affected by
+cash flows to and from the portfolio, it is inappropriate to use when making com-
+parisons to other portfolios or to market indexes.
+• The MWR measures the return to the portfolio owner; that is, it accurately measures
+the investor’s return.
+The MWR is a misleading measure of the manager’s ability if the manager does
+not have control over the timing of the cash inflows and outflows. Clearly, if an
+investor with $1,000,000 allocates these funds to a portfolio manager by providing
+half at the beginning of the year and half at midyear, the portfolio value at the end
+of the year will differ from another manager who received the entire $1,000,000 at
+the beginning of the year. This is true even if both managers had the same two six-
+month returns during that year.
+Time-weighted return The time-weighted return (TWR) is unaffected by any cash
+flows to the portfolio, and in most cases it most accurately reflects the return earned
+by a portfolio manager.
+• In order to evaluate a fund manager’s performance properly, we should use
+the time-weighted return.
+TWR reflects portfolio manager performance regardless of the size and timing of
+the funds invested in the portfolio. Generally, portfolio managers have no control
+over the deposits and withdrawals made by their clients. The time-weighted return
+links together the subperiod returns during the evaluation period, assuming that
+all income and realized gains are reinvested at each subperiod interval. The TWR
+is generally annualized.
+Money-Weighted Return
+(MWR) Equates the
+discounted value of cash
+flows with the beginning
+market value of the portfo-
+lio; it reflects an investor’s
+return
+Time-Weighted Return
+(TWR) Measures the
+return earned by a fund
+manager
+A portfolio manager begins the year with $10,000.
+Halfway through the year $2,000 is withdrawn by the
+client. The value of the portfolio at the end of the year is $9,100. Clearly,
+the portfolio manager did not decrease the value of the portfolio by $900.
+Therefore, we cannot simply look at the beginning and ending values for
+the portfolio. Instead, we must measure the return on the amount of money
+invested during the period before the cash flow occurred and during the
+period after.
+EXAMPLE 22.2
+Performance Measurement Issues 585
+Which measure to use? The money-weighted return and the time-weighted
+return can produce different results, as shown in Example 22.3. While the differ-
+ence is quite small in the example, at times it can be substantial. The two measures
+will produce identical results only in the case of no withdrawals or contributions
+during the evaluation period and with all investment income reinvested.
+• The time-weighted return is generally the appropriate measure for a portfolio
+manager, whereas the money-weighted return captures the return for a port-
+folio owner.
+As we will see later in the chapter, the Global Investment Performance Standards
+(GIPS®
+), which is used by many money managers require that returns for most asset
+classes be computed using the TWR approach.
+Risk Considerations and Risk Measures
+As stated earlier, we must consider risk when making judgments regarding relative
+investment performance. The two prevalent measures of risk used in investment
+analysis are total risk and nondiversifiable, or systematic, risk. Total risk is measured
+by the standard deviation, and systematic risk—that part of total risk that cannot be
+diversified away—is assessed by considering a portfolio’s beta. Differences in risk will
+cause portfolios to respond differently to changes in the overall market and should
+be accounted for in evaluating performance. We consider several risk measures in
+this discussion. The first two are the same measures we have used throughout the
+text, standard deviation and beta.
+The standard deviation of a portfolio’s returns can be calculated easily with a
+calculator or computer and is a measure of total risk. Recall that the beta for the
+market as a whole is 1.0. For a large, diversified portfolio of domestic stocks, we
+would typically expect the beta of the portfolio to be close to 1.0.
+Assume a client provides a portfolio manager with
+$500,000, which is invested at the beginning of the year.
+At year end, the account is worth $545,000. At the beginning of year two, the
+client provides the manager with an additional $55,000. At the end of year
+two, the value of the portfolio is $630,000. How well did the manager perform;
+that is, what is the time-weighted return?
+During year one, the portfolio return is ($545,000 − $500,000) / $500,000,
+or 9 percent. During year two, the portfolio return is ($630,000 − $600,000) /
+$600,000, or 5 percent. The TWR for the two-year period = [(1.09)(1.05)] −
+1.0 = 14.45 percent. Annualized, TWR = [(1.09)(1.05)]1/2 − 1 = (1.1445)1/2 − 1
+= 1.0698 − 1.0 = 6.98 percent.
+How did the client perform; that is, what is the money-weighted return?
+Using a financial calculator, the entries would be as follows:
+CF CF CF p0 2500 000 55 000 630 000 6 881, , , .; ; ; Compute IRR eercent.
+EXAMPLE 22.3
+In 2019, Fidelity’s Equity Income Fund had a beta of 0.95,
+whereas T. Rowe Price’s Growth and Income Fund had a
+beta of 0.88.
+586 Chapter 22 Evaluation of Investment Performance
+Beta can be calculated with any number of software programs. However, we must
+remember that betas are only estimates of systematic risk. Betas can be calculated
+using different time intervals, such as weekly, monthly, quarterly, or annual data,
+and over different time periods, and each will produce a different estimate. Such
+variations in the calculation could produce differences in rankings which rely on
+beta. Furthermore, betas can be unstable, and they change over time.
+Although not strictly a measure of risk, we can also consider a third measure that
+directly relates to portfolio risk. This measure arises from the process of fitting a
+characteristic line whereby the portfolio’s returns are regressed against the market’s
+returns. The square of the correlation coefficient, called the coefficient of determi-
+nation, or R 2
+, is used to denote the portfolio’s degree of diversification.
+• The coefficient of determination indicates the percentage of the variance in
+the portfolio’s returns that is explained by variation in the market’s returns.
+If the fund is totally diversified, the R2 will approach 1.0, indicating that the
+fund’s returns are completely explained by the market’s returns. The lower the coef-
+ficient of determination, the less the portfolio’s returns are attributable to the mar-
+ket’s returns. This indicates that other factors, which could have been diversified
+away, are being allowed to influence the portfolio’s returns.
+The standard deviation, beta, and the coefficient of determination are readily
+available for mutual funds from sources such as Morningstar.
+Checking Your Understanding
+1. Assume you have a portfolio to evaluate. When would you use the TWR? The
+MWR?
+2. Assume you own a portfolio that has an R 2 of 1.0 when measured against
+the S&P 500. What would you conclude about the performance of this
+portfolio?
+Performance Benchmarks and Performance Universes
+As noted earlier, the third question to be answered in measuring a portfolio’s per-
+formance concerns the benchmark to use as a comparison. The two primary stand-
+ards in use are performance universes and performance benchmarks.
+What constitutes a good universe or benchmark for the evaluation of portfolio
+performance? Characteristics that have been identified include the following:
+• Unambiguous
+• Specified in advance
+• Appropriate
+• Investable
+• Measurable
+Coefficient of Determina-
+tion The square of the
+correlation coefficient;
+it measures the percent-
+age of the variance in
+the dependent variable
+explained by variation in
+the independent variable
+In 2019, Fidelity’s Equity Income fund had an R 2 of 0.97,
+whereas T. Rowe Price’s Growth and Income Fund had
+an R 2 of 0.93.
+EXAMPLE 22.5
+Checking Your Understanding 587
+As we will see in the following section, it can be difficult to find benchmarks that
+meet these criteria.
+Performance Universes
+A performance universe is constructed by aggregating market valuations and income
+accruals for a large number of portfolios that are managed individually. The data to
+do this come from various portfolio managers such as bank trust departments, bro-
+kerage firms, and investment advisory firms. A large universe allows subuniverses to
+be constructed that in principle more closely match the portfolio being evaluated.
+Problems can arise when using manager universes to evaluate portfolio perfor-
+mance. First, they usually are broadly defined and therefore may not accurately reflect
+the portfolio of a particular manager. Second, since they represent someone else’s
+portfolios, they are not investable. Third, they are not specified in advance. Fourth,
+manager universes are subject to survivorship bias, whereby the poor performing
+managers may drop out (or be merged with other funds that are performing better).3
+Performance Benchmarks
+Unlike universes, performance benchmarks are unmanaged, passive portfolios that
+reflect a manager’s investment style. They can be specified in advance—the S&P
+500, Russell 3000, the Wilshire Index, and so forth. They are also unambiguous,
+measurable, and investable. Ideally, a benchmark explains all of a manager’s returns
+resulting from systematic factors such as market movements, as well as the man-
+ager’s style involving factors such as the sectors chosen. This means that if the port-
+folio performs above or below the benchmark, such performance can be attributed
+to the manager’s security selection skill.
+A potential problem is that except for portfolios holding large stocks such as
+those found in the S&P 500, broad market indices may be too broad to reflect a
+particular portfolio’s style. If a benchmark has this problem, we cannot be sure if
+the manager outperformed (or underperformed) a benchmark because of skill (or
+lack thereof) or because the benchmark did not adequately capture the manager’s
+“style.” Even so-called style indices—designed to reflect a narrower segment of the
+market—may not be appropriate for many portfolios. These style indices include
+the Russell 1000 Growth and 1000 Value indices and the Russell 2000 Growth and
+2000 Value indices. On the other hand, these style indices sometimes explain the
+performance of a particular fund better than the typically cited market index.
+Performance Universe
+Constructed by aggregat-
+ing market valuations
+and income accruals for a
+large number of port-
+folios that are managed
+individually
+Performance Benchmarks
+Unmanaged, passive
+portfolios that reflect a
+manager’s investment style
+Russell/Mellon is a leading provider of investment
+information services to more than 3,000 institutional
+investors such as pension funds, asset managers, and consultants. This
+company develops some 800 universes based on monitoring about 2,000
+pension funds, 1,400 asset managers, and 75,000 portfolios. Russell/Mellon
+also offers performance attribution services, allowing a client to analyze how
+a return was achieved.
+586 Chapter 22 Evaluation of Investment Performance
+Beta can be calculated with any number of software programs. However, we must
+remember that betas are only estimates of systematic risk. Betas can be calculated
+using different time intervals, such as weekly, monthly, quarterly, or annual data,
+and over different time periods, and each will produce a different estimate. Such
+variations in the calculation could produce differences in rankings which rely on
+beta. Furthermore, betas can be unstable, and they change over time.
+Although not strictly a measure of risk, we can also consider a third measure that
+directly relates to portfolio risk. This measure arises from the process of fitting a
+characteristic line whereby the portfolio’s returns are regressed against the market’s
+returns. The square of the correlation coefficient, called the coefficient of determi-
+nation, or R 2
+, is used to denote the portfolio’s degree of diversification.
+• The coefficient of determination indicates the percentage of the variance in
+the portfolio’s returns that is explained by variation in the market’s returns.
+If the fund is totally diversified, the R2 will approach 1.0, indicating that the
+fund’s returns are completely explained by the market’s returns. The lower the coef-
+ficient of determination, the less the portfolio’s returns are attributable to the mar-
+ket’s returns. This indicates that other factors, which could have been diversified
+away, are being allowed to influence the portfolio’s returns.
+The standard deviation, beta, and the coefficient of determination are readily
+available for mutual funds from sources such as Morningstar.
+Checking Your Understanding
+1. Assume you have a portfolio to evaluate. When would you use the TWR? The
+MWR?
+2. Assume you own a portfolio that has an R 2 of 1.0 when measured against
+the S&P 500. What would you conclude about the performance of this
+portfolio?
+Performance Benchmarks and Performance Universes
+As noted earlier, the third question to be answered in measuring a portfolio’s per-
+formance concerns the benchmark to use as a comparison. The two primary stand-
+ards in use are performance universes and performance benchmarks.
+What constitutes a good universe or benchmark for the evaluation of portfolio
+performance? Characteristics that have been identified include the following:
+• Unambiguous
+• Specified in advance
+• Appropriate
+• Investable
+• Measurable
+Coefficient of Determina-
+tion The square of the
+correlation coefficient;
+it measures the percent-
+age of the variance in
+the dependent variable
+explained by variation in
+the independent variable
+In 2019, Fidelity’s Equity Income fund had an R 2 of 0.97,
+whereas T. Rowe Price’s Growth and Income Fund had
+an R 2 of 0.93.
+EXAMPLE 22.5
+Checking Your Understanding 587
+As we will see in the following section, it can be difficult to find benchmarks that
+meet these criteria.
+Performance Universes
+A performance universe is constructed by aggregating market valuations and income
+accruals for a large number of portfolios that are managed individually. The data to
+do this come from various portfolio managers such as bank trust departments, bro-
+kerage firms, and investment advisory firms. A large universe allows subuniverses to
+be constructed that in principle more closely match the portfolio being evaluated.
+Problems can arise when using manager universes to evaluate portfolio perfor-
+mance. First, they usually are broadly defined and therefore may not accurately reflect
+the portfolio of a particular manager. Second, since they represent someone else’s
+portfolios, they are not investable. Third, they are not specified in advance. Fourth,
+manager universes are subject to survivorship bias, whereby the poor performing
+managers may drop out (or be merged with other funds that are performing better).3
+Performance Benchmarks
+Unlike universes, performance benchmarks are unmanaged, passive portfolios that
+reflect a manager’s investment style. They can be specified in advance—the S&P
+500, Russell 3000, the Wilshire Index, and so forth. They are also unambiguous,
+measurable, and investable. Ideally, a benchmark explains all of a manager’s returns
+resulting from systematic factors such as market movements, as well as the man-
+ager’s style involving factors such as the sectors chosen. This means that if the port-
+folio performs above or below the benchmark, such performance can be attributed
+to the manager’s security selection skill.
+A potential problem is that except for portfolios holding large stocks such as
+those found in the S&P 500, broad market indices may be too broad to reflect a
+particular portfolio’s style. If a benchmark has this problem, we cannot be sure if
+the manager outperformed (or underperformed) a benchmark because of skill (or
+lack thereof) or because the benchmark did not adequately capture the manager’s
+“style.” Even so-called style indices—designed to reflect a narrower segment of the
+market—may not be appropriate for many portfolios. These style indices include
+the Russell 1000 Growth and 1000 Value indices and the Russell 2000 Growth and
+2000 Value indices. On the other hand, these style indices sometimes explain the
+performance of a particular fund better than the typically cited market index.
+Performance Universe
+Constructed by aggregat-
+ing market valuations
+and income accruals for a
+large number of port-
+folios that are managed
+individually
+Performance Benchmarks
+Unmanaged, passive
+portfolios that reflect a
+manager’s investment style
+Russell/Mellon is a leading provider of investment
+information services to more than 3,000 institutional
+investors such as pension funds, asset managers, and consultants. This
+company develops some 800 universes based on monitoring about 2,000
+pension funds, 1,400 asset managers, and 75,000 portfolios. Russell/Mellon
+also offers performance attribution services, allowing a client to analyze how
+a return was achieved.
+hapter 22 Evaluation of Investment Performance
+Jensen argued that the intercept term, alpha ( p), in Equation 22-4 offers a
+means of identifying superior or inferior portfolio performance.5
+R R Et t t t tp p p M pRF RF (22-4)
+where
+Rp the return on portfolio p in period
+the risk-free
+t
+t
+t
+RF rate in period
+the return on the market in periodM
+t
+ttR
+EE
+R
+p
+M
+a random error term for portfolio p in periodt
+t
+t
+RFtt tthe market risk premium during period
+The CAPM asserts that equilibrium conditions should result in a zero intercept
+term. Therefore, alpha should measure the contribution of the portfolio manager
+since it represents the average incremental return per period beyond the return
+attributable to the level of market risk assumed. Specifically,
+1. If alpha is significantly positive, this is evidence of superior performance.
+2. If alpha is significantly negative, this is evidence of inferior performance.
+3. If alpha is insignificantly different from zero, this is evidence that the portfo-
+lio manager matched the market on a risk-adjusted basis.
+• Although the estimated alpha may be positive or negative, it may not be sig-
+nificantly different (statistically) from zero. If it is not, we would conclude that
+there was insufficient evidence to claim that manager performance differed
+from the expected level.
+• In practice, alphas often fail to meet the statistical significance test because of
+the variability in security returns.6 This means that if a manager adds value, it
+may not be detected statistically.
+Superior and inferior portfolio performance can result from at least two sources.
+First, the portfolio manager may be able to select undervalued securities consist-
+ently enough to affect portfolio performance. Second, the manager may be able to
+vary the portfolio’s composition in accordance with the rise and fall of the market.
+Obviously, a manager with enough ability may be able to do both.
+A computational advantage of the Jensen measure is that it permits the perfor-
+mance measure to be estimated simultaneously with the beta for a portfolio. That
+is, by estimating a characteristic line in risk premium form, estimates of both alpha
+and beta are obtained at the same time. However, unlike the Sharpe and Treynor
+measures, each period’s returns must be used in the estimating process, rather than
+an average return for the entire period.
+Information Ratio
+The information ratio (IR) is calculated as the ratio of a portfolio’s average active
+return to its active risk. Active return is derived as the difference between a portfo-
+lio’s return and the benchmark return. Average or mean active return is commonly
+5 This version is usually referred to as a characteristic line in risk premium or excess return form.
+6 A general rule of thumb, for reasonably large samples, is that a coefficient should be twice its standard
+error (i.e., the t-statistic should be 2 or greater) in order to be significant at the 5 percent level.
+Checking Your Understanding 591
+referenced as “alpha” and represents an alternative to Jensen’s measure of alpha.
+The denominator of IR is active risk, which is typically referenced as tracking error
+or tracking risk. IR is calculated as shown in Equation 22-5.
+Information ratio
+mean active return standard de
+A p bR R R( )
+vviation of active return
+alpha tracking risk
+(22-5)
+where
+RA the average of the return differences between portfilio p
+and its benchmark
+the standard deviatio
+p b
+p b
+( )
+( )
+R R
+R R nn of the return differences between
+portfolio p and its bennchmark
+An advantage of IR is that it offers a direct comparison of a manager’s perfor-
+mance with that of the portfolio’s benchmark. The ratio considers both the extra
+return earned relative to the benchmark and the additional risk assumed. Both the
+numerator and the denominator should be approximately zero for an index fund.
+M2
+M2 or M 2 is named after its developers, Franco Modigliani and Leah Modigliani. It
+is a return adjusted for volatility that allows returns between portfolios to be com-
+pared. Since it is measured in percentage terms, it is easier to understand than the
+Sharpe and Jensen measures, which are not intuitive.
+Essentially, M2 equates the volatility of the portfolio whose performance is being
+measured with the market. If portfolio risk is less than that of the market, leverage
+can be used to increase the volatility. If portfolio risk is greater than market risk, part
+of the funds can be placed in risk-free securities—to match the lower volatility of the
+market. After adjusting portfolio risk so that it matches that of the market, or some
+benchmark, the returns can be compared.
+• A big advantage of M2 is that the results are stated in percentage form.
+M2 is calculated as:
+M R2 RF RFM p p( ) (22-6)
+Assume that a large-cap value manager earned an average
+active return relative to the Russell 1000 Value Index (the
+benchmark) of 2.2 percent. Furthermore, assume that the manager’s tracking
+risk relative to the benchmark was 5.8 percent.
+The manager’s IR is
+IR 2 2 5 8 0 38. . ./ .
+Thus, we can see that the manager deviated considerably from the benchmark’s
+holdings but was able to generate positive alpha in doing so.
+592 Chapter 22 Evaluation of Investment Performance
+where
+M
+p
+standard deviation of the market
+standard deviation off the portfolio being evaluated
+the average return on tpR hhe portfolio
+Sortino Ratio
+The Sortino ratio (SR) differs from the other performance measures in that the
+ratio considers only a portfolio’s downside risk. The measure is particularly useful
+when evaluating portfolios or securities that do not have symmetric return distri-
+butions. In the traditional performance measures, such as the Sharpe ratio, both
+large negative and large positive returns contribute to a portfolio’s risk and thus
+impact a security negatively. While large negative returns should be viewed nega-
+tively, investors welcome large positive returns. The calculation for SR is presented
+in Equation 22-7:
+SR DDMAp p p( )R R (22-7)
+where
+SR p
+p
+Sortino ratio of portfolio p
+average return of portfR oolio p during the evaluation period
+minimum acceptableRMA return for the portfolio
+downside deviation of portfopDD llio p during the evaluation period
+Downside deviation is calculated using the same process as standard deviation
+with the following exceptions: (1) the deviation is calculated relative to RMA , rather
+than the average return, and (2) only those deviations that are negative are included
+in the calculation.
+The Sortino ratio is most useful when evaluating performance if portfolios or asset
+classes have nonnormal return distributions. For example, analysts that are skilled
+at generating periods with unusually large positive performance would be unfairly
+penalized by traditional performance measures, but not by SR. Furthermore, com-
+modity funds, private equity funds, and hedge funds are frequently identified as
+having positively skewed return distributions, so SR may be more appropriate than
+traditional measures when assessing the performance of these funds.
+Assume a portfolio had a 14 percent average return over
+a period of time, with a standard deviation of 23 percent.
+The market for the same period had an average return of 10.5 percent, with
+a standard deviation of 20 percent. The average risk-free rate was 5 percent.
+M R2
+5 20 23 9
+12 83
+RF RFM P P/ ( )
+/
+. %
+The portfolio had better risk-adjusted performance than the market, 12.83 percent
+versus 10.5 percent.
+Checking Your Understanding 593
+A comparison of risk-adjusted performance measures The Sharpe ratio,
+which uses the standard deviation, evaluates portfolio performance on the basis of
+both the portfolio’s return and its diversification. Although the Sharpe ratio ranks
+portfolios, it does not tell us in percentage terms how much a fund outperformed
+(or underperformed) some benchmark.
+M2 produces a percentage return which can be easily understood. It produces
+the same rankings as the Sharpe measure. Jensen’s alpha and the Treynor measure
+use beta as the measure of risk.7
+If a portfolio is completely diversified, all these measures will agree on a ranking
+of portfolios. The reason for this is that with complete diversification, total vari-
+ance is equal to systematic variance. When portfolios are not completely diversified,
+the Treynor and Jensen measures can rank relatively undiversified portfolios much
+higher than the Sharpe measure. Since the Sharpe measure uses total risk, both sys-
+tematic and nonsystematic components are included. Finally, if a portfolio is known
+to have a return distribution that is not symmetric, the Sortino ratio may be a more
+appropriate measure of performance.
+To demonstrate the use of the six measures of risk-adjusted performance dis-
+cussed previously, the returns for two highly regarded investment funds are evalu-
+ated. Specifically, the performances of portfolios affiliated with Warren Buffett and
+Carl Icahn, arguably, two of the greatest investors of all time, are evaluated over
+the period starting in 2000. Carl Icahn and his affiliates control Icahn Enterprises
+(IEP ticker), which has stakes in firms across a diverse array of industries. Berkshire
+Hathaway (BRK ticker) is the holding company controlled by Warren Buffett, and
+like IEP, it has ownership interests in firms operating in a diverse array of businesses.
+As a preliminary look at performance, Table 22.1 reports general return and risk
+measures for the two funds, along with the S&P 500. In evaluating the performance
+of the two funds, the S&P 500 is used as the benchmark for each. Given the diverse
+holdings of the two funds and their relative lack of constraints on holdings, the S&P
+500 is considered a valid gauge of investment performance for each.
+The average return values reported in Table 22.1 indicate that the lofty reputa-
+tions of the two investors are well-deserved as each beat the market (S&P 500) by
+a wide margin over the period. BRK’s return nearly doubled the market return,
+whereas IEP almost quadrupled the market’s return. The risk data indicate that
+IEP, relative to BRK, generated its return by taking on substantially more total risk
+(standard deviation) and systematic risk (beta). Thus, it appears the investment
+strategies of the two diverged considerably as BRK was much more conservative rela-
+tive to IEP; however, both were able to deliver superior returns.
+Return and Risk Data for IEP, BRK and S&P 500, 2000–2018
+Portfolio/
+Fund
+Average
+Return (%)
+Standard
+Deviation (%) Beta
+Active
+Risk (%) R 2 (%)
+IEP 21.49 38.87 0.91 36.56 11.55
+BRK 10.55 17.32 0.53 16.96 19.85
+S&P 500 5.82 14.54 1.00 NA 100.00
+TABLE 22.1
+7 Jensen’s alpha divided by beta is equivalent to Treynor’s measure minus the average risk premium for
+the market portfolio for the period.
+594 Chapter 22 Evaluation of Investment Performance
+The risk measures in the last two columns require additional explanation. Active
+risk is derived as the standard deviation of active returns. Where active return is the
+difference between fund return and the return on the benchmark (in this case the
+S&P 500). Active risk is also commonly referenced as tracking risk or tracking error.
+Active risk standard deviation of the values p Bench( , ,R Rt t )) (22-8)
+R
+R
+p
+Bench
+the return on portfolio p for period
+the return
+,
+,
+t
+t
+t
+on the benchmark for period t
+Like the other risk measures, active risk is shown to be considerably higher for
+IEP relative to BRK.
+Active risk indicates the degree to which a portfolio’s returns deviate from the
+benchmark’s returns. A related measure is active share, which indicates the degree
+to which a portfolio’s holdings deviate from the holdings of the benchmark. These
+two measures tend to be directly related in that a portfolio with greater active risk
+tends to also have greater active share. A major difference exists between the two;
+however, in that active risk depends on the correlation of portfolio and benchmark
+returns, whereas active share depends only on how common the holdings are across
+the portfolio and the benchmark. An index fund will have a very low value for active
+risk and for active share since its objective is to track its benchmark.
+R-squared indicates the percentage of variation in a fund’s return that is explained
+by variation in the market return. This measure is included in the output from a
+regression where portfolio return is the dependent variable and benchmark return
+is the independent variable. The R-squared values indicate that 11.55 percent of
+the movements in IEP’s return can be attributed to movements in the market,
+whereas the comparable number for BRK is 19.85 percent. Together, active risk and
+Active Risk A measure of
+the deviation of a port-
+folio’s return from the
+benchmark’s return
+Active Share A measure of
+the deviation of a port-
+folio’s holdings from the
+benchmark’s holdings
+Let’s assume a portfolio manager is looking to add
+either Security A or Security B to her portfolio. Neither
+security is in the portfolio; however, both are in the portfolio’s value-weighted
+benchmark. Further, both Security A and Security B have comparable market
+caps and standard deviation of returns. Security A, however, has a correlation
+of 0.60 with the benchmark and Security B has a correlation of 0.20 with the
+benchmark. What effect will the choice have on the portfolio’s active risk,
+active share and total risk?
+Choosing Security A, instead of Security B, will result in lower active risk, no
+difference in active share and higher total risk. Why?
+Active risk is lower because Security A has a higher correlation with the
+benchmark, which means the returns align more closely with (deviate less
+from) the benchmark returns.
+Active share is not impacted by the choice because the two are both included
+in the benchmark and are of comparable size. Therefore, adding either one
+results in the same increase in alignment of the portfolio holdings with that
+of the benchmark.
+The choice of Security A, instead of Security B, results in higher total risk
+because of a poorer diversification result. As we learned in Chapter 7, more
+total risk reduction is achieved by adding a security with lower correlation.
+Checking Your Understanding 595
+R2 indicate that neither fund tracks the market very closely; however, relative to IEP,
+movements in BRK’s returns align more closely with the market.
+If one were ranking the funds based on risk-adjusted performance, the values
+in Table 22.2 indicate that IEP would get the nod over BRK. However, the invest-
+ment acumen of Buffett and Icahn is clearly documented as both funds show far
+superior performance relative to the S&P 500. The Sharpe, Treynor, and Sortino
+ratios all confirm the exceptional outperformance of each of the funds relative to
+the market.
+Note that the Sharpe ratios for IEP and BRK are quite similar, which indicates
+that when total risk is considered IEP does not fare as well as when only systematic
+or active risk is counted. In other words, IEP shows especially superior performance
+based on Jensen’s alpha, the Treynor ratio, and the information ratio. Remember
+that systematic risk is the basis for the Treynor ratio and Jensen’s alpha, whereas the
+information ratio relies on active risk.
+Interestingly, only the Sortino ratio indicates that BRK produced superior perfor-
+mance relative to IEP. Previous researchers have noted that Berkshire’s investment
+strategy tends to produce a positively skewed return distribution.8
+That is, when extreme returns occur, they tend to be large positive returns more
+frequently than large negative returns. Obviously, investors do not like extreme
+returns, unless they are positive. As noted previously, the traditional risk measures
+do not differentiate between large negative versus large positive returns, and there-
+fore, investors adept at generating extreme positive returns are penalized by tradi-
+tional risk measures.
+Overall, the performance data reported in Table 22.2 supports the use of sev-
+eral alternative measures when gauging investment performance. The dispersion in
+measures indicates that a fund manager may be unfairly rewarded, or penalized, if
+one relies on a single performance measure or a group of performance measures
+that rely on similar risk attributes.
+Checking Your Understanding
+4. Assume you examine five completely diversified portfolios. Will the Sharpe,
+Treynor, and Jensen measures agree on how the managers should be ranked?
+Why, or why not?
+Risk-Adjusted Measures for IEP, BRK and S&P 500, 2000–2018
+Portfolio/
+Fund Sharpe Treynor
+Jensen’s
+Alpha (%)
+Information
+Ratio M2 (%)
+Sortino
+Ratio
+IEP 0.48 0.20 15.95 0.43 9.81 0.97
+BRK 0.45 0.15 6.14 0.28 9.31 1.04
+S&P 500 0.21 0.03 NA NA NA 0.57
+596 Chapter 22 Evaluation of Investment Performance
+Measures of Downside Risk
+There are several popular measures of downside risk that are used to assess fund
+risk. These measures include downside deviation, maximum drawdown, downside
+capture, and value at risk (VaR). The nonnormality of return distributions for alter-
+native assets, hedge funds and derivatives, along with the financial crisis of 2008,
+pushed market participants toward improving risk measurement approaches. As
+a result, the downside risk measures have received increasing attention in recent
+years.
+Downside Deviation
+Downside deviation indicates the risk associated with return observations that fall
+below a minimum acceptable return (MAR). The basic idea behind downside devia-
+tion is quite logical in that it assumes investors do not fret returns that fall sub-
+stantially above their expectations. That is, investors do not complain that their
+portfolio experienced an extreme positive return or worry that another big positive
+move may be on the way. In contrast to downside deviation, standard deviation
+treats extreme positive returns as causing the same level of consternation for inves-
+tors, as extreme negative returns.
+Downside deviation over a time period is derived as:
+Downside deviation t
+N
+tR
+N
+1
+2
+0[min( , )],p MAR (22-9)
+where [min( , )],R tp MAR 0 is zero if the portfolio return in period t is greater than
+the minimum acceptable return (MAR); otherwise the value equals Rp,t – MAR, the
+amount of fund under-performance.
+Maximum Drawdown
+Drawdown represents the percent difference between the maximum fund value
+over a period and the subsequent minimum price. The maximum fund value is
+commonly referenced as the high-water mark. This terminology is particularly com-
+mon when discussing hedge funds. A fund’s drawdown is informative to investors as
+it suggests, based on history, the amount of loss that should be considered possible
+from a fund’s high-water mark. The drawdown period or months to recover is meas-
+ured as the time period beginning from a fund declining from its high-water mark
+until it reaches a subsequent new high.
+Maximum drawdown is the largest drawdown that is observed over a period. For
+example, in extending the prior evaluation of BRK, IEP, and the S&P 500, the maxi-
+mum drawdown, based on annual periods, occurred in 2008 for all three portfolios.
+In 2008, the drawdown for the S&P 500 was –48.14 percent. BRK fared slightly bet-
+ter with a drawdown of –45.36 percent, whereas IEP performed much worse as it
+experienced a drawdown of –84.46 percent. The 2008 financial crisis devastated the
+financial markets, and as a result, the drawdown period extended for a substantial
+time as it took the funds years to recover to the highs they had reached in 2007.
+Downside Deviation Meas-
+ures the risk associated
+with return observations
+falling below the mini-
+mum acceptable return
+(MAR)
+Drawdown The percent
+difference between the
+maximum fund value and
+subsequent minimum
+value
+Maximum Drawdown The
+largest drawdown a fund
+experienced over a period
+of time
+Measures of Downside Risk 597
+Downside Capture
+Downside capture is an indicator of how well a fund preserves value when the mar-
+ket declines. The measure is derived by dividing the cumulative fund return by the
+cumulative benchmark return during the period of market decline. A relatively low
+downside capture value indicates that the fund has effectively preserved value, that
+is, it has captured little of the downside market move.
+A contrasting measure, upside capture, applies the same approach to periods of
+up-market moves. Upside capture indicates a fund’s ability to match upward market
+movements. A lower value indicates the fund is less effective in matching up-market
+moves.
+A value of 100 percent for downside and upside capture means the fund matches
+the market’s performance exactly on the upside and downside. In 2018, the market
+advanced by 11.41 percent in April through September and BRK had an upside cap-
+ture of 64.28 percent, whereas IEP’s upside capture over this period was 263.40 per-
+cent. In contrast, the market declined by 13.52 percent over the last three months of
+2018 and the downside capture measures for BRK and IEP were 34.30 percent and
+127.48 percent, respectively.
+Value at Risk (VaR)
+Value at risk (VaR) represents the loss expected to be exceeded with a given level of
+probability over a stated time period. It is important to recognize that VaR is not a
+measure of the maximum potential loss, rather, it is the minimum loss one should
+expect with a small probability. For example, for a $60 million portfolio, the 5 per-
+cent quarterly VaR for the portfolio may be identified as $7 million. This means that
+the investor should expect a 5 percent chance of the portfolio incurring a quarterly
+loss of at least $7 million.
+VaR has become a standard risk management tool in the investment industry, so
+it is imperative to have some understanding of the tool. VaR is commonly referenced
+in currency value; however, it is sometimes identified as a percent. To apply VaR, the
+user must select three inputs: the time period, the probability level, and the approach.
+The time period selected for VaR ranges from one day (preferred by investment
+banks, security dealers and hedge funds) to one year for companies that report
+the measure in concert with their annual report. The shorter the time period, the
+smaller the expected loss will be, thus in the above example, the quarterly VaR of
+$7 million would be reduced considerably if the VaR period was reduced to express
+the expected one-day loss.
+The probability level is typically 1 percent or 5 percent. A lower probability cor-
+responds with a more extreme loss event, and thus, is associated with a greater VaR
+value. In the above example, the 5 percent quarterly VaR value was $7 million,
+whereas a 1 percent probability would produce a significantly greater VaR value.
+There are three prominent methods that are used in deriving VaR: the histori-
+cal approach, the variance–covariance approach, and the Monte Carlo simulation
+approach. Each approach allows for modifications to the general method to meet
+the user’s situation.
+The historical method is relatively easy to apply and interpret. Under the
+approach, historical returns of the specified time interval are ranked and the return
+corresponding to the 1 percentile (5 percentile) value is identified as the 1 percent
+(5 percent) VaR.
+598 Chapter 22 Evaluation of Investment Performance
+The variance–covariance approach requires the user to input expected returns,
+variances, and correlations for securities and use these to produce a portfolio return
+distribution. By assuming normality for the return distribution, the VaR can be eas-
+ily extracted from the created distribution.
+The simulation approach is the most complicated method of the three alter-
+natives. The method is frequently necessary to deal with portfolios comprised of
+complex securities, such as portfolios with large derivative positions. This approach
+requires the user to identify return distributions for the various underlying asset
+classes contained in the portfolio. The simulation produces numerous different
+outcomes, which are ranked and the value corresponding to the lowest 1 percentile,
+or 5 percentile, value is identified as the VaR.
+A Comparison of VaR Approaches VaR has become a standard tool within the
+investment management industry; however, users must understand its limitations.
+The tool is intended to be used in concert with other risk management methods,
+not as the sole risk management application. A common criticism of VaR is that all
+three calculation approaches rely strongly on past return performance.
+The historical approach relies exclusively on past return performance; however,
+the inputs for the other approaches are also likely to be largely based on histori-
+cal observations. The variance–covariance approach is criticized for its reliance on
+security returns being normally distributed, which is not a requirement of the other
+two methods.
+Style Analysis and Performance Attribution
+Most of this chapter is concerned with how to measure a portfolio manager’s per-
+formance. However, a complete evaluation of portfolio performance should also
+include style analysis and performance attribution. Style analysis seeks to determine
+the detailed investment style adopted by a money manager. Performance attribu-
+tion analyzes the reasons why a manager did better or worse than a properly con-
+structed benchmark; in effect, it seeks to determine why success or failure occurred.
+Style Analysis
+In Chapter 3, we considered Morningstar’s style box for mutual funds. A style box
+classifies a fund into one of nine cells depending upon the market capitalization of
+the portfolio’s stocks and whether they are growth or value stocks, or a blend. Such
+a classification reflects a portfolio manager’s “style” characteristics. For example, a
+manager who invests in small growth stocks would be classified at the intersection of
+these two characteristics (small cap and growth) in the style box.
+Figure 22.1 depicts a typical nine-cell style box that is used in classifying funds. The
+“X” in the figure identifies the fund under consideration as a large-cap growth fund.
+The style box does not explain all of a portfolio’s performance, however, as port-
+folios differ from each other with regard to securities held and/or the proportion
+of the portfolio invested in each security. For example, among equity funds, a fund
+may describe itself as a large-cap growth fund and still show a performance that dif-
+fers from other funds in the same category.
+A portfolio manager constructs a portfolio based on his or her investment phi-
+losophy, resulting in a unique portfolio. Style analysis seeks to identify the investing
+style of a portfolio in terms of asset classes or equity styles.
+Style Analysis A clas-
+sification reflecting a
+portfolio manager’s “style”
+characteristics
+Performance Attribu-
+tion A part of portfolio
+evaluation that seeks to
+determine why success or
+failure occurred
+Style Analysis and Performance Attribution 599
+There are two approaches to style analysis, holdings-based and returns-based:
+• Holdings-based style analysis uses the stocks in a portfolio to describe a fund’s
+allocation among asset classes or equity styles. As noted, Morningstar uses a
+holdings-based approach to style analysis.
+• Returns-based style analysis compares a portfolio’s return to the returns of a set
+of market indexes, each of which tracks a specific investment style such as
+large-cap growth or small-cap value.
+Sharpe developed returns-based style analysis, which is a regression-based
+approach. His analysis used multiple asset classes including T-bills, several bond
+indexes, several stock indexes, and also a mortgage-related securities index. 9 He
+divided equities into four mutually exclusive groups using the indexes devel-
+oped: large-cap value stocks, large-cap growth stocks, mid-cap stocks, and small-
+cap stocks. Returns-based style analysis typically requires at least 20–36 months
+of returns data.
+• Performing a returns-based style analysis involves evaluating the factors that
+drive a portfolio’s actual return behavior, which makes it an objective method
+for determining risk exposure.
+Sharpe’s analysis can be used to produce a “style benchmark”, or customized
+benchmark which reflects an individualized weighting of a set of indices that docu-
+ment a manager’s style. Relative to a single-index benchmark, customized bench-
+marks more accurately portray a manager’s investment style.
+XLarge
+Mid
+Small
+BlendValue Growth
+FIGURE 22.1 Equity Style Box
+Consider a mid-cap stock fund whose manager emphasizes
+stocks that currently are out of favor. The manager believes
+that recent events have caused these stocks to sell for less than their intrinsic
+value. To identify these stocks, the manager screens the mid-cap database for
+stocks with low price to book ratios and low P/E ratios. These value criteria
+cause the portfolio to have a unique return behavior that relates directly to the
+manager’s style. Such a style differs from other mid-cap fund managers who
+emphasize growth when selecting stocks.
+600 Chapter 22 Evaluation of Investment Performance
+Consider a domestic large-cap equity fund manager
+who gradually shifts more of the portfolio’s assets to
+international stocks. Furthermore, the manager tends to inadvertently focus
+on mid-cap stocks. A single index would be unlikely to capture the manager’s
+portfolio drift, whereas a customized index could.
+EXAMPLE 22.11
+One problem with style analysis is style “consistency.” One estimate is that over
+a five-year period, less than half the domestic mutual funds maintain their style
+consistency. Standard & Poor’s conducted a study of consistency and found that
+large-cap growth funds maintained a consistency level of about 70 percent over a
+five-year period, whereas all large-cap funds had a consistency of 54 percent. Mid-
+cap funds had a consistency of only 31 percent, and small-cap blend funds main-
+tained a consistency of only 18 percent.
+Performance Attribution
+The purpose of performance attribution is to decompose portfolio performance into
+components that can be associated with decisions made by the portfolio manager.
+Typically, performance attribution is a top-down approach; it looks first at the
+broad issues and progresses by narrowing the investigation. It often begins with the
+investment policy statement (IPS), which guides the management of the portfolio.
+The portfolio normally has established a set of portfolio weights, a strategic alloca-
+tion. If the manager uses a different allocation, this will account for some of the
+portfolio results.
+After this analysis, performance attribution frequently assesses sector selection and
+security selection. Did the manager concentrate on, or avoid, certain sectors, and if
+so, what were the results? Was the manager successful in selecting individual stocks?
+Part of this process involves identifying a benchmark of performance (bogey) to
+use in comparing the portfolio’s results. This bogey is designed to measure passive
+results. Any differences between the portfolio’s results and the bogey must be attrib-
+utable to the manager’s asset allocation and security selection decisions.
+Performance attribution recognizes that performance that deviates from the
+benchmark comes from two possible sources:
+1. Asset allocation
+2. Security selection
+Techniques are available to decompose the performance of a portfolio into these
+two components.10
+Money Managers and Performance
+Presentations
+Up until the early 1990s, investment managers had great freedom in presenting
+their performance results to the public. This generated considerable confusion
+when investors tried to compare results among money managers. Naturally, money
+managers tried to put the best light on their performance, knowing that their success
+10 Roy Henriksson, “Market Timing and Mutual Fund Performance: An Empirical Investigation,” Journal
+of Business (1984): 73–96.
+An Overview on Performance Evaluation 601
+in attracting money, and possibly even their jobs, depended on their performance.
+Is it any wonder that misrepresentations of portfolio performance were common?
+In order to “level the playing field” in performance presentations among firms
+competing globally and to aid investors in making comparisons among global firms,
+CFA Institute created the Global Investment Performance Standards (GIPS)®. The
+objective of GIPS is to obtain global acceptance of a standard for fair and com-
+plete presentation of performance and ensure accuracy and consistency of data in
+recordkeeping, marketing, and presentation. Its introduction recognized the fact
+that investment management is increasingly a global industry.
+GIPS promotes five guiding ethical principles as objectives:
+1. To establish investment industry best practices for calculating and presenting
+investment performance that promote investor interests and instill investor
+confidence
+2. To provide a global, single standard for the calculation and presentation of
+investment performance based on the principles of fair representation and
+full disclosure
+3. To promote the use of accurate and consistent investment performance data
+4. To promote fair, global competition among investment firms without creating
+barriers to entry
+5. To foster industry self-regulation on a global basis
+GIPS requirements include the following:
+• Uniformity in performance calculations and disclosures
+• Inclusion of all actual fee-paying discretionary portfolios with other portfolios
+that have a similar objective
+• Compliant history for at least five years to start, or since inception if less than
+five years; after this original requirement is met, the firm must build toward a
+minimum 10-year record of reported performance
+• Compliance to GIPS must be firmwide
+Checking Your Understanding
+5. Assume you are the manager of an investment management firm that has a
+good performance record that is fairly presented to clients. Will the introduc-
+tion of GIPS improve the performance results of your firm? If not, how will its
+introduction help you as a firm?
+An Overview on Performance Evaluation
+Investors are often inattentive when making comparisons of portfolios over various
+time periods. One popular press article summarized the extent of the problem by
+noting that “most investors . . . don’t have the slightest idea how well their portfolios
+are actually performing.” Even when investors are aware of their portfolio’s perfor-
+mance, they should understand that in today’s investment world of computers and
+databases, exact, precise universally agreed-upon methods of portfolio evaluation
+remain an elusive goal.
+As we have seen, investors can use several well-known techniques to assess the
+actual performance of a portfolio relative to one or more alternatives. In the final
+analysis, when investors are selecting money managers, they evaluate these manag-
+ers on the basis of their published performance statistics. If the published “track
+602 Chapter 22 Evaluation of Investment Performance
+record” looks good, that is typically enough to convince many investors to invest in
+a particular mutual fund. However, the past is no guarantee of an investment man-
+ager’s future. Short-term results may be particularly misleading.
+Finally, note that a long evaluation period is needed to successfully determine
+performance that is truly superior. Over short periods, luck can overshadow all else,
+but luck cannot be expected to continue unabated.
+Summary
+• Evaluation of portfolio performance, the bottom line of the investing process,
+is important for all investors and money managers.
+• The framework for evaluating portfolio performance consists of measuring
+return and risk, determining an appropriate benchmark to compare against
+portfolio performance, and recognizing any constraints that the portfolio
+manager faces.
+• Time-weighted, as opposed to money-weighted, return most accurately reflects
+a manager’s performance when the manager does not control the flow of
+funds into and out of the portfolio.
+• The two prevalent measures of risk are total risk (standard deviation) and
+systematic risk (beta).
+• The coefficient of determination, or R2
+, and tracking risk can be used to
+denote a portfolio’s degree of diversification.
+• Risk-adjusted (composite) measures of portfolio performance combine return
+and risk together in one calculation.
+• The Sharpe, Treynor, and information ratio can be used to rank portfolio
+performance. Jensen’s measure is an absolute measure of performance. M2 is
+a variant of the Sharpe measure. The Sortino ratio is useful when evaluating
+portfolios with nonnormal return distributions.
+• Both the Sharpe and Treynor measures relate portfolio excess return to a risk
+measure. Sharpe uses standard deviation, whereas Treynor uses beta. Portfolio
+rankings from the two measures can differ if portfolios are not well diversified.
+• Jensen’s alpha measures the difference between what the portfolio was
+expected to earn, given its systematic risk, and what it actually earned.
+• By regressing a portfolio’s excess return against that of the market index, Jensen’s
+alpha captures the superior or inferior performance of the portfolio manager.
+• Based on capital market theory, alphas are expected to be zero. Significant
+positive alphas are difficult to attain.
+• M2 gives rankings identical to the Sharpe measure but states results in per-
+centage terms.
+• A good universe or benchmark for evaluating portfolio performance should be
+unambiguous, specified in advance, appropriate, investable, and measurable.
+• Active risk and active share are risk measures that indicate the degree to which
+a fund’s returns and holdings, respectively, deviate from the benchmark.
+• Downside risk measures include: drawdown, value at risk (VaR), downside
+deviation, and downside capture. These measures are useful for investors in
+determining the potential losses they face.
+• VaR has three general methods of calculation: historical, variance–covariance,
+and simulation.
+• VaR indicates the minimum loss a fund manager should expect to incur if an
+infrequent negative event occurs.
+• Style analysis seeks to identify the characteristics of a portfolio.
+Questions 603
+• Sharpe developed returns-based style analysis using an asset class factor model
+(think of it as similar to a regression model).
+• Performance attribution identifies why a portfolio manager did better or
+worse than an expected benchmark. It involves decomposing performance to
+determine why the particular results occurred.
+• CFA Institute created GIPS® as a way to obtain global acceptance of a standard
+for fair presentation of performance results by investment management firms.
