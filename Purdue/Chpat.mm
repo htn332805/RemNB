@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8ff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1744920790000" fit_to_viewport="false" showTagCategories="false" show_icons="BESIDE_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1744920790000" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -4728,7 +4728,7 @@
 </node>
 </node>
 <node TEXT="Python" POSITION="top_or_left" ID="ID_1562820050" CREATED="1746907663355" MODIFIED="1746907666870">
-<node TEXT="Pandas" ID="ID_31643223" CREATED="1746907730772" MODIFIED="1746907733596">
+<node TEXT="Pandas" FOLDED="true" ID="ID_31643223" CREATED="1746907730772" MODIFIED="1746907733596">
 <node TEXT="create DataFrame" ID="ID_1889577349" CREATED="1746907733948" MODIFIED="1746909080908"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -5330,5 +5330,95 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </node>
 </node>
 </node>
+<node TEXT="Sorted" POSITION="top_or_left" ID="ID_1262109112" CREATED="1751998105701" MODIFIED="1751998109629">
+<node TEXT="Current Yrs 2025 (43/67)" POSITION="top_or_left" ID="ID_351492493" CREATED="1751998513812" MODIFIED="1751998537391"/>
+<node TEXT="Phase 1" FOLDED="true" ID="ID_1569961818" CREATED="1751999299480" MODIFIED="1751999306693">
+<node TEXT="43-46" ID="ID_628196660" CREATED="1751999307203" MODIFIED="1751999312195">
+<node TEXT="build habit + emergency fund" ID="ID_1600284857" CREATED="1751999326591" MODIFIED="1751999338027"/>
+<node TEXT="20-30% bond" ID="ID_127373704" CREATED="1751999341935" MODIFIED="1751999360829"/>
+<node TEXT="70-80% equities" ID="ID_120903035" CREATED="1751999365735" MODIFIED="1751999374641">
+<node TEXT="70e/30b" ID="ID_852941107" CREATED="1751999634309" MODIFIED="1751999639741">
+<node TEXT="balances growth and protects against volatility." ID="ID_799512578" CREATED="1751999640127" MODIFIED="1751999666235"/>
+</node>
+<node ID="ID_1808154908" CREATED="1751999691585" MODIFIED="1751999697437"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th data-start="142" data-end="159" data-col-size="sm">
+          Target Return
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_24285506" CREATED="1751999704956" MODIFIED="1751999704956"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    ~6%
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Balances" ID="ID_202253341" CREATED="1751999713908" MODIFIED="1751999733104">
+<node ID="ID_494198486" CREATED="1751999738622" MODIFIED="1751999738622"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    ~$7.8 k
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Phase 2" ID="ID_759257902" CREATED="1751999757762" MODIFIED="1751999761639"/>
+<node TEXT="Phase 3" ID="ID_804430478" CREATED="1751999762913" MODIFIED="1751999765658"/>
+<node TEXT="Phase 4" ID="ID_375913923" CREATED="1751999766563" MODIFIED="1751999770394"/>
+<node TEXT="Phase 5" ID="ID_1214635302" CREATED="1751999771210" MODIFIED="1751999773599"/>
+<node TEXT="Phase 6" ID="ID_733504982" CREATED="1751999774498" MODIFIED="1751999777535"/>
+<node TEXT="ETFS" ID="ID_1256706948" CREATED="1752004101871" MODIFIED="1752004107253">
+<node TEXT="Nav" ID="ID_1772403308" CREATED="1752004112271" MODIFIED="1752004121578"/>
+<node TEXT="Expense ratio" ID="ID_1333876219" CREATED="1752004122497" MODIFIED="1752004129711"/>
+<node TEXT="Quality" FOLDED="true" ID="ID_1273025098" CREATED="1752004214971" MODIFIED="1752004225337">
+<node TEXT="Fund objective and strategy" ID="ID_643187177" CREATED="1752004225792" MODIFIED="1752004238405"/>
+<node TEXT="mgmt" ID="ID_1378999040" CREATED="1752004240222" MODIFIED="1752004255754">
+<node TEXT="track record" ID="ID_1473596041" CREATED="1752004258284" MODIFIED="1752004266803"/>
+<node TEXT="experience" ID="ID_1153807678" CREATED="1752004268465" MODIFIED="1752004275947"/>
+</node>
+<node TEXT="liquidity" ID="ID_1380188600" CREATED="1752004280366" MODIFIED="1752004282769">
+<node TEXT="trading volume" ID="ID_414802783" CREATED="1752004283264" MODIFIED="1752004291564"/>
+<node TEXT="spread" ID="ID_978026834" CREATED="1752004294077" MODIFIED="1752004299276"/>
+</node>
+<node TEXT="Holdings" ID="ID_138681304" CREATED="1752004305850" MODIFIED="1752004312233"/>
+</node>
+<node TEXT="Vs. Benchmark P/E" ID="ID_1158139391" CREATED="1752005418667" MODIFIED="1752005427753"/>
+</node>
+<node TEXT="DCF" ID="ID_724387457" CREATED="1752004346854" MODIFIED="1752004348985">
+<node TEXT="$ \text{DCF} = \sum_{t=1}^{n} \frac{FCF_t}{(1 + r)^t} + \frac{FCF_{n+1}}{(r - g)(1 + r)^n} $&#xa;" ID="ID_1572169677" CREATED="1752014545644" MODIFIED="1752014954699" FORMAT="latexPatternFormat"/>
+<node TEXT="\latex&#xa;\[&#xa;\mathrm{DCF}&#xa;= \sum_{t=1}^{n}&#xa;  \frac{CF_t}{(1 + r)^t}&#xa;+ \frac{TV}{(1 + r)^n}, \quad&#xa;TV = \frac{CF_{n+1}}{r - g}&#xa;\]" ID="ID_1654254705" CREATED="1752015067323" MODIFIED="1752015070718">
+<node TEXT="CFt​: cash flow at time t" ID="ID_33901596" CREATED="1752015158599" MODIFIED="1752015171376"/>
+<node TEXT="r: discount rate" ID="ID_1471158200" CREATED="1752015206787" MODIFIED="1752015211583"/>
+<node TEXT="n: number of forecast years" ID="ID_1773081844" CREATED="1752015220678" MODIFIED="1752015223886"/>
+<node TEXT=" gg being the perpetuity growth rate" ID="ID_637536102" CREATED="1752015229972" MODIFIED="1752015234579"/>
+</node>
+</node>
+</node>
+<node TEXT="Unsorted" POSITION="bottom_or_right" ID="ID_1071727047" CREATED="1751998110464" MODIFIED="1751998113141"/>
 </node>
 </map>
