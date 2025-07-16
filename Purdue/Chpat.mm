@@ -3,7 +3,7 @@
 <node TEXT="My Notes" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1737931298040">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8ff">
+<hook NAME="MapStyle" background="#f9f9f8ff" zoom="0.5">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1744920790000" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -4727,7 +4727,7 @@
 <node TEXT="Two-Stage Dividend Discount Model" ID="ID_1904654961" CREATED="1745797598384" MODIFIED="1745797614336"/>
 </node>
 </node>
-<node TEXT="Python" POSITION="top_or_left" ID="ID_1562820050" CREATED="1746907663355" MODIFIED="1746907666870">
+<node TEXT="Python" FOLDED="true" POSITION="top_or_left" ID="ID_1562820050" CREATED="1746907663355" MODIFIED="1746907666870">
 <node TEXT="Pandas" FOLDED="true" ID="ID_31643223" CREATED="1746907730772" MODIFIED="1746907733596">
 <node TEXT="create DataFrame" ID="ID_1889577349" CREATED="1746907733948" MODIFIED="1746909080908"><richcontent TYPE="NOTE">
 <html>
@@ -5330,9 +5330,9 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </node>
 </node>
 </node>
-<node TEXT="Sorted" POSITION="top_or_left" ID="ID_1262109112" CREATED="1751998105701" MODIFIED="1751998109629">
+<node TEXT="Sorted" FOLDED="true" POSITION="top_or_left" ID="ID_1262109112" CREATED="1751998105701" MODIFIED="1751998109629">
 <node TEXT="Current Yrs 2025 (43/67)" POSITION="top_or_left" ID="ID_351492493" CREATED="1751998513812" MODIFIED="1751998537391"/>
-<node TEXT="Phase 1" FOLDED="true" ID="ID_1569961818" CREATED="1751999299480" MODIFIED="1751999306693">
+<node TEXT="Phase 1" ID="ID_1569961818" CREATED="1751999299480" MODIFIED="1751999306693">
 <node TEXT="43-46" ID="ID_628196660" CREATED="1751999307203" MODIFIED="1751999312195">
 <node TEXT="build habit + emergency fund" ID="ID_1600284857" CREATED="1751999326591" MODIFIED="1751999338027"/>
 <node TEXT="20-30% bond" ID="ID_127373704" CREATED="1751999341935" MODIFIED="1751999360829"/>
@@ -5420,5 +5420,102 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </node>
 </node>
 <node TEXT="Unsorted" POSITION="bottom_or_right" ID="ID_1071727047" CREATED="1751998110464" MODIFIED="1751998113141"/>
+<node TEXT="Eload" POSITION="top_or_left" ID="ID_1612783000" CREATED="1752079086999" MODIFIED="1752079601387"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px">
+      GE/SR testing - Core Allocation
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      cores 0, 1 reserved for cpu processing
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      ptat -ct 1 -cpucore 0x3ffffffffc (2-37, 36c)
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      ptat -mt 1 -memcore 0x3fffc000000000 (38-53, 16c)
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      (mt 2 causes network diag to throttle in all cases)
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      fio
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      nvqual
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      network diag (55-63, 9c)
+    </p>
+    <p style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; text-indent: 0px; line-height: 22px">
+      sh set_affinity.sh
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="IFM" ID="ID_1734236068" CREATED="1752079094042" MODIFIED="1752079366126">
+<node TEXT="Eload/ifm_setup.sh #Port" ID="ID_310204424" CREATED="1752079367665" MODIFIED="1752079387993"/>
+<node TEXT="XFM" ID="ID_115377713" CREATED="1752079391561" MODIFIED="1752079395211">
+<node TEXT="Eload/xfm.sh #Porty" ID="ID_820572011" CREATED="1752079395823" MODIFIED="1752079416662"/>
+<node TEXT="GE" ID="ID_898680464" CREATED="1752079422106" MODIFIED="1752085676093">
+<node TEXT="Blade 5" ID="ID_1723823104" CREATED="1752085891022" MODIFIED="1752085905957">
+<node TEXT="blade6" ID="ID_97228073" CREATED="1752085906506" MODIFIED="1752085909164">
+<node TEXT="blade 1-4" ID="ID_1192157985" CREATED="1752085910491" MODIFIED="1752085922839">
+<node TEXT="template/establish_ssh_connection.py -w Free4All -v -c &quot;ssh admin@172.25.27.205&quot; -p 30005" ID="ID_407821432" CREATED="1752165775188" MODIFIED="1752165788979">
+<node TEXT="template/fi_to_blade_bmc.py -l admin -w Free4All -c &quot;connect cimc 2/5&quot; -p 30005" ID="ID_1089363320" CREATED="1752165796709" MODIFIED="1752166207503"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="background-color: #b20000;">Ensure ticket is renewed and valid</span>
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="./blade_1to4_setup.sh 30005" ID="ID_1270897686" CREATED="1752166230872" MODIFIED="1752168182190"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="template/establish_ssh_connection.py -w Free4All -v -c &quot;ssh admin@172.25.27.205&quot; -p 30005" ID="ID_788852741" CREATED="1752165775188" MODIFIED="1752165788979">
+<node TEXT="template/fi_to_blade_bmc.py -l admin -w Free4All -c &quot;connect cimc 2/5&quot; -p 30005" ID="ID_686365907" CREATED="1752165796709" MODIFIED="1752166207503"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="background-color: #b20000;">Ensure ticket is renewed and valid</span>
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="./blade_5_setup.sh 30005" ID="ID_638029312" CREATED="1752166230872" MODIFIED="1752166290938"/>
+</node>
+</node>
+</node>
+<node TEXT="SSH" ID="ID_993707576" CREATED="1752165367751" MODIFIED="1752165372942">
+<node TEXT="telnet 127.x.0.y 8021" ID="ID_1164296259" CREATED="1752165375900" MODIFIED="1752165391488">
+<node TEXT="./golden_eye.sh #PORT" ID="ID_527525124" CREATED="1752165396249" MODIFIED="1752165550656"/>
+</node>
+</node>
+</node>
+<node TEXT="switchcraft -c dump_switch_status" ID="ID_118890086" CREATED="1752085684100" MODIFIED="1752085830118">
+<node TEXT="switchcraft -c update_zone_info &apos;{&quot;Operation&quot;:&quot;CreateZone&quot;,&quot;SwitchId&quot;: 1, &quot;Ports&quot;:[2,1,4,5]}" ID="ID_687064700" CREATED="1752085831555" MODIFIED="1752085860388"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
