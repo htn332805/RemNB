@@ -1,6 +1,7 @@
 # Investment Concepts from Sources [1-75]
 NV47UKL4OITF57EC
 2340QQXMUZC7OM40
+08cc4babbae4af6b270f79788b4a8530
 ## Core Concepts
 - Return: What you make on investment [1, 2]
   - Income or Capital Gain [1, 2]
