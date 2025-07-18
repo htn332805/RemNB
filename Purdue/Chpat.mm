@@ -3,7 +3,7 @@
 <node TEXT="My Notes" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1737931298040">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8ff" zoom="0.5">
+<hook NAME="MapStyle" background="#f9f9f8ff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" allow_compact_layout="true" followedTemplateLocation="template:/light_nord_template.mm" followedMapLastTime="1744920790000" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -5469,11 +5469,11 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 <node TEXT="XFM" ID="ID_115377713" CREATED="1752079391561" MODIFIED="1752079395211">
 <node TEXT="Eload/xfm.sh #Porty" ID="ID_820572011" CREATED="1752079395823" MODIFIED="1752079416662"/>
 <node TEXT="GE" ID="ID_898680464" CREATED="1752079422106" MODIFIED="1752085676093">
-<node TEXT="Blade 5" ID="ID_1723823104" CREATED="1752085891022" MODIFIED="1752085905957">
+<node TEXT="Blade 5" FOLDED="true" ID="ID_1723823104" CREATED="1752085891022" MODIFIED="1752085905957">
 <node TEXT="blade6" ID="ID_97228073" CREATED="1752085906506" MODIFIED="1752085909164">
 <node TEXT="blade 1-4" ID="ID_1192157985" CREATED="1752085910491" MODIFIED="1752085922839">
 <node TEXT="template/establish_ssh_connection.py -w Free4All -v -c &quot;ssh admin@172.25.27.205&quot; -p 30005" ID="ID_407821432" CREATED="1752165775188" MODIFIED="1752165788979">
-<node TEXT="template/fi_to_blade_bmc.py -l admin -w Free4All -c &quot;connect cimc 2/5&quot; -p 30005" ID="ID_1089363320" CREATED="1752165796709" MODIFIED="1752166207503"><richcontent TYPE="DETAILS">
+<node TEXT="template/fi_to_blade_bmc.py -l admin -w Free4All -c &quot;connect cimc 2/5&quot; -p 30005" ID="ID_1089363320" CREATED="1752165796709" MODIFIED="1752166207503"><richcontent TYPE="DETAILS" HIDDEN="true">
 <html>
   <head>
     
@@ -5484,7 +5484,9 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
     </p>
   </body>
 </html></richcontent>
-<node TEXT="./blade_1to4_setup.sh 30005" ID="ID_1270897686" CREATED="1752166230872" MODIFIED="1752168182190"/>
+<node TEXT="./blade_1to4_setup.sh 30005" ID="ID_1270897686" CREATED="1752166230872" MODIFIED="1752517200572">
+<font SIZE="12"/>
+</node>
 </node>
 </node>
 </node>
@@ -5509,6 +5511,12 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 <node TEXT="telnet 127.x.0.y 8021" ID="ID_1164296259" CREATED="1752165375900" MODIFIED="1752165391488">
 <node TEXT="./golden_eye.sh #PORT" ID="ID_527525124" CREATED="1752165396249" MODIFIED="1752165550656"/>
 </node>
+</node>
+<node TEXT="OS" ID="ID_686571713" CREATED="1752517255511" MODIFIED="1752517257987">
+<node TEXT="stage 1" ID="ID_528850209" CREATED="1752517259138" MODIFIED="1752518386599">
+<node TEXT="bmc prompt" ID="ID_1236678912" CREATED="1752518386817" MODIFIED="1752518397775"/>
+</node>
+<node TEXT="stage 2" ID="ID_148435068" CREATED="1752518417177" MODIFIED="1752518420132"/>
 </node>
 </node>
 <node TEXT="switchcraft -c dump_switch_status" ID="ID_118890086" CREATED="1752085684100" MODIFIED="1752085830118">
