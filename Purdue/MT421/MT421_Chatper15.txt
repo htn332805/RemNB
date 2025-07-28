@@ -1,0 +1,797 @@
+Chapter 15Investing in Stocks
+
+PathDoc/Shutterstock
+
+Lynn owned 500 shares of a stock that she had bought at $40 per share. As the price rose steadily over several months to above $48, Lynn decided to implement a sell strategy that would take the uncertainty out of the sales transaction. She called her broker and placed a limit order to sell her stock if and when it reached $50 per share. A $50 per-share price would allow Lynn to earn a 25% return on her investment and result in a $5,000 gain.
+
+Over the next few days, the price slipped to the mid-40s and then drifted lower still. Lynn didn’t sell because she was sure the dip in price was only temporary. Finally, when the price reached $30 per share, she called her broker and sold all of her shares. Lynn ultimately suffered a $5,000 loss on her investment.
+
+When investing in stocks, your investment decisions depend on your risk tolerance, investing knowledge, and experience. You should approach any potential stock purchase with an investment strategy that will guide you in your stock selection. That investment strategy is the focus of this chapter.
+
+The objectives of this chapter are to
+Describe the role and functions of stock exchanges.
+
+Explain how to execute the purchase and sale of stocks.
+
+Explain how to estimate gains and taxes from trading stocks.
+
+Explain how to analyze a stock.
+
+Describe a stock’s exposure to economic conditions.
+
+Explain how investing in stocks fits into your financial plan.
+Stock Exchanges
+Most businesses are privately held by their owners. Some very large businesses choose to go public by selling shares to investors in order to obtain funding, which allows them to expand more easily. The shares that are purchased by the initial investors can be sold to other investors in the so-called secondary market, as explained in Chapter 14. This is a major advantage of stocks compared to some other types of investments, because any investors who own stock can sell it if either they need funds or they believe that the stock’s price will decline in the future.
+
+Stock exchanges are facilities that allow investors to purchase and sell existing stocks. They facilitate trading in the secondary market so that investors can sell stocks that they have previously purchased. A stock has to be listed on a stock exchange to be traded there, meaning that it must fulfill specific requirements of the exchange. For example, to list its stock, a firm may have to be a minimum size and have a minimum number of shares of stock outstanding. The requirements ensure that there will be an active market for stocks in which shares are commonly traded.
+
+stock exchanges
+Facilities that allow investors to purchase or sell existing stocks.
+
+The trading of stocks on a stock exchange is facilitated by stock brokerage firms that are licensed to execute the stock transactions for individuals or institutions that wish to make trades. Some brokerage firms are subsidiaries of very large financial conglomerates (such as Fidelity, Merrill Lynch, Schwab, and Vanguard), while others may represent a single person. Once investors have established a brokerage account with a brokerage firm, they can trade stocks on a stock exchange through their brokerage firm.
+
+New York Stock Exchange
+The New York Stock Exchange (NYSE) was created in 1817 to facilitate the orderly trading of stocks between investors. It had a trading floor where traders were authorized to trade stocks listed on the exchange for themselves or others. While the process of trading has changed in the last 20 years, the NYSE still serves a major role as an intermediary between investors who wish to trade stocks.
+
+There are about 2,400 different corporations whose stocks are listed on the NYSE, which means that the stock can be traded on the exchange. To be listed on the NYSE, a corporation must have a market valuation (total value of all of its shares of stock) of at least $100 million, among other requirements. The initial listing fee is $295,000 and there is also an annual fee of $74,000. Most large well-known corporations are listed on the NYSE, including Coca-Cola Co., ExxonMobil Corp., McDonald’s Corp., and Walmart.
+
+The market capitalization of the NYSE (measured by combining the market valuation of all listed corporations) is $21 trillion, which makes the NYSE the largest stock market in the world. On a typical day, the volume of stock trading on the NYSE exceeds $3 billion per day. Today, most trades are executed electronically. The NYSE is served by electronic communications networks (ECNs), which are computer systems that match desired purchases and sales of stocks. The ECN receives orders from investors to buy shares of a stock at a specified price and matches them with orders from investors to sell the stock at that price. Because every part of this process can be completed electronically, the time from your request until you receive confirmation that your request was executed is often just a few seconds. The process is now much more efficient, so the transaction cost to investors who buy or sell stocks is very small.
+
+electronic communications networks (ECNs)
+Computer systems that match desired purchases and sales of stocks.
+
+For many of the stocks traded on the NYSE, the trading is very active: More than 1 million shares are traded every day for many of the stocks that are traded on the NYSE. Thus, it is normally easy to sell these stocks because there are many willing buyers.
+
+A Typical Stock Transaction on the NYSE
+To buy a stock that is listed on the NYSE, you can contact your brokerage firm online through your brokerage account and specify the name of the stock, the number of shares you want to purchase, and the maximum price you are willing to pay for the stock. The brokerage firm will submit your request electronically to the NYSE.
+
+Meanwhile, other investors who own the stock and wish to sell it submit their preferences electronically to the NYSE, with an indication of the prices at which they are willing to sell the stock. A computer matches up buy and sell orders and communicates your executed order to the brokerage firm. Then your brokerage firm sends a message to your account to confirm that the trade has been executed and the specific price at which the trade was executed.
+
+Floor Traders and Specialists
+Traditionally, some traders (called floor traders) on the NYSE executed trades to accommodate requests by other investors (such as individual investors like you), and other traders executed trades for themselves. Some traders, traditionally called specialists but now generally known as designated market makers (DMMs), helped to create a market in one or more stocks by taking an opposite position to the orders placed by clients. That is, they might have been willing to buy the stocks that an investor wanted to sell or sell holdings of the stocks that an investor wanted to buy.
+
+floor traders
+Traders at a stock exchange who execute trades to fill orders placed by other investors.
+
+designated market makers (DMMs), or specialists
+Traders who help to create a market in one or more stocks by taking an opposite position to the orders placed by clients.
+
+Floor traders and DMMs still exist, but their numbers have declined, and so has their importance. Nevertheless, during periods of extreme imbalances in the market, floor traders and DMMs can still play a role in promoting stability and orderly trading.
+
+Nasdaq Stock Market
+The other major stock market in the United States is the Nasdaq market. It was founded in 1971 by the National Association of Securities Dealers. The name was an acronym for the National Association of Securities Dealers Quotations system, which was the electronic system on which the market operated. Today, the Nasdaq is owned by Nasdaq, Inc., a publicly traded company.
+
+The Nasdaq market has about 3,600 stocks of different corporations listed, but the market capitalization of these corporations is smaller on average than that of the corporations listed on the NYSE. The Nasdaq market has a market capitalization of about $11 trillion, so it is about half the size of the NYSE based on this measurement.
+
+To be listed on the Nasdaq market, a corporation must have a market valuation of at least $45 million. Corporations must also pay an initial listing fee and an annual listing fee that can vary among firms, but they are lower than the listing fees charged by the NYSE. While Nasdaq corporations are generally smaller than corporations listed on the NYSE, there are some very large and well-known corporations listed on the Nasdaq market, including Alphabet Inc. (Google), Amazon.com, Inc., Apple Inc., Microsoft Corp., and Tesla, Inc. Many of the technology corporations are listed on the Nasdaq market.
+
+The trading volume in the Nasdaq market is often more than 3 billion shares per day, but the valuation of the trading volume is lower than the NYSE. The Nasdaq and NYSE account for more than half the value of all stock transactions around the world on a typical day. Some stocks in the Nasdaq market are very active. Apple’s stock volume is about 21 million shares per day, Microsoft’s stock volume is about 27 million shares per day, and Tesla’s stock volume is more than 100 million shares per day.
+
+Since its beginning, the Nasdaq has operated entirely as an electronic system without a physical trading floor. The process for buying or selling stocks listed on the Nasdaq market is similar to the process for trading stocks on the NYSE. In fact, you do not even need to know where your stock is listed, as long as you know the ticker symbol (representing an abbreviated name of the stock) that identifies the stock you wish to trade. Examples of ticker symbols are shown in Exhibit 15.1. You can easily find ticker symbols online for any corporations that are listed on the stock exchanges.
+
+Exhibit 15.1 Ticker Symbols for Stocks of Selected Corporations
+
+Figure 15.1 Full Alternative Text
+ticker symbol
+The abbreviated term that is used to identify a stock for trading purposes.
+
+Financial Planning ONLINE
+Go to
+stockanalysis.com/stocks/
+To get
+Ticker symbols for any corporations.
+
+Like the NYSE, the Nasdaq market is served by various ECNs that match buy orders with sell orders for each particular stock, which allows for trading to be executed very efficiently. The Nasdaq market is also served by market makers, which are broker-dealer firms that continuously stand ready to buy and sell a particular security at a publicly quoted price. Their role within the Nasdaq market is similar to that of the DMMs in the NYSE. However, their role has diminished over time since ECNs have become more popular.
+
+market makers
+Broker-dealer firms that continuously stand ready to buy and sell a particular security; they execute trades over an electronic network and earn commissions in the form of a bid–ask spread.
+
+Other Stock Exchanges
+The NYSE American stock exchange (formerly known as the American Stock Exchange) focuses on the trading of stocks of smaller firms. These stocks are less actively traded than those on the NYSE. There are also some regional securities exchanges located in large U.S. cities. These regional exchanges tend to have less stringent listing requirements and therefore list stocks from smaller firms that may be well known in that specific region. Stocks are traded on the NYSE American and the regional stock exchanges in much the same way as on the NYSE.
+
+Over-the-Counter (OTC) Markets
+The over-the-counter (OTC) markets operate through an ECN that allows investors to buy or sell securities. They have less transparency and are less regulated. The stocks traded in OTC markets exhibit more uncertainty because there is limited information about the corporations that they represent.
+
+over-the-counter (OTC) markets
+Markets that operate through an ECN that allows investors to buy or sell securities; they have less transparency and less stringent regulations than the NYSE or Nasdaq.
+
+High Potential Return of OTC Stocks
+Some investors may find the OTC markets appealing because of the limited public information about these corporations. They might know about a particular company in the OTC market that has very favorable prospects, but its stock price might be very low because most investors are not aware of the company. Therefore, investors who are aware of the company’s favorable prospects can purchase the stock at a very low price. They would expect that once the company generates a high level of sales and earnings, it will be noticed by other investors, and its stock price will rise as the demand for its shares rises. Then the investors who purchased shares at the very low price can sell their shares for a very high price and will earn a high return on their investment. There are many companies whose stocks are traded on the OTC markets that have experienced strong performance, and the investors who invested in those companies at an early stage usually earned a high return.
+
+High Risk of OTC Stocks
+However, there are also many situations in which this type of strategy backfired, because the company never performed as expected by some investors. Therefore, the investors who invested in these companies at an early stage probably lost most or all of their investment. These investors might complain that the companies did not disclose all of the potential limitations of their business. Yet perhaps the companies were not required by the OTC markets to disclose such information.
+
+Given the limited information about OTC companies, there can be very abrupt increases in an OTC stock’s price when a company performs well because such performance was not anticipated by most investors. The stock price responds very favorably once a company demonstrates high performance. Conversely, there can be abrupt reductions in an OTC stock’s price when a company performs poorly because such performance was not anticipated by most investors. In general, the lack of information about the company causes more surprises once the company’s performance is reported, and this causes greater volatility in the stock price. Thus, you might be more likely to experience a higher gain on a typical stock in the OTC market than in the NYSE or Nasdaq market over a given day, week, or month. However, you are also more likely to experience a more pronounced loss on a typical stock in the OTC market than on a typical stock in the NYSE or Nasdaq market over a given day, week, or month. In other words, stocks in the OTC market are more risky than stocks in the NYSE or Nasdaq market.
+
+OTC stocks tend to be less actively traded than stocks on the NYSE or Nasdaq market. This can also cause a stock’s movements to be more volatile. Imagine a situation in which an institutional investor wants to sell a large amount of the OTC stock it is holding. Because there is limited activity, there may not be many buyers who are willing to buy this stock at a given time. Thus, the equilibrium price of the stock might have to decrease substantially in order for the ECN to find enough willing buyers of this stock to match the large quantity of stock being sold by the institutional investor. This type of situation is unlikely on the NYSE.
+
+The most important OTC markets are the OTCQX Best Market, the OTCQB Venture Market, and the Pink Open Market, all of which are operated by OTC Markets Group. The OTCQX Best Market lists about 10,000 stocks and has less stringent listing requirements than the NYSE and Nasdaq. The OTCQB Venture Market specializes in listing small startup companies and has minimal listing requirements. The Pink Open Market has no disclosure requirements or financial standards. Companies listed there are usually in financial difficulty, and purchasing their stocks is extremely risky.
+
+ECNs are also used to execute transactions on the NYSE and the NYSE American LLC. They can match orders at any time, so they are especially valuable at night after the exchanges are closed.
+
+At many online brokerage firms, if an order comes in after the stock exchanges are closed (during so-called after-hours trading, which is conducted from 4 p.m. to 8 p.m. Eastern Standard Time [EST]), the firm will send the order to the ECNs, where the trade will be executed. However, at this time there may not be sufficient trading volume in some stocks, especially those of small companies, to enable all transactions to be executed. An investor who wants to sell a thinly traded stock may not be able to find a willing buyer. As more investors have learned that they can have orders executed at night, however, the trading volume has increased, making ECNs even more popular.
+
+FREE APPS for Personal Finance
+
+Obtain Real-Time Stock Quotes
+Application
+Many apps provide updated real-time stock prices for investors. Furthermore, investors can establish their own list of stocks that they wish to monitor, and the app will provide continuously updated stock price information for all stocks on that list.
+
+To Find It
+Search for “Stock Tracker” apps on your mobile device.
+Buying and Selling Stocks
+When trading stocks, you need to begin by selecting a brokerage firm and placing an order. These functions are discussed next.
+
+Selecting a Broker
+Many well-known brokerage firms serve individuals, including Charles Schwab, Fidelity, J.P.Morgan Chase, Merrill Lynch, and Vanguard. When selecting a broker, consider the following characteristics.
+
+Analyst Recommendations
+You have access to stock ratings that are assigned by stock analysts employed by brokerage firms. Recommendations from brokers and analysts have limitations, however. Some brokerage firms may advise you to buy or sell securities frequently, rather than holding on to your investment portfolio over time, because for each transaction you must pay a commission to that brokerage firm. In addition, frequent trading may cause you to hold on to stocks for less than one year, so the capital gain is treated as ordinary income for federal income tax purposes (unless the gain occurs as a result of trading stocks in your retirement account). If your marginal tax rate on ordinary income is higher than 15% (the current maximum long-term capital gains tax rate for most taxpayers), you will be subject to a higher tax rate because you did not hold the stocks for at least one year. Many studies have shown that the recommendations made by brokers or analysts do not lead to better performance than the stock market in general. Some advisers have very limited experience in analyzing and valuing securities. Even those who are very experienced will not necessarily be able to help you achieve unusually high performance.
+
+Brokers and analysts tend to be overly optimistic about stocks. They prefer not to mention negative opinions about stocks because they do not want to offend any firms with which their own investment firm might do business in the future.
+
+In response to much criticism, some analysts have become more willing to issue sell recommendations on some stocks. However, there is still a tendency for analysts to be generally optimistic about most stocks, and some conflicts of interest may occur. For example, analysts may own the stocks they are recommending, so it is in their best interests to create a demand for the stock so that its price will rise. Today, analysts have to disclose ownership of stocks that they recommend.
+
+Individual Broker Skills
+Brokers within a brokerage firm have unique skills and personalities. Your preference for a specific firm might be heavily influenced by the individual broker who serves you. You can obtain information about individual brokers on the Internet.
+
+Brokerage Commissions
+You can choose a discount or full-service brokerage firm. A discount brokerage firm executes your desired transactions but does not offer investment advice. A full-service brokerage firm offers investment advice and executes transactions. Full-service brokerage firms tend to charge higher fees for their services than discount brokers. Today, many discount brokers will execute stock transactions at no cost to you. Some brokerage firms may provide a full service to some clients and discount brokerage to other clients. Many brokerage firms are subsidiaries of a big financial conglomerate, so when they offer free brokerage services on stock transactions, they can still profit from offering additional related services to their clients.
+
+discount brokerage firm
+A brokerage firm that executes your desired transactions but does not offer investment advice.
+
+full-service brokerage firm
+A brokerage firm that offers investment advice and executes transactions.
+
+Placing an Order
+Whenever you place an order to buy or sell a stock, you must specify the following:
+
+Name of the stock
+
+Buy or sell
+
+Number of shares
+
+Market order or limit order
+
+Name of the Stock
+The name of each stock is identified by its ticker symbol for trading purposes.
+
+Buy or Sell
+Brokerage firms execute buy and sell transactions. Therefore, you need to specify whether you are buying or selling a security at the time you place the order. Once you place your order and it is executed, you are bound by the instructions you gave.
+
+Market Order or Limit Order
+You can buy or sell a stock by placing a market order, which is an order to execute the transaction at the stock’s prevailing market price. The advantage of a market order is that you are assured that your order will be executed quickly. A disadvantage is that the stock price could change abruptly just before you place your order, causing you to pay much more for the stock than you expected.
+
+market order
+An order to buy or sell a stock at its prevailing market price.
+
+Example
+You want to buy 100 shares of Trendy stock, which had a closing price of $40. You assume that you will pay about $40 per share when the market opens this morning, or 
+$
+4,000
+ ($
+40
+×
+100
+ shares),
+ not including the commission. However, your order is executed at $43, which means that you pay 
+$
+4,300
+ ($
+43
+×
+100
+ shares).
+ Unfortunately for you, many other investors also wanted to buy Trendy stock this morning, creating increased demand for the stock. The strong demand relative to the small number of shares available for sale caused the stock price to increase to $43 before your broker could find a willing seller of Trendy stock.
+
+Alternatively, you can buy or sell stock by placing a limit order, which is an order to execute the transaction only if the price is within the limits that you specify. A limit order sets a maximum price at which you would be willing to pay for the stock or the minimum price at which you would be willing to sell the stock. You must also specify whether the limit order is good for one day or until you decide to cancel the order. Normally orders are canceled in six months if a transaction has not been executed by then. You should also specify if you are willing to accept a trade for a portion of the shares within your order or if you will only accept a trade if the entire order can be executed.
+
+limit order
+An order to buy or sell a stock only if the price is within the limits that you specify.
+
+Example
+Using the information in the previous example, you place a limit order on Trendy stock, with a maximum limit of $41, good for the day. When the stock opens at $43 this morning, your order is not executed because the market price exceeds your limit price. Later in the day, the stock price declines to $41, at which time your order is executed.
+
+A disadvantage of a limit order when buying stock is that you may miss out on a transaction that you desired. If the price of Trendy stock had continued to rise throughout the day after opening at $43, your order would not have been executed at all.
+
+Limit orders can also be used to sell stocks. In this case, a limit order specifies a minimum price at which the stock should be sold.
+
+Example
+You own 100 shares of Zina stock, which is currently worth $18 per share. You would be willing to sell it at $20 per share. You do not have time to monitor the market price so that you can sell the stock when its price is at least $20 per share. Therefore, you place a limit order to sell 100 shares of Zina stock at a minimum price of $20, good until canceled. A few months later, Zina’s price rises to $20 per share. You soon receive confirmation from your brokerage firm that the transaction has been executed.
+
+Stop Orders
+A stop order is a special form of limit order to execute a transaction when the stock price reaches a specified level. A buy stop order is an order for the brokerage firm to buy a stock for the investor when the price rises to a specified level. Conversely, a sell stop order is an order for the brokerage firm to sell a stock when the price falls to a specified level.
+
+stop order
+An order to execute a transaction when the stock price reaches a specified level; a special form of limit order.
+
+buy stop order
+An order to buy a stock when the price rises to a specified level.
+
+sell stop order
+An order to sell a stock when the price falls to a specified level.
+Placing an Order Online
+Individuals who wish to buy or sell stocks are increasingly using online brokerage services such as TD Ameritrade and E*TRADE. One advantage of placing orders online is that there is often no commission charged per transaction. A second advantage is the convenience. In addition to accepting orders, online brokers provide real-time stock quotes and financial information. To establish an account with an online brokerage service, go to its website and follow the instructions to set up an account. Then you’ll need to send the online broker a check; once the check has cleared, your account will show that you have funds you can use to invest online. Generally, you are required to maintain a minimum balance in your account such as $500 or $1,000.
+
+Financial Planning ONLINE
+Go to
+www.etrade.com
+
+To get
+Information that you can use when making investment decisions. The website also illustrates how you can trade stocks online, which typically reduces your transaction costs.
+
+Many online brokerage firms have a money market fund where your cash is deposited until it is used to make transactions. Consequently, you can earn some interest on your funds until you use them to purchase securities. Once you place an order, the online brokerage firm will use the money in your money market fund to pay for the transaction. You can place an order from your computer in less than a minute, and the order will often be executed just as quickly.
+
+FREE APPS for Personal Finance
+
+Manage Your Stocks
+Application
+The Fidelity Investments app (by Fidelity Investments) allows you to monitor your investments, transfer funds within your account, buy and sell stocks or mutual funds, and check the status of orders.
+
+To Find It
+Search for the Fidelity Investments app on your mobile device.
+
+Buying Stock on Margin
+Some investors choose to purchase stock on margin, meaning that a portion of their purchase is funded with money borrowed from their brokerage firm. Buying a stock on margin enables you to purchase stocks without having the full amount of cash necessary.
+
+on margin
+Purchasing a stock with a portion of the funds borrowed from a brokerage firm.
+
+The Federal Reserve limits the margin to 50%, so a maximum of 50% of the investment can be borrowed from the brokerage firm. If the value of investments made with partially borrowed funds declines, you may receive a margin call from your brokerage firm, meaning that you have to increase the cash in your account to bring the margin back up to the minimum level.
+
+margin call
+A request from a brokerage firm for the investor to increase the cash in the account to bring the margin back up to the minimum level.
+
+When you buy a stock on margin, the gain on your investment is magnified because you can create a larger investment with the borrowed funds. However, if the stock price declines, your loss will be magnified. For example, if you invest $1,000 of your own money but do not borrow any funds, your maximum loss is $1,000. Conversely, if you invest $1,000 of your own money and borrow an additional $1,000 to invest, your maximum loss is now $2,000. You still need to repay the funds you borrowed, regardless of the performance of your investment.
+
+Short Selling Stock
+Short selling (or shorting) a stock is the process by which investors sell a stock that they do not own. Investors consider short selling a stock when the stock is overvalued in their opinion. In the short-selling process, investors borrow the stock from another investor and will ultimately have to return that stock to the brokerage firm from which they borrowed it. Their goal is to sell the stock while the price is relatively high. Then they will purchase the stock at a future point in time after the price has declined, so that they can return the stock to the brokerage firm from which they initially borrowed the stock. Like any investor, short sellers attempt to buy low (buy the stock at a low price) and sell high (sell the stock at a high price). The only difference from the normal investing process is that they sell the stock first (before they even own it) and then buy it later.
+short selling (shorting)
+A process by which investors sell a stock that they do not own.
+
+Like any stock investment, the risk of short selling is that the return is uncertain because the future conditions that affect the stock price are uncertain. Investors who expect that the stock price will decline may be wrong. If the stock price rises following their short sale, they will ultimately have to pay a higher price than the price at which they initially sold the stock. Consequently, they would suffer a loss on their investment.
+Gains and Taxes from Trading Stocks
+Once you sell your investment, you can measure the return that you earned on the investment. For stocks that do not provide any dividends, the dollar amount of the return is the capital gain, measured as the dollar amount at which you sold your stock minus the dollar amount at which you purchased your stock.
+
+However, a $200 capital gain on the stock reflects a much better outcome if the initial investment was $300 as opposed to if the initial investment was $100,000. To account for the size of the initial investment, the return on investment 
+(
+𝑅
+)
+ is a useful measurement of the stock’s performance. Specifically, when purchasing stocks that do not pay dividends, the return 
+(
+𝑅
+)
+ can be measured as the percentage change in the price 
+(
+𝑃
+)
+ per share from the time the investment was purchased (time 
+𝑡
+−
+1
+) until the time at which it is sold (time 
+𝑡
+):
+
+𝑅
+=
+𝑃
+𝑡
+−
+𝑃
+𝑡
+−
+1
+𝑃
+𝑡
+−
+1
+If you invest in a stock that pays dividends, your return is influenced by share price appreciation (the capital gain) plus dividends. To measure your return for a short-term period such as one year or less, add the dividends per share to the capital gain per share in the numerator of the return equation. Your return on investment 
+(
+𝑅
+)
+ is measured as the capital gain per share plus the dividends per share (represented by the numerator) divided by the initial investment per share (represented by the denominator):
+
+𝑅
+=
+(
+𝑃
+𝑡
+−
+𝑃
+𝑡
+−
+1
+)
++
+𝐷
+𝑃
+𝑡
+−
+1
+where 
+𝑃
+𝑡
+−
+1
+ is the price of the stock at the time of the investment, 
+𝑃
+𝑡
+ is the price of the stock at the end of the investment horizon, and 
+𝐷
+ represents the dividends earned over the investment horizon.
+
+Example
+One year ago, you purchased 100 shares of Skylar Music Corporation stock for $50 per share. You sold the shares today for $60 per share. Assume that Skylar paid a $1 dividend over the year. The results of your investment are as follows:
+
+You paid $5,000 for your investment (computed as 
+100
+ shares
+×
+$
+50
+ per share
+).
+
+You sold your investment for $6,000 (computed as 
+100
+ shares
+×
+$
+60
+ per share
+).
+
+Your capital gain is 
+$
+6,000
+−
+$
+5,000
+=
+$
+1,000
+.
+
+You received dividends of $100 (computed as 
+100
+ shares
+×
+$
+1
+ per share
+)
+
+Your return on investment 
+(
+𝑅
+)
+ would be
+
+𝑅
+=
+[
+(
+$
+6,000
+−
+$
+5,000
+)
++
+$
+100
+]
+/$
+5,000
+=
+$
+1,100
+/$
+5,000
+=
+0.22
+ or 
+22
+%
+You can also measure your return on a per-share basis:
+
+𝑅
+=
+[
+(
+$
+60
+ per share
+−
+$
+50
+ per share
+)
++
+$
+1
+ dividend per share
+]
+/$
+50
+ per share
+=
+0.22
+ or 
+22
+%
+   
+which is the same return that was derived when using total dollar amounts for your initial investment and the sale of your investment.
+
+Your dividend income and your capital gain are subject to special tax laws, which can affect the appeal of stocks to investors like you.
+
+Tax on Dividend Payments
+When stocks pay dividends, investors are taxed on dividend income. However, the tax rate on dividends depends on whether the dividends are qualified or not, as determined by the Internal Revenue Service. The technical definition of qualified is beyond the scope of this textbook, but it primarily depends on when the investor purchased the stock relative to the date when the dividend is distributed. You can review the technical details on various tax websites. The providers of dividends are required to determine whether the dividends they distributed are qualified or not. When you receive your DIV-1099 tax form during tax season, you can review it to determine what proportion of your taxes were qualified. In general, dividends received from stocks or mutual funds are commonly qualified.
+
+Financial Planning ONLINE
+Go to
+www.irs.gov/forms-pubs/about-form-1099-div
+
+To get
+More information about classifying dividends as qualified versus unqualified.
+
+If your dividends are qualified, you will pay the long-term capital gains tax on those dividends, which is usually 15%. If they are not qualified, they would be treated as ordinary income, so you would be taxed at your marginal income tax bracket. Thus, if your marginal tax bracket exceeds 15%, your taxes on dividends will be reduced if the dividends are qualified. Investors who are in high tax brackets who want their investments to generate periodic income benefit from investing in stocks that pay dividends (assuming that the dividends are qualified) rather than investing in bank certificates of deposit (CDs). The interest income on CDs would be treated as ordinary income for tax purposes, while the qualified dividends would be subject to a 15% tax for most investors.
+
+Tax on Capital Gains
+When you earn a capital gain over a period of one year or less, your capital gain is taxed at your marginal tax rate. However, when you earn a capital gain over a period beyond one year, your capital gain is usually taxed at a rate of 15%. Investors whose marginal income tax bracket is higher than 15% will pay a higher tax rate on a capital gain classified as short-term than a capital gain classified as long-term. Thus, many investors typically hold stocks for a period beyond one year in order to benefit from the lower tax rate.
+
+Example
+Assume that you are in the 32% marginal income tax bracket. Following the previous example, if you sell your investment in Skylar stock one year from the time at which you purchased the stock, your capital gain would be classified as short-term for tax purposes, and it will be taxed as follows:
+
+Tax on short-term capital gain
+=
+Marginal tax bracket
+×
+Short-term capital gain
+=
+32
+%
+×
+$
+1,000
+=
+$
+320
+However, if you hold this investment for one more day before selling it, your investment period would exceed one year, so the capital gain would be classified as long-term instead of short-term. Consequently, your capital gain would be subject to a 15% tax rate:
+
+Tax on long-term capital gain
+=
+Long-term capital gain tax
+×
+Long-term capital gain
+=
+15
+%
+×
+$
+1,000
+=
+$
+150
+Notice that as a result of keeping the investment long enough to classify your capital gain as long term, you were able to reduce your tax from $320 to $150. Thus, your tax savings is 
+$
+320
+−
+$
+150
+=
+$
+170
+.
+
+In this example, the tax on the dividends that you received from investing in Skylar stock would not be affected by whether your investment is classified as short term or long term. It is simply determined by whether the dividends are qualified or not.
+
+This example does not imply that all investors whose marginal tax bracket exceeds 15% should always keep investments beyond one year. In some situations, the share price might have risen significantly in the first few months, but investors could be concerned that the investment will deteriorate over time. If so, they should sell the investment at that time, even though they may be subject to a higher tax rate than if they held the investment longer than one year.
+Analyzing Stocks
+The performance of a firm and therefore the firm’s stock price depends on how well it is managed. Investors benefit when they invest in a well-managed firm because the firm’s earnings usually will increase over time, and so will its stock price. In contrast, a poorly managed firm may have lower earnings over time, which could cause its stock price to decline.
+
+Stock Valuation Techniques
+When valuing stocks, investors may use technical analysis or fundamental analysis. Technical analysis is the valuation of stocks based on historical price patterns. For example, you might purchase a stock whenever its price rises for three consecutive days because you expect that a trend in prices indicates future price movements. Alternatively, you may decide to sell a stock if its price declines for several consecutive days because you expect that the trend will continue.
+
+technical analysis
+The valuation of stocks based on historical price patterns.
+
+Fundamental analysis is the valuation of stocks based on an examination of fundamental characteristics of the firm, such as its revenue or earnings. There are many different ways to apply fundamental analysis, as explained next.
+
+fundamental analysis
+The valuation of stocks based on an examination of fundamental characteristics such as revenue or earnings, or the sensitivity of the firm’s performance to economic conditions.
+
+Analyzing a Firm’s Financial Condition
+One firm can outperform another in the same industry because its managers make better decisions about how to finance its business, market its products, and manage its employees. By analyzing a firm, you can assess its recent and potential future performance.
+
+The impact of the firm’s financial condition on its value and stock price (for firms that have publicly traded stock) is summarized in Exhibit 15.2. When most investors suddenly believe that a firm’s sales and profits will be strong for the next several quarters, they are more willing to invest in the firm’s stock. Because the firm’s prospects look bright, few investors will be willing to sell its stock. Thus, the demand for the stock should be much greater than the supply of stock for sale by investors, and the price of the stock rises.
+
+Exhibit 15.2 Impact of a Firm’s Performance on Its Stock Price
+
+Figure 15.2 Full Alternative Text
+Conversely, when investors suddenly believe that a firm’s sales and profits will be weak for the next several quarters, the demand for this stock would be weak, while those investors who are holding this stock may want to sell it. Consequently, the stock’s price should decrease.
+
+One method of assessing a firm’s existing and potential financial condition is to review the financial information that it provides to the public. Firms that are publicly traded publish an annual report that contains standardized financial information. Specifically, the report includes a letter summarizing the firm’s recent performance and its expected performance in the future. The report also contains financial statements measuring the firm’s financial condition, which you can examine in the same manner that you evaluate your personal financial statements to determine your financial health.
+Publicly traded firms are also required to update their financial statements every quarter. You can review annual reports and financial statements for most companies from their websites or from various financial websites. Prospective investors typically focus on the balance sheet and income statement.
+
+Balance Sheet
+A firm’s balance sheet indicates its sources of funds and how it has invested its funds at a particular point in time. The balance sheet has two parts: (1) assets and (2) liabilities and shareholder’s equity. These two parts must balance.
+
+balance sheet
+A financial statement that indicates a firm’s sources of funds and how it has invested its funds at a particular point in time.
+
+The firm’s assets indicate how it has invested its funds and what it owns. Assets are often classified as short-term and long-term assets. Short-term assets include cash, securities purchased by the firm, accounts receivable (money owed to the firm for previous sales), and inventories (materials used to produce products and finished products waiting to be sold). Long-term assets (sometimes called fixed assets) include machinery and buildings purchased by the firm. For some firms, their most valuable assets are intangible assets such as intellectual property, which includes patents and copyrights. Technology firms and pharmaceutical companies, for example, are likely to have valuable intangible assets.
+
+The liabilities and shareholder’s equity indicate how the firm has obtained its funds. Liabilities represent the amount owed to creditors or suppliers and are classified as short term or long term. Shareholder’s equity is measured as the firm’s assets minus the firm’s liabilities and represents the net worth of the firm. It represents the investment in the firm by investors.
+
+Income Statement
+The firm’s income statement measures its revenues, expenses, and earnings over a particular period of time. Investors use it to determine how much income (earnings) the firm generated over a particular period or what expenses the firm incurred. An annual report may include an income statement for the year and for the four quarters within that year.
+
+income statement
+A financial statement that measures a firm’s revenues, expenses, and earnings over a particular period of time.
+
+The income statement starts with revenues generated by the firm over the year. Then the cost of goods sold (which includes the cost of materials used in production) is subtracted to derive the gross profit. Operating expenses (such as salaries) are subtracted from the gross profit to determine earnings before interest and taxes (also referred to as operating profit). Finally, interest payments and taxes are subtracted to determine the earnings after taxes (also referred to as the net profit).
+
+FREE APPS for Personal Finance
+
+Financial Data Analysis
+Application
+Several apps provide valuable business news, financial data analysis, and financial news video coverage for investors.
+
+To Find It
+Search for “financial news” apps on your mobile device.
+
+Accounting Fraud
+In the early 2000s, scandals at several large companies including Enron and WorldCom brought attention to the accounting practices of certain firms. One of the problems that led to the scandals was the conflict of interest that may occur between a firm’s top managers and investors who purchase its stock. A firm’s top managers are commonly evaluated according to how the firm’s value (as measured by stock price) changes over time. These managers may receive shares of the firm’s stock as part of their compensation. Thus, if the value of the firm increases, the managers can sell their shares at a high price and earn a high level of compensation.
+
+Consequently, the managers may seek to use an accounting method that will either inflate the firm’s revenue or deflate its expenses, causing the firm’s reported earnings to appear higher than they actually are. Investors who rely on those reported earnings to derive the stock value will buy the stock when they believe that the firm’s earnings have risen. Their actions push the value of the stock higher. Ultimately, however, investors recognize that the firm’s financial statements are not accurate, and the stock price falls. Consequently, many investors may lose most or all of the money that they invested because they trusted the firm’s financial statements. Although legislation was enacted after these scandals to curb the worst abuses and reform the accounting methods used by companies, managers at many firms continue to have an incentive to make their companies look more profitable than they actually are.
+A Stock’s Financial Statistics
+Stock price quotations are readily available on many financial websites such as www.bloomberg.com and www.cnbc.com. Online stock quotations provide information about the price of each stock in real-time or over the previous trading session if the market is closed. Newspaper quotations provide information about the previous day. Many sources that provide stock price quotations also provide detailed financial statistics about the stock. An example is shown in Exhibit 15.3 for Zugle Company after the trading session was closed.
+
+Exhibit 15.3 Example of Stock Quotation as Provided by Financial Websites
+
+Figure 15.3 Full Alternative Text
+Exhibit 15.3 shows that Zugle’s stock opened the day at $24.11 per share, meaning that its first trade of the day was at that price. The price reached a low of $23.70 and a high of $24.72 over the day, and its closing price was $24.28. Its trading volume was more than 1 million shares over the day. In a typical day, a stock might have thousands of trades. Investors tend to be very interested in the range during the day and whether the closing stock price is higher or lower than its opening price. The range indicates the degree of uncertainty surrounding s stock’s price. Stocks that experience wider ranges in price are perceived as risky because there is more uncertainty about their future price movements. The dividend yield (annual dividends as a percentage of the stock price) represents the annual return that you would receive solely from dividends if you purchased the stock today and if the dividend payments remain unchanged. The price-earnings (P/E) ratio is the stock price divided by the firm’s annual earnings per share. Some investors closely monitor the P/E ratio when attempting to value stocks because they may believe that firms with relatively low P/E ratios are undervalued.
+
+Financial Planning ONLINE
+Go to
+The finance section of www.yahoo.com
+
+To get
+Price quotes or analyst recommendations about a stock that you specify.
+
+In addition to the details shown in Exhibit 15.3, many financial websites provide the following information: a chart showing how the stock has moved on the current trading day and charts for previous periods such as the previous five days, one month, three months, six months, one year, and five years; financial information such as earnings per share, revenue, return on equity, debt, and market capitalization; the percentage of the stock owned by institutional investors; the date of the next dividend payment and the date when the company will release its next quarterly earnings report; and the latest news about the company as well as analysts’ recommendations and price targets.
+
+The same type of financial information can also be accessed on free apps that are available for your mobile phone, such as the Yahoo Finance app. Once you establish a list of stocks that you own or wish to monitor, you can review the financial statistics of those stocks at any time, along with the real-time market price for every stock that is on your list.
+Exposure of Stocks to Economic Conditions
+A firm’s future revenue and earnings are influenced by demand for its products, which is typically influenced by economic and industry conditions. An economic analysis involves assessing any economic conditions that can affect a firm’s stock price, including economic growth, the impact of international economies, interest rates, and inflation. Each of these conditions is discussed in turn.
+
+Economic Growth
+In the United States, economic growth is the growth in the U.S. economy over a particular period. It is commonly measured by the amount of production in the United States, or the gross domestic product (GDP), which is the total market value of all products and services produced in the United States. The production level of products and services is closely related to the aggregate (overall) demand for products and services. When consumers have more money to spend, there is additional aggregate demand for products and services. The firms that provide products and services experience higher sales (revenue) and earnings, and their stock prices may rise.
+
+economic growth
+A measure of growth in a country’s economy over a particular period.
+
+gross domestic product (GDP)
+The total market value of all products and services produced in a country.
+
+When economic conditions are weak, the aggregate demand for products and services declines. Firms experience a lower level of sales and earnings, and their stock prices may decline as a result. As a result of the COVID-19 pandemic in early 2020, many stores and restaurants were shut down, and the U.S. economy suffered a severe recession. Many individuals were laid off or were assigned fewer work hours. Thus, their income declined. Firms experienced a decline in demand for their products and services, a decline in profitability, and a decline in value (stock price). Within the first few months of 2020, stock prices declined by about 20% on average.
+
+ECONOMIC IMPACT
+
+Impact of Fiscal Policy on Economic Growth
+The U.S. government frequently attempts to maintain a strong economy with its fiscal policy, which is its policy on how it taxes individuals and corporations and how spends its money. When corporate tax rates are reduced (as they were in 2018), the after-tax earnings of corporations are increased, which means there is more money for shareholders and more money for corporations to spend. When individual tax rates are reduced (as they were in 2018), individuals have more money to spend and therefore consume more products. The demand for products and services increases as a result, increasing firms’ earnings.
+
+fiscal policy
+The means by which the U.S. government imposes taxes on individuals and corporations and by which it spends its money.
+
+When the U.S. economy suffered a recession during the COVID-19 pandemic in 2020, the U.S. government used various strategies to spend more money on the economy. For example, it attempted to stimulate the economy when there were massive layoffs by providing larger unemployment benefits. This strategy was effective, and it helped the U.S. economy to rebound.
+
+However, the long-term effects of a stimulative fiscal policy are questionable. When a fiscal policy involves more government spending than the taxes received, the federal government has to borrow funds to make up the difference. This results in more debt, which can cause financial problems for a government, just as it can with individuals, because it will require the federal government to use much of its future funds to pay back debt.
+
+Interest Rates
+Interest rates can affect economic growth and can have a major impact on stock prices. In general, stocks perform better after interest rates are reduced because firms can obtain financing at relatively low rates. Firms tend to be more willing to expand when interest rates are low, and their expansions stimulate the economy. Lower interest rates may enable more consumers to afford cars or homes. Car manufacturers and homebuilders then experience higher earnings, and their stock prices tend to increase as well.
+
+When interest rates are low, investors also tend to shift more of their funds into stock because the interest earned on money market securities is relatively low. The general shift into stocks increases the demand for stocks, which places upward pressure on stock prices.
+
+The Federal Reserve Board (“the Fed”) is the central bank of the United States; it controls the general level of interest rates in the country. The Fed implements monetary policy by adjusting the supply of funds in the financial system to influence interest rates, was explained in Chapter 5. When the Fed affects interest rates, it influences the amount of spending by firms and consumers with borrowed funds and therefore influences economic growth.
+
+monetary policy
+The policy established by the Federal Reserve to adjust the supply of funds in the financial system in order to influence interest rates.
+
+Impact of Lower Interest Rates during the COVID-19 Pandemic
+When the U.S. economy weakened as a result of the COVID-19 pandemic, the Fed responded by lowering interest rates, so that by 2021 the deposit rates at most banks were 0%. Depository institutions that were paying 0% interest on deposits were willing to provide loans to firms and individuals at very low rates. They provided 30-year mortgage loans at an interest rate of 3%, which was the lowest interest rate charged on mortgages in about 50 years. Such a low interest rate was very appealing to potential home buyers because it resulted in a much lower monthly mortgage payment than when interest rates were higher. Mortgage payments at this rate were often at least $200 less per month than they were for the same size mortgage loan just before the COVID-19 pandemic reached the United States. Consequently, there was a major increase in home-buying activity, which stimulated the economy.
+
+Firms were also able to borrow at very low interest rates, which encouraged them to borrow and spend more money on new projects. This in turn enabled the economy to rebound by 2022. Overall, the quick recovery from the U.S. recession caused by the COVID-19 pandemic was largely due to the Fed’s monetary policy that allowed a substantial drop in interest rates. However, this monetary policy caused such a surge in spending that it boosted the market prices of many products and services (inflation), which will be discussed next.
+
+Inflation
+The prices of products and services receive much attention when analyzing the economy because they affect our budgets. The term inflation represents the increase in the general level of prices of products and services over a specified period. One of the most common measures of inflation is the consumer price index (CPI), which represents prices of consumer products such as groceries, household products, housing, and gasoline. An alternative measure of inflation is the producer price index (PPI), which represents the prices of products that are used to produce other products, such as coal, lumber, and metals. Inflation can cause an increase in the prices that firms pay for materials or equipment.
+
+inflation
+The increase in the general level of prices of products and services over a specified period.
+
+consumer price index (CPI)
+A measure of inflation that represents prices of consumer products such as groceries, household products, housing, and gasoline.
+
+producer price index (PPI)
+A measure of inflation that represents the prices of products that are used to produce other products, such as coal, lumber, and metals.
+
+How Inflation Can Affect Purchasing Power
+When inflation is high, it can reduce the purchasing power of individuals and firms and can limit their spending. Consider the potential impact of an abrupt price increase in gasoline on the purchasing power of individuals and firms. Individuals need to use a larger proportion of their budget to pay for gasoline, which forces them to reduce spending on other products and services. Thus, the demand for some products and services decreases. When firms transport products, the cost of transporting is higher when gasoline prices rise, so they may increase the prices of their products to reflect the higher transportation expenses. When individuals are subject to high inflation, they tend to demand higher wages so that they can maintain their purchasing power. As firms pay higher wages to their employees, they tend to boost the prices of their products and services to reflect their higher expenses. This leads to an inflationary cycle.
+
+How Inflation Can Affect Stock Prices
+When inflation is high, firms incur higher expenses in their purchases of materials and supplies, the production of their products, the transportation of their products, and the payment of wages to their employees. While they may attempt to raise prices to reflect their higher expenses, their revenue does not necessarily rise as high as their expenses. Furthermore, the demand by consumers for the products produced by firms may decline if their purchasing power is reduced due to inflation. Consequently, inflation can cause the stock prices of firms to decline.
+
+However, inflation might have a stronger impact on some firms than others, depending on how exposed they are to inflation. Airlines and transportation firms are highly exposed to higher gasoline prices, so their stock prices are subject to a potential decline. Auto manufacturers are highly exposed to higher prices of computer chip supplies that are necessary for their production. The firms that are highly exposed to inflation cannot necessarily pass their higher expenses on to consumers in the form of higher prices if they face much competition from other firms, because consumers may switch to their competitors if these firms raise their prices.
+How the Fed Triggered Inflation in 2020–2021
+The Federal Reserve closely monitors inflation in the United States, and one of its key goals is to maintain inflation at a very low rate, such as 2% per year. However, this is a challenging goal, especially when the U.S. economy is weak and the Fed is attempting to stimulate the economy. When the Fed lowered interest rates to stimulate the economy in the 2020–2021 period, it triggered massive spending in the housing industry, and that spending spread to related sectors such as home furnishings, concrete, and building materials. It led to major shortages of some products, and suppliers raised prices on those products.
+
+While the economy strengthened in 2022, there were concerns that it was overheated, as the demand for many products and services was beyond what firms could provide. As of June 2022, the measurement of the consumer price index was about 9% above its level from one year earlier, which suggested that inflation was 9%. This was the highest level of inflation in the country in more than 40 years.
+
+How the Fed Reduced Inflation in 2023
+The Fed responded to concerns about high inflation by implementing a new monetary policy designed to raise interest rates over the next several months. To the extent that the inflation was due to an overheated economy (excessive demand for products and services), the Fed’s new monetary policy was intended to slow economic growth. Just as the Fed had lowered interest rates to encourage more borrowing and spending by individuals and firms in the 2020–2021 period, it planned to raise interest rates after June 2022 to discourage borrowing and spending. It raised interest rates in small steps such as 0.25% at a time. As bank deposit rates rose over the next several months, so did the rate on 30-year mortgages, as shown in Exhibit 15.4.
+
+Exhibit 15.4 How the Fed’s Monetary Policy Influenced the 30-Year Mortgage Rate over Time
+
+Source: BOARD OF GOVERNORS of the FEDERAL RESERVE SYSTEM and Federal Home Loan Mortgage Corporation
+
+Figure 15.4 Full Alternative Text
+The Fed’s strategy was to reduce economic growth gradually and gently in order to reduce inflation without causing the economy to crash (sometimes referred to as a “soft landing”). By September 2023, the annual inflation rate in the United States was reduced to 3% without causing a major decline in the economy.
+
+International Conditions
+When assessing a country’s economic conditions, it is important to recognize how a country’s economy may be influenced by international conditions. Some of the products sold in the United States are produced by firms in other countries such as China. Firms in China are major producers of electronics, clothing, children’s toys, and many other products that are sold in the United States. When the U.S. economy strengthens, consumers in the United States purchase more products, including those produced in China. Thus, firms based in China may hire more employees so that they can increase production to satisfy the increased demand by U.S. consumers. As more employees are hired in China, the income of Chinese workers rises, which allows them to increase their spending. Thus, a strong U.S. economy can strengthen the economy in China. The same concept applies to other countries that produce products purchased by U.S. consumers.
+
+Consumers in foreign countries purchase some products that are produced in the United States, so their economies can influence the U.S. economy. For example, consumers in China purchase some products produced in the United States, so when China’s economy is strong, this can be beneficial to the United States. European consumers commonly purchase U.S. products as well, so their economy is closely linked to the U.S. economy.
+
+Just as one country’s strong economy can improve another country’s economy, a weaker economy has an influence as well, but in the opposite direction. During the COVID-19 pandemic in 2020, the weak economy in the United States harmed economic conditions in many countries. Furthermore, the weak economies in other countries caused a decline in their demand for U.S. products.
+
+Impact of International Conditions on Stock Prices
+Because many firms are exposed to international conditions, so are their stocks. Firms that rely heavily on exporting to a particular country are highly exposed to the economic conditions in that country, which affect the demand for the firm’s exports. Firms that rely heavily on importing supplies from a particular country are subject to the conditions in that country that could affect the prices paid for the supplies. In some cases, a foreign government can impose extra taxes on a firm that imports supplies from its country.
+
+Industry Conditions
+A firm’s stock price is also susceptible to industry conditions. The demand for products or services within an industry changes over time. Competition is another industry factor that frequently affects sales and earnings and therefore the stock price of a firm. Competition has intensified for many industries as a result of the Internet, which has reduced the costs of marketing and delivering products for some firms.
+Financial Planning ONLINE
+Go to
+www.oecd.org
+
+To get
+Information about economic conditions that can affect the values of investments.
+
+Applying Your Analysis
+When analyzing a particular company’s stock, a great amount of information is available about various economic conditions to which the company may be exposed. Some of the main publications that provide information about inflation and other economic conditions are listed in Exhibit 15.5. These publications commonly provide historical data for inflation, economic growth, interest rates, and many other economic indicators.
+
+Exhibit 15.5 Sources of Economic Information
+
+Figure 15.5 Full Alternative Text
+Many financial websites also provide information on specific industries. Another indicator of industry performance is the industry stock index, which measures how the market value of the firms within the industry has changed over a specific period. The prevail stock index for a particular industry indicates the general expectations of investors about that industry.
+
+Financial Planning ONLINE
+Go to
+The markets section of www.bloomberg.com
+
+To get
+A summary of recent stock performance.
+
+By analyzing the firm itself, the economy, and the industry, you can assess a firm’s future performance. This process enables you to determine whether to purchase the firm’s stock. Exhibit 15.6 summarizes the potential impact of economic, industry, and firm-specific conditions on a firm’s stock price.
+
+Exhibit 15.6 Factors That Increase and Decrease a Stock’s Price
+Figure 15.6 Full Alternative Text
+Acting on Your Analysis Faster Than Other Investors
+Some investors might simply attempt to predict whether a firm’s future performance will be high or low so that they can decide whether to invest in the firm’s stock. However, a stock’s prevailing market price is influenced by the demand for the stock and the supply of shares for sale, which normally reflect the general expectations of investors in the stock market. If a firm is expected by most investors to report high earnings at the end of this quarter, many investors probably already purchased the stock based on those optimistic expectations, and therefore its stock price should have already risen to reflect that favorable information. Investing in this stock after most investors have already taken their positions will not necessarily result in a capital gain. Even if the firm reports that its quarterly earnings are high at the end of the quarter, the stock price might not rise any further because that news was already reflected in the stock’s prevailing market price.
+
+Financial Planning ONLINE
+Go to
+The finance section of www.yahoo.com
+
+To get
+Recent quotations of indexes that can be used as benchmarks when assessing your investment portfolio’s performance.
+
+For this reason, most investors analyze stocks to assess whether a firm’s performance will (in their opinion) be higher or lower than what all other investors who follow that stock believe. For example, consider a firm that you believe will achieve mediocre performance over the next year. Assume that this firm’s prevailing stock price is unusually low because most other investors expect that the firm will perform very poorly. If your opinion about the firm is correct, its stock is presently undervalued. In this case, you might consider buying this stock, because if the firm achieves mediocre performance, that would be better than most investors expected, so the stock’s price should rise to reflect the relatively favorable news.
+
+In essence, the goal of analyzing firms is to anticipate their future performance before most other investors so that you can invest in the stocks of those firms that you expect to perform well before other investors come to the same conclusion. In this way, you invest in the firms before their stock prices have risen so that you will earn capital gains if your expectations are correct.
+
+However, as your investment is based on a prediction, your strategy could backfire if your prediction is wrong. When you and other investors purchase a stock because of your favorable expectations of the firm, the same stock is being sold by a different set of investors who have unfavorable expectations of the firm. Only one side can be correct. In any given time period, there are winners and losers in the stock market. Any investor who wants to pursue large gains in the stock market must accept the risk of suffering large losses.
+
+FREE APPS for Personal Finance
+
+Investing Game
+Application
+The Stock Wars app (by Continuous Integration Inc.) allows you to simulate investing in a stock portfolio and monitoring the performance of your portfolio over time. You can explore how you would have performed from investing without risking any money.
+
+To Find It
+Search for the Stock Wars app on your mobile device.
+How Investing in Stocks Fits into Your Financial Plan
+The following are key decisions about investing in stock that should be included in your financial plan:
+
+Should you consider buying stock?
+
+What methods should you use for investing in stocks?
+
+The first decision was discussed in Chapter 14, while the second decision, about how to conduct stock transactions, has been examined in this chapter. Exhibit 15.7 provides an example of how this decision applies to Stephanie Spratt’s financial plan.
+
+Exhibit 15.7 How Stock Investments Fit into Stephanie Spratt’s Financial Plan
+
+Figure 15.7 Full Alternative Text
+Discussion Questions
+How would Stephanie’s decisions concerning conducting stock transactions be different if she were a single mother of two children?
+How would Stephanie’s decisions concerning conducting stock transactions be affected if she were 35 years old? If she were 50 years old?
+Summary
+STOCK EXCHANGES. Stocks are listed on stock exchanges, where they can be purchased or sold. You can relay your order to a brokerage firm, which sends the order to an exchange where the stock is listed. The order is executed electronically by a computer or by traders at the exchange. Some orders are executed through electronic communications networks (ECNs), which are computer systems that match desired purchases and sales of stocks.
+
+EXECUTING STOCK TRANSACTIONS. To buy or sell, you can contact a brokerage firm. You may use an online brokerage firm, which can be more convenient and less costly than a traditional full-service brokerage firm. Upon receiving your order, the firm will send the order to the stock exchange where the trade is executed.
+
+GAINS AND TAXES FROM TRADING STOCKS. If your dividends are qualified, you will pay the long-term capital gains tax on those dividends, which is usually 15%. If your marginal tax bracket exceeds 15%, your taxes on dividends will be reduced if the dividends are qualified. Investors who are in higher tax brackets who want their investments to generate periodic income benefit may want to invest in stocks that pay dividends (assuming that the dividends are qualified) rather than investing in bank certificates of deposit (which are taxed as ordinary income).
+
+A short-term capital gain is treated as ordinary income for tax purposes. The long-term capital gains tax rate is lower than the short-term capital gains tax for many investors, which should encourage them to keep investments for more than one year.
+
+ANALYZING STOCKS. Analyzing a firm involves reviewing the annual report and the financial statements (such as the balance sheet and income statement), along with other financial reports. This analysis includes an assessment of the firm’s profitability.
+
+EXPOSURE OF STOCKS TO ECONOMIC CONDITIONS. An economic analysis involves assessing how a stock’s price can be affected by economic conditions. The most closely monitored economic factors that affect stock prices are economic growth, interest rates, and inflation. In general, stocks are favorably affected by economic growth, favorable international conditions, a decline in interest rates, and a decline in inflation.
+
+An industry analysis involves assessing how a stock’s price can be affected by industry conditions. Two closely monitored industry characteristics are consumer preferences within an industry and industry competition. Stocks are favorably affected when the firms recognize shifts in consumer preferences and when the firms face a relatively low degree of competition.
+
+HOW INVESTING IN STOCKS FITS INTO YOUR FINANCIAL PLAN. In general, stocks have generated a high return on investment over long periods. Therefore, they can allow you to accumulate wealth in order to accommodate the future spending preferences that will satisfy your financial plan. However, they must be managed with care to limit the risk.
+Review Questions
+STOCK EXCHANGES. What are stock exchanges? How do they facilitate the trading of stocks?
+
+NYSE. Describe a typical stock transaction at the New York Stock Exchange (NYSE). What are floor traders? What are specialists?
+
+NASDAQ. What is the Nasdaq? Describe how trades are carried out on the Nasdaq.
+
+ECNS. What are electronic communications networks (ECNs)? How are ECNs used?
+
+STOCK QUOTATIONS. List some of the information contained in a typical stock quotation from a financial website.
+
+FULL-SERVICE BROKER. What type of services do full-service brokers provide? What is one main disadvantage of using a full-service broker?
+
+DISCOUNT BROKERAGE SERVICES. How does a discount broker differ from a full-service broker?
+
+PLACING ORDERS. What information must you provide when placing an order to buy or sell stock? What is a ticker symbol, and why is it important?
+
+ONLINE ORDERS. What are the advantages of using an online brokerage firm and placing orders online?
+
+TYPES OF ORDERS. Discuss the differences between a market order, a limit order, and a stop order.
+
+BUYING ON MARGIN. What is buying a stock on margin? What may happen if the value of the stock bought on margin declines? What are the advantages to investors and brokerage firms when stocks are bought on margin?
+
+SHORT SELLING. What does it mean to short a stock? When would this strategy be used?
+
+TECHNICAL ANALYSIS VERSUS FUNDAMENTAL ANALYSIS. What is technical analysis? What is fundamental analysis?
+
+ANNUAL REPORT. Why is it necessary to analyze a firm? What is an annual report? What information does it contain to aid the analysis?
+
+FINANCIAL STATEMENTS. List the characteristics of a firm that investors analyze by using the balance sheet and the income statement.
+
+MISLEADING INFORMATION. Why may the top managers of a firm be tempted to use misleading estimates of revenues and expenses? How might managers try to boost their firms’ reported earnings?
+
+ECONOMIC ANALYSIS. When performing an economic analysis of stocks, what economic factors are most closely watched?
+
+ECONOMIC GROWTH. Explain how economic growth is measured. How does economic growth affect stock prices? What are some popular indicators of economic growth? How does the government’s fiscal policy affect economic growth?
+
+INTEREST RATES. How do interest rates affect economic growth? Why do interest rates affect some stock prices more than others? Which federal agency influences interest rates?
+
+INFLATION. What is inflation? How is inflation measured? How does inflation affect stock prices?
+
+INDUSTRY ANALYSIS. Why is an industry analysis of stocks important? List some sources of information about firms and their industry.
+
+GLOBAL IMPACT ON INVESTMENTS. How can another country’s economic conditions affect a U.S. firm and therefore its stock price?
+
+SELECTING A BROKER. What factors should you consider when selecting which stockbroker to use?
+
+STOCK PRICE. What determines stock price? How do investors use this information to make buy or sell decisions?
+
+LIMITATIONS OF ANALYST RECOMMENDATIONS. What are some limitations of analyst recommendations?
+
+STOCK INVESTMENT AND YOUR FINANCIAL PLAN. Why should young people have investments in stocks as part of their portfolio?
+
+ETHICAL DILEMMA. The top managers of a publicly traded manufacturing company are reviewing the projected fourth-quarter financial results in late November. Based on the projected sales, the company will fall short of its yearly profit goals. This will result in the company’s executives and managers not receiving their year-end bonuses. The managers discuss how sales can be increased sufficiently to produce results that will qualify them for year-end bonuses. A decision is made to notify all customers that if they will agree to accept shipments for first-quarter orders before the end of the fourth quarter, the company will agree to pick up the shipping costs. The company’s controller and CFO review the plan and agree that it is within acceptable guidelines of Generally Accepted Accounting Principles (GAAP).
+
+The plan results in a significant increase in both sales and net income despite the company’s increased shipping costs. The increase is sufficient to warrant payment of bonuses to the executives and managers and also results in a significant increase in the company’s stock price.
+
+Was the incentive plan devised by the company’s management to increase sales and profits to a level justifying bonuses ethical?
+
+Discuss any negative impact that this incentive program could have on the company and its shareholders in the future.
+

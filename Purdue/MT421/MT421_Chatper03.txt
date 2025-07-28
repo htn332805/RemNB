@@ -1,0 +1,1255 @@
+Chapter 3Applying the Time Value of Money to Long-Term Budgeting
+
+Karen Roach/Shutterstock
+
+Scott Pilar has decided to give up smoking for health reasons. However, this decision not only is about health but also will affect his long-term budget. As additional motivation, Scott promised himself that if he quits smoking, he will use all the money he saves from not buying cigarettes over the next eight years to purchase a car.
+
+In the past, Scott spent about $10 per day, or $3,650 per year 
+(
+$
+10
+×
+365
+ days
+)
+ on cigarettes. If Scott could invest that money in a bank deposit account instead of buying cigarettes, he could earn 6% per year. Scott determines that his investment would accumulate to be worth $36,124 in eight years. He is shocked by how his long-term budget could improve so much simply by giving up his smoking habit. It took Scott less than one minute to estimate how his long-term budget would be affected by giving up smoking, as explained in this chapter.
+
+Cash accumulates when it is invested and earns interest because of the time value of money. Over a long period of time, money can grow substantially because interest is earned both on the deposited funds and on the interest that has already accumulated. The lesson is that saving even a small amount per month or year at an early age can enhance your wealth over time.
+
+The concepts in this chapter can help you determine how much you may save over time based on a particular savings level per month or year. You can also determine how much money you need to save per month or year to achieve a specific savings goal in the future. Thus, you can calculate how much monthly or annual savings you will need to make a down payment on a new car or home or to make other types of purchases at a future point in time.
+
+The objectives of this chapter are to
+Describe how the time value of money enhances long-term budgeting.
+
+Calculate the future value of a dollar amount that you save today.
+
+Calculate the present value of a dollar amount that you will receive in the future.
+
+Calculate the future value of an annuity.
+
+Calculate the present value of an annuity.
+
+Explain how time value can be used to manage your future savings.
+
+Explain how time value fits into your financial plan.
+How the Time Value of Money Enhances Long-Term Budgeting
+While Chapter 2 focused on budgeting with an emphasis on the present, this chapter focuses on budgeting over the long term. Most importantly, long-term budgeting allows you to determine if your expected cash inflows in the distant future would be sufficient to cover your cash outflows. If you anticipate a cash deficiency in the distant future, you may be able to reduce your future spending to improve your long-term budget and prevent the future cash deficiency.
+
+Furthermore, long-term budgeting may encourage you to save money over time to build your wealth. If your entire emphasis was on budgeting for the present month, you might just focus on ensuring that you do not spend more money this month than you have available. Without a plan to save, you may not even consider saving money. Long-term budgeting can help you set financial goals such as saving a particular amount of money by a specific point in the future, perhaps for a specific reason.
+
+When creating a long-term budget, it is important to recognize that money has a time value. This means that the value of a particular amount of money varies over time. It is better to receive $1,000 now than to receive $1,000 in three years. If you wanted to spend the money, you could buy more with $1,000 today than if you had to wait for three years before spending $1,000. If you saved the $1,000 that you receive today, you could earn interest on that money over the next three years, so the amount that you saved over the next three years would be more than if you received $1,000 in three years. The more time that you have access to a specific amount of money, the more it can grow over time.
+
+The concept of the time value of money can help you determine how a particular amount of savings today (or a level of periodic savings over time) would accumulate interest and grow by a particular time in the future. Furthermore, it can help you determine how much you would need to save periodically to achieve your future financial goals. For example, you may want to buy a new car with cash in five years, and the time value of money can be used to determine precisely how much money you need to save every year over the next five years to do that.
+
+The time value of money is most commonly applied to two types of cash flows: a single dollar amount (also referred to as a lump sum) and an annuity. An annuity is a stream of equal payments that are received or paid at equal intervals in time. For example, a monthly deposit of $50 as new savings in a bank account at the end of every month is an annuity. Your telephone bill is not an annuity, as the payments are not the same each month. This chapter will discuss time value of money computations related to the future and present value of both lump-sum and annuity cash flows. Calculations are illustrated using both time value tables and a financial calculator.
+
+annuity (or ordinary annuity)
+A series of equal cash flow payments that are received or paid at equal intervals in time.
+The Future Value of a Dollar Amount
+When you deposit money in a bank savings account, your money grows because the bank pays interest on your deposit. The interest is a payment to you for depositing your money in the account, is normally expressed as a percentage of the deposit amount, and can be paid monthly, quarterly, or annually.
+
+You may want to know how your money will grow to determine whether you can afford specific purchases in the future. For example, you may want to estimate how much your existing bank balance will have accumulated in one year, when you will need to make a tuition payment. To do this, you can apply the interest rate that you expect to earn on your deposit to the deposit amount.
+
+To determine the future value of an amount of money you deposit today, you need to know the following:
+
+The amount of your deposit (or other investment) today
+
+The interest rate to be earned on your deposit
+
+The number of years the money will be invested
+
+Example
+If you make a bank deposit of $1,000 that earns 4% annually, the deposit will earn an annual interest of:
+
+Interest rate
+×
+Deposit
+4
+%
+×
+$
+1,000
+=
+$
+40
+Thus, your deposit will accumulate to be worth $1,040 by the end of one year.
+
+In the next year, the interest rate of 4% will be applied not only to your original $1,000 deposit but also to the interest that you earned in the previous year. The process of earning interest on interest is called compounding.
+
+compounding
+The process of earning interest on interest.
+
+Assuming that the interest rate is 4% in the second year, it will be applied to your deposit balance of $1,040, which results in interest of f $41.60 
+(
+4
+%
+×
+$
+1,040
+)
+.
+ Thus, your balance by the end of the second year will be about $1,082.
+
+Notice that the interest of $42 paid in the second year is more than the interest paid in the first year, even though the interest rate is the same. This is because the interest rate was applied to a larger deposit balance.
+
+In the third year, a 4% interest rate would result in interest of about $43 (4% of $1,082). Your deposit balance will be about $1,125 by the end of the third year.
+
+In some cases, you may want to know how your deposit will accumulate over a long period of time, such as 20 or 30 years. You can quickly determine the future value for any period of time by using the future value interest factor (FVIF), which is a factor multiplied by today’s savings to determine how the savings will accumulate over time. This factor depends on the interest rate and the number of years the money is invested. Your deposit today is multiplied by the FVIF to determine the future value of the deposit.
+
+future value interest factor ( FVIF)
+A factor multiplied by today’s savings to determine how the savings will accumulate over time.
+
+Using the Future Value Table
+Table C.1 in Appendix C shows the FVIF for various interest rates (i) and time periods (n). Each column lists an interest rate and each row lists a possible time period.
+
+Example
+You have savings of $20,000 and will continue to keep this money in savings as an emergency reserve fund for seven more years as part of your long-term budget plan. In seven years, if you do not need to use this money, you plan to reward yourself by purchasing a boat. Assume that you will earn an annual interest rate of 5% on the savings. You want to determine your level of savings in seven years, assuming that you do not need to withdraw it over that period.
+
+In this example, the present value (PV) of your savings is $20,000. The future value interest factor (FVIF) in Table C.1 of Appendix C for an interest rate (i) of 5% and seven years 
+(
+𝑛
+=
+7
+)
+ is 1.407. Therefore, the future value (FV) of your savings in seven years would be:
+
+𝐹
+𝑉
+=
+𝑃
+𝑉
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝑖
+,
+ 
+𝑛
+=
+$
+20,000
+×
+𝐹
+𝑉
+𝐼
+𝐹
+5
+%
+,
+7
+=
+$
+20,000
+×
+1.407
+=
+$
+28,140
+
+
+𝐹
+𝑉
+=
+𝑃
+𝑉
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝑖
+,
+ 
+𝑛
+=
+$
+20,000
+×
+𝐹
+𝑉
+𝐼
+𝐹
+5
+%
+,
+7
+=
+$
+20,000
+×
+1.407
+=
+$
+28,140
+Thus, your savings of $20,000 today will grow to be worth $28,140 in seven years.
+
+The Impact of Saving for a Longer Period
+For a given initial amount of savings and a given interest rate, your savings will accumulate to a larger amount over a longer period of time. This is because your savings accumulates more interest as time passes due to the effects of compounding. You can verify this relationship by reviewing any column of Table C.1 of Appendix C. For any interest rate (i) you select, the FVIF becomes larger for a larger number (n) of periods. To illustrate, let’s repeat the previous problem with a longer period.
+
+Example
+Reconsider the previous problem but assume that you have revised your long-term budget plan to maintain your existing savings of $20,000 at an interest rate of 5% for 10 years instead of seven years.
+
+In this example, your initial savings 
+(
+𝑃
+𝑉
+=
+$
+20,000
+)
+ and the interest rate 
+(
+𝑖
+=
+5
+%
+)
+ are unchanged, but since the period of time has been changed to 10 years 
+(
+𝑛
+=
+10
+)
+,
+ the appropriate FVIF to use is now 1.629. Therefore, the future value of your savings in 10 years would be:
+
+𝐹
+𝑉
+=
+𝑃
+𝑉
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝑖
+,
+𝑛
+ 
+=
+$
+20,000
+×
+𝐹
+𝑉
+𝐼
+𝐹
+5
+%
+,
+10
+=
+$
+20,000
+×
+1.629
+=
+$
+32,580
+Your savings of $20,000 today would grow to be worth $32,580 in 10 years.
+
+The Impact of a Higher Interest Rate
+The interest rate represents the rate of return that you earn on your savings. The higher the interest rate that you can earn on your savings, the greater the rate at which a specific amount of savings will grow. In the previous example, the interest rate was assumed to be 5%. However, interest rates change over time. Review any row in Table C.1 of Appendix C, and you will notice that for a given number of years (n), the FVIF is higher for higher interest rate levels (i). To illustrate, let’s look at the previous problem with a higher interest rate.
+
+Example
+Reconsider the previous problem, but assume that while your long-term budget plan is still to maintain your existing savings of $20,000 for 10 years, the interest rate that you can earn on your savings is 8%.
+
+In this example, the value of your savings today 
+(
+𝑃
+𝑉
+=
+$
+20,000
+)
+ and the number of periods 
+(
+𝑛
+=
+10
+)
+ are unchanged, but since the interest rate (i) is now assumed to be 8%, the appropriate FVIF to use is now 2.159. Therefore, the future value of your savings in 10 years would be:
+
+𝐹
+𝑉
+=
+𝑃
+𝑉
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝑖
+,
+𝑛
+=
+$
+20,000
+×
+𝐹
+𝑉
+𝐼
+𝐹
+8
+%
+,
+10
+=
+$
+20,000
+×
+2.159
+=
+$
+43,180
+Note that this answer is slightly inaccurate because of the small rounding error caused by using an FVIF table with three decimal places.
+
+This result shows how a higher interest rate can generate much higher savings. A difference in the interest of just three percentage points allowed your initial savings to grow by an additional $10,600 over the 10-year period.
+
+When interest rates are low, your savings will grow at a very low rate. During the pandemic in 2021, interest rates on savings at many financial institutions were 0%. If you had savings at a financial institution at that time, your savings did not grow unless you deposited more funds in your account.
+Using a Financial Calculator to Compute Future Value
+Financial calculators greatly simplify time value calculations. The Texas Instruments BA II Plus financial calculator is used here because it is an inexpensive financial calculator that is popular among college students. All problems in this text for which the financial calculator process is shown rely on this calculator.
+
+The typical financial calculator lets you easily estimate the value that you would accumulate at a specific point in time as a result of an initial deposit today. The main function keys on the calculator for this purpose are as follows:
+
+ 
+𝑁
+=
+number of periods in which your deposit will be invested
+𝐼
+=
+interest rate per period 
+[
+some financial calculators such as the Texas Instruments BA II Plus calculator have a key labeled
+ 
+“
+I/Y
+”
+ 
+for this purpose
+]
+𝑃
+𝑉
+=
+present value 
+ 
+the initial amount deposited
+𝐹
+𝑉
+=
+future value of your initial deposit
+CPT
+=
+the compute function, which you press just before the function you want the calculator to compute
+If you plan to purchase a financial calculator to calculate time value of money problems, check to see if it has function keys such as N, I, PV, FV, and CPT, as shown here.
+
+Example
+Repeat the previous problem in which you could earn an annual rate of 8% over 10 years using the financial calculator instead of the future value table. Follow these steps:
+
+Press 10 and then press N (number of periods).
+
+Press 8 and then press I (interest rate).
+
+Press 
+−
+20000
+ and then press PV (present value of the money you invest); the negative sign is used to represent your deposit.
+
+Press 0 and then press PMT (which means that there are no periodic payments in this problem).
+
+Press CPT (the compute function) and then press FV to determine the future value.
+
+
+3.2-1 Full Alternative Text
+Your calculator should display the computed future value, $43,179. The slight difference from the answer in the previous problem occurs because there was a very small rounding error when using Table C.1 in Appendix C to derive the FVIF in that problem. While the PV was negative to reflect your giving money to the bank as a deposit, the FV amount is positive, which reflects your receiving money back from the bank at a future point in time.
+
+Now test your ability to use the financial calculator for computing the future value of a specific dollar amount.
+
+Example
+Repeat the previous problem but assume an interest rate of 5% instead of 8%. This problem was solved earlier using the appropriate FVIF in Table C.1 of Appendix C; now try using the financial calculator to solve the problem before reviewing the steps below:
+
+Press 10 and then press N (number of periods).
+
+Press 5 and then press I (interest rate).
+
+Press 
+−
+20000
+ and then press PV (present value of the money you invest); the negative sign is used to represent your deposit.
+
+Press 0 and then press PMT (which means that there are no periodic payments in this problem
+Press CPT (the compute function) and then press FV to determine the future value.
+
+
+3.2-2 Full Alternative Text
+Your calculator should display the computed future value, $32,578. The slight difference between this calculator answer and your answer when using Table C.1 in Appendix C to derive the FVIF is because there was a very small rounding error when using that table to find the appropriate FVIF.
+
+Why the Present Value Key Represents a Negative Amount
+The most common confusion with the financial calculator application is the negative sign used for the PV, which represents your deposit at a financial institution today. Consider that your deposit is giving up your cash temporarily to a financial institution to get all that cash back later plus interest. Your input of the present value amount is negative because it represents what you have given to the financial institution at that moment; in other words, the deposit is seen by your calculator as a payment from you to the financial institution. At some point in the future, you receive all of that deposit back from the bank along with interest, and so that future value amount is positive.
+
+If you made an investment instead of a deposit, the calculator logic is similar. You are giving up cash temporarily to make an investment, so that initial investment is seen by your calculator as a negative number. At some point in the future, your money is returned to you along with a return on your investment, so the future value amount is positive.
+
+FREE APPS for Personal Finance
+
+Estimating Growth in Savings
+Application
+The Future Value Calculator app (by Dang Phan) illustrates how your money will grow based on input that you provide about your planned savings. Various apps are available for this purpose.
+
+To Find It
+Search for the Future Value Calculator app on your mobile device.
+
+The Power of Compounding
+As a result of compounding, an amount of savings can grow substantially. Exhibit 3.1 illustrates how a deposit of $1,000 grows over time. Notice that your initial $1,000 deposit almost doubles in seven years when considering the compounding effect (you earn interest on your initial deposit and on any interest that has already accumulated). With the assumed interest rate of 10%, it would take 10 years for your deposit to double if you earned interest only on the initial deposit and not on the accumulated interest as well.
+Exhibit 3.1 How an Initial Deposit of $1,000 Grows Over Time Due to Compounding 
+(
+assume annual interest rate
+=
+10
+%
+)
+
+Figure 3.1 Full Alternative Text
+The Future Value of Debt
+Just as compounding can expand your savings, it can also expand your debt. For example, if you had debt today of $1,000, were charged 10% on the debt per year, and did not pay off any of your debt, Exhibit 3.1 could be applied to illustrate how your debt would grow over time. Notice how the debt would grow because you would pay interest not only on your initial debt amount but also on the interest that accumulates over time.
+
+Deferring Student Loan Debt
+Students who obtain student loans to fund their education sometimes have difficulty paying off their loans after they graduate, especially when they are allowed to defer (postpone) making any payments on their student loan debt for a specific period. For some types of student loans, no interest is charged during the loan deferment period, but for others, interest will be charged and will be added to your debt. Chapter 9 discusses student loans in more detail.
+
+Twisted Logic about Long-Term Debt
+Unfortunately, some consumers use twisted logic when assessing their long-term debt. They believe that avoiding the payment of debt for as long as possible is advantageous because it allows them to spend money on other purchases instead of paying off the debt. They receive immediate satisfaction from this logic, because it allows them to put off the pain associated with using their income to pay off debt. Their use of credit to make purchases is much more enjoyable than their use of existing income to pay off debt. Thus, they can easily justify their decision to spend too much today without considering how difficult it may be to pay off the debt in the future. They might not recognize how debt can accumulate over a long period. Instead, they feel comfortable with long-term debt because there is so much time before they must face the reality of paying it off.
+
+PSYCHOLOGY of Personal Finance
+The Present Value of a Future Dollar Amount
+When you do long-term budgeting, you may set some financial goals, such as reaching a specific level of savings by a particular date in the future. Some parents set the goal of having a specific amount of money saved by the time their children are of college age so that they can help their children with tuition payments. Many people in the workforce set the goal of having a specific amount of money saved by the time that they plan to retire. They need to know how much they must save each year to achieve their goals.
+
+To determine the present value of an amount of money expected in the future, you need to know the following:
+
+The future value (amount of money that you expect or want to have in the future)
+
+The interest rate to be earned on your deposit
+
+The number of years the money will be invested
+
+The present value can be calculated by using a present value interest factor (PVIF), which is a factor multiplied by the future value to determine the present value of that amount. It depends on the interest rate and the number of years the money is invested.
+
+present value interest factor ( PVIF)
+A factor multiplied by a future value to determine the present value of that amount.
+
+The process of obtaining present values is referred to as discounting.
+
+discounting
+The process of obtaining present values.
+
+Using the Present Value Table
+Table C.2 in Appendix C shows the PVIF for various interest rates (i) and time periods (n). Each column lists an interest rate, and each row lists a time period.
+
+Notice that in any column of the table, the PVIF is lower as the number of years increases. This means that less money is needed to achieve a specific future value when the money is invested for a greater number of years. Similarly, an inspection of any row reveals that less money is needed to achieve a specific future value when the money is invested at a higher rate of return.
+
+Example
+You have established a financial goal of having $50,000 in savings in five years. You have a large sum of money today that you can place in a savings account to achieve your goal. You expect that you could earn a 7% annual rate of return on your savings over the next five years.
+
+What is the dollar amount that you need to invest today to achieve your goal? To answer this question, you need to determine today’s value (present value, PV) of $50,000 in five years.
+
+Using Table C.2 of Appendix C, the PVIF in this example is 0.713 (look down the 7% column and across the row for year five). The PV is as follows:
+
+𝑃
+𝑉
+=
+𝐹
+𝑉
+×
+𝑃
+𝑉
+𝐼
+𝐹
+𝑖
+,
+ 
+𝑛
+𝑃
+𝑉
+=
+𝐹
+𝑉
+×
+𝑃
+𝑉
+𝐼
+𝐹
+7
+%,
+5
+=
+$
+50,000
+×
+0.713
+=
+$
+35,650
+Thus, you need to invest $35,650 today to have $50,000 in five years if you expect an annual return of 7%.
+
+Using a Financial Calculator to Compute Present Value
+Using a financial calculator, you can quickly calculate the present value of a future dollar amount if you know the values of the number of periods (N), the interest rate (I), and the future value (FV). Recall that when you compute the future value with a financial calculator, you need the values of N, I, and the present value (PV, the amount to be deposited today). The only difference when computing the present value is that FV is now an input variable, while you must compute PV. Specifically, the steps to compute the present value of a future dollar amount are the following:
+
+Input the number of periods (then press N).
+
+Input the interest rate (then press I).
+Input the future value (then press FV, which represents the amount of money that you expect or wish to have in the future).
+
+Input the payment value of zero, since there are no periodic payments.
+
+Compute (press CPT) and then press PV to determine the present value.
+
+Example
+Test your ability to use the financial calculator by using it to compute the present value in the previous problem. Try this on your own before reviewing the steps below:
+
+Press 5 and then press N (number of periods).
+
+Press 7 and then press I (interest rate).
+
+Press 50000 and then press FV (future value of the money you expect or want in the future).
+
+Press 0 and then press PMT (since there are no periodic payments in this problem).
+
+Press CPT (the compute function) and then press PV (present value).
+
+
+3.3-3 Full Alternative Text
+Your calculator should display the computed present value, 
+−
+$
+35,649
+.
+ Recall that the negative sign is normal for PV because it reflects the amount of cash you are providing to the bank as a deposit. The solution suggests that you need to deposit $35,649 today so that the deposit accumulates (at an annual rate of 7%) to achieve the value of $50,000 in five years. This answer is consistent with the answer in the previous problem (the answer differs slightly because of rounding errors from using the PVIF table in that example).
+
+As a final test of your ability to compute present value with a financial calculator, solve the following example problem.
+
+Example
+You presently have a large amount of savings but would like to accumulate $500,000 by the time you retire in 20 years. If you can earn an 8% interest rate annually, how much must you invest today to have $500,000 in 20 years? Use the financial calculator before you check the answer below.
+
+Press 20 and then press N (number of periods).
+
+Press 8 and then press I (interest rate).
+
+Press 500000 and then press FV (future value of the money you expect or want in the future).
+
+Press 0 and then press PMT (since there are no periodic payments in this problem).
+
+Press CPT (the compute function) and then press PV to determine the present value.
+
+
+3.3-4 Full A
+Your calculator should display the computed present value 
+−
+$
+107,274
+.
+ Recall that the negative sign is normal for PV because it reflects the amount of cash you are providing to the bank as a deposit. Your answer suggests that you would need to deposit $107,274 today for it to accumulate (based on an 8% interest rate) and achieve the value (in 20 years) of $500,000.
+
+The Impact of a Higher Interest Rate on the Present Value
+A a higher interest rate will provide a higher rate of return on your investment. Thus, the higher interest rate would allow your initial deposit to grow to a greater degree, so that you could achieve your future value target with a smaller deposit. You can check your logic by repeating the previous problem except change the interest rate from 8 percent to 10 percent. Your new answer would suggest that you need to deposit $97,456 today for it to accumulate (based on a 10% interest rate) and achieve the value (in 20 years) of $500,000. This revised example shows that if the interest rate is 10%, you could achieve your target future value with a deposit of about $10,000 less than if the interest rate was 8%.
+
+The Impact of a Longer Time Period on the Present Value
+If you are saving money, a longer period allows more time for your savings to grow. Check your logic by repeating the previous problem except change the period from 20 years to 25 years.
+The Future Value of an Annuity
+Earlier in the chapter, you saw how your money can grow from a single deposit. An alternative way to accumulate funds over time is through an ordinary annuity, which represents a stream of equal payments (or investments) that occur at the end of each period. For example, if you make a $30 deposit at the end of each month for 100 months, this is an ordinary annuity. Another example is investing $1,000 at the end of each year for 10 years. There is a simple and quick method to determine the future value of an annuity, which we will cover in the next example.
+
+Financial Planning ONLINE
+Go to
+An online search engine and type “time value of money math.”
+
+To get
+Access to many websites that explain the time value concepts in this chapter using mathematics.
+
+An alternative to an ordinary annuity is an annuity due, which is a series of equal cash flow payments that occur at the beginning of each period. An annuity due differs from an ordinary annuity in that the payments occur at the beginning instead of the end of the period. Our focus will be on the ordinary annuity.
+
+annuity due
+A series of equal cash flow payments that occur at the beginning of each period.
+
+The best way to illustrate the future value of an ordinary annuity is through the use of timelines, which show the payments received or paid over time.
+
+timelines
+Diagrams that show payments received or paid over time.
+
+Example
+You plan to invest $100 at the end of every year for the next three years. You expect to earn an annual interest rate of 10% on the funds that you invest. Using a timeline, the cash flows from this annuity can be represented as follows:
+
+
+3.4-5 Full Alternative Text
+You would like to know how much money will be in your investment account at the end of the third year. This amount is the future value of the annuity. The first step in calculating the future value of the annuity is to treat each payment as a single sum and determine the future value of each payment individually. Next, add up the individual future values to obtain the future value of the annuity.
+
+Because the first payment will be invested from the end of year one to the end of year three, it will be invested for two years. Because the second payment will be invested from the end of year two to the end of year three, it will be invested for one year. The third payment is made at the end of year three, the point in time at which we want to determine the future value of the annuity. Hence, the third-year payment will not accumulate any interest. Use the future value in Table C.1 in Appendix C to obtain the future value interest factor for two years at 
+10
+%
+ 
+(
+𝐹
+𝑉
+𝐼
+𝐹
+10
+%
+,
+2
+=
+1.21
+)
+ and the future value interest factor for one year at 
+10
+%
+ 
+(
+𝐹
+𝑉
+𝐼
+𝐹
+10
+%
+,
+1
+=
+1.10
+)
+.
+ The future value interest factor for year three is equal to 1.00, which simply means that the money you receive in year three does not have time to grow, as year three represents your future value. Overall, the future value of your annuity can be determined as follows:
+
+3.4-6 Full Alternative Text
+Adding up the individual future values shows that the future value of this annuity is $331 (i.e., you will have $331 in your account at the end of the third year). Notice that $300 of the $331 represents the three $100 payments. Thus, the remaining $31 of the $331 is the combined interest you earned on the three payments.
+
+Using the Future Value Annuity Table
+Computing the future value of an annuity by looking up each single-sum future value interest factor (FVIF) is rather tedious. However, you can compute the future value of an annuity in a much easier manner by using Table C.3 in Appendix C. This table lists the factors for various interest rates and periods (years) that might represent a particular annuity you are receiving. These factors are referred to as future value interest factors for an annuity 
+(
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+𝑛
+)
+, where i is the periodic interest rate and n is the number of payments in the annuity. The annuity payment (PMT) can be multiplied by the FVIFA to determine the future value of the annuity (
+𝐹
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+). Each column in the table lists an interest rate, and each row lists the period of concern.
+
+future value interest factor for an annuity (FVIFA)
+A factor multiplied by the periodic savings level (annuity) to determine how the savings will accumulate over time.
+
+Example
+Reconsider the previous problem, in which you planned to invest $100 at the end of each year for three years at an annual interest rate of 10%. If you use Table C.3 in Appendix C, the FVIFA for a three-year annuity 
+(
+𝑛
+=
+3
+)
+ with a 10% interest rate is 3.310.
+
+𝐹
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+𝑛
+=
+$
+100
+×
+3.310
+=
+$
+331
+Recall that in the more tedious process shown in the previous problem, the FVIF for two years was 1.21, while the FVIF over one year was 1.10. The FVIF when you make a deposit at the time representing your future value is 1.00 because you receive that deposit, but without any interest. Adding the FVIF for those three years, you get 
+1.21
++
+1.10
++
+1.00
+=
+3.31
+.
+ This number is equal to the FVIFA of 3.31. Thus, the use of the FVIFA table is more appropriate than the FVIF table when you wish to estimate the future value of an annuity because it adds up the FVIF per year for all years considered. You only need to look up one number when estimating the future value of an annuity if you use the FVIFA table, regardless of how many years in the future you are assessing.
+
+Example
+You have set a long-term budget plan of buying a small home with cash in 10 years with the proceeds from your side job as a tutor. You expect to earn $12,000 (after paying taxes) at the end of each year for the next 10 years for your tutoring work. You plan to deposit this money as you receive it and expect to earn a rate of return of 6% on your deposits. How much money would you accumulate in 10 years?
+
+Using Table C.3 of Appendix C, the FVIFA for 
+𝑖
+=
+6
+%
+ and 
+𝑛
+=
+10
+ is 13.181. Thus, the FVA is as follows:
+
+𝐹
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+𝑛
+=
+$
+12,000
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+6
+%
+,
+10
+=
+$
+12,000
+×
+13.181
+=
+$
+158,172
+
+𝐹
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+𝑛
+=
+$
+12,000
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+6
+%
+,
+10
+=
+$
+12,000
+×
+13.181
+=
+$
+158,172
+You will accumulate $158,172 in 10 years as a result of your investment strategy if your investments earn 6% per year.
+
+Using a Financial Calculator to Compute the FVA
+Using a financial calculator to determine the future value of an annuity is similar to using the calculator to determine the future value of a single dollar amount. As before, the known variables must be input to solve for the unknown variable. Recall that the present value represents the amount that you deposit today, but if you are planning an annuity, you will not make an initial deposit and the PV will be set equal to zero.
+
+For problems involving annuities, the payment (PMT) function must be used in addition to the other keys on the financial calculator that were identified earlier. The PMT function represents the deposit or payment amount (the annuity) per period. Think of the investment as a payment to the financial institution or wherever you invest the money, which is why there is a negative sign; when you receive your return on investment, that will be a positive number.
+
+The following example illustrates the use of a financial calculator to determine the future value of an annuity.
+
+Example
+Repeat the previous problem using the financial calculator. Recall that you will invest $12,000 at the end of each year for the next 10 years and expect your annual rate of return on your investment to be 6%. Try to compute the future value of your annuity before reviewing the solution here.
+
+Press 10 and then press N (number of years).
+
+Press 6 and then press I (interest rate per year).
+
+Press 0 and then press PV (present value is zero because there is no initial deposit).
+
+Press 
+−
+12000
+ and then press PMT (payment per year with a negative sign, which represents your annual deposit).
+
+Press CPT (the compute function) and then press FV to determine the future value.
+
+
+3.4-7 Full Alternative Text
+Your calculator should display the computed future value of $158,170, consistent with the answer derived from the previous problem when using the FVA table (the answer differs slightly from that answer due to rounding).
+
+Adjusting for the Length of the Period
+If the period of concern is monthly instead of annual, you would need to adjust the annual numbers to monthly numbers before determining the future value.
+
+Example
+Let’s revisit the previous problem but assume that you can make your bank deposits monthly instead of at the end of every year. Here are the steps to convert the period from annual to monthly:
+
+Convert the number of your annual periods into the number of monthly periods 
+(
+10
+ years
+×
+12
+ months per year
+=
+120
+ months
+)
+.
+
+Convert the annual interest rate on your deposits to a monthly rate (annual interest 
+rate of 
+6
+%
+ divided by 
+12
+ months per year
+=
+0.5
+%
+ per month interest rate
+).
+
+Convert the amount of your $12,000 annual deposit into a monthly deposit 
+Try to compute the future value of your annuity before reviewing the solution here:
+
+Press 120 and then press N (number of monthly periods).
+
+Press 0.5 and then press I (interest rate per month).
+
+Press 0 and then press PV (present value is zero because there is no initial deposit).
+
+Press 
+−
+1000
+ and then press PMT (payment per month with a negative sign, which represents your monthly deposit).
+
+Press CPT (the compute function) and then press FV to determine the future value.
+
+
+3.4-8 Full Alternative Text
+Your calculator should display the computed future value of $163,879. If you can make your deposits monthly, the future value is $5,709 higher than in the previous problem, when you made your deposits annually. When you make monthly deposits rather than waiting until the end of the year, your money starts earning interest more quickly and therefore accumulates into a greater future value.
+
+If you are focused on quarterly periods, multiply the annual periods by 4, divide the annual interest rate by 4, and divide the annuity amount by 4.
+
+You can also adjust the input to represent a monthly or quarterly period in other types of time value of money problems such as computing the future value of a dollar amount or computing the present value of a future dollar amount.
+
+The Impact of a Higher Interest Rate on the FVA
+To understand how the interest rate can affect the future value of an annuity, consider that if you are making bank deposits periodically, a higher interest rate will provide a higher rate of return on each deposit. Thus, the higher interest rate would allow all of your deposits to grow to a greater degree, and the future value of your annuity would be larger. You can check your logic by reworking the previous problem, in which the annual interest rate was 6%, using a higher interest rate, such as 9%.
+
+FREE APPS for Personal Finance
+
+Calculating Your Savings
+Application
+Various apps allow you to calculate the savings that you can accumulate in the future based on how much you plan to save each month and the interest rate to be earned on your savings.
+
+To Find It
+Search for “compound interest” in the app store on your mobile device.
+The Present Value of an Annuity
+Just as the future value of an annuity can be obtained by finding the future values of (compounding) the individual cash flows of the annuity and then adding them up, the present value of an annuity can be obtained by finding the present values of (discounting) the individual cash flows of the annuity and adding them up.
+
+Financial Planning ONLINE
+Go to
+The calculators in the personal finance section of www.bankrate.com/calculators/.
+
+To get
+access to calculators involving deposits or loan payments.
+
+Consider an ordinary annuity with three $100 payments and an interest rate of 10%. The present value of those cash flows can be graphically illustrated as follows:
+
+
+3.5-9 Full Alternative Text
+Adding up the individual present values leads to the conclusion that the present value of this annuity is $249. Therefore, three $100 payments received at the end of each of the next three years are worth $249 to you today if you can invest your money at an interest rate of 10%.
+
+Using the Present Value Annuity Table to Compute the PVA
+Table C.4 in Appendix C shows the present value interest factors for an annuity 
+(
+𝑃
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+𝑛
+)
+ for various interest rates (i) and time periods (n) in the annuity. Each column in the table lists an interest rate, and each row lists a time period.
+
+present value interest factor for an annuity (PVIFA)
+A factor multiplied by a periodic savings level (annuity) to determine the present value of the annuity.
+Using Table C.4 in Appendix C, notice that the PVIFA for 
+𝐼
+=
+10
+%
+ and 
+𝑛
+=
+3
+ is 2.487, which is equal to the sum of the PVIF of each year. Thus, you can derive the present value of an annuity more quickly by using Table C.4 in Appendix C than by adding the PVIF of each year:
+
+𝑃
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝑃
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+𝑛
+=
+𝑃
+𝑀
+𝑇
+×
+𝑃
+𝑉
+𝐼
+𝐹
+𝐴
+10
+%,
+3
+=
+$
+100
+×
+2.487
+=
+$
+249
+Using the PVIFA table is especially valuable when you are computing the present value of an annuity over a period of many years.
+
+Example
+As a reward for your local volunteer work over the last several years, your family will give you a gift of $1,000 per year (an annuity) for the next eight years, which you could deposit. Alternatively, if you wish to have the money now, they would provide you with a single payment of $7,000. You believe that you would be able to earn a rate of return of 7% on money you deposit. The annuity of $1,000 over eight years adds up to $8,000, which is more than the offer of $7,000 today. However, you recognize that money received in the future is not as valuable as money that is provided to you today. Determine the present value of the future payments and compare that to the offer of $7,000 to you today.
+
+Using Table C.4 in Appendix C, notice that the PVIFA for 
+𝑖
+=
+7
+%
+ and 
+𝑛
+=
+8
+ is 5.971. Thus, the present value of this annuity is as follows:
+
+𝑃
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝑃
+𝑉
+𝐼
+𝐹
+𝐴
+𝑖
+,
+ 
+𝑛
+=
+𝑃
+𝑀
+𝑇
+×
+𝑃
+𝑉
+𝐼
+𝐹
+𝐴
+7
+%,
+8
+=
+$
+1,000
+×
+5.971
+=
+$
+5,971
+The offer of $7,000 to you today is worth more than the present value of the future $1,000 payments over eight years. Therefore, you should request to receive the $7,000 payment today.
+
+Using a Financial Calculator to Compute the PVA
+Determining the present value of an annuity (PVA) with a financial calculator is similar to using the calculator to determine the present value of a single-sum payment.
+
+Example
+Repeat the previous problem using the financial calculator. Recall that you could receive $1,000 that you would deposit at the end of each year for the next eight years and expect your annual rate of return on your investment to be 7%. In this example, the future value is not relevant, so set its value to zero. The annuity of $1,000 can be input using the PMT key. However, since it represents you giving a financial institution a $1,000 deposit at the end of each year, it should be input as 
+−
+$
+1,000
+.
+ Try to compute the present value of your annuity before reviewing the solution here.
+
+Press 8 and then press N (number of periods).
+
+Press 7 and then press I (interest rate).
+
+Press 0 and then press FV (the FV is not relevant in this question).
+
+Press 
+−
+1000
+ and then press PMT (payment per period with a negative sign, which represents the annuity).
+
+Press CPT (the compute function) and then press PV (present value) to derive the present value of the annuity.
+
+
+3.5-10 Full Alternative 
+Your calculator should display the computed future value of $5,971, consistent with the answer to the previous problem.
+
+Recall that when you computed the present value of a future dollar amount earlier in this chapter, the solution was a negative number because the solution represented the deposit that you would have to provide to a financial institution today to receive a dollar amount at a specific future point in time. However, when you compute the present value of an annuity, the solution is a positive number because you are simply measuring the value in today’s dollars of a series of future payments.
+
+The Impact of a Higher Interest Rate on the PVA
+To understand how the interest rate can affect the present value of an annuity, consider that a higher interest rate discounts each of your future deposits to a greater degree, which means that each future deposit would be valued lower in today’s dollars. You can check your logic by repeating the previous problem in which you could have an eight-year annuity at an annual interest rate of 7%, except change the interest rate from 7% to 9%. The revised present value of your annuity should be lower as a result of applying a higher interest rate to the problem.
+
+Common Reasons to Derive the PVA
+There are many situations that could require you to make a choice between receiving a dollar amount today versus a series of equal payments (an annuity) over a period of time. For example, some lottery winners have a choice of accepting a dollar amount today versus an annuity over time. Some retirement plans would be willing to offer a dollar amount today instead of a series of payments over time. If the present value of the annuity is higher than the dollar amount offered today, you would prefer to receive the annuity. Conversely, if the dollar amount offered today is higher than the present value of the annuity, you would prefer to receive the dollar amount offered today.
+
+Consider a situation in which you have a small business that will generate cash flows of $5,000 per year (an annuity) for the next six years. The value of your business as of today is equal to the present value of the $5,000 annuity derived from the business. If someone wants to buy your business, you can compare the purchase price offered on the business to the present value of future cash flows that you expect would be generated by your business.
+
+You should only consider selling the business if the purchase price exceeds the present value of future cash flows of the business. If the future cash flows of your business are not similar every year, those cash flows do not represent an annuity. In this case, you could still derive the present value of the future cash flows, but you would need to discount each annual cash flow separately and then add up those discounted amounts to determine the present value of those cash flows.
+Using Time Value to Estimate Savings
+The key time value tools for building your financial plan are estimating the future value of annual savings and determining the amount of annual savings necessary to achieve a specific amount of savings in the future.
+
+Estimating the Future Value from Savings
+The future value of an annuity is especially useful when determining how much money you will have saved by a future point in time if you periodically save a specific amount of money every year. You can apply this process when you are saving for a large purchase (such as a down payment on a home) in the near future or even for your retirement in the distant future.
+
+Example
+
+Maridav/Shutterstock
+
+Stephanie Spratt wants to know how much she will have in 30 years if she could save $5,000 per year and earn 4% annual interest on her investment. The annuity in this example is $5,000. As you can see in Table C.3 in Appendix C, the future value annuity factor based on a 30-year period and a 4% interest rate is 56.084. Thus, the future value is as follows:
+
+$
+5,000
+×
+56.084
+=
+$
+280,420
+If she is able to save an extra $1,000 per year, the value of her savings in 30 years would be estimated as the following:
+
+$
+6,000
+×
+56.084
+=
+$
+336,504
+Estimating the Annual Savings That Will Achieve a Future Amount
+The future value of annuity tables are also useful for determining how much money you need to save each year to achieve a specific amount of savings at a designated future point in time. Thus, you can estimate the size of the annuity that is necessary to achieve a specific future value of savings that you desire. Because 
+𝐹
+𝑉
+𝐴
+=
+𝑃
+𝑀
+𝑇
+×
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+,
+ the terms can be rearranged as follows to solve for the annuity:
+
+𝐹
+𝑉
+𝐴
+/
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+=
+𝑃
+𝑀
+𝑇
+Example
+
+Maridav/Shutterstock
+
+Stephanie Spratt now wants to know how much money she must save every year to achieve $600,000 in 30 years, based on a 6% annual rate of return on her savings. In this example, the future value is $600,000, and the future value interest factor of the annuity (FVIFA) is 79.057. The unknown variable is the annuity amount payment, 
+𝑃
+𝑀
+𝑇
+.
+
+𝑃
+𝑀
+𝑇
+=
+𝐹
+𝑉
+𝐴
+/
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+=
+ $
+600,000
+/
+79.057
+=
+ $
+7,589
+
+Maridav/Shutterstock
+
+Stephanie Spratt now wants to know how much money she must save every year to achieve $600,000 in 30 years, based on a 6% annual rate of return on her savings. In this example, the future value is $600,000, and the future value interest factor of the annuity (FVIFA) is 79.057. The unknown variable is the annuity amount payment, 
+𝑃
+𝑀
+𝑇
+.
+
+𝑃
+𝑀
+𝑇
+=
+𝐹
+𝑉
+𝐴
+/
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+=
+ $
+600,000
+/
+79.057
+=
+ $
+7,589
+Thus, Stephanie would need to save $7,589 per year to accumulate $600,000 of savings in 30 years.
+
+Stephanie realizes that she might not be able to earn 6% on her savings over time, so she re-estimates how much she needs to save per year to accumulate $600,000 in 30 years if she can only earn an annual rate of return of 4% on her savings. In this example, the FVIFA for 
+𝑖
+=
+4
+%
+,
+ and 
+𝑛
+=
+30
+ is 56.084.
+
+𝑃
+𝑀
+𝑇
+=
+𝐹
+𝑉
+𝐴
+/
+𝐹
+𝑉
+𝐼
+𝐹
+𝐴
+=
+ $
+600,000
+/
+56.084
+=
+ $
+10,698
+Thus, assuming an annual rate of return of 4%, Stephanie would need to invest $10,698 each year to accumulate $600,000 in 30 years. Notice that the extra amount she needs to save per year to achieve her savings goal is more than $3,000 per year if the rate of return on her savings is just 2% lower.
+
+Exhibit 3.2 shows how Stephanie Spratt used the time value tools to develop a financial plan to save $5,000 per year. After applying the time value tools, she realized how her savings could accumulate. She hopes to save more than $5,000 per year, especially if her income increases over time.
+
+Exhibit 3.2 How Time Value of Money Decisions Fit within Stephanie Spratt’s Financial Plan
+
+Figure 3.2 Full Alternative Text
+How Time Value Concepts Can Motivate Saving
+The results from estimating the future value of an annuity may surprise you. Your money can grow substantially over time when you invest periodically and when interest is earned on your savings. The exercise of estimating the future value of an annuity might encourage you to develop a savings plan because you can see the reward as a result of your willingness to save. Consider how much you may be able to save over each of the next five years and estimate the future value of an annuity over this period based on the prevailing interest rate. Then apply it to a 10-year period and also to a 20-year period. Your estimates might convince you to save more money each year, so that you can build your savings and wealth over time and therefore have more money to spend in the future.
+
+PSYCHOLOGY of Personal Finance
+How Time Value Fits within Your Financial Plan
+The key time value decisions for building your financial plan are as follows:
+
+How much should I attempt to save every month or every year?
+
+How much should I attempt to accumulate in savings for a future point in time?
+
+These decisions require an understanding of the time value of money. Exhibit 3.2 shows how these savings decisions apply to Stephanie Spratt’s financial plan.
+
+Discussion Questions
+How would Stephanie’s savings decisions be different if she were a single mother of two children?
+
+How would Stephanie’s savings decisions be affected if she were 35 years old? If she were 50 years old?
+Summary
+HOW THE TIME VALUE OF MONEY ENHANCES LONG-TERM BUDGETING. The concept of the time value of money can help you determine precisely how you need to adjust your savings today or over time to achieve a particular long-term financial goal. Thus, it can guide your long-term budgeting decisions.
+
+THE FUTURE VALUE OF A DOLLAR AMOUNT. You can estimate the future value of a dollar amount to determine the future value of a bank deposit or a fund established for retirement. It is determined by estimating the compounded interest that is generated by the initial amount. The future value can be calculated by using a future value table or a financial calculator.
+
+THE PRESENT VALUE OF A FUTURE DOLLAR AMOUNT. You can estimate the present value of a dollar amount so that you know what a future payment would be worth if you had it today. The present value of a dollar amount to be received in the future is determined by discounting the future value. It can be calculated by using a present value table or a financial calculator.
+
+THE FUTURE VALUE OF AN ANNUITY. You can estimate the future value of an annuity so that you can determine how much a stream of payments will be worth at a specific time in the future. This involves determining the future value of every single dollar amount contained within the annuity, which is easily estimated by using a future value annuity table or a financial calculator.
+
+THE PRESENT VALUE OF AN ANNUITY. You can estimate the present value of an annuity so that you can determine how much a stream of future payments is worth today. This involves determining the present value of every single dollar amount contained within the annuity, which is easily estimated by using a present value annuity table or a financial calculator.
+
+USING TIME VALUE TO ESTIMATE SAVINGS. Time value can be applied to estimate your future savings, which enables you to make decisions about how much to save to achieve a specific savings goal in the future.
+
+HOW TIME VALUE FITS WITHIN YOUR FINANCIAL PLAN. You will likely need to save money to achieve some of your financial goals. Because time value can be applied to estimate savings, it is an important tool for you to use when establishing your financial plan.
+
+
+
+
