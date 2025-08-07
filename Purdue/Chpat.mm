@@ -5420,7 +5420,7 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </node>
 </node>
 <node TEXT="Unsorted" POSITION="bottom_or_right" ID="ID_1071727047" CREATED="1751998110464" MODIFIED="1751998113141">
-<node TEXT="CFA" FOLDED="true" ID="ID_723414526" CREATED="1753381270940" MODIFIED="1753381275987">
+<node TEXT="MT" ID="ID_723414526" CREATED="1753381270940" MODIFIED="1754417075910">
 <node TEXT="TVM" FOLDED="true" ID="ID_1436934921" CREATED="1753381276888" MODIFIED="1753381326755">
 <node TEXT="Def" FOLDED="true" ID="ID_1426362613" CREATED="1753381424496" MODIFIED="1753381427222">
 <node TEXT="Money value higher earlier received" POSITION="bottom_or_right" ID="ID_429282725" CREATED="1753381359408" MODIFIED="1753381375375"/>
@@ -5603,8 +5603,9 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 </node>
 </node>
 </node>
+<node TEXT="MT421" ID="ID_30124932" CREATED="1754417077288" MODIFIED="1754417082294"/>
 </node>
-<node TEXT="Eload" FOLDED="true" POSITION="top_or_left" ID="ID_1612783000" CREATED="1752079086999" MODIFIED="1752079601387"><richcontent TYPE="NOTE">
+<node TEXT="Eload" POSITION="top_or_left" ID="ID_1612783000" CREATED="1752079086999" MODIFIED="1752079601387"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -5652,7 +5653,7 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 <node TEXT="Eload/ifm_setup.sh #Port" ID="ID_310204424" CREATED="1752079367665" MODIFIED="1752079387993"/>
 <node TEXT="XFM" ID="ID_115377713" CREATED="1752079391561" MODIFIED="1752079395211">
 <node TEXT="Eload/xfm.sh #Porty" ID="ID_820572011" CREATED="1752079395823" MODIFIED="1752079416662"/>
-<node TEXT="GE" ID="ID_898680464" CREATED="1752079422106" MODIFIED="1752085676093">
+<node TEXT="GE" ID="ID_898680464" CREATED="1752079422106" MODIFIED="1754429046960">
 <node TEXT="Blade 5" ID="ID_1723823104" CREATED="1752085891022" MODIFIED="1752085905957">
 <node TEXT="blade6" ID="ID_97228073" CREATED="1752085906506" MODIFIED="1752085909164">
 <node TEXT="blade 1-4" ID="ID_1192157985" CREATED="1752085910491" MODIFIED="1752085922839">
@@ -5701,6 +5702,14 @@ n_missing_prices <span class="ͼ13">=</span> pd<span class="ͼ1c">.</span><span 
 <node TEXT="bmc prompt" ID="ID_1236678912" CREATED="1752518386817" MODIFIED="1752518397775"/>
 </node>
 <node TEXT="stage 2" ID="ID_148435068" CREATED="1752518417177" MODIFIED="1752518420132"/>
+</node>
+<node TEXT="log" ID="ID_1277238515" CREATED="1754422257493" MODIFIED="1754429046957">
+<node TEXT="cat /var/baseboard_sensors.json" ID="ID_372792171" CREATED="1754422262461" MODIFIED="1754422289113"/>
+<node TEXT="touch /var/cpwm_debug_enable" ID="ID_1403364108" CREATED="1754422358189" MODIFIED="1754422362769">
+<node TEXT="grep -i  &quot;HSC | PV margin&quot; /nv/etc/log/eng-repo/cpwm_debug.log" POSITION="top_or_left" ID="ID_878301153" CREATED="1754422307612" MODIFIED="1754422353867"/>
+</node>
+<node TEXT="cat /var/gpud_inventory.json  | egrep &quot;PCIe|HottestTemp&quot; | grep -v Description" ID="ID_1613305732" CREATED="1754429049425" MODIFIED="1754429052436"/>
+<node TEXT="cat /nv/etc/log/eng-repo/cpwm_debug.log | grep Version | awk &apos;{print $4&quot;@&quot;$6}&apos; | python cwpm.py | tee -a  pwm.csv" ID="ID_144640110" CREATED="1754514222292" MODIFIED="1754585961820"/>
 </node>
 </node>
 <node TEXT="switchcraft -c dump_switch_status" ID="ID_118890086" CREATED="1752085684100" MODIFIED="1752085830118">
