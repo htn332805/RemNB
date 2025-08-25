@@ -1,0 +1,106 @@
+version: 1
+test_meta:
+  test_id: "FEED-STREAM-001"
+  tester: "auto"
+  description: "Continuous CSV stream for live monitoring/demo"
+
+steps:
+  - idx: 1
+    name: ensure_dirs
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        mkdir -p ./Data ./Logs ./Assets
+    success:
+      files_exist: ["Data"]
+
+  - idx: 2
+    name: start_gnu_screen_feeder
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        # Kill an existing screen session named 'feed' if desired; ignore errors
+        screen -S feed -X quit || true
+        # Start a detached screen session named 'feed'
+        screen -dmS feed
+        # In that session, run csv_feeder to append every 5 seconds with given headers to ./Data/streamed_data.csv
+        screen -S feed -X stuff "python3 ./tools/csv_feeder.py -n 5 -o ./Data/streamed_data.csv -H 'Timestamp,AmbTemp,LiquidTemp,SystemTemp,ChassisFanDuty,Fan1RPM,Fan2RMP,PumpRPM'$(printf '\r')"
+        # Optional: echo a hint
+        echo "Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv"
+    success:
+      files_exist: ["Data/streamed_data.csv"]
+
+  - idx: 3
+    name: launch_tmux_layout
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        # Kill existing tmux session named 'mon' if it exists
+        tmux has-session -t mon 2>/dev/null && tmux kill-session -t mon || true
+
+        # Create a new detached tmux session
+        tmux new-session -d -s mon
+
+        # We want a 3-column layout:
+        # - Column 1: 2 horizontal panes (top/bottom)
+        # - Column 2: 1 pane
+        # - Column 3: 1 pane
+
+        # Start with one pane in window 0
+        # Split first column horizontally to create top/bottom panes
+        tmux split-window -v -t mon:0
+
+        # Now create the second column by splitting the original top pane vertically
+        tmux select-pane -t mon:0.0
+        tmux split-window -h -t mon:0.0
+
+        # Create the third column by splitting the same original top pane area again (now the second column)
+        # Select the second column pane (index changes after splits; use last-pane shortcut)
+        tmux select-pane -R -t mon:0
+        tmux split-window -h -t mon:0
+
+        # After this, panes should be:
+        # mon:0.0 -> left-top
+        # mon:0.1 -> left-bottom
+        # mon:0.2 -> middle
+        # mon:0.3 -> right
+
+        # Assign commands to panes:
+        # Pane left-top (attach to GNU screen 'feed')
+        tmux select-pane -t mon:0.0
+        tmux send-keys "screen -r feed" C-m
+
+        # Pane left-bottom (htop)
+        tmux select-pane -t mon:0.1
+        tmux send-keys "htop" C-m
+
+        # Pane middle (ls -haltr ~)
+        tmux select-pane -t mon:0.2
+        tmux send-keys "watch -n 2 'ls -haltr ~'" C-m
+
+        # Pane right (date loop)
+        tmux select-pane -t mon:0.3
+        tmux send-keys "while true; do echo \$(date); sleep 5; done" C-m
+
+        # Focus back to left-top pane
+        tmux select-pane -t mon:0.0
+
+        echo "tmux session 'mon' is ready. Attach with: tmux attach -t mon"
+    depends_on: ["start_gnu_screen_feeder"]
+
+  # Optional: print a note on how to attach
+  - idx: 4
+    name: post_note
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        echo "GNU screen: screen -r feed"
+        echo "tmux: tmux attach -t mon"

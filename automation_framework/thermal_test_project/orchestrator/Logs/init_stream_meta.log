@@ -1,0 +1,301 @@
+=== 2025-08-24T00:13:15.157702Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:18:45.838776Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:21:24.575854Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:21:39.410085Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:22:32.599597Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:23:14.561997Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:24:40.733152Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:25:17.365899Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:25:29.510880Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:26:21.069378Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:27:33.442793Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:28:34.462054Z ===
+{
+  "ok": true,
+  "stream_headers": [
+    "Timestamp",
+    "AmbTemp",
+    "LiquidTemp",
+    "SystemTemp",
+    "ChassisFanDuty",
+    "Fan1RPM",
+    "Fan2RPM",
+    "PumpRPM"
+  ]
+}=== 2025-08-24T00:34:44.659368Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:42:53.775752Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:43:49.375620Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:46:09.460978Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:50:06.775333Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:50:22.601104Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:52:54.021400Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}=== 2025-08-24T00:53:21.452976Z ===
+{
+  "ok": true,
+  "config": {
+    "headers": [
+      "AmbTemp",
+      "LiquidTemp",
+      "SystemTemp",
+      "ChassisFanDuty",
+      "Fan1RPM",
+      "Fan2RPM",
+      "PumpRPM"
+    ],
+    "interval_sec": 1.0,
+    "min_val": 20.0,
+    "max_val": 95.0,
+    "buffer_max_rows": 20000
+  }
+}

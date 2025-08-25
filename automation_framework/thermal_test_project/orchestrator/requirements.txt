@@ -1,0 +1,15 @@
+# pyyaml for reading YAML recipes
+pyyaml==6.0.2
+# openpyxl for Excel creation and charts
+openpyxl==3.1.5
+# python-docx for report generation
+python-docx==1.1.2
+# graphviz for rendering execution digraphs
+graphviz==0.20.3
+# dash stack for dashboard (run separately in dashboard/)
+dash==2.17.1
+dash-bootstrap-components==1.6.0
+plotly==5.23.0
+# watchdog optional for file change detection (not required in this demo)
+watchdog==4.0.1
+

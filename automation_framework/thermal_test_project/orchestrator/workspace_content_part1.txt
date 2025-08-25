@@ -1,0 +1,2168 @@
+#-----CONTENT FOR: .DS_Store----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: .DS_Store----------------------
+
+#-----CONTENT FOR: orchestrator/store_on_ram.txt----------------------
+debug
+#-----THE END Of CONTENT FOR: orchestrator/store_on_ram.txt----------------------
+
+#-----CONTENT FOR: orchestrator/runner.py----------------------
+#!/usr/bin/env python3
+"""
+Runner with in-memory shared context (Option A).
+
+Changes in this version:
+- Replaces datetime.utcnow() with timezone-aware UTC helper now_utc_z().
+- Keeps shared CTX for in-memory data passing between Python scriptlets.
+- Shell steps can receive CTX values via environment (shell_env_keys) or stdin (stdin_from_ctx)
+  and can write results back into CTX via stdout_to_ctx without touching disk.
+"""
+
+import os
+import sys
+import json
+import time
+import pickle
+import importlib
+import subprocess
+from datetime import datetime, timezone
+from typing import Any, Dict, List
+
+import yaml
+
+from context import Context, expose_for_shell  # shared in-memory context helpers
+
+# -----------------------------------------------------------------------------
+# Time utilities (fixes deprecation warnings by using timezone-aware UTC)
+# -----------------------------------------------------------------------------
+def now_utc_z() -> str:
+    """
+    Return current UTC time as ISO 8601 string with 'Z' suffix, e.g., 2025-08-23T23:45:26.019285Z
+    """
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+# -----------------------------------------------------------------------------
+# Global in-memory context and state
+# -----------------------------------------------------------------------------
+CTX = Context()  # shared, in-memory only (Option A)
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE, "Data")
+LOGS_DIR = os.path.join(BASE, "Logs")
+ASSETS_DIR = os.path.join(BASE, "Assets")
+
+os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(LOGS_DIR, exist_ok=True)
+os.makedirs(ASSETS_DIR, exist_ok=True)
+
+STORE_ON_RAM_PATH = os.path.join(BASE, "store_on_ram.txt")
+PICKLE_STATE_PATH = os.path.join(BASE, "state.pkl")  # used only for GLOBAL_STATE when RAM mode is enabled
+
+GLOBAL_STATE: Dict[str, Any] = {
+    "steps": {},    # step_name -> {"status": "...", "stdout", "stderr", "started_at", "ended_at"}
+    "meta": {},
+    "errors": [],
+    "log": []
+}
+
+# -----------------------------------------------------------------------------
+# Helpers
+# -----------------------------------------------------------------------------
+def load_recipe(path: str) -> Dict[str, Any]:
+    with open(path, "r") as f:
+        return yaml.safe_load(f)
+
+def read_control_file():
+    if not os.path.exists(STORE_ON_RAM_PATH):
+        return {"ram": False, "debug": False}
+    with open(STORE_ON_RAM_PATH, "r") as f:
+        txt = f.read().strip().lower()
+    return {"ram": True, "debug": ("debug" in txt)}
+
+def persist_state(ctrl):
+    """
+    Persist GLOBAL_STATE only when RAM mode is enabled.
+    CTX is intentionally not persisted in Option A.
+    """
+    if not ctrl["ram"]:
+        return
+    with open(PICKLE_STATE_PATH, "wb") as pf:
+        pickle.dump(GLOBAL_STATE, pf, protocol=pickle.HIGHEST_PROTOCOL)
+
+def log_event(msg: str):
+    rec = f"[{now_utc_z()}] {msg}"
+    print(rec)
+    GLOBAL_STATE["log"].append(rec)
+    ctrl = read_control_file()
+    if not ctrl["ram"]:
+        with open(os.path.join(LOGS_DIR, "orchestrator.log"), "a", encoding="utf-8") as lf:
+            lf.write(rec + "\n")
+
+def files_exist(paths: List[str]) -> bool:
+    # Utility for success checks: verify all files exist
+    def _exists(p):
+        ap = os.path.join(BASE, p) if not os.path.isabs(p) else p
+        return os.path.exists(ap)
+    return all(_exists(p) for p in paths)
+
+# -----------------------------------------------------------------------------
+# Step executors
+# -----------------------------------------------------------------------------
+def run_shell(step: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Execute a shell step with optional env injection and stdin/stdout ctx bridging.
+
+    Optional step fields:
+    - shell_env_keys: ["test_id", "threshold"] -> exposes CTX_TEST_ID, CTX_THRESHOLD
+    - stdin_from_ctx: "some_key" -> json.dumps(CTX["some_key"]) is piped to stdin
+    - stdout_to_ctx: "dest_key" -> stdout is decoded and stored into CTX["dest_key"]
+    - stdout_to: "path" -> also write stdout to a file on disk if desired
+    """
+    cmd = [step["cmd"]] + step.get("args", [])
+    stdout_to = step.get("stdout_to")
+
+    # Prepare environment with selected CTX keys
+    env = os.environ.copy()
+    for k, v in expose_for_shell(CTX, step.get("shell_env_keys", [])).items():
+        env[k] = v
+
+    # Prepare stdin payload if requested
+    stdin_data = None
+    stdin_key = step.get("stdin_from_ctx")
+    if stdin_key:
+        if stdin_key not in CTX:
+            raise RuntimeError(f"stdin_from_ctx requested key '{stdin_key}' not found in CTX")
+        try:
+            stdin_data = json.dumps(CTX[stdin_key]).encode("utf-8")
+        except Exception as e:
+            raise RuntimeError(f"Failed to JSON-encode CTX['{stdin_key}']: {e}")
+
+    log_event(f"Running shell: {' '.join(cmd)}")
+
+    proc = subprocess.Popen(
+        cmd,
+        cwd=BASE,
+        env=env,
+        stdin=(subprocess.PIPE if stdin_data is not None else None),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=False  # capture raw bytes; decode explicitly
+    )
+    out, err = proc.communicate(input=stdin_data)
+    rc = proc.returncode
+
+    # Handle stdout destinations
+    if stdout_to:
+        out_path = os.path.join(BASE, stdout_to) if not os.path.isabs(stdout_to) else stdout_to
+        with open(out_path, "wb") as f:
+            f.write(out or b"")
+
+    # Store stdout back into CTX if requested
+    if step.get("stdout_to_ctx"):
+        CTX[step["stdout_to_ctx"]] = (out or b"").decode("utf-8", errors="replace").strip()
+
+    return {
+        "returncode": rc,
+        "stdout": (out or b"").decode("utf-8", errors="replace"),
+        "stderr": (err or b"").decode("utf-8", errors="replace")
+    }
+
+def run_python(step: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Import the module and function, then call run(ctx, params).
+    Backward compatibility: if the function doesn't accept ctx, call run(params).
+    """
+    mod_name = step["module"]
+    func_name = step["function"]
+    params = step.get("params", {})
+    log_event(f"Running python: {mod_name}.{func_name}({params})")
+
+    mod = importlib.import_module(mod_name)
+    func = getattr(mod, func_name)
+
+    try:
+        result = func(CTX, params)  # preferred signature
+    except TypeError:
+        result = func(params)       # legacy support
+
+    return {"returncode": 0, "stdout": json.dumps(result, indent=2), "stderr": ""}
+
+def check_success(step: Dict[str, Any]) -> bool:
+    """
+    Check success criteria declared in YAML:
+    - files_exist: ["path1", "path2"]
+    - ctx_has_keys: ["key1", "key2"]
+    """
+    succ = step.get("success", {})
+    ok = True
+    if "files_exist" in succ:
+        ok = ok and files_exist(succ["files_exist"])
+    if "ctx_has_keys" in succ:
+        for k in succ["ctx_has_keys"]:
+            if k not in CTX:
+                ok = False
+                break
+    return ok
+
+def render_graph(steps: List[Dict[str, Any]]):
+    """
+    Render a colored digraph to Assets/graph.png.
+    Node colors:
+      pending=white, running=yellow, success=green, failed=red
+    """
+    try:
+        import graphviz
+    except ImportError:
+        log_event("graphviz not installed; skipping digraph render")
+        return
+
+    dot = graphviz.Digraph(format="png")
+    status_color = {"pending": "white", "running": "yellow", "success": "green", "failed": "red"}
+
+    for s in steps:
+        nm = s["name"]
+        idx = s["idx"]
+        st = GLOBAL_STATE["steps"].get(nm, {}).get("status", "pending")
+        color = status_color.get(st, "white")
+        label = f"{idx}: {nm}"
+        dot.node(nm, label=label, style="filled", fillcolor=color)
+
+    for s in steps:
+        for dep in s.get("depends_on", []) or []:
+            dot.edge(dep, s["name"])
+
+    out_path = os.path.join(ASSETS_DIR, "graph")
+    dot.render(out_path, cleanup=True)
+    log_event(f"Digraph updated at {out_path}.png")
+
+def ensure_log_files():
+    open(os.path.join(LOGS_DIR, "orchestrator.log"), "a").close()
+
+# -----------------------------------------------------------------------------
+# Main driver
+# -----------------------------------------------------------------------------
+def main(recipe_path: str, only: List[str] = None, skip: List[str] = None, resume_from: str = None):
+    ensure_log_files()
+    ctrl = read_control_file()
+    recipe = load_recipe(recipe_path)
+
+    # Seed CTX and GLOBAL_STATE with test metadata
+    CTX["meta"] = recipe.get("test_meta", {})
+    GLOBAL_STATE["meta"] = recipe.get("test_meta", {})
+
+    steps = sorted(recipe["steps"], key=lambda x: x["idx"])
+    name_to_step = {s["name"]: s for s in steps}
+
+    # Initialize step statuses
+    for s in steps:
+        GLOBAL_STATE["steps"].setdefault(s["name"], {"status": "pending", "artifacts": []})
+
+    # Apply CLI filters
+    if only:
+        steps = [s for s in steps if s["name"] in only]
+    if skip:
+        steps = [s for s in steps if s["name"] not in skip]
+    if resume_from:
+        passed = False
+        new_steps = []
+        for s in steps:
+            if s["name"] == resume_from:
+                passed = True
+            if passed:
+                new_steps.append(s)
+        steps = new_steps
+
+    render_graph(steps)
+
+    # Execute steps sequentially
+    for s in steps:
+        name = s["name"]
+        # Dependency check
+        for d in s.get("depends_on", []) or []:
+            dstat = GLOBAL_STATE["steps"].get(d, {}).get("status", "pending")
+            if dstat != "success":
+                msg = f"Dependency {d} not successful for step {name}"
+                log_event(msg)
+                GLOBAL_STATE["errors"].append({"step": name, "error": msg})
+                GLOBAL_STATE["steps"][name]["status"] = "failed"
+                persist_state(ctrl)
+                render_graph(steps)
+                sys.exit(2)
+
+        # Mark running and render
+        GLOBAL_STATE["steps"][name]["status"] = "running"
+        GLOBAL_STATE["steps"][name]["started_at"] = now_utc_z()
+        render_graph(steps)
+
+        try:
+            # Execute
+            if s["type"] == "shell":
+                res = run_shell(s)
+            elif s["type"] == "python":
+                res = run_python(s)
+            else:
+                raise RuntimeError(f"Unknown step type: {s['type']}")
+
+            # Write per-step log (stdout/stderr)
+            step_log_path = os.path.join(LOGS_DIR, f"{name}.log")
+            with open(step_log_path, "a", encoding="utf-8") as lf:
+                lf.write(f"=== {now_utc_z()} ===\n")
+                if res.get("stdout"):
+                    lf.write(res["stdout"])
+                if res.get("stderr"):
+                    lf.write("\n[stderr]\n" + res["stderr"])
+
+            # Evaluate success
+            ok = (res.get("returncode", 1) == 0) and check_success(s)
+            if not ok:
+                GLOBAL_STATE["steps"][name]["status"] = "failed"
+                GLOBAL_STATE["steps"][name]["ended_at"] = now_utc_z()
+                GLOBAL_STATE["steps"][name]["stdout"] = res.get("stdout", "")
+                GLOBAL_STATE["steps"][name]["stderr"] = res.get("stderr", "")
+                msg = f"Step {name} failed"
+                log_event(msg)
+                GLOBAL_STATE["errors"].append({"step": name, "error": msg})
+                persist_state(ctrl)
+                render_graph(steps)
+                sys.exit(1)
+
+            # Success
+            GLOBAL_STATE["steps"][name]["status"] = "success"
+            GLOBAL_STATE["steps"][name]["ended_at"] = now_utc_z()
+            GLOBAL_STATE["steps"][name]["stdout"] = res.get("stdout", "")
+            GLOBAL_STATE["steps"][name]["stderr"] = res.get("stderr", "")
+            log_event(f"Step {name} succeeded")
+
+        except Exception as e:
+            GLOBAL_STATE["steps"][name]["status"] = "failed"
+            GLOBAL_STATE["steps"][name]["ended_at"] = now_utc_z()
+            GLOBAL_STATE["errors"].append({"step": name, "error": str(e)})
+            log_event(f"Exception in step {name}: {e}")
+            persist_state(ctrl)
+            render_graph(steps)
+            sys.exit(1)
+
+        persist_state(ctrl)
+        render_graph(steps)
+
+    log_event("Pipeline completed successfully.")
+    persist_state(ctrl)
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--recipe", "-r", default=os.path.join(BASE, "recipes", "default_recipe.yaml"))
+    ap.add_argument("--only", nargs="*", help="Only run these steps by name")
+    ap.add_argument("--skip", nargs="*", help="Skip these steps by name")
+    ap.add_argument("--resume-from", dest="resume_from", help="Resume starting from this step name")
+    args = ap.parse_args()
+    main(args.recipe, args.only, args.skip, args.resume_from)
+#-----THE END Of CONTENT FOR: orchestrator/runner.py----------------------
+
+#-----CONTENT FOR: orchestrator/.DS_Store----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/.DS_Store----------------------
+
+#-----CONTENT FOR: orchestrator/requirements.txt----------------------
+# pyyaml for reading YAML recipes
+pyyaml==6.0.2
+# openpyxl for Excel creation and charts
+openpyxl==3.1.5
+# python-docx for report generation
+python-docx==1.1.2
+# graphviz for rendering execution digraphs
+graphviz==0.20.3
+# dash stack for dashboard (run separately in dashboard/)
+dash==2.17.1
+dash-bootstrap-components==1.6.0
+plotly==5.23.0
+# watchdog optional for file change detection (not required in this demo)
+watchdog==4.0.1
+
+#-----THE END Of CONTENT FOR: orchestrator/requirements.txt----------------------
+
+#-----CONTENT FOR: orchestrator/workspace_content_part1.txt----------------------
+#-----CONTENT FOR: .DS_Store----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: .DS_Store----------------------
+
+#-----CONTENT FOR: orchestrator/store_on_ram.txt----------------------
+debug
+#-----THE END Of CONTENT FOR: orchestrator/store_on_ram.txt----------------------
+
+#-----CONTENT FOR: orchestrator/runner.py----------------------
+#!/usr/bin/env python3
+"""
+Runner with in-memory shared context (Option A).
+
+Changes in this version:
+- Replaces datetime.utcnow() with timezone-aware UTC helper now_utc_z().
+- Keeps shared CTX for in-memory data passing between Python scriptlets.
+- Shell steps can receive CTX values via environment (shell_env_keys) or stdin (stdin_from_ctx)
+  and can write results back into CTX via stdout_to_ctx without touching disk.
+"""
+
+import os
+import sys
+import json
+import time
+import pickle
+import importlib
+import subprocess
+from datetime import datetime, timezone
+from typing import Any, Dict, List
+
+import yaml
+
+from context import Context, expose_for_shell  # shared in-memory context helpers
+
+# -----------------------------------------------------------------------------
+# Time utilities (fixes deprecation warnings by using timezone-aware UTC)
+# -----------------------------------------------------------------------------
+def now_utc_z() -> str:
+    """
+    Return current UTC time as ISO 8601 string with 'Z' suffix, e.g., 2025-08-23T23:45:26.019285Z
+    """
+    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+# -----------------------------------------------------------------------------
+# Global in-memory context and state
+# -----------------------------------------------------------------------------
+CTX = Context()  # shared, in-memory only (Option A)
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE, "Data")
+LOGS_DIR = os.path.join(BASE, "Logs")
+ASSETS_DIR = os.path.join(BASE, "Assets")
+
+os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(LOGS_DIR, exist_ok=True)
+os.makedirs(ASSETS_DIR, exist_ok=True)
+
+STORE_ON_RAM_PATH = os.path.join(BASE, "store_on_ram.txt")
+PICKLE_STATE_PATH = os.path.join(BASE, "state.pkl")  # used only for GLOBAL_STATE when RAM mode is enabled
+
+GLOBAL_STATE: Dict[str, Any] = {
+    "steps": {},    # step_name -> {"status": "...", "stdout", "stderr", "started_at", "ended_at"}
+    "meta": {},
+    "errors": [],
+    "log": []
+}
+
+# -----------------------------------------------------------------------------
+# Helpers
+# -----------------------------------------------------------------------------
+def load_recipe(path: str) -> Dict[str, Any]:
+    with open(path, "r") as f:
+        return yaml.safe_load(f)
+
+def read_control_file():
+    if not os.path.exists(STORE_ON_RAM_PATH):
+        return {"ram": False, "debug": False}
+    with open(STORE_ON_RAM_PATH, "r") as f:
+        txt = f.read().strip().lower()
+    return {"ram": True, "debug": ("debug" in txt)}
+
+def persist_state(ctrl):
+    """
+    Persist GLOBAL_STATE only when RAM mode is enabled.
+    CTX is intentionally not persisted in Option A.
+    """
+    if not ctrl["ram"]:
+        return
+    with open(PICKLE_STATE_PATH, "wb") as pf:
+        pickle.dump(GLOBAL_STATE, pf, protocol=pickle.HIGHEST_PROTOCOL)
+
+def log_event(msg: str):
+    rec = f"[{now_utc_z()}] {msg}"
+    print(rec)
+    GLOBAL_STATE["log"].append(rec)
+    ctrl = read_control_file()
+    if not ctrl["ram"]:
+        with open(os.path.join(LOGS_DIR, "orchestrator.log"), "a", encoding="utf-8") as lf:
+            lf.write(rec + "\n")
+
+def files_exist(paths: List[str]) -> bool:
+    # Utility for success checks: verify all files exist
+    def _exists(p):
+        ap = os.path.join(BASE, p) if not os.path.isabs(p) else p
+        return os.path.exists(ap)
+    return all(_exists(p) for p in paths)
+
+# -----------------------------------------------------------------------------
+# Step executors
+# -----------------------------------------------------------------------------
+def run_shell(step: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Execute a shell step with optional env injection and stdin/stdout ctx bridging.
+
+    Optional step fields:
+    - shell_env_keys: ["test_id", "threshold"] -> exposes CTX_TEST_ID, CTX_THRESHOLD
+    - stdin_from_ctx: "some_key" -> json.dumps(CTX["some_key"]) is piped to stdin
+    - stdout_to_ctx: "dest_key" -> stdout is decoded and stored into CTX["dest_key"]
+    - stdout_to: "path" -> also write stdout to a file on disk if desired
+    """
+    cmd = [step["cmd"]] + step.get("args", [])
+    stdout_to = step.get("stdout_to")
+
+    # Prepare environment with selected CTX keys
+    env = os.environ.copy()
+    for k, v in expose_for_shell(CTX, step.get("shell_env_keys", [])).items():
+        env[k] = v
+
+    # Prepare stdin payload if requested
+    stdin_data = None
+    stdin_key = step.get("stdin_from_ctx")
+    if stdin_key:
+        if stdin_key not in CTX:
+            raise RuntimeError(f"stdin_from_ctx requested key '{stdin_key}' not found in CTX")
+        try:
+            stdin_data = json.dumps(CTX[stdin_key]).encode("utf-8")
+        except Exception as e:
+            raise RuntimeError(f"Failed to JSON-encode CTX['{stdin_key}']: {e}")
+
+    log_event(f"Running shell: {' '.join(cmd)}")
+
+    proc = subprocess.Popen(
+        cmd,
+        cwd=BASE,
+        env=env,
+        stdin=(subprocess.PIPE if stdin_data is not None else None),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=False  # capture raw bytes; decode explicitly
+    )
+    out, err = proc.communicate(input=stdin_data)
+    rc = proc.returncode
+
+    # Handle stdout destinations
+    if stdout_to:
+        out_path = os.path.join(BASE, stdout_to) if not os.path.isabs(stdout_to) else stdout_to
+        with open(out_path, "wb") as f:
+            f.write(out or b"")
+
+    # Store stdout back into CTX if requested
+    if step.get("stdout_to_ctx"):
+        CTX[step["stdout_to_ctx"]] = (out or b"").decode("utf-8", errors="replace").strip()
+
+    return {
+        "returncode": rc,
+        "stdout": (out or b"").decode("utf-8", errors="replace"),
+        "stderr": (err or b"").decode("utf-8", errors="replace")
+    }
+
+def run_python(step: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Import the module and function, then call run(ctx, params).
+    Backward compatibility: if the function doesn't accept ctx, call run(params).
+    """
+    mod_name = step["module"]
+    func_name = step["function"]
+    params = step.get("params", {})
+    log_event(f"Running python: {mod_name}.{func_name}({params})")
+
+    mod = importlib.import_module(mod_name)
+    func = getattr(mod, func_name)
+
+    try:
+        result = func(CTX, params)  # preferred signature
+    except TypeError:
+        result = func(params)       # legacy support
+
+    return {"returncode": 0, "stdout": json.dumps(result, indent=2), "stderr": ""}
+
+def check_success(step: Dict[str, Any]) -> bool:
+    """
+    Check success criteria declared in YAML:
+    - files_exist: ["path1", "path2"]
+    - ctx_has_keys: ["key1", "key2"]
+    """
+    succ = step.get("success", {})
+    ok = True
+    if "files_exist" in succ:
+        ok = ok and files_exist(succ["files_exist"])
+    if "ctx_has_keys" in succ:
+        for k in succ["ctx_has_keys"]:
+            if k not in CTX:
+                ok = False
+                break
+    return ok
+
+def render_graph(steps: List[Dict[str, Any]]):
+    """
+    Render a colored digraph to Assets/graph.png.
+    Node colors:
+      pending=white, running=yellow, success=green, failed=red
+    """
+    try:
+        import graphviz
+    except ImportError:
+        log_event("graphviz not installed; skipping digraph render")
+        return
+
+    dot = graphviz.Digraph(format="png")
+    status_color = {"pending": "white", "running": "yellow", "success": "green", "failed": "red"}
+
+    for s in steps:
+        nm = s["name"]
+        idx = s["idx"]
+        st = GLOBAL_STATE["steps"].get(nm, {}).get("status", "pending")
+        color = status_color.get(st, "white")
+        label = f"{idx}: {nm}"
+        dot.node(nm, label=label, style="filled", fillcolor=color)
+
+    for s in steps:
+        for dep in s.get("depends_on", []) or []:
+            dot.edge(dep, s["name"])
+
+    out_path = os.path.join(ASSETS_DIR, "graph")
+    dot.render(out_path, cleanup=True)
+    log_event(f"Digraph updated at {out_path}.png")
+
+def ensure_log_files():
+    open(os.path.join(LOGS_DIR, "orchestrator.log"), "a").close()
+
+# -----------------------------------------------------------------------------
+# Main driver
+# -----------------------------------------------------------------------------
+def main(recipe_path: str, only: List[str] = None, skip: List[str] = None, resume_from: str = None):
+    ensure_log_files()
+    ctrl = read_control_file()
+    recipe = load_recipe(recipe_path)
+
+    # Seed CTX and GLOBAL_STATE with test metadata
+    CTX["meta"] = recipe.get("test_meta", {})
+    GLOBAL_STATE["meta"] = recipe.get("test_meta", {})
+
+    steps = sorted(recipe["steps"], key=lambda x: x["idx"])
+    name_to_step = {s["name"]: s for s in steps}
+
+    # Initialize step statuses
+    for s in steps:
+        GLOBAL_STATE["steps"].setdefault(s["name"], {"status": "pending", "artifacts": []})
+
+    # Apply CLI filters
+    if only:
+        steps = [s for s in steps if s["name"] in only]
+    if skip:
+        steps = [s for s in steps if s["name"] not in skip]
+    if resume_from:
+        passed = False
+        new_steps = []
+        for s in steps:
+            if s["name"] == resume_from:
+                passed = True
+            if passed:
+                new_steps.append(s)
+        steps = new_steps
+
+    render_graph(steps)
+
+    # Execute steps sequentially
+    for s in steps:
+        name = s["name"]
+        # Dependency check
+        for d in s.get("depends_on", []) or []:
+            dstat = GLOBAL_STATE["steps"].get(d, {}).get("status", "pending")
+            if dstat != "success":
+                msg = f"Dependency {d} not successful for step {name}"
+                log_event(msg)
+                GLOBAL_STATE["errors"].append({"step": name, "error": msg})
+                GLOBAL_STATE["steps"][name]["status"] = "failed"
+                persist_state(ctrl)
+                render_graph(steps)
+                sys.exit(2)
+
+        # Mark running and render
+        GLOBAL_STATE["steps"][name]["status"] = "running"
+        GLOBAL_STATE["steps"][name]["started_at"] = now_utc_z()
+        render_graph(steps)
+
+        try:
+            # Execute
+            if s["type"] == "shell":
+                res = run_shell(s)
+            elif s["type"] == "python":
+                res = run_python(s)
+            else:
+                raise RuntimeError(f"Unknown step type: {s['type']}")
+
+            # Write per-step log (stdout/stderr)
+            step_log_path = os.path.join(LOGS_DIR, f"{name}.log")
+            with open(step_log_path, "a", encoding="utf-8") as lf:
+                lf.write(f"=== {now_utc_z()} ===\n")
+                if res.get("stdout"):
+                    lf.write(res["stdout"])
+                if res.get("stderr"):
+                    lf.write("\n[stderr]\n" + res["stderr"])
+
+            # Evaluate success
+            ok = (res.get("returncode", 1) == 0) and check_success(s)
+            if not ok:
+                GLOBAL_STATE["steps"][name]["status"] = "failed"
+                GLOBAL_STATE["steps"][name]["ended_at"] = now_utc_z()
+                GLOBAL_STATE["steps"][name]["stdout"] = res.get("stdout", "")
+                GLOBAL_STATE["steps"][name]["stderr"] = res.get("stderr", "")
+                msg = f"Step {name} failed"
+                log_event(msg)
+                GLOBAL_STATE["errors"].append({"step": name, "error": msg})
+                persist_state(ctrl)
+                render_graph(steps)
+                sys.exit(1)
+
+            # Success
+            GLOBAL_STATE["steps"][name]["status"] = "success"
+            GLOBAL_STATE["steps"][name]["ended_at"] = now_utc_z()
+            GLOBAL_STATE["steps"][name]["stdout"] = res.get("stdout", "")
+            GLOBAL_STATE["steps"][name]["stderr"] = res.get("stderr", "")
+            log_event(f"Step {name} succeeded")
+
+        except Exception as e:
+            GLOBAL_STATE["steps"][name]["status"] = "failed"
+            GLOBAL_STATE["steps"][name]["ended_at"] = now_utc_z()
+            GLOBAL_STATE["errors"].append({"step": name, "error": str(e)})
+            log_event(f"Exception in step {name}: {e}")
+            persist_state(ctrl)
+            render_graph(steps)
+            sys.exit(1)
+
+        persist_state(ctrl)
+        render_graph(steps)
+
+    log_event("Pipeline completed successfully.")
+    persist_state(ctrl)
+
+if __name__ == "__main__":
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--recipe", "-r", default=os.path.join(BASE, "recipes", "default_recipe.yaml"))
+    ap.add_argument("--only", nargs="*", help="Only run these steps by name")
+    ap.add_argument("--skip", nargs="*", help="Skip these steps by name")
+    ap.add_argument("--resume-from", dest="resume_from", help="Resume starting from this step name")
+    args = ap.parse_args()
+    main(args.recipe, args.only, args.skip, args.resume_from)
+#-----THE END Of CONTENT FOR: orchestrator/runner.py----------------------
+
+#-----THE END Of CONTENT FOR: orchestrator/workspace_content_part1.txt----------------------
+
+#-----CONTENT FOR: orchestrator/context.py----------------------
+# orchestrator/context.py
+"""
+Context object for in-memory sharing between scriptlets.
+
+- Context is a dict-like store for small-to-medium sized Python objects.
+- Includes helper methods for namespacing and safe updates.
+- Not persisted to disk (by design in Option A).
+"""
+
+from typing import Any, Dict, Optional
+
+class Context(dict):
+    """
+    A thin wrapper over dict so we can add helpers and type hints.
+    Use like a normal dict: ctx["key"] = value
+    """
+    def ns(self, name: str) -> Dict[str, Any]:
+        """
+        Return a namespaced sub-dict, creating it if necessary.
+        Example: ctx.ns("metrics") returns ctx["metrics"] (dict).
+        """
+        if name not in self or not isinstance(self[name], dict):
+            self[name] = {}
+        return self[name]
+
+    def get_ns(self, name: str) -> Dict[str, Any]:
+        """
+        Get an existing namespace (dict), or empty dict if missing (without creating).
+        """
+        val = self.get(name)
+        return val if isinstance(val, dict) else {}
+
+    def set_if_absent(self, key: str, value: Any) -> None:
+        """
+        Set a key if it doesn't already exist.
+        """
+        if key not in self:
+            self[key] = value
+
+def expose_for_shell(ctx: "Context", keys: Optional[list] = None) -> Dict[str, str]:
+    """
+    Prepare environment variables for shell steps from selected ctx keys.
+    - Only simple scalar types (str, int, float, bool) are directly stringified.
+    - For complex objects, consider using stdin streaming instead.
+    Returns a dict of env vars like {"CTX_TEST_ID": "T-001"}.
+    """
+    env = {}
+    if not keys:
+        return env
+    for k in keys:
+        if k in ctx:
+            v = ctx[k]
+            if isinstance(v, (str, int, float, bool)):
+                env[f"CTX_{k.upper()}"] = str(v)
+            else:
+                # Skip complex values here to avoid giant env; use stdin bridge instead.
+                pass
+    return env
+#-----THE END Of CONTENT FOR: orchestrator/context.py----------------------
+
+#-----CONTENT FOR: orchestrator/state.pkl----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/state.pkl----------------------
+
+#-----CONTENT FOR: orchestrator/tools/clean_pristine.sh----------------------
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Resolve base as repo root if script is run from anywhere
+BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+echo "[CLEAN] Starting clean slate reset at: $BASE"
+
+# 1) Data folder cleanup: remove generated artifacts, keep optional fixtures folder
+DATA_DIR="$BASE/orchestrator/Data"
+if [[ -d "$DATA_DIR" ]]; then
+  echo "[CLEAN] Purging Data/ generated files"
+  find "$DATA_DIR" -maxdepth 1 -type f \
+    ! -name ".gitkeep" \
+    ! -name "chart_spec.json" \
+    ! -name "meta.example.json" \
+    -print -delete || true
+
+  # Optionally preserve a dedicated fixtures subfolder
+  if [[ -d "$DATA_DIR/fixtures" ]]; then
+    echo "[CLEAN] Preserving Data/fixtures/"
+  fi
+
+  # Remove common generated outputs if nested
+  rm -f "$DATA_DIR/metrics.json" \
+        "$DATA_DIR/ai_summary.md" \
+        "$DATA_DIR/output.xlsx" \
+        "$DATA_DIR/report.docx" \
+        "$DATA_DIR/tests.db" \
+        "$DATA_DIR/normalized.csv" \
+        "$DATA_DIR/sanitized.csv" \
+        "$DATA_DIR/clean.csv" \
+        "$DATA_DIR/raw_input.csv" 2>/dev/null || true
+fi
+
+# 2) Logs cleanup
+LOGS_DIR="$BASE/orchestrator/Logs"
+if [[ -d "$LOGS_DIR" ]]; then
+  echo "[CLEAN] Purging Logs/"
+  find "$LOGS_DIR" -type f -print -delete || true
+fi
+
+# 3) Assets cleanup: remove generated graph
+ASSETS_DIR="$BASE/orchestrator/Assets"
+if [[ -d "$ASSETS_DIR" ]]; then
+  echo "[CLEAN] Removing generated digraph image"
+  rm -f "$ASSETS_DIR/graph.png" "$ASSETS_DIR/graph" "$ASSETS_DIR/graph.gv" 2>/dev/null || true
+fi
+
+# 4) Runtime control/state
+echo "[CLEAN] Removing runtime control/state files"
+rm -f "$BASE/orchestrator/store_on_ram.txt" 2>/dev/null || true
+rm -f "$BASE/orchestrator/state.pkl" 2>/dev/null || true
+
+# 5) Python cache and temp files repository-wide
+echo "[CLEAN] Removing Python caches and temp files"
+find "$BASE" -type d -name "__pycache__" -prune -exec rm -rf {} + || true
+find "$BASE" -type f \( -name "*.pyc" -o -name "*.pyo" -o -name "*.tmp" -o -name "*.bak" -o -name "*.log" \) -print -delete || true
+
+# 6) Optional: recreate empty placeholders
+touch "$LOGS_DIR/orchestrator.log"
+touch "$ASSETS_DIR/.gitkeep"
+touch "$DATA_DIR/.gitkeep"
+
+echo "[CLEAN] Done. Repository is reset to pre-run state."
+#-----THE END Of CONTENT FOR: orchestrator/tools/clean_pristine.sh----------------------
+
+#-----CONTENT FOR: orchestrator/tools/csv_feeder.py----------------------
+#!/usr/bin/env python3
+"""
+csv_feeder.py — append a CSV line every n seconds until Ctrl+C.
+
+Features:
+- Required: interval seconds (-n / --interval)
+- Optional: output CSV path (-o / --output), default ./Data/live.csv
+- If file exists: append rows; otherwise create and write headers first
+- Optional: custom headers (-H / --headers), comma-separated (no spaces)
+- Optional: min/max range for random numbers (-min / -max), defaults 0..100
+- Timestamp format: MM/DD/YYYY HH:MM:SS (e.g., 08/23/2026 20:23:54)
+- All non-Timestamp columns are random floats within [min, max], rounded to 3 decimals
+Usage examples
+Append every 2 seconds to default path ./Data/live.csv:
+
+python csv_feeder.py -n 2
+
+Append every 0.5 seconds with custom headers and range:
+
+python csv_feeder.py -n 0.5 -H "Timestamp,Heatsink,Inlet,Outlet" --min 20 --max 95
+
+Append to a specific file:
+
+python csv_feeder.py -n 1 -o /tmp/thermal_stream.csv
+
+Notes
+If custom headers are provided and do not start with “Timestamp”, the tool automatically inserts “Timestamp” as the first column.
+
+Existing file with a different header is left intact; a warning is printed and rows are appended to avoid data loss. Adjust to your policy if you prefer to fail instead.
+
+Values are floats with 3 decimal places; change rounding as needed.
+
+"""
+
+import argparse
+import csv
+import os
+import random
+import signal
+import sys
+import time
+from datetime import datetime
+
+DEFAULT_OUTPUT = os.path.join(".", "Data", "live.csv")
+DEFAULT_HEADERS = ["Timestamp", "SensorA", "SensorB", "Sensor1", "Sensor2"]
+DEFAULT_MIN = 0.0
+DEFAULT_MAX = 100.0
+TIME_FMT = "%m/%d/%Y %H:%M:%S"
+
+_running = True
+
+def _handle_sigint(sig, frame):
+    global _running
+    print("\n[INFO] Ctrl+C received. Stopping...", flush=True)
+    _running = False
+
+def parse_args():
+    p = argparse.ArgumentParser(description="Continuously append CSV rows every n seconds until Ctrl+C.")
+    p.add_argument("-n", "--interval", type=float, required=True,
+                   help="Interval in seconds between rows (e.g., 1, 0.5, 2). Required.")
+    p.add_argument("-o", "--output", type=str, default=DEFAULT_OUTPUT,
+                   help=f"Output CSV path (default: {DEFAULT_OUTPUT})")
+    p.add_argument("-H", "--headers", type=str, default=None,
+                   help="Comma-separated headers (excluding spaces). First header must be 'Timestamp' or it will be inserted automatically as the first column.")
+    p.add_argument("--min", dest="min_val", type=float, default=DEFAULT_MIN,
+                   help=f"Minimum random value inclusive (default: {DEFAULT_MIN})")
+    p.add_argument("--max", dest="max_val", type=float, default=DEFAULT_MAX,
+                   help=f"Maximum random value inclusive (default: {DEFAULT_MAX})")
+    return p.parse_args()
+
+def normalize_headers(headers_arg):
+    if headers_arg is None:
+        return DEFAULT_HEADERS[:]
+    # split by comma, strip spaces around tokens
+    toks = [t.strip() for t in headers_arg.split(",") if t.strip() != ""]
+    if not toks:
+        return DEFAULT_HEADERS[:]
+    # Ensure Timestamp is first; if missing, insert it
+    if toks[0].lower() != "timestamp":
+        toks = ["Timestamp"] + toks
+    return toks
+
+def ensure_parent_dir(path):
+    parent = os.path.dirname(os.path.abspath(path))
+    if parent and not os.path.exists(parent):
+        os.makedirs(parent, exist_ok=True)
+
+def file_exists_nonempty(path):
+    return os.path.exists(path) and os.path.getsize(path) > 0
+
+def read_existing_header(path):
+    try:
+        with open(path, "r", newline="") as f:
+            reader = csv.reader(f)
+            row = next(reader, None)
+            return row
+    except Exception:
+        return None
+
+def headers_match(existing, desired):
+    if existing is None:
+        return False
+    return [h.strip() for h in existing] == [h.strip() for h in desired]
+
+def generate_row(headers, min_val, max_val):
+    ts = datetime.now().strftime(TIME_FMT)
+    row = [ts]
+    # For each header after Timestamp, generate a random float
+    for h in headers[1:]:
+        val = random.uniform(min_val, max_val)
+        row.append(f"{val:.3f}")
+    return row
+
+def main():
+    args = parse_args()
+
+    if args.min_val > args.max_val:
+        print(f"[ERROR] --min must be <= --max (got {args.min_val} > {args.max_val})", file=sys.stderr)
+        sys.exit(2)
+
+    headers = normalize_headers(args.headers)
+
+    ensure_parent_dir(args.output)
+
+    # Handle Ctrl+C gracefully
+    signal.signal(signal.SIGINT, _handle_sigint)
+    if hasattr(signal, "SIGTERM"):
+        signal.signal(signal.SIGTERM, _handle_sigint)
+
+    # Prepare file: write headers if file absent or empty
+    need_header = True
+    if file_exists_nonempty(args.output):
+        existing = read_existing_header(args.output)
+        if existing is None:
+            print(f"[WARN] Existing file unreadable header; rewriting with desired headers.", flush=True)
+        else:
+            if not headers_match(existing, headers):
+                print(f"[WARN] Existing header {existing} differs from desired {headers}.", flush=True)
+                print(f"[WARN] Appending rows with desired schema; downstream tools should handle header mismatch.", flush=True)
+            need_header = False  # file already has a header line (even if different)
+    else:
+        # fresh file
+        pass
+
+    # Open in append mode
+    with open(args.output, "a", newline="") as f:
+        writer = csv.writer(f)
+        if need_header:
+            writer.writerow(headers)
+            f.flush()
+            os.fsync(f.fileno())
+            print(f"[INFO] Wrote headers to {args.output}: {headers}", flush=True)
+
+        print(f"[INFO] Appending a row every {args.interval} second(s) to {args.output}. Press Ctrl+C to stop.", flush=True)
+
+        # Main loop
+        while _running:
+            row = generate_row(headers, args.min_val, args.max_val)
+            writer.writerow(row)
+            f.flush()
+            try:
+                os.fsync(f.fileno())
+            except Exception:
+                pass
+            print(f"[ROW] {row}", flush=True)
+            # Sleep
+            # If interval is < 0.01, cap to avoid busy loop
+            sleep_s = max(0.01, args.interval)
+            # Sleep in small chunks so Ctrl+C is responsive
+            end_time = time.time() + sleep_s
+            while _running and time.time() < end_time:
+                time.sleep(min(0.1, end_time - time.time()))
+
+    print("[INFO] Exiting. Goodbye.", flush=True)
+
+if __name__ == "__main__":
+    main()
+#-----THE END Of CONTENT FOR: orchestrator/tools/csv_feeder.py----------------------
+
+#-----CONTENT FOR: orchestrator/dashboard/data/normalized.csv----------------------
+timestamp,hsink_top_C,hsink_base_C
+2025-08-23T13:00:00Z,38.2,40.5
+2025-08-23T13:00:10Z,39.1,41.0
+2025-08-23T13:00:20Z,40.3,42.1
+#-----THE END Of CONTENT FOR: orchestrator/dashboard/data/normalized.csv----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/compute_metrics_mem.log----------------------
+=== 2025-08-23T23:45:26.029073Z ===
+{
+  "ok": true,
+  "columns": [
+    "hsink_top_C",
+    "hsink_base_C",
+    "fan_rpm"
+  ]
+}=== 2025-08-23T23:52:39.637116Z ===
+{
+  "ok": true,
+  "columns": [
+    "hsink_top_C",
+    "hsink_base_C",
+    "fan_rpm"
+  ]
+}=== 2025-08-23T23:58:27.718543Z ===
+{
+  "ok": true,
+  "columns": [
+    "hsink_top_C",
+    "hsink_base_C",
+    "fan_rpm"
+  ]
+}=== 2025-08-24T00:00:19.974680Z ===
+{
+  "ok": true,
+  "columns": [
+    "hsink_top_C",
+    "hsink_base_C",
+    "fan_rpm"
+  ]
+}#-----THE END Of CONTENT FOR: orchestrator/Logs/compute_metrics_mem.log----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/ai_analyze_mem.log----------------------
+=== 2025-08-23T23:45:26.361266Z ===
+{
+  "ok": true,
+  "flags": 1
+}=== 2025-08-23T23:52:39.969432Z ===
+{
+  "ok": true,
+  "flags": 1
+}=== 2025-08-23T23:58:28.052684Z ===
+{
+  "ok": true,
+  "flags": 1
+}=== 2025-08-24T00:00:20.312350Z ===
+{
+  "ok": true,
+  "flags": 1
+}#-----THE END Of CONTENT FOR: orchestrator/Logs/ai_analyze_mem.log----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/launch_tmux_layout.log----------------------
+=== 2025-08-23T22:48:59.231314+00:00Z ===
+tmux session 'mon' is ready. Attach with: tmux attach -t mon
+#-----THE END Of CONTENT FOR: orchestrator/Logs/launch_tmux_layout.log----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/shell_bridge_demo.log----------------------
+=== 2025-08-23T23:45:26.765664Z ===
+
+[stderr]
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+bash: line 7: stdin_from_ctx:: command not found
+bash: line 8: stdout_to_ctx:: command not found
+=== 2025-08-23T23:52:40.360075Z ===
+0
+
+[stderr]
+bash: line 23: stdin_from_ctx:: command not found
+=== 2025-08-23T23:58:28.430451Z ===
+
+[stderr]
+  File "<stdin>", line 9
+    except Exception:
+IndentationError: unexpected unindent
+=== 2025-08-24T00:00:20.684409Z ===
+0
+#-----THE END Of CONTENT FOR: orchestrator/Logs/shell_bridge_demo.log----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/orchestrator.log----------------------
+#-----THE END Of CONTENT FOR: orchestrator/Logs/orchestrator.log----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/debug_print_ctx.log----------------------
+=== 2025-08-24T00:00:21.010336Z ===
+{
+  "ctx_keys": [
+    "meta",
+    "metrics",
+    "metrics_columns",
+    "ai_summary",
+    "metric_col_count"
+  ],
+  "metric_col_count": "0",
+  "metrics_columns_sample": [
+    "hsink_top_C",
+    "hsink_base_C",
+    "fan_rpm"
+  ],
+  "ai_summary": {
+    "findings": [
+      "High mean on fan_rpm: 1300.00"
+    ],
+    "recommendations": [
+      "Inspect cooling (fan curves, TIM re-seat) and re-test at varied ambient."
+    ]
+  }
+}#-----THE END Of CONTENT FOR: orchestrator/Logs/debug_print_ctx.log----------------------
+
+#-----CONTENT FOR: orchestrator/Logs/start_gnu_screen_feeder.log----------------------
+=== 2025-08-23T22:41:29.750307+00:00Z ===
+No screen session found.
+Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv
+=== 2025-08-23T22:44:02.301354+00:00Z ===
+Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv
+=== 2025-08-23T22:44:17.731811+00:00Z ===
+No screen session found.
+Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv
+=== 2025-08-23T22:46:40.973737+00:00Z ===
+Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv
+=== 2025-08-23T22:47:55.555692+00:00Z ===
+Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv
+=== 2025-08-23T22:48:58.310336+00:00Z ===
+No screen session found.
+Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv
+#-----THE END Of CONTENT FOR: orchestrator/Logs/start_gnu_screen_feeder.log----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/compute_metrics_mem.py----------------------
+"""
+Compute simple statistics from an input CSV and store results in ctx.
+No disk outputs; downstream steps read ctx["metrics"].
+
+Expected params:
+- input_csv: path to CSV with 'timestamp' column and numeric sensor columns.
+
+Side effects:
+- ctx["metrics"] = { column: {"mean":..., "min":..., "max":...}, ... }
+- ctx["metrics_columns"] = [list of processed columns]
+"""
+
+import csv
+import statistics
+
+def run(ctx, params):
+    input_csv = params["input_csv"]
+
+    # Read CSV into memory
+    with open(input_csv, "r", newline="") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        headers = reader.fieldnames or []
+
+    # Identify numeric columns (skip a header named exactly 'timestamp' or 'Timestamp')
+    numeric_cols = [c for c in headers if c.lower() != "timestamp"]
+
+    metrics = {}
+    for col in numeric_cols:
+        vals = []
+        for r in rows:
+            try:
+                vals.append(float(r[col]))
+            except Exception:
+                # Ignore non-parsable values
+                pass
+        if not vals:
+            continue
+        metrics[col] = {
+            "mean": float(statistics.mean(vals)),
+            "min": float(min(vals)),
+            "max": float(max(vals))
+        }
+
+    # Write into shared context
+    ctx["metrics"] = metrics
+    ctx["metrics_columns"] = list(metrics.keys())
+
+    # Return a small status dict for logging
+    return {"ok": True, "columns": list(metrics.keys())}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/compute_metrics_mem.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/db_store.py----------------------
+# SQLite storage module for tests and metrics
+import os, json, sqlite3
+from datetime import datetime, UTC
+
+def _ensure_schema(conn):
+    # Create required tables if they do not exist
+    cur = conn.cursor()
+    cur.execute("""CREATE TABLE IF NOT EXISTS tests(
+        test_id TEXT PRIMARY KEY,
+        tester TEXT,
+        created_at TEXT,
+        description TEXT,
+        summary TEXT,
+        issues TEXT,
+        notes TEXT
+    )""")
+    cur.execute("""CREATE TABLE IF NOT EXISTS measurements(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        test_id TEXT,
+        timestamp TEXT,
+        metric_name TEXT,
+        metric_value REAL,
+        unit TEXT
+    )""")
+    cur.execute("""CREATE TABLE IF NOT EXISTS artifacts(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        test_id TEXT,
+        kind TEXT,
+        path TEXT,
+        created_at TEXT
+    )""")
+    conn.commit()
+
+def run(params):
+    # Extract parameters
+    db_path = params["db_path"]
+    metrics_json = params["metrics_json"]
+    ai_summary_md = params.get("ai_summary_md")
+    meta_sidecar = params.get("meta_sidecar")
+
+    # Load meta sidecar JSON written by orchestrator (contains test_meta)
+    meta = {}
+    if meta_sidecar and os.path.exists(meta_sidecar):
+        meta = json.load(open(meta_sidecar, "r"))
+    test_id = meta.get("test_id", "UNKNOWN_TEST")
+    tester = meta.get("tester", "unknown")
+    description = meta.get("description", "")
+
+    # Ensure DB directory exists
+    os.makedirs(os.path.dirname(db_path), exist_ok=True)
+    # Connect to SQLite database
+    conn = sqlite3.connect(db_path)
+    try:
+        _ensure_schema(conn)
+        cur = conn.cursor()
+        # Insert the test row if not present
+        cur.execute("""INSERT OR IGNORE INTO tests(test_id, tester, created_at, description, summary, issues, notes)
+                       VALUES(?,?,?,?,?,?,?)""",
+                    (test_id, tester, datetime.now(UTC).isoformat(), description, None, None, None))
+        # Load metrics from JSON
+        metrics = json.load(open(metrics_json, "r"))
+        # Insert each metric into the measurements table
+        for r in metrics.get("rows", []):
+            cur.execute("""INSERT INTO measurements(test_id, timestamp, metric_name, metric_value, unit)
+                           VALUES(?,?,?,?,?)""",
+                        (test_id, r.get("timestamp"), r.get("name"), r.get("value"), r.get("unit")))
+        # If AI summary exists, store it in tests.summary
+        if ai_summary_md and os.path.exists(ai_summary_md):
+            summary_text = open(ai_summary_md, "r").read()
+            cur.execute("UPDATE tests SET summary=? WHERE test_id=?", (summary_text, test_id))
+        conn.commit()
+    finally:
+        conn.close()
+
+    # Return counts and IDs for logging
+    return {"ok": True, "test_id": test_id, "inserted": len(metrics.get("rows", []))}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/db_store.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/ai_analyze_mem.py----------------------
+"""
+Read ctx["metrics"], apply simple rules, and store a summary back into ctx.
+
+Expected params:
+- threshold (optional): float, default 85.0. Flags any mean above threshold.
+
+Side effects:
+- ctx["ai_summary"] = { "findings": [...], "recommendations": [...] }
+"""
+
+def run(ctx, params):
+    thr = float(params.get("threshold", 85.0))
+
+    metrics = ctx.get("metrics", {})
+    findings = []
+    for col, agg in metrics.items():
+        mean_val = agg.get("mean", 0.0)
+        if mean_val > thr:
+            findings.append(f"High mean on {col}: {mean_val:.2f}")
+
+    recommendations = []
+    if findings:
+        recommendations.append("Inspect cooling (fan curves, TIM re-seat) and re-test at varied ambient.")
+    else:
+        recommendations.append("No anomalies; proceed to next test step.")
+
+    ctx["ai_summary"] = {
+        "findings": findings,
+        "recommendations": recommendations
+    }
+
+    return {"ok": True, "flags": len(findings)}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/ai_analyze_mem.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/compute_metrics.py----------------------
+# Import necessary standard libraries
+import csv, json, statistics, datetime, os
+from datetime import datetime, UTC
+def run(params):
+    # Extract parameters for input and output paths
+    input_csv = params["input_csv"]
+    output_json = params["output_json"]
+
+    # Open the CSV for reading; newline="" for correct CSV dialect handling
+    with open(input_csv, "r", newline="") as f:
+        # DictReader builds dicts keyed by header names
+        reader = csv.DictReader(f)
+        # Convert reader to a list to allow multiple passes
+        rows = list(reader)
+        # Save headers for potential use
+        headers = reader.fieldnames or []
+
+    # Prepare a list to hold metric rows in a uniform schema
+    metrics_rows = []
+
+    # Identify numeric columns to compute statistics, excluding the timestamp
+    numeric_cols = [c for c in headers if c and c != "timestamp"]
+
+    # Iterate through numeric columns to compute mean, max, min
+    for col in numeric_cols:
+        vals = []
+        for r in rows:
+            try:
+                # Attempt to parse the value as float
+                vals.append(float(r[col]))
+            except Exception:
+                # Skip non-numeric or missing entries
+                pass
+        if not vals:
+            # No numeric data for this column, skip
+            continue
+        # Compute basic statistics
+        mean_v = float(statistics.mean(vals))
+        max_v = float(max(vals))
+        min_v = float(min(vals))
+        # Heuristic for units: if column ends with _C, assume Celsius
+        unit = "C" if col.endswith("_C") else ("RPM" if "rpm" in col.lower() else "")
+
+        # Use current UTC timestamp for metric records
+        now = datetime.datetime.now(UTC).isoformat()
+
+        # Append standardized metric rows
+        metrics_rows.append({"timestamp": now, "name": f"{col}_mean", "value": mean_v, "unit": unit})
+        metrics_rows.append({"timestamp": now, "name": f"{col}_max", "value": max_v, "unit": unit})
+        metrics_rows.append({"timestamp": now, "name": f"{col}_min", "value": min_v, "unit": unit})
+
+    # Bundle into a JSON object
+    out = {"rows": metrics_rows}
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(output_json), exist_ok=True)
+    # Write results with indentation for readability
+    with open(output_json, "w") as f:
+        json.dump(out, f, indent=2)
+
+    # Return a structured result for the orchestrator to log
+    return {"ok": True, "metrics_count": len(metrics_rows), "output": output_json}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/compute_metrics.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/report_generate.py----------------------
+# Report generation using python-docx
+import os, sqlite3
+from docx import Document
+
+def run(params):
+    # Extract parameters from orchestrator
+    template_path = params["template_path"]
+    test_id = params["test_id"]
+    db_path = params["db_path"]
+    excel_path = params["excel_path"]
+    ai_summary_path = params["ai_summary_path"]
+    report_out = params["report_out"]
+
+    # Load the template document
+    try:
+        doc = Document(template_path)
+    except Exception:
+        doc = Document()  # blank
+        
+    # Connect to SQLite to fetch test metadata and summary
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute("""SELECT tester, created_at, description, summary, issues, notes
+                   FROM tests WHERE test_id=?""", (test_id,))
+    row = cur.fetchone()
+    conn.close()
+
+    # Unpack DB row safely
+    if row:
+        tester, created_at, description, summary, issues, notes = row
+    else:
+        tester = created_at = description = summary = issues = notes = None
+
+    # Add a report title
+    doc.add_heading("Thermal Test Report", level=1)
+    # Insert key metadata fields
+    doc.add_paragraph(f"Test ID: {test_id}")
+    doc.add_paragraph(f"Tester: {tester}")
+    doc.add_paragraph(f"Created At: {created_at}")
+    doc.add_paragraph(f"Description: {description}")
+
+    # AI summary section
+    doc.add_heading("AI Summary", level=2)
+    if os.path.exists(ai_summary_path):
+        # Read the markdown as plain text (simple approach)
+        md_text = open(ai_summary_path, "r").read()
+        for line in md_text.splitlines():
+            doc.add_paragraph(line)
+    else:
+        doc.add_paragraph("No AI summary available.")
+
+    # Artifacts section with Excel path
+    doc.add_heading("Artifacts", level=2)
+    doc.add_paragraph(f"Excel workbook: {excel_path}")
+
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(report_out), exist_ok=True)
+    # Save the report document
+    doc.save(report_out)
+
+    # Return structured info for orchestrator logging
+    return {"ok": True, "report": report_out}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/report_generate.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/debug_print_ctx.py----------------------
+"""
+Dump a few keys from CTX to the step log for inspection.
+"""
+
+def run(ctx, params):
+    return {
+        "ctx_keys": list(ctx.keys()),
+        "metric_col_count": ctx.get("metric_col_count"),
+        "metrics_columns_sample": (ctx.get("metrics_columns") or [])[:3],
+        "ai_summary": ctx.get("ai_summary", {})
+    }
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/debug_print_ctx.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/ai_analyze.py----------------------
+# Minimal AI analysis placeholder module
+import json, os
+
+def _heuristic_flags(metrics):
+    # Inspect metric rows and flag suspicious values
+    flags = []
+    for r in metrics.get("rows", []):
+        name = r.get("name", "")
+        val = r.get("value")
+        # Flag if a mean temperature exceeds 80 C (demo threshold)
+        if name.endswith("_mean") and isinstance(val, (int, float)) and val > 80:
+            flags.append(f"High mean detected: {name} = {val}")
+        # Flag if max RPM unrealistic (demo threshold)
+        if name.endswith("_max") and "rpm" in name.lower() and isinstance(val, (int, float)) and val > 20000:
+            flags.append(f"Unusual RPM: {name} = {val}")
+    return flags
+
+def run(params):
+    # Read parameters for metrics input and markdown output
+    metrics_json = params["metrics_json"]
+    output_md = params["output_md"]
+
+    # Load computed metrics from JSON file
+    metrics = json.load(open(metrics_json, "r"))
+
+    # Generate simple flags using heuristics; replace with real LLM call later
+    flags = _heuristic_flags(metrics)
+
+    # Compose a markdown summary
+    lines = []
+    lines.append("# AI Analysis Summary")
+    lines.append("")
+    if flags:
+        lines.append("Key Findings:")
+        for f in flags:
+            lines.append(f"- {f}")
+    else:
+        lines.append("No significant anomalies detected in computed metrics.")
+    lines.append("")
+    lines.append("Recommendations:")
+    lines.append("- Review fan curve and thermal paste application if sustained temps exceed targets.")
+    lines.append("- Consider ambient control and re-run if variance seems high.")
+
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(output_md), exist_ok=True)
+    # Write summary markdown
+    with open(output_md, "w") as f:
+        f.write("\n".join(lines))
+
+    # Return structured info
+    return {"ok": True, "flags": len(flags), "output": output_md}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/ai_analyze.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/export_excel.py----------------------
+# Excel export from CSV and chart spec
+import json, csv, os
+from openpyxl import Workbook
+from openpyxl.chart import LineChart, Reference, Series
+
+def run(params):
+    # Extract parameters
+    input_csv = params["input_csv"]
+    chart_spec_json = params["chart_spec_json"]
+    excel_out = params["excel_out"]
+
+    # Load the chart spec JSON
+    spec = json.load(open(chart_spec_json, "r"))
+
+    # Create a new Excel workbook and prepare Data sheet
+    wb = Workbook()
+    ws_data = wb.active
+    ws_data.title = "Data"
+
+    # Fill the Data sheet with CSV content
+    with open(input_csv, "r", newline="") as f:
+        reader = csv.reader(f)
+        for row in reader:
+            ws_data.append(row)
+
+    # Extract headers from first row of Data sheet
+    headers = [c.value for c in ws_data[1] if c.value]
+
+    # Iterate through defined sheets and charts
+    for sheet in spec.get("sheets", []):
+        ws = wb.create_sheet(title=sheet["name"])
+        # Place charts vertically with spacing
+        for idx, ch in enumerate(sheet.get("charts", [])):
+            # Only support line charts in this demo
+            lc = LineChart()
+            lc.title = ch.get("title", "")
+            lc.y_axis.title = ch.get("y_axis_title", "")
+            lc.x_axis.title = ch.get("x_axis_title", "")
+            # Locate the x axis column index
+            x_idx = headers.index(ch["x_col"]) + 1
+            # Determine the last data row
+            max_row = ws_data.max_row
+            # Build series for each y column
+            for ys in ch.get("y_series", []):
+                # Find y column index
+                y_idx = headers.index(ys["col"]) + 1
+                # X values: from row 2 to max (skip header)
+                xref = Reference(ws_data, min_col=x_idx, min_row=2, max_row=max_row)
+                # Y values: include header for series title, from row 1 (title) to max
+                yref = Reference(ws_data, min_col=y_idx, min_row=1, max_row=max_row)
+                # Create the series; OpenPyXL uses header cell as title if provided
+                ser = Series(yref, xref, title=ys.get("name"))
+                # Append series to the chart
+                lc.append(ser)
+            # Position chart with some vertical spacing
+            anchor_row = 2 + idx * 18
+            ws.add_chart(lc, f"A{anchor_row}")
+
+    # Add a "note" sheet with the expected header for dashboard annotations
+    ws_notes = wb.create_sheet(title="note")
+    ws_notes.append(["timestamp", "tester_note"])
+
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(excel_out), exist_ok=True)
+    # Save workbook
+    wb.save(excel_out)
+
+    # Return path for logging
+    return {"ok": True, "excel": excel_out}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/export_excel.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/shell/sanitize.awk----------------------
+# Use comma as both input and output field separators
+BEGIN{FS=","; OFS=","}
+# Pass header row unchanged
+NR==1 {print; next}
+{
+  # Loop over all fields to trim spaces and convert N/A tokens to empty
+  for(i=1;i<=NF;i++){
+    gsub(/^[ \t]+|[ \t]+$/,"",$i)
+    if($i=="N/A" || $i=="NA" || $i=="null") $i=""
+  }
+  # Print the sanitized row
+  print
+}
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/shell/sanitize.awk----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/shell/normalize.sed----------------------
+# Replace tabs with commas to maintain CSV structure
+s/\t/,/g
+# Replace semicolons with commas if present
+s/;/,/g
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/shell/normalize.sed----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/shell/preprocess.sh----------------------
+#!/usr/bin/env bash
+# Enable strict mode: exit on error (-e), undefined variables (-u), and fail pipelines (-o pipefail)
+set -euo pipefail
+
+# Check argument count: expect 2 arguments (input and output paths)
+if [[ $# -ne 2 ]]; then
+  echo "Usage: $0 <input_csv> <output_csv>" >&2
+  exit 64
+fi
+
+# Assign positional arguments to named variables for clarity
+in="$1"
+out="$2"
+
+# Create a temporary file for safe writing to avoid partial outputs
+tmp="$(mktemp)"
+# Ensure the temporary file is removed even if the script exits early
+trap 'rm -f "$tmp"' EXIT
+
+# Remove blank lines and comment lines, normalize CRLF to LF, write into temp file
+grep -v '^[[:space:]]*$' "$in" | grep -v '^[[:space:]]*#' | sed 's/\r$//' > "$tmp"
+
+# Basic header validation: first line must contain commas to look like CSV
+if ! head -1 "$tmp" | grep -q ','; then
+  echo "ERROR: header row missing or not CSV" >&2
+  exit 65
+fi
+
+# Move the cleaned temp file to the final output path (atomic on same filesystem)
+mv "$tmp" "$out"
+
+# Informative message for logs
+echo "Preprocess complete: $out"
+#-----THE END Of CONTENT FOR: orchestrator/scriptlets/shell/preprocess.sh----------------------
+
+#-----CONTENT FOR: orchestrator/recipes/test_recipe.yaml----------------------
+version: 1
+test_meta:
+  test_id: "FEED-STREAM-001"
+  tester: "auto"
+  description: "Continuous CSV stream for live monitoring/demo"
+
+steps:
+  - idx: 1
+    name: ensure_dirs
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        mkdir -p ./Data ./Logs ./Assets
+    success:
+      files_exist: ["Data"]
+
+  - idx: 2
+    name: start_gnu_screen_feeder
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        # Kill an existing screen session named 'feed' if desired; ignore errors
+        screen -S feed -X quit || true
+        # Start a detached screen session named 'feed'
+        screen -dmS feed
+        # In that session, run csv_feeder to append every 5 seconds with given headers to ./Data/streamed_data.csv
+        screen -S feed -X stuff "python3 ./tools/csv_feeder.py -n 5 -o ./Data/streamed_data.csv -H 'Timestamp,AmbTemp,LiquidTemp,SystemTemp,ChassisFanDuty,Fan1RPM,Fan2RMP,PumpRPM'$(printf '\r')"
+        # Optional: echo a hint
+        echo "Started GNU screen session 'feed' running csv_feeder -> Data/streamed_data.csv"
+    success:
+      files_exist: ["Data/streamed_data.csv"]
+
+  - idx: 3
+    name: launch_tmux_layout
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        # Kill existing tmux session named 'mon' if it exists
+        tmux has-session -t mon 2>/dev/null && tmux kill-session -t mon || true
+
+        # Create a new detached tmux session
+        tmux new-session -d -s mon
+
+        # We want a 3-column layout:
+        # - Column 1: 2 horizontal panes (top/bottom)
+        # - Column 2: 1 pane
+        # - Column 3: 1 pane
+
+        # Start with one pane in window 0
+        # Split first column horizontally to create top/bottom panes
+        tmux split-window -v -t mon:0
+
+        # Now create the second column by splitting the original top pane vertically
+        tmux select-pane -t mon:0.0
+        tmux split-window -h -t mon:0.0
+
+        # Create the third column by splitting the same original top pane area again (now the second column)
+        # Select the second column pane (index changes after splits; use last-pane shortcut)
+        tmux select-pane -R -t mon:0
+        tmux split-window -h -t mon:0
+
+        # After this, panes should be:
+        # mon:0.0 -> left-top
+        # mon:0.1 -> left-bottom
+        # mon:0.2 -> middle
+        # mon:0.3 -> right
+
+        # Assign commands to panes:
+        # Pane left-top (attach to GNU screen 'feed')
+        tmux select-pane -t mon:0.0
+        tmux send-keys "screen -r feed" C-m
+
+        # Pane left-bottom (htop)
+        tmux select-pane -t mon:0.1
+        tmux send-keys "htop" C-m
+
+        # Pane middle (ls -haltr ~)
+        tmux select-pane -t mon:0.2
+        tmux send-keys "watch -n 2 'ls -haltr ~'" C-m
+
+        # Pane right (date loop)
+        tmux select-pane -t mon:0.3
+        tmux send-keys "while true; do echo \$(date); sleep 5; done" C-m
+
+        # Focus back to left-top pane
+        tmux select-pane -t mon:0.0
+
+        echo "tmux session 'mon' is ready. Attach with: tmux attach -t mon"
+    depends_on: ["start_gnu_screen_feeder"]
+
+  # Optional: print a note on how to attach
+  - idx: 4
+    name: post_note
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        echo "GNU screen: screen -r feed"
+        echo "tmux: tmux attach -t mon"
+#-----THE END Of CONTENT FOR: orchestrator/recipes/test_recipe.yaml----------------------
+
+#-----CONTENT FOR: orchestrator/recipes/default_recipe.yaml----------------------
+# version number for future compatibility
+version: 1
+
+# test metadata stored in DB and used in report
+test_meta:
+  test_id: "DEMO-2025-08-23-001"     # unique test id
+  tester: "demo_user"                # who runs the test
+  description: "Demo thermal test: CPU heatsink sample at room ambient."  # brief description
+
+# global controls for orchestrator run behavior
+controls:
+  # seconds to wait before each step (for demonstration of countdown)
+  step_delay_seconds: 3
+  # whether to show countdown ticks in console before step execution
+  show_countdown: true
+
+# ordered list of steps with dependencies and success criteria
+steps:
+  - idx: 1
+    name: preprocess_raw
+    type: shell
+    cmd: "./scriptlets/shell/preprocess.sh"
+    args: ["Data/raw_input.csv", "Data/clean.csv"]
+    success:
+      files_exist: ["Data/clean.csv"]
+
+  - idx: 2
+    name: sanitize_awk
+    type: shell
+    cmd: "awk"
+    args: ["-f", "./scriptlets/shell/sanitize.awk", "Data/clean.csv"]
+    stdout_to: "Data/sanitized.csv"
+    success:
+      files_exist: ["Data/sanitized.csv"]
+    depends_on: ["preprocess_raw"]
+
+  - idx: 3
+    name: normalize_sed
+    type: shell
+    cmd: "sed"
+    args: ["-f", "./scriptlets/shell/normalize.sed", "Data/sanitized.csv"]
+    stdout_to: "Data/normalized.csv"
+    success:
+      files_exist: ["Data/normalized.csv"]
+    depends_on: ["sanitize_awk"]
+
+  - idx: 4
+    name: compute_metrics
+    type: python
+    module: "scriptlets.python.compute_metrics"
+    function: "run"
+    params:
+      input_csv: "Data/normalized.csv"
+      output_json: "Data/metrics.json"
+    success:
+      files_exist: ["Data/metrics.json"]
+    depends_on: ["normalize_sed"]
+
+  - idx: 5
+    name: ai_analysis
+    type: python
+    module: "scriptlets.python.ai_analyze"
+    function: "run"
+    params:
+      metrics_json: "Data/metrics.json"
+      output_md: "Data/ai_summary.md"
+    success:
+      files_exist: ["Data/ai_summary.md"]
+    depends_on: ["compute_metrics"]
+
+  - idx: 6
+    name: db_store
+    type: python
+    module: "scriptlets.python.db_store"
+    function: "run"
+    params:
+      db_path: "Data/tests.db"
+      meta_sidecar: "Data/meta.json"
+      metrics_json: "Data/metrics.json"
+      ai_summary_md: "Data/ai_summary.md"
+    depends_on: ["ai_analysis"]
+
+  - idx: 7
+    name: export_excel
+    type: python
+    module: "scriptlets.python.export_excel"
+    function: "run"
+    params:
+      input_csv: "Data/normalized.csv"
+      chart_spec_json: "Data/chart_spec.json"
+      excel_out: "Data/output.xlsx"
+    success:
+      files_exist: ["Data/output.xlsx"]
+    depends_on: ["db_store"]
+
+  - idx: 8
+    name: generate_report
+    type: python
+    module: "scriptlets.python.report_generate"
+    function: "run"
+    params:
+      template_path: "templates/report_template.docx"
+      test_id: "${test_meta.test_id}"
+      db_path: "Data/tests.db"
+      excel_path: "Data/output.xlsx"
+      ai_summary_path: "Data/ai_summary.md"
+      report_out: "Data/report.docx"
+    success:
+      files_exist: ["Data/report.docx"]
+    depends_on: ["export_excel"]
+#-----THE END Of CONTENT FOR: orchestrator/recipes/default_recipe.yaml----------------------
+
+#-----CONTENT FOR: orchestrator/recipes/test_mem.yaml----------------------
+version: 1
+test_meta:
+  test_id: "T-MEM-001"
+  tester: "alice"
+  description: "In-memory ctx demo"
+
+steps:
+  - idx: 1
+    name: compute_metrics_mem
+    type: python
+    module: "scriptlets.python.compute_metrics_mem"
+    function: "run"
+    params:
+      input_csv: "Data/normalized.csv"
+    success:
+      ctx_has_keys:
+        - metrics
+        - metrics_columns
+
+  - idx: 2
+    name: ai_analyze_mem
+    type: python
+    module: "scriptlets.python.ai_analyze_mem"
+    function: "run"
+    params:
+      threshold: 85
+    depends_on:
+      - compute_metrics_mem
+    success:
+      ctx_has_keys:
+        - ai_summary
+
+  - idx: 3
+    name: shell_bridge_demo
+    type: shell
+    cmd: bash
+    args:
+      - -lc
+      - |
+        python3 - <<'PYCODE'
+        import sys, json
+        payload = sys.stdin.read()
+        if not payload.strip():
+          print(0)
+        else:
+          try:
+            data = json.loads(payload)
+            print(len(data) if isinstance(data, list) else 1)
+          except Exception:
+            print(0)
+        PYCODE
+    stdin_from_ctx: "metrics_columns"
+    stdout_to_ctx: "metric_col_count"
+    depends_on:
+      - compute_metrics_mem
+    success:
+      ctx_has_keys:
+        - metric_col_count
+
+  - idx: 99
+    name: debug_print_ctx
+    type: python
+    module: "scriptlets.python.debug_print_ctx"
+    function: "run"
+    depends_on:
+      - ai_analyze_mem
+#-----THE END Of CONTENT FOR: orchestrator/recipes/test_mem.yaml----------------------
+
+#-----CONTENT FOR: orchestrator/templates/report_template.docx----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/templates/report_template.docx----------------------
+
+#-----CONTENT FOR: orchestrator/Data/metrics.json----------------------
+{
+  "rows": [
+    {
+      "timestamp": "2025-08-23T20:54:17.789417",
+      "name": "hsink_top_C_mean",
+      "value": 40.160000000000004,
+      "unit": "C"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789417",
+      "name": "hsink_top_C_max",
+      "value": 42.2,
+      "unit": "C"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789417",
+      "name": "hsink_top_C_min",
+      "value": 38.2,
+      "unit": "C"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789438",
+      "name": "hsink_base_C_mean",
+      "value": 42.14,
+      "unit": "C"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789438",
+      "name": "hsink_base_C_max",
+      "value": 44.1,
+      "unit": "C"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789438",
+      "name": "hsink_base_C_min",
+      "value": 40.5,
+      "unit": "C"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789449",
+      "name": "fan_rpm_mean",
+      "value": 1300.0,
+      "unit": "RPM"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789449",
+      "name": "fan_rpm_max",
+      "value": 1400.0,
+      "unit": "RPM"
+    },
+    {
+      "timestamp": "2025-08-23T20:54:17.789449",
+      "name": "fan_rpm_min",
+      "value": 1200.0,
+      "unit": "RPM"
+    }
+  ]
+}#-----THE END Of CONTENT FOR: orchestrator/Data/metrics.json----------------------
+
+#-----CONTENT FOR: orchestrator/Data/ai_summary.md----------------------
+# AI Analysis Summary
+
+Key Findings:
+- High mean detected: fan_rpm_mean = 1300.0
+
+Recommendations:
+- Review fan curve and thermal paste application if sustained temps exceed targets.
+- Consider ambient control and re-run if variance seems high.#-----THE END Of CONTENT FOR: orchestrator/Data/ai_summary.md----------------------
+
+#-----CONTENT FOR: orchestrator/Data/clean.csv----------------------
+timestamp,hsink_top_C,hsink_base_C,fan_rpm
+2025-08-23T13:00:00Z,38.2,40.5,1200
+2025-08-23T13:00:10Z,39.1,41.0,1250
+2025-08-23T13:00:20Z,40.3,42.1,1300
+2025-08-23T13:00:30Z,41.0,43.0,1350
+2025-08-23T13:00:40Z,42.2,44.1,1400
+#-----THE END Of CONTENT FOR: orchestrator/Data/clean.csv----------------------
+
+#-----CONTENT FOR: orchestrator/Data/report.docx----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/Data/report.docx----------------------
+
+#-----CONTENT FOR: orchestrator/Data/sanitized.csv----------------------
+timestamp,hsink_top_C,hsink_base_C,fan_rpm
+2025-08-23T13:00:00Z,38.2,40.5,1200
+2025-08-23T13:00:10Z,39.1,41.0,1250
+2025-08-23T13:00:20Z,40.3,42.1,1300
+2025-08-23T13:00:30Z,41.0,43.0,1350
+2025-08-23T13:00:40Z,42.2,44.1,1400
+#-----THE END Of CONTENT FOR: orchestrator/Data/sanitized.csv----------------------
+
+#-----CONTENT FOR: orchestrator/Data/tests.db----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/Data/tests.db----------------------
+
+#-----CONTENT FOR: orchestrator/Data/streamed_data.csv----------------------
+Timestamp,AmbTemp,LiquidTemp,SystemTemp,ChassisFanDuty,Fan1RPM,Fan2RMP,PumpRPM
+08/23/2025 15:48:20,21.859,49.187,28.297,13.316,26.858,67.613,82.893
+08/23/2025 15:48:25,25.337,64.264,2.667,11.174,96.296,98.541,43.533
+#-----THE END Of CONTENT FOR: orchestrator/Data/streamed_data.csv----------------------
+
+#-----CONTENT FOR: orchestrator/Data/output.xlsx----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/Data/output.xlsx----------------------
+
+#-----CONTENT FOR: orchestrator/Data/chart_spec.json----------------------
+{
+  "sheets": [
+    {
+      "name": "Charts",
+      "charts": [
+        {
+          "type": "line",
+          "title": "Heatsink Temps vs Time",
+          "x_col": "timestamp",
+          "y_series": [
+            {"name": "Top", "col": "hsink_top_C"},
+            {"name": "Base", "col": "hsink_base_C", "secondary_axis": false}
+          ],
+          "y_axis_title": "Temp (C)",
+          "x_axis_title": "Time",
+          "legend": true,
+          "gridlines": true
+        },
+        {
+          "type": "line",
+          "title": "Fan RPM vs Time",
+          "x_col": "timestamp",
+          "y_series": [
+            {"name": "Fan RPM", "col": "fan_rpm"}
+          ],
+          "y_axis_title": "RPM",
+          "x_axis_title": "Time",
+          "legend": true
+        }
+      ]
+    }
+  ]
+}
+#-----THE END Of CONTENT FOR: orchestrator/Data/chart_spec.json----------------------
+
+#-----CONTENT FOR: orchestrator/Data/raw_input.csv----------------------
+# Demo raw file with comments and blank lines; preprocess will clean this
+timestamp,hsink_top_C,hsink_base_C,fan_rpm
+
+2025-08-23T13:00:00Z,38.2,40.5,1200
+2025-08-23T13:00:10Z,39.1,41.0,1250
+2025-08-23T13:00:20Z,40.3,42.1,1300
+2025-08-23T13:00:30Z,41.0,43.0,1350
+2025-08-23T13:00:40Z,42.2,44.1,1400
+#-----THE END Of CONTENT FOR: orchestrator/Data/raw_input.csv----------------------
+
+#-----CONTENT FOR: orchestrator/Data/normalized.csv----------------------
+timestamp,hsink_top_C,hsink_base_C,fan_rpm
+2025-08-23T13:00:00Z,38.2,40.5,1200
+2025-08-23T13:00:10Z,39.1,41.0,1250
+2025-08-23T13:00:20Z,40.3,42.1,1300
+2025-08-23T13:00:30Z,41.0,43.0,1350
+2025-08-23T13:00:40Z,42.2,44.1,1400
+#-----THE END Of CONTENT FOR: orchestrator/Data/normalized.csv----------------------
+
+#-----CONTENT FOR: orchestrator/Data/meta.json----------------------
+{
+  "test_id": "FEED-STREAM-001",
+  "tester": "auto",
+  "description": "Continuous CSV stream for live monitoring/demo"
+}#-----THE END Of CONTENT FOR: orchestrator/Data/meta.json----------------------
+
+#-----CONTENT FOR: orchestrator/Assets/graph.png----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/Assets/graph.png----------------------
+

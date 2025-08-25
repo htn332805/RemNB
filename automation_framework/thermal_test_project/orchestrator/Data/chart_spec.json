@@ -1,0 +1,33 @@
+{
+  "sheets": [
+    {
+      "name": "Charts",
+      "charts": [
+        {
+          "type": "line",
+          "title": "Heatsink Temps vs Time",
+          "x_col": "timestamp",
+          "y_series": [
+            {"name": "Top", "col": "hsink_top_C"},
+            {"name": "Base", "col": "hsink_base_C", "secondary_axis": false}
+          ],
+          "y_axis_title": "Temp (C)",
+          "x_axis_title": "Time",
+          "legend": true,
+          "gridlines": true
+        },
+        {
+          "type": "line",
+          "title": "Fan RPM vs Time",
+          "x_col": "timestamp",
+          "y_series": [
+            {"name": "Fan RPM", "col": "fan_rpm"}
+          ],
+          "y_axis_title": "RPM",
+          "x_axis_title": "Time",
+          "legend": true
+        }
+      ]
+    }
+  ]
+}

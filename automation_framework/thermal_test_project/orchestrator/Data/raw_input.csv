@@ -1,0 +1,8 @@
+# Demo raw file with comments and blank lines; preprocess will clean this
+timestamp,hsink_top_C,hsink_base_C,fan_rpm
+
+2025-08-23T13:00:00Z,38.2,40.5,1200
+2025-08-23T13:00:10Z,39.1,41.0,1250
+2025-08-23T13:00:20Z,40.3,42.1,1300
+2025-08-23T13:00:30Z,41.0,43.0,1350
+2025-08-23T13:00:40Z,42.2,44.1,1400

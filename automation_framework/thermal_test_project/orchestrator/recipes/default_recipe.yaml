@@ -1,0 +1,110 @@
+# version number for future compatibility
+version: 1
+
+# test metadata stored in DB and used in report
+test_meta:
+  test_id: "DEMO-2025-08-23-001"     # unique test id
+  tester: "demo_user"                # who runs the test
+  description: "Demo thermal test: CPU heatsink sample at room ambient."  # brief description
+
+# global controls for orchestrator run behavior
+controls:
+  # seconds to wait before each step (for demonstration of countdown)
+  step_delay_seconds: 3
+  # whether to show countdown ticks in console before step execution
+  show_countdown: true
+
+# ordered list of steps with dependencies and success criteria
+steps:
+  - idx: 1
+    name: preprocess_raw
+    type: shell
+    cmd: "./scriptlets/shell/preprocess.sh"
+    args: ["Data/raw_input.csv", "Data/clean.csv"]
+    success:
+      files_exist: ["Data/clean.csv"]
+
+  - idx: 2
+    name: sanitize_awk
+    type: shell
+    cmd: "awk"
+    args: ["-f", "./scriptlets/shell/sanitize.awk", "Data/clean.csv"]
+    stdout_to: "Data/sanitized.csv"
+    success:
+      files_exist: ["Data/sanitized.csv"]
+    depends_on: ["preprocess_raw"]
+
+  - idx: 3
+    name: normalize_sed
+    type: shell
+    cmd: "sed"
+    args: ["-f", "./scriptlets/shell/normalize.sed", "Data/sanitized.csv"]
+    stdout_to: "Data/normalized.csv"
+    success:
+      files_exist: ["Data/normalized.csv"]
+    depends_on: ["sanitize_awk"]
+
+  - idx: 4
+    name: compute_metrics
+    type: python
+    module: "scriptlets.python.compute_metrics"
+    function: "run"
+    params:
+      input_csv: "Data/normalized.csv"
+      output_json: "Data/metrics.json"
+    success:
+      files_exist: ["Data/metrics.json"]
+    depends_on: ["normalize_sed"]
+
+  - idx: 5
+    name: ai_analysis
+    type: python
+    module: "scriptlets.python.ai_analyze"
+    function: "run"
+    params:
+      metrics_json: "Data/metrics.json"
+      output_md: "Data/ai_summary.md"
+    success:
+      files_exist: ["Data/ai_summary.md"]
+    depends_on: ["compute_metrics"]
+
+  - idx: 6
+    name: db_store
+    type: python
+    module: "scriptlets.python.db_store"
+    function: "run"
+    params:
+      db_path: "Data/tests.db"
+      meta_sidecar: "Data/meta.json"
+      metrics_json: "Data/metrics.json"
+      ai_summary_md: "Data/ai_summary.md"
+    depends_on: ["ai_analysis"]
+
+  - idx: 7
+    name: export_excel
+    type: python
+    module: "scriptlets.python.export_excel"
+    function: "run"
+    params:
+      input_csv: "Data/normalized.csv"
+      chart_spec_json: "Data/chart_spec.json"
+      excel_out: "Data/output.xlsx"
+    success:
+      files_exist: ["Data/output.xlsx"]
+    depends_on: ["db_store"]
+
+  - idx: 8
+    name: generate_report
+    type: python
+    module: "scriptlets.python.report_generate"
+    function: "run"
+    params:
+      template_path: "templates/report_template.docx"
+      test_id: "${test_meta.test_id}"
+      db_path: "Data/tests.db"
+      excel_path: "Data/output.xlsx"
+      ai_summary_path: "Data/ai_summary.md"
+      report_out: "Data/report.docx"
+    success:
+      files_exist: ["Data/report.docx"]
+    depends_on: ["export_excel"]
