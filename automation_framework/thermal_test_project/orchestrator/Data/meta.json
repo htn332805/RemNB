@@ -1,5 +1,0 @@
-{
-  "test_id": "FEED-STREAM-001",
-  "tester": "auto",
-  "description": "Continuous CSV stream for live monitoring/demo"
-}
