@@ -137,7 +137,17 @@ This guide explains how to use the provided workspace to build reusable test seq
         24) Documentation and Discoverability
                 -Auto-generate documentation for all scriptlets and their parameters.
                 -Provide a CLI command to list all available steps and their docs.
-    
+        25) No scriptlets/helper should be rewrite but having a wrapper and decorator to override its functionality or creating new helpers that leverage existing one with minor/minimal changes/alteration
+        
+    Best Practices for Using ctx
+        - Always validate data before storing in ctx.
+        - Never store non-serializable objects (e.g., open files, sockets, custom classes).
+        - Use clear, descriptive keys for each data item.
+        - Log all changes to ctx for traceability (already supported in debug mode).
+        - Export only necessary keys to shell scriptlets using expose_for_shell.
+        - Document every scriptlet with usage and limitations.
+
+
     ## Directory Structure
     - `context.py` — Shared in-memory context utilities.
     - `runner.py` — Main pipeline runner.

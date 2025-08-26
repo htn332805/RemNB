@@ -1,0 +1,1972 @@
+#-----CONTENT FOR: orchestrator/runner.py----------------------
+"""
+runner.py
+---------
+Main orchestrator pipeline runner for the automation framework.
+
+Features:
+    1. Executes a recipe YAML file step-by-step, honoring dependencies.
+    2. If "runner.debug" file exists or -d/--debug flag is used, enables maximum verbosity and logs all ctx modifications with timestamps.
+    3. Supports background and parallel (multithreaded) steps as specified in the recipe.
+    4. Logs all step actions, dependencies, resource usage, and errors with timestamps.
+    5. Regenerates a color-coded digraph of step status and dependencies after each step.
+    6. Supports --only and --skip CLI filters for step selection.
+    7. On failure, logs reason and pickles ctx and file state for troubleshooting and resume.
+    8. Reports execution time, memory, CPU, disk usage, and PIDs for each step.
+    9. Can resume from a pickled ctx and file state after failure.
+
+Usage:
+    python runner.py --recipe recipes/demo_screen_dash_ctx.yaml
+    python runner.py --debug --only step1 step2
+    python runner.py --skip step3
+    python runner.py --resume-from step4
+
+Limitations:
+    - Requires Python 3.8+ and dependencies in requirements.txt.
+    - Only supports YAML recipes in orchestrator/recipes.
+    - Only JSON-serializable objects are stored in ctx.
+
+Example:
+    python runner.py --recipe recipes/demo_screen_dash_ctx.yaml
+"""
+
+import os
+import sys
+import time
+import pickle
+import argparse
+import threading
+import subprocess
+import yaml
+import psutil
+import shutil
+import traceback
+from datetime import datetime
+from collections import defaultdict
+
+# Import context helpers
+from context import Context
+
+# Constants
+LOGS_DIR = "Logs"
+ASSETS_DIR = "Assets"
+DATA_DIR = "Data"
+ERROR_LOG = os.path.join(LOGS_DIR, "error.log")
+CTX_LOG = os.path.join(LOGS_DIR, "ctx_debug.log")
+STATE_PICKLE = "state.pkl"
+DEBUG_FILE = "runner.debug"
+
+# Utility: timestamp string
+def nowstr():
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# Utility: log to file with timestamp
+def log_error(msg):
+    with open(ERROR_LOG, "a") as f:
+        f.write(f"[{nowstr()}] {msg}\n")
+
+def log_ctx_change(ctx, key, value):
+    with open(CTX_LOG, "a") as f:
+        f.write(f"[{nowstr()}] ctx[{key!r}] modified. New value: {repr(value)}\n")
+        f.write(f"[{nowstr()}] Full ctx: {repr(dict(ctx))}\n")
+
+# Utility: print with optional debug
+def debug_print(msg, debug):
+    if debug:
+        print(f"[DEBUG {nowstr()}] {msg}")
+
+# Utility: measure resource usage
+def resource_report(proc):
+    try:
+        p = psutil.Process(proc.pid)
+        mem = p.memory_info().rss / (1024 * 1024)
+        cpu = p.cpu_percent(interval=0.1)
+        children = p.children(recursive=True)
+        child_pids = [c.pid for c in children]
+        disk = shutil.disk_usage(".").used / (1024 * 1024)
+        return mem, cpu, disk, proc.pid, child_pids
+    except Exception as e:
+        return 0, 0, 0, proc.pid, []
+
+# Utility: pickle state
+def save_state(ctx, files):
+    with open(STATE_PICKLE, "wb") as f:
+        pickle.dump({"ctx": dict(ctx), "files": files}, f)
+
+def load_state():
+    with open(STATE_PICKLE, "rb") as f:
+        return pickle.load(f)
+
+# Utility: update digraph (stub, implement as needed)
+def update_digraph(steps, status):
+    # Use graphviz or similar to generate Assets/graph.png
+    # Color code: green=success, red=fail, orange=running, white=pending
+    pass
+
+# Parse CLI args
+parser = argparse.ArgumentParser(description="Orchestrator runner")
+parser.add_argument("--recipe", type=str, default="recipes/default_recipe.yaml")
+parser.add_argument("--debug", "-d", action="store_true")
+parser.add_argument("--only", nargs="*", help="Only run these steps")
+parser.add_argument("--skip", nargs="*", help="Skip these steps")
+parser.add_argument("--resume-from", type=str, help="Resume from this step after failure")
+args = parser.parse_args()
+
+# Debug mode if runner.debug file exists or --debug flag
+debug = args.debug or os.path.exists(DEBUG_FILE)
+
+# Load recipe
+with open(args.recipe, "r") as f:
+    recipe = yaml.safe_load(f)
+
+steps = recipe["steps"]
+step_map = {step["name"]: step for step in steps}
+step_status = {step["name"]: "pending" for step in steps}
+
+# Shared in-memory context
+ctx = Context()
+GLOBAL_STATE = {}
+
+# Load state if resume requested
+if args.resume_from and os.path.exists(STATE_PICKLE):
+    state = load_state()
+    ctx.update(state["ctx"])
+    # Optionally restore files from state["files"]
+
+# Step execution helpers
+def run_python_step(step, ctx, debug):
+    module = step["module"]
+    function = step["function"]
+    params = step.get("params", {})
+    mod = __import__(module, fromlist=[function])
+    func = getattr(mod, function)
+    start = time.time()
+    result = func(ctx, params)
+    elapsed = time.time() - start
+    if debug:
+        print(f"[{step['name']}] Python step completed in {elapsed:.2f}s, result: {result}")
+    return result, elapsed
+
+def run_shell_step(step, ctx, debug):
+    cmd = [step["cmd"]] + step.get("args", [])
+    env = os.environ.copy()
+    # Expose ctx keys if specified
+    for k in step.get("shell_env_keys", []):
+        env[k] = str(ctx.get(k, ""))
+    start = time.time()
+    proc = subprocess.Popen(cmd, env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    out, err = proc.communicate()
+    elapsed = time.time() - start
+    if debug:
+        print(f"[{step['name']}] Shell step completed in {elapsed:.2f}s, stdout: {out}, stderr: {err}")
+    return {"stdout": out, "stderr": err, "returncode": proc.returncode}, elapsed
+
+# Dependency check
+def dependencies_met(step, completed):
+    for dep in step.get("depends_on", []):
+        if dep not in completed:
+            return False
+    return True
+
+# Main execution loop
+completed = set()
+failed = set()
+running = set()
+files_touched = set()
+step_threads = {}
+
+try:
+    for step in steps:
+        name = step["name"]
+        if args.only and name not in args.only:
+            debug_print(f"Skipping {name} (not in --only)", debug)
+            continue
+        if args.skip and name in args.skip:
+            debug_print(f"Skipping {name} (in --skip)", debug)
+            continue
+        if not dependencies_met(step, completed):
+            debug_print(f"Skipping {name} (dependencies not met)", debug)
+            continue
+
+        # Print dependencies and requirements
+        print(f"[{nowstr()}] Step: {name}")
+        print(f"  Dependencies: {step.get('depends_on', [])}")
+        print(f"  Requirements: {step.get('success', {})}")
+
+        # Mark as running
+        step_status[name] = "running"
+        update_digraph(steps, step_status)
+
+        # Background/parallel support
+        if step.get("background"):
+            t = threading.Thread(target=run_python_step if step["type"] == "python" else run_shell_step,
+                                 args=(step, ctx, debug), daemon=True)
+            t.start()
+            step_threads[name] = t
+            print(f"  Step {name} running in background (PID: {os.getpid()})")
+            continue
+        elif step.get("parallel"):
+            t = threading.Thread(target=run_python_step if step["type"] == "python" else run_shell_step,
+                                 args=(step, ctx, debug))
+            t.start()
+            step_threads[name] = t
+            print(f"  Step {name} running in parallel (PID: {os.getpid()})")
+            continue
+
+        # Run step
+        try:
+            start_time = time.time()
+            if step["type"] == "python":
+                result, elapsed = run_python_step(step, ctx, debug)
+            elif step["type"] == "shell":
+                result, elapsed = run_shell_step(step, ctx, debug)
+            else:
+                raise ValueError(f"Unknown step type: {step['type']}")
+            end_time = time.time()
+
+            # Log ctx changes if debug
+            if debug:
+                for k, v in ctx.items():
+                    log_ctx_change(ctx, k, v)
+
+            # Log resource usage
+            mem, cpu, disk, pid, child_pids = resource_report(psutil.Process(os.getpid()))
+            print(f"  Time: {elapsed:.2f}s, Mem: {mem:.2f}MB, CPU: {cpu:.2f}%, Disk: {disk:.2f}MB, PID: {pid}, Children: {child_pids}")
+
+            # Mark as complete
+            step_status[name] = "success"
+            completed.add(name)
+            update_digraph(steps, step_status)
+
+            # Save state after each step
+            save_state(ctx, files_touched)
+
+        except Exception as e:
+            step_status[name] = "fail"
+            failed.add(name)
+            update_digraph(steps, step_status)
+            log_error(f"Step {name} failed: {e}\n{traceback.format_exc()}")
+            print(f"[{nowstr()}] Step {name} failed: {e}")
+            save_state(ctx, files_touched)
+            sys.exit(1)
+
+    # Wait for background/parallel threads
+    for name, t in step_threads.items():
+        t.join()
+        step_status[name] = "success"
+        completed.add(name)
+        update_digraph(steps, step_status)
+
+    print(f"[{nowstr()}] All steps completed successfully.")
+    sys.exit(0)
+
+except Exception as e:
+    log_error(f"Runner failed: {e}\n{traceback.format_exc()}")
+    print(f"[{nowstr()}] Runner failed: {e}")
+    save_state(ctx, files_touched)
+    sys.exit(1)#-----THE END Of CONTENT FOR: orchestrator/runner.py----------------------
+
+#-----CONTENT FOR: orchestrator/UserGuide.md----------------------
+# Documentation for Orchestrator Workspace
+
+---
+
+## context.py
+
+### Description
+Defines the `Context` class for in-memory data sharing between orchestrator steps. Provides utilities to expose selected ctx values to shell environments.
+
+### Objective
+- Enable safe, JSON-serializable, shared state (`ctx`) for all orchestrator steps.
+- Allow exporting ctx keys as environment variables for shell scriptlets.
+
+### Applications, Integrations, and Usage
+
+- Used by `runner.py` to maintain shared state.
+- Used by all Python scriptlets to read/write shared data.
+- Used by shell scriptlets via `expose_for_shell` to pass ctx data as environment variables.
+
+**Example:**
+```python
+from context import Context, expose_for_shell
+ctx = Context()
+ctx["foo"] = 123
+env = expose_for_shell(ctx, ["foo"])
+# env["foo"] == "123"
+```
+
+### Limitations
+- Only JSON-serializable objects can be stored in ctx.
+- Not persistent unless explicitly saved by the orchestrator.
+- No built-in versioning or history (extend as needed).
+
+### Requirements/Dependencies
+- Python 3.6+
+- Standard library: `json`, `typing`
+
+---
+
+## runner.py
+
+### Description
+Main orchestrator pipeline runner. Executes recipes step-by-step, manages ctx, logs, dependencies, parallel/background steps, and error handling.
+
+### Objective
+- Automate execution of complex test/analysis pipelines.
+- Provide robust logging, error handling, and resource tracking.
+- Support parallel and background execution of steps.
+
+### Applications, Integrations, and Usage
+
+- Run a recipe:
+  ```sh
+  python runner.py --recipe recipes/demo_screen_dash_ctx.yaml
+  ```
+- Run with debug:
+  ```sh
+  python runner.py --debug
+  ```
+- Run only specific steps:
+  ```sh
+  python runner.py --only step1 step2
+  ```
+- Skip steps:
+  ```sh
+  python runner.py --skip step3
+  ```
+- Resume from failure:
+  ```sh
+  python runner.py --resume-from step4
+  ```
+
+### Limitations
+- Only supports YAML recipes in `orchestrator/recipes`.
+- Only JSON-serializable objects are stored in ctx.
+- Digraph update is a stub (implement as needed).
+
+### Requirements/Dependencies
+- Python 3.8+
+- `pyyaml`, `psutil`, `shutil`, `traceback`, `datetime`
+- `context.py` (for Context class)
+
+---
+
+## scriptlets/python/steps/ctx_init.py
+
+### Description
+Initializes keys in the shared in-memory ctx as empty lists.
+
+### Objective
+- Prepare ctx for downstream steps by initializing required keys.
+
+### Applications, Integrations, and Usage
+
+- Used as a step in recipes to ensure ctx keys exist:
+  ```yaml
+  - name: start_shared_ctx
+    type: python
+    module: scriptlets.python.steps.ctx_init
+    function: run
+    params:
+      keys: ["new_row"]
+  ```
+- CLI usage:
+  ```sh
+  python scriptlets/python/steps/ctx_init.py --keys foo bar
+  ```
+
+### Limitations
+- Only initializes keys as empty lists.
+- Keys must be valid Python identifiers.
+
+### Requirements/Dependencies
+- Python 3.6+
+- Standard library: `argparse`
+
+---
+
+## scriptlets/python/steps/ctx_row_updater.py
+
+### Description
+Continuously appends rows `[timestamp, random1, ..., randomn]` to ctx[key] in a background thread.
+
+### Objective
+- Simulate or generate live data for Dash or other consumers.
+
+### Applications, Integrations, and Usage
+
+- Used in recipes to provide live data for Dash apps:
+  ```yaml
+  - name: update_ctx_background
+    type: python
+    module: scriptlets.python.steps.ctx_row_updater
+    function: run
+    params:
+      key: "new_row"
+      n: 3
+      interval_sec: 1
+  ```
+- CLI usage:
+  ```sh
+  python scriptlets/python/steps/ctx_row_updater.py --key foo --n 2 --interval_sec 1
+  ```
+
+### Limitations
+- Only works with JSON-serializable ctx.
+- Intended for orchestrator or CLI demo.
+
+### Requirements/Dependencies
+- Python 3.6+
+- Standard library: `threading`, `time`, `datetime`, `random`, `argparse`
+
+---
+
+## scriptlets/python/apps/hello_dash.py
+
+### Description
+A Dash app scriptlet that displays and plots shared in-memory ctx data. Monitors ctx for changes and allows interactive plotting.
+
+### Objective
+- Provide a live dashboard for monitoring and visualizing ctx data.
+- Allow user to select columns to plot.
+
+### Applications, Integrations, and Usage
+
+- Used in orchestrator recipes to visualize live data:
+  ```yaml
+  - name: monitor_and_plot
+    type: python
+    module: scriptlets.python.apps.hello_dash
+    function: run
+    params:
+      port: 8050
+      ctx_key: "new_row"
+  ```
+- CLI usage:
+  ```sh
+  python scriptlets/python/apps/hello_dash.py --port 8050 --ctx_key new_row
+  ```
+
+### Limitations
+- Requires Dash and Plotly.
+- Expects ctx[ctx_key] as a list of lists: [timestamp, val1, val2, ...].
+- Not suitable for very large datasets.
+
+### Requirements/Dependencies
+- Python 3.6+
+- `dash`, `plotly`, `threading`, `argparse`
+
+---
+
+## scriptlets/shell/screen_script.sh
+
+### Description
+Manages GNU screen sessions: list, kill, create, recreate, send commands, and run with logging.
+
+### Objective
+- Automate screen session management for orchestrator steps and Dash app launching.
+
+### Applications, Integrations, and Usage
+
+- Used in recipes to manage screen sessions:
+  ```yaml
+  - name: create_screen_with_log
+    type: shell
+    cmd: scriptlets/shell/screen_script.sh
+    args:
+      - -r
+      - test_screen
+  ```
+- CLI usage:
+  ```sh
+  ./scriptlets/shell/screen_script.sh -l
+  ./scriptlets/shell/screen_script.sh -c mysession
+  ./scriptlets/shell/screen_script.sh -k mysession
+  ./scriptlets/shell/screen_script.sh -d mysession
+  ./scriptlets/shell/screen_script.sh -s mysession "echo Hello"
+  ./scriptlets/shell/screen_script.sh -r mysession
+  ```
+
+### Limitations
+- Requires GNU screen installed and in PATH.
+- Only supports session management by name, not by PID.
+
+### Requirements/Dependencies
+- Bash shell
+- GNU screen
+
+---
+
+## recipes/demo_screen_dash_ctx.yaml
+
+### Description
+Recipe demonstrating launching a Dash app in a GNU screen session, sharing in-memory ctx, and updating ctx in the background.
+
+### Objective
+- Show integration of shell and Python scriptlets, ctx sharing, and live Dash monitoring.
+
+### Applications, Integrations, and Usage
+
+- Run the full pipeline:
+  ```sh
+  python runner.py --recipe recipes/demo_screen_dash_ctx.yaml
+  ```
+- Steps include:
+  - Creating a screen session with logging.
+  - Checking and attaching to the screen.
+  - Launching Dash in the screen.
+  - Initializing and updating ctx.
+  - Monitoring and plotting with Dash.
+
+### Limitations
+- Assumes all referenced scriptlets exist and are executable.
+- Assumes Dash and screen are installed.
+
+### Requirements/Dependencies
+- YAML format
+- All referenced scriptlets and their dependencies
+
+---
+
+## tests/test_ctx.py
+
+### Description
+Unit tests for the Context class.
+
+### Objective
+- Ensure ctx supports set/get, JSON-serializability, and error on non-serializable objects.
+
+### Applications, Integrations, and Usage
+
+- Run with pytest:
+  ```sh
+  pytest tests/test_ctx.py
+  ```
+
+### Limitations
+- Only tests core Context functionality.
+
+### Requirements/Dependencies
+- pytest
+- context.py
+
+---
+
+## tests/test_ctx_init.py
+
+### Description
+Unit test for ctx_init scriptlet.
+
+### Objective
+- Ensure ctx_init initializes keys as empty lists.
+
+### Applications, Integrations, and Usage
+
+- Run with pytest:
+  ```sh
+  pytest tests/test_ctx_init.py
+  ```
+
+### Limitations
+- Only tests Python API, not CLI.
+
+### Requirements/Dependencies
+- pytest
+- scriptlets/python/steps/ctx_init.py
+
+---
+
+## tests/test_ctx_row_updater.py
+
+### Description
+Unit test for ctx_row_updater scriptlet.
+
+### Objective
+- Ensure ctx_row_updater appends rows to ctx in a background thread.
+
+### Applications, Integrations, and Usage
+
+- Run with pytest:
+  ```sh
+  pytest tests/test_ctx_row_updater.py
+  ```
+
+### Limitations
+- Only tests Python API, not CLI.
+
+### Requirements/Dependencies
+- pytest
+- scriptlets/python/steps/ctx_row_updater.py
+
+---
+
+## tests/test_hello_dash.py
+
+### Description
+CLI help test for hello_dash.py.
+
+### Objective
+- Ensure hello_dash.py responds to --help.
+
+### Applications, Integrations, and Usage
+
+- Run with pytest:
+  ```sh
+  pytest tests/test_hello_dash.py
+  ```
+
+### Limitations
+- Only tests CLI help, not full Dash functionality.
+
+### Requirements/Dependencies
+- pytest
+- scriptlets/python/apps/hello_dash.py
+
+---
+
+## tools/clean_pristine.sh
+
+### Description
+Shell script to clean/reset the workspace to a pristine state.
+
+### Objective
+- Remove generated data, logs, assets, caches, and state files.
+
+### Applications, Integrations, and Usage
+
+- Run to reset the workspace:
+  ```sh
+  bash tools/clean_pristine.sh
+  ```
+
+### Limitations
+- Only works on Unix-like systems.
+- May need adjustment for custom file patterns.
+
+### Requirements/Dependencies
+- Bash shell
+
+---
+
+## requirements.txt
+
+### Description
+Lists all Python dependencies for the orchestrator workspace.
+
+### Objective
+- Ensure all required packages are installed for orchestrator, Dash, and reporting.
+
+### Applications, Integrations, and Usage
+
+- Install dependencies:
+  ```sh
+  pip install -r requirements.txt
+  ```
+
+### Limitations
+- Versions may need updating for compatibility.
+
+### Requirements/Dependencies
+- Python 3.8+#-----THE END Of CONTENT FOR: orchestrator/UserGuide.md----------------------
+
+#-----CONTENT FOR: orchestrator/.DS_Store----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/.DS_Store----------------------
+
+#-----CONTENT FOR: orchestrator/requirements.txt----------------------
+# pyyaml for reading YAML recipes
+pyyaml==6.0.2
+# openpyxl for Excel creation and charts
+openpyxl==3.1.5
+# python-docx for report generation
+python-docx==1.1.2
+# graphviz for rendering execution digraphs
+graphviz==0.20.3
+# dash stack for dashboard (run separately in dashboard/)
+dash==2.17.1
+dash-bootstrap-components==1.6.0
+plotly==5.23.0
+# watchdog optional for file change detection (not required in this demo)
+watchdog==4.0.1
+
+#-----THE END Of CONTENT FOR: orchestrator/requirements.txt----------------------
+
+#-----CONTENT FOR: orchestrator/README.md----------------------
+This guide explains how to use the provided workspace to build reusable test sequences, automate execution, analyze results with AI, store data in SQLite, generate Excel and reports, and monitor live data in a Dash app. This framework is layout and structred as follow:
+    - This README layout the guideline for using and expanding the framework and must be the criteria that should be inherit for any further snippet/recipe addition and exapansion
+    - The absolute path to the working folder is /Users/hain2/RemNB/automation_framework/thermal_test_project
+    - All Persistent data for shareing should be store and locate orchestrator/Data
+    - All log should be store and located in orchestrator/Logs
+    - All snippet/scripts should be locate in orchestrator/scriptlets and its coressponding subfolder "python" "shell", etc.
+    - All recipes used in the runner as argument from cli are located in orchestrator/recipes with YAML compatible format
+    - All report templates, excel templates are located in orchestrator/templates
+    - All scriptlets should be able to run as cli command independently of the recipe or the orchestrator runner
+    - All scriptlets/snippet and recipe content should have detail comment on every line with the examples of its usages, descriptions, limitattion should be available at the top as docstring or multiblock comment
+    - Orchestrator core
+        a) The file runner.py ishe main pipeline runner with shared in-memory ctx capability along with ability to launch parallel step in the background using multithread technology
+        b) context.py — defines Context and helpers to expose selected ctx values to shell environments
+        c) The orchestrator executes a list of scriptlets defined in a recipe YAML. It:
+            + Loads test_meta into ctx and GLOBAL_STATE
+            + Runs steps in order/parallel depending on the recipe, checking dependencies
+            + Captures stdout/stderr per step into Logs/<timestamp>_<step>.log
+            + Evaluates success criteria (files_exist and/or ctx_has_keys)
+            + Updates a directed graph at Assets/step_sequence.png showing progress
+            + Honors RAM vs disk logging behavior based on store_on_ram.txt
+            + Basic CLI:
+                    python runner.py
+                    Default recipe: recipes/default_recipe.yaml
+                    python runner.py --recipe recipes/test_mem.yaml
+                Filters:
+                    --only STEP1 STEP2
+                    --skip STEP_NAME
+                    --resume-from STEP_NAME
+                Typical exits:
+                    Exit code 0: success
+                    Exit code 1: a step failed
+                    Exit code 2: dependency not satisfied
+
+        Recipes (declarative execution plans)
+            A recipe defines:
+                - test_meta block: test_id, tester, description — written to DB and used in reports
+                - steps: ordered list of scriptlets
+                - idx: order
+                - name: unique step name
+                - type: shell | python
+                - cmd/module/function: how to execute
+                - args/params: inputs for the step
+                - depends_on: list of step names that must succeed first
+                - success: files_exist and/or ctx_has_keys
+
+            On-the-fly adjustments:
+            - Reorder steps by changing idx values
+            - Insert or remove steps
+            - Add success criteria for robust gating
+            - Use --only or --skip or --resume-from without editing the file
+
+    Tips: 
+        Keep scriptlets small and composable with the focus on doing/performing single task only. Each step should do one thing well. It content are well comment in detail for every single line of code
+        -Do Not Return or Store Non-Serializable Objects in ctx
+        -Never store or return objects that are not JSON serializable
+        - Data, Logs, Assets
+            - Data/ — input/output artifacts: CSV, JSON metrics, Excel, report.docx, tests.db
+            - Logs/ — orchestrator logs + per-step logs
+            - Assets/graph.png — execution digraph, updated after each step
+
+    - Tools
+        - miscelenous snippet for house cleaning
+        -tools/clean_pristine.sh — cleanup/reset convenience script
+    - Control/state files
+        - store_on_ram.txt — when present, orchestrator keeps logs/state in RAM and pickles GLOBAL_STATE to state.pkl
+        - If it contains “debug”, increase verbosity stored in memory
+        - state.pkl — pickled GLOBAL_STATE when RAM mode is enabled
+
+    Quick-start scenarios:
+        Full file-based pipeline (default_recipe.yaml)
+        Purpose: run a typical pipeline with files on disk
+        Steps:
+            1. Preprocess raw CSV → Data/clean.csv
+            2. Sanitize with awk → Data/sanitized.csv
+            3. Normalize with sed → Data/normalized.csv
+            4. Compute metrics → Data/metrics.json
+            5. AI analysis → Data/ai_summary.md
+            6. Store in DB → Data/tests.db
+            7. Export Excel with charts → Data/output.xlsx
+            8. Generate docx report → Data/report.docx
+            - Command:
+            - cd orchestrator
+            - python runner.py
+            - Inspect outputs in Data/
+            - Check execution graph at Assets/graph.png
+            - Logs are in Logs/
+
+    In-memory ctx pipeline (test_mem.yaml)
+        - Purpose: demonstrate sharing without intermediate files
+        - Steps:
+            1. compute_metrics_mem: read Data/normalized.csv and store results in ctx["metrics"], ctx["metrics_columns"]
+            2. ai_analyze_mem: read ctx["metrics"], produce ctx["ai_summary"]
+            3. shell_bridge_demo: pipe ctx["metrics_columns"] to a small inline Python that counts them, capture stdout back to ctx["metric_col_count"]
+            4. debug_print_ctx: log ctx keys and samples
+
+    CRITERIA MUST BE HONOR AS ALWAYS BY ALL SCRIPTLETS AND THE EXPANSION/MODIFICATION OF WORKFLOW:
+        1) all scriptlets must be independent of each others and can be run with cli for easy debug
+        2) all scriptlets must have detailed comment while having the example of usage, descriptions, and limitation/requirement provide on the top of the file as docstring or multi comment block
+        3) all scriptlets must as small and resuable as possible for portability and scalability
+        4) passing for updating the ctx content with serialized json format or json compabtible string instead of objects. Only serialized objects should be return.
+        5) Any modification of existing code should be keep and minimal while ensuring backward compatibility where it can be run, support and compatible wit old and existing workflow or dash app
+        5) Any major over haul of the scriptlets are highly encourage to be create a new or a separate improve version of the scriptlet thus ensuring backward compatibilty
+        6) Shared in-memory context (ctx) for inter-step communication.
+        7) Support for both Python and shell scriptlets.
+        8) Logging and error handling are present.
+        9) Scriptlets should not be monolithic and be reusable
+        10) clear separation between orchestration logic and step execution logic.
+        11) Logging, error handling, and resource tracking are standardized.
+        12) utilizing async or process-based parallelism for heavy computation.
+        13) caching or batching for repeated/expensive operations.
+        12) some adapbility of standardized frame for unit test and debug
+        13) clear traceability of ctx changes (who/what/when).
+        14) scriptlets/python/core/ for reusable core utilities (ctx helpers, logging, resource tracking, etc.).
+        15) scriptlets/python/steps/ for atomic, single-responsibility step implementations.
+        16) criptlets/python/apps/ for Dash and other long-running apps.
+        17) BaseScriptlet class (Python) with standard run(ctx, params) and optional validate(ctx, params) methods.
+        18) Use a registry or entry-point system so new scriptlets can be auto-discovered and listed.
+        19) For shell, use a naming convention and a wrapper to standardize environment variable handling and logging.
+        20) Implement a Context class with:
+                -Type-checked, versioned, and timestamped modifications.
+                -Change history (who/what/when/old/new).
+                -Optional hooks for validation, logging, and event triggers.
+                -Provide a ctx.get_history(key) and ctx.last_modified(key) API.
+        21) Logging, Error Handling, and Resource Tracking
+                -Centralize logging with a Logger utility (supporting step-level, ctx-level, and global logs).
+                -Standardize error handling with custom exceptions and error codes.
+                -Use psutil and tracemalloc for resource tracking, and log resource usage per step.
+                -Add a decorator for timing and resource usage on all step functions.
+        22) Parallelism and Performance
+                -Use concurrent.futures.ThreadPoolExecutor or ProcessPoolExecutor for parallel/async steps.
+                -For heavy computation, allow steps to declare requires_process=True to run in a separate process.
+                -Batch or cache expensive operations (e.g., data flattening, stats calculation).
+                -Use async Dash callbacks for live apps if possible.
+        23) Testing and CI
+                -Add unit tests for all core utilities and scriptlets.
+                -Add integration tests for recipes.
+        24) Documentation and Discoverability
+                -Auto-generate documentation for all scriptlets and their parameters.
+                -Provide a CLI command to list all available steps and their docs.
+    
+    ## Directory Structure
+    - `context.py` — Shared in-memory context utilities.
+    - `runner.py` — Main pipeline runner.
+    - `scriptlets/`
+        - `python/core/` — Core utilities (ctx helpers, logging, etc.)
+        - `python/steps/` — Atomic, single-responsibility step implementations.
+        - `python/apps/` — Dash and other long-running apps.
+        - `shell/` — Shell scriptlets.
+    - `recipes/` — YAML recipes for orchestrator.
+    - `tests/` — Unit and integration tests.
+    - `Data/`, `Logs/`, `Assets/`, `templates/`, `tools/` — Data, logs, assets, templates, and tools.
+
+    ## Scriptlet Guidelines
+
+    - Each scriptlet must be independently runnable as a CLI.
+    - Each scriptlet must have a detailed docstring with usage, description, and limitations.
+    - Scriptlets must be small, composable, and reusable.
+    - Only JSON-serializable objects may be stored in ctx.
+    - All ctx changes must be traceable.
+    - See `tests/` for usage examples.
+
+        
+  #-----THE END Of CONTENT FOR: orchestrator/README.md----------------------
+
+#-----CONTENT FOR: orchestrator/context.py----------------------
+"""
+context.py
+----------
+Defines the Context class and helpers for in-memory data sharing between orchestrator steps.
+Provides utilities to expose selected ctx values to shell environments.
+
+Usage:
+    from context import Context, expose_for_shell
+    ctx = Context()
+    ctx["foo"] = 123
+    env = expose_for_shell(ctx, ["foo"])
+    # env["foo"] == "123"
+"""
+
+import json
+from typing import Any, Dict, List
+
+class Context(dict):
+    """
+    In-memory context for sharing data between orchestrator steps.
+    Behaves like a dict, but can be extended for custom logic if needed.
+    """
+    def __setitem__(self, key, value):
+        try:
+            json.dumps(value)
+        except Exception as e:
+            raise ValueError(f"ctx[{key!r}] value is not JSON serializable: {e}")
+        super().__setitem__(key, value)
+
+    def update(self, *args, **kwargs):
+        for k, v in dict(*args, **kwargs).items():
+            self[k] = v
+
+def expose_for_shell(ctx: Dict[str, Any], keys: List[str]) -> Dict[str, str]:
+    """
+    Prepare a dict of environment variables from ctx for shell scriptlets.
+    """
+    env = {}
+    for k in keys:
+        v = ctx.get(k, "")
+        if isinstance(v, (dict, list)):
+            env[k] = json.dumps(v)
+        else:
+            env[k] = str(v)
+    return env
+
+if __name__ == "__main__":
+    ctx = Context()
+    ctx["foo"] = 42
+    ctx["bar"] = [1, 2, 3]
+    env = expose_for_shell(ctx, ["foo", "bar"])
+    for k, v in env.items():
+        print(f"{k}={v}")#-----THE END Of CONTENT FOR: orchestrator/context.py----------------------
+
+#-----CONTENT FOR: orchestrator/state.pkl----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/state.pkl----------------------
+
+#-----CONTENT FOR: orchestrator/Exercise_series.md----------------------
+# Orchestrator Automation Framework Learning Curriculum
+
+Welcome! This curriculum is designed to take you from zero to expert in using, extending, and mastering the orchestrator automation framework in this workspace. Each exercise builds on the previous, with clear explanations, hints, and code samples. By the end, you’ll be able to automate complex tasks, create reusable scriptlets, debug and optimize workflows, and build interactive dashboards—even if you have no programming background.
+
+---
+
+## **Module 1: Getting Started**
+
+### 1. **Workspace Tour**
+- **Objective:** Understand the folder and file structure.
+- **Exercise:** Open the workspace and explore each folder. Write down what you think each folder is for.
+- **Hint:** Refer to `README.md` and `UserGuide.md`.
+
+### 2. **Install Requirements**
+- **Objective:** Install all dependencies.
+- **Exercise:** Run `pip install -r requirements.txt` in your terminal.
+- **Hint:** If you get an error, check your Python version (`python --version`).
+
+### 3. **Run Your First Recipe**
+- **Objective:** Execute a sample recipe.
+- **Exercise:** Run `python runner.py --recipe recipes/demo_screen_dash_ctx.yaml`.
+- **Hint:** Watch the console output and check `Logs/` for logs.
+
+### 4. **Inspect Data, Logs, and Assets**
+- **Objective:** Find where outputs are stored.
+- **Exercise:** After running a recipe, open `Data/`, `Logs/`, and `Assets/graph.png`.
+- **Hint:** Use your file explorer or `ls` command.
+
+---
+
+## **Module 2: Understanding Recipes**
+
+### 5. **Read a Recipe File**
+- **Objective:** Understand the YAML recipe format.
+- **Exercise:** Open `recipes/demo_screen_dash_ctx.yaml` and read each step.
+- **Hint:** Comments in the YAML explain each step.
+
+### 6. **Identify Step Types**
+- **Objective:** Learn the difference between Python and shell steps.
+- **Exercise:** In the recipe, list which steps are `type: python` and which are `type: shell`.
+
+### 7. **Trace Step Execution**
+- **Objective:** Follow the flow of steps.
+- **Exercise:** Draw a flowchart of the steps and their dependencies.
+- **Hint:** Use the `idx` and `depends_on` fields.
+
+### 8. **Modify Step Order**
+- **Objective:** Change the order of execution.
+- **Exercise:** Swap two steps’ `idx` values and rerun the recipe.
+- **Hint:** Observe how the execution order changes.
+
+### 9. **Add a New Step**
+- **Objective:** Insert a new step into a recipe.
+- **Exercise:** Add a step that prints “Hello, Automation!” using a shell scriptlet.
+- **Hint:** Use `echo "Hello, Automation!"` as the command.
+
+### 10. **Skip and Only Steps**
+- **Objective:** Use CLI filters.
+- **Exercise:** Run the recipe with `--skip` and `--only` flags.
+- **Hint:** Try `python runner.py --only create_screen_with_log`.
+
+---
+
+## **Module 3: Shared Context (ctx)**
+
+### 11. **What is ctx?**
+- **Objective:** Understand the shared in-memory context.
+- **Exercise:** Read `context.py` and write a summary of what ctx does.
+
+### 12. **View ctx Changes**
+- **Objective:** See how ctx changes during execution.
+- **Exercise:** Run a recipe in debug mode and inspect `Logs/ctx_debug.log`.
+
+### 13. **Access ctx in Python**
+- **Objective:** Read and write ctx in a Python scriptlet.
+- **Exercise:** Modify a Python scriptlet to print the current ctx.
+- **Hint:** Use `print(ctx)`.
+
+### 14. **Access ctx in Shell**
+- **Objective:** Pass ctx values to a shell scriptlet.
+- **Exercise:** Use `expose_for_shell` to export a ctx key as an environment variable.
+- **Hint:** See `context.py` for how to use `expose_for_shell`.
+
+### 15. **Add a New ctx Key**
+- **Objective:** Initialize a new key in ctx.
+- **Exercise:** Use `ctx_init.py` to add a key called `my_data`.
+- **Hint:** `python scriptlets/python/steps/ctx_init.py --keys my_data`
+
+---
+
+## **Module 4: Creating and Modifying Scriptlets**
+
+### 16. **Run a Scriptlet as CLI**
+- **Objective:** Execute a scriptlet directly.
+- **Exercise:** Run `python scriptlets/python/steps/ctx_row_updater.py --key test --n 2 --interval_sec 1`.
+
+### 17. **Write a Simple Python Scriptlet**
+- **Objective:** Create a scriptlet that adds two numbers and stores the result in ctx.
+- **Exercise:** Write `add_numbers.py` in `scriptlets/python/steps/`.
+- **Hint:** Use `def run(ctx, params):`.
+
+### 18. **Write a Simple Shell Scriptlet**
+- **Objective:** Create a shell scriptlet that prints the current date.
+- **Exercise:** Write `print_date.sh` in `scriptlets/shell/`.
+
+### 19. **Document Your Scriptlet**
+- **Objective:** Add a docstring with usage, description, and limitations.
+- **Exercise:** Add a docstring to your `add_numbers.py`.
+
+### 20. **Test Your Scriptlet**
+- **Objective:** Write a test for your scriptlet.
+- **Exercise:** Add a test in `tests/` that imports and runs your scriptlet.
+
+---
+
+## **Module 5: Debugging and Troubleshooting**
+
+### 21. **Read Error Logs**
+- **Objective:** Find and interpret errors.
+- **Exercise:** Cause a step to fail and read `Logs/error.log`.
+
+### 22. **Use Debug Mode**
+- **Objective:** Enable verbose logging.
+- **Exercise:** Create a file named `runner.debug` and rerun a recipe.
+
+### 23. **Trace ctx Modifications**
+- **Objective:** See who/what/when modified ctx.
+- **Exercise:** Read `Logs/ctx_debug.log` and match changes to steps.
+
+### 24. **Resume from Failure**
+- **Objective:** Resume a recipe after a failure.
+- **Exercise:** Use the `--resume-from` flag.
+
+### 25. **Check Resource Usage**
+- **Objective:** Monitor memory, CPU, and disk usage.
+- **Exercise:** Observe the resource report printed after each step.
+
+---
+
+## **Module 6: Advanced Recipes and Automation**
+
+### 26. **Create a Multi-Step Recipe**
+- **Objective:** Build a recipe with at least 5 steps.
+- **Exercise:** Design a recipe that processes data, computes stats, and generates a report.
+
+### 27. **Add Dependencies**
+- **Objective:** Use `depends_on` to enforce step order.
+- **Exercise:** Make one step depend on the completion of another.
+
+### 28. **Use Background Steps**
+- **Objective:** Run a step in the background.
+- **Exercise:** Mark a step with `background: true` in your recipe.
+
+### 29. **Use Parallel Steps**
+- **Objective:** Run steps in parallel.
+- **Exercise:** Mark two steps with `parallel: true` and observe execution.
+
+### 30. **Capture Step Output**
+- **Objective:** Store step output in ctx.
+- **Exercise:** Use `stdout_to_ctx` in a shell step.
+
+---
+
+## **Module 7: Building and Customizing Dash Dashboards**
+
+### 31. **Run the Dash App**
+- **Objective:** Launch the Dash app and view it in your browser.
+- **Exercise:** Run `python scriptlets/python/apps/hello_dash.py --port 8050 --ctx_key new_row`.
+
+### 32. **Understand Dash Layout**
+- **Objective:** Read the layout code in `hello_dash.py`.
+- **Exercise:** Identify each component in the layout.
+
+### 33. **Add a New Graph**
+- **Objective:** Add a second graph to the Dash app.
+- **Exercise:** Modify the layout and callbacks to include another plot.
+
+### 34. **Use Dash Bootstrap Components**
+- **Objective:** Add a Bootstrap-styled button.
+- **Exercise:** Install `dash-bootstrap-components` and add a button to the layout.
+- **Hint:** See [dash-bootstrap-components docs](https://dash-bootstrap-components.opensource.faculty.ai/).
+
+### 35. **Make a Responsive Layout**
+- **Objective:** Use Bootstrap grid for layout.
+- **Exercise:** Arrange components in two columns.
+
+### 36. **Add Interactivity**
+- **Objective:** Add a dropdown to select which ctx key to plot.
+- **Exercise:** Update the callback to use the dropdown value.
+
+### 37. **Display Data Table**
+- **Objective:** Show ctx data in a table.
+- **Exercise:** Use `dash_table.DataTable` to display rows.
+
+### 38. **Add Alerts and Notifications**
+- **Objective:** Show a Bootstrap alert when ctx changes.
+- **Exercise:** Use `dbc.Alert` and update it in a callback.
+
+### 39. **Add Modal Dialogs**
+- **Objective:** Show a modal with details on button click.
+- **Exercise:** Use `dbc.Modal` and callbacks.
+
+### 40. **Theme Your Dashboard**
+- **Objective:** Apply a Bootstrap theme.
+- **Exercise:** Change the theme and observe the effect.
+
+---
+
+## **Module 8: Real-World Automation Challenges**
+
+### 41. **Automate Data Cleaning**
+- **Objective:** Write a scriptlet to clean a CSV file.
+- **Exercise:** Use Python’s `csv` module to remove empty rows.
+
+### 42. **Automate Data Analysis**
+- **Objective:** Write a scriptlet to compute summary statistics.
+- **Exercise:** Use `pandas` to compute mean and stddev.
+
+### 43. **Automate Report Generation**
+- **Objective:** Generate a Word report from ctx data.
+- **Exercise:** Use `python-docx` and the template in `templates/`.
+
+### 44. **Automate Email Notification**
+- **Objective:** Send an email when a recipe completes.
+- **Exercise:** Use Python’s `smtplib` in a scriptlet.
+
+### 45. **Automate File Upload**
+- **Objective:** Upload a file to a server after processing.
+- **Exercise:** Use Python’s `requests` library.
+
+### 46. **Secure Your Dashboard**
+- **Objective:** Add password protection to the Dash app.
+- **Exercise:** Use `dash-auth` or Flask login.
+
+### 47. **Audit and Log All Actions**
+- **Objective:** Ensure every ctx change and step is logged.
+- **Exercise:** Review logs and add missing logging.
+
+### 48. **Optimize for Performance**
+- **Objective:** Profile and optimize a slow step.
+- **Exercise:** Use `cProfile` and `psutil` to find bottlenecks.
+
+### 49. **Handle Large Data**
+- **Objective:** Modify a scriptlet to process data in batches.
+- **Exercise:** Use generators or chunked reading.
+
+### 50. **Build a Custom Dashboard with All Major Dash Bootstrap Components**
+- **Objective:** Create a dashboard using:
+    - Navbar
+    - Sidebar
+    - Cards
+    - Alerts
+    - Modals
+    - Tabs
+    - Accordions
+    - Tooltips
+    - Spinners
+    - DataTable
+    - Graphs
+    - Forms
+    - Pagination
+    - Toasts
+- **Exercise:** For each component, add it to your dashboard, connect it to ctx, and make it interactive.
+- **Hint:** See [dash-bootstrap-components gallery](https://dash-bootstrap-components.opensource.faculty.ai/examples/simple-app/).
+
+---
+
+## **Capstone Project: Your Own Automation Pipeline**
+
+### 51. **Design Your Own Recipe**
+- **Objective:** Plan an automation workflow for a real-world task (e.g., data ETL, monitoring, reporting).
+- **Exercise:** Write a recipe YAML with at least 8 steps, including Python and shell scriptlets, ctx sharing, and a Dash dashboard.
+
+### 52. **Implement Custom Scriptlets**
+- **Objective:** Write at least two new reusable scriptlets for your workflow.
+
+### 53. **Test and Debug Your Pipeline**
+- **Objective:** Run, debug, and optimize your pipeline using all the tools and techniques learned.
+
+### 54. **Document and Share**
+- **Objective:** Write documentation for your recipe and scriptlets, following the workspace standards.
+
+---
+
+**Congratulations!**  
+You are now an expert in orchestrator automation, recipe authoring, scriptlet development, debugging, and dashboarding.  
+Continue to explore, automate, and share your solutions!
+
+---
+
+# Orchestrator Framework: Advanced Learning & Real-World Recipe Design Curriculum
+
+---
+
+## **Module 9: Designing Your Own Automation Recipe**
+
+### 55. **Define Your Automation Goal**
+- **Objective:** Clearly state the problem you want to automate (e.g., data cleaning, monitoring, reporting).
+- **Exercise:** Write a one-sentence goal for your automation.
+- **Hint:** Example: “Automate daily sales data cleaning and dashboard reporting.”
+
+### 56. **List Required Steps**
+- **Objective:** Break your goal into atomic steps (e.g., fetch data, clean data, analyze, visualize, notify).
+- **Exercise:** Write down each step as a short phrase.
+- **Hint:** Use verbs: “Download CSV”, “Remove duplicates”, “Compute stats”, “Send email”.
+
+### 57. **Choose Step Types**
+- **Objective:** Decide which steps are Python, which are shell, and which need a dashboard.
+- **Exercise:** Mark each step as `python`, `shell`, or `dash`.
+
+### 58. **Draft Your Recipe YAML**
+- **Objective:** Write a draft YAML recipe with `test_meta` and `steps`.
+- **Exercise:** Use `recipes/demo_screen_dash_ctx.yaml` as a template.
+- **Hint:** Start with 3-5 steps, add more as you go.
+
+### 59. **Add Dependencies**
+- **Objective:** Specify which steps depend on others.
+- **Exercise:** Use the `depends_on` field to enforce order.
+
+### 60. **Integrate Existing Scriptlets**
+- **Objective:** Reuse scriptlets from `scriptlets/python/steps/` and `scriptlets/shell/`.
+- **Exercise:** For each step, specify the `module` or `cmd` and `function` or `args`.
+
+### 61. **Test Your Recipe**
+- **Objective:** Run your recipe and observe the output.
+- **Exercise:** Use `python runner.py --recipe your_recipe.yaml`.
+
+### 62. **Debug and Refine**
+- **Objective:** Fix errors, add missing steps, and adjust parameters.
+- **Exercise:** Use debug mode and logs to troubleshoot.
+
+### 63. **Document Your Recipe**
+- **Objective:** Add comments and a description to your YAML.
+- **Exercise:** Explain what each step does and why.
+
+---
+
+## **Module 10: Real-World Dash Bootstrap Interactive Charting**
+
+### 64. **Install Dash Bootstrap Components**
+- **Objective:** Add Bootstrap styling to your dashboards.
+- **Exercise:** Run `pip install dash-bootstrap-components`.
+
+### 65. **Create a Bootstrap-Styled Line Chart**
+- **Objective:** Use `dbc.Container`, `dbc.Row`, and `dbc.Col` to layout a line chart.
+- **Exercise:** Modify `hello_dash.py` to use Bootstrap layout.
+
+### 66. **Add a Navbar**
+- **Objective:** Add a `dbc.NavbarSimple` to your dashboard.
+- **Exercise:** Place navigation links for “Home”, “Data”, “About”.
+
+### 67. **Add a Sidebar for Controls**
+- **Objective:** Use `dbc.Sidebar` for dropdowns and buttons.
+- **Exercise:** Move column selection to the sidebar.
+
+### 68. **Add Tabs for Multiple Charts**
+- **Objective:** Use `dbc.Tabs` to switch between different chart types.
+- **Exercise:** Add a tab for a bar chart and a tab for a scatter plot.
+
+### 69. **Add a DataTable**
+- **Objective:** Display ctx data in a `dash_table.DataTable`.
+- **Exercise:** Add a table below your chart.
+
+### 70. **Add Interactive Filters**
+- **Objective:** Use `dbc.Input` and `dbc.Button` to filter data.
+- **Exercise:** Add a date range filter for your chart.
+
+### 71. **Add Alerts and Notifications**
+- **Objective:** Show a `dbc.Alert` when new data arrives.
+- **Exercise:** Trigger an alert in a callback when ctx changes.
+
+### 72. **Add a Modal for Details**
+- **Objective:** Use `dbc.Modal` to show detailed info on row click.
+- **Exercise:** Add a callback to open the modal.
+
+### 73. **Add Accordions for Collapsible Sections**
+- **Objective:** Use `dbc.Accordion` for advanced options.
+- **Exercise:** Place advanced chart settings in an accordion.
+
+### 74. **Add Tooltips and Popovers**
+- **Objective:** Use `dbc.Tooltip` to explain controls.
+- **Exercise:** Add tooltips to all buttons and inputs.
+
+### 75. **Add Spinners for Loading States**
+- **Objective:** Use `dbc.Spinner` to indicate loading.
+- **Exercise:** Show a spinner while data is loading.
+
+### 76. **Add Toasts for Success/Failure**
+- **Objective:** Use `dbc.Toast` for notifications.
+- **Exercise:** Show a toast when a step completes.
+
+### 77. **Add Pagination to DataTable**
+- **Objective:** Handle large datasets with pagination.
+- **Exercise:** Enable pagination in your DataTable.
+
+### 78. **Add Download Button**
+- **Objective:** Allow users to download chart data as CSV.
+- **Exercise:** Use `dcc.Download` and a callback.
+
+### 79. **Add Custom Themes**
+- **Objective:** Apply a custom Bootstrap theme.
+- **Exercise:** Try different themes and observe the effect.
+
+### 80. **Deploy Your Dashboard**
+- **Objective:** Deploy your Dash app to a server.
+- **Exercise:** Use `gunicorn` or `heroku` for deployment.
+
+---
+
+## **Module 11: Advanced Debugging and Troubleshooting**
+
+### 81. **Simulate a Step Failure**
+- **Objective:** Cause a step to fail and observe error handling.
+- **Exercise:** Intentionally break a scriptlet and run the recipe.
+
+### 82. **Analyze Error Logs**
+- **Objective:** Read and interpret `Logs/error.log`.
+- **Exercise:** Find the cause of the failure.
+
+### 83. **Use Debug Mode for ctx Tracking**
+- **Objective:** Enable debug mode and watch `Logs/ctx_debug.log`.
+- **Exercise:** Track ctx changes step by step.
+
+### 84. **Resume from Failure**
+- **Objective:** Use the `--resume-from` flag to continue after fixing an error.
+- **Exercise:** Fix the error and resume the recipe.
+
+### 85. **Profile Resource Usage**
+- **Objective:** Use the resource report to find bottlenecks.
+- **Exercise:** Identify which step uses the most memory or CPU.
+
+### 86. **Trace Step Dependencies**
+- **Objective:** Use the digraph to visualize step dependencies.
+- **Exercise:** Open `Assets/graph.png` after each run.
+
+### 87. **Add More Logging**
+- **Objective:** Add custom logging to a scriptlet.
+- **Exercise:** Use `print()` or the logging module.
+
+### 88. **Test with Large Data**
+- **Objective:** Run a recipe with a large dataset.
+- **Exercise:** Observe performance and troubleshoot slow steps.
+
+### 89. **Handle Unexpected ctx Content**
+- **Objective:** Add type checks and error handling for ctx values.
+- **Exercise:** Modify a scriptlet to check ctx types.
+
+### 90. **Write Unit Tests for Scriptlets**
+- **Objective:** Add tests for your custom scriptlets.
+- **Exercise:** Use `pytest` and see `tests/` for examples.
+
+---
+
+## **Module 12: Solidifying Framework Concepts**
+
+### 91. **Review the Framework Layout**
+- **Objective:** Draw a diagram of the workspace structure.
+- **Exercise:** Label where each type of file/scriptlet goes.
+
+### 92. **Explain ctx Sharing**
+- **Objective:** Write a paragraph explaining how ctx enables step communication.
+
+### 93. **Explain Recipe Flow**
+- **Objective:** Describe how runner.py executes a recipe step by step.
+
+### 94. **Explain Scriptlet Reusability**
+- **Objective:** List three ways to reuse a scriptlet in different recipes.
+
+### 95. **Explain Debugging Workflow**
+- **Objective:** Write out the steps you’d take to debug a failed recipe.
+
+### 96. **Create a New Scriptlet**
+- **Objective:** Write a scriptlet that computes the median of a list in ctx.
+
+### 97. **Integrate Your Scriptlet into a Recipe**
+- **Objective:** Add your new scriptlet to a recipe and run it.
+
+### 98. **Document Your Scriptlet**
+- **Objective:** Write a docstring and usage example for your scriptlet.
+
+### 99. **Share Your Recipe and Scriptlet**
+- **Objective:** Present your work to a peer or mentor for feedback.
+
+### 100. **Reflect and Plan Next Steps**
+- **Objective:** Write a short reflection on what you learned and what you want to automate next.
+
+---
+
+**By completing these modules, you will have hands-on experience with every aspect of the orchestrator framework, from recipe design to advanced Dash dashboards, debugging, and extensibility. You’ll be able to confidently create, debug, and optimize your own automation workflows and dashboards—even as a non-programmer!**#-----THE END Of CONTENT FOR: orchestrator/Exercise_series.md----------------------
+
+#-----CONTENT FOR: orchestrator/tools/clean_pristine.sh----------------------
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Resolve base as repo root if script is run from anywhere
+BASE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+echo "[CLEAN] Starting clean slate reset at: $BASE"
+
+# 1) Data folder cleanup: remove generated artifacts, keep optional fixtures folder
+DATA_DIR="$BASE/orchestrator/Data"
+if [[ -d "$DATA_DIR" ]]; then
+  echo "[CLEAN] Purging Data/ generated files"
+  find "$DATA_DIR" -maxdepth 1 -type f \
+    ! -name ".gitkeep" \
+    ! -name "chart_spec.json" \
+    ! -name "meta.example.json" \
+    -print -delete || true
+
+  # Optionally preserve a dedicated fixtures subfolder
+  if [[ -d "$DATA_DIR/fixtures" ]]; then
+    echo "[CLEAN] Preserving Data/fixtures/"
+  fi
+
+  # Remove common generated outputs if nested
+  rm -f "$DATA_DIR/metrics.json" \
+        "$DATA_DIR/ai_summary.md" \
+        "$DATA_DIR/output.xlsx" \
+        "$DATA_DIR/report.docx" \
+        "$DATA_DIR/tests.db" \
+        "$DATA_DIR/normalized.csv" \
+        "$DATA_DIR/sanitized.csv" \
+        "$DATA_DIR/clean.csv" \
+        "$DATA_DIR/raw_input.csv" 2>/dev/null || true
+fi
+
+# 2) Logs cleanup
+LOGS_DIR="$BASE/orchestrator/Logs"
+if [[ -d "$LOGS_DIR" ]]; then
+  echo "[CLEAN] Purging Logs/"
+  find "$LOGS_DIR" -type f -print -delete || true
+fi
+
+# 3) Assets cleanup: remove generated graph
+ASSETS_DIR="$BASE/orchestrator/Assets"
+if [[ -d "$ASSETS_DIR" ]]; then
+  echo "[CLEAN] Removing generated digraph image"
+  rm -f "$ASSETS_DIR/graph.png" "$ASSETS_DIR/graph" "$ASSETS_DIR/graph.gv" 2>/dev/null || true
+fi
+
+# 4) Runtime control/state
+echo "[CLEAN] Removing runtime control/state files"
+rm -f "$BASE/orchestrator/store_on_ram.txt" 2>/dev/null || true
+rm -f "$BASE/orchestrator/state.pkl" 2>/dev/null || true
+
+# 5) Python cache and temp files repository-wide
+echo "[CLEAN] Removing Python caches and temp files"
+find "$BASE" -type d -name "__pycache__" -prune -exec rm -rf {} + || true
+find "$BASE" -type f \( -name "*.pyc" -o -name "*.pyo" -o -name "*.tmp" -o -name "*.bak" -o -name "*.log" \) -print -delete || true
+
+# 6) Optional: recreate empty placeholders
+touch "$LOGS_DIR/orchestrator.log"
+touch "$ASSETS_DIR/.gitkeep"
+touch "$DATA_DIR/.gitkeep"
+
+echo "[CLEAN] Done. Repository is reset to pre-run state."
+#-----THE END Of CONTENT FOR: orchestrator/tools/clean_pristine.sh----------------------
+
+#-----CONTENT FOR: orchestrator/tests/test_ctx_row_updater.py----------------------
+from scriptlets.python.steps import ctx_row_updater
+import time
+
+def test_ctx_row_updater_run():
+    ctx = {"foo": []}
+    updater = ctx_row_updater.run(ctx, {"key": "foo", "n": 2, "interval_sec": 0.1})
+    time.sleep(0.3)
+    assert len(ctx["foo"]) >= 2#-----THE END Of CONTENT FOR: orchestrator/tests/test_ctx_row_updater.py----------------------
+
+#-----CONTENT FOR: orchestrator/tests/test_hello_dash.py----------------------
+import subprocess
+
+def test_hello_dash_cli_help():
+    result = subprocess.run(
+        ["python", "scriptlets/python/apps/hello_dash.py", "--help"],
+        capture_output=True, text=True
+    )
+    assert "usage" in result.stdout.lower()#-----THE END Of CONTENT FOR: orchestrator/tests/test_hello_dash.py----------------------
+
+#-----CONTENT FOR: orchestrator/tests/test_ctx.py----------------------
+import pytest
+from context import Context
+
+def test_ctx_set_get():
+    ctx = Context()
+    ctx["foo"] = 123
+    assert ctx["foo"] == 123
+
+def test_ctx_json_serializable():
+    ctx = Context()
+    ctx["bar"] = {"a": [1, 2, 3]}
+    assert ctx["bar"]["a"] == [1, 2, 3]
+
+def test_ctx_non_serializable():
+    ctx = Context()
+    class NotSerializable:
+        pass
+    with pytest.raises(ValueError):
+        ctx["bad"] = NotSerializable()#-----THE END Of CONTENT FOR: orchestrator/tests/test_ctx.py----------------------
+
+#-----CONTENT FOR: orchestrator/tests/test_ctx_init.py----------------------
+from scriptlets.python.steps import ctx_init
+
+def test_ctx_init_run():
+    ctx = {}
+    result = ctx_init.run(ctx, {"keys": ["foo", "bar"]})
+    assert "foo" in ctx and "bar" in ctx
+    assert ctx["foo"] == []
+    assert result["initialized"] == ["foo", "bar"]#-----THE END Of CONTENT FOR: orchestrator/tests/test_ctx_init.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/core/__init__.py----------------------
+# Empty __init__.py for package discovery#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/core/__init__.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/steps/__init__.py----------------------
+# Empty __init__.py for package discovery#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/steps/__init__.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/steps/ctx_row_updater.py----------------------
+"""
+ctx_row_updater.py
+------------------
+Continuously appends rows [timestamp, random1, ..., randomn] to ctx[key] in a background thread.
+
+Usage:
+    python ctx_row_updater.py --key new_row --n 3 --interval_sec 1
+
+Arguments:
+    --key KEY         ctx key to update
+    --n N             number of random columns
+    --interval_sec S  interval in seconds
+
+Limitations:
+    - Only works with JSON-serializable ctx.
+    - Intended for use in orchestrator or as CLI demo.
+"""
+import threading
+import time
+import datetime
+import random
+import argparse
+
+def run(ctx, params):
+    key = params["key"]
+    n = params.get("n", 3)
+    interval = params.get("interval_sec", 1)
+    def updater():
+        while True:
+            now = datetime.datetime.now().isoformat()
+            row = [now] + [random.random() for _ in range(n)]
+            ctx[key].append(row)
+            time.sleep(interval)
+    t = threading.Thread(target=updater, daemon=True)
+    t.start()
+    return {"thread": "started"}
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--key', required=True)
+    parser.add_argument('--n', type=int, default=3)
+    parser.add_argument('--interval_sec', type=int, default=1)
+    args = parser.parse_args()
+    ctx = {args.key: []}
+    run(ctx, {"key": args.key, "n": args.n, "interval_sec": args.interval_sec})
+    print(f"Started background updater for ctx['{args.key}']")
+    while True:
+        time.sleep(10)#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/steps/ctx_row_updater.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/steps/ctx_init.py----------------------
+"""
+ctx_init.py
+-----------
+Initializes keys in the shared in-memory ctx.
+
+Usage:
+    python ctx_init.py --keys new_row
+
+Arguments:
+    --keys KEY1 [KEY2 ...]   List of ctx keys to initialize as empty lists.
+
+Limitations:
+    - Only initializes keys as empty lists.
+    - Keys must be valid Python identifiers.
+"""
+import argparse
+
+def run(ctx, params):
+    keys = params.get("keys", [])
+    for k in keys:
+        ctx[k] = []
+    return {"initialized": keys}
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--keys', nargs='+', required=True)
+    args = parser.parse_args()
+    ctx = {}
+    run(ctx, {"keys": args.keys})
+    print(f"Initialized ctx keys: {args.keys}")#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/steps/ctx_init.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/apps/hello_dash.py----------------------
+"""
+hello_dash.py
+-------------
+A Dash app scriptlet that displays and plots shared in-memory ctx data.
+
+Description:
+    - Launches a Dash app that monitors ctx[ctx_key] for changes.
+    - Prints all ctx content on change.
+    - Plots timestamp vs. selected columns from ctx[ctx_key] (multi-select).
+
+Usage (CLI):
+    python hello_dash.py --port 8050 --ctx_key new_row
+
+Arguments:
+    --port PORT      (required) Port number to run the Dash server on.
+    --ctx_key KEY    (required) ctx key to monitor and plot.
+    --host HOST      (optional) Host/IP to bind the server (default: 0.0.0.0).
+
+Limitations:
+    - Requires dash and its dependencies.
+    - Expects ctx[ctx_key] as a list of lists: [timestamp, val1, val2, ...].
+    - Column headers are ["timestamp", "col1", "col2", ...].
+
+Example:
+    python hello_dash.py --port 8050 --ctx_key new_row
+"""
+import sys
+import argparse
+import dash
+from dash import dcc, html
+from dash.dependencies import Output, Input, State
+import plotly.graph_objs as go
+import threading
+import time
+
+ctx = {}
+
+def run(ctx_in, params):
+    global ctx
+    ctx = ctx_in
+    port = params.get("port", 8050)
+    host = params.get("host", "0.0.0.0")
+    ctx_key = params["ctx_key"]
+    launch_dash(ctx_key, port, host)
+
+def launch_dash(ctx_key, port, host):
+    app = dash.Dash(__name__)
+    app.layout = html.Div([
+        html.H1("Shared ctx Dash Monitor"),
+        dcc.Dropdown(id='column-select', multi=True, placeholder="Select columns to plot"),
+        dcc.Graph(id='live-graph'),
+        html.Pre(id='ctx-print', style={'whiteSpace': 'pre-wrap'})
+    ])
+
+    last_ctx_snapshot = {"data": None}
+
+    @app.callback(
+        Output('column-select', 'options'),
+        Output('column-select', 'value'),
+        Input('live-graph', 'figure'),
+        State('column-select', 'value')
+    )
+    def update_columns(fig, current_value):
+        data = ctx.get(ctx_key, [])
+        if not data:
+            return [], []
+        n_cols = len(data[0])
+        options = [{"label": f"col{i}", "value": i} for i in range(1, n_cols)]
+        # Preserve user selection if valid, else default to [1]
+        if current_value and all(isinstance(v, int) and 0 < v < n_cols for v in current_value):
+            value = current_value
+        else:
+            value = [1] if n_cols > 1 else []
+        return options, value
+
+    @app.callback(
+        Output('live-graph', 'figure'),
+        Output('ctx-print', 'children'),
+        Input('column-select', 'value')
+    )
+    def update_graph(selected_cols):
+        data = ctx.get(ctx_key, [])
+        changed = False
+        if data != last_ctx_snapshot["data"]:
+            changed = True
+            last_ctx_snapshot["data"] = [row[:] for row in data]
+        ctx_str = ""
+        if changed:
+            ctx_str = f"ctx content changed:\n{ctx}"
+            print(ctx_str)
+        fig = go.Figure()
+        if not data or not selected_cols:
+            return fig, ctx_str
+        n_cols = len(data[0])
+        valid_cols = []
+        if isinstance(selected_cols, int):
+            selected_cols = [selected_cols]
+        if isinstance(selected_cols, (list, tuple)):
+            for col in selected_cols:
+                if isinstance(col, int) and 0 < col < n_cols:
+                    valid_cols.append(col)
+        if not valid_cols:
+            return fig, ctx_str
+        timestamps = [row[0] for row in data]
+        for col in valid_cols:
+            try:
+                y = [row[col] for row in data]
+                fig.add_trace(go.Scatter(x=timestamps, y=y, mode='lines+markers', name=f"col{col}"))
+            except Exception as e:
+                print(f"Error plotting column {col}: {e}")
+        fig.update_layout(title="Timestamp vs Selected Columns", xaxis_title="Timestamp")
+        return fig, ctx_str
+
+    print(f"[hello_dash] Running Dash app on http://{host}:{port}/")
+    app.run_server(host=host, port=port)
+
+def main():
+    parser = argparse.ArgumentParser(description="Launch a Dash app to monitor shared ctx.")
+    parser.add_argument('--port', type=int, required=True, help='Port number to run the Dash server on.')
+    parser.add_argument('--ctx_key', type=str, required=True, help='ctx key to monitor and plot.')
+    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host/IP to bind the server (default: 0.0.0.0)')
+    args = parser.parse_args()
+    import random, datetime
+    ctx[args.ctx_key] = []
+    def updater():
+        while True:
+            now = datetime.datetime.now().isoformat()
+            row = [now] + [random.random() for _ in range(3)]
+            ctx[args.ctx_key].append(row)
+            time.sleep(1)
+    threading.Thread(target=updater, daemon=True).start()
+    launch_dash(args.ctx_key, args.port, args.host)
+
+if __name__ == "__main__":
+    main()#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/apps/hello_dash.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/python/apps/__init__.py----------------------
+# Empty __init__.py for package discovery#-----THE END Of CONTENT FOR: orchestrator/scriptlets/python/apps/__init__.py----------------------
+
+#-----CONTENT FOR: orchestrator/scriptlets/shell/screen_script.sh----------------------
+#!/usr/bin/env bash
+# -----------------------------------------------------------------------------
+# screen_script.sh
+# Description:
+#   Manage GNU screen sessions: list, kill, create, recreate, send commands, and run with logging.
+#
+# Usage:
+#   ./screen_script.sh -l
+#       List all screen sessions (PID, Name) in two columns.
+#   ./screen_script.sh -k screen_name
+#       Kill the screen session with the given name.
+#   ./screen_script.sh -c screen_name
+#       Create a new detached screen session with the given name.
+#   ./screen_script.sh -d screen_name
+#       Destroy (kill) any existing session with the name, then create a new one.
+#   ./screen_script.sh -s screen_name 'string to send'
+#       Send a string of characters to the named screen session.
+#   ./screen_script.sh -r screen_name
+#       Create a screen session with logging enabled, flushing log every second.
+#
+# Limitations:
+#   - Requires GNU screen to be installed and in PATH.
+#   - Log flushing uses 'screen' built-in logging, which may not be millisecond-precise.
+#   - Only supports session management by name, not by PID.
+#
+# Examples:
+#   ./screen_script.sh -l
+#   ./screen_script.sh -c mysession
+#   ./screen_script.sh -k mysession
+#   ./screen_script.sh -d mysession
+#   ./screen_script.sh -s mysession "echo Hello World"
+#   ./screen_script.sh -r mysession
+# -----------------------------------------------------------------------------
+
+set -euo pipefail
+
+# Helper: print usage
+usage() {
+    grep '^#' "$0" | grep -v '^#!/' | sed 's/^# \{0,1\}//'
+    exit 1
+}
+
+# Helper: check if screen is installed
+if ! command -v screen >/dev/null 2>&1; then
+    echo "ERROR: GNU screen is not installed or not in PATH." >&2
+    exit 100
+fi
+
+# List all screen sessions: PID and Name in two columns
+list_screens() {
+    # screen -ls output: "    12345.session_name (Detached)"
+    screen -ls | awk '/\t[0-9]+/{split($1,a,"."); printf "%-10s %s\n", a[1], a[2]}'
+}
+
+# Kill a screen session by name
+kill_screen() {
+    local name="$1"
+    local pid
+    pid=$(screen -ls | awk -v n="$name" '/\t[0-9]+/ {split($1,a,"."); if(a[2]==n) print a[1]}')
+    if [[ -z "$pid" ]]; then
+        echo "No screen session named '$name' found."
+        return 1
+    fi
+    screen -S "$name" -X quit
+    echo "Killed screen session '$name'."
+}
+
+# Create a new detached screen session by name
+create_screen() {
+    local name="$1"
+    screen -dmS "$name"
+    echo "Created new detached screen session '$name'."
+}
+
+# Destroy and recreate a screen session by name
+destroy_and_create_screen() {
+    local name="$1"
+    kill_screen "$name" || true
+    create_screen "$name"
+}
+
+# Send a string to a screen session
+send_to_screen() {
+    local name="$1"
+    local str="$2"
+    # Add a newline to simulate Enter key
+    screen -S "$name" -X stuff "$str"$'\n'
+    echo "Sent string to screen session '$name'."
+}
+
+# Create a screen session with logging, flush log every second
+run_screen_with_log() {
+    local name="$1"
+    local logdir="Logs"
+    mkdir -p "$logdir"
+    local logfile="$logdir/${name}_screen.log"
+    # Start screen with logging enabled
+    screen -dmS "$name" bash -c "while true; do date; sleep 1; done"
+    # Enable logging and set flush interval
+    screen -S "$name" -X logfile "$logfile"
+    screen -S "$name" -X log on
+    screen -S "$name" -X logtstamp on
+    screen -S "$name" -X logflush 1
+    echo "Started screen session '$name' with logging to $logfile (flush every 1s)."
+}
+
+# Main CLI dispatch
+if [[ $# -lt 1 ]]; then
+    usage
+fi
+
+case "$1" in
+    -l)
+        list_screens
+        ;;
+    -k)
+        [[ $# -eq 2 ]] || usage
+        kill_screen "$2"
+        ;;
+    -c)
+        [[ $# -eq 2 ]] || usage
+        create_screen "$2"
+        ;;
+    -d)
+        [[ $# -eq 2 ]] || usage
+        destroy_and_create_screen "$2"
+        ;;
+    -s)
+        [[ $# -eq 3 ]] || usage
+        send_to_screen "$2" "$3"
+        ;;
+    -r)
+        [[ $# -eq 2 ]] || usage
+        run_screen_with_log "$2"
+        ;;
+    *)
+        usage
+        ;;
+esac#-----THE END Of CONTENT FOR: orchestrator/scriptlets/shell/screen_script.sh----------------------
+
+#-----CONTENT FOR: orchestrator/recipes/demo_screen_dash_ctx.yaml----------------------
+test_meta:
+  test_id: demo_screen_dash_ctx
+  tester: demo_user
+  description: |
+    Demonstrate launching a Dash app in a GNU screen session, sharing in-memory ctx,
+    and updating ctx in the background with multithreaded Python.
+
+steps:
+  - idx: 1
+    name: create_screen_with_log
+    type: shell
+    cmd: scriptlets/shell/screen_script.sh
+    args:
+      - -r
+      - test_screen
+    stdout_to_ctx: "screen_create_log"
+    # Logs will be in Logs/<timestamp>_create_screen_with_log.log
+
+  - idx: 2
+    name: check_and_attach_screen
+    type: shell
+    cmd: scriptlets/shell/screen_script.sh
+    args:
+      - -l
+    stdout_to_ctx: "screen_list"
+    # Optionally, parse ctx["screen_list"] in a Python step to check for "test_screen"
+
+  - idx: 3
+    name: launch_dash_in_screen
+    type: shell
+    cmd: scriptlets/shell/screen_script.sh
+    args:
+      - -s
+      - test_screen
+      - "python scriptlets/python/hello_dash.py --port 8050"
+    # This sends the launch command to the screen session
+
+  - idx: 4
+    name: start_shared_ctx
+    type: python
+    module: scriptlets.python.ctx_init
+    function: run
+    params:
+      keys: ["new_row"]
+    # Initializes shared in-memory ctx
+
+  - idx: 5
+    name: update_ctx_background
+    type: python
+    module: scriptlets.python.ctx_row_updater
+    function: run
+    params:
+      key: "new_row"
+      n: 3
+      interval_sec: 1
+    # Continuously updates ctx["new_row"] with [timestamp, random1, random2, ..., randomn] in a background thread
+
+  - idx: 6
+    name: monitor_and_plot
+    type: python
+    module: scriptlets.python.hello_dash
+    function: run
+    params:
+      port: 8050
+      ctx_key: "new_row"
+    # Modified hello_dash.py to plot ctx["new_row"] and print on ctx change#-----THE END Of CONTENT FOR: orchestrator/recipes/demo_screen_dash_ctx.yaml----------------------
+
+#-----CONTENT FOR: orchestrator/templates/report_template.docx----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/templates/report_template.docx----------------------
+
+#-----CONTENT FOR: orchestrator/Assets/graph.png----------------------
+         Leave blank since it is a binary/non_text data
+#-----THE END Of CONTENT FOR: orchestrator/Assets/graph.png----------------------
+
