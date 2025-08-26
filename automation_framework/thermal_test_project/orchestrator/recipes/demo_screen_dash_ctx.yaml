@@ -13,8 +13,8 @@ steps:
     args:
       - -r
       - test_screen
-    stdout_to_ctx: "screen_create_log"
-    # Logs will be in Logs/<timestamp>_create_screen_with_log.log
+    stdout_to_ctx: screen_create_log
+    # Creates a 'test_screen' GNU screen session with logging.
 
   - idx: 2
     name: check_and_attach_screen
@@ -22,8 +22,9 @@ steps:
     cmd: scriptlets/shell/screen_script.sh
     args:
       - -l
-    stdout_to_ctx: "screen_list"
-    # Optionally, parse ctx["screen_list"] in a Python step to check for "test_screen"
+    stdout_to_ctx: screen_list
+    depends_on: [create_screen_with_log]
+    # Lists available screen sessions. (Could add parsing/check step if needed.)
 
   - idx: 3
     name: launch_dash_in_screen
@@ -32,35 +33,40 @@ steps:
     args:
       - -s
       - test_screen
-      - "python scriptlets/python/hello_dash.py --port 8050"
-    # This sends the launch command to the screen session
+      - "python scriptlets/python/apps/hello_dash.py --port 8050 --ctx_key new_row"
+    depends_on: [check_and_attach_screen]
+    # Sends a command to run the Dash app inside screen 'test_screen'.
 
   - idx: 4
     name: start_shared_ctx
     type: python
-    module: scriptlets.python.ctx_init
+    module: scriptlets.python.steps.ctx_init
     function: run
     params:
       keys: ["new_row"]
-    # Initializes shared in-memory ctx
+    depends_on: [launch_dash_in_screen]
+    # Initializes an empty shared ctx["new_row"] for storing rows.
 
   - idx: 5
     name: update_ctx_background
     type: python
-    module: scriptlets.python.ctx_row_updater
+    module: scriptlets.python.steps.ctx_row_updater
     function: run
     params:
       key: "new_row"
       n: 3
       interval_sec: 1
-    # Continuously updates ctx["new_row"] with [timestamp, random1, random2, ..., randomn] in a background thread
+    depends_on: [start_shared_ctx]
+    background: true
+    # Continuously fills ctx["new_row"] with [timestamp, random1, random2, random3].
 
   - idx: 6
     name: monitor_and_plot
     type: python
-    module: scriptlets.python.hello_dash
+    module: scriptlets.python.apps.hello_dash
     function: run
     params:
       port: 8050
       ctx_key: "new_row"
-    # Modified hello_dash.py to plot ctx["new_row"] and print on ctx change
+    depends_on: [update_ctx_background]
+    # Launches a Dash app that monitors and plots ctx["new_row"].
