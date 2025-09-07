@@ -1,47 +1,40 @@
-"""Shared JSON-serializable context with history tracking.
+"""Shared Context management for scriptlets.
+
+Minimal implementation: holds JSON-serializable data and tracks history.
 """
 from __future__ import annotations
-import json, time, threading
-from typing import Any, Dict, List, Optional
-from orchestrator.scriptlets.python.core.logging import get_logger
+from typing import Any, Dict, List
+import json
+import time
 
-logger = get_logger(__name__)
 
 class Context:
-    def __init__(self):
-        self._lock = threading.RLock()
+    def __init__(self) -> None:
         self._data: Dict[str, Any] = {}
-        self._history: Dict[str, List[Dict[str, Any]]] = {}
+        self._history: List[Dict[str, Any]] = []
 
     def set(self, key: str, value: Any, who: str) -> None:
-        # ensure JSON serializable
+        # Basic JSON-serializable validation
         try:
             json.dumps(value)
         except TypeError as e:
-            raise TypeError(f"Value for {key} not JSON-serializable: {e}")
-        with self._lock:
-            old = self._data.get(key)
-            self._data[key] = value
-            entry = {
-                "ts": time.time(),
-                "who": who,
-                "old": old,
-                "new": value,
-            }
-            self._history.setdefault(key, []).append(entry)
-            logger.info(f"ctx.set key={key} who={who}")
+            raise TypeError(f"Value for key '{key}' not JSON-serializable: {e}")
+        old = self._data.get(key)
+        self._data[key] = value
+        self._history.append({
+            "ts": time.time(),
+            "key": key,
+            "who": who,
+            "old": old,
+            "new": value,
+        })
 
-    def get(self, key: str, default: Any=None) -> Any:
+    def get(self, key: str, default: Any = None) -> Any:
         return self._data.get(key, default)
-
-    def get_history(self, key: str) -> List[Dict[str, Any]]:
-        return self._history.get(key, [])
-
-    def last_modified(self, key: str) -> Optional[float]:
-        hist = self._history.get(key)
-        if not hist:
-            return None
-        return hist[-1]["ts"]
 
     def to_dict(self) -> Dict[str, Any]:
         return dict(self._data)
+
+    @property
+    def history(self) -> List[Dict[str, Any]]:
+        return list(self._history)

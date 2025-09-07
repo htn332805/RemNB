@@ -1,0 +1,15 @@
+test_meta:
+  test_id: "EX-001"
+  tester: "ExampleUser"
+  description: "Compute basic statistics from numbers CSV"
+steps:
+  - idx: 1
+    name: compute_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_numbers
+    function: ComputeNumbers
+    args:
+      src: "orchestrator/Data/numbers.csv"
+    success:
+      ctx_has_keys:
+        - "numbers.stats_v1"

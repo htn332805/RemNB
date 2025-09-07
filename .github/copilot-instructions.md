@@ -125,7 +125,7 @@ Redact sensitive info in error/debug context
 Environment & Compatibility
 Python 3.8+, bash, UTF-8, PEP 8
 
-Prefer standard libs/open-source packages
+Prefer standard libs/open-source packages while all data processing/computation must leveraged Numba, multithread technology and cpython for speed and optimized code
 
 Type hints required, no global state, prefer context or params, strive for idempotency
 
