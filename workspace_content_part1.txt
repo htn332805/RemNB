@@ -1,0 +1,635 @@
+#-----CONTENT FOR: tmux_layout.sh----------------------
+#!/bin/bash
+
+# --- Defaults ---
+windows=1
+panes=1
+declare -a window_names
+declare -a pane_names
+session_name="session_$(date +%s)"
+
+# --- Help Message ---
+usage() {
+    echo "Usage: $0 [options]"
+    echo "Options:"
+    echo "  -w  <number>       Number of windows (default: 1)"
+    echo "  -wn <names>        Comma-separated window names (optional)"
+    echo "  -p  <number>       Number of panes per window (default: 1)"
+    echo "  -pn <names>        Comma-separated pane names (optional)"
+    echo "  -sn <name>         Custom tmux session name"
+    echo "  -h                 Show this help message"
+    exit 1
+}
+
+# --- Parse arguments ---
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -w)
+            windows="$2"
+            shift 2
+            ;;
+        -wn)
+            IFS=',' read -ra window_names <<< "$2"
+            shift 2
+            ;;
+        -p)
+            panes="$2"
+            shift 2
+            ;;
+        -pn)
+            IFS=',' read -ra pane_names <<< "$2"
+            shift 2
+            ;;
+        -sn|--session-name)
+            session_name="$2"
+            shift 2
+            ;;
+        -h|--help)
+            usage
+            ;;
+        *)
+            echo "Unknown option: $1"
+            usage
+            ;;
+    esac
+done
+
+# --- Create logs directory ---
+mkdir -p Logs
+
+# --- Start tmux session (detached) ---
+first_win_name="${window_names[0]:-win0}"
+tmux new-session -d -s "$session_name" -n "$first_win_name"
+
+# --- Enable mouse and border styling ---
+tmux set-option -t "$session_name" -g mouse on
+tmux set-option -t "$session_name" -g pane-border-style 'fg=grey'
+tmux set-option -t "$session_name" -g pane-active-border-style 'fg=brightred'
+tmux set-option -t "$session_name" -g status-left "#[bold]#S"
+
+# --- Create windows and panes ---
+for ((w=0; w<windows; w++)); do
+    win_name="${window_names[w]:-win$w}"
+
+    if [[ $w -ne 0 ]]; then
+        tmux new-window -t "$session_name" -n "$win_name"
+    else
+        tmux rename-window -t "$session_name:$w" "$win_name"
+    fi
+
+    # Split panes horizontally
+    for ((p=1; p<panes; p++)); do
+        tmux split-window -t "$session_name:$w" -h
+        tmux select-layout -t "$session_name:$w" tiled
+    done
+
+    # Label and log each pane
+    pane_indexes=$(tmux list-panes -t "$session_name:$w" -F "#{pane_index}")
+    for p_index in $pane_indexes; do
+        pane_label="${pane_names[p_index]:-pane$p_index}"
+        full_title="${session_name}_${win_name}_${p_index}_${pane_label}"
+
+        # Set terminal title using ANSI escape sequence
+        tmux send-keys -t "$session_name:$w.$p_index" "printf '\\033]2;%s\\033\\\\' '$full_title'" C-m
+
+        # Start logging
+        log_file="Logs/${full_title}.log"
+        tmux pipe-pane -o -t "$session_name:$w.$p_index" "cat > \"$log_file\""
+    done
+done
+
+# --- Attach to the session ---
+tmux select-window -t "$session_name:0"
+tmux attach-session -t "$session_name"
+#-----THE END Of CONTENT FOR: tmux_layout.sh----------------------
+
+#-----CONTENT FOR: app.py----------------------
+import dash
+from dash import dcc, html
+from dash.dependencies import Input, Output
+import threading
+import time
+import os
+
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+# ---------- Shared in-memory context ----------
+shared_ctx = {
+    "lines": [],
+    "modified": False
+}
+
+FILE_TO_WATCH = "cdu.log"
+
+# ---------- File Watcher ----------
+class FileChangeHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if event.src_path.endswith(FILE_TO_WATCH):
+            try:
+                with open(FILE_TO_WATCH, 'r') as f:
+                    lines = f.readlines()
+                    if lines:
+                        last_line = lines[-1].strip()
+                        if last_line and last_line not in shared_ctx["lines"]:
+                            shared_ctx["lines"].append(last_line)
+                            shared_ctx["modified"] = True
+            except Exception as e:
+                print(f"Error reading file: {e}")
+
+def start_file_watcher():
+    observer = Observer()
+    handler = FileChangeHandler()
+    observer.schedule(handler, path='.', recursive=False)
+    observer.start()
+    print("File watcher started.")
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+
+# ---------- Dash App ----------
+app = dash.Dash(__name__)
+app.layout = html.Div([
+    html.H2("Live File Monitor"),
+    dcc.Interval(id='interval-component', interval=2000, n_intervals=0),
+    html.Pre(id='live-content', style={'whiteSpace': 'pre-wrap', 'border': '1px solid #ccc', 'padding': '10px'})
+])
+
+@app.callback(
+    Output('live-content', 'children'),
+    Input('interval-component', 'n_intervals')
+)
+def update_output(n):
+    if shared_ctx["modified"]:
+        shared_ctx["modified"] = False
+        return "\n".join(shared_ctx["lines"])
+    raise dash.exceptions.PreventUpdate
+
+# ---------- Run File Watcher in Background Thread ----------
+watcher_thread = threading.Thread(target=start_file_watcher, daemon=True)
+watcher_thread.start()
+
+# ---------- Run App ----------
+if __name__ == '__main__':
+    app.run(debug=True)
+#-----THE END Of CONTENT FOR: app.py----------------------
+
+#-----CONTENT FOR: simulate_cdu_poll.sh----------------------
+#!/bin/bash
+
+# Function to generate a random float with two decimal places
+rand_float() {
+    awk -v min="$1" -v max="$2" 'BEGIN { srand(); printf "%.2f", min + rand() * (max - min) }'
+}
+
+# Function to get current timestamp in specified format
+get_timestamp() {
+    date +"%m/%d/%Y %H:%M:%S"
+}
+
+# Simulate one sample of data
+simulate_sample() {
+    timestamp=$(get_timestamp)
+    supply_pressure=$(rand_float 10 20)     # e.g., PSI
+    return_pressure=$(rand_float 8 18)
+    supply_temp=$(rand_float 18 25)         # e.g., Celsius
+    return_temp=$(rand_float 20 28)
+
+    # Output as JSON
+    cat <<EOF
+{
+  "timestamp": "$timestamp",
+  "supply_pressure": $supply_pressure,
+  "return_pressure": $return_pressure,
+  "supply_temp": $supply_temp,
+  "return_temp": $return_temp
+}
+EOF
+}
+
+# Main loop for polling
+while true; do
+    simulate_sample
+    echo ""  # newline for readability
+    sleep $1  # adjust polling interval as needed
+done
+#-----THE END Of CONTENT FOR: simulate_cdu_poll.sh----------------------
+
+#-----CONTENT FOR: cdu.log----------------------
+timestamp,supply_pressure,return_pressure,supply_temp,return_temp
+"09/01/2025 14:56:56",16.39,14.39,22.48,25.12
+"09/01/2025 14:57:01",14.3,12.3,21.01,23.44
+"09/01/2025 14:57:06",12.23,10.23,19.56,21.78
+"09/01/2025 14:57:11",15.16,13.16,21.61,24.13
+"09/01/2025 14:57:16",13.13,11.13,20.19,22.51
+"09/01/2025 14:57:21",11.04,9.04,18.73,20.83
+"09/01/2025 14:57:26",18.91,16.91,24.24,27.13
+"09/01/2025 14:57:31",16.88,14.88,22.81,25.5
+"09/01/2025 14:57:36",19.8,17.8,24.86,27.84
+"09/01/2025 14:57:41",17.68,15.68,23.37,26.14
+"09/01/2025 14:57:46",10.57,8.57,18.4,20.46
+"09/01/2025 14:57:51",13.53,11.53,20.47,22.83
+"09/01/2025 14:57:56",16.44,14.44,22.51,25.15
+"09/01/2025 14:58:01",14.36,12.36,21.05,23.49
+"09/01/2025 14:58:06",17.3,15.3,23.11,25.84
+"09/01/2025 14:58:11",15.2,13.2,21.64,24.16
+"09/01/2025 14:58:16",18.11,16.11,23.68,26.49
+"09/01/2025 14:58:21",11.06,9.06,18.74,20.85
+"09/01/2025 14:58:26",13.95,11.95,20.77,23.16
+"09/01/2025 14:58:31",11.88,9.88,19.32,21.51
+"09/01/2025 14:58:36",19.79,17.79,24.86,27.83
+"09/01/2025 14:58:41",17.7,15.7,23.39,26.16
+"09/01/2025 14:58:46",10.62,8.62,18.44,20.5
+"09/01/2025 14:58:51",13.53,11.53,20.47,22.82
+"09/01/2025 14:58:56",11.47,9.47,19.03,21.18
+"09/01/2025 14:59:01",19.42,17.42,24.59,27.53
+"09/01/2025 14:59:06",12.29,10.29,19.61,21.83
+"09/01/2025 14:59:11",10.21,8.21,24.16,27.04
+"09/01/2025 14:59:17",11.73,9.73,19.21,21.39
+"09/01/2025 14:59:22",14.64,12.64,21.25,23.71
+"09/01/2025 14:59:27",12.58,10.58,19.81,22.06
+"09/01/2025 14:59:32",15.51,13.51,21.85,24.4
+"09/01/2025 14:59:37",13.38,11.38,20.37,22.7
+"09/01/2025 14:59:42",11.33,9.33,18.93,21.07
+"09/01/2025 14:59:47",14.29,12.29,21,23.43
+"09/01/2025 14:59:52",17.17,15.17,23.02,25.74
+"09/01/2025 14:59:57",15.07,13.07,21.55,24.06
+"09/01/2025 15:00:02",18.01,16.01,23.61,26.41
+"09/01/2025 15:00:07",15.94,13.94,22.16,24.75
+"09/01/2025 15:00:12",13.82,11.82,20.68,23.06
+"09/01/2025 15:00:17",16.78,14.78,22.74,25.42
+"09/01/2025 15:00:22",19.67,17.67,24.77,27.74
+"09/01/2025 15:00:27",17.57,15.57,23.3,26.05
+"09/01/2025 15:00:32",15.54,13.54,21.88,24.43
+"09/01/2025 15:00:37",18.45,16.45,23.91,26.76
+"09/01/2025 15:00:42",16.34,14.34,22.44,25.07
+"09/01/2025 15:00:47",19.28,17.28,24.5,27.43
+"09/01/2025 15:00:52",12.18,10.18,19.52,21.74
+"09/01/2025 15:00:57",15.11,13.11,21.58,24.09
+"09/01/2025 15:01:02",13.06,11.06,20.14,22.45
+"09/01/2025 15:01:07",10.92,8.92,18.65,20.74
+"09/01/2025 15:01:12",18.85,16.85,24.19,27.08
+"09/01/2025 15:01:17",11.76,9.76,19.23,21.41
+"09/01/2025 15:01:22",14.71,12.71,21.3,23.77
+"09/01/2025 15:01:27",17.64,15.64,23.35,26.11
+"09/01/2025 15:01:32",10.53,8.53,18.37,20.43
+"09/01/2025 15:01:37",18.44,16.44,23.9,26.75
+"09/01/2025 15:01:42",11.41,9.41,18.99,21.13
+"09/01/2025 15:01:47",14.33,12.33,21.03,23.47
+"09/01/2025 15:01:52",12.22,10.22,19.55,21.77
+"09/01/2025 15:01:57",10.18,8.18,18.12,20.14
+"09/01/2025 15:02:02",18.05,16.05,23.63,26.44
+"09/01/2025 15:02:07",15.96,13.96,22.17,24.77
+"09/01/2025 15:02:12",13.87,11.87,20.71,23.1
+"09/01/2025 15:02:17",16.84,14.84,22.79,25.47
+"09/01/2025 15:02:22",14.74,12.74,21.32,23.79
+"09/01/2025 15:02:27",12.68,9.25,18.87,21
+"09/01/2025 15:02:33",19.14,17.14,24.4,27.31
+"09/01/2025 15:02:38",17.06,15.06,22.94,25.65
+"09/01/2025 15:02:43",14.97,12.97,21.48,23.98
+"09/01/2025 15:02:48",12.89,10.89,20.03,22.32
+"09/01/2025 15:02:53",10.84,8.84,18.59,20.67
+"09/01/2025 15:02:58",13.72,11.72,20.61,22.98
+"09/01/2025 15:03:03",16.65,14.65,22.66,25.32
+"09/01/2025 15:03:08",19.62,17.62,24.73,27.69
+"09/01/2025 15:03:13",12.53,10.53,19.77,22.02
+"09/01/2025 15:03:18",15.42,13.42,21.79,24.33
+"09/01/2025 15:03:23",13.34,11.34,20.34,22.67
+"09/01/2025 15:03:28",11.27,9.27,18.89,21.02
+"09/01/2025 15:03:33",19.21,17.21,24.45,27.37
+"09/01/2025 15:03:38",17.09,15.09,22.96,25.67
+"09/01/2025 15:03:43",14.99,12.99,21.49,23.99
+"09/01/2025 15:03:48",12.89,10.89,20.03,22.32
+"09/01/2025 15:03:53",10.9,8.9,18.63,20.72
+"09/01/2025 15:03:58",13.82,11.82,20.68,23.06
+"09/01/2025 15:04:03",16.68,14.68,22.67,25.34
+"09/01/2025 15:04:08",19.64,17.64,24.74,27.71
+"09/01/2025 15:04:13",12.56,10.56,19.79,22.05
+"09/01/2025 15:04:18",10.46,8.46,18.32,20.37
+"09/01/2025 15:04:23",13.34,11.34,20.34,22.67
+"09/01/2025 15:04:28",16.31,14.31,22.41,25.05
+"09/01/2025 15:04:33",14.2,12.2,20.94,23.36
+"09/01/2025 15:04:38",17.11,15.11,22.98,25.69
+"09/01/2025 15:04:43",15.05,13.05,21.54,24.04
+"09/01/2025 15:04:48",17.94,15.94,23.56,26.35
+"09/01/2025 15:04:53",15.89,13.89,22.12,24.71
+"09/01/2025 15:04:58",18.82,16.82,24.18,27.06
+"09/01/2025 15:05:03",16.72,14.72,22.7,25.38
+"09/01/2025 15:05:08",19.64,17.64,24.75,27.71
+"09/01/2025 15:05:13",17.55,15.55,23.28,26.04
+"09/01/2025 15:05:18",15.48,13.48,21.84,24.38
+"09/01/2025 15:05:23",18.43,16.43,23.9,26.74
+"09/01/2025 15:05:28",16.3,14.3,22.41,25.04
+"09/01/2025 15:05:33",14.2,12.2,20.94,23.36
+"09/01/2025 15:05:38",17.19,15.19,23.03,25.75
+"09/01/2025 15:05:43",15.1,13.1,21.57,24.08
+"09/01/2025 15:05:49",11.58,9.58,19.11,21.26
+"09/01/2025 15:05:54",19.48,17.48,24.64,27.58
+"09/01/2025 15:05:59",17.45,15.45,23.22,25.96
+"09/01/2025 15:06:04",10.32,8.32,18.22,20.26
+"09/01/2025 15:06:09",18.24,16.24,23.77,26.6
+"09/01/2025 15:06:14",11.17,9.17,18.82,20.94
+"09/01/2025 15:06:19",19.06,17.06,24.34,27.25
+"09/01/2025 15:06:24",17.01,15.01,22.91,25.61
+"09/01/2025 15:06:29",19.97,17.97,24.98,27.97
+"09/01/2025 15:06:34",17.81,15.81,23.47,26.25
+"09/01/2025 15:06:39",15.77,13.77,22.04,24.62
+"09/01/2025 15:06:44",13.71,11.71,20.6,22.97
+"09/01/2025 15:06:49",16.59,14.59,22.62,25.27
+"09/01/2025 15:06:54",19.54,17.54,24.68,27.63
+"09/01/2025 15:06:59",12.41,10.41,19.69,21.93
+"09/01/2025 15:07:04",15.34,13.34,21.74,24.27
+"09/01/2025 15:07:09",13.28,11.28,20.3,22.62
+"09/01/2025 15:07:14",11.21,9.21,18.85,20.97
+"09/01/2025 15:07:19",14.08,12.08,20.86,23.27
+"09/01/2025 15:07:24",17.03,15.03,22.92,25.62
+"09/01/2025 15:07:29",19.96,17.96,24.97,27.97
+"09/01/2025 15:07:34",12.86,10.86,20,22.29
+"09/01/2025 15:07:39",10.79,8.79,18.56,20.63
+"09/01/2025 15:07:44",13.69,11.69,20.59,22.96
+"09/01/2025 15:07:49",11.65,9.65,19.16,21.32
+"09/01/2025 15:07:54",19.57,17.57,24.7,27.66
+"09/01/2025 15:07:59",12.5,10.5,19.75,22
+"09/01/2025 15:08:04",10.34,8.34,18.24,20.27
+"09/01/2025 15:08:09",13.34,11.34,20.34,22.67
+"09/01/2025 15:08:14",11.23,9.23,18.86,20.99
+"09/01/2025 15:08:19",14.16,12.16,20.91,23.33
+"09/01/2025 15:08:24",17.07,15.07,22.95,25.66
+"09/01/2025 15:08:29",14.97,12.97,21.48,23.98
+"09/01/2025 15:08:34",17.92,15.92,23.54,26.33
+"09/01/2025 15:08:39",10.84,8.84,18.59,20.67
+"09/01/2025 15:08:44",13.76,11.76,20.63,23
+"09/01/2025 15:08:49",16.64,14.64,22.65,25.31
+"09/01/2025 15:08:54",19.58,17.58,24.7,27.66
+#-----THE END Of CONTENT FOR: cdu.log----------------------
+
+#-----CONTENT FOR: json_to_csv.sh----------------------
+#!/bin/bash
+
+first_line=true
+keys=()
+
+# Buffer for multi-line JSON objects
+json_block=""
+
+while IFS= read -r line || [ -n "$line" ]; do
+    # Accumulate lines until we see a closing brace (assumes flat JSON)
+    json_block+="$line"
+    
+    # Check if it's a complete JSON object (naively ends with a closing brace)
+    if [[ "$line" == *"}" ]]; then
+
+        if $first_line; then
+            # Extract and save field names
+            mapfile -t keys < <(echo "$json_block" | jq -r 'keys_unsorted[]')
+            IFS=,; echo "${keys[*]}"
+            first_line=false
+        fi
+
+        # Construct jq filter dynamically
+        jq_filter="["
+        for key in "${keys[@]}"; do
+            jq_filter+=".${key},"
+        done
+        jq_filter="${jq_filter%,}] | @csv"
+
+        # Output CSV row
+        echo "$json_block" | jq -r "$jq_filter"
+
+        # Reset buffer
+        json_block=""
+    fi
+done
+#-----THE END Of CONTENT FOR: json_to_csv.sh----------------------
+
+#-----CONTENT FOR: workspace_content_part1.txt----------------------
+#-----CONTENT FOR: tmux_layout.sh----------------------
+#!/bin/bash
+
+# --- Defaults ---
+windows=1
+panes=1
+declare -a window_names
+declare -a pane_names
+session_name="session_$(date +%s)"
+
+# --- Help Message ---
+usage() {
+    echo "Usage: $0 [options]"
+    echo "Options:"
+    echo "  -w  <number>       Number of windows (default: 1)"
+    echo "  -wn <names>        Comma-separated window names (optional)"
+    echo "  -p  <number>       Number of panes per window (default: 1)"
+    echo "  -pn <names>        Comma-separated pane names (optional)"
+    echo "  -sn <name>         Custom tmux session name"
+    echo "  -h                 Show this help message"
+    exit 1
+}
+
+# --- Parse arguments ---
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -w)
+            windows="$2"
+            shift 2
+            ;;
+        -wn)
+            IFS=',' read -ra window_names <<< "$2"
+            shift 2
+            ;;
+        -p)
+            panes="$2"
+            shift 2
+            ;;
+        -pn)
+            IFS=',' read -ra pane_names <<< "$2"
+            shift 2
+            ;;
+        -sn|--session-name)
+            session_name="$2"
+            shift 2
+            ;;
+        -h|--help)
+            usage
+            ;;
+        *)
+            echo "Unknown option: $1"
+            usage
+            ;;
+    esac
+done
+
+# --- Create logs directory ---
+mkdir -p Logs
+
+# --- Start tmux session (detached) ---
+first_win_name="${window_names[0]:-win0}"
+tmux new-session -d -s "$session_name" -n "$first_win_name"
+
+# --- Enable mouse and border styling ---
+tmux set-option -t "$session_name" -g mouse on
+tmux set-option -t "$session_name" -g pane-border-style 'fg=grey'
+tmux set-option -t "$session_name" -g pane-active-border-style 'fg=brightred'
+tmux set-option -t "$session_name" -g status-left "#[bold]#S"
+
+# --- Create windows and panes ---
+for ((w=0; w<windows; w++)); do
+    win_name="${window_names[w]:-win$w}"
+
+    if [[ $w -ne 0 ]]; then
+        tmux new-window -t "$session_name" -n "$win_name"
+    else
+        tmux rename-window -t "$session_name:$w" "$win_name"
+    fi
+
+    # Split panes horizontally
+    for ((p=1; p<panes; p++)); do
+        tmux split-window -t "$session_name:$w" -h
+        tmux select-layout -t "$session_name:$w" tiled
+    done
+
+    # Label and log each pane
+    pane_indexes=$(tmux list-panes -t "$session_name:$w" -F "#{pane_index}")
+    for p_index in $pane_indexes; do
+        pane_label="${pane_names[p_index]:-pane$p_index}"
+        full_title="${session_name}_${win_name}_${p_index}_${pane_label}"
+
+        # Set terminal title using ANSI escape sequence
+        tmux send-keys -t "$session_name:$w.$p_index" "printf '\\033]2;%s\\033\\\\' '$full_title'" C-m
+
+        # Start logging
+        log_file="Logs/${full_title}.log"
+        tmux pipe-pane -o -t "$session_name:$w.$p_index" "cat > \"$log_file\""
+    done
+done
+
+# --- Attach to the session ---
+tmux select-window -t "$session_name:0"
+tmux attach-session -t "$session_name"
+#-----THE END Of CONTENT FOR: tmux_layout.sh----------------------
+
+#-----CONTENT FOR: app.py----------------------
+import dash
+from dash import dcc, html
+from dash.dependencies import Input, Output
+import threading
+import time
+import os
+
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+# ---------- Shared in-memory context ----------
+shared_ctx = {
+    "lines": [],
+    "modified": False
+}
+
+FILE_TO_WATCH = "cdu.log"
+
+# ---------- File Watcher ----------
+class FileChangeHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        if event.src_path.endswith(FILE_TO_WATCH):
+            try:
+                with open(FILE_TO_WATCH, 'r') as f:
+                    lines = f.readlines()
+                    if lines:
+                        last_line = lines[-1].strip()
+                        if last_line and last_line not in shared_ctx["lines"]:
+                            shared_ctx["lines"].append(last_line)
+                            shared_ctx["modified"] = True
+            except Exception as e:
+                print(f"Error reading file: {e}")
+
+def start_file_watcher():
+    observer = Observer()
+    handler = FileChangeHandler()
+    observer.schedule(handler, path='.', recursive=False)
+    observer.start()
+    print("File watcher started.")
+
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+
+# ---------- Dash App ----------
+app = dash.Dash(__name__)
+app.layout = html.Div([
+    html.H2("Live File Monitor"),
+    dcc.Interval(id='interval-component', interval=2000, n_intervals=0),
+    html.Pre(id='live-content', style={'whiteSpace': 'pre-wrap', 'border': '1px solid #ccc', 'padding': '10px'})
+])
+
+@app.callback(
+    Output('live-content', 'children'),
+    Input('interval-component', 'n_intervals')
+)
+def update_output(n):
+    if shared_ctx["modified"]:
+        shared_ctx["modified"] = False
+        return "\n".join(shared_ctx["lines"])
+    raise dash.exceptions.PreventUpdate
+
+# ---------- Run File Watcher in Background Thread ----------
+watcher_thread = threading.Thread(target=start_file_watcher, daemon=True)
+watcher_thread.start()
+
+# ---------- Run App ----------
+if __name__ == '__main__':
+    app.run(debug=True)
+#-----THE END Of CONTENT FOR: app.py----------------------
+
+#-----CONTENT FOR: simulate_cdu_poll.sh----------------------
+#!/bin/bash
+
+# Function to generate a random float with two decimal places
+rand_float() {
+    awk -v min="$1" -v max="$2" 'BEGIN { srand(); printf "%.2f", min + rand() * (max - min) }'
+}
+
+# Function to get current timestamp in specified format
+get_timestamp() {
+    date +"%m/%d/%Y %H:%M:%S"
+}
+
+# Simulate one sample of data
+simulate_sample() {
+    timestamp=$(get_timestamp)
+    supply_pressure=$(rand_float 10 20)     # e.g., PSI
+    return_pressure=$(rand_float 8 18)
+    supply_temp=$(rand_float 18 25)         # e.g., Celsius
+    return_temp=$(rand_float 20 28)
+
+    # Output as JSON
+    cat <<EOF
+{
+  "timestamp": "$timestamp",
+  "supply_pressure": $supply_pressure,
+  "return_pressure": $return_pressure,
+  "supply_temp": $supply_temp,
+  "return_temp": $return_temp
+}
+EOF
+}
+
+# Main loop for polling
+while true; do
+    simulate_sample
+    echo ""  # newline for readability
+    sleep $1  # adjust polling interval as needed
+done
+#-----THE END Of CONTENT FOR: simulate_cdu_poll.sh----------------------
+
+#-----THE END Of CONTENT FOR: workspace_content_part1.txt----------------------
+
+#-----CONTENT FOR: README.md----------------------
+#-----THE END Of CONTENT FOR: README.md----------------------
+
