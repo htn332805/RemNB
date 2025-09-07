@@ -1,0 +1,11 @@
+test_meta: { test_id: "M01", description: "Foundations single step" }
+steps:
+  - idx: 1
+    name: load_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.load_numbers
+    function: LoadNumbers
+    args:
+      src: orchestrator/Data/numbers.csv
+    success:
+      ctx_has_keys: [numbers.raw_v1]
