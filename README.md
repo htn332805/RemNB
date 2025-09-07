@@ -1,420 +1,412 @@
-# Automation Framework (Minimal Example Edition)
+# Automation Orchestrator Framework (Workspace Documentation)
 
-A lightweight, extensible automation/testing framework scaffold. It demonstrates how to build and run modular "scriptlets" (small, single‑purpose steps) orchestrated by YAML recipes, sharing state through a JSON‑serializable context object and validated by tests.
-
-> This repository currently contains a minimal vertical slice (Context + Runner + 1 Python scriptlet + 1 recipe + 1 test). It is intentionally lean so you can extend it safely.
-
----
-## 1. Brief Description
-**Purpose:** Execute ordered (later: parallel) steps defined in a YAML recipe. Each step is a self-contained scriptlet that:
-- Accepts parameters (JSON) 
-- Performs a focused task
-- Emits machine-readable JSON to stdout
-- Writes structured results into a shared Context
-
-**Core Flow:**
-1. You write a scriptlet (e.g. compute statistics on a CSV)
-2. You reference it in a recipe YAML
-3. The runner loads the recipe and executes each step in order
-4. The `Context` captures outputs (versioned keys) for later steps/tests
-
-**Inputs:** YAML recipe + referenced data files + optional CLI params.
-**Outputs:** Updated in-memory context + scriptlet stdout JSON + potential artifacts under `orchestrator/Data/` (future: Logs, Reports, etc.).
-
-**Key Dependencies:**
-- Python 3.11+
-- PyYAML (recipe parsing)
-- pytest (testing)
+Comprehensive, example‑rich documentation for this workspace (excluding `Purdue/`).  
+Focus: reproducible test automation via **recipes → runner → scriptlets → context → tests**.
 
 ---
-## 2. Directory Layout (Current State)
+
+## 1. High‑Level Overview
+
+This framework loads a YAML *recipe*, executes ordered *scriptlet* steps (Python now, shell future), shares state through a JSON‑safe [`orchestrator.context`](orchestrator/context.py) object, and provides test coverage via `pytest`.
+
+Core components:
+- [`orchestrator/context.py`](orchestrator/context.py) – Context store with history & JSON safety.
+- [`orchestrator/runner.py`](orchestrator/runner.py) – Sequential recipe executor (extensible).
+- [`orchestrator/scriptlets/python/core/base.py`](orchestrator/scriptlets/python/core/base.py) – `BaseScriptlet` contract.
+- [`orchestrator/scriptlets/python/core/logging_util.py`](orchestrator/scriptlets/python/core/logging_util.py) – Logger factory.
+- [`orchestrator/scriptlets/python/core/resource.py`](orchestrator/scriptlets/python/core/resource.py) – `@track_resources` timing decorator.
+- [`orchestrator/scriptlets/python/steps/compute_numbers.py`](orchestrator/scriptlets/python/steps/compute_numbers.py) – Reference step.
+- [`orchestrator/recipes/example_numbers.yaml`](orchestrator/recipes/example_numbers.yaml) – Example recipe.
+- [`tests/test_example_numbers.py`](tests/test_example_numbers.py) – Integration test.
+
+---
+
+## 2. Directory Map (Concise)
+
 ```
 orchestrator/
-  context.py                 # Shared state container
-  runner.py                  # Minimal recipe executor
-  Data/
-    numbers.csv              # Example input data
+  context.py
+  runner.py
   recipes/
-    example_numbers.yaml     # Recipe invoking the compute_numbers step
+    example_numbers.yaml
   scriptlets/
     python/
       core/
-        base.py              # BaseScriptlet abstract class
-        logging_util.py      # Simple stderr logger
-        resource.py          # Timing decorator
+        base.py
+        logging_util.py
+        resource.py
       steps/
-        compute_numbers.py   # Example scriptlet (statistics from CSV)
-
+        compute_numbers.py
 tests/
-  test_example_numbers.py    # Demonstrates running the recipe & asserting context
-```
-
-Future (not yet implemented here) per architecture guidelines: `Logs/`, `templates/`, `shell/`, `apps/`, richer success criteria, dependency graphs, parallelism, resource tracking, error code taxonomy.
-
----
-## 3. Core Components & Data Flow
-| Component | Responsibility | Input | Output |
-|-----------|----------------|-------|--------|
-| Context (`context.py`) | Store JSON-serializable key/value pairs + change history | Key, value, actor | In-memory state + history list |
-| Scriptlet (`compute_numbers.py`) | Read CSV, compute stats, set context key | Params `{src}` + file | Context key `numbers.stats_v1` + JSON stdout |
-| Runner (`runner.py`) | Parse recipe, dynamically load & run scriptlets | `--recipe path` | Final context + stdout JSON summary |
-| Recipe (`example_numbers.yaml`) | Declarative definition of steps | YAML | Execution order + validation cues |
-| Test (`test_example_numbers.py`) | Assert expected context state | Recipe execution | Pass/fail report |
-
-**Data Flow Example:**
-```
-CSV (numbers.csv) --> compute_numbers --> stats dict --> ctx['numbers.stats_v1'] --> test asserts
+  conftest.py
+  test_example_numbers.py
 ```
 
 ---
-## 4. Detailed Code Explanations (Line-by-Line, Beginner Friendly)
-### 4.1 `orchestrator/context.py`
-```python
-class Context:
-    def __init__(self) -> None:        # When we create a Context, we set up empty storage structures
-        self._data: Dict[str, Any] = {} # Holds all key/value pairs set by scriptlets
-        self._history: List[Dict[str, Any]] = [] # Keeps a chronological list of every change
 
-    def set(self, key: str, value: Any, who: str) -> None:
-        try:
-            json.dumps(value)          # We try to serialize the value to ensure it's JSON-safe
-        except TypeError as e:
-            raise TypeError(...)       # If not serializable, we fail early with a clear message
-        old = self._data.get(key)      # Capture the previous value (may be None)
-        self._data[key] = value        # Store/overwrite the new value
-        self._history.append({         # Append a record capturing what changed and by whom
-            'ts': time.time(),
-            'key': key,
-            'who': who,
-            'old': old,
-            'new': value,
-        })
+## 3. Installation
 
-    def get(self, key: str, default: Any = None) -> Any:
-        return self._data.get(key, default)  # Safely fetch a value or a default if missing
-
-    def to_dict(self) -> Dict[str, Any]:
-        return dict(self._data)              # Return a shallow copy so callers can't mutate internal dict accidentally
-
-    @property
-    def history(self) -> List[Dict[str, Any]]:
-        return list(self._history)           # Provide a copy of history records
-```
-
-### 4.2 `orchestrator/runner.py`
-```python
-import yaml                         # External library used to parse YAML recipe files
-from orchestrator.context import Context
-
-def _run_python_step(ctx, step):    # Helper to execute one python-type step from a recipe
-    module_name = step['module']    # Module path string from YAML
-    class_name = step['function']   # Class name implementing the step
-    mod = importlib.import_module(module_name) # Dynamically load the module
-    cls = getattr(mod, class_name)  # Get the class object by name
-    inst = cls()                    # Instantiate the scriptlet
-    params = step.get('args', {})   # Retrieve params (empty dict if none)
-    code = inst.run(ctx, params)    # Execute the step, passing shared context & parameters
-    if code != 0:                   # Non-zero exit signals failure
-        raise RuntimeError(...)
-
-def run_recipe(recipe_path: str) -> Context:
-    spec = yaml.safe_load(open(recipe_path)) # Load the YAML recipe into a Python dict
-    steps = spec.get('steps', [])            # Extract the ordered list of steps
-    ctx = Context()                          # New context per invocation
-    for step in steps:                       # Iterate steps sequentially
-        if step.get('type') == 'python':     # Currently only python steps supported
-            _run_python_step(ctx, step)
-        else:
-            raise NotImplementedError(...)
-    return ctx                               # Return populated context for caller/tests
-```
-
-### 4.3 `compute_numbers.py`
-```python
-# High-level: Reads a CSV with a single column 'value', computes count/mean/min/max.
-class ComputeNumbers(BaseScriptlet):
-    def validate(self, ctx, params):         # Ensure required input exists and is well-typed
-        if 'src' not in params or not isinstance(params['src'], str):
-            raise ValueError("'src' (str) required")
-
-    @track_resources                      # Decorator: records how long run() takes
-    def run(self, ctx, params) -> int:
-        self.validate(ctx, params)        # Always validate first
-        src = params['src']               # Path to the CSV file
-        values = []                       # We'll accumulate numeric values here
-        with open(src, 'r', newline='') as f:
-            reader = csv.DictReader(f)    # Parses CSV rows into dicts keyed by column name(s)
-            fieldnames = reader.fieldnames or []
-            if 'value' not in fieldnames: # Enforce contract: must have 'value' column
-                raise ValueError("CSV must have 'value' column")
-            for row in reader:            # Loop through each row
-                if row['value'].strip():  # Skip blank lines or empty fields
-                    values.append(float(row['value'])) # Convert to float and store
-        if not values:                    # Defensive: ensure we got at least one number
-            raise ValueError('No numeric values found')
-        stats = {                         # Build a dictionary of simple statistics
-            'count': len(values),
-            'mean': float(statistics.fmean(values)),
-            'min': float(min(values)),
-            'max': float(max(values)),
-        }
-        json.dumps(stats)                 # Validates JSON serializability
-        ctx.set('numbers.stats_v1', stats, who='compute_numbers') # Commit result to context
-        print(json.dumps({'status': 'ok', 'outputs': ['numbers.stats_v1']})) # Machine-readable stdout
-        return 0                          # 0 signals success
-```
-
----
-## 5. Implementation Example (End-to-End)
-### 5.1 Prepare Environment
 ```bash
 python3 -m venv .venv
 . .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 5.2 Run Scriptlet Directly
-```bash
-python orchestrator/scriptlets/python/steps/compute_numbers.py --params '{"src":"orchestrator/Data/numbers.csv"}'
-```
-Expected stdout (example):
-```json
-{"status":"ok","outputs":["numbers.stats_v1"]}
-```
+---
 
-### 5.3 Run via Recipe
+## 4. Quick Starts
+
+### 4.1 Run Full Recipe (CLI)
 ```bash
 python orchestrator/runner.py --recipe orchestrator/recipes/example_numbers.yaml
 ```
-Sample stdout:
+Sample output:
 ```json
-{"status": "ok", "ctx_keys": ["numbers.stats_v1"]}
+{"status":"ok","ctx_keys":["numbers.stats_v1"]}
 ```
 
-### 5.4 Validate with Tests
-```bash
-pytest -q
-```
-Output should show: `1 passed`.
-
-### 5.5 Inspect Context (Interactive)
-```bash
-python - <<'PY'
-from orchestrator.runner import run_recipe
-ctx = run_recipe('orchestrator/recipes/example_numbers.yaml')
-print('Stats:', ctx.get('numbers.stats_v1'))
-print('History:', ctx.history)
-PY
-```
-
----
-## 6. Edge Cases & Handling
-| Scenario | Behavior |
-|----------|----------|
-| Missing file | FileNotFoundError surfaces (not yet custom-wrapped) |
-| Missing 'value' column | Raises ValueError with clear message |
-| Non-numeric row entries | Throws ValueError/float conversion error (future: sanitize) |
-| Empty CSV (besides header) | "No numeric values found" error |
-| Duplicate key sets | History records each overwrite (latest value accessible) |
-
----
-## 7. Best Practices & Guidelines
-- Version keys (e.g., `numbers.stats_v1`, later `numbers.stats_v2`) to avoid breaking downstream consumers.
-- Keep scriptlets single responsibility: one clear input/output contract.
-- Always validate params early before heavy work.
-- Only write machine-readable JSON to stdout; human logs to stderr (logger).
-- Ensure context values are JSON-serializable (convert datetimes → ISO strings, etc.).
-- Add tests for every new scriptlet; integration tests for multi-step recipes.
-
-### Common Pitfalls
-| Pitfall | Avoid By |
-|---------|----------|
-| Storing complex objects in context | Serialize or write to file + store path |
-| Silent failures | Always return non-zero on errors & emit structured error JSON |
-| Overloaded scriptlets | Split into smaller steps (normalize → compute → aggregate) |
-| Unversioned breaking changes | Introduce new `_v2` key or new scriptlet module |
-
-### Optimization Opportunities (Future)
-- Caching intermediate results (hash inputs → reuse)
-- Parallel step execution (Thread/Process pools) where dependencies allow
-- Structured resource metrics (CPU %, memory deltas) instead of simple timing
-- Retry wrappers for transient I/O failures
-
-### Alternative Approaches
-| Approach | Trade-off |
-|----------|----------|
-| Monolithic pipeline script | Simpler initial code, harder to extend/test |
-| Orchestrator + separate microservices | Scales horizontally, higher complexity |
-| Makefile / shell-only | Good for trivial automation, lacks structured context |
-
----
-## 8. Adding a New Scriptlet (Example Walkthrough)
-### Goal: Normalize numeric values (0–1 scaling) before computing stats.
-
-1. Create `orchestrator/scriptlets/python/steps/normalize_numbers.py`:
+### 4.2 Programmatic Use
 ```python
-"""Normalize values in a CSV and write a new CSV."""
-from __future__ import annotations
-import csv, json, argparse, sys
-from pathlib import Path
-from orchestrator.context import Context
+from orchestrator.runner import run_recipe
+ctx = run_recipe("orchestrator/recipes/example_numbers.yaml")
+print(ctx.get("numbers.stats_v1"))
+```
+
+### 4.3 Run Single Scriptlet Standalone
+```bash
+python orchestrator/scriptlets/python/steps/compute_numbers.py --params '{"src":"orchestrator/Data/numbers.csv"}'
+```
+
+### 4.4 (Planned) Filtered Execution
+Conceptual flags (future):
+```bash
+python orchestrator/runner.py --recipe r.yaml --only compute_numbers
+python orchestrator/runner.py --recipe r.yaml --skip preprocess_csv
+python orchestrator/runner.py --recipe r.yaml --resume-from compute_numbers
+```
+
+---
+
+## 5. The Context Object
+
+[`orchestrator.context`](orchestrator/context.py) guarantees:
+- JSON‑serializable values only (primitives, lists, dicts).
+- Namespaced dotted keys to avoid collisions (`numbers.stats_v1`).
+- Traceability via `ctx.set(key, value, who="scriptlet_name")`.
+
+Do NOT store: open handles, DataFrames, NumPy arrays (convert first), datetimes (serialize ISO string).
+
+---
+
+## 6. Scriptlet Anatomy
+
+All Python scriptlets:
+1 file → 1 class (CamelCase) → extends `BaseScriptlet` (see [`orchestrator/scriptlets/python/core/base.py`](orchestrator/scriptlets/python/core/base.py)).
+Implements:
+- `validate(ctx, params)` – fast failure.
+- `run(ctx, params)` – must print exactly one JSON line to stdout.
+
+Reference: [`orchestrator/scriptlets/python/steps/compute_numbers.py`](orchestrator/scriptlets/python/steps/compute_numbers.py)
+
+Success JSON envelope:
+```json
+{"status":"ok","outputs":["numbers.stats_v1"]}
+```
+Error envelope pattern:
+```json
+{"status":"error","reason":"<msg>","exit_code":1,"step":"compute_numbers"}
+```
+
+---
+
+## 7. Creating a New Python Scriptlet (Step‑By‑Step)
+
+1. Copy template pattern from existing step.
+2. Place file under `orchestrator/scriptlets/python/steps/<snake_name>.py`.
+3. Class name must be CamelCase version.
+4. Use `@track_resources` from [`orchestrator/scriptlets/python/core/resource.py`](orchestrator/scriptlets/python/core/resource.py) for heavier runs.
+5. Add validations; ensure outputs use `ctx.set(..., who="<scriptlet_name>")`.
+6. Print success or error JSON to stdout; send human logs to stderr via `get_logger`.
+
+Example skeleton:
+
+```python
 from orchestrator.scriptlets.python.core.base import BaseScriptlet
 from orchestrator.scriptlets.python.core.logging_util import get_logger
+from orchestrator.scriptlets.python.core.resource import track_resources
+from orchestrator.context import Context
+import json, sys, argparse, statistics, pathlib
 
 logger = get_logger(__name__)
 
-class NormalizeNumbers(BaseScriptlet):
+class ComputeMedian(BaseScriptlet):
     def validate(self, ctx, params):
-        if 'src' not in params or 'out' not in params:
-            raise ValueError("'src' and 'out' required")
+        if not isinstance(params, dict): raise ValueError("params must be dict")
+        if "src" not in params: raise ValueError("missing src")
+        if not pathlib.Path(params["src"]).is_file(): raise ValueError("file not found")
 
-    def run(self, ctx, params) -> int:
+    @track_resources
+    def run(self, ctx, params):
         try:
             self.validate(ctx, params)
-            src, out = params['src'], params['out']
-            values = []
-            with open(src) as f:
-                r = csv.DictReader(f)
-                if 'value' not in (r.fieldnames or []):
-                    raise ValueError("need 'value' column")
-                for row in r:
-                    if row['value'].strip():
-                        values.append(float(row['value']))
-            if not values:
-                raise ValueError('no values to normalize')
-            lo, hi = min(values), max(values)
-            span = hi - lo or 1.0
-            norm_rows = [(v - lo)/span for v in values]
-            # Write new CSV
-            Path(out).parent.mkdir(parents=True, exist_ok=True)
-            with open(out, 'w', newline='') as f:
-                w = csv.writer(f)
-                w.writerow(['value'])
-                for v in norm_rows:
-                    w.writerow([v])
-            ctx.set('numbers.normalized_path_v1', out, who='normalize_numbers')
-            print(json.dumps({"status":"ok","outputs":["numbers.normalized_path_v1"]}))
+            nums = [float(line.strip()) for line in open(params["src"]) if line.strip()]
+            med = statistics.median(nums)
+            result = {"median": med, "count": len(nums)}
+            ctx.set("numbers.median_v1", result, who="compute_median")
+            print(json.dumps({"status":"ok","outputs":["numbers.median_v1"]}))
             return 0
-        except Exception as e:  # minimal error handling
-            print(json.dumps({"status":"error","reason":str(e),"exit_code":1,"step":"normalize_numbers"}))
-            logger.exception('normalize failed')
+        except Exception as e:
+            print(json.dumps({"status":"error","reason":str(e),"exit_code":1,"step":"compute_median"}))
             return 1
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument('--params', required=True)
-    params = json.loads(ap.parse_args().params)
-    ctx = Context()
-    sys.exit(NormalizeNumbers().run(ctx, params))
+    ap.add_argument("--params", required=True)
+    p = json.loads(ap.parse_args().params)
+    sys.exit(ComputeMedian().run(Context(), p))
 ```
-2. Add a recipe:
+
+---
+
+## 8. Adding the New Step to a Recipe
+
+Edit (or create) recipe YAML under `orchestrator/recipes/`:
+
 ```yaml
+test_meta:
+  test_id: NUM-002
+  tester: user
+  description: Compute median
 steps:
   - idx: 1
-    name: normalize_numbers
+    name: compute_median
     type: python
-    module: orchestrator.scriptlets.python.steps.normalize_numbers
-    function: NormalizeNumbers
+    module: orchestrator.scriptlets.python.steps.compute_median
+    function: ComputeMedian
     args:
       src: orchestrator/Data/numbers.csv
-      out: orchestrator/Data/numbers_normalized.csv
     success:
       ctx_has_keys:
-        - numbers.normalized_path_v1
-  - idx: 2
+        - numbers.median_v1
+```
+
+Run:
+```bash
+python orchestrator/runner.py --recipe orchestrator/recipes/median.yaml
+```
+
+---
+
+## 9. Recipe Specification (Current)
+
+Minimal schema (see [`orchestrator/recipes/example_numbers.yaml`](orchestrator/recipes/example_numbers.yaml)):
+
+```yaml
+test_meta:
+  test_id: ID-123
+  tester: user
+  description: Demo
+steps:
+  - idx: 1
     name: compute_numbers
     type: python
     module: orchestrator.scriptlets.python.steps.compute_numbers
     function: ComputeNumbers
     args:
-      src: orchestrator/Data/numbers_normalized.csv
-    depends_on: [normalize_numbers]
+      src: orchestrator/Data/numbers.csv
     success:
       ctx_has_keys:
         - numbers.stats_v1
 ```
-3. Run it:
-```bash
-python orchestrator/runner.py --recipe orchestrator/recipes/normalize_and_compute.yaml
-```
+
+Planned extensions (roadmap):
+- `depends_on: [...]`
+- `retry: {max: 3, delay_sec: 2}`
+- `timeout: 30`
+- `parallel: true`
+- `cache_key: "<hash expression>"`
 
 ---
-## 9. Testing Patterns
-Basic test structure (`pytest`):
+
+## 10. Logging & Resource Tracking
+
+Use `get_logger` from [`orchestrator/scriptlets/python/core/logging_util.py`](orchestrator/scriptlets/python/core/logging_util.py).  
+Decorate `run` with `@track_resources` for a `[resource] duration_sec=<x>` line to stderr (from [`resource.py`](orchestrator/scriptlets/python/core/resource.py)).
+
+---
+
+## 11. Error Handling Pattern
+
+Inside `run`:
+1. Validate early.
+2. Wrap operational logic in `try/except`.
+3. Emit structured JSON (never stack traces to stdout).
+4. Return non‑zero exit code on failure to enforce fail‑fast behavior in [`orchestrator.runner`](orchestrator/runner.py).
+
+---
+
+## 12. Testing
+
+- Integration: [`tests/test_example_numbers.py`](tests/test_example_numbers.py) runs full recipe.
+- Add a negative test per pattern:
+
 ```python
-def test_stats_mean():
-    from orchestrator.runner import run_recipe
-    ctx = run_recipe('orchestrator/recipes/example_numbers.yaml')
-    stats = ctx.get('numbers.stats_v1')
-    assert abs(stats['mean'] - 3.0) < 1e-9
+import pytest
+from orchestrator.scriptlets.python.steps.compute_numbers import ComputeNumbers
+from orchestrator.context import Context
+
+def test_compute_numbers_missing_file(tmp_path):
+    ctx = Context()
+    code = ComputeNumbers().run(ctx, {"src": str(tmp_path/"missing.csv")})
+    assert code == 1
+    assert ctx.get("numbers.stats_v1") is None
 ```
-Add edge tests (missing file, invalid CSV) by creating temporary files and asserting raised exceptions or error JSON.
 
----
-## 10. Error Handling (Current vs Target)
-| Aspect | Current | Target (Future) |
-|--------|---------|-----------------|
-| JSON error schema | Basic per scriptlet | Standardized (status, reason, details, exit_code, ts) |
-| Exit codes | 0 success, 1 generic error | Expanded taxonomy (dependency unsatisfied, validation error, etc.) |
-| Logging | Stderr prints + simple logger | Structured log files per step under `Logs/` |
-
----
-## 11. Extensibility Roadmap
-1. Add shell scriptlet support (mirroring Python interface)  
-2. Implement success validation (files exist, ctx keys present, custom expressions)  
-3. Add parallel execution with dependency graph resolution  
-4. Introduce artifact management (hashing, dedupe)  
-5. Integrate resource metrics (RSS, CPU %) and thresholds  
-6. Reporting exporters (Excel, DOCX, HTML)  
-7. Dash live monitoring app (consumes context snapshots)  
-8. Versioned migration helpers (e.g. unify statistics schemas)  
-
----
-## 12. Troubleshooting
-| Symptom | Likely Cause | Fix |
-|---------|--------------|-----|
-| `ModuleNotFoundError: orchestrator` | Not on PYTHONPATH | Run from repo root / ensure tests add root to path |
-| `CSV must have 'value' column` | Wrong file schema | Add header row `value` |
-| Mean not as expected | Non-numeric lines | Clean input or add validation scriptlet |
-| Test can't find recipe | Wrong relative path | Use path relative to repo root |
-
----
-## 13. FAQ
-**Q: How do I prevent breaking changes?**  
-A: Introduce new keys (`*_v2`) or duplicate scriptlet with version suffix.
-
-**Q: Can I store a pandas DataFrame in context?**  
-A: No—serialize (to CSV) and store the path.
-
-**Q: How to add timing/metrics?**  
-A: Wrap logic with `@track_resources`; extend decorator to capture memory.
-
----
-## 14. Glossary
-- Scriptlet: A small, atomic executable unit of work.
-- Recipe: Declarative sequence of scriptlets.
-- Context: In-memory, JSON-serializable state store with history.
-- Artifact: (Future) A persisted file produced by a step.
-
----
-## 15. Quick Reference Commands
+Run:
 ```bash
-# Run example recipe
-python orchestrator/runner.py --recipe orchestrator/recipes/example_numbers.yaml
-
-# Directly run scriptlet
-python orchestrator/scriptlets/python/steps/compute_numbers.py --params '{"src":"orchestrator/Data/numbers.csv"}'
-
-# Run tests
 pytest -q
 ```
 
 ---
-## 16. License & Contribution
-(Adjust this section as needed.) Contributions: follow versioning & non-breaking principles; add tests for every new feature.
+
+## 13. Backward Compatibility
+
+Golden rule: never break existing step or core API.  
+If behavior must change, create a versioned variant (e.g. `compute_numbers_v2.py`), update new recipes gradually, then retire old version after migration.
 
 ---
-## 17. Summary
-You now have a functioning backbone: Context + Runner + Scriptlet + Recipe + Test. Extend by adding more scriptlets, recipes, and validation layers while preserving backward compatibility and clean interfaces.
 
-Happy automating!
+## 14. Performance & Parallel Roadmap
+
+Currently sequential; extension ideas:
+- Thread pool for I/O bound steps.
+- Process pool when step sets `requires_process=True`.
+- Context merge strategies: `last_write_wins` vs `fail_on_conflict`.
+- Hash‑based caching using `(module, args)` fingerprint.
+- Persistent run state file for resume capabilities.
+
+---
+
+## 15. Security / Safety
+
+- Do not execute untrusted recipe modules without allowlist.
+- Avoid leaking secrets in logs.
+- Only JSON to stdout; all verbose text to stderr.
+
+---
+
+## 16. Troubleshooting
+
+| Symptom | Likely Cause | Action |
+|---------|--------------|--------|
+| Empty `ctx_keys` | Step failed silently | Check stderr logs / ensure JSON printed |
+| `TypeError: not JSON serializable` | Complex object stored | Convert to dict/list/primitive |
+| ImportError module path | Wrong `module` in recipe | Verify dotted path & file presence |
+| Success key missing | Bad `ctx.set` key or validation | Confirm key string & `who` attribution |
+
+---
+
+## 17. Frequently Used Patterns
+
+### 17.1 Retrieve All Keys
+```python
+ctx = run_recipe("orchestrator/recipes/example_numbers.yaml")
+print(list(ctx.to_dict().keys()))
+```
+
+### 17.2 Standalone Debug Run With Pretty Output
+```bash
+python -m orchestrator.scriptlets.python.steps.compute_numbers --params '{"src":"orchestrator/Data/numbers.csv"}' | jq
+```
+
+### 17.3 Add Lightweight Derived Metric
+Create `compute_range.py` reading `numbers.stats_v1` and writing `numbers.range_v1` (depends on prior step once dependency graph is implemented).
+
+---
+
+## 18. Contribution Checklist
+
+- Single responsibility scriptlet.
+- JSON‑safe outputs; keys namespaced with version suffix (`_v1`).
+- Structured success & error JSON.
+- Added/updated tests.
+- No breaking API changes; versioned new behavior.
+- Clear logging & resource timing where useful.
+
+---
+
+## 19. Example Extended Scenario (Conceptual)
+
+Composite recipe (future):
+
+```yaml
+steps:
+  - idx: 1
+    name: compute_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_numbers
+    function: ComputeNumbers
+    args: { src: orchestrator/Data/numbers.csv }
+  - idx: 2
+    name: compute_median
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_median
+    function: ComputeMedian
+    depends_on: [compute_numbers]
+    success:
+      ctx_has_keys:
+        - numbers.median_v1
+  - idx: 3
+    name: aggregate_summary
+    type: python
+    module: orchestrator.scriptlets.python.steps.aggregate_summary
+    function: AggregateSummary
+    success:
+      ctx_has_keys:
+        - numbers.summary_table_v1
+```
+
+---
+
+## 20. Minimal Glossary
+
+| Term | Meaning |
+|------|---------|
+| Scriptlet | Atomic executable unit (Python class) |
+| Recipe | Declarative sequence of steps |
+| Context | Shared JSON‑safe state with history |
+| Output Key | Namespaced dotted key written to context |
+| Step Success | Assertion block verifying outcomes |
+
+---
+
+## 21. Quick Reference Commands
+
+| Task | Command |
+|------|---------|
+| Run example | `python orchestrator/runner.py --recipe orchestrator/recipes/example_numbers.yaml` |
+| Run tests | `pytest -q` |
+| Lint (add your tool) | `ruff check .` (if added) |
+| Create new step | Copy template → edit params → add to recipe |
+| Debug single step | `python path/to/step.py --params '{"..."}'` |
+
+---
+
+## 22. Roadmap Snapshot
+
+1. Success assertion processor (enforce `ctx_has_keys`).
+2. Shell step support with JSON stdout enforcement.
+3. Parallel groups + dependency graph.
+4. Context persistence & `--resume-from`.
+5. Caching layer (hash inputs).
+6. HTML / Markdown reporting (templates/).
+7. Coverage metrics in CI.
+
+---
+
+## 23. Summary
+
+This workspace provides a lean, extensible backbone for structured automation. Extend through **new scriptlets + recipes**, retain JSON discipline, and layer in performance, caching, and parallelism features iteratively.
+
+Happy building!

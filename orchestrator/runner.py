@@ -46,3 +46,5 @@ def main():  # pragma: no cover - CLI wrapper
 
 if __name__ == "__main__":  # pragma: no cover
     main()
+    #python orchestrator/runner.py --recipe orchestrator/recipes/example_numbers.yaml
+    #python -m orchestrator.runner --recipe orchestrator/recipes/example_numbers.yaml
