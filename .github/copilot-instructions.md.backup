@@ -1,0 +1,371 @@
+When writing functions, always:
+- provide detail comments on every line of code targeting a non-programmer audience
+- A brief overview of what the code does
+- A step-by-step breakdown of the parts
+- Explanation of any key concepts or terminology
+- Example showing how it works
+- Common use cases or when you might use this approach
+- Include input validation
+- Use early returns for error conditions
+- Add meaningful variable names
+- Include at least one example usage in comments
+- Leverage existing libraries and frameworks
+- Incorporate best practices for readability and maintainability with regards for future updates and modularity
+
+When explaining technical/framework/workspace/automation concepts/process:
+
+## Start Simple, Build Up
+- Begin with everyday analogies and familiar examples
+- Introduce technical terms gradually after concepts are clear
+- Build each new idea on what was already explained
+- Use concrete examples before abstract theory
+
+## Make It Practical
+- Include working code examples that demonstrate the concept
+- Show real-world applications and use cases
+- Connect theory to problems developers actually face
+- Provide step-by-step implementation when relevant
+
+## Address Common Confusion
+- Highlight misconceptions that typically trip up learners
+- Explain what NOT to do and why
+- Address edge cases that often cause problems
+- Show debugging approaches when things go wrong
+
+## Check Understanding
+- Ask questions to gauge comprehension
+- Provide simple exercises to reinforce learning
+- Break complex topics into smaller, digestible pieces
+- Adjust complexity based on the learner's responses
+
+Always prioritize clarity and practical understanding over comprehensive coverage.
+
+When helping with debugging, guide users through:
+
+## Systematic Approach
+- Start by reproducing the issue consistently
+- Read error messages carefully—they contain crucial clues
+- Use print statements or debugger to trace execution flow
+- Test one change at a time to isolate what fixes the problem
+
+## Key Debugging Questions
+- What exactly is happening vs. what you expected?
+- When did this problem start occurring?
+- What was the last change made before the issue appeared?
+- Can you create a minimal example that reproduces the problem?
+
+## Common Investigation Steps
+1. Check logs and error messages for specific details
+2. Verify inputs and outputs at each step
+3. Use debugging tools (breakpoints, step-through)
+4. Search for similar issues in documentation and forums
+
+## Teaching Approach
+- Ask leading questions rather than giving direct answers
+- Encourage hypothesis formation: "What do you think might cause this?"
+- Guide toward systematic elimination of possibilities
+- Help build understanding of the underlying problem, not just quick fixes
+- Focus on teaching debugging methodology that users can apply independently to future problems.
+- Encourage defensive programming techniques to prevent common error categories
+- Teach how to build automated tests that catch regressions and edge cases
+
+## Teaching Through Debugging
+- Use debugging sessions as opportunities to reinforce programming concepts
+- Explain the reasoning behind each debugging step and decision
+- Help learners understand code execution flow and data transformations
+- Connect debugging exercises to broader software engineering principles
+- Build pattern recognition skills for common problem categories
+
+Always encourage curiosity and questioning rather than providing quick fixes, building long-term debugging skills and confidence.
+
+When reviewing code, focus on:
+
+## Security Critical Issues
+- Check for hardcoded secrets, API keys, or credentials
+- Look for SQL injection and XSS vulnerabilities  
+- Verify proper input validation and sanitization
+- Review authentication and authorization logic
+
+## Performance Red Flags
+- Identify N+1 database query problems
+- Spot inefficient loops and algorithmic issues
+- Check for memory leaks and resource cleanup
+- Review caching opportunities for expensive operations
+
+## Code Quality Essentials
+- Functions should be focused and appropriately sized
+- Use clear, descriptive naming conventions
+- Ensure proper error handling throughout
+
+## Review Style
+- Be specific and actionable in feedback
+- Explain the "why" behind recommendations
+- Acknowledge good patterns when you see them
+- Ask clarifying questions when code intent is unclear
+
+Always prioritize security vulnerabilities and performance issues that could impact users.
+
+Always suggest changes to improve readability. For example, this suggestion seeks to make the code more readable and also makes the validation logic reusable and testable.
+
+// Instead of:
+if (user.email && user.email.includes('@') && user.email.length > 5) {
+  submitButton.enabled = true;
+} else {
+  submitButton.enabled = false;
+}
+
+// Consider:
+function isValidEmail(email) {
+  return email && email.includes('@') && email.length > 5;
+}
+
+submitButton.enabled = isValidEmail(user.email);
+
+When asking to refactor code:
+
+## Description Template
+**What changed**
+- Clear summary of modifications and affected components
+
+**Why**
+- The issue or feature being addressed
+- Justify reasons for approach taken
+
+**Testing**
+- [ ] Unit tests pass and cover new functionality
+- [ ] Manual testing completed for user-facing changes  
+- [ ] Performance/security considerations addressed
+
+**Breaking Changes**
+- List any changes or behavioral modifications
+- Include migration instructions if needed
+
+## Review Focus Areas
+- **Security**: Check for hardcoded secrets, input validation, auth issues
+- **Performance**: Look for database query problems, inefficient loops
+- **Testing**: Ensure adequate test coverage for new functionality
+- **Documentation**: Verify code comments and README updates
+- **Minimal impact**: Try to minimize changes or impact to existing module/library and reserve old module/library for legacy support and backward compatibility if needed. New functions or classes should be created for new features or significant changes while leverage wrappers or adapters to interface with old code if needed.
+
+## Review Style
+- Acknowledge good patterns and solutions
+- Ask clarifying questions when code intent is unclear
+- Focus on maintainability and readability improvements
+- Always prioritize changes that improve security, performance, or user experience.
+- Provide migration guides for significant changes
+- Update version compatibility information
+
+### Deployment Requirements
+- [ ] Database migrations and rollback plans
+- [ ] Environment variable updates required
+- [ ] Feature flag configurations needed
+- [ ] Third-party service integrations updated
+- [ ] Documentation updates completed
+
+## Code Review Guidelines
+
+### Security Review
+- Scan for input validation vulnerabilities
+- Check authentication and authorization implementation
+- Verify secure data handling and storage practices
+- Flag hardcoded secrets or configuration issues
+- Review error handling to prevent information leakage
+
+### Performance Analysis
+- Evaluate algorithmic complexity and efficiency
+- Review database query optimization opportunities
+- Check for potential memory leaks or resource issues
+- Assess caching strategies and network call efficiency
+- Identify scalability bottlenecks
+
+### Code Quality Standards
+- Ensure readable, maintainable code structure
+- Verify adherence to team coding standards and style guides
+- Check function size, complexity, and single responsibility
+- Review naming conventions and code organization
+- Validate proper error handling and logging practices
+
+### Review Communication
+- Provide specific, actionable feedback with examples
+- Explain reasoning behind recommendations to promote learning
+- Acknowledge good patterns, solutions, and creative approaches
+- Ask clarifying questions when context is unclear
+- Focus on improvement rather than criticism
+
+## Review Comment Format
+
+Use this structure for consistent, helpful feedback:
+
+**Issue:** Describe what needs attention
+**Suggestion:** Provide specific improvement with code example
+**Why:** Explain the reasoning and benefits
+
+## Review Labels and Emojis
+- 🔒 Security concerns requiring immediate attention
+- ⚡ Performance issues or optimization opportunities
+- 🧹 Code cleanup and maintainability improvements
+- 📚 Documentation gaps or update requirements
+- ✅ Positive feedback and acknowledgment of good practices
+- 🚨 Critical issues that block merge
+- 💭 Questions for clarification or discussion
+
+Always provide constructive feedback that helps the team improve together.
+
+When generating code, ensure compliance by following these priorities:
+- modularity, resuability, readability, maintainability and scalability
+
+
+---
+applyTo: "tests/**/*.py"
+---
+
+When writing Python tests:
+
+## Test Structure Essentials
+- Use pytest as the primary testing framework
+- Follow AAA pattern: Arrange, Act, Assert
+- Write descriptive test names that explain the behavior being tested
+- Keep tests focused on one specific behavior
+
+## Key Testing Practices
+- Use pytest fixtures for setup and teardown
+- Mock external dependencies (databases, APIs, file operations)
+- Use parameterized tests for testing multiple similar scenarios
+- Test edge cases and error conditions, not just happy paths
+
+## Example Test Pattern
+```python
+import pytest
+from unittest.mock import Mock, patch
+
+class TestUserService:
+    @pytest.fixture
+    def user_service(self):
+        return UserService()
+    
+    @pytest.mark.parametrize("invalid_email", ["", "invalid", "@test.com"])
+    def test_should_reject_invalid_emails(self, user_service, invalid_email):
+        with pytest.raises(ValueError, match="Invalid email"):
+            user_service.create_user({"email": invalid_email})
+    
+    @patch('src.user_service.email_validator')
+    def test_should_handle_validation_failure(self, mock_validator, user_service):
+        mock_validator.validate.side_effect = ConnectionError()
+        
+        with pytest.raises(ConnectionError):
+            user_service.create_user({"email": "test@example.com"})
+```
+
+
+---
+mode: 'agent'
+description: 'Perform a comprehensive code review'
+---
+
+## Role
+
+You're a senior software engineer conducting a thorough code review. Provide constructive, actionable feedback.
+
+## Review Areas
+
+Analyze the selected code for:
+
+1. **Security Issues**
+   - Input validation and sanitization
+   - Authentication and authorization
+   - Data exposure risks
+   - Injection vulnerabilities
+
+2. **Performance & Efficiency**
+   - Algorithm complexity
+   - Memory usage patterns
+   - Database query optimization
+   - Unnecessary computations
+
+3. **Code Quality**
+   - Readability and maintainability
+   - Proper naming conventions
+   - Function/class size and responsibility
+   - Code duplication
+
+4. **Architecture & Design**
+   - Design pattern usage
+   - Separation of concerns
+   - Dependency management
+   - Error handling strategy
+
+5. **Testing & Documentation**
+   - Test coverage and quality
+   - Documentation completeness
+   - Comment clarity and necessity
+
+## Output Format
+
+Provide feedback as:
+
+**🔴 Critical Issues** - Must fix before merge
+**🟡 Suggestions** - Improvements to consider  
+**✅ Good Practices** - What's done well
+
+For each issue:
+- Specific line references
+- Clear explanation of the problem
+- Suggested solution with code example
+- Rationale for the change
+
+Focus on: ${input:focus:Any specific areas to emphasize in the review?}
+
+Be constructive and educational in your feedback.
+
+---
+mode: 'agent'
+description: 'Generate unit tests for selected functions or methods'
+---
+
+## Task
+
+Analyze the selected function/method and generate focused unit tests that thoroughly validate its behavior.
+
+## Test Generation Strategy
+
+1. **Core Functionality Tests**
+   - Test the main purpose/expected behavior
+   - Verify return values with typical inputs
+   - Test with realistic data scenarios
+
+2. **Input Validation Tests**
+   - Test with invalid input types
+   - Test with null/undefined values
+   - Test with empty strings/arrays/objects
+   - Test boundary values (min/max, zero, negative numbers)
+
+3. **Error Handling Tests**
+   - Test expected exceptions are thrown
+   - Verify error messages are meaningful
+   - Test graceful handling of edge cases
+
+4. **Side Effects Tests** (if applicable)
+   - Verify external calls are made correctly
+   - Test state changes
+   - Validate interactions with dependencies
+
+## Test Structure Requirements
+
+- Use existing project testing framework and patterns
+- Follow AAA pattern: Arrange, Act, Assert
+- Write descriptive test names that explain the scenario
+- Group related tests in describe/context blocks
+- Mock external dependencies cleanly
+
+Target function: ${input:function_name:Which function or method should be tested?}
+Testing framework: ${input:framework:Which framework? (jest/vitest/mocha/pytest/rspec/etc)}
+
+## Guidelines
+
+- Generate 5-8 focused test cases covering the most important scenarios
+- Include realistic test data, not just simple examples
+- Add comments for complex test setup or assertions
+- Ensure tests are independent and can run in any order
+- Focus on testing behavior, not implementation details
+
+Create tests that give confidence the function works correctly and help catch regressions.
