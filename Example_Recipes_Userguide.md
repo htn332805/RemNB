@@ -524,3 +524,10 @@ The two example recipes illustrate:
 They collectively showcase key platform concepts: strict JSON context, versioned scriptlets, declarative recipes, reproducibility, and forward-compatible structure.
 
 Use them as authoritative templates when designing new automation flows.
+<!-- ### AUTOGEN(rebase_workspace.sh) baseline injection -->
+
+<!-- BASELINE-RECON-SECTION -->
+Rebase script executed: 2025-09-07T21:03:12Z
+Managed tag marker: ### AUTOGEN(rebase_workspace.sh)
+Use './rebase_workspace.sh --force' to refresh generated scaffolding.
+

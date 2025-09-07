@@ -1,17 +1,24 @@
-"""Base class for Python scriptlets.
-
-Each scriptlet subclasses BaseScriptlet and implements validate + run.
+### AUTOGEN(rebase_workspace.sh)
 """
-from __future__ import annotations
-from typing import Any, Dict
-from abc import ABC, abstractmethod
-
-
-class BaseScriptlet(ABC):
-    @abstractmethod
-    def validate(self, ctx, params: Dict[str, Any]) -> None:  # pragma: no cover - interface
-        ...
-
-    @abstractmethod
-    def run(self, ctx, params: Dict[str, Any]) -> int:  # pragma: no cover - interface
-        ...
+BaseScriptlet – contract:
+- validate(ctx, params) (optional override)
+- run(ctx, params) -> exit code
+"""
+import json, sys, time
+class BaseScriptlet:
+    parallelizable = False
+    requires_process = False
+    def validate(self, ctx, params):
+        return
+    def run(self, ctx, params):
+        raise NotImplementedError("Implement in subclass")
+def _demo():
+    from orchestrator.context import Context
+    class _Example(BaseScriptlet):
+        def run(self, ctx, params):
+            ctx.set("example.echo_v1", {"echo": params}, who="example")
+            print(json.dumps({"status":"ok","outputs":["example.echo_v1"]}))
+            return 0
+    _Example().run(Context(), {"msg":"hi"})
+if __name__ == "__main__":
+    _demo()

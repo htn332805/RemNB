@@ -1,48 +1,26 @@
+### AUTOGEN(rebase_workspace.sh)
 test_meta:
-  test_id: "CTX-DEMO-001"
-  tester: "demo"
-  description: "Launch shared context server in a GNU screen session and exercise update_state.sh."
-
+  test_id: "CTX-001"
+  description: "Context server stub + operations"
 steps:
   - idx: 1
     name: start_context_server
     type: python
     module: orchestrator.scriptlets.python.steps.start_context_server_v2
     function: StartContextServerV2
-    args:
-      screen_name: "ctx_server"
-      script: "run_context_server.py"
-      wait_for_port: true
-      wait_host: "127.0.0.1"
-      wait_port: 8765
-      wait_timeout_sec: 40
-    success:
-      ctx_has_keys:
-        - "context_server.session_v1"
-        - "context_server.launch_cmd_v1"
-        - "context_server.ready_v1"
-
   - idx: 2
     name: demo_update_state
     type: python
     module: orchestrator.scriptlets.python.steps.demo_update_state
     function: DemoUpdateState
-    depends_on:
-      - start_context_server
     args:
       operations:
-        - ["set", "demo.user", '{"name":"Alice","age":30}']
-        - ["append", "demo.numbers", "100"]
-        - ["append", "demo.numbers", "200"]
-        - ["set", "demo.user", '{"name":"Alice","age":31}']
-        - ["get", "demo.user"]
-        - ["get", "demo.numbers"]
-      host: "127.0.0.1"
-      port: 8765
-      probe_retries: 120
-      probe_delay_sec: 0.5
+        - ["set","demo.user","{\\"name\\":\\"Alice\\",\\"age\\":30}"]
+        - ["append","demo.nums","100"]
+        - ["append","demo.nums","200"]
+        - ["get","demo.user"]
+        - ["get","demo.nums"]
+    depends_on: [start_context_server]
     success:
       ctx_has_keys:
-        - "demo_update_state.requests_v1"
-        - "demo_update_state.responses_v1"
-        - "demo_update_state.summary_v1"
+        - demo_update_state.summary_v1

@@ -410,3 +410,4 @@ steps:
 This workspace provides a lean, extensible backbone for structured automation. Extend through **new scriptlets + recipes**, retain JSON discipline, and layer in performance, caching, and parallelism features iteratively.
 
 Happy building!
+<!-- BASELINE-RECON-SECTION -->

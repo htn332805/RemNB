@@ -576,3 +576,10 @@ This user guide codifies the progressive curriculum and operational semantics of
 - Reusable patterns ensuring maintainability & testability
 
 Extend further by layering richer caching, dependency visualization, persistent historical analyses, and advanced dashboards—without breaking existing recipes.
+<!-- ### AUTOGEN(rebase_workspace.sh) baseline injection -->
+
+<!-- BASELINE-RECON-SECTION -->
+Rebase script executed: 2025-09-07T21:03:12Z
+Managed tag marker: ### AUTOGEN(rebase_workspace.sh)
+Use './rebase_workspace.sh --force' to refresh generated scaffolding.
+
