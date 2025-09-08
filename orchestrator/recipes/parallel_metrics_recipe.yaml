@@ -1,0 +1,69 @@
+test_meta:
+  test_id: "PARALLEL-METRICS"
+  description: "Load CSV, compute mean/median/std in parallel, aggregate and report"
+
+steps:
+  # Step 1: Load numbers from CSV file  
+  - idx: 1
+    name: load_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.load_numbers
+    function: LoadNumbers
+    args: 
+      src: orchestrator/Data/sample_metrics.csv
+
+  # Step 2: Normalize the loaded numbers for consistent computation
+  - idx: 2
+    name: normalize_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.normalize_numbers
+    function: NormalizeNumbers
+    depends_on: [load_numbers]
+
+  # Step 3: Compute mean in parallel (parallelizable = True)
+  - idx: 3
+    name: compute_mean
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_mean
+    function: ComputeMean
+    depends_on: [normalize_numbers]
+
+  # Step 4: Compute median in parallel (parallelizable = True)
+  - idx: 4
+    name: compute_median
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_median
+    function: ComputeMedian
+    depends_on: [normalize_numbers]
+
+  # Step 5: Compute standard deviation in parallel (parallelizable = True)
+  - idx: 5
+    name: compute_std
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_std
+    function: ComputeStd
+    depends_on: [normalize_numbers]
+
+  # Step 6: Aggregate all parallel results
+  - idx: 6
+    name: aggregate_metrics
+    type: python
+    module: orchestrator.scriptlets.python.steps.aggregate_metrics
+    function: AggregateMetrics
+    depends_on: [compute_mean, compute_median, compute_std]
+
+  # Step 7: Convert aggregate to summary format for reporting
+  - idx: 7
+    name: convert_to_summary
+    type: python
+    module: orchestrator.scriptlets.python.steps.convert_to_summary
+    function: ConvertToSummary
+    depends_on: [aggregate_metrics]
+
+  # Step 8: Generate final report
+  - idx: 8
+    name: generate_report
+    type: python
+    module: orchestrator.scriptlets.python.steps.generate_report
+    function: GenerateReport
+    depends_on: [convert_to_summary]

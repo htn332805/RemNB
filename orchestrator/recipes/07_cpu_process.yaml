@@ -1,0 +1,14 @@
+test_meta: { test_id: "M07", description: "CPU heavy process step" }
+steps:
+  - idx: 1
+    name: load_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.load_numbers
+    function: LoadNumbers
+    args: { src: orchestrator/Data/numbers.csv }
+  - idx: 2
+    name: prime_factor_analysis
+    type: python
+    module: orchestrator.scriptlets.python.steps.prime_factor_analysis
+    function: PrimeFactorAnalysis
+    depends_on: [load_numbers]

@@ -1,0 +1,76 @@
+test_meta: { test_id: "M12", description: "Full advanced pipeline" }
+steps:
+  - idx: 1
+    name: cache_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.cache_numbers
+    function: CacheNumbers
+    args: { src: orchestrator/Data/numbers.csv }
+    cache_key: "cache_numbers_v1"
+  - idx: 2
+    name: load_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.load_numbers
+    function: LoadNumbers
+    args: { src: orchestrator/Data/numbers.csv }
+    depends_on: [cache_numbers]
+  - idx: 3
+    name: normalize_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.normalize_numbers
+    function: NormalizeNumbers
+    depends_on: [load_numbers]
+  - idx: 4
+    name: compute_metrics_v2
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_metrics_v2
+    function: ComputeMetricsV2
+    depends_on: [normalize_numbers]
+  - idx: 5
+    name: compute_mean
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_mean
+    function: ComputeMean
+    depends_on: [normalize_numbers]
+  - idx: 6
+    name: compute_median
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_median
+    function: ComputeMedian
+    depends_on: [normalize_numbers]
+  - idx: 7
+    name: compute_std
+    type: python
+    module: orchestrator.scriptlets.python.steps.compute_std
+    function: ComputeStd
+    depends_on: [normalize_numbers]
+  - idx: 8
+    name: aggregate_metrics
+    type: python
+    module: orchestrator.scriptlets.python.steps.aggregate_metrics
+    function: AggregateMetrics
+    depends_on: [compute_mean, compute_median, compute_std]
+  - idx: 9
+    name: prime_factor_analysis
+    type: python
+    module: orchestrator.scriptlets.python.steps.prime_factor_analysis
+    function: PrimeFactorAnalysis
+    depends_on: [load_numbers]
+  - idx: 10
+    name: resource_audit
+    type: python
+    module: orchestrator.scriptlets.python.steps.resource_audit
+    function: ResourceAudit
+    depends_on: [aggregate_metrics, prime_factor_analysis]
+  - idx: 11
+    name: generate_report
+    type: python
+    module: orchestrator.scriptlets.python.steps.generate_report
+    function: GenerateReport
+    depends_on: [compute_metrics_v2, aggregate_metrics, resource_audit]
+  - idx: 12
+    name: cleanup_intermediate
+    type: python
+    module: orchestrator.scriptlets.python.steps.cleanup_intermediate
+    function: CleanupIntermediate
+    depends_on: [generate_report]
