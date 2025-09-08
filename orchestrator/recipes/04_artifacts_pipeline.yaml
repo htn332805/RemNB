@@ -1,0 +1,23 @@
+test_meta: { test_id: "M04", description: "Artifacts & normalization" }
+steps:
+  - idx: 1
+    name: sanitize_csv
+    type: shell
+    script: orchestrator/scriptlets/shell/sanitize_csv.sh
+    args: [orchestrator/Data/numbers.csv]
+  - idx: 2
+    name: enrich_csv
+    type: shell
+    script: orchestrator/scriptlets/shell/enrich_csv.sh
+    args: [orchestrator/Data/numbers_sanitized.csv]
+  - idx: 3
+    name: load_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.load_numbers
+    function: LoadNumbers
+    args: { src: orchestrator/Data/numbers_enriched.csv }
+  - idx: 4
+    name: normalize_numbers
+    type: python
+    module: orchestrator.scriptlets.python.steps.normalize_numbers
+    function: NormalizeNumbers
