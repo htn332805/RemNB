@@ -1,0 +1,75 @@
+AIOS Core Scenarios
+===================
+Defined as part of Phase 12 end-to-end validation (phase12_task_001).
+
+------------------------------------------------------------
+Scenario 1: Natural Language → CLI Command Execution
+------------------------------------------------------------
+Flow:
+  1. User types in OpenWebUI (or curl): "Check disk space and show me a summary."
+  2. AIOS agent classifies intent as shell_cmd.
+  3. Agent validates command against allowlist/blocklist (command_validator).
+  4. Executes: df -h
+  5. Output captured and returned as structured response.
+  6. Audit log entry written: intent_classified, shell_executed.
+  7. Result displayed to user in OpenWebUI.
+
+Expected artifacts:
+  - Audit log entry in audit/audit.jsonl
+  - df -h output returned as JSON response body
+
+------------------------------------------------------------
+Scenario 2: Obsidian-Powered Report Generation
+------------------------------------------------------------
+Flow:
+  1. Ensure vault has notes in Knowledge/BestPractices and Knowledge/LessonsLearned.
+  2. User asks: "Generate a report of our top 5 reliability lessons from the vault."
+  3. Agent performs semantic search against Qdrant knowledge collection.
+  4. Output Engine assembles a ReportSpec from matched entries.
+  5. Output Engine generates Markdown report + Excel with charts.
+  6. Markdown report saved to obsidian/vault/Reports/.
+  7. Excel report saved to workspace/<user>/outputs/.
+  8. Vault sync triggered.
+
+Expected artifacts:
+  - obsidian/vault/Reports/<report_name>.md
+  - workspace/<user>/outputs/<report_name>.xlsx
+  - Qdrant search logged in audit trail
+
+------------------------------------------------------------
+Scenario 3: Remote Test Plan Execution → Logs → CSV/Excel with Charts
+------------------------------------------------------------
+Flow:
+  1. User requests: "Run basic HTTP and CPU checks against the test server and report results."
+  2. AIOS agent dispatches remote commands via SSH executor to test host.
+     Test host: ssh://localhost (or loopback target defined in configs/)
+     Log source path: /var/log/syslog (or dummy logs at ~/aios/tests/fixtures/sample.log)
+  3. Remote commands executed: uptime, free -m, df -h, curl -o /dev/null -sw "%{http_code}"
+  4. Raw outputs harvested and saved to workspace/<user>/task_history/.
+  5. Output Engine parses results into structured CSV rows.
+  6. CSV + Excel (with bar chart) generated and saved to workspace/<user>/outputs/.
+  7. Markdown summary synced to vault Reports/.
+
+Expected artifacts:
+  - workspace/<user>/outputs/remote_checks_<date>.csv
+  - workspace/<user>/outputs/remote_checks_<date>.xlsx (with chart)
+  - obsidian/vault/Reports/remote_checks_<date>.md
+
+------------------------------------------------------------
+Scenario 4: Scheduled Automated Workflow with Learning Loop
+------------------------------------------------------------
+Flow:
+  1. Create scheduled task via API: POST /agent/tasks/schedule
+     Payload: { "command": "df -h", "interval_minutes": 5, "type": "shell" }
+  2. Scheduler triggers at next interval.
+  3. Agent executes command, saves output to workspace/<user>/task_history/.
+  4. Small report generated (Markdown + data).
+  5. Learning loop evaluates outcome (evaluate_outcome + extract_lesson).
+  6. Lesson added to review queue (workspace/<user>/review_queue.json).
+  7. New items visible via: aios-vault review
+
+Expected artifacts:
+  - workspace/<user>/task_history/<task_id>.json
+  - workspace/<user>/outputs/<report>.md
+  - workspace/<user>/review_queue.json (new entry)
+  - obsidian/vault/Knowledge/PendingReview/<lesson_id>.json
